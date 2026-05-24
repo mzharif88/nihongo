@@ -472,31 +472,36 @@ export function ModuleSelector({ module: mod, onSelect, onBack }) {
     <div className="page">
       <button className="btn btn-secondary" onClick={() => isWords ? setSubDeck(null) : onBack()} style={{ marginBottom: 24 }}>← Back</button>
       <div className="page-title">{meta.emoji} {meta.label}{subDeck && subDeck !== 'all' ? ` — ${WORD_DECKS.find(d => d.key === subDeck)?.label}` : ''}</div>
-      <div className="page-sub">{meta.desc} — choose your level</div>
+      <div className="page-sub">{meta.desc}</div>
 
-      <div style={{ display: 'flex', flexDirection: 'column', gap: 14, maxWidth: 520 }}>
-        {Object.entries(LEVEL_META).map(([lv, lm]) => {
-          const locked = lv !== 'beginner'
-          return (
-            <div key={lv} className="card" style={{ padding: 24, borderTop: `3px solid ${locked ? 'var(--border)' : meta.color}`, opacity: locked ? 0.5 : 1, cursor: locked ? 'not-allowed' : 'pointer', transition: 'all 0.2s' }}>
-              <div className="flex-between" style={{ marginBottom: locked ? 0 : 16 }}>
-                <div>
-                  <div style={{ fontSize: 18, fontWeight: 800, marginBottom: 4 }}>{lm.label} {locked ? '🔒' : '✓'}</div>
-                  <div style={{ fontSize: 12, color: 'var(--muted)', fontWeight: 600 }}>JLPT {lm.jlpt} · {locked ? 'Coming soon' : 'Available now'}</div>
-                </div>
-                <span className="tag tag-gold">{lm.jlpt}</span>
-              </div>
-              {!locked && (
-                <div className="flex">
-                  <button className="btn btn-primary" style={{ padding: '8px 20px', fontSize: 13 }}
-                    onClick={() => onSelect(lv, 'flashcards', subDeck)}>🃏 Flashcards</button>
-                  <button className="btn btn-secondary" style={{ padding: '8px 20px', fontSize: 13 }}
-                    onClick={() => onSelect(lv, 'quiz', subDeck)}>🎮 Quiz</button>
-                </div>
-              )}
-            </div>
-          )
-        })}
+      <div style={{ display: 'flex', flexDirection: 'column', gap: 16, maxWidth: 480 }}>
+        {/* Flashcards */}
+        <div className="card module-card" style={{ padding: 28, borderTop: `3px solid ${meta.color}`, cursor: 'pointer' }}
+          onClick={() => onSelect('beginner', 'flashcards', subDeck)}>
+          <div style={{ fontSize: 32, marginBottom: 10 }}>🃏</div>
+          <div style={{ fontSize: 20, fontWeight: 900, marginBottom: 6 }}>Flashcards</div>
+          <div style={{ fontSize: 13, color: 'var(--muted)', fontWeight: 600, marginBottom: 20 }}>
+            Flip cards, self-rate, build memory with spaced repetition
+          </div>
+          <button className="btn btn-primary" style={{ fontSize: 14 }}
+            onClick={e => { e.stopPropagation(); onSelect('beginner', 'flashcards', subDeck) }}>
+            Start Flashcards →
+          </button>
+        </div>
+
+        {/* Quiz */}
+        <div className="card module-card" style={{ padding: 28, borderTop: `3px solid var(--purple)`, cursor: 'pointer' }}
+          onClick={() => onSelect('beginner', 'quiz', subDeck)}>
+          <div style={{ fontSize: 32, marginBottom: 10 }}>🎮</div>
+          <div style={{ fontSize: 20, fontWeight: 900, marginBottom: 6 }}>Quiz</div>
+          <div style={{ fontSize: 13, color: 'var(--muted)', fontWeight: 600, marginBottom: 20 }}>
+            Multiple choice — test yourself and earn XP for every correct answer
+          </div>
+          <button className="btn btn-secondary" style={{ fontSize: 14, border: '1px solid var(--purple)', color: 'var(--purple)' }}
+            onClick={e => { e.stopPropagation(); onSelect('beginner', 'quiz', subDeck) }}>
+            Start Quiz →
+          </button>
+        </div>
       </div>
     </div>
   )

@@ -71,18 +71,9 @@ export default function Dashboard({ onNavigate }) {
             <div style={{ fontFamily: "'Noto Serif JP', serif", fontSize: 52, marginBottom: 10, lineHeight: 1, color: meta.color }}>{meta.char}</div>
             <div style={{ fontSize: 19, fontWeight: 800, marginBottom: 4 }}>{meta.label}</div>
             <div style={{ fontSize: 12, color: 'var(--muted)', fontWeight: 600, marginBottom: 16 }}>{meta.desc}</div>
-            <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
-              {Object.entries(LEVEL_META).map(([lv, lm]) => (
-                <span key={lv} style={{
-                  fontSize: 10, fontWeight: 800, letterSpacing: 0.5,
-                  padding: '4px 10px', borderRadius: 999, textTransform: 'uppercase',
-                  border: `1px solid ${lv === 'beginner' ? meta.color : 'var(--border)'}`,
-                  color: lv === 'beginner' ? meta.color : 'var(--muted)',
-                  background: lv === 'beginner' ? `${meta.color}1a` : 'transparent',
-                }}>
-                  {lv === 'beginner' ? '✓ ' : '🔒 '}{lm.label}
-                </span>
-              ))}
+            <div style={{ display: 'flex', gap: 8 }}>
+              <span style={{ fontSize: 11, fontWeight: 800, padding: '4px 12px', borderRadius: 999, background: `${meta.color}1a`, color: meta.color, border: `1px solid ${meta.color}` }}>🃏 Flashcards</span>
+              <span style={{ fontSize: 11, fontWeight: 800, padding: '4px 12px', borderRadius: 999, background: 'var(--bg3)', color: 'var(--purple)', border: '1px solid var(--purple)' }}>🎮 Quiz</span>
             </div>
           </div>
         ))}
