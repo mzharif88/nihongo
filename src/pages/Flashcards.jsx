@@ -108,22 +108,28 @@ export default function Flashcards({ module: mod, level, onBack, onXPEarned, ctx
       </div>
       <div style={{ perspective: 1000, height: 320, cursor: 'pointer', marginBottom: 24 }} onClick={() => !flipped && setFlipped(true)}>
         <div style={{ position: 'relative', width: '100%', height: '100%', transformStyle: 'preserve-3d', transition: 'transform 0.5s cubic-bezier(0.4,0,0.2,1)', transform: flipped ? 'rotateY(180deg)' : 'none' }}>
+          {/* FRONT */}
           <div className="card" style={{ position: 'absolute', inset: 0, backfaceVisibility: 'hidden', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: 32 }}>
-            <div style={{ fontFamily: "'Noto Serif JP', serif", fontSize: 100, fontWeight: 900, lineHeight: 1, marginBottom: 16 }}>{card.character}</div>
-            <div style={{ fontSize: 13, color: 'var(--muted)', fontFamily: "'DM Mono', monospace" }}>tap to reveal</div>
+            <div style={{ fontFamily: "'Noto Serif JP', serif", fontSize: card.character?.length > 4 ? 56 : 96, fontWeight: 900, lineHeight: 1, marginBottom: 8 }}>{card.character}</div>
+            {card.romaji && (
+              <div style={{ fontFamily: "'Noto Serif JP', serif", fontSize: 18, color: 'var(--blue)', fontWeight: 600, letterSpacing: 2, marginBottom: 8 }}>{card.romaji}</div>
+            )}
+            <div style={{ fontSize: 12, color: 'var(--muted)', fontWeight: 700, letterSpacing: 1, textTransform: 'uppercase' }}>tap to reveal</div>
           </div>
+          {/* BACK */}
           <div className="card" style={{ position: 'absolute', inset: 0, backfaceVisibility: 'hidden', transform: 'rotateY(180deg)', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: 28 }}>
-            <button className="btn btn-icon" style={{ marginBottom: 16, fontSize: 13 }} onClick={e => { e.stopPropagation(); speak(card.character) }}>🔊 Play Audio</button>
-            <div style={{ fontSize: 30, fontWeight: 700, color: 'var(--red)', marginBottom: 6, fontFamily: "'DM Mono', monospace" }}>{card.romaji}</div>
-            <div style={{ fontSize: 22, fontWeight: 700, marginBottom: 16 }}>{card.english}</div>
+            <button className="btn btn-icon" style={{ marginBottom: 12, fontSize: 13 }} onClick={e => { e.stopPropagation(); speak(card.character) }}>🔊 Play Audio</button>
+            <div style={{ fontFamily: "'Noto Serif JP', serif", fontSize: 32, fontWeight: 900, marginBottom: 2 }}>{card.character}</div>
+            <div style={{ fontFamily: "'Noto Serif JP', serif", fontSize: 16, color: 'var(--blue)', fontWeight: 600, letterSpacing: 2, marginBottom: 6 }}>{card.romaji}</div>
+            <div style={{ fontSize: 26, fontWeight: 800, color: 'var(--red)', marginBottom: 14 }}>{card.english}</div>
             {card.example_jp && (
-              <div style={{ fontSize: 13, color: 'var(--muted)', fontFamily: "'DM Mono', monospace", textAlign: 'center', lineHeight: 1.7 }}>
-                <div>{card.example_jp}</div>
-                <div style={{ marginTop: 2 }}>{card.example_en}</div>
+              <div style={{ textAlign: 'center', background: 'var(--bg3)', borderRadius: 10, padding: '10px 16px', marginBottom: 10, width: '100%' }}>
+                <div style={{ fontFamily: "'Noto Serif JP', serif", fontSize: 13 }}>{card.example_jp}</div>
+                <div style={{ fontSize: 12, color: 'var(--muted)', marginTop: 4, fontWeight: 600 }}>{card.example_en}</div>
               </div>
             )}
             {card.mnemonic && (
-              <div style={{ fontSize: 12, color: 'var(--gold)', fontFamily: "'DM Mono', monospace", marginTop: 12, fontStyle: 'italic', textAlign: 'center' }}>
+              <div style={{ fontSize: 12, color: 'var(--gold)', fontWeight: 700, textAlign: 'center', padding: '8px 12px', background: 'rgba(255,178,62,0.08)', borderRadius: 8, width: '100%' }}>
                 💡 {card.mnemonic}
               </div>
             )}
