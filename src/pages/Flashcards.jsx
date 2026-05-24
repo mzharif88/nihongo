@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { MODULES, MODULE_META, VOCAB_WORDS } from '../data/content'
+import { MODULES, MODULE_META, VOCAB_WORDS, KANA_MAP } from '../data/content'
 import { sm2 } from '../lib/srs'
 import { speak } from '../lib/audio'
 import { Confetti } from '../lib/celebrate'
@@ -110,9 +110,11 @@ export default function Flashcards({ module: mod, level, onBack, onXPEarned, ctx
         <div style={{ position: 'relative', width: '100%', height: '100%', transformStyle: 'preserve-3d', transition: 'transform 0.5s cubic-bezier(0.4,0,0.2,1)', transform: flipped ? 'rotateY(180deg)' : 'none' }}>
           {/* FRONT */}
           <div className="card" style={{ position: 'absolute', inset: 0, backfaceVisibility: 'hidden', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: 32 }}>
-            <div style={{ fontFamily: "'Noto Serif JP', serif", fontSize: card.character?.length > 4 ? 56 : 96, fontWeight: 900, lineHeight: 1, marginBottom: 8 }}>{card.character}</div>
-            {card.romaji && (
-              <div style={{ fontFamily: "'Noto Serif JP', serif", fontSize: 18, color: 'var(--blue)', fontWeight: 600, letterSpacing: 2, marginBottom: 8 }}>{card.romaji}</div>
+            <div style={{ fontFamily: "'Noto Serif JP', serif", fontSize: card.character?.length > 4 ? 56 : 96, fontWeight: 900, lineHeight: 1, marginBottom: 10 }}>{card.character}</div>
+            {KANA_MAP[card.character] && (
+              <div style={{ fontFamily: "'Noto Serif JP', serif", fontSize: 20, color: 'var(--blue)', fontWeight: 500, letterSpacing: 3, marginBottom: 10 }}>
+                {KANA_MAP[card.character]}
+              </div>
             )}
             <div style={{ fontSize: 12, color: 'var(--muted)', fontWeight: 700, letterSpacing: 1, textTransform: 'uppercase' }}>tap to reveal</div>
           </div>
