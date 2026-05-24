@@ -19,9 +19,16 @@ const NAV = [
   { key: 'profile',     label: 'Profile' },
 ]
 
+// Inner app — has access to auth + progress contexts
 function AppInner() {
   const { user, profile, loading, updateProfile } = useAuth()
-  const { totalXP, streak, newBadge, clearNewBadge, earnXP } = useProgress()
+  const progress = useProgress()
+  const totalXP      = progress?.totalXP ?? 0
+  const streak       = progress?.streak ?? 0
+  const newBadge     = progress?.newBadge ?? null
+  const clearNewBadge = progress?.clearNewBadge ?? (() => {})
+  const earnXP       = progress?.earnXP ?? (() => {})
+
   const [screen, setScreen] = useState('landing')
   const [ctx, setCtx]       = useState({})
   const [xpPulse, setXpPulse] = useState(0)
@@ -41,7 +48,7 @@ function AppInner() {
   if (!loading && user && screen === 'landing') {
     setScreen(profile?.onboarded === false ? 'onboarding' : 'dashboard')
   }
-  if (!loading && !user && !['landing'].includes(screen)) setScreen('landing')
+  if (!loading && !user && screen !== 'landing') setScreen('landing')
 
   if (loading) return (
     <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'var(--bg)' }}>
@@ -98,29 +105,14 @@ function AppInner() {
           />
         )}
         {screen === 'flashcards'  && (
-          <Flashcards
-            module={ctx.module || 'hiragana'}
-            level={ctx.level || 'beginner'}
-            onBack={() => navigate('dashboard')}
-            onXPEarned={handleXPEarned}
-            ctx={ctx}
-          />
+          <Flashcards module={ctx.module || 'hiragana'} level={ctx.level || 'beginner'}
+            onBack={() => navigate('dashboard')} onXPEarned={handleXPEarned} ctx={ctx} />
         )}
         {screen === 'quiz'        && (
-          <Quiz
-            module={ctx.module || 'hiragana'}
-            level={ctx.level || 'beginner'}
-            onBack={() => navigate('dashboard')}
-            onXPEarned={handleXPEarned}
-            ctx={ctx}
-          />
+          <Quiz module={ctx.module || 'hiragana'} level={ctx.level || 'beginner'}
+            onBack={() => navigate('dashboard')} onXPEarned={handleXPEarned} ctx={ctx} />
         )}
-        {screen === 'daily'       && (
-          <DailyChallenge
-            onBack={() => navigate('dashboard')}
-            onXPEarned={handleXPEarned}
-          />
-        )}
+        {screen === 'daily'       && <DailyChallenge onBack={() => navigate('dashboard')} onXPEarned={handleXPEarned} />}
         {screen === 'mock'        && <MockTest onBack={() => navigate('dashboard')} onXPEarned={handleXPEarned} />}
         {screen === 'leaderboard' && <Leaderboard onBack={() => navigate('dashboard')} />}
         {screen === 'resources'   && <Resources onBack={() => navigate('dashboard')} />}
@@ -130,7 +122,8 @@ function AppInner() {
   )
 }
 
-function AppWithProgress() {
+// ProgressProvider needs user/profile from AuthProvider — so it must be INSIDE AuthProvider
+function AppWithAuth() {
   const { user, profile, updateProfile } = useAuth()
   return (
     <ProgressProvider user={user} profile={profile} onProfileUpdate={updateProfile}>
@@ -142,7 +135,7 @@ function AppWithProgress() {
 export default function App() {
   return (
     <AuthProvider>
-      <AppWithProgress />
+      <AppWithAuth />
     </AuthProvider>
   )
 }

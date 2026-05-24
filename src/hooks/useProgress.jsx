@@ -305,5 +305,11 @@ export function ProgressProvider({ children, user, profile, onProfileUpdate }) {
 }
 
 export function useProgress() {
-  return useContext(ProgressContext)
+  const ctx = useContext(ProgressContext)
+  // Return safe defaults if called outside provider (prevents crash)
+  if (!ctx) return {
+    totalXP: 0, streak: 0, dueToday: [], earnedBadges: [], newBadge: null, allBadges: [],
+    earnXP: async () => {}, saveSRSResults: async () => {}, clearNewBadge: () => {}, loadDueToday: async () => {},
+  }
+  return ctx
 }
