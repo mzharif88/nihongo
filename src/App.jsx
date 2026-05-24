@@ -8,6 +8,7 @@ import Dashboard from './pages/Dashboard'
 import Flashcards from './pages/Flashcards'
 import Quiz from './pages/Quiz'
 import MockTest from './pages/MockTest'
+import SentenceBuilder from './pages/SentenceBuilder'
 import { Resources, Leaderboard, Profile, ModuleSelector, Onboarding, DailyChallenge } from './pages/Pages'
 
 const NAV = [
@@ -114,6 +115,7 @@ function AppInner() {
         )}
         {screen === 'daily'       && <DailyChallenge onBack={() => navigate('dashboard')} onXPEarned={handleXPEarned} />}
         {screen === 'mock'        && <MockTest onBack={() => navigate('dashboard')} onXPEarned={handleXPEarned} />}
+        {screen === 'builder'     && <SentenceBuilder onBack={() => navigate('dashboard')} />}
         {screen === 'leaderboard' && <Leaderboard onBack={() => navigate('dashboard')} />}
         {screen === 'resources'   && <Resources onBack={() => navigate('dashboard')} />}
         {screen === 'profile'     && <Profile onBack={() => navigate('dashboard')} />}

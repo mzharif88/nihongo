@@ -1,17 +1,13 @@
 import { useState } from 'react'
-import { MODULES, MODULE_META } from '../data/content'
-import { WORD_COLLECTIONS, ANIMAL_COLLECTIONS, THINGS_COLLECTIONS, ALL_WORDS, ALL_ANIMALS, ALL_THINGS } from '../data/vocab'
+import { MODULE_META, COLLECTION_MAP, MODULE_ALL_CARDS } from '../data/index.js'
 import { speak } from '../lib/audio'
 import { Confetti } from '../lib/celebrate'
 
 function resolveCards(mod, collectionId) {
-  const MAPS = { words: WORD_COLLECTIONS, animals: ANIMAL_COLLECTIONS, things: THINGS_COLLECTIONS }
-  const collections = MAPS[mod]
-  if (!collections) return MODULES[mod]?.['beginner'] || []
-  if (!collectionId || collectionId === 'all') {
-    return { words: ALL_WORDS, animals: ALL_ANIMALS, things: ALL_THINGS }[mod] || []
-  }
-  return collections.find(c => c.id === collectionId)?.cards || ALL_WORDS
+  const collections = COLLECTION_MAP[mod]
+  if (!collections) return MODULE_ALL_CARDS[mod] || []
+  if (!collectionId || collectionId === 'all') return MODULE_ALL_CARDS[mod] || []
+  return collections.find(c => c.id === collectionId)?.cards || MODULE_ALL_CARDS[mod] || []
 }
 
 function shuffle(arr) {

@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react'
-import { RESOURCES, JLPT_LEVELS, MODULE_META, VOCAB_WORDS } from '../data/content'
-import { WORD_COLLECTIONS, ANIMAL_COLLECTIONS, THINGS_COLLECTIONS } from '../data/vocab'
+import { RESOURCES, JLPT_LEVELS, MODULE_META, VOCAB_WORDS, COLLECTION_MAP } from '../data/index.js'
 import { useAuth } from '../hooks/useAuth'
 import { useProgress } from '../hooks/useProgress'
 import { supabase } from '../lib/supabase'
@@ -435,12 +434,6 @@ export function DailyChallenge({ onBack, onXPEarned }) {
 export function ModuleSelector({ module: mod, onSelect, onBack }) {
   const meta = MODULE_META[mod]
   const [collection, setCollection] = useState(null)
-
-  const COLLECTION_MAP = {
-    words:   WORD_COLLECTIONS,
-    animals: ANIMAL_COLLECTIONS,
-    things:  THINGS_COLLECTIONS,
-  }
   const collections = COLLECTION_MAP[mod] || null
 
   // Modules without collections → go straight to flashcards/quiz

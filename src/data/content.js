@@ -496,23 +496,34 @@ export const WORD_SUB_DECKS = {
 // MODULES + MODULE_META declared here — AFTER all arrays above
 // ============================================================
 export const MODULES = {
-  hiragana:  { beginner: HIRAGANA_BEGINNER, intermediate: HIRAGANA_BEGINNER,  advanced: HIRAGANA_BEGINNER },
-  katakana:  { beginner: KATAKANA_BEGINNER, intermediate: KATAKANA_BEGINNER,  advanced: KATAKANA_BEGINNER },
-  kanji:     { beginner: [...KANJI_BEGINNER, ...KANJI_N5_EXTENDED], intermediate: KANJI_INTERMEDIATE, advanced: KANJI_INTERMEDIATE },
-  animals:   { beginner: VOCAB_ANIMALS,     intermediate: VOCAB_ANIMALS,      advanced: VOCAB_ANIMALS },
-  things:    { beginner: VOCAB_THINGS,      intermediate: VOCAB_THINGS,       advanced: VOCAB_THINGS },
-  words:     { beginner: VOCAB_WORDS,       intermediate: VOCAB_WORDS,        advanced: VOCAB_WORDS },
-  sentences: { beginner: SENTENCES_N5,      intermediate: SENTENCES_N4,       advanced: SENTENCES_N4 },
+  hiragana:   { beginner: HIRAGANA_BEGINNER, intermediate: HIRAGANA_BEGINNER, advanced: HIRAGANA_BEGINNER },
+  katakana:   { beginner: KATAKANA_BEGINNER, intermediate: KATAKANA_BEGINNER, advanced: KATAKANA_BEGINNER },
+  kanji:      { beginner: KANJI_BEGINNER,    intermediate: KANJI_INTERMEDIATE, advanced: KANJI_INTERMEDIATE },
+  animals:    { beginner: VOCAB_ANIMALS,     intermediate: VOCAB_ANIMALS,      advanced: VOCAB_ANIMALS },
+  things:     { beginner: VOCAB_THINGS,      intermediate: VOCAB_THINGS,       advanced: VOCAB_THINGS },
+  words:      { beginner: VOCAB_WORDS,       intermediate: VOCAB_WORDS,        advanced: VOCAB_WORDS },
+  sentences:  { beginner: [], intermediate: [], advanced: [] },
+  time:       { beginner: [], intermediate: [], advanced: [] },
+  money:      { beginner: [], intermediate: [], advanced: [] },
+  counting:   { beginner: [], intermediate: [], advanced: [] },
+  common:     { beginner: [], intermediate: [], advanced: [] },
+  expressions:{ beginner: [], intermediate: [], advanced: [] },
 }
 
 export const MODULE_META = {
-  hiragana:  { label: 'Hiragana',  color: '#3B82F6', emoji: '🔵', char: 'あ', desc: 'The foundation — 46 phonetic characters' },
-  katakana:  { label: 'Katakana',  color: '#EF4444', emoji: '🔴', char: 'ア', desc: 'Foreign words & loanwords — 46 characters' },
-  kanji:     { label: 'Kanji',     color: '#EAB308', emoji: '🟡', char: '漢', desc: 'Meaning-based characters — N5 core set' },
-  animals:   { label: 'Animals',   color: '#10B981', emoji: '🐾', char: '猫', desc: 'Japanese vocabulary for animals' },
-  things:    { label: 'Things',    color: '#8B5CF6', emoji: '🏠', char: '本', desc: 'Everyday objects and things' },
-  words:     { label: 'Words',     color: '#F59E0B', emoji: '💬', char: '愛', desc: 'Common Japanese words and concepts' },
-  sentences: { label: 'Sentences', color: '#4D8DFF', emoji: '💭', char: '文', desc: 'Real N5–N4 sentences with grammar context' },
+  hiragana:   { label: 'Hiragana',         color: '#3B82F6', emoji: '🔵', char: 'あ', desc: 'The foundation — 46 basic + dakuten + combos' },
+  katakana:   { label: 'Katakana',         color: '#EF4444', emoji: '🔴', char: 'ア', desc: 'Foreign words & loanwords — 46 basic + dakuten + combos' },
+  kanji:      { label: 'Kanji',            color: '#EAB308', emoji: '🟡', char: '漢', desc: 'Meaning-based characters — N5 core set' },
+  animals:    { label: 'Animals',          color: '#10B981', emoji: '🐾', char: '猫', desc: 'Japanese vocabulary for animals' },
+  things:     { label: 'Things',           color: '#8B5CF6', emoji: '🏠', char: '本', desc: 'Everyday objects and things' },
+  words:      { label: 'Words',            color: '#F59E0B', emoji: '💬', char: '愛', desc: 'Common Japanese words and concepts' },
+  sentences:  { label: 'Sentences',        color: '#4D8DFF', emoji: '💭', char: '文', desc: 'Real N5–N4 sentences with grammar context' },
+  time:       { label: 'Time',             color: '#06B6D4', emoji: '🕐', char: '時', desc: 'Hours, days, months, time expressions' },
+  money:      { label: 'Money',            color: '#84CC16', emoji: '💴', char: '円', desc: 'Yen amounts, prices, shopping phrases' },
+  counting:   { label: 'Counting',         color: '#F97316', emoji: '🔢', char: '個', desc: 'Japanese counters — 本、枚、匹、人...' },
+  common:     { label: 'Common Sentences', color: '#EC4899', emoji: '🗣️', char: '話', desc: 'Essential everyday sentence patterns' },
+  expressions:{ label: 'Expressions',      color: '#A855F7', emoji: '✨', char: '気', desc: 'Natural Japanese expressions and reactions' },
+  builder:    { label: 'Sentence Builder', color: '#FF5A5F', emoji: '🏗️', char: '作', desc: 'Color-coded sentence anatomy — see how Japanese is built' },
 }
 
 // ============================================================
@@ -671,3 +682,4 @@ Object.assign(KANA_MAP, {
   'どうぞ': 'どうぞ', 'どうも': 'どうも', 'はじめまして': 'はじめまして',
   'よろしく': 'よろしく', 'おやすみ': 'おやすみ',
 })
+

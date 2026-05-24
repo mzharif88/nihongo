@@ -1,6 +1,6 @@
 import { useAuth } from '../hooks/useAuth'
 import { useProgress } from '../hooks/useProgress'
-import { MODULE_META, LEVEL_META } from '../data/content'
+import { MODULE_META } from '../data/index.js'
 
 export default function Dashboard({ onNavigate }) {
   const { profile }                           = useAuth()
@@ -61,22 +61,67 @@ export default function Dashboard({ onNavigate }) {
         </div>
       )}
 
-      {/* Modules */}
-      <div className="section-label">— Study Modules</div>
-      <div className="grid-3" style={{ marginBottom: 32 }}>
-        {Object.entries(MODULE_META).map(([key, meta], i) => (
-          <div key={key} className="card module-card pop-in"
-            style={{ padding: 24, cursor: 'pointer', borderTop: `3px solid ${meta.color}`, animationDelay: `${i * 0.06}s` }}
-            onClick={() => onNavigate('module', { module: key })}>
-            <div style={{ fontFamily: "'Noto Serif JP', serif", fontSize: 52, marginBottom: 10, lineHeight: 1, color: meta.color }}>{meta.char}</div>
-            <div style={{ fontSize: 19, fontWeight: 800, marginBottom: 4 }}>{meta.label}</div>
-            <div style={{ fontSize: 12, color: 'var(--muted)', fontWeight: 600, marginBottom: 16 }}>{meta.desc}</div>
-            <div style={{ display: 'flex', gap: 8 }}>
-              <span style={{ fontSize: 11, fontWeight: 800, padding: '4px 12px', borderRadius: 999, background: `${meta.color}1a`, color: meta.color, border: `1px solid ${meta.color}` }}>🃏 Flashcards</span>
-              <span style={{ fontSize: 11, fontWeight: 800, padding: '4px 12px', borderRadius: 999, background: 'var(--bg3)', color: 'var(--purple)', border: '1px solid var(--purple)' }}>🎮 Quiz</span>
+      {/* Core language modules */}
+      <div className="section-label">— Script & Characters</div>
+      <div className="grid-3" style={{ marginBottom: 24 }}>
+        {['hiragana','katakana','kanji'].map((key, i) => {
+          const meta = MODULE_META[key]
+          return (
+            <div key={key} className="card module-card pop-in"
+              style={{ padding: 24, cursor: 'pointer', borderTop: `3px solid ${meta.color}`, animationDelay: `${i * 0.06}s` }}
+              onClick={() => onNavigate('module', { module: key })}>
+              <div style={{ fontFamily: "'Noto Serif JP', serif", fontSize: 52, marginBottom: 10, lineHeight: 1, color: meta.color }}>{meta.char}</div>
+              <div style={{ fontSize: 18, fontWeight: 800, marginBottom: 4 }}>{meta.label}</div>
+              <div style={{ fontSize: 12, color: 'var(--muted)', fontWeight: 600, marginBottom: 14 }}>{meta.desc}</div>
+              <div style={{ display: 'flex', gap: 8 }}>
+                <span style={{ fontSize: 11, fontWeight: 800, padding: '4px 12px', borderRadius: 999, background: `${meta.color}1a`, color: meta.color, border: `1px solid ${meta.color}` }}>🃏 Flashcards</span>
+                <span style={{ fontSize: 11, fontWeight: 800, padding: '4px 12px', borderRadius: 999, background: 'var(--bg3)', color: 'var(--purple)', border: '1px solid var(--purple)' }}>🎮 Quiz</span>
+              </div>
             </div>
-          </div>
-        ))}
+          )
+        })}
+      </div>
+
+      {/* Vocabulary modules */}
+      <div className="section-label">— Vocabulary</div>
+      <div className="grid-3" style={{ marginBottom: 24 }}>
+        {['words','animals','things','time','money','counting'].map((key, i) => {
+          const meta = MODULE_META[key]
+          return (
+            <div key={key} className="card module-card pop-in"
+              style={{ padding: 20, cursor: 'pointer', borderTop: `3px solid ${meta.color}`, animationDelay: `${i * 0.05}s` }}
+              onClick={() => onNavigate('module', { module: key })}>
+              <div style={{ fontSize: 36, marginBottom: 6, lineHeight: 1 }}>{meta.emoji}</div>
+              <div style={{ fontSize: 16, fontWeight: 800, marginBottom: 4 }}>{meta.label}</div>
+              <div style={{ fontSize: 11, color: 'var(--muted)', fontWeight: 600 }}>{meta.desc}</div>
+            </div>
+          )
+        })}
+      </div>
+
+      {/* Communication modules */}
+      <div className="section-label">— Communication</div>
+      <div className="grid-3" style={{ marginBottom: 32 }}>
+        {['sentences','common','expressions'].map((key, i) => {
+          const meta = MODULE_META[key]
+          return (
+            <div key={key} className="card module-card pop-in"
+              style={{ padding: 20, cursor: 'pointer', borderTop: `3px solid ${meta.color}`, animationDelay: `${i * 0.05}s` }}
+              onClick={() => onNavigate('module', { module: key })}>
+              <div style={{ fontSize: 36, marginBottom: 6, lineHeight: 1 }}>{meta.emoji}</div>
+              <div style={{ fontSize: 16, fontWeight: 800, marginBottom: 4 }}>{meta.label}</div>
+              <div style={{ fontSize: 11, color: 'var(--muted)', fontWeight: 600 }}>{meta.desc}</div>
+            </div>
+          )
+        })}
+        {/* Sentence Builder — special tile */}
+        <div className="card module-card pop-in"
+          style={{ padding: 20, cursor: 'pointer', borderTop: '3px solid var(--red)', animationDelay: '0.15s' }}
+          onClick={() => onNavigate('builder')}>
+          <div style={{ fontSize: 36, marginBottom: 6, lineHeight: 1 }}>🏗️</div>
+          <div style={{ fontSize: 16, fontWeight: 800, marginBottom: 4 }}>Sentence Builder</div>
+          <div style={{ fontSize: 11, color: 'var(--muted)', fontWeight: 600 }}>Color-coded grammar — see how sentences are built</div>
+        </div>
       </div>
 
       {/* Quick actions */}
