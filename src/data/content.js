@@ -146,26 +146,6 @@ export const KANJI_INTERMEDIATE = [
   { character: '出', romaji: 'shutsu/de',  english: 'Exit / Go out',    example_jp: '出る (deru)',       example_en: 'To exit',         mnemonic: 'Mountains coming out of the ground' },
 ]
 
-export const MODULES = {
-  hiragana:  { beginner: HIRAGANA_BEGINNER, intermediate: HIRAGANA_BEGINNER, advanced: HIRAGANA_BEGINNER },
-  katakana:  { beginner: KATAKANA_BEGINNER, intermediate: KATAKANA_BEGINNER, advanced: KATAKANA_BEGINNER },
-  kanji:     { beginner: KANJI_BEGINNER,    intermediate: KANJI_INTERMEDIATE, advanced: KANJI_INTERMEDIATE },
-  animals:   { beginner: VOCAB_ANIMALS,     intermediate: VOCAB_ANIMALS,      advanced: VOCAB_ANIMALS },
-  things:    { beginner: VOCAB_THINGS,      intermediate: VOCAB_THINGS,       advanced: VOCAB_THINGS },
-  words:     { beginner: VOCAB_WORDS,       intermediate: VOCAB_WORDS,        advanced: VOCAB_WORDS },
-  sentences: { beginner: [], intermediate: [], advanced: [] },  // populated after SENTENCES_N5 defined
-}
-
-export const MODULE_META = {
-  hiragana:  { label: 'Hiragana',  color: '#3B82F6', emoji: '🔵', char: 'あ', desc: 'The foundation — 46 phonetic characters' },
-  katakana:  { label: 'Katakana',  color: '#EF4444', emoji: '🔴', char: 'ア', desc: 'Foreign words & loanwords — 46 characters' },
-  kanji:     { label: 'Kanji',     color: '#EAB308', emoji: '🟡', char: '漢', desc: 'Meaning-based characters — N5 core set' },
-  animals:   { label: 'Animals',   color: '#10B981', emoji: '🐾', char: '猫', desc: 'Japanese vocabulary for animals' },
-  things:    { label: 'Things',    color: '#8B5CF6', emoji: '🏠', char: '本', desc: 'Everyday objects and things' },
-  words:     { label: 'Words',     color: '#F59E0B', emoji: '💬', char: '愛', desc: 'Common Japanese words and concepts' },
-  sentences: { label: 'Sentences', color: '#4D8DFF', emoji: '💭', char: '文', desc: 'Real N5–N4 sentences with grammar context' },
-}
-
 export const LEVEL_META = {
   beginner:     { label: 'Beginner',     jlpt: 'N5–N4', xpRequired: 0 },
   intermediate: { label: 'Intermediate', jlpt: 'N3',    xpRequired: 0 },
@@ -512,7 +492,25 @@ export const WORD_SUB_DECKS = {
 }
 
 // Update MODULES to include new content
-// Patch sentences into the MODULES object now that SENTENCES_N5/N4 are defined
-MODULES.sentences = { beginner: SENTENCES_N5, intermediate: SENTENCES_N4, advanced: SENTENCES_N4 }
-// Patch extended N5 kanji into kanji module
-MODULES.kanji.beginner = [...KANJI_BEGINNER, ...KANJI_N5_EXTENDED]
+// ============================================================
+// MODULES + MODULE_META declared here — AFTER all arrays above
+// ============================================================
+export const MODULES = {
+  hiragana:  { beginner: HIRAGANA_BEGINNER, intermediate: HIRAGANA_BEGINNER,  advanced: HIRAGANA_BEGINNER },
+  katakana:  { beginner: KATAKANA_BEGINNER, intermediate: KATAKANA_BEGINNER,  advanced: KATAKANA_BEGINNER },
+  kanji:     { beginner: [...KANJI_BEGINNER, ...KANJI_N5_EXTENDED], intermediate: KANJI_INTERMEDIATE, advanced: KANJI_INTERMEDIATE },
+  animals:   { beginner: VOCAB_ANIMALS,     intermediate: VOCAB_ANIMALS,      advanced: VOCAB_ANIMALS },
+  things:    { beginner: VOCAB_THINGS,      intermediate: VOCAB_THINGS,       advanced: VOCAB_THINGS },
+  words:     { beginner: VOCAB_WORDS,       intermediate: VOCAB_WORDS,        advanced: VOCAB_WORDS },
+  sentences: { beginner: SENTENCES_N5,      intermediate: SENTENCES_N4,       advanced: SENTENCES_N4 },
+}
+
+export const MODULE_META = {
+  hiragana:  { label: 'Hiragana',  color: '#3B82F6', emoji: '🔵', char: 'あ', desc: 'The foundation — 46 phonetic characters' },
+  katakana:  { label: 'Katakana',  color: '#EF4444', emoji: '🔴', char: 'ア', desc: 'Foreign words & loanwords — 46 characters' },
+  kanji:     { label: 'Kanji',     color: '#EAB308', emoji: '🟡', char: '漢', desc: 'Meaning-based characters — N5 core set' },
+  animals:   { label: 'Animals',   color: '#10B981', emoji: '🐾', char: '猫', desc: 'Japanese vocabulary for animals' },
+  things:    { label: 'Things',    color: '#8B5CF6', emoji: '🏠', char: '本', desc: 'Everyday objects and things' },
+  words:     { label: 'Words',     color: '#F59E0B', emoji: '💬', char: '愛', desc: 'Common Japanese words and concepts' },
+  sentences: { label: 'Sentences', color: '#4D8DFF', emoji: '💭', char: '文', desc: 'Real N5–N4 sentences with grammar context' },
+}
