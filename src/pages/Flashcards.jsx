@@ -3,9 +3,9 @@ import { MODULES, MODULE_META } from '../data/content'
 import { sm2 } from '../lib/srs'
 import { speak } from '../lib/audio'
 
-export default function Flashcards({ module: mod, level, onBack }) {
+export default function Flashcards({ module: mod, level, onBack, onXPEarned }) {
   const cards = MODULES[mod]?.[level] || []
-  const [idx, setIdx]     = useState(0)
+  const [idx, setIdx]         = useState(0)
   const [flipped, setFlipped] = useState(false)
   const [results, setResults] = useState([])
   const [finished, setFinished] = useState(false)
@@ -21,8 +21,10 @@ export default function Flashcards({ module: mod, level, onBack }) {
   const progress = (idx / cards.length) * 100
 
   function handleRate(quality) {
+    const xpMap = { 5: 10, 3: 5, 1: 1 }
+    const xp = xpMap[quality] || 1
     const srsResult = sm2({ ease_factor: 2.5, interval_days: 1, repetitions: 0 }, quality)
-    setResults(r => [...r, { card, quality, ...srsResult }])
+    setResults(r => [...r, { card, quality, xp, ...srsResult }])
     setFlipped(false)
     setTimeout(() => {
       if (idx + 1 >= cards.length) setFinished(true)
@@ -31,17 +33,20 @@ export default function Flashcards({ module: mod, level, onBack }) {
   }
 
   if (finished) {
-    const easy   = results.filter(r => r.quality === 5).length
-    const ok     = results.filter(r => r.quality === 3).length
-    const again  = results.filter(r => r.quality === 1).length
+    const easy  = results.filter(r => r.quality === 5).length
+    const ok    = results.filter(r => r.quality === 3).length
+    const again = results.filter(r => r.quality === 1).length
+    const totalXP = results.reduce((sum, r) => sum + r.xp, 0)
+    onXPEarned?.(totalXP)
     return (
       <div style={{ maxWidth: 600, margin: '0 auto', padding: 32 }}>
         <div className="card" style={{ padding: 40, textAlign: 'center' }}>
           <div style={{ fontSize: 64, marginBottom: 16 }}>🎉</div>
           <div style={{ fontFamily: "'Noto Serif JP', serif", fontSize: 28, fontWeight: 900, marginBottom: 8 }}>Session Complete!</div>
-          <div style={{ fontSize: 13, color: 'var(--muted)', fontFamily: "'DM Mono', monospace", marginBottom: 32 }}>
+          <div style={{ fontSize: 13, color: 'var(--muted)', fontFamily: "'DM Mono', monospace", marginBottom: 16 }}>
             {MODULE_META[mod].label} · {level} · {results.length} cards
           </div>
+          <div style={{ fontSize: 20, fontWeight: 800, color: 'var(--gold)', marginBottom: 24 }}>+{totalXP} XP earned!</div>
           <div className="grid-3" style={{ marginBottom: 32 }}>
             {[['😊 Easy', easy, 'var(--green)'], ['😐 OK', ok, 'var(--gold)'], ['😓 Again', again, 'var(--red)']].map(([l, v, c]) => (
               <div key={l} className="card" style={{ padding: 16, textAlign: 'center' }}>
@@ -62,23 +67,18 @@ export default function Flashcards({ module: mod, level, onBack }) {
   return (
     <div style={{ maxWidth: 600, margin: '0 auto', padding: '32px 24px' }}>
       <button className="btn btn-secondary" onClick={onBack} style={{ marginBottom: 16 }}>← Back</button>
-
       <div className="progress-bar" style={{ marginBottom: 8 }}>
         <div className="progress-fill" style={{ width: `${progress}%` }} />
       </div>
       <div style={{ textAlign: 'center', fontSize: 12, color: 'var(--muted)', fontFamily: "'DM Mono', monospace", marginBottom: 24 }}>
         {idx + 1} / {cards.length} · {MODULE_META[mod].label} {level}
       </div>
-
-      {/* Flashcard */}
       <div style={{ perspective: 1000, height: 320, cursor: 'pointer', marginBottom: 24 }} onClick={() => !flipped && setFlipped(true)}>
         <div style={{ position: 'relative', width: '100%', height: '100%', transformStyle: 'preserve-3d', transition: 'transform 0.5s cubic-bezier(0.4,0,0.2,1)', transform: flipped ? 'rotateY(180deg)' : 'none' }}>
-          {/* Front */}
           <div className="card" style={{ position: 'absolute', inset: 0, backfaceVisibility: 'hidden', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: 32 }}>
             <div style={{ fontFamily: "'Noto Serif JP', serif", fontSize: 100, fontWeight: 900, lineHeight: 1, marginBottom: 16 }}>{card.character}</div>
             <div style={{ fontSize: 13, color: 'var(--muted)', fontFamily: "'DM Mono', monospace" }}>tap to reveal</div>
           </div>
-          {/* Back */}
           <div className="card" style={{ position: 'absolute', inset: 0, backfaceVisibility: 'hidden', transform: 'rotateY(180deg)', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: 28 }}>
             <button className="btn btn-icon" style={{ marginBottom: 16, fontSize: 13 }} onClick={e => { e.stopPropagation(); speak(card.character) }}>🔊 Play Audio</button>
             <div style={{ fontSize: 30, fontWeight: 700, color: 'var(--red)', marginBottom: 6, fontFamily: "'DM Mono', monospace" }}>{card.romaji}</div>
@@ -97,8 +97,6 @@ export default function Flashcards({ module: mod, level, onBack }) {
           </div>
         </div>
       </div>
-
-      {/* Rating buttons */}
       {flipped ? (
         <div className="flex" style={{ justifyContent: 'center' }}>
           {[
