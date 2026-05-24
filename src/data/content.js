@@ -147,33 +147,27 @@ export const KANJI_INTERMEDIATE = [
 ]
 
 export const MODULES = {
-  hiragana: {
-    beginner:     HIRAGANA_BEGINNER,
-    intermediate: [],
-    advanced:     [],
-  },
-  katakana: {
-    beginner:     KATAKANA_BEGINNER,
-    intermediate: [],
-    advanced:     [],
-  },
-  kanji: {
-    beginner:     KANJI_BEGINNER,
-    intermediate: KANJI_INTERMEDIATE,
-    advanced:     [],
-  },
+  hiragana: { beginner: HIRAGANA_BEGINNER, intermediate: HIRAGANA_BEGINNER, advanced: HIRAGANA_BEGINNER },
+  katakana: { beginner: KATAKANA_BEGINNER, intermediate: KATAKANA_BEGINNER, advanced: KATAKANA_BEGINNER },
+  kanji:    { beginner: KANJI_BEGINNER,    intermediate: KANJI_INTERMEDIATE, advanced: KANJI_INTERMEDIATE },
+  animals:  { beginner: VOCAB_ANIMALS,     intermediate: VOCAB_ANIMALS,      advanced: VOCAB_ANIMALS },
+  things:   { beginner: VOCAB_THINGS,      intermediate: VOCAB_THINGS,       advanced: VOCAB_THINGS },
+  words:    { beginner: VOCAB_WORDS,       intermediate: VOCAB_WORDS,        advanced: VOCAB_WORDS },
 }
 
 export const MODULE_META = {
   hiragana: { label: 'Hiragana', color: '#3B82F6', emoji: '🔵', char: 'あ', desc: 'The foundation — 46 phonetic characters' },
   katakana: { label: 'Katakana', color: '#EF4444', emoji: '🔴', char: 'ア', desc: 'Foreign words & loanwords — 46 characters' },
   kanji:    { label: 'Kanji',    color: '#EAB308', emoji: '🟡', char: '漢', desc: 'Meaning-based characters — up to 2,000' },
+  animals:  { label: 'Animals',  color: '#10B981', emoji: '🐾', char: '猫', desc: 'Japanese vocabulary for animals' },
+  things:   { label: 'Things',   color: '#8B5CF6', emoji: '🏠', char: '本', desc: 'Everyday objects and things' },
+  words:    { label: 'Words',    color: '#F59E0B', emoji: '💬', char: '愛', desc: 'Common Japanese words and concepts' },
 }
 
 export const LEVEL_META = {
   beginner:     { label: 'Beginner',     jlpt: 'N5–N4', xpRequired: 0 },
-  intermediate: { label: 'Intermediate', jlpt: 'N3',    xpRequired: 500 },
-  advanced:     { label: 'Advanced',     jlpt: 'N2–N1', xpRequired: 2000 },
+  intermediate: { label: 'Intermediate', jlpt: 'N3',    xpRequired: 0 },
+  advanced:     { label: 'Advanced',     jlpt: 'N2–N1', xpRequired: 0 },
 }
 
 export const JLPT_LEVELS = ['N5', 'N4', 'N3', 'N2', 'N1']
@@ -288,4 +282,60 @@ export const BADGES = [
   { slug: 'n1_cleared',      name: 'N1 Champion',      icon: '🏆', desc: 'Passed the N1 Mock Test — you made it!' },
   { slug: 'early_bird',      name: 'Early Bird',       icon: '🌅', desc: 'Studied before 8am' },
   { slug: 'night_owl',       name: 'Night Owl',        icon: '🦉', desc: 'Studied after 11pm' },
+]
+
+// ─── VOCABULARY PACKS ────────────────────────────────────────────────────────
+
+export const VOCAB_ANIMALS = [
+  { character: '犬', romaji: 'inu',    english: 'Dog',         example_jp: '犬が好きです (inu ga suki desu)',  example_en: 'I like dogs',       mnemonic: 'A dog shape' },
+  { character: '猫', romaji: 'neko',   english: 'Cat',         example_jp: '猫がいます (neko ga imasu)',       example_en: 'There is a cat',    mnemonic: 'Cat with whiskers' },
+  { character: '鳥', romaji: 'tori',   english: 'Bird',        example_jp: '鳥が飛ぶ (tori ga tobu)',         example_en: 'The bird flies',    mnemonic: 'Bird in flight' },
+  { character: '魚', romaji: 'sakana', english: 'Fish',        example_jp: '魚を食べる (sakana wo taberu)',    example_en: 'Eat fish',          mnemonic: 'Fish shape' },
+  { character: '馬', romaji: 'uma',    english: 'Horse',       example_jp: '馬に乗る (uma ni noru)',           example_en: 'Ride a horse',      mnemonic: 'Horse silhouette' },
+  { character: '牛', romaji: 'ushi',   english: 'Cow',         example_jp: '牛の乳 (ushi no chichi)',          example_en: 'Cow milk',          mnemonic: 'Cow horns on top' },
+  { character: '豚', romaji: 'buta',   english: 'Pig',         example_jp: '豚肉 (butaniku)',                  example_en: 'Pork',              mnemonic: 'Plump pig' },
+  { character: '熊', romaji: 'kuma',   english: 'Bear',        example_jp: '熊が怖い (kuma ga kowai)',         example_en: 'Bears are scary',   mnemonic: 'Big furry animal' },
+  { character: '猿', romaji: 'saru',   english: 'Monkey',      example_jp: '猿が木に登る',                    example_en: 'Monkey climbs tree', mnemonic: 'Monkey in a tree' },
+  { character: '象', romaji: 'zou',    english: 'Elephant',    example_jp: '象は大きい (zou wa ookii)',        example_en: 'Elephants are big', mnemonic: 'Trunk hanging down' },
+  { character: '虎', romaji: 'tora',   english: 'Tiger',       example_jp: '虎は強い (tora wa tsuyoi)',        example_en: 'Tigers are strong', mnemonic: 'Stripes of a tiger' },
+  { character: '兎', romaji: 'usagi',  english: 'Rabbit',      example_jp: '兎が跳ねる (usagi ga haneru)',    example_en: 'Rabbit hops',       mnemonic: 'Long ears' },
+  { character: '蛇', romaji: 'hebi',   english: 'Snake',       example_jp: '蛇が怖い (hebi ga kowai)',        example_en: 'Snakes are scary',  mnemonic: 'Wavy snake shape' },
+  { character: '亀', romaji: 'kame',   english: 'Turtle',      example_jp: '亀は遅い (kame wa osoi)',         example_en: 'Turtles are slow',  mnemonic: 'Shell on back' },
+  { character: '蜂', romaji: 'hachi',  english: 'Bee',         example_jp: '蜂が刺す (hachi ga sasu)',        example_en: 'Bee stings',        mnemonic: 'Buzzing insect' },
+]
+
+export const VOCAB_THINGS = [
+  { character: '本', romaji: 'hon',      english: 'Book',        example_jp: '本を読む (hon wo yomu)',         example_en: 'Read a book',       mnemonic: 'Pages bound together' },
+  { character: '車', romaji: 'kuruma',   english: 'Car',         example_jp: '車で行く (kuruma de iku)',       example_en: 'Go by car',         mnemonic: 'Wheels rolling' },
+  { character: '家', romaji: 'ie',       english: 'House/Home',  example_jp: '家に帰る (ie ni kaeru)',         example_en: 'Go home',           mnemonic: 'Roof over pig — home' },
+  { character: '時計', romaji: 'tokei',  english: 'Clock/Watch', example_jp: '時計を見る (tokei wo miru)',     example_en: 'Look at the clock',  mnemonic: 'Time keeper' },
+  { character: '電話', romaji: 'denwa',  english: 'Telephone',   example_jp: '電話をかける (denwa wo kakeru)',example_en: 'Make a phone call',  mnemonic: 'Electric talk' },
+  { character: '鍵', romaji: 'kagi',     english: 'Key',         example_jp: '鍵をかける (kagi wo kakeru)',   example_en: 'Lock with a key',   mnemonic: 'Key shape' },
+  { character: '傘', romaji: 'kasa',     english: 'Umbrella',    example_jp: '傘を差す (kasa wo sasu)',       example_en: 'Hold an umbrella',  mnemonic: 'Canopy over person' },
+  { character: '椅子', romaji: 'isu',    english: 'Chair',       example_jp: '椅子に座る (isu ni suwaru)',    example_en: 'Sit on a chair',    mnemonic: 'Seat with legs' },
+  { character: '机', romaji: 'tsukue',   english: 'Desk',        example_jp: '机で勉強する',                  example_en: 'Study at a desk',   mnemonic: 'Flat surface to work on' },
+  { character: '窓', romaji: 'mado',     english: 'Window',      example_jp: '窓を開ける (mado wo akeru)',    example_en: 'Open the window',   mnemonic: 'Frame with view' },
+  { character: '扉', romaji: 'tobira',   english: 'Door',        example_jp: '扉を閉める (tobira wo shimeru)',example_en: 'Close the door',    mnemonic: 'Entrance panel' },
+  { character: '鏡', romaji: 'kagami',   english: 'Mirror',      example_jp: '鏡を見る (kagami wo miru)',     example_en: 'Look in the mirror', mnemonic: 'Reflection surface' },
+  { character: '袋', romaji: 'fukuro',   english: 'Bag',         example_jp: '袋に入れる (fukuro ni ireru)',  example_en: 'Put in a bag',      mnemonic: 'Container for things' },
+  { character: '財布', romaji: 'saifu',  english: 'Wallet',      example_jp: '財布を忘れた (saifu wo wasureta)', example_en: 'Forgot my wallet', mnemonic: 'Money holder' },
+  { character: '薬', romaji: 'kusuri',   english: 'Medicine',    example_jp: '薬を飲む (kusuri wo nomu)',     example_en: 'Take medicine',     mnemonic: 'Healing substance' },
+]
+
+export const VOCAB_WORDS = [
+  { character: '愛', romaji: 'ai',        english: 'Love',        example_jp: '愛してる (ai shiteru)',          example_en: 'I love you',        mnemonic: 'Heart feeling' },
+  { character: '友達', romaji: 'tomodachi',english: 'Friend',      example_jp: '友達と遊ぶ (tomodachi to asobu)',example_en: 'Play with friends', mnemonic: 'Together companion' },
+  { character: '仕事', romaji: 'shigoto', english: 'Work/Job',     example_jp: '仕事に行く (shigoto ni iku)',   example_en: 'Go to work',        mnemonic: 'Duty task' },
+  { character: '勉強', romaji: 'benkyou', english: 'Study',        example_jp: '日本語を勉強する',              example_en: 'Study Japanese',    mnemonic: 'Force yourself to learn' },
+  { character: '旅行', romaji: 'ryokou',  english: 'Travel',       example_jp: '旅行が好き (ryokou ga suki)',   example_en: 'I like travelling',  mnemonic: 'Journey go' },
+  { character: '音楽', romaji: 'ongaku',  english: 'Music',        example_jp: '音楽を聴く (ongaku wo kiku)',   example_en: 'Listen to music',   mnemonic: 'Sound enjoyment' },
+  { character: '映画', romaji: 'eiga',    english: 'Movie/Film',   example_jp: '映画を見る (eiga wo miru)',     example_en: 'Watch a movie',     mnemonic: 'Projected image' },
+  { character: '料理', romaji: 'ryouri',  english: 'Cooking/Food', example_jp: '料理が上手 (ryouri ga jouzu)', example_en: 'Good at cooking',   mnemonic: 'Prepare and process food' },
+  { character: '天気', romaji: 'tenki',   english: 'Weather',      example_jp: '今日の天気は? (kyou no tenki wa?)', example_en: 'What is today\'s weather?', mnemonic: 'Sky conditions' },
+  { character: '時間', romaji: 'jikan',   english: 'Time',         example_jp: '時間がない (jikan ga nai)',     example_en: 'No time',           mnemonic: 'Measured moments' },
+  { character: '場所', romaji: 'basho',   english: 'Place',        example_jp: 'いい場所 (ii basho)',           example_en: 'Good place',        mnemonic: 'Location spot' },
+  { character: '言葉', romaji: 'kotoba',  english: 'Word/Language',example_jp: '言葉を学ぶ (kotoba wo manabu)',example_en: 'Learn language',    mnemonic: 'Spoken leaf' },
+  { character: '気持ち',romaji: 'kimochi',english: 'Feeling',      example_jp: 'いい気持ち (ii kimochi)',       example_en: 'Good feeling',      mnemonic: 'Spirit hold' },
+  { character: '夢', romaji: 'yume',      english: 'Dream',        example_jp: '夢を見る (yume wo miru)',       example_en: 'Have a dream',      mnemonic: 'Night vision' },
+  { character: '力', romaji: 'chikara',   english: 'Power/Strength',example_jp: '力がある (chikara ga aru)',   example_en: 'Have strength',     mnemonic: 'Flexed muscle' },
 ]
