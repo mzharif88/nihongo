@@ -338,4 +338,70 @@ export const VOCAB_WORDS = [
   { character: '気持ち',romaji: 'kimochi',english: 'Feeling',      example_jp: 'いい気持ち (ii kimochi)',       example_en: 'Good feeling',      mnemonic: 'Spirit hold' },
   { character: '夢', romaji: 'yume',      english: 'Dream',        example_jp: '夢を見る (yume wo miru)',       example_en: 'Have a dream',      mnemonic: 'Night vision' },
   { character: '力', romaji: 'chikara',   english: 'Power/Strength',example_jp: '力がある (chikara ga aru)',   example_en: 'Have strength',     mnemonic: 'Flexed muscle' },
+
+  // --- Everyday greetings & expressions ---
+  { character: 'こんにちは', romaji: 'konnichiwa', english: 'Hello / Good afternoon', example_jp: 'こんにちは、田中さん',           example_en: 'Hello, Mr. Tanaka',      mnemonic: 'The standard daytime greeting' },
+  { character: 'おはよう',   romaji: 'ohayou',     english: 'Good morning',          example_jp: 'おはようございます',             example_en: 'Good morning (polite)',  mnemonic: 'Said early — "o-hayo"' },
+  { character: 'こんばんは', romaji: 'konbanwa',   english: 'Good evening',          example_jp: 'こんばんは、お元気ですか',       example_en: 'Good evening, how are you?', mnemonic: 'Evening greeting' },
+  { character: 'ありがとう', romaji: 'arigatou',   english: 'Thank you',             example_jp: 'ありがとうございます',           example_en: 'Thank you (polite)',     mnemonic: 'The most useful word' },
+  { character: 'すみません', romaji: 'sumimasen',  english: 'Excuse me / Sorry',     example_jp: 'すみません、これは何ですか',     example_en: 'Excuse me, what is this?', mnemonic: 'Apology + getting attention' },
+  { character: 'ごめんなさい', romaji: 'gomennasai', english: 'I\'m sorry',          example_jp: '遅れてごめんなさい',             example_en: 'Sorry for being late',   mnemonic: 'A sincere apology' },
+  { character: 'はい',       romaji: 'hai',        english: 'Yes',                   example_jp: 'はい、そうです',                 example_en: 'Yes, that\'s right',     mnemonic: 'Quick affirmative' },
+  { character: 'いいえ',     romaji: 'iie',        english: 'No',                    example_jp: 'いいえ、違います',               example_en: 'No, that\'s wrong',      mnemonic: 'Polite negative' },
+  { character: 'お願いします', romaji: 'onegaishimasu', english: 'Please',          example_jp: 'これをお願いします',             example_en: 'This one, please',       mnemonic: 'Requesting a favor' },
+  { character: 'さようなら', romaji: 'sayounara',  english: 'Goodbye',               example_jp: 'さようなら、また明日',           example_en: 'Goodbye, see you tomorrow', mnemonic: 'A formal farewell' },
+
+  // --- Daily actions (verbs) ---
+  { character: '食べる', romaji: 'taberu',  english: 'To eat',       example_jp: '朝ごはんを食べる',               example_en: 'Eat breakfast',          mnemonic: 'Bring food to mouth' },
+  { character: '飲む',   romaji: 'nomu',    english: 'To drink',     example_jp: '水を飲む (mizu wo nomu)',        example_en: 'Drink water',            mnemonic: 'Take in liquid' },
+  { character: '行く',   romaji: 'iku',     english: 'To go',        example_jp: '学校に行く (gakkou ni iku)',     example_en: 'Go to school',           mnemonic: 'Move forward' },
+  { character: '来る',   romaji: 'kuru',    english: 'To come',      example_jp: 'バスが来る (basu ga kuru)',      example_en: 'The bus comes',          mnemonic: 'Approach toward you' },
+  { character: '見る',   romaji: 'miru',    english: 'To see/watch', example_jp: 'テレビを見る (terebi wo miru)',  example_en: 'Watch TV',               mnemonic: 'Use your eyes' },
+  { character: '聞く',   romaji: 'kiku',    english: 'To listen/ask',example_jp: '音楽を聞く (ongaku wo kiku)',    example_en: 'Listen to music',        mnemonic: 'Use your ears' },
+  { character: '話す',   romaji: 'hanasu',  english: 'To speak',     example_jp: '日本語を話す',                   example_en: 'Speak Japanese',         mnemonic: 'Let words out' },
+  { character: '買う',   romaji: 'kau',     english: 'To buy',       example_jp: 'パンを買う (pan wo kau)',        example_en: 'Buy bread',              mnemonic: 'Exchange money' },
+  { character: '読む',   romaji: 'yomu',    english: 'To read',      example_jp: '新聞を読む (shinbun wo yomu)',   example_en: 'Read the newspaper',     mnemonic: 'Take in words' },
+  { character: '書く',   romaji: 'kaku',    english: 'To write',     example_jp: '名前を書く (namae wo kaku)',     example_en: 'Write your name',        mnemonic: 'Move the pen' },
+  { character: '寝る',   romaji: 'neru',    english: 'To sleep',     example_jp: '早く寝る (hayaku neru)',         example_en: 'Sleep early',            mnemonic: 'Lie down to rest' },
+  { character: '起きる', romaji: 'okiru',   english: 'To wake up',   example_jp: '六時に起きる (rokuji ni okiru)', example_en: 'Wake up at six',         mnemonic: 'Rise from bed' },
+  { character: '働く',   romaji: 'hataraku',english: 'To work',      example_jp: '毎日働く (mainichi hataraku)',   example_en: 'Work every day',         mnemonic: 'Person + move = labor' },
+  { character: '休む',   romaji: 'yasumu',  english: 'To rest',      example_jp: '週末は休む',                     example_en: 'Rest on weekends',       mnemonic: 'Person leaning on a tree' },
+  { character: '待つ',   romaji: 'matsu',   english: 'To wait',      example_jp: 'ちょっと待って (chotto matte)',  example_en: 'Wait a moment',          mnemonic: 'Stand by patiently' },
+
+  // --- Time & days ---
+  { character: '今日', romaji: 'kyou',    english: 'Today',        example_jp: '今日は暑い (kyou wa atsui)',     example_en: 'Today is hot',           mnemonic: 'This + day' },
+  { character: '明日', romaji: 'ashita',  english: 'Tomorrow',     example_jp: '明日会いましょう',               example_en: 'Let\'s meet tomorrow',   mnemonic: 'Bright + day = next day' },
+  { character: '昨日', romaji: 'kinou',   english: 'Yesterday',    example_jp: '昨日雨だった (kinou ame datta)', example_en: 'It rained yesterday',    mnemonic: 'The day before' },
+  { character: '朝',   romaji: 'asa',     english: 'Morning',      example_jp: '朝ごはん (asagohan)',            example_en: 'Breakfast',              mnemonic: 'Start of the day' },
+  { character: '昼',   romaji: 'hiru',    english: 'Noon/Daytime', example_jp: '昼ごはん (hirugohan)',           example_en: 'Lunch',                  mnemonic: 'Middle of the day' },
+  { character: '夜',   romaji: 'yoru',    english: 'Night',        example_jp: '夜が来る (yoru ga kuru)',        example_en: 'Night comes',            mnemonic: 'Dark hours' },
+  { character: '週末', romaji: 'shuumatsu',english: 'Weekend',     example_jp: '週末の予定 (shuumatsu no yotei)',example_en: 'Weekend plans',          mnemonic: 'End of the week' },
+  { character: '毎日', romaji: 'mainichi',english: 'Every day',    example_jp: '毎日運動する',                   example_en: 'Exercise every day',     mnemonic: 'Each + day' },
+
+  // --- Food & dining ---
+  { character: '水',   romaji: 'mizu',    english: 'Water',        example_jp: '水をください (mizu wo kudasai)', example_en: 'Water, please',          mnemonic: 'Flowing streams' },
+  { character: 'お茶', romaji: 'ocha',    english: 'Tea',          example_jp: 'お茶を飲む (ocha wo nomu)',      example_en: 'Drink tea',              mnemonic: 'Polite "o" + tea' },
+  { character: 'ご飯', romaji: 'gohan',   english: 'Rice/Meal',    example_jp: 'ご飯を食べる (gohan wo taberu)', example_en: 'Eat a meal',             mnemonic: 'Cooked rice = meal' },
+  { character: '肉',   romaji: 'niku',    english: 'Meat',         example_jp: '肉が好き (niku ga suki)',        example_en: 'I like meat',            mnemonic: 'Flesh' },
+  { character: '野菜', romaji: 'yasai',   english: 'Vegetables',   example_jp: '野菜を食べる (yasai wo taberu)', example_en: 'Eat vegetables',         mnemonic: 'Field produce' },
+  { character: '果物', romaji: 'kudamono',english: 'Fruit',        example_jp: '果物が甘い (kudamono ga amai)',  example_en: 'Fruit is sweet',         mnemonic: 'Tree harvest' },
+  { character: 'おいしい', romaji: 'oishii', english: 'Delicious', example_jp: 'これはおいしい',                 example_en: 'This is delicious',      mnemonic: 'Tastes great' },
+
+  // --- Places ---
+  { character: '学校', romaji: 'gakkou',  english: 'School',       example_jp: '学校へ行く (gakkou e iku)',      example_en: 'Go to school',           mnemonic: 'Learning + building' },
+  { character: '会社', romaji: 'kaisha',  english: 'Company/Office',example_jp: '会社で働く (kaisha de hataraku)',example_en: 'Work at a company',      mnemonic: 'Meeting + society' },
+  { character: '駅',   romaji: 'eki',     english: 'Station',      example_jp: '駅で待つ (eki de matsu)',        example_en: 'Wait at the station',    mnemonic: 'Where trains stop' },
+  { character: '病院', romaji: 'byouin',  english: 'Hospital',     example_jp: '病院に行く (byouin ni iku)',     example_en: 'Go to the hospital',     mnemonic: 'Sickness + institution' },
+  { character: '店',   romaji: 'mise',    english: 'Shop/Store',   example_jp: '店が開く (mise ga aku)',         example_en: 'The shop opens',         mnemonic: 'A place to buy' },
+  { character: '銀行', romaji: 'ginkou',  english: 'Bank',         example_jp: '銀行でお金を出す',               example_en: 'Withdraw money at the bank', mnemonic: 'Silver + business' },
+
+  // --- Common adjectives & descriptors ---
+  { character: '良い', romaji: 'ii / yoi',english: 'Good',         example_jp: 'いい天気 (ii tenki)',            example_en: 'Good weather',           mnemonic: 'Positive quality' },
+  { character: '悪い', romaji: 'warui',   english: 'Bad',          example_jp: '気分が悪い (kibun ga warui)',    example_en: 'I feel bad',             mnemonic: 'Negative quality' },
+  { character: '新しい',romaji: 'atarashii',english: 'New',        example_jp: '新しい車 (atarashii kuruma)',    example_en: 'A new car',              mnemonic: 'Fresh, recent' },
+  { character: '古い', romaji: 'furui',   english: 'Old',          example_jp: '古い本 (furui hon)',             example_en: 'An old book',            mnemonic: 'Aged, worn' },
+  { character: '高い', romaji: 'takai',   english: 'Expensive/Tall',example_jp: '値段が高い (nedan ga takai)',    example_en: 'The price is high',      mnemonic: 'Up high in price or height' },
+  { character: '安い', romaji: 'yasui',   english: 'Cheap',        example_jp: '安い店 (yasui mise)',            example_en: 'A cheap shop',           mnemonic: 'Low price, relaxed' },
+  { character: '楽しい',romaji: 'tanoshii',english: 'Fun/Enjoyable',example_jp: 'パーティーは楽しい',             example_en: 'The party is fun',       mnemonic: 'Brings joy' },
+  { character: '忙しい',romaji: 'isogashii',english: 'Busy',       example_jp: '今日は忙しい (kyou wa isogashii)',example_en: 'I\'m busy today',        mnemonic: 'No spare time' },
 ]
