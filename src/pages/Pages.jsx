@@ -1,36 +1,31 @@
-import { useState } from 'react'
-import { RESOURCES, BADGES, JLPT_LEVELS, MODULE_META, LEVEL_META } from '../data/content'
+import { useState, useEffect } from 'react'
+import { RESOURCES, JLPT_LEVELS, MODULE_META, LEVEL_META, VOCAB_WORDS, WORD_SUB_DECKS } from '../data/content'
 import { useAuth } from '../hooks/useAuth'
+import { useProgress } from '../hooks/useProgress'
+import { supabase } from '../lib/supabase'
 
 // ─── Resources Hub ────────────────────────────────────────────────────────
 export function Resources({ onBack }) {
   const [tab, setTab] = useState('podcasts')
-  const items = RESOURCES[tab]
+  const items = RESOURCES[tab] || []
   return (
     <div className="page">
       <button className="btn btn-secondary" onClick={onBack} style={{ marginBottom: 24 }}>← Back</button>
       <div className="page-title">Resources Hub 📚</div>
       <div className="page-sub">Curated content to immerse yourself in real Japanese — organized by level</div>
-
       <div className="flex" style={{ marginBottom: 24 }}>
         {[['podcasts','🎙️ Podcasts'], ['youtube','📺 YouTube']].map(([k, l]) => (
-          <button key={k} onClick={() => setTab(k)}
-            style={{ background: tab === k ? 'rgba(220,38,38,0.1)' : 'none', border: `1px solid ${tab === k ? 'var(--red)' : 'var(--border)'}`, color: tab === k ? 'var(--red)' : 'var(--muted)', padding: '8px 20px', borderRadius: 4, cursor: 'pointer', fontFamily: "'Syne', sans-serif", fontSize: 13, fontWeight: 700, transition: 'all 0.15s' }}>
-            {l}
-          </button>
+          <button key={k} onClick={() => setTab(k)} className={`btn ${tab === k ? 'btn-primary' : 'btn-secondary'}`} style={{ fontSize: 14 }}>{l}</button>
         ))}
       </div>
-
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: 14 }}>
         {items.map(r => (
-          <a key={r.name} href={r.url} target="_blank" rel="noopener noreferrer"
-            style={{ display: 'block', background: 'var(--card-bg)', border: '1px solid var(--border)', borderRadius: 8, padding: 18, textDecoration: 'none', color: 'var(--text)', transition: 'all 0.15s' }}
-            onMouseEnter={e => { e.currentTarget.style.borderColor = '#444'; e.currentTarget.style.transform = 'translateY(-2px)' }}
-            onMouseLeave={e => { e.currentTarget.style.borderColor = 'var(--border)'; e.currentTarget.style.transform = 'none' }}>
-            <div style={{ fontSize: 15, fontWeight: 700, marginBottom: 4 }}>{r.name}</div>
-            <div style={{ fontSize: 10, color: 'var(--red)', fontFamily: "'DM Mono', monospace", letterSpacing: 1, textTransform: 'uppercase', marginBottom: 8 }}>{r.level}</div>
-            <div style={{ fontSize: 12, color: 'var(--muted)', fontFamily: "'DM Mono', monospace", lineHeight: 1.5, marginBottom: 10 }}>{r.desc}</div>
-            <div style={{ fontSize: 11, color: 'var(--blue)', fontFamily: "'DM Mono', monospace" }}>→ Open {tab === 'youtube' ? 'YouTube' : 'Podcast'}</div>
+          <a key={r.name} href={r.url} target="_blank" rel="noopener noreferrer" className="card module-card"
+            style={{ display: 'block', padding: 20, textDecoration: 'none', color: 'var(--text)', borderTop: '3px solid var(--blue)' }}>
+            <div style={{ fontSize: 15, fontWeight: 800, marginBottom: 4 }}>{r.name}</div>
+            <div style={{ fontSize: 11, color: 'var(--red)', fontWeight: 800, letterSpacing: 1, textTransform: 'uppercase', marginBottom: 8 }}>{r.level}</div>
+            <div style={{ fontSize: 13, color: 'var(--muted)', fontWeight: 600, lineHeight: 1.5, marginBottom: 10 }}>{r.desc}</div>
+            <div style={{ fontSize: 12, color: 'var(--blue)', fontWeight: 800 }}>→ Open {tab === 'youtube' ? 'YouTube' : 'Podcast'}</div>
           </a>
         ))}
       </div>
@@ -38,63 +33,104 @@ export function Resources({ onBack }) {
   )
 }
 
-// ─── Leaderboard ──────────────────────────────────────────────────────────
+// ─── Leaderboard — real data from Supabase ────────────────────────────────
 export function Leaderboard({ onBack }) {
-  const { profile } = useAuth()
-  const mock = [
-    { rank: 1, name: 'Yuki T.',                              xp: 4820, badge: '🏆', streak: 45 },
-    { rank: 2, name: 'Hana M.',                              xp: 3960, badge: '🎌', streak: 30 },
-    { rank: 3, name: 'Kenji R.',                             xp: 3120, badge: '🔥', streak: 21 },
-    { rank: 4, name: profile?.display_name || 'You',         xp: 0,    badge: '⭐', streak: 0, isYou: true },
-    { rank: 5, name: 'Alex W.',                              xp: 0,    badge: '',   streak: 0 },
-  ]
-  const rankDisplay = r => r === 1 ? '🥇' : r === 2 ? '🥈' : r === 3 ? '🥉' : `#${r}`
-  const rankColor   = r => r === 1 ? '#D97706' : r === 2 ? '#9CA3AF' : r === 3 ? '#92400E' : 'var(--muted)'
+  const { user, profile } = useAuth()
+  const { totalXP, streak } = useProgress()
+  const [rows, setRows] = useState([])
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => { loadLeaderboard() }, [])
+
+  async function loadLeaderboard() {
+    setLoading(true)
+    // Upsert current user's score first
+    if (user) {
+      await supabase.from('leaderboard').upsert({
+        user_id: user.id,
+        display_name: profile?.display_name || 'Learner',
+        avatar_url: profile?.avatar_url || null,
+        weekly_xp: totalXP,
+        streak_days: streak,
+        updated_at: new Date().toISOString(),
+      }, { onConflict: 'user_id' })
+    }
+    const { data } = await supabase
+      .from('leaderboard')
+      .select('*')
+      .order('weekly_xp', { ascending: false })
+      .limit(20)
+    setRows(data || [])
+    setLoading(false)
+  }
+
+  const rankIcon = i => i === 0 ? '🥇' : i === 1 ? '🥈' : i === 2 ? '🥉' : `#${i + 1}`
+  const rankColor = i => i === 0 ? 'var(--gold)' : i === 1 ? '#9CA3AF' : i === 2 ? '#CD7F32' : 'var(--muted)'
 
   return (
     <div className="page">
       <button className="btn btn-secondary" onClick={onBack} style={{ marginBottom: 24 }}>← Back</button>
       <div className="page-title">Leaderboard 🏆</div>
-      <div className="page-sub">Weekly XP rankings — resets every Monday 00:00 UTC</div>
+      <div className="page-sub">Weekly XP rankings — study every day to climb the ranks</div>
 
-      <div className="card" style={{ overflow: 'hidden', marginBottom: 24 }}>
-        <table style={{ width: '100%', borderCollapse: 'collapse' }}>
-          <thead>
-            <tr>
-              {['Rank','Player','Streak','Weekly XP'].map(h => (
-                <th key={h} style={{ textAlign: 'left', fontSize: 11, letterSpacing: 2, textTransform: 'uppercase', color: 'var(--muted)', fontFamily: "'DM Mono', monospace", fontWeight: 400, padding: '12px 16px', borderBottom: '1px solid var(--border)' }}>{h}</th>
-              ))}
-            </tr>
-          </thead>
-          <tbody>
-            {mock.map(r => (
-              <tr key={r.rank} style={{ background: r.isYou ? 'rgba(220,38,38,0.05)' : '' }}>
-                <td style={{ padding: '14px 16px', fontFamily: "'DM Mono', monospace", fontSize: 18, fontWeight: 700, color: rankColor(r.rank), borderBottom: '1px solid var(--border)' }}>{rankDisplay(r.rank)}</td>
-                <td style={{ padding: '14px 16px', fontWeight: 700, borderBottom: '1px solid var(--border)' }}>{r.name}{r.isYou ? ' (you)' : ''} {r.badge}</td>
-                <td style={{ padding: '14px 16px', fontFamily: "'DM Mono', monospace", fontSize: 13, color: 'var(--muted)', borderBottom: '1px solid var(--border)' }}>🔥 {r.streak}d</td>
-                <td style={{ padding: '14px 16px', fontFamily: "'DM Mono', monospace", color: 'var(--gold)', fontWeight: 700, borderBottom: '1px solid var(--border)' }}>{r.xp.toLocaleString()} XP</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-
-      <div style={{ textAlign: 'center', color: 'var(--muted)', fontSize: 12, fontFamily: "'DM Mono', monospace" }}>
-        Study daily to climb the ranks. More users join as the app grows!
+      {loading ? (
+        <div className="empty"><div className="empty-icon" style={{ animation: 'float 1.5s ease-in-out infinite' }}>⏳</div>Loading rankings...</div>
+      ) : rows.length === 0 ? (
+        <div className="empty"><div className="empty-icon">🎌</div>Be the first on the leaderboard! Complete a study session.</div>
+      ) : (
+        <div className="card" style={{ overflow: 'hidden', marginBottom: 24 }}>
+          {rows.map((r, i) => {
+            const isYou = r.user_id === user?.id
+            return (
+              <div key={r.user_id} style={{
+                display: 'flex', alignItems: 'center', gap: 16, padding: '14px 20px',
+                borderBottom: i < rows.length - 1 ? '1px solid var(--border)' : 'none',
+                background: isYou ? 'rgba(255,178,62,0.06)' : 'transparent',
+                transition: 'background 0.2s',
+              }}>
+                <div style={{ fontSize: i < 3 ? 24 : 16, fontWeight: 900, color: rankColor(i), minWidth: 36, textAlign: 'center' }}>{rankIcon(i)}</div>
+                <div style={{ width: 36, height: 36, borderRadius: '50%', background: 'var(--grad-cool)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 16, flexShrink: 0, overflow: 'hidden' }}>
+                  {r.avatar_url ? <img src={r.avatar_url} style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="" /> : '🧑'}
+                </div>
+                <div style={{ flex: 1 }}>
+                  <div style={{ fontWeight: 800, fontSize: 15 }}>{r.display_name}{isYou ? ' (you)' : ''}</div>
+                  <div style={{ fontSize: 12, color: 'var(--muted)', fontWeight: 600 }}>🔥 {r.streak_days} day streak</div>
+                </div>
+                <div style={{ fontWeight: 900, fontSize: 16, color: isYou ? 'var(--gold)' : 'var(--text)' }}>{(r.weekly_xp || 0).toLocaleString()} <span style={{ fontSize: 12, color: 'var(--muted)' }}>XP</span></div>
+              </div>
+            )
+          })}
+        </div>
+      )}
+      <div style={{ textAlign: 'center', color: 'var(--muted)', fontSize: 13, fontWeight: 600 }}>
+        Study every day to climb — rankings are cumulative total XP
       </div>
     </div>
   )
 }
 
-// ─── Profile ──────────────────────────────────────────────────────────────
+// ─── Profile — live stats + real badges ───────────────────────────────────
 export function Profile({ onBack }) {
   const { profile, updateProfile, signOut } = useAuth()
+  const { totalXP, streak, allBadges, earnedBadges } = useProgress()
   const [goal, setGoal] = useState(profile?.jlpt_goal || 'N5')
+  const [cardCount, setCardCount] = useState(0)
+
+  useEffect(() => {
+    if (profile?.id) {
+      supabase.from('flashcard_sessions').select('id', { count: 'exact' }).eq('user_id', profile.id)
+        .then(({ count }) => setCardCount(count || 0))
+    }
+  }, [profile?.id])
 
   async function handleGoal(lv) {
     setGoal(lv)
     await updateProfile({ jlpt_goal: lv })
   }
+
+  const joinedDate = profile?.created_at ? new Date(profile.created_at).toLocaleDateString('en-MY', { year: 'numeric', month: 'long' }) : '—'
+  const level = totalXP < 500 ? 'Beginner' : totalXP < 2000 ? 'Elementary' : totalXP < 5000 ? 'Intermediate' : totalXP < 10000 ? 'Advanced' : 'Master'
+  const levelColor = totalXP < 500 ? 'var(--blue)' : totalXP < 2000 ? 'var(--green)' : totalXP < 5000 ? 'var(--gold)' : totalXP < 10000 ? 'var(--purple)' : 'var(--red)'
 
   return (
     <div className="page">
@@ -102,80 +138,360 @@ export function Profile({ onBack }) {
       <div className="page-title">My Profile</div>
 
       {/* Profile header */}
-      <div className="card" style={{ padding: 28, display: 'flex', alignItems: 'center', gap: 24, marginBottom: 24 }}>
-        <div style={{ width: 80, height: 80, borderRadius: '50%', border: '2px solid var(--red)', overflow: 'hidden', flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'var(--red-dim)', fontSize: 32 }}>
+      <div className="card" style={{ padding: 28, display: 'flex', alignItems: 'center', gap: 24, marginBottom: 24, borderTop: `3px solid ${levelColor}` }}>
+        <div style={{ width: 80, height: 80, borderRadius: '50%', border: `3px solid ${levelColor}`, overflow: 'hidden', flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'var(--bg3)', fontSize: 32 }}>
           {profile?.avatar_url ? <img src={profile.avatar_url} style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="avatar" /> : '🧑'}
         </div>
         <div style={{ flex: 1 }}>
-          <div style={{ fontSize: 24, fontWeight: 800, marginBottom: 4 }}>{profile?.display_name || 'Learner'}</div>
-          <div style={{ fontSize: 13, color: 'var(--muted)', fontFamily: "'DM Mono', monospace", marginBottom: 14 }}>{profile?.email || ''}</div>
-          <div style={{ display: 'flex', alignItems: 'center', gap: 10, flexWrap: 'wrap' }}>
-            <span style={{ fontSize: 12, color: 'var(--muted)' }}>JLPT Goal:</span>
-            <div style={{ display: 'flex', gap: 6 }}>
-              {JLPT_LEVELS.map(lv => (
-                <button key={lv} onClick={() => handleGoal(lv)}
-                  style={{ fontSize: 11, fontFamily: "'DM Mono', monospace", padding: '4px 10px', borderRadius: 2, border: `1px solid ${goal === lv ? 'var(--red)' : 'var(--border)'}`, color: goal === lv ? 'var(--red)' : 'var(--muted)', background: goal === lv ? 'rgba(220,38,38,0.1)' : 'none', cursor: 'pointer', transition: 'all 0.15s' }}>
-                  {lv}
-                </button>
-              ))}
-            </div>
-          </div>
+          <div style={{ fontSize: 24, fontWeight: 900, marginBottom: 2 }}>{profile?.display_name || 'Learner'}</div>
+          <div style={{ fontSize: 13, color: 'var(--muted)', fontWeight: 600, marginBottom: 10 }}>{profile?.email || ''} · Joined {joinedDate}</div>
+          <span style={{ display: 'inline-block', fontSize: 12, fontWeight: 800, color: '#fff', background: levelColor, padding: '4px 14px', borderRadius: 999 }}>
+            {level} Learner
+          </span>
         </div>
         <button className="btn btn-secondary" style={{ fontSize: 13, padding: '8px 16px' }} onClick={signOut}>Sign Out</button>
       </div>
 
       {/* Stats */}
-      <div className="section-label">— Stats Overview</div>
+      <div className="section-label">— Stats</div>
       <div className="grid-4" style={{ marginBottom: 28 }}>
-        {[['Total XP', '0', 'pts'], ['Streak', '0', 'days'], ['Cards Reviewed', '0', 'cards'], ['Mock Tests', '0', 'taken']].map(([l, v, s]) => (
-          <div key={l} className="card stat-card">
-            <div className="stat-label">{l}</div>
-            <div className="stat-value">{v}</div>
-            <div className="stat-sub">{s}</div>
+        {[
+          { l: 'Total XP',      v: totalXP.toLocaleString(), c: 'stat-gold' },
+          { l: 'Day Streak',    v: `🔥 ${streak}`,           c: 'stat-red' },
+          { l: 'Cards Reviewed',v: cardCount,                 c: '' },
+          { l: 'Badges Earned', v: earnedBadges.length,       c: '' },
+        ].map(s => (
+          <div key={s.l} className="card stat-card">
+            <div className="stat-label">{s.l}</div>
+            <div className={`stat-value ${s.c}`}>{s.v}</div>
           </div>
         ))}
       </div>
 
+      {/* JLPT goal */}
+      <div className="section-label">— JLPT Goal</div>
+      <div className="card" style={{ padding: 20, marginBottom: 28 }}>
+        <div style={{ fontSize: 13, color: 'var(--muted)', fontWeight: 600, marginBottom: 12 }}>Which JLPT level are you working toward?</div>
+        <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
+          {JLPT_LEVELS.map(lv => (
+            <button key={lv} onClick={() => handleGoal(lv)} className={`btn ${goal === lv ? 'btn-primary' : 'btn-secondary'}`}
+              style={{ padding: '8px 20px', fontSize: 14 }}>{lv}</button>
+          ))}
+        </div>
+      </div>
+
       {/* Badges */}
-      <div className="section-label">— Badges</div>
-      <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
-        {BADGES.map(b => (
-          <div key={b.slug} className="badge-chip locked" title={b.desc}>{b.icon} {b.name}</div>
-        ))}
+      <div className="section-label">— Badges ({earnedBadges.length}/{allBadges.length})</div>
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: 10 }}>
+        {allBadges.map(b => {
+          const earned = earnedBadges.includes(b.slug)
+          return (
+            <div key={b.slug} className={`card ${earned ? '' : ''}`}
+              style={{ padding: 14, display: 'flex', alignItems: 'center', gap: 12, opacity: earned ? 1 : 0.4, filter: earned ? 'none' : 'grayscale(1)', transition: 'all 0.2s', border: earned ? `1px solid var(--gold)` : '1px solid var(--border)' }}>
+              <div style={{ fontSize: 28, flexShrink: 0 }}>{b.icon}</div>
+              <div>
+                <div style={{ fontSize: 13, fontWeight: 800 }}>{b.name}</div>
+                <div style={{ fontSize: 11, color: 'var(--muted)', fontWeight: 600 }}>{b.description}</div>
+                {earned && <div style={{ fontSize: 11, color: 'var(--gold)', fontWeight: 800 }}>+{b.xp_reward} XP ✓</div>}
+              </div>
+            </div>
+          )
+        })}
       </div>
     </div>
   )
 }
 
-// ─── Module Selector ──────────────────────────────────────────────────────
+// ─── Onboarding Flow — 3-step first-time setup ────────────────────────────
+export function Onboarding({ onComplete }) {
+  const { updateProfile } = useAuth()
+  const [step, setStep] = useState(1)
+  const [goal, setGoal] = useState('N5')
+  const [studyTime, setStudyTime] = useState(10)
+  const [startModule, setStartModule] = useState('hiragana')
+
+  async function finish() {
+    await updateProfile({ jlpt_goal: goal, study_time_pref: studyTime, onboarded: true })
+    onComplete?.()
+  }
+
+  const stepLabels = ['Set Your Goal', 'Study Time', 'Start Module']
+
+  return (
+    <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: 24 }}>
+      <div style={{ width: '100%', maxWidth: 480 }}>
+        {/* Progress dots */}
+        <div style={{ display: 'flex', justifyContent: 'center', gap: 8, marginBottom: 32 }}>
+          {stepLabels.map((l, i) => (
+            <div key={l} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 6 }}>
+              <div style={{
+                width: 32, height: 32, borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center',
+                fontWeight: 900, fontSize: 14, transition: 'all 0.3s',
+                background: i + 1 <= step ? 'var(--grad-fun)' : 'var(--bg3)',
+                color: i + 1 <= step ? '#fff' : 'var(--muted)',
+                boxShadow: i + 1 === step ? '0 4px 14px rgba(255,90,95,0.4)' : 'none',
+              }}>{i + 1 < step ? '✓' : i + 1}</div>
+              <div style={{ fontSize: 10, fontWeight: 800, color: i + 1 === step ? 'var(--text)' : 'var(--muted)', textTransform: 'uppercase', letterSpacing: 0.5 }}>{l}</div>
+            </div>
+          ))}
+        </div>
+
+        <div className="card pop-in" style={{ padding: 36, textAlign: 'center' }}>
+          <div style={{ fontSize: 48, marginBottom: 16 }}>{step === 1 ? '🎯' : step === 2 ? '⏱️' : '🌸'}</div>
+
+          {step === 1 && (<>
+            <div style={{ fontSize: 22, fontWeight: 900, marginBottom: 8 }}>What's your JLPT goal?</div>
+            <div style={{ fontSize: 14, color: 'var(--muted)', fontWeight: 600, marginBottom: 28 }}>We'll tailor your study path around it</div>
+            <div style={{ display: 'flex', gap: 10, justifyContent: 'center', flexWrap: 'wrap', marginBottom: 32 }}>
+              {[
+                { lv: 'N5', desc: 'Total beginner' },
+                { lv: 'N4', desc: 'Some basics' },
+                { lv: 'N3', desc: 'Intermediate' },
+                { lv: 'N2', desc: 'Upper advanced' },
+                { lv: 'N1', desc: 'Near-native' },
+              ].map(({ lv, desc }) => (
+                <div key={lv} onClick={() => setGoal(lv)}
+                  className="card" style={{ padding: '14px 20px', cursor: 'pointer', border: `2px solid ${goal === lv ? 'var(--red)' : 'var(--border)'}`, background: goal === lv ? 'rgba(255,90,95,0.08)' : 'var(--card-bg)', transition: 'all 0.2s', minWidth: 80 }}>
+                  <div style={{ fontSize: 20, fontWeight: 900, color: goal === lv ? 'var(--red)' : 'var(--text)' }}>{lv}</div>
+                  <div style={{ fontSize: 11, color: 'var(--muted)', fontWeight: 600 }}>{desc}</div>
+                </div>
+              ))}
+            </div>
+          </>)}
+
+          {step === 2 && (<>
+            <div style={{ fontSize: 22, fontWeight: 900, marginBottom: 8 }}>Daily study goal?</div>
+            <div style={{ fontSize: 14, color: 'var(--muted)', fontWeight: 600, marginBottom: 28 }}>Consistency beats intensity — pick what's realistic</div>
+            <div style={{ display: 'flex', gap: 12, justifyContent: 'center', marginBottom: 32 }}>
+              {[
+                { mins: 5, label: '5 min', emoji: '🌱', desc: 'Light' },
+                { mins: 10, label: '10 min', emoji: '🌿', desc: 'Steady' },
+                { mins: 20, label: '20 min', emoji: '🌳', desc: 'Focused' },
+              ].map(({ mins, label, emoji, desc }) => (
+                <div key={mins} onClick={() => setStudyTime(mins)}
+                  className="card" style={{ padding: '20px 24px', cursor: 'pointer', border: `2px solid ${studyTime === mins ? 'var(--green)' : 'var(--border)'}`, background: studyTime === mins ? 'rgba(52,211,153,0.08)' : 'var(--card-bg)', transition: 'all 0.2s', flex: 1 }}>
+                  <div style={{ fontSize: 28, marginBottom: 4 }}>{emoji}</div>
+                  <div style={{ fontSize: 18, fontWeight: 900, color: studyTime === mins ? 'var(--green)' : 'var(--text)' }}>{label}</div>
+                  <div style={{ fontSize: 12, color: 'var(--muted)', fontWeight: 600 }}>{desc}</div>
+                </div>
+              ))}
+            </div>
+          </>)}
+
+          {step === 3 && (<>
+            <div style={{ fontSize: 22, fontWeight: 900, marginBottom: 8 }}>Where do you want to start?</div>
+            <div style={{ fontSize: 14, color: 'var(--muted)', fontWeight: 600, marginBottom: 28 }}>You can switch anytime from the dashboard</div>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 10, marginBottom: 32 }}>
+              {[
+                { key: 'hiragana', emoji: 'あ', label: 'Hiragana', desc: 'Start from scratch — the alphabet first' },
+                { key: 'words',    emoji: '💬', label: 'Words',    desc: 'Jump straight into vocabulary' },
+                { key: 'kanji',    emoji: '漢', label: 'Kanji',    desc: 'I know kana, want to tackle kanji' },
+              ].map(({ key, emoji, label, desc }) => (
+                <div key={key} onClick={() => setStartModule(key)}
+                  className="card" style={{ padding: '16px 20px', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: 16, border: `2px solid ${startModule === key ? 'var(--blue)' : 'var(--border)'}`, background: startModule === key ? 'rgba(77,141,255,0.08)' : 'var(--card-bg)', transition: 'all 0.2s' }}>
+                  <div style={{ fontFamily: "'Noto Serif JP', serif", fontSize: 32, lineHeight: 1 }}>{emoji}</div>
+                  <div style={{ textAlign: 'left' }}>
+                    <div style={{ fontSize: 16, fontWeight: 800, color: startModule === key ? 'var(--blue)' : 'var(--text)' }}>{label}</div>
+                    <div style={{ fontSize: 12, color: 'var(--muted)', fontWeight: 600 }}>{desc}</div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </>)}
+
+          <div style={{ display: 'flex', gap: 10, justifyContent: 'center' }}>
+            {step > 1 && <button className="btn btn-secondary" onClick={() => setStep(s => s - 1)}>← Back</button>}
+            {step < 3
+              ? <button className="btn btn-primary" onClick={() => setStep(s => s + 1)}>Continue →</button>
+              : <button className="btn btn-primary" onClick={finish}>Let's Go! 🚀</button>
+            }
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+// ─── Daily Challenge ───────────────────────────────────────────────────────
+export function DailyChallenge({ onBack, onXPEarned }) {
+  const { totalXP } = useProgress()
+
+  // Date-seeded shuffle — same questions for everyone on the same day
+  function seededRandom(seed) {
+    let s = seed
+    return () => { s = (s * 16807 + 0) % 2147483647; return (s - 1) / 2147483646 }
+  }
+  function seededShuffle(arr, rand) {
+    const a = [...arr]
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(rand() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]]
+    }
+    return a
+  }
+
+  const [questions] = useState(() => {
+    const today = new Date().toISOString().split('T')[0]
+    const seed  = today.split('-').reduce((acc, n) => acc * 31 + parseInt(n), 0)
+    const rand  = seededRandom(Math.abs(seed))
+    const pool  = VOCAB_WORDS.filter(c => c.english && c.character)
+    const picked = seededShuffle(pool, rand).slice(0, 5)
+    return picked.map(card => {
+      const others = pool.filter(x => x.character !== card.character)
+      const wrong  = seededShuffle(others, rand).slice(0, 3).map(x => x.english)
+      const opts   = seededShuffle([...wrong, card.english], rand)
+      return { card, options: opts, answer: opts.indexOf(card.english) }
+    })
+  })
+
+  const [qIdx, setQIdx]         = useState(0)
+  const [selected, setSelected] = useState(null)
+  const [score, setScore]       = useState(0)
+  const [done, setDone]         = useState(false)
+  const today = new Date().toLocaleDateString('en-MY', { weekday: 'long', month: 'short', day: 'numeric' })
+
+  function handleSelect(i) {
+    if (selected !== null) return
+    setSelected(i)
+    if (i === questions[qIdx].answer) setScore(s => s + 1)
+  }
+
+  function handleNext() {
+    if (qIdx + 1 >= questions.length) { setDone(true); return }
+    setQIdx(i => i + 1)
+    setSelected(null)
+  }
+
+  const q = questions[qIdx]
+
+  if (done) {
+    const pct = Math.round((score / questions.length) * 100)
+    const xp  = score * 20 + (pct === 100 ? 60 : 0)
+    onXPEarned?.({ xp, module: 'daily_challenge', level: 'mixed' })
+    return (
+      <div style={{ maxWidth: 600, margin: '0 auto', padding: 32 }}>
+        <div className="card pop-in" style={{ padding: 40, textAlign: 'center' }}>
+          <div className="celebrate-burst">{pct === 100 ? '🌟' : pct >= 60 ? '🎉' : '💪'}</div>
+          <div style={{ fontSize: 26, fontWeight: 900, margin: '12px 0 4px' }}>Daily Challenge Done!</div>
+          <div style={{ fontSize: 14, color: 'var(--muted)', fontWeight: 600, marginBottom: 20 }}>{today}</div>
+          <div style={{ fontSize: 52, fontWeight: 900, color: pct >= 60 ? 'var(--green)' : 'var(--red)', marginBottom: 4 }}>{score}/{questions.length}</div>
+          <div style={{ display: 'inline-block', fontSize: 16, fontWeight: 900, color: '#fff', background: 'var(--grad-fun)', padding: '8px 24px', borderRadius: 999, marginBottom: 28 }}>+{xp} XP ⚡</div>
+          <div style={{ fontSize: 13, color: 'var(--muted)', fontWeight: 600, marginBottom: 24 }}>Come back tomorrow for a new challenge!</div>
+          <button className="btn btn-secondary" onClick={onBack}>← Back to Home</button>
+        </div>
+      </div>
+    )
+  }
+
+  return (
+    <div style={{ maxWidth: 600, margin: '0 auto', padding: '32px 24px' }}>
+      <button className="btn btn-secondary" onClick={onBack} style={{ marginBottom: 16 }}>← Back</button>
+      <div style={{ textAlign: 'center', marginBottom: 24 }}>
+        <div style={{ fontSize: 11, fontWeight: 800, letterSpacing: 1, textTransform: 'uppercase', color: 'var(--gold)', marginBottom: 4 }}>⚡ Daily Challenge</div>
+        <div style={{ fontSize: 22, fontWeight: 900 }}>{today}</div>
+        <div style={{ fontSize: 13, color: 'var(--muted)', fontWeight: 600 }}>Same questions for all learners today · {qIdx + 1} of {questions.length}</div>
+      </div>
+      <div className="progress-bar" style={{ marginBottom: 24 }}>
+        <div className="progress-fill" style={{ width: `${((qIdx) / questions.length) * 100}%` }} />
+      </div>
+      <div className="card" style={{ padding: 32, marginBottom: 20, textAlign: 'center' }}>
+        <div style={{ fontSize: 13, color: 'var(--muted)', fontWeight: 700, marginBottom: 16 }}>What does this mean?</div>
+        <div style={{ fontFamily: "'Noto Serif JP', serif", fontSize: 72, fontWeight: 900, lineHeight: 1, marginBottom: 12 }}>{q.card.character}</div>
+        <div style={{ fontSize: 13, color: 'var(--muted)', fontWeight: 600 }}>{q.card.romaji}</div>
+      </div>
+      <div className="grid-2" style={{ marginBottom: 16 }}>
+        {q.options.map((opt, i) => {
+          let border = 'var(--border)', color = 'var(--text)', bg = 'var(--bg3)'
+          if (selected !== null) {
+            if (i === q.answer)              { border = 'var(--green)'; color = 'var(--green)'; bg = 'rgba(52,211,153,0.1)' }
+            if (i === selected && i !== q.answer) { border = 'var(--red)'; color = 'var(--red)'; bg = 'rgba(255,90,95,0.08)' }
+          }
+          return (
+            <div key={i} onClick={() => handleSelect(i)}
+              style={{ background: bg, border: `1px solid ${border}`, color, padding: 16, borderRadius: 12, cursor: selected ? 'default' : 'pointer', fontSize: 15, fontWeight: 700, textAlign: 'center', transition: 'all 0.15s' }}>
+              {opt}
+            </div>
+          )
+        })}
+      </div>
+      {selected !== null && (
+        <>
+          {selected !== q.answer && q.card.mnemonic && (
+            <div style={{ background: 'rgba(255,178,62,0.08)', border: '1px solid var(--gold-dim)', borderRadius: 12, padding: '12px 16px', marginBottom: 12, fontSize: 13, color: 'var(--gold)', fontWeight: 700 }}>
+              💡 {q.card.mnemonic}
+            </div>
+          )}
+          <button className="btn btn-primary" style={{ width: '100%', justifyContent: 'center', padding: 14 }} onClick={handleNext}>
+            {qIdx + 1 >= questions.length ? 'See Results 🎯' : 'Next →'}
+          </button>
+        </>
+      )}
+    </div>
+  )
+}
+
+// ─── Module Selector — with word sub-deck picker ──────────────────────────
 export function ModuleSelector({ module: mod, onSelect, onBack }) {
   const meta = MODULE_META[mod]
+  const [subDeck, setSubDeck] = useState(null)
+  const isWords = mod === 'words'
+
+  // Sub-deck categories for the words module
+  const WORD_DECKS = [
+    { key: 'all',        label: 'All Words',    icon: '📚', color: 'var(--gold)',   desc: 'Everything — full 70+ word deck' },
+    { key: 'greetings',  label: 'Greetings',    icon: '👋', color: 'var(--blue)',   desc: 'こんにちは, ありがとう, すみません...' },
+    { key: 'verbs',      label: 'Daily Verbs',  icon: '🏃', color: 'var(--green)',  desc: '食べる, 行く, 見る, 寝る...' },
+    { key: 'time',       label: 'Time & Days',  icon: '⏰', color: '#FFB23E',       desc: '今日, 明日, 朝, 週末...' },
+    { key: 'food',       label: 'Food',         icon: '🍱', color: 'var(--pink)',   desc: '水, ご飯, 肉, おいしい...' },
+    { key: 'places',     label: 'Places',       icon: '🏙️', color: 'var(--purple)', desc: '駅, 学校, 病院, 銀行...' },
+    { key: 'adjectives', label: 'Adjectives',   icon: '✨', color: 'var(--red)',    desc: '良い, 新しい, 楽しい, 忙しい...' },
+  ]
+
+  if (isWords && !subDeck) {
+    return (
+      <div className="page">
+        <button className="btn btn-secondary" onClick={onBack} style={{ marginBottom: 24 }}>← Back</button>
+        <div className="page-title">💬 Words</div>
+        <div className="page-sub">Choose a category to focus on, or study everything at once</div>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))', gap: 14 }}>
+          {WORD_DECKS.map(d => (
+            <div key={d.key} className="card module-card pop-in"
+              style={{ padding: 20, cursor: 'pointer', borderTop: `3px solid ${d.color}` }}
+              onClick={() => setSubDeck(d.key)}>
+              <div style={{ fontSize: 28, marginBottom: 8 }}>{d.icon}</div>
+              <div style={{ fontSize: 16, fontWeight: 800, marginBottom: 4 }}>{d.label}</div>
+              <div style={{ fontSize: 12, color: 'var(--muted)', fontWeight: 600, fontFamily: "'Noto Serif JP', serif" }}>{d.desc}</div>
+            </div>
+          ))}
+        </div>
+      </div>
+    )
+  }
+
   return (
     <div className="page">
-      <button className="btn btn-secondary" onClick={onBack} style={{ marginBottom: 24 }}>← Back</button>
-      <div className="page-title">{meta.emoji} {meta.label}</div>
+      <button className="btn btn-secondary" onClick={() => isWords ? setSubDeck(null) : onBack()} style={{ marginBottom: 24 }}>← Back</button>
+      <div className="page-title">{meta.emoji} {meta.label}{subDeck && subDeck !== 'all' ? ` — ${WORD_DECKS.find(d => d.key === subDeck)?.label}` : ''}</div>
       <div className="page-sub">{meta.desc} — choose your level</div>
 
       <div style={{ display: 'flex', flexDirection: 'column', gap: 14, maxWidth: 520 }}>
         {Object.entries(LEVEL_META).map(([lv, lm]) => {
           const locked = lv !== 'beginner'
           return (
-            <div key={lv} className="card" style={{ padding: 24, borderTop: `2px solid ${locked ? 'var(--border)' : meta.color}`, opacity: locked ? 0.55 : 1, cursor: locked ? 'not-allowed' : 'pointer' }}>
+            <div key={lv} className="card" style={{ padding: 24, borderTop: `3px solid ${locked ? 'var(--border)' : meta.color}`, opacity: locked ? 0.5 : 1, cursor: locked ? 'not-allowed' : 'pointer', transition: 'all 0.2s' }}>
               <div className="flex-between" style={{ marginBottom: locked ? 0 : 16 }}>
                 <div>
-                  <div style={{ fontSize: 18, fontWeight: 700, marginBottom: 4 }}>{lm.label} {locked ? '🔒' : ''}</div>
-                  <div style={{ fontSize: 12, color: 'var(--muted)', fontFamily: "'DM Mono', monospace" }}>
-                    JLPT {lm.jlpt} · {locked ? `Requires ${lm.xpRequired} XP to unlock` : 'Available now'}
-                  </div>
+                  <div style={{ fontSize: 18, fontWeight: 800, marginBottom: 4 }}>{lm.label} {locked ? '🔒' : '✓'}</div>
+                  <div style={{ fontSize: 12, color: 'var(--muted)', fontWeight: 600 }}>JLPT {lm.jlpt} · {locked ? 'Coming soon' : 'Available now'}</div>
                 </div>
-                <span className="tag tag-red">{lm.jlpt}</span>
+                <span className="tag tag-gold">{lm.jlpt}</span>
               </div>
               {!locked && (
                 <div className="flex">
-                  <button className="btn btn-primary" style={{ padding: '8px 18px', fontSize: 13 }}
-                    onClick={() => onSelect(lv, 'flashcards')}>🃏 Flashcards</button>
-                  <button className="btn btn-secondary" style={{ padding: '8px 18px', fontSize: 13 }}
-                    onClick={() => onSelect(lv, 'quiz')}>🎮 Quiz</button>
+                  <button className="btn btn-primary" style={{ padding: '8px 20px', fontSize: 13 }}
+                    onClick={() => onSelect(lv, 'flashcards', subDeck)}>🃏 Flashcards</button>
+                  <button className="btn btn-secondary" style={{ padding: '8px 20px', fontSize: 13 }}
+                    onClick={() => onSelect(lv, 'quiz', subDeck)}>🎮 Quiz</button>
                 </div>
               )}
             </div>

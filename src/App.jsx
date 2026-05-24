@@ -8,17 +8,17 @@ import Dashboard from './pages/Dashboard'
 import Flashcards from './pages/Flashcards'
 import Quiz from './pages/Quiz'
 import MockTest from './pages/MockTest'
-import { Resources, Leaderboard, Profile, ModuleSelector } from './pages/Pages'
+import { Resources, Leaderboard, Profile, ModuleSelector, Onboarding, DailyChallenge } from './pages/Pages'
 
 const NAV = [
   { key: 'dashboard',   label: 'Home' },
+  { key: 'daily',       label: '⚡ Daily' },
   { key: 'mock',        label: 'JLPT Mock' },
   { key: 'leaderboard', label: 'Leaderboard' },
   { key: 'resources',   label: 'Resources' },
   { key: 'profile',     label: 'Profile' },
 ]
 
-// Inner app — has access to both auth + progress contexts
 function AppInner() {
   const { user, profile, loading, updateProfile } = useAuth()
   const { totalXP, streak, newBadge, clearNewBadge, earnXP } = useProgress()
@@ -29,24 +29,30 @@ function AppInner() {
 
   function navigate(s, c = {}) { setCtx(c); setScreen(s) }
 
-  // Called by all activity pages (Flashcards, Quiz, MockTest)
   async function handleXPEarned({ xp, module, level, srsResults, quizPerfect, jlptLevel, jlptPassed }) {
     if (!xp) return
     setXpGain({ amount: xp, t: Date.now() })
     setXpPulse(p => p + 1)
     await earnXP({ xp, module, level, srsResults, quizPerfect, jlptLevel, jlptPassed })
-    updateProfile?.()  // re-fetch profile so nav shows updated XP after page refresh
+    updateProfile?.()
   }
 
-  if (!loading && user && screen === 'landing') setScreen('dashboard')
-  if (!loading && !user && screen !== 'landing') setScreen('landing')
+  // Routing guards
+  if (!loading && user && screen === 'landing') {
+    setScreen(profile?.onboarded === false ? 'onboarding' : 'dashboard')
+  }
+  if (!loading && !user && !['landing'].includes(screen)) setScreen('landing')
 
   if (loading) return (
     <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'var(--bg)' }}>
-      <div className="nav-logo" style={{ fontSize: 40 }}>
+      <div className="nav-logo" style={{ fontSize: 44 }}>
         日本<span className="go">GO!</span>
       </div>
     </div>
+  )
+
+  if (screen === 'onboarding') return (
+    <Onboarding onComplete={() => { updateProfile?.(); setScreen('dashboard') }} />
   )
 
   return (
@@ -78,16 +84,43 @@ function AppInner() {
         </nav>
       )}
 
-      {/* Global overlays */}
       {xpGain && <XPFloat amount={xpGain.amount} trigger={xpGain.t} />}
       {newBadge && <BadgeUnlock badge={newBadge} onDone={clearNewBadge} />}
 
       <main className="main">
         {screen === 'landing'     && <Landing />}
         {screen === 'dashboard'   && <Dashboard onNavigate={navigate} />}
-        {screen === 'module'      && <ModuleSelector module={ctx.module} onBack={() => navigate('dashboard')} onSelect={(lv, mode) => navigate(mode, { module: ctx.module, level: lv })} />}
-        {screen === 'flashcards'  && <Flashcards module={ctx.module || 'hiragana'} level={ctx.level || 'beginner'} onBack={() => navigate('dashboard')} onXPEarned={handleXPEarned} ctx={ctx} />}
-        {screen === 'quiz'        && <Quiz module={ctx.module || 'hiragana'} level={ctx.level || 'beginner'} onBack={() => navigate('dashboard')} onXPEarned={handleXPEarned} ctx={ctx} />}
+        {screen === 'module'      && (
+          <ModuleSelector
+            module={ctx.module}
+            onBack={() => navigate('dashboard')}
+            onSelect={(lv, mode, subDeck) => navigate(mode, { module: ctx.module, level: lv, subDeck })}
+          />
+        )}
+        {screen === 'flashcards'  && (
+          <Flashcards
+            module={ctx.module || 'hiragana'}
+            level={ctx.level || 'beginner'}
+            onBack={() => navigate('dashboard')}
+            onXPEarned={handleXPEarned}
+            ctx={ctx}
+          />
+        )}
+        {screen === 'quiz'        && (
+          <Quiz
+            module={ctx.module || 'hiragana'}
+            level={ctx.level || 'beginner'}
+            onBack={() => navigate('dashboard')}
+            onXPEarned={handleXPEarned}
+            ctx={ctx}
+          />
+        )}
+        {screen === 'daily'       && (
+          <DailyChallenge
+            onBack={() => navigate('dashboard')}
+            onXPEarned={handleXPEarned}
+          />
+        )}
         {screen === 'mock'        && <MockTest onBack={() => navigate('dashboard')} onXPEarned={handleXPEarned} />}
         {screen === 'leaderboard' && <Leaderboard onBack={() => navigate('dashboard')} />}
         {screen === 'resources'   && <Resources onBack={() => navigate('dashboard')} />}
@@ -97,7 +130,6 @@ function AppInner() {
   )
 }
 
-// Progress wrapper — needs user+profile from auth, so sits inside AuthProvider
 function AppWithProgress() {
   const { user, profile, updateProfile } = useAuth()
   return (
