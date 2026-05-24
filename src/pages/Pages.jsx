@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
-import { RESOURCES, JLPT_LEVELS, MODULE_META, LEVEL_META, VOCAB_WORDS, WORD_SUB_DECKS } from '../data/content'
+import { RESOURCES, JLPT_LEVELS, MODULE_META, VOCAB_WORDS } from '../data/content'
+import { WORD_COLLECTIONS, ANIMAL_COLLECTIONS, THINGS_COLLECTIONS } from '../data/vocab'
 import { useAuth } from '../hooks/useAuth'
 import { useProgress } from '../hooks/useProgress'
 import { supabase } from '../lib/supabase'
@@ -430,78 +431,99 @@ export function DailyChallenge({ onBack, onXPEarned }) {
   )
 }
 
-// ─── Module Selector — with word sub-deck picker ──────────────────────────
+// ─── Module Selector — collection picker ──────────────────────
 export function ModuleSelector({ module: mod, onSelect, onBack }) {
   const meta = MODULE_META[mod]
-  const [subDeck, setSubDeck] = useState(null)
-  const isWords = mod === 'words'
+  const [collection, setCollection] = useState(null)
 
-  // Sub-deck categories for the words module
-  const WORD_DECKS = [
-    { key: 'all',        label: 'All Words',    icon: '📚', color: 'var(--gold)',   desc: 'Everything — full 70+ word deck' },
-    { key: 'greetings',  label: 'Greetings',    icon: '👋', color: 'var(--blue)',   desc: 'こんにちは, ありがとう, すみません...' },
-    { key: 'verbs',      label: 'Daily Verbs',  icon: '🏃', color: 'var(--green)',  desc: '食べる, 行く, 見る, 寝る...' },
-    { key: 'time',       label: 'Time & Days',  icon: '⏰', color: '#FFB23E',       desc: '今日, 明日, 朝, 週末...' },
-    { key: 'food',       label: 'Food',         icon: '🍱', color: 'var(--pink)',   desc: '水, ご飯, 肉, おいしい...' },
-    { key: 'places',     label: 'Places',       icon: '🏙️', color: 'var(--purple)', desc: '駅, 学校, 病院, 銀行...' },
-    { key: 'adjectives', label: 'Adjectives',   icon: '✨', color: 'var(--red)',    desc: '良い, 新しい, 楽しい, 忙しい...' },
-  ]
+  const COLLECTION_MAP = {
+    words:   WORD_COLLECTIONS,
+    animals: ANIMAL_COLLECTIONS,
+    things:  THINGS_COLLECTIONS,
+  }
+  const collections = COLLECTION_MAP[mod] || null
 
-  if (isWords && !subDeck) {
+  // Modules without collections → go straight to flashcards/quiz
+  if (!collections || collection) {
+    const cards = collection ? collection.cards : null
     return (
       <div className="page">
-        <button className="btn btn-secondary" onClick={onBack} style={{ marginBottom: 24 }}>← Back</button>
-        <div className="page-title">💬 Words</div>
-        <div className="page-sub">Choose a category to focus on, or study everything at once</div>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))', gap: 14 }}>
-          {WORD_DECKS.map(d => (
-            <div key={d.key} className="card module-card pop-in"
-              style={{ padding: 20, cursor: 'pointer', borderTop: `3px solid ${d.color}` }}
-              onClick={() => setSubDeck(d.key)}>
-              <div style={{ fontSize: 28, marginBottom: 8 }}>{d.icon}</div>
-              <div style={{ fontSize: 16, fontWeight: 800, marginBottom: 4 }}>{d.label}</div>
-              <div style={{ fontSize: 12, color: 'var(--muted)', fontWeight: 600, fontFamily: "'Noto Serif JP', serif" }}>{d.desc}</div>
+        <button className="btn btn-secondary"
+          onClick={() => collection ? setCollection(null) : onBack()}
+          style={{ marginBottom: 24 }}>← Back</button>
+        <div className="page-title">{meta.emoji} {meta.label}{collection ? ` — ${collection.label}` : ''}</div>
+        <div className="page-sub">{collection ? `${collection.cards.length} cards` : meta.desc}</div>
+
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 16, maxWidth: 480 }}>
+          <div className="card module-card" style={{ padding: 28, borderTop: `3px solid ${meta.color}`, cursor: 'pointer' }}
+            onClick={() => onSelect('beginner', 'flashcards', collection?.id)}>
+            <div style={{ fontSize: 32, marginBottom: 10 }}>🃏</div>
+            <div style={{ fontSize: 20, fontWeight: 900, marginBottom: 6 }}>Flashcards</div>
+            <div style={{ fontSize: 13, color: 'var(--muted)', fontWeight: 600, marginBottom: 20 }}>
+              Flip cards, self-rate, build memory with spaced repetition
             </div>
-          ))}
+            <button className="btn btn-primary" style={{ fontSize: 14 }}
+              onClick={e => { e.stopPropagation(); onSelect('beginner', 'flashcards', collection?.id) }}>
+              Start Flashcards →
+            </button>
+          </div>
+          <div className="card module-card" style={{ padding: 28, borderTop: '3px solid var(--purple)', cursor: 'pointer' }}
+            onClick={() => onSelect('beginner', 'quiz', collection?.id)}>
+            <div style={{ fontSize: 32, marginBottom: 10 }}>🎮</div>
+            <div style={{ fontSize: 20, fontWeight: 900, marginBottom: 6 }}>Quiz</div>
+            <div style={{ fontSize: 13, color: 'var(--muted)', fontWeight: 600, marginBottom: 20 }}>
+              Multiple choice — test yourself and earn XP
+            </div>
+            <button className="btn btn-secondary" style={{ fontSize: 14, border: '1px solid var(--purple)', color: 'var(--purple)' }}
+              onClick={e => { e.stopPropagation(); onSelect('beginner', 'quiz', collection?.id) }}>
+              Start Quiz →
+            </button>
+          </div>
         </div>
       </div>
     )
   }
 
+  // Show collection grid
   return (
     <div className="page">
-      <button className="btn btn-secondary" onClick={() => isWords ? setSubDeck(null) : onBack()} style={{ marginBottom: 24 }}>← Back</button>
-      <div className="page-title">{meta.emoji} {meta.label}{subDeck && subDeck !== 'all' ? ` — ${WORD_DECKS.find(d => d.key === subDeck)?.label}` : ''}</div>
-      <div className="page-sub">{meta.desc}</div>
+      <button className="btn btn-secondary" onClick={onBack} style={{ marginBottom: 24 }}>← Back</button>
+      <div className="page-title">{meta.emoji} {meta.label}</div>
+      <div className="page-sub">Choose a collection — 15 cards each · {collections.length} collections · {collections.length * 15} total cards</div>
 
-      <div style={{ display: 'flex', flexDirection: 'column', gap: 16, maxWidth: 480 }}>
-        {/* Flashcards */}
-        <div className="card module-card" style={{ padding: 28, borderTop: `3px solid ${meta.color}`, cursor: 'pointer' }}
-          onClick={() => onSelect('beginner', 'flashcards', subDeck)}>
-          <div style={{ fontSize: 32, marginBottom: 10 }}>🃏</div>
-          <div style={{ fontSize: 20, fontWeight: 900, marginBottom: 6 }}>Flashcards</div>
-          <div style={{ fontSize: 13, color: 'var(--muted)', fontWeight: 600, marginBottom: 20 }}>
-            Flip cards, self-rate, build memory with spaced repetition
-          </div>
-          <button className="btn btn-primary" style={{ fontSize: 14 }}
-            onClick={e => { e.stopPropagation(); onSelect('beginner', 'flashcards', subDeck) }}>
-            Start Flashcards →
-          </button>
+      {/* All cards option */}
+      <div className="card module-card pop-in" style={{ padding: 20, marginBottom: 16, borderTop: `3px solid ${meta.color}`, cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}
+        onClick={() => onSelect('beginner', 'flashcards', 'all')}>
+        <div>
+          <div style={{ fontSize: 16, fontWeight: 900 }}>📚 All Cards</div>
+          <div style={{ fontSize: 12, color: 'var(--muted)', fontWeight: 600 }}>Study everything — {collections.length * 15} cards total</div>
         </div>
+        <div className="flex">
+          <button className="btn btn-primary" style={{ fontSize: 12, padding: '6px 14px' }}
+            onClick={e => { e.stopPropagation(); onSelect('beginner', 'flashcards', 'all') }}>🃏 All</button>
+          <button className="btn btn-secondary" style={{ fontSize: 12, padding: '6px 14px' }}
+            onClick={e => { e.stopPropagation(); onSelect('beginner', 'quiz', 'all') }}>🎮 Quiz</button>
+        </div>
+      </div>
 
-        {/* Quiz */}
-        <div className="card module-card" style={{ padding: 28, borderTop: `3px solid var(--purple)`, cursor: 'pointer' }}
-          onClick={() => onSelect('beginner', 'quiz', subDeck)}>
-          <div style={{ fontSize: 32, marginBottom: 10 }}>🎮</div>
-          <div style={{ fontSize: 20, fontWeight: 900, marginBottom: 6 }}>Quiz</div>
-          <div style={{ fontSize: 13, color: 'var(--muted)', fontWeight: 600, marginBottom: 20 }}>
-            Multiple choice — test yourself and earn XP for every correct answer
+      <div className="grid-3">
+        {collections.map((col, i) => (
+          <div key={col.id} className="card module-card pop-in"
+            style={{ padding: 18, cursor: 'pointer', borderTop: `3px solid ${meta.color}`, animationDelay: `${i * 0.04}s` }}
+            onClick={() => setCollection(col)}>
+            <div style={{ fontSize: 11, fontWeight: 800, color: meta.color, letterSpacing: 1, textTransform: 'uppercase', marginBottom: 6 }}>
+              Collection {i + 1}
+            </div>
+            <div style={{ fontSize: 15, fontWeight: 800, marginBottom: 4 }}>{col.label}</div>
+            <div style={{ fontSize: 11, color: 'var(--muted)', fontWeight: 600, marginBottom: 14 }}>{col.cards.length} cards</div>
+            <div className="flex">
+              <button className="btn btn-primary" style={{ fontSize: 11, padding: '5px 12px' }}
+                onClick={e => { e.stopPropagation(); onSelect('beginner', 'flashcards', col.id) }}>🃏</button>
+              <button className="btn btn-secondary" style={{ fontSize: 11, padding: '5px 12px' }}
+                onClick={e => { e.stopPropagation(); onSelect('beginner', 'quiz', col.id) }}>🎮</button>
+            </div>
           </div>
-          <button className="btn btn-secondary" style={{ fontSize: 14, border: '1px solid var(--purple)', color: 'var(--purple)' }}
-            onClick={e => { e.stopPropagation(); onSelect('beginner', 'quiz', subDeck) }}>
-            Start Quiz →
-          </button>
-        </div>
+        ))}
       </div>
     </div>
   )

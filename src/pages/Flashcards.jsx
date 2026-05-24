@@ -1,30 +1,22 @@
 import { useState } from 'react'
-import { MODULES, MODULE_META, VOCAB_WORDS, KANA_MAP } from '../data/content'
+import { MODULES, MODULE_META, KANA_MAP } from '../data/content'
+import { WORD_COLLECTIONS, ANIMAL_COLLECTIONS, THINGS_COLLECTIONS, ALL_WORDS, ALL_ANIMALS, ALL_THINGS } from '../data/vocab'
 import { sm2 } from '../lib/srs'
 import { speak } from '../lib/audio'
 import { Confetti } from '../lib/celebrate'
 
-// Sub-deck filters (mirrors Quiz.jsx)
-const SUB_DECK_FILTERS = {
-  greetings:  w => ['こんにちは','おはよう','こんばんは','ありがとう','すみません','ごめんなさい','はい','いいえ','お願いします','さようなら'].some(c => w.character.includes(c) || c.includes(w.character)),
-  verbs:      w => ['食べる','飲む','行く','来る','見る','聞く','話す','買う','読む','書く','寝る','起きる','働く','休む','待つ'].some(c => w.character === c),
-  time:       w => ['今日','明日','昨日','朝','昼','夜','週末','毎日'].some(c => w.character === c),
-  food:       w => ['水','お茶','ご飯','肉','野菜','果物','おいしい'].some(c => w.character === c),
-  places:     w => ['学校','会社','駅','病院','店','銀行'].some(c => w.character === c),
-  adjectives: w => ['良い','悪い','新しい','古い','高い','安い','楽しい','忙しい'].some(c => w.character === c),
+function resolveCards(mod, collectionId) {
+  const MAPS = { words: WORD_COLLECTIONS, animals: ANIMAL_COLLECTIONS, things: THINGS_COLLECTIONS }
+  const collections = MAPS[mod]
+  if (!collections) return MODULES[mod]?.['beginner'] || []
+  if (!collectionId || collectionId === 'all') {
+    return { words: ALL_WORDS, animals: ALL_ANIMALS, things: ALL_THINGS }[mod] || []
+  }
+  return collections.find(c => c.id === collectionId)?.cards || ALL_WORDS
 }
 
 export default function Flashcards({ module: mod, level, onBack, onXPEarned, ctx }) {
-  const subDeck = ctx?.subDeck
-
-  const cards = (() => {
-    const base = MODULES[mod]?.[level] || []
-    if (mod === 'words' && subDeck && subDeck !== 'all' && SUB_DECK_FILTERS[subDeck]) {
-      const filtered = base.filter(SUB_DECK_FILTERS[subDeck])
-      return filtered.length >= 2 ? filtered : base
-    }
-    return base
-  })()
+  const cards = resolveCards(mod, ctx?.subDeck)
   const [idx, setIdx]         = useState(0)
   const [flipped, setFlipped] = useState(false)
   const [results, setResults] = useState([])
