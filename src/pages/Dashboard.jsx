@@ -33,21 +33,20 @@ export default function Dashboard({ onNavigate }) {
       {/* Modules */}
       <div className="section-label">— Study Modules</div>
       <div className="grid-3" style={{ marginBottom: 32 }}>
-        {Object.entries(MODULE_META).map(([key, meta]) => (
-          <div key={key} className="card" style={{ padding: 24, cursor: 'pointer', transition: 'all 0.2s', borderTop: `2px solid ${meta.color}` }}
-            onClick={() => onNavigate('module', { module: key })}
-            onMouseEnter={e => e.currentTarget.style.transform = 'translateY(-3px)'}
-            onMouseLeave={e => e.currentTarget.style.transform = 'translateY(0)'}>
-            <div style={{ fontFamily: "'Noto Serif JP', serif", fontSize: 52, marginBottom: 10, lineHeight: 1 }}>{meta.char}</div>
-            <div style={{ fontSize: 18, fontWeight: 700, marginBottom: 4 }}>{meta.label}</div>
-            <div style={{ fontSize: 12, color: 'var(--muted)', fontFamily: "'DM Mono', monospace", marginBottom: 16 }}>{meta.desc}</div>
+        {Object.entries(MODULE_META).map(([key, meta], i) => (
+          <div key={key} className="card module-card pop-in" style={{ padding: 24, cursor: 'pointer', borderTop: `3px solid ${meta.color}`, animationDelay: `${i * 0.06}s` }}
+            onClick={() => onNavigate('module', { module: key })}>
+            <div style={{ fontFamily: "'Noto Serif JP', serif", fontSize: 52, marginBottom: 10, lineHeight: 1, color: meta.color }}>{meta.char}</div>
+            <div style={{ fontSize: 19, fontWeight: 800, marginBottom: 4 }}>{meta.label}</div>
+            <div style={{ fontSize: 12, color: 'var(--muted)', fontWeight: 600, marginBottom: 16 }}>{meta.desc}</div>
             <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
               {Object.entries(LEVEL_META).map(([lv, lm]) => (
                 <span key={lv} style={{
-                  fontSize: 10, fontFamily: "'DM Mono', monospace", letterSpacing: 1,
-                  padding: '3px 8px', borderRadius: 2, textTransform: 'uppercase',
+                  fontSize: 10, fontWeight: 800, letterSpacing: 0.5,
+                  padding: '4px 10px', borderRadius: 999, textTransform: 'uppercase',
                   border: `1px solid ${lv === 'beginner' ? meta.color : 'var(--border)'}`,
                   color: lv === 'beginner' ? meta.color : 'var(--muted)',
+                  background: lv === 'beginner' ? `${meta.color}1a` : 'transparent',
                 }}>
                   {lv === 'beginner' ? '✓ ' : '🔒 '}{lm.label}
                 </span>

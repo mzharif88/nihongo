@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { MODULES, MODULE_META } from '../data/content'
 import { sm2 } from '../lib/srs'
 import { speak } from '../lib/audio'
+import { Confetti } from '../lib/celebrate'
 
 export default function Flashcards({ module: mod, level, onBack, onXPEarned }) {
   const cards = MODULES[mod]?.[level] || []
@@ -38,20 +39,24 @@ export default function Flashcards({ module: mod, level, onBack, onXPEarned }) {
     const again = results.filter(r => r.quality === 1).length
     const totalXP = results.reduce((sum, r) => sum + r.xp, 0)
     onXPEarned?.(totalXP)
+    const perfect = again === 0
     return (
       <div style={{ maxWidth: 600, margin: '0 auto', padding: 32 }}>
-        <div className="card" style={{ padding: 40, textAlign: 'center' }}>
-          <div style={{ fontSize: 64, marginBottom: 16 }}>🎉</div>
-          <div style={{ fontFamily: "'Noto Serif JP', serif", fontSize: 28, fontWeight: 900, marginBottom: 8 }}>Session Complete!</div>
-          <div style={{ fontSize: 13, color: 'var(--muted)', fontFamily: "'DM Mono', monospace", marginBottom: 16 }}>
+        <Confetti count={perfect ? 160 : 100} />
+        <div className="card pop-in" style={{ padding: 40, textAlign: 'center' }}>
+          <div className="celebrate-burst" style={{ marginBottom: 8 }}>{perfect ? '🏆' : '🎉'}</div>
+          <div style={{ fontFamily: "'Noto Serif JP', serif", fontSize: 30, fontWeight: 900, marginBottom: 8 }}>
+            {perfect ? 'Perfect Run!' : 'Session Complete!'}
+          </div>
+          <div style={{ fontSize: 13, color: 'var(--muted)', fontWeight: 700, marginBottom: 16 }}>
             {MODULE_META[mod].label} · {level} · {results.length} cards
           </div>
-          <div style={{ fontSize: 20, fontWeight: 800, color: 'var(--gold)', marginBottom: 24 }}>+{totalXP} XP earned!</div>
+          <div style={{ display: 'inline-block', fontSize: 22, fontWeight: 900, color: '#fff', background: 'var(--grad-fun)', padding: '8px 24px', borderRadius: 999, marginBottom: 24, boxShadow: '0 6px 20px rgba(255,90,95,0.4)' }}>+{totalXP} XP earned! ⚡</div>
           <div className="grid-3" style={{ marginBottom: 32 }}>
             {[['😊 Easy', easy, 'var(--green)'], ['😐 OK', ok, 'var(--gold)'], ['😓 Again', again, 'var(--red)']].map(([l, v, c]) => (
               <div key={l} className="card" style={{ padding: 16, textAlign: 'center' }}>
-                <div style={{ fontSize: 24, fontWeight: 800, color: c }}>{v}</div>
-                <div style={{ fontSize: 11, color: 'var(--muted)', fontFamily: "'DM Mono', monospace" }}>{l}</div>
+                <div style={{ fontSize: 26, fontWeight: 900, color: c }}>{v}</div>
+                <div style={{ fontSize: 11, color: 'var(--muted)', fontWeight: 700 }}>{l}</div>
               </div>
             ))}
           </div>

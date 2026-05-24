@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { MOCK_QUESTIONS, JLPT_LEVELS, JLPT_META } from '../data/content'
+import { Confetti } from '../lib/celebrate'
 
 const SECTIONS = ['Vocabulary', 'Grammar', 'Reading', 'Listening']
 
@@ -97,12 +98,13 @@ export default function MockTest({ onBack }) {
 
     return (
       <div style={{ maxWidth: 700, margin: '0 auto', padding: '32px 24px' }}>
-        <div className="card" style={{ padding: 40, textAlign: 'center' }}>
-          <div style={{ fontSize: 64, marginBottom: 12 }}>{passed ? '🎌' : '📚'}</div>
-          <div style={{ fontSize: 14, color: 'var(--red)', fontFamily: "'DM Mono', monospace", marginBottom: 8 }}>JLPT {level} Mock Test</div>
-          <div style={{ fontFamily: "'Noto Serif JP', serif", fontSize: 48, fontWeight: 900, marginBottom: 8 }}>{pct}%</div>
-          <div style={{ fontSize: 20, fontWeight: 800, color: passed ? 'var(--green)' : 'var(--red)', marginBottom: 32 }}>
-            {passed ? '✅ PASSED' : '❌ Keep Studying'}
+        {passed && <Confetti count={170} duration={3500} />}
+        <div className="card pop-in" style={{ padding: 40, textAlign: 'center' }}>
+          <div className={passed ? 'celebrate-burst' : ''} style={{ fontSize: passed ? 80 : 64, marginBottom: 12 }}>{passed ? '🎌' : '📚'}</div>
+          <div style={{ fontSize: 14, color: 'var(--red)', fontWeight: 800, marginBottom: 8 }}>JLPT {level} Mock Test</div>
+          <div style={{ fontFamily: "'Noto Serif JP', serif", fontSize: 52, fontWeight: 900, marginBottom: 8 }}>{pct}%</div>
+          <div style={{ display: 'inline-block', fontSize: 18, fontWeight: 900, color: '#fff', background: passed ? 'var(--grad-mint)' : 'linear-gradient(135deg,#FF5A5F,#7f1d2d)', padding: '8px 24px', borderRadius: 999, marginBottom: 32 }}>
+            {passed ? '✅ PASSED!' : '💪 Keep Studying'}
           </div>
 
           <div className="grid-2" style={{ marginBottom: 32, textAlign: 'left' }}>

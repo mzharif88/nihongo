@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { MODULES, MODULE_META } from '../data/content'
 import { speak } from '../lib/audio'
+import { Confetti } from '../lib/celebrate'
 
 function shuffle(arr) {
   const a = [...arr]
@@ -59,11 +60,12 @@ export default function Quiz({ module: mod, level, onBack, onXPEarned }) {
     onXPEarned?.(xp)
     return (
       <div style={{ maxWidth: 680, margin: '0 auto', padding: 32 }}>
-        <div className="card" style={{ padding: 48, textAlign: 'center' }}>
-          <div style={{ fontSize: 64, marginBottom: 16 }}>{pct >= 80 ? '🏆' : pct >= 60 ? '👍' : '💪'}</div>
-          <div style={{ fontFamily: "'Noto Serif JP', serif", fontSize: 28, fontWeight: 900, marginBottom: 4 }}>{score} / {questions.length}</div>
-          <div style={{ fontSize: 14, color: 'var(--muted)', fontFamily: "'DM Mono', monospace", marginBottom: 8 }}>Accuracy: {pct}%</div>
-          <div style={{ fontSize: 18, fontWeight: 800, color: 'var(--gold)', marginBottom: 32 }}>+{xp} XP earned!</div>
+        {pct >= 60 && <Confetti count={pct >= 80 ? 160 : 90} />}
+        <div className="card pop-in" style={{ padding: 48, textAlign: 'center' }}>
+          <div className="celebrate-burst" style={{ marginBottom: 12 }}>{pct >= 80 ? '🏆' : pct >= 60 ? '👍' : '💪'}</div>
+          <div style={{ fontFamily: "'Noto Serif JP', serif", fontSize: 30, fontWeight: 900, marginBottom: 4 }}>{score} / {questions.length}</div>
+          <div style={{ fontSize: 14, color: 'var(--muted)', fontWeight: 700, marginBottom: 12 }}>Accuracy: {pct}%</div>
+          <div style={{ display: 'inline-block', fontSize: 18, fontWeight: 900, color: '#fff', background: 'var(--grad-fun)', padding: '8px 24px', borderRadius: 999, marginBottom: 32, boxShadow: '0 6px 20px rgba(255,90,95,0.4)' }}>+{xp} XP earned! ⚡</div>
           <div className="flex" style={{ justifyContent: 'center' }}>
             <button className="btn btn-primary" onClick={() => { setQIdx(0); setSelected(null); setHearts(5); setScore(0); setDone(false) }}>Try Again</button>
             <button className="btn btn-secondary" onClick={onBack}>Back</button>

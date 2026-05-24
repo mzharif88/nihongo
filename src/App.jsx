@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { AuthProvider, useAuth } from './hooks/useAuth'
 import { supabase } from './lib/supabase'
+import { XPFloat } from './lib/celebrate'
 import Landing from './pages/Landing'
 import Dashboard from './pages/Dashboard'
 import Flashcards from './pages/Flashcards'
@@ -21,6 +22,8 @@ function AppInner() {
   const [screen, setScreen] = useState('landing')
   const [ctx, setCtx]       = useState({})
   const [totalXP, setTotalXP] = useState(0)
+  const [xpPulse, setXpPulse] = useState(0)      // bumps the nav chip
+  const [xpGain, setXpGain]   = useState(null)   // drives the floating toast
 
   function navigate(s, c = {}) { setCtx(c); setScreen(s) }
 
@@ -28,6 +31,8 @@ function AppInner() {
     if (!xp) return
     const newXP = totalXP + xp
     setTotalXP(newXP)
+    setXpGain({ amount: xp, t: Date.now() })
+    setXpPulse(p => p + 1)
     if (!user) return
     // Persist to Supabase
     const today = new Date().toISOString().split('T')[0]
@@ -46,8 +51,8 @@ function AppInner() {
 
   if (loading) return (
     <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-      <div style={{ fontFamily: "'Noto Serif JP', serif", fontSize: 32, fontWeight: 900, color: 'var(--muted)' }}>
-        日本語<span style={{ color: 'var(--red)' }}>Go!</span>
+      <div className="nav-logo" style={{ fontSize: 40 }}>
+        日本<span className="go">GO!</span>
       </div>
     </div>
   )
@@ -56,20 +61,21 @@ function AppInner() {
     <div style={{ minHeight: '100vh' }}>
       {user && (
         <nav className="nav">
-          <div className="nav-logo">日本語<span>Go!</span></div>
+          <div className="nav-logo">日本<span className="go">GO!</span></div>
           <div className="nav-links">
             {NAV.map(n => (
               <button key={n.key} className={`nav-btn ${screen === n.key ? 'active' : ''}`} onClick={() => navigate(n.key)}>{n.label}</button>
             ))}
           </div>
           <div className="nav-right">
-            <span className="nav-xp">⚡ {totalXP} XP</span>
+            <span className={`nav-xp ${xpPulse ? 'bump' : ''}`} key={xpPulse}>⚡ {totalXP} XP</span>
             <div className="nav-avatar" onClick={() => navigate('profile')}>
               {profile?.avatar_url ? <img src={profile.avatar_url} style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="u" /> : '🧑'}
             </div>
           </div>
         </nav>
       )}
+      {xpGain && <XPFloat amount={xpGain.amount} trigger={xpGain.t} />}
       <main className="main">
         {screen === 'landing'     && <Landing />}
         {screen === 'dashboard'   && <Dashboard onNavigate={navigate} totalXP={totalXP} />}

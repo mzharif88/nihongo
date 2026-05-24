@@ -1,12 +1,12 @@
 import { useAuth } from '../hooks/useAuth'
 
 const FEATURES = [
-  { icon: '🃏', title: 'SRS Flashcards',     desc: 'Spaced repetition shows weak cards more often — proven science for long-term retention.' },
-  { icon: '🎮', title: 'Gamified XP',         desc: 'Earn XP, maintain daily streaks, unlock new levels, and climb the weekly leaderboard.' },
-  { icon: '📝', title: 'JLPT Mock Tests',     desc: 'Full timed simulations N5–N1 with section-by-section score breakdown and pass/fail verdict.' },
-  { icon: '🔊', title: 'Native Audio',        desc: 'Every character and word pronounced by native Japanese TTS — train your ear from day one.' },
-  { icon: '🏆', title: 'Badges & Goals',      desc: 'Earn 15+ badges from "First Steps" to "N1 Champion" as you hit real milestones.' },
-  { icon: '📺', title: 'Resources Hub',       desc: 'Curated podcasts and YouTube channels organized by your proficiency level.' },
+  { icon: '🃏', title: 'SRS Flashcards',     color: 'var(--blue)',   desc: 'Spaced repetition shows weak cards more often — proven science for long-term retention.' },
+  { icon: '🎮', title: 'Gamified XP',         color: 'var(--gold)',   desc: 'Earn XP, maintain daily streaks, unlock new levels, and climb the weekly leaderboard.' },
+  { icon: '📝', title: 'JLPT Mock Tests',     color: 'var(--red)',    desc: 'Full timed simulations N5–N1 with section-by-section score breakdown and pass/fail verdict.' },
+  { icon: '🔊', title: 'Native Audio',        color: 'var(--green)',  desc: 'Every character and word pronounced by native Japanese TTS — train your ear from day one.' },
+  { icon: '🏆', title: 'Badges & Goals',      color: 'var(--purple)', desc: 'Earn 15+ badges from "First Steps" to "N1 Champion" as you hit real milestones.' },
+  { icon: '📺', title: 'Resources Hub',       color: 'var(--pink)',   desc: 'Curated podcasts and YouTube channels organized by your proficiency level.' },
 ]
 
 export default function Landing() {
@@ -18,29 +18,29 @@ export default function Landing() {
       <div style={{ position: 'absolute', inset: 0, background: 'radial-gradient(ellipse at 20% 50%, rgba(220,38,38,0.08) 0%, transparent 60%), radial-gradient(ellipse at 80% 20%, rgba(217,119,6,0.06) 0%, transparent 50%)', pointerEvents: 'none' }} />
 
       {/* Decorative kanji */}
-      <div style={{ position: 'absolute', right: '5%', top: '50%', transform: 'translateY(-50%)', fontFamily: "'Noto Serif JP', serif", fontSize: '220px', fontWeight: 900, color: 'rgba(255,255,255,0.03)', lineHeight: 1, pointerEvents: 'none', userSelect: 'none' }}>日本語</div>
+      <div style={{ position: 'absolute', right: '3%', top: '42%', transform: 'translateY(-50%)', fontFamily: "'Noto Serif JP', serif", fontSize: '300px', fontWeight: 900, color: 'rgba(255,255,255,0.025)', lineHeight: 0.85, pointerEvents: 'none', userSelect: 'none' }}>日本</div>
 
       {/* Hero */}
       <div style={{ position: 'relative', zIndex: 1, textAlign: 'center', maxWidth: 640 }}>
-        <div style={{ display: 'inline-block', fontSize: 11, letterSpacing: 3, textTransform: 'uppercase', color: 'var(--red)', border: '1px solid var(--red-dim)', padding: '4px 12px', borderRadius: 2, marginBottom: 24, fontFamily: "'DM Mono', monospace" }}>
-          JLPT N5 → N1 · Complete Mastery Path
+        <div style={{ display: 'inline-block', fontSize: 12, letterSpacing: 1, textTransform: 'uppercase', color: 'var(--gold)', background: 'rgba(255,178,62,0.12)', border: '1px solid var(--gold-dim)', padding: '6px 16px', borderRadius: 999, marginBottom: 24, fontWeight: 800 }}>
+          ✨ JLPT N5 → N1 · Complete Mastery Path
         </div>
 
-        <h1 style={{ fontFamily: "'Noto Serif JP', serif", fontSize: 'clamp(48px, 8vw, 80px)', fontWeight: 900, lineHeight: 1, marginBottom: 8, letterSpacing: -2 }}>
-          日本語<br /><span style={{ color: 'var(--red)' }}>NihonGo!</span>
+        <h1 style={{ fontFamily: "'Noto Serif JP', serif", fontSize: 'clamp(52px, 9vw, 92px)', fontWeight: 900, lineHeight: 0.95, marginBottom: 8, letterSpacing: -2 }}>
+          日本<span className="go" style={{ fontFamily: 'var(--font)', fontStyle: 'italic', background: 'var(--grad-fun)', WebkitBackgroundClip: 'text', backgroundClip: 'text', color: 'transparent', display: 'inline-block', transform: 'rotate(-4deg)' }}>GO!</span>
         </h1>
 
-        <p style={{ fontSize: 16, color: 'var(--muted)', margin: '20px 0 40px', lineHeight: 1.6, fontFamily: "'DM Mono', monospace" }}>
-          Master Japanese with <strong style={{ color: 'var(--text)' }}>spaced repetition flashcards</strong>, gamified quizzes,<br />
-          and JLPT mock tests — built to get you to <strong style={{ color: 'var(--text)' }}>real fluency</strong>.
+        <p style={{ fontSize: 17, color: 'var(--muted)', margin: '20px 0 40px', lineHeight: 1.6, fontWeight: 600 }}>
+          Master Japanese with <strong style={{ color: 'var(--text)' }}>spaced-repetition flashcards</strong>, gamified quizzes,<br />
+          and JLPT mock tests — built to get you to <strong style={{ color: 'var(--green)' }}>real fluency</strong>. 🎌
         </p>
 
         {/* Stats */}
-        <div style={{ display: 'flex', gap: 32, justifyContent: 'center', marginBottom: 48 }}>
-          {[['92', 'Kana chars'], ['2,000+', 'Kanji'], ['5', 'JLPT levels'], ['15+', 'Badges']].map(([n, l]) => (
+        <div style={{ display: 'flex', gap: 32, justifyContent: 'center', marginBottom: 48, flexWrap: 'wrap' }}>
+          {[['92', 'Kana chars', 'var(--blue)'], ['2,000+', 'Kanji', 'var(--gold)'], ['5', 'JLPT levels', 'var(--green)'], ['15+', 'Badges', 'var(--purple)']].map(([n, l, c]) => (
             <div key={l} style={{ textAlign: 'center' }}>
-              <div style={{ fontSize: 28, fontWeight: 800, color: 'var(--red)' }}>{n}</div>
-              <div style={{ fontSize: 11, color: 'var(--muted)', letterSpacing: 1, fontFamily: "'DM Mono', monospace" }}>{l}</div>
+              <div style={{ fontSize: 32, fontWeight: 900, color: c, letterSpacing: -1 }}>{n}</div>
+              <div style={{ fontSize: 12, color: 'var(--muted)', fontWeight: 700 }}>{l}</div>
             </div>
           ))}
         </div>
@@ -53,11 +53,11 @@ export default function Landing() {
 
       {/* Feature grid */}
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 16, marginTop: 72, maxWidth: 900, width: '100%', position: 'relative', zIndex: 1 }}>
-        {FEATURES.map(f => (
-          <div key={f.title} className="card" style={{ padding: 20 }}>
-            <div style={{ fontSize: 24, marginBottom: 10 }}>{f.icon}</div>
-            <div style={{ fontSize: 14, fontWeight: 700, marginBottom: 6 }}>{f.title}</div>
-            <div style={{ fontSize: 12, color: 'var(--muted)', lineHeight: 1.5, fontFamily: "'DM Mono', monospace" }}>{f.desc}</div>
+        {FEATURES.map((f, i) => (
+          <div key={f.title} className="card module-card slide-up" style={{ padding: 22, animationDelay: `${i * 0.08}s`, borderTop: `3px solid ${f.color}` }}>
+            <div style={{ fontSize: 28, marginBottom: 10 }}>{f.icon}</div>
+            <div style={{ fontSize: 15, fontWeight: 800, marginBottom: 6 }}>{f.title}</div>
+            <div style={{ fontSize: 13, color: 'var(--muted)', lineHeight: 1.5, fontWeight: 600 }}>{f.desc}</div>
           </div>
         ))}
       </div>
