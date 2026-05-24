@@ -57,7 +57,7 @@ export default function Quiz({ module: mod, level, onBack, onXPEarned }) {
   if (done) {
     const pct = Math.round((score / questions.length) * 100)
     const xp  = score * 15 + (pct === 100 ? 50 : 0)
-    onXPEarned?.(xp)
+    onXPEarned?.({ xp, module: mod, level, quizPerfect: pct === 100 })
     return (
       <div style={{ maxWidth: 680, margin: '0 auto', padding: 32 }}>
         {pct >= 60 && <Confetti count={pct >= 80 ? 160 : 90} />}

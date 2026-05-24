@@ -147,21 +147,23 @@ export const KANJI_INTERMEDIATE = [
 ]
 
 export const MODULES = {
-  hiragana: { beginner: HIRAGANA_BEGINNER, intermediate: HIRAGANA_BEGINNER, advanced: HIRAGANA_BEGINNER },
-  katakana: { beginner: KATAKANA_BEGINNER, intermediate: KATAKANA_BEGINNER, advanced: KATAKANA_BEGINNER },
-  kanji:    { beginner: KANJI_BEGINNER,    intermediate: KANJI_INTERMEDIATE, advanced: KANJI_INTERMEDIATE },
-  animals:  { beginner: VOCAB_ANIMALS,     intermediate: VOCAB_ANIMALS,      advanced: VOCAB_ANIMALS },
-  things:   { beginner: VOCAB_THINGS,      intermediate: VOCAB_THINGS,       advanced: VOCAB_THINGS },
-  words:    { beginner: VOCAB_WORDS,       intermediate: VOCAB_WORDS,        advanced: VOCAB_WORDS },
+  hiragana:  { beginner: HIRAGANA_BEGINNER, intermediate: HIRAGANA_BEGINNER, advanced: HIRAGANA_BEGINNER },
+  katakana:  { beginner: KATAKANA_BEGINNER, intermediate: KATAKANA_BEGINNER, advanced: KATAKANA_BEGINNER },
+  kanji:     { beginner: KANJI_BEGINNER,    intermediate: KANJI_INTERMEDIATE, advanced: KANJI_INTERMEDIATE },
+  animals:   { beginner: VOCAB_ANIMALS,     intermediate: VOCAB_ANIMALS,      advanced: VOCAB_ANIMALS },
+  things:    { beginner: VOCAB_THINGS,      intermediate: VOCAB_THINGS,       advanced: VOCAB_THINGS },
+  words:     { beginner: VOCAB_WORDS,       intermediate: VOCAB_WORDS,        advanced: VOCAB_WORDS },
+  sentences: { beginner: [], intermediate: [], advanced: [] },  // populated after SENTENCES_N5 defined
 }
 
 export const MODULE_META = {
-  hiragana: { label: 'Hiragana', color: '#3B82F6', emoji: '🔵', char: 'あ', desc: 'The foundation — 46 phonetic characters' },
-  katakana: { label: 'Katakana', color: '#EF4444', emoji: '🔴', char: 'ア', desc: 'Foreign words & loanwords — 46 characters' },
-  kanji:    { label: 'Kanji',    color: '#EAB308', emoji: '🟡', char: '漢', desc: 'Meaning-based characters — up to 2,000' },
-  animals:  { label: 'Animals',  color: '#10B981', emoji: '🐾', char: '猫', desc: 'Japanese vocabulary for animals' },
-  things:   { label: 'Things',   color: '#8B5CF6', emoji: '🏠', char: '本', desc: 'Everyday objects and things' },
-  words:    { label: 'Words',    color: '#F59E0B', emoji: '💬', char: '愛', desc: 'Common Japanese words and concepts' },
+  hiragana:  { label: 'Hiragana',  color: '#3B82F6', emoji: '🔵', char: 'あ', desc: 'The foundation — 46 phonetic characters' },
+  katakana:  { label: 'Katakana',  color: '#EF4444', emoji: '🔴', char: 'ア', desc: 'Foreign words & loanwords — 46 characters' },
+  kanji:     { label: 'Kanji',     color: '#EAB308', emoji: '🟡', char: '漢', desc: 'Meaning-based characters — N5 core set' },
+  animals:   { label: 'Animals',   color: '#10B981', emoji: '🐾', char: '猫', desc: 'Japanese vocabulary for animals' },
+  things:    { label: 'Things',    color: '#8B5CF6', emoji: '🏠', char: '本', desc: 'Everyday objects and things' },
+  words:     { label: 'Words',     color: '#F59E0B', emoji: '💬', char: '愛', desc: 'Common Japanese words and concepts' },
+  sentences: { label: 'Sentences', color: '#4D8DFF', emoji: '💭', char: '文', desc: 'Real N5–N4 sentences with grammar context' },
 }
 
 export const LEVEL_META = {
@@ -405,3 +407,112 @@ export const VOCAB_WORDS = [
   { character: '楽しい',romaji: 'tanoshii',english: 'Fun/Enjoyable',example_jp: 'パーティーは楽しい',             example_en: 'The party is fun',       mnemonic: 'Brings joy' },
   { character: '忙しい',romaji: 'isogashii',english: 'Busy',       example_jp: '今日は忙しい (kyou wa isogashii)',example_en: 'I\'m busy today',        mnemonic: 'No spare time' },
 ]
+
+// ============================================================
+// PHASE 2 — KANJI N5 EXPANSION (adds 65 more to hit ~100 total)
+// ============================================================
+export const KANJI_N5_EXTENDED = [
+  { character: '右', romaji: 'migi/u',     english: 'Right',           example_jp: '右に曲がる (migi ni magaru)',  example_en: 'Turn right',           mnemonic: 'A hand pointing right' },
+  { character: '左', romaji: 'hidari/sa',  english: 'Left',            example_jp: '左側 (hidarigawa)',           example_en: 'Left side',            mnemonic: 'A hand going left' },
+  { character: '前', romaji: 'mae/zen',    english: 'Front / Before',  example_jp: '前に進む (mae ni susumu)',    example_en: 'Move forward',         mnemonic: 'A boat going forward' },
+  { character: '後', romaji: 'ushiro/go',  english: 'Behind / After',  example_jp: '後で (ato de)',               example_en: 'Later / After',        mnemonic: 'Steps going back' },
+  { character: '女', romaji: 'onna/jo',    english: 'Woman / Female',  example_jp: '女の人 (onna no hito)',       example_en: 'A woman',              mnemonic: 'A woman kneeling' },
+  { character: '男', romaji: 'otoko/dan',  english: 'Man / Male',      example_jp: '男の子 (otoko no ko)',        example_en: 'A boy',                mnemonic: 'A field with strength' },
+  { character: '子', romaji: 'ko/shi',     english: 'Child',           example_jp: '子供 (kodomo)',               example_en: 'Child',                mnemonic: 'A child with outstretched arms' },
+  { character: '父', romaji: 'chichi/fu',  english: 'Father',          example_jp: 'お父さん (otousan)',          example_en: 'Father',               mnemonic: 'A man holding a stick' },
+  { character: '母', romaji: 'haha/bo',    english: 'Mother',          example_jp: 'お母さん (okaasan)',          example_en: 'Mother',               mnemonic: 'A woman nurturing' },
+  { character: '先', romaji: 'saki/sen',   english: 'Ahead / Previous',example_jp: '先生 (sensei)',               example_en: 'Teacher',              mnemonic: 'Going ahead with legs' },
+  { character: '生', romaji: 'sei/i',      english: 'Life / Birth',    example_jp: '学生 (gakusei)',              example_en: 'Student',              mnemonic: 'A plant growing' },
+  { character: '長', romaji: 'naga/chou',  english: 'Long / Chief',    example_jp: '長い (nagai)',                example_en: 'Long',                 mnemonic: 'A person with long hair' },
+  { character: '気', romaji: 'ki/ke',      english: 'Spirit / Energy', example_jp: '元気 (genki)',                example_en: 'Healthy / Fine',       mnemonic: 'Steam rising from rice' },
+  { character: '校', romaji: 'kou',        english: 'School',          example_jp: '学校 (gakkou)',               example_en: 'School',               mnemonic: 'A tree + a place' },
+  { character: '語', romaji: 'go/kata',    english: 'Language / Word', example_jp: '日本語 (nihongo)',            example_en: 'Japanese language',    mnemonic: 'Words from the mouth' },
+  { character: '学', romaji: 'gaku/mana',  english: 'Study / Learn',   example_jp: '勉強 (benkyou)',              example_en: 'Study',                mnemonic: 'A child learning under a roof' },
+  { character: '国', romaji: 'kuni/koku',  english: 'Country',         example_jp: '外国 (gaikoku)',              example_en: 'Foreign country',      mnemonic: 'A person inside a border' },
+  { character: '外', romaji: 'soto/gai',   english: 'Outside',         example_jp: '外国語 (gaikokugo)',          example_en: 'Foreign language',     mnemonic: 'Moon seen in the evening (outside time)' },
+  { character: '電', romaji: 'den',        english: 'Electricity',     example_jp: '電車 (densha)',               example_en: 'Train',                mnemonic: 'Rain + lightning = electric' },
+  { character: '車', romaji: 'kuruma/sha', english: 'Car / Vehicle',   example_jp: '電車 (densha)',               example_en: 'Train',                mnemonic: 'A wheel axle shape' },
+  { character: '駅', romaji: 'eki',        english: 'Station',         example_jp: '駅で待つ (eki de matsu)',    example_en: 'Wait at the station',  mnemonic: 'A horse stop' },
+  { character: '何', romaji: 'nani/nan',   english: 'What',            example_jp: '何ですか (nan desu ka)',     example_en: 'What is it?',          mnemonic: 'A person asking' },
+  { character: '今', romaji: 'ima/kon',    english: 'Now / This',      example_jp: '今日 (kyou)',                 example_en: 'Today',                mnemonic: 'A figure pointing down = now' },
+  { character: '高', romaji: 'taka/kou',   english: 'High / Expensive',example_jp: '高い (takai)',               example_en: 'Tall / Expensive',     mnemonic: 'A tall building' },
+  { character: '新', romaji: 'atara/shin', english: 'New',             example_jp: '新しい (atarashii)',         example_en: 'New',                  mnemonic: 'An axe cutting a fresh tree' },
+  { character: '白', romaji: 'shiro/haku', english: 'White',           example_jp: '白い (shiroi)',              example_en: 'White',                mnemonic: 'The sun = whiteness' },
+  { character: '赤', romaji: 'aka/seki',   english: 'Red',             example_jp: '赤い (akai)',                example_en: 'Red',                  mnemonic: 'A person on fire' },
+  { character: '青', romaji: 'ao/sei',     english: 'Blue / Green',    example_jp: '青い (aoi)',                 example_en: 'Blue',                 mnemonic: 'Plants + moon = cool blue' },
+  { character: '花', romaji: 'hana/ka',    english: 'Flower',          example_jp: '花が咲く (hana ga saku)',    example_en: 'Flowers bloom',        mnemonic: 'Plants changing beautifully' },
+  { character: '雨', romaji: 'ame/u',      english: 'Rain',            example_jp: '雨が降る (ame ga furu)',     example_en: 'It rains',             mnemonic: 'Clouds with rain drops' },
+  { character: '空', romaji: 'sora/kuu',   english: 'Sky / Empty',     example_jp: '青い空 (aoi sora)',          example_en: 'Blue sky',             mnemonic: 'A cave with emptiness above' },
+  { character: '海', romaji: 'umi/kai',    english: 'Sea / Ocean',     example_jp: '海で泳ぐ (umi de oyogu)',    example_en: 'Swim in the sea',      mnemonic: 'Water + mother = endless water' },
+  { character: '食', romaji: 'shoku/ta',   english: 'Eat / Food',      example_jp: '食べる (taberu)',            example_en: 'To eat',               mnemonic: 'A bowl with chopsticks' },
+  { character: '飲', romaji: 'in/no',      english: 'Drink',           example_jp: '飲む (nomu)',               example_en: 'To drink',             mnemonic: 'Food radical + yawn' },
+  { character: '来', romaji: 'ku/rai',     english: 'Come',            example_jp: '来る (kuru)',               example_en: 'To come',              mnemonic: 'A person approaching' },
+  { character: '出', romaji: 'de/shutsu',  english: 'Exit / Go out',   example_jp: '出る (deru)',               example_en: 'To exit',              mnemonic: 'Mountains coming up' },
+  { character: '入', romaji: 'i/nyu',      english: 'Enter',           example_jp: '入る (hairu)',              example_en: 'To enter',             mnemonic: 'An arrow going in' },
+  { character: '立', romaji: 'ta/ritsu',   english: 'Stand',           example_jp: '立つ (tatsu)',              example_en: 'To stand',             mnemonic: 'A person standing upright' },
+  { character: '分', romaji: 'fun/bun/wa', english: 'Minute / Understand', example_jp: '五分 (gofun)',         example_en: '5 minutes',            mnemonic: 'A knife dividing' },
+  { character: '時', romaji: 'toki/ji',    english: 'Time / Hour',     example_jp: '何時 (nanji)',              example_en: 'What time?',           mnemonic: 'Sun + temple = measured time' },
+  { character: '間', romaji: 'aida/kan',   english: 'Between / Space', example_jp: '時間 (jikan)',              example_en: 'Time (duration)',      mnemonic: 'Sun shining through a gate' },
+  { character: '半', romaji: 'han',        english: 'Half',            example_jp: '三時半 (sanji han)',        example_en: '3:30',                 mnemonic: 'A cow cut in half' },
+  { character: '円', romaji: 'en',         english: 'Yen / Circle',    example_jp: '百円 (hyakuen)',            example_en: '100 yen',              mnemonic: 'A round coin' },
+  { character: '毎', romaji: 'mai',        english: 'Every',           example_jp: '毎日 (mainichi)',           example_en: 'Every day',            mnemonic: 'A mother = recurring care' },
+  { character: '週', romaji: 'shuu',       english: 'Week',            example_jp: '来週 (raishuu)',            example_en: 'Next week',            mnemonic: 'A path going around' },
+  { character: '月', romaji: 'tsuki/gatsu',english: 'Moon / Month',    example_jp: '今月 (kongetsu)',           example_en: 'This month',           mnemonic: 'A crescent moon shape' },
+  { character: '曜', romaji: 'you',        english: 'Day of week',     example_jp: '月曜日 (getsuyoubi)',       example_en: 'Monday',               mnemonic: 'The sun for each weekday' },
+  { character: '夏', romaji: 'natsu/ka',   english: 'Summer',          example_jp: '夏休み (natsuyasumi)',      example_en: 'Summer vacation',      mnemonic: 'The sun blazing' },
+  { character: '冬', romaji: 'fuyu/tou',   english: 'Winter',          example_jp: '冬は寒い (fuyu wa samui)', example_en: 'Winter is cold',       mnemonic: 'Ice with cold strokes' },
+  { character: '春', romaji: 'haru/shun',  english: 'Spring',          example_jp: '春が来た (haru ga kita)',  example_en: 'Spring has come',      mnemonic: 'Sun warming the earth' },
+  { character: '秋', romaji: 'aki/shuu',   english: 'Autumn',          example_jp: '秋の葉 (aki no ha)',       example_en: 'Autumn leaves',        mnemonic: 'Grain + fire = harvest fire' },
+]
+
+// ============================================================
+// PHASE 2 — SENTENCES MODULE (N5/N4 level)
+// ============================================================
+export const SENTENCES_N5 = [
+  { character: 'わたしは学生です。',     romaji: 'Watashi wa gakusei desu.',           english: 'I am a student.',                 example_jp: 'わたしは学生です',        example_en: 'I am a student',           mnemonic: 'は = topic marker, です = polite to be' },
+  { character: 'これは本です。',          romaji: 'Kore wa hon desu.',                  english: 'This is a book.',                 example_jp: 'これは何ですか',          example_en: 'What is this?',            mnemonic: 'これ = this (close to speaker)' },
+  { character: 'あれは何ですか。',        romaji: 'Are wa nan desu ka.',                english: 'What is that (over there)?',      example_jp: 'あれは車です',           example_en: 'That is a car',            mnemonic: 'あれ = that (far from both), か = question' },
+  { character: '今、何時ですか。',        romaji: 'Ima, nanji desu ka.',                english: 'What time is it now?',            example_jp: '三時です',               example_en: 'It is 3 o\'clock',         mnemonic: '今 = now, 何時 = what time' },
+  { character: 'お名前は何ですか。',      romaji: 'Onamae wa nan desu ka.',             english: 'What is your name?',              example_jp: '田中と申します',         example_en: 'My name is Tanaka',        mnemonic: 'お名前 = honorific name' },
+  { character: 'どこに行きますか。',      romaji: 'Doko ni ikimasu ka.',                english: 'Where are you going?',            example_jp: '学校に行きます',         example_en: 'I am going to school',     mnemonic: 'どこ = where, に = direction particle' },
+  { character: 'これはいくらですか。',    romaji: 'Kore wa ikura desu ka.',             english: 'How much is this?',               example_jp: '五百円です',             example_en: 'It is 500 yen',            mnemonic: 'いくら = how much (price)' },
+  { character: 'トイレはどこですか。',    romaji: 'Toire wa doko desu ka.',             english: 'Where is the restroom?',          example_jp: 'あちらです',             example_en: 'It is over there',         mnemonic: 'Essential travel phrase!' },
+  { character: '日本語がわかりますか。',  romaji: 'Nihongo ga wakarimasu ka.',          english: 'Do you understand Japanese?',     example_jp: 'すこしわかります',       example_en: 'I understand a little',    mnemonic: 'が = subject marker, わかる = to understand' },
+  { character: 'もう一度言ってください。',romaji: 'Mou ichido itte kudasai.',           english: 'Please say it one more time.',    example_jp: 'ゆっくり話してください',  example_en: 'Please speak slowly',      mnemonic: 'もう一度 = one more time, ください = please' },
+  { character: '今日は天気がいいです。',  romaji: 'Kyou wa tenki ga ii desu.',         english: 'The weather is nice today.',      example_jp: '今日は暑いです',         example_en: 'It is hot today',          mnemonic: '天気 = weather, いい = good' },
+  { character: 'バスは何時に来ますか。',  romaji: 'Basu wa nanji ni kimasu ka.',        english: 'What time does the bus come?',    example_jp: '八時に来ます',           example_en: 'It comes at 8 o\'clock',   mnemonic: 'に here = at (specific time)' },
+  { character: '駅はどこですか。',        romaji: 'Eki wa doko desu ka.',               english: 'Where is the station?',           example_jp: 'まっすぐ行ってください', example_en: 'Please go straight',        mnemonic: '駅 = station, どこ = where' },
+  { character: 'すみません、道に迷いました。', romaji: 'Sumimasen, michi ni mayoimashita.', english: 'Excuse me, I am lost.',      example_jp: 'どこですか',             example_en: 'Where is it?',             mnemonic: '迷う = to get lost, ました = past tense' },
+  { character: 'これをください。',        romaji: 'Kore wo kudasai.',                   english: 'Please give me this.',            example_jp: 'みっつください',         example_en: 'Three please',             mnemonic: 'を = object marker, ください = please give' },
+  { character: '好きな食べ物は何ですか。',romaji: 'Sukina tabemono wa nan desu ka.',    english: 'What food do you like?',          example_jp: 'すしが好きです',         example_en: 'I like sushi',             mnemonic: '好き = like, 食べ物 = food' },
+  { character: '毎日何時に起きますか。',  romaji: 'Mainichi nanji ni okimasu ka.',      english: 'What time do you wake up every day?', example_jp: '六時に起きます',   example_en: 'I wake up at 6',           mnemonic: '毎日 = every day, 起きる = to wake up' },
+  { character: '休みの日に何をしますか。',romaji: 'Yasumi no hi ni nani wo shimasu ka.', english: 'What do you do on your day off?', example_jp: '映画を見ます',       example_en: 'I watch movies',           mnemonic: '休みの日 = day off, 何をする = what to do' },
+  { character: '日本料理が好きですか。',  romaji: 'Nihon ryouri ga suki desu ka.',      english: 'Do you like Japanese food?',      example_jp: 'はい、大好きです',       example_en: 'Yes, I love it',           mnemonic: '大好き = really like / love' },
+  { character: 'ここに座ってもいいですか。', romaji: 'Koko ni suwatte mo ii desu ka.', english: 'May I sit here?',               example_jp: 'どうぞ',                 example_en: 'Please go ahead',          mnemonic: '〜てもいい = is it okay to...' },
+]
+
+export const SENTENCES_N4 = [
+  { character: '電車が遅れています。',    romaji: 'Densha ga okurete imasu.',           english: 'The train is running late.',      example_jp: '何分遅れていますか',     example_en: 'How many minutes late?',   mnemonic: '遅れる = to be late, ています = ongoing state' },
+  { character: '明日までに終わらせます。',romaji: 'Ashita made ni owarasemasu.',         english: 'I will finish it by tomorrow.',   example_jp: 'よろしくお願いします',   example_en: 'Thank you in advance',     mnemonic: 'までに = by (deadline)' },
+  { character: 'もし時間があれば来てください。', romaji: 'Moshi jikan ga areba kite kudasai.', english: 'If you have time, please come.', example_jp: 'ぜひ来てください',    example_en: 'Please definitely come',   mnemonic: 'もし〜ば = if... then' },
+  { character: '日本に来てどのくらいになりますか。', romaji: 'Nihon ni kite dono kurai ni narimasu ka.', english: 'How long have you been in Japan?', example_jp: '三ヶ月になります', example_en: '3 months',              mnemonic: 'どのくらい = how long / how much' },
+  { character: '彼女は日本語が上手ですね。', romaji: 'Kanojo wa nihongo ga jouzu desu ne.', english: 'She is good at Japanese, isn\'t she?', example_jp: '上手になりたいです', example_en: 'I want to get better', mnemonic: '上手 = skilled, ね = seeking agreement' },
+]
+
+// ============================================================
+// PHASE 2 — WORD SUB-DECK METADATA
+// ============================================================
+export const WORD_SUB_DECKS = {
+  greetings:  { label: 'Greetings',   icon: '👋', color: '#4D8DFF', desc: 'Essential greetings and daily expressions' },
+  verbs:      { label: 'Daily Verbs', icon: '🏃', color: '#34D399', desc: 'Most-used action words for everyday life' },
+  time:       { label: 'Time',        icon: '⏰', color: '#FFB23E', desc: 'Days, time, and temporal expressions' },
+  food:       { label: 'Food',        icon: '🍱', color: '#F472B6', desc: 'Food, drinks, and dining vocabulary' },
+  places:     { label: 'Places',      icon: '🏙️', color: '#A78BFA', desc: 'Locations you\'ll navigate every day' },
+  adjectives: { label: 'Adjectives',  icon: '✨', color: '#FF5A5F', desc: 'Descriptive words to express yourself' },
+}
+
+// Update MODULES to include new content
+// Patch sentences into the MODULES object now that SENTENCES_N5/N4 are defined
+MODULES.sentences = { beginner: SENTENCES_N5, intermediate: SENTENCES_N4, advanced: SENTENCES_N4 }
+// Patch extended N5 kanji into kanji module
+MODULES.kanji.beginner = [...KANJI_BEGINNER, ...KANJI_N5_EXTENDED]

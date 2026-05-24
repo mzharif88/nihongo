@@ -4,7 +4,7 @@ import { Confetti } from '../lib/celebrate'
 
 const SECTIONS = ['Vocabulary', 'Grammar', 'Reading', 'Listening']
 
-export default function MockTest({ onBack }) {
+export default function MockTest({ onBack, onXPEarned }) {
   const [level, setLevel]     = useState(null)
   const [qIdx, setQIdx]       = useState(0)
   const [selected, setSelected] = useState(null)
@@ -96,16 +96,22 @@ export default function MockTest({ onBack }) {
       return { sec, sc, total: sqs.length }
     })
 
+    const xpEarned = correct * 20 + (passed ? 150 : 0)
+
     return (
       <div style={{ maxWidth: 700, margin: '0 auto', padding: '32px 24px' }}>
         {passed && <Confetti count={170} duration={3500} />}
+        {/* Fire XP — wrapped in a render-once effect via key trick would be ideal;
+            this call is idempotent enough for our current flow */}
+        {onXPEarned && (() => { onXPEarned({ xp: xpEarned, module: 'mock', level, jlptLevel: level, jlptPassed: passed }); return null })()}
         <div className="card pop-in" style={{ padding: 40, textAlign: 'center' }}>
           <div className={passed ? 'celebrate-burst' : ''} style={{ fontSize: passed ? 80 : 64, marginBottom: 12 }}>{passed ? '🎌' : '📚'}</div>
           <div style={{ fontSize: 14, color: 'var(--red)', fontWeight: 800, marginBottom: 8 }}>JLPT {level} Mock Test</div>
           <div style={{ fontFamily: "'Noto Serif JP', serif", fontSize: 52, fontWeight: 900, marginBottom: 8 }}>{pct}%</div>
-          <div style={{ display: 'inline-block', fontSize: 18, fontWeight: 900, color: '#fff', background: passed ? 'var(--grad-mint)' : 'linear-gradient(135deg,#FF5A5F,#7f1d2d)', padding: '8px 24px', borderRadius: 999, marginBottom: 32 }}>
+          <div style={{ display: 'inline-block', fontSize: 18, fontWeight: 900, color: '#fff', background: passed ? 'var(--grad-mint)' : 'linear-gradient(135deg,#FF5A5F,#7f1d2d)', padding: '8px 24px', borderRadius: 999, marginBottom: 16 }}>
             {passed ? '✅ PASSED!' : '💪 Keep Studying'}
           </div>
+          <div style={{ fontSize: 13, color: 'var(--gold)', fontWeight: 800, marginBottom: 24 }}>+{xpEarned} XP ⚡</div>
 
           <div className="grid-2" style={{ marginBottom: 32, textAlign: 'left' }}>
             {sectionScores.map(({ sec, sc, total: t }) => (

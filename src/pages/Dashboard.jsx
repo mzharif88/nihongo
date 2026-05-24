@@ -1,40 +1,72 @@
 import { useAuth } from '../hooks/useAuth'
+import { useProgress } from '../hooks/useProgress'
 import { MODULE_META, LEVEL_META } from '../data/content'
 
 export default function Dashboard({ onNavigate }) {
-  const { profile } = useAuth()
-  const name = profile?.display_name?.split(' ')[0] || 'Learner'
-  const xp = 0
-  const streak = 0
+  const { profile }                           = useAuth()
+  const { totalXP, streak, dueToday, earnedBadges, allBadges } = useProgress()
 
-  const hour = new Date().getHours()
+  const name     = profile?.display_name?.split(' ')[0] || 'Learner'
+  const hour     = new Date().getHours()
   const greeting = hour < 12 ? 'おはよう' : hour < 18 ? 'こんにちは' : 'こんばんは'
+
+  // XP to next milestone (every 500 XP)
+  const milestone     = Math.ceil((totalXP + 1) / 500) * 500
+  const toNextMilestone = milestone - totalXP
+  const milestoneProgress = ((500 - toNextMilestone) / 500) * 100
 
   return (
     <div className="page">
       <div className="page-title">{greeting}, {name} 👋</div>
-      <div className="page-sub">Your Japanese mastery journey. Every card gets you closer to JLPT {profile?.jlpt_goal || 'N5'}.</div>
+      <div className="page-sub">
+        Your Japanese mastery journey · JLPT goal: <strong style={{ color: 'var(--blue)' }}>{profile?.jlpt_goal || 'N5'}</strong>
+      </div>
 
       {/* Top stats */}
       <div className="grid-3" style={{ marginBottom: 32 }}>
-        {[
-          { label: 'Total XP',     value: xp.toLocaleString(), cls: 'stat-gold', sub: 'points earned' },
-          { label: 'Daily Streak', value: `🔥 ${streak}`,       cls: 'stat-red',  sub: streak ? 'Keep it going!' : 'Study today to start!' },
-          { label: 'JLPT Goal',    value: profile?.jlpt_goal || 'N5', cls: '',   sub: 'Update in Profile' },
-        ].map(s => (
-          <div key={s.label} className="card stat-card">
-            <div className="stat-label">{s.label}</div>
-            <div className={`stat-value ${s.cls}`}>{s.value}</div>
-            <div className="stat-sub">{s.sub}</div>
+        <div className="card stat-card" style={{ borderTop: '3px solid var(--gold)' }}>
+          <div className="stat-label">Total XP</div>
+          <div className="stat-value stat-gold">{totalXP.toLocaleString()}</div>
+          <div className="progress-bar" style={{ marginTop: 10 }}>
+            <div className="progress-fill" style={{ width: `${milestoneProgress}%` }} />
           </div>
-        ))}
+          <div className="stat-sub">{toNextMilestone} XP to next milestone</div>
+        </div>
+        <div className="card stat-card" style={{ borderTop: '3px solid var(--red)' }}>
+          <div className="stat-label">Daily Streak</div>
+          <div className="stat-value stat-red">🔥 {streak}</div>
+          <div className="stat-sub">{streak > 0 ? 'Keep it going!' : 'Study today to start!'}</div>
+        </div>
+        <div className="card stat-card" style={{ borderTop: '3px solid var(--blue)', cursor: 'pointer' }}
+          onClick={() => dueToday.length && onNavigate('flashcards', { module: 'review', level: 'due' })}>
+          <div className="stat-label">Due Today</div>
+          <div className="stat-value stat-blue">{dueToday.length}</div>
+          <div className="stat-sub">{dueToday.length > 0 ? '← Tap to review!' : 'All caught up 🎉'}</div>
+        </div>
       </div>
+
+      {/* Due Today queue banner */}
+      {dueToday.length > 0 && (
+        <div style={{
+          background: 'linear-gradient(135deg, rgba(77,141,255,0.15), rgba(167,139,250,0.15))',
+          border: '1px solid var(--blue)', borderRadius: 14, padding: '16px 20px',
+          marginBottom: 28, display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12,
+          cursor: 'pointer',
+        }} onClick={() => onNavigate('flashcards', { module: 'hiragana', level: 'beginner', dueMode: true })}>
+          <div>
+            <div style={{ fontWeight: 900, fontSize: 15 }}>📬 {dueToday.length} cards due for review</div>
+            <div style={{ fontSize: 13, color: 'var(--muted)', fontWeight: 600, marginTop: 2 }}>SRS queue — cards your brain is ready to reinforce</div>
+          </div>
+          <button className="btn btn-primary" style={{ whiteSpace: 'nowrap' }}>Review Now →</button>
+        </div>
+      )}
 
       {/* Modules */}
       <div className="section-label">— Study Modules</div>
       <div className="grid-3" style={{ marginBottom: 32 }}>
         {Object.entries(MODULE_META).map(([key, meta], i) => (
-          <div key={key} className="card module-card pop-in" style={{ padding: 24, cursor: 'pointer', borderTop: `3px solid ${meta.color}`, animationDelay: `${i * 0.06}s` }}
+          <div key={key} className="card module-card pop-in"
+            style={{ padding: 24, cursor: 'pointer', borderTop: `3px solid ${meta.color}`, animationDelay: `${i * 0.06}s` }}
             onClick={() => onNavigate('module', { module: key })}>
             <div style={{ fontFamily: "'Noto Serif JP', serif", fontSize: 52, marginBottom: 10, lineHeight: 1, color: meta.color }}>{meta.char}</div>
             <div style={{ fontSize: 19, fontWeight: 800, marginBottom: 4 }}>{meta.label}</div>
@@ -61,25 +93,25 @@ export default function Dashboard({ onNavigate }) {
       <div className="flex" style={{ flexWrap: 'wrap', marginBottom: 32 }}>
         <button className="btn btn-primary" onClick={() => onNavigate('flashcards', { module: 'hiragana', level: 'beginner' })}>🃏 Flashcards</button>
         <button className="btn btn-secondary" onClick={() => onNavigate('quiz', { module: 'hiragana', level: 'beginner' })}>🎮 Quick Quiz</button>
-        <button className="btn btn-secondary" onClick={() => onNavigate('mock')}>📝 JLPT Mock Test</button>
-        <button className="btn btn-secondary" onClick={() => onNavigate('resources')}>📺 Resources Hub</button>
+        <button className="btn btn-secondary" onClick={() => onNavigate('mock')}>📝 JLPT Mock</button>
+        <button className="btn btn-secondary" onClick={() => onNavigate('resources')}>📺 Resources</button>
         <button className="btn btn-secondary" onClick={() => onNavigate('leaderboard')}>🏆 Leaderboard</button>
       </div>
 
-      {/* Badges preview */}
+      {/* Badges */}
       <div className="section-label">— Badges</div>
       <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
-        {[
-          { icon: '⭐', name: 'First Steps',   earned: false },
-          { icon: '🔵', name: 'Hiragana Hero', earned: false },
-          { icon: '🔴', name: 'Katakana Master', earned: false },
-          { icon: '🟡', name: 'Kanji Crusher', earned: false },
-          { icon: '🔥', name: '7-Day Streak',  earned: false },
-          { icon: '🎌', name: 'N5 Cleared',    earned: false },
-          { icon: '🏆', name: 'N1 Champion',   earned: false },
-        ].map(b => (
-          <div key={b.name} className={`badge-chip ${b.earned ? '' : 'locked'}`}>{b.icon} {b.name}</div>
-        ))}
+        {allBadges.slice(0, 10).map(b => {
+          const earned = earnedBadges.includes(b.slug)
+          return (
+            <div key={b.slug} className={`badge-chip ${earned ? '' : 'locked'} ${earned ? 'just-earned' : ''}`}
+              style={{ cursor: earned ? 'default' : 'not-allowed' }}
+              title={earned ? `${b.name} — ${b.description}` : `Locked: ${b.description}`}>
+              {b.icon} {b.name}
+              {earned && <span style={{ fontSize: 10, color: 'var(--gold)', fontWeight: 800 }}>+{b.xp_reward}</span>}
+            </div>
+          )
+        })}
         <button className="btn btn-icon" style={{ fontSize: 12 }} onClick={() => onNavigate('profile')}>View all →</button>
       </div>
     </div>

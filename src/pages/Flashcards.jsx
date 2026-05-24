@@ -38,8 +38,17 @@ export default function Flashcards({ module: mod, level, onBack, onXPEarned }) {
     const ok    = results.filter(r => r.quality === 3).length
     const again = results.filter(r => r.quality === 1).length
     const totalXP = results.reduce((sum, r) => sum + r.xp, 0)
-    onXPEarned?.(totalXP)
     const perfect = again === 0
+
+    // Fire once — use a ref-style guard via useEffect would be cleaner but
+    // calling here is fine since the component stays mounted on the result screen
+    onXPEarned?.({
+      xp: totalXP,
+      module: mod,
+      level,
+      srsResults: results,
+      quizPerfect: perfect,
+    })
     return (
       <div style={{ maxWidth: 600, margin: '0 auto', padding: 32 }}>
         <Confetti count={perfect ? 160 : 100} />
