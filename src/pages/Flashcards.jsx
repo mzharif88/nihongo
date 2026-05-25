@@ -134,7 +134,7 @@ function SwipeCard({ card, flipped, onFlip, onSwipeLeft, onSwipeRight }) {
         position: 'absolute', inset: 0, borderRadius: 16, zIndex: 0,
         background: dragX > 40 ? 'rgba(255,178,62,0.12)' : dragX < -40 ? 'rgba(77,141,255,0.10)' : 'transparent',
         border: dragX > 40 ? '2px solid var(--gold)' : dragX < -40 ? '2px solid var(--blue)' : '2px solid transparent',
-        transition: 'all 0.1s', borderRadius: 16,
+        transition: 'all 0.1s',
         display: 'flex', alignItems: 'center', justifyContent: dragX > 40 ? 'flex-end' : 'flex-start',
         padding: '0 24px',
         pointerEvents: 'none',
