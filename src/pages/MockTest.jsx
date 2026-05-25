@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { MOCK_QUESTIONS, JLPT_LEVELS, JLPT_META } from '../data/content'
 import { Confetti } from '../lib/celebrate'
 
@@ -11,6 +11,19 @@ export default function MockTest({ onBack, onXPEarned }) {
   const [answers, setAnswers] = useState([])
   const [timeLeft, setTimeLeft] = useState(0)
   const [done, setDone]       = useState(false)
+  const xpFired = useRef(false)
+
+  // Fire XP once when done — never during render
+  useEffect(() => {
+    if (!done || xpFired.current) return
+    xpFired.current = true
+    const total   = answers.length
+    const correct = answers.filter(a => a.selected === a.q.answer).length
+    const pct     = Math.round((correct / (total || 1)) * 100)
+    const passed  = pct >= 60
+    const xp      = correct * 20 + (passed ? 150 : 0)
+    onXPEarned?.({ xp, module: 'mock', level, jlptLevel: level, jlptPassed: passed })
+  }, [done])
 
   useEffect(() => {
     if (!level || done) return
@@ -101,9 +114,6 @@ export default function MockTest({ onBack, onXPEarned }) {
     return (
       <div style={{ maxWidth: 700, margin: '0 auto', padding: '32px 24px' }}>
         {passed && <Confetti count={170} duration={3500} />}
-        {/* Fire XP — wrapped in a render-once effect via key trick would be ideal;
-            this call is idempotent enough for our current flow */}
-        {onXPEarned && (() => { onXPEarned({ xp: xpEarned, module: 'mock', level, jlptLevel: level, jlptPassed: passed }); return null })()}
         <div className="card pop-in" style={{ padding: 40, textAlign: 'center' }}>
           <div className={passed ? 'celebrate-burst' : ''} style={{ fontSize: passed ? 80 : 64, marginBottom: 12 }}>{passed ? '🎌' : '📚'}</div>
           <div style={{ fontSize: 14, color: 'var(--red)', fontWeight: 800, marginBottom: 8 }}>JLPT {level} Mock Test</div>

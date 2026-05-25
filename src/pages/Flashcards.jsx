@@ -222,6 +222,16 @@ export default function Flashcards({ module: mod, level, onBack, onXPEarned, ctx
   const [saved, setSaved]       = useState([])
   const [showLibrary, setShowLibrary] = useState(false)
   const [justSaved, setJustSaved]     = useState(false)
+  const xpFired = useRef(false)
+
+  // Fire XP once when session finishes — at top level, never during render
+  useEffect(() => {
+    if (!finished || xpFired.current) return
+    xpFired.current = true
+    const totalXP = results.reduce((sum, r) => sum + r.xp, 0)
+    const perfect = results.every(r => r.quality >= 3)
+    onXPEarned?.({ xp: totalXP, module: mod, level, srsResults: results, quizPerfect: perfect })
+  }, [finished])
 
   useEffect(() => {
     if (!user) return
@@ -273,10 +283,9 @@ export default function Flashcards({ module: mod, level, onBack, onXPEarned, ctx
   }
 
   if (finished) {
-    const savedCount   = results.filter(r => r.quality === 5).length
-    const totalXP      = results.reduce((sum, r) => sum + r.xp, 0)
-    const perfect      = results.every(r => r.quality >= 3)
-    onXPEarned?.({ xp: totalXP, module: mod, level, srsResults: results, quizPerfect: perfect })
+    const savedCount = results.filter(r => r.quality === 5).length
+    const totalXP    = results.reduce((sum, r) => sum + r.xp, 0)
+    const perfect    = results.every(r => r.quality >= 3)
     return (
       <div style={{ maxWidth: 600, margin: '0 auto', padding: 32 }}>
         <Confetti count={perfect ? 140 : 80} />

@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { MODULE_META, COLLECTION_MAP, MODULE_ALL_CARDS } from '../data/index.js'
 import { speak } from '../lib/audio'
 import { Confetti } from '../lib/celebrate'
@@ -47,6 +47,16 @@ export default function Quiz({ module: mod, level, onBack, onXPEarned, ctx }) {
   const [score, setScore]       = useState(0)
   const [done, setDone]         = useState(false)
   const [showTip, setShowTip]   = useState(false)
+  const xpFired = useRef(false)
+
+  // Fire XP once when done — never during render
+  useEffect(() => {
+    if (!done || xpFired.current || !questions.length) return
+    xpFired.current = true
+    const pct = Math.round((score / questions.length) * 100)
+    const xp  = score * 15 + (pct === 100 ? 50 : 0)
+    onXPEarned?.({ xp, module: mod, level, quizPerfect: pct === 100 })
+  }, [done])
 
   if (!questions.length) return (
     <div style={{ maxWidth: 680, margin: '0 auto', padding: 32 }}>
@@ -75,7 +85,6 @@ export default function Quiz({ module: mod, level, onBack, onXPEarned, ctx }) {
   if (done) {
     const pct = Math.round((score / questions.length) * 100)
     const xp  = score * 15 + (pct === 100 ? 50 : 0)
-    onXPEarned?.({ xp, module: mod, level, quizPerfect: pct === 100 })
     return (
       <div style={{ maxWidth: 680, margin: '0 auto', padding: 32 }}>
         {pct >= 60 && <Confetti count={pct === 100 ? 180 : 90} />}
