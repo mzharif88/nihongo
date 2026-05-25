@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "validate": "node validate.js",
+    "push": "node validate.js && git push origin main"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.106.1",
