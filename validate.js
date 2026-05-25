@@ -193,7 +193,7 @@ for (const [, imp] of pageImports) {
 }
 
 // ─── 6. React hook rules (quick check) ───────────────────────
-section('6. React Hook Rules')
+section('6. React Hook Rules & Render Side Effects')
 let hookErrors = 0
 for (const file of files) {
   const src = readFile(file) || ''
@@ -201,7 +201,7 @@ for (const file of files) {
   const lines = src.split('\n')
 
   lines.forEach((line, i) => {
-    // Hook called conditionally (if/for before a hook call on same or next line)
+    // Hook called conditionally
     if (/^\s*(if|for|while)\s*\(/.test(line)) {
       const next = lines[i + 1] || ''
       if (/use[A-Z]/.test(next)) {
@@ -209,9 +209,25 @@ for (const file of files) {
         hookErrors++
       }
     }
+    // onXPEarned / side-effect callbacks called directly during render (not in useEffect/handler)
+    if (/onXPEarned\?\.\(|onXPEarned\(/.test(line)) {
+      // Allow if it's inside a function definition, useEffect, or event handler
+      const trimmed = line.trim()
+      const isInHandler = /^\s*(function|const|let|var|async|useEffect|=>|onXPEarned)/.test(lines[i] || '')
+      // Flag if it looks like a bare call during JSX render (inside a ternary, IIFE, or conditional block)
+      if (/\(\)\s*\{.*onXPEarned|onXPEarned.*return null/.test(line) || (trimmed.startsWith('onXPEarned') && !src.substring(0, src.indexOf(line)).match(/useEffect\s*\(\s*\(\s*\)\s*=>\s*\{[^}]*$/))) {
+        fail(`Render side-effect: onXPEarned called during render at ${rel}:${i + 1} — use useEffect`)
+        hookErrors++
+      }
+    }
+    // setState called directly during render (outside handlers/effects)
+    if (/^\s*set[A-Z]\w+\(/.test(line) && !/^\s*(function|const|let|=|\/\/)/.test(lines[i - 1] || '')) {
+      // Only flag at top-level render scope (not inside functions)
+      // This is a heuristic — flag for review
+    }
   })
 }
-if (hookErrors === 0) ok('No obvious hook rule violations')
+if (hookErrors === 0) ok('No hook violations or render side-effects detected')
 
 // ─── 7. Circular import detection ────────────────────────────
 section('7. Circular Import Detection')

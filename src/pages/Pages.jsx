@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { RESOURCES, JLPT_LEVELS, MODULE_META, VOCAB_WORDS, COLLECTION_MAP } from '../data/index.js'
 import { useAuth } from '../hooks/useAuth'
 import { useProgress } from '../hooks/useProgress'
@@ -315,7 +315,6 @@ export function Onboarding({ onComplete }) {
 // ─── Daily Challenge ───────────────────────────────────────────────────────
 export function DailyChallenge({ onBack, onXPEarned }) {
   const { totalXP } = useProgress()
-
   // Date-seeded shuffle — same questions for everyone on the same day
   function seededRandom(seed) {
     let s = seed
@@ -348,6 +347,15 @@ export function DailyChallenge({ onBack, onXPEarned }) {
   const [selected, setSelected] = useState(null)
   const [score, setScore]       = useState(0)
   const [done, setDone]         = useState(false)
+  const xpFired = useRef(false)
+
+  useEffect(() => {
+    if (!done || xpFired.current || !questions.length) return
+    xpFired.current = true
+    const pct = Math.round((score / questions.length) * 100)
+    const xp  = score * 20 + (pct === 100 ? 60 : 0)
+    onXPEarned?.({ xp, module: 'daily_challenge', level: 'mixed' })
+  }, [done])
   const today = new Date().toLocaleDateString('en-MY', { weekday: 'long', month: 'short', day: 'numeric' })
 
   function handleSelect(i) {
@@ -367,7 +375,6 @@ export function DailyChallenge({ onBack, onXPEarned }) {
   if (done) {
     const pct = Math.round((score / questions.length) * 100)
     const xp  = score * 20 + (pct === 100 ? 60 : 0)
-    onXPEarned?.({ xp, module: 'daily_challenge', level: 'mixed' })
     return (
       <div style={{ maxWidth: 600, margin: '0 auto', padding: 32 }}>
         <div className="card pop-in" style={{ padding: 40, textAlign: 'center' }}>

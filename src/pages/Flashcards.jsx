@@ -173,12 +173,22 @@ function SwipeCard({ card, flipped, onFlip, onSwipeLeft, onSwipeRight }) {
         }}>
 
           {/* FRONT */}
-          <div className="card" style={{ position: 'absolute', inset: 0, backfaceVisibility: 'hidden', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: 32 }}>
-            <div style={{ fontFamily: "'Noto Serif JP', serif", fontSize: card.character?.length > 4 ? 52 : 88, fontWeight: 900, lineHeight: 1, marginBottom: 10 }}>
+          <div className="card" style={{ position: 'absolute', inset: 0, backfaceVisibility: 'hidden', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px 16px' }}>
+            <div style={{
+              fontFamily: "'Noto Serif JP', serif",
+              fontSize: card.character?.length <= 1 ? 96
+                      : card.character?.length <= 2 ? 80
+                      : card.character?.length <= 4 ? 58
+                      : card.character?.length <= 7 ? 38
+                      : card.character?.length <= 12 ? 26
+                      : 20,
+              fontWeight: 900, lineHeight: 1.25, marginBottom: 10,
+              textAlign: 'center', wordBreak: 'keep-all', width: '100%',
+            }}>
               {card.character}
             </div>
             {KANA_MAP[card.character] && (
-              <div style={{ fontFamily: "'Noto Serif JP', serif", fontSize: 20, color: 'var(--blue)', fontWeight: 500, letterSpacing: 3, marginBottom: 10 }}>
+              <div style={{ fontFamily: "'Noto Serif JP', serif", fontSize: card.character?.length > 8 ? 13 : 17, color: 'var(--blue)', fontWeight: 500, letterSpacing: 2, marginBottom: 10, textAlign: 'center' }}>
                 {KANA_MAP[card.character]}
               </div>
             )}
