@@ -3,6 +3,7 @@ import { RESOURCES, JLPT_LEVELS, MODULE_META, VOCAB_WORDS, COLLECTION_MAP } from
 import { useAuth } from '../hooks/useAuth'
 import { useProgress } from '../hooks/useProgress'
 import { supabase } from '../lib/supabase'
+import { Confetti } from '../lib/celebrate'
 
 // ─── Resources Hub ────────────────────────────────────────────────────────
 export function Resources({ onBack }) {
@@ -314,8 +315,7 @@ export function Onboarding({ onComplete }) {
 
 // ─── Daily Challenge ───────────────────────────────────────────────────────
 export function DailyChallenge({ onBack, onXPEarned }) {
-  const { totalXP } = useProgress()
-  // Date-seeded shuffle — same questions for everyone on the same day
+
   function seededRandom(seed) {
     let s = seed
     return () => { s = (s * 16807 + 0) % 2147483647; return (s - 1) / 2147483646 }
@@ -343,95 +343,157 @@ export function DailyChallenge({ onBack, onXPEarned }) {
     })
   })
 
-  const [qIdx, setQIdx]         = useState(0)
-  const [selected, setSelected] = useState(null)
-  const [score, setScore]       = useState(0)
-  const [done, setDone]         = useState(false)
+  const today = new Date().toLocaleDateString('en-MY', { weekday: 'long', month: 'short', day: 'numeric' })
+
+  const [qIdx, setQIdx]             = useState(0)
+  const [selected, setSelected]     = useState(null)
+  const [answers, setAnswers]       = useState([])
+  const [done, setDone]             = useState(false)
+  const [showReview, setShowReview] = useState(false)
   const xpFired = useRef(false)
 
+  // Derived score — never stale
+  const correctCount = answers.filter(a => a.correct).length
+  const pct = questions.length ? Math.round((correctCount / questions.length) * 100) : 0
+  const xp  = correctCount * 20 + (pct === 100 ? 60 : 0)
+
   useEffect(() => {
-    if (!done || xpFired.current || !questions.length) return
+    if (!done || xpFired.current) return
     xpFired.current = true
-    const pct = Math.round((score / questions.length) * 100)
-    const xp  = score * 20 + (pct === 100 ? 60 : 0)
     onXPEarned?.({ xp, module: 'daily_challenge', level: 'mixed' })
   }, [done])
-  const today = new Date().toLocaleDateString('en-MY', { weekday: 'long', month: 'short', day: 'numeric' })
 
   function handleSelect(i) {
     if (selected !== null) return
+    const correct = i === questions[qIdx].answer
     setSelected(i)
-    if (i === questions[qIdx].answer) setScore(s => s + 1)
+    setAnswers(prev => [...prev, {
+      qIdx, selected: i, correct,
+      card: questions[qIdx].card,
+      answer: questions[qIdx].answer,
+      options: questions[qIdx].options
+    }])
   }
 
   function handleNext() {
-    if (qIdx + 1 >= questions.length) { setDone(true); return }
-    setQIdx(i => i + 1)
-    setSelected(null)
+    if (qIdx + 1 >= questions.length) { setDone(true) }
+    else { setQIdx(i => i + 1); setSelected(null) }
   }
 
-  const q = questions[qIdx]
-
+  // ── Result screen ─────────────────────────────────────────────
   if (done) {
-    const pct = Math.round((score / questions.length) * 100)
-    const xp  = score * 20 + (pct === 100 ? 60 : 0)
+    const perfect = pct === 100
+    const great   = pct >= 60
     return (
-      <div style={{ maxWidth: 600, margin: '0 auto', padding: 32 }}>
-        <div className="card pop-in" style={{ padding: 40, textAlign: 'center' }}>
-          <div className="celebrate-burst">{pct === 100 ? '🌟' : pct >= 60 ? '🎉' : '💪'}</div>
-          <div style={{ fontSize: 26, fontWeight: 900, margin: '12px 0 4px' }}>Daily Challenge Done!</div>
-          <div style={{ fontSize: 14, color: 'var(--muted)', fontWeight: 600, marginBottom: 20 }}>{today}</div>
-          <div style={{ fontSize: 52, fontWeight: 900, color: pct >= 60 ? 'var(--green)' : 'var(--red)', marginBottom: 4 }}>{score}/{questions.length}</div>
-          <div style={{ display: 'inline-block', fontSize: 16, fontWeight: 900, color: '#fff', background: 'var(--grad-fun)', padding: '8px 24px', borderRadius: 999, marginBottom: 28 }}>+{xp} XP ⚡</div>
-          <div style={{ fontSize: 13, color: 'var(--muted)', fontWeight: 600, marginBottom: 24 }}>Come back tomorrow for a new challenge!</div>
-          <button className="btn btn-secondary" onClick={onBack}>← Back to Home</button>
+      <div style={{ maxWidth: 600, margin: '0 auto', padding: '24px 20px' }}>
+        {great && <Confetti count={perfect ? 180 : 100} duration={3500} />}
+        <div className="card pop-in" style={{ padding: 36, textAlign: 'center', marginBottom: 16 }}>
+          <div className="celebrate-burst" style={{ fontSize: 72, marginBottom: 4 }}>
+            {perfect ? '🌟' : pct >= 80 ? '🏆' : pct >= 60 ? '🎉' : '💪'}
+          </div>
+          <div style={{ fontSize: 26, fontWeight: 900, marginBottom: 4 }}>
+            {perfect ? 'Perfect Score!' : great ? 'Well Done!' : 'Keep Practicing!'}
+          </div>
+          <div style={{ fontSize: 13, color: 'var(--muted)', fontWeight: 600, marginBottom: 24 }}>{today}</div>
+          <div style={{ marginBottom: 20 }}>
+            <div style={{ fontSize: 64, fontWeight: 900, lineHeight: 1, color: perfect ? 'var(--gold)' : great ? 'var(--green)' : 'var(--red)' }}>
+              {correctCount}<span style={{ fontSize: 32, color: 'var(--muted)' }}>/{questions.length}</span>
+            </div>
+            <div style={{ fontSize: 13, color: 'var(--muted)', fontWeight: 700 }}>{pct}% correct</div>
+          </div>
+          <div style={{ display: 'inline-block', margin: '0 auto 24px', fontSize: 18, fontWeight: 900, color: '#fff', background: 'var(--grad-fun)', padding: '10px 28px', borderRadius: 999, boxShadow: '0 4px 16px rgba(255,90,95,0.4)' }}>
+            +{xp} XP earned ⚡
+          </div>
+          <div style={{ display: 'flex', justifyContent: 'center', gap: 8, marginBottom: 16 }}>
+            {answers.map((a, i) => (
+              <div key={i} style={{
+                width: 36, height: 36, borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center',
+                fontSize: 16, fontWeight: 900,
+                background: a.correct ? 'rgba(52,211,153,0.15)' : 'rgba(255,90,95,0.15)',
+                border: `2px solid ${a.correct ? 'var(--green)' : 'var(--red)'}`,
+                color: a.correct ? 'var(--green)' : 'var(--red)',
+              }}>{a.correct ? '✓' : '✗'}</div>
+            ))}
+          </div>
+          {great && <div style={{ fontSize: 13, color: 'var(--gold)', fontWeight: 700, marginBottom: 20 }}>🔥 Daily challenge complete — your streak continues!</div>}
+          <div style={{ display: 'flex', gap: 10, justifyContent: 'center', flexWrap: 'wrap' }}>
+            <button className="btn btn-secondary" onClick={() => setShowReview(r => !r)}>
+              {showReview ? 'Hide Answers' : '📋 Review Answers'}
+            </button>
+            <button className="btn btn-primary" onClick={onBack}>← Back to Home</button>
+          </div>
         </div>
+        {showReview && (
+          <div className="slide-up">
+            {answers.map((a, i) => (
+              <div key={i} className="card" style={{ padding: '16px 20px', marginBottom: 10, borderLeft: `3px solid ${a.correct ? 'var(--green)' : 'var(--red)'}` }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>
+                  <div style={{ fontFamily: "'Noto Serif JP', serif", fontSize: 24, fontWeight: 900 }}>{a.card.character}</div>
+                  <div style={{ fontSize: 12, fontWeight: 800, color: a.correct ? 'var(--green)' : 'var(--red)' }}>{a.correct ? '✓ Correct' : '✗ Wrong'}</div>
+                </div>
+                <div style={{ fontSize: 13, fontWeight: 700, color: 'var(--green)', marginBottom: 2 }}>✓ {a.options[a.answer]}</div>
+                {!a.correct && <div style={{ fontSize: 12, color: 'var(--red)', fontWeight: 600 }}>You picked: {a.options[a.selected]}</div>}
+                {a.card.mnemonic && <div style={{ fontSize: 11, color: 'var(--gold)', fontWeight: 600, marginTop: 6 }}>💡 {a.card.mnemonic}</div>}
+              </div>
+            ))}
+          </div>
+        )}
       </div>
     )
   }
 
+  // ── Question screen ───────────────────────────────────────────
+  const q = questions[qIdx]
   return (
     <div style={{ maxWidth: 600, margin: '0 auto', padding: '32px 24px' }}>
       <button className="btn btn-secondary" onClick={onBack} style={{ marginBottom: 16 }}>← Back</button>
-      <div style={{ textAlign: 'center', marginBottom: 24 }}>
+      <div style={{ textAlign: 'center', marginBottom: 20 }}>
         <div style={{ fontSize: 11, fontWeight: 800, letterSpacing: 1, textTransform: 'uppercase', color: 'var(--gold)', marginBottom: 4 }}>⚡ Daily Challenge</div>
         <div style={{ fontSize: 22, fontWeight: 900 }}>{today}</div>
-        <div style={{ fontSize: 13, color: 'var(--muted)', fontWeight: 600 }}>Same questions for all learners today · {qIdx + 1} of {questions.length}</div>
+        <div style={{ fontSize: 13, color: 'var(--muted)', fontWeight: 600 }}>Question {qIdx + 1} of {questions.length}</div>
+      </div>
+      <div style={{ display: 'flex', justifyContent: 'center', gap: 8, marginBottom: 16 }}>
+        {questions.map((_, i) => (
+          <div key={i} style={{
+            width: 12, height: 12, borderRadius: '50%', transition: 'all 0.3s',
+            background: i < answers.length ? (answers[i].correct ? 'var(--green)' : 'var(--red)') : i === qIdx ? 'var(--gold)' : 'var(--border)',
+          }} />
+        ))}
       </div>
       <div className="progress-bar" style={{ marginBottom: 24 }}>
-        <div className="progress-fill" style={{ width: `${((qIdx) / questions.length) * 100}%` }} />
+        <div className="progress-fill" style={{ width: `${(qIdx / questions.length) * 100}%` }} />
       </div>
-      <div className="card" style={{ padding: 32, marginBottom: 20, textAlign: 'center' }}>
+      <div className="card pop-in" key={qIdx} style={{ padding: 32, marginBottom: 16, textAlign: 'center' }}>
         <div style={{ fontSize: 13, color: 'var(--muted)', fontWeight: 700, marginBottom: 16 }}>What does this mean?</div>
-        <div style={{ fontFamily: "'Noto Serif JP', serif", fontSize: 72, fontWeight: 900, lineHeight: 1, marginBottom: 12 }}>{q.card.character}</div>
-        <div style={{ fontSize: 13, color: 'var(--muted)', fontWeight: 600 }}>{q.card.romaji}</div>
+        <div style={{ fontFamily: "'Noto Serif JP', serif", fontSize: 72, fontWeight: 900, lineHeight: 1, marginBottom: 8 }}>{q.card.character}</div>
+        <div style={{ fontSize: 14, color: 'var(--muted)', fontWeight: 600 }}>{q.card.romaji}</div>
       </div>
-      <div className="grid-2" style={{ marginBottom: 16 }}>
+      <div className="grid-2" style={{ marginBottom: 14 }}>
         {q.options.map((opt, i) => {
-          let border = 'var(--border)', color = 'var(--text)', bg = 'var(--bg3)'
+          let border = 'var(--border)', color = 'var(--text)', bg = 'var(--bg3)', icon = ''
           if (selected !== null) {
-            if (i === q.answer)              { border = 'var(--green)'; color = 'var(--green)'; bg = 'rgba(52,211,153,0.1)' }
-            if (i === selected && i !== q.answer) { border = 'var(--red)'; color = 'var(--red)'; bg = 'rgba(255,90,95,0.08)' }
+            if (i === q.answer)                        { border = 'var(--green)'; color = 'var(--green)'; bg = 'rgba(52,211,153,0.12)'; icon = ' ✓' }
+            else if (i === selected && i !== q.answer) { border = 'var(--red)';   color = 'var(--red)';   bg = 'rgba(255,90,95,0.10)';  icon = ' ✗' }
           }
           return (
-            <div key={i} onClick={() => handleSelect(i)}
-              style={{ background: bg, border: `1px solid ${border}`, color, padding: 16, borderRadius: 12, cursor: selected ? 'default' : 'pointer', fontSize: 15, fontWeight: 700, textAlign: 'center', transition: 'all 0.15s' }}>
-              {opt}
-            </div>
+            <div key={i} onClick={() => handleSelect(i)} style={{
+              background: bg, border: `2px solid ${border}`, color, padding: '16px 12px', borderRadius: 12,
+              cursor: selected !== null ? 'default' : 'pointer', fontSize: 15, fontWeight: 700, textAlign: 'center',
+              transition: 'all 0.2s cubic-bezier(0.34,1.56,0.64,1)',
+              transform: selected !== null && i === q.answer ? 'scale(1.02)' : 'scale(1)',
+            }}>{opt}{icon}</div>
           )
         })}
       </div>
+      {selected !== null && selected !== q.answer && q.card.mnemonic && (
+        <div className="slide-up" style={{ background: 'rgba(255,178,62,0.08)', border: '1px solid var(--gold-dim)', borderRadius: 12, padding: '12px 16px', marginBottom: 12, fontSize: 13, color: 'var(--gold)', fontWeight: 700 }}>
+          💡 {q.card.mnemonic}
+        </div>
+      )}
       {selected !== null && (
-        <>
-          {selected !== q.answer && q.card.mnemonic && (
-            <div style={{ background: 'rgba(255,178,62,0.08)', border: '1px solid var(--gold-dim)', borderRadius: 12, padding: '12px 16px', marginBottom: 12, fontSize: 13, color: 'var(--gold)', fontWeight: 700 }}>
-              💡 {q.card.mnemonic}
-            </div>
-          )}
-          <button className="btn btn-primary" style={{ width: '100%', justifyContent: 'center', padding: 14 }} onClick={handleNext}>
-            {qIdx + 1 >= questions.length ? 'See Results 🎯' : 'Next →'}
-          </button>
-        </>
+        <button className="btn btn-primary pop-in" style={{ width: '100%', justifyContent: 'center', padding: 16, fontSize: 16 }} onClick={handleNext}>
+          {qIdx + 1 >= questions.length ? '🎯 See Results' : 'Next Question →'}
+        </button>
       )}
     </div>
   )
