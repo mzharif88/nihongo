@@ -171,13 +171,29 @@ export function Profile({ onBack }) {
 
       {/* JLPT goal */}
       <div className="section-label">— JLPT Goal</div>
-      <div className="card" style={{ padding: 20, marginBottom: 28 }}>
+      <div className="card" style={{ padding: 20, marginBottom: 20 }}>
         <div style={{ fontSize: 13, color: 'var(--muted)', fontWeight: 600, marginBottom: 12 }}>Which JLPT level are you working toward?</div>
         <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
           {JLPT_LEVELS.map(lv => (
             <button key={lv} onClick={() => handleGoal(lv)} className={`btn ${goal === lv ? 'btn-primary' : 'btn-secondary'}`}
               style={{ padding: '8px 20px', fontSize: 14 }}>{lv}</button>
           ))}
+        </div>
+      </div>
+
+      {/* Font size preference */}
+      <div className="section-label">— Display</div>
+      <div className="card" style={{ padding: 20, marginBottom: 28 }}>
+        <div style={{ fontSize: 13, color: 'var(--muted)', fontWeight: 600, marginBottom: 12 }}>Card text size</div>
+        <div style={{ display: 'flex', gap: 8 }}>
+          {[['normal','A Normal'], ['large','A+ Large'], ['xlarge','A++ X-Large']].map(([val, label]) => {
+            const current = (typeof document !== 'undefined' && document.documentElement.dataset.fontsize) || 'normal'
+            return (
+              <button key={val} onClick={() => document.documentElement.dataset.fontsize = val}
+                className={`btn ${current === val ? 'btn-primary' : 'btn-secondary'}`}
+                style={{ padding: '8px 16px', fontSize: 13 }}>{label}</button>
+            )
+          })}
         </div>
       </div>
 

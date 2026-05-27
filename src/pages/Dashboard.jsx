@@ -122,6 +122,14 @@ export default function Dashboard({ onNavigate }) {
           <div style={{ fontSize: 16, fontWeight: 800, marginBottom: 4 }}>Sentence Builder</div>
           <div style={{ fontSize: 11, color: 'var(--muted)', fontWeight: 600 }}>Color-coded grammar — see how sentences are built</div>
         </div>
+        {/* Grammar — fill-in-the-blank */}
+        <div className="card module-card pop-in"
+          style={{ padding: 20, cursor: 'pointer', borderTop: '3px solid var(--purple)', animationDelay: '0.2s' }}
+          onClick={() => onNavigate('grammar')}>
+          <div style={{ fontSize: 36, marginBottom: 6, lineHeight: 1 }}>📐</div>
+          <div style={{ fontSize: 16, fontWeight: 800, marginBottom: 4 }}>Grammar</div>
+          <div style={{ fontSize: 11, color: 'var(--muted)', fontWeight: 600 }}>Fill-in-the-blank — particles, verb forms, N5→N4</div>
+        </div>
       </div>
 
       {/* Quick actions */}

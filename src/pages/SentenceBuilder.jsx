@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { SENTENCE_PATTERNS } from '../data/index.js'
+import { SENTENCE_PATTERNS, KANJI_RADICALS } from '../data/index.js'
 
 // Color scheme for each part type
 const TYPE_COLORS = {
@@ -142,9 +142,38 @@ export default function SentenceBuilder({ onBack }) {
         )}
 
         {/* Grammar note toggle */}
-        <button className="btn btn-icon" onClick={() => setShowNote(n => !n)} style={{ fontSize: 13 }}>
+        <button className="btn btn-icon" onClick={() => setShowNote(n => !n)} style={{ fontSize: 13, marginRight: 8 }}>
           📝 {showNote ? 'Hide' : 'Show'} grammar note
         </button>
+
+        {/* Kanji radicals for parts that have them */}
+        {(() => {
+          const kanjiParts = pattern.parts.filter(p => KANJI_RADICALS[p.text])
+          if (!kanjiParts.length) return null
+          return (
+            <details style={{ marginTop: 12 }}>
+              <summary style={{ cursor: 'pointer', fontSize: 13, fontWeight: 800, color: 'var(--gold)', padding: '8px 0' }}>
+                🀄 Kanji breakdown ({kanjiParts.length} characters)
+              </summary>
+              <div style={{ marginTop: 10, display: 'flex', gap: 16, flexWrap: 'wrap' }}>
+                {kanjiParts.map((p, i) => (
+                  <div key={i} style={{ background: 'var(--bg3)', borderRadius: 12, padding: '12px 16px', border: '1px solid var(--border)' }}>
+                    <div style={{ fontFamily: "'Noto Serif JP', serif", fontSize: 28, fontWeight: 900, textAlign: 'center', marginBottom: 8 }}>{p.text}</div>
+                    <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', justifyContent: 'center' }}>
+                      {KANJI_RADICALS[p.text].map((r, j) => (
+                        <div key={j} className="radical-chip">
+                          <span className="radical-char">{r.char}</span>
+                          <span className="radical-label">{r.meaning}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </details>
+          )
+        })()}
+
         {showNote && (
           <div className="slide-up" style={{ marginTop: 12, padding: '14px 18px', background: 'rgba(255,178,62,0.08)', border: '1px solid rgba(255,178,62,0.3)', borderRadius: 10, fontSize: 14, color: 'var(--text)', fontWeight: 600, lineHeight: 1.7 }}>
             💡 {pattern.note}

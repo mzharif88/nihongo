@@ -321,7 +321,7 @@ for (const [file, exports] of Object.entries(requiredExports)) {
 
 // ─── 11. Route completeness ───────────────────────────────────
 section('11. Route Completeness')
-const expectedScreens = ['landing', 'dashboard', 'module', 'flashcards', 'quiz', 'mock', 'daily', 'leaderboard', 'resources', 'profile', 'builder']
+const expectedScreens = ['landing', 'dashboard', 'module', 'flashcards', 'quiz', 'mock', 'daily', 'leaderboard', 'resources', 'profile', 'builder', 'grammar']
 for (const screen of expectedScreens) {
   if (appSrc.includes(`screen === '${screen}'`)) ok(`Route "${screen}" handled`)
   else fail(`Route "${screen}" missing from App.jsx`)
