@@ -174,18 +174,20 @@ function SwipeCard({ card, allCards, onNext, onSave, onRepeat }) {
         )}
       </div>
 
-      {/* Answer feedback overlay — outside 3D container so animations work */}
+      {/* Answer feedback — fixed fullscreen flash, impossible to miss */}
       {!flipped && answer !== null && (
         <div style={{
-          position:'absolute', inset:0, borderRadius:16, zIndex:10, pointerEvents:'none',
-          border: `3px solid ${answer.correct ? 'var(--green)' : 'var(--red)'}`,
-          background: answer.correct ? 'rgba(52,211,153,0.10)' : 'rgba(255,90,95,0.08)',
-          animation: answer.correct ? 'correctFlash 0.65s ease forwards' : 'wrongFlash 0.4s ease forwards',
+          position:'fixed', inset:0, zIndex:999, pointerEvents:'none',
+          background: answer.correct ? 'rgba(52,211,153,0.25)' : 'rgba(255,90,95,0.20)',
+          animation: 'answerFlash 0.6s ease forwards',
           display:'flex', alignItems:'center', justifyContent:'center',
         }}>
-          {answer.correct && (
-            <div style={{ fontSize:80, animation:'popIn 0.4s cubic-bezier(0.34,1.56,0.64,1)' }}>✅</div>
-          )}
+          <div style={{
+            fontSize:120,
+            animation:'popIn 0.35s cubic-bezier(0.34,1.56,0.64,1)',
+          }}>
+            {answer.correct ? '✅' : '❌'}
+          </div>
         </div>
       )}
 
