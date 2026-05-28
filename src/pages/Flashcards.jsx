@@ -105,10 +105,10 @@ function SwipeCard({ card, allCards, onNext, onSave, onRepeat }) {
   function pickAnswer(i) {
     if (flipped || answer !== null) return
     const correct = i === answerIdx
-    // Set answer and correct atomically — one single state object, never split
     setAnswer({ idx: i, correct })
     speak(card.character)
-    setTimeout(() => setFlipped(true), 300)
+    // Longer delay when correct so user sees the green flash
+    setTimeout(() => setFlipped(true), correct ? 700 : 500)
   }
 
   // ── Swipe / drag handlers ─────────────────────────────────────
@@ -193,13 +193,40 @@ function SwipeCard({ card, allCards, onNext, onSave, onRepeat }) {
         }}>
 
           {/* ── FRONT — character + kana + 4 answer options ── */}
-          <div className="card" style={{ backfaceVisibility:'hidden', padding:'20px 16px' }}>
+          <div className="card" style={{
+            backfaceVisibility:'hidden', padding:'20px 16px',
+            // Green border glow when correct, red when wrong
+            transition: 'border-color 0.15s, box-shadow 0.15s',
+            border: answer !== null
+              ? answer.correct
+                ? '2px solid var(--green)'
+                : '2px solid var(--red)'
+              : '1px solid var(--border)',
+            boxShadow: answer?.correct
+              ? '0 0 28px rgba(52,211,153,0.5), inset 0 0 20px rgba(52,211,153,0.08)'
+              : answer?.correct === false
+              ? '0 0 20px rgba(255,90,95,0.3)'
+              : 'none',
+            animation: answer?.correct === true ? 'correctFlash 0.65s ease' : answer?.correct === false ? 'wrongFlash 0.4s ease' : 'none',
+          }}>
             {/* Character */}
-            <div style={{ textAlign:'center', marginBottom:12, cursor:'default' }}>
+            <div style={{ textAlign:'center', marginBottom:12, cursor:'default', position:'relative' }}>
+              {/* Big ✓ burst when correct */}
+              {answer?.correct === true && (
+                <div style={{
+                  position:'absolute', inset:0, display:'flex', alignItems:'center', justifyContent:'center',
+                  fontSize:72, pointerEvents:'none', zIndex:10,
+                  animation:'popIn 0.4s cubic-bezier(0.34,1.56,0.64,1)',
+                }}>
+                  ✅
+                </div>
+              )}
               <div style={{
                 fontFamily:"'Noto Serif JP',serif",
                 fontSize: card.character?.length <= 1 ? 88 : card.character?.length <= 2 ? 72 : card.character?.length <= 4 ? 54 : card.character?.length <= 7 ? 36 : card.character?.length <= 12 ? 26 : 20,
                 fontWeight:900, lineHeight:1.2, marginBottom:6,
+                transition:'opacity 0.2s',
+                opacity: answer?.correct === true ? 0.3 : 1,
               }}>
                 {card.character}
               </div>
