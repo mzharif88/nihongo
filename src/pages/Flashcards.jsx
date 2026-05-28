@@ -252,16 +252,18 @@ function SwipeCard({ card, allCards, onNext, onSave, onRepeat }) {
 
           {/* ── BACK — full answer reveal ── */}
           <div className="card" style={{ backfaceVisibility:'hidden', transform:'rotateY(180deg)', position:'absolute', inset:0, padding:'20px 16px', display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center' }}>
-            {/* Result badge */}
-            <div style={{
-              fontSize:13, fontWeight:900, letterSpacing:1, marginBottom:10,
-              color: isCorrect ? 'var(--green)' : 'var(--red)',
-              background: isCorrect ? 'rgba(52,211,153,0.12)' : 'rgba(255,90,95,0.10)',
-              border: `1px solid ${isCorrect ? 'var(--green)' : 'var(--red)'}`,
-              padding:'4px 14px', borderRadius:999,
-            }}>
-              {isCorrect ? '✅ Correct!' : `❌ It was「${card.english}」`}
-            </div>
+            {/* Result badge — only shown after answer picked */}
+            {answer !== null && (
+              <div style={{
+                fontSize:13, fontWeight:900, letterSpacing:1, marginBottom:10,
+                color: answer.correct ? 'var(--green)' : 'var(--red)',
+                background: answer.correct ? 'rgba(52,211,153,0.12)' : 'rgba(255,90,95,0.10)',
+                border: `1px solid ${answer.correct ? 'var(--green)' : 'var(--red)'}`,
+                padding:'4px 14px', borderRadius:999,
+              }}>
+                {answer.correct ? '✅ Correct!' : `❌ It was「${card.english}」`}
+              </div>
+            )}
 
             <button className="btn btn-icon" style={{ marginBottom:10, fontSize:12 }}
               onClick={e => { e.stopPropagation(); speak(card.character) }}>🔊 Play</button>
