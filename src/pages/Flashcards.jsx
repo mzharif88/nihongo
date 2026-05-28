@@ -132,9 +132,9 @@ function SwipeCard({ card, allCards, onNext, onSave, onRepeat }) {
     const totalDy = getY(e.changedTouches?.[0] || e) - startY.current
     setIsDragging(false); setDragX(0)
 
-    // Tap = flip (only if not yet answered)
+    // Tap = flip only if no answer options (grammar/sentence cards)
     if (Math.abs(totalDx) < 12 && Math.abs(totalDy) < 12) {
-      if (!flipped && answer === null) setFlipped(f => !f)
+      if (!flipped && answer === null && options.length === 0) setFlipped(f => !f)
       return
     }
 
@@ -243,7 +243,10 @@ function SwipeCard({ card, allCards, onNext, onSave, onRepeat }) {
                       else                                               { bg='var(--bg3)'; border='var(--border)'; color='var(--muted)' }
                     }
                     return (
-                      <div key={i} onClick={() => pickAnswer(i)} style={{
+                      <div key={i}
+                        onClick={e => { e.stopPropagation(); pickAnswer(i) }}
+                        onTouchEnd={e => { e.stopPropagation(); pickAnswer(i) }}
+                        style={{
                         background:bg, border:`2px solid ${border}`, color,
                         padding:'13px 10px', borderRadius:12,
                         cursor: answer !== null ? 'default' : 'pointer',
