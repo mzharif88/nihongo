@@ -22,12 +22,31 @@ function shuffle(arr) {
   return a
 }
 
-// Build 4 answer options for a card from the pool
+// Build 4 answer options — case-insensitive, deduplicated pool
 function buildOptions(card, allCards) {
-  const wrong = shuffle(allCards.filter(c => c.character !== card.character && c.english !== card.english))
-    .slice(0, 3).map(c => c.english)
-  const opts  = shuffle([card.english, ...wrong])
-  return { options: opts, answerIdx: opts.indexOf(card.english) }
+  const cardEnglish = (card.english || '').trim()
+  if (!cardEnglish) return { options: [], answerIdx: 0 }
+
+  // Only use cards that have valid english answers (filters out grammar exercises etc.)
+  const validPool = allCards.filter(c => c.english && c.character)
+
+  // Deduplicate pool by english (case-insensitive) to avoid duplicate wrong answers
+  const seen = new Set([cardEnglish.toLowerCase()])
+  const pool = validPool.filter(c => {
+    const e = (c.english || '').trim()
+    if (!e || e.toLowerCase() === cardEnglish.toLowerCase()) return false
+    if (seen.has(e.toLowerCase())) return false
+    seen.add(e.toLowerCase())
+    return true
+  })
+
+  const wrong = shuffle(pool).slice(0, 3).map(c => c.english.trim())
+  // Fallback if not enough wrong options
+  while (wrong.length < 3) wrong.push(['(none)', '—', '...'][wrong.length] || '—')
+  const opts  = shuffle([cardEnglish, ...wrong])
+  // Use case-insensitive indexOf to find the answer
+  const answerIdx = opts.findIndex(o => o.toLowerCase() === cardEnglish.toLowerCase())
+  return { options: opts, answerIdx }
 }
 
 // ─── Saved Library ─────────────────────────────────────────────
@@ -188,39 +207,44 @@ function SwipeCard({ card, allCards, onNext, onSave, onRepeat }) {
               )}
             </div>
 
-            {/* Divider */}
-            <div style={{ height:1, background:'var(--border)', margin:'12px 0', opacity:0.5 }} />
-
-            {/* 4 answer options */}
-            <div style={{ fontSize:11, fontWeight:800, textTransform:'uppercase', letterSpacing:1, color:'var(--muted)', textAlign:'center', marginBottom:10 }}>
-              What does this mean?
-            </div>
-            <div className="grid-2" style={{ gap:10 }}>
-              {options.map((opt, i) => {
-                // Colors: before selection — neutral; after — green for correct, red for wrong pick
-                let bg = 'var(--bg3)', border = 'var(--border)', color = 'var(--text)', scale = 'scale(1)'
-                if (selectedIdx !== null) {
-                  if (i === answerIdx)                         { bg='rgba(52,211,153,0.14)'; border='var(--green)'; color='var(--green)'; scale='scale(1.03)' }
-                  else if (i === selectedIdx && !isCorrect)   { bg='rgba(255,90,95,0.12)';  border='var(--red)';   color='var(--red)' }
-                  else                                         { bg='var(--bg3)'; border='var(--border)'; color='var(--muted)' }
-                }
-                return (
-                  <div key={i} onClick={() => pickAnswer(i)} style={{
-                    background:bg, border:`2px solid ${border}`, color,
-                    padding:'13px 10px', borderRadius:12,
-                    cursor: selectedIdx !== null ? 'default' : 'pointer',
-                    fontSize:14, fontWeight:700, textAlign:'center',
-                    transition:'all 0.2s cubic-bezier(0.34,1.56,0.64,1)',
-                    transform: scale, minHeight:48,
-                    display:'flex', alignItems:'center', justifyContent:'center',
-                  }}>
-                    {opt}
-                    {selectedIdx !== null && i === answerIdx && ' ✓'}
-                    {selectedIdx !== null && i === selectedIdx && !isCorrect && ' ✗'}
-                  </div>
-                )
-              })}
-            </div>
+            {/* 4 answer options — only for vocab cards with english */}
+            {card.english && options.length > 0 && (
+              <>
+                <div style={{ height:1, background:'var(--border)', margin:'12px 0', opacity:0.5 }} />
+                <div style={{ fontSize:11, fontWeight:800, textTransform:'uppercase', letterSpacing:1, color:'var(--muted)', textAlign:'center', marginBottom:10 }}>
+                  What does this mean?
+                </div>
+                <div className="grid-2" style={{ gap:10 }}>
+                  {options.map((opt, i) => {
+                    let bg = 'var(--bg3)', border = 'var(--border)', color = 'var(--text)', scale = 'scale(1)'
+                    if (selectedIdx !== null) {
+                      if (i === answerIdx)                         { bg='rgba(52,211,153,0.14)'; border='var(--green)'; color='var(--green)'; scale='scale(1.03)' }
+                      else if (i === selectedIdx && !isCorrect)   { bg='rgba(255,90,95,0.12)';  border='var(--red)';   color='var(--red)' }
+                      else                                          { bg='var(--bg3)'; border='var(--border)'; color='var(--muted)' }
+                    }
+                    return (
+                      <div key={i} onClick={() => pickAnswer(i)} style={{
+                        background:bg, border:`2px solid ${border}`, color,
+                        padding:'13px 10px', borderRadius:12,
+                        cursor: selectedIdx !== null ? 'default' : 'pointer',
+                        fontSize:14, fontWeight:700, textAlign:'center',
+                        transition:'all 0.2s cubic-bezier(0.34,1.56,0.64,1)',
+                        transform: scale, minHeight:48,
+                        display:'flex', alignItems:'center', justifyContent:'center',
+                      }}>
+                        {opt}
+                        {selectedIdx !== null && i === answerIdx && ' ✓'}
+                        {selectedIdx !== null && i === selectedIdx && !isCorrect && ' ✗'}
+                      </div>
+                    )
+                  })}
+                </div>
+              </>
+            )}
+            {/* Grammar/sentence cards — just show tap to reveal */}
+            {(!card.english || options.length === 0) && (
+              <div style={{ textAlign:'center', fontSize:12, color:'var(--muted)', fontWeight:700, letterSpacing:1, textTransform:'uppercase', marginTop:16 }}>tap to reveal</div>
+            )}
           </div>
 
           {/* ── BACK — full answer reveal ── */}

@@ -407,7 +407,7 @@ export const ANIMALS_C3 = [ // Sea & insects
   { character: 'イカ',   romaji: 'ika',     english: 'Squid',      example_jp: 'イカが泳ぐ',         example_en: 'Squid swims',           mnemonic: 'Ink creature' },
   { character: 'カニ',   romaji: 'kani',    english: 'Crab',       example_jp: 'カニを食べる',       example_en: 'Eat crab',              mnemonic: 'Sideways walker' },
   { character: 'エビ',   romaji: 'ebi',     english: 'Shrimp / Prawn',example_jp: 'エビを食べる',   example_en: 'Eat shrimp',            mnemonic: 'Pink seafood' },
-  { character: 'クジラ', romaji: 'kujira',  english: 'Whale',      example_jp: 'クジラが跳ぶ',       example_en: 'Whale jumps',           mnemonic: 'Giant sea mammal' },
+  { character: 'クジラ', romaji: 'kujira',  english: 'Whale (katakana)',      example_jp: 'クジラが跳ぶ',       example_en: 'Whale jumps',           mnemonic: 'Giant sea mammal' },
   { character: 'サメ',   romaji: 'same',    english: 'Shark',      example_jp: 'サメが来た',         example_en: 'A shark came',          mnemonic: 'Fearsome fish' },
   { character: 'イルカ', romaji: 'iruka',   english: 'Dolphin',    example_jp: 'イルカが泳ぐ',       example_en: 'Dolphin swims',         mnemonic: 'Friendly sea mammal' },
   { character: 'カメ',   romaji: 'kame',    english: 'Sea turtle', example_jp: 'カメが泳ぐ',         example_en: 'Sea turtle swims',      mnemonic: 'Ocean turtle' },
@@ -416,26 +416,26 @@ export const ANIMALS_C3 = [ // Sea & insects
   { character: 'カブトムシ',romaji:'kabutomushi',english:'Beetle', example_jp: 'カブトムシを捕まえる',example_en:'Catch a beetle',        mnemonic: 'Horned bug' },
   { character: 'カ',     romaji: 'ka',      english: 'Mosquito',   example_jp: 'カに刺された',       example_en: 'Got bit by mosquito',   mnemonic: 'Biting insect' },
   { character: 'ゴキブリ',romaji:'gokiburi', english: 'Cockroach',  example_jp: 'ゴキブリが出た',     example_en: 'Cockroach appeared',    mnemonic: 'Unwanted guest' },
-  { character: 'チョウ', romaji: 'chou',    english: 'Butterfly',  example_jp: 'チョウが飛ぶ',       example_en: 'Butterfly flies',       mnemonic: 'Beautiful insect' },
+  { character: 'チョウ', romaji: 'chou',    english: 'Butterfly (katakana)',  example_jp: 'チョウが飛ぶ',       example_en: 'Butterfly flies',       mnemonic: 'Beautiful insect' },
   { character: 'ホタル', romaji: 'hotaru',  english: 'Firefly',    example_jp: 'ホタルが光る',       example_en: 'Firefly glows',         mnemonic: 'Glowing bug' },
 ]
 
 export const ANIMALS_C4 = [ // Farm & domestic
   { character: '山羊',   romaji: 'yagi',    english: 'Goat',        example_jp: '山羊が鳴く',         example_en: 'Goat bleats',           mnemonic: 'Mountain climber' },
-  { character: '豚',     romaji: 'buta',    english: 'Pig',         example_jp: '豚が走る',           example_en: 'Pig runs',              mnemonic: 'Oink animal' },
+  { character: '豚',     romaji: 'buta',    english: 'Pig (farm)',   example_jp: '豚が走る',           example_en: 'Pig runs',              mnemonic: 'Oink animal' },
   { character: 'アヒル', romaji: 'ahiru',   english: 'Duck',        example_jp: 'アヒルが泳ぐ',       example_en: 'Duck swims',            mnemonic: 'Quacking bird' },
   { character: '七面鳥', romaji: 'shichimenchou',english: 'Turkey', example_jp: '七面鳥を食べる',     example_en: 'Eat turkey',            mnemonic: 'Thanksgiving bird' },
-  { character: 'ウサギ', romaji: 'usagi',   english: 'Rabbit',      example_jp: 'ウサギが跳ぶ',       example_en: 'Rabbit hops',           mnemonic: 'Hopping ears' },
+  { character: 'ウサギ', romaji: 'usagi',   english: 'Rabbit (katakana)',      example_jp: 'ウサギが跳ぶ',       example_en: 'Rabbit hops',           mnemonic: 'Hopping ears' },
   { character: 'ハムスター',romaji:'hamusutaa',english: 'Hamster',  example_jp: 'ハムスターを飼う',   example_en: 'Keep a hamster',        mnemonic: 'Tiny pet' },
   { character: 'インコ', romaji: 'inko',    english: 'Parakeet',    example_jp: 'インコが話す',       example_en: 'Parakeet talks',        mnemonic: 'Talking pet bird' },
   { character: '金魚',   romaji: 'kingyo',  english: 'Goldfish',    example_jp: '金魚を育てる',       example_en: 'Raise goldfish',        mnemonic: 'Gold fish in bowl' },
   { character: 'カナリア',romaji:'kanaria',  english: 'Canary',      example_jp: 'カナリアが歌う',     example_en: 'Canary sings',          mnemonic: 'Singing yellow bird' },
   { character: 'ロバ',   romaji: 'roba',    english: 'Donkey',      example_jp: 'ロバが歩く',         example_en: 'Donkey walks',          mnemonic: 'Stubborn animal' },
   { character: 'ラクダ', romaji: 'rakuda',  english: 'Camel',       example_jp: 'ラクダに乗る',       example_en: 'Ride a camel',          mnemonic: 'Desert animal' },
-  { character: 'シカ',   romaji: 'shika',   english: 'Deer',        example_jp: 'シカが走る',         example_en: 'Deer runs',             mnemonic: 'Graceful animal' },
-  { character: 'キツネ', romaji: 'kitsune', english: 'Fox',         example_jp: 'キツネが賢い',       example_en: 'Fox is clever',         mnemonic: 'Tricky animal' },
+  { character: 'シカ',   romaji: 'shika',   english: 'Deer (katakana)',        example_jp: 'シカが走る',         example_en: 'Deer runs',             mnemonic: 'Graceful animal' },
+  { character: 'キツネ', romaji: 'kitsune', english: 'Fox (katakana)',         example_jp: 'キツネが賢い',       example_en: 'Fox is clever',         mnemonic: 'Tricky animal' },
   { character: 'タヌキ', romaji: 'tanuki',  english: 'Raccoon dog', example_jp: 'タヌキが化ける',     example_en: 'Tanuki transforms',     mnemonic: 'Japanese folklore animal' },
-  { character: 'クマ',   romaji: 'kuma',    english: 'Bear',        example_jp: 'クマが出る',         example_en: 'Bear appears',          mnemonic: 'Large mammal' },
+  { character: 'クマ',   romaji: 'kuma',    english: 'Bear (katakana)',        example_jp: 'クマが出る',         example_en: 'Bear appears',          mnemonic: 'Large mammal' },
 ]
 
 // ─── THINGS COLLECTIONS ──────────────────────────────────────
