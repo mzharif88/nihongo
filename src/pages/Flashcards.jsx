@@ -85,39 +85,30 @@ function SavedLibrary({ saved, onClose, onRemove }) {
 
 // ─── Swipe card with front answers + back reveal ───────────────
 function SwipeCard({ card, allCards, onNext, onSave, onRepeat }) {
-  const [flipped, setFlipped]         = useState(false)
-  const [selectedIdx, setSelectedIdx] = useState(null)
-  const [dragX, setDragX]             = useState(0)
-  const [isDragging, setIsDragging]   = useState(false)
-  const [exiting, setExiting]         = useState(null)
+  // answer: null | { idx: number, correct: boolean } — set atomically in one setState
+  const [answer, setAnswer]         = useState(null)
+  const [flipped, setFlipped]       = useState(false)
+  const [dragX, setDragX]           = useState(0)
+  const [isDragging, setIsDragging] = useState(false)
+  const [exiting, setExiting]       = useState(null)
   const startX   = useRef(0)
   const startY   = useRef(0)
   const dragging = useRef(false)
   const THRESHOLD = 80
 
-  // Build options ONCE at mount — stored in refs so shuffle never changes mid-session
-  const optionsRef  = useRef(null)
-  const answerIdxRef = useRef(null)
-  if (optionsRef.current === null) {
-    const built = buildOptions(card, allCards)
-    optionsRef.current   = built.options
-    answerIdxRef.current = built.answerIdx
-  }
-  const options   = optionsRef.current
-  const answerIdx = answerIdxRef.current
+  // Build options once at mount using a lazy useState initializer (runs exactly once, immune to StrictMode double-invoke)
+  const [{ options, answerIdx }] = useState(() => buildOptions(card, allCards))
 
-  // Store correct/wrong in a ref so it can't drift between renders
-  const wasCorrectRef = useRef(null)
-  const isCorrect = wasCorrectRef.current
+  const selectedIdx = answer?.idx ?? null
+  const isCorrect   = answer?.correct ?? false
 
   function pickAnswer(i) {
-    if (flipped || selectedIdx !== null) return
-    // Lock in whether this was correct BEFORE any state update
+    if (flipped || answer !== null) return
     const correct = i === answerIdx
-    wasCorrectRef.current = correct
-    setSelectedIdx(i)
+    // Set answer and correct atomically — one single state object, never split
+    setAnswer({ idx: i, correct })
     speak(card.character)
-    setTimeout(() => setFlipped(true), 280)
+    setTimeout(() => setFlipped(true), 300)
   }
 
   // ── Swipe / drag handlers ─────────────────────────────────────
@@ -141,9 +132,9 @@ function SwipeCard({ card, allCards, onNext, onSave, onRepeat }) {
     const totalDy = getY(e.changedTouches?.[0] || e) - startY.current
     setIsDragging(false); setDragX(0)
 
-    // Tap = flip (only if not yet flipped)
+    // Tap = flip (only if not yet answered)
     if (Math.abs(totalDx) < 12 && Math.abs(totalDy) < 12) {
-      if (!flipped && selectedIdx === null) setFlipped(f => !f)
+      if (!flipped && answer === null) setFlipped(f => !f)
       return
     }
 
@@ -229,25 +220,24 @@ function SwipeCard({ card, allCards, onNext, onSave, onRepeat }) {
                 <div className="grid-2" style={{ gap:10 }}>
                   {options.map((opt, i) => {
                     let bg = 'var(--bg3)', border = 'var(--border)', color = 'var(--text)', scale = 'scale(1)'
-                    if (selectedIdx !== null) {
-                      const correct = wasCorrectRef.current
+                    if (answer !== null) {
                       if (i === answerIdx)                              { bg='rgba(52,211,153,0.14)'; border='var(--green)'; color='var(--green)'; scale='scale(1.03)' }
-                      else if (i === selectedIdx && !correct)           { bg='rgba(255,90,95,0.12)';  border='var(--red)';   color='var(--red)' }
+                      else if (i === answer.idx && !answer.correct)    { bg='rgba(255,90,95,0.12)';  border='var(--red)';   color='var(--red)' }
                       else                                               { bg='var(--bg3)'; border='var(--border)'; color='var(--muted)' }
                     }
                     return (
                       <div key={i} onClick={() => pickAnswer(i)} style={{
                         background:bg, border:`2px solid ${border}`, color,
                         padding:'13px 10px', borderRadius:12,
-                        cursor: selectedIdx !== null ? 'default' : 'pointer',
+                        cursor: answer !== null ? 'default' : 'pointer',
                         fontSize:14, fontWeight:700, textAlign:'center',
                         transition:'all 0.2s cubic-bezier(0.34,1.56,0.64,1)',
                         transform: scale, minHeight:48,
                         display:'flex', alignItems:'center', justifyContent:'center',
                       }}>
                         {opt}
-                        {selectedIdx !== null && i === answerIdx && ' ✓'}
-                        {selectedIdx !== null && i === selectedIdx && !wasCorrectRef.current && ' ✗'}
+                        {answer !== null && i === answerIdx && ' ✓'}
+                        {answer !== null && i === answer.idx && !answer.correct && ' ✗'}
                       </div>
                     )
                   })}
