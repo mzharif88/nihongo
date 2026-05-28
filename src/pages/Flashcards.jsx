@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect, useMemo } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import { MODULE_META, KANA_MAP, COLLECTION_MAP, MODULE_ALL_CARDS } from '../data/index.js'
 import { sm2 } from '../lib/srs'
 import { speak } from '../lib/audio'
@@ -85,27 +85,39 @@ function SavedLibrary({ saved, onClose, onRemove }) {
 
 // ─── Swipe card with front answers + back reveal ───────────────
 function SwipeCard({ card, allCards, onNext, onSave, onRepeat }) {
-  const [flipped, setFlipped]       = useState(false)
-  const [selectedIdx, setSelectedIdx] = useState(null)  // which option was picked
-  const [dragX, setDragX]           = useState(0)
-  const [isDragging, setIsDragging] = useState(false)
-  const [exiting, setExiting]       = useState(null) // 'left'|'right'|null
-  const startX  = useRef(0)
-  const startY  = useRef(0)
+  const [flipped, setFlipped]         = useState(false)
+  const [selectedIdx, setSelectedIdx] = useState(null)
+  const [dragX, setDragX]             = useState(0)
+  const [isDragging, setIsDragging]   = useState(false)
+  const [exiting, setExiting]         = useState(null)
+  const startX   = useRef(0)
+  const startY   = useRef(0)
   const dragging = useRef(false)
   const THRESHOLD = 80
 
-  // Build answer options once per card mount
-  const { options, answerIdx } = useMemo(() => buildOptions(card, allCards), [card.character])
+  // Build options ONCE at mount — stored in refs so shuffle never changes mid-session
+  const optionsRef  = useRef(null)
+  const answerIdxRef = useRef(null)
+  if (optionsRef.current === null) {
+    const built = buildOptions(card, allCards)
+    optionsRef.current   = built.options
+    answerIdxRef.current = built.answerIdx
+  }
+  const options   = optionsRef.current
+  const answerIdx = answerIdxRef.current
 
-  const isCorrect = selectedIdx !== null && selectedIdx === answerIdx
+  // Store correct/wrong in a ref so it can't drift between renders
+  const wasCorrectRef = useRef(null)
+  const isCorrect = wasCorrectRef.current
 
   function pickAnswer(i) {
-    if (flipped) return   // already answered
+    if (flipped || selectedIdx !== null) return
+    // Lock in whether this was correct BEFORE any state update
+    const correct = i === answerIdx
+    wasCorrectRef.current = correct
     setSelectedIdx(i)
-    // Small delay so user sees the selection flash, then flip
-    setTimeout(() => setFlipped(true), 280)
     speak(card.character)
+    setTimeout(() => setFlipped(true), 280)
   }
 
   // ── Swipe / drag handlers ─────────────────────────────────────
@@ -218,9 +230,10 @@ function SwipeCard({ card, allCards, onNext, onSave, onRepeat }) {
                   {options.map((opt, i) => {
                     let bg = 'var(--bg3)', border = 'var(--border)', color = 'var(--text)', scale = 'scale(1)'
                     if (selectedIdx !== null) {
-                      if (i === answerIdx)                         { bg='rgba(52,211,153,0.14)'; border='var(--green)'; color='var(--green)'; scale='scale(1.03)' }
-                      else if (i === selectedIdx && !isCorrect)   { bg='rgba(255,90,95,0.12)';  border='var(--red)';   color='var(--red)' }
-                      else                                          { bg='var(--bg3)'; border='var(--border)'; color='var(--muted)' }
+                      const correct = wasCorrectRef.current
+                      if (i === answerIdx)                              { bg='rgba(52,211,153,0.14)'; border='var(--green)'; color='var(--green)'; scale='scale(1.03)' }
+                      else if (i === selectedIdx && !correct)           { bg='rgba(255,90,95,0.12)';  border='var(--red)';   color='var(--red)' }
+                      else                                               { bg='var(--bg3)'; border='var(--border)'; color='var(--muted)' }
                     }
                     return (
                       <div key={i} onClick={() => pickAnswer(i)} style={{
@@ -234,7 +247,7 @@ function SwipeCard({ card, allCards, onNext, onSave, onRepeat }) {
                       }}>
                         {opt}
                         {selectedIdx !== null && i === answerIdx && ' ✓'}
-                        {selectedIdx !== null && i === selectedIdx && !isCorrect && ' ✗'}
+                        {selectedIdx !== null && i === selectedIdx && !wasCorrectRef.current && ' ✗'}
                       </div>
                     )
                   })}
