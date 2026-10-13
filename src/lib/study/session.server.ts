@@ -6,6 +6,7 @@ import { dueQueue } from "@/lib/srs/fsrs";
 import { buildCard, type CardType, type StudyCard, type StudyItem } from "./cards";
 import { pickNewItems, SRS_TYPES } from "./curriculum";
 import { studyPace, type Pace } from "./pace";
+import { listTopics, pickTopicItems, type Topic } from "./topics";
 import { localDate } from "./streak";
 
 export const ITEM_COLUMNS =
@@ -31,6 +32,9 @@ export interface StudySession {
   /** Live items not started yet, i.e. how much content is left to learn. */
   unstartedAvailable: number;
   pace: Pace;
+  topics: Topic[];
+  /** The topic new items came from, or null for automatic order (including when the chosen topic is finished). */
+  activeTopic: Topic | null;
 }
 
 /**
@@ -89,7 +93,14 @@ export async function loadStudySession(
     started: recognition.length,
   });
   const newLeftToday = Math.max(0, pace.newPerDay - introducedToday);
-  const fresh = pickNewItems(items, started, learnedSlugs, newLeftToday + Math.max(0, extraNew));
+  const allowance = newLeftToday + Math.max(0, extraNew);
+
+  // Topic of the day: new items come from the chosen topic until it runs out, then automatic order.
+  const topics = listTopics(items, started);
+  const chosen = topics.find((t) => t.id === profile.study_topic) ?? null;
+  const fromTopic = chosen ? pickTopicItems(items, chosen.id, started, learnedSlugs, allowance) : [];
+  const activeTopic = fromTopic.length > 0 ? chosen : null;
+  const fresh = activeTopic ? fromTopic : pickNewItems(items, started, learnedSlugs, allowance);
 
   return {
     cards: [
@@ -102,5 +113,7 @@ export async function loadStudySession(
     started: recognition.length,
     unstartedAvailable: items.filter((i) => !started.has(i.id)).length,
     pace,
+    topics,
+    activeTopic,
   };
 }

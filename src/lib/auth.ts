@@ -10,6 +10,8 @@ export interface Profile {
   exam_date: string | null;
   daily_minutes: number;
   timezone: string;
+  /** Topic of the day for new items, or null for automatic order. */
+  study_topic: string | null;
 }
 
 /** The signed-in user and their profile, or a redirect to /login. */

@@ -23,8 +23,8 @@ export interface StudyCard {
   itemId: string;
   cardType: CardType;
   isNew: boolean;
-  /** Multiple choice for recognition; a self-graded flip card for recall. */
-  mode: "choice" | "flip";
+  /** Every card is multiple choice; the app grades the answer. */
+  mode: "choice";
   question: string;
   prompt: string;
   promptIsJapanese: boolean;
@@ -41,7 +41,7 @@ export interface StudyCard {
   };
 }
 
-/** Item types that also get a reverse (recall) flip card once recognition is learned. */
+/** Item types that also get a reverse (recall) card once recognition is learned: sound/meaning → Japanese. */
 export const RECALL_TYPES = ["kana", "kanji", "word"];
 
 export type Rng = () => number;
@@ -57,27 +57,56 @@ export function shuffle<T>(items: T[], rng: Rng = Math.random): T[] {
 
 const isKatakana = (item: StudyItem) => item.tags.includes("katakana");
 
-/** The text a recognition card asks the learner to pick: kana → its sound, everything else → its meaning. */
-function choiceAnswer(item: StudyItem): string {
-  return item.type === "kana" ? (item.romaji ?? item.meaning) : item.meaning;
+/** What a word looks like as an answer option: the term, plus its kana reading when written in kanji. */
+function wordWithReading(item: StudyItem): string {
+  return item.reading && item.reading !== item.term ? `${item.term}（${item.reading}）` : item.term;
 }
 
-/** Wrong options from the same kind of item, so a kana card offers other sounds and a word card other meanings. */
-function distractors(item: StudyItem, pool: StudyItem[], rng: Rng, count = 3): string[] {
-  const answer = choiceAnswer(item).toLowerCase();
+/**
+ * The text the learner picks for each card. Recognition asks for the
+ * sound (kana) or meaning (everything else); recall goes the other way and
+ * asks for the Japanese: the kana for a sound, the word for a meaning, or a
+ * kanji's reading.
+ */
+export function answerText(item: StudyItem, cardType: CardType): string {
+  if (cardType === "recognition") return item.type === "kana" ? (item.romaji ?? item.meaning) : item.meaning;
+  if (item.type === "kana") return item.term;
+  if (item.type === "kanji") return item.reading ?? item.romaji?.split("/")[0] ?? item.term;
+  return wordWithReading(item);
+}
+
+/** Wrong options from the same kind of item, so a kana card offers other kana and a word card other words. */
+function distractors(item: StudyItem, cardType: CardType, pool: StudyItem[], rng: Rng, count = 3): string[] {
+  const answer = answerText(item, cardType).toLowerCase();
   const sameKind = pool.filter(
     (p) => p.id !== item.id && p.type === item.type && (item.type !== "kana" || isKatakana(p) === isKatakana(item)),
   );
   const seen = new Set([answer]);
   const out: string[] = [];
   for (const p of shuffle(sameKind, rng)) {
-    const text = choiceAnswer(p);
+    const text = answerText(p, cardType);
     if (seen.has(text.toLowerCase())) continue;
     seen.add(text.toLowerCase());
     out.push(text);
     if (out.length === count) break;
   }
   return out;
+}
+
+const QUESTIONS: Record<CardType, (item: StudyItem) => string> = {
+  recognition: (item) => (item.type === "kana" ? "Which sound is this?" : "What does this mean?"),
+  recall: (item) =>
+    item.type === "kana"
+      ? "Which kana makes this sound?"
+      : item.type === "kanji"
+        ? "How is this kanji read?"
+        : "Which word means this?",
+};
+
+/** Recall shows the sound or meaning and asks for the Japanese; a kanji's recall card asks for its reading. */
+function promptFor(item: StudyItem, cardType: CardType): { prompt: string; promptIsJapanese: boolean } {
+  if (cardType === "recognition" || item.type === "kanji") return { prompt: item.term, promptIsJapanese: true };
+  return { prompt: item.type === "kana" ? (item.romaji ?? item.meaning) : item.meaning, promptIsJapanese: false };
 }
 
 export function buildCard(
@@ -104,25 +133,13 @@ export function buildCard(
     },
   };
 
-  if (cardType === "recall") {
-    // Reverse flashcard: think of the answer, flip, then grade yourself.
-    if (item.type === "kana") {
-      return { ...base, mode: "flip", question: "What's the kana for this sound?", prompt: item.romaji ?? item.meaning, promptIsJapanese: false };
-    }
-    if (item.type === "kanji") {
-      return { ...base, mode: "flip", question: "How is this kanji read?", prompt: item.term, promptIsJapanese: true };
-    }
-    return { ...base, mode: "flip", question: "How do you say this in Japanese?", prompt: item.meaning, promptIsJapanese: false };
-  }
-
-  const answer = choiceAnswer(item);
-  const options = shuffle([answer, ...distractors(item, pool, rng)], rng);
+  const answer = answerText(item, cardType);
+  const options = shuffle([answer, ...distractors(item, cardType, pool, rng)], rng);
   return {
     ...base,
     mode: "choice",
-    question: item.type === "kana" ? "Which sound is this?" : "What does this mean?",
-    prompt: item.term,
-    promptIsJapanese: true,
+    question: QUESTIONS[cardType](item),
+    ...promptFor(item, cardType),
     options,
     answerIndex: options.indexOf(answer),
   };

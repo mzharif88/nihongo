@@ -56,17 +56,36 @@ describe("buildCard recognition", () => {
 });
 
 describe("buildCard recall", () => {
-  it("makes a reverse flip card: sound → kana, meaning → word, kanji → reading", () => {
-    expect(buildCard(kata, "recall", false, [])).toMatchObject({ mode: "flip", prompt: "a", promptIsJapanese: false });
-    const word = item({ type: "word", term: "水", romaji: "mizu", meaning: "Water", tags: [] });
-    expect(buildCard(word, "recall", false, [])).toMatchObject({ mode: "flip", prompt: "Water", reveal: { term: "水" } });
-    const kanji = item({ type: "kanji", term: "日", romaji: "nichi/hi", meaning: "Sun", tags: [] });
-    expect(buildCard(kanji, "recall", false, [])).toMatchObject({ mode: "flip", prompt: "日" });
+  it("asks for the kana of a sound, offering other kana from the same script", () => {
+    const card = buildCard(hira[0], "recall", false, [...hira, kata], seeded());
+    expect(card).toMatchObject({ mode: "choice", prompt: "a", promptIsJapanese: false, question: "Which kana makes this sound?" });
+    expect(card.options![card.answerIndex!]).toBe("あ");
+    expect(card.options).not.toContain("ア");
+    expect(card.options).toHaveLength(4);
   });
 
-  it("never produces a typing card", () => {
-    const word = item({ type: "word", term: "水", meaning: "Water", tags: [] });
-    for (const t of ["recognition", "recall"] as const) expect(buildCard(word, t, false, [word]).mode).not.toBe("typing");
+  it("asks for the word that means something, showing kana readings for kanji words", () => {
+    const words = [
+      item({ type: "word", term: "水", reading: "みず", meaning: "Water", tags: [] }),
+      item({ type: "word", term: "火", reading: "ひ", meaning: "Fire", tags: [] }),
+      item({ type: "word", term: "すし", reading: "すし", meaning: "Sushi", tags: [] }),
+    ];
+    const card = buildCard(words[0], "recall", false, words, seeded(2));
+    expect(card.prompt).toBe("Water");
+    expect(card.options![card.answerIndex!]).toBe("水（みず）");
+    expect(card.options).toContain("すし");
+  });
+
+  it("asks for a kanji's reading", () => {
+    const sun = item({ type: "kanji", term: "日", reading: "ひ", romaji: "hi/nichi", meaning: "Sun", tags: [] });
+    const moon = item({ type: "kanji", term: "月", reading: "つき", romaji: "tsuki", meaning: "Moon", tags: [] });
+    const card = buildCard(sun, "recall", false, [sun, moon], seeded());
+    expect(card).toMatchObject({ prompt: "日", question: "How is this kanji read?" });
+    expect(card.options!.sort()).toEqual(["つき", "ひ"]);
+  });
+
+  it("never asks the learner to type or rate themselves", () => {
+    for (const t of ["recognition", "recall"] as const) expect(buildCard(hira[1], t, false, hira).mode).toBe("choice");
   });
 });
 

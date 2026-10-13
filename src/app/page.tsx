@@ -3,6 +3,7 @@ import { requireUser } from "@/lib/auth";
 import type { Pace } from "@/lib/study/pace";
 import { loadStudySession } from "@/lib/study/session.server";
 import { signOut } from "./login/actions";
+import { TopicPicker } from "./topic-picker";
 
 export default async function HomePage() {
   const { supabase, profile } = await requireUser();
@@ -39,9 +40,12 @@ export default async function HomePage() {
         <div className="text-lg font-bold">{toStudy ? "Study now" : "All caught up"}</div>
         <div className="mt-1 text-sm opacity-90">
           {session.dueCount} reviews · {session.newCount} new
+          {session.activeTopic ? ` from ${session.activeTopic.label}` : ""}
           {session.newLeftToday === 0 ? " (today's pace done)" : ""}
         </div>
       </Link>
+
+      <TopicPicker topics={session.topics} chosen={profile.study_topic} active={session.activeTopic} />
 
       <PaceCard
         pace={pace}

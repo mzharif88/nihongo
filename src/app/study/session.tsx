@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { useState, useTransition } from "react";
-import type { Grade } from "@/lib/srs/fsrs";
 import type { StudyCard } from "@/lib/study/cards";
 import { XP_CORRECT, XP_WRONG } from "@/lib/study/streak";
 import { recordAnswer } from "./actions";
@@ -11,14 +10,6 @@ import { speak } from "./speak";
 /** Cards that come due again within this window (FSRS learning steps) are repeated in the same session. */
 const REQUEUE_WINDOW_MS = 15 * 60 * 1000;
 const MAX_REPEATS = 3;
-
-/** Self-grades for flip cards, matching FSRS ratings (1 Again … 4 Easy). */
-const GRADES: { grade: Grade; label: string; style: string }[] = [
-  { grade: 1 as Grade, label: "Again", style: "border-red-600 text-red-700 dark:text-red-400" },
-  { grade: 2 as Grade, label: "Hard", style: "border-amber-600 text-amber-700 dark:text-amber-400" },
-  { grade: 3 as Grade, label: "Good", style: "border-green-600 text-green-700 dark:text-green-400" },
-  { grade: 4 as Grade, label: "Easy", style: "border-sky-600 text-sky-700 dark:text-sky-400" },
-];
 
 type Phase = "intro" | "question" | "answered";
 
@@ -53,31 +44,23 @@ export function StudySession({ cards: initial, dueCount, newCount, learnMoreHref
     speak(card.reveal.term, card.reveal.audioUrl);
   }
 
-  /** Flip a recall card: show the answer and wait for the learner's self-grade. */
-  function reveal() {
-    setAnswerMs(Date.now() - shownAt);
-    setPhase("answered");
-    speak(card.reveal.term, card.reveal.audioUrl);
-  }
-
   function startQuestion() {
     setPhase("question");
     setShownAt(Date.now());
   }
 
-  /** Save the answer and move on: multiple choice passes its result, flip cards their self-grade. */
-  function save(grade?: Grade) {
+  /** Save the answer and move on to the next card. */
+  function save() {
     const current = card;
-    const wasCorrect = grade !== undefined ? grade > 1 : correct;
+    const wasCorrect = correct;
     startSaving(async () => {
       try {
         const result = await recordAnswer({
           itemId: current.itemId,
           cardType: current.cardType,
           correct: wasCorrect,
-          grade,
           msTaken: answerMs,
-          given: current.mode === "choice" ? current.options?.[picked ?? -1] : undefined,
+          given: current.options?.[picked ?? -1],
         });
         setError(null);
         setStats((s) => ({
@@ -156,38 +139,13 @@ export function StudySession({ cards: initial, dueCount, newCount, learnMoreHref
             {card.prompt}
           </div>
 
-          {card.mode === "choice" && (
-            <Choices card={card} phase={phase} picked={picked} onPick={(i) => answer(i === card.answerIndex, i)} />
-          )}
+          <Choices card={card} phase={phase} picked={picked} onPick={(i) => answer(i === card.answerIndex, i)} />
 
-          {phase === "answered" && (card.mode === "choice" ? <Feedback card={card} correct={correct} /> : <Answer card={card} />)}
+          {phase === "answered" && <Feedback card={card} correct={correct} />}
 
           <div className="mt-auto pt-6">
             {error && <p className="mb-2 text-center text-sm text-red-600 dark:text-red-400">{error}</p>}
-            {card.mode === "flip" && phase === "question" && (
-              <button
-                onClick={reveal}
-                autoFocus
-                className="w-full rounded-xl bg-accent px-4 py-3.5 text-lg font-medium text-white"
-              >
-                Show answer
-              </button>
-            )}
-            {card.mode === "flip" && phase === "answered" && (
-              <div className="grid grid-cols-4 gap-2">
-                {GRADES.map((g) => (
-                  <button
-                    key={g.grade}
-                    onClick={() => save(g.grade)}
-                    disabled={saving}
-                    className={`rounded-xl border-2 bg-card px-1 py-3 font-medium disabled:opacity-60 ${g.style}`}
-                  >
-                    {g.label}
-                  </button>
-                ))}
-              </div>
-            )}
-            {card.mode === "choice" && phase === "answered" && (
+            {phase === "answered" && (
               <button
                 onClick={() => save()}
                 disabled={saving}
@@ -286,31 +244,6 @@ function Choices({
           </button>
         );
       })}
-    </div>
-  );
-}
-
-/** The back of a flip card: everything about the item, no right/wrong colouring. */
-function Answer({ card }: { card: StudyCard }) {
-  const r = card.reveal;
-  return (
-    <div role="status" className="mt-2 rounded-xl border border-border bg-card p-4 text-center">
-      <button onClick={() => speak(r.term, r.audioUrl)} className="text-4xl font-bold" lang="ja" aria-label={`Play ${r.term}`}>
-        {r.term}
-      </button>
-      {[r.reading, r.romaji].filter(Boolean).length > 0 && (
-        <p className="mt-1 text-muted" lang="ja">
-          {[r.reading, r.romaji].filter(Boolean).join(" · ")}
-        </p>
-      )}
-      <p className="mt-2 text-lg">{r.meaning}</p>
-      {r.mnemonic && <p className="mt-3 text-sm text-muted">💡 {r.mnemonic}</p>}
-      {r.example && (
-        <p className="mt-3 text-sm" lang="ja">
-          {r.example.jp} <span className="text-muted">· {r.example.en}</span>
-        </p>
-      )}
-      <p className="mt-3 text-xs text-muted">How well did you remember it?</p>
     </div>
   );
 }
