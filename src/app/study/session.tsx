@@ -1,9 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useRef, useState, useTransition } from "react";
-import { bind, unbind } from "wanakana";
-import { isTypedAnswerCorrect } from "@/lib/study/answers";
+import { useState, useTransition } from "react";
+import type { Grade } from "@/lib/srs/fsrs";
 import type { StudyCard } from "@/lib/study/cards";
 import { XP_CORRECT, XP_WRONG } from "@/lib/study/streak";
 import { recordAnswer } from "./actions";
@@ -12,6 +11,14 @@ import { speak } from "./speak";
 /** Cards that come due again within this window (FSRS learning steps) are repeated in the same session. */
 const REQUEUE_WINDOW_MS = 15 * 60 * 1000;
 const MAX_REPEATS = 3;
+
+/** Self-grades for flip cards, matching FSRS ratings (1 Again … 4 Easy). */
+const GRADES: { grade: Grade; label: string; style: string }[] = [
+  { grade: 1 as Grade, label: "Again", style: "border-red-600 text-red-700 dark:text-red-400" },
+  { grade: 2 as Grade, label: "Hard", style: "border-amber-600 text-amber-700 dark:text-amber-400" },
+  { grade: 3 as Grade, label: "Good", style: "border-green-600 text-green-700 dark:text-green-400" },
+  { grade: 4 as Grade, label: "Easy", style: "border-sky-600 text-sky-700 dark:text-sky-400" },
+];
 
 type Phase = "intro" | "question" | "answered";
 
@@ -28,7 +35,6 @@ export function StudySession({ cards: initial, dueCount, newCount, learnMoreHref
   const [repeats, setRepeats] = useState<Record<string, number>>({});
   const [phase, setPhase] = useState<Phase>(initial[0]?.isNew ? "intro" : "question");
   const [picked, setPicked] = useState<number | null>(null);
-  const [typed, setTyped] = useState("");
   const [correct, setCorrect] = useState(false);
   const [shownAt, setShownAt] = useState(() => Date.now());
   const [answerMs, setAnswerMs] = useState(0);
@@ -47,22 +53,31 @@ export function StudySession({ cards: initial, dueCount, newCount, learnMoreHref
     speak(card.reveal.term, card.reveal.audioUrl);
   }
 
+  /** Flip a recall card: show the answer and wait for the learner's self-grade. */
+  function reveal() {
+    setAnswerMs(Date.now() - shownAt);
+    setPhase("answered");
+    speak(card.reveal.term, card.reveal.audioUrl);
+  }
+
   function startQuestion() {
     setPhase("question");
     setShownAt(Date.now());
   }
 
-  function next() {
+  /** Save the answer and move on: multiple choice passes its result, flip cards their self-grade. */
+  function save(grade?: Grade) {
     const current = card;
-    const wasCorrect = correct;
+    const wasCorrect = grade !== undefined ? grade > 1 : correct;
     startSaving(async () => {
       try {
         const result = await recordAnswer({
           itemId: current.itemId,
           cardType: current.cardType,
           correct: wasCorrect,
+          grade,
           msTaken: answerMs,
-          given: current.mode === "typing" ? typed : current.options?.[picked ?? -1],
+          given: current.mode === "choice" ? current.options?.[picked ?? -1] : undefined,
         });
         setError(null);
         setStats((s) => ({
@@ -78,11 +93,10 @@ export function StudySession({ cards: initial, dueCount, newCount, learnMoreHref
         if (again) setRepeats((r) => ({ ...r, [current.key]: count + 1 }));
         setQueue(nextQueue);
         setPicked(null);
-        setTyped("");
         setPhase(nextQueue[0]?.isNew ? "intro" : "question");
         setShownAt(Date.now());
       } catch {
-        setError("Couldn't save that answer. Check your connection and tap Next again.");
+        setError("Couldn't save that answer. Check your connection and try again.");
       }
     });
   }
@@ -142,33 +156,40 @@ export function StudySession({ cards: initial, dueCount, newCount, learnMoreHref
             {card.prompt}
           </div>
 
-          {card.mode === "choice" ? (
+          {card.mode === "choice" && (
             <Choices card={card} phase={phase} picked={picked} onPick={(i) => answer(i === card.answerIndex, i)} />
-          ) : (
-            <Typing
-              key={card.key}
-              card={card}
-              phase={phase}
-              onSubmit={(value) => {
-                setTyped(value);
-                answer(isTypedAnswerCorrect(value, card.typing!));
-              }}
-            />
           )}
 
-          {phase === "answered" && (
-            <Feedback
-              card={card}
-              correct={correct}
-              onOverride={card.mode === "typing" && !correct ? () => setCorrect(true) : undefined}
-            />
-          )}
+          {phase === "answered" && (card.mode === "choice" ? <Feedback card={card} correct={correct} /> : <Answer card={card} />)}
 
           <div className="mt-auto pt-6">
             {error && <p className="mb-2 text-center text-sm text-red-600 dark:text-red-400">{error}</p>}
-            {phase === "answered" && (
+            {card.mode === "flip" && phase === "question" && (
               <button
-                onClick={next}
+                onClick={reveal}
+                autoFocus
+                className="w-full rounded-xl bg-accent px-4 py-3.5 text-lg font-medium text-white"
+              >
+                Show answer
+              </button>
+            )}
+            {card.mode === "flip" && phase === "answered" && (
+              <div className="grid grid-cols-4 gap-2">
+                {GRADES.map((g) => (
+                  <button
+                    key={g.grade}
+                    onClick={() => save(g.grade)}
+                    disabled={saving}
+                    className={`rounded-xl border-2 bg-card px-1 py-3 font-medium disabled:opacity-60 ${g.style}`}
+                  >
+                    {g.label}
+                  </button>
+                ))}
+              </div>
+            )}
+            {card.mode === "choice" && phase === "answered" && (
+              <button
+                onClick={() => save()}
                 disabled={saving}
                 autoFocus
                 className="w-full rounded-xl bg-accent px-4 py-3.5 text-lg font-medium text-white disabled:opacity-60"
@@ -269,56 +290,32 @@ function Choices({
   );
 }
 
-function Typing({
-  card,
-  phase,
-  onSubmit,
-}: {
-  card: StudyCard;
-  phase: Phase;
-  onSubmit: (value: string) => void;
-}) {
-  const ref = useRef<HTMLInputElement>(null);
-  const script = card.typing!.script;
-
-  // wanakana rewrites the field as you type (ka → か), so the input stays uncontrolled.
-  useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-    bind(el, { IMEMode: script === "katakana" ? "toKatakana" : "toHiragana" });
-    return () => unbind(el);
-  }, [script]);
-
+/** The back of a flip card: everything about the item, no right/wrong colouring. */
+function Answer({ card }: { card: StudyCard }) {
+  const r = card.reveal;
   return (
-    <form
-      onSubmit={(e) => {
-        e.preventDefault();
-        const value = ref.current?.value.trim() ?? "";
-        if (value) onSubmit(value);
-      }}
-      className="grid gap-3"
-    >
-      <input
-        ref={ref}
-        defaultValue=""
-        disabled={phase === "answered"}
-        autoFocus
-        autoCapitalize="none"
-        autoCorrect="off"
-        autoComplete="off"
-        spellCheck={false}
-        lang="ja"
-        placeholder="Type in romaji, e.g. ka → か"
-        className="rounded-xl border-2 border-border bg-card px-4 py-3 text-center text-2xl"
-      />
-      {phase === "question" && (
-        <button className="rounded-xl border border-border px-4 py-3 font-medium">Check</button>
+    <div role="status" className="mt-2 rounded-xl border border-border bg-card p-4 text-center">
+      <button onClick={() => speak(r.term, r.audioUrl)} className="text-4xl font-bold" lang="ja" aria-label={`Play ${r.term}`}>
+        {r.term}
+      </button>
+      {[r.reading, r.romaji].filter(Boolean).length > 0 && (
+        <p className="mt-1 text-muted" lang="ja">
+          {[r.reading, r.romaji].filter(Boolean).join(" · ")}
+        </p>
       )}
-    </form>
+      <p className="mt-2 text-lg">{r.meaning}</p>
+      {r.mnemonic && <p className="mt-3 text-sm text-muted">💡 {r.mnemonic}</p>}
+      {r.example && (
+        <p className="mt-3 text-sm" lang="ja">
+          {r.example.jp} <span className="text-muted">· {r.example.en}</span>
+        </p>
+      )}
+      <p className="mt-3 text-xs text-muted">How well did you remember it?</p>
+    </div>
   );
 }
 
-function Feedback({ card, correct, onOverride }: { card: StudyCard; correct: boolean; onOverride?: () => void }) {
+function Feedback({ card, correct }: { card: StudyCard; correct: boolean }) {
   const r = card.reveal;
   return (
     <div
@@ -336,11 +333,6 @@ function Feedback({ card, correct, onOverride }: { card: StudyCard; correct: boo
       </p>
       <p className="text-sm">{r.meaning}</p>
       {r.mnemonic && !correct && <p className="mt-2 text-sm text-muted">💡 {r.mnemonic}</p>}
-      {onOverride && (
-        <button onClick={onOverride} className="mt-3 text-sm underline">
-          I was right (typo or alternate spelling)
-        </button>
-      )}
     </div>
   );
 }

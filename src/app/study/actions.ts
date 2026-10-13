@@ -2,14 +2,17 @@
 
 import { revalidatePath } from "next/cache";
 import { requireUser } from "@/lib/auth";
-import { gradeFromResult, newCard, review, type UserItemCard } from "@/lib/srs/fsrs";
+import { gradeFromResult, newCard, Rating, review, type Grade, type UserItemCard } from "@/lib/srs/fsrs";
 import { RECALL_TYPES, type CardType } from "@/lib/study/cards";
 import { advanceStreak, localDate, XP_CORRECT, XP_WRONG } from "@/lib/study/streak";
 
 export interface AnswerInput {
   itemId: string;
   cardType: CardType;
+  /** Multiple-choice result; ignored when the learner graded a flip card themselves. */
   correct: boolean;
+  /** Self-grade from a flip card: 1 Again, 2 Hard, 3 Good, 4 Easy. */
+  grade?: Grade;
   msTaken: number;
   given?: string;
 }
@@ -32,6 +35,7 @@ const FSRS_COLUMNS =
 export async function recordAnswer(input: AnswerInput): Promise<AnswerResult> {
   const { supabase, user, profile } = await requireUser();
   if (input.cardType !== "recognition" && input.cardType !== "recall") throw new Error("Unknown card type.");
+  if (input.grade !== undefined && ![1, 2, 3, 4].includes(input.grade)) throw new Error("Grade must be 1–4.");
   const now = new Date();
   const msTaken = Math.max(0, Math.min(Math.round(input.msTaken), 600_000));
 
@@ -48,7 +52,8 @@ export async function recordAnswer(input: AnswerInput): Promise<AnswerResult> {
   if (loadError) throw new Error(loadError.message);
   if (itemError) throw new Error(itemError.message);
 
-  const grade = gradeFromResult(input.correct, msTaken);
+  const grade = input.grade ?? gradeFromResult(input.correct, msTaken);
+  const correct = grade !== Rating.Again;
   const next = review(existing ?? newCard(now), grade, now);
 
   const { error: saveError } = await supabase
@@ -66,7 +71,7 @@ export async function recordAnswer(input: AnswerInput): Promise<AnswerResult> {
       fsrs_state: next.fsrs_state,
     }),
   ];
-  if (!input.correct) {
+  if (!correct) {
     writes.push(
       supabase.from("mistakes").insert({
         item_id: input.itemId,
@@ -94,7 +99,7 @@ export async function recordAnswer(input: AnswerInput): Promise<AnswerResult> {
     .single();
   if (gameError) throw new Error(gameError.message);
   const streak = advanceStreak(game, localDate(now, profile.timezone));
-  const xp = game.xp + (input.correct ? XP_CORRECT : XP_WRONG);
+  const xp = game.xp + (correct ? XP_CORRECT : XP_WRONG);
   const { error: gameSaveError } = await supabase
     .from("gamification")
     .update({ ...streak, xp })

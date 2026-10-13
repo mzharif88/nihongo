@@ -4338,7 +4338,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "A window with a line across: the SUN shining through it."
     },
     {
       "slug": "radical-moon",
@@ -4349,7 +4350,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "A tall crescent with two lines of light inside: the MOON."
     },
     {
       "slug": "radical-three-peaks",
@@ -4360,7 +4362,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "Three peaks rising from one ridge: a mountain range."
     },
     {
       "slug": "radical-river",
@@ -4371,7 +4374,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "Three lines flowing side by side: a RIVER."
     },
     {
       "slug": "radical-fire",
@@ -4382,7 +4386,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "A person with sparks flying from both arms: a crackling FIRE."
     },
     {
       "slug": "radical-water",
@@ -4393,7 +4398,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "Three drops splashing on the left side: WATER."
     },
     {
       "slug": "radical-tree",
@@ -4404,7 +4410,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "A trunk with branches out and roots spreading down: a TREE."
     },
     {
       "slug": "radical-gold",
@@ -4415,7 +4422,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "A roof over a heap of nuggets in the earth: buried GOLD."
     },
     {
       "slug": "radical-earth",
@@ -4426,7 +4434,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "A cross stuck into the ground line: a stake planted in the EARTH."
     },
     {
       "slug": "radical-person",
@@ -4437,7 +4446,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "Two legs leaning together: a PERSON walking."
     },
     {
       "slug": "radical-mouth",
@@ -4448,7 +4458,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "An open square: a MOUTH saying \"oh\"."
     },
     {
       "slug": "radical-eye",
@@ -4459,7 +4470,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "An EYE turned on its side, with the pupil lines across the middle."
     },
     {
       "slug": "radical-ear",
@@ -4470,7 +4482,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "The outline of an EAR with folds inside and the lobe at the bottom."
     },
     {
       "slug": "radical-hand",
@@ -4481,7 +4494,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "A palm with three fingers spread and a thumb hooked down: a HAND."
     },
     {
       "slug": "radical-foot",
@@ -4492,7 +4506,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "A mouth on top, a leg striding below: the FOOT that carries you."
     },
     {
       "slug": "radical-big",
@@ -4503,7 +4518,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "A person stretching arms and legs as wide as possible: BIG."
     },
     {
       "slug": "radical-small",
@@ -4514,7 +4530,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "A tiny stroke with two crumbs falling off it: SMALL."
     },
     {
       "slug": "radical-above",
@@ -4525,7 +4542,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "A short stroke sits ABOVE the line, like a bird perched on a wire."
     },
     {
       "slug": "radical-below",
@@ -4536,7 +4554,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "A stroke hangs BELOW the line, like a lantern dangling under a beam."
     },
     {
       "slug": "radical-middle",
@@ -4547,7 +4566,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "A line shot straight through the MIDDLE of a box."
     },
     {
       "slug": "radical-root-line",
@@ -4558,7 +4578,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "A single flat stroke: the ROOT LINE everything is built on."
     },
     {
       "slug": "radical-legs",
@@ -4569,7 +4590,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "Two strokes walking apart: a pair of LEGS mid-stride."
     },
     {
       "slug": "radical-speech",
@@ -4580,7 +4602,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "Lines of sound coming out above a mouth: SPEECH."
     },
     {
       "slug": "radical-i",
@@ -4591,7 +4614,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "Five people talking through one mouth: \"I\" am speaking for all of us."
     },
     {
       "slug": "radical-child",
@@ -4602,7 +4626,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "A baby wrapped in a blanket with arms flung out: a CHILD."
     },
     {
       "slug": "radical-hands",
@@ -4613,7 +4638,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "Two short strokes reaching out, like a pair of HANDS grabbing."
     },
     {
       "slug": "radical-intersect",
@@ -4624,7 +4650,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "A lid on top of crossing legs: two roads that INTERSECT."
     },
     {
       "slug": "radical-walking",
@@ -4635,7 +4662,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "A single sweeping stroke: a foot sliding forward, WALKING."
     },
     {
       "slug": "radical-steam",
@@ -4646,7 +4674,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "Wisps rising and curling over a pot: STEAM."
     },
     {
       "slug": "radical-rice",
@@ -4657,7 +4686,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "Grains scattering from a crossed stalk: RICE."
     },
     {
       "slug": "radical-rain",
@@ -4668,7 +4698,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "Drops falling from under a cloud roof: RAIN."
     },
     {
       "slug": "radical-lightning",
@@ -4679,7 +4710,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "A box split by a stroke that shoots straight through it: LIGHTNING."
     },
     {
       "slug": "radical-wheel",
@@ -4690,7 +4722,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "A cart seen from above: axle through the middle, a WHEEL on each side."
     },
     {
       "slug": "radical-plant",
@@ -4701,7 +4734,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "Two little sprouts crossing a line of soil: a PLANT."
     },
     {
       "slug": "radical-change",
@@ -4712,7 +4746,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "A standing person beside a flipped person: someone CHANGING form."
     },
     {
       "slug": "radical-cave",
@@ -4723,7 +4758,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "A roof with two openings beneath: the dark mouth of a CAVE."
     },
     {
       "slug": "radical-craft",
@@ -4734,7 +4770,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "An I-beam on a building site: the tool of every CRAFT worker."
     },
     {
       "slug": "radical-every",
@@ -4745,7 +4782,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "A mother figure with a hat on: EVERY mother wears one on the school run."
     },
     {
       "slug": "radical-rice-field",
@@ -4756,7 +4794,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "A square field cut into four paddies: a RICE FIELD."
     },
     {
       "slug": "radical-strength",
@@ -4767,7 +4806,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "An arm flexing its biceps: STRENGTH."
     },
     {
       "slug": "radical-woman-kneeling",
@@ -4778,7 +4818,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "A figure kneeling with arms crossed gracefully: a WOMAN."
     },
     {
       "slug": "radical-father-holding-a-stick",
@@ -4789,7 +4830,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "Two crossed sticks under two strokes: FATHER waving his walking stick."
     },
     {
       "slug": "radical-nurturing-woman",
@@ -4800,7 +4842,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "A woman holding two little ones close: a NURTURING mother."
     },
     {
       "slug": "radical-sun-ray-white-light",
@@ -4811,7 +4854,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "The sun with a ray shooting off the top: bright WHITE light."
     },
     {
       "slug": "radical-growth",
@@ -4822,7 +4866,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "A sprout pushing up through layers of soil: GROWTH."
     },
     {
       "slug": "radical-well",
@@ -4833,7 +4878,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "Two pairs of crossed logs: the frame around a village WELL."
     },
     {
       "slug": "radical-tall-building",
@@ -4844,7 +4890,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "A roof, a window, a door, stacked high: a TALL BUILDING."
     },
     {
       "slug": "radical-stand",
@@ -4855,7 +4902,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "A person with a hat, legs planted on the ground: STAND tall."
     },
     {
       "slug": "radical-axe-cutting-fresh-wood",
@@ -4866,7 +4914,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "The shape is an axe head on a long handle, swung down to split fresh wood."
     },
     {
       "slug": "radical-good",
@@ -4877,7 +4926,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "A shining dot on top of a sturdy base: something GOOD stands out."
     },
     {
       "slug": "radical-eat",
@@ -4888,7 +4938,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "A lid over a steaming bowl of rice, ready to EAT."
     },
     {
       "slug": "radical-yawn",
@@ -4899,7 +4950,8 @@
       "skill": "kanji",
       "tags": [
         "radical"
-      ]
+      ],
+      "mnemonic": "A person with a wide-open mouth leaning back: a big YAWN, lacking sleep."
     },
     {
       "slug": "kanji-sun",

@@ -56,19 +56,17 @@ describe("buildCard recognition", () => {
 });
 
 describe("buildCard recall", () => {
-  it("asks to type a kana from its romaji in the right script", () => {
-    expect(buildCard(kata, "recall", false, [])).toMatchObject({
-      mode: "typing",
-      prompt: "a",
-      typing: { term: "ア", script: "katakana" },
-    });
+  it("makes a reverse flip card: sound → kana, meaning → word, kanji → reading", () => {
+    expect(buildCard(kata, "recall", false, [])).toMatchObject({ mode: "flip", prompt: "a", promptIsJapanese: false });
+    const word = item({ type: "word", term: "水", romaji: "mizu", meaning: "Water", tags: [] });
+    expect(buildCard(word, "recall", false, [])).toMatchObject({ mode: "flip", prompt: "Water", reveal: { term: "水" } });
+    const kanji = item({ type: "kanji", term: "日", romaji: "nichi/hi", meaning: "Sun", tags: [] });
+    expect(buildCard(kanji, "recall", false, [])).toMatchObject({ mode: "flip", prompt: "日" });
   });
 
-  it("asks for a word from its meaning and a kanji's reading from the kanji", () => {
-    const word = item({ type: "word", term: "水", romaji: "mizu", meaning: "Water", tags: [] });
-    expect(buildCard(word, "recall", false, [])).toMatchObject({ prompt: "Water", promptIsJapanese: false });
-    const kanji = item({ type: "kanji", term: "日", romaji: "nichi/hi", meaning: "Sun", tags: [] });
-    expect(buildCard(kanji, "recall", false, [])).toMatchObject({ prompt: "日", question: "Type a reading" });
+  it("never produces a typing card", () => {
+    const word = item({ type: "word", term: "水", meaning: "Water", tags: [] });
+    for (const t of ["recognition", "recall"] as const) expect(buildCard(word, t, false, [word]).mode).not.toBe("typing");
   });
 });
 

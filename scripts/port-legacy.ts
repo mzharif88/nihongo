@@ -15,6 +15,7 @@ import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { pathToFileURL } from "node:url";
 import { IMPORT_FORMAT_VERSION, parseImport, type ContentKind } from "../src/lib/content/schema";
+import { applyMnemonics, loadMnemonics } from "./mnemonics";
 
 const LEGACY_REF = process.env.LEGACY_REF ?? "origin/legacy";
 const OUT_DIR = join(process.cwd(), "content", "legacy");
@@ -403,7 +404,7 @@ async function main() {
   const data = await loadLegacy();
   mkdirSync(OUT_DIR, { recursive: true });
 
-  const items = buildItems(data);
+  const items = applyMnemonics(buildItems(data) as (Record<string, unknown> & { slug: string })[], loadMnemonics());
   const practice = buildPracticeQuestions(data.grammar.ALL_GRAMMAR);
   const mocks = buildMocks(data.content.MOCK_QUESTIONS, data.content.JLPT_META);
   const patterns = buildPatterns(data.modules.SENTENCE_PATTERNS);

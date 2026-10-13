@@ -58,3 +58,15 @@ describe("legacy packs", () => {
     }
   });
 });
+
+describe("mnemonics overlay", () => {
+  const mnemonics = JSON.parse(readFileSync(join(CONTENT, "mnemonics", "n5.json"), "utf8")) as Record<string, string>;
+  const bySlug = new Map(allPacks.flatMap(([g, f]) => loadFrom(g, f).records).map((r) => [r.slug as string, r]));
+
+  it("only names items that exist, and every one made it into its pack", () => {
+    for (const [slug, text] of Object.entries(mnemonics)) {
+      expect(text.trim(), slug).not.toBe("");
+      expect(bySlug.get(slug)?.mnemonic, slug).toBe(text);
+    }
+  });
+});

@@ -1,5 +1,3 @@
-import type { TypedTarget } from "./answers";
-
 export type CardType = "recognition" | "recall";
 
 export interface StudyItem {
@@ -25,13 +23,13 @@ export interface StudyCard {
   itemId: string;
   cardType: CardType;
   isNew: boolean;
-  mode: "choice" | "typing";
+  /** Multiple choice for recognition; a self-graded flip card for recall. */
+  mode: "choice" | "flip";
   question: string;
   prompt: string;
   promptIsJapanese: boolean;
   options?: string[];
   answerIndex?: number;
-  typing?: TypedTarget & { script: "hiragana" | "katakana" };
   reveal: {
     term: string;
     reading: string | null;
@@ -43,7 +41,7 @@ export interface StudyCard {
   };
 }
 
-/** Item types that also get a typed recall card once recognition is learned. */
+/** Item types that also get a reverse (recall) flip card once recognition is learned. */
 export const RECALL_TYPES = ["kana", "kanji", "word"];
 
 export type Rng = () => number;
@@ -107,35 +105,14 @@ export function buildCard(
   };
 
   if (cardType === "recall") {
-    const target = { term: item.term, reading: item.reading, romaji: item.romaji };
+    // Reverse flashcard: think of the answer, flip, then grade yourself.
     if (item.type === "kana") {
-      return {
-        ...base,
-        mode: "typing",
-        question: `Type this sound in ${isKatakana(item) ? "katakana" : "hiragana"}`,
-        prompt: item.romaji ?? item.meaning,
-        promptIsJapanese: false,
-        typing: { ...target, script: isKatakana(item) ? "katakana" : "hiragana" },
-      };
+      return { ...base, mode: "flip", question: "What's the kana for this sound?", prompt: item.romaji ?? item.meaning, promptIsJapanese: false };
     }
     if (item.type === "kanji") {
-      return {
-        ...base,
-        mode: "typing",
-        question: "Type a reading",
-        prompt: item.term,
-        promptIsJapanese: true,
-        typing: { ...target, script: "hiragana" },
-      };
+      return { ...base, mode: "flip", question: "How is this kanji read?", prompt: item.term, promptIsJapanese: true };
     }
-    return {
-      ...base,
-      mode: "typing",
-      question: "Say it in Japanese (romaji or kana)",
-      prompt: item.meaning,
-      promptIsJapanese: false,
-      typing: { ...target, script: isKatakana(item) ? "katakana" : "hiragana" },
-    };
+    return { ...base, mode: "flip", question: "How do you say this in Japanese?", prompt: item.meaning, promptIsJapanese: false };
   }
 
   const answer = choiceAnswer(item);

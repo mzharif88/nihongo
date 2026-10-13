@@ -20,6 +20,7 @@ import { join } from "node:path";
 import { parse } from "csv-parse/sync";
 import { toRomaji } from "wanakana";
 import { IMPORT_FORMAT_VERSION, parseImport } from "../src/lib/content/schema";
+import { applyMnemonics, loadMnemonics } from "./mnemonics";
 
 const LEVELS = ["N5", "N4", "N3", "N2"] as const;
 type Level = (typeof LEVELS)[number];
@@ -74,7 +75,10 @@ function withoutUnverified(tags: string[], add: string[]): string[] {
   return [...new Set([...tags.filter((t) => t !== "level-unverified"), ...add])];
 }
 
-function writePack(file: string, records: Item[], source: string) {
+const MNEMONICS = loadMnemonics();
+
+function writePack(file: string, items: Item[], source: string) {
+  const records = applyMnemonics(items, MNEMONICS);
   const doc = { version: IMPORT_FORMAT_VERSION, kind: "items", source, records };
   const parsed = parseImport(doc);
   if (parsed.issues.length) {
