@@ -8,7 +8,7 @@ model.
 This is a fresh build. The old NihonGo! app (React + Vite) lives on the
 [`legacy`](../../tree/legacy) branch.
 
-## Status: Phase 0
+## Status: Phase 1 in progress
 
 | Area | What exists |
 | --- | --- |
@@ -16,8 +16,8 @@ This is a fresh build. The old NihonGo! app (React + Vite) lives on the
 | Database | Full schema with RLS on every table (`supabase/migrations`) |
 | Admin console | `/admin`: content counts, browse/filter, JSON editor, bulk review queue (draft → reviewed → live), JSON import, full JSON export |
 | Content | Old NihonGo! content ported to import files (`content/legacy`), all as drafts |
-| SRS | FSRS scheduler wrapper (`src/lib/srs/fsrs.ts`) with tests; no review UI yet |
-| Learner UI | Home page placeholder; the daily loop arrives in Phase 1 |
+| SRS | `/study`: daily FSRS session (due reviews capped to ~15 min, then new items); multiple-choice recognition and typed recall with romaji→kana; XP and streaks |
+| Learner UI | Home page with due/new counts; lessons, sentence builder and the N5 mock are the next Phase 1 slices |
 
 ## Stack
 

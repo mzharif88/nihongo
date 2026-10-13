@@ -38,6 +38,12 @@ describe("profiles", () => {
     expect(r.rows).toEqual([{ daily_minutes: 30 }]);
   });
 
+  it("lets a learner set their timezone", async () => {
+    await as(db, ALICE, () => db.query(`update public.profiles set timezone = 'Asia/Tokyo' where id = $1`, [ALICE]));
+    const r = await db.query(`select timezone from public.profiles where id = $1`, [ALICE]);
+    expect(r.rows).toEqual([{ timezone: "Asia/Tokyo" }]);
+  });
+
   it("blocks a learner from promoting themselves to admin", async () => {
     await expect(
       as(db, ALICE, () => db.query(`update public.profiles set role = 'admin' where id = $1`, [ALICE])),
