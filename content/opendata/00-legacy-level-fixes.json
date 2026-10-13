@@ -14,7 +14,8 @@
    "examples": [
     {
      "jp": "一つ (hitotsu)",
-     "en": "One thing"
+     "en": "One thing",
+     "reading": "[一|ひと]つ (hitotsu)"
     }
    ],
    "skill": "kanji",
@@ -49,7 +50,8 @@
    "examples": [
     {
      "jp": "二つ (futatsu)",
-     "en": "Two things"
+     "en": "Two things",
+     "reading": "[二|ふた]つ (futatsu)"
     }
    ],
    "skill": "kanji",
@@ -85,7 +87,8 @@
    "examples": [
     {
      "jp": "九つ (kokonotsu)",
-     "en": "Nine things"
+     "en": "Nine things",
+     "reading": "[九|ここの]つ (kokonotsu)"
     }
    ],
    "skill": "kanji",
@@ -120,7 +123,8 @@
    "examples": [
     {
      "jp": "七つ (nanatsu)",
-     "en": "Seven things"
+     "en": "Seven things",
+     "reading": "[七|なな]つ (nanatsu)"
     }
    ],
    "skill": "kanji",
@@ -155,7 +159,8 @@
    "examples": [
     {
      "jp": "日本人 (nihonjin)",
-     "en": "Japanese person"
+     "en": "Japanese person",
+     "reading": "[日本人|にほんじん] (nihonjin)"
     }
    ],
    "skill": "kanji",
@@ -193,7 +198,8 @@
    "examples": [
     {
      "jp": "入る (hairu)",
-     "en": "To enter"
+     "en": "To enter",
+     "reading": "[入|はい]る (hairu)"
     }
    ],
    "skill": "kanji",
@@ -232,7 +238,8 @@
    "examples": [
     {
      "jp": "八つ (yattsu)",
-     "en": "Eight things"
+     "en": "Eight things",
+     "reading": "[八|やっ]つ (yattsu)"
     }
    ],
    "skill": "kanji",
@@ -268,7 +275,8 @@
    "examples": [
     {
      "jp": "十 (juu)",
-     "en": "Ten"
+     "en": "Ten",
+     "reading": "[十|じゅう] (juu)"
     }
    ],
    "skill": "kanji",
@@ -304,7 +312,8 @@
    "examples": [
     {
      "jp": "三つ (mittsu)",
-     "en": "Three things"
+     "en": "Three things",
+     "reading": "[三|みっ]つ (mittsu)"
     }
    ],
    "skill": "kanji",
@@ -340,7 +349,8 @@
    "examples": [
     {
      "jp": "上 (ue)",
-     "en": "Above"
+     "en": "Above",
+     "reading": "[上|うえ] (ue)"
     }
    ],
    "skill": "kanji",
@@ -391,7 +401,8 @@
    "examples": [
     {
      "jp": "下 (shita)",
-     "en": "Below"
+     "en": "Below",
+     "reading": "[下|した] (shita)"
     }
    ],
    "skill": "kanji",
@@ -438,7 +449,8 @@
    "examples": [
     {
      "jp": "入口 (iriguchi)",
-     "en": "Entrance"
+     "en": "Entrance",
+     "reading": "[入口|いりぐち] (iriguchi)"
     }
    ],
    "skill": "kanji",
@@ -474,7 +486,8 @@
    "examples": [
     {
      "jp": "大きい (ookii)",
-     "en": "Big"
+     "en": "Big",
+     "reading": "[大|おお]きい (ookii)"
     }
    ],
    "skill": "kanji",
@@ -512,7 +525,8 @@
    "examples": [
     {
      "jp": "女の人 (onna no hito)",
-     "en": "A woman"
+     "en": "A woman",
+     "reading": "[女|おんな]の[人|ひと] (onna no hito)"
     }
    ],
    "skill": "kanji",
@@ -550,7 +564,8 @@
    "examples": [
     {
      "jp": "富士山 (fujisan)",
-     "en": "Mt. Fuji"
+     "en": "Mt. Fuji",
+     "reading": "[富士山|ふじやま] (fujisan)"
     }
    ],
    "skill": "kanji",
@@ -586,7 +601,8 @@
    "examples": [
     {
      "jp": "川 (kawa)",
-     "en": "River"
+     "en": "River",
+     "reading": "[川|かわ] (kawa)"
     }
    ],
    "skill": "kanji",
@@ -621,7 +637,8 @@
    "examples": [
     {
      "jp": "土曜日 (doyoubi)",
-     "en": "Saturday"
+     "en": "Saturday",
+     "reading": "[土曜日|どようび] (doyoubi)"
     }
    ],
    "skill": "kanji",
@@ -657,7 +674,8 @@
    "examples": [
     {
      "jp": "千円 (senen)",
-     "en": "1000 yen"
+     "en": "1000 yen",
+     "reading": "[千|せん][円|えん] (senen)"
     }
    ],
    "skill": "kanji",
@@ -690,7 +708,8 @@
    "examples": [
     {
      "jp": "子供 (kodomo)",
-     "en": "Child"
+     "en": "Child",
+     "reading": "[子供|こども] (kodomo)"
     }
    ],
    "skill": "kanji",
@@ -729,7 +748,8 @@
    "examples": [
     {
      "jp": "小さい (chiisai)",
-     "en": "Small"
+     "en": "Small",
+     "reading": "[小|ちい]さい (chiisai)"
     }
    ],
    "skill": "kanji",
@@ -767,7 +787,8 @@
    "examples": [
     {
      "jp": "中国 (chuugoku)",
-     "en": "China"
+     "en": "China",
+     "reading": "[中国|ちゅうごく] (chuugoku)"
     }
    ],
    "skill": "kanji",
@@ -804,7 +825,8 @@
    "examples": [
     {
      "jp": "五つ (itsutsu)",
-     "en": "Five things"
+     "en": "Five things",
+     "reading": "[五|いつ]つ (itsutsu)"
     }
    ],
    "skill": "kanji",
@@ -838,7 +860,8 @@
    "examples": [
     {
      "jp": "六つ (muttsu)",
-     "en": "Six things"
+     "en": "Six things",
+     "reading": "[六|むっ]つ (muttsu)"
     }
    ],
    "skill": "kanji",
@@ -875,7 +898,8 @@
    "examples": [
     {
      "jp": "百円 (hyakuen)",
-     "en": "100 yen"
+     "en": "100 yen",
+     "reading": "[百|ひゃく][円|えん] (hyakuen)"
     }
    ],
    "skill": "kanji",
@@ -912,7 +936,8 @@
    "examples": [
     {
      "jp": "手 (te)",
-     "en": "Hand"
+     "en": "Hand",
+     "reading": "[手|て] (te)"
     }
    ],
    "skill": "kanji",
@@ -951,7 +976,8 @@
    "examples": [
     {
      "jp": "今日 (kyou)",
-     "en": "Today"
+     "en": "Today",
+     "reading": "[今日|きょう] (kyou)"
     }
    ],
    "skill": "kanji",
@@ -989,7 +1015,8 @@
    "examples": [
     {
      "jp": "今月 (kongetsu)",
-     "en": "This month"
+     "en": "This month",
+     "reading": "[今月|こんげつ] (kongetsu)"
     }
    ],
    "skill": "kanji",
@@ -1025,7 +1052,8 @@
    "examples": [
     {
      "jp": "木曜日 (mokuyoubi)",
-     "en": "Thursday"
+     "en": "Thursday",
+     "reading": "[木曜日|もくようび] (mokuyoubi)"
     }
    ],
    "skill": "kanji",
@@ -1062,7 +1090,8 @@
    "examples": [
     {
      "jp": "水曜日 (suiyoubi)",
-     "en": "Wednesday"
+     "en": "Wednesday",
+     "reading": "[水曜日|すいようび] (suiyoubi)"
     }
    ],
    "skill": "kanji",
@@ -1098,7 +1127,8 @@
    "examples": [
     {
      "jp": "火曜日 (kayoubi)",
-     "en": "Tuesday"
+     "en": "Tuesday",
+     "reading": "[火曜日|かようび] (kayoubi)"
     }
    ],
    "skill": "kanji",
@@ -1135,7 +1165,8 @@
    "examples": [
     {
      "jp": "出る (deru)",
-     "en": "To exit"
+     "en": "To exit",
+     "reading": "[出|で]る (deru)"
     }
    ],
    "skill": "kanji",
@@ -1174,7 +1205,8 @@
    "examples": [
     {
      "jp": "右に曲がる (migi ni magaru)",
-     "en": "Turn right"
+     "en": "Turn right",
+     "reading": "[右|みぎ]に[曲|ま]がる (migi ni magaru)"
     }
    ],
    "skill": "kanji",
@@ -1208,7 +1240,8 @@
    "examples": [
     {
      "jp": "四つ (yottsu)",
-     "en": "Four things"
+     "en": "Four things",
+     "reading": "[四|よっ]つ (yottsu)"
     }
    ],
    "skill": "kanji",
@@ -1244,7 +1277,8 @@
    "examples": [
     {
      "jp": "左側 (hidarigawa)",
-     "en": "Left side"
+     "en": "Left side",
+     "reading": "[左側|ひだりがわ] (hidarigawa)"
     }
    ],
    "skill": "kanji",
@@ -1314,7 +1348,8 @@
    "examples": [
     {
      "jp": "白い (shiroi)",
-     "en": "White"
+     "en": "White",
+     "reading": "[白|しろ]い (shiroi)"
     }
    ],
    "skill": "kanji",
@@ -1352,7 +1387,8 @@
    "examples": [
     {
      "jp": "目 (me)",
-     "en": "Eye"
+     "en": "Eye",
+     "reading": "[目|め] (me)"
     }
    ],
    "skill": "kanji",
@@ -1390,7 +1426,8 @@
    "examples": [
     {
      "jp": "立つ (tatsu)",
-     "en": "To stand"
+     "en": "To stand",
+     "reading": "[立|た]つ (tatsu)"
     }
    ],
    "skill": "kanji",
@@ -1434,7 +1471,8 @@
    "examples": [
     {
      "jp": "今日 (kyou)",
-     "en": "Today"
+     "en": "Today",
+     "reading": "[今日|きょう] (kyou)"
     }
    ],
    "skill": "kanji",
@@ -1468,7 +1506,8 @@
    "examples": [
     {
      "jp": "お父さん (otousan)",
-     "en": "Father"
+     "en": "Father",
+     "reading": "お[父|とう]さん (otousan)"
     }
    ],
    "skill": "kanji",
@@ -1503,7 +1542,8 @@
    "examples": [
     {
      "jp": "冬は寒い (fuyu wa samui)",
-     "en": "Winter is cold"
+     "en": "Winter is cold",
+     "reading": "[冬|ふゆ]は[寒|さむ]い (fuyu wa samui)"
     }
    ],
    "skill": "kanji",
@@ -1536,7 +1576,8 @@
    "examples": [
     {
      "jp": "三時半 (sanji han)",
-     "en": "3:30"
+     "en": "3:30",
+     "reading": "[三|さん][時半|じはん] (sanji han)"
     }
    ],
    "skill": "kanji",
@@ -1569,7 +1610,8 @@
    "examples": [
     {
      "jp": "外国語 (gaikokugo)",
-     "en": "Foreign language"
+     "en": "Foreign language",
+     "reading": "[外国|がいこく][語|ご] (gaikokugo)"
     }
    ],
    "skill": "kanji",
@@ -1607,7 +1649,8 @@
    "examples": [
     {
      "jp": "お母さん (okaasan)",
-     "en": "Mother"
+     "en": "Mother",
+     "reading": "お[母|かあ]さん (okaasan)"
     }
    ],
    "skill": "kanji",
@@ -1643,7 +1686,8 @@
    "examples": [
     {
      "jp": "先生 (sensei)",
-     "en": "Teacher"
+     "en": "Teacher",
+     "reading": "[先生|せんせい] (sensei)"
     }
    ],
    "skill": "kanji",
@@ -1680,7 +1724,8 @@
    "examples": [
     {
      "jp": "今年 (kotoshi)",
-     "en": "This year"
+     "en": "This year",
+     "reading": "[今年|ことし] (kotoshi)"
     }
    ],
    "skill": "kanji",
@@ -1713,7 +1758,8 @@
    "examples": [
     {
      "jp": "元気 (genki)",
-     "en": "Healthy / Fine"
+     "en": "Healthy / Fine",
+     "reading": "[元気|げんき] (genki)"
     }
    ],
    "skill": "kanji",
@@ -1750,7 +1796,8 @@
    "examples": [
     {
      "jp": "百円 (hyakuen)",
-     "en": "100 yen"
+     "en": "100 yen",
+     "reading": "[百|ひゃく][円|えん] (hyakuen)"
     }
    ],
    "skill": "kanji",
@@ -1784,7 +1831,8 @@
    "examples": [
     {
      "jp": "耳 (mimi)",
-     "en": "Ear"
+     "en": "Ear",
+     "reading": "[耳|みみ] (mimi)"
     }
    ],
    "skill": "kanji",
@@ -1819,7 +1867,8 @@
    "examples": [
     {
      "jp": "男の子 (otoko no ko)",
-     "en": "A boy"
+     "en": "A boy",
+     "reading": "[男|おとこ]の[子|こ] (otoko no ko)"
     }
    ],
    "skill": "kanji",
@@ -1857,7 +1906,8 @@
    "examples": [
     {
      "jp": "花が咲く (hana ga saku)",
-     "en": "Flowers bloom"
+     "en": "Flowers bloom",
+     "reading": "[花|はな]が[咲|さ]く (hana ga saku)"
     }
    ],
    "skill": "kanji",
@@ -1894,7 +1944,8 @@
    "examples": [
     {
      "jp": "見る (miru)",
-     "en": "To see"
+     "en": "To see",
+     "reading": "[見|み]る (miru)"
     }
    ],
    "skill": "kanji",
@@ -1932,7 +1983,8 @@
    "examples": [
     {
      "jp": "赤い (akai)",
-     "en": "Red"
+     "en": "Red",
+     "reading": "[赤|あか]い (akai)"
     }
    ],
    "skill": "kanji",
@@ -1973,7 +2025,8 @@
    "examples": [
     {
      "jp": "足 (ashi)",
-     "en": "Foot/Leg"
+     "en": "Foot/Leg",
+     "reading": "[足|あし] (ashi)"
     }
    ],
    "skill": "kanji",
@@ -2011,7 +2064,8 @@
    "examples": [
     {
      "jp": "電車 (densha)",
-     "en": "Train"
+     "en": "Train",
+     "reading": "[電車|でんしゃ] (densha)"
     }
    ],
    "skill": "kanji",
@@ -2046,7 +2100,8 @@
    "examples": [
     {
      "jp": "毎日 (mainichi)",
-     "en": "Every day"
+     "en": "Every day",
+     "reading": "[毎日|まいにち] (mainichi)"
     }
    ],
    "skill": "kanji",
@@ -2080,7 +2135,8 @@
    "examples": [
     {
      "jp": "行く (iku)",
-     "en": "To go"
+     "en": "To go",
+     "reading": "[行|い]く (iku)"
     }
    ],
    "skill": "kanji",
@@ -2122,7 +2178,8 @@
    "examples": [
     {
      "jp": "何ですか (nan desu ka)",
-     "en": "What is it?"
+     "en": "What is it?",
+     "reading": "[何|なん]ですか (nan desu ka)"
     }
    ],
    "skill": "kanji",
@@ -2158,7 +2215,8 @@
    "examples": [
     {
      "jp": "来る (kuru)",
-     "en": "To come"
+     "en": "To come",
+     "reading": "[来|く]る (kuru)"
     }
    ],
    "skill": "kanji",
@@ -2198,7 +2256,8 @@
    "examples": [
     {
      "jp": "勉強 (benkyou)",
-     "en": "Study"
+     "en": "Study",
+     "reading": "[勉強|べんきょう] (benkyou)"
     }
    ],
    "skill": "kanji",
@@ -2234,7 +2293,8 @@
    "examples": [
     {
      "jp": "青い空 (aoi sora)",
-     "en": "Blue sky"
+     "en": "Blue sky",
+     "reading": "[青|あお]い[空|そら] (aoi sora)"
     }
    ],
    "skill": "kanji",
@@ -2277,7 +2337,8 @@
    "examples": [
     {
      "jp": "お金 (okane)",
-     "en": "Money"
+     "en": "Money",
+     "reading": "お[金|かね] (okane)"
     }
    ],
    "skill": "kanji",
@@ -2316,7 +2377,8 @@
    "examples": [
     {
      "jp": "雨が降る (ame ga furu)",
-     "en": "It rains"
+     "en": "It rains",
+     "reading": "[雨|あめ]が[降|ふ]る (ame ga furu)"
     }
    ],
    "skill": "kanji",
@@ -2353,7 +2415,8 @@
    "examples": [
     {
      "jp": "青い (aoi)",
-     "en": "Blue"
+     "en": "Blue",
+     "reading": "[青|あお]い (aoi)"
     }
    ],
    "skill": "kanji",
@@ -2392,7 +2455,8 @@
    "examples": [
     {
      "jp": "外国 (gaikoku)",
-     "en": "Foreign country"
+     "en": "Foreign country",
+     "reading": "[外国|がいこく] (gaikoku)"
     }
    ],
    "skill": "kanji",
@@ -2425,7 +2489,8 @@
    "examples": [
     {
      "jp": "長い (nagai)",
-     "en": "Long"
+     "en": "Long",
+     "reading": "[長|なが]い (nagai)"
     }
    ],
    "skill": "kanji",
@@ -2459,7 +2524,8 @@
    "examples": [
     {
      "jp": "前に進む (mae ni susumu)",
-     "en": "Move forward"
+     "en": "Move forward",
+     "reading": "[前|まえ]に[進|すす]む (mae ni susumu)"
     }
    ],
    "skill": "kanji",
@@ -2493,7 +2559,8 @@
    "examples": [
     {
      "jp": "後で (ato de)",
-     "en": "Later / After"
+     "en": "Later / After",
+     "reading": "[後|あと]で (ato de)"
     }
    ],
    "skill": "kanji",
@@ -2531,7 +2598,8 @@
    "examples": [
     {
      "jp": "海で泳ぐ (umi de oyogu)",
-     "en": "Swim in the sea"
+     "en": "Swim in the sea",
+     "reading": "[海|うみ]で[泳|およ]ぐ (umi de oyogu)"
     }
    ],
    "skill": "kanji",
@@ -2567,7 +2635,8 @@
    "examples": [
     {
      "jp": "食べる (taberu)",
-     "en": "To eat"
+     "en": "To eat",
+     "reading": "[食|た]べる (taberu)"
     }
    ],
    "skill": "kanji",
@@ -2607,7 +2676,8 @@
    "examples": [
     {
      "jp": "学校 (gakkou)",
-     "en": "School"
+     "en": "School",
+     "reading": "[学校|がっこう] (gakkou)"
     }
    ],
    "skill": "kanji",
@@ -2642,7 +2712,8 @@
    "examples": [
     {
      "jp": "夏休み (natsuyasumi)",
-     "en": "Summer vacation"
+     "en": "Summer vacation",
+     "reading": "[夏休|なつやす]み (natsuyasumi)"
     }
    ],
    "skill": "kanji",
@@ -2677,7 +2748,8 @@
    "examples": [
     {
      "jp": "何時 (nanji)",
-     "en": "What time?"
+     "en": "What time?",
+     "reading": "[何|なん][時|じ] (nanji)"
     }
    ],
    "skill": "kanji",
@@ -2711,7 +2783,8 @@
    "examples": [
     {
      "jp": "高い (takai)",
-     "en": "Tall / Expensive"
+     "en": "Tall / Expensive",
+     "reading": "[高|たか]い (takai)"
     }
    ],
    "skill": "kanji",
@@ -2750,7 +2823,8 @@
    "examples": [
     {
      "jp": "来週 (raishuu)",
-     "en": "Next week"
+     "en": "Next week",
+     "reading": "[来週|らいしゅう] (raishuu)"
     }
    ],
    "skill": "kanji",
@@ -2781,7 +2855,8 @@
    "examples": [
     {
      "jp": "時間 (jikan)",
-     "en": "Time (duration)"
+     "en": "Time (duration)",
+     "reading": "[時間|じかん] (jikan)"
     }
    ],
    "skill": "kanji",
@@ -2817,7 +2892,8 @@
    "examples": [
     {
      "jp": "話す (hanasu)",
-     "en": "To speak"
+     "en": "To speak",
+     "reading": "[話|はな]す (hanasu)"
     }
    ],
    "skill": "kanji",
@@ -2851,7 +2927,8 @@
    "examples": [
     {
      "jp": "電車 (densha)",
-     "en": "Train"
+     "en": "Train",
+     "reading": "[電車|でんしゃ] (densha)"
     }
    ],
    "skill": "kanji",
@@ -2885,7 +2962,8 @@
    "examples": [
     {
      "jp": "飲む (nomu)",
-     "en": "To drink"
+     "en": "To drink",
+     "reading": "[飲|の]む (nomu)"
     }
    ],
    "skill": "kanji",
@@ -2923,7 +3001,8 @@
    "examples": [
     {
      "jp": "聞く (kiku)",
-     "en": "To hear/ask"
+     "en": "To hear/ask",
+     "reading": "[聞|き]く (kiku)"
     }
    ],
    "skill": "kanji",
@@ -2958,7 +3037,8 @@
    "examples": [
     {
      "jp": "日本語 (nihongo)",
-     "en": "Japanese language"
+     "en": "Japanese language",
+     "reading": "[日本語|にほんご] (nihongo)"
     }
    ],
    "skill": "kanji",
@@ -2995,7 +3075,8 @@
    "examples": [
     {
      "jp": "読む (yomu)",
-     "en": "To read"
+     "en": "To read",
+     "reading": "[読|よ]む (yomu)"
     }
    ],
    "skill": "kanji",
@@ -3031,7 +3112,8 @@
    "examples": [
     {
      "jp": "学生 (gakusei)",
-     "en": "Student"
+     "en": "Student",
+     "reading": "[学生|がくせい] (gakusei)"
     }
    ],
    "skill": "kanji",
@@ -3085,7 +3167,8 @@
    "examples": [
     {
      "jp": "新しい (atarashii)",
-     "en": "New"
+     "en": "New",
+     "reading": "[新|あたら]しい (atarashii)"
     }
    ],
    "skill": "kanji",
@@ -3125,7 +3208,8 @@
    "examples": [
     {
      "jp": "駅で待つ (eki de matsu)",
-     "en": "Wait at the station"
+     "en": "Wait at the station",
+     "reading": "[駅|えき]で[待|ま]つ (eki de matsu)"
     }
    ],
    "skill": "kanji",
@@ -3156,7 +3240,8 @@
    "examples": [
     {
      "jp": "春が来た (haru ga kita)",
-     "en": "Spring has come"
+     "en": "Spring has come",
+     "reading": "[春|はる]が[来|き]た (haru ga kita)"
     }
    ],
    "skill": "kanji",
@@ -3189,7 +3274,8 @@
    "examples": [
     {
      "jp": "秋の葉 (aki no ha)",
-     "en": "Autumn leaves"
+     "en": "Autumn leaves",
+     "reading": "[秋|あき]の[葉|は] (aki no ha)"
     }
    ],
    "skill": "kanji",
@@ -3223,7 +3309,8 @@
    "examples": [
     {
      "jp": "月曜日 (getsuyoubi)",
-     "en": "Monday"
+     "en": "Monday",
+     "reading": "[月曜日|げつようび] (getsuyoubi)"
     }
    ],
    "skill": "kanji",
@@ -3254,7 +3341,8 @@
    "examples": [
     {
      "jp": "書く (kaku)",
-     "en": "To write"
+     "en": "To write",
+     "reading": "[書|か]く (kaku)"
     }
    ],
    "skill": "kanji",
@@ -3289,7 +3377,8 @@
    "examples": [
     {
      "jp": "青い空",
-     "en": "Blue sky"
+     "en": "Blue sky",
+     "reading": "[青|あお]い[空|そら]"
     }
    ],
    "skill": "vocabulary",
@@ -3310,7 +3399,8 @@
    "examples": [
     {
      "jp": "赤いバラ",
-     "en": "Red rose"
+     "en": "Red rose",
+     "reading": "[赤|あか]いバラ"
     }
    ],
    "skill": "vocabulary",
@@ -3331,7 +3421,8 @@
    "examples": [
     {
      "jp": "朝ごはん (asagohan)",
-     "en": "Breakfast"
+     "en": "Breakfast",
+     "reading": "[朝|あさ]ごはん (asagohan)"
     }
    ],
    "skill": "vocabulary",
@@ -3352,7 +3443,8 @@
    "examples": [
     {
      "jp": "明日会いましょう",
-     "en": "Let's meet tomorrow"
+     "en": "Let's meet tomorrow",
+     "reading": "[明日|あした][会|あ]いましょう"
     }
    ],
    "skill": "vocabulary",
@@ -3373,7 +3465,8 @@
    "examples": [
     {
      "jp": "公園で遊ぶ",
-     "en": "Play at the park"
+     "en": "Play at the park",
+     "reading": "[公園|こうえん]で[遊|あそ]ぶ"
     }
    ],
    "skill": "vocabulary",
@@ -3394,7 +3487,8 @@
    "examples": [
     {
      "jp": "頭が痛い",
-     "en": "My head hurts"
+     "en": "My head hurts",
+     "reading": "[頭|あたま]が[痛|いた]い"
     }
    ],
    "skill": "vocabulary",
@@ -3415,7 +3509,8 @@
    "examples": [
     {
      "jp": "新しい車 (atarashii kuruma)",
-     "en": "A new car"
+     "en": "A new car",
+     "reading": "[新|あたら]しい[車|くるま] (atarashii kuruma)"
     }
    ],
    "skill": "vocabulary",
@@ -3436,7 +3531,8 @@
    "examples": [
     {
      "jp": "今日は暑い",
-     "en": "Today is hot"
+     "en": "Today is hot",
+     "reading": "[今日|きょう]は[暑|あつ]い"
     }
    ],
    "skill": "vocabulary",
@@ -3457,7 +3553,8 @@
    "examples": [
     {
      "jp": "兄は東京にいます",
-     "en": "My brother is in Tokyo"
+     "en": "My brother is in Tokyo",
+     "reading": "[兄|あに]は[東京|とうきょう]にいます"
     }
    ],
    "skill": "vocabulary",
@@ -3478,7 +3575,8 @@
    "examples": [
     {
      "jp": "姉と買い物する",
-     "en": "Shop with my sister"
+     "en": "Shop with my sister",
+     "reading": "[姉|あね]と[買|か]い[物|もの]する"
     }
    ],
    "skill": "vocabulary",
@@ -3499,7 +3597,8 @@
    "examples": [
     {
      "jp": "雨が降る",
-     "en": "It rains"
+     "en": "It rains",
+     "reading": "[雨|あめ]が[降|ふ]る"
     }
    ],
    "skill": "vocabulary",
@@ -3520,7 +3619,8 @@
    "examples": [
     {
      "jp": "手を洗う",
-     "en": "Wash hands"
+     "en": "Wash hands",
+     "reading": "[手|て]を[洗|あら]う"
     }
    ],
    "skill": "vocabulary",
@@ -3541,7 +3641,8 @@
    "examples": [
     {
      "jp": "駅まで歩く",
-     "en": "Walk to the station"
+     "en": "Walk to the station",
+     "reading": "[駅|えき]まで[歩|ある]く"
     }
    ],
    "skill": "vocabulary",
@@ -3562,7 +3663,8 @@
    "examples": [
     {
      "jp": "いいえ、違います",
-     "en": "No, that's wrong"
+     "en": "No, that's wrong",
+     "reading": "いいえ、[違|ちが]います"
     }
    ],
    "skill": "vocabulary",
@@ -3583,7 +3685,8 @@
    "examples": [
     {
      "jp": "何を言いましたか",
-     "en": "What did you say?"
+     "en": "What did you say?",
+     "reading": "[何|なに]を[言|い]いましたか"
     }
    ],
    "skill": "vocabulary",
@@ -3604,7 +3707,8 @@
    "examples": [
     {
      "jp": "家に帰る (ie ni kaeru)",
-     "en": "Go home"
+     "en": "Go home",
+     "reading": "[家|いえ]に[帰|かえ]る (ie ni kaeru)"
     }
    ],
    "skill": "vocabulary",
@@ -3625,7 +3729,8 @@
    "examples": [
     {
      "jp": "学校に行く",
-     "en": "Go to school"
+     "en": "Go to school",
+     "reading": "[学校|がっこう]に[行|い]く"
     }
    ],
    "skill": "vocabulary",
@@ -3667,7 +3772,8 @@
    "examples": [
     {
      "jp": "医者に行く",
-     "en": "Go to the doctor"
+     "en": "Go to the doctor",
+     "reading": "[医者|いしゃ]に[行|い]く"
     }
    ],
    "skill": "vocabulary",
@@ -3688,7 +3794,8 @@
    "examples": [
     {
      "jp": "椅子に座る",
-     "en": "Sit on chair"
+     "en": "Sit on chair",
+     "reading": "[椅子|いす]に[座|すわ]る"
     }
    ],
    "skill": "vocabulary",
@@ -3709,7 +3816,8 @@
    "examples": [
     {
      "jp": "今日は忙しい (kyou wa isogashii)",
-     "en": "I'm busy today"
+     "en": "I'm busy today",
+     "reading": "[今日|きょう]は[忙|いそが]しい (kyou wa isogashii)"
     }
    ],
    "skill": "vocabulary",
@@ -3730,7 +3838,8 @@
    "examples": [
     {
      "jp": "頭が痛い",
-     "en": "Head hurts"
+     "en": "Head hurts",
+     "reading": "[頭|あたま]が[痛|いた]い"
     }
    ],
    "skill": "vocabulary",
@@ -3751,7 +3860,8 @@
    "examples": [
     {
      "jp": "犬が走る",
-     "en": "The dog runs"
+     "en": "The dog runs",
+     "reading": "[犬|いぬ]が[走|はし]る"
     }
    ],
    "skill": "vocabulary",
@@ -3772,7 +3882,8 @@
    "examples": [
     {
      "jp": "今どこにいる",
-     "en": "Where are you now?"
+     "en": "Where are you now?",
+     "reading": "[今|いま]どこにいる"
     }
    ],
    "skill": "vocabulary",
@@ -3793,7 +3904,8 @@
    "examples": [
     {
      "jp": "妹が生まれた",
-     "en": "My sister was born"
+     "en": "My sister was born",
+     "reading": "[妹|いもうと]が[生|う]まれた"
     }
    ],
    "skill": "vocabulary",
@@ -3814,7 +3926,8 @@
    "examples": [
     {
      "jp": "入口から入る",
-     "en": "Enter from entrance"
+     "en": "Enter from entrance",
+     "reading": "[入口|いりぐち]から[入|はい]る"
     }
    ],
    "skill": "vocabulary",
@@ -3835,7 +3948,8 @@
    "examples": [
     {
      "jp": "好きな色は何ですか",
-     "en": "What's your fav color?"
+     "en": "What's your fav color?",
+     "reading": "[好|す]きな[色|いろ]は[何|なん]ですか"
     }
    ],
    "skill": "vocabulary",
@@ -3856,7 +3970,8 @@
    "examples": [
     {
      "jp": "歌を歌う",
-     "en": "Sing a song"
+     "en": "Sing a song",
+     "reading": "[歌|うた]を[歌|うた]う"
     }
    ],
    "skill": "vocabulary",
@@ -3877,7 +3992,8 @@
    "examples": [
     {
      "jp": "海で遊ぶ",
-     "en": "Play at the sea"
+     "en": "Play at the sea",
+     "reading": "[海|うみ]で[遊|あそ]ぶ"
     }
    ],
    "skill": "vocabulary",
@@ -3898,7 +4014,8 @@
    "examples": [
     {
      "jp": "映画を見る (eiga wo miru)",
-     "en": "Watch a movie"
+     "en": "Watch a movie",
+     "reading": "[映画|えいが]を[見|み]る (eiga wo miru)"
     }
    ],
    "skill": "vocabulary",
@@ -3919,7 +4036,8 @@
    "examples": [
     {
      "jp": "駅で待つ",
-     "en": "Wait at the station"
+     "en": "Wait at the station",
+     "reading": "[駅|えき]で[待|ま]つ"
     }
    ],
    "skill": "vocabulary",
@@ -3940,7 +4058,8 @@
    "examples": [
     {
      "jp": "鉛筆で書く",
-     "en": "Write with pencil"
+     "en": "Write with pencil",
+     "reading": "[鉛筆|えんぴつ]で[書|か]く"
     }
    ],
    "skill": "vocabulary",
@@ -3961,7 +4080,8 @@
    "examples": [
     {
      "jp": "人が多い",
-     "en": "Many people"
+     "en": "Many people",
+     "reading": "[人|ひと]が[多|おお]い"
     }
    ],
    "skill": "vocabulary",
@@ -3982,7 +4102,8 @@
    "examples": [
     {
      "jp": "大きい家",
-     "en": "Big house"
+     "en": "Big house",
+     "reading": "[大|おお]きい[家|いえ]"
     }
    ],
    "skill": "vocabulary",
@@ -4003,7 +4124,8 @@
    "examples": [
     {
      "jp": "お母さんに電話する",
-     "en": "Call (your) mother"
+     "en": "Call (your) mother",
+     "reading": "お[母|かあ]さんに[電話|でんわ]する"
     }
    ],
    "skill": "vocabulary",
@@ -4024,7 +4146,8 @@
    "examples": [
     {
      "jp": "お金がない",
-     "en": "I have no money"
+     "en": "I have no money",
+     "reading": "お[金|かね]がない"
     }
    ],
    "skill": "vocabulary",
@@ -4045,7 +4168,8 @@
    "examples": [
     {
      "jp": "六時に起きる",
-     "en": "Wake up at six"
+     "en": "Wake up at six",
+     "reading": "[六|ろく][時|じ]に[起|お]きる"
     }
    ],
    "skill": "vocabulary",
@@ -4066,7 +4190,8 @@
    "examples": [
     {
      "jp": "お皿に盛る",
-     "en": "Serve on plate"
+     "en": "Serve on plate",
+     "reading": "お[皿|さら]に[盛|も]る"
     }
    ],
    "skill": "vocabulary",
@@ -4087,7 +4212,8 @@
    "examples": [
     {
      "jp": "日本語を教える",
-     "en": "Teach Japanese"
+     "en": "Teach Japanese",
+     "reading": "[日本語|にほんご]を[教|おし]える"
     }
    ],
    "skill": "vocabulary",
@@ -4108,7 +4234,8 @@
    "examples": [
     {
      "jp": "ドアを押す",
-     "en": "Push the door"
+     "en": "Push the door",
+     "reading": "ドアを[押|お]す"
     }
    ],
    "skill": "vocabulary",
@@ -4129,7 +4256,8 @@
    "examples": [
     {
      "jp": "遅い返事",
-     "en": "Late reply"
+     "en": "Late reply",
+     "reading": "[遅|おそ]い[返事|へんじ]"
     }
    ],
    "skill": "vocabulary",
@@ -4150,7 +4278,8 @@
    "examples": [
     {
      "jp": "お茶を飲む (ocha wo nomu)",
-     "en": "Drink tea"
+     "en": "Drink tea",
+     "reading": "お[茶|ちゃ]を[飲|の]む (ocha wo nomu)"
     }
    ],
    "skill": "vocabulary",
@@ -4171,7 +4300,8 @@
    "examples": [
     {
      "jp": "お父さんはどこですか",
-     "en": "Where is your father?"
+     "en": "Where is your father?",
+     "reading": "お[父|とう]さんはどこですか"
     }
    ],
    "skill": "vocabulary",
@@ -4192,7 +4322,8 @@
    "examples": [
     {
      "jp": "弟は学生です",
-     "en": "My brother is a student"
+     "en": "My brother is a student",
+     "reading": "[弟|おとうと]は[学生|がくせい]です"
     }
    ],
    "skill": "vocabulary",
@@ -4213,7 +4344,8 @@
    "examples": [
     {
      "jp": "お腹が空いた",
-     "en": "I'm hungry"
+     "en": "I'm hungry",
+     "reading": "お[腹|なか]が[空|あ]いた"
     }
    ],
    "skill": "vocabulary",
@@ -4234,7 +4366,8 @@
    "examples": [
     {
      "jp": "単語を覚える",
-     "en": "Memorize vocabulary"
+     "en": "Memorize vocabulary",
+     "reading": "[単語|たんご]を[覚|おぼ]える"
     }
    ],
    "skill": "vocabulary",
@@ -4255,7 +4388,8 @@
    "examples": [
     {
      "jp": "重い荷物",
-     "en": "Heavy luggage"
+     "en": "Heavy luggage",
+     "reading": "[重|おも]い[荷物|にもつ]"
     }
    ],
    "skill": "vocabulary",
@@ -4276,7 +4410,8 @@
    "examples": [
     {
      "jp": "面白い話",
-     "en": "Interesting story"
+     "en": "Interesting story",
+     "reading": "[面白|おもしろ]い[話|はなし]"
     }
    ],
    "skill": "vocabulary",
@@ -4297,7 +4432,8 @@
    "examples": [
     {
      "jp": "海で泳ぐ",
-     "en": "Swim in the sea"
+     "en": "Swim in the sea",
+     "reading": "[海|うみ]で[泳|およ]ぐ"
     }
    ],
    "skill": "vocabulary",
@@ -4318,7 +4454,8 @@
    "examples": [
     {
      "jp": "バスから降りる",
-     "en": "Get off the bus"
+     "en": "Get off the bus",
+     "reading": "バスから[降|お]りる"
     }
    ],
    "skill": "vocabulary",
@@ -4339,7 +4476,8 @@
    "examples": [
     {
      "jp": "音楽を聴く (ongaku wo kiku)",
-     "en": "Listen to music"
+     "en": "Listen to music",
+     "reading": "[音楽|おんがく]を[聴|き]く (ongaku wo kiku)"
     }
    ],
    "skill": "vocabulary",
@@ -4360,7 +4498,8 @@
    "examples": [
     {
      "jp": "会社で働く (kaisha de hataraku)",
-     "en": "Work at a company"
+     "en": "Work at a company",
+     "reading": "[会社|かいしゃ]で[働|はたら]く (kaisha de hataraku)"
     }
    ],
    "skill": "vocabulary",
@@ -4381,7 +4520,8 @@
    "examples": [
     {
      "jp": "買い物に行く",
-     "en": "Go shopping"
+     "en": "Go shopping",
+     "reading": "[買|か]い[物|もの]に[行|い]く"
     }
    ],
    "skill": "vocabulary",
@@ -4402,7 +4542,8 @@
    "examples": [
     {
      "jp": "パンを買う (pan wo kau)",
-     "en": "Buy bread"
+     "en": "Buy bread",
+     "reading": "パンを[買|か]う (pan wo kau)"
     }
    ],
    "skill": "vocabulary",
@@ -4423,7 +4564,8 @@
    "examples": [
     {
      "jp": "家に帰る",
-     "en": "Return home"
+     "en": "Return home",
+     "reading": "[家|いえ]に[帰|かえ]る"
     }
    ],
    "skill": "vocabulary",
@@ -4444,7 +4586,8 @@
    "examples": [
     {
      "jp": "顔を洗う",
-     "en": "Wash my face"
+     "en": "Wash my face",
+     "reading": "[顔|かお]を[洗|あら]う"
     }
    ],
    "skill": "vocabulary",
@@ -4465,7 +4608,8 @@
    "examples": [
     {
      "jp": "鍵をかける",
-     "en": "Lock the door"
+     "en": "Lock the door",
+     "reading": "[鍵|かぎ]をかける"
     }
    ],
    "skill": "vocabulary",
@@ -4486,7 +4630,8 @@
    "examples": [
     {
      "jp": "手紙を書く",
-     "en": "Write a letter"
+     "en": "Write a letter",
+     "reading": "[手紙|てがみ]を[書|か]く"
     }
    ],
    "skill": "vocabulary",
@@ -4507,7 +4652,8 @@
    "examples": [
     {
      "jp": "傘を持つ",
-     "en": "Carry umbrella"
+     "en": "Carry umbrella",
+     "reading": "[傘|かさ]を[持|も]つ"
     }
    ],
    "skill": "vocabulary",
@@ -4528,7 +4674,8 @@
    "examples": [
     {
      "jp": "風が強い",
-     "en": "Wind is strong"
+     "en": "Wind is strong",
+     "reading": "[風|かぜ]が[強|つよ]い"
     }
    ],
    "skill": "vocabulary",
@@ -4549,7 +4696,8 @@
    "examples": [
     {
      "jp": "家族と旅行する",
-     "en": "Travel with family"
+     "en": "Travel with family",
+     "reading": "[家族|かぞく]と[旅行|りょこう]する"
     }
    ],
    "skill": "vocabulary",
@@ -4570,7 +4718,8 @@
    "examples": [
     {
      "jp": "学校へ行く (gakkou e iku)",
-     "en": "Go to school"
+     "en": "Go to school",
+     "reading": "[学校|がっこう]へ[行|い]く (gakkou e iku)"
     }
    ],
    "skill": "vocabulary",
@@ -4591,7 +4740,8 @@
    "examples": [
     {
      "jp": "火曜日の授業",
-     "en": "Tuesday's class"
+     "en": "Tuesday's class",
+     "reading": "[火曜日|かようび]の[授業|じゅぎょう]"
     }
    ],
    "skill": "vocabulary",
@@ -4612,7 +4762,8 @@
    "examples": [
     {
      "jp": "辛い経験",
-     "en": "Painful experience"
+     "en": "Painful experience",
+     "reading": "[辛|つら]い[経験|けいけん]"
     }
    ],
    "skill": "vocabulary",
@@ -4633,7 +4784,8 @@
    "examples": [
     {
      "jp": "軽いカバン",
-     "en": "Light bag"
+     "en": "Light bag",
+     "reading": "[軽|かる]いカバン"
     }
    ],
    "skill": "vocabulary",
@@ -4654,7 +4806,8 @@
    "examples": [
     {
      "jp": "黄色いバナナ",
-     "en": "Yellow banana"
+     "en": "Yellow banana",
+     "reading": "[黄色|きいろ]いバナナ"
     }
    ],
    "skill": "vocabulary",
@@ -4675,7 +4828,8 @@
    "examples": [
     {
      "jp": "質問を聞く",
-     "en": "Ask a question"
+     "en": "Ask a question",
+     "reading": "[質問|しつもん]を[聞|き]く"
     }
    ],
    "skill": "vocabulary",
@@ -4696,7 +4850,8 @@
    "examples": [
     {
      "jp": "切符を買う",
-     "en": "Buy a ticket"
+     "en": "Buy a ticket",
+     "reading": "[切符|きっぷ]を[買|か]う"
     }
    ],
    "skill": "vocabulary",
@@ -4717,7 +4872,8 @@
    "examples": [
     {
      "jp": "昨日雨だった (kinou ame datta)",
-     "en": "It rained yesterday"
+     "en": "It rained yesterday",
+     "reading": "[昨日|きのう][雨|あめ]だった (kinou ame datta)"
     }
    ],
    "skill": "vocabulary",
@@ -4738,7 +4894,8 @@
    "examples": [
     {
      "jp": "牛乳を飲む",
-     "en": "Drink milk"
+     "en": "Drink milk",
+     "reading": "[牛乳|ぎゅうにゅう]を[飲|の]む"
     }
    ],
    "skill": "vocabulary",
@@ -4759,7 +4916,8 @@
    "examples": [
     {
      "jp": "今日は暑い (kyou wa atsui)",
-     "en": "Today is hot"
+     "en": "Today is hot",
+     "reading": "[今日|きょう]は[暑|あつ]い (kyou wa atsui)"
     }
    ],
    "skill": "vocabulary",
@@ -4780,7 +4938,8 @@
    "examples": [
     {
      "jp": "去年の話",
-     "en": "Last year's story"
+     "en": "Last year's story",
+     "reading": "[去年|きょねん]の[話|はなし]"
     }
    ],
    "skill": "vocabulary",
@@ -4801,7 +4960,8 @@
    "examples": [
     {
      "jp": "嫌いな食べ物",
-     "en": "Food I dislike"
+     "en": "Food I dislike",
+     "reading": "[嫌|きら]いな[食|た]べ[物|もの]"
     }
    ],
    "skill": "vocabulary",
@@ -4822,7 +4982,8 @@
    "examples": [
     {
      "jp": "服を着る",
-     "en": "Put on clothes"
+     "en": "Put on clothes",
+     "reading": "[服|ふく]を[着|き]る"
     }
    ],
    "skill": "vocabulary",
@@ -4843,7 +5004,8 @@
    "examples": [
     {
      "jp": "銀行でお金を出す",
-     "en": "Withdraw money at the bank"
+     "en": "Withdraw money at the bank",
+     "reading": "[銀行|ぎんこう]でお[金|かね]を[出|だ]す"
     }
    ],
    "skill": "vocabulary",
@@ -4864,7 +5026,8 @@
    "examples": [
     {
      "jp": "花金 (hanakin)",
-     "en": "Fun Friday"
+     "en": "Fun Friday",
+     "reading": "[花|はな][金|きん] (hanakin)"
     }
    ],
    "skill": "vocabulary",
@@ -4885,7 +5048,8 @@
    "examples": [
     {
      "jp": "薬を飲む",
-     "en": "Take medicine"
+     "en": "Take medicine",
+     "reading": "[薬|くすり]を[飲|の]む"
     }
    ],
    "skill": "vocabulary",
@@ -4906,7 +5070,8 @@
    "examples": [
     {
      "jp": "果物が甘い (kudamono ga amai)",
-     "en": "Fruit is sweet"
+     "en": "Fruit is sweet",
+     "reading": "[果物|くだもの]が[甘|あま]い (kudamono ga amai)"
     }
    ],
    "skill": "vocabulary",
@@ -4927,7 +5092,8 @@
    "examples": [
     {
      "jp": "口を開ける",
-     "en": "Open mouth"
+     "en": "Open mouth",
+     "reading": "[口|くち]を[開|あ]ける"
     }
    ],
    "skill": "vocabulary",
@@ -4948,7 +5114,8 @@
    "examples": [
     {
      "jp": "靴を履く",
-     "en": "Put on shoes"
+     "en": "Put on shoes",
+     "reading": "[靴|くつ]を[履|は]く"
     }
    ],
    "skill": "vocabulary",
@@ -4969,7 +5136,8 @@
    "examples": [
     {
      "jp": "靴下を履く",
-     "en": "Wear socks"
+     "en": "Wear socks",
+     "reading": "[靴下|くつした]を[履|は]く"
     }
    ],
    "skill": "vocabulary",
@@ -4990,7 +5158,8 @@
    "examples": [
     {
      "jp": "曇りの日",
-     "en": "A cloudy day"
+     "en": "A cloudy day",
+     "reading": "[曇|くも]りの[日|ひ]"
     }
    ],
    "skill": "vocabulary",
@@ -5011,7 +5180,8 @@
    "examples": [
     {
      "jp": "こちらに来る",
-     "en": "Come this way"
+     "en": "Come this way",
+     "reading": "こちらに[来|く]る"
     }
    ],
    "skill": "vocabulary",
@@ -5032,7 +5202,8 @@
    "examples": [
     {
      "jp": "車で行く (kuruma de iku)",
-     "en": "Go by car"
+     "en": "Go by car",
+     "reading": "[車|くるま]で[行|い]く (kuruma de iku)"
     }
    ],
    "skill": "vocabulary",
@@ -5053,7 +5224,8 @@
    "examples": [
     {
      "jp": "黒い猫",
-     "en": "Black cat"
+     "en": "Black cat",
+     "reading": "[黒|くろ]い[猫|ねこ]"
     }
    ],
    "skill": "vocabulary",
@@ -5074,7 +5246,8 @@
    "examples": [
     {
      "jp": "月曜日に始まる",
-     "en": "Starts Monday"
+     "en": "Starts Monday",
+     "reading": "[月曜日|げつようび]に[始|はじ]まる"
     }
    ],
    "skill": "vocabulary",
@@ -5095,7 +5268,8 @@
    "examples": [
     {
      "jp": "元気ですか",
-     "en": "Are you well?"
+     "en": "Are you well?",
+     "reading": "[元気|げんき]ですか"
     }
    ],
    "skill": "vocabulary",
@@ -5116,7 +5290,8 @@
    "examples": [
     {
      "jp": "公園を散歩する",
-     "en": "Walk in the park"
+     "en": "Walk in the park",
+     "reading": "[公園|こうえん]を[散歩|さんぽ]する"
     }
    ],
    "skill": "vocabulary",
@@ -5137,7 +5312,8 @@
    "examples": [
     {
      "jp": "交番で聞く",
-     "en": "Ask at the police box"
+     "en": "Ask at the police box",
+     "reading": "[交番|こうばん]で[聞|き]く"
     }
    ],
    "skill": "vocabulary",
@@ -5158,7 +5334,8 @@
    "examples": [
     {
      "jp": "コートを着る",
-     "en": "Wear a coat"
+     "en": "Wear a coat",
+     "reading": "コートを[着|き]る"
     }
    ],
    "skill": "vocabulary",
@@ -5179,7 +5356,8 @@
    "examples": [
     {
      "jp": "コーヒーを頼む",
-     "en": "Order coffee"
+     "en": "Order coffee",
+     "reading": "コーヒーを[頼|たの]む"
     }
    ],
    "skill": "vocabulary",
@@ -5200,7 +5378,8 @@
    "examples": [
     {
      "jp": "午後三時",
-     "en": "3 PM"
+     "en": "3 PM",
+     "reading": "[午後|ごご][三|さん][時|じ]"
     }
    ],
    "skill": "vocabulary",
@@ -5221,7 +5400,8 @@
    "examples": [
     {
      "jp": "午前六時",
-     "en": "6 AM"
+     "en": "6 AM",
+     "reading": "[午前|ごぜん][六|ろく][時|じ]"
     }
    ],
    "skill": "vocabulary",
@@ -5242,7 +5422,8 @@
    "examples": [
     {
      "jp": "コップに水を入れる",
-     "en": "Pour water in cup"
+     "en": "Pour water in cup",
+     "reading": "コップに[水|みず]を[入|い]れる"
     }
    ],
    "skill": "vocabulary",
@@ -5263,7 +5444,8 @@
    "examples": [
     {
      "jp": "今年の目標",
-     "en": "This year's goal"
+     "en": "This year's goal",
+     "reading": "[今年|ことし]の[目標|もくひょう]"
     }
    ],
    "skill": "vocabulary",
@@ -5284,7 +5466,8 @@
    "examples": [
     {
      "jp": "言葉を学ぶ (kotoba wo manabu)",
-     "en": "Learn language"
+     "en": "Learn language",
+     "reading": "[言葉|ことば]を[学|まな]ぶ (kotoba wo manabu)"
     }
    ],
    "skill": "vocabulary",
@@ -5305,7 +5488,8 @@
    "examples": [
     {
      "jp": "子供が遊んでいる",
-     "en": "Children are playing"
+     "en": "Children are playing",
+     "reading": "[子供|こども]が[遊|あそ]んでいる"
     }
    ],
    "skill": "vocabulary",
@@ -5326,7 +5510,8 @@
    "examples": [
     {
      "jp": "今週の予定",
-     "en": "This week's plans"
+     "en": "This week's plans",
+     "reading": "[今週|こんしゅう]の[予定|よてい]"
     }
    ],
    "skill": "vocabulary",
@@ -5347,7 +5532,8 @@
    "examples": [
     {
      "jp": "財布をなくした",
-     "en": "Lost my wallet"
+     "en": "Lost my wallet",
+     "reading": "[財布|さいふ]をなくした"
     }
    ],
    "skill": "vocabulary",
@@ -5368,7 +5554,8 @@
    "examples": [
     {
      "jp": "魚を食べる",
-     "en": "Eat fish"
+     "en": "Eat fish",
+     "reading": "[魚|さかな]を[食|た]べる"
     }
    ],
    "skill": "vocabulary",
@@ -5389,7 +5576,8 @@
    "examples": [
     {
      "jp": "砂糖を入れる",
-     "en": "Add sugar"
+     "en": "Add sugar",
+     "reading": "[砂糖|さとう]を[入|い]れる"
     }
    ],
    "skill": "vocabulary",
@@ -5410,7 +5598,8 @@
    "examples": [
     {
      "jp": "冬は寒い",
-     "en": "Winter is cold"
+     "en": "Winter is cold",
+     "reading": "[冬|ふゆ]は[寒|さむ]い"
     }
    ],
    "skill": "vocabulary",
@@ -5431,7 +5620,8 @@
    "examples": [
     {
      "jp": "塩をかける",
-     "en": "Sprinkle salt"
+     "en": "Sprinkle salt",
+     "reading": "[塩|しお]をかける"
     }
    ],
    "skill": "vocabulary",
@@ -5452,7 +5642,8 @@
    "examples": [
     {
      "jp": "時間がない",
-     "en": "No time"
+     "en": "No time",
+     "reading": "[時間|じかん]がない"
     }
    ],
    "skill": "vocabulary",
@@ -5473,7 +5664,8 @@
    "examples": [
     {
      "jp": "仕事が忙しい",
-     "en": "Work is busy"
+     "en": "Work is busy",
+     "reading": "[仕事|しごと]が[忙|いそが]しい"
     }
    ],
    "skill": "vocabulary",
@@ -5494,7 +5686,8 @@
    "examples": [
     {
      "jp": "辞書で調べる",
-     "en": "Look up in dictionary"
+     "en": "Look up in dictionary",
+     "reading": "[辞書|じしょ]で[調|しら]べる"
     }
    ],
    "skill": "vocabulary",
@@ -5515,7 +5708,8 @@
    "examples": [
     {
      "jp": "自転車で通う",
-     "en": "Commute by bike"
+     "en": "Commute by bike",
+     "reading": "[自転車|じてんしゃ]で[通|かよ]う"
     }
    ],
    "skill": "vocabulary",
@@ -5536,7 +5730,8 @@
    "examples": [
     {
      "jp": "写真を撮る",
-     "en": "Take a photo"
+     "en": "Take a photo",
+     "reading": "[写真|しゃしん]を[撮|と]る"
     }
    ],
    "skill": "vocabulary",
@@ -5557,7 +5752,8 @@
    "examples": [
     {
      "jp": "シャツを着る",
-     "en": "Wear a shirt"
+     "en": "Wear a shirt",
+     "reading": "シャツを[着|き]る"
     }
    ],
    "skill": "vocabulary",
@@ -5578,7 +5774,8 @@
    "examples": [
     {
      "jp": "授業が始まる",
-     "en": "Class begins"
+     "en": "Class begins",
+     "reading": "[授業|じゅぎょう]が[始|はじ]まる"
     }
    ],
    "skill": "vocabulary",
@@ -5599,7 +5796,8 @@
    "examples": [
     {
      "jp": "宿題をする",
-     "en": "Do homework"
+     "en": "Do homework",
+     "reading": "[宿題|しゅくだい]をする"
     }
    ],
    "skill": "vocabulary",
@@ -5620,7 +5818,8 @@
    "examples": [
     {
      "jp": "醤油をつける",
-     "en": "Dip in soy sauce"
+     "en": "Dip in soy sauce",
+     "reading": "[醤油|しょうゆ]をつける"
     }
    ],
    "skill": "vocabulary",
@@ -5641,7 +5840,8 @@
    "examples": [
     {
      "jp": "彼を知っていますか",
-     "en": "Do you know him?"
+     "en": "Do you know him?",
+     "reading": "[彼|かれ]を[知|し]っていますか"
     }
    ],
    "skill": "vocabulary",
@@ -5662,7 +5862,8 @@
    "examples": [
     {
      "jp": "白いシャツ",
-     "en": "White shirt"
+     "en": "White shirt",
+     "reading": "[白|しろ]いシャツ"
     }
    ],
    "skill": "vocabulary",
@@ -5683,7 +5884,8 @@
    "examples": [
     {
      "jp": "水曜日に会議",
-     "en": "Meeting on Wednesday"
+     "en": "Meeting on Wednesday",
+     "reading": "[水曜日|すいようび]に[会議|かいぎ]"
     }
    ],
    "skill": "vocabulary",
@@ -5725,7 +5927,8 @@
    "examples": [
     {
      "jp": "日本語が好き",
-     "en": "I like Japanese"
+     "en": "I like Japanese",
+     "reading": "[日本語|にほんご]が[好|す]き"
     }
    ],
    "skill": "vocabulary",
@@ -5746,7 +5949,8 @@
    "examples": [
     {
      "jp": "時間が少ない",
-     "en": "Little time"
+     "en": "Little time",
+     "reading": "[時間|じかん]が[少|すく]ない"
     }
    ],
    "skill": "vocabulary",
@@ -5767,7 +5971,8 @@
    "examples": [
     {
      "jp": "涼しい風",
-     "en": "Cool breeze"
+     "en": "Cool breeze",
+     "reading": "[涼|すず]しい[風|かぜ]"
     }
    ],
    "skill": "vocabulary",
@@ -5788,7 +5993,8 @@
    "examples": [
     {
      "jp": "スプーンで食べる",
-     "en": "Eat with a spoon"
+     "en": "Eat with a spoon",
+     "reading": "スプーンで[食|た]べる"
     }
    ],
    "skill": "vocabulary",
@@ -5809,7 +6015,8 @@
    "examples": [
     {
      "jp": "ズボンを履く",
-     "en": "Put on trousers"
+     "en": "Put on trousers",
+     "reading": "ズボンを[履|は]く"
     }
    ],
    "skill": "vocabulary",
@@ -5830,7 +6037,8 @@
    "examples": [
     {
      "jp": "セーターを着る",
-     "en": "Put on a sweater"
+     "en": "Put on a sweater",
+     "reading": "セーターを[着|き]る"
     }
    ],
    "skill": "vocabulary",
@@ -5851,7 +6059,8 @@
    "examples": [
     {
      "jp": "石鹸で洗う",
-     "en": "Wash with soap"
+     "en": "Wash with soap",
+     "reading": "[石鹸|せっけん]で[洗|あら]う"
     }
    ],
    "skill": "vocabulary",
@@ -5872,7 +6081,8 @@
    "examples": [
     {
      "jp": "先週どこへ行った",
-     "en": "Where did you go last week?"
+     "en": "Where did you go last week?",
+     "reading": "[先週|せんしゅう]どこへ[行|い]った"
     }
    ],
    "skill": "vocabulary",
@@ -5893,7 +6103,8 @@
    "examples": [
     {
      "jp": "寿司が大好き",
-     "en": "I love sushi"
+     "en": "I love sushi",
+     "reading": "[寿司|すし]が[大好|だいす]き"
     }
    ],
    "skill": "vocabulary",
@@ -5914,7 +6125,8 @@
    "examples": [
     {
      "jp": "値段が高い",
-     "en": "Price is high"
+     "en": "Price is high",
+     "reading": "[値段|ねだん]が[高|たか]い"
     }
    ],
    "skill": "vocabulary",
@@ -5935,7 +6147,8 @@
    "examples": [
     {
      "jp": "タクシーを呼ぶ",
-     "en": "Call a taxi"
+     "en": "Call a taxi",
+     "reading": "タクシーを[呼|よ]ぶ"
     }
    ],
    "skill": "vocabulary",
@@ -5956,7 +6169,8 @@
    "examples": [
     {
      "jp": "パーティーは楽しい",
-     "en": "The party is fun"
+     "en": "The party is fun",
+     "reading": "パーティーは[楽|たの]しい"
     }
    ],
    "skill": "vocabulary",
@@ -5977,7 +6191,8 @@
    "examples": [
     {
      "jp": "朝ごはんを食べる",
-     "en": "Eat breakfast"
+     "en": "Eat breakfast",
+     "reading": "[朝|あさ]ごはんを[食|た]べる"
     }
    ],
    "skill": "vocabulary",
@@ -5998,7 +6213,8 @@
    "examples": [
     {
      "jp": "小さい犬",
-     "en": "Small dog"
+     "en": "Small dog",
+     "reading": "[小|ちい]さい[犬|いぬ]"
     }
    ],
    "skill": "vocabulary",
@@ -6019,7 +6235,8 @@
    "examples": [
     {
      "jp": "地下鉄で移動する",
-     "en": "Travel by subway"
+     "en": "Travel by subway",
+     "reading": "[地下鉄|ちかてつ]で[移動|いどう]する"
     }
    ],
    "skill": "vocabulary",
@@ -6040,7 +6257,8 @@
    "examples": [
     {
      "jp": "父は医者です",
-     "en": "My father is a doctor"
+     "en": "My father is a doctor",
+     "reading": "[父|ちち]は[医者|いしゃ]です"
     }
    ],
    "skill": "vocabulary",
@@ -6061,7 +6279,8 @@
    "examples": [
     {
      "jp": "茶色の犬",
-     "en": "Brown dog"
+     "en": "Brown dog",
+     "reading": "[茶色|ちゃいろ]の[犬|いぬ]"
     }
    ],
    "skill": "vocabulary",
@@ -6082,7 +6301,8 @@
    "examples": [
     {
      "jp": "机で勉強する",
-     "en": "Study at desk"
+     "en": "Study at desk",
+     "reading": "[机|つくえ]で[勉強|べんきょう]する"
     }
    ],
    "skill": "vocabulary",
@@ -6103,7 +6323,8 @@
    "examples": [
     {
      "jp": "つまらない映画",
-     "en": "Boring movie"
+     "en": "Boring movie",
+     "reading": "つまらない[映画|えいが]"
     }
    ],
    "skill": "vocabulary",
@@ -6124,7 +6345,8 @@
    "examples": [
     {
      "jp": "手を洗う",
-     "en": "Wash hands"
+     "en": "Wash hands",
+     "reading": "[手|て]を[洗|あら]う"
     }
    ],
    "skill": "vocabulary",
@@ -6145,7 +6367,8 @@
    "examples": [
     {
      "jp": "出口はどこですか",
-     "en": "Where is the exit?"
+     "en": "Where is the exit?",
+     "reading": "[出口|でぐち]はどこですか"
     }
    ],
    "skill": "vocabulary",
@@ -6166,7 +6389,8 @@
    "examples": [
     {
      "jp": "外に出る",
-     "en": "Go outside"
+     "en": "Go outside",
+     "reading": "[外|そと]に[出|で]る"
     }
    ],
    "skill": "vocabulary",
@@ -6187,7 +6411,8 @@
    "examples": [
     {
      "jp": "今日の天気は？",
-     "en": "What's today's weather?"
+     "en": "What's today's weather?",
+     "reading": "[今日|きょう]の[天気|てんき]は？"
     }
    ],
    "skill": "vocabulary",
@@ -6208,7 +6433,8 @@
    "examples": [
     {
      "jp": "電車に乗る",
-     "en": "Ride the train"
+     "en": "Ride the train",
+     "reading": "[電車|でんしゃ]に[乗|の]る"
     }
    ],
    "skill": "vocabulary",
@@ -6229,7 +6455,8 @@
    "examples": [
     {
      "jp": "電話をかける",
-     "en": "Make a phone call"
+     "en": "Make a phone call",
+     "reading": "[電話|でんわ]をかける"
     }
    ],
    "skill": "vocabulary",
@@ -6250,7 +6477,8 @@
    "examples": [
     {
      "jp": "どうぞ、入ってください",
-     "en": "Please, come in"
+     "en": "Please, come in",
+     "reading": "どうぞ、[入|はい]ってください"
     }
    ],
    "skill": "vocabulary",
@@ -6292,7 +6520,8 @@
    "examples": [
     {
      "jp": "時計を見る",
-     "en": "Look at the clock"
+     "en": "Look at the clock",
+     "reading": "[時計|とけい]を[見|み]る"
     }
    ],
    "skill": "vocabulary",
@@ -6313,7 +6542,8 @@
    "examples": [
     {
      "jp": "図書館で勉強する",
-     "en": "Study at library"
+     "en": "Study at library",
+     "reading": "[図書館|としょかん]で[勉強|べんきょう]する"
     }
    ],
    "skill": "vocabulary",
@@ -6334,7 +6564,8 @@
    "examples": [
     {
      "jp": "駅で止まる",
-     "en": "Stop at the station"
+     "en": "Stop at the station",
+     "reading": "[駅|えき]で[止|と]まる"
     }
    ],
    "skill": "vocabulary",
@@ -6355,7 +6586,8 @@
    "examples": [
     {
      "jp": "友達と遊ぶ",
-     "en": "Play with friends"
+     "en": "Play with friends",
+     "reading": "[友達|ともだち]と[遊|あそ]ぶ"
     }
    ],
    "skill": "vocabulary",
@@ -6376,7 +6608,8 @@
    "examples": [
     {
      "jp": "土曜日はゆっくりする",
-     "en": "Relax on Saturday"
+     "en": "Relax on Saturday",
+     "reading": "[土曜日|どようび]はゆっくりする"
     }
    ],
    "skill": "vocabulary",
@@ -6397,7 +6630,8 @@
    "examples": [
     {
      "jp": "鳥が飛ぶ",
-     "en": "The bird flies"
+     "en": "The bird flies",
+     "reading": "[鳥|とり]が[飛|と]ぶ"
     }
    ],
    "skill": "vocabulary",
@@ -6418,7 +6652,8 @@
    "examples": [
     {
      "jp": "ナイフで切る",
-     "en": "Cut with knife"
+     "en": "Cut with knife",
+     "reading": "ナイフで[切|き]る"
     }
    ],
    "skill": "vocabulary",
@@ -6439,7 +6674,8 @@
    "examples": [
     {
      "jp": "長い道",
-     "en": "Long road"
+     "en": "Long road",
+     "reading": "[長|なが]い[道|みち]"
     }
    ],
    "skill": "vocabulary",
@@ -6460,7 +6696,8 @@
    "examples": [
     {
      "jp": "新しいことを習う",
-     "en": "Learn something new"
+     "en": "Learn something new",
+     "reading": "[新|あたら]しいことを[習|なら]う"
     }
    ],
    "skill": "vocabulary",
@@ -6481,7 +6718,8 @@
    "examples": [
     {
      "jp": "肉が好き (niku ga suki)",
-     "en": "I like meat"
+     "en": "I like meat",
+     "reading": "[肉|にく]が[好|す]き (niku ga suki)"
     }
    ],
    "skill": "vocabulary",
@@ -6502,7 +6740,8 @@
    "examples": [
     {
      "jp": "日曜日は休み",
-     "en": "Sunday is a day off"
+     "en": "Sunday is a day off",
+     "reading": "[日曜日|にちようび]は[休|やす]み"
     }
    ],
    "skill": "vocabulary",
@@ -6523,7 +6762,8 @@
    "examples": [
     {
      "jp": "靴を脱ぐ",
-     "en": "Take off shoes"
+     "en": "Take off shoes",
+     "reading": "[靴|くつ]を[脱|ぬ]ぐ"
     }
    ],
    "skill": "vocabulary",
@@ -6544,7 +6784,8 @@
    "examples": [
     {
      "jp": "ネクタイを締める",
-     "en": "Tie a necktie"
+     "en": "Tie a necktie",
+     "reading": "ネクタイを[締|し]める"
     }
    ],
    "skill": "vocabulary",
@@ -6565,7 +6806,8 @@
    "examples": [
     {
      "jp": "猫がいます",
-     "en": "There is a cat"
+     "en": "There is a cat",
+     "reading": "[猫|ねこ]がいます"
     }
    ],
    "skill": "vocabulary",
@@ -6586,7 +6828,8 @@
    "examples": [
     {
      "jp": "早く寝る",
-     "en": "Sleep early"
+     "en": "Sleep early",
+     "reading": "[早|はや]く[寝|ね]る"
     }
    ],
    "skill": "vocabulary",
@@ -6607,7 +6850,8 @@
    "examples": [
     {
      "jp": "ノートに書く",
-     "en": "Write in notebook"
+     "en": "Write in notebook",
+     "reading": "ノートに[書|か]く"
     }
    ],
    "skill": "vocabulary",
@@ -6628,7 +6872,8 @@
    "examples": [
     {
      "jp": "水を飲む",
-     "en": "Drink water"
+     "en": "Drink water",
+     "reading": "[水|みず]を[飲|の]む"
     }
    ],
    "skill": "vocabulary",
@@ -6649,7 +6894,8 @@
    "examples": [
     {
      "jp": "電車に乗る",
-     "en": "Get on the train"
+     "en": "Get on the train",
+     "reading": "[電車|でんしゃ]に[乗|の]る"
     }
    ],
    "skill": "vocabulary",
@@ -6670,7 +6916,8 @@
    "examples": [
     {
      "jp": "歯を磨く",
-     "en": "Brush teeth"
+     "en": "Brush teeth",
+     "reading": "[歯|は]を[磨|みが]く"
     }
    ],
    "skill": "vocabulary",
@@ -6712,7 +6959,8 @@
    "examples": [
     {
      "jp": "部屋に入る",
-     "en": "Enter the room"
+     "en": "Enter the room",
+     "reading": "[部屋|へや]に[入|はい]る"
     }
    ],
    "skill": "vocabulary",
@@ -6733,7 +6981,8 @@
    "examples": [
     {
      "jp": "箸で食べる",
-     "en": "Eat with chopsticks"
+     "en": "Eat with chopsticks",
+     "reading": "[箸|はし]で[食|た]べる"
     }
    ],
    "skill": "vocabulary",
@@ -6754,7 +7003,8 @@
    "examples": [
     {
      "jp": "毎朝走る",
-     "en": "Run every morning"
+     "en": "Run every morning",
+     "reading": "[毎朝|まいあさ][走|はし]る"
     }
    ],
    "skill": "vocabulary",
@@ -6775,7 +7025,8 @@
    "examples": [
     {
      "jp": "バスで行く",
-     "en": "Go by bus"
+     "en": "Go by bus",
+     "reading": "バスで[行|い]く"
     }
    ],
    "skill": "vocabulary",
@@ -6796,7 +7047,8 @@
    "examples": [
     {
      "jp": "毎日働く (mainichi hataraku)",
-     "en": "Work every day"
+     "en": "Work every day",
+     "reading": "[毎日|まいにち][働|はたら]く (mainichi hataraku)"
     }
    ],
    "skill": "vocabulary",
@@ -6817,7 +7069,8 @@
    "examples": [
     {
      "jp": "鼻が高い",
-     "en": "High nose bridge"
+     "en": "High nose bridge",
+     "reading": "[鼻|はな]が[高|たか]い"
     }
    ],
    "skill": "vocabulary",
@@ -6838,7 +7091,8 @@
    "examples": [
     {
      "jp": "日本語で話す",
-     "en": "Speak in Japanese"
+     "en": "Speak in Japanese",
+     "reading": "[日本語|にほんご]で[話|はな]す"
     }
    ],
    "skill": "vocabulary",
@@ -6859,7 +7113,8 @@
    "examples": [
     {
      "jp": "母が作った料理",
-     "en": "Food my mother made"
+     "en": "Food my mother made",
+     "reading": "[母|はは]が[作|つく]った[料理|りょうり]"
     }
    ],
    "skill": "vocabulary",
@@ -6880,7 +7135,8 @@
    "examples": [
     {
      "jp": "速い電車",
-     "en": "Fast train"
+     "en": "Fast train",
+     "reading": "[速|はや]い[電車|でんしゃ]"
     }
    ],
    "skill": "vocabulary",
@@ -6901,7 +7157,8 @@
    "examples": [
     {
      "jp": "今日は晴れです",
-     "en": "Today is sunny"
+     "en": "Today is sunny",
+     "reading": "[今日|きょう]は[晴|は]れです"
     }
    ],
    "skill": "vocabulary",
@@ -6922,7 +7179,8 @@
    "examples": [
     {
      "jp": "三時半",
-     "en": "3:30"
+     "en": "3:30",
+     "reading": "[三|さん][時半|じはん]"
     }
    ],
    "skill": "vocabulary",
@@ -6943,7 +7201,8 @@
    "examples": [
     {
      "jp": "パンを買う",
-     "en": "Buy bread"
+     "en": "Buy bread",
+     "reading": "パンを[買|か]う"
     }
    ],
    "skill": "vocabulary",
@@ -6964,7 +7223,8 @@
    "examples": [
     {
      "jp": "ドアを引く",
-     "en": "Pull the door"
+     "en": "Pull the door",
+     "reading": "ドアを[引|ひ]く"
     }
    ],
    "skill": "vocabulary",
@@ -6985,7 +7245,8 @@
    "examples": [
     {
      "jp": "飛行機で旅行する",
-     "en": "Travel by plane"
+     "en": "Travel by plane",
+     "reading": "[飛行機|ひこうき]で[旅行|りょこう]する"
     }
    ],
    "skill": "vocabulary",
@@ -7006,7 +7267,8 @@
    "examples": [
     {
      "jp": "一月は寒い",
-     "en": "January is cold"
+     "en": "January is cold",
+     "reading": "[一月|いちがつ]は[寒|さむ]い"
     }
    ],
    "skill": "vocabulary",
@@ -7027,7 +7289,8 @@
    "examples": [
     {
      "jp": "病院に行く (byouin ni iku)",
-     "en": "Go to the hospital"
+     "en": "Go to the hospital",
+     "reading": "[病院|びょういん]に[行|い]く (byouin ni iku)"
     }
    ],
    "skill": "vocabulary",
@@ -7048,7 +7311,8 @@
    "examples": [
     {
      "jp": "病気になった",
-     "en": "Got sick"
+     "en": "Got sick",
+     "reading": "[病気|びょうき]になった"
     }
    ],
    "skill": "vocabulary",
@@ -7069,7 +7333,8 @@
    "examples": [
     {
      "jp": "昼ごはん (hirugohan)",
-     "en": "Lunch"
+     "en": "Lunch",
+     "reading": "[昼|ひる]ごはん (hirugohan)"
     }
    ],
    "skill": "vocabulary",
@@ -7090,7 +7355,8 @@
    "examples": [
     {
      "jp": "フォークを使う",
-     "en": "Use a fork"
+     "en": "Use a fork",
+     "reading": "フォークを[使|つか]う"
     }
    ],
    "skill": "vocabulary",
@@ -7111,7 +7377,8 @@
    "examples": [
     {
      "jp": "服を着る",
-     "en": "Wear clothes"
+     "en": "Wear clothes",
+     "reading": "[服|ふく]を[着|き]る"
     }
    ],
    "skill": "vocabulary",
@@ -7132,7 +7399,8 @@
    "examples": [
     {
      "jp": "古い本 (furui hon)",
-     "en": "An old book"
+     "en": "An old book",
+     "reading": "[古|ふる]い[本|ほん] (furui hon)"
     }
    ],
    "skill": "vocabulary",
@@ -7153,7 +7421,8 @@
    "examples": [
     {
      "jp": "ベッドで寝る",
-     "en": "Sleep in bed"
+     "en": "Sleep in bed",
+     "reading": "ベッドで[寝|ね]る"
     }
    ],
    "skill": "vocabulary",
@@ -7174,7 +7443,8 @@
    "examples": [
     {
      "jp": "ペンで書く",
-     "en": "Write with pen"
+     "en": "Write with pen",
+     "reading": "ペンで[書|か]く"
     }
    ],
    "skill": "vocabulary",
@@ -7195,7 +7465,8 @@
    "examples": [
     {
      "jp": "日本語を勉強する",
-     "en": "Study Japanese"
+     "en": "Study Japanese",
+     "reading": "[日本語|にほんご]を[勉強|べんきょう]する"
     }
    ],
    "skill": "vocabulary",
@@ -7216,7 +7487,8 @@
    "examples": [
     {
      "jp": "帽子をかぶる",
-     "en": "Put on a hat"
+     "en": "Put on a hat",
+     "reading": "[帽子|ぼうし]をかぶる"
     }
    ],
    "skill": "vocabulary",
@@ -7237,7 +7509,8 @@
    "examples": [
     {
      "jp": "ホテルに泊まる",
-     "en": "Stay at a hotel"
+     "en": "Stay at a hotel",
+     "reading": "ホテルに[泊|と]まる"
     }
    ],
    "skill": "vocabulary",
@@ -7258,7 +7531,8 @@
    "examples": [
     {
      "jp": "本を読む",
-     "en": "Read a book"
+     "en": "Read a book",
+     "reading": "[本|ほん]を[読|よ]む"
     }
    ],
    "skill": "vocabulary",
@@ -7279,7 +7553,8 @@
    "examples": [
     {
      "jp": "毎朝コーヒーを飲む",
-     "en": "Drink coffee every morning"
+     "en": "Drink coffee every morning",
+     "reading": "[毎朝|まいあさ]コーヒーを[飲|の]む"
     }
    ],
    "skill": "vocabulary",
@@ -7300,7 +7575,8 @@
    "examples": [
     {
      "jp": "毎日運動する",
-     "en": "Exercise every day"
+     "en": "Exercise every day",
+     "reading": "[毎日|まいにち][運動|うんどう]する"
     }
    ],
    "skill": "vocabulary",
@@ -7321,7 +7597,8 @@
    "examples": [
     {
      "jp": "まだ終わってない",
-     "en": "Not finished yet"
+     "en": "Not finished yet",
+     "reading": "まだ[終|お]わってない"
     }
    ],
    "skill": "vocabulary",
@@ -7342,7 +7619,8 @@
    "examples": [
     {
      "jp": "ちょっと待って (chotto matte)",
-     "en": "Wait a moment"
+     "en": "Wait a moment",
+     "reading": "ちょっと[待|ま]って (chotto matte)"
     }
    ],
    "skill": "vocabulary",
@@ -7363,7 +7641,8 @@
    "examples": [
     {
      "jp": "窓を開ける",
-     "en": "Open the window"
+     "en": "Open the window",
+     "reading": "[窓|まど]を[開|あ]ける"
     }
    ],
    "skill": "vocabulary",
@@ -7384,7 +7663,8 @@
    "examples": [
     {
      "jp": "短い話",
-     "en": "Short story"
+     "en": "Short story",
+     "reading": "[短|みじか]い[話|はなし]"
     }
    ],
    "skill": "vocabulary",
@@ -7405,7 +7685,8 @@
    "examples": [
     {
      "jp": "水をください (mizu wo kudasai)",
-     "en": "Water, please"
+     "en": "Water, please",
+     "reading": "[水|みず]をください (mizu wo kudasai)"
     }
    ],
    "skill": "vocabulary",
@@ -7426,7 +7707,8 @@
    "examples": [
     {
      "jp": "店が開く (mise ga aku)",
-     "en": "The shop opens"
+     "en": "The shop opens",
+     "reading": "[店|みせ]が[開|ひら]く (mise ga aku)"
     }
    ],
    "skill": "vocabulary",
@@ -7447,7 +7729,8 @@
    "examples": [
     {
      "jp": "道を歩く",
-     "en": "Walk the road"
+     "en": "Walk the road",
+     "reading": "[道|みち]を[歩|ある]く"
     }
    ],
    "skill": "vocabulary",
@@ -7468,7 +7751,8 @@
    "examples": [
     {
      "jp": "緑の木",
-     "en": "Green tree"
+     "en": "Green tree",
+     "reading": "[緑|みどり]の[木|き]"
     }
    ],
    "skill": "vocabulary",
@@ -7489,7 +7773,8 @@
    "examples": [
     {
      "jp": "耳が聞こえない",
-     "en": "Can't hear"
+     "en": "Can't hear",
+     "reading": "[耳|みみ]が[聞|き]こえない"
     }
    ],
    "skill": "vocabulary",
@@ -7510,7 +7795,8 @@
    "examples": [
     {
      "jp": "テレビを見る (terebi wo miru)",
-     "en": "Watch TV"
+     "en": "Watch TV",
+     "reading": "テレビを[見|み]る (terebi wo miru)"
     }
    ],
    "skill": "vocabulary",
@@ -7531,7 +7817,8 @@
    "examples": [
     {
      "jp": "難しい問題",
-     "en": "Difficult problem"
+     "en": "Difficult problem",
+     "reading": "[難|むずか]しい[問題|もんだい]"
     }
    ],
    "skill": "vocabulary",
@@ -7552,7 +7839,8 @@
    "examples": [
     {
      "jp": "目が大きい",
-     "en": "Big eyes"
+     "en": "Big eyes",
+     "reading": "[目|め]が[大|おお]きい"
     }
    ],
    "skill": "vocabulary",
@@ -7573,7 +7861,8 @@
    "examples": [
     {
      "jp": "眼鏡をかける",
-     "en": "Put on glasses"
+     "en": "Put on glasses",
+     "reading": "[眼鏡|めがね]をかける"
     }
    ],
    "skill": "vocabulary",
@@ -7594,7 +7883,8 @@
    "examples": [
     {
      "jp": "もう食べた",
-     "en": "Already ate"
+     "en": "Already ate",
+     "reading": "もう[食|た]べた"
     }
    ],
    "skill": "vocabulary",
@@ -7615,7 +7905,8 @@
    "examples": [
     {
      "jp": "木曜日に出かける",
-     "en": "Go out Thursday"
+     "en": "Go out Thursday",
+     "reading": "[木曜日|もくようび]に[出|で]かける"
     }
    ],
    "skill": "vocabulary",
@@ -7636,7 +7927,8 @@
    "examples": [
     {
      "jp": "野菜を食べる (yasai wo taberu)",
-     "en": "Eat vegetables"
+     "en": "Eat vegetables",
+     "reading": "[野菜|やさい]を[食|た]べる (yasai wo taberu)"
     }
    ],
    "skill": "vocabulary",
@@ -7657,7 +7949,8 @@
    "examples": [
     {
      "jp": "安い店",
-     "en": "Cheap shop"
+     "en": "Cheap shop",
+     "reading": "[安|やす]い[店|みせ]"
     }
    ],
    "skill": "vocabulary",
@@ -7678,7 +7971,8 @@
    "examples": [
     {
      "jp": "週末は休む",
-     "en": "Rest on weekends"
+     "en": "Rest on weekends",
+     "reading": "[週末|しゅうまつ]は[休|やす]む"
     }
    ],
    "skill": "vocabulary",
@@ -7699,7 +7993,8 @@
    "examples": [
     {
      "jp": "山に登る",
-     "en": "Climb a mountain"
+     "en": "Climb a mountain",
+     "reading": "[山|やま]に[登|のぼ]る"
     }
    ],
    "skill": "vocabulary",
@@ -7720,7 +8015,8 @@
    "examples": [
     {
      "jp": "郵便局で送る",
-     "en": "Send at post office"
+     "en": "Send at post office",
+     "reading": "[郵便|ゆうびん][局|きょく]で[送|おく]る"
     }
    ],
    "skill": "vocabulary",
@@ -7741,7 +8037,8 @@
    "examples": [
     {
      "jp": "雪が降った",
-     "en": "Snow fell"
+     "en": "Snow fell",
+     "reading": "[雪|ゆき]が[降|ふ]った"
     }
    ],
    "skill": "vocabulary",
@@ -7762,7 +8059,8 @@
    "examples": [
     {
      "jp": "本を読む",
-     "en": "Read a book"
+     "en": "Read a book",
+     "reading": "[本|ほん]を[読|よ]む"
     }
    ],
    "skill": "vocabulary",
@@ -7783,7 +8081,8 @@
    "examples": [
     {
      "jp": "夜が来る (yoru ga kuru)",
-     "en": "Night comes"
+     "en": "Night comes",
+     "reading": "[夜|よる]が[来|く]る (yoru ga kuru)"
     }
    ],
    "skill": "vocabulary",
@@ -7804,7 +8103,8 @@
    "examples": [
     {
      "jp": "来週会いましょう",
-     "en": "Let's meet next week"
+     "en": "Let's meet next week",
+     "reading": "[来週|らいしゅう][会|あ]いましょう"
     }
    ],
    "skill": "vocabulary",
@@ -7825,7 +8125,8 @@
    "examples": [
     {
      "jp": "来年また来る",
-     "en": "Come again next year"
+     "en": "Come again next year",
+     "reading": "[来年|らいねん]また[来|く]る"
     }
    ],
    "skill": "vocabulary",
@@ -7846,7 +8147,8 @@
    "examples": [
     {
      "jp": "料理が上手 (ryouri ga jouzu)",
-     "en": "Good at cooking"
+     "en": "Good at cooking",
+     "reading": "[料理|りょうり]が[上手|じょうず] (ryouri ga jouzu)"
     }
    ],
    "skill": "vocabulary",
@@ -7867,7 +8169,8 @@
    "examples": [
     {
      "jp": "旅行が好き (ryokou ga suki)",
-     "en": "I like travelling"
+     "en": "I like travelling",
+     "reading": "[旅行|りょこう]が[好|す]き (ryokou ga suki)"
     }
    ],
    "skill": "vocabulary",
@@ -7888,7 +8191,8 @@
    "examples": [
     {
      "jp": "冷蔵庫に入れる",
-     "en": "Put in refrigerator"
+     "en": "Put in refrigerator",
+     "reading": "[冷蔵庫|れいぞうこ]に[入|い]れる"
     }
    ],
    "skill": "vocabulary",
@@ -7909,7 +8213,8 @@
    "examples": [
     {
      "jp": "レストランで食べる",
-     "en": "Eat at restaurant"
+     "en": "Eat at restaurant",
+     "reading": "レストランで[食|た]べる"
     }
    ],
    "skill": "vocabulary",
@@ -7930,7 +8235,8 @@
    "examples": [
     {
      "jp": "分かりました",
-     "en": "I understand"
+     "en": "I understand",
+     "reading": "[分|わ]かりました"
     }
    ],
    "skill": "vocabulary",
@@ -7951,7 +8257,8 @@
    "examples": [
     {
      "jp": "名前を忘れた",
-     "en": "Forgot the name"
+     "en": "Forgot the name",
+     "reading": "[名前|なまえ]を[忘|わす]れた"
     }
    ],
    "skill": "vocabulary",
@@ -7972,7 +8279,8 @@
    "examples": [
     {
      "jp": "橋を渡る",
-     "en": "Cross the bridge"
+     "en": "Cross the bridge",
+     "reading": "[橋|はし]を[渡|わた]る"
     }
    ],
    "skill": "vocabulary",
@@ -7993,7 +8301,8 @@
    "examples": [
     {
      "jp": "気分が悪い (kibun ga warui)",
-     "en": "I feel bad"
+     "en": "I feel bad",
+     "reading": "[気分|きぶん]が[悪|わる]い (kibun ga warui)"
     }
    ],
    "skill": "vocabulary",
@@ -8014,7 +8323,8 @@
    "examples": [
     {
      "jp": "父が怒った",
-     "en": "Father got angry"
+     "en": "Father got angry",
+     "reading": "[父|ちち]が[怒|おこ]った"
     }
    ],
    "skill": "vocabulary",
@@ -8035,7 +8345,8 @@
    "examples": [
     {
      "jp": "毎日運動する",
-     "en": "Exercise every day"
+     "en": "Exercise every day",
+     "reading": "[毎日|まいにち][運動|うんどう]する"
     }
    ],
    "skill": "vocabulary",
@@ -8056,7 +8367,8 @@
    "examples": [
     {
      "jp": "心配しないで",
-     "en": "Don't worry"
+     "en": "Don't worry",
+     "reading": "[心配|しんぱい]しないで"
     }
    ],
    "skill": "vocabulary",
@@ -8077,7 +8389,8 @@
    "examples": [
     {
      "jp": "ゴミを拾う",
-     "en": "Pick up trash"
+     "en": "Pick up trash",
+     "reading": "ゴミを[拾|ひろ]う"
     }
    ],
    "skill": "vocabulary",
@@ -8098,7 +8411,8 @@
    "examples": [
     {
      "jp": "布団をかぶる",
-     "en": "Cover with futon"
+     "en": "Cover with futon",
+     "reading": "[布団|ふとん]をかぶる"
     }
    ],
    "skill": "vocabulary",
@@ -8119,7 +8433,8 @@
    "examples": [
     {
      "jp": "悲しい映画",
-     "en": "Sad movie"
+     "en": "Sad movie",
+     "reading": "[悲|かな]しい[映画|えいが]"
     }
    ],
    "skill": "vocabulary",
@@ -8140,7 +8455,8 @@
    "examples": [
     {
      "jp": "さっき来た",
-     "en": "Just arrived"
+     "en": "Just arrived",
+     "reading": "さっき[来|き]た"
     }
    ],
    "skill": "vocabulary",
@@ -8161,7 +8477,8 @@
    "examples": [
     {
      "jp": "怖い話",
-     "en": "A scary story"
+     "en": "A scary story",
+     "reading": "[怖|こわ]い[話|はなし]"
     }
    ],
    "skill": "vocabulary",
@@ -8182,7 +8499,8 @@
    "examples": [
     {
      "jp": "恥ずかしい！",
-     "en": "How embarrassing!"
+     "en": "How embarrassing!",
+     "reading": "[恥|は]ずかしい！"
     }
    ],
    "skill": "vocabulary",
@@ -8203,7 +8521,8 @@
    "examples": [
     {
      "jp": "力がある (chikara ga aru)",
-     "en": "Have strength"
+     "en": "Have strength",
+     "reading": "[力|ちから]がある (chikara ga aru)"
     }
    ],
    "skill": "vocabulary",
@@ -8224,7 +8543,8 @@
    "examples": [
     {
      "jp": "星が輝く",
-     "en": "Stars shine"
+     "en": "Stars shine",
+     "reading": "[星|ほし]が[輝|かがや]く"
     }
    ],
    "skill": "vocabulary",
@@ -8245,7 +8565,8 @@
    "examples": [
     {
      "jp": "ぶどうを食べる",
-     "en": "Eat grapes"
+     "en": "Eat grapes",
+     "reading": "ぶどうを[食|た]べる"
     }
    ],
    "skill": "vocabulary",
@@ -8266,7 +8587,8 @@
    "examples": [
     {
      "jp": "何にするか決める",
-     "en": "Decide what to have"
+     "en": "Decide what to have",
+     "reading": "[何|なに]にするか[決|き]める"
     }
    ],
    "skill": "vocabulary",
@@ -8287,7 +8609,8 @@
    "examples": [
     {
      "jp": "夫と出かける",
-     "en": "Go out with my husband"
+     "en": "Go out with my husband",
+     "reading": "[夫|おっと]と[出|で]かける"
     }
    ],
    "skill": "vocabulary",
@@ -8308,7 +8631,8 @@
    "examples": [
     {
      "jp": "素晴らしい景色",
-     "en": "Wonderful view"
+     "en": "Wonderful view",
+     "reading": "[素晴|すば]らしい[景色|けしき]"
     }
    ],
    "skill": "vocabulary",
@@ -8329,7 +8653,8 @@
    "examples": [
     {
      "jp": "美術館を見学する",
-     "en": "Visit the art museum"
+     "en": "Visit the art museum",
+     "reading": "[美術館|びじゅつかん]を[見学|けんがく]する"
     }
    ],
    "skill": "vocabulary",
@@ -8350,7 +8675,8 @@
    "examples": [
     {
      "jp": "熱があります",
-     "en": "I have a fever"
+     "en": "I have a fever",
+     "reading": "[熱|ねつ]があります"
     }
    ],
    "skill": "vocabulary",
@@ -8371,7 +8697,8 @@
    "examples": [
     {
      "jp": "驚いた！",
-     "en": "I was surprised!"
+     "en": "I was surprised!",
+     "reading": "[驚|おどろ]いた！"
     }
    ],
    "skill": "vocabulary",
@@ -8392,7 +8719,8 @@
    "examples": [
     {
      "jp": "祖母に会いに行く",
-     "en": "Go visit grandmother"
+     "en": "Go visit grandmother",
+     "reading": "[祖母|そぼ]に[会|あ]いに[行|い]く"
     }
    ],
    "skill": "vocabulary",
@@ -8413,7 +8741,8 @@
    "examples": [
     {
      "jp": "いい場所 (ii basho)",
-     "en": "Good place"
+     "en": "Good place",
+     "reading": "いい[場所|ばしょ] (ii basho)"
     }
    ],
    "skill": "vocabulary",
@@ -8434,7 +8763,8 @@
    "examples": [
     {
      "jp": "挨拶をする",
-     "en": "Give a greeting"
+     "en": "Give a greeting",
+     "reading": "[挨拶|あいさつ]をする"
     }
    ],
    "skill": "vocabulary",
@@ -8455,7 +8785,8 @@
    "examples": [
     {
      "jp": "森を歩く",
-     "en": "Walk in the forest"
+     "en": "Walk in the forest",
+     "reading": "[森|もり]を[歩|ある]く"
     }
    ],
    "skill": "vocabulary",
@@ -8476,7 +8807,8 @@
    "examples": [
     {
      "jp": "音楽に合わせて踊る",
-     "en": "Dance to the music"
+     "en": "Dance to the music",
+     "reading": "[音楽|おんがく]に[合|あ]わせて[踊|おど]る"
     }
    ],
    "skill": "vocabulary",
@@ -8497,7 +8829,8 @@
    "examples": [
     {
      "jp": "お土産を買う",
-     "en": "Buy a souvenir"
+     "en": "Buy a souvenir",
+     "reading": "お[土産|みやげ]を[買|か]う"
     }
    ],
    "skill": "vocabulary",
@@ -8518,7 +8851,8 @@
    "examples": [
     {
      "jp": "消しゴムで消す",
-     "en": "Erase with eraser"
+     "en": "Erase with eraser",
+     "reading": "[消|け]しゴムで[消|け]す"
     }
    ],
    "skill": "vocabulary",
@@ -8539,7 +8873,8 @@
    "examples": [
     {
      "jp": "一人は寂しい",
-     "en": "Being alone is lonely"
+     "en": "Being alone is lonely",
+     "reading": "[一人|ひとり]は[寂|さび]しい"
     }
    ],
    "skill": "vocabulary",
@@ -8560,7 +8895,8 @@
    "examples": [
     {
      "jp": "味噌で作る",
-     "en": "Make with miso"
+     "en": "Make with miso",
+     "reading": "[味噌|みそ]で[作|つく]る"
     }
    ],
    "skill": "vocabulary",
@@ -8581,7 +8917,8 @@
    "examples": [
     {
      "jp": "鏡を見る",
-     "en": "Look in mirror"
+     "en": "Look in mirror",
+     "reading": "[鏡|かがみ]を[見|み]る"
     }
    ],
    "skill": "vocabulary",
@@ -8602,7 +8939,8 @@
    "examples": [
     {
      "jp": "試験に合格する",
-     "en": "Pass the exam"
+     "en": "Pass the exam",
+     "reading": "[試験|しけん]に[合格|ごうかく]する"
     }
    ],
    "skill": "vocabulary",
@@ -8623,7 +8961,8 @@
    "examples": [
     {
      "jp": "空港に行く",
-     "en": "Go to the airport"
+     "en": "Go to the airport",
+     "reading": "[空港|くうこう]に[行|い]く"
     }
    ],
    "skill": "vocabulary",
@@ -8644,7 +8983,8 @@
    "examples": [
     {
      "jp": "手袋をはめる",
-     "en": "Put on gloves"
+     "en": "Put on gloves",
+     "reading": "[手袋|てぶくろ]をはめる"
     }
    ],
    "skill": "vocabulary",
@@ -8665,7 +9005,8 @@
    "examples": [
     {
      "jp": "気持ちがいい",
-     "en": "Feels good"
+     "en": "Feels good",
+     "reading": "[気持|きも]ちがいい"
     }
    ],
    "skill": "vocabulary",
@@ -8686,7 +9027,8 @@
    "examples": [
     {
      "jp": "祖父は元気です",
-     "en": "My grandfather is well"
+     "en": "My grandfather is well",
+     "reading": "[祖父|そふ]は[元気|げんき]です"
     }
    ],
    "skill": "vocabulary",
@@ -8707,7 +9049,8 @@
    "examples": [
     {
      "jp": "パソコンで仕事",
-     "en": "Work on computer"
+     "en": "Work on computer",
+     "reading": "パソコンで[仕事|しごと]"
     }
    ],
    "skill": "vocabulary",
@@ -8728,7 +9071,8 @@
    "examples": [
     {
      "jp": "着物を着る",
-     "en": "Wear kimono"
+     "en": "Wear kimono",
+     "reading": "[着物|きもの]を[着|き]る"
     }
    ],
    "skill": "vocabulary",
@@ -8749,7 +9093,8 @@
    "examples": [
     {
      "jp": "夢を見た",
-     "en": "Had a dream"
+     "en": "Had a dream",
+     "reading": "[夢|ゆめ]を[見|み]た"
     }
    ],
    "skill": "vocabulary",
@@ -8770,7 +9115,8 @@
    "examples": [
     {
      "jp": "血が出た",
-     "en": "Blood came out"
+     "en": "Blood came out",
+     "reading": "[血|ち]が[出|で]た"
     }
    ],
    "skill": "vocabulary",
@@ -8791,7 +9137,8 @@
    "examples": [
     {
      "jp": "電灯をつける",
-     "en": "Turn on the light"
+     "en": "Turn on the light",
+     "reading": "[電灯|でんとう]をつける"
     }
    ],
    "skill": "vocabulary",
@@ -8812,7 +9159,8 @@
    "examples": [
     {
      "jp": "レジで払う",
-     "en": "Pay at checkout"
+     "en": "Pay at checkout",
+     "reading": "レジで[払|はら]う"
     }
    ],
    "skill": "vocabulary",
@@ -8833,7 +9181,8 @@
    "examples": [
     {
      "jp": "下着を替える",
-     "en": "Change underwear"
+     "en": "Change underwear",
+     "reading": "[下着|したぎ]を[替|か]える"
     }
    ],
    "skill": "vocabulary",
@@ -8854,7 +9203,8 @@
    "examples": [
     {
      "jp": "妻は料理が上手",
-     "en": "My wife cooks well"
+     "en": "My wife cooks well",
+     "reading": "[妻|つま]は[料理|りょうり]が[上手|じょうず]"
     }
    ],
    "skill": "vocabulary",
@@ -8875,7 +9225,8 @@
    "examples": [
     {
      "jp": "駐車場に止める",
-     "en": "Park in the lot"
+     "en": "Park in the lot",
+     "reading": "[駐車|ちゅうしゃ][場|じょう]に[止|と]める"
     }
    ],
    "skill": "vocabulary",
@@ -8896,7 +9247,8 @@
    "examples": [
     {
      "jp": "指輪をはめる",
-     "en": "Put on a ring"
+     "en": "Put on a ring",
+     "reading": "[指輪|ゆびわ]をはめる"
     }
    ],
    "skill": "vocabulary",
@@ -8917,7 +9269,8 @@
    "examples": [
     {
      "jp": "値段を確認する",
-     "en": "Check the price"
+     "en": "Check the price",
+     "reading": "[値段|ねだん]を[確認|かくにん]する"
     }
    ],
    "skill": "vocabulary",
@@ -8938,7 +9291,8 @@
    "examples": [
     {
      "jp": "カーテンを閉める",
-     "en": "Close the curtains"
+     "en": "Close the curtains",
+     "reading": "カーテンを[閉|し]める"
     }
    ],
    "skill": "vocabulary",
@@ -8959,7 +9313,8 @@
    "examples": [
     {
      "jp": "日本文化を学ぶ",
-     "en": "Learn Japanese culture"
+     "en": "Learn Japanese culture",
+     "reading": "[日本|にほん][文化|ぶんか]を[学|まな]ぶ"
     }
    ],
    "skill": "vocabulary",
@@ -8980,7 +9335,8 @@
    "examples": [
     {
      "jp": "日本の習慣",
-     "en": "Japanese customs"
+     "en": "Japanese customs",
+     "reading": "[日本|にほん]の[習慣|しゅうかん]"
     }
    ],
    "skill": "vocabulary",
@@ -9001,7 +9357,8 @@
    "examples": [
     {
      "jp": "背中が痛い",
-     "en": "My back hurts"
+     "en": "My back hurts",
+     "reading": "[背中|せなか]が[痛|いた]い"
     }
    ],
    "skill": "vocabulary",
@@ -9022,7 +9379,8 @@
    "examples": [
     {
      "jp": "とても眠い",
-     "en": "Very sleepy"
+     "en": "Very sleepy",
+     "reading": "とても[眠|ねむ]い"
     }
    ],
    "skill": "vocabulary",
@@ -9043,7 +9401,8 @@
    "examples": [
     {
      "jp": "よく考える",
-     "en": "Think carefully"
+     "en": "Think carefully",
+     "reading": "よく[考|かんが]える"
     }
    ],
    "skill": "vocabulary",
@@ -9064,7 +9423,8 @@
    "examples": [
     {
      "jp": "簡単な問題",
-     "en": "Easy problem"
+     "en": "Easy problem",
+     "reading": "[簡単|かんたん]な[問題|もんだい]"
     }
    ],
    "skill": "vocabulary",
@@ -9085,7 +9445,8 @@
    "examples": [
     {
      "jp": "元の場所に戻る",
-     "en": "Return to original place"
+     "en": "Return to original place",
+     "reading": "[元|もと]の[場所|ばしょ]に[戻|もど]る"
     }
    ],
    "skill": "vocabulary",
@@ -9106,7 +9467,8 @@
    "examples": [
     {
      "jp": "花見をする",
-     "en": "Do hanami"
+     "en": "Do hanami",
+     "reading": "[花見|はなみ]をする"
     }
    ],
    "skill": "vocabulary",
@@ -9127,7 +9489,8 @@
    "examples": [
     {
      "jp": "会議に出る",
-     "en": "Attend a meeting"
+     "en": "Attend a meeting",
+     "reading": "[会議|かいぎ]に[出|で]る"
     }
    ],
    "skill": "vocabulary",
@@ -9148,7 +9511,8 @@
    "examples": [
     {
      "jp": "棚に置く",
-     "en": "Put on the shelf"
+     "en": "Put on the shelf",
+     "reading": "[棚|たな]に[置|お]く"
     }
    ],
    "skill": "vocabulary",
@@ -9169,7 +9533,8 @@
    "examples": [
     {
      "jp": "嬉しいニュース",
-     "en": "Happy news"
+     "en": "Happy news",
+     "reading": "[嬉|うれ]しいニュース"
     }
    ],
    "skill": "vocabulary",
@@ -9190,7 +9555,8 @@
    "examples": [
     {
      "jp": "神社にお参りする",
-     "en": "Pray at the shrine"
+     "en": "Pray at the shrine",
+     "reading": "[神社|じんじゃ]にお[参|まい]りする"
     }
    ],
    "skill": "vocabulary",
@@ -9211,7 +9577,8 @@
    "examples": [
     {
      "jp": "とても楽しみ",
-     "en": "Really looking forward"
+     "en": "Really looking forward",
+     "reading": "とても[楽|たの]しみ"
     }
    ],
    "skill": "vocabulary",
@@ -9232,7 +9599,8 @@
    "examples": [
     {
      "jp": "これから行きます",
-     "en": "I'll go now"
+     "en": "I'll go now",
+     "reading": "これから[行|い]きます"
     }
    ],
    "skill": "vocabulary",
@@ -9253,7 +9621,8 @@
    "examples": [
     {
      "jp": "猿が木に登る",
-     "en": "Monkey climbs tree"
+     "en": "Monkey climbs tree",
+     "reading": "[猿|さる]が[木|き]に[登|のぼ]る"
     }
    ],
    "skill": "vocabulary",
@@ -9274,7 +9643,8 @@
    "examples": [
     {
      "jp": "手術が必要だ",
-     "en": "Surgery is needed"
+     "en": "Surgery is needed",
+     "reading": "[手術|しゅじゅつ]が[必要|ひつよう]だ"
     }
    ],
    "skill": "vocabulary",
@@ -9295,7 +9665,8 @@
    "examples": [
     {
      "jp": "書類にサインする",
-     "en": "Sign a document"
+     "en": "Sign a document",
+     "reading": "[書類|しょるい]にサインする"
     }
    ],
    "skill": "vocabulary",
@@ -9316,7 +9687,8 @@
    "examples": [
     {
      "jp": "信号が赤だ",
-     "en": "The light is red"
+     "en": "The light is red",
+     "reading": "[信号|しんごう]が[赤|あか]だ"
     }
    ],
    "skill": "vocabulary",
@@ -9337,7 +9709,8 @@
    "examples": [
     {
      "jp": "自分を信じる",
-     "en": "Believe in yourself"
+     "en": "Believe in yourself",
+     "reading": "[自分|じぶん]を[信|しん]じる"
     }
    ],
    "skill": "vocabulary",
@@ -9358,7 +9731,8 @@
    "examples": [
     {
      "jp": "心臓がドキドキ",
-     "en": "Heart is racing"
+     "en": "Heart is racing",
+     "reading": "[心臓|しんぞう]がドキドキ"
     }
    ],
    "skill": "vocabulary",
@@ -9379,7 +9753,8 @@
    "examples": [
     {
      "jp": "愛してる (ai shiteru)",
-     "en": "I love you"
+     "en": "I love you",
+     "reading": "[愛|あい]してる (ai shiteru)"
     }
    ],
    "skill": "vocabulary",
@@ -9400,7 +9775,8 @@
    "examples": [
     {
      "jp": "諦めないで",
-     "en": "Don't give up"
+     "en": "Don't give up",
+     "reading": "[諦|あきら]めないで"
     }
    ],
    "skill": "vocabulary",
@@ -9421,7 +9797,8 @@
    "examples": [
     {
      "jp": "温かいスープ",
-     "en": "Warm soup"
+     "en": "Warm soup",
+     "reading": "[温|あたた]かいスープ"
     }
    ],
    "skill": "vocabulary",
@@ -9484,7 +9861,8 @@
    "examples": [
     {
      "jp": "一時に起きる",
-     "en": "Wake up at 1"
+     "en": "Wake up at 1",
+     "reading": "[一時|いちじ]に[起|お]きる"
     }
    ],
    "skill": "vocabulary",
@@ -9505,7 +9883,8 @@
    "examples": [
     {
      "jp": "兎が走る",
-     "en": "Rabbit runs"
+     "en": "Rabbit runs",
+     "reading": "[兎|うさぎ]が[走|はし]る"
     }
    ],
    "skill": "vocabulary",
@@ -9526,7 +9905,8 @@
    "examples": [
     {
      "jp": "牛の乳",
-     "en": "Cow milk"
+     "en": "Cow milk",
+     "reading": "[牛|うし]の[乳|ちち]"
     }
    ],
    "skill": "vocabulary",
@@ -9547,7 +9927,8 @@
    "examples": [
     {
      "jp": "馬に乗る",
-     "en": "Ride a horse"
+     "en": "Ride a horse",
+     "reading": "[馬|うま]に[乗|の]る"
     }
    ],
    "skill": "vocabulary",
@@ -9568,7 +9949,8 @@
    "examples": [
     {
      "jp": "カードで払えますか",
-     "en": "Can I pay by card?"
+     "en": "Can I pay by card?",
+     "reading": "カードで[払|はら]えますか"
     }
    ],
    "skill": "vocabulary",
@@ -9589,7 +9971,8 @@
    "examples": [
     {
      "jp": "休暇を取る",
-     "en": "Take a vacation"
+     "en": "Take a vacation",
+     "reading": "[休暇|きゅうか]を[取|と]る"
     }
    ],
    "skill": "vocabulary",
@@ -9610,7 +9993,8 @@
    "examples": [
     {
      "jp": "休憩しましょう",
-     "en": "Let's take a break"
+     "en": "Let's take a break",
+     "reading": "[休憩|きゅうけい]しましょう"
     }
    ],
    "skill": "vocabulary",
@@ -9631,7 +10015,8 @@
    "examples": [
     {
      "jp": "給料をもらう",
-     "en": "Receive salary"
+     "en": "Receive salary",
+     "reading": "[給料|きゅうりょう]をもらう"
     }
    ],
    "skill": "vocabulary",
@@ -9652,7 +10037,8 @@
    "examples": [
     {
      "jp": "教科書を開く",
-     "en": "Open the textbook"
+     "en": "Open the textbook",
+     "reading": "[教科書|きょうかしょ]を[開|ひら]く"
     }
    ],
    "skill": "vocabulary",
@@ -9694,7 +10080,8 @@
    "examples": [
     {
      "jp": "現金で払う",
-     "en": "Pay with cash"
+     "en": "Pay with cash",
+     "reading": "[現金|げんきん]で[払|はら]う"
     }
    ],
    "skill": "vocabulary",
@@ -9715,7 +10102,8 @@
    "examples": [
     {
      "jp": "合計はいくらですか",
-     "en": "What's the total?"
+     "en": "What's the total?",
+     "reading": "[合計|ごうけい]はいくらですか"
     }
    ],
    "skill": "vocabulary",
@@ -9736,7 +10124,8 @@
    "examples": [
     {
      "jp": "遅れてごめんなさい",
-     "en": "Sorry for being late"
+     "en": "Sorry for being late",
+     "reading": "[遅|おく]れてごめんなさい"
     }
    ],
    "skill": "vocabulary",
@@ -9757,7 +10146,8 @@
    "examples": [
     {
      "jp": "こんにちは、田中さん",
-     "en": "Hello, Tanaka-san"
+     "en": "Hello, Tanaka-san",
+     "reading": "こんにちは、[田中|たなか]さん"
     }
    ],
    "skill": "vocabulary",
@@ -9778,7 +10168,8 @@
    "examples": [
     {
      "jp": "礼儀を知る",
-     "en": "Know etiquette"
+     "en": "Know etiquette",
+     "reading": "[礼儀|れいぎ]を[知|し]る"
     }
    ],
    "skill": "vocabulary",
@@ -9799,7 +10190,8 @@
    "examples": [
     {
      "jp": "洗剤で洗う",
-     "en": "Wash with detergent"
+     "en": "Wash with detergent",
+     "reading": "[洗剤|せんざい]で[洗|あら]う"
     }
    ],
    "skill": "vocabulary",
@@ -9820,7 +10212,8 @@
    "examples": [
     {
      "jp": "象は大きい",
-     "en": "Elephants are big"
+     "en": "Elephants are big",
+     "reading": "[象|ぞう]は[大|おお]きい"
     }
    ],
    "skill": "vocabulary",
@@ -9841,7 +10234,8 @@
    "examples": [
     {
      "jp": "タオルで拭く",
-     "en": "Wipe with towel"
+     "en": "Wipe with towel",
+     "reading": "タオルで[拭|ふ]く"
     }
    ],
    "skill": "vocabulary",
@@ -9862,7 +10256,8 @@
    "examples": [
     {
      "jp": "道徳を守る",
-     "en": "Follow morality"
+     "en": "Follow morality",
+     "reading": "[道徳|どうとく]を[守|まも]る"
     }
    ],
    "skill": "vocabulary",
@@ -9883,7 +10278,8 @@
    "examples": [
     {
      "jp": "同僚と飲む",
-     "en": "Drink with colleagues"
+     "en": "Drink with colleagues",
+     "reading": "[同僚|どうりょう]と[飲|の]む"
     }
    ],
    "skill": "vocabulary",
@@ -9904,7 +10300,8 @@
    "examples": [
     {
      "jp": "虎は速い",
-     "en": "Tigers are fast"
+     "en": "Tigers are fast",
+     "reading": "[虎|とら]は[速|はや]い"
     }
    ],
    "skill": "vocabulary",
@@ -9925,7 +10322,8 @@
    "examples": [
     {
      "jp": "鼠が走る",
-     "en": "Mouse runs"
+     "en": "Mouse runs",
+     "reading": "[鼠|ねずみ]が[走|はし]る"
     }
    ],
    "skill": "vocabulary",
@@ -9946,7 +10344,8 @@
    "examples": [
     {
      "jp": "はさみで切る",
-     "en": "Cut with scissors"
+     "en": "Cut with scissors",
+     "reading": "はさみで[切|き]る"
     }
    ],
    "skill": "vocabulary",
@@ -9967,7 +10366,8 @@
    "examples": [
     {
      "jp": "バッグを持つ",
-     "en": "Carry a bag"
+     "en": "Carry a bag",
+     "reading": "バッグを[持|も]つ"
     }
    ],
    "skill": "vocabulary",
@@ -9988,7 +10388,8 @@
    "examples": [
     {
      "jp": "袋をください",
-     "en": "A bag please"
+     "en": "A bag please",
+     "reading": "[袋|ふくろ]をください"
     }
    ],
    "skill": "vocabulary",
@@ -10030,7 +10431,8 @@
    "examples": [
     {
      "jp": "骨が折れた",
-     "en": "Bone is broken"
+     "en": "Bone is broken",
+     "reading": "[骨|ほね]が[折|お]れた"
     }
    ],
    "skill": "vocabulary",
@@ -10051,7 +10453,8 @@
    "examples": [
     {
      "jp": "上司に報告する",
-     "en": "Report to boss"
+     "en": "Report to boss",
+     "reading": "[上司|じょうし]に[報告|ほうこく]する"
     }
    ],
    "skill": "vocabulary",
@@ -10072,7 +10475,8 @@
    "examples": [
     {
      "jp": "デザートを食べる",
-     "en": "Eat dessert"
+     "en": "Eat dessert",
+     "reading": "デザートを[食|た]べる"
     }
    ],
    "skill": "vocabulary",
@@ -10093,7 +10497,8 @@
    "examples": [
     {
      "jp": "いい天気 (ii tenki)",
-     "en": "Good weather"
+     "en": "Good weather",
+     "reading": "いい[天気|てんき] (ii tenki)"
     }
    ],
    "skill": "vocabulary",
@@ -10135,7 +10540,8 @@
    "examples": [
     {
      "jp": "お邪魔します！",
-     "en": "Said when entering someone's home"
+     "en": "Said when entering someone's home",
+     "reading": "お[邪魔|じゃま]します！"
     }
    ],
    "skill": "vocabulary",
@@ -10156,7 +10562,8 @@
    "examples": [
     {
      "jp": "風邪ですか？お大事に！",
-     "en": "You have a cold? Get well!"
+     "en": "You have a cold? Get well!",
+     "reading": "[風邪|かぜ]ですか？お[大事|だいじ]に！"
     }
    ],
    "skill": "vocabulary",
@@ -10177,7 +10584,8 @@
    "examples": [
     {
      "jp": "これをお願いします",
-     "en": "This one please"
+     "en": "This one please",
+     "reading": "これをお[願|ねが]いします"
     }
    ],
    "skill": "vocabulary",
@@ -10219,7 +10627,8 @@
    "examples": [
     {
      "jp": "温泉に入る",
-     "en": "Enter hot spring"
+     "en": "Enter hot spring",
+     "reading": "[温泉|おんせん]に[入|はい]る"
     }
    ],
    "skill": "vocabulary",
@@ -10240,7 +10649,8 @@
    "examples": [
     {
      "jp": "金魚を育てる",
-     "en": "Raise goldfish"
+     "en": "Raise goldfish",
+     "reading": "[金魚|きんぎょ]を[育|そだ]てる"
     }
    ],
    "skill": "vocabulary",
@@ -10261,7 +10671,8 @@
    "examples": [
     {
      "jp": "敬語を使う",
-     "en": "Use honorific language"
+     "en": "Use honorific language",
+     "reading": "[敬語|けいご]を[使|つか]う"
     }
    ],
    "skill": "vocabulary",
@@ -10303,7 +10714,8 @@
    "examples": [
     {
      "jp": "丁寧な言葉遣い",
-     "en": "Polite speech"
+     "en": "Polite speech",
+     "reading": "[丁寧|ていねい]な[言葉|ことば][遣|づか]い"
     }
    ],
    "skill": "vocabulary",
@@ -10345,7 +10757,8 @@
    "examples": [
     {
      "jp": "刺身を頼む",
-     "en": "Order sashimi"
+     "en": "Order sashimi",
+     "reading": "[刺身|さしみ]を[頼|たの]む"
     }
    ],
    "skill": "vocabulary",
@@ -10366,7 +10779,8 @@
    "examples": [
     {
      "jp": "さようなら、また明日",
-     "en": "Goodbye, see you tomorrow"
+     "en": "Goodbye, see you tomorrow",
+     "reading": "さようなら、また[明日|あした]"
     }
    ],
    "skill": "vocabulary",
@@ -10387,7 +10801,8 @@
    "examples": [
     {
      "jp": "締め切りがある",
-     "en": "There is a deadline"
+     "en": "There is a deadline",
+     "reading": "[締|し]め[切|き]りがある"
     }
    ],
    "skill": "vocabulary",
@@ -10408,7 +10823,8 @@
    "examples": [
     {
      "jp": "定規で線を引く",
-     "en": "Draw a line with ruler"
+     "en": "Draw a line with ruler",
+     "reading": "[定規|じょうぎ]で[線|せん]を[引|ひ]く"
     }
    ],
    "skill": "vocabulary",
@@ -10429,7 +10845,8 @@
    "examples": [
     {
      "jp": "新幹線に乗る",
-     "en": "Ride the bullet train"
+     "en": "Ride the bullet train",
+     "reading": "[新幹線|しんかんせん]に[乗|の]る"
     }
    ],
    "skill": "vocabulary",
@@ -10450,7 +10867,8 @@
    "examples": [
     {
      "jp": "スカーフを巻く",
-     "en": "Wrap a scarf"
+     "en": "Wrap a scarf",
+     "reading": "スカーフを[巻|ま]く"
     }
    ],
    "skill": "vocabulary",
@@ -10471,7 +10889,8 @@
    "examples": [
     {
      "jp": "送料無料",
-     "en": "Free shipping"
+     "en": "Free shipping",
+     "reading": "[送料|そうりょう][無料|むりょう]"
     }
    ],
    "skill": "vocabulary",
@@ -10492,7 +10911,8 @@
    "examples": [
     {
      "jp": "通知が来た",
-     "en": "Got a notification"
+     "en": "Got a notification",
+     "reading": "[通知|つうち]が[来|き]た"
     }
    ],
    "skill": "vocabulary",
@@ -10513,7 +10933,8 @@
    "examples": [
     {
      "jp": "乗り換えが必要だ",
-     "en": "Need to transfer"
+     "en": "Need to transfer",
+     "reading": "[乗|の]り[換|か]えが[必要|ひつよう]だ"
     }
    ],
    "skill": "vocabulary",
@@ -10534,7 +10955,8 @@
    "examples": [
     {
      "jp": "はじめまして、田中です",
-     "en": "Nice to meet you, I'm Tanaka"
+     "en": "Nice to meet you, I'm Tanaka",
+     "reading": "はじめまして、[田中|たなか]です"
     }
    ],
    "skill": "vocabulary",
@@ -10555,7 +10977,8 @@
    "examples": [
     {
      "jp": "皮膚が乾燥する",
-     "en": "Skin gets dry"
+     "en": "Skin gets dry",
+     "reading": "[皮膚|ひふ]が[乾燥|かんそう]する"
     }
    ],
    "skill": "vocabulary",
@@ -10576,7 +10999,8 @@
    "examples": [
     {
      "jp": "ピンクの花",
-     "en": "Pink flower"
+     "en": "Pink flower",
+     "reading": "ピンクの[花|はな]"
     }
    ],
    "skill": "vocabulary",
@@ -10597,7 +11021,8 @@
    "examples": [
     {
      "jp": "フライパンで焼く",
-     "en": "Fry in a pan"
+     "en": "Fry in a pan",
+     "reading": "フライパンで[焼|や]く"
     }
    ],
    "skill": "vocabulary",
@@ -10618,7 +11043,8 @@
    "examples": [
     {
      "jp": "枕で寝る",
-     "en": "Sleep on pillow"
+     "en": "Sleep on pillow",
+     "reading": "[枕|まくら]で[寝|ね]る"
     }
    ],
    "skill": "vocabulary",
@@ -10639,7 +11065,8 @@
    "examples": [
     {
      "jp": "紫のドレス",
-     "en": "Purple dress"
+     "en": "Purple dress",
+     "reading": "[紫|むらさき]のドレス"
     }
    ],
    "skill": "vocabulary",
@@ -10660,7 +11087,8 @@
    "examples": [
     {
      "jp": "やかんでお湯を沸かす",
-     "en": "Boil water in kettle"
+     "en": "Boil water in kettle",
+     "reading": "やかんでお[湯|ゆ]を[沸|わ]かす"
     }
    ],
    "skill": "vocabulary",
@@ -10681,7 +11109,8 @@
    "examples": [
     {
      "jp": "割引がある",
-     "en": "There is a discount"
+     "en": "There is a discount",
+     "reading": "[割引|わりびき]がある"
     }
    ],
    "skill": "vocabulary",

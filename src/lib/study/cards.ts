@@ -1,3 +1,5 @@
+import { alignReading, toMarkup } from "@/lib/furigana";
+
 export type CardType = "recognition" | "recall";
 
 export interface StudyItem {
@@ -28,15 +30,19 @@ export interface StudyCard {
   question: string;
   prompt: string;
   promptIsJapanese: boolean;
+  /** Furigana for a Japanese prompt (kana or markup); null where the reading is the answer. */
+  promptReading: string | null;
   options?: string[];
   answerIndex?: number;
   reveal: {
     term: string;
+    /** Kana reading, or ruby markup for sentences. */
     reading: string | null;
     romaji: string | null;
     meaning: string;
     mnemonic: string | null;
-    example: { jp: string; en: string } | null;
+    /** `reading` is ruby markup for the example sentence, when generated. */
+    example: { jp: string; en: string; reading?: string } | null;
     audioUrl: string | null;
   };
 }
@@ -57,9 +63,9 @@ export function shuffle<T>(items: T[], rng: Rng = Math.random): T[] {
 
 const isKatakana = (item: StudyItem) => item.tags.includes("katakana");
 
-/** What a word looks like as an answer option: the term, plus its kana reading when written in kanji. */
+/** A word as an answer option, as ruby markup so the option shows furigana over its kanji. */
 function wordWithReading(item: StudyItem): string {
-  return item.reading && item.reading !== item.term ? `${item.term}（${item.reading}）` : item.term;
+  return item.reading ? toMarkup(alignReading(item.term, item.reading)) : item.term;
 }
 
 /**
@@ -104,9 +110,17 @@ const QUESTIONS: Record<CardType, (item: StudyItem) => string> = {
 };
 
 /** Recall shows the sound or meaning and asks for the Japanese; a kanji's recall card asks for its reading. */
-function promptFor(item: StudyItem, cardType: CardType): { prompt: string; promptIsJapanese: boolean } {
-  if (cardType === "recognition" || item.type === "kanji") return { prompt: item.term, promptIsJapanese: true };
-  return { prompt: item.type === "kana" ? (item.romaji ?? item.meaning) : item.meaning, promptIsJapanese: false };
+function promptFor(item: StudyItem, cardType: CardType): Pick<StudyCard, "prompt" | "promptIsJapanese" | "promptReading"> {
+  if (cardType === "recognition" || item.type === "kanji") {
+    // Furigana everywhere except the kanji-reading card, where the reading is the answer.
+    const hide = cardType === "recall" && item.type === "kanji";
+    return { prompt: item.term, promptIsJapanese: true, promptReading: hide ? null : item.reading };
+  }
+  return {
+    prompt: item.type === "kana" ? (item.romaji ?? item.meaning) : item.meaning,
+    promptIsJapanese: false,
+    promptReading: null,
+  };
 }
 
 export function buildCard(
@@ -116,7 +130,8 @@ export function buildCard(
   pool: StudyItem[],
   rng: Rng = Math.random,
 ): StudyCard {
-  const example = item.examples[0] ? { jp: item.examples[0].jp, en: item.examples[0].en } : null;
+  const first = item.examples[0];
+  const example = first ? { jp: first.jp, en: first.en, ...(first.reading ? { reading: first.reading } : {}) } : null;
   const base = {
     key: `${item.id}:${cardType}`,
     itemId: item.id,

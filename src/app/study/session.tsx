@@ -2,6 +2,8 @@
 
 import Link from "next/link";
 import { useState, useTransition } from "react";
+import { Ruby } from "@/components/ruby";
+import { isMarkup } from "@/lib/furigana";
 import type { StudyCard } from "@/lib/study/cards";
 import { XP_CORRECT, XP_WRONG } from "@/lib/study/streak";
 import { recordAnswer } from "./actions";
@@ -136,7 +138,7 @@ export function StudySession({ cards: initial, dueCount, newCount, learnMoreHref
             className={`my-6 text-center font-bold ${card.promptIsJapanese ? "text-6xl" : "text-3xl"} break-words`}
             lang={card.promptIsJapanese ? "ja" : "en"}
           >
-            {card.prompt}
+            {card.promptIsJapanese ? <Ruby text={card.prompt} reading={card.promptReading} /> : card.prompt}
           </div>
 
           <Choices card={card} phase={phase} picked={picked} onPick={(i) => answer(i === card.answerIndex, i)} />
@@ -173,13 +175,13 @@ function Intro({ card, onDone }: { card: StudyCard; onDone: () => void }) {
         lang="ja"
         aria-label={`Play ${r.term}`}
       >
-        {r.term}
+        <Ruby text={r.term} reading={r.reading} />
       </button>
       <dl className="space-y-3 rounded-xl border border-border bg-card p-4">
-        {(r.reading || r.romaji) && (
+        {(plainReading(r.reading) || r.romaji) && (
           <div>
             <dt className="text-xs text-muted">Reading</dt>
-            <dd lang="ja">{[r.reading, r.romaji].filter(Boolean).join(" · ")}</dd>
+            <dd lang="ja">{[plainReading(r.reading), r.romaji].filter(Boolean).join(" · ")}</dd>
           </div>
         )}
         <div>
@@ -195,7 +197,9 @@ function Intro({ card, onDone }: { card: StudyCard; onDone: () => void }) {
         {r.example && (
           <div>
             <dt className="text-xs text-muted">Example</dt>
-            <dd lang="ja">{r.example.jp}</dd>
+            <dd className="text-lg">
+              <Ruby text={r.example.jp} reading={r.example.reading} />
+            </dd>
             <dd className="text-sm text-muted">{r.example.en}</dd>
           </div>
         )}
@@ -240,7 +244,7 @@ function Choices({
             onClick={() => onPick(i)}
             className={`min-h-14 rounded-xl border-2 px-4 py-3 text-left text-lg ${style}`}
           >
-            {option}
+            <Ruby text={option} />
           </button>
         );
       })}
@@ -260,12 +264,18 @@ function Feedback({ card, correct }: { card: StudyCard; correct: boolean }) {
       <p className="font-medium">{correct ? "Correct!" : "Not quite"}</p>
       <p className="mt-1" lang="ja">
         <button onClick={() => speak(r.term, r.audioUrl)} className="font-bold underline decoration-dotted">
-          {r.term}
+          <Ruby text={r.term} reading={r.reading} />
         </button>
-        {[r.reading, r.romaji].filter(Boolean).length > 0 && ` · ${[r.reading, r.romaji].filter(Boolean).join(" · ")}`}
+        {[plainReading(r.reading), r.romaji].filter(Boolean).length > 0 &&
+          ` · ${[plainReading(r.reading), r.romaji].filter(Boolean).join(" · ")}`}
       </p>
       <p className="text-sm">{r.meaning}</p>
       {r.mnemonic && !correct && <p className="mt-2 text-sm text-muted">💡 {r.mnemonic}</p>}
     </div>
   );
+}
+
+/** A reading worth printing on its own line: plain kana, not the ruby markup that sentences carry. */
+function plainReading(reading: string | null): string | null {
+  return reading && !isMarkup(reading) ? reading : null;
 }

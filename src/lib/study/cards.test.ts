@@ -72,8 +72,16 @@ describe("buildCard recall", () => {
     ];
     const card = buildCard(words[0], "recall", false, words, seeded(2));
     expect(card.prompt).toBe("Water");
-    expect(card.options![card.answerIndex!]).toBe("水（みず）");
+    expect(card.options![card.answerIndex!]).toBe("[水|みず]");
     expect(card.options).toContain("すし");
+  });
+
+  it("shows furigana on prompts except where the reading is the answer", () => {
+    const water = item({ type: "word", term: "水", reading: "みず", meaning: "Water", tags: [] });
+    expect(buildCard(water, "recognition", false, [water]).promptReading).toBe("みず");
+    const sun = item({ type: "kanji", term: "日", reading: "ひ", meaning: "Sun", tags: [] });
+    expect(buildCard(sun, "recognition", false, [sun]).promptReading).toBe("ひ");
+    expect(buildCard(sun, "recall", false, [sun]).promptReading).toBeNull();
   });
 
   it("asks for a kanji's reading", () => {

@@ -20,6 +20,7 @@ import { join } from "node:path";
 import { parse } from "csv-parse/sync";
 import { toRomaji } from "wanakana";
 import { IMPORT_FORMAT_VERSION, parseImport } from "../src/lib/content/schema";
+import { annotateItems, createAnnotator, knownWordsFrom, type Annotate } from "./furigana-build";
 import { applyMnemonics, loadMnemonics } from "./mnemonics";
 
 const LEVELS = ["N5", "N4", "N3", "N2"] as const;
@@ -77,8 +78,8 @@ function withoutUnverified(tags: string[], add: string[]): string[] {
 
 const MNEMONICS = loadMnemonics();
 
-function writePack(file: string, items: Item[], source: string) {
-  const records = applyMnemonics(items, MNEMONICS);
+function writePack(file: string, items: Item[], source: string, annotate: Annotate) {
+  const records = annotateItems(applyMnemonics(items, MNEMONICS), annotate);
   const doc = { version: IMPORT_FORMAT_VERSION, kind: "items", source, records };
   const parsed = parseImport(doc);
   if (parsed.issues.length) {
@@ -89,7 +90,7 @@ function writePack(file: string, items: Item[], source: string) {
   console.log(`${file}: ${records.length} items`);
 }
 
-function main() {
+async function main() {
   const dir = process.argv[2];
   if (!dir) throw new Error("Usage: npm run build:open-data -- <download-dir>");
 
@@ -179,11 +180,16 @@ function main() {
 
   mkdirSync(OUT_DIR, { recursive: true });
   const SOURCE = "opendata-kanjidic-tanos";
-  writePack("00-legacy-level-fixes.json", [...legacyUpdates.values()], "legacy-nihongo+opendata");
+  const allWords = [...legacyUpdates.values(), ...[...vocabByLevel.values()].flat()];
+  const annotate = await createAnnotator(knownWordsFrom(allWords));
+  writePack("00-legacy-level-fixes.json", [...legacyUpdates.values()], "legacy-nihongo+opendata", annotate);
   LEVELS.forEach((level, i) => {
-    writePack(`${String(i * 2 + 1).padStart(2, "0")}-kanji-${level.toLowerCase()}.json`, kanjiByLevel.get(level)!, SOURCE);
-    writePack(`${String(i * 2 + 2).padStart(2, "0")}-vocab-${level.toLowerCase()}.json`, vocabByLevel.get(level)!, SOURCE);
+    writePack(`${String(i * 2 + 1).padStart(2, "0")}-kanji-${level.toLowerCase()}.json`, kanjiByLevel.get(level)!, SOURCE, annotate);
+    writePack(`${String(i * 2 + 2).padStart(2, "0")}-vocab-${level.toLowerCase()}.json`, vocabByLevel.get(level)!, SOURCE, annotate);
   });
 }
 
-main();
+main().catch((err) => {
+  console.error(err);
+  process.exit(1);
+});
