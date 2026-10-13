@@ -9,6 +9,7 @@ export interface Profile {
   target_level: string;
   exam_date: string | null;
   daily_minutes: number;
+  timezone: string;
 }
 
 /** The signed-in user and their profile, or a redirect to /login. */

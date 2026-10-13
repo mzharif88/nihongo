@@ -1,15 +1,16 @@
 import Link from "next/link";
 import { requireUser } from "@/lib/auth";
+import { loadStudySession } from "@/lib/study/session.server";
 import { signOut } from "./login/actions";
 
 export default async function HomePage() {
   const { supabase, profile } = await requireUser();
-  const now = new Date().toISOString();
-  const [{ count: due }, { count: live }, { data: game }] = await Promise.all([
-    supabase.from("user_items").select("*", { count: "exact", head: true }).lte("due", now),
-    supabase.from("items").select("*", { count: "exact", head: true }).eq("status", "live"),
+  const [session, { count: learning }, { data: game }] = await Promise.all([
+    loadStudySession(supabase, profile),
+    supabase.from("user_items").select("*", { count: "exact", head: true }).eq("card_type", "recognition"),
     supabase.from("gamification").select("xp, streak").eq("user_id", profile.id).maybeSingle(),
   ]);
+  const toStudy = session.dueCount + session.newCount;
 
   return (
     <main className="mx-auto max-w-xl px-4 py-8">
@@ -23,18 +24,27 @@ export default async function HomePage() {
       </header>
 
       <section className="mt-6 grid grid-cols-3 gap-3 text-center">
-        <Stat label="Due today" value={due ?? 0} />
+        <Stat label="Due now" value={session.dueCount} />
         <Stat label="Streak" value={game?.streak ?? 0} />
         <Stat label="XP" value={game?.xp ?? 0} />
       </section>
 
-      <section className="mt-6 rounded-xl border border-border bg-card p-4">
-        <h2 className="font-medium">Daily loop</h2>
-        <p className="mt-1 text-sm text-muted">
-          Reviews, lessons and the sentence builder arrive in Phase 1. {live ?? 0} items are live so far; target level{" "}
-          {profile.target_level}, {profile.daily_minutes} min/day.
-        </p>
-      </section>
+      <Link
+        href="/study"
+        className={`mt-6 block rounded-xl p-5 text-center ${
+          toStudy ? "bg-accent text-white" : "border border-border bg-card text-muted"
+        }`}
+      >
+        <div className="text-lg font-bold">{toStudy ? "Study now" : "All caught up"}</div>
+        <div className="mt-1 text-sm opacity-90">
+          {session.dueCount} reviews · {session.newCount} new
+          {session.newLeftToday === 0 ? " (today's new cards done)" : ""}
+        </div>
+      </Link>
+
+      <p className="mt-3 text-center text-sm text-muted">
+        {learning ?? 0} items started · {profile.daily_minutes} min/day · target {profile.target_level}
+      </p>
 
       {profile.role === "admin" && (
         <Link
