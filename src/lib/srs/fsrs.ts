@@ -3,11 +3,6 @@ import { createEmptyCard, fsrs, generatorParameters, Rating, type Card, type Gra
 /** FSRS target retention; the plan's 85–90% review-accuracy band. */
 export const DESIRED_RETENTION = 0.9;
 
-/** Daily review time budget so the Due Today queue never exceeds ~15 minutes. */
-export const REVIEW_BUDGET_MS = 15 * 60 * 1000;
-/** Assumed time per review until we have the learner's own average. */
-export const DEFAULT_MS_PER_REVIEW = 8_000;
-
 const scheduler = fsrs(generatorParameters({ request_retention: DESIRED_RETENTION, enable_fuzz: false }));
 
 export { Rating };
@@ -73,18 +68,9 @@ export function gradeFromResult(correct: boolean, msTaken?: number): Grade {
   return Rating.Good;
 }
 
-/**
- * Pick today's queue: due cards, most overdue first, capped so the session
- * fits the review time budget.
- */
-export function dueQueue<T extends Pick<UserItemCard, "due">>(
-  cards: T[],
-  now: Date = new Date(),
-  msPerReview: number = DEFAULT_MS_PER_REVIEW,
-): T[] {
-  const cap = Math.max(1, Math.floor(REVIEW_BUDGET_MS / Math.max(1, msPerReview)));
+/** Every card due by `now`, most overdue first. There is no daily cap: the learner studies until the queue is empty. */
+export function dueQueue<T extends Pick<UserItemCard, "due">>(cards: T[], now: Date = new Date()): T[] {
   return cards
     .filter((c) => new Date(c.due).getTime() <= now.getTime())
-    .sort((a, b) => new Date(a.due).getTime() - new Date(b.due).getTime())
-    .slice(0, cap);
+    .sort((a, b) => new Date(a.due).getTime() - new Date(b.due).getTime());
 }

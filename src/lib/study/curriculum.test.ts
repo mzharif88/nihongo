@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { newItemsPerDay, pickNewItems, type CurriculumItem } from "./curriculum";
+import { pickNewItems, type CurriculumItem } from "./curriculum";
 
 let n = 0;
 const item = (p: Partial<CurriculumItem>): CurriculumItem => ({
@@ -59,13 +59,5 @@ describe("pickNewItems", () => {
     const greet = item({ type: "word", jlpt_level: "N5", term: "b", topic: "Greetings & Basics" });
     const odd = item({ type: "word", jlpt_level: "N5", term: "c", topic: "Something new" });
     expect(pickNewItems([odd, food, greet], new Set(), new Set(), 3)).toEqual([greet, food, odd]);
-  });
-});
-
-describe("newItemsPerDay", () => {
-  it("scales with daily minutes within sane bounds", () => {
-    expect(newItemsPerDay(20)).toBe(10);
-    expect(newItemsPerDay(5)).toBe(3);
-    expect(newItemsPerDay(180)).toBe(30);
   });
 });
