@@ -1,5 +1,7 @@
 import Link from "next/link";
+import { Ruby } from "@/components/ruby";
 import { requireUser } from "@/lib/auth";
+import { loadLessonList } from "@/lib/lessons/lessons.server";
 import type { Pace } from "@/lib/study/pace";
 import { loadStudySession } from "@/lib/study/session.server";
 import type { Topic } from "@/lib/study/topics";
@@ -7,10 +9,13 @@ import { signOut } from "./login/actions";
 
 export default async function HomePage() {
   const { supabase, profile } = await requireUser();
-  const [session, { data: game }] = await Promise.all([
+  const [session, { data: game }, lessons] = await Promise.all([
     loadStudySession(supabase, profile),
     supabase.from("gamification").select("xp, streak").eq("user_id", profile.id).maybeSingle(),
+    loadLessonList(supabase, profile.id),
   ]);
+  const nextLesson = lessons.find((l) => l.state === "next") ?? null;
+  const lessonsDone = lessons.filter((l) => l.state === "done").length;
   const { pace } = session;
   const lastTopic = session.topics.find((t) => t.id === profile.study_topic) ?? null;
   const studyHref = (t: Topic) => `/study?topic=${encodeURIComponent(t.id)}`;
@@ -54,6 +59,26 @@ export default async function HomePage() {
           </div>
         </Link>
       )}
+
+      {lessons.length > 0 && (
+        <Link
+          href={nextLesson ? `/lessons/${nextLesson.slug}` : "/lessons"}
+          className="mt-3 block rounded-xl border border-border bg-card p-4 hover:border-accent"
+        >
+          <div className="flex items-baseline justify-between text-xs text-muted">
+            <span>{nextLesson ? `Next lesson · ${nextLesson.jlpt_level} #${nextLesson.position}` : "Lessons"}</span>
+            <span>
+              {lessonsDone}/{lessons.length} done
+            </span>
+          </div>
+          <div className="mt-1 text-lg font-bold">
+            {nextLesson ? <Ruby text={nextLesson.title} /> : "All lessons done: replay any of them"}
+          </div>
+        </Link>
+      )}
+      <Link href="/lessons" className="mt-2 block text-right text-sm text-muted underline">
+        All lessons
+      </Link>
 
       <TopicGrid topics={session.topics} href={studyHref} />
 

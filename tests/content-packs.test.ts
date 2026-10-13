@@ -70,3 +70,35 @@ describe("mnemonics overlay", () => {
     }
   });
 });
+
+describe("lesson packs", () => {
+  const itemSlugs = new Map<string, string>();
+  for (const g of PACK_GROUPS.filter((g) => g.id !== "lessons")) {
+    for (const p of g.packs) {
+      const parsed = loadFrom(g.id, p.file);
+      if (parsed.kind === "items") for (const r of parsed.records) itemSlugs.set(r.slug as string, r.type as string);
+    }
+  }
+  const lessons = PACK_GROUPS.find((g) => g.id === "lessons")!.packs.flatMap((p) => loadFrom("lessons", p.file).records);
+
+  it("only point at items and grammar that exist", () => {
+    for (const l of lessons) {
+      for (const s of l.item_slugs as string[]) expect(itemSlugs.has(s), `${l.slug} → ${s}`).toBe(true);
+      if (l.grammar_slug) expect(itemSlugs.get(l.grammar_slug as string), `${l.slug} → ${l.grammar_slug}`).toBe("grammar");
+    }
+  });
+
+  it("have unique positions per level and three checks each", () => {
+    const keys = lessons.map((l) => `${l.jlpt_level}:${l.position}`);
+    expect(new Set(keys).size).toBe(keys.length);
+    for (const l of lessons) expect((l.checks as unknown[]).length, l.slug as string).toBe(3);
+  });
+
+  it("carry furigana for every dialogue line with kanji", () => {
+    for (const l of lessons) {
+      for (const line of l.dialogue as { jp: string; reading?: string }[]) {
+        if (/[\u3400-\u9fff]/.test(line.jp)) expect(line.reading, line.jp).toMatch(/\[[^\]|]+\|[^\]]+\]/);
+      }
+    }
+  });
+});

@@ -1,0 +1,534 @@
+{
+ "version": 1,
+ "kind": "lessons",
+ "source": "original-n5-lessons",
+ "records": [
+  {
+   "slug": "lesson-n5-01-hajimemashite",
+   "jlpt_level": "N5",
+   "position": 1,
+   "title": "はじめまして — Introducing yourself",
+   "situation": "Your first day at a Japanese language school. A teacher introduces herself.",
+   "item_slugs": [
+    "word-hajimemashite",
+    "vocab-n5-watashi",
+    "vocab-n5-namae",
+    "vocab-n5-gakusei",
+    "vocab-n5-sensei",
+    "vocab-n5-kuni",
+    "word-yoroshiku",
+    "word-shigoto"
+   ],
+   "grammar_slug": "grammar-wa-topic",
+   "dialogue": [
+    {
+     "speaker": "[田中|たなか]",
+     "jp": "はじめまして。わたしは田中です。",
+     "en": "Nice to meet you. I'm Tanaka.",
+     "reading": "はじめまして。わたしは[田中|たなか]です。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "はじめまして。わたしはザリフです。",
+     "en": "Nice to meet you. I'm Zarif."
+    },
+    {
+     "speaker": "[田中|たなか]",
+     "jp": "ザリフさんは学生ですか。",
+     "en": "Are you a student, Zarif?",
+     "reading": "ザリフさんは[学生|がくせい]ですか。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "はい、学生です。田中さんは？",
+     "en": "Yes, I'm a student. And you, Ms. Tanaka?",
+     "reading": "はい、[学生|がくせい]です。[田中|たなか]さんは？"
+    },
+    {
+     "speaker": "[田中|たなか]",
+     "jp": "わたしは先生です。日本語の先生です。",
+     "en": "I'm a teacher. A Japanese teacher.",
+     "reading": "わたしは[先生|せんせい]です。[日本語|にほんご]の[先生|せんせい]です。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "そうですか。お国はどちらですか。",
+     "en": "I see. Where are you from?",
+     "reading": "そうですか。お[国|くに]はどちらですか。"
+    },
+    {
+     "speaker": "[田中|たなか]",
+     "jp": "日本の大阪です。どうぞよろしくお願いします。",
+     "en": "Osaka, in Japan. Pleased to meet you.",
+     "reading": "[日本|にほん]の[大阪|おおさか]です。どうぞよろしくお[願|ねが]いします。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "こちらこそ、よろしくお願いします。",
+     "en": "The pleasure is mine.",
+     "reading": "こちらこそ、よろしくお[願|ねが]いします。"
+    }
+   ],
+   "checks": [
+    {
+     "prompt": "How do you say \"Nice to meet you\" when you first meet someone?",
+     "options": [
+      "さようなら",
+      "はじめまして",
+      "おやすみなさい",
+      "いただきます"
+     ],
+     "answer": 1,
+     "explanation": "はじめまして is only for the very first meeting. Finish with よろしくお[願|ねが]いします."
+    },
+    {
+     "prompt": "Fill in the blank: わたし＿[学生|がくせい]です。",
+     "options": [
+      "は",
+      "を",
+      "に",
+      "で"
+     ],
+     "answer": 0,
+     "explanation": "は (read \"wa\") marks the topic: \"As for me, (I) am a student.\""
+    },
+    {
+     "prompt": "[田中|たなか]さん says 「[日本語|にほんご]の[先生|せんせい]です」. What is her job?",
+     "options": [
+      "A student",
+      "An office worker",
+      "A Japanese teacher",
+      "A doctor"
+     ],
+     "answer": 2,
+     "explanation": "[先生|せんせい] = teacher, [日本語|にほんご]の[先生|せんせい] = a teacher of Japanese."
+    }
+   ],
+   "notes": "は (wa) marks the topic of the sentence: わたしは[学生|がくせい]です = \"As for me, I'm a student.\" It's written は but pronounced \"wa\". Add か to the end to make a question: [学生|がくせい]ですか = \"Are you a student?\"\n\nCulture: Japanese people give their family name first, and add さん to other people's names ([田中|たなか]さん), never to their own."
+  },
+  {
+   "slug": "lesson-n5-02-konbini",
+   "jlpt_level": "N5",
+   "position": 2,
+   "title": "コンビニで — At the convenience store",
+   "situation": "You buy lunch at a konbini. The staff ask a few quick questions at the till.",
+   "item_slugs": [
+    "vocab-n5-kore",
+    "vocab-n5-sore",
+    "vocab-n5-are",
+    "word-ikura",
+    "vocab-n5-en",
+    "word-mizu",
+    "word-ocha",
+    "vocab-n5-obentou",
+    "word-fukuro",
+    "vocab-n5-kudasai"
+   ],
+   "grammar_slug": "grammar-wo-object",
+   "dialogue": [
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "いらっしゃいませ。",
+     "en": "Welcome!"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "すみません、これはいくらですか。",
+     "en": "Excuse me, how much is this?"
+    },
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "それは四百五十円です。",
+     "en": "That's 450 yen.",
+     "reading": "それは[四百|よんひゃく][五|ご][十|じゅう][円|えん]です。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "じゃあ、これとお茶をください。",
+     "en": "OK, this and a green tea, please.",
+     "reading": "じゃあ、これとお[茶|ちゃ]をください。"
+    },
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "お弁当、温めますか。",
+     "en": "Shall I heat up the bento?",
+     "reading": "お[弁当|べんとう]、[温|あたた]めますか。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "はい、お願いします。",
+     "en": "Yes, please.",
+     "reading": "はい、お[願|ねが]いします。"
+    },
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "袋はいりますか。",
+     "en": "Do you need a bag?",
+     "reading": "[袋|ふくろ]はいりますか。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "いいえ、大丈夫です。",
+     "en": "No, I'm fine.",
+     "reading": "いいえ、[大丈夫|だいじょうぶ]です。"
+    },
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "全部で六百円です。ありがとうございました。",
+     "en": "That's 600 yen altogether. Thank you very much.",
+     "reading": "[全部|ぜんぶ]で[六|ろく][百|ひゃく][円|えん]です。ありがとうございました。"
+    }
+   ],
+   "checks": [
+    {
+     "prompt": "How do you ask \"How much is this?\"",
+     "options": [
+      "これは[何|なん]ですか。",
+      "これはどこですか。",
+      "これはいくらですか。",
+      "これはだれですか。"
+     ],
+     "answer": 2,
+     "explanation": "いくら = how much (price). [何|なに] = what, どこ = where, だれ = who."
+    },
+    {
+     "prompt": "Fill in the blank: お[茶|ちゃ]＿ください。",
+     "options": [
+      "は",
+      "を",
+      "が",
+      "へ"
+     ],
+     "answer": 1,
+     "explanation": "を marks the thing you want: お[茶|ちゃ]をください = \"(Give me) tea, please.\""
+    },
+    {
+     "prompt": "The staff ask 「[袋|ふくろ]はいりますか」. What do they want to know?",
+     "options": [
+      "Do you need a bag?",
+      "Shall I heat it up?",
+      "Do you have a point card?",
+      "Is that everything?"
+     ],
+     "answer": 0,
+     "explanation": "[袋|ふくろ] = bag, いります = need. Bags cost a few yen in Japan, so staff always ask."
+    }
+   ],
+   "notes": "を (o) marks the object of a verb: お[茶|ちゃ]をください = \"Please give me tea.\"\n\nこれ = this (near me), それ = that (near you), あれ = that (over there, away from both of us).\n\nCulture: at the till you'll often hear 「[温|あたた]めますか」 (shall I heat it up?) for bento and 「[袋|ふくろ]はいりますか」 (need a bag?). [大丈夫|だいじょうぶ]です is a polite \"no thanks\"."
+  },
+  {
+   "slug": "lesson-n5-03-eki",
+   "jlpt_level": "N5",
+   "position": 3,
+   "title": "[駅|えき]で — At the station",
+   "situation": "You're not sure which train goes to Tokyo, so you ask a station attendant.",
+   "item_slugs": [
+    "word-eki",
+    "word-densha",
+    "word-iku",
+    "vocab-n5-doko",
+    "vocab-n5-migi",
+    "vocab-n5-hidari",
+    "vocab-n5-massugu",
+    "word-kippu",
+    "vocab-n5-chikai"
+   ],
+   "grammar_slug": "grammar-ni-destination",
+   "dialogue": [
+    {
+     "speaker": "あなた",
+     "jp": "すみません、この電車は東京に行きますか。",
+     "en": "Excuse me, does this train go to Tokyo?",
+     "reading": "すみません、この[電車|でんしゃ]は[東京|とうきょう]に[行|い]きますか。"
+    },
+    {
+     "speaker": "[駅員|えきいん]",
+     "jp": "いいえ、行きません。東京行きは三番線です。",
+     "en": "No, it doesn't. Trains for Tokyo leave from platform 3.",
+     "reading": "いいえ、[行|い]きません。[東京|とうきょう][行|い]きは[三|さん][番線|ばんせん]です。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "三番線はどこですか。",
+     "en": "Where is platform 3?",
+     "reading": "[三|さん][番線|ばんせん]はどこですか。"
+    },
+    {
+     "speaker": "[駅員|えきいん]",
+     "jp": "あそこの階段を上がって、右です。",
+     "en": "Go up those stairs over there; it's on the right.",
+     "reading": "あそこの[階段|かいだん]を[上|あ]がって、[右|みぎ]です。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "切符はどこで買いますか。",
+     "en": "Where do I buy a ticket?",
+     "reading": "[切符|きっぷ]はどこで[買|か]いますか。"
+    },
+    {
+     "speaker": "[駅員|えきいん]",
+     "jp": "切符売り場はまっすぐ行って、左です。近いですよ。",
+     "en": "The ticket office is straight ahead, on the left. It's close.",
+     "reading": "[切符|きっぷ][売|う]り[場|ば]はまっすぐ[行|い]って、[左|ひだり]です。[近|ちか]いですよ。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "わかりました。ありがとうございます。",
+     "en": "Got it. Thank you very much."
+    }
+   ],
+   "checks": [
+    {
+     "prompt": "Fill in the blank: この[電車|でんしゃ]は[東京|とうきょう]＿[行|い]きますか。",
+     "options": [
+      "を",
+      "に",
+      "が",
+      "は"
+     ],
+     "answer": 1,
+     "explanation": "に marks where you're going: [東京|とうきょう]に[行|い]きます = \"go to Tokyo\". へ also works."
+    },
+    {
+     "prompt": "What does 「[右|みぎ]」 mean?",
+     "options": [
+      "Right",
+      "Left",
+      "Straight ahead",
+      "Near"
+     ],
+     "answer": 0,
+     "explanation": "[右|みぎ] (みぎ) = right, [左|ひだり] (ひだり) = left, まっすぐ = straight ahead, [近|ちか]い = near."
+    },
+    {
+     "prompt": "Where is the ticket office?",
+     "options": [
+      "Up the stairs, on the right",
+      "Far away",
+      "Straight ahead, on the left",
+      "On platform 3"
+     ],
+     "answer": 2,
+     "explanation": "「まっすぐ[行|い]って、[左|ひだり]です」 = go straight, then it's on the left."
+    }
+   ],
+   "notes": "に (ni) marks the destination of movement: [東京|とうきょう]に[行|い]きます = \"I go to Tokyo.\" Use it with [行|い]きます (go), [来|き]ます (come) and [帰|かえ]ります (go home).\n\nCulture: 〜[行|い]き means \"bound for\" ([東京|とうきょう][行|い]き = for Tokyo) and [番線|ばんせん] is a platform number ([三|さん][番線|ばんせん] = platform 3)."
+  },
+  {
+   "slug": "lesson-n5-04-nanji",
+   "jlpt_level": "N5",
+   "position": 4,
+   "title": "[何|なん][時|じ]ですか — What time is it?",
+   "situation": "A classmate asks about your daily routine before class.",
+   "item_slugs": [
+    "word-ima",
+    "vocab-n5-ji",
+    "vocab-n5-fun",
+    "word-han",
+    "word-asa",
+    "vocab-n5-ban",
+    "word-okiru",
+    "word-neru",
+    "word-mainichi",
+    "word-gozen"
+   ],
+   "grammar_slug": "grammar-masu",
+   "dialogue": [
+    {
+     "speaker": "あなた",
+     "jp": "すみません、今何時ですか。",
+     "en": "Excuse me, what time is it now?",
+     "reading": "すみません、[今|いま][何|なん][時|じ]ですか。"
+    },
+    {
+     "speaker": "[田中|たなか]",
+     "jp": "八時半です。",
+     "en": "It's half past eight.",
+     "reading": "[八|はち][時半|じはん]です。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "えっ、もう八時半ですか。",
+     "en": "What, it's already half past eight?",
+     "reading": "えっ、もう[八|はち][時半|じはん]ですか。"
+    },
+    {
+     "speaker": "[田中|たなか]",
+     "jp": "はい。毎朝何時に起きますか。",
+     "en": "Yes. What time do you get up every morning?",
+     "reading": "はい。[毎朝|まいあさ][何|なん][時|じ]に[起|お]きますか。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "六時に起きます。毎日午前九時に学校に行きます。",
+     "en": "I get up at six. I go to school at 9 a.m. every day.",
+     "reading": "[六|ろく][時|じ]に[起|お]きます。[毎日|まいにち][午前|ごぜん][九時|くじ]に[学校|がっこう]に[行|い]きます。"
+    },
+    {
+     "speaker": "[田中|たなか]",
+     "jp": "晩は何時に寝ますか。",
+     "en": "What time do you go to bed at night?",
+     "reading": "[晩|ばん]は[何|なん][時|じ]に[寝|ね]ますか。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "十一時ごろ寝ます。",
+     "en": "Around eleven.",
+     "reading": "[十|じゅう][一時|いちじ]ごろ[寝|ね]ます。"
+    },
+    {
+     "speaker": "[田中|たなか]",
+     "jp": "早いですね。わたしは一時に寝ます。",
+     "en": "That's early. I go to bed at one.",
+     "reading": "[早|はや]いですね。わたしは[一時|いちじ]に[寝|ね]ます。"
+    }
+   ],
+   "checks": [
+    {
+     "prompt": "How do you say \"half past seven\"?",
+     "options": [
+      "[七時|しちじ][分|ふん]",
+      "[半|はん][七時|しちじ]",
+      "[七|しち][時半|じはん]",
+      "[七分|ななふん][半|はん]"
+     ],
+     "answer": 2,
+     "explanation": "Hour + [時|じ], then [半|はん] for half past: [七|しち][時半|じはん] (しちじはん)."
+    },
+    {
+     "prompt": "What is the polite (ます) form of [寝|ね]る (to sleep)?",
+     "options": [
+      "[寝|ね]ます",
+      "[寝|ね]る",
+      "[寝|ね]ません",
+      "[寝|ね]ました"
+     ],
+     "answer": 0,
+     "explanation": "[寝|ね]る → [寝|ね]ます (polite present). [寝|ね]ません is negative, [寝|ね]ました is past."
+    },
+    {
+     "prompt": "What time does the speaker get up?",
+     "options": [
+      "8:30",
+      "6:00",
+      "9:00",
+      "11:00"
+     ],
+     "answer": 1,
+     "explanation": "「[六|ろく][時|じ]に[起|お]きます」 = I get up at six."
+    }
+   ],
+   "notes": "ます makes a verb polite: [起|お]きる → [起|お]きます (get up), [寝|ね]る → [寝|ね]ます (go to bed), [行|い]く → [行|い]きます (go). Use に after a clock time: [六|ろく][時|じ]に[起|お]きます = \"I get up at six.\"\n\nTelling time: number + [時|じ] (じ) for the hour, + [分|ふん] (ふん/ぷん) for minutes, [半|はん] (はん) for half past. Careful with [四時|よじ] (よじ), [七時|しちじ] (しちじ) and [九時|くじ] (くじ)."
+  },
+  {
+   "slug": "lesson-n5-05-resutoran",
+   "jlpt_level": "N5",
+   "position": 5,
+   "title": "レストランで — At a restaurant",
+   "situation": "You and a friend go out for lunch and decide what to order.",
+   "item_slugs": [
+    "word-taberu",
+    "word-nomu",
+    "vocab-n5-gohan",
+    "word-niku",
+    "word-sakana",
+    "vocab-n5-oishii",
+    "word-takai",
+    "word-yasui",
+    "word-koohii"
+   ],
+   "grammar_slug": "grammar-tai",
+   "dialogue": [
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "いらっしゃいませ。何名様ですか。",
+     "en": "Welcome. How many people?",
+     "reading": "いらっしゃいませ。[何名様|なんめいさま]ですか。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "二人です。",
+     "en": "Two.",
+     "reading": "[二人|ふたり]です。"
+    },
+    {
+     "speaker": "[田中|たなか]",
+     "jp": "何が食べたいですか。",
+     "en": "What do you want to eat?",
+     "reading": "[何|なに]が[食|た]べたいですか。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "魚が食べたいです。田中さんは？",
+     "en": "I want to eat fish. And you?",
+     "reading": "[魚|さかな]が[食|た]べたいです。[田中|たなか]さんは？"
+    },
+    {
+     "speaker": "[田中|たなか]",
+     "jp": "わたしは肉が食べたいです。このステーキはおいしいですよ。",
+     "en": "I want meat. The steak here is delicious.",
+     "reading": "わたしは[肉|にく]が[食|た]べたいです。このステーキはおいしいですよ。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "でも、高いですね。",
+     "en": "But it's expensive.",
+     "reading": "でも、[高|たか]いですね。"
+    },
+    {
+     "speaker": "[田中|たなか]",
+     "jp": "ランチは安いですよ。ご飯とスープで千円です。",
+     "en": "The lunch set is cheap. Rice and soup for 1,000 yen.",
+     "reading": "ランチは[安|やす]いですよ。ご[飯|はん]とスープで[千|せん][円|えん]です。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "じゃあ、ランチにします。それから、コーヒーが飲みたいです。",
+     "en": "Then I'll have the lunch set. And I'd like a coffee.",
+     "reading": "じゃあ、ランチにします。それから、コーヒーが[飲|の]みたいです。"
+    },
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "かしこまりました。",
+     "en": "Certainly."
+    }
+   ],
+   "checks": [
+    {
+     "prompt": "How do you say \"I want to drink coffee\"?",
+     "options": [
+      "コーヒーを[飲|の]みます。",
+      "コーヒーが[好|す]きです。",
+      "コーヒーを[飲|の]みました。",
+      "コーヒーが[飲|の]みたいです。"
+     ],
+     "answer": 3,
+     "explanation": "[飲|の]みます → [飲|の]みたいです (want to drink). The object can take が: コーヒーが[飲|の]みたいです."
+    },
+    {
+     "prompt": "What does 「[高|たか]い」 mean here?",
+     "options": [
+      "Cheap",
+      "Expensive",
+      "Delicious",
+      "Far"
+     ],
+     "answer": 1,
+     "explanation": "[高|たか]い = expensive (it also means tall/high). [安|やす]い = cheap, おいしい = delicious."
+    },
+    {
+     "prompt": "How much is the lunch set?",
+     "options": [
+      "1,000 yen",
+      "600 yen",
+      "2,000 yen",
+      "450 yen"
+     ],
+     "answer": 0,
+     "explanation": "「[千|せん][円|えん]です」 = it's 1,000 yen."
+    }
+   ],
+   "notes": "〜たい = \"want to\": take the ます form, drop ます and add たいです. [食|た]べます → [食|た]べたいです (want to eat), [飲|の]みます → [飲|の]みたいです (want to drink). The thing you want often takes が instead of を: [魚|さかな]が[食|た]べたいです.\n\nCulture: staff greet you with [何名様|なんめいさま]ですか (how many people?). Answer with [一人|ひとり] (ひとり), [二人|ふたり] (ふたり), [三人|さんにん] (さんにん)."
+  }
+ ]
+}

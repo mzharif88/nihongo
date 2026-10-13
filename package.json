@@ -10,7 +10,8 @@
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
     "port:legacy": "tsx scripts/port-legacy.ts",
-    "build:open-data": "tsx scripts/build-open-data.ts"
+    "build:open-data": "tsx scripts/build-open-data.ts",
+    "build:lessons": "tsx scripts/build-lessons.ts"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.7",

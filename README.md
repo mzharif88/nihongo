@@ -18,7 +18,8 @@ This is a fresh build. The old NihonGo! app (React + Vite) lives on the
 | Content | Old NihonGo! content (`content/legacy`) plus N5–N2 kanji and vocabulary from open data (`content/opendata`, ~6,300 items); `/attributions` credits the sources |
 | SRS | `/study`: every due review (no cap) then the next 10 new items, with "Keep going" for more and no daily limit; `/study?topic=…` studies one topic (resumes where you left off, since every answer is saved); all cards multiple choice; furigana over kanji everywhere (hidden only when the reading is the answer); XP and streaks |
 | Home | Study everything, Continue (last topic), and a topic grid (scripts, kanji and words by level, word topics) with progress and due counts; pace card shows the exam-date target as a guide only; `/settings` for level, exam date, goal and timezone |
-| Learner UI | Home page with due/new counts; lessons, sentence builder and the N5 mock are the next Phase 1 slices |
+| Lessons | `/lessons`: 5 original N5 situation lessons (introductions, konbini, station, time, restaurant). Each runs situation → new words → grammar → dialogue (tap to hear, English toggle) → 3 quick checks; checks are scored on the server, finishing adds the words to SRS, logs wrong checks as mistakes and unlocks the next lesson. Leaving halfway resumes at the same step. Furigana throughout |
+| Next | N5 sentence builder, then the N5 mock and reading passages |
 
 ## Stack
 
@@ -67,6 +68,7 @@ npm run dev
 | `npm run lint` / `npm run typecheck` | ESLint / TypeScript |
 | `npm run build` | Production build |
 | `npm run port:legacy` | Regenerate `content/legacy/*.json` from the `legacy` branch |
+| `npm run build:lessons` | Regenerate `content/lessons/*.json` (adds furigana) from the hand-written `*.source.json` files |
 | `npm run build:open-data -- <dir>` | Regenerate `content/opendata/*.json` from downloaded `kanji.json` (kanji-data) and `n5–n2.csv` (open-anki-jlpt-decks) |
 
 New migrations go in `supabase/migrations/` with a timestamp prefix. New

@@ -4,7 +4,8 @@ import { revalidatePath } from "next/cache";
 import { requireUser } from "@/lib/auth";
 import { gradeFromResult, newCard, review, type UserItemCard } from "@/lib/srs/fsrs";
 import { RECALL_TYPES, type CardType } from "@/lib/study/cards";
-import { advanceStreak, localDate, XP_CORRECT, XP_WRONG } from "@/lib/study/streak";
+import { awardXp } from "@/lib/study/award.server";
+import { XP_CORRECT, XP_WRONG } from "@/lib/study/streak";
 
 export interface AnswerInput {
   itemId: string;
@@ -88,20 +89,8 @@ export async function recordAnswer(input: AnswerInput): Promise<AnswerResult> {
   }
   for (const { error } of await Promise.all(writes)) if (error) throw new Error(error.message);
 
-  const { data: game, error: gameError } = await supabase
-    .from("gamification")
-    .select("xp, streak, longest_streak, freezes, last_study_date")
-    .eq("user_id", user.id)
-    .single();
-  if (gameError) throw new Error(gameError.message);
-  const streak = advanceStreak(game, localDate(now, profile.timezone));
-  const xp = game.xp + (correct ? XP_CORRECT : XP_WRONG);
-  const { error: gameSaveError } = await supabase
-    .from("gamification")
-    .update({ ...streak, xp })
-    .eq("user_id", user.id);
-  if (gameSaveError) throw new Error(gameSaveError.message);
+  const { xp, streak } = await awardXp(supabase, user.id, profile.timezone, correct ? XP_CORRECT : XP_WRONG, now);
 
   revalidatePath("/");
-  return { due: next.due, fsrsState: next.fsrs_state, xp, streak: streak.streak };
+  return { due: next.due, fsrsState: next.fsrs_state, xp, streak };
 }
