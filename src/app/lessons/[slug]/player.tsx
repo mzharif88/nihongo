@@ -128,7 +128,7 @@ function Player({ lesson, items, grammar, replay, resume }: Props & { resume: bo
           />
         )}
 
-        <div className="mt-auto flex gap-3 pt-6">
+        <div className="action-bar mt-auto flex gap-3 pt-6">
           {stepIndex > 0 && step.kind !== "check" && (
             <button
               onClick={() => go(stepIndex - 1)}

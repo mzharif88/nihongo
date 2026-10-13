@@ -145,7 +145,7 @@ export function StudySession({ title, cards: initial, keepGoingHref }: Props) {
 
           {phase === "answered" && <Feedback card={card} correct={correct} />}
 
-          <div className="mt-auto pt-6">
+          <div className="action-bar mt-auto pt-6">
             {error && <p className="mb-2 text-center text-sm text-red-600 dark:text-red-400">{error}</p>}
             {phase === "answered" && (
               <button
@@ -205,7 +205,7 @@ function Intro({ card, onDone }: { card: StudyCard; onDone: () => void }) {
         )}
       </dl>
       <p className="mt-3 text-center text-xs text-muted">Tap the character to hear it.</p>
-      <div className="mt-auto pt-6">
+      <div className="action-bar mt-auto pt-6">
         <button onClick={onDone} className="w-full rounded-xl bg-accent px-4 py-3.5 text-lg font-medium text-white">
           Got it, quiz me
         </button>

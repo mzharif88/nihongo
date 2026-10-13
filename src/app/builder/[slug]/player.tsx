@@ -239,7 +239,7 @@ function Player({ pattern, grammar, nextSlug, firstRun, resume }: Props & { resu
           </div>
         )}
 
-        <div className="mt-auto flex gap-3 pt-6">
+        <div className="action-bar mt-auto flex gap-3 pt-6">
           {checked === null ? (
             <>
               <button
