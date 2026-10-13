@@ -1,0 +1,1467 @@
+{
+ "version": 1,
+ "kind": "sentence_patterns",
+ "source": "original-n5-builder",
+ "records": [
+  {
+   "slug": "pattern-basic-identity",
+   "jlpt_level": "N5",
+   "title": "Basic Identity — Aは Bです",
+   "english": "A is B. Add か to ask a question.",
+   "template": [
+    {
+     "text": "わたし",
+     "slot": "noun",
+     "romaji": "watashi",
+     "label": "Subject (I)"
+    },
+    {
+     "text": "は",
+     "romaji": "wa",
+     "label": "Topic marker"
+    },
+    {
+     "text": "学生",
+     "slot": "noun",
+     "romaji": "gakusei",
+     "label": "Noun (student)"
+    },
+    {
+     "text": "です",
+     "romaji": "desu",
+     "label": "Copula (am/is)"
+    },
+    {
+     "text": "か",
+     "romaji": "ka",
+     "label": "Question marker"
+    }
+   ],
+   "examples": [
+    {
+     "jp": "わたしは学生です。",
+     "en": "I am a student.",
+     "reading": "わたしは[学生|がくせい]です。",
+     "tiles": [
+      "わたし",
+      "は",
+      "[学生|がくせい]",
+      "です"
+     ],
+     "distractors": [
+      "を"
+     ],
+     "also": []
+    },
+    {
+     "jp": "田中さんは先生です。",
+     "en": "Ms. Tanaka is a teacher.",
+     "reading": "[田中|たなか]さんは[先生|せんせい]です。",
+     "tiles": [
+      "[田中|たなか]さん",
+      "は",
+      "[先生|せんせい]",
+      "です"
+     ],
+     "distractors": [
+      "に"
+     ],
+     "also": []
+    },
+    {
+     "jp": "あの人は医者ですか。",
+     "en": "Is that person a doctor?",
+     "reading": "あの[人|ひと]は[医者|いしゃ]ですか。",
+     "tiles": [
+      "あの",
+      "[人|ひと]",
+      "は",
+      "[医者|いしゃ]",
+      "です",
+      "か"
+     ],
+     "distractors": [
+      "を"
+     ],
+     "also": []
+    },
+    {
+     "jp": "これはペンです。",
+     "en": "This is a pen.",
+     "tiles": [
+      "これ",
+      "は",
+      "ペン",
+      "です"
+     ],
+     "distractors": [
+      "が",
+      "を"
+     ],
+     "also": []
+    },
+    {
+     "jp": "山田さんは日本人ですか。",
+     "en": "Is Mr. Yamada Japanese?",
+     "reading": "[山田|やまだ]さんは[日本人|にほんじん]ですか。",
+     "tiles": [
+      "[山田|やまだ]さん",
+      "は",
+      "[日本人|にほんじん]",
+      "です",
+      "か"
+     ],
+     "distractors": [
+      "で"
+     ],
+     "also": []
+    }
+   ],
+   "notes": "は (wa) marks the topic. です (desu) = am/is/are. Add か at end for question.",
+   "grammar_slug": "grammar-wa-topic",
+   "position": 1
+  },
+  {
+   "slug": "pattern-basic-action",
+   "jlpt_level": "N5",
+   "title": "Basic Action — Object を Verb",
+   "english": "I eat sushi.",
+   "template": [
+    {
+     "text": "わたし",
+     "slot": "noun",
+     "romaji": "watashi",
+     "label": "Subject"
+    },
+    {
+     "text": "は",
+     "romaji": "wa",
+     "label": "Topic marker"
+    },
+    {
+     "text": "すし",
+     "slot": "noun",
+     "romaji": "sushi",
+     "label": "Object"
+    },
+    {
+     "text": "を",
+     "romaji": "wo",
+     "label": "Object marker"
+    },
+    {
+     "text": "食べます",
+     "slot": "verb-masu",
+     "romaji": "tabemasu",
+     "label": "Verb (eat)"
+    }
+   ],
+   "examples": [
+    {
+     "jp": "わたしはパンを食べます。",
+     "en": "I eat bread.",
+     "reading": "わたしはパンを[食|た]べます。",
+     "tiles": [
+      "わたし",
+      "は",
+      "パン",
+      "を",
+      "[食|た]べます"
+     ],
+     "distractors": [
+      "に"
+     ],
+     "also": []
+    },
+    {
+     "jp": "母はコーヒーを飲みます。",
+     "en": "My mother drinks coffee.",
+     "reading": "[母|はは]はコーヒーを[飲|の]みます。",
+     "tiles": [
+      "[母|はは]",
+      "は",
+      "コーヒー",
+      "を",
+      "[飲|の]みます"
+     ],
+     "distractors": [
+      "で"
+     ],
+     "also": []
+    },
+    {
+     "jp": "毎朝新聞を読みます。",
+     "en": "I read the newspaper every morning.",
+     "reading": "[毎朝|まいあさ][新聞|しんぶん]を[読|よ]みます。",
+     "tiles": [
+      "[毎朝|まいあさ]",
+      "[新聞|しんぶん]",
+      "を",
+      "[読|よ]みます"
+     ],
+     "distractors": [
+      "に"
+     ],
+     "also": [
+      "新聞を毎朝読みます"
+     ]
+    },
+    {
+     "jp": "兄はテレビを見ます。",
+     "en": "My older brother watches TV.",
+     "reading": "[兄|あに]はテレビを[見|み]ます。",
+     "tiles": [
+      "[兄|あに]",
+      "は",
+      "テレビ",
+      "を",
+      "[見|み]ます"
+     ],
+     "distractors": [
+      "へ"
+     ],
+     "also": []
+    },
+    {
+     "jp": "田中さんは手紙を書きます。",
+     "en": "Ms. Tanaka writes a letter.",
+     "reading": "[田中|たなか]さんは[手紙|てがみ]を[書|か]きます。",
+     "tiles": [
+      "[田中|たなか]さん",
+      "は",
+      "[手紙|てがみ]",
+      "を",
+      "[書|か]きます"
+     ],
+     "distractors": [
+      "が",
+      "に"
+     ],
+     "also": []
+    }
+   ],
+   "notes": "を (wo) marks the direct object. Verb always comes at the END in Japanese.",
+   "grammar_slug": "grammar-wo-object",
+   "position": 2
+  },
+  {
+   "slug": "pattern-location",
+   "jlpt_level": "N5",
+   "title": "Location — Place で Action",
+   "english": "I study at school.",
+   "template": [
+    {
+     "text": "わたし",
+     "slot": "noun",
+     "romaji": "watashi",
+     "label": "Subject"
+    },
+    {
+     "text": "は",
+     "romaji": "wa",
+     "label": "Topic marker"
+    },
+    {
+     "text": "学校",
+     "slot": "place",
+     "romaji": "gakkou",
+     "label": "Place (school)"
+    },
+    {
+     "text": "で",
+     "romaji": "de",
+     "label": "Location of action"
+    },
+    {
+     "text": "勉強します",
+     "slot": "verb-masu",
+     "romaji": "benkyou shimasu",
+     "label": "Verb (study)"
+    }
+   ],
+   "examples": [
+    {
+     "jp": "わたしは図書館で勉強します。",
+     "en": "I study at the library.",
+     "reading": "わたしは[図書館|としょかん]で[勉強|べんきょう]します。",
+     "tiles": [
+      "わたし",
+      "は",
+      "[図書館|としょかん]",
+      "で",
+      "[勉強|べんきょう]します"
+     ],
+     "distractors": [
+      "に"
+     ],
+     "also": []
+    },
+    {
+     "jp": "公園で散歩します。",
+     "en": "I take a walk in the park.",
+     "reading": "[公園|こうえん]で[散歩|さんぽ]します。",
+     "tiles": [
+      "[公園|こうえん]",
+      "で",
+      "[散歩|さんぽ]します"
+     ],
+     "distractors": [
+      "を"
+     ],
+     "also": []
+    },
+    {
+     "jp": "レストランで晩ご飯を食べます。",
+     "en": "I eat dinner at a restaurant.",
+     "reading": "レストランで[晩|ばん]ご[飯|はん]を[食|た]べます。",
+     "tiles": [
+      "レストラン",
+      "で",
+      "[晩|ばん]ご[飯|はん]",
+      "を",
+      "[食|た]べます"
+     ],
+     "distractors": [
+      "に"
+     ],
+     "also": [
+      "晩ご飯をレストランで食べます"
+     ]
+    },
+    {
+     "jp": "駅で友達に会います。",
+     "en": "I meet a friend at the station.",
+     "reading": "[駅|えき]で[友達|ともだち]に[会|あ]います。",
+     "tiles": [
+      "[駅|えき]",
+      "で",
+      "[友達|ともだち]",
+      "に",
+      "[会|あ]います"
+     ],
+     "distractors": [
+      "へ"
+     ],
+     "also": [
+      "友達に駅で会います"
+     ]
+    },
+    {
+     "jp": "家で音楽を聞きます。",
+     "en": "I listen to music at home.",
+     "reading": "[家|いえ]で[音楽|おんがく]を[聞|き]きます。",
+     "tiles": [
+      "[家|いえ]",
+      "で",
+      "[音楽|おんがく]",
+      "を",
+      "[聞|き]きます"
+     ],
+     "distractors": [
+      "に"
+     ],
+     "also": [
+      "音楽を家で聞きます"
+     ]
+    }
+   ],
+   "notes": "で (de) = at/in (location of action). Different from に!",
+   "grammar_slug": "grammar-de-location",
+   "position": 3
+  },
+  {
+   "slug": "pattern-destination",
+   "jlpt_level": "N5",
+   "title": "Destination — Place に行く",
+   "english": "I go to Japan.",
+   "template": [
+    {
+     "text": "わたし",
+     "slot": "noun",
+     "romaji": "watashi",
+     "label": "Subject"
+    },
+    {
+     "text": "は",
+     "romaji": "wa",
+     "label": "Topic marker"
+    },
+    {
+     "text": "日本",
+     "slot": "place",
+     "romaji": "nihon",
+     "label": "Destination"
+    },
+    {
+     "text": "に",
+     "romaji": "ni",
+     "label": "Direction marker"
+    },
+    {
+     "text": "行きます",
+     "slot": "verb-masu",
+     "romaji": "ikimasu",
+     "label": "Verb (go)"
+    }
+   ],
+   "examples": [
+    {
+     "jp": "わたしは日本に行きます。",
+     "en": "I go to Japan.",
+     "reading": "わたしは[日本|にほん]に[行|い]きます。",
+     "tiles": [
+      "わたし",
+      "は",
+      "[日本|にほん]",
+      "に",
+      "[行|い]きます"
+     ],
+     "distractors": [
+      "で"
+     ],
+     "also": []
+    },
+    {
+     "jp": "明日学校に行きます。",
+     "en": "I'll go to school tomorrow.",
+     "reading": "[明日|あした][学校|がっこう]に[行|い]きます。",
+     "tiles": [
+      "[明日|あした]",
+      "[学校|がっこう]",
+      "に",
+      "[行|い]きます"
+     ],
+     "distractors": [
+      "を"
+     ],
+     "also": [
+      "学校に明日行きます"
+     ]
+    },
+    {
+     "jp": "父は会社に行きます。",
+     "en": "My father goes to the office.",
+     "reading": "[父|ちち]は[会社|かいしゃ]に[行|い]きます。",
+     "tiles": [
+      "[父|ちち]",
+      "は",
+      "[会社|かいしゃ]",
+      "に",
+      "[行|い]きます"
+     ],
+     "distractors": [
+      "で"
+     ],
+     "also": []
+    },
+    {
+     "jp": "七時に家に帰ります。",
+     "en": "I go home at seven.",
+     "reading": "[七時|しちじ]に[家|いえ]に[帰|かえ]ります。",
+     "tiles": [
+      "[七時|しちじ]",
+      "に",
+      "[家|いえ]",
+      "に",
+      "[帰|かえ]ります"
+     ],
+     "distractors": [
+      "で"
+     ],
+     "also": [
+      "家に七時に帰ります"
+     ]
+    },
+    {
+     "jp": "友達がうちに来ます。",
+     "en": "A friend is coming to my house.",
+     "reading": "[友達|ともだち]がうちに[来|き]ます。",
+     "tiles": [
+      "[友達|ともだち]",
+      "が",
+      "うち",
+      "に",
+      "[来|き]ます"
+     ],
+     "distractors": [
+      "を"
+     ],
+     "also": []
+    }
+   ],
+   "notes": "に (ni) = to/toward (destination). Also used for time: 三時に = at 3.",
+   "grammar_slug": "grammar-ni-destination",
+   "position": 4
+  },
+  {
+   "slug": "pattern-with-time",
+   "jlpt_level": "N5",
+   "title": "With Time — 毎日 Subject Verb",
+   "english": "I study Japanese every day.",
+   "template": [
+    {
+     "text": "毎日",
+     "slot": "time",
+     "romaji": "mainichi",
+     "label": "Time (every day)"
+    },
+    {
+     "text": "わたし",
+     "slot": "noun",
+     "romaji": "watashi",
+     "label": "Subject"
+    },
+    {
+     "text": "は",
+     "romaji": "wa",
+     "label": "Topic marker"
+    },
+    {
+     "text": "日本語",
+     "slot": "noun",
+     "romaji": "nihongo",
+     "label": "Object (Japanese)"
+    },
+    {
+     "text": "を",
+     "romaji": "wo",
+     "label": "Object marker"
+    },
+    {
+     "text": "勉強します",
+     "slot": "verb-masu",
+     "romaji": "benkyou shimasu",
+     "label": "Verb (study)"
+    }
+   ],
+   "examples": [
+    {
+     "jp": "毎日日本語を勉強します。",
+     "en": "I study Japanese every day.",
+     "reading": "[毎日|まいにち][日本語|にほんご]を[勉強|べんきょう]します。",
+     "tiles": [
+      "[毎日|まいにち]",
+      "[日本語|にほんご]",
+      "を",
+      "[勉強|べんきょう]します"
+     ],
+     "distractors": [
+      "に"
+     ],
+     "also": [
+      "日本語を毎日勉強します"
+     ]
+    },
+    {
+     "jp": "毎晩十時に寝ます。",
+     "en": "I go to bed at ten every night.",
+     "reading": "[毎晩|まいばん][十|じゅう][時|じ]に[寝|ね]ます。",
+     "tiles": [
+      "[毎晩|まいばん]",
+      "[十|じゅう][時|じ]",
+      "に",
+      "[寝|ね]ます"
+     ],
+     "distractors": [
+      "で"
+     ],
+     "also": []
+    },
+    {
+     "jp": "日曜日に買い物をします。",
+     "en": "I go shopping on Sunday.",
+     "reading": "[日曜日|にちようび]に[買|か]い[物|もの]をします。",
+     "tiles": [
+      "[日曜日|にちようび]",
+      "に",
+      "[買|か]い[物|もの]",
+      "を",
+      "します"
+     ],
+     "distractors": [
+      "で"
+     ],
+     "also": [
+      "買い物を日曜日にします"
+     ]
+    },
+    {
+     "jp": "朝六時に起きます。",
+     "en": "I get up at six in the morning.",
+     "reading": "[朝|あさ][六|ろく][時|じ]に[起|お]きます。",
+     "tiles": [
+      "[朝|あさ]",
+      "[六|ろく][時|じ]",
+      "に",
+      "[起|お]きます"
+     ],
+     "distractors": [
+      "を"
+     ],
+     "also": []
+    },
+    {
+     "jp": "今晩映画を見ます。",
+     "en": "I'll watch a movie tonight.",
+     "reading": "[今晩|こんばん][映画|えいが]を[見|み]ます。",
+     "tiles": [
+      "[今晩|こんばん]",
+      "[映画|えいが]",
+      "を",
+      "[見|み]ます"
+     ],
+     "distractors": [
+      "に"
+     ],
+     "also": [
+      "映画を今晩見ます"
+     ]
+    }
+   ],
+   "notes": "Time expressions usually come first or after the topic. Order: Time → Place → Object → Verb.",
+   "grammar_slug": "grammar-masu",
+   "position": 5
+  },
+  {
+   "slug": "pattern-adjective-noun",
+   "jlpt_level": "N5",
+   "title": "Adjective + Noun",
+   "english": "い-adjectives go straight before a noun; な-adjectives add な.",
+   "template": [
+    {
+     "text": "大きい",
+     "slot": "i-adj",
+     "romaji": "ookii",
+     "label": "い-adjective"
+    },
+    {
+     "text": "犬",
+     "slot": "noun",
+     "romaji": "inu",
+     "label": "Noun (dog)"
+    }
+   ],
+   "examples": [
+    {
+     "jp": "これは大きい犬です。",
+     "en": "This is a big dog.",
+     "reading": "これは[大|おお]きい[犬|いぬ]です。",
+     "tiles": [
+      "これ",
+      "は",
+      "[大|おお]きい",
+      "[犬|いぬ]",
+      "です"
+     ],
+     "distractors": [
+      "の"
+     ],
+     "also": []
+    },
+    {
+     "jp": "あれは新しい車です。",
+     "en": "That (over there) is a new car.",
+     "reading": "あれは[新|あたら]しい[車|くるま]です。",
+     "tiles": [
+      "あれ",
+      "は",
+      "[新|あたら]しい",
+      "[車|くるま]",
+      "です"
+     ],
+     "distractors": [
+      "な"
+     ],
+     "also": []
+    },
+    {
+     "jp": "きれいな花ですね。",
+     "en": "What a pretty flower.",
+     "reading": "きれいな[花|はな]ですね。",
+     "tiles": [
+      "きれいな",
+      "[花|はな]",
+      "です",
+      "ね"
+     ],
+     "distractors": [
+      "きれい"
+     ],
+     "also": []
+    },
+    {
+     "jp": "静かな町に住んでいます。",
+     "en": "I live in a quiet town.",
+     "reading": "[静|しず]かな[町|まち]に[住|す]んでいます。",
+     "tiles": [
+      "[静|しず]かな",
+      "[町|まち]",
+      "に",
+      "[住|す]んで",
+      "います"
+     ],
+     "distractors": [
+      "[静|しず]か"
+     ],
+     "also": []
+    },
+    {
+     "jp": "古い本を買いました。",
+     "en": "I bought an old book.",
+     "reading": "[古|ふる]い[本|ほん]を[買|か]いました。",
+     "tiles": [
+      "[古|ふる]い",
+      "[本|ほん]",
+      "を",
+      "[買|か]いました"
+     ],
+     "distractors": [
+      "の"
+     ],
+     "also": []
+    }
+   ],
+   "notes": "い-adjectives come BEFORE the noun directly. No connector needed!",
+   "grammar_slug": "grammar-na-adj",
+   "position": 6
+  },
+  {
+   "slug": "pattern-adjective-sentence",
+   "jlpt_level": "N5",
+   "title": "Adjective Sentence",
+   "english": "Tokyo is big.",
+   "template": [
+    {
+     "text": "東京",
+     "slot": "noun",
+     "romaji": "toukyou",
+     "label": "Topic"
+    },
+    {
+     "text": "は",
+     "romaji": "wa",
+     "label": "Topic marker"
+    },
+    {
+     "text": "大きい",
+     "slot": "i-adj",
+     "romaji": "ookii",
+     "label": "い-adjective"
+    },
+    {
+     "text": "です",
+     "romaji": "desu",
+     "label": "Polite ending"
+    }
+   ],
+   "examples": [
+    {
+     "jp": "東京は大きいです。",
+     "en": "Tokyo is big.",
+     "reading": "[東京|とうきょう]は[大|おお]きいです。",
+     "tiles": [
+      "[東京|とうきょう]",
+      "は",
+      "[大|おお]きい",
+      "です"
+     ],
+     "distractors": [
+      "な"
+     ],
+     "also": []
+    },
+    {
+     "jp": "このラーメンはおいしいです。",
+     "en": "This ramen is delicious.",
+     "tiles": [
+      "この",
+      "ラーメン",
+      "は",
+      "おいしい",
+      "です"
+     ],
+     "distractors": [
+      "を"
+     ],
+     "also": []
+    },
+    {
+     "jp": "今日は暑いですね。",
+     "en": "It's hot today, isn't it?",
+     "reading": "[今日|きょう]は[暑|あつ]いですね。",
+     "tiles": [
+      "[今日|きょう]",
+      "は",
+      "[暑|あつ]い",
+      "です",
+      "ね"
+     ],
+     "distractors": [
+      "な"
+     ],
+     "also": []
+    },
+    {
+     "jp": "図書館は静かです。",
+     "en": "The library is quiet.",
+     "reading": "[図書館|としょかん]は[静|しず]かです。",
+     "tiles": [
+      "[図書館|としょかん]",
+      "は",
+      "[静|しず]か",
+      "です"
+     ],
+     "distractors": [
+      "い"
+     ],
+     "also": []
+    },
+    {
+     "jp": "田中さんは元気ですか。",
+     "en": "Is Ms. Tanaka well?",
+     "reading": "[田中|たなか]さんは[元気|げんき]ですか。",
+     "tiles": [
+      "[田中|たなか]さん",
+      "は",
+      "[元気|げんき]",
+      "です",
+      "か"
+     ],
+     "distractors": [
+      "を"
+     ],
+     "also": []
+    }
+   ],
+   "notes": "Topic は + adjective + です. For な-adjectives add な before nouns: きれいな花.",
+   "grammar_slug": "grammar-i-adj-present",
+   "position": 7
+  },
+  {
+   "slug": "pattern-possession",
+   "jlpt_level": "N5",
+   "title": "Possession — の (no)",
+   "english": "This is my book.",
+   "template": [
+    {
+     "text": "これ",
+     "slot": "noun",
+     "romaji": "kore",
+     "label": "Subject (this)"
+    },
+    {
+     "text": "は",
+     "romaji": "wa",
+     "label": "Topic marker"
+    },
+    {
+     "text": "わたし",
+     "slot": "noun",
+     "romaji": "watashi",
+     "label": "Owner (I/my)"
+    },
+    {
+     "text": "の",
+     "romaji": "no",
+     "label": "Possessive の"
+    },
+    {
+     "text": "本",
+     "slot": "noun",
+     "romaji": "hon",
+     "label": "Noun (book)"
+    },
+    {
+     "text": "です",
+     "romaji": "desu",
+     "label": "Copula"
+    }
+   ],
+   "examples": [
+    {
+     "jp": "これはわたしの本です。",
+     "en": "This is my book.",
+     "reading": "これはわたしの[本|ほん]です。",
+     "tiles": [
+      "これ",
+      "は",
+      "わたし",
+      "の",
+      "[本|ほん]",
+      "です"
+     ],
+     "distractors": [
+      "が"
+     ],
+     "also": []
+    },
+    {
+     "jp": "それは先生のかばんですか。",
+     "en": "Is that the teacher's bag?",
+     "reading": "それは[先生|せんせい]のかばんですか。",
+     "tiles": [
+      "それ",
+      "は",
+      "[先生|せんせい]",
+      "の",
+      "かばん",
+      "です",
+      "か"
+     ],
+     "distractors": [
+      "を"
+     ],
+     "also": []
+    },
+    {
+     "jp": "父の車は白いです。",
+     "en": "My father's car is white.",
+     "reading": "[父|ちち]の[車|くるま]は[白|しろ]いです。",
+     "tiles": [
+      "[父|ちち]",
+      "の",
+      "[車|くるま]",
+      "は",
+      "[白|しろ]い",
+      "です"
+     ],
+     "distractors": [
+      "が"
+     ],
+     "also": []
+    },
+    {
+     "jp": "日本のお茶はおいしいです。",
+     "en": "Japanese tea is delicious.",
+     "reading": "[日本|にほん]のお[茶|ちゃ]はおいしいです。",
+     "tiles": [
+      "[日本|にほん]",
+      "の",
+      "お[茶|ちゃ]",
+      "は",
+      "おいしい",
+      "です"
+     ],
+     "distractors": [
+      "に"
+     ],
+     "also": []
+    },
+    {
+     "jp": "あれはだれの傘ですか。",
+     "en": "Whose umbrella is that?",
+     "reading": "あれはだれの[傘|かさ]ですか。",
+     "tiles": [
+      "あれ",
+      "は",
+      "だれ",
+      "の",
+      "[傘|かさ]",
+      "です",
+      "か"
+     ],
+     "distractors": [
+      "が"
+     ],
+     "also": []
+    }
+   ],
+   "notes": "の (no) = 's (possessive). わたしの本 = my book. 日本の食べ物 = Japanese food.",
+   "grammar_slug": "grammar-no-possessive",
+   "position": 8
+  },
+  {
+   "slug": "pattern-negative",
+   "jlpt_level": "N5",
+   "title": "Negative Sentence",
+   "english": "I don't eat meat.",
+   "template": [
+    {
+     "text": "わたし",
+     "slot": "noun",
+     "romaji": "watashi",
+     "label": "Subject"
+    },
+    {
+     "text": "は",
+     "romaji": "wa",
+     "label": "Topic marker"
+    },
+    {
+     "text": "肉",
+     "slot": "noun",
+     "romaji": "niku",
+     "label": "Object (meat)"
+    },
+    {
+     "text": "を",
+     "romaji": "wo",
+     "label": "Object marker"
+    },
+    {
+     "text": "食べません",
+     "slot": "verb-masu",
+     "romaji": "tabemasen",
+     "label": "Negative verb"
+    }
+   ],
+   "examples": [
+    {
+     "jp": "わたしは肉を食べません。",
+     "en": "I don't eat meat.",
+     "reading": "わたしは[肉|にく]を[食|た]べません。",
+     "tiles": [
+      "わたし",
+      "は",
+      "[肉|にく]",
+      "を",
+      "[食|た]べません"
+     ],
+     "distractors": [
+      "[食|た]べます"
+     ],
+     "also": []
+    },
+    {
+     "jp": "父はお酒を飲みません。",
+     "en": "My father doesn't drink alcohol.",
+     "reading": "[父|ちち]はお[酒|さけ]を[飲|の]みません。",
+     "tiles": [
+      "[父|ちち]",
+      "は",
+      "お[酒|さけ]",
+      "を",
+      "[飲|の]みません"
+     ],
+     "distractors": [
+      "[飲|の]みます"
+     ],
+     "also": []
+    },
+    {
+     "jp": "日曜日は学校に行きません。",
+     "en": "I don't go to school on Sundays.",
+     "reading": "[日曜日|にちようび]は[学校|がっこう]に[行|い]きません。",
+     "tiles": [
+      "[日曜日|にちようび]",
+      "は",
+      "[学校|がっこう]",
+      "に",
+      "[行|い]きません"
+     ],
+     "distractors": [
+      "[行|い]きます"
+     ],
+     "also": [
+      "学校に日曜日は行きません"
+     ]
+    },
+    {
+     "jp": "この部屋は広くないです。",
+     "en": "This room isn't big.",
+     "reading": "この[部屋|へや]は[広|ひろ]くないです。",
+     "tiles": [
+      "この",
+      "[部屋|へや]",
+      "は",
+      "[広|ひろ]くない",
+      "です"
+     ],
+     "distractors": [
+      "[広|ひろ]い"
+     ],
+     "also": []
+    },
+    {
+     "jp": "田中さんは学生ではありません。",
+     "en": "Ms. Tanaka is not a student.",
+     "reading": "[田中|たなか]さんは[学生|がくせい]ではありません。",
+     "tiles": [
+      "[田中|たなか]さん",
+      "は",
+      "[学生|がくせい]",
+      "では",
+      "ありません"
+     ],
+     "distractors": [
+      "です"
+     ],
+     "also": []
+    }
+   ],
+   "notes": "ます (masu) → ません (masen) for negative. です → ではありません.",
+   "grammar_slug": "grammar-masen",
+   "position": 9
+  },
+  {
+   "slug": "pattern-past-tense",
+   "jlpt_level": "N5",
+   "title": "Past Tense",
+   "english": "I ate sushi yesterday.",
+   "template": [
+    {
+     "text": "昨日",
+     "slot": "time",
+     "romaji": "kinou",
+     "label": "Time (yesterday)"
+    },
+    {
+     "text": "わたし",
+     "slot": "noun",
+     "romaji": "watashi",
+     "label": "Subject"
+    },
+    {
+     "text": "は",
+     "romaji": "wa",
+     "label": "Topic marker"
+    },
+    {
+     "text": "すし",
+     "slot": "noun",
+     "romaji": "sushi",
+     "label": "Object"
+    },
+    {
+     "text": "を",
+     "romaji": "wo",
+     "label": "Object marker"
+    },
+    {
+     "text": "食べました",
+     "slot": "verb-masu",
+     "romaji": "tabemashita",
+     "label": "Past verb"
+    }
+   ],
+   "examples": [
+    {
+     "jp": "昨日すしを食べました。",
+     "en": "I ate sushi yesterday.",
+     "reading": "[昨日|きのう]すしを[食|た]べました。",
+     "tiles": [
+      "[昨日|きのう]",
+      "すし",
+      "を",
+      "[食|た]べました"
+     ],
+     "distractors": [
+      "[食|た]べます"
+     ],
+     "also": [
+      "すしを昨日食べました"
+     ]
+    },
+    {
+     "jp": "先週京都に行きました。",
+     "en": "I went to Kyoto last week.",
+     "reading": "[先週|せんしゅう][京都|きょうと]に[行|い]きました。",
+     "tiles": [
+      "[先週|せんしゅう]",
+      "[京都|きょうと]",
+      "に",
+      "[行|い]きました"
+     ],
+     "distractors": [
+      "[行|い]きます"
+     ],
+     "also": [
+      "京都に先週行きました"
+     ]
+    },
+    {
+     "jp": "昨日の夜テレビを見ました。",
+     "en": "I watched TV last night.",
+     "reading": "[昨日|きのう]の[夜|よる]テレビを[見|み]ました。",
+     "tiles": [
+      "[昨日|きのう]",
+      "の",
+      "[夜|よる]",
+      "テレビ",
+      "を",
+      "[見|み]ました"
+     ],
+     "distractors": [
+      "[見|み]ます"
+     ],
+     "also": [
+      "テレビを昨日の夜見ました"
+     ]
+    },
+    {
+     "jp": "朝ご飯を食べませんでした。",
+     "en": "I didn't eat breakfast.",
+     "reading": "[朝|あさ]ご[飯|はん]を[食|た]べませんでした。",
+     "tiles": [
+      "[朝|あさ]ご[飯|はん]",
+      "を",
+      "[食|た]べませんでした"
+     ],
+     "distractors": [
+      "[食|た]べません"
+     ],
+     "also": []
+    },
+    {
+     "jp": "昨日は寒かったです。",
+     "en": "It was cold yesterday.",
+     "reading": "[昨日|きのう]は[寒|さむ]かったです。",
+     "tiles": [
+      "[昨日|きのう]",
+      "は",
+      "[寒|さむ]かった",
+      "です"
+     ],
+     "distractors": [
+      "[寒|さむ]い"
+     ],
+     "also": []
+    }
+   ],
+   "notes": "ます → ました for past tense. ません → ませんでした for past negative.",
+   "grammar_slug": "grammar-mashita",
+   "position": 10
+  },
+  {
+   "slug": "pattern-te-form",
+   "jlpt_level": "N5",
+   "title": "て-form — Connecting Actions",
+   "english": "Do A, then B: the て-form links actions in order.",
+   "template": [
+    {
+     "text": "起きて",
+     "slot": "verb-te",
+     "romaji": "okite",
+     "label": "て-form (wake)"
+    },
+    {
+     "text": "食べて",
+     "slot": "verb-te",
+     "romaji": "tabete",
+     "label": "て-form (eat)"
+    },
+    {
+     "text": "出かけました",
+     "slot": "verb-masu",
+     "romaji": "dekakemashita",
+     "label": "Final verb (left)"
+    }
+   ],
+   "examples": [
+    {
+     "jp": "起きて顔を洗います。",
+     "en": "I get up and wash my face.",
+     "reading": "[起|お]きて[顔|かお]を[洗|あら]います。",
+     "tiles": [
+      "[起|お]きて",
+      "[顔|かお]",
+      "を",
+      "[洗|あら]います"
+     ],
+     "distractors": [
+      "[起|お]きます"
+     ],
+     "also": []
+    },
+    {
+     "jp": "朝ご飯を食べて学校に行きます。",
+     "en": "I eat breakfast and go to school.",
+     "reading": "[朝|あさ]ご[飯|はん]を[食|た]べて[学校|がっこう]に[行|い]きます。",
+     "tiles": [
+      "[朝|あさ]ご[飯|はん]",
+      "を",
+      "[食|た]べて",
+      "[学校|がっこう]",
+      "に",
+      "[行|い]きます"
+     ],
+     "distractors": [
+      "[食|た]べます"
+     ],
+     "also": []
+    },
+    {
+     "jp": "家に帰ってシャワーを浴びます。",
+     "en": "I go home and take a shower.",
+     "reading": "[家|いえ]に[帰|かえ]ってシャワーを[浴|あ]びます。",
+     "tiles": [
+      "[家|いえ]",
+      "に",
+      "[帰|かえ]って",
+      "シャワー",
+      "を",
+      "[浴|あ]びます"
+     ],
+     "distractors": [
+      "[帰|かえ]ります"
+     ],
+     "also": []
+    },
+    {
+     "jp": "デパートに行って靴を買いました。",
+     "en": "I went to the department store and bought shoes.",
+     "reading": "デパートに[行|い]って[靴|くつ]を[買|か]いました。",
+     "tiles": [
+      "デパート",
+      "に",
+      "[行|い]って",
+      "[靴|くつ]",
+      "を",
+      "[買|か]いました"
+     ],
+     "distractors": [
+      "[行|い]きます"
+     ],
+     "also": []
+    },
+    {
+     "jp": "手を洗ってご飯を食べます。",
+     "en": "I wash my hands and eat.",
+     "reading": "[手|て]を[洗|あら]ってご[飯|はん]を[食|た]べます。",
+     "tiles": [
+      "[手|て]",
+      "を",
+      "[洗|あら]って",
+      "ご[飯|はん]",
+      "を",
+      "[食|た]べます"
+     ],
+     "distractors": [
+      "[洗|あら]います"
+     ],
+     "also": []
+    }
+   ],
+   "notes": "て-form connects sequential actions. Change ます → て to link verbs.",
+   "position": 11
+  },
+  {
+   "slug": "pattern-want-to",
+   "jlpt_level": "N5",
+   "title": "Want to — 〜たい",
+   "english": "I want to go to Japan.",
+   "template": [
+    {
+     "text": "わたし",
+     "slot": "noun",
+     "romaji": "watashi",
+     "label": "Subject"
+    },
+    {
+     "text": "は",
+     "romaji": "wa",
+     "label": "Topic marker"
+    },
+    {
+     "text": "日本",
+     "slot": "place",
+     "romaji": "nihon",
+     "label": "Destination"
+    },
+    {
+     "text": "に",
+     "romaji": "ni",
+     "label": "Direction particle"
+    },
+    {
+     "text": "行きたい",
+     "slot": "verb-masu",
+     "romaji": "ikitai",
+     "label": "〜たい (want to)"
+    },
+    {
+     "text": "です",
+     "romaji": "desu",
+     "label": "Polite ending"
+    }
+   ],
+   "examples": [
+    {
+     "jp": "わたしは日本に行きたいです。",
+     "en": "I want to go to Japan.",
+     "reading": "わたしは[日本|にほん]に[行|い]きたいです。",
+     "tiles": [
+      "わたし",
+      "は",
+      "[日本|にほん]",
+      "に",
+      "[行|い]きたい",
+      "です"
+     ],
+     "distractors": [
+      "[行|い]きます"
+     ],
+     "also": []
+    },
+    {
+     "jp": "冷たい水が飲みたいです。",
+     "en": "I want to drink cold water.",
+     "reading": "[冷|つめ]たい[水|みず]が[飲|の]みたいです。",
+     "tiles": [
+      "[冷|つめ]たい",
+      "[水|みず]",
+      "が",
+      "[飲|の]みたい",
+      "です"
+     ],
+     "distractors": [
+      "[飲|の]みます"
+     ],
+     "also": []
+    },
+    {
+     "jp": "新しい靴を買いたいです。",
+     "en": "I want to buy new shoes.",
+     "reading": "[新|あたら]しい[靴|くつ]を[買|か]いたいです。",
+     "tiles": [
+      "[新|あたら]しい",
+      "[靴|くつ]",
+      "を",
+      "[買|か]いたい",
+      "です"
+     ],
+     "distractors": [
+      "[買|か]います"
+     ],
+     "also": []
+    },
+    {
+     "jp": "日曜日は映画を見たいです。",
+     "en": "On Sunday I want to see a movie.",
+     "reading": "[日曜日|にちようび]は[映画|えいが]を[見|み]たいです。",
+     "tiles": [
+      "[日曜日|にちようび]",
+      "は",
+      "[映画|えいが]",
+      "を",
+      "[見|み]たい",
+      "です"
+     ],
+     "distractors": [
+      "[見|み]ます"
+     ],
+     "also": []
+    },
+    {
+     "jp": "何が食べたいですか。",
+     "en": "What do you want to eat?",
+     "reading": "[何|なに]が[食|た]べたいですか。",
+     "tiles": [
+      "[何|なに]",
+      "が",
+      "[食|た]べたい",
+      "です",
+      "か"
+     ],
+     "distractors": [
+      "[食|た]べます"
+     ],
+     "also": []
+    }
+   ],
+   "notes": "Remove ます from verb, add たいです. いきます → いきたいです = want to go.",
+   "grammar_slug": "grammar-tai",
+   "position": 12
+  }
+ ]
+}

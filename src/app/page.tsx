@@ -76,9 +76,14 @@ export default async function HomePage() {
           </div>
         </Link>
       )}
-      <Link href="/lessons" className="mt-2 block text-right text-sm text-muted underline">
-        All lessons
-      </Link>
+      <div className="mt-2 flex justify-between text-sm">
+        <Link href="/builder" className="font-medium text-accent underline">
+          Sentence builder →
+        </Link>
+        <Link href="/lessons" className="text-muted underline">
+          All lessons
+        </Link>
+      </div>
 
       <TopicGrid topics={session.topics} href={studyHref} />
 

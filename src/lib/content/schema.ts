@@ -104,6 +104,14 @@ export const questionSchema = z
   })
   .refine((q) => q.answer < q.options.length, { message: "answer must index into options", path: ["answer"] });
 
+// A sentence-builder exercise: the sentence split into tiles to arrange,
+// plus decoy tiles and any other word orders that also count as correct.
+const builderExample = example.extend({
+  tiles: z.array(z.string().min(1)).min(2).optional(),
+  distractors: z.array(z.string().min(1)).default([]),
+  also: z.array(z.string().min(1)).default([]),
+});
+
 const patternSlot = z.object({
   // Either fixed text (particles, endings) or a typed slot the learner fills.
   text: z.string().optional(),
@@ -117,6 +125,7 @@ const patternSlot = z.object({
 export const sentencePatternSchema = z.object({
   slug,
   jlpt_level: level,
+  position: z.number().int().min(0).optional(),
   grammar_slug: slug.optional(),
   title: z.string().min(1),
   english: optionalText,
@@ -124,7 +133,7 @@ export const sentencePatternSchema = z.object({
     .array(patternSlot.refine((p) => p.text || p.slot, { message: "each part needs text or slot" }))
     .min(1),
   conjugation_rules: z.array(z.record(z.string(), z.unknown())).default([]),
-  examples: z.array(example).default([]),
+  examples: z.array(builderExample).default([]),
   notes: optionalText,
 });
 

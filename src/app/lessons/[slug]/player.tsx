@@ -1,10 +1,11 @@
 "use client";
 
 import Link from "next/link";
-import { useState, useSyncExternalStore, useTransition } from "react";
+import { useState, useTransition } from "react";
 import { Ruby } from "@/components/ruby";
 import { isMarkup, stripMarkup } from "@/lib/furigana";
 import type { LessonRow } from "@/lib/lessons/lessons";
+import { readSaved, useHydrated, writeSaved } from "@/lib/saved-progress";
 import type { StudyItem } from "@/lib/study/cards";
 import { speak } from "@/app/study/speak";
 import { completeLesson, type LessonResult } from "../actions";
@@ -32,32 +33,12 @@ interface Saved {
 
 const storageKey = (slug: string) => `lesson:${slug}`;
 
-function readSaved(slug: string): Saved | null {
-  try {
-    const raw = window.localStorage.getItem(storageKey(slug));
-    return raw ? (JSON.parse(raw) as Saved) : null;
-  } catch {
-    return null;
-  }
-}
-
-function writeSaved(slug: string, saved: Saved | null) {
-  try {
-    if (saved) window.localStorage.setItem(storageKey(slug), JSON.stringify(saved));
-    else window.localStorage.removeItem(storageKey(slug));
-  } catch {
-    // Private mode or storage blocked: the lesson still works, it just won't resume.
-  }
-}
-
-const noSubscribe = () => () => {};
-
 /**
  * Server render and hydration start at step 1; once hydrated, the player
  * remounts with whatever this browser saved, so markup always matches.
  */
 export function LessonPlayer(props: Props) {
-  const hydrated = useSyncExternalStore(noSubscribe, () => true, () => false);
+  const hydrated = useHydrated();
   return <Player key={hydrated ? "client" : "server"} {...props} resume={hydrated} />;
 }
 
@@ -71,7 +52,7 @@ function Player({ lesson, items, grammar, replay, resume }: Props & { resume: bo
   ];
 
   const [saved] = useState(() => {
-    const s = resume ? readSaved(lesson.slug) : null;
+    const s = resume ? readSaved<Saved>(storageKey(lesson.slug)) : null;
     return s && s.step > 0 && s.step < steps.length ? s : null;
   });
   const [stepIndex, setStepIndex] = useState(saved?.step ?? 0);
@@ -85,7 +66,7 @@ function Player({ lesson, items, grammar, replay, resume }: Props & { resume: bo
 
   function go(to: number, nextAnswers = answers) {
     setStepIndex(to);
-    writeSaved(lesson.slug, { step: to, answers: nextAnswers });
+    writeSaved<Saved>(storageKey(lesson.slug), { step: to, answers: nextAnswers });
     window.scrollTo(0, 0);
   }
 
@@ -93,7 +74,7 @@ function Player({ lesson, items, grammar, replay, resume }: Props & { resume: bo
     startSaving(async () => {
       try {
         const r = await completeLesson(lesson.slug, answers);
-        writeSaved(lesson.slug, null);
+        writeSaved<Saved>(storageKey(lesson.slug), null);
         setResult(r);
         setError(null);
       } catch {
@@ -142,7 +123,7 @@ function Player({ lesson, items, grammar, replay, resume }: Props & { resume: bo
             onPick={(i) => {
               const nextAnswers = answers.map((a, j) => (j === step.index ? i : a));
               setAnswers(nextAnswers);
-              writeSaved(lesson.slug, { step: stepIndex, answers: nextAnswers });
+              writeSaved<Saved>(storageKey(lesson.slug), { step: stepIndex, answers: nextAnswers });
             }}
           />
         )}

@@ -81,11 +81,16 @@ export function annotateLesson(lesson: Lesson, annotate: Annotate): Lesson {
   };
 }
 
-async function main() {
+/** The annotator for hand-written teaching content: open-data readings plus LESSON_READINGS. */
+export async function teachingAnnotator(): Promise<Annotate> {
   const words = readdirSync(OPEN_DATA)
     .filter((f) => f.endsWith(".json"))
     .flatMap((f) => JSON.parse(readFileSync(join(OPEN_DATA, f), "utf8")).records);
-  const annotate = await createAnnotator(new Map([...knownWordsFrom(words), ...Object.entries(LESSON_READINGS)]));
+  return createAnnotator(new Map([...knownWordsFrom(words), ...Object.entries(LESSON_READINGS)]));
+}
+
+async function main() {
+  const annotate = await teachingAnnotator();
 
   for (const file of readdirSync(DIR).filter((f) => f.endsWith(".source.json"))) {
     const doc = JSON.parse(readFileSync(join(DIR, file), "utf8"));

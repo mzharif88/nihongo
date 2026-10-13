@@ -130,6 +130,27 @@ describe("learner tables", () => {
     await expect(as(db, null, () => db.query(`select * from public.lesson_progress`))).rejects.toThrow(/permission denied/);
   });
 
+  it("keeps builder progress owner-only", async () => {
+    const pattern = await db.query<{ id: string }>(
+      `insert into public.sentence_patterns (slug, jlpt_level, title, template, status) values ('pattern-x', 'N5', 'X', '[{"text":"x"}]', 'live') returning id`,
+    );
+    const patternId = pattern.rows[0].id;
+    await as(db, ALICE, () =>
+      db.query(`insert into public.builder_progress (pattern_id, best_score, max_score) values ($1, 4, 5)`, [patternId]),
+    );
+    expect((await as(db, ALICE, () => db.query(`select * from public.builder_progress`))).rows).toHaveLength(1);
+    expect((await as(db, BOB, () => db.query(`select * from public.builder_progress`))).rows).toHaveLength(0);
+    await expect(
+      as(db, BOB, () =>
+        db.query(`insert into public.builder_progress (user_id, pattern_id, best_score, max_score) values ($1, $2, 5, 5)`, [
+          ALICE,
+          patternId,
+        ]),
+      ),
+    ).rejects.toThrow(/row-level security/);
+    await expect(as(db, null, () => db.query(`select * from public.builder_progress`))).rejects.toThrow(/permission denied/);
+  });
+
   it("keeps user_items owner-only", async () => {
     await as(db, ALICE, () =>
       db.query(`insert into public.user_items (user_id, item_id) values ($1, $2)`, [ALICE, liveItemId]),

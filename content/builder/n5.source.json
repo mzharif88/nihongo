@@ -1,0 +1,128 @@
+{
+  "version": 1,
+  "kind": "sentence_patterns",
+  "source": "original-n5-builder",
+  "note": "Tiles are separated by /. `also` lists other natural orders that count as correct. `template` and `title` come from the legacy pattern when omitted.",
+  "records": [
+    {
+      "slug": "pattern-basic-identity", "grammar_slug": "grammar-wa-topic", "english": "A is B. Add か to ask a question.",
+      "exercises": [
+        { "jp": "わたし/は/学生/です", "en": "I am a student.", "distractors": ["を"] },
+        { "jp": "田中さん/は/先生/です", "en": "Ms. Tanaka is a teacher.", "distractors": ["に"] },
+        { "jp": "あの/人/は/医者/です/か", "en": "Is that person a doctor?", "distractors": ["を"] },
+        { "jp": "これ/は/ペン/です", "en": "This is a pen.", "distractors": ["が", "を"] },
+        { "jp": "山田さん/は/日本人/です/か", "en": "Is Mr. Yamada Japanese?", "distractors": ["で"] }
+      ]
+    },
+    {
+      "slug": "pattern-basic-action", "grammar_slug": "grammar-wo-object", "title": "Basic Action — Object を Verb", "english": "I eat sushi.",
+      "exercises": [
+        { "jp": "わたし/は/パン/を/食べます", "en": "I eat bread.", "distractors": ["に"] },
+        { "jp": "母/は/コーヒー/を/飲みます", "en": "My mother drinks coffee.", "distractors": ["で"] },
+        { "jp": "毎朝/新聞/を/読みます", "en": "I read the newspaper every morning.", "also": ["新聞を毎朝読みます"], "distractors": ["に"] },
+        { "jp": "兄/は/テレビ/を/見ます", "en": "My older brother watches TV.", "distractors": ["へ"] },
+        { "jp": "田中さん/は/手紙/を/書きます", "en": "Ms. Tanaka writes a letter.", "distractors": ["が", "に"] }
+      ]
+    },
+    {
+      "slug": "pattern-location", "grammar_slug": "grammar-de-location",
+      "exercises": [
+        { "jp": "わたし/は/図書館/で/勉強します", "en": "I study at the library.", "distractors": ["に"] },
+        { "jp": "公園/で/散歩します", "en": "I take a walk in the park.", "distractors": ["を"] },
+        { "jp": "レストラン/で/晩ご飯/を/食べます", "en": "I eat dinner at a restaurant.", "also": ["晩ご飯をレストランで食べます"], "distractors": ["に"] },
+        { "jp": "駅/で/友達/に/会います", "en": "I meet a friend at the station.", "also": ["友達に駅で会います"], "distractors": ["へ"] },
+        { "jp": "家/で/音楽/を/聞きます", "en": "I listen to music at home.", "also": ["音楽を家で聞きます"], "distractors": ["に"] }
+      ]
+    },
+    {
+      "slug": "pattern-destination", "grammar_slug": "grammar-ni-destination",
+      "exercises": [
+        { "jp": "わたし/は/日本/に/行きます", "en": "I go to Japan.", "distractors": ["で"] },
+        { "jp": "明日/学校/に/行きます", "en": "I'll go to school tomorrow.", "also": ["学校に明日行きます"], "distractors": ["を"] },
+        { "jp": "父/は/会社/に/行きます", "en": "My father goes to the office.", "distractors": ["で"] },
+        { "jp": "七時/に/家/に/帰ります", "en": "I go home at seven.", "also": ["家に七時に帰ります"], "distractors": ["で"] },
+        { "jp": "友達/が/うち/に/来ます", "en": "A friend is coming to my house.", "distractors": ["を"] }
+      ]
+    },
+    {
+      "slug": "pattern-with-time", "grammar_slug": "grammar-masu",
+      "exercises": [
+        { "jp": "毎日/日本語/を/勉強します", "en": "I study Japanese every day.", "also": ["日本語を毎日勉強します"], "distractors": ["に"] },
+        { "jp": "毎晩/十時/に/寝ます", "en": "I go to bed at ten every night.", "distractors": ["で"] },
+        { "jp": "日曜日/に/買い物/を/します", "en": "I go shopping on Sunday.", "also": ["買い物を日曜日にします"], "distractors": ["で"] },
+        { "jp": "朝/六時/に/起きます", "en": "I get up at six in the morning.", "distractors": ["を"] },
+        { "jp": "今晩/映画/を/見ます", "en": "I'll watch a movie tonight.", "also": ["映画を今晩見ます"], "distractors": ["に"] }
+      ]
+    },
+    {
+      "slug": "pattern-adjective-noun", "grammar_slug": "grammar-na-adj", "english": "い-adjectives go straight before a noun; な-adjectives add な.",
+      "exercises": [
+        { "jp": "これ/は/大きい/犬/です", "en": "This is a big dog.", "distractors": ["の"] },
+        { "jp": "あれ/は/新しい/車/です", "en": "That (over there) is a new car.", "distractors": ["な"] },
+        { "jp": "きれいな/花/です/ね", "en": "What a pretty flower.", "distractors": ["きれい"] },
+        { "jp": "静かな/町/に/住んで/います", "en": "I live in a quiet town.", "distractors": ["静か"] },
+        { "jp": "古い/本/を/買いました", "en": "I bought an old book.", "distractors": ["の"] }
+      ]
+    },
+    {
+      "slug": "pattern-adjective-sentence", "grammar_slug": "grammar-i-adj-present", "english": "Tokyo is big.",
+      "exercises": [
+        { "jp": "東京/は/大きい/です", "en": "Tokyo is big.", "distractors": ["な"] },
+        { "jp": "この/ラーメン/は/おいしい/です", "en": "This ramen is delicious.", "distractors": ["を"] },
+        { "jp": "今日/は/暑い/です/ね", "en": "It's hot today, isn't it?", "distractors": ["な"] },
+        { "jp": "図書館/は/静か/です", "en": "The library is quiet.", "distractors": ["い"] },
+        { "jp": "田中さん/は/元気/です/か", "en": "Is Ms. Tanaka well?", "distractors": ["を"] }
+      ]
+    },
+    {
+      "slug": "pattern-possession", "grammar_slug": "grammar-no-possessive",
+      "exercises": [
+        { "jp": "これ/は/わたし/の/本/です", "en": "This is my book.", "distractors": ["が"] },
+        { "jp": "それ/は/先生/の/かばん/です/か", "en": "Is that the teacher's bag?", "distractors": ["を"] },
+        { "jp": "父/の/車/は/白い/です", "en": "My father's car is white.", "distractors": ["が"] },
+        { "jp": "日本/の/お茶/は/おいしい/です", "en": "Japanese tea is delicious.", "distractors": ["に"] },
+        { "jp": "あれ/は/だれ/の/傘/です/か", "en": "Whose umbrella is that?", "distractors": ["が"] }
+      ]
+    },
+    {
+      "slug": "pattern-negative", "grammar_slug": "grammar-masen",
+      "exercises": [
+        { "jp": "わたし/は/肉/を/食べません", "en": "I don't eat meat.", "distractors": ["食べます"] },
+        { "jp": "父/は/お酒/を/飲みません", "en": "My father doesn't drink alcohol.", "distractors": ["飲みます"] },
+        { "jp": "日曜日/は/学校/に/行きません", "en": "I don't go to school on Sundays.", "also": ["学校に日曜日は行きません"], "distractors": ["行きます"] },
+        { "jp": "この/部屋/は/広くない/です", "en": "This room isn't big.", "distractors": ["広い"] },
+        { "jp": "田中さん/は/学生/では/ありません", "en": "Ms. Tanaka is not a student.", "distractors": ["です"] }
+      ]
+    },
+    {
+      "slug": "pattern-past-tense", "grammar_slug": "grammar-mashita",
+      "exercises": [
+        { "jp": "昨日/すし/を/食べました", "en": "I ate sushi yesterday.", "also": ["すしを昨日食べました"], "distractors": ["食べます"] },
+        { "jp": "先週/京都/に/行きました", "en": "I went to Kyoto last week.", "also": ["京都に先週行きました"], "distractors": ["行きます"] },
+        { "jp": "昨日/の/夜/テレビ/を/見ました", "en": "I watched TV last night.", "also": ["テレビを昨日の夜見ました"], "distractors": ["見ます"] },
+        { "jp": "朝ご飯/を/食べませんでした", "en": "I didn't eat breakfast.", "distractors": ["食べません"] },
+        { "jp": "昨日/は/寒かった/です", "en": "It was cold yesterday.", "distractors": ["寒い"] }
+      ]
+    },
+    {
+      "slug": "pattern-te-form", "english": "Do A, then B: the て-form links actions in order.",
+      "exercises": [
+        { "jp": "起きて/顔/を/洗います", "en": "I get up and wash my face.", "distractors": ["起きます"] },
+        { "jp": "朝ご飯/を/食べて/学校/に/行きます", "en": "I eat breakfast and go to school.", "distractors": ["食べます"] },
+        { "jp": "家/に/帰って/シャワー/を/浴びます", "en": "I go home and take a shower.", "distractors": ["帰ります"] },
+        { "jp": "デパート/に/行って/靴/を/買いました", "en": "I went to the department store and bought shoes.", "distractors": ["行きます"] },
+        { "jp": "手/を/洗って/ご飯/を/食べます", "en": "I wash my hands and eat.", "distractors": ["洗います"] }
+      ]
+    },
+    {
+      "slug": "pattern-want-to", "grammar_slug": "grammar-tai", "english": "I want to go to Japan.",
+      "exercises": [
+        { "jp": "わたし/は/日本/に/行きたい/です", "en": "I want to go to Japan.", "distractors": ["行きます"] },
+        { "jp": "冷たい/水/が/飲みたい/です", "en": "I want to drink cold water.", "distractors": ["飲みます"] },
+        { "jp": "新しい/靴/を/買いたい/です", "en": "I want to buy new shoes.", "distractors": ["買います"] },
+        { "jp": "日曜日/は/映画/を/見たい/です", "en": "On Sunday I want to see a movie.", "distractors": ["見ます"] },
+        { "jp": "何/が/食べたい/です/か", "en": "What do you want to eat?", "distractors": ["食べます"] }
+      ]
+    }
+  ]
+}

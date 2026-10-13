@@ -102,3 +102,36 @@ describe("lesson packs", () => {
     }
   });
 });
+
+describe("builder packs", () => {
+  const patterns = PACK_GROUPS.find((g) => g.id === "builder")!.packs.flatMap((p) => loadFrom("builder", p.file).records);
+  const grammar = new Set(
+    load("01-items.json").records.filter((r) => r.type === "grammar").map((r) => r.slug as string),
+  );
+  const strip = (s: string) => s.replace(/\[([^\]|]+)\|[^\]]+\]/g, "$1");
+
+  it("only update patterns that exist in the legacy pack, with real grammar points", () => {
+    const legacy = new Set(load("02-sentence-patterns.json").records.map((r) => r.slug as string));
+    for (const p of patterns) {
+      expect(legacy, p.slug as string).toContain(p.slug);
+      if (p.grammar_slug) expect(grammar, `${p.slug} → ${p.grammar_slug}`).toContain(p.grammar_slug);
+    }
+  });
+
+  it("have tiles that spell each sentence exactly", () => {
+    for (const p of patterns) {
+      for (const ex of p.examples as { jp: string; tiles: string[]; reading?: string }[]) {
+        expect(ex.tiles.map(strip).join("") + "。", `${p.slug}: ${ex.jp}`).toBe(ex.jp);
+        if (ex.reading) expect(strip(ex.reading)).toBe(ex.jp);
+      }
+    }
+  });
+
+  it("never offer a decoy that could also be correct", () => {
+    for (const p of patterns) {
+      for (const ex of p.examples as { tiles: string[]; distractors: string[] }[]) {
+        for (const d of ex.distractors) expect(ex.tiles.map(strip), `${p.slug}: ${d}`).not.toContain(strip(d));
+      }
+    }
+  });
+});
