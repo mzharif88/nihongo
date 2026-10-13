@@ -42,6 +42,13 @@ export default async function HomePage() {
         </div>
       </Link>
 
+      <Link
+        href="/lessons"
+        className="mt-3 block rounded-xl border border-border bg-card p-4 text-center font-medium hover:border-accent"
+      >
+        Lessons →
+      </Link>
+
       <p className="mt-3 text-center text-sm text-muted">
         {learning ?? 0} items started · {profile.daily_minutes} min/day · target {profile.target_level}
       </p>

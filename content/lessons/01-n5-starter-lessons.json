@@ -1,0 +1,292 @@
+{
+  "version": 1,
+  "kind": "lessons",
+  "source": "claude-draft-2026-10-13",
+  "records": [
+    {
+      "slug": "lesson-n5-01-hajimemashite",
+      "jlpt_level": "N5",
+      "position": 1,
+      "title": "Nice to meet you",
+      "situation": "Meeting a new classmate on the first day",
+      "item_slugs": [
+        "word-hajimemashite",
+        "word-yoroshiku-onegaishimasu",
+        "word-konnichiwa",
+        "word-hai",
+        "word-iie",
+        "word-tomodachi",
+        "word-sou-desu-ka"
+      ],
+      "grammar_slug": "grammar-wa-topic",
+      "dialogue": [
+        { "speaker": "ケン", "jp": "こんにちは。はじめまして。", "reading": "こんにちは。はじめまして。", "en": "Hello. Nice to meet you." },
+        { "speaker": "ケン", "jp": "わたしはケンです。", "reading": "わたしはけんです。", "en": "I'm Ken." },
+        { "speaker": "ゆき", "jp": "はじめまして。ゆきです。", "reading": "はじめまして。ゆきです。", "en": "Nice to meet you. I'm Yuki." },
+        { "speaker": "ゆき", "jp": "ケンさんは がくせいですか。", "reading": "けんさんは がくせいですか。", "en": "Are you a student, Ken?" },
+        { "speaker": "ケン", "jp": "はい、がくせいです。", "reading": "はい、がくせいです。", "en": "Yes, I'm a student." },
+        { "speaker": "ゆき", "jp": "そうですか。わたしも がくせいです。", "reading": "そうですか。わたしも がくせいです。", "en": "Oh, really? I'm a student too." },
+        { "speaker": "ケン", "jp": "よろしくおねがいします。", "reading": "よろしくおねがいします。", "en": "I look forward to getting to know you." },
+        { "speaker": "ゆき", "jp": "こちらこそ、よろしくおねがいします。", "reading": "こちらこそ、よろしくおねがいします。", "en": "Likewise, nice to meet you." }
+      ],
+      "checks": [
+        {
+          "prompt": "You meet someone for the very first time. What do you say first?",
+          "options": ["はじめまして", "おやすみ", "ごちそうさま", "さようなら"],
+          "answer": 0,
+          "explanation": "はじめまして is only for a first meeting."
+        },
+        {
+          "prompt": "Fill in the particle: わたし＿ケンです。(I am Ken.)",
+          "options": ["を", "は", "に", "で"],
+          "answer": 1,
+          "explanation": "は marks the topic: \"As for me, (I) am Ken.\" It is written は but read わ."
+        },
+        {
+          "prompt": "Someone asks 「がくせいですか。」 and you are not a student. Which reply fits?",
+          "options": ["はい、がくせいです。", "いいえ、がくせいじゃないです。", "そうですね。", "どうぞ。"],
+          "answer": 1,
+          "explanation": "いいえ + じゃないです is a polite \"no, I'm not\"."
+        }
+      ],
+      "notes": "Grammar tip: X は Y です means \"X is Y\". The particle は is pronounced わ when it marks the topic.\n\nCulture note: people usually say their name, then よろしくおねがいします, often with a small bow. Adding さん after someone else's name is polite, but never use it for yourself."
+    },
+    {
+      "slug": "lesson-n5-02-konbini",
+      "jlpt_level": "N5",
+      "position": 2,
+      "title": "At the konbini",
+      "situation": "Buying a coffee and bread at the convenience store",
+      "item_slugs": [
+        "word-konbini",
+        "word-koohii",
+        "word-pan",
+        "word-fukuro",
+        "word-reji",
+        "word-onegaishimasu",
+        "word-arigatou-gozaimasu"
+      ],
+      "grammar_slug": "grammar-wo-object",
+      "dialogue": [
+        { "speaker": "店員", "jp": "いらっしゃいませ。", "reading": "いらっしゃいませ。", "en": "Welcome." },
+        { "speaker": "客", "jp": "コーヒーを ひとつ おねがいします。", "reading": "こーひーを ひとつ おねがいします。", "en": "One coffee, please." },
+        { "speaker": "店員", "jp": "はい。パンも いかがですか。", "reading": "はい。ぱんも いかがですか。", "en": "Sure. How about some bread too?" },
+        { "speaker": "客", "jp": "じゃあ、このパンを ください。", "reading": "じゃあ、このぱんを ください。", "en": "Then I'll have this bread, please." },
+        { "speaker": "店員", "jp": "ふくろは いりますか。", "reading": "ふくろは いりますか。", "en": "Do you need a bag?" },
+        { "speaker": "客", "jp": "いいえ、だいじょうぶです。", "reading": "いいえ、だいじょうぶです。", "en": "No, I'm fine." },
+        { "speaker": "店員", "jp": "ぜんぶで ３５０えんです。", "reading": "ぜんぶで さんびゃくごじゅうえんです。", "en": "That's 350 yen altogether." },
+        { "speaker": "店員", "jp": "ありがとうございました。", "reading": "ありがとうございました。", "en": "Thank you very much." }
+      ],
+      "checks": [
+        {
+          "prompt": "Fill in the particle: パン＿ください。(Bread, please.)",
+          "options": ["は", "を", "に", "も"],
+          "answer": 1,
+          "explanation": "を marks the thing you want or act on, so パンをください."
+        },
+        {
+          "prompt": "The clerk asks 「ふくろは いりますか。」 What are they asking?",
+          "options": ["Do you have a point card?", "Do you need a bag?", "Is that everything?", "Will you pay by card?"],
+          "answer": 1,
+          "explanation": "ふくろ is a bag, and いりますか means \"do you need it?\""
+        },
+        {
+          "prompt": "What does the clerk say when you walk in?",
+          "options": ["いただきます", "いらっしゃいませ", "おやすみなさい", "はじめまして"],
+          "answer": 1,
+          "explanation": "いらっしゃいませ is how shops welcome customers. You don't need to reply."
+        }
+      ],
+      "notes": "Grammar tip: [thing] を ください is a simple, polite way to ask for something. [thing] を おねがいします works the same way.\n\nCulture note: konbini clerks talk fast and use set phrases. A nod, はい or だいじょうぶです is all you need. Bags usually cost a few yen, so you'll often be asked if you want one."
+    },
+    {
+      "slug": "lesson-n5-03-eki",
+      "jlpt_level": "N5",
+      "position": 3,
+      "title": "Where is the station?",
+      "situation": "Asking a stranger for directions to the station",
+      "item_slugs": [
+        "word-sumimasen",
+        "word-eki",
+        "word-densha",
+        "word-kippu",
+        "word-deguchi",
+        "word-michi",
+        "word-doumo"
+      ],
+      "grammar_slug": "grammar-doko",
+      "dialogue": [
+        { "speaker": "マリア", "jp": "すみません。えきは どこですか。", "reading": "すみません。えきは どこですか。", "en": "Excuse me. Where is the station?" },
+        { "speaker": "おじさん", "jp": "えきですか。このみちを まっすぐです。", "reading": "えきですか。このみちを まっすぐです。", "en": "The station? It's straight down this road." },
+        { "speaker": "マリア", "jp": "とおいですか。", "reading": "とおいですか。", "en": "Is it far?" },
+        { "speaker": "おじさん", "jp": "いいえ、あるいて ５ふんぐらいです。", "reading": "いいえ、あるいて ごふんぐらいです。", "en": "No, it's about five minutes on foot." },
+        { "speaker": "マリア", "jp": "きっぷうりばは どこですか。", "reading": "きっぷうりばは どこですか。", "en": "Where is the ticket counter?" },
+        { "speaker": "おじさん", "jp": "ひがしぐちの ちかくですよ。", "reading": "ひがしぐちの ちかくですよ。", "en": "It's near the east exit." },
+        { "speaker": "マリア", "jp": "わかりました。どうも ありがとうございます。", "reading": "わかりました。どうも ありがとうございます。", "en": "Got it. Thank you very much." }
+      ],
+      "checks": [
+        {
+          "prompt": "How do you ask \"Where is the toilet?\"",
+          "options": ["トイレは なんですか。", "トイレは どこですか。", "トイレは いつですか。", "トイレは だれですか。"],
+          "answer": 1,
+          "explanation": "どこ asks \"where\". なん = what, いつ = when, だれ = who."
+        },
+        {
+          "prompt": "What is the best way to get a stranger's attention?",
+          "options": ["すみません", "ごめんなさい", "おやすみ", "いただきます"],
+          "answer": 0,
+          "explanation": "すみません works as \"excuse me\" as well as \"sorry\"."
+        },
+        {
+          "prompt": "「あるいて ５ふんぐらいです」 means:",
+          "options": ["About 5 minutes by train", "About 5 minutes on foot", "Exactly 5 minutes by bus", "5 stops away"],
+          "answer": 1,
+          "explanation": "あるいて = by walking, ぐらい = about."
+        }
+      ],
+      "notes": "Grammar tip: [place] は どこですか asks where something is. The answer swaps どこ for the place: えきは あそこです.\n\nCulture note: big stations have many exits named by direction (ひがしぐち, にしぐち…). Check which exit you need before you leave the platform."
+    },
+    {
+      "slug": "lesson-n5-04-kazoku",
+      "jlpt_level": "N5",
+      "position": 4,
+      "title": "My family",
+      "situation": "Showing a friend a family photo",
+      "item_slugs": [
+        "word-kazoku",
+        "word-chichi",
+        "word-haha",
+        "word-ani",
+        "word-imouto",
+        "word-otousan",
+        "word-okaasan"
+      ],
+      "grammar_slug": "grammar-no-possessive",
+      "dialogue": [
+        { "speaker": "あや", "jp": "これは だれの しゃしんですか。", "reading": "これは だれの しゃしんですか。", "en": "Whose photo is this?" },
+        { "speaker": "トム", "jp": "わたしの かぞくの しゃしんです。", "reading": "わたしの かぞくの しゃしんです。", "en": "It's a photo of my family." },
+        { "speaker": "あや", "jp": "このひとは おとうさんですか。", "reading": "このひとは おとうさんですか。", "en": "Is this your father?" },
+        { "speaker": "トム", "jp": "はい、ちちです。となりは ははです。", "reading": "はい、ちちです。となりは ははです。", "en": "Yes, that's my father. Next to him is my mother." },
+        { "speaker": "あや", "jp": "このおとこのひとは？", "reading": "このおとこのひとは？", "en": "And this man?" },
+        { "speaker": "トム", "jp": "あにです。いもうとも います。", "reading": "あにです。いもうとも います。", "en": "That's my older brother. I have a younger sister too." },
+        { "speaker": "あや", "jp": "すてきな かぞくですね。", "reading": "すてきな かぞくですね。", "en": "What a lovely family." }
+      ],
+      "checks": [
+        {
+          "prompt": "You talk about your own mother to a friend. Which word do you use?",
+          "options": ["おかあさん", "はは", "おばあさん", "あね"],
+          "answer": 1,
+          "explanation": "Use the humble はは for your own mother, and おかあさん for someone else's."
+        },
+        {
+          "prompt": "\"My friend's bag\" is:",
+          "options": ["ともだちの かばん", "かばんの ともだち", "ともだちは かばん", "ともだちを かばん"],
+          "answer": 0,
+          "explanation": "A の B = A's B. The owner comes first."
+        },
+        {
+          "prompt": "「いもうと」 is your:",
+          "options": ["Older sister", "Younger sister", "Younger brother", "Cousin"],
+          "answer": 1,
+          "explanation": "いもうと = younger sister, おとうと = younger brother, あね = older sister."
+        }
+      ],
+      "notes": "Grammar tip: の links two nouns, like 's in English: わたしの かぞく (my family), だれの しゃしん (whose photo).\n\nCulture note: Japanese uses two sets of family words. Humble ones (ちち, はは, あに) for your own family when talking to others, and polite ones (おとうさん, おかあさん, おにいさん) for other people's family."
+    },
+    {
+      "slug": "lesson-n5-05-asa",
+      "jlpt_level": "N5",
+      "position": 5,
+      "title": "My morning",
+      "situation": "Chatting about what you eat for breakfast",
+      "item_slugs": [
+        "word-okiru",
+        "word-taberu",
+        "word-nomu",
+        "word-gohan",
+        "word-tamago",
+        "word-gyuunyuu",
+        "word-maiasa",
+        "word-itadakimasu"
+      ],
+      "grammar_slug": "grammar-masu",
+      "dialogue": [
+        { "speaker": "さき", "jp": "まいあさ なんじに おきますか。", "reading": "まいあさ なんじに おきますか。", "en": "What time do you get up every morning?" },
+        { "speaker": "リー", "jp": "６じに おきます。", "reading": "ろくじに おきます。", "en": "I get up at six." },
+        { "speaker": "さき", "jp": "はやいですね。あさごはんを たべますか。", "reading": "はやいですね。あさごはんを たべますか。", "en": "That's early. Do you eat breakfast?" },
+        { "speaker": "リー", "jp": "はい、ごはんと たまごを たべます。", "reading": "はい、ごはんと たまごを たべます。", "en": "Yes, I eat rice and eggs." },
+        { "speaker": "リー", "jp": "さきさんは？", "reading": "さきさんは？", "en": "How about you, Saki?" },
+        { "speaker": "さき", "jp": "わたしは ぎゅうにゅうを のみます。パンは たべません。", "reading": "わたしは ぎゅうにゅうを のみます。ぱんは たべません。", "en": "I drink milk. I don't eat bread." },
+        { "speaker": "リー", "jp": "じゃあ、いっしょに たべましょう。いただきます！", "reading": "じゃあ、いっしょに たべましょう。いただきます！", "en": "Then let's eat together. Itadakimasu!" }
+      ],
+      "checks": [
+        {
+          "prompt": "Make たべる (to eat) polite: \"I eat\" →",
+          "options": ["たべです", "たべます", "たべるます", "たべりま"],
+          "answer": 1,
+          "explanation": "For る-verbs, drop る and add ます: たべる → たべます."
+        },
+        {
+          "prompt": "「パンは たべません」 means:",
+          "options": ["I eat bread.", "I ate bread.", "I don't eat bread.", "Let's eat bread."],
+          "answer": 2,
+          "explanation": "〜ません is the polite negative."
+        },
+        {
+          "prompt": "What do you say right before you start eating?",
+          "options": ["ごちそうさま", "いただきます", "おつかれさま", "おじゃまします"],
+          "answer": 1,
+          "explanation": "いただきます before eating; ごちそうさま after."
+        }
+      ],
+      "notes": "Grammar tip: the ます form is the polite way to talk about habits and plans. Its negative is ません: のみます (I drink) → のみません (I don't drink).\n\nCulture note: a traditional Japanese breakfast is rice, miso soup, fish and pickles, but toast and coffee are just as common now."
+    },
+    {
+      "slug": "lesson-n5-06-kaimono",
+      "jlpt_level": "N5",
+      "position": 6,
+      "title": "Is it expensive?",
+      "situation": "Trying on a jacket in a clothes shop",
+      "item_slugs": [
+        "word-takai",
+        "word-yasui",
+        "word-nedan",
+        "word-saizu",
+        "word-shichaku",
+        "word-senen",
+        "word-kurejitto-kaado"
+      ],
+      "grammar_slug": "grammar-i-adj-present",
+      "dialogue": [
+        { "speaker": "客", "jp": "すみません、このジャケットは いくらですか。", "reading": "すみません、このじゃけっとは いくらですか。", "en": "Excuse me, how much is this jacket?" },
+        { "speaker": "店員", "jp": "８０００えんです。", "reading": "はっせんえんです。", "en": "It's 8,000 yen." },
+        { "speaker": "客", "jp": "ちょっと たかいですね。", "reading": "ちょっと たかいですね。", "en": "It's a bit expensive, isn't it." },
+        { "speaker": "店員", "jp": "きょうは セールです。２わりびきですよ。", "reading": "きょうは せーるです。にわりびきですよ。", "en": "There's a sale today. It's 20% off." },
+        { "speaker": "客", "jp": "しちゃくしても いいですか。", "reading": "しちゃくしても いいですか。", "en": "May I try it on?" },
+        { "speaker": "店員", "jp": "はい、どうぞ。サイズは だいじょうぶですか。", "reading": "はい、どうぞ。さいずは だいじょうぶですか。", "en": "Of course. Is the size OK?" },
+        { "speaker": "客", "jp": "ちょうどいいです。カードで おねがいします。", "reading": "ちょうどいいです。かーどで おねがいします。", "en": "It's just right. By card, please." }
+      ],
+      "checks": [
+        {
+          "prompt": "\"This bag is cheap.\" →",
+          "options": ["このかばんは やすいです。", "このかばんは やすいだです。", "このかばんは やすくです。", "このかばんを やすいです。"],
+          "answer": 0,
+          "explanation": "い-adjectives go straight before です, with no だ or な."
+        },
+        {
+          "prompt": "How do you ask the price?",
+          "options": ["いくつですか。", "いくらですか。", "いつですか。", "どこですか。"],
+          "answer": 1,
+          "explanation": "いくら = how much (money). いくつ = how many."
+        },
+        {
+          "prompt": "「たかい」 can mean:",
+          "options": ["Cheap or short", "Expensive or tall", "New or old", "Big or heavy"],
+          "answer": 1,
+          "explanation": "たかい means both expensive and tall/high. Context tells you which."
+        }
+      ],
+      "notes": "Grammar tip: い-adjectives end in い and sit right before です: たかいです, やすいです. They also go directly before a noun: たかい ジャケット.\n\nCulture note: prices on tags usually include tax (ぜいこみ). Haggling is not normal in shops, but sales and point cards are everywhere."
+    }
+  ]
+}

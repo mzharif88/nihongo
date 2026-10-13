@@ -17,7 +17,8 @@ This is a fresh build. The old NihonGo! app (React + Vite) lives on the
 | Admin console | `/admin`: content counts, browse/filter, JSON editor, bulk review queue (draft → reviewed → live), JSON import, full JSON export |
 | Content | Old NihonGo! content ported to import files (`content/legacy`), all as drafts |
 | SRS | `/study`: daily FSRS session (due reviews capped to ~15 min, then new items); multiple-choice recognition and typed recall with romaji→kana; XP and streaks |
-| Learner UI | Home page with due/new counts; lessons, sentence builder and the N5 mock are the next Phase 1 slices |
+| Lessons | `/lessons`: N5 units in order (each unlocks the next): situation, tap-to-hear dialogue, words, one grammar point, notes, 3 quick checks. Finishing adds the words to SRS; progress in `lesson_progress`. Six starter lessons ship as a bundled import pack |
+| Learner UI | Home page with due/new counts and a Lessons link; the sentence builder and the N5 mock are the next Phase 1 slices |
 
 ## Stack
 
