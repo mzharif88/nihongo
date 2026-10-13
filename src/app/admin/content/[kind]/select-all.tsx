@@ -15,3 +15,18 @@ export function SelectAll({ form }: { form: string }) {
     </label>
   );
 }
+
+/** Submit button that asks before doing something large, like moving every matching record. */
+export function ConfirmButton({
+  confirm,
+  ...props
+}: React.ButtonHTMLAttributes<HTMLButtonElement> & { confirm: string }) {
+  return (
+    <button
+      {...props}
+      onClick={(e) => {
+        if (!window.confirm(confirm)) e.preventDefault();
+      }}
+    />
+  );
+}

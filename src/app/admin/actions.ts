@@ -5,7 +5,7 @@ import { join } from "node:path";
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import { requireAdmin } from "@/lib/auth";
-import { changeStatus, importRecords, SYSTEM_COLUMNS } from "@/lib/content/admin";
+import { changeStatus, changeStatusWhere, importRecords, parseFilters, SYSTEM_COLUMNS } from "@/lib/content/admin";
 import { BUNDLED_PACKS, BUNDLED_DIR } from "@/lib/content/packs";
 import {
   CONTENT_KINDS,
@@ -68,12 +68,21 @@ export async function updateStatus(formData: FormData) {
   const { supabase } = await requireAdmin();
   const kind = String(formData.get("kind"));
   const from = String(formData.get("from")) as ContentStatus;
-  const to = String(formData.get("to")) as ContentStatus;
+  // Bulk buttons submit move=<scope>:<to>, e.g. "all:live" or "selected:reviewed".
+  const [scope, toRaw] = String(formData.get("move") ?? `selected:${formData.get("to")}`).split(":");
+  const to = toRaw as ContentStatus;
   const ids = formData.getAll("id").map(String);
   if (!isContentKind(kind) || !CONTENT_STATUSES.includes(from) || !nextStatuses(from).includes(to)) {
     throw new Error("Invalid status change.");
   }
-  await changeStatus(supabase, kind, ids, from, to, String(formData.get("notes") ?? "").trim() || undefined);
+  const notes = String(formData.get("notes") ?? "").trim() || undefined;
+  if (scope === "all") {
+    // Every row matching the list's filters, not just the ticked ones on this page.
+    const filters = parseFilters(kind, (k) => formData.get(k)?.toString());
+    await changeStatusWhere(supabase, kind, { ...filters, status: from }, to, notes);
+  } else {
+    await changeStatus(supabase, kind, ids, from, to, notes);
+  }
   revalidatePath("/admin", "layout");
 }
 

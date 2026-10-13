@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { requireAdmin } from "@/lib/auth";
-import { KIND_LABELS, TITLE_COLUMN } from "@/lib/content/admin";
+import { applyFilters, KIND_LABELS, parseFilters, TITLE_COLUMN } from "@/lib/content/admin";
 import {
   CONTENT_KIND_NAMES,
   CONTENT_STATUSES,
@@ -11,7 +11,7 @@ import {
   type ContentStatus,
 } from "@/lib/content/schema";
 import { updateStatus } from "../../actions";
-import { SelectAll } from "./select-all";
+import { ConfirmButton, SelectAll } from "./select-all";
 
 const PAGE_SIZE = 50;
 
@@ -35,26 +35,15 @@ export default async function ContentList({
   const { kind } = await params;
   if (!isContentKind(kind)) notFound();
   const sp = await searchParams;
-  const status = CONTENT_STATUSES.find((s) => s === sp.status);
-  const level = JLPT_LEVELS.find((l) => l === sp.level);
-  const q = sp.q?.trim();
-  const tag = kind === "items" ? sp.tag?.trim() : undefined;
+  const filters = parseFilters(kind, (k) => sp[k]);
+  const { status, level, q, tag } = filters;
   const page = Math.max(0, Number(sp.page ?? 0) || 0);
 
   const { supabase } = await requireAdmin();
   const titleCol = TITLE_COLUMN[kind];
-  let query = supabase
-    .from(kind)
-    .select("*", { count: "exact" })
+  const query = applyFilters(supabase.from(kind).select("*", { count: "exact" }), kind, filters)
     .order("slug")
     .range(page * PAGE_SIZE, page * PAGE_SIZE + PAGE_SIZE - 1);
-  if (status) query = query.eq("status", status);
-  if (level) query = query.eq("jlpt_level", level);
-  if (tag) query = query.contains("tags", [tag]);
-  if (q) {
-    const term = q.replace(/[%,()]/g, " ");
-    query = query.or(`slug.ilike.%${term}%,${titleCol}.ilike.%${term}%`);
-  }
   const { data, count, error } = await query.returns<Row[]>();
   if (error) throw new Error(error.message);
   const rows = data ?? [];
@@ -82,6 +71,18 @@ export default async function ContentList({
         ))}
       </nav>
 
+      <nav className="mb-3 flex gap-1 rounded-xl border border-border bg-card p-1 text-sm">
+        {[...CONTENT_STATUSES, undefined].map((s) => (
+          <Link
+            key={s ?? "all"}
+            href={link({ status: s })}
+            className={`flex-1 rounded-lg px-2 py-1.5 text-center capitalize ${s === status ? "bg-accent text-white" : "text-muted"}`}
+          >
+            {s ?? "all"}
+          </Link>
+        ))}
+      </nav>
+
       <form className="flex flex-wrap gap-2 text-sm" action={`/admin/content/${kind}`}>
         <input name="q" defaultValue={q} placeholder="Search slug or text" className="min-w-0 flex-1 rounded-lg border border-border bg-card px-3 py-2" />
         <select name="status" defaultValue={status ?? ""} className="rounded-lg border border-border bg-card px-2 py-2">
@@ -104,7 +105,7 @@ export default async function ContentList({
 
       <p className="mt-3 text-sm text-muted">
         {total} {KIND_LABELS[kind].toLowerCase()}
-        {status ? ` in ${status}` : ""}. {!status && "Filter by a status to review in bulk."}
+        {status ? ` in ${status}` : ""}. {!status && "Pick Draft, Reviewed or Live above to move content in bulk."}
       </p>
 
       <form action={updateStatus} id="bulk" className="mt-3">
@@ -112,10 +113,26 @@ export default async function ContentList({
         {status && (
           <div className="mb-3 flex flex-wrap items-center gap-2 rounded-xl border border-border bg-card p-3 text-sm">
             <input type="hidden" name="from" value={status} />
+            {level && <input type="hidden" name="level" value={level} />}
+            {tag && <input type="hidden" name="tag" value={tag} />}
+            {q && <input type="hidden" name="q" value={q} />}
+            <input name="notes" placeholder="Review note (optional)" className="w-full rounded-lg border border-border bg-background px-3 py-1.5" />
+            {total > 0 &&
+              nextStatuses(status).map((to) => (
+                <ConfirmButton
+                  key={`all-${to}`}
+                  name="move"
+                  value={`all:${to}`}
+                  confirm={`Move all ${total} matching ${KIND_LABELS[kind].toLowerCase()} from ${status} to ${to}?`}
+                  className="rounded-lg bg-accent px-3 py-1.5 font-medium text-white"
+                >
+                  Move all {total} to {to}
+                </ConfirmButton>
+              ))}
+            <span className="mx-1 text-muted">or</span>
             <SelectAll form="bulk" />
-            <input name="notes" placeholder="Review note (optional)" className="min-w-0 flex-1 rounded-lg border border-border bg-background px-3 py-1.5" />
             {nextStatuses(status).map((to) => (
-              <button key={to} name="to" value={to} className="rounded-lg bg-accent px-3 py-1.5 font-medium text-white">
+              <button key={to} name="move" value={`selected:${to}`} className="rounded-lg border border-border px-3 py-1.5">
                 Move selected to {to}
               </button>
             ))}
