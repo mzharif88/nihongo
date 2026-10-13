@@ -110,6 +110,26 @@ describe("content tables", () => {
 });
 
 describe("learner tables", () => {
+  it("keeps lesson progress owner-only", async () => {
+    const lesson = await db.query<{ id: string }>(
+      `insert into public.lessons (slug, jlpt_level, position, title, status) values ('lesson-x', 'N5', 1, 'X', 'live') returning id`,
+    );
+    const lessonId = lesson.rows[0].id;
+    await as(db, ALICE, () =>
+      db.query(`insert into public.lesson_progress (lesson_id, score, max_score) values ($1, 2, 3)`, [lessonId]),
+    );
+    expect((await as(db, BOB, () => db.query(`select * from public.lesson_progress`))).rows).toHaveLength(0);
+    await expect(
+      as(db, BOB, () =>
+        db.query(`insert into public.lesson_progress (user_id, lesson_id, score, max_score) values ($1, $2, 3, 3)`, [
+          ALICE,
+          lessonId,
+        ]),
+      ),
+    ).rejects.toThrow(/row-level security/);
+    await expect(as(db, null, () => db.query(`select * from public.lesson_progress`))).rejects.toThrow(/permission denied/);
+  });
+
   it("keeps user_items owner-only", async () => {
     await as(db, ALICE, () =>
       db.query(`insert into public.user_items (user_id, item_id) values ($1, $2)`, [ALICE, liveItemId]),
