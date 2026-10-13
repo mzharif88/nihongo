@@ -132,4 +132,29 @@ describe("learner tables", () => {
     );
     await expect(as(db, ALICE, () => db.query(`delete from public.reviews`))).rejects.toThrow(/permission denied/);
   });
+
+  it("keeps lesson_progress owner-only and hides it from anon", async () => {
+    const { rows } = await db.query<{ id: string }>(
+      `insert into public.lessons (slug, jlpt_level, position, title, status)
+       values ('lesson-n5-01-test', 'N5', 1, 'Test', 'live') returning id`,
+    );
+    const lessonId = rows[0].id;
+    await as(db, ALICE, () =>
+      db.query(`insert into public.lesson_progress (lesson_id, checks_correct, checks_total) values ($1, 2, 3)`, [
+        lessonId,
+      ]),
+    );
+    const mine = await as(db, ALICE, () => db.query(`select user_id, checks_correct from public.lesson_progress`));
+    expect(mine.rows).toEqual([{ user_id: ALICE, checks_correct: 2 }]);
+    const bobSees = await as(db, BOB, () => db.query(`select * from public.lesson_progress`));
+    expect(bobSees.rows).toHaveLength(0);
+    await expect(
+      as(db, BOB, () =>
+        db.query(`insert into public.lesson_progress (user_id, lesson_id) values ($1, $2)`, [ALICE, lessonId]),
+      ),
+    ).rejects.toThrow(/row-level security/);
+    await expect(as(db, null, () => db.query(`select * from public.lesson_progress`))).rejects.toThrow(
+      /permission denied/,
+    );
+  });
 });

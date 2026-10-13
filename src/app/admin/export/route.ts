@@ -2,7 +2,7 @@ import { requireAdmin } from "@/lib/auth";
 import { CONTENT_KIND_NAMES } from "@/lib/content/schema";
 
 const PAGE = 1000;
-const LEARNER_TABLES = ["profiles", "gamification", "user_items", "reviews", "mistakes"] as const;
+const LEARNER_TABLES = ["profiles", "gamification", "user_items", "reviews", "mistakes", "lesson_progress"] as const;
 
 /**
  * Full JSON backup: the admin's own learner data plus the whole content bank
