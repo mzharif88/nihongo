@@ -2,8 +2,8 @@ import Link from "next/link";
 import { requireUser } from "@/lib/auth";
 import type { Pace } from "@/lib/study/pace";
 import { loadStudySession } from "@/lib/study/session.server";
+import type { Topic } from "@/lib/study/topics";
 import { signOut } from "./login/actions";
-import { TopicPicker } from "./topic-picker";
 
 export default async function HomePage() {
   const { supabase, profile } = await requireUser();
@@ -11,8 +11,9 @@ export default async function HomePage() {
     loadStudySession(supabase, profile),
     supabase.from("gamification").select("xp, streak").eq("user_id", profile.id).maybeSingle(),
   ]);
-  const toStudy = session.dueCount + session.newCount;
   const { pace } = session;
+  const lastTopic = session.topics.find((t) => t.id === profile.study_topic) ?? null;
+  const studyHref = (t: Topic) => `/study?topic=${encodeURIComponent(t.id)}`;
 
   return (
     <main className="mx-auto max-w-xl px-4 py-8">
@@ -26,33 +27,43 @@ export default async function HomePage() {
       </header>
 
       <section className="mt-6 grid grid-cols-3 gap-3 text-center">
-        <Stat label="Due now" value={session.dueCount} />
+        <Stat label="Due now" value={session.totalDue} />
         <Stat label="Streak" value={game?.streak ?? 0} />
         <Stat label="XP" value={game?.xp ?? 0} />
       </section>
 
-      <Link
-        href="/study"
-        className={`mt-6 block rounded-xl p-5 text-center ${
-          toStudy ? "bg-accent text-white" : "border border-border bg-card text-muted"
-        }`}
-      >
-        <div className="text-lg font-bold">{toStudy ? "Study now" : "All caught up"}</div>
+      <Link href="/study" className="mt-6 block rounded-xl bg-accent p-5 text-center text-white">
+        <div className="text-lg font-bold">Study everything</div>
         <div className="mt-1 text-sm opacity-90">
-          {session.dueCount} reviews · {session.newCount} new
-          {session.activeTopic ? ` from ${session.activeTopic.label}` : ""}
-          {session.newLeftToday === 0 ? " (today's pace done)" : ""}
+          {session.totalDue} reviews · {session.newCount} new in this batch · no daily limit
         </div>
       </Link>
 
-      <TopicPicker topics={session.topics} chosen={profile.study_topic} active={session.activeTopic} />
+      {lastTopic && (lastTopic.due > 0 || lastTopic.remaining > 0) && (
+        <Link
+          href={studyHref(lastTopic)}
+          className="mt-3 flex items-center justify-between rounded-xl border-2 border-accent bg-card p-4"
+        >
+          <div>
+            <div className="text-xs text-muted">Continue where you left off</div>
+            <div className="text-lg font-bold">{lastTopic.label}</div>
+          </div>
+          <div className="text-right text-sm text-muted">
+            {lastTopic.due > 0 && <div>{lastTopic.due} due</div>}
+            <div>{lastTopic.remaining} new left</div>
+          </div>
+        </Link>
+      )}
+
+      <TopicGrid topics={session.topics} href={studyHref} />
 
       <PaceCard
         pace={pace}
         targetLevel={profile.target_level}
         examDate={profile.exam_date}
         started={session.started}
-        contentLeft={session.unstartedAvailable}
+        contentLeft={session.unstartedInScope}
+        introducedToday={session.introducedToday}
       />
 
       {profile.role === "admin" && (
@@ -87,12 +98,14 @@ function PaceCard({
   examDate,
   started,
   contentLeft,
+  introducedToday,
 }: {
   pace: Pace;
   targetLevel: string;
   examDate: string | null;
   started: number;
   contentLeft: number;
+  introducedToday: number;
 }) {
   const percent = Math.min(100, Math.round((started / pace.targetItems) * 100));
   const warn = pace.intensity === "unrealistic" || pace.intensity === "past";
@@ -109,14 +122,14 @@ function PaceCard({
       </div>
       {pace.daysLeft !== null && pace.daysLeft > 0 && (
         <p className="mt-1 text-2xl font-bold">
-          {pace.daysLeft} days · {pace.newPerDay} new/day
+          {pace.daysLeft} days · aim for {pace.newPerDay} new/day
         </p>
       )}
       <div className="mt-3 h-2 overflow-hidden rounded-full bg-border">
         <div className="h-full bg-accent" style={{ width: `${percent}%` }} />
       </div>
       <p className="mt-1 text-xs text-muted">
-        {started} of ~{pace.targetItems.toLocaleString()} items started ({percent}%)
+        {started} of ~{pace.targetItems.toLocaleString()} items started ({percent}%) · {introducedToday} new today
       </p>
       <p className={`mt-2 text-sm ${warn ? "text-red-600 dark:text-red-400" : "text-muted"}`}>
         {INTENSITY_NOTE[pace.intensity]}
@@ -126,6 +139,53 @@ function PaceCard({
           Only {contentLeft} unstarted items are live. Import more content to keep this pace.
         </p>
       )}
+    </section>
+  );
+}
+
+const GROUP_ORDER: Topic["group"][] = ["Scripts", "Kanji", "Words by level", "Words by topic"];
+
+/** Every topic as a tappable tile: tap to study it straight away. */
+function TopicGrid({ topics, href }: { topics: Topic[]; href: (t: Topic) => string }) {
+  return (
+    <section className="mt-8 space-y-5">
+      <h2 className="text-lg font-bold">Topics</h2>
+      {GROUP_ORDER.map((group) => {
+        const inGroup = topics.filter((t) => t.group === group);
+        if (inGroup.length === 0) return null;
+        return (
+          <div key={group}>
+            <h3 className="mb-2 text-sm text-muted">{group}</h3>
+            <div className="grid grid-cols-2 gap-2">
+              {inGroup.map((t) => {
+                const startedPct = Math.round(((t.total - t.remaining) / t.total) * 100);
+                const done = t.remaining === 0 && t.due === 0;
+                return (
+                  <Link
+                    key={t.id}
+                    href={href(t)}
+                    className={`rounded-xl border border-border bg-card p-3 active:border-accent ${done ? "opacity-60" : ""}`}
+                  >
+                    <div className="flex items-start justify-between gap-2">
+                      <span className="font-medium leading-tight">{t.label}</span>
+                      {t.due > 0 && (
+                        <span className="shrink-0 rounded-full bg-accent px-2 py-0.5 text-xs font-medium text-white">{t.due}</span>
+                      )}
+                    </div>
+                    <div className="mt-2 h-1.5 overflow-hidden rounded-full bg-border">
+                      <div className="h-full bg-accent" style={{ width: `${startedPct}%` }} />
+                    </div>
+                    <div className="mt-1 text-xs text-muted">
+                      {t.total - t.remaining}/{t.total}
+                      {done ? " · done" : ""}
+                    </div>
+                  </Link>
+                );
+              })}
+            </div>
+          </div>
+        );
+      })}
     </section>
   );
 }

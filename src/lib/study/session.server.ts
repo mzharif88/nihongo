@@ -6,7 +6,7 @@ import { dueQueue } from "@/lib/srs/fsrs";
 import { buildCard, type CardType, type StudyCard, type StudyItem } from "./cards";
 import { pickNewItems, SRS_TYPES } from "./curriculum";
 import { studyPace, type Pace } from "./pace";
-import { listTopics, pickTopicItems, type Topic } from "./topics";
+import { inTopic, listTopics, pickTopicItems, type Topic } from "./topics";
 import { localDate } from "./streak";
 
 export const ITEM_COLUMNS =
@@ -22,30 +22,38 @@ interface UserItemRow {
   created_at: string;
 }
 
+/** New items per session; finishing a session and pressing "Keep going" brings the next batch. No daily limit. */
+export const NEW_BATCH = 10;
+
 export interface StudySession {
   cards: StudyCard[];
+  /** Due reviews in this session (all of them, or the topic's). */
   dueCount: number;
   newCount: number;
-  newLeftToday: number;
+  /** Due reviews across everything, for the home page. */
+  totalDue: number;
+  /** New items introduced today (shown against the pace, never a limit). */
+  introducedToday: number;
   /** Items started so far (recognition cards). */
   started: number;
-  /** Live items not started yet, i.e. how much content is left to learn. */
-  unstartedAvailable: number;
+  /** Unstarted items left in this session's scope (the topic, or everything). */
+  unstartedInScope: number;
   pace: Pace;
   topics: Topic[];
-  /** The topic new items came from, or null for automatic order (including when the chosen topic is finished). */
-  activeTopic: Topic | null;
+  /** The topic this session studies, or null for everything. */
+  topic: Topic | null;
 }
 
 /**
- * Build today's session: every due review (most overdue first), then new
- * items up to the exam-date pace for today, plus `extraNew` more when the
- * learner asks to keep going.
+ * Build a study session: every due review (most overdue first), then the
+ * next batch of new items. With a topic, both are limited to that topic,
+ * so leaving halfway and reopening it carries on from the next unanswered
+ * card (every answer is saved as it happens).
  */
 export async function loadStudySession(
   supabase: SupabaseClient,
   profile: Profile,
-  { now = new Date(), extraNew = 0 }: { now?: Date; extraNew?: number } = {},
+  { now = new Date(), topicId = null }: { now?: Date; topicId?: string | null } = {},
 ): Promise<StudySession> {
   const [items, cards] = await Promise.all([
     fetchAll<ItemRow>((from, to) =>
@@ -74,12 +82,11 @@ export async function loadStudySession(
   const today = localDate(now, profile.timezone);
 
   // Due reviews for items that are still live.
-  const due = dueQueue(
+  const allDue = dueQueue(
     cards.filter((c) => byId.has(c.item_id)),
     now,
   );
 
-  // New items: not started, prerequisites learned, within today's allowance.
   const recognition = cards.filter((c) => c.card_type === "recognition");
   const started = new Set(recognition.map((c) => c.item_id));
   const learnedSlugs = new Set(
@@ -92,15 +99,14 @@ export async function loadStudySession(
     today,
     started: recognition.length,
   });
-  const newLeftToday = Math.max(0, pace.newPerDay - introducedToday);
-  const allowance = newLeftToday + Math.max(0, extraNew);
 
-  // Topic of the day: new items come from the chosen topic until it runs out, then automatic order.
-  const topics = listTopics(items, started);
-  const chosen = topics.find((t) => t.id === profile.study_topic) ?? null;
-  const fromTopic = chosen ? pickTopicItems(items, chosen.id, started, learnedSlugs, allowance) : [];
-  const activeTopic = fromTopic.length > 0 ? chosen : null;
-  const fresh = activeTopic ? fromTopic : pickNewItems(items, started, learnedSlugs, allowance);
+  const topics = listTopics(items, started, new Set(allDue.map((c) => c.item_id)));
+  const topic = topics.find((t) => t.id === topicId) ?? null;
+
+  const due = topic ? allDue.filter((c) => inTopic(byId.get(c.item_id)!, topic.id)) : allDue;
+  const fresh = topic
+    ? pickTopicItems(items, topic.id, started, learnedSlugs, NEW_BATCH)
+    : pickNewItems(items, started, learnedSlugs, NEW_BATCH);
 
   return {
     cards: [
@@ -109,11 +115,12 @@ export async function loadStudySession(
     ],
     dueCount: due.length,
     newCount: fresh.length,
-    newLeftToday,
+    totalDue: allDue.length,
+    introducedToday,
     started: recognition.length,
-    unstartedAvailable: items.filter((i) => !started.has(i.id)).length,
+    unstartedInScope: topic ? topic.remaining : items.filter((i) => !started.has(i.id)).length,
     pace,
     topics,
-    activeTopic,
+    topic,
   };
 }

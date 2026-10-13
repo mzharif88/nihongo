@@ -25,8 +25,9 @@ const n4word = item({ jlpt_level: "N4", term: "w4" });
 const all = [a, ka, sunRadical, sun, moon, water, n4word];
 
 describe("listTopics", () => {
-  it("lists only topics that have content, with unstarted counts", () => {
-    const topics = listTopics(all, new Set([a.id]));
+  it("lists only topics that have content, with size, unstarted and due counts", () => {
+    const topics = listTopics(all, new Set([a.id]), new Set([a.id]));
+    expect(topics.find((t) => t.id === "kana:hiragana")).toMatchObject({ total: 1, remaining: 0, due: 1 });
     const byId = Object.fromEntries(topics.map((t) => [t.id, t.remaining]));
     expect(byId).toMatchObject({ "kana:hiragana": 0, "kana:katakana": 1, "kanji:N5": 2, "words:N5": 1, "words:N4": 1, "topic:Food & Drink": 1 });
     expect(byId).not.toHaveProperty("kanji:N1");

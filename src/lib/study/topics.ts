@@ -1,14 +1,18 @@
 import { compareCurriculum, SRS_TYPES, type CurriculumItem } from "./curriculum";
 
-// "Topic of the day": the learner picks where today's new items come from.
-// Reviews are unaffected; only the choice of new items changes.
+// Topics: tap one on the home page to study just that topic (its due
+// reviews, then its next new items). There is no daily limit.
 
 export interface Topic {
   id: string;
   label: string;
   group: "Scripts" | "Kanji" | "Words by level" | "Words by topic";
+  /** Items in this topic. */
+  total: number;
   /** Unstarted items left in this topic. */
   remaining: number;
+  /** Cards from this topic due for review now. */
+  due: number;
 }
 
 const LEVELS = ["N5", "N4", "N3", "N2", "N1"];
@@ -31,10 +35,9 @@ export function inTopic(item: CurriculumItem, topicId: string): boolean {
   }
 }
 
-/** Every topic that has content, with how many items are still unstarted. */
-export function listTopics(items: CurriculumItem[], started: Set<string>): Topic[] {
-  const remaining = (topicId: string) => items.filter((i) => !started.has(i.id) && inTopic(i, topicId)).length;
-  const fixed: Omit<Topic, "remaining">[] = [
+/** Every topic that has content, with its size, unstarted items and due reviews. */
+export function listTopics(items: CurriculumItem[], started: Set<string>, dueItemIds: Set<string> = new Set()): Topic[] {
+  const fixed: Pick<Topic, "id" | "label" | "group">[] = [
     { id: "kana:hiragana", label: "Hiragana", group: "Scripts" },
     { id: "kana:katakana", label: "Katakana", group: "Scripts" },
     ...LEVELS.map((l) => ({ id: `kanji:${l}`, label: `${l} kanji`, group: "Kanji" as const })),
@@ -44,8 +47,16 @@ export function listTopics(items: CurriculumItem[], started: Set<string>): Topic
     .sort()
     .map((t) => ({ id: `topic:${t}`, label: t, group: "Words by topic" as const }));
   return [...fixed, ...named]
-    .map((t) => ({ ...t, remaining: remaining(t.id) }))
-    .filter((t) => items.some((i) => inTopic(i, t.id)));
+    .map((t) => {
+      const members = items.filter((i) => inTopic(i, t.id));
+      return {
+        ...t,
+        total: members.length,
+        remaining: members.filter((i) => !started.has(i.id)).length,
+        due: members.filter((i) => dueItemIds.has(i.id)).length,
+      };
+    })
+    .filter((t) => t.total > 0);
 }
 
 /**

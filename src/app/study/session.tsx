@@ -16,14 +16,14 @@ const MAX_REPEATS = 3;
 type Phase = "intro" | "question" | "answered";
 
 interface Props {
+  /** The topic being studied, or "Everything". */
+  title: string;
   cards: StudyCard[];
-  dueCount: number;
-  newCount: number;
-  /** Where "Learn more" goes once the queue is empty, or null when no more content is unlocked. */
-  learnMoreHref: string | null;
+  /** Where "Keep going" loads the next batch, or null when nothing is left. */
+  keepGoingHref: string | null;
 }
 
-export function StudySession({ cards: initial, dueCount, newCount, learnMoreHref }: Props) {
+export function StudySession({ title, cards: initial, keepGoingHref }: Props) {
   const [queue, setQueue] = useState(initial);
   const [repeats, setRepeats] = useState<Record<string, number>>({});
   const [phase, setPhase] = useState<Phase>(initial[0]?.isNew ? "intro" : "question");
@@ -95,14 +95,14 @@ export function StudySession({ cards: initial, dueCount, newCount, learnMoreHref
         <p className="mt-2 text-muted">
           {stats.done} answers · {accuracy}% correct · +{stats.xp} XP · {stats.streak}-day streak
         </p>
-        {learnMoreHref && (
-          // A full load (not <Link>) so the server builds a fresh session instead of reusing this component's state.
-          <a href={learnMoreHref} className="mt-8 rounded-lg bg-accent px-4 py-2.5 font-medium text-white">
-            Learn 10 more
+        {keepGoingHref && (
+          // A full load (not <Link>) so the server builds the next batch instead of reusing this component's state.
+          <a href={keepGoingHref} className="mt-8 rounded-lg bg-accent px-4 py-2.5 font-medium text-white">
+            Keep going
           </a>
         )}
         <Link href="/" className="mt-3 rounded-lg border border-border px-4 py-2.5 font-medium">
-          Back home
+          Pick another topic
         </Link>
       </main>
     );
@@ -114,8 +114,8 @@ export function StudySession({ cards: initial, dueCount, newCount, learnMoreHref
         <Link href="/" aria-label="End session">
           ✕
         </Link>
-        <span>
-          {remaining} left · {dueCount} reviews, {newCount} new
+        <span className="truncate px-2">
+          {title} · {remaining} left
         </span>
         <span>+{stats.xp} XP</span>
       </header>

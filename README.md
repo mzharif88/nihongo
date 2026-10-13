@@ -16,8 +16,8 @@ This is a fresh build. The old NihonGo! app (React + Vite) lives on the
 | Database | Full schema with RLS on every table (`supabase/migrations`) |
 | Admin console | `/admin`: content counts, browse/filter, JSON editor, bulk review queue (draft → reviewed → live), JSON import, full JSON export |
 | Content | Old NihonGo! content (`content/legacy`) plus N5–N2 kanji and vocabulary from open data (`content/opendata`, ~6,300 items); `/attributions` credits the sources |
-| SRS | `/study`: FSRS session with every due review (no daily cap), then new items at the exam-date pace, plus "Learn 10 more"; every card multiple choice (recognition: Japanese → sound/meaning; recall: sound/meaning → Japanese); "topic of the day" picker for new items; furigana over kanji everywhere (hidden only when the reading is the answer); XP and streaks |
-| Planner | Home page pace card: new items/day from target level, exam date and an 8-week review buffer; `/settings` for level, exam date, goal and timezone |
+| SRS | `/study`: every due review (no cap) then the next 10 new items, with "Keep going" for more and no daily limit; `/study?topic=…` studies one topic (resumes where you left off, since every answer is saved); all cards multiple choice; furigana over kanji everywhere (hidden only when the reading is the answer); XP and streaks |
+| Home | Study everything, Continue (last topic), and a topic grid (scripts, kanji and words by level, word topics) with progress and due counts; pace card shows the exam-date target as a guide only; `/settings` for level, exam date, goal and timezone |
 | Learner UI | Home page with due/new counts; lessons, sentence builder and the N5 mock are the next Phase 1 slices |
 
 ## Stack
