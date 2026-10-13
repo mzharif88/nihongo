@@ -91,6 +91,13 @@ describe("content tables", () => {
     expect(r.rows).toEqual([{ reviewer_id: ADMIN }]);
   });
 
+  it("blocks anonymous calls to security-definer functions", async () => {
+    await expect(as(db, null, () => db.query(`select public.is_admin()`))).rejects.toThrow(/permission denied/);
+    await expect(as(db, ALICE, () => db.query(`select public.handle_new_user()`))).rejects.toThrow(/permission denied/);
+    const r = await as(db, ADMIN, () => db.query<{ is_admin: boolean }>(`select public.is_admin()`));
+    expect(r.rows).toEqual([{ is_admin: true }]);
+  });
+
   it("blocks anonymous reads", async () => {
     await expect(as(db, null, () => db.query(`select * from public.items`))).rejects.toThrow(/permission denied/);
   });
