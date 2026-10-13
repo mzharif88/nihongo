@@ -135,3 +135,25 @@ describe("builder packs", () => {
     }
   });
 });
+
+describe("kana duplicate merges", () => {
+  const { merges } = JSON.parse(readFileSync(join(CONTENT, "merges", "kana-duplicates.json"), "utf8")) as {
+    merges: { from: string; to: string; topic: string }[];
+  };
+  const all = PACK_GROUPS.filter((g) => g.id === "legacy" || g.id === "opendata").flatMap((g) =>
+    g.packs.map((p) => loadFrom(g.id, p.file)).filter((p) => p.kind === "items").flatMap((p) => p.records),
+  );
+  const bySlug = new Map(all.map((r) => [r.slug as string, r]));
+
+  it("drop every kana copy and give its topic to the kanji word", () => {
+    for (const m of merges) {
+      expect(bySlug.has(m.from), m.from).toBe(false);
+      expect(bySlug.get(m.to)?.topic, m.to).toBe(m.topic);
+    }
+  });
+
+  it("leave nothing pointing at a dropped word", () => {
+    const gone = new Set(merges.map((m) => m.from));
+    for (const r of all) for (const p of r.prerequisites as string[]) expect(gone.has(p), `${r.slug} → ${p}`).toBe(false);
+  });
+});

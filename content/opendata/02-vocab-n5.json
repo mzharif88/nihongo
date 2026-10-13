@@ -491,7 +491,8 @@
    "jlpt_level": "N5",
    "reading": "いち",
    "romaji": "ichi",
-   "mnemonic": "一: one line — ONE. \"Itchy\" — one itch."
+   "mnemonic": "一: one line — ONE. \"Itchy\" — one itch.",
+   "topic": "Numbers"
   },
   {
    "slug": "vocab-n5-ichinichi",
@@ -575,7 +576,8 @@
    "jlpt_level": "N5",
    "reading": "いつつ",
    "romaji": "itsutsu",
-   "mnemonic": "五つ: \"it's toots\" — FIVE little toots."
+   "mnemonic": "五つ: \"it's toots\" — FIVE little toots.",
+   "topic": "Counters"
   },
   {
    "slug": "vocab-n5-itsumo",
@@ -911,7 +913,8 @@
    "jlpt_level": "N5",
    "reading": "おいしい",
    "romaji": "oishii",
-   "mnemonic": "美味しい: \"oh, she!\" — oh, she makes DELICIOUS food."
+   "mnemonic": "美味しい: \"oh, she!\" — oh, she makes DELICIOUS food.",
+   "topic": "Words"
   },
   {
    "slug": "vocab-n5-ookina",
@@ -1709,7 +1712,8 @@
    "jlpt_level": "N5",
    "reading": "かわいい",
    "romaji": "kawaii",
-   "mnemonic": "可愛い: \"car why?\" — why is that tiny car so CUTE?"
+   "mnemonic": "可愛い: \"car why?\" — why is that tiny car so CUTE?",
+   "topic": "Colors & Appearance"
   },
   {
    "slug": "vocab-n5-kanji",
@@ -2185,7 +2189,8 @@
    "jlpt_level": "N5",
    "reading": "ご",
    "romaji": "go",
-   "mnemonic": "五: \"go\" — FIVE fingers ready to go."
+   "mnemonic": "五: \"go\" — FIVE fingers ready to go.",
+   "topic": "Numbers"
   },
   {
    "slug": "vocab-n5-go-2",
@@ -2283,7 +2288,8 @@
    "jlpt_level": "N5",
    "reading": "ここのつ",
    "romaji": "kokonotsu",
-   "mnemonic": "九つ: \"coconuts\" — NINE coconuts."
+   "mnemonic": "九つ: \"coconuts\" — NINE coconuts.",
+   "topic": "Counters"
   },
   {
    "slug": "vocab-n5-kotaeru",
@@ -2353,7 +2359,8 @@
    "jlpt_level": "N5",
    "reading": "ごはん",
    "romaji": "gohan",
-   "mnemonic": "御飯: \"go, han!\" — go eat your RICE, Han."
+   "mnemonic": "御飯: \"go, han!\" — go eat your RICE, Han.",
+   "topic": "Food & Drink"
   },
   {
    "slug": "vocab-n5-kopiisuru",
@@ -2605,7 +2612,8 @@
    "jlpt_level": "N5",
    "reading": "さん",
    "romaji": "san",
-   "mnemonic": "三: three lines — THREE. \"Sun\": three suns."
+   "mnemonic": "三: three lines — THREE. \"Sun\": three suns.",
+   "topic": "Numbers"
   },
   {
    "slug": "vocab-n5-sanpo-suru",
@@ -2871,7 +2879,8 @@
    "jlpt_level": "N5",
    "reading": "じゅう",
    "romaji": "juu",
-   "mnemonic": "十: a cross — TEN. \"Jew-\" ten commandments."
+   "mnemonic": "十: a cross — TEN. \"Jew-\" ten commandments.",
+   "topic": "Numbers"
   },
   {
    "slug": "vocab-n5-juu-2",
@@ -3207,7 +3216,8 @@
    "jlpt_level": "N5",
    "reading": "せん",
    "romaji": "sen",
-   "mnemonic": "千: ten 十 with a hat — a THOUSAND. \"Sen\" = cent: a thousand cents."
+   "mnemonic": "千: ten 十 with a hat — a THOUSAND. \"Sen\" = cent: a thousand cents.",
+   "topic": "Numbers"
   },
   {
    "slug": "vocab-n5-sengetsu",
@@ -3711,7 +3721,8 @@
    "jlpt_level": "N5",
    "reading": "たまご",
    "romaji": "tamago",
-   "mnemonic": "卵: \"tam, a go\" — have a go at cracking the EGG."
+   "mnemonic": "卵: \"tam, a go\" — have a go at cracking the EGG.",
+   "topic": "Food & Drink"
   },
   {
    "slug": "vocab-n5-dare",
@@ -3879,7 +3890,8 @@
    "jlpt_level": "N5",
    "reading": "ちょうど",
    "romaji": "choudo",
-   "mnemonic": "丁度: \"Cho! dough!\" — EXACTLY enough dough."
+   "mnemonic": "丁度: \"Cho! dough!\" — EXACTLY enough dough.",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-chotto",
@@ -4705,7 +4717,8 @@
    "jlpt_level": "N5",
    "reading": "ななつ",
    "romaji": "nanatsu",
-   "mnemonic": "七つ: \"nana's tots\" — SEVEN tots at nana's."
+   "mnemonic": "七つ: \"nana's tots\" — SEVEN tots at nana's.",
+   "topic": "Counters"
   },
   {
    "slug": "vocab-n5-nan-nani",
@@ -4817,7 +4830,8 @@
    "jlpt_level": "N5",
    "reading": "に",
    "romaji": "ni",
-   "mnemonic": "二: two lines — TWO. \"Knee\" — two knees."
+   "mnemonic": "二: two lines — TWO. \"Knee\" — two knees.",
+   "topic": "Numbers"
   },
   {
    "slug": "vocab-n5-nigiyaka",
@@ -5153,7 +5167,8 @@
    "jlpt_level": "N5",
    "reading": "はち",
    "romaji": "hachi",
-   "mnemonic": "八: \"hatch\" — EIGHT eggs about to hatch."
+   "mnemonic": "八: \"hatch\" — EIGHT eggs about to hatch.",
+   "topic": "Numbers"
   },
   {
    "slug": "vocab-n5-hatsuka",
@@ -5433,7 +5448,8 @@
    "jlpt_level": "N5",
    "reading": "ひとつ",
    "romaji": "hitotsu",
-   "mnemonic": "一つ: \"he, tots\" — he has ONE tot."
+   "mnemonic": "一つ: \"he, tots\" — he has ONE tot.",
+   "topic": "Counters"
   },
   {
    "slug": "vocab-n5-hitori",
@@ -5447,7 +5463,8 @@
    "jlpt_level": "N5",
    "reading": "ひとり",
    "romaji": "hitori",
-   "mnemonic": "一人: ひとり — one person, ALONE. \"He, tory\" voting alone."
+   "mnemonic": "一人: ひとり — one person, ALONE. \"He, tory\" voting alone.",
+   "topic": "Counters"
   },
   {
    "slug": "vocab-n5-hima",
@@ -5475,7 +5492,8 @@
    "jlpt_level": "N5",
    "reading": "ひゃく",
    "romaji": "hyaku",
-   "mnemonic": "百: one 一 + white 白 — a HUNDRED. \"Hya!\" a hundred kicks."
+   "mnemonic": "百: one 一 + white 白 — a HUNDRED. \"Hya!\" a hundred kicks.",
+   "topic": "Numbers"
   },
   {
    "slug": "vocab-n5-hiragana",
@@ -5587,7 +5605,8 @@
    "jlpt_level": "N5",
    "reading": "ふたつ",
    "romaji": "futatsu",
-   "mnemonic": "二つ: \"foot tots\" — two little tots: TWO THINGS."
+   "mnemonic": "二つ: \"foot tots\" — two little tots: TWO THINGS.",
+   "topic": "Counters"
   },
   {
    "slug": "vocab-n5-butaniku",
@@ -5615,7 +5634,8 @@
    "jlpt_level": "N5",
    "reading": "ふたり",
    "romaji": "futari",
-   "mnemonic": "二人: \"foot tally\" — count the feet: TWO PEOPLE."
+   "mnemonic": "二人: \"foot tally\" — count the feet: TWO PEOPLE.",
+   "topic": "Counters"
   },
   {
    "slug": "vocab-n5-futsuka",
@@ -6133,7 +6153,8 @@
    "jlpt_level": "N5",
    "reading": "まん",
    "romaji": "man",
-   "mnemonic": "万: \"man\" — one MAN with TEN THOUSAND yen."
+   "mnemonic": "万: \"man\" — one MAN with TEN THOUSAND yen.",
+   "topic": "Numbers"
   },
   {
    "slug": "vocab-n5-mannenhitsu",
@@ -6217,7 +6238,8 @@
    "jlpt_level": "N5",
    "reading": "みっつ",
    "romaji": "mittsu",
-   "mnemonic": "三つ: \"mitts\" — THREE mitts."
+   "mnemonic": "三つ: \"mitts\" — THREE mitts.",
+   "topic": "Counters"
   },
   {
    "slug": "vocab-n5-minasan",
@@ -6301,7 +6323,8 @@
    "jlpt_level": "N5",
    "reading": "むっつ",
    "romaji": "muttsu",
-   "mnemonic": "六つ: \"mutts\" — SIX mutts."
+   "mnemonic": "六つ: \"mutts\" — SIX mutts.",
+   "topic": "Counters"
   },
   {
    "slug": "vocab-n5-mura",
@@ -6483,7 +6506,8 @@
    "jlpt_level": "N5",
    "reading": "やっつ",
    "romaji": "yattsu",
-   "mnemonic": "八つ: \"yachts\" — EIGHT yachts."
+   "mnemonic": "八つ: \"yachts\" — EIGHT yachts.",
+   "topic": "Counters"
   },
   {
    "slug": "vocab-n5-yaru",
@@ -6651,7 +6675,8 @@
    "jlpt_level": "N5",
    "reading": "よっつ",
    "romaji": "yottsu",
-   "mnemonic": "四つ: \"yachts\"? No — \"yots\": FOUR things."
+   "mnemonic": "四つ: \"yachts\"? No — \"yots\": FOUR things.",
+   "topic": "Counters"
   },
   {
    "slug": "vocab-n5-yobu",
@@ -6833,7 +6858,8 @@
    "jlpt_level": "N5",
    "reading": "ろく",
    "romaji": "roku",
-   "mnemonic": "六: \"rock\" — SIX rocks."
+   "mnemonic": "六: \"rock\" — SIX rocks.",
+   "topic": "Numbers"
   },
   {
    "slug": "vocab-n5-waishatsu",

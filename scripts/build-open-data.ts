@@ -22,6 +22,7 @@ import { toRomaji } from "wanakana";
 import { IMPORT_FORMAT_VERSION, parseImport } from "../src/lib/content/schema";
 import { annotateItems, createAnnotator, knownWordsFrom, type Annotate } from "./furigana-build";
 import { applyMnemonics, loadMnemonics } from "./mnemonics";
+import { applyMergeTopics, loadMerges } from "./merges";
 
 const LEVELS = ["N5", "N4", "N3", "N2"] as const;
 type Level = (typeof LEVELS)[number];
@@ -77,9 +78,10 @@ function withoutUnverified(tags: string[], add: string[]): string[] {
 }
 
 const MNEMONICS = loadMnemonics();
+const MERGES = loadMerges();
 
 function writePack(file: string, items: Item[], source: string, annotate: Annotate) {
-  const records = annotateItems(applyMnemonics(items, MNEMONICS), annotate);
+  const records = applyMergeTopics(annotateItems(applyMnemonics(items, MNEMONICS), annotate), MERGES);
   const doc = { version: IMPORT_FORMAT_VERSION, kind: "items", source, records };
   const parsed = parseImport(doc);
   if (parsed.issues.length) {

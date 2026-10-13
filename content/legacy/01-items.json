@@ -7253,86 +7253,6 @@
       ]
     },
     {
-      "slug": "word-oyasumi",
-      "type": "word",
-      "jlpt_level": "N5",
-      "term": "おやすみ",
-      "romaji": "oyasumi",
-      "meaning": "Good night",
-      "mnemonic": "Bedtime farewell",
-      "examples": [
-        {
-          "jp": "おやすみなさい",
-          "en": "Good night"
-        }
-      ],
-      "skill": "vocabulary",
-      "topic": "Greetings & Basics",
-      "tags": [
-        "level-unverified"
-      ]
-    },
-    {
-      "slug": "word-ichi",
-      "type": "word",
-      "jlpt_level": "N5",
-      "term": "いち",
-      "romaji": "ichi",
-      "meaning": "One",
-      "mnemonic": "First number",
-      "examples": [
-        {
-          "jp": "いち、に、さん",
-          "en": "One, two, three"
-        }
-      ],
-      "skill": "vocabulary",
-      "topic": "Numbers",
-      "tags": [
-        "level-unverified"
-      ]
-    },
-    {
-      "slug": "word-ni",
-      "type": "word",
-      "jlpt_level": "N5",
-      "term": "に",
-      "romaji": "ni",
-      "meaning": "Two",
-      "mnemonic": "Pair",
-      "examples": [
-        {
-          "jp": "にほん (Japan)",
-          "en": "Two / Japan"
-        }
-      ],
-      "skill": "vocabulary",
-      "topic": "Numbers",
-      "tags": [
-        "level-unverified"
-      ]
-    },
-    {
-      "slug": "word-san",
-      "type": "word",
-      "jlpt_level": "N5",
-      "term": "さん",
-      "romaji": "san",
-      "meaning": "Three",
-      "mnemonic": "Triangle has 3 sides",
-      "examples": [
-        {
-          "jp": "さんにん",
-          "en": "Three people"
-        }
-      ],
-      "skill": "vocabulary",
-      "topic": "Numbers",
-      "tags": [
-        "level-unverified"
-      ]
-    },
-    {
       "slug": "word-shi-yon",
       "type": "word",
       "jlpt_level": "N5",
@@ -7344,46 +7264,6 @@
         {
           "jp": "よんじゅう",
           "en": "Forty"
-        }
-      ],
-      "skill": "vocabulary",
-      "topic": "Numbers",
-      "tags": [
-        "level-unverified"
-      ]
-    },
-    {
-      "slug": "word-go",
-      "type": "word",
-      "jlpt_level": "N5",
-      "term": "ご",
-      "romaji": "go",
-      "meaning": "Five",
-      "mnemonic": "Five fingers",
-      "examples": [
-        {
-          "jp": "ごがつ",
-          "en": "May (month 5)"
-        }
-      ],
-      "skill": "vocabulary",
-      "topic": "Numbers",
-      "tags": [
-        "level-unverified"
-      ]
-    },
-    {
-      "slug": "word-roku",
-      "type": "word",
-      "jlpt_level": "N5",
-      "term": "ろく",
-      "romaji": "roku",
-      "meaning": "Six",
-      "mnemonic": "Six",
-      "examples": [
-        {
-          "jp": "ろくじ",
-          "en": "Six o'clock"
         }
       ],
       "skill": "vocabulary",
@@ -7413,26 +7293,6 @@
       ]
     },
     {
-      "slug": "word-hachi",
-      "type": "word",
-      "jlpt_level": "N5",
-      "term": "はち",
-      "romaji": "hachi",
-      "meaning": "Eight",
-      "mnemonic": "Eight",
-      "examples": [
-        {
-          "jp": "はちがつ",
-          "en": "August"
-        }
-      ],
-      "skill": "vocabulary",
-      "topic": "Numbers",
-      "tags": [
-        "level-unverified"
-      ]
-    },
-    {
       "slug": "word-kyuu-ku",
       "type": "word",
       "jlpt_level": "N5",
@@ -7444,86 +7304,6 @@
         {
           "jp": "きゅうじゅう",
           "en": "Ninety"
-        }
-      ],
-      "skill": "vocabulary",
-      "topic": "Numbers",
-      "tags": [
-        "level-unverified"
-      ]
-    },
-    {
-      "slug": "word-juu",
-      "type": "word",
-      "jlpt_level": "N5",
-      "term": "じゅう",
-      "romaji": "juu",
-      "meaning": "Ten",
-      "mnemonic": "Perfect ten",
-      "examples": [
-        {
-          "jp": "じゅうえん",
-          "en": "Ten yen"
-        }
-      ],
-      "skill": "vocabulary",
-      "topic": "Numbers",
-      "tags": [
-        "level-unverified"
-      ]
-    },
-    {
-      "slug": "word-hyaku",
-      "type": "word",
-      "jlpt_level": "N5",
-      "term": "ひゃく",
-      "romaji": "hyaku",
-      "meaning": "Hundred",
-      "mnemonic": "Century",
-      "examples": [
-        {
-          "jp": "ひゃくえん",
-          "en": "100 yen"
-        }
-      ],
-      "skill": "vocabulary",
-      "topic": "Numbers",
-      "tags": [
-        "level-unverified"
-      ]
-    },
-    {
-      "slug": "word-sen",
-      "type": "word",
-      "jlpt_level": "N5",
-      "term": "せん",
-      "romaji": "sen",
-      "meaning": "Thousand",
-      "mnemonic": "Grand",
-      "examples": [
-        {
-          "jp": "せんえん",
-          "en": "1000 yen"
-        }
-      ],
-      "skill": "vocabulary",
-      "topic": "Numbers",
-      "tags": [
-        "level-unverified"
-      ]
-    },
-    {
-      "slug": "word-man",
-      "type": "word",
-      "jlpt_level": "N5",
-      "term": "まん",
-      "romaji": "man",
-      "meaning": "Ten thousand",
-      "mnemonic": "Man = 10,000 in Japanese",
-      "examples": [
-        {
-          "jp": "いちまんえん",
-          "en": "10,000 yen"
         }
       ],
       "skill": "vocabulary",
@@ -8434,27 +8214,6 @@
       ]
     },
     {
-      "slug": "word-kawaii",
-      "type": "word",
-      "jlpt_level": "N5",
-      "term": "かわいい",
-      "romaji": "kawaii",
-      "meaning": "Cute",
-      "mnemonic": "Adorable / pretty",
-      "examples": [
-        {
-          "jp": "かわいい猫",
-          "en": "Cute cat",
-          "reading": "かわいい[猫|ねこ]"
-        }
-      ],
-      "skill": "vocabulary",
-      "topic": "Colors & Appearance",
-      "tags": [
-        "level-unverified"
-      ]
-    },
-    {
       "slug": "word-kakkoii",
       "type": "word",
       "jlpt_level": "N5",
@@ -8518,27 +8277,6 @@
       ]
     },
     {
-      "slug": "word-gohan",
-      "type": "word",
-      "jlpt_level": "N5",
-      "term": "ごはん",
-      "romaji": "gohan",
-      "meaning": "Rice / Meal",
-      "mnemonic": "Staple food",
-      "examples": [
-        {
-          "jp": "ごはんを食べる",
-          "en": "Eat a meal",
-          "reading": "ごはんを[食|た]べる"
-        }
-      ],
-      "skill": "vocabulary",
-      "topic": "Food & Drink",
-      "tags": [
-        "level-unverified"
-      ]
-    },
-    {
       "slug": "word-pan",
       "type": "word",
       "jlpt_level": "N5",
@@ -8551,27 +8289,6 @@
           "jp": "パンを買う",
           "en": "Buy bread",
           "reading": "パンを[買|か]う"
-        }
-      ],
-      "skill": "vocabulary",
-      "topic": "Food & Drink",
-      "tags": [
-        "level-unverified"
-      ]
-    },
-    {
-      "slug": "word-tamago",
-      "type": "word",
-      "jlpt_level": "N5",
-      "term": "たまご",
-      "romaji": "tamago",
-      "meaning": "Egg",
-      "mnemonic": "Round and fragile",
-      "examples": [
-        {
-          "jp": "たまごを割る",
-          "en": "Break an egg",
-          "reading": "たまごを[割|われ]る"
         }
       ],
       "skill": "vocabulary",
@@ -15483,27 +15200,6 @@
       ]
     },
     {
-      "slug": "word-nori",
-      "type": "word",
-      "jlpt_level": "N5",
-      "term": "のり",
-      "romaji": "nori",
-      "meaning": "Glue",
-      "mnemonic": "Adhesive",
-      "examples": [
-        {
-          "jp": "のりで貼る",
-          "en": "Stick with glue",
-          "reading": "のりで[貼|は]る"
-        }
-      ],
-      "skill": "vocabulary",
-      "topic": "Tech & Stationery",
-      "tags": [
-        "level-unverified"
-      ]
-    },
-    {
       "slug": "word-kaban",
       "type": "word",
       "jlpt_level": "N5",
@@ -16698,27 +16394,6 @@
       ]
     },
     {
-      "slug": "word-choudo",
-      "type": "word",
-      "jlpt_level": "N5",
-      "term": "ちょうど",
-      "romaji": "choudo",
-      "meaning": "Exactly / Sharp",
-      "mnemonic": "Precise time",
-      "examples": [
-        {
-          "jp": "三時ちょうど",
-          "en": "Exactly 3 o'clock",
-          "reading": "[三|さん][時|じ]ちょうど"
-        }
-      ],
-      "skill": "vocabulary",
-      "topic": "Time & Calendar",
-      "tags": [
-        "level-unverified"
-      ]
-    },
-    {
       "slug": "word-nichiyoubi",
       "type": "word",
       "jlpt_level": "N5",
@@ -17306,193 +16981,6 @@
       ]
     },
     {
-      "slug": "word-hitotsu",
-      "type": "word",
-      "jlpt_level": "N5",
-      "term": "ひとつ",
-      "romaji": "hitotsu",
-      "meaning": "One thing",
-      "mnemonic": "Old Japanese: ひとつ",
-      "examples": [
-        {
-          "jp": "ひとつください",
-          "en": "One please"
-        }
-      ],
-      "skill": "vocabulary",
-      "topic": "Counters",
-      "tags": [
-        "level-unverified"
-      ]
-    },
-    {
-      "slug": "word-futatsu",
-      "type": "word",
-      "jlpt_level": "N5",
-      "term": "ふたつ",
-      "romaji": "futatsu",
-      "meaning": "Two things",
-      "mnemonic": "Old Japanese: ふたつ",
-      "examples": [
-        {
-          "jp": "ふたつ買う",
-          "en": "Buy two",
-          "reading": "ふたつ[買|か]う"
-        }
-      ],
-      "skill": "vocabulary",
-      "topic": "Counters",
-      "tags": [
-        "level-unverified"
-      ]
-    },
-    {
-      "slug": "word-mittsu",
-      "type": "word",
-      "jlpt_level": "N5",
-      "term": "みっつ",
-      "romaji": "mittsu",
-      "meaning": "Three things",
-      "mnemonic": "Old Japanese: みっつ",
-      "examples": [
-        {
-          "jp": "みっつ取る",
-          "en": "Take three",
-          "reading": "みっつ[取|と]る"
-        }
-      ],
-      "skill": "vocabulary",
-      "topic": "Counters",
-      "tags": [
-        "level-unverified"
-      ]
-    },
-    {
-      "slug": "word-yottsu",
-      "type": "word",
-      "jlpt_level": "N5",
-      "term": "よっつ",
-      "romaji": "yottsu",
-      "meaning": "Four things",
-      "mnemonic": "Old Japanese: よっつ",
-      "examples": [
-        {
-          "jp": "よっつ食べる",
-          "en": "Eat four",
-          "reading": "よっつ[食|た]べる"
-        }
-      ],
-      "skill": "vocabulary",
-      "topic": "Counters",
-      "tags": [
-        "level-unverified"
-      ]
-    },
-    {
-      "slug": "word-itsutsu",
-      "type": "word",
-      "jlpt_level": "N5",
-      "term": "いつつ",
-      "romaji": "itsutsu",
-      "meaning": "Five things",
-      "mnemonic": "Old Japanese: いつつ",
-      "examples": [
-        {
-          "jp": "いつつある",
-          "en": "There are five"
-        }
-      ],
-      "skill": "vocabulary",
-      "topic": "Counters",
-      "tags": [
-        "level-unverified"
-      ]
-    },
-    {
-      "slug": "word-muttsu",
-      "type": "word",
-      "jlpt_level": "N5",
-      "term": "むっつ",
-      "romaji": "muttsu",
-      "meaning": "Six things",
-      "mnemonic": "Old Japanese: むっつ",
-      "examples": [
-        {
-          "jp": "むっつ並べる",
-          "en": "Line up six",
-          "reading": "むっつ[並|なら]べる"
-        }
-      ],
-      "skill": "vocabulary",
-      "topic": "Counters",
-      "tags": [
-        "level-unverified"
-      ]
-    },
-    {
-      "slug": "word-nanatsu",
-      "type": "word",
-      "jlpt_level": "N5",
-      "term": "ななつ",
-      "romaji": "nanatsu",
-      "meaning": "Seven things",
-      "mnemonic": "Old Japanese: ななつ",
-      "examples": [
-        {
-          "jp": "ななつ選ぶ",
-          "en": "Choose seven",
-          "reading": "ななつ[選|えら]ぶ"
-        }
-      ],
-      "skill": "vocabulary",
-      "topic": "Counters",
-      "tags": [
-        "level-unverified"
-      ]
-    },
-    {
-      "slug": "word-yattsu",
-      "type": "word",
-      "jlpt_level": "N5",
-      "term": "やっつ",
-      "romaji": "yattsu",
-      "meaning": "Eight things",
-      "mnemonic": "Old Japanese: やっつ",
-      "examples": [
-        {
-          "jp": "やっつ集める",
-          "en": "Collect eight",
-          "reading": "やっつ[集|あつ]める"
-        }
-      ],
-      "skill": "vocabulary",
-      "topic": "Counters",
-      "tags": [
-        "level-unverified"
-      ]
-    },
-    {
-      "slug": "word-kokonotsu",
-      "type": "word",
-      "jlpt_level": "N5",
-      "term": "ここのつ",
-      "romaji": "kokonotsu",
-      "meaning": "Nine things",
-      "mnemonic": "Old Japanese: ここのつ",
-      "examples": [
-        {
-          "jp": "ここのつ残る",
-          "en": "Nine remain",
-          "reading": "ここのつ[残|のこ]る"
-        }
-      ],
-      "skill": "vocabulary",
-      "topic": "Counters",
-      "tags": [
-        "level-unverified"
-      ]
-    },
-    {
       "slug": "word-hon-bon-pon",
       "type": "word",
       "jlpt_level": "N5",
@@ -17757,48 +17245,6 @@
           "jp": "三人家族",
           "en": "Family of three",
           "reading": "[三|さん][人|にん][家族|かぞく]"
-        }
-      ],
-      "skill": "vocabulary",
-      "topic": "Counters",
-      "tags": [
-        "level-unverified"
-      ]
-    },
-    {
-      "slug": "word-hitori",
-      "type": "word",
-      "jlpt_level": "N5",
-      "term": "ひとり",
-      "romaji": "hitori",
-      "meaning": "One person",
-      "mnemonic": "ひとり — irregular!",
-      "examples": [
-        {
-          "jp": "一人で行く",
-          "en": "Go alone",
-          "reading": "[一人|ひとり]で[行|い]く"
-        }
-      ],
-      "skill": "vocabulary",
-      "topic": "Counters",
-      "tags": [
-        "level-unverified"
-      ]
-    },
-    {
-      "slug": "word-futari",
-      "type": "word",
-      "jlpt_level": "N5",
-      "term": "ふたり",
-      "romaji": "futari",
-      "meaning": "Two people",
-      "mnemonic": "ふたり — irregular!",
-      "examples": [
-        {
-          "jp": "二人でデート",
-          "en": "Date for two",
-          "reading": "[二人|ふたり]でデート"
         }
       ],
       "skill": "vocabulary",
@@ -18990,26 +18436,6 @@
           "jp": "果物が甘い (kudamono ga amai)",
           "en": "Fruit is sweet",
           "reading": "[果物|くだもの]が[甘|あま]い (kudamono ga amai)"
-        }
-      ],
-      "skill": "vocabulary",
-      "topic": "Words",
-      "tags": [
-        "level-unverified"
-      ]
-    },
-    {
-      "slug": "word-oishii",
-      "type": "word",
-      "jlpt_level": "N5",
-      "term": "おいしい",
-      "romaji": "oishii",
-      "meaning": "Delicious",
-      "mnemonic": "Tastes great",
-      "examples": [
-        {
-          "jp": "これはおいしい",
-          "en": "This is delicious"
         }
       ],
       "skill": "vocabulary",

@@ -1,0 +1,229 @@
+{
+ "note": "Old-app topic words written in kana that duplicate an open-data word spelled in kanji. port-legacy drops `from`; build-open-data gives `to` the topic.",
+ "merges": [
+  {
+   "from": "word-oyasumi",
+   "from_term": "おやすみ",
+   "to": "vocab-n2-oyasumi",
+   "to_term": "お休み",
+   "topic": "Greetings & Basics",
+   "meaning": "Good night"
+  },
+  {
+   "from": "word-ichi",
+   "from_term": "いち",
+   "to": "vocab-n5-ichi",
+   "to_term": "一",
+   "topic": "Numbers",
+   "meaning": "One"
+  },
+  {
+   "from": "word-ni",
+   "from_term": "に",
+   "to": "vocab-n5-ni",
+   "to_term": "二",
+   "topic": "Numbers",
+   "meaning": "Two"
+  },
+  {
+   "from": "word-san",
+   "from_term": "さん",
+   "to": "vocab-n5-san-2",
+   "to_term": "三",
+   "topic": "Numbers",
+   "meaning": "Three"
+  },
+  {
+   "from": "word-go",
+   "from_term": "ご",
+   "to": "vocab-n5-go",
+   "to_term": "五",
+   "topic": "Numbers",
+   "meaning": "Five"
+  },
+  {
+   "from": "word-roku",
+   "from_term": "ろく",
+   "to": "vocab-n5-roku",
+   "to_term": "六",
+   "topic": "Numbers",
+   "meaning": "Six"
+  },
+  {
+   "from": "word-hachi",
+   "from_term": "はち",
+   "to": "vocab-n5-hachi",
+   "to_term": "八",
+   "topic": "Numbers",
+   "meaning": "Eight"
+  },
+  {
+   "from": "word-juu",
+   "from_term": "じゅう",
+   "to": "vocab-n5-juu",
+   "to_term": "十",
+   "topic": "Numbers",
+   "meaning": "Ten"
+  },
+  {
+   "from": "word-hyaku",
+   "from_term": "ひゃく",
+   "to": "vocab-n5-hyaku",
+   "to_term": "百",
+   "topic": "Numbers",
+   "meaning": "Hundred"
+  },
+  {
+   "from": "word-sen",
+   "from_term": "せん",
+   "to": "vocab-n5-sen",
+   "to_term": "千",
+   "topic": "Numbers",
+   "meaning": "Thousand"
+  },
+  {
+   "from": "word-man",
+   "from_term": "まん",
+   "to": "vocab-n5-man",
+   "to_term": "万",
+   "topic": "Numbers",
+   "meaning": "Ten thousand"
+  },
+  {
+   "from": "word-kawaii",
+   "from_term": "かわいい",
+   "to": "vocab-n5-kawaii",
+   "to_term": "可愛い",
+   "topic": "Colors & Appearance",
+   "meaning": "Cute"
+  },
+  {
+   "from": "word-gohan",
+   "from_term": "ごはん",
+   "to": "vocab-n5-gohan",
+   "to_term": "御飯",
+   "topic": "Food & Drink",
+   "meaning": "Rice / Meal"
+  },
+  {
+   "from": "word-tamago",
+   "from_term": "たまご",
+   "to": "vocab-n5-tamago",
+   "to_term": "卵",
+   "topic": "Food & Drink",
+   "meaning": "Egg"
+  },
+  {
+   "from": "word-nori",
+   "from_term": "のり",
+   "to": "vocab-n2-nori",
+   "to_term": "糊",
+   "topic": "Tech & Stationery",
+   "meaning": "Glue"
+  },
+  {
+   "from": "word-choudo",
+   "from_term": "ちょうど",
+   "to": "vocab-n5-choudo",
+   "to_term": "丁度",
+   "topic": "Time & Calendar",
+   "meaning": "Exactly / Sharp"
+  },
+  {
+   "from": "word-hitotsu",
+   "from_term": "ひとつ",
+   "to": "vocab-n5-hitotsu",
+   "to_term": "一つ",
+   "topic": "Counters",
+   "meaning": "One thing"
+  },
+  {
+   "from": "word-futatsu",
+   "from_term": "ふたつ",
+   "to": "vocab-n5-futatsu",
+   "to_term": "二つ",
+   "topic": "Counters",
+   "meaning": "Two things"
+  },
+  {
+   "from": "word-mittsu",
+   "from_term": "みっつ",
+   "to": "vocab-n5-mittsu",
+   "to_term": "三つ",
+   "topic": "Counters",
+   "meaning": "Three things"
+  },
+  {
+   "from": "word-yottsu",
+   "from_term": "よっつ",
+   "to": "vocab-n5-yottsu",
+   "to_term": "四つ",
+   "topic": "Counters",
+   "meaning": "Four things"
+  },
+  {
+   "from": "word-itsutsu",
+   "from_term": "いつつ",
+   "to": "vocab-n5-itsutsu",
+   "to_term": "五つ",
+   "topic": "Counters",
+   "meaning": "Five things"
+  },
+  {
+   "from": "word-muttsu",
+   "from_term": "むっつ",
+   "to": "vocab-n5-muttsu",
+   "to_term": "六つ",
+   "topic": "Counters",
+   "meaning": "Six things"
+  },
+  {
+   "from": "word-nanatsu",
+   "from_term": "ななつ",
+   "to": "vocab-n5-nanatsu",
+   "to_term": "七つ",
+   "topic": "Counters",
+   "meaning": "Seven things"
+  },
+  {
+   "from": "word-yattsu",
+   "from_term": "やっつ",
+   "to": "vocab-n5-yattsu",
+   "to_term": "八つ",
+   "topic": "Counters",
+   "meaning": "Eight things"
+  },
+  {
+   "from": "word-kokonotsu",
+   "from_term": "ここのつ",
+   "to": "vocab-n5-kokonotsu",
+   "to_term": "九つ",
+   "topic": "Counters",
+   "meaning": "Nine things"
+  },
+  {
+   "from": "word-hitori",
+   "from_term": "ひとり",
+   "to": "vocab-n5-hitori",
+   "to_term": "一人",
+   "topic": "Counters",
+   "meaning": "One person"
+  },
+  {
+   "from": "word-futari",
+   "from_term": "ふたり",
+   "to": "vocab-n5-futari",
+   "to_term": "二人",
+   "topic": "Counters",
+   "meaning": "Two people"
+  },
+  {
+   "from": "word-oishii",
+   "from_term": "おいしい",
+   "to": "vocab-n5-oishii",
+   "to_term": "美味しい",
+   "topic": "Words",
+   "meaning": "Delicious"
+  }
+ ]
+}

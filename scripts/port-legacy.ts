@@ -17,6 +17,7 @@ import { pathToFileURL } from "node:url";
 import { IMPORT_FORMAT_VERSION, parseImport, type ContentKind } from "../src/lib/content/schema";
 import { annotateItems, createAnnotator, knownWordsFrom } from "./furigana-build";
 import { applyMnemonics, loadMnemonics } from "./mnemonics";
+import { dropMerged, loadMerges } from "./merges";
 
 const LEGACY_REF = process.env.LEGACY_REF ?? "origin/legacy";
 const OUT_DIR = join(process.cwd(), "content", "legacy");
@@ -407,7 +408,7 @@ async function main() {
 
   const built = buildItems(data) as (Record<string, unknown> & { slug: string; type: string; term: string })[];
   const annotate = await createAnnotator(knownWordsFrom(built));
-  const items = annotateItems(applyMnemonics(built, loadMnemonics()), annotate);
+  const items = dropMerged(annotateItems(applyMnemonics(built, loadMnemonics()), annotate), loadMerges());
   const practice = buildPracticeQuestions(data.grammar.ALL_GRAMMAR);
   const mocks = buildMocks(data.content.MOCK_QUESTIONS, data.content.JLPT_META);
   const patterns = buildPatterns(data.modules.SENTENCE_PATTERNS);
