@@ -1,0 +1,512 @@
+{
+  "version": 1,
+  "kind": "sentence_patterns",
+  "source": "legacy-nihongo",
+  "records": [
+    {
+      "slug": "pattern-basic-identity",
+      "jlpt_level": "N5",
+      "title": "Basic Identity — Aは Bです",
+      "english": "A is B.",
+      "template": [
+        {
+          "text": "わたし",
+          "slot": "noun",
+          "romaji": "watashi",
+          "label": "Subject (I)"
+        },
+        {
+          "text": "は",
+          "romaji": "wa",
+          "label": "Topic marker"
+        },
+        {
+          "text": "学生",
+          "slot": "noun",
+          "romaji": "gakusei",
+          "label": "Noun (student)"
+        },
+        {
+          "text": "です",
+          "romaji": "desu",
+          "label": "Copula (am/is)"
+        },
+        {
+          "text": "か",
+          "romaji": "ka",
+          "label": "Question marker"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "わたしは学生ですか",
+          "en": "A is B."
+        }
+      ],
+      "notes": "は (wa) marks the topic. です (desu) = am/is/are. Add か at end for question."
+    },
+    {
+      "slug": "pattern-basic-action",
+      "jlpt_level": "N5",
+      "title": "Basic Action — Subject が Object を Verb",
+      "english": "I eat sushi.",
+      "template": [
+        {
+          "text": "わたし",
+          "slot": "noun",
+          "romaji": "watashi",
+          "label": "Subject"
+        },
+        {
+          "text": "は",
+          "romaji": "wa",
+          "label": "Topic marker"
+        },
+        {
+          "text": "すし",
+          "slot": "noun",
+          "romaji": "sushi",
+          "label": "Object"
+        },
+        {
+          "text": "を",
+          "romaji": "wo",
+          "label": "Object marker"
+        },
+        {
+          "text": "食べます",
+          "slot": "verb-masu",
+          "romaji": "tabemasu",
+          "label": "Verb (eat)"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "わたしはすしを食べます",
+          "en": "I eat sushi."
+        }
+      ],
+      "notes": "を (wo) marks the direct object. Verb always comes at the END in Japanese."
+    },
+    {
+      "slug": "pattern-location",
+      "jlpt_level": "N5",
+      "title": "Location — Place で Action",
+      "english": "I study at school.",
+      "template": [
+        {
+          "text": "わたし",
+          "slot": "noun",
+          "romaji": "watashi",
+          "label": "Subject"
+        },
+        {
+          "text": "は",
+          "romaji": "wa",
+          "label": "Topic marker"
+        },
+        {
+          "text": "学校",
+          "slot": "place",
+          "romaji": "gakkou",
+          "label": "Place (school)"
+        },
+        {
+          "text": "で",
+          "romaji": "de",
+          "label": "Location of action"
+        },
+        {
+          "text": "勉強します",
+          "slot": "verb-masu",
+          "romaji": "benkyou shimasu",
+          "label": "Verb (study)"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "わたしは学校で勉強します",
+          "en": "I study at school."
+        }
+      ],
+      "notes": "で (de) = at/in (location of action). Different from に!"
+    },
+    {
+      "slug": "pattern-destination",
+      "jlpt_level": "N5",
+      "title": "Destination — Place に行く",
+      "english": "I go to Japan.",
+      "template": [
+        {
+          "text": "わたし",
+          "slot": "noun",
+          "romaji": "watashi",
+          "label": "Subject"
+        },
+        {
+          "text": "は",
+          "romaji": "wa",
+          "label": "Topic marker"
+        },
+        {
+          "text": "日本",
+          "slot": "place",
+          "romaji": "nihon",
+          "label": "Destination"
+        },
+        {
+          "text": "に",
+          "romaji": "ni",
+          "label": "Direction marker"
+        },
+        {
+          "text": "行きます",
+          "slot": "verb-masu",
+          "romaji": "ikimasu",
+          "label": "Verb (go)"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "わたしは日本に行きます",
+          "en": "I go to Japan."
+        }
+      ],
+      "notes": "に (ni) = to/toward (destination). Also used for time: 三時に = at 3."
+    },
+    {
+      "slug": "pattern-with-time",
+      "jlpt_level": "N5",
+      "title": "With Time — 毎日 Subject Verb",
+      "english": "I study Japanese every day.",
+      "template": [
+        {
+          "text": "毎日",
+          "slot": "time",
+          "romaji": "mainichi",
+          "label": "Time (every day)"
+        },
+        {
+          "text": "わたし",
+          "slot": "noun",
+          "romaji": "watashi",
+          "label": "Subject"
+        },
+        {
+          "text": "は",
+          "romaji": "wa",
+          "label": "Topic marker"
+        },
+        {
+          "text": "日本語",
+          "slot": "noun",
+          "romaji": "nihongo",
+          "label": "Object (Japanese)"
+        },
+        {
+          "text": "を",
+          "romaji": "wo",
+          "label": "Object marker"
+        },
+        {
+          "text": "勉強します",
+          "slot": "verb-masu",
+          "romaji": "benkyou shimasu",
+          "label": "Verb (study)"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "毎日わたしは日本語を勉強します",
+          "en": "I study Japanese every day."
+        }
+      ],
+      "notes": "Time expressions usually come first or after the topic. Order: Time → Place → Object → Verb."
+    },
+    {
+      "slug": "pattern-adjective-noun",
+      "jlpt_level": "N5",
+      "title": "Adjective + Noun",
+      "english": "A big dog.",
+      "template": [
+        {
+          "text": "大きい",
+          "slot": "i-adj",
+          "romaji": "ookii",
+          "label": "い-adjective"
+        },
+        {
+          "text": "犬",
+          "slot": "noun",
+          "romaji": "inu",
+          "label": "Noun (dog)"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "大きい犬",
+          "en": "A big dog."
+        }
+      ],
+      "notes": "い-adjectives come BEFORE the noun directly. No connector needed!"
+    },
+    {
+      "slug": "pattern-adjective-sentence",
+      "jlpt_level": "N5",
+      "title": "Adjective Sentence",
+      "english": "Tokyo is big.",
+      "template": [
+        {
+          "text": "東京",
+          "slot": "noun",
+          "romaji": "toukyou",
+          "label": "Topic"
+        },
+        {
+          "text": "は",
+          "romaji": "wa",
+          "label": "Topic marker"
+        },
+        {
+          "text": "大きい",
+          "slot": "i-adj",
+          "romaji": "ookii",
+          "label": "い-adjective"
+        },
+        {
+          "text": "です",
+          "romaji": "desu",
+          "label": "Polite ending"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "東京は大きいです",
+          "en": "Tokyo is big."
+        }
+      ],
+      "notes": "Topic は + adjective + です. For な-adjectives add な before nouns: きれいな花."
+    },
+    {
+      "slug": "pattern-possession",
+      "jlpt_level": "N5",
+      "title": "Possession — の (no)",
+      "english": "This is my book.",
+      "template": [
+        {
+          "text": "これ",
+          "slot": "noun",
+          "romaji": "kore",
+          "label": "Subject (this)"
+        },
+        {
+          "text": "は",
+          "romaji": "wa",
+          "label": "Topic marker"
+        },
+        {
+          "text": "わたし",
+          "slot": "noun",
+          "romaji": "watashi",
+          "label": "Owner (I/my)"
+        },
+        {
+          "text": "の",
+          "romaji": "no",
+          "label": "Possessive の"
+        },
+        {
+          "text": "本",
+          "slot": "noun",
+          "romaji": "hon",
+          "label": "Noun (book)"
+        },
+        {
+          "text": "です",
+          "romaji": "desu",
+          "label": "Copula"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "これはわたしの本です",
+          "en": "This is my book."
+        }
+      ],
+      "notes": "の (no) = 's (possessive). わたしの本 = my book. 日本の食べ物 = Japanese food."
+    },
+    {
+      "slug": "pattern-negative",
+      "jlpt_level": "N5",
+      "title": "Negative Sentence",
+      "english": "I don't eat meat.",
+      "template": [
+        {
+          "text": "わたし",
+          "slot": "noun",
+          "romaji": "watashi",
+          "label": "Subject"
+        },
+        {
+          "text": "は",
+          "romaji": "wa",
+          "label": "Topic marker"
+        },
+        {
+          "text": "肉",
+          "slot": "noun",
+          "romaji": "niku",
+          "label": "Object (meat)"
+        },
+        {
+          "text": "を",
+          "romaji": "wo",
+          "label": "Object marker"
+        },
+        {
+          "text": "食べません",
+          "slot": "verb-masu",
+          "romaji": "tabemasen",
+          "label": "Negative verb"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "わたしは肉を食べません",
+          "en": "I don't eat meat."
+        }
+      ],
+      "notes": "ます (masu) → ません (masen) for negative. です → ではありません."
+    },
+    {
+      "slug": "pattern-past-tense",
+      "jlpt_level": "N5",
+      "title": "Past Tense",
+      "english": "I ate sushi yesterday.",
+      "template": [
+        {
+          "text": "昨日",
+          "slot": "time",
+          "romaji": "kinou",
+          "label": "Time (yesterday)"
+        },
+        {
+          "text": "わたし",
+          "slot": "noun",
+          "romaji": "watashi",
+          "label": "Subject"
+        },
+        {
+          "text": "は",
+          "romaji": "wa",
+          "label": "Topic marker"
+        },
+        {
+          "text": "すし",
+          "slot": "noun",
+          "romaji": "sushi",
+          "label": "Object"
+        },
+        {
+          "text": "を",
+          "romaji": "wo",
+          "label": "Object marker"
+        },
+        {
+          "text": "食べました",
+          "slot": "verb-masu",
+          "romaji": "tabemashita",
+          "label": "Past verb"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "昨日わたしはすしを食べました",
+          "en": "I ate sushi yesterday."
+        }
+      ],
+      "notes": "ます → ました for past tense. ません → ませんでした for past negative."
+    },
+    {
+      "slug": "pattern-te-form",
+      "jlpt_level": "N5",
+      "title": "て-form — Connecting Actions",
+      "english": "I woke up, ate, and left.",
+      "template": [
+        {
+          "text": "起きて",
+          "slot": "verb-te",
+          "romaji": "okite",
+          "label": "て-form (wake)"
+        },
+        {
+          "text": "食べて",
+          "slot": "verb-te",
+          "romaji": "tabete",
+          "label": "て-form (eat)"
+        },
+        {
+          "text": "出かけました",
+          "slot": "verb-masu",
+          "romaji": "dekakemashita",
+          "label": "Final verb (left)"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "起きて食べて出かけました",
+          "en": "I woke up, ate, and left."
+        }
+      ],
+      "notes": "て-form connects sequential actions. Change ます → て to link verbs."
+    },
+    {
+      "slug": "pattern-want-to",
+      "jlpt_level": "N5",
+      "title": "Want to — 〜たい",
+      "english": "I want to go to Japan.",
+      "template": [
+        {
+          "text": "わたし",
+          "slot": "noun",
+          "romaji": "watashi",
+          "label": "Subject"
+        },
+        {
+          "text": "は",
+          "romaji": "wa",
+          "label": "Topic marker"
+        },
+        {
+          "text": "日本",
+          "slot": "place",
+          "romaji": "nihon",
+          "label": "Destination"
+        },
+        {
+          "text": "に",
+          "romaji": "ni",
+          "label": "Direction particle"
+        },
+        {
+          "text": "行きたい",
+          "slot": "verb-masu",
+          "romaji": "ikitai",
+          "label": "〜たい (want to)"
+        },
+        {
+          "text": "です",
+          "romaji": "desu",
+          "label": "Polite ending"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "わたしは日本に行きたいです",
+          "en": "I want to go to Japan."
+        }
+      ],
+      "notes": "Remove ます from verb, add たいです. いきます → いきたいです = want to go."
+    }
+  ]
+}

@@ -1,0 +1,1357 @@
+{
+  "version": 1,
+  "kind": "questions",
+  "source": "legacy-nihongo",
+  "records": [
+    {
+      "slug": "mock-legacy-n5-01",
+      "mock_test_slug": "mock-legacy-n5",
+      "position": 1,
+      "jlpt_level": "N5",
+      "section": "vocabulary",
+      "prompt": "What does 「水」(mizu) mean?",
+      "options": [
+        "Fire",
+        "Water",
+        "Earth",
+        "Wind"
+      ],
+      "answer": 1
+    },
+    {
+      "slug": "mock-legacy-n5-02",
+      "mock_test_slug": "mock-legacy-n5",
+      "position": 2,
+      "jlpt_level": "N5",
+      "section": "vocabulary",
+      "prompt": "What does 「山」(yama) mean?",
+      "options": [
+        "River",
+        "Sea",
+        "Mountain",
+        "Forest"
+      ],
+      "answer": 2
+    },
+    {
+      "slug": "mock-legacy-n5-03",
+      "mock_test_slug": "mock-legacy-n5",
+      "position": 3,
+      "jlpt_level": "N5",
+      "section": "vocabulary",
+      "prompt": "How do you say \"dog\" in Japanese?",
+      "options": [
+        "ねこ",
+        "いぬ",
+        "とり",
+        "さかな"
+      ],
+      "answer": 1
+    },
+    {
+      "slug": "mock-legacy-n5-04",
+      "mock_test_slug": "mock-legacy-n5",
+      "position": 4,
+      "jlpt_level": "N5",
+      "section": "vocabulary",
+      "prompt": "What does「大きい」(ookii) mean?",
+      "options": [
+        "Small",
+        "Fast",
+        "Big/Large",
+        "Pretty"
+      ],
+      "answer": 2
+    },
+    {
+      "slug": "mock-legacy-n5-05",
+      "mock_test_slug": "mock-legacy-n5",
+      "position": 5,
+      "jlpt_level": "N5",
+      "section": "vocabulary",
+      "prompt": "What does「右」(migi) mean?",
+      "options": [
+        "Left",
+        "Right",
+        "Up",
+        "Down"
+      ],
+      "answer": 1
+    },
+    {
+      "slug": "mock-legacy-n5-06",
+      "mock_test_slug": "mock-legacy-n5",
+      "position": 6,
+      "jlpt_level": "N5",
+      "section": "grammar",
+      "prompt": "Fill in the blank: わたし＿がくせいです。",
+      "options": [
+        "は",
+        "が",
+        "を",
+        "に"
+      ],
+      "answer": 0
+    },
+    {
+      "slug": "mock-legacy-n5-07",
+      "mock_test_slug": "mock-legacy-n5",
+      "position": 7,
+      "jlpt_level": "N5",
+      "section": "grammar",
+      "prompt": "Fill in the blank: これ＿ほんです。",
+      "options": [
+        "に",
+        "を",
+        "は",
+        "と"
+      ],
+      "answer": 2
+    },
+    {
+      "slug": "mock-legacy-n5-08",
+      "mock_test_slug": "mock-legacy-n5",
+      "position": 8,
+      "jlpt_level": "N5",
+      "section": "grammar",
+      "prompt": "Choose the correct particle: がっこう＿いきます。",
+      "options": [
+        "に",
+        "で",
+        "を",
+        "は"
+      ],
+      "answer": 0
+    },
+    {
+      "slug": "mock-legacy-n5-09",
+      "mock_test_slug": "mock-legacy-n5",
+      "position": 9,
+      "jlpt_level": "N5",
+      "section": "reading",
+      "prompt": "「今日はいいてんきですね」means:",
+      "options": [
+        "Today is cold",
+        "Today is good weather",
+        "Today is rainy",
+        "Today is hot"
+      ],
+      "answer": 1
+    },
+    {
+      "slug": "mock-legacy-n5-10",
+      "mock_test_slug": "mock-legacy-n5",
+      "position": 10,
+      "jlpt_level": "N5",
+      "section": "listening",
+      "prompt": "You hear「おはようございます」. What time of day is it?",
+      "options": [
+        "Evening",
+        "Afternoon",
+        "Morning",
+        "Night"
+      ],
+      "answer": 2,
+      "explanation": "Ported from the old app; needs an audio clip before going live."
+    },
+    {
+      "slug": "mock-legacy-n4-01",
+      "mock_test_slug": "mock-legacy-n4",
+      "position": 1,
+      "jlpt_level": "N4",
+      "section": "vocabulary",
+      "prompt": "What does「電話」(denwa) mean?",
+      "options": [
+        "Television",
+        "Telephone",
+        "Computer",
+        "Radio"
+      ],
+      "answer": 1
+    },
+    {
+      "slug": "mock-legacy-n4-02",
+      "mock_test_slug": "mock-legacy-n4",
+      "position": 2,
+      "jlpt_level": "N4",
+      "section": "vocabulary",
+      "prompt": "What does「来週」(raishuu) mean?",
+      "options": [
+        "Last week",
+        "This week",
+        "Next week",
+        "Every week"
+      ],
+      "answer": 2
+    },
+    {
+      "slug": "mock-legacy-n4-03",
+      "mock_test_slug": "mock-legacy-n4",
+      "position": 3,
+      "jlpt_level": "N4",
+      "section": "vocabulary",
+      "prompt": "What does「図書館」(toshokan) mean?",
+      "options": [
+        "Hospital",
+        "School",
+        "Library",
+        "Office"
+      ],
+      "answer": 2
+    },
+    {
+      "slug": "mock-legacy-n4-04",
+      "mock_test_slug": "mock-legacy-n4",
+      "position": 4,
+      "jlpt_level": "N4",
+      "section": "vocabulary",
+      "prompt": "What does「電車」(densha) mean?",
+      "options": [
+        "Bus",
+        "Train",
+        "Taxi",
+        "Bicycle"
+      ],
+      "answer": 1
+    },
+    {
+      "slug": "mock-legacy-n4-05",
+      "mock_test_slug": "mock-legacy-n4",
+      "position": 5,
+      "jlpt_level": "N4",
+      "section": "grammar",
+      "prompt": "How do you say \"I must go\"?",
+      "options": [
+        "いかなければなりません",
+        "いきたいです",
+        "いきましょう",
+        "いきません"
+      ],
+      "answer": 0
+    },
+    {
+      "slug": "mock-legacy-n4-06",
+      "mock_test_slug": "mock-legacy-n4",
+      "position": 6,
+      "jlpt_level": "N4",
+      "section": "grammar",
+      "prompt": "Choose the correct form: もっと＿ほしいです。",
+      "options": [
+        "食べ",
+        "食べて",
+        "食べたい",
+        "食べた"
+      ],
+      "answer": 2
+    },
+    {
+      "slug": "mock-legacy-n4-07",
+      "mock_test_slug": "mock-legacy-n4",
+      "position": 7,
+      "jlpt_level": "N4",
+      "section": "grammar",
+      "prompt": "〜てもいいですか expresses:",
+      "options": [
+        "Must do",
+        "Want to do",
+        "Permission to do",
+        "Cannot do"
+      ],
+      "answer": 2
+    },
+    {
+      "slug": "mock-legacy-n4-08",
+      "mock_test_slug": "mock-legacy-n4",
+      "position": 8,
+      "jlpt_level": "N4",
+      "section": "reading",
+      "prompt": "「電車が遅れています」means:",
+      "options": [
+        "The train is early",
+        "The train is fast",
+        "The train is delayed",
+        "The train is full"
+      ],
+      "answer": 2
+    },
+    {
+      "slug": "mock-legacy-n4-09",
+      "mock_test_slug": "mock-legacy-n4",
+      "position": 9,
+      "jlpt_level": "N4",
+      "section": "reading",
+      "prompt": "「明日、雨が降るかもしれません」means:",
+      "options": [
+        "It will rain tomorrow",
+        "It might rain tomorrow",
+        "It rained yesterday",
+        "No rain today"
+      ],
+      "answer": 1
+    },
+    {
+      "slug": "mock-legacy-n4-10",
+      "mock_test_slug": "mock-legacy-n4",
+      "position": 10,
+      "jlpt_level": "N4",
+      "section": "listening",
+      "prompt": "You hear「ありがとうございました」. The situation is:",
+      "options": [
+        "Greeting someone",
+        "Thanking someone (past)",
+        "Apologizing",
+        "Saying goodbye"
+      ],
+      "answer": 1,
+      "explanation": "Ported from the old app; needs an audio clip before going live."
+    },
+    {
+      "slug": "mock-legacy-n3-01",
+      "mock_test_slug": "mock-legacy-n3",
+      "position": 1,
+      "jlpt_level": "N3",
+      "section": "vocabulary",
+      "prompt": "What does「経験」(keiken) mean?",
+      "options": [
+        "Economy",
+        "Experience",
+        "Decision",
+        "Result"
+      ],
+      "answer": 1
+    },
+    {
+      "slug": "mock-legacy-n3-02",
+      "mock_test_slug": "mock-legacy-n3",
+      "position": 2,
+      "jlpt_level": "N3",
+      "section": "vocabulary",
+      "prompt": "What does「丁寧」(teinei) mean?",
+      "options": [
+        "Polite/Careful",
+        "Dangerous",
+        "Convenient",
+        "Complicated"
+      ],
+      "answer": 0
+    },
+    {
+      "slug": "mock-legacy-n3-03",
+      "mock_test_slug": "mock-legacy-n3",
+      "position": 3,
+      "jlpt_level": "N3",
+      "section": "vocabulary",
+      "prompt": "What does「確認」(kakunin) mean?",
+      "options": [
+        "Confirmation",
+        "Cancellation",
+        "Application",
+        "Completion"
+      ],
+      "answer": 0
+    },
+    {
+      "slug": "mock-legacy-n3-04",
+      "mock_test_slug": "mock-legacy-n3",
+      "position": 4,
+      "jlpt_level": "N3",
+      "section": "vocabulary",
+      "prompt": "What does「難しい」(muzukashii) mean?",
+      "options": [
+        "Easy",
+        "Interesting",
+        "Difficult",
+        "Boring"
+      ],
+      "answer": 2
+    },
+    {
+      "slug": "mock-legacy-n3-05",
+      "mock_test_slug": "mock-legacy-n3",
+      "position": 5,
+      "jlpt_level": "N3",
+      "section": "grammar",
+      "prompt": "What does 〜てしまう express?",
+      "options": [
+        "Desire",
+        "Regret/Completion",
+        "Permission",
+        "Ability"
+      ],
+      "answer": 1
+    },
+    {
+      "slug": "mock-legacy-n3-06",
+      "mock_test_slug": "mock-legacy-n3",
+      "position": 6,
+      "jlpt_level": "N3",
+      "section": "grammar",
+      "prompt": "Choose the correct expression for \"even though\":",
+      "options": [
+        "〜から",
+        "〜のに",
+        "〜ので",
+        "〜けど"
+      ],
+      "answer": 1
+    },
+    {
+      "slug": "mock-legacy-n3-07",
+      "mock_test_slug": "mock-legacy-n3",
+      "position": 7,
+      "jlpt_level": "N3",
+      "section": "grammar",
+      "prompt": "〜らしい expresses:",
+      "options": [
+        "Hearsay/Seems like",
+        "Direct experience",
+        "Desire",
+        "Command"
+      ],
+      "answer": 0
+    },
+    {
+      "slug": "mock-legacy-n3-08",
+      "mock_test_slug": "mock-legacy-n3",
+      "position": 8,
+      "jlpt_level": "N3",
+      "section": "reading",
+      "prompt": "「この問題は複雑だ」means:",
+      "options": [
+        "This problem is simple",
+        "This problem is complex",
+        "This problem is solved",
+        "This problem is new"
+      ],
+      "answer": 1
+    },
+    {
+      "slug": "mock-legacy-n3-09",
+      "mock_test_slug": "mock-legacy-n3",
+      "position": 9,
+      "jlpt_level": "N3",
+      "section": "reading",
+      "prompt": "「彼女は一生懸命勉強している」means:",
+      "options": [
+        "She is studying lazily",
+        "She is studying hard",
+        "She stopped studying",
+        "She hates studying"
+      ],
+      "answer": 1
+    },
+    {
+      "slug": "mock-legacy-n3-10",
+      "mock_test_slug": "mock-legacy-n3",
+      "position": 10,
+      "jlpt_level": "N3",
+      "section": "listening",
+      "prompt": "You hear「お疲れ様でした」in an office. It means:",
+      "options": [
+        "Good morning",
+        "Good job / Thank you for your work",
+        "Please come in",
+        "Welcome back"
+      ],
+      "answer": 1,
+      "explanation": "Ported from the old app; needs an audio clip before going live."
+    },
+    {
+      "slug": "mock-legacy-n2-01",
+      "mock_test_slug": "mock-legacy-n2",
+      "position": 1,
+      "jlpt_level": "N2",
+      "section": "vocabulary",
+      "prompt": "What does「曖昧」(aimai) mean?",
+      "options": [
+        "Clear",
+        "Ambiguous/Vague",
+        "Accurate",
+        "Obvious"
+      ],
+      "answer": 1
+    },
+    {
+      "slug": "mock-legacy-n2-02",
+      "mock_test_slug": "mock-legacy-n2",
+      "position": 2,
+      "jlpt_level": "N2",
+      "section": "vocabulary",
+      "prompt": "What does「懸念」(kenen) mean?",
+      "options": [
+        "Hope",
+        "Concern/Worry",
+        "Decision",
+        "Achievement"
+      ],
+      "answer": 1
+    },
+    {
+      "slug": "mock-legacy-n2-03",
+      "mock_test_slug": "mock-legacy-n2",
+      "position": 3,
+      "jlpt_level": "N2",
+      "section": "vocabulary",
+      "prompt": "What does「概念」(gainen) mean?",
+      "options": [
+        "Summary",
+        "Concept/Notion",
+        "Conclusion",
+        "Exception"
+      ],
+      "answer": 1
+    },
+    {
+      "slug": "mock-legacy-n2-04",
+      "mock_test_slug": "mock-legacy-n2",
+      "position": 4,
+      "jlpt_level": "N2",
+      "section": "vocabulary",
+      "prompt": "What does「妥協」(dakyou) mean?",
+      "options": [
+        "Negotiation",
+        "Agreement",
+        "Compromise",
+        "Rejection"
+      ],
+      "answer": 2
+    },
+    {
+      "slug": "mock-legacy-n2-05",
+      "mock_test_slug": "mock-legacy-n2",
+      "position": 5,
+      "jlpt_level": "N2",
+      "section": "grammar",
+      "prompt": "〜に反して means:",
+      "options": [
+        "In accordance with",
+        "Contrary to",
+        "Because of",
+        "In addition to"
+      ],
+      "answer": 1
+    },
+    {
+      "slug": "mock-legacy-n2-06",
+      "mock_test_slug": "mock-legacy-n2",
+      "position": 6,
+      "jlpt_level": "N2",
+      "section": "grammar",
+      "prompt": "〜を余儀なくされる means:",
+      "options": [
+        "To be able to",
+        "To be forced to",
+        "To choose to",
+        "To refuse to"
+      ],
+      "answer": 1
+    },
+    {
+      "slug": "mock-legacy-n2-07",
+      "mock_test_slug": "mock-legacy-n2",
+      "position": 7,
+      "jlpt_level": "N2",
+      "section": "grammar",
+      "prompt": "〜に際して means:",
+      "options": [
+        "Despite",
+        "On the occasion of",
+        "As a result of",
+        "In contrast to"
+      ],
+      "answer": 1
+    },
+    {
+      "slug": "mock-legacy-n2-08",
+      "mock_test_slug": "mock-legacy-n2",
+      "position": 8,
+      "jlpt_level": "N2",
+      "section": "reading",
+      "prompt": "「彼の発言は矛盾している」means:",
+      "options": [
+        "His statement is clear",
+        "His statement is contradictory",
+        "His statement is false",
+        "His statement is true"
+      ],
+      "answer": 1
+    },
+    {
+      "slug": "mock-legacy-n2-09",
+      "mock_test_slug": "mock-legacy-n2",
+      "position": 9,
+      "jlpt_level": "N2",
+      "section": "reading",
+      "prompt": "「この政策は賛否両論を呼んだ」means:",
+      "options": [
+        "This policy was universally accepted",
+        "This policy caused debate",
+        "This policy was rejected",
+        "This policy was secret"
+      ],
+      "answer": 1
+    },
+    {
+      "slug": "mock-legacy-n2-10",
+      "mock_test_slug": "mock-legacy-n2",
+      "position": 10,
+      "jlpt_level": "N2",
+      "section": "listening",
+      "prompt": "「ご指摘いただきありがとうございます」is said when:",
+      "options": [
+        "Thanking for a gift",
+        "Thanking someone for pointing something out",
+        "Apologizing for a mistake",
+        "Asking for help"
+      ],
+      "answer": 1,
+      "explanation": "Ported from the old app; needs an audio clip before going live."
+    },
+    {
+      "slug": "mock-legacy-n1-01",
+      "mock_test_slug": "mock-legacy-n1",
+      "position": 1,
+      "jlpt_level": "N1",
+      "section": "vocabulary",
+      "prompt": "What does「逡巡」(shunjun) mean?",
+      "options": [
+        "Determination",
+        "Hesitation",
+        "Celebration",
+        "Confrontation"
+      ],
+      "answer": 1
+    },
+    {
+      "slug": "mock-legacy-n1-02",
+      "mock_test_slug": "mock-legacy-n1",
+      "position": 2,
+      "jlpt_level": "N1",
+      "section": "vocabulary",
+      "prompt": "What does「躊躇」(chuucho) mean?",
+      "options": [
+        "Courage",
+        "Hesitation",
+        "Anger",
+        "Happiness"
+      ],
+      "answer": 1
+    },
+    {
+      "slug": "mock-legacy-n1-03",
+      "mock_test_slug": "mock-legacy-n1",
+      "position": 3,
+      "jlpt_level": "N1",
+      "section": "vocabulary",
+      "prompt": "What does「瑣末」(samatsu) mean?",
+      "options": [
+        "Important",
+        "Trivial/Minor",
+        "Complex",
+        "Urgent"
+      ],
+      "answer": 1
+    },
+    {
+      "slug": "mock-legacy-n1-04",
+      "mock_test_slug": "mock-legacy-n1",
+      "position": 4,
+      "jlpt_level": "N1",
+      "section": "vocabulary",
+      "prompt": "What does「齟齬」(sogo) mean?",
+      "options": [
+        "Agreement",
+        "Discrepancy/Gap",
+        "Cooperation",
+        "Resolution"
+      ],
+      "answer": 1
+    },
+    {
+      "slug": "mock-legacy-n1-05",
+      "mock_test_slug": "mock-legacy-n1",
+      "position": 5,
+      "jlpt_level": "N1",
+      "section": "grammar",
+      "prompt": "〜に足る means:",
+      "options": [
+        "Not worth",
+        "Worth/Sufficient for",
+        "Related to",
+        "Contrary to"
+      ],
+      "answer": 1
+    },
+    {
+      "slug": "mock-legacy-n1-06",
+      "mock_test_slug": "mock-legacy-n1",
+      "position": 6,
+      "jlpt_level": "N1",
+      "section": "grammar",
+      "prompt": "〜ずにはいられない means:",
+      "options": [
+        "Able to avoid",
+        "Cannot help but",
+        "Should not",
+        "Will not"
+      ],
+      "answer": 1
+    },
+    {
+      "slug": "mock-legacy-n1-07",
+      "mock_test_slug": "mock-legacy-n1",
+      "position": 7,
+      "jlpt_level": "N1",
+      "section": "grammar",
+      "prompt": "〜をものともせず means:",
+      "options": [
+        "Afraid of",
+        "Despite / Not deterred by",
+        "Because of",
+        "After considering"
+      ],
+      "answer": 1
+    },
+    {
+      "slug": "mock-legacy-n1-08",
+      "mock_test_slug": "mock-legacy-n1",
+      "position": 8,
+      "jlpt_level": "N1",
+      "section": "reading",
+      "prompt": "「彼女の論文は示唆に富んでいる」means:",
+      "options": [
+        "Her paper is confusing",
+        "Her paper is full of insights",
+        "Her paper is empty",
+        "Her paper is wrong"
+      ],
+      "answer": 1
+    },
+    {
+      "slug": "mock-legacy-n1-09",
+      "mock_test_slug": "mock-legacy-n1",
+      "position": 9,
+      "jlpt_level": "N1",
+      "section": "reading",
+      "prompt": "「この問題の根本は価値観の相違にある」means:",
+      "options": [
+        "This is a technical problem",
+        "The root of this problem is a difference in values",
+        "This problem has no solution",
+        "The problem is financial"
+      ],
+      "answer": 1
+    },
+    {
+      "slug": "mock-legacy-n1-10",
+      "mock_test_slug": "mock-legacy-n1",
+      "position": 10,
+      "jlpt_level": "N1",
+      "section": "listening",
+      "prompt": "「忸怩たる思い」expresses:",
+      "options": [
+        "Great joy",
+        "Deep shame/embarrassment",
+        "Strong determination",
+        "Mild curiosity"
+      ],
+      "answer": 1,
+      "explanation": "Ported from the old app; needs an audio clip before going live."
+    },
+    {
+      "slug": "practice-n5-001",
+      "jlpt_level": "N5",
+      "section": "grammar",
+      "prompt": "わたし ___ がくせいです。",
+      "options": [
+        "は",
+        "が",
+        "を",
+        "に"
+      ],
+      "answer": 0,
+      "explanation": "は (wa) marks the topic. \"As for me, I am a student.\" Use は when introducing what the sentence is about.\nわたしは がくせいです。→ I am a student.",
+      "item_slugs": [
+        "grammar-wa-topic"
+      ]
+    },
+    {
+      "slug": "practice-n5-002",
+      "jlpt_level": "N5",
+      "section": "grammar",
+      "prompt": "あそこに ねこ ___ います。",
+      "options": [
+        "は",
+        "が",
+        "を",
+        "で"
+      ],
+      "answer": 1,
+      "explanation": "が marks the grammatical subject. Use が with います (there is, for animate) and あります (there is, for inanimate).\nねこがいます。→ There is a cat.",
+      "item_slugs": [
+        "grammar-ga-subject"
+      ]
+    },
+    {
+      "slug": "practice-n5-003",
+      "jlpt_level": "N5",
+      "section": "grammar",
+      "prompt": "まいにち にほんご ___ べんきょうします。",
+      "options": [
+        "は",
+        "が",
+        "を",
+        "に"
+      ],
+      "answer": 2,
+      "explanation": "を (wo) marks the direct object. The thing you eat, study, buy, or do goes before を.\nりんごをたべます。→ I eat an apple.",
+      "item_slugs": [
+        "grammar-wo-object"
+      ]
+    },
+    {
+      "slug": "practice-n5-004",
+      "jlpt_level": "N5",
+      "section": "grammar",
+      "prompt": "がっこう ___ いきます。",
+      "options": [
+        "で",
+        "に",
+        "を",
+        "が"
+      ],
+      "answer": 1,
+      "explanation": "に marks direction/destination. Use に with movement verbs (行く, 来る, 帰る). Also used for time: ３時に = at 3 o'clock.\nがっこうにいきます。→ I go to school.",
+      "item_slugs": [
+        "grammar-ni-destination"
+      ]
+    },
+    {
+      "slug": "practice-n5-005",
+      "jlpt_level": "N5",
+      "section": "grammar",
+      "prompt": "としょかん ___ べんきょうします。",
+      "options": [
+        "に",
+        "で",
+        "を",
+        "が"
+      ],
+      "answer": 1,
+      "explanation": "で marks where an action happens. \"I study AT the library.\" Different from に which marks destination. に = destination, で = action location.\nとしょかんでべんきょうします。→ I study at the library.",
+      "item_slugs": [
+        "grammar-de-location"
+      ]
+    },
+    {
+      "slug": "practice-n5-006",
+      "jlpt_level": "N5",
+      "section": "grammar",
+      "prompt": "こうえん ___ あそびます。",
+      "options": [
+        "に",
+        "で",
+        "が",
+        "を"
+      ],
+      "answer": 1,
+      "explanation": "あそぶ is an action verb, so use で for the location. に would be used for destination (going TO the park), で is where you DO something.\nこうえんであそびます。→ I play at the park.",
+      "item_slugs": [
+        "grammar-ni-vs-de"
+      ]
+    },
+    {
+      "slug": "practice-n5-007",
+      "jlpt_level": "N5",
+      "section": "grammar",
+      "prompt": "わたし ___ にほんごをはなします。",
+      "options": [
+        "は",
+        "が",
+        "も",
+        "を"
+      ],
+      "answer": 2,
+      "explanation": "も means \"also\" or \"too\". It replaces は or が. If A does something and B ALSO does it, use も for B.\nわたしもにほんごをはなします。→ I also speak Japanese.",
+      "item_slugs": [
+        "grammar-mo-also"
+      ]
+    },
+    {
+      "slug": "practice-n5-008",
+      "jlpt_level": "N5",
+      "section": "grammar",
+      "prompt": "これはわたし ___ ほんです。",
+      "options": [
+        "は",
+        "の",
+        "が",
+        "を"
+      ],
+      "answer": 1,
+      "explanation": "の shows possession or connection between nouns. わたしの本 = my book. にほんのりょうり = Japanese food.\nわたしのほん → my book | にほんのたべもの → Japanese food",
+      "item_slugs": [
+        "grammar-no-possessive"
+      ]
+    },
+    {
+      "slug": "practice-n5-009",
+      "jlpt_level": "N5",
+      "section": "grammar",
+      "prompt": "ともだち ___ えいがをみます。",
+      "options": [
+        "に",
+        "で",
+        "と",
+        "を"
+      ],
+      "answer": 2,
+      "explanation": "と has two uses: A と B = A and B (listing); と + verb = with (together). ともだちとみる = watch WITH a friend.\nともだちとえいがをみます。→ I watch a movie with my friend.",
+      "item_slugs": [
+        "grammar-to-and-with"
+      ]
+    },
+    {
+      "slug": "practice-n5-010",
+      "jlpt_level": "N5",
+      "section": "grammar",
+      "prompt": "しごとはくじ ___ ごじまでです。",
+      "options": [
+        "から",
+        "まで",
+        "に",
+        "で"
+      ],
+      "answer": 0,
+      "explanation": "から marks the starting point (from). まで marks the endpoint (until/to). Work is FROM 9 UNTIL 5.\nくじからごじまで → from 9 to 5",
+      "item_slugs": [
+        "grammar-kara-made"
+      ]
+    },
+    {
+      "slug": "practice-n5-011",
+      "jlpt_level": "N5",
+      "section": "grammar",
+      "prompt": "まいにち にほんごを べんきょう___。",
+      "options": [
+        "します",
+        "しました",
+        "しません",
+        "しています"
+      ],
+      "answer": 0,
+      "explanation": "〜ます is the polite non-past form. It expresses habitual actions (\"I study every day\") or future intention.\nべんきょうします → I study / I will study",
+      "item_slugs": [
+        "grammar-masu"
+      ]
+    },
+    {
+      "slug": "practice-n5-012",
+      "jlpt_level": "N5",
+      "section": "grammar",
+      "prompt": "きのう すしを たべ___。",
+      "options": [
+        "ます",
+        "ました",
+        "ません",
+        "ませんでした"
+      ],
+      "answer": 1,
+      "explanation": "〜ました is the polite past tense. Add ました instead of ます. きのう = yesterday signals past tense.\nたべました → I ate | いきました → I went",
+      "item_slugs": [
+        "grammar-mashita"
+      ]
+    },
+    {
+      "slug": "practice-n5-013",
+      "jlpt_level": "N5",
+      "section": "grammar",
+      "prompt": "おさけを のみ___。",
+      "options": [
+        "ます",
+        "ました",
+        "ません",
+        "ませんでした"
+      ],
+      "answer": 2,
+      "explanation": "〜ません is polite negative (present/future). I do NOT drink sake. For past negative: ませんでした.\nのみません → I don't drink | いきません → I don't go",
+      "item_slugs": [
+        "grammar-masen"
+      ]
+    },
+    {
+      "slug": "practice-n5-014",
+      "jlpt_level": "N5",
+      "section": "grammar",
+      "prompt": "きのう がっこうに いき___。",
+      "options": [
+        "ます",
+        "ました",
+        "ません",
+        "ませんでした"
+      ],
+      "answer": 3,
+      "explanation": "〜ませんでした is past negative. I did NOT go to school yesterday.\nいきませんでした → I did not go | たべませんでした → I did not eat",
+      "item_slugs": [
+        "grammar-masen-deshita"
+      ]
+    },
+    {
+      "slug": "practice-n5-015",
+      "jlpt_level": "N5",
+      "section": "grammar",
+      "prompt": "ゆっくり はなし___ください。",
+      "options": [
+        "て",
+        "に",
+        "を",
+        "が"
+      ],
+      "answer": 0,
+      "explanation": "Verb て-form + ください = please do ~. はなす → はなして → はなしてください = Please speak.\nはなしてください → Please speak | みてください → Please look",
+      "item_slugs": [
+        "grammar-te-kudasai"
+      ]
+    },
+    {
+      "slug": "practice-n5-016",
+      "jlpt_level": "N5",
+      "section": "grammar",
+      "prompt": "いま あめが ふっ___。",
+      "options": [
+        "ます",
+        "ました",
+        "ています",
+        "てください"
+      ],
+      "answer": 2,
+      "explanation": "〜ています expresses: (1) ongoing action = currently doing, (2) resultant state = has happened and continues. It's raining RIGHT NOW.\nふっています → It is raining | たべています → I am eating",
+      "item_slugs": [
+        "grammar-te-iru"
+      ]
+    },
+    {
+      "slug": "practice-n5-017",
+      "jlpt_level": "N5",
+      "section": "grammar",
+      "prompt": "にほんに いき___です。",
+      "options": [
+        "ます",
+        "たい",
+        "ません",
+        "ました"
+      ],
+      "answer": 1,
+      "explanation": "Verb stem + たい = want to do. Remove ます, add たい. いきます → いき + たい → いきたい = want to go.\nいきたい → want to go | たべたい → want to eat",
+      "item_slugs": [
+        "grammar-tai"
+      ]
+    },
+    {
+      "slug": "practice-n5-018",
+      "jlpt_level": "N5",
+      "section": "grammar",
+      "prompt": "きょうは てんきが ___ です。",
+      "options": [
+        "いい",
+        "よかった",
+        "よくない",
+        "よくなかった"
+      ],
+      "answer": 0,
+      "explanation": "い-adjectives end in い. Present positive: adjective + です. いい is irregular: good.\nてんきがいいです → The weather is good",
+      "item_slugs": [
+        "grammar-i-adj-present"
+      ]
+    },
+    {
+      "slug": "practice-n5-019",
+      "jlpt_level": "N5",
+      "section": "grammar",
+      "prompt": "きのうは さむ___ です。",
+      "options": [
+        "い",
+        "かった",
+        "くない",
+        "くなかった"
+      ],
+      "answer": 1,
+      "explanation": "い-adjective past: drop い → add かった. さむい → さむかった = it was cold. Except いい → よかった.\nさむかったです → It was cold | たかかったです → It was expensive",
+      "item_slugs": [
+        "grammar-i-adj-past"
+      ]
+    },
+    {
+      "slug": "practice-n5-020",
+      "jlpt_level": "N5",
+      "section": "grammar",
+      "prompt": "このみせは たか___ です。",
+      "options": [
+        "い",
+        "かった",
+        "くない",
+        "くなかった"
+      ],
+      "answer": 2,
+      "explanation": "い-adjective negative: drop い → add くない. たかい → たかくない = not expensive.\nたかくないです → not expensive | さむくないです → not cold",
+      "item_slugs": [
+        "grammar-i-adj-negative"
+      ]
+    },
+    {
+      "slug": "practice-n5-021",
+      "jlpt_level": "N5",
+      "section": "grammar",
+      "prompt": "かのじょは にほんごが じょうず___ です。",
+      "options": [
+        "な",
+        "の",
+        "い",
+        "を"
+      ],
+      "answer": 0,
+      "explanation": "な-adjectives use な before nouns: じょうずなひと = skillful person. Before です they don't need な: じょうずです.\nじょうずなひと → skillful person | きれいなはな → beautiful flower",
+      "item_slugs": [
+        "grammar-na-adj"
+      ]
+    },
+    {
+      "slug": "practice-n5-022",
+      "jlpt_level": "N5",
+      "section": "grammar",
+      "prompt": "トイレは ___ ですか。",
+      "options": [
+        "なに",
+        "どこ",
+        "だれ",
+        "いつ"
+      ],
+      "answer": 1,
+      "explanation": "どこ = where. Question words: なに/なん = what, どこ = where, だれ = who, いつ = when, どうして = why, どのくらい = how much/long.\nどこですか → Where is it? | どこにいきますか → Where are you going?",
+      "item_slugs": [
+        "grammar-doko"
+      ]
+    },
+    {
+      "slug": "practice-n5-023",
+      "jlpt_level": "N5",
+      "section": "grammar",
+      "prompt": "これは ___ ですか。",
+      "options": [
+        "なに",
+        "なん",
+        "どこ",
+        "だれ"
+      ],
+      "answer": 1,
+      "explanation": "Use なん before: です, で, の, and counters (なんにん, なんじ). Use なに before: を, が, and alone. これはなんですか = What is this?\nなんですか → What is it? | なにをしますか → What will you do?",
+      "item_slugs": [
+        "grammar-nan-vs-nani"
+      ]
+    },
+    {
+      "slug": "practice-n5-024",
+      "jlpt_level": "N5",
+      "section": "grammar",
+      "prompt": "たんじょうびは ___ ですか。",
+      "options": [
+        "なに",
+        "どこ",
+        "いつ",
+        "だれ"
+      ],
+      "answer": 2,
+      "explanation": "いつ = when. It can be placed at the start of a sentence or before です.\nいつですか → When is it? | いついきますか → When will you go?",
+      "item_slugs": [
+        "grammar-itsu"
+      ]
+    },
+    {
+      "slug": "practice-n5-025",
+      "jlpt_level": "N5",
+      "section": "grammar",
+      "prompt": "わたしは がくせい ___ ありません。",
+      "options": [
+        "では",
+        "には",
+        "をは",
+        "がは"
+      ],
+      "answer": 0,
+      "explanation": "ではありません is the polite formal negative of です. Casual: じゃない. わたしはがくせいではありません = I am not a student.\nがくせいではありません → Not a student | にほんじんではありません → Not Japanese",
+      "item_slugs": [
+        "grammar-ja-nai-desu"
+      ]
+    },
+    {
+      "slug": "practice-n5-026",
+      "jlpt_level": "N5",
+      "section": "grammar",
+      "prompt": "このラーメンはおいしい___！（I'm telling you）",
+      "options": [
+        "ね",
+        "よ",
+        "か",
+        "の"
+      ],
+      "answer": 1,
+      "explanation": "よ = I'm informing/insisting (you may not know this). ね = right? / isn't it? (seeking agreement or shared feeling).\nおいしいよ！→ It's delicious! (I'm telling you) | おいしいね → It's delicious, isn't it?",
+      "item_slugs": [
+        "grammar-ne-vs-yo"
+      ]
+    },
+    {
+      "slug": "practice-n5-027",
+      "jlpt_level": "N5",
+      "section": "grammar",
+      "prompt": "___ たべましたか。（Have you eaten yet?）",
+      "options": [
+        "もう",
+        "まだ",
+        "また",
+        "もっと"
+      ],
+      "answer": 0,
+      "explanation": "もう = already (positive) / anymore (negative). まだ = still / not yet. もうたべましたか = Have you eaten already? まだ = Not yet.\nもうたべました → I already ate | まだたべていません → I haven't eaten yet",
+      "item_slugs": [
+        "grammar-mou-vs-mada"
+      ]
+    },
+    {
+      "slug": "practice-n5-028",
+      "jlpt_level": "N5",
+      "section": "grammar",
+      "prompt": "こうえんに こどもが ___。",
+      "options": [
+        "あります",
+        "います",
+        "いります",
+        "あります"
+      ],
+      "answer": 1,
+      "explanation": "います (いる) = for people, animals — animate beings. あります (ある) = for objects, places, events — inanimate. Children are alive → います.\nねこがいます → There is a cat | ほんがあります → There is a book",
+      "item_slugs": [
+        "grammar-arimasu-vs-imasu"
+      ]
+    },
+    {
+      "slug": "practice-n5-029",
+      "jlpt_level": "N5",
+      "section": "grammar",
+      "prompt": "しゃしんを とっ___ いいですか。",
+      "options": [
+        "ても",
+        "では",
+        "てに",
+        "がも"
+      ],
+      "answer": 0,
+      "explanation": "Verb て-form + もいいですか = May I ~? / Is it okay if I ~? The response: もちろん or どうぞ for yes, ちょっと… for polite no.\nとってもいいですか → May I take (a photo)? | はいってもいいですか → May I come in?",
+      "item_slugs": [
+        "grammar-te-mo-ii"
+      ]
+    },
+    {
+      "slug": "practice-n5-030",
+      "jlpt_level": "N5",
+      "section": "grammar",
+      "prompt": "あついです。まど をあけて___。",
+      "options": [
+        "から",
+        "ので",
+        "ください",
+        "です"
+      ],
+      "answer": 2,
+      "explanation": "Two sentence structures: (reason)から、(result) = Because it's hot, please open the window. から gives the reason/cause.\nあついですから → Because it's hot | つかれたから → Because I'm tired",
+      "item_slugs": [
+        "grammar-kara-reason"
+      ]
+    },
+    {
+      "slug": "practice-n4-001",
+      "jlpt_level": "N4",
+      "section": "grammar",
+      "prompt": "わたしは にほんごを はなす___ できます。",
+      "options": [
+        "こと",
+        "もの",
+        "ところ",
+        "ため"
+      ],
+      "answer": 0,
+      "explanation": "〜ことができる expresses ability. Verb plain form + ことができます. More formal than just 〜られます.\nにほんごをはなすことができます → I can speak Japanese",
+      "item_slugs": [
+        "grammar-koto-ga-dekiru"
+      ]
+    },
+    {
+      "slug": "practice-n4-002",
+      "jlpt_level": "N4",
+      "section": "grammar",
+      "prompt": "すしを たべた___ があります。",
+      "options": [
+        "こと",
+        "もの",
+        "ため",
+        "ところ"
+      ],
+      "answer": 0,
+      "explanation": "〜たことがある expresses past experience. Verb past plain form + ことがあります = I have done ~ before.\nたべたことがあります → I have eaten (it) before",
+      "item_slugs": [
+        "grammar-ta-koto-ga-aru"
+      ]
+    },
+    {
+      "slug": "practice-n4-003",
+      "jlpt_level": "N4",
+      "section": "grammar",
+      "prompt": "おんがくを きき___ べんきょうします。",
+      "options": [
+        "ながら",
+        "てから",
+        "たり",
+        "のに"
+      ],
+      "answer": 0,
+      "explanation": "Verb stem + ながら = while doing ~. Both actions happen at the same time. The main action comes at the end.\nきながら → while listening | あるきながら → while walking",
+      "item_slugs": [
+        "grammar-nagara"
+      ]
+    },
+    {
+      "slug": "practice-n4-004",
+      "jlpt_level": "N4",
+      "section": "grammar",
+      "prompt": "しゅくだいを して___ あそびます。",
+      "options": [
+        "から",
+        "ながら",
+        "ために",
+        "のに"
+      ],
+      "answer": 0,
+      "explanation": "〜てから expresses sequential actions: do A, then do B. Different from ながら (simultaneous).\nしてから → after doing | たべてから → after eating",
+      "item_slugs": [
+        "grammar-te-kara"
+      ]
+    },
+    {
+      "slug": "practice-n4-005",
+      "jlpt_level": "N4",
+      "section": "grammar",
+      "prompt": "にほんごを まなぶ___ にほんに きました。",
+      "options": [
+        "ために",
+        "から",
+        "ながら",
+        "のに"
+      ],
+      "answer": 0,
+      "explanation": "Verb plain form + ために = in order to ~. Expresses purpose. The subject of both clauses must be the same.\nまなぶために → in order to learn | けんこうのために → for health",
+      "item_slugs": [
+        "grammar-tame-ni"
+      ]
+    }
+  ]
+}

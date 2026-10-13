@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "kind": "mock_tests",
+  "source": "legacy-nihongo",
+  "records": [
+    {
+      "slug": "mock-legacy-n5",
+      "jlpt_level": "N5",
+      "title": "Legacy mini mock N5",
+      "time_limit_min": 50
+    },
+    {
+      "slug": "mock-legacy-n4",
+      "jlpt_level": "N4",
+      "title": "Legacy mini mock N4",
+      "time_limit_min": 70
+    },
+    {
+      "slug": "mock-legacy-n3",
+      "jlpt_level": "N3",
+      "title": "Legacy mini mock N3",
+      "time_limit_min": 100
+    },
+    {
+      "slug": "mock-legacy-n2",
+      "jlpt_level": "N2",
+      "title": "Legacy mini mock N2",
+      "time_limit_min": 105
+    },
+    {
+      "slug": "mock-legacy-n1",
+      "jlpt_level": "N1",
+      "title": "Legacy mini mock N1",
+      "time_limit_min": 110
+    }
+  ]
+}
