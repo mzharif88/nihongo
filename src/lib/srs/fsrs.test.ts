@@ -72,9 +72,8 @@ describe("dueQueue", () => {
     expect(q.map((c) => c.id)).toEqual([-3, -1, 0]);
   });
 
-  it("caps the queue to the 15-minute budget", () => {
+  it("has no daily cap", () => {
     const many = Array.from({ length: 500 }, (_, i) => card(-i - 1));
-    expect(dueQueue(many, T0, 8_000)).toHaveLength(112); // 900s / 8s
-    expect(dueQueue(many, T0, 30_000)).toHaveLength(30);
+    expect(dueQueue(many, T0)).toHaveLength(500);
   });
 });

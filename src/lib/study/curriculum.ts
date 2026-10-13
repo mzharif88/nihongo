@@ -71,8 +71,3 @@ export function pickNewItems<T extends CurriculumItem>(
     .sort(compareCurriculum)
     .slice(0, limit);
 }
-
-/** New cards per day scale with the daily time budget: 20 minutes → 10 new items. */
-export function newItemsPerDay(dailyMinutes: number): number {
-  return Math.max(3, Math.min(30, Math.round(dailyMinutes / 2)));
-}

@@ -19,9 +19,11 @@ interface Props {
   cards: StudyCard[];
   dueCount: number;
   newCount: number;
+  /** Where "Learn more" goes once the queue is empty, or null when no more content is unlocked. */
+  learnMoreHref: string | null;
 }
 
-export function StudySession({ cards: initial, dueCount, newCount }: Props) {
+export function StudySession({ cards: initial, dueCount, newCount, learnMoreHref }: Props) {
   const [queue, setQueue] = useState(initial);
   const [repeats, setRepeats] = useState<Record<string, number>>({});
   const [phase, setPhase] = useState<Phase>(initial[0]?.isNew ? "intro" : "question");
@@ -94,7 +96,13 @@ export function StudySession({ cards: initial, dueCount, newCount }: Props) {
         <p className="mt-2 text-muted">
           {stats.done} answers · {accuracy}% correct · +{stats.xp} XP · {stats.streak}-day streak
         </p>
-        <Link href="/" className="mt-8 rounded-lg bg-accent px-4 py-2.5 font-medium text-white">
+        {learnMoreHref && (
+          // A full load (not <Link>) so the server builds a fresh session instead of reusing this component's state.
+          <a href={learnMoreHref} className="mt-8 rounded-lg bg-accent px-4 py-2.5 font-medium text-white">
+            Learn 10 more
+          </a>
+        )}
+        <Link href="/" className="mt-3 rounded-lg border border-border px-4 py-2.5 font-medium">
           Back home
         </Link>
       </main>

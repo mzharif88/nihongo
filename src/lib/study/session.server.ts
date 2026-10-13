@@ -1,9 +1,10 @@
 import "server-only";
 import type { SupabaseClient } from "@supabase/supabase-js";
 import type { Profile } from "@/lib/auth";
-import { DEFAULT_MS_PER_REVIEW, dueQueue } from "@/lib/srs/fsrs";
+import { dueQueue } from "@/lib/srs/fsrs";
 import { buildCard, type CardType, type StudyCard, type StudyItem } from "./cards";
-import { newItemsPerDay, pickNewItems, SRS_TYPES } from "./curriculum";
+import { pickNewItems, SRS_TYPES } from "./curriculum";
+import { studyPace, type Pace } from "./pace";
 import { localDate } from "./streak";
 
 export const ITEM_COLUMNS =
@@ -24,30 +25,24 @@ export interface StudySession {
   dueCount: number;
   newCount: number;
   newLeftToday: number;
-}
-
-/** Average answer time over recent reviews, so the 15-minute cap reflects this learner's pace. */
-async function averageMs(supabase: SupabaseClient): Promise<number> {
-  const { data } = await supabase
-    .from("reviews")
-    .select("ms_taken")
-    .not("ms_taken", "is", null)
-    .order("reviewed_at", { ascending: false })
-    .limit(100);
-  const times = (data ?? []).map((r) => r.ms_taken as number).filter((ms) => ms > 0 && ms < 120_000);
-  return times.length >= 10 ? times.reduce((a, b) => a + b, 0) / times.length : DEFAULT_MS_PER_REVIEW;
+  /** Items started so far (recognition cards). */
+  started: number;
+  /** Live items not started yet, i.e. how much content is left to learn. */
+  unstartedAvailable: number;
+  pace: Pace;
 }
 
 /**
- * Build today's session: due reviews (most overdue first, capped to the
- * 15-minute budget), then new items up to today's allowance.
+ * Build today's session: every due review (most overdue first), then new
+ * items up to the exam-date pace for today, plus `extraNew` more when the
+ * learner asks to keep going.
  */
 export async function loadStudySession(
   supabase: SupabaseClient,
   profile: Profile,
-  now = new Date(),
+  { now = new Date(), extraNew = 0 }: { now?: Date; extraNew?: number } = {},
 ): Promise<StudySession> {
-  const [{ data: itemRows, error: itemsError }, { data: cardRows, error: cardsError }, msPerReview] =
+  const [{ data: itemRows, error: itemsError }, { data: cardRows, error: cardsError }] =
     await Promise.all([
       // Admins can read drafts too, so filter to live explicitly.
       supabase.from("items").select(ITEM_COLUMNS).eq("status", "live").in("type", SRS_TYPES).returns<ItemRow[]>(),
@@ -56,7 +51,6 @@ export async function loadStudySession(
         .select("item_id, card_type, due, fsrs_state, created_at")
         .eq("user_id", profile.id)
         .returns<UserItemRow[]>(),
-      averageMs(supabase),
     ]);
   if (itemsError) throw new Error(itemsError.message);
   if (cardsError) throw new Error(cardsError.message);
@@ -70,7 +64,6 @@ export async function loadStudySession(
   const due = dueQueue(
     cards.filter((c) => byId.has(c.item_id)),
     now,
-    msPerReview,
   );
 
   // New items: not started, prerequisites learned, within today's allowance.
@@ -80,8 +73,14 @@ export async function loadStudySession(
     recognition.filter((c) => c.fsrs_state === 2).flatMap((c) => byId.get(c.item_id)?.slug ?? []),
   );
   const introducedToday = recognition.filter((c) => localDate(new Date(c.created_at), profile.timezone) === today).length;
-  const newLeftToday = Math.max(0, newItemsPerDay(profile.daily_minutes) - introducedToday);
-  const fresh = pickNewItems(items, started, learnedSlugs, newLeftToday);
+  const pace = studyPace({
+    targetLevel: profile.target_level,
+    examDate: profile.exam_date,
+    today,
+    started: recognition.length,
+  });
+  const newLeftToday = Math.max(0, pace.newPerDay - introducedToday);
+  const fresh = pickNewItems(items, started, learnedSlugs, newLeftToday + Math.max(0, extraNew));
 
   return {
     cards: [
@@ -91,5 +90,8 @@ export async function loadStudySession(
     dueCount: due.length,
     newCount: fresh.length,
     newLeftToday,
+    started: recognition.length,
+    unstartedAvailable: items.filter((i) => !started.has(i.id)).length,
+    pace,
   };
 }

@@ -1,16 +1,17 @@
 import Link from "next/link";
 import { requireUser } from "@/lib/auth";
+import type { Pace } from "@/lib/study/pace";
 import { loadStudySession } from "@/lib/study/session.server";
 import { signOut } from "./login/actions";
 
 export default async function HomePage() {
   const { supabase, profile } = await requireUser();
-  const [session, { count: learning }, { data: game }] = await Promise.all([
+  const [session, { data: game }] = await Promise.all([
     loadStudySession(supabase, profile),
-    supabase.from("user_items").select("*", { count: "exact", head: true }).eq("card_type", "recognition"),
     supabase.from("gamification").select("xp, streak").eq("user_id", profile.id).maybeSingle(),
   ]);
   const toStudy = session.dueCount + session.newCount;
+  const { pace } = session;
 
   return (
     <main className="mx-auto max-w-xl px-4 py-8">
@@ -38,13 +39,17 @@ export default async function HomePage() {
         <div className="text-lg font-bold">{toStudy ? "Study now" : "All caught up"}</div>
         <div className="mt-1 text-sm opacity-90">
           {session.dueCount} reviews · {session.newCount} new
-          {session.newLeftToday === 0 ? " (today's new cards done)" : ""}
+          {session.newLeftToday === 0 ? " (today's pace done)" : ""}
         </div>
       </Link>
 
-      <p className="mt-3 text-center text-sm text-muted">
-        {learning ?? 0} items started · {profile.daily_minutes} min/day · target {profile.target_level}
-      </p>
+      <PaceCard
+        pace={pace}
+        targetLevel={profile.target_level}
+        examDate={profile.exam_date}
+        started={session.started}
+        contentLeft={session.unstartedAvailable}
+      />
 
       {profile.role === "admin" && (
         <Link
@@ -55,6 +60,63 @@ export default async function HomePage() {
         </Link>
       )}
     </main>
+  );
+}
+
+const INTENSITY_NOTE: Record<Pace["intensity"], string> = {
+  "no-date": "Set an exam date to get a daily pace.",
+  past: "Your exam date has passed. Set the next one.",
+  steady: "Steady pace.",
+  intense: "Intense pace: expect a few hundred reviews a day.",
+  unrealistic: "This pace isn't sustainable. Consider a later sitting or a lower target level.",
+};
+
+function PaceCard({
+  pace,
+  targetLevel,
+  examDate,
+  started,
+  contentLeft,
+}: {
+  pace: Pace;
+  targetLevel: string;
+  examDate: string | null;
+  started: number;
+  contentLeft: number;
+}) {
+  const percent = Math.min(100, Math.round((started / pace.targetItems) * 100));
+  const warn = pace.intensity === "unrealistic" || pace.intensity === "past";
+  return (
+    <section className="mt-6 rounded-xl border border-border bg-card p-4">
+      <div className="flex items-baseline justify-between">
+        <h2 className="font-medium">
+          {targetLevel}
+          {examDate ? ` · ${new Date(`${examDate}T00:00:00`).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" })}` : ""}
+        </h2>
+        <Link href="/settings" className="text-sm text-muted underline">
+          Settings
+        </Link>
+      </div>
+      {pace.daysLeft !== null && pace.daysLeft > 0 && (
+        <p className="mt-1 text-2xl font-bold">
+          {pace.daysLeft} days · {pace.newPerDay} new/day
+        </p>
+      )}
+      <div className="mt-3 h-2 overflow-hidden rounded-full bg-border">
+        <div className="h-full bg-accent" style={{ width: `${percent}%` }} />
+      </div>
+      <p className="mt-1 text-xs text-muted">
+        {started} of ~{pace.targetItems.toLocaleString()} items started ({percent}%)
+      </p>
+      <p className={`mt-2 text-sm ${warn ? "text-red-600 dark:text-red-400" : "text-muted"}`}>
+        {INTENSITY_NOTE[pace.intensity]}
+      </p>
+      {contentLeft < pace.newPerDay * 7 && pace.remaining > contentLeft && (
+        <p className="mt-2 text-sm text-red-600 dark:text-red-400">
+          Only {contentLeft} unstarted items are live. Import more content to keep this pace.
+        </p>
+      )}
+    </section>
   );
 }
 
