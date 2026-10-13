@@ -1,0 +1,10695 @@
+{
+ "version": 1,
+ "kind": "items",
+ "source": "legacy-nihongo+opendata",
+ "records": [
+  {
+   "slug": "kanji-one",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "一",
+   "romaji": "hito/hitotsu/ichi/itsu",
+   "meaning": "One",
+   "mnemonic": "One single horizontal line",
+   "examples": [
+    {
+     "jp": "一つ (hitotsu)",
+     "en": "One thing"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "ひと",
+   "data": {
+    "on": [
+     "いち",
+     "いつ"
+    ],
+    "kun": [
+     "ひと",
+     "ひとつ"
+    ],
+    "strokes": 1,
+    "grade": 1,
+    "freq": 2
+   }
+  },
+  {
+   "slug": "kanji-two",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "二",
+   "romaji": "futa/futatsu/futatabi/ni/ji",
+   "meaning": "Two",
+   "mnemonic": "Two horizontal lines",
+   "examples": [
+    {
+     "jp": "二つ (futatsu)",
+     "en": "Two things"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "ふた",
+   "data": {
+    "on": [
+     "に",
+     "じ"
+    ],
+    "kun": [
+     "ふた",
+     "ふたつ",
+     "ふたたび"
+    ],
+    "strokes": 2,
+    "grade": 1,
+    "freq": 9
+   }
+  },
+  {
+   "slug": "kanji-nine",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "九",
+   "romaji": "kokono/kokonotsu/kyuu/ku",
+   "meaning": "Nine",
+   "mnemonic": "Like the number 9",
+   "examples": [
+    {
+     "jp": "九つ (kokonotsu)",
+     "en": "Nine things"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "ここの",
+   "data": {
+    "on": [
+     "きゅう",
+     "く"
+    ],
+    "kun": [
+     "ここの",
+     "ここのつ"
+    ],
+    "strokes": 2,
+    "grade": 1,
+    "freq": 55
+   }
+  },
+  {
+   "slug": "kanji-seven",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "七",
+   "romaji": "nana/nanatsu/nano/shichi",
+   "meaning": "Seven",
+   "mnemonic": "Looks like the number 7",
+   "examples": [
+    {
+     "jp": "七つ (nanatsu)",
+     "en": "Seven things"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "なな",
+   "data": {
+    "on": [
+     "しち"
+    ],
+    "kun": [
+     "なな",
+     "ななつ",
+     "なの"
+    ],
+    "strokes": 2,
+    "grade": 1,
+    "freq": 115
+   }
+  },
+  {
+   "slug": "kanji-person",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "人",
+   "romaji": "hito/ri/to/jin/nin",
+   "meaning": "Person",
+   "mnemonic": "A person walking",
+   "examples": [
+    {
+     "jp": "日本人 (nihonjin)",
+     "en": "Japanese person"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-person"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "ひと",
+   "data": {
+    "on": [
+     "じん",
+     "にん"
+    ],
+    "kun": [
+     "ひと",
+     "り",
+     "と"
+    ],
+    "strokes": 2,
+    "grade": 1,
+    "freq": 5
+   }
+  },
+  {
+   "slug": "kanji-enter",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "入",
+   "romaji": "iru/iri/ireru/ire/hairu/nyuu/ju",
+   "meaning": "Enter",
+   "mnemonic": "An arrow going in",
+   "examples": [
+    {
+     "jp": "入る (hairu)",
+     "en": "To enter"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "いる",
+   "data": {
+    "on": [
+     "にゅう",
+     "じゅ"
+    ],
+    "kun": [
+     "いる",
+     "いる",
+     "いり",
+     "いれる",
+     "いれ",
+     "はいる"
+    ],
+    "strokes": 2,
+    "grade": 1,
+    "freq": 56
+   }
+  },
+  {
+   "slug": "kanji-eight",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "八",
+   "romaji": "ya/yatsu/yattsu/you/hachi",
+   "meaning": "Eight",
+   "mnemonic": "Two strokes spreading out",
+   "examples": [
+    {
+     "jp": "八つ (yattsu)",
+     "en": "Eight things"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "や",
+   "data": {
+    "on": [
+     "はち"
+    ],
+    "kun": [
+     "や",
+     "やつ",
+     "やっつ",
+     "よう"
+    ],
+    "strokes": 2,
+    "grade": 1,
+    "freq": 92
+   }
+  },
+  {
+   "slug": "kanji-ten",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "十",
+   "romaji": "too/to/juu/ji/ju",
+   "meaning": "Ten",
+   "mnemonic": "A cross — perfect ten",
+   "examples": [
+    {
+     "jp": "十 (juu)",
+     "en": "Ten"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "とお",
+   "data": {
+    "on": [
+     "じゅう",
+     "じっ",
+     "じゅっ"
+    ],
+    "kun": [
+     "とお",
+     "と"
+    ],
+    "strokes": 2,
+    "grade": 1,
+    "freq": 8
+   }
+  },
+  {
+   "slug": "kanji-three",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "三",
+   "romaji": "mi/mitsu/mittsu/san/zou",
+   "meaning": "Three",
+   "mnemonic": "Three horizontal lines",
+   "examples": [
+    {
+     "jp": "三つ (mittsu)",
+     "en": "Three things"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "み",
+   "data": {
+    "on": [
+     "さん",
+     "ぞう"
+    ],
+    "kun": [
+     "み",
+     "みつ",
+     "みっつ"
+    ],
+    "strokes": 3,
+    "grade": 1,
+    "freq": 14
+   }
+  },
+  {
+   "slug": "kanji-above",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "上",
+   "romaji": "ue/uwa/kami/ageru/agaru/agari/noboru/nobori/noboseru/nobosu/tatematsuru/jou/shou/shan",
+   "meaning": "Above / Up",
+   "mnemonic": "An arrow pointing up",
+   "examples": [
+    {
+     "jp": "上 (ue)",
+     "en": "Above"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-above"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "うえ",
+   "data": {
+    "on": [
+     "じょう",
+     "しょう",
+     "しゃん"
+    ],
+    "kun": [
+     "うえ",
+     "うえ",
+     "うわ",
+     "かみ",
+     "あげる",
+     "あげる",
+     "あがる",
+     "あがる",
+     "あがり",
+     "あがり",
+     "のぼる",
+     "のぼり",
+     "のぼせる",
+     "のぼす",
+     "たてまつる"
+    ],
+    "strokes": 3,
+    "grade": 1,
+    "freq": 35
+   }
+  },
+  {
+   "slug": "kanji-below",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "下",
+   "romaji": "shita/shimo/moto/sageru/sagaru/kudaru/kudari/kudasu/kudasaru/orosu/oriru/ka/ge",
+   "meaning": "Below / Down",
+   "mnemonic": "An arrow pointing down",
+   "examples": [
+    {
+     "jp": "下 (shita)",
+     "en": "Below"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-below"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "した",
+   "data": {
+    "on": [
+     "か",
+     "げ"
+    ],
+    "kun": [
+     "した",
+     "しも",
+     "もと",
+     "さげる",
+     "さがる",
+     "くだる",
+     "くだり",
+     "くだす",
+     "くだす",
+     "くださる",
+     "おろす",
+     "おりる"
+    ],
+    "strokes": 3,
+    "grade": 1,
+    "freq": 97
+   }
+  },
+  {
+   "slug": "kanji-mouth",
+   "type": "kanji",
+   "jlpt_level": "N4",
+   "term": "口",
+   "romaji": "kuchi/kou/ku",
+   "meaning": "Mouth",
+   "mnemonic": "An open mouth shape",
+   "examples": [
+    {
+     "jp": "入口 (iriguchi)",
+     "en": "Entrance"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-mouth"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "くち",
+   "data": {
+    "on": [
+     "こう",
+     "く"
+    ],
+    "kun": [
+     "くち"
+    ],
+    "strokes": 3,
+    "grade": 1,
+    "freq": 284
+   }
+  },
+  {
+   "slug": "kanji-big",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "大",
+   "romaji": "oo/ookii/ooini/dai/tai",
+   "meaning": "Big / Large",
+   "mnemonic": "A person with arms spread wide",
+   "examples": [
+    {
+     "jp": "大きい (ookii)",
+     "en": "Big"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-big"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "おお",
+   "data": {
+    "on": [
+     "だい",
+     "たい"
+    ],
+    "kun": [
+     "おお",
+     "おおきい",
+     "おおいに"
+    ],
+    "strokes": 3,
+    "grade": 1,
+    "freq": 7
+   }
+  },
+  {
+   "slug": "kanji-woman",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "女",
+   "romaji": "onna/me/jo/nyo/nyou",
+   "meaning": "Woman / Female",
+   "mnemonic": "A woman kneeling",
+   "examples": [
+    {
+     "jp": "女の人 (onna no hito)",
+     "en": "A woman"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-woman-kneeling"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "おんな",
+   "data": {
+    "on": [
+     "じょ",
+     "にょ",
+     "にょう"
+    ],
+    "kun": [
+     "おんな",
+     "め"
+    ],
+    "strokes": 3,
+    "grade": 1,
+    "freq": 151
+   }
+  },
+  {
+   "slug": "kanji-mountain",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "山",
+   "romaji": "yama/san/sen",
+   "meaning": "Mountain",
+   "mnemonic": "Three mountain peaks",
+   "examples": [
+    {
+     "jp": "富士山 (fujisan)",
+     "en": "Mt. Fuji"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-three-peaks"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "やま",
+   "data": {
+    "on": [
+     "さん",
+     "せん"
+    ],
+    "kun": [
+     "やま"
+    ],
+    "strokes": 3,
+    "grade": 1,
+    "freq": 131
+   }
+  },
+  {
+   "slug": "kanji-river",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "川",
+   "romaji": "kawa/sen",
+   "meaning": "River",
+   "mnemonic": "Three flowing streams",
+   "examples": [
+    {
+     "jp": "川 (kawa)",
+     "en": "River"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-river"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "かわ",
+   "data": {
+    "on": [
+     "せん"
+    ],
+    "kun": [
+     "かわ"
+    ],
+    "strokes": 3,
+    "grade": 1,
+    "freq": 181
+   }
+  },
+  {
+   "slug": "kanji-earth",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "土",
+   "romaji": "tsuchi/do/to",
+   "meaning": "Earth / Soil",
+   "mnemonic": "A cross on the ground",
+   "examples": [
+    {
+     "jp": "土曜日 (doyoubi)",
+     "en": "Saturday"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-earth"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "つち",
+   "data": {
+    "on": [
+     "ど",
+     "と"
+    ],
+    "kun": [
+     "つち"
+    ],
+    "strokes": 3,
+    "grade": 1,
+    "freq": 307
+   }
+  },
+  {
+   "slug": "kanji-thousand",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "千",
+   "romaji": "chi/sen",
+   "meaning": "Thousand",
+   "mnemonic": "A person with a line through",
+   "examples": [
+    {
+     "jp": "千円 (senen)",
+     "en": "1000 yen"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "ち",
+   "data": {
+    "on": [
+     "せん"
+    ],
+    "kun": [
+     "ち"
+    ],
+    "strokes": 3,
+    "grade": 1,
+    "freq": 195
+   }
+  },
+  {
+   "slug": "kanji-child",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "子",
+   "romaji": "ko/ne/shi/su/tsu",
+   "meaning": "Child",
+   "mnemonic": "A child with outstretched arms",
+   "examples": [
+    {
+     "jp": "子供 (kodomo)",
+     "en": "Child"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-child"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "こ",
+   "data": {
+    "on": [
+     "し",
+     "す",
+     "つ"
+    ],
+    "kun": [
+     "こ",
+     "こ",
+     "ね"
+    ],
+    "strokes": 3,
+    "grade": 1,
+    "freq": 72
+   }
+  },
+  {
+   "slug": "kanji-small",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "小",
+   "romaji": "chiisai/ko/o/sa/shou",
+   "meaning": "Small / Little",
+   "mnemonic": "A small cross shape",
+   "examples": [
+    {
+     "jp": "小さい (chiisai)",
+     "en": "Small"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-small"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "ちいさい",
+   "data": {
+    "on": [
+     "しょう"
+    ],
+    "kun": [
+     "ちいさい",
+     "こ",
+     "お",
+     "さ"
+    ],
+    "strokes": 3,
+    "grade": 1,
+    "freq": 114
+   }
+  },
+  {
+   "slug": "kanji-middle",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "中",
+   "romaji": "naka/uchi/ataru/chuu",
+   "meaning": "Middle / Inside",
+   "mnemonic": "A line through the middle of a box",
+   "examples": [
+    {
+     "jp": "中国 (chuugoku)",
+     "en": "China"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-middle"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "なか",
+   "data": {
+    "on": [
+     "ちゅう"
+    ],
+    "kun": [
+     "なか",
+     "うち",
+     "あたる"
+    ],
+    "strokes": 4,
+    "grade": 1,
+    "freq": 11
+   }
+  },
+  {
+   "slug": "kanji-five",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "五",
+   "romaji": "itsu/itsutsu/go",
+   "meaning": "Five",
+   "mnemonic": "Five strokes like fingers",
+   "examples": [
+    {
+     "jp": "五つ (itsutsu)",
+     "en": "Five things"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "いつ",
+   "data": {
+    "on": [
+     "ご"
+    ],
+    "kun": [
+     "いつ",
+     "いつつ"
+    ],
+    "strokes": 4,
+    "grade": 1,
+    "freq": 31
+   }
+  },
+  {
+   "slug": "kanji-six",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "六",
+   "romaji": "mu/mutsu/muttsu/mui/roku/riku",
+   "meaning": "Six",
+   "mnemonic": "A roof with two legs",
+   "examples": [
+    {
+     "jp": "六つ (muttsu)",
+     "en": "Six things"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "む",
+   "data": {
+    "on": [
+     "ろく",
+     "りく"
+    ],
+    "kun": [
+     "む",
+     "むつ",
+     "むっつ",
+     "むい"
+    ],
+    "strokes": 4,
+    "grade": 1,
+    "freq": 93
+   }
+  },
+  {
+   "slug": "kanji-yen",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "円",
+   "romaji": "marui/maru/mado/madoka/maroyaka/en",
+   "meaning": "Yen / Circle",
+   "mnemonic": "A round coin",
+   "examples": [
+    {
+     "jp": "百円 (hyakuen)",
+     "en": "100 yen"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "まるい",
+   "data": {
+    "on": [
+     "えん"
+    ],
+    "kun": [
+     "まるい",
+     "まる",
+     "まど",
+     "まどか",
+     "まろやか"
+    ],
+    "strokes": 4,
+    "grade": 1,
+    "freq": 69
+   }
+  },
+  {
+   "slug": "kanji-hand",
+   "type": "kanji",
+   "jlpt_level": "N4",
+   "term": "手",
+   "romaji": "te/ta/shu/zu",
+   "meaning": "Hand",
+   "mnemonic": "Fingers spread out",
+   "examples": [
+    {
+     "jp": "手 (te)",
+     "en": "Hand"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-hand"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "て",
+   "data": {
+    "on": [
+     "しゅ",
+     "ず"
+    ],
+    "kun": [
+     "て",
+     "て",
+     "て",
+     "た"
+    ],
+    "strokes": 4,
+    "grade": 1,
+    "freq": 60
+   }
+  },
+  {
+   "slug": "kanji-sun",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "日",
+   "romaji": "hi/bi/ka/nichi/jitsu",
+   "meaning": "Sun / Day",
+   "mnemonic": "A rectangle with a line — the sun",
+   "examples": [
+    {
+     "jp": "今日 (kyou)",
+     "en": "Today"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-sun"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "ひ",
+   "data": {
+    "on": [
+     "にち",
+     "じつ"
+    ],
+    "kun": [
+     "ひ",
+     "び",
+     "か"
+    ],
+    "strokes": 4,
+    "grade": 1,
+    "freq": 1
+   }
+  },
+  {
+   "slug": "kanji-moon",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "月",
+   "romaji": "tsuki/getsu/gatsu",
+   "meaning": "Moon / Month",
+   "mnemonic": "Crescent moon shape",
+   "examples": [
+    {
+     "jp": "今月 (kongetsu)",
+     "en": "This month"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-moon"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "つき",
+   "data": {
+    "on": [
+     "げつ",
+     "がつ"
+    ],
+    "kun": [
+     "つき"
+    ],
+    "strokes": 4,
+    "grade": 1,
+    "freq": 23
+   }
+  },
+  {
+   "slug": "kanji-tree",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "木",
+   "romaji": "ki/ko/boku/moku",
+   "meaning": "Tree / Wood",
+   "mnemonic": "A tree with roots and branches",
+   "examples": [
+    {
+     "jp": "木曜日 (mokuyoubi)",
+     "en": "Thursday"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-tree"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "き",
+   "data": {
+    "on": [
+     "ぼく",
+     "もく"
+    ],
+    "kun": [
+     "き",
+     "こ"
+    ],
+    "strokes": 4,
+    "grade": 1,
+    "freq": 317
+   }
+  },
+  {
+   "slug": "kanji-water",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "水",
+   "romaji": "mizu/sui",
+   "meaning": "Water",
+   "mnemonic": "Flowing water streams",
+   "examples": [
+    {
+     "jp": "水曜日 (suiyoubi)",
+     "en": "Wednesday"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-water"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "みず",
+   "data": {
+    "on": [
+     "すい"
+    ],
+    "kun": [
+     "みず",
+     "みず"
+    ],
+    "strokes": 4,
+    "grade": 1,
+    "freq": 223
+   }
+  },
+  {
+   "slug": "kanji-fire",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "火",
+   "romaji": "hi/bi/ho/ka",
+   "meaning": "Fire",
+   "mnemonic": "Flames shooting up",
+   "examples": [
+    {
+     "jp": "火曜日 (kayoubi)",
+     "en": "Tuesday"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-fire"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "ひ",
+   "data": {
+    "on": [
+     "か"
+    ],
+    "kun": [
+     "ひ",
+     "び",
+     "ほ"
+    ],
+    "strokes": 4,
+    "grade": 1,
+    "freq": 574
+   }
+  },
+  {
+   "slug": "kanji-exit",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "出",
+   "romaji": "deru/de/dasu/ideru/idasu/shutsu/sui",
+   "meaning": "Exit / Go out",
+   "mnemonic": "Mountains coming out of the ground",
+   "examples": [
+    {
+     "jp": "出る (deru)",
+     "en": "To exit"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "でる",
+   "data": {
+    "on": [
+     "しゅつ",
+     "すい"
+    ],
+    "kun": [
+     "でる",
+     "で",
+     "だす",
+     "だす",
+     "いでる",
+     "いだす"
+    ],
+    "strokes": 5,
+    "grade": 1,
+    "freq": 13
+   }
+  },
+  {
+   "slug": "kanji-right",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "右",
+   "romaji": "migi/u/yuu",
+   "meaning": "Right",
+   "mnemonic": "A hand pointing right",
+   "examples": [
+    {
+     "jp": "右に曲がる (migi ni magaru)",
+     "en": "Turn right"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "みぎ",
+   "data": {
+    "on": [
+     "う",
+     "ゆう"
+    ],
+    "kun": [
+     "みぎ"
+    ],
+    "strokes": 5,
+    "grade": 1,
+    "freq": 602
+   }
+  },
+  {
+   "slug": "kanji-four",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "四",
+   "romaji": "yo/yotsu/yottsu/yon/shi",
+   "meaning": "Four",
+   "mnemonic": "A box divided into four",
+   "examples": [
+    {
+     "jp": "四つ (yottsu)",
+     "en": "Four things"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "よ",
+   "data": {
+    "on": [
+     "し"
+    ],
+    "kun": [
+     "よ",
+     "よつ",
+     "よっつ",
+     "よん"
+    ],
+    "strokes": 5,
+    "grade": 1,
+    "freq": 47
+   }
+  },
+  {
+   "slug": "kanji-left",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "左",
+   "romaji": "hidari/sa/sha",
+   "meaning": "Left",
+   "mnemonic": "A hand going left",
+   "examples": [
+    {
+     "jp": "左側 (hidarigawa)",
+     "en": "Left side"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "ひだり",
+   "data": {
+    "on": [
+     "さ",
+     "しゃ"
+    ],
+    "kun": [
+     "ひだり"
+    ],
+    "strokes": 5,
+    "grade": 1,
+    "freq": 630
+   }
+  },
+  {
+   "slug": "kanji-book",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "本",
+   "romaji": "moto/hon",
+   "meaning": "Book / Origin",
+   "mnemonic": "A tree with a root mark",
+   "examples": [
+    {
+     "jp": "にほん (nihon)",
+     "en": "Japan"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-tree",
+    "radical-root-line"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "もと",
+   "data": {
+    "on": [
+     "ほん"
+    ],
+    "kun": [
+     "もと"
+    ],
+    "strokes": 5,
+    "grade": 1,
+    "freq": 10
+   }
+  },
+  {
+   "slug": "kanji-white",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "白",
+   "romaji": "shiro/shira/shiroi/haku/byaku",
+   "meaning": "White",
+   "mnemonic": "The sun = whiteness",
+   "examples": [
+    {
+     "jp": "白い (shiroi)",
+     "en": "White"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-sun-ray-white-light"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "しろ",
+   "data": {
+    "on": [
+     "はく",
+     "びゃく"
+    ],
+    "kun": [
+     "しろ",
+     "しら",
+     "しろい"
+    ],
+    "strokes": 5,
+    "grade": 1,
+    "freq": 483
+   }
+  },
+  {
+   "slug": "kanji-eye",
+   "type": "kanji",
+   "jlpt_level": "N4",
+   "term": "目",
+   "romaji": "me/ma/moku/boku",
+   "meaning": "Eye",
+   "mnemonic": "An eye shape rotated",
+   "examples": [
+    {
+     "jp": "目 (me)",
+     "en": "Eye"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-eye"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "め",
+   "data": {
+    "on": [
+     "もく",
+     "ぼく"
+    ],
+    "kun": [
+     "め",
+     "め",
+     "ま"
+    ],
+    "strokes": 5,
+    "grade": 1,
+    "freq": 76
+   }
+  },
+  {
+   "slug": "kanji-stand",
+   "type": "kanji",
+   "jlpt_level": "N4",
+   "term": "立",
+   "romaji": "tatsu/tachi/tateru/tate/date/dateru/ritsu/ryuu/rittoru",
+   "meaning": "Stand",
+   "mnemonic": "A person standing upright",
+   "examples": [
+    {
+     "jp": "立つ (tatsu)",
+     "en": "To stand"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "たつ",
+   "data": {
+    "on": [
+     "りつ",
+     "りゅう",
+     "りっとる"
+    ],
+    "kun": [
+     "たつ",
+     "たつ",
+     "たち",
+     "たてる",
+     "たてる",
+     "たて",
+     "たて",
+     "たて",
+     "だて",
+     "だてる"
+    ],
+    "strokes": 5,
+    "grade": 1,
+    "freq": 58
+   }
+  },
+  {
+   "slug": "kanji-now",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "今",
+   "romaji": "ima/kon/kin",
+   "meaning": "Now / This",
+   "mnemonic": "A figure pointing down = now",
+   "examples": [
+    {
+     "jp": "今日 (kyou)",
+     "en": "Today"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "いま",
+   "data": {
+    "on": [
+     "こん",
+     "きん"
+    ],
+    "kun": [
+     "いま"
+    ],
+    "strokes": 4,
+    "grade": 2,
+    "freq": 49
+   }
+  },
+  {
+   "slug": "kanji-father",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "父",
+   "romaji": "chichi/fu",
+   "meaning": "Father",
+   "mnemonic": "A man holding a stick",
+   "examples": [
+    {
+     "jp": "お父さん (otousan)",
+     "en": "Father"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-father-holding-a-stick"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "ちち",
+   "data": {
+    "on": [
+     "ふ"
+    ],
+    "kun": [
+     "ちち"
+    ],
+    "strokes": 4,
+    "grade": 2,
+    "freq": 646
+   }
+  },
+  {
+   "slug": "kanji-winter",
+   "type": "kanji",
+   "jlpt_level": "N4",
+   "term": "冬",
+   "romaji": "fuyu/tou",
+   "meaning": "Winter",
+   "mnemonic": "Ice with cold strokes",
+   "examples": [
+    {
+     "jp": "冬は寒い (fuyu wa samui)",
+     "en": "Winter is cold"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "ふゆ",
+   "data": {
+    "on": [
+     "とう"
+    ],
+    "kun": [
+     "ふゆ"
+    ],
+    "strokes": 5,
+    "grade": 2,
+    "freq": 1090
+   }
+  },
+  {
+   "slug": "kanji-half",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "半",
+   "romaji": "nakaba/han",
+   "meaning": "Half",
+   "mnemonic": "A cow cut in half",
+   "examples": [
+    {
+     "jp": "三時半 (sanji han)",
+     "en": "3:30"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "なかば",
+   "data": {
+    "on": [
+     "はん"
+    ],
+    "kun": [
+     "なかば"
+    ],
+    "strokes": 5,
+    "grade": 2,
+    "freq": 224
+   }
+  },
+  {
+   "slug": "kanji-outside",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "外",
+   "romaji": "soto/hoka/hazusu/hazureru/to/gai/ge",
+   "meaning": "Outside",
+   "mnemonic": "Moon seen in the evening (outside time)",
+   "examples": [
+    {
+     "jp": "外国語 (gaikokugo)",
+     "en": "Foreign language"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "そと",
+   "data": {
+    "on": [
+     "がい",
+     "げ"
+    ],
+    "kun": [
+     "そと",
+     "ほか",
+     "はずす",
+     "はずれる",
+     "と"
+    ],
+    "strokes": 5,
+    "grade": 2,
+    "freq": 81
+   }
+  },
+  {
+   "slug": "kanji-mother",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "母",
+   "romaji": "haha/mo/bo",
+   "meaning": "Mother",
+   "mnemonic": "A woman nurturing",
+   "examples": [
+    {
+     "jp": "お母さん (okaasan)",
+     "en": "Mother"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-nurturing-woman"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "はは",
+   "data": {
+    "on": [
+     "ぼ"
+    ],
+    "kun": [
+     "はは",
+     "も"
+    ],
+    "strokes": 5,
+    "grade": 2,
+    "freq": 570
+   }
+  },
+  {
+   "slug": "kanji-ahead",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "先",
+   "romaji": "saki/mazu/sen",
+   "meaning": "Ahead / Previous",
+   "mnemonic": "Going ahead with legs",
+   "examples": [
+    {
+     "jp": "先生 (sensei)",
+     "en": "Teacher"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-walking",
+    "radical-legs"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "さき",
+   "data": {
+    "on": [
+     "せん"
+    ],
+    "kun": [
+     "さき",
+     "まず"
+    ],
+    "strokes": 6,
+    "grade": 1,
+    "freq": 173
+   }
+  },
+  {
+   "slug": "kanji-year",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "年",
+   "romaji": "toshi/nen",
+   "meaning": "Year",
+   "mnemonic": "Grain being harvested yearly",
+   "examples": [
+    {
+     "jp": "今年 (kotoshi)",
+     "en": "This year"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "とし",
+   "data": {
+    "on": [
+     "ねん"
+    ],
+    "kun": [
+     "とし"
+    ],
+    "strokes": 6,
+    "grade": 1,
+    "freq": 6
+   }
+  },
+  {
+   "slug": "kanji-spirit",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "気",
+   "romaji": "iki/ki/ke",
+   "meaning": "Spirit / Energy",
+   "mnemonic": "Steam rising from rice",
+   "examples": [
+    {
+     "jp": "元気 (genki)",
+     "en": "Healthy / Fine"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-steam",
+    "radical-rice"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "いき",
+   "data": {
+    "on": [
+     "き",
+     "け"
+    ],
+    "kun": [
+     "いき"
+    ],
+    "strokes": 6,
+    "grade": 1,
+    "freq": 113
+   }
+  },
+  {
+   "slug": "kanji-hundred",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "百",
+   "romaji": "momo/hyaku/byaku",
+   "meaning": "Hundred",
+   "mnemonic": "One on top of a white shape",
+   "examples": [
+    {
+     "jp": "百円 (hyakuen)",
+     "en": "100 yen"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "もも",
+   "data": {
+    "on": [
+     "ひゃく",
+     "びゃく"
+    ],
+    "kun": [
+     "もも"
+    ],
+    "strokes": 6,
+    "grade": 1,
+    "freq": 163
+   }
+  },
+  {
+   "slug": "kanji-ear",
+   "type": "kanji",
+   "jlpt_level": "N3",
+   "term": "耳",
+   "romaji": "mimi/ji",
+   "meaning": "Ear",
+   "mnemonic": "An ear-like shape",
+   "examples": [
+    {
+     "jp": "耳 (mimi)",
+     "en": "Ear"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-ear"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "みみ",
+   "data": {
+    "on": [
+     "じ"
+    ],
+    "kun": [
+     "みみ"
+    ],
+    "strokes": 6,
+    "grade": 1,
+    "freq": 1328
+   }
+  },
+  {
+   "slug": "kanji-man",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "男",
+   "romaji": "otoko/o/dan/nan",
+   "meaning": "Man / Male",
+   "mnemonic": "A field with strength",
+   "examples": [
+    {
+     "jp": "男の子 (otoko no ko)",
+     "en": "A boy"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-rice-field",
+    "radical-strength"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "おとこ",
+   "data": {
+    "on": [
+     "だん",
+     "なん"
+    ],
+    "kun": [
+     "おとこ",
+     "お"
+    ],
+    "strokes": 7,
+    "grade": 1,
+    "freq": 240
+   }
+  },
+  {
+   "slug": "kanji-flower",
+   "type": "kanji",
+   "jlpt_level": "N4",
+   "term": "花",
+   "romaji": "hana/ka/ke",
+   "meaning": "Flower",
+   "mnemonic": "Plants changing beautifully",
+   "examples": [
+    {
+     "jp": "花が咲く (hana ga saku)",
+     "en": "Flowers bloom"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-plant",
+    "radical-change"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "はな",
+   "data": {
+    "on": [
+     "か",
+     "け"
+    ],
+    "kun": [
+     "はな"
+    ],
+    "strokes": 7,
+    "grade": 1,
+    "freq": 578
+   }
+  },
+  {
+   "slug": "kanji-see",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "見",
+   "romaji": "miru/mieru/miseru/ken",
+   "meaning": "See / Look",
+   "mnemonic": "An eye on two legs walking",
+   "examples": [
+    {
+     "jp": "見る (miru)",
+     "en": "To see"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-eye",
+    "radical-legs"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "みる",
+   "data": {
+    "on": [
+     "けん"
+    ],
+    "kun": [
+     "みる",
+     "みえる",
+     "みせる"
+    ],
+    "strokes": 7,
+    "grade": 1,
+    "freq": 22
+   }
+  },
+  {
+   "slug": "kanji-red",
+   "type": "kanji",
+   "jlpt_level": "N4",
+   "term": "赤",
+   "romaji": "aka/akai/akaramu/akarameru/seki/shaku",
+   "meaning": "Red",
+   "mnemonic": "A person on fire",
+   "examples": [
+    {
+     "jp": "赤い (akai)",
+     "en": "Red"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-big",
+    "radical-fire"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "あか",
+   "data": {
+    "on": [
+     "せき",
+     "しゃく"
+    ],
+    "kun": [
+     "あか",
+     "あか",
+     "あかい",
+     "あからむ",
+     "あからめる"
+    ],
+    "strokes": 7,
+    "grade": 1,
+    "freq": 584
+   }
+  },
+  {
+   "slug": "kanji-foot",
+   "type": "kanji",
+   "jlpt_level": "N4",
+   "term": "足",
+   "romaji": "ashi/tariru/taru/tasu/soku",
+   "meaning": "Foot / Leg",
+   "mnemonic": "A leg with a foot",
+   "examples": [
+    {
+     "jp": "足 (ashi)",
+     "en": "Foot/Leg"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-foot"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "あし",
+   "data": {
+    "on": [
+     "そく"
+    ],
+    "kun": [
+     "あし",
+     "たりる",
+     "たる",
+     "たす"
+    ],
+    "strokes": 7,
+    "grade": 1,
+    "freq": 343
+   }
+  },
+  {
+   "slug": "kanji-car",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "車",
+   "romaji": "kuruma/sha",
+   "meaning": "Car / Vehicle",
+   "mnemonic": "A wheel axle shape",
+   "examples": [
+    {
+     "jp": "電車 (densha)",
+     "en": "Train"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-wheel"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "くるま",
+   "data": {
+    "on": [
+     "しゃ"
+    ],
+    "kun": [
+     "くるま"
+    ],
+    "strokes": 7,
+    "grade": 1,
+    "freq": 333
+   }
+  },
+  {
+   "slug": "kanji-every",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "毎",
+   "romaji": "goto/gotoni/mai",
+   "meaning": "Every",
+   "mnemonic": "A mother = recurring care",
+   "examples": [
+    {
+     "jp": "毎日 (mainichi)",
+     "en": "Every day"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "ごと",
+   "data": {
+    "on": [
+     "まい"
+    ],
+    "kun": [
+     "ごと",
+     "ごとに"
+    ],
+    "strokes": 6,
+    "grade": 2,
+    "freq": 436
+   }
+  },
+  {
+   "slug": "kanji-go",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "行",
+   "romaji": "iku/yuku/yuki/iki/okonau/kou/gyou/an",
+   "meaning": "Go",
+   "mnemonic": "Steps going forward",
+   "examples": [
+    {
+     "jp": "行く (iku)",
+     "en": "To go"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "いく",
+   "data": {
+    "on": [
+     "こう",
+     "ぎょう",
+     "あん"
+    ],
+    "kun": [
+     "いく",
+     "ゆく",
+     "ゆき",
+     "ゆき",
+     "いき",
+     "いき",
+     "おこなう",
+     "おこなう"
+    ],
+    "strokes": 6,
+    "grade": 2,
+    "freq": 20
+   }
+  },
+  {
+   "slug": "kanji-what",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "何",
+   "romaji": "nani/nan/ka",
+   "meaning": "What",
+   "mnemonic": "A person asking",
+   "examples": [
+    {
+     "jp": "何ですか (nan desu ka)",
+     "en": "What is it?"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "なに",
+   "data": {
+    "on": [
+     "か"
+    ],
+    "kun": [
+     "なに",
+     "なん",
+     "なに",
+     "なん"
+    ],
+    "strokes": 7,
+    "grade": 2,
+    "freq": 340
+   }
+  },
+  {
+   "slug": "kanji-come",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "来",
+   "romaji": "kuru/kitaru/kitasu/ki/ko/rai/tai",
+   "meaning": "Come",
+   "mnemonic": "A person coming toward you",
+   "examples": [
+    {
+     "jp": "来る (kuru)",
+     "en": "To come"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "くる",
+   "data": {
+    "on": [
+     "らい",
+     "たい"
+    ],
+    "kun": [
+     "くる",
+     "きたる",
+     "きたす",
+     "きたす",
+     "きたる",
+     "き",
+     "こ"
+    ],
+    "strokes": 7,
+    "grade": 2,
+    "freq": 102
+   }
+  },
+  {
+   "slug": "kanji-study",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "学",
+   "romaji": "manabu/gaku",
+   "meaning": "Study / Learn",
+   "mnemonic": "A child learning under a roof",
+   "examples": [
+    {
+     "jp": "勉強 (benkyou)",
+     "en": "Study"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-child",
+    "radical-hands"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "まなぶ",
+   "data": {
+    "on": [
+     "がく"
+    ],
+    "kun": [
+     "まなぶ"
+    ],
+    "strokes": 8,
+    "grade": 1,
+    "freq": 63
+   }
+  },
+  {
+   "slug": "kanji-sky",
+   "type": "kanji",
+   "jlpt_level": "N4",
+   "term": "空",
+   "romaji": "sora/aku/aki/akeru/kara/suku/sukasu/munashii/kuu",
+   "meaning": "Sky / Empty",
+   "mnemonic": "A cave with emptiness above",
+   "examples": [
+    {
+     "jp": "青い空 (aoi sora)",
+     "en": "Blue sky"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-cave",
+    "radical-craft"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "そら",
+   "data": {
+    "on": [
+     "くう"
+    ],
+    "kun": [
+     "そら",
+     "あく",
+     "あき",
+     "あける",
+     "から",
+     "すく",
+     "すかす",
+     "むなしい"
+    ],
+    "strokes": 8,
+    "grade": 1,
+    "freq": 304
+   }
+  },
+  {
+   "slug": "kanji-gold",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "金",
+   "romaji": "kane/kana/gane/kin/kon/gon",
+   "meaning": "Gold / Money",
+   "mnemonic": "Gold nuggets in a mine",
+   "examples": [
+    {
+     "jp": "お金 (okane)",
+     "en": "Money"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-gold"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "かね",
+   "data": {
+    "on": [
+     "きん",
+     "こん",
+     "ごん"
+    ],
+    "kun": [
+     "かね",
+     "かな",
+     "がね"
+    ],
+    "strokes": 8,
+    "grade": 1,
+    "freq": 53
+   }
+  },
+  {
+   "slug": "kanji-rain",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "雨",
+   "romaji": "ame/ama/same/u",
+   "meaning": "Rain",
+   "mnemonic": "Clouds with rain drops",
+   "examples": [
+    {
+     "jp": "雨が降る (ame ga furu)",
+     "en": "It rains"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-rain"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "あめ",
+   "data": {
+    "on": [
+     "う"
+    ],
+    "kun": [
+     "あめ",
+     "あま",
+     "さめ"
+    ],
+    "strokes": 8,
+    "grade": 1,
+    "freq": 950
+   }
+  },
+  {
+   "slug": "kanji-blue",
+   "type": "kanji",
+   "jlpt_level": "N4",
+   "term": "青",
+   "romaji": "ao/aoi/sei/shou",
+   "meaning": "Blue / Green",
+   "mnemonic": "Plants + moon = cool blue",
+   "examples": [
+    {
+     "jp": "青い (aoi)",
+     "en": "Blue"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-growth",
+    "radical-well"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "あお",
+   "data": {
+    "on": [
+     "せい",
+     "しょう"
+    ],
+    "kun": [
+     "あお",
+     "あお",
+     "あおい"
+    ],
+    "strokes": 8,
+    "grade": 1,
+    "freq": 589
+   }
+  },
+  {
+   "slug": "kanji-country",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "国",
+   "romaji": "kuni/koku",
+   "meaning": "Country",
+   "mnemonic": "A person inside a border",
+   "examples": [
+    {
+     "jp": "外国 (gaikoku)",
+     "en": "Foreign country"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "くに",
+   "data": {
+    "on": [
+     "こく"
+    ],
+    "kun": [
+     "くに"
+    ],
+    "strokes": 8,
+    "grade": 2,
+    "freq": 3
+   }
+  },
+  {
+   "slug": "kanji-long",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "長",
+   "romaji": "nagai/osa/chou",
+   "meaning": "Long / Chief",
+   "mnemonic": "A person with long hair",
+   "examples": [
+    {
+     "jp": "長い (nagai)",
+     "en": "Long"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "ながい",
+   "data": {
+    "on": [
+     "ちょう"
+    ],
+    "kun": [
+     "ながい",
+     "おさ"
+    ],
+    "strokes": 8,
+    "grade": 2,
+    "freq": 12
+   }
+  },
+  {
+   "slug": "kanji-front",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "前",
+   "romaji": "mae/zen",
+   "meaning": "Front / Before",
+   "mnemonic": "A boat going forward",
+   "examples": [
+    {
+     "jp": "前に進む (mae ni susumu)",
+     "en": "Move forward"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "まえ",
+   "data": {
+    "on": [
+     "ぜん"
+    ],
+    "kun": [
+     "まえ",
+     "まえ"
+    ],
+    "strokes": 9,
+    "grade": 2,
+    "freq": 27
+   }
+  },
+  {
+   "slug": "kanji-behind",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "後",
+   "romaji": "nochi/ushiro/ato/okureru/go/kou",
+   "meaning": "Behind / After",
+   "mnemonic": "Steps going back",
+   "examples": [
+    {
+     "jp": "後で (ato de)",
+     "en": "Later / After"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "のち",
+   "data": {
+    "on": [
+     "ご",
+     "こう"
+    ],
+    "kun": [
+     "のち",
+     "うしろ",
+     "うしろ",
+     "あと",
+     "おくれる"
+    ],
+    "strokes": 9,
+    "grade": 2,
+    "freq": 26
+   }
+  },
+  {
+   "slug": "kanji-sea",
+   "type": "kanji",
+   "jlpt_level": "N4",
+   "term": "海",
+   "romaji": "umi/kai",
+   "meaning": "Sea / Ocean",
+   "mnemonic": "Water + mother = endless water",
+   "examples": [
+    {
+     "jp": "海で泳ぐ (umi de oyogu)",
+     "en": "Swim in the sea"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-water",
+    "radical-every"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "うみ",
+   "data": {
+    "on": [
+     "かい"
+    ],
+    "kun": [
+     "うみ"
+    ],
+    "strokes": 9,
+    "grade": 2,
+    "freq": 200
+   }
+  },
+  {
+   "slug": "kanji-eat",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "食",
+   "romaji": "kuu/kurau/taberu/hamu/shoku/jiki",
+   "meaning": "Eat / Food",
+   "mnemonic": "A bowl with chopsticks above",
+   "examples": [
+    {
+     "jp": "食べる (taberu)",
+     "en": "To eat"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-person",
+    "radical-good"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "くう",
+   "data": {
+    "on": [
+     "しょく",
+     "じき"
+    ],
+    "kun": [
+     "くう",
+     "くらう",
+     "たべる",
+     "はむ"
+    ],
+    "strokes": 9,
+    "grade": 2,
+    "freq": 328
+   }
+  },
+  {
+   "slug": "kanji-school",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "校",
+   "romaji": "kou/kyou",
+   "meaning": "School",
+   "mnemonic": "A tree + a place",
+   "examples": [
+    {
+     "jp": "学校 (gakkou)",
+     "en": "School"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-tree",
+    "radical-intersect"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "こう",
+   "data": {
+    "on": [
+     "こう",
+     "きょう"
+    ],
+    "kun": [],
+    "strokes": 10,
+    "grade": 1,
+    "freq": 294
+   }
+  },
+  {
+   "slug": "kanji-summer",
+   "type": "kanji",
+   "jlpt_level": "N4",
+   "term": "夏",
+   "romaji": "natsu/ka/ga/ge",
+   "meaning": "Summer",
+   "mnemonic": "The sun blazing",
+   "examples": [
+    {
+     "jp": "夏休み (natsuyasumi)",
+     "en": "Summer vacation"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "なつ",
+   "data": {
+    "on": [
+     "か",
+     "が",
+     "げ"
+    ],
+    "kun": [
+     "なつ"
+    ],
+    "strokes": 10,
+    "grade": 2,
+    "freq": 659
+   }
+  },
+  {
+   "slug": "kanji-time",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "時",
+   "romaji": "toki/doki/ji",
+   "meaning": "Time / Hour",
+   "mnemonic": "Sun + temple = measured time",
+   "examples": [
+    {
+     "jp": "何時 (nanji)",
+     "en": "What time?"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "とき",
+   "data": {
+    "on": [
+     "じ"
+    ],
+    "kun": [
+     "とき",
+     "どき"
+    ],
+    "strokes": 10,
+    "grade": 2,
+    "freq": 16
+   }
+  },
+  {
+   "slug": "kanji-high",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "高",
+   "romaji": "takai/taka/daka/takamaru/takameru/kou",
+   "meaning": "High / Expensive",
+   "mnemonic": "A tall building",
+   "examples": [
+    {
+     "jp": "高い (takai)",
+     "en": "Tall / Expensive"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-tall-building"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "たかい",
+   "data": {
+    "on": [
+     "こう"
+    ],
+    "kun": [
+     "たかい",
+     "たか",
+     "だか",
+     "たかまる",
+     "たかめる"
+    ],
+    "strokes": 10,
+    "grade": 2,
+    "freq": 65
+   }
+  },
+  {
+   "slug": "kanji-week",
+   "type": "kanji",
+   "jlpt_level": "N4",
+   "term": "週",
+   "romaji": "shuu",
+   "meaning": "Week",
+   "mnemonic": "A path going around",
+   "examples": [
+    {
+     "jp": "来週 (raishuu)",
+     "en": "Next week"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "しゅう",
+   "data": {
+    "on": [
+     "しゅう"
+    ],
+    "kun": [],
+    "strokes": 11,
+    "grade": 2,
+    "freq": 540
+   }
+  },
+  {
+   "slug": "kanji-between",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "間",
+   "romaji": "aida/ma/ai/kan/ken",
+   "meaning": "Between / Space",
+   "mnemonic": "Sun shining through a gate",
+   "examples": [
+    {
+     "jp": "時間 (jikan)",
+     "en": "Time (duration)"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "あいだ",
+   "data": {
+    "on": [
+     "かん",
+     "けん"
+    ],
+    "kun": [
+     "あいだ",
+     "ま",
+     "あい"
+    ],
+    "strokes": 12,
+    "grade": 2,
+    "freq": 33
+   }
+  },
+  {
+   "slug": "kanji-talk",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "話",
+   "romaji": "hanasu/hanashi/wa",
+   "meaning": "Talk / Speak",
+   "mnemonic": "Words + tongue",
+   "examples": [
+    {
+     "jp": "話す (hanasu)",
+     "en": "To speak"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "はなす",
+   "data": {
+    "on": [
+     "わ"
+    ],
+    "kun": [
+     "はなす",
+     "はなし"
+    ],
+    "strokes": 13,
+    "grade": 2,
+    "freq": 134
+   }
+  },
+  {
+   "slug": "kanji-electricity",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "電",
+   "romaji": "den",
+   "meaning": "Electricity",
+   "mnemonic": "Rain + lightning = electric",
+   "examples": [
+    {
+     "jp": "電車 (densha)",
+     "en": "Train"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-rain",
+    "radical-lightning"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "でん",
+   "data": {
+    "on": [
+     "でん"
+    ],
+    "kun": [],
+    "strokes": 13,
+    "grade": 2,
+    "freq": 268
+   }
+  },
+  {
+   "slug": "kanji-drink",
+   "type": "kanji",
+   "jlpt_level": "N4",
+   "term": "飲",
+   "romaji": "nomu/nomi/in/on",
+   "meaning": "Drink",
+   "mnemonic": "Food radical + yawn",
+   "examples": [
+    {
+     "jp": "飲む (nomu)",
+     "en": "To drink"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-eat",
+    "radical-yawn"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "のむ",
+   "data": {
+    "on": [
+     "いん",
+     "おん"
+    ],
+    "kun": [
+     "のむ",
+     "のみ"
+    ],
+    "strokes": 12,
+    "grade": 3,
+    "freq": 969
+   }
+  },
+  {
+   "slug": "kanji-hear",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "聞",
+   "romaji": "kiku/kikoeru/bun/mon",
+   "meaning": "Hear / Listen",
+   "mnemonic": "An ear inside a gate",
+   "examples": [
+    {
+     "jp": "聞く (kiku)",
+     "en": "To hear/ask"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "きく",
+   "data": {
+    "on": [
+     "ぶん",
+     "もん"
+    ],
+    "kun": [
+     "きく",
+     "きこえる"
+    ],
+    "strokes": 14,
+    "grade": 2,
+    "freq": 319
+   }
+  },
+  {
+   "slug": "kanji-language",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "語",
+   "romaji": "kataru/katarau/go",
+   "meaning": "Language / Word",
+   "mnemonic": "Words from the mouth",
+   "examples": [
+    {
+     "jp": "日本語 (nihongo)",
+     "en": "Japanese language"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-speech",
+    "radical-i"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "かたる",
+   "data": {
+    "on": [
+     "ご"
+    ],
+    "kun": [
+     "かたる",
+     "かたらう"
+    ],
+    "strokes": 14,
+    "grade": 2,
+    "freq": 301
+   }
+  },
+  {
+   "slug": "kanji-read",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "読",
+   "romaji": "yomu/yomi/doku/toku/tou",
+   "meaning": "Read",
+   "mnemonic": "Words being sold",
+   "examples": [
+    {
+     "jp": "読む (yomu)",
+     "en": "To read"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "よむ",
+   "data": {
+    "on": [
+     "どく",
+     "とく",
+     "とう"
+    ],
+    "kun": [
+     "よむ",
+     "よみ"
+    ],
+    "strokes": 14,
+    "grade": 2,
+    "freq": 618
+   }
+  },
+  {
+   "slug": "kanji-life",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "生",
+   "romaji": "ikiru/ikasu/ikeru/umareru/umare/umu/ou/haeru/hayasu/ki/nama/naru/nasu/musu/u/sei/shou",
+   "meaning": "Life / Birth",
+   "mnemonic": "A plant growing",
+   "examples": [
+    {
+     "jp": "学生 (gakusei)",
+     "en": "Student"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-earth",
+    "radical-walking"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "いきる",
+   "data": {
+    "on": [
+     "せい",
+     "しょう"
+    ],
+    "kun": [
+     "いきる",
+     "いかす",
+     "いける",
+     "うまれる",
+     "うまれる",
+     "うまれ",
+     "うまれ",
+     "うむ",
+     "おう",
+     "はえる",
+     "はやす",
+     "き",
+     "なま",
+     "なま",
+     "なる",
+     "なす",
+     "むす",
+     "う"
+    ],
+    "strokes": 5,
+    "grade": 1,
+    "freq": 29
+   }
+  },
+  {
+   "slug": "kanji-new",
+   "type": "kanji",
+   "jlpt_level": "N4",
+   "term": "新",
+   "romaji": "atarashii/arata/ara/nii/shin",
+   "meaning": "New",
+   "mnemonic": "An axe cutting a fresh tree",
+   "examples": [
+    {
+     "jp": "新しい (atarashii)",
+     "en": "New"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [
+    "radical-stand",
+    "radical-tree",
+    "radical-axe-cutting-fresh-wood"
+   ],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "あたらしい",
+   "data": {
+    "on": [
+     "しん"
+    ],
+    "kun": [
+     "あたらしい",
+     "あらた",
+     "あら",
+     "にい"
+    ],
+    "strokes": 13,
+    "grade": 2,
+    "freq": 51
+   }
+  },
+  {
+   "slug": "kanji-station",
+   "type": "kanji",
+   "jlpt_level": "N4",
+   "term": "駅",
+   "romaji": "eki",
+   "meaning": "Station",
+   "mnemonic": "A horse stop",
+   "examples": [
+    {
+     "jp": "駅で待つ (eki de matsu)",
+     "en": "Wait at the station"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "えき",
+   "data": {
+    "on": [
+     "えき"
+    ],
+    "kun": [],
+    "strokes": 14,
+    "grade": 3,
+    "freq": 724
+   }
+  },
+  {
+   "slug": "kanji-spring",
+   "type": "kanji",
+   "jlpt_level": "N4",
+   "term": "春",
+   "romaji": "haru/shun",
+   "meaning": "Spring",
+   "mnemonic": "Sun warming the earth",
+   "examples": [
+    {
+     "jp": "春が来た (haru ga kita)",
+     "en": "Spring has come"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "はる",
+   "data": {
+    "on": [
+     "しゅん"
+    ],
+    "kun": [
+     "はる"
+    ],
+    "strokes": 9,
+    "grade": 2,
+    "freq": 579
+   }
+  },
+  {
+   "slug": "kanji-autumn",
+   "type": "kanji",
+   "jlpt_level": "N4",
+   "term": "秋",
+   "romaji": "aki/toki/shuu",
+   "meaning": "Autumn",
+   "mnemonic": "Grain + fire = harvest fire",
+   "examples": [
+    {
+     "jp": "秋の葉 (aki no ha)",
+     "en": "Autumn leaves"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "あき",
+   "data": {
+    "on": [
+     "しゅう"
+    ],
+    "kun": [
+     "あき",
+     "とき"
+    ],
+    "strokes": 9,
+    "grade": 2,
+    "freq": 635
+   }
+  },
+  {
+   "slug": "kanji-day-of-week",
+   "type": "kanji",
+   "jlpt_level": "N4",
+   "term": "曜",
+   "romaji": "you",
+   "meaning": "Day of week",
+   "mnemonic": "The sun for each weekday",
+   "examples": [
+    {
+     "jp": "月曜日 (getsuyoubi)",
+     "en": "Monday"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "よう",
+   "data": {
+    "on": [
+     "よう"
+    ],
+    "kun": [],
+    "strokes": 18,
+    "grade": 2,
+    "freq": 940
+   }
+  },
+  {
+   "slug": "kanji-write",
+   "type": "kanji",
+   "jlpt_level": "N5",
+   "term": "書",
+   "romaji": "kaku/gaki/sho",
+   "meaning": "Write",
+   "mnemonic": "A brush writing",
+   "examples": [
+    {
+     "jp": "書く (kaku)",
+     "en": "To write"
+    }
+   ],
+   "skill": "kanji",
+   "prerequisites": [],
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "reading": "かく",
+   "data": {
+    "on": [
+     "しょ"
+    ],
+    "kun": [
+     "かく",
+     "がき",
+     "がき"
+    ],
+    "strokes": 10,
+    "grade": 2,
+    "freq": 169
+   }
+  },
+  {
+   "slug": "word-ao",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "青",
+   "romaji": "ao",
+   "meaning": "Blue",
+   "mnemonic": "Sky/sea blue",
+   "examples": [
+    {
+     "jp": "青い空",
+     "en": "Blue sky"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Colors & Appearance",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "あお"
+  },
+  {
+   "slug": "word-aka",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "赤",
+   "romaji": "aka",
+   "meaning": "Red",
+   "mnemonic": "Fire red",
+   "examples": [
+    {
+     "jp": "赤いバラ",
+     "en": "Red rose"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Colors & Appearance",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "あか"
+  },
+  {
+   "slug": "word-asa",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "朝",
+   "romaji": "asa",
+   "meaning": "Morning",
+   "mnemonic": "Start of the day",
+   "examples": [
+    {
+     "jp": "朝ごはん (asagohan)",
+     "en": "Breakfast"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Words",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "あさ"
+  },
+  {
+   "slug": "word-ashita",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "明日",
+   "romaji": "ashita",
+   "meaning": "Tomorrow",
+   "mnemonic": "Bright + day = next day",
+   "examples": [
+    {
+     "jp": "明日会いましょう",
+     "en": "Let's meet tomorrow"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Words",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "あした"
+  },
+  {
+   "slug": "word-asobu",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "遊ぶ",
+   "romaji": "asobu",
+   "meaning": "To play",
+   "mnemonic": "Have fun",
+   "examples": [
+    {
+     "jp": "公園で遊ぶ",
+     "en": "Play at the park"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Daily Actions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "あそぶ"
+  },
+  {
+   "slug": "word-atama",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "頭",
+   "romaji": "atama",
+   "meaning": "Head",
+   "mnemonic": "Top of body",
+   "examples": [
+    {
+     "jp": "頭が痛い",
+     "en": "My head hurts"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Body Parts",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "あたま"
+  },
+  {
+   "slug": "word-atarashii",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "新しい",
+   "romaji": "atarashii",
+   "meaning": "New",
+   "mnemonic": "Fresh, recent",
+   "examples": [
+    {
+     "jp": "新しい車 (atarashii kuruma)",
+     "en": "A new car"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Words",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "あたらしい"
+  },
+  {
+   "slug": "word-atsui",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "暑い",
+   "romaji": "atsui",
+   "meaning": "Hot",
+   "mnemonic": "Summer heat",
+   "examples": [
+    {
+     "jp": "今日は暑い",
+     "en": "Today is hot"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Weather & Nature",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "あつい"
+  },
+  {
+   "slug": "word-ani",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "兄",
+   "romaji": "ani",
+   "meaning": "Older brother",
+   "mnemonic": "Elder male sibling",
+   "examples": [
+    {
+     "jp": "兄は東京にいます",
+     "en": "My brother is in Tokyo"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Family",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "あに"
+  },
+  {
+   "slug": "word-ane",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "姉",
+   "romaji": "ane",
+   "meaning": "Older sister",
+   "mnemonic": "Elder female sibling",
+   "examples": [
+    {
+     "jp": "姉と買い物する",
+     "en": "Shop with my sister"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Family",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "あね"
+  },
+  {
+   "slug": "word-ame",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "雨",
+   "romaji": "ame",
+   "meaning": "Rain",
+   "mnemonic": "Water falling",
+   "examples": [
+    {
+     "jp": "雨が降る",
+     "en": "It rains"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Weather & Nature",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "あめ"
+  },
+  {
+   "slug": "word-arau",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "洗う",
+   "romaji": "arau",
+   "meaning": "To wash",
+   "mnemonic": "Clean with water",
+   "examples": [
+    {
+     "jp": "手を洗う",
+     "en": "Wash hands"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Daily Actions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "あらう"
+  },
+  {
+   "slug": "word-aruku",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "歩く",
+   "romaji": "aruku",
+   "meaning": "To walk",
+   "mnemonic": "Steady movement",
+   "examples": [
+    {
+     "jp": "駅まで歩く",
+     "en": "Walk to the station"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Daily Actions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "あるく"
+  },
+  {
+   "slug": "word-iie",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "いいえ",
+   "romaji": "iie",
+   "meaning": "No",
+   "mnemonic": "Polite negative",
+   "examples": [
+    {
+     "jp": "いいえ、違います",
+     "en": "No, that's wrong"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Greetings & Basics",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "いいえ"
+  },
+  {
+   "slug": "word-iu",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "言う",
+   "romaji": "iu",
+   "meaning": "To say",
+   "mnemonic": "Express words",
+   "examples": [
+    {
+     "jp": "何を言いましたか",
+     "en": "What did you say?"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Communication Verbs",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "いう"
+  },
+  {
+   "slug": "word-ie",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "家",
+   "romaji": "ie",
+   "meaning": "House/Home",
+   "mnemonic": "Roof over pig — home",
+   "examples": [
+    {
+     "jp": "家に帰る (ie ni kaeru)",
+     "en": "Go home"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Words",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "いえ"
+  },
+  {
+   "slug": "word-iku",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "行く",
+   "romaji": "iku;yuku",
+   "meaning": "To go",
+   "mnemonic": "Move away from here",
+   "examples": [
+    {
+     "jp": "学校に行く",
+     "en": "Go to school"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Movement Verbs",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "いく; ゆく"
+  },
+  {
+   "slug": "word-ikura",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "いくら",
+   "romaji": "ikura",
+   "meaning": "How much",
+   "mnemonic": "Price question",
+   "examples": [
+    {
+     "jp": "いくらですか",
+     "en": "How much is it?"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Numbers",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "いくら"
+  },
+  {
+   "slug": "word-isha",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "医者",
+   "romaji": "isha",
+   "meaning": "Doctor",
+   "mnemonic": "Medical expert",
+   "examples": [
+    {
+     "jp": "医者に行く",
+     "en": "Go to the doctor"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Health",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "いしゃ"
+  },
+  {
+   "slug": "word-isu",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "椅子",
+   "romaji": "isu",
+   "meaning": "Chair",
+   "mnemonic": "Sitting thing",
+   "examples": [
+    {
+     "jp": "椅子に座る",
+     "en": "Sit on chair"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Household Items",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "いす"
+  },
+  {
+   "slug": "word-isogashii",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "忙しい",
+   "romaji": "isogashii",
+   "meaning": "Busy",
+   "mnemonic": "No spare time",
+   "examples": [
+    {
+     "jp": "今日は忙しい (kyou wa isogashii)",
+     "en": "I'm busy today"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Words",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "いそがしい"
+  },
+  {
+   "slug": "word-itai",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "痛い",
+   "romaji": "itai",
+   "meaning": "Painful / Ouch",
+   "mnemonic": "Ouch!",
+   "examples": [
+    {
+     "jp": "頭が痛い",
+     "en": "Head hurts"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Health",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "いたい"
+  },
+  {
+   "slug": "word-inu",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "犬",
+   "romaji": "inu",
+   "meaning": "Dog",
+   "mnemonic": "Best friend",
+   "examples": [
+    {
+     "jp": "犬が走る",
+     "en": "The dog runs"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Pets & Common",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "いぬ"
+  },
+  {
+   "slug": "word-ima",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "今",
+   "romaji": "ima",
+   "meaning": "Now",
+   "mnemonic": "Present moment",
+   "examples": [
+    {
+     "jp": "今どこにいる",
+     "en": "Where are you now?"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Time Expressions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "いま"
+  },
+  {
+   "slug": "word-imouto",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "妹",
+   "romaji": "imouto",
+   "meaning": "Younger sister",
+   "mnemonic": "Little sister",
+   "examples": [
+    {
+     "jp": "妹が生まれた",
+     "en": "My sister was born"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Family",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "いもうと"
+  },
+  {
+   "slug": "word-iriguchi",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "入口",
+   "romaji": "iriguchi",
+   "meaning": "Entrance",
+   "mnemonic": "Going in opening",
+   "examples": [
+    {
+     "jp": "入口から入る",
+     "en": "Enter from entrance"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Transportation",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "いりぐち"
+  },
+  {
+   "slug": "word-iro",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "色",
+   "romaji": "iro",
+   "meaning": "Color",
+   "mnemonic": "Hue/shade",
+   "examples": [
+    {
+     "jp": "好きな色は何ですか",
+     "en": "What's your fav color?"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Colors & Appearance",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "いろ"
+  },
+  {
+   "slug": "word-utau",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "歌う",
+   "romaji": "utau",
+   "meaning": "To sing",
+   "mnemonic": "Voice music",
+   "examples": [
+    {
+     "jp": "歌を歌う",
+     "en": "Sing a song"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Daily Actions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "うたう"
+  },
+  {
+   "slug": "word-umi",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "海",
+   "romaji": "umi",
+   "meaning": "Sea",
+   "mnemonic": "Vast water",
+   "examples": [
+    {
+     "jp": "海で遊ぶ",
+     "en": "Play at the sea"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Weather & Nature",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "うみ"
+  },
+  {
+   "slug": "word-eiga",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "映画",
+   "romaji": "eiga",
+   "meaning": "Movie/Film",
+   "mnemonic": "Projected image",
+   "examples": [
+    {
+     "jp": "映画を見る (eiga wo miru)",
+     "en": "Watch a movie"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Words",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "えいが"
+  },
+  {
+   "slug": "word-eki",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "駅",
+   "romaji": "eki",
+   "meaning": "Station",
+   "mnemonic": "Train stop",
+   "examples": [
+    {
+     "jp": "駅で待つ",
+     "en": "Wait at the station"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Places Around Town",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "えき"
+  },
+  {
+   "slug": "word-enpitsu",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "鉛筆",
+   "romaji": "enpitsu",
+   "meaning": "Pencil",
+   "mnemonic": "Erasable writer",
+   "examples": [
+    {
+     "jp": "鉛筆で書く",
+     "en": "Write with pencil"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Tech & Stationery",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "えんぴつ"
+  },
+  {
+   "slug": "word-ooi",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "多い",
+   "romaji": "ooi",
+   "meaning": "Many / Much",
+   "mnemonic": "Large quantity",
+   "examples": [
+    {
+     "jp": "人が多い",
+     "en": "Many people"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Adjectives",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "おおい"
+  },
+  {
+   "slug": "word-ookii",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "大きい",
+   "romaji": "ookii",
+   "meaning": "Big / Large",
+   "mnemonic": "Spacious",
+   "examples": [
+    {
+     "jp": "大きい家",
+     "en": "Big house"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Adjectives",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "おおきい"
+  },
+  {
+   "slug": "word-okaasan",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "お母さん",
+   "romaji": "okaasan",
+   "meaning": "Mother (polite)",
+   "mnemonic": "Polite mother address",
+   "examples": [
+    {
+     "jp": "お母さんに電話する",
+     "en": "Call (your) mother"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Family",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "おかあさん"
+  },
+  {
+   "slug": "word-okane",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "お金",
+   "romaji": "okane",
+   "meaning": "Money",
+   "mnemonic": "Currency",
+   "examples": [
+    {
+     "jp": "お金がない",
+     "en": "I have no money"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Shopping",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "おかね"
+  },
+  {
+   "slug": "word-okiru",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "起きる",
+   "romaji": "okiru",
+   "meaning": "To wake up",
+   "mnemonic": "Rise from sleep",
+   "examples": [
+    {
+     "jp": "六時に起きる",
+     "en": "Wake up at six"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Daily Actions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "おきる"
+  },
+  {
+   "slug": "word-osara",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "お皿",
+   "romaji": "osara",
+   "meaning": "Plate / Dish",
+   "mnemonic": "Food holder",
+   "examples": [
+    {
+     "jp": "お皿に盛る",
+     "en": "Serve on plate"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Kitchen Items",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "おさら"
+  },
+  {
+   "slug": "word-oshieru",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "教える",
+   "romaji": "oshieru",
+   "meaning": "To teach",
+   "mnemonic": "Pass knowledge",
+   "examples": [
+    {
+     "jp": "日本語を教える",
+     "en": "Teach Japanese"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Communication Verbs",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "おしえる"
+  },
+  {
+   "slug": "word-osu",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "押す",
+   "romaji": "osu",
+   "meaning": "To push",
+   "mnemonic": "Force forward",
+   "examples": [
+    {
+     "jp": "ドアを押す",
+     "en": "Push the door"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Movement Verbs",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "おす"
+  },
+  {
+   "slug": "word-osoi",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "遅い",
+   "romaji": "osoi",
+   "meaning": "Slow / Late",
+   "mnemonic": "Not on time",
+   "examples": [
+    {
+     "jp": "遅い返事",
+     "en": "Late reply"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Adjectives",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "おそい"
+  },
+  {
+   "slug": "word-ocha",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "お茶",
+   "romaji": "ocha",
+   "meaning": "Tea",
+   "mnemonic": "Polite \"o\" + tea",
+   "examples": [
+    {
+     "jp": "お茶を飲む (ocha wo nomu)",
+     "en": "Drink tea"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Words",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "おちゃ"
+  },
+  {
+   "slug": "word-otousan",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "お父さん",
+   "romaji": "otousan",
+   "meaning": "Father (polite)",
+   "mnemonic": "Polite father address",
+   "examples": [
+    {
+     "jp": "お父さんはどこですか",
+     "en": "Where is your father?"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Family",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "おとうさん"
+  },
+  {
+   "slug": "word-otouto",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "弟",
+   "romaji": "otouto",
+   "meaning": "Younger brother",
+   "mnemonic": "Little brother",
+   "examples": [
+    {
+     "jp": "弟は学生です",
+     "en": "My brother is a student"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Family",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "おとうと"
+  },
+  {
+   "slug": "word-onaka",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "お腹",
+   "romaji": "onaka",
+   "meaning": "Stomach",
+   "mnemonic": "Belly is empty",
+   "examples": [
+    {
+     "jp": "お腹が空いた",
+     "en": "I'm hungry"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Body Parts",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "おなか"
+  },
+  {
+   "slug": "word-oboeru",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "覚える",
+   "romaji": "oboeru",
+   "meaning": "To memorize",
+   "mnemonic": "Store in memory",
+   "examples": [
+    {
+     "jp": "単語を覚える",
+     "en": "Memorize vocabulary"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Communication Verbs",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "おぼえる"
+  },
+  {
+   "slug": "word-omoi",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "重い",
+   "romaji": "omoi",
+   "meaning": "Heavy",
+   "mnemonic": "Hard to lift",
+   "examples": [
+    {
+     "jp": "重い荷物",
+     "en": "Heavy luggage"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Adjectives",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "おもい"
+  },
+  {
+   "slug": "word-omoshiroi",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "面白い",
+   "romaji": "omoshiroi",
+   "meaning": "Interesting",
+   "mnemonic": "Engaging",
+   "examples": [
+    {
+     "jp": "面白い話",
+     "en": "Interesting story"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Adjectives",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "おもしろい"
+  },
+  {
+   "slug": "word-oyogu",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "泳ぐ",
+   "romaji": "oyogu",
+   "meaning": "To swim",
+   "mnemonic": "Water movement",
+   "examples": [
+    {
+     "jp": "海で泳ぐ",
+     "en": "Swim in the sea"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Daily Actions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "およぐ"
+  },
+  {
+   "slug": "word-oriru",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "降りる",
+   "romaji": "oriru",
+   "meaning": "To get off",
+   "mnemonic": "Exit a vehicle",
+   "examples": [
+    {
+     "jp": "バスから降りる",
+     "en": "Get off the bus"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Movement Verbs",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "おりる"
+  },
+  {
+   "slug": "word-ongaku",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "音楽",
+   "romaji": "ongaku",
+   "meaning": "Music",
+   "mnemonic": "Sound enjoyment",
+   "examples": [
+    {
+     "jp": "音楽を聴く (ongaku wo kiku)",
+     "en": "Listen to music"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Words",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "おんがく"
+  },
+  {
+   "slug": "word-kaisha",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "会社",
+   "romaji": "kaisha",
+   "meaning": "Company/Office",
+   "mnemonic": "Meeting + society",
+   "examples": [
+    {
+     "jp": "会社で働く (kaisha de hataraku)",
+     "en": "Work at a company"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Words",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "かいしゃ"
+  },
+  {
+   "slug": "word-kaimono",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "買い物",
+   "romaji": "kaimono",
+   "meaning": "Shopping",
+   "mnemonic": "Buying things",
+   "examples": [
+    {
+     "jp": "買い物に行く",
+     "en": "Go shopping"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Shopping",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "かいもの"
+  },
+  {
+   "slug": "word-kau",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "買う",
+   "romaji": "kau",
+   "meaning": "To buy",
+   "mnemonic": "Exchange money",
+   "examples": [
+    {
+     "jp": "パンを買う (pan wo kau)",
+     "en": "Buy bread"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Words",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "かう"
+  },
+  {
+   "slug": "word-kaeru",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "帰る",
+   "romaji": "kaeru",
+   "meaning": "To return/go home",
+   "mnemonic": "Go back",
+   "examples": [
+    {
+     "jp": "家に帰る",
+     "en": "Return home"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Movement Verbs",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "かえる"
+  },
+  {
+   "slug": "word-kao",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "顔",
+   "romaji": "kao",
+   "meaning": "Face",
+   "mnemonic": "What people see first",
+   "examples": [
+    {
+     "jp": "顔を洗う",
+     "en": "Wash my face"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Body Parts",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "かお"
+  },
+  {
+   "slug": "word-kagi",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "鍵",
+   "romaji": "kagi",
+   "meaning": "Key",
+   "mnemonic": "Opener/locker",
+   "examples": [
+    {
+     "jp": "鍵をかける",
+     "en": "Lock the door"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Household Items",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "かぎ"
+  },
+  {
+   "slug": "word-kaku",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "書く",
+   "romaji": "kaku",
+   "meaning": "To write",
+   "mnemonic": "Put words on paper",
+   "examples": [
+    {
+     "jp": "手紙を書く",
+     "en": "Write a letter"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Communication Verbs",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "かく"
+  },
+  {
+   "slug": "word-kasa",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "傘",
+   "romaji": "kasa",
+   "meaning": "Umbrella",
+   "mnemonic": "Rain protection",
+   "examples": [
+    {
+     "jp": "傘を持つ",
+     "en": "Carry umbrella"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Household Items",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "かさ"
+  },
+  {
+   "slug": "word-kaze",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "風",
+   "romaji": "kaze",
+   "meaning": "Wind",
+   "mnemonic": "Moving air",
+   "examples": [
+    {
+     "jp": "風が強い",
+     "en": "Wind is strong"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Weather & Nature",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "かぜ"
+  },
+  {
+   "slug": "word-kazoku",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "家族",
+   "romaji": "kazoku",
+   "meaning": "Family",
+   "mnemonic": "House + tribe",
+   "examples": [
+    {
+     "jp": "家族と旅行する",
+     "en": "Travel with family"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Family",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "かぞく"
+  },
+  {
+   "slug": "word-gakkou",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "学校",
+   "romaji": "gakkou",
+   "meaning": "School",
+   "mnemonic": "Learning + building",
+   "examples": [
+    {
+     "jp": "学校へ行く (gakkou e iku)",
+     "en": "Go to school"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Words",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "がっこう"
+  },
+  {
+   "slug": "word-kayoubi",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "火曜日",
+   "romaji": "kayoubi",
+   "meaning": "Tuesday",
+   "mnemonic": "か (fire)",
+   "examples": [
+    {
+     "jp": "火曜日の授業",
+     "en": "Tuesday's class"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Time & Calendar",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "かようび"
+  },
+  {
+   "slug": "word-tsurai",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "辛い",
+   "romaji": "karai",
+   "meaning": "Hard / Painful",
+   "mnemonic": "Emotionally difficult",
+   "examples": [
+    {
+     "jp": "辛い経験",
+     "en": "Painful experience"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Emotions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "からい"
+  },
+  {
+   "slug": "word-karui",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "軽い",
+   "romaji": "karui",
+   "meaning": "Light (weight)",
+   "mnemonic": "Easy to carry",
+   "examples": [
+    {
+     "jp": "軽いカバン",
+     "en": "Light bag"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Adjectives",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "かるい"
+  },
+  {
+   "slug": "word-kiiro",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "黄色",
+   "romaji": "kiiro",
+   "meaning": "Yellow",
+   "mnemonic": "Sun yellow",
+   "examples": [
+    {
+     "jp": "黄色いバナナ",
+     "en": "Yellow banana"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Colors & Appearance",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "きいろ"
+  },
+  {
+   "slug": "word-kiku",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "聞く",
+   "romaji": "kiku",
+   "meaning": "To listen / ask",
+   "mnemonic": "Use ears",
+   "examples": [
+    {
+     "jp": "質問を聞く",
+     "en": "Ask a question"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Communication Verbs",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "きく"
+  },
+  {
+   "slug": "word-kippu",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "切符",
+   "romaji": "kippu",
+   "meaning": "Ticket",
+   "mnemonic": "Entry pass",
+   "examples": [
+    {
+     "jp": "切符を買う",
+     "en": "Buy a ticket"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Transportation",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "きっぷ"
+  },
+  {
+   "slug": "word-kinou",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "昨日",
+   "romaji": "kinou",
+   "meaning": "Yesterday",
+   "mnemonic": "The day before",
+   "examples": [
+    {
+     "jp": "昨日雨だった (kinou ame datta)",
+     "en": "It rained yesterday"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Words",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "きのう"
+  },
+  {
+   "slug": "word-gyuunyuu",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "牛乳",
+   "romaji": "gyuunyuu",
+   "meaning": "Milk",
+   "mnemonic": "Cow + liquid",
+   "examples": [
+    {
+     "jp": "牛乳を飲む",
+     "en": "Drink milk"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Food & Drink",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ぎゅうにゅう"
+  },
+  {
+   "slug": "word-kyou",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "今日",
+   "romaji": "kyou",
+   "meaning": "Today",
+   "mnemonic": "This + day",
+   "examples": [
+    {
+     "jp": "今日は暑い (kyou wa atsui)",
+     "en": "Today is hot"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Words",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "きょう"
+  },
+  {
+   "slug": "word-kyonen",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "去年",
+   "romaji": "kyonen",
+   "meaning": "Last year",
+   "mnemonic": "Previous year",
+   "examples": [
+    {
+     "jp": "去年の話",
+     "en": "Last year's story"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Time Expressions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "きょねん"
+  },
+  {
+   "slug": "word-kirai",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "嫌い",
+   "romaji": "kirai",
+   "meaning": "Dislike / Hate",
+   "mnemonic": "Negative feeling",
+   "examples": [
+    {
+     "jp": "嫌いな食べ物",
+     "en": "Food I dislike"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Emotions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "きらい"
+  },
+  {
+   "slug": "word-kiru",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "着る",
+   "romaji": "kiru",
+   "meaning": "To wear / put on",
+   "mnemonic": "Dress up",
+   "examples": [
+    {
+     "jp": "服を着る",
+     "en": "Put on clothes"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Daily Actions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "きる"
+  },
+  {
+   "slug": "word-ginkou",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "銀行",
+   "romaji": "ginkou",
+   "meaning": "Bank",
+   "mnemonic": "Silver + business",
+   "examples": [
+    {
+     "jp": "銀行でお金を出す",
+     "en": "Withdraw money at the bank"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Words",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ぎんこう"
+  },
+  {
+   "slug": "word-kin-youbi",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "金曜日",
+   "romaji": "kin'youbi",
+   "meaning": "Friday",
+   "mnemonic": "きん (gold/money)",
+   "examples": [
+    {
+     "jp": "花金 (hanakin)",
+     "en": "Fun Friday"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Time & Calendar",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "きんようび"
+  },
+  {
+   "slug": "word-kusuri",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "薬",
+   "romaji": "kusuri",
+   "meaning": "Medicine",
+   "mnemonic": "Healing substance",
+   "examples": [
+    {
+     "jp": "薬を飲む",
+     "en": "Take medicine"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Health",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "くすり"
+  },
+  {
+   "slug": "word-kudamono",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "果物",
+   "romaji": "kudamono",
+   "meaning": "Fruit",
+   "mnemonic": "Tree harvest",
+   "examples": [
+    {
+     "jp": "果物が甘い (kudamono ga amai)",
+     "en": "Fruit is sweet"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Words",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "くだもの"
+  },
+  {
+   "slug": "word-kuchi",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "口",
+   "romaji": "kuchi",
+   "meaning": "Mouth",
+   "mnemonic": "Opening shape",
+   "examples": [
+    {
+     "jp": "口を開ける",
+     "en": "Open mouth"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Body Parts",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "くち"
+  },
+  {
+   "slug": "word-kutsu",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "靴",
+   "romaji": "kutsu",
+   "meaning": "Shoes",
+   "mnemonic": "Foot covering",
+   "examples": [
+    {
+     "jp": "靴を履く",
+     "en": "Put on shoes"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Household Items",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "くつ"
+  },
+  {
+   "slug": "word-kutsushita",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "靴下",
+   "romaji": "kutsushita",
+   "meaning": "Socks",
+   "mnemonic": "Foot covering",
+   "examples": [
+    {
+     "jp": "靴下を履く",
+     "en": "Wear socks"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Clothes & Fashion",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "くつした"
+  },
+  {
+   "slug": "word-kumori",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "曇り",
+   "romaji": "kumori",
+   "meaning": "Cloudy",
+   "mnemonic": "Clouds overhead",
+   "examples": [
+    {
+     "jp": "曇りの日",
+     "en": "A cloudy day"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Weather & Nature",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "くもり"
+  },
+  {
+   "slug": "word-kuru",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "来る",
+   "romaji": "kuru",
+   "meaning": "To come",
+   "mnemonic": "Move toward here",
+   "examples": [
+    {
+     "jp": "こちらに来る",
+     "en": "Come this way"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Movement Verbs",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "くる"
+  },
+  {
+   "slug": "word-kuruma",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "車",
+   "romaji": "kuruma",
+   "meaning": "Car",
+   "mnemonic": "Wheels rolling",
+   "examples": [
+    {
+     "jp": "車で行く (kuruma de iku)",
+     "en": "Go by car"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Words",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "くるま"
+  },
+  {
+   "slug": "word-kuro",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "黒",
+   "romaji": "kuro",
+   "meaning": "Black",
+   "mnemonic": "Dark as night",
+   "examples": [
+    {
+     "jp": "黒い猫",
+     "en": "Black cat"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Colors & Appearance",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "くろ"
+  },
+  {
+   "slug": "word-getsuyoubi",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "月曜日",
+   "romaji": "getsuyoubi",
+   "meaning": "Monday",
+   "mnemonic": "げつ (moon/month)",
+   "examples": [
+    {
+     "jp": "月曜日に始まる",
+     "en": "Starts Monday"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Time & Calendar",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "げつようび"
+  },
+  {
+   "slug": "word-genki",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "元気",
+   "romaji": "genki",
+   "meaning": "Healthy / Fine",
+   "mnemonic": "Full of energy",
+   "examples": [
+    {
+     "jp": "元気ですか",
+     "en": "Are you well?"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Health",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "げんき"
+  },
+  {
+   "slug": "word-kouen",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "公園",
+   "romaji": "kouen",
+   "meaning": "Park",
+   "mnemonic": "Green public space",
+   "examples": [
+    {
+     "jp": "公園を散歩する",
+     "en": "Walk in the park"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Places Around Town",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "こうえん"
+  },
+  {
+   "slug": "word-kouban",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "交番",
+   "romaji": "kouban",
+   "meaning": "Police box",
+   "mnemonic": "Local police post",
+   "examples": [
+    {
+     "jp": "交番で聞く",
+     "en": "Ask at the police box"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Places Around Town",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "こうばん"
+  },
+  {
+   "slug": "word-kooto",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "コート",
+   "romaji": "kooto",
+   "meaning": "Coat",
+   "mnemonic": "Outer layer",
+   "examples": [
+    {
+     "jp": "コートを着る",
+     "en": "Wear a coat"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Clothes & Fashion",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "コート"
+  },
+  {
+   "slug": "word-koohii",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "コーヒー",
+   "romaji": "koohii",
+   "meaning": "Coffee",
+   "mnemonic": "Borrowed from English",
+   "examples": [
+    {
+     "jp": "コーヒーを頼む",
+     "en": "Order coffee"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Food & Drink",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "コーヒー"
+  },
+  {
+   "slug": "word-gogo",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "午後",
+   "romaji": "gogo",
+   "meaning": "PM (after noon)",
+   "mnemonic": "ごご = after noon",
+   "examples": [
+    {
+     "jp": "午後三時",
+     "en": "3 PM"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Time & Calendar",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ごご"
+  },
+  {
+   "slug": "word-gozen",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "午前",
+   "romaji": "gozen",
+   "meaning": "AM (before noon)",
+   "mnemonic": "ごぜん = before noon",
+   "examples": [
+    {
+     "jp": "午前六時",
+     "en": "6 AM"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Time & Calendar",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ごぜん"
+  },
+  {
+   "slug": "word-koppu",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "コップ",
+   "romaji": "koppu",
+   "meaning": "Cup / Glass",
+   "mnemonic": "Drinking vessel",
+   "examples": [
+    {
+     "jp": "コップに水を入れる",
+     "en": "Pour water in cup"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Kitchen Items",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "コップ"
+  },
+  {
+   "slug": "word-kotoshi",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "今年",
+   "romaji": "kotoshi",
+   "meaning": "This year",
+   "mnemonic": "Current year",
+   "examples": [
+    {
+     "jp": "今年の目標",
+     "en": "This year's goal"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Time Expressions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ことし"
+  },
+  {
+   "slug": "word-kotoba",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "言葉",
+   "romaji": "kotoba",
+   "meaning": "Word/Language",
+   "mnemonic": "Spoken leaf",
+   "examples": [
+    {
+     "jp": "言葉を学ぶ (kotoba wo manabu)",
+     "en": "Learn language"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Words",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ことば"
+  },
+  {
+   "slug": "word-kodomo",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "子供",
+   "romaji": "kodomo",
+   "meaning": "Child",
+   "mnemonic": "Child + small",
+   "examples": [
+    {
+     "jp": "子供が遊んでいる",
+     "en": "Children are playing"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Family",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "こども"
+  },
+  {
+   "slug": "word-konshuu",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "今週",
+   "romaji": "konshuu",
+   "meaning": "This week",
+   "mnemonic": "Current week",
+   "examples": [
+    {
+     "jp": "今週の予定",
+     "en": "This week's plans"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Time Expressions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "こんしゅう"
+  },
+  {
+   "slug": "word-saifu",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "財布",
+   "romaji": "saifu",
+   "meaning": "Wallet",
+   "mnemonic": "Money holder",
+   "examples": [
+    {
+     "jp": "財布をなくした",
+     "en": "Lost my wallet"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Household Items",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "さいふ"
+  },
+  {
+   "slug": "word-sakana",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "魚",
+   "romaji": "sakana",
+   "meaning": "Fish",
+   "mnemonic": "Water creature",
+   "examples": [
+    {
+     "jp": "魚を食べる",
+     "en": "Eat fish"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Pets & Common",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "さかな"
+  },
+  {
+   "slug": "word-satou",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "砂糖",
+   "romaji": "satou",
+   "meaning": "Sugar",
+   "mnemonic": "Sweet crystals",
+   "examples": [
+    {
+     "jp": "砂糖を入れる",
+     "en": "Add sugar"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Food & Drink",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "さとう"
+  },
+  {
+   "slug": "word-samui",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "寒い",
+   "romaji": "samui",
+   "meaning": "Cold",
+   "mnemonic": "Shivering cold",
+   "examples": [
+    {
+     "jp": "冬は寒い",
+     "en": "Winter is cold"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Weather & Nature",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "さむい"
+  },
+  {
+   "slug": "word-shio",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "塩",
+   "romaji": "shio",
+   "meaning": "Salt",
+   "mnemonic": "Savory mineral",
+   "examples": [
+    {
+     "jp": "塩をかける",
+     "en": "Sprinkle salt"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Food & Drink",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "しお"
+  },
+  {
+   "slug": "word-jikan",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "時間",
+   "romaji": "jikan",
+   "meaning": "Time (duration)",
+   "mnemonic": "Time amount",
+   "examples": [
+    {
+     "jp": "時間がない",
+     "en": "No time"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Time Expressions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "じかん"
+  },
+  {
+   "slug": "word-shigoto",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "仕事",
+   "romaji": "shigoto",
+   "meaning": "Work / Job",
+   "mnemonic": "Thing you do",
+   "examples": [
+    {
+     "jp": "仕事が忙しい",
+     "en": "Work is busy"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Work & School",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "しごと"
+  },
+  {
+   "slug": "word-jisho",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "辞書",
+   "romaji": "jisho",
+   "meaning": "Dictionary",
+   "mnemonic": "Word reference",
+   "examples": [
+    {
+     "jp": "辞書で調べる",
+     "en": "Look up in dictionary"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Tech & Stationery",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "じしょ"
+  },
+  {
+   "slug": "word-jitensha",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "自転車",
+   "romaji": "jitensha",
+   "meaning": "Bicycle",
+   "mnemonic": "Self-turning vehicle",
+   "examples": [
+    {
+     "jp": "自転車で通う",
+     "en": "Commute by bike"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Transportation",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "じてんしゃ"
+  },
+  {
+   "slug": "word-shashin",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "写真",
+   "romaji": "shashin",
+   "meaning": "Photo",
+   "mnemonic": "Captured image",
+   "examples": [
+    {
+     "jp": "写真を撮る",
+     "en": "Take a photo"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Tech & Modern Life",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "しゃしん"
+  },
+  {
+   "slug": "word-shatsu",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "シャツ",
+   "romaji": "shatsu",
+   "meaning": "Shirt",
+   "mnemonic": "Top garment",
+   "examples": [
+    {
+     "jp": "シャツを着る",
+     "en": "Wear a shirt"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Clothes & Fashion",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "シャツ"
+  },
+  {
+   "slug": "word-jugyou",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "授業",
+   "romaji": "jugyou",
+   "meaning": "Class / Lesson",
+   "mnemonic": "Learning session",
+   "examples": [
+    {
+     "jp": "授業が始まる",
+     "en": "Class begins"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Work & School",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "じゅぎょう"
+  },
+  {
+   "slug": "word-shukudai",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "宿題",
+   "romaji": "shukudai",
+   "meaning": "Homework",
+   "mnemonic": "Home + subject",
+   "examples": [
+    {
+     "jp": "宿題をする",
+     "en": "Do homework"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Work & School",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "しゅくだい"
+  },
+  {
+   "slug": "word-shouyu",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "醤油",
+   "romaji": "shouyu",
+   "meaning": "Soy sauce",
+   "mnemonic": "Japan's key condiment",
+   "examples": [
+    {
+     "jp": "醤油をつける",
+     "en": "Dip in soy sauce"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Food & Drink",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "しょうゆ"
+  },
+  {
+   "slug": "word-shiru",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "知る",
+   "romaji": "shiru",
+   "meaning": "To know",
+   "mnemonic": "Have knowledge of",
+   "examples": [
+    {
+     "jp": "彼を知っていますか",
+     "en": "Do you know him?"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Communication Verbs",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "しる"
+  },
+  {
+   "slug": "word-shiro",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "白",
+   "romaji": "shiro",
+   "meaning": "White",
+   "mnemonic": "Snow white",
+   "examples": [
+    {
+     "jp": "白いシャツ",
+     "en": "White shirt"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Colors & Appearance",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "しろ"
+  },
+  {
+   "slug": "word-suiyoubi",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "水曜日",
+   "romaji": "suiyoubi",
+   "meaning": "Wednesday",
+   "mnemonic": "すい (water)",
+   "examples": [
+    {
+     "jp": "水曜日に会議",
+     "en": "Meeting on Wednesday"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Time & Calendar",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "すいようび"
+  },
+  {
+   "slug": "word-sukaato",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "スカート",
+   "romaji": "sukaato",
+   "meaning": "Skirt",
+   "mnemonic": "Lower garment",
+   "examples": [
+    {
+     "jp": "スカートをはく",
+     "en": "Wear a skirt"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Clothes & Fashion",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "スカート"
+  },
+  {
+   "slug": "word-suki",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "好き",
+   "romaji": "suki",
+   "meaning": "Like / Love",
+   "mnemonic": "Positive preference",
+   "examples": [
+    {
+     "jp": "日本語が好き",
+     "en": "I like Japanese"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Emotions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "すき"
+  },
+  {
+   "slug": "word-sukunai",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "少ない",
+   "romaji": "sukunai",
+   "meaning": "Few / Little",
+   "mnemonic": "Small quantity",
+   "examples": [
+    {
+     "jp": "時間が少ない",
+     "en": "Little time"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Adjectives",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "すくない"
+  },
+  {
+   "slug": "word-suzushii",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "涼しい",
+   "romaji": "suzushii",
+   "meaning": "Cool / Refreshing",
+   "mnemonic": "Pleasant temperature",
+   "examples": [
+    {
+     "jp": "涼しい風",
+     "en": "Cool breeze"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Weather & Nature",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "すずしい"
+  },
+  {
+   "slug": "word-supuun",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "スプーン",
+   "romaji": "supuun",
+   "meaning": "Spoon",
+   "mnemonic": "Scooping utensil",
+   "examples": [
+    {
+     "jp": "スプーンで食べる",
+     "en": "Eat with a spoon"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Kitchen Items",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "スプーン"
+  },
+  {
+   "slug": "word-zubon",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "ズボン",
+   "romaji": "zubon",
+   "meaning": "Trousers",
+   "mnemonic": "Leg covering",
+   "examples": [
+    {
+     "jp": "ズボンを履く",
+     "en": "Put on trousers"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Clothes & Fashion",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ズボン"
+  },
+  {
+   "slug": "word-seetaa",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "セーター",
+   "romaji": "seetaa",
+   "meaning": "Sweater",
+   "mnemonic": "Warm knit",
+   "examples": [
+    {
+     "jp": "セーターを着る",
+     "en": "Put on a sweater"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Clothes & Fashion",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "セーター"
+  },
+  {
+   "slug": "word-sekken",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "石鹸",
+   "romaji": "sekken",
+   "meaning": "Soap",
+   "mnemonic": "Cleaning bar",
+   "examples": [
+    {
+     "jp": "石鹸で洗う",
+     "en": "Wash with soap"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Home & Living",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "せっけん"
+  },
+  {
+   "slug": "word-senshuu",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "先週",
+   "romaji": "senshuu",
+   "meaning": "Last week",
+   "mnemonic": "Previous week",
+   "examples": [
+    {
+     "jp": "先週どこへ行った",
+     "en": "Where did you go last week?"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Time Expressions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "せんしゅう"
+  },
+  {
+   "slug": "word-daisuki",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "大好き",
+   "romaji": "daisuki",
+   "meaning": "Love / Really like",
+   "mnemonic": "Intensely like",
+   "examples": [
+    {
+     "jp": "寿司が大好き",
+     "en": "I love sushi"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Emotions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "だいすき"
+  },
+  {
+   "slug": "word-takai",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "高い",
+   "romaji": "takai",
+   "meaning": "Expensive / Tall",
+   "mnemonic": "Up in price or height",
+   "examples": [
+    {
+     "jp": "値段が高い",
+     "en": "Price is high"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Shopping",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "たかい"
+  },
+  {
+   "slug": "word-takushii",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "タクシー",
+   "romaji": "takushii",
+   "meaning": "Taxi",
+   "mnemonic": "From English",
+   "examples": [
+    {
+     "jp": "タクシーを呼ぶ",
+     "en": "Call a taxi"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Transportation",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "タクシー"
+  },
+  {
+   "slug": "word-tanoshii",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "楽しい",
+   "romaji": "tanoshii",
+   "meaning": "Fun/Enjoyable",
+   "mnemonic": "Brings joy",
+   "examples": [
+    {
+     "jp": "パーティーは楽しい",
+     "en": "The party is fun"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Words",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "たのしい"
+  },
+  {
+   "slug": "word-taberu",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "食べる",
+   "romaji": "taberu",
+   "meaning": "To eat",
+   "mnemonic": "Take in food",
+   "examples": [
+    {
+     "jp": "朝ごはんを食べる",
+     "en": "Eat breakfast"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Daily Actions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "たべる"
+  },
+  {
+   "slug": "word-chiisai",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "小さい",
+   "romaji": "chiisai",
+   "meaning": "Small / Little",
+   "mnemonic": "Tiny",
+   "examples": [
+    {
+     "jp": "小さい犬",
+     "en": "Small dog"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Adjectives",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ちいさい"
+  },
+  {
+   "slug": "word-chikatetsu",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "地下鉄",
+   "romaji": "chikatetsu",
+   "meaning": "Subway",
+   "mnemonic": "Underground rail",
+   "examples": [
+    {
+     "jp": "地下鉄で移動する",
+     "en": "Travel by subway"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Transportation",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ちかてつ"
+  },
+  {
+   "slug": "word-chichi",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "父",
+   "romaji": "chichi",
+   "meaning": "Father (my)",
+   "mnemonic": "Humble for own father",
+   "examples": [
+    {
+     "jp": "父は医者です",
+     "en": "My father is a doctor"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Family",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ちち"
+  },
+  {
+   "slug": "word-chairo",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "茶色",
+   "romaji": "chairo",
+   "meaning": "Brown",
+   "mnemonic": "Tea brown color",
+   "examples": [
+    {
+     "jp": "茶色の犬",
+     "en": "Brown dog"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Colors & Appearance",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ちゃいろ"
+  },
+  {
+   "slug": "word-tsukue",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "机",
+   "romaji": "tsukue",
+   "meaning": "Desk",
+   "mnemonic": "Work surface",
+   "examples": [
+    {
+     "jp": "机で勉強する",
+     "en": "Study at desk"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Household Items",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "つくえ"
+  },
+  {
+   "slug": "word-tsumaranai",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "つまらない",
+   "romaji": "tsumaranai",
+   "meaning": "Boring",
+   "mnemonic": "Not interesting",
+   "examples": [
+    {
+     "jp": "つまらない映画",
+     "en": "Boring movie"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Adjectives",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "つまらない"
+  },
+  {
+   "slug": "word-te",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "手",
+   "romaji": "te",
+   "meaning": "Hand",
+   "mnemonic": "Five fingers",
+   "examples": [
+    {
+     "jp": "手を洗う",
+     "en": "Wash hands"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Body Parts",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "て"
+  },
+  {
+   "slug": "word-deguchi",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "出口",
+   "romaji": "deguchi",
+   "meaning": "Exit",
+   "mnemonic": "Going out opening",
+   "examples": [
+    {
+     "jp": "出口はどこですか",
+     "en": "Where is the exit?"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Transportation",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "でぐち"
+  },
+  {
+   "slug": "word-deru",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "出る",
+   "romaji": "deru",
+   "meaning": "To exit / leave",
+   "mnemonic": "Leave a place",
+   "examples": [
+    {
+     "jp": "外に出る",
+     "en": "Go outside"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Movement Verbs",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "でる"
+  },
+  {
+   "slug": "word-tenki",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "天気",
+   "romaji": "tenki",
+   "meaning": "Weather",
+   "mnemonic": "Sky condition",
+   "examples": [
+    {
+     "jp": "今日の天気は？",
+     "en": "What's today's weather?"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Weather & Nature",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "てんき"
+  },
+  {
+   "slug": "word-densha",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "電車",
+   "romaji": "densha",
+   "meaning": "Train",
+   "mnemonic": "Electric vehicle",
+   "examples": [
+    {
+     "jp": "電車に乗る",
+     "en": "Ride the train"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Transportation",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "でんしゃ"
+  },
+  {
+   "slug": "word-denwa",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "電話",
+   "romaji": "denwa",
+   "meaning": "Phone call",
+   "mnemonic": "Electric speech",
+   "examples": [
+    {
+     "jp": "電話をかける",
+     "en": "Make a phone call"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Work & School",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "でんわ"
+  },
+  {
+   "slug": "word-douzo",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "どうぞ",
+   "romaji": "douzo",
+   "meaning": "Please / Go ahead",
+   "mnemonic": "Offering / inviting",
+   "examples": [
+    {
+     "jp": "どうぞ、入ってください",
+     "en": "Please, come in"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Greetings & Basics",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "どうぞ"
+  },
+  {
+   "slug": "word-doumo",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "どうも",
+   "romaji": "doumo",
+   "meaning": "Thanks / Hey",
+   "mnemonic": "Casual thanks",
+   "examples": [
+    {
+     "jp": "どうもありがとう",
+     "en": "Thank you very much"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Greetings & Basics",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "どうも"
+  },
+  {
+   "slug": "word-tokei",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "時計",
+   "romaji": "tokei",
+   "meaning": "Clock / Watch",
+   "mnemonic": "Time measurer",
+   "examples": [
+    {
+     "jp": "時計を見る",
+     "en": "Look at the clock"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Household Items",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "とけい"
+  },
+  {
+   "slug": "word-toshokan",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "図書館",
+   "romaji": "toshokan",
+   "meaning": "Library",
+   "mnemonic": "Book collection place",
+   "examples": [
+    {
+     "jp": "図書館で勉強する",
+     "en": "Study at library"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Places Around Town",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "としょかん"
+  },
+  {
+   "slug": "word-tomaru",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "止まる",
+   "romaji": "tomaru",
+   "meaning": "To stop",
+   "mnemonic": "Cease movement",
+   "examples": [
+    {
+     "jp": "駅で止まる",
+     "en": "Stop at the station"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Movement Verbs",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "とまる"
+  },
+  {
+   "slug": "word-tomodachi",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "友達",
+   "romaji": "tomodachi",
+   "meaning": "Friend",
+   "mnemonic": "Friend + stand together",
+   "examples": [
+    {
+     "jp": "友達と遊ぶ",
+     "en": "Play with friends"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Family",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ともだち"
+  },
+  {
+   "slug": "word-doyoubi",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "土曜日",
+   "romaji": "doyoubi",
+   "meaning": "Saturday",
+   "mnemonic": "ど (earth)",
+   "examples": [
+    {
+     "jp": "土曜日はゆっくりする",
+     "en": "Relax on Saturday"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Time & Calendar",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "どようび"
+  },
+  {
+   "slug": "word-tori",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "鳥",
+   "romaji": "tori",
+   "meaning": "Bird",
+   "mnemonic": "Wings and beak",
+   "examples": [
+    {
+     "jp": "鳥が飛ぶ",
+     "en": "The bird flies"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Pets & Common",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "とり"
+  },
+  {
+   "slug": "word-naifu",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "ナイフ",
+   "romaji": "naifu",
+   "meaning": "Knife",
+   "mnemonic": "Cutting tool",
+   "examples": [
+    {
+     "jp": "ナイフで切る",
+     "en": "Cut with knife"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Kitchen Items",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ナイフ"
+  },
+  {
+   "slug": "word-nagai",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "長い",
+   "romaji": "nagai",
+   "meaning": "Long",
+   "mnemonic": "Extended length",
+   "examples": [
+    {
+     "jp": "長い道",
+     "en": "Long road"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Adjectives",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ながい"
+  },
+  {
+   "slug": "word-narau",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "習う",
+   "romaji": "narau",
+   "meaning": "To learn",
+   "mnemonic": "Receive knowledge",
+   "examples": [
+    {
+     "jp": "新しいことを習う",
+     "en": "Learn something new"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Communication Verbs",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ならう"
+  },
+  {
+   "slug": "word-niku",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "肉",
+   "romaji": "niku",
+   "meaning": "Meat",
+   "mnemonic": "Flesh",
+   "examples": [
+    {
+     "jp": "肉が好き (niku ga suki)",
+     "en": "I like meat"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Words",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "にく"
+  },
+  {
+   "slug": "word-nichiyoubi",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "日曜日",
+   "romaji": "nichiyoubi",
+   "meaning": "Sunday",
+   "mnemonic": "にち (sun/day) + ようび",
+   "examples": [
+    {
+     "jp": "日曜日は休み",
+     "en": "Sunday is a day off"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Time & Calendar",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "にちようび"
+  },
+  {
+   "slug": "word-nugu",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "脱ぐ",
+   "romaji": "nugu",
+   "meaning": "To take off (clothes)",
+   "mnemonic": "Undress",
+   "examples": [
+    {
+     "jp": "靴を脱ぐ",
+     "en": "Take off shoes"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Daily Actions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ぬぐ"
+  },
+  {
+   "slug": "word-nekutai",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "ネクタイ",
+   "romaji": "nekutai",
+   "meaning": "Necktie",
+   "mnemonic": "Formal neck wear",
+   "examples": [
+    {
+     "jp": "ネクタイを締める",
+     "en": "Tie a necktie"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Clothes & Fashion",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ネクタイ"
+  },
+  {
+   "slug": "word-neko",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "猫",
+   "romaji": "neko",
+   "meaning": "Cat",
+   "mnemonic": "Cat with whiskers",
+   "examples": [
+    {
+     "jp": "猫がいます",
+     "en": "There is a cat"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Pets & Common",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ねこ"
+  },
+  {
+   "slug": "word-neru",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "寝る",
+   "romaji": "neru",
+   "meaning": "To sleep",
+   "mnemonic": "Lie down to rest",
+   "examples": [
+    {
+     "jp": "早く寝る",
+     "en": "Sleep early"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Daily Actions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ねる"
+  },
+  {
+   "slug": "word-nooto",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "ノート",
+   "romaji": "nooto",
+   "meaning": "Notebook",
+   "mnemonic": "Paper collection",
+   "examples": [
+    {
+     "jp": "ノートに書く",
+     "en": "Write in notebook"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Tech & Stationery",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ノート"
+  },
+  {
+   "slug": "word-nomu",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "飲む",
+   "romaji": "nomu",
+   "meaning": "To drink",
+   "mnemonic": "Take in liquid",
+   "examples": [
+    {
+     "jp": "水を飲む",
+     "en": "Drink water"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Daily Actions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "のむ"
+  },
+  {
+   "slug": "word-noru",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "乗る",
+   "romaji": "noru",
+   "meaning": "To ride / get on",
+   "mnemonic": "Board a vehicle",
+   "examples": [
+    {
+     "jp": "電車に乗る",
+     "en": "Get on the train"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Movement Verbs",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "のる"
+  },
+  {
+   "slug": "word-ha",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "歯",
+   "romaji": "ha",
+   "meaning": "Tooth",
+   "mnemonic": "In your mouth",
+   "examples": [
+    {
+     "jp": "歯を磨く",
+     "en": "Brush teeth"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Body Parts",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "は"
+  },
+  {
+   "slug": "word-hai",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "はい",
+   "romaji": "hai",
+   "meaning": "Yes",
+   "mnemonic": "Quick yes",
+   "examples": [
+    {
+     "jp": "はい、そうです",
+     "en": "Yes, that's right"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Greetings & Basics",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "はい"
+  },
+  {
+   "slug": "word-hairu",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "入る",
+   "romaji": "hairu",
+   "meaning": "To enter",
+   "mnemonic": "Go inside",
+   "examples": [
+    {
+     "jp": "部屋に入る",
+     "en": "Enter the room"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Movement Verbs",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "はいる"
+  },
+  {
+   "slug": "word-hashi",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "箸",
+   "romaji": "hashi",
+   "meaning": "Chopsticks",
+   "mnemonic": "Japanese utensil",
+   "examples": [
+    {
+     "jp": "箸で食べる",
+     "en": "Eat with chopsticks"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Kitchen Items",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "はし"
+  },
+  {
+   "slug": "word-hashiru",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "走る",
+   "romaji": "hashiru",
+   "meaning": "To run",
+   "mnemonic": "Fast movement",
+   "examples": [
+    {
+     "jp": "毎朝走る",
+     "en": "Run every morning"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Daily Actions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "はしる"
+  },
+  {
+   "slug": "word-basu",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "バス",
+   "romaji": "basu",
+   "meaning": "Bus",
+   "mnemonic": "From English",
+   "examples": [
+    {
+     "jp": "バスで行く",
+     "en": "Go by bus"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Transportation",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "バス"
+  },
+  {
+   "slug": "word-hataraku",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "働く",
+   "romaji": "hataraku",
+   "meaning": "To work",
+   "mnemonic": "Person + move = labor",
+   "examples": [
+    {
+     "jp": "毎日働く (mainichi hataraku)",
+     "en": "Work every day"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Words",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "はたらく"
+  },
+  {
+   "slug": "word-hana",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "鼻",
+   "romaji": "hana",
+   "meaning": "Nose",
+   "mnemonic": "Center of face",
+   "examples": [
+    {
+     "jp": "鼻が高い",
+     "en": "High nose bridge"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Body Parts",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "はな"
+  },
+  {
+   "slug": "word-hanasu",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "話す",
+   "romaji": "hanasu",
+   "meaning": "To speak",
+   "mnemonic": "Use voice",
+   "examples": [
+    {
+     "jp": "日本語で話す",
+     "en": "Speak in Japanese"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Communication Verbs",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "はなす"
+  },
+  {
+   "slug": "word-haha",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "母",
+   "romaji": "haha",
+   "meaning": "Mother (my)",
+   "mnemonic": "Humble for own mother",
+   "examples": [
+    {
+     "jp": "母が作った料理",
+     "en": "Food my mother made"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Family",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "はは"
+  },
+  {
+   "slug": "word-hayai",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "速い",
+   "romaji": "hayai",
+   "meaning": "Fast / Quick",
+   "mnemonic": "Rapid movement",
+   "examples": [
+    {
+     "jp": "速い電車",
+     "en": "Fast train"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Adjectives",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "はやい"
+  },
+  {
+   "slug": "word-hare",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "晴れ",
+   "romaji": "hare",
+   "meaning": "Sunny / Clear",
+   "mnemonic": "No clouds",
+   "examples": [
+    {
+     "jp": "今日は晴れです",
+     "en": "Today is sunny"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Weather & Nature",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "はれ"
+  },
+  {
+   "slug": "word-han",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "半",
+   "romaji": "han",
+   "meaning": "Half past",
+   "mnemonic": "はん = half",
+   "examples": [
+    {
+     "jp": "三時半",
+     "en": "3:30"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Time & Calendar",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "はん"
+  },
+  {
+   "slug": "word-pan",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "パン",
+   "romaji": "pan",
+   "meaning": "Bread",
+   "mnemonic": "From Portuguese pão",
+   "examples": [
+    {
+     "jp": "パンを買う",
+     "en": "Buy bread"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Food & Drink",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "パン"
+  },
+  {
+   "slug": "word-hiku",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "引く",
+   "romaji": "hiku",
+   "meaning": "To pull",
+   "mnemonic": "Draw toward you",
+   "examples": [
+    {
+     "jp": "ドアを引く",
+     "en": "Pull the door"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Movement Verbs",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ひく"
+  },
+  {
+   "slug": "word-hikouki",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "飛行機",
+   "romaji": "hikouki",
+   "meaning": "Airplane",
+   "mnemonic": "Flying machine",
+   "examples": [
+    {
+     "jp": "飛行機で旅行する",
+     "en": "Travel by plane"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Transportation",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ひこうき"
+  },
+  {
+   "slug": "word-ichigatsu",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "一月",
+   "romaji": "hitotsuki",
+   "meaning": "January",
+   "mnemonic": "いち (1) + がつ",
+   "examples": [
+    {
+     "jp": "一月は寒い",
+     "en": "January is cold"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Time & Calendar",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ひとつき"
+  },
+  {
+   "slug": "word-byouin",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "病院",
+   "romaji": "byouin",
+   "meaning": "Hospital",
+   "mnemonic": "Sickness + institution",
+   "examples": [
+    {
+     "jp": "病院に行く (byouin ni iku)",
+     "en": "Go to the hospital"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Words",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "びょういん"
+  },
+  {
+   "slug": "word-byouki",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "病気",
+   "romaji": "byouki",
+   "meaning": "Illness / Sick",
+   "mnemonic": "Sick condition",
+   "examples": [
+    {
+     "jp": "病気になった",
+     "en": "Got sick"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Health",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "びょうき"
+  },
+  {
+   "slug": "word-hiru",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "昼",
+   "romaji": "hiru",
+   "meaning": "Noon/Daytime",
+   "mnemonic": "Middle of the day",
+   "examples": [
+    {
+     "jp": "昼ごはん (hirugohan)",
+     "en": "Lunch"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Words",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ひる"
+  },
+  {
+   "slug": "word-fooku",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "フォーク",
+   "romaji": "fuooku",
+   "meaning": "Fork",
+   "mnemonic": "Western utensil",
+   "examples": [
+    {
+     "jp": "フォークを使う",
+     "en": "Use a fork"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Kitchen Items",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "フォーク"
+  },
+  {
+   "slug": "word-fuku",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "服",
+   "romaji": "fuku",
+   "meaning": "Clothes",
+   "mnemonic": "Body covering",
+   "examples": [
+    {
+     "jp": "服を着る",
+     "en": "Wear clothes"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Clothes & Fashion",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ふく"
+  },
+  {
+   "slug": "word-furui",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "古い",
+   "romaji": "furui",
+   "meaning": "Old",
+   "mnemonic": "Aged, worn",
+   "examples": [
+    {
+     "jp": "古い本 (furui hon)",
+     "en": "An old book"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Words",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ふるい"
+  },
+  {
+   "slug": "word-beddo",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "ベッド",
+   "romaji": "beddo",
+   "meaning": "Bed",
+   "mnemonic": "Sleeping surface",
+   "examples": [
+    {
+     "jp": "ベッドで寝る",
+     "en": "Sleep in bed"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Home & Living",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ベッド"
+  },
+  {
+   "slug": "word-pen",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "ペン",
+   "romaji": "pen",
+   "meaning": "Pen",
+   "mnemonic": "Writing tool",
+   "examples": [
+    {
+     "jp": "ペンで書く",
+     "en": "Write with pen"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Tech & Stationery",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ペン"
+  },
+  {
+   "slug": "word-benkyou",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "勉強",
+   "romaji": "benkyou(suru)",
+   "meaning": "Study",
+   "mnemonic": "Effort + strong",
+   "examples": [
+    {
+     "jp": "日本語を勉強する",
+     "en": "Study Japanese"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Work & School",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "べんきょう (する)"
+  },
+  {
+   "slug": "word-boushi",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "帽子",
+   "romaji": "boushi",
+   "meaning": "Hat",
+   "mnemonic": "Head covering",
+   "examples": [
+    {
+     "jp": "帽子をかぶる",
+     "en": "Put on a hat"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Household Items",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ぼうし"
+  },
+  {
+   "slug": "word-hoteru",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "ホテル",
+   "romaji": "hoteru",
+   "meaning": "Hotel",
+   "mnemonic": "Accommodation",
+   "examples": [
+    {
+     "jp": "ホテルに泊まる",
+     "en": "Stay at a hotel"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Places Around Town",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ホテル"
+  },
+  {
+   "slug": "word-hon",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "本",
+   "romaji": "hon",
+   "meaning": "Book",
+   "mnemonic": "Tree + root = origin of knowledge",
+   "examples": [
+    {
+     "jp": "本を読む",
+     "en": "Read a book"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Household Items",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ほん"
+  },
+  {
+   "slug": "word-maiasa",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "毎朝",
+   "romaji": "maiasa",
+   "meaning": "Every morning",
+   "mnemonic": "Daily morning habit",
+   "examples": [
+    {
+     "jp": "毎朝コーヒーを飲む",
+     "en": "Drink coffee every morning"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Time Expressions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "まいあさ"
+  },
+  {
+   "slug": "word-mainichi",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "毎日",
+   "romaji": "mainichi",
+   "meaning": "Every day",
+   "mnemonic": "Each + day",
+   "examples": [
+    {
+     "jp": "毎日運動する",
+     "en": "Exercise every day"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Words",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "まいにち"
+  },
+  {
+   "slug": "word-mada",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "まだ",
+   "romaji": "mada",
+   "meaning": "Still / Not yet",
+   "mnemonic": "Continuing state",
+   "examples": [
+    {
+     "jp": "まだ終わってない",
+     "en": "Not finished yet"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Time Expressions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "まだ"
+  },
+  {
+   "slug": "word-matsu",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "待つ",
+   "romaji": "matsu",
+   "meaning": "To wait",
+   "mnemonic": "Stand by patiently",
+   "examples": [
+    {
+     "jp": "ちょっと待って (chotto matte)",
+     "en": "Wait a moment"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Words",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "まつ"
+  },
+  {
+   "slug": "word-mado",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "窓",
+   "romaji": "mado",
+   "meaning": "Window",
+   "mnemonic": "Light opening",
+   "examples": [
+    {
+     "jp": "窓を開ける",
+     "en": "Open the window"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Household Items",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "まど"
+  },
+  {
+   "slug": "word-mijikai",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "短い",
+   "romaji": "mijikai",
+   "meaning": "Short",
+   "mnemonic": "Brief length",
+   "examples": [
+    {
+     "jp": "短い話",
+     "en": "Short story"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Adjectives",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "みじかい"
+  },
+  {
+   "slug": "word-mizu",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "水",
+   "romaji": "mizu",
+   "meaning": "Water",
+   "mnemonic": "Flowing streams",
+   "examples": [
+    {
+     "jp": "水をください (mizu wo kudasai)",
+     "en": "Water, please"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Words",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "みず"
+  },
+  {
+   "slug": "word-mise",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "店",
+   "romaji": "mise",
+   "meaning": "Shop/Store",
+   "mnemonic": "A place to buy",
+   "examples": [
+    {
+     "jp": "店が開く (mise ga aku)",
+     "en": "The shop opens"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Words",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "みせ"
+  },
+  {
+   "slug": "word-michi",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "道",
+   "romaji": "michi",
+   "meaning": "Road / Path",
+   "mnemonic": "Way to go",
+   "examples": [
+    {
+     "jp": "道を歩く",
+     "en": "Walk the road"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Transportation",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "みち"
+  },
+  {
+   "slug": "word-midori",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "緑",
+   "romaji": "midori",
+   "meaning": "Green",
+   "mnemonic": "Nature green",
+   "examples": [
+    {
+     "jp": "緑の木",
+     "en": "Green tree"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Colors & Appearance",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "みどり"
+  },
+  {
+   "slug": "word-mimi",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "耳",
+   "romaji": "mimi",
+   "meaning": "Ear",
+   "mnemonic": "Ear shape",
+   "examples": [
+    {
+     "jp": "耳が聞こえない",
+     "en": "Can't hear"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Body Parts",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "みみ"
+  },
+  {
+   "slug": "word-miru",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "見る",
+   "romaji": "miru",
+   "meaning": "To see/watch",
+   "mnemonic": "Use your eyes",
+   "examples": [
+    {
+     "jp": "テレビを見る (terebi wo miru)",
+     "en": "Watch TV"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Words",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "みる"
+  },
+  {
+   "slug": "word-muzukashii",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "難しい",
+   "romaji": "muzukashii",
+   "meaning": "Difficult",
+   "mnemonic": "Hard to understand",
+   "examples": [
+    {
+     "jp": "難しい問題",
+     "en": "Difficult problem"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Adjectives",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "むずかしい"
+  },
+  {
+   "slug": "word-me",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "目",
+   "romaji": "me",
+   "meaning": "Eye",
+   "mnemonic": "Eye shape",
+   "examples": [
+    {
+     "jp": "目が大きい",
+     "en": "Big eyes"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Body Parts",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "め"
+  },
+  {
+   "slug": "word-megane",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "眼鏡",
+   "romaji": "megane",
+   "meaning": "Glasses",
+   "mnemonic": "Eye helpers",
+   "examples": [
+    {
+     "jp": "眼鏡をかける",
+     "en": "Put on glasses"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Household Items",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "めがね"
+  },
+  {
+   "slug": "word-mou",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "もう",
+   "romaji": "mou",
+   "meaning": "Already / Soon",
+   "mnemonic": "Done or about to",
+   "examples": [
+    {
+     "jp": "もう食べた",
+     "en": "Already ate"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Time Expressions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "もう"
+  },
+  {
+   "slug": "word-mokuyoubi",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "木曜日",
+   "romaji": "mokuyoubi",
+   "meaning": "Thursday",
+   "mnemonic": "もく (wood/tree)",
+   "examples": [
+    {
+     "jp": "木曜日に出かける",
+     "en": "Go out Thursday"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Time & Calendar",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "もくようび"
+  },
+  {
+   "slug": "word-yasai",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "野菜",
+   "romaji": "yasai",
+   "meaning": "Vegetables",
+   "mnemonic": "Field produce",
+   "examples": [
+    {
+     "jp": "野菜を食べる (yasai wo taberu)",
+     "en": "Eat vegetables"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Words",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "やさい"
+  },
+  {
+   "slug": "word-yasui",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "安い",
+   "romaji": "yasui",
+   "meaning": "Cheap",
+   "mnemonic": "Low price",
+   "examples": [
+    {
+     "jp": "安い店",
+     "en": "Cheap shop"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Shopping",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "やすい"
+  },
+  {
+   "slug": "word-yasumu",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "休む",
+   "romaji": "yasumu",
+   "meaning": "To rest",
+   "mnemonic": "Person leaning on a tree",
+   "examples": [
+    {
+     "jp": "週末は休む",
+     "en": "Rest on weekends"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Words",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "やすむ"
+  },
+  {
+   "slug": "word-yama",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "山",
+   "romaji": "yama",
+   "meaning": "Mountain",
+   "mnemonic": "Three peaks",
+   "examples": [
+    {
+     "jp": "山に登る",
+     "en": "Climb a mountain"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Weather & Nature",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "やま"
+  },
+  {
+   "slug": "word-yuubinkyoku",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "郵便局",
+   "romaji": "yuubinkyoku",
+   "meaning": "Post office",
+   "mnemonic": "Mail center",
+   "examples": [
+    {
+     "jp": "郵便局で送る",
+     "en": "Send at post office"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Places Around Town",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ゆうびんきょく"
+  },
+  {
+   "slug": "word-yuki",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "雪",
+   "romaji": "yuki",
+   "meaning": "Snow",
+   "mnemonic": "White flakes",
+   "examples": [
+    {
+     "jp": "雪が降った",
+     "en": "Snow fell"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Weather & Nature",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ゆき"
+  },
+  {
+   "slug": "word-yomu",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "読む",
+   "romaji": "yomu",
+   "meaning": "To read",
+   "mnemonic": "Take in written words",
+   "examples": [
+    {
+     "jp": "本を読む",
+     "en": "Read a book"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Communication Verbs",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "よむ"
+  },
+  {
+   "slug": "word-yoru",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "夜",
+   "romaji": "yoru",
+   "meaning": "Night",
+   "mnemonic": "Dark hours",
+   "examples": [
+    {
+     "jp": "夜が来る (yoru ga kuru)",
+     "en": "Night comes"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Words",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "よる"
+  },
+  {
+   "slug": "word-raishuu",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "来週",
+   "romaji": "raishuu",
+   "meaning": "Next week",
+   "mnemonic": "Week ahead",
+   "examples": [
+    {
+     "jp": "来週会いましょう",
+     "en": "Let's meet next week"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Time Expressions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "らいしゅう"
+  },
+  {
+   "slug": "word-rainen",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "来年",
+   "romaji": "rainen",
+   "meaning": "Next year",
+   "mnemonic": "Upcoming year",
+   "examples": [
+    {
+     "jp": "来年また来る",
+     "en": "Come again next year"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Time Expressions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "らいねん"
+  },
+  {
+   "slug": "word-ryouri",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "料理",
+   "romaji": "ryouri",
+   "meaning": "Cooking/Food",
+   "mnemonic": "Prepare and process food",
+   "examples": [
+    {
+     "jp": "料理が上手 (ryouri ga jouzu)",
+     "en": "Good at cooking"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Words",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "りょうり"
+  },
+  {
+   "slug": "word-ryokou",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "旅行",
+   "romaji": "ryokou",
+   "meaning": "Travel",
+   "mnemonic": "Journey go",
+   "examples": [
+    {
+     "jp": "旅行が好き (ryokou ga suki)",
+     "en": "I like travelling"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Words",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "りょこう"
+  },
+  {
+   "slug": "word-reizouko",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "冷蔵庫",
+   "romaji": "reizouko",
+   "meaning": "Refrigerator",
+   "mnemonic": "Cold storage",
+   "examples": [
+    {
+     "jp": "冷蔵庫に入れる",
+     "en": "Put in refrigerator"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Kitchen Items",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "れいぞうこ"
+  },
+  {
+   "slug": "word-resutoran",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "レストラン",
+   "romaji": "resutoran",
+   "meaning": "Restaurant",
+   "mnemonic": "Dining place",
+   "examples": [
+    {
+     "jp": "レストランで食べる",
+     "en": "Eat at restaurant"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Places Around Town",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "レストラン"
+  },
+  {
+   "slug": "word-wakaru",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "分かる",
+   "romaji": "wakaru",
+   "meaning": "To understand",
+   "mnemonic": "Comprehend",
+   "examples": [
+    {
+     "jp": "分かりました",
+     "en": "I understand"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Communication Verbs",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "わかる"
+  },
+  {
+   "slug": "word-wasureru",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "忘れる",
+   "romaji": "wasureru",
+   "meaning": "To forget",
+   "mnemonic": "Memory gone",
+   "examples": [
+    {
+     "jp": "名前を忘れた",
+     "en": "Forgot the name"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Communication Verbs",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "わすれる"
+  },
+  {
+   "slug": "word-wataru",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "渡る",
+   "romaji": "wataru",
+   "meaning": "To cross",
+   "mnemonic": "Go across",
+   "examples": [
+    {
+     "jp": "橋を渡る",
+     "en": "Cross the bridge"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Movement Verbs",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "わたる"
+  },
+  {
+   "slug": "word-warui",
+   "type": "word",
+   "jlpt_level": "N5",
+   "term": "悪い",
+   "romaji": "warui",
+   "meaning": "Bad",
+   "mnemonic": "Negative quality",
+   "examples": [
+    {
+     "jp": "気分が悪い (kibun ga warui)",
+     "en": "I feel bad"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Words",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "わるい"
+  },
+  {
+   "slug": "word-okoru",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "怒る",
+   "romaji": "okoru",
+   "meaning": "To get angry",
+   "mnemonic": "Rage building up",
+   "examples": [
+    {
+     "jp": "父が怒った",
+     "en": "Father got angry"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Emotions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "おこる"
+  },
+  {
+   "slug": "word-undou",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "運動",
+   "romaji": "undousuru",
+   "meaning": "Exercise",
+   "mnemonic": "Body movement",
+   "examples": [
+    {
+     "jp": "毎日運動する",
+     "en": "Exercise every day"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Health",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "うんどうする"
+  },
+  {
+   "slug": "word-shinpai",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "心配",
+   "romaji": "shinpaisuru",
+   "meaning": "Worry",
+   "mnemonic": "Heart troubled",
+   "examples": [
+    {
+     "jp": "心配しないで",
+     "en": "Don't worry"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Emotions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "しんぱいする"
+  },
+  {
+   "slug": "word-hirou",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "拾う",
+   "romaji": "hirou",
+   "meaning": "To pick up",
+   "mnemonic": "Take from ground",
+   "examples": [
+    {
+     "jp": "ゴミを拾う",
+     "en": "Pick up trash"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Movement Verbs",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ひろう"
+  },
+  {
+   "slug": "word-futon",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "布団",
+   "romaji": "futon",
+   "meaning": "Futon / Comforter",
+   "mnemonic": "Japanese bedding",
+   "examples": [
+    {
+     "jp": "布団をかぶる",
+     "en": "Cover with futon"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Home & Living",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ふとん"
+  },
+  {
+   "slug": "word-kanashii",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "悲しい",
+   "romaji": "kanashii",
+   "meaning": "Sad",
+   "mnemonic": "Tearful feeling",
+   "examples": [
+    {
+     "jp": "悲しい映画",
+     "en": "Sad movie"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Emotions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "かなしい"
+  },
+  {
+   "slug": "word-sakki",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "さっき",
+   "romaji": "sakki",
+   "meaning": "Just now / A moment ago",
+   "mnemonic": "Very recent past",
+   "examples": [
+    {
+     "jp": "さっき来た",
+     "en": "Just arrived"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Time Expressions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "さっき"
+  },
+  {
+   "slug": "word-kowai",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "怖い",
+   "romaji": "kowai",
+   "meaning": "Scary / Afraid",
+   "mnemonic": "Fear response",
+   "examples": [
+    {
+     "jp": "怖い話",
+     "en": "A scary story"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Emotions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "こわい"
+  },
+  {
+   "slug": "word-hazukashii",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "恥ずかしい",
+   "romaji": "hazukashii",
+   "meaning": "Embarrassed",
+   "mnemonic": "Face going red",
+   "examples": [
+    {
+     "jp": "恥ずかしい！",
+     "en": "How embarrassing!"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Emotions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "はずかしい"
+  },
+  {
+   "slug": "word-chikara",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "力",
+   "romaji": "chikara",
+   "meaning": "Power/Strength",
+   "mnemonic": "Flexed muscle",
+   "examples": [
+    {
+     "jp": "力がある (chikara ga aru)",
+     "en": "Have strength"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Words",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ちから"
+  },
+  {
+   "slug": "word-hoshi",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "星",
+   "romaji": "hoshi",
+   "meaning": "Star",
+   "mnemonic": "Night sky dot",
+   "examples": [
+    {
+     "jp": "星が輝く",
+     "en": "Stars shine"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Weather & Nature",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ほし"
+  },
+  {
+   "slug": "word-budou",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "ぶどう",
+   "romaji": "budou",
+   "meaning": "Grapes",
+   "mnemonic": "Bunch of berries",
+   "examples": [
+    {
+     "jp": "ぶどうを食べる",
+     "en": "Eat grapes"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Fruits & Veggies",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ぶどう"
+  },
+  {
+   "slug": "word-kimeru",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "決める",
+   "romaji": "kimeru",
+   "meaning": "To decide",
+   "mnemonic": "Make a choice",
+   "examples": [
+    {
+     "jp": "何にするか決める",
+     "en": "Decide what to have"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Communication Verbs",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "きめる"
+  },
+  {
+   "slug": "word-otto",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "夫",
+   "romaji": "otto",
+   "meaning": "Husband",
+   "mnemonic": "My husband",
+   "examples": [
+    {
+     "jp": "夫と出かける",
+     "en": "Go out with my husband"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Family",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "おっと"
+  },
+  {
+   "slug": "word-subarashii",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "素晴らしい",
+   "romaji": "subarashii",
+   "meaning": "Wonderful",
+   "mnemonic": "Magnificent",
+   "examples": [
+    {
+     "jp": "素晴らしい景色",
+     "en": "Wonderful view"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Adjectives",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "すばらしい"
+  },
+  {
+   "slug": "word-bijutsukan",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "美術館",
+   "romaji": "bijutsukan",
+   "meaning": "Art museum",
+   "mnemonic": "Art + building",
+   "examples": [
+    {
+     "jp": "美術館を見学する",
+     "en": "Visit the art museum"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Places Around Town",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "びじゅつかん"
+  },
+  {
+   "slug": "word-netsu",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "熱",
+   "romaji": "netsu",
+   "meaning": "Fever / Heat",
+   "mnemonic": "Body temperature up",
+   "examples": [
+    {
+     "jp": "熱があります",
+     "en": "I have a fever"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Health",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ねつ"
+  },
+  {
+   "slug": "word-odoroku",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "驚く",
+   "romaji": "odoroku",
+   "meaning": "To be surprised",
+   "mnemonic": "Shock reaction",
+   "examples": [
+    {
+     "jp": "驚いた！",
+     "en": "I was surprised!"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Emotions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "おどろく"
+  },
+  {
+   "slug": "word-sobo",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "祖母",
+   "romaji": "sobo",
+   "meaning": "Grandmother",
+   "mnemonic": "Grand + mother",
+   "examples": [
+    {
+     "jp": "祖母に会いに行く",
+     "en": "Go visit grandmother"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Family",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "そぼ"
+  },
+  {
+   "slug": "word-basho",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "場所",
+   "romaji": "basho",
+   "meaning": "Place",
+   "mnemonic": "Location spot",
+   "examples": [
+    {
+     "jp": "いい場所 (ii basho)",
+     "en": "Good place"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Words",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ばしょ"
+  },
+  {
+   "slug": "word-aisatsu",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "挨拶",
+   "romaji": "aisatsusuru",
+   "meaning": "Greeting",
+   "mnemonic": "Social opening",
+   "examples": [
+    {
+     "jp": "挨拶をする",
+     "en": "Give a greeting"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Japanese Culture",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "あいさつする"
+  },
+  {
+   "slug": "word-mori",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "森",
+   "romaji": "mori",
+   "meaning": "Forest",
+   "mnemonic": "Many trees together",
+   "examples": [
+    {
+     "jp": "森を歩く",
+     "en": "Walk in the forest"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Weather & Nature",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "もり"
+  },
+  {
+   "slug": "word-odoru",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "踊る",
+   "romaji": "odoru",
+   "meaning": "To dance",
+   "mnemonic": "Body rhythm",
+   "examples": [
+    {
+     "jp": "音楽に合わせて踊る",
+     "en": "Dance to the music"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Daily Actions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "おどる"
+  },
+  {
+   "slug": "word-omiyage",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "お土産",
+   "romaji": "omiyage",
+   "meaning": "Souvenir",
+   "mnemonic": "Gift from trip",
+   "examples": [
+    {
+     "jp": "お土産を買う",
+     "en": "Buy a souvenir"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Japanese Culture",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "おみやげ"
+  },
+  {
+   "slug": "word-keshigomu",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "消しゴム",
+   "romaji": "keshigomu",
+   "meaning": "Eraser",
+   "mnemonic": "Mistake remover",
+   "examples": [
+    {
+     "jp": "消しゴムで消す",
+     "en": "Erase with eraser"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Tech & Stationery",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "けしゴム"
+  },
+  {
+   "slug": "word-sabishii",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "寂しい",
+   "romaji": "sabishii",
+   "meaning": "Lonely",
+   "mnemonic": "Missing company",
+   "examples": [
+    {
+     "jp": "一人は寂しい",
+     "en": "Being alone is lonely"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Emotions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "さびしい"
+  },
+  {
+   "slug": "word-miso",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "味噌",
+   "romaji": "miso",
+   "meaning": "Miso paste",
+   "mnemonic": "Fermented soybean paste",
+   "examples": [
+    {
+     "jp": "味噌で作る",
+     "en": "Make with miso"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Food & Drink",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "みそ"
+  },
+  {
+   "slug": "word-kagami",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "鏡",
+   "romaji": "kagami",
+   "meaning": "Mirror",
+   "mnemonic": "Reflection surface",
+   "examples": [
+    {
+     "jp": "鏡を見る",
+     "en": "Look in mirror"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Household Items",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "かがみ"
+  },
+  {
+   "slug": "word-shiken",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "試験",
+   "romaji": "shiken",
+   "meaning": "Exam / Test",
+   "mnemonic": "Testing knowledge",
+   "examples": [
+    {
+     "jp": "試験に合格する",
+     "en": "Pass the exam"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Work & School",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "しけん"
+  },
+  {
+   "slug": "word-kuukou",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "空港",
+   "romaji": "kuukou",
+   "meaning": "Airport",
+   "mnemonic": "Sky + port",
+   "examples": [
+    {
+     "jp": "空港に行く",
+     "en": "Go to the airport"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Places Around Town",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "くうこう"
+  },
+  {
+   "slug": "word-tebukuro",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "手袋",
+   "romaji": "tebukuro",
+   "meaning": "Gloves",
+   "mnemonic": "Hand cover",
+   "examples": [
+    {
+     "jp": "手袋をはめる",
+     "en": "Put on gloves"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Clothes & Fashion",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "てぶくろ"
+  },
+  {
+   "slug": "word-kimochi",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "気持ち",
+   "romaji": "kimochi",
+   "meaning": "Feeling",
+   "mnemonic": "Internal sensation",
+   "examples": [
+    {
+     "jp": "気持ちがいい",
+     "en": "Feels good"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Emotions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "きもち"
+  },
+  {
+   "slug": "word-sofu",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "祖父",
+   "romaji": "sofu",
+   "meaning": "Grandfather",
+   "mnemonic": "Grand + father",
+   "examples": [
+    {
+     "jp": "祖父は元気です",
+     "en": "My grandfather is well"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Family",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "そふ"
+  },
+  {
+   "slug": "word-pasokon",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "パソコン",
+   "romaji": "pasokon",
+   "meaning": "Computer",
+   "mnemonic": "Personal computer",
+   "examples": [
+    {
+     "jp": "パソコンで仕事",
+     "en": "Work on computer"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Tech & Modern Life",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "パソコン"
+  },
+  {
+   "slug": "word-kimono",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "着物",
+   "romaji": "kimono",
+   "meaning": "Kimono",
+   "mnemonic": "Thing to wear",
+   "examples": [
+    {
+     "jp": "着物を着る",
+     "en": "Wear kimono"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Japanese Culture",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "きもの"
+  },
+  {
+   "slug": "word-yume",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "夢",
+   "romaji": "yume",
+   "meaning": "Dream",
+   "mnemonic": "Night vision or goal",
+   "examples": [
+    {
+     "jp": "夢を見た",
+     "en": "Had a dream"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Emotions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ゆめ"
+  },
+  {
+   "slug": "word-chi",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "血",
+   "romaji": "chi",
+   "meaning": "Blood",
+   "mnemonic": "Life fluid",
+   "examples": [
+    {
+     "jp": "血が出た",
+     "en": "Blood came out"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Body Parts",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ち"
+  },
+  {
+   "slug": "word-dentou",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "電灯",
+   "romaji": "dentou",
+   "meaning": "Electric light",
+   "mnemonic": "Light fixture",
+   "examples": [
+    {
+     "jp": "電灯をつける",
+     "en": "Turn on the light"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Home & Living",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "でんとう"
+  },
+  {
+   "slug": "word-reji",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "レジ",
+   "romaji": "reji",
+   "meaning": "Cash register / Checkout",
+   "mnemonic": "Payment counter",
+   "examples": [
+    {
+     "jp": "レジで払う",
+     "en": "Pay at checkout"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Shopping",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "レジ"
+  },
+  {
+   "slug": "word-shitagi",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "下着",
+   "romaji": "shitagi",
+   "meaning": "Underwear",
+   "mnemonic": "Under layer",
+   "examples": [
+    {
+     "jp": "下着を替える",
+     "en": "Change underwear"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Clothes & Fashion",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "したぎ"
+  },
+  {
+   "slug": "word-tsuma",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "妻",
+   "romaji": "tsuma",
+   "meaning": "Wife",
+   "mnemonic": "My wife",
+   "examples": [
+    {
+     "jp": "妻は料理が上手",
+     "en": "My wife cooks well"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Family",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "つま"
+  },
+  {
+   "slug": "word-chuushajou",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "駐車場",
+   "romaji": "chuushajou",
+   "meaning": "Parking lot",
+   "mnemonic": "Vehicle + stop + place",
+   "examples": [
+    {
+     "jp": "駐車場に止める",
+     "en": "Park in the lot"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Transportation",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ちゅうしゃじょう"
+  },
+  {
+   "slug": "word-yubiwa",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "指輪",
+   "romaji": "yubiwa",
+   "meaning": "Ring",
+   "mnemonic": "Finger jewelry",
+   "examples": [
+    {
+     "jp": "指輪をはめる",
+     "en": "Put on a ring"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Clothes & Fashion",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ゆびわ"
+  },
+  {
+   "slug": "word-nedan",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "値段",
+   "romaji": "nedan",
+   "meaning": "Price",
+   "mnemonic": "Cost amount",
+   "examples": [
+    {
+     "jp": "値段を確認する",
+     "en": "Check the price"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Shopping",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ねだん"
+  },
+  {
+   "slug": "word-kaaten",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "カーテン",
+   "romaji": "kaaten",
+   "meaning": "Curtain",
+   "mnemonic": "Window covering",
+   "examples": [
+    {
+     "jp": "カーテンを閉める",
+     "en": "Close the curtains"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Home & Living",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "カーテン"
+  },
+  {
+   "slug": "word-bunka",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "文化",
+   "romaji": "bunka",
+   "meaning": "Culture",
+   "mnemonic": "Shared customs",
+   "examples": [
+    {
+     "jp": "日本文化を学ぶ",
+     "en": "Learn Japanese culture"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Japanese Culture",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ぶんか"
+  },
+  {
+   "slug": "word-shuukan",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "習慣",
+   "romaji": "shuukan",
+   "meaning": "Custom / Habit",
+   "mnemonic": "Established practice",
+   "examples": [
+    {
+     "jp": "日本の習慣",
+     "en": "Japanese customs"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Japanese Culture",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "しゅうかん"
+  },
+  {
+   "slug": "word-senaka",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "背中",
+   "romaji": "senaka",
+   "meaning": "Back",
+   "mnemonic": "Behind body",
+   "examples": [
+    {
+     "jp": "背中が痛い",
+     "en": "My back hurts"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Body Parts",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "せなか"
+  },
+  {
+   "slug": "word-nemui",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "眠い",
+   "romaji": "nemui",
+   "meaning": "Sleepy",
+   "mnemonic": "Eyes closing",
+   "examples": [
+    {
+     "jp": "とても眠い",
+     "en": "Very sleepy"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Health",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ねむい"
+  },
+  {
+   "slug": "word-kangaeru",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "考える",
+   "romaji": "kangaeru",
+   "meaning": "To think",
+   "mnemonic": "Mental process",
+   "examples": [
+    {
+     "jp": "よく考える",
+     "en": "Think carefully"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Communication Verbs",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "かんがえる"
+  },
+  {
+   "slug": "word-kantan",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "簡単",
+   "romaji": "kantan",
+   "meaning": "Easy / Simple",
+   "mnemonic": "No effort needed",
+   "examples": [
+    {
+     "jp": "簡単な問題",
+     "en": "Easy problem"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Adjectives",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "かんたん"
+  },
+  {
+   "slug": "word-modoru",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "戻る",
+   "romaji": "modoru",
+   "meaning": "To go back",
+   "mnemonic": "Reverse direction",
+   "examples": [
+    {
+     "jp": "元の場所に戻る",
+     "en": "Return to original place"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Movement Verbs",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "もどる"
+  },
+  {
+   "slug": "word-hanami",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "花見",
+   "romaji": "hanami",
+   "meaning": "Cherry blossom viewing",
+   "mnemonic": "Flower + watch",
+   "examples": [
+    {
+     "jp": "花見をする",
+     "en": "Do hanami"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Japanese Culture",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "はなみ"
+  },
+  {
+   "slug": "word-kaigi",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "会議",
+   "romaji": "kaigi",
+   "meaning": "Meeting",
+   "mnemonic": "People gathering",
+   "examples": [
+    {
+     "jp": "会議に出る",
+     "en": "Attend a meeting"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Work & School",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "かいぎ"
+  },
+  {
+   "slug": "word-tana",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "棚",
+   "romaji": "tana",
+   "meaning": "Shelf",
+   "mnemonic": "Storage surface",
+   "examples": [
+    {
+     "jp": "棚に置く",
+     "en": "Put on the shelf"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Home & Living",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "たな"
+  },
+  {
+   "slug": "word-ureshii",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "嬉しい",
+   "romaji": "ureshii",
+   "meaning": "Happy / Glad",
+   "mnemonic": "Joy feeling",
+   "examples": [
+    {
+     "jp": "嬉しいニュース",
+     "en": "Happy news"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Emotions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "うれしい"
+  },
+  {
+   "slug": "word-jinja",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "神社",
+   "romaji": "jinja",
+   "meaning": "Shinto shrine",
+   "mnemonic": "Japanese holy place",
+   "examples": [
+    {
+     "jp": "神社にお参りする",
+     "en": "Pray at the shrine"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Places Around Town",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "じんじゃ"
+  },
+  {
+   "slug": "word-tanoshimi",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "楽しみ",
+   "romaji": "tanoshimi",
+   "meaning": "Looking forward to",
+   "mnemonic": "Anticipating joy",
+   "examples": [
+    {
+     "jp": "とても楽しみ",
+     "en": "Really looking forward"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Emotions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "たのしみ"
+  },
+  {
+   "slug": "word-korekara",
+   "type": "word",
+   "jlpt_level": "N4",
+   "term": "これから",
+   "romaji": "korekara",
+   "meaning": "From now on",
+   "mnemonic": "Starting now",
+   "examples": [
+    {
+     "jp": "これから行きます",
+     "en": "I'll go now"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Time Expressions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "これから"
+  },
+  {
+   "slug": "word-saru",
+   "type": "word",
+   "jlpt_level": "N3",
+   "term": "猿",
+   "romaji": "saru",
+   "meaning": "Monkey",
+   "mnemonic": "Primate",
+   "examples": [
+    {
+     "jp": "猿が木に登る",
+     "en": "Monkey climbs tree"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Pets & Common",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "さる"
+  },
+  {
+   "slug": "word-shujutsu",
+   "type": "word",
+   "jlpt_level": "N3",
+   "term": "手術",
+   "romaji": "shujutsu",
+   "meaning": "Surgery",
+   "mnemonic": "Medical operation",
+   "examples": [
+    {
+     "jp": "手術が必要だ",
+     "en": "Surgery is needed"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Health",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "しゅじゅつ"
+  },
+  {
+   "slug": "word-shorui",
+   "type": "word",
+   "jlpt_level": "N3",
+   "term": "書類",
+   "romaji": "shorui",
+   "meaning": "Document",
+   "mnemonic": "Written materials",
+   "examples": [
+    {
+     "jp": "書類にサインする",
+     "en": "Sign a document"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Work & School",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "しょるい"
+  },
+  {
+   "slug": "word-shingou",
+   "type": "word",
+   "jlpt_level": "N3",
+   "term": "信号",
+   "romaji": "shingou",
+   "meaning": "Traffic light",
+   "mnemonic": "Stop/go signal",
+   "examples": [
+    {
+     "jp": "信号が赤だ",
+     "en": "The light is red"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Transportation",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "しんごう"
+  },
+  {
+   "slug": "word-shinjiru",
+   "type": "word",
+   "jlpt_level": "N3",
+   "term": "信じる",
+   "romaji": "shinjiru",
+   "meaning": "To believe",
+   "mnemonic": "Have faith in",
+   "examples": [
+    {
+     "jp": "自分を信じる",
+     "en": "Believe in yourself"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Communication Verbs",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "しんじる"
+  },
+  {
+   "slug": "word-shinzou",
+   "type": "word",
+   "jlpt_level": "N3",
+   "term": "心臓",
+   "romaji": "shinzou",
+   "meaning": "Heart",
+   "mnemonic": "Pumping organ",
+   "examples": [
+    {
+     "jp": "心臓がドキドキ",
+     "en": "Heart is racing"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Body Parts",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "しんぞう"
+  },
+  {
+   "slug": "word-ai",
+   "type": "word",
+   "jlpt_level": "N3",
+   "term": "愛",
+   "romaji": "ai",
+   "meaning": "Love",
+   "mnemonic": "Heart feeling",
+   "examples": [
+    {
+     "jp": "愛してる (ai shiteru)",
+     "en": "I love you"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Words",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "あい"
+  },
+  {
+   "slug": "word-akirameru",
+   "type": "word",
+   "jlpt_level": "N3",
+   "term": "諦める",
+   "romaji": "akirameru",
+   "meaning": "To give up",
+   "mnemonic": "Stop trying",
+   "examples": [
+    {
+     "jp": "諦めないで",
+     "en": "Don't give up"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Communication Verbs",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "あきらめる"
+  },
+  {
+   "slug": "word-atatakai",
+   "type": "word",
+   "jlpt_level": "N3",
+   "term": "温かい",
+   "romaji": "atatakai",
+   "meaning": "Warm",
+   "mnemonic": "Cozy warmth",
+   "examples": [
+    {
+     "jp": "温かいスープ",
+     "en": "Warm soup"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Weather & Nature",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "あたたかい"
+  },
+  {
+   "slug": "word-arigatou",
+   "type": "word",
+   "jlpt_level": "N3",
+   "term": "ありがとう",
+   "romaji": "arigatou",
+   "meaning": "Thank you",
+   "mnemonic": "Most useful word",
+   "examples": [
+    {
+     "jp": "ありがとうございます",
+     "en": "Thank you (polite)"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Greetings & Basics",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ありがとう"
+  },
+  {
+   "slug": "word-itadakimasu",
+   "type": "word",
+   "jlpt_level": "N3",
+   "term": "いただきます",
+   "romaji": "itadakimasu",
+   "meaning": "Let's eat / Thank you for the food",
+   "mnemonic": "Gratitude before meals",
+   "examples": [
+    {
+     "jp": "いただきます！",
+     "en": "Said before eating"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Expressions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "いただきます"
+  },
+  {
+   "slug": "word-ichiji",
+   "type": "word",
+   "jlpt_level": "N3",
+   "term": "一時",
+   "romaji": "ichiji",
+   "meaning": "1 o'clock",
+   "mnemonic": "いち (1) + じ (o'clock)",
+   "examples": [
+    {
+     "jp": "一時に起きる",
+     "en": "Wake up at 1"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Time & Calendar",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "いちじ"
+  },
+  {
+   "slug": "word-usagi",
+   "type": "word",
+   "jlpt_level": "N3",
+   "term": "兎",
+   "romaji": "usagi",
+   "meaning": "Rabbit",
+   "mnemonic": "Long ears",
+   "examples": [
+    {
+     "jp": "兎が走る",
+     "en": "Rabbit runs"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Pets & Common",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "うさぎ"
+  },
+  {
+   "slug": "word-ushi",
+   "type": "word",
+   "jlpt_level": "N3",
+   "term": "牛",
+   "romaji": "ushi",
+   "meaning": "Cow",
+   "mnemonic": "Gives milk",
+   "examples": [
+    {
+     "jp": "牛の乳",
+     "en": "Cow milk"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Pets & Common",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "うし"
+  },
+  {
+   "slug": "word-uma",
+   "type": "word",
+   "jlpt_level": "N3",
+   "term": "馬",
+   "romaji": "uma",
+   "meaning": "Horse",
+   "mnemonic": "Fast animal",
+   "examples": [
+    {
+     "jp": "馬に乗る",
+     "en": "Ride a horse"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Pets & Common",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "うま"
+  },
+  {
+   "slug": "word-kaado",
+   "type": "word",
+   "jlpt_level": "N3",
+   "term": "カード",
+   "romaji": "kaado",
+   "meaning": "Card payment",
+   "mnemonic": "クレジットカード",
+   "examples": [
+    {
+     "jp": "カードで払えますか",
+     "en": "Can I pay by card?"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Money & Prices",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "カード"
+  },
+  {
+   "slug": "word-kyuuka",
+   "type": "word",
+   "jlpt_level": "N3",
+   "term": "休暇",
+   "romaji": "kyuuka",
+   "meaning": "Vacation / Leave",
+   "mnemonic": "Rest period",
+   "examples": [
+    {
+     "jp": "休暇を取る",
+     "en": "Take a vacation"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Work & School",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "きゅうか"
+  },
+  {
+   "slug": "word-kyuukei",
+   "type": "word",
+   "jlpt_level": "N3",
+   "term": "休憩",
+   "romaji": "kyuukei",
+   "meaning": "Break / Rest",
+   "mnemonic": "Stop and rest",
+   "examples": [
+    {
+     "jp": "休憩しましょう",
+     "en": "Let's take a break"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Health",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "きゅうけい"
+  },
+  {
+   "slug": "word-kyuuryou",
+   "type": "word",
+   "jlpt_level": "N3",
+   "term": "給料",
+   "romaji": "kyuuryou",
+   "meaning": "Salary",
+   "mnemonic": "Pay received",
+   "examples": [
+    {
+     "jp": "給料をもらう",
+     "en": "Receive salary"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Work & School",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "きゅうりょう"
+  },
+  {
+   "slug": "word-kyoukasho",
+   "type": "word",
+   "jlpt_level": "N3",
+   "term": "教科書",
+   "romaji": "kyoukasho",
+   "meaning": "Textbook",
+   "mnemonic": "Learning book",
+   "examples": [
+    {
+     "jp": "教科書を開く",
+     "en": "Open the textbook"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Tech & Stationery",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "きょうかしょ"
+  },
+  {
+   "slug": "word-geemu",
+   "type": "word",
+   "jlpt_level": "N3",
+   "term": "ゲーム",
+   "romaji": "geemu",
+   "meaning": "Game",
+   "mnemonic": "Digital entertainment",
+   "examples": [
+    {
+     "jp": "ゲームをする",
+     "en": "Play a game"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Tech & Modern Life",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ゲーム"
+  },
+  {
+   "slug": "word-genkin",
+   "type": "word",
+   "jlpt_level": "N3",
+   "term": "現金",
+   "romaji": "genkin",
+   "meaning": "Cash",
+   "mnemonic": "げんきん — physical money",
+   "examples": [
+    {
+     "jp": "現金で払う",
+     "en": "Pay with cash"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Money & Prices",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "げんきん"
+  },
+  {
+   "slug": "word-goukei",
+   "type": "word",
+   "jlpt_level": "N3",
+   "term": "合計",
+   "romaji": "goukei",
+   "meaning": "Total",
+   "mnemonic": "ごうけい — sum total",
+   "examples": [
+    {
+     "jp": "合計はいくらですか",
+     "en": "What's the total?"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Money & Prices",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ごうけい"
+  },
+  {
+   "slug": "word-gomennasai",
+   "type": "word",
+   "jlpt_level": "N3",
+   "term": "ごめんなさい",
+   "romaji": "gomennasai",
+   "meaning": "I'm sorry",
+   "mnemonic": "Sincere apology",
+   "examples": [
+    {
+     "jp": "遅れてごめんなさい",
+     "en": "Sorry for being late"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Greetings & Basics",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ごめんなさい"
+  },
+  {
+   "slug": "word-konnichiwa",
+   "type": "word",
+   "jlpt_level": "N3",
+   "term": "こんにちは",
+   "romaji": "konnichiha",
+   "meaning": "Hello",
+   "mnemonic": "Daytime greeting",
+   "examples": [
+    {
+     "jp": "こんにちは、田中さん",
+     "en": "Hello, Tanaka-san"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Greetings & Basics",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "こんにちは"
+  },
+  {
+   "slug": "word-reigi",
+   "type": "word",
+   "jlpt_level": "N3",
+   "term": "礼儀",
+   "romaji": "reigi",
+   "meaning": "Manners / Etiquette",
+   "mnemonic": "Proper behavior",
+   "examples": [
+    {
+     "jp": "礼儀を知る",
+     "en": "Know etiquette"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Japanese Culture",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "れいぎ"
+  },
+  {
+   "slug": "word-senzai",
+   "type": "word",
+   "jlpt_level": "N3",
+   "term": "洗剤",
+   "romaji": "senzai",
+   "meaning": "Detergent",
+   "mnemonic": "Cleaning agent",
+   "examples": [
+    {
+     "jp": "洗剤で洗う",
+     "en": "Wash with detergent"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Home & Living",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "せんざい"
+  },
+  {
+   "slug": "word-zou",
+   "type": "word",
+   "jlpt_level": "N3",
+   "term": "象",
+   "romaji": "zou",
+   "meaning": "Elephant",
+   "mnemonic": "Long trunk",
+   "examples": [
+    {
+     "jp": "象は大きい",
+     "en": "Elephants are big"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Pets & Common",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ぞう"
+  },
+  {
+   "slug": "word-taoru",
+   "type": "word",
+   "jlpt_level": "N3",
+   "term": "タオル",
+   "romaji": "taoru",
+   "meaning": "Towel",
+   "mnemonic": "Drying cloth",
+   "examples": [
+    {
+     "jp": "タオルで拭く",
+     "en": "Wipe with towel"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Home & Living",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "タオル"
+  },
+  {
+   "slug": "word-doutoku",
+   "type": "word",
+   "jlpt_level": "N3",
+   "term": "道徳",
+   "romaji": "doutoku",
+   "meaning": "Morality",
+   "mnemonic": "Ethical principle",
+   "examples": [
+    {
+     "jp": "道徳を守る",
+     "en": "Follow morality"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Japanese Culture",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "どうとく"
+  },
+  {
+   "slug": "word-douryou",
+   "type": "word",
+   "jlpt_level": "N3",
+   "term": "同僚",
+   "romaji": "douryou",
+   "meaning": "Colleague",
+   "mnemonic": "Same work group",
+   "examples": [
+    {
+     "jp": "同僚と飲む",
+     "en": "Drink with colleagues"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Work & School",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "どうりょう"
+  },
+  {
+   "slug": "word-tora",
+   "type": "word",
+   "jlpt_level": "N3",
+   "term": "虎",
+   "romaji": "tora",
+   "meaning": "Tiger",
+   "mnemonic": "Striped hunter",
+   "examples": [
+    {
+     "jp": "虎は速い",
+     "en": "Tigers are fast"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Pets & Common",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "とら"
+  },
+  {
+   "slug": "word-nezumi",
+   "type": "word",
+   "jlpt_level": "N3",
+   "term": "鼠",
+   "romaji": "nezumi",
+   "meaning": "Mouse / Rat",
+   "mnemonic": "Small rodent",
+   "examples": [
+    {
+     "jp": "鼠が走る",
+     "en": "Mouse runs"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Pets & Common",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ねずみ"
+  },
+  {
+   "slug": "word-hasami",
+   "type": "word",
+   "jlpt_level": "N3",
+   "term": "はさみ",
+   "romaji": "hasami",
+   "meaning": "Scissors",
+   "mnemonic": "Two blade cutter",
+   "examples": [
+    {
+     "jp": "はさみで切る",
+     "en": "Cut with scissors"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Tech & Stationery",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "はさみ"
+  },
+  {
+   "slug": "word-baggu",
+   "type": "word",
+   "jlpt_level": "N3",
+   "term": "バッグ",
+   "romaji": "baggu",
+   "meaning": "Bag / Purse",
+   "mnemonic": "Carrying accessory",
+   "examples": [
+    {
+     "jp": "バッグを持つ",
+     "en": "Carry a bag"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Clothes & Fashion",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "バッグ"
+  },
+  {
+   "slug": "word-fukuro",
+   "type": "word",
+   "jlpt_level": "N3",
+   "term": "袋",
+   "romaji": "fukuro",
+   "meaning": "Bag",
+   "mnemonic": "Carrying container",
+   "examples": [
+    {
+     "jp": "袋をください",
+     "en": "A bag please"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Shopping",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ふくろ"
+  },
+  {
+   "slug": "word-beruto",
+   "type": "word",
+   "jlpt_level": "N3",
+   "term": "ベルト",
+   "romaji": "beruto",
+   "meaning": "Belt",
+   "mnemonic": "Waist strap",
+   "examples": [
+    {
+     "jp": "ベルトをする",
+     "en": "Wear a belt"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Clothes & Fashion",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ベルト"
+  },
+  {
+   "slug": "word-hone",
+   "type": "word",
+   "jlpt_level": "N3",
+   "term": "骨",
+   "romaji": "hone",
+   "meaning": "Bone",
+   "mnemonic": "Skeleton part",
+   "examples": [
+    {
+     "jp": "骨が折れた",
+     "en": "Bone is broken"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Body Parts",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ほね"
+  },
+  {
+   "slug": "word-joushi",
+   "type": "word",
+   "jlpt_level": "N3",
+   "term": "上司",
+   "romaji": "joushi",
+   "meaning": "Boss / Superior",
+   "mnemonic": "Above position",
+   "examples": [
+    {
+     "jp": "上司に報告する",
+     "en": "Report to boss"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Work & School",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "じょうし"
+  },
+  {
+   "slug": "word-dezaato",
+   "type": "word",
+   "jlpt_level": "N3",
+   "term": "デザート",
+   "romaji": "dezaato",
+   "meaning": "Dessert",
+   "mnemonic": "Sweet ending",
+   "examples": [
+    {
+     "jp": "デザートを食べる",
+     "en": "Eat dessert"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Food & Drink",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "デザート"
+  },
+  {
+   "slug": "word-ii-yoi",
+   "type": "word",
+   "jlpt_level": "N3",
+   "term": "良い",
+   "romaji": "yoi",
+   "meaning": "Good",
+   "mnemonic": "Positive quality",
+   "examples": [
+    {
+     "jp": "いい天気 (ii tenki)",
+     "en": "Good weather"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Words",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "よい"
+  },
+  {
+   "slug": "word-epuron",
+   "type": "word",
+   "jlpt_level": "N2",
+   "term": "エプロン",
+   "romaji": "epuron",
+   "meaning": "Apron",
+   "mnemonic": "Cooking protector",
+   "examples": [
+    {
+     "jp": "エプロンをつける",
+     "en": "Put on an apron"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Kitchen Items",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "エプロン"
+  },
+  {
+   "slug": "word-ojama-shimasu",
+   "type": "word",
+   "jlpt_level": "N2",
+   "term": "お邪魔します",
+   "romaji": "ojamashimasu",
+   "meaning": "Sorry to disturb / Excuse me for coming in",
+   "mnemonic": "Polite entering phrase",
+   "examples": [
+    {
+     "jp": "お邪魔します！",
+     "en": "Said when entering someone's home"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Expressions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "おじゃまします"
+  },
+  {
+   "slug": "word-odaiji-ni",
+   "type": "word",
+   "jlpt_level": "N2",
+   "term": "お大事に",
+   "romaji": "odaijini",
+   "meaning": "Take care / Get well soon",
+   "mnemonic": "Said to sick person",
+   "examples": [
+    {
+     "jp": "風邪ですか？お大事に！",
+     "en": "You have a cold? Get well!"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Expressions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "おだいじに"
+  },
+  {
+   "slug": "word-onegaishimasu",
+   "type": "word",
+   "jlpt_level": "N2",
+   "term": "お願いします",
+   "romaji": "onegaishimasu",
+   "meaning": "Please",
+   "mnemonic": "Requesting politely",
+   "examples": [
+    {
+     "jp": "これをお願いします",
+     "en": "This one please"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Greetings & Basics",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "おねがいします"
+  },
+  {
+   "slug": "word-ohayou",
+   "type": "word",
+   "jlpt_level": "N2",
+   "term": "おはよう",
+   "romaji": "ohayou",
+   "meaning": "Good morning",
+   "mnemonic": "Said early in the day",
+   "examples": [
+    {
+     "jp": "おはようございます",
+     "en": "Good morning (polite)"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Greetings & Basics",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "おはよう"
+  },
+  {
+   "slug": "word-onsen",
+   "type": "word",
+   "jlpt_level": "N2",
+   "term": "温泉",
+   "romaji": "onsen",
+   "meaning": "Hot spring",
+   "mnemonic": "Natural hot bath",
+   "examples": [
+    {
+     "jp": "温泉に入る",
+     "en": "Enter hot spring"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Japanese Culture",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "おんせん"
+  },
+  {
+   "slug": "word-kingyo",
+   "type": "word",
+   "jlpt_level": "N2",
+   "term": "金魚",
+   "romaji": "kingyo",
+   "meaning": "Goldfish",
+   "mnemonic": "Gold fish in bowl",
+   "examples": [
+    {
+     "jp": "金魚を育てる",
+     "en": "Raise goldfish"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Farm & Domestic",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "きんぎょ"
+  },
+  {
+   "slug": "word-keigo",
+   "type": "word",
+   "jlpt_level": "N2",
+   "term": "敬語",
+   "romaji": "keigo",
+   "meaning": "Honorific language",
+   "mnemonic": "Formal speech level",
+   "examples": [
+    {
+     "jp": "敬語を使う",
+     "en": "Use honorific language"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Japanese Culture",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "けいご"
+  },
+  {
+   "slug": "word-gochisousama",
+   "type": "word",
+   "jlpt_level": "N2",
+   "term": "ごちそうさま",
+   "romaji": "gochisousama",
+   "meaning": "Thank you for the meal",
+   "mnemonic": "Gratitude after meals",
+   "examples": [
+    {
+     "jp": "ごちそうさまでした",
+     "en": "Said after eating"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Expressions",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ごちそうさま"
+  },
+  {
+   "slug": "word-kotobazukai",
+   "type": "word",
+   "jlpt_level": "N2",
+   "term": "言葉遣い",
+   "romaji": "kotobazukai",
+   "meaning": "Word usage / Speech",
+   "mnemonic": "How you use words",
+   "examples": [
+    {
+     "jp": "丁寧な言葉遣い",
+     "en": "Polite speech"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Japanese Culture",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ことばづかい"
+  },
+  {
+   "slug": "word-konbanwa",
+   "type": "word",
+   "jlpt_level": "N2",
+   "term": "こんばんは",
+   "romaji": "konbanha",
+   "meaning": "Good evening",
+   "mnemonic": "Evening greeting",
+   "examples": [
+    {
+     "jp": "こんばんは！",
+     "en": "Good evening!"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Greetings & Basics",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "こんばんは"
+  },
+  {
+   "slug": "word-sashimi",
+   "type": "word",
+   "jlpt_level": "N2",
+   "term": "刺身",
+   "romaji": "sashimi",
+   "meaning": "Sashimi",
+   "mnemonic": "Raw sliced fish",
+   "examples": [
+    {
+     "jp": "刺身を頼む",
+     "en": "Order sashimi"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Food & Drink",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "さしみ"
+  },
+  {
+   "slug": "word-sayounara",
+   "type": "word",
+   "jlpt_level": "N2",
+   "term": "さようなら",
+   "romaji": "sayounara",
+   "meaning": "Goodbye",
+   "mnemonic": "Formal farewell",
+   "examples": [
+    {
+     "jp": "さようなら、また明日",
+     "en": "Goodbye, see you tomorrow"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Greetings & Basics",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "さようなら"
+  },
+  {
+   "slug": "word-shimekiri",
+   "type": "word",
+   "jlpt_level": "N2",
+   "term": "締め切り",
+   "romaji": "shimekiri",
+   "meaning": "Deadline",
+   "mnemonic": "Cut-off point",
+   "examples": [
+    {
+     "jp": "締め切りがある",
+     "en": "There is a deadline"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Work & School",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "しめきり"
+  },
+  {
+   "slug": "word-jougi",
+   "type": "word",
+   "jlpt_level": "N2",
+   "term": "定規",
+   "romaji": "jougi",
+   "meaning": "Ruler",
+   "mnemonic": "Straight edge",
+   "examples": [
+    {
+     "jp": "定規で線を引く",
+     "en": "Draw a line with ruler"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Tech & Stationery",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "じょうぎ"
+  },
+  {
+   "slug": "word-shinkansen",
+   "type": "word",
+   "jlpt_level": "N2",
+   "term": "新幹線",
+   "romaji": "shinkansen",
+   "meaning": "Bullet train",
+   "mnemonic": "Japan's fast train",
+   "examples": [
+    {
+     "jp": "新幹線に乗る",
+     "en": "Ride the bullet train"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Transportation",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "しんかんせん"
+  },
+  {
+   "slug": "word-sukaafu",
+   "type": "word",
+   "jlpt_level": "N2",
+   "term": "スカーフ",
+   "romaji": "sukaafu",
+   "meaning": "Scarf",
+   "mnemonic": "Neck warmer",
+   "examples": [
+    {
+     "jp": "スカーフを巻く",
+     "en": "Wrap a scarf"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Clothes & Fashion",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "スカーフ"
+  },
+  {
+   "slug": "word-souryou",
+   "type": "word",
+   "jlpt_level": "N2",
+   "term": "送料",
+   "romaji": "souryou",
+   "meaning": "Shipping fee",
+   "mnemonic": "そうりょう — delivery cost",
+   "examples": [
+    {
+     "jp": "送料無料",
+     "en": "Free shipping"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Money & Prices",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "そうりょう"
+  },
+  {
+   "slug": "word-tsuuchi",
+   "type": "word",
+   "jlpt_level": "N2",
+   "term": "通知",
+   "romaji": "tsuuchi",
+   "meaning": "Notification",
+   "mnemonic": "Alert message",
+   "examples": [
+    {
+     "jp": "通知が来た",
+     "en": "Got a notification"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Tech & Modern Life",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "つうち"
+  },
+  {
+   "slug": "word-norikae",
+   "type": "word",
+   "jlpt_level": "N2",
+   "term": "乗り換え",
+   "romaji": "norikae",
+   "meaning": "Transfer",
+   "mnemonic": "Switch vehicles",
+   "examples": [
+    {
+     "jp": "乗り換えが必要だ",
+     "en": "Need to transfer"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Transportation",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "のりかえ"
+  },
+  {
+   "slug": "word-hajimemashite",
+   "type": "word",
+   "jlpt_level": "N2",
+   "term": "はじめまして",
+   "romaji": "hajimemashite",
+   "meaning": "Nice to meet you",
+   "mnemonic": "First meeting",
+   "examples": [
+    {
+     "jp": "はじめまして、田中です",
+     "en": "Nice to meet you, I'm Tanaka"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Greetings & Basics",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "はじめまして"
+  },
+  {
+   "slug": "word-hifu",
+   "type": "word",
+   "jlpt_level": "N2",
+   "term": "皮膚",
+   "romaji": "hifu",
+   "meaning": "Skin",
+   "mnemonic": "Outer layer",
+   "examples": [
+    {
+     "jp": "皮膚が乾燥する",
+     "en": "Skin gets dry"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Body Parts",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ひふ"
+  },
+  {
+   "slug": "word-pinku",
+   "type": "word",
+   "jlpt_level": "N2",
+   "term": "ピンク",
+   "romaji": "pinku",
+   "meaning": "Pink",
+   "mnemonic": "Cherry blossom pink",
+   "examples": [
+    {
+     "jp": "ピンクの花",
+     "en": "Pink flower"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Colors & Appearance",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "ピンク"
+  },
+  {
+   "slug": "word-furaipan",
+   "type": "word",
+   "jlpt_level": "N2",
+   "term": "フライパン",
+   "romaji": "furaipan",
+   "meaning": "Frying pan",
+   "mnemonic": "Cooking vessel",
+   "examples": [
+    {
+     "jp": "フライパンで焼く",
+     "en": "Fry in a pan"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Kitchen Items",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "フライパン"
+  },
+  {
+   "slug": "word-makura",
+   "type": "word",
+   "jlpt_level": "N2",
+   "term": "枕",
+   "romaji": "makura",
+   "meaning": "Pillow",
+   "mnemonic": "Head rest",
+   "examples": [
+    {
+     "jp": "枕で寝る",
+     "en": "Sleep on pillow"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Home & Living",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "まくら"
+  },
+  {
+   "slug": "word-murasaki",
+   "type": "word",
+   "jlpt_level": "N2",
+   "term": "紫",
+   "romaji": "murasaki",
+   "meaning": "Purple",
+   "mnemonic": "Royal purple",
+   "examples": [
+    {
+     "jp": "紫のドレス",
+     "en": "Purple dress"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Colors & Appearance",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "むらさき"
+  },
+  {
+   "slug": "word-yakan",
+   "type": "word",
+   "jlpt_level": "N2",
+   "term": "やかん",
+   "romaji": "yakan",
+   "meaning": "Kettle",
+   "mnemonic": "Water boiler",
+   "examples": [
+    {
+     "jp": "やかんでお湯を沸かす",
+     "en": "Boil water in kettle"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Kitchen Items",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "やかん"
+  },
+  {
+   "slug": "word-waribiki",
+   "type": "word",
+   "jlpt_level": "N2",
+   "term": "割引",
+   "romaji": "waribiki",
+   "meaning": "Discount",
+   "mnemonic": "Price reduction",
+   "examples": [
+    {
+     "jp": "割引がある",
+     "en": "There is a discount"
+    }
+   ],
+   "skill": "vocabulary",
+   "topic": "Shopping",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "reading": "わりびき"
+  }
+ ]
+}

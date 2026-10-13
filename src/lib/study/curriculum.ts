@@ -10,6 +10,8 @@ export interface CurriculumItem {
   topic: string | null;
   tags: string[];
   prerequisites: string[];
+  /** KANJIDIC newspaper frequency rank, when known (1 = most common). */
+  data?: { freq?: number | null } | null;
 }
 
 const LEVEL_RANK: Record<string, number> = { preN5: 0, N5: 1, N4: 2, N3: 3, N2: 4, N1: 5 };
@@ -39,12 +41,15 @@ function topicRank(topic: string | null): number {
   return i === -1 ? TOPIC_ORDER.length : i;
 }
 
-/** Sort key: level, stage, topic, then character order (Unicode kana order is gojūon order). */
+const freqRank = (item: CurriculumItem) => item.data?.freq ?? Number.MAX_SAFE_INTEGER;
+
+/** Sort key: level, stage, topic, frequency (common kanji first), then character order (Unicode kana order is gojūon order). */
 export function compareCurriculum(a: CurriculumItem, b: CurriculumItem): number {
   return (
     (LEVEL_RANK[a.jlpt_level] ?? 9) - (LEVEL_RANK[b.jlpt_level] ?? 9) ||
     stage(a) - stage(b) ||
     topicRank(a.topic) - topicRank(b.topic) ||
+    freqRank(a) - freqRank(b) ||
     (a.term < b.term ? -1 : a.term > b.term ? 1 : 0) ||
     a.slug.localeCompare(b.slug)
   );

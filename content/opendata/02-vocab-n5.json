@@ -1,0 +1,6416 @@
+{
+ "version": 1,
+ "kind": "items",
+ "source": "opendata-kanjidic-tanos",
+ "records": [
+  {
+   "slug": "vocab-n5-aa",
+   "type": "word",
+   "term": "ああ",
+   "meaning": "Ah!, Oh!",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ああ",
+   "romaji": "aa"
+  },
+  {
+   "slug": "vocab-n5-au",
+   "type": "word",
+   "term": "会う",
+   "meaning": "to meet, to see",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "あう",
+   "romaji": "au"
+  },
+  {
+   "slug": "vocab-n5-aoi",
+   "type": "word",
+   "term": "青い",
+   "meaning": "blue",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "あおい",
+   "romaji": "aoi"
+  },
+  {
+   "slug": "vocab-n5-akai",
+   "type": "word",
+   "term": "赤い",
+   "meaning": "red",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "あかい",
+   "romaji": "akai"
+  },
+  {
+   "slug": "vocab-n5-akarui",
+   "type": "word",
+   "term": "明るい",
+   "meaning": "bright (in reference to personality or weather); cheerful",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "あかるい",
+   "romaji": "akarui"
+  },
+  {
+   "slug": "vocab-n5-aki",
+   "type": "word",
+   "term": "秋",
+   "meaning": "fall (season)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "あき",
+   "romaji": "aki"
+  },
+  {
+   "slug": "vocab-n5-aku",
+   "type": "word",
+   "term": "開く",
+   "meaning": "to open, to become open",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "あく",
+   "romaji": "aku"
+  },
+  {
+   "slug": "vocab-n5-akeru",
+   "type": "word",
+   "term": "開ける",
+   "meaning": "to open (v.t.)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "あける",
+   "romaji": "akeru"
+  },
+  {
+   "slug": "vocab-n5-ageru",
+   "type": "word",
+   "term": "上げる",
+   "meaning": "to raise, to lift",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "あげる",
+   "romaji": "ageru"
+  },
+  {
+   "slug": "vocab-n5-asagohan",
+   "type": "word",
+   "term": "朝御飯",
+   "meaning": "breakfast",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "あさごはん",
+   "romaji": "asagohan"
+  },
+  {
+   "slug": "vocab-n5-asatte",
+   "type": "word",
+   "term": "明後日",
+   "meaning": "day after tomorrow",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "あさって",
+   "romaji": "asatte"
+  },
+  {
+   "slug": "vocab-n5-ashi",
+   "type": "word",
+   "term": "足; 脚",
+   "meaning": "foot; leg",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "あし",
+   "romaji": "ashi"
+  },
+  {
+   "slug": "vocab-n5-asoko",
+   "type": "word",
+   "term": "あそこ",
+   "meaning": "there, over there, that place",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "あそこ",
+   "romaji": "asoko"
+  },
+  {
+   "slug": "vocab-n5-atatakai",
+   "type": "word",
+   "term": "暖かい",
+   "meaning": "warm",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "あたたかい",
+   "romaji": "atatakai"
+  },
+  {
+   "slug": "vocab-n5-achira",
+   "type": "word",
+   "term": "あちら",
+   "meaning": "this way (polite)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "あちら",
+   "romaji": "achira"
+  },
+  {
+   "slug": "vocab-n5-atsui",
+   "type": "word",
+   "term": "熱い",
+   "meaning": "hot (objects)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "あつい",
+   "romaji": "atsui"
+  },
+  {
+   "slug": "vocab-n5-atsui-2",
+   "type": "word",
+   "term": "厚い",
+   "meaning": "kind, warm(hearted), thick, deep",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "あつい",
+   "romaji": "atsui"
+  },
+  {
+   "slug": "vocab-n5-atchi",
+   "type": "word",
+   "term": "あっち",
+   "meaning": "over there",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "あっち",
+   "romaji": "atchi"
+  },
+  {
+   "slug": "vocab-n5-ato",
+   "type": "word",
+   "term": "後",
+   "meaning": "afterwards (later); in the future; the rest; since then",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "あと",
+   "romaji": "ato"
+  },
+  {
+   "slug": "vocab-n5-anata",
+   "type": "word",
+   "term": "あなた",
+   "meaning": "you",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "あなた",
+   "romaji": "anata"
+  },
+  {
+   "slug": "vocab-n5-apaato",
+   "type": "word",
+   "term": "アパート",
+   "meaning": "apartment (abbr.)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "アパート",
+   "romaji": "apaato"
+  },
+  {
+   "slug": "vocab-n5-ano",
+   "type": "word",
+   "term": "あの",
+   "meaning": "that over there; like that, that way; um...",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "あの",
+   "romaji": "ano"
+  },
+  {
+   "slug": "vocab-n5-abiru",
+   "type": "word",
+   "term": "浴びる",
+   "meaning": "to bathe, to shower",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "あびる",
+   "romaji": "abiru"
+  },
+  {
+   "slug": "vocab-n5-abunai",
+   "type": "word",
+   "term": "危ない",
+   "meaning": "dangerous, critical",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "あぶない",
+   "romaji": "abunai"
+  },
+  {
+   "slug": "vocab-n5-amai",
+   "type": "word",
+   "term": "甘い",
+   "meaning": "generous, sweet",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "あまい",
+   "romaji": "amai"
+  },
+  {
+   "slug": "vocab-n5-amari",
+   "type": "word",
+   "term": "余り",
+   "meaning": "not very; surplus",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "あまり",
+   "romaji": "amari"
+  },
+  {
+   "slug": "vocab-n5-ame",
+   "type": "word",
+   "term": "飴",
+   "meaning": "(hard) candy",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "あめ",
+   "romaji": "ame"
+  },
+  {
+   "slug": "vocab-n5-aru",
+   "type": "word",
+   "term": "在る",
+   "meaning": "to be, to have",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ある",
+   "romaji": "aru"
+  },
+  {
+   "slug": "vocab-n5-aru-2",
+   "type": "word",
+   "term": "有る",
+   "meaning": "to be, to have",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ある",
+   "romaji": "aru"
+  },
+  {
+   "slug": "vocab-n5-are",
+   "type": "word",
+   "term": "あれ",
+   "meaning": "that one (over there)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "あれ",
+   "romaji": "are"
+  },
+  {
+   "slug": "vocab-n5-ii-yoi",
+   "type": "word",
+   "term": "いい; よい",
+   "meaning": "good",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "いい; よい",
+   "romaji": "ii;yoi"
+  },
+  {
+   "slug": "vocab-n5-ikaga",
+   "type": "word",
+   "term": "いかが",
+   "meaning": "how, in what way",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "いかが",
+   "romaji": "ikaga"
+  },
+  {
+   "slug": "vocab-n5-ikutsu",
+   "type": "word",
+   "term": "いくつ",
+   "meaning": "how many, how old",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "いくつ",
+   "romaji": "ikutsu"
+  },
+  {
+   "slug": "vocab-n5-ike",
+   "type": "word",
+   "term": "池",
+   "meaning": "pond",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "いけ",
+   "romaji": "ike"
+  },
+  {
+   "slug": "vocab-n5-ichi",
+   "type": "word",
+   "term": "一",
+   "meaning": "one",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "いち",
+   "romaji": "ichi"
+  },
+  {
+   "slug": "vocab-n5-ichinichi",
+   "type": "word",
+   "term": "一日",
+   "meaning": "one day (duration)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "いちにち",
+   "romaji": "ichinichi"
+  },
+  {
+   "slug": "vocab-n5-ichiban",
+   "type": "word",
+   "term": "一番",
+   "meaning": "best (most), first, number one",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "いちばん",
+   "romaji": "ichiban"
+  },
+  {
+   "slug": "vocab-n5-itsu",
+   "type": "word",
+   "term": "いつ",
+   "meaning": "when",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "いつ",
+   "romaji": "itsu"
+  },
+  {
+   "slug": "vocab-n5-itsuka",
+   "type": "word",
+   "term": "五日",
+   "meaning": "five days; fifth day of the month",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "いつか",
+   "romaji": "itsuka"
+  },
+  {
+   "slug": "vocab-n5-issho",
+   "type": "word",
+   "term": "一緒",
+   "meaning": "together",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "いっしょ",
+   "romaji": "issho"
+  },
+  {
+   "slug": "vocab-n5-itsutsu",
+   "type": "word",
+   "term": "五つ",
+   "meaning": "five things",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "いつつ",
+   "romaji": "itsutsu"
+  },
+  {
+   "slug": "vocab-n5-itsumo",
+   "type": "word",
+   "term": "いつも",
+   "meaning": "always, usually, every time, never (with neg. verb)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "いつも",
+   "romaji": "itsumo"
+  },
+  {
+   "slug": "vocab-n5-imi",
+   "type": "word",
+   "term": "意味",
+   "meaning": "meaning, significance",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "いみ",
+   "romaji": "imi"
+  },
+  {
+   "slug": "vocab-n5-iya",
+   "type": "word",
+   "term": "嫌",
+   "meaning": "disagreeable, detestable, unpleasant",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "いや",
+   "romaji": "iya"
+  },
+  {
+   "slug": "vocab-n5-iru",
+   "type": "word",
+   "term": "居る",
+   "meaning": "(humble) to be (animate), to exist",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "いる",
+   "romaji": "iru"
+  },
+  {
+   "slug": "vocab-n5-iru-2",
+   "type": "word",
+   "term": "要る",
+   "meaning": "to need",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "いる",
+   "romaji": "iru"
+  },
+  {
+   "slug": "vocab-n5-ireru",
+   "type": "word",
+   "term": "入れる",
+   "meaning": "to put in",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "いれる",
+   "romaji": "ireru"
+  },
+  {
+   "slug": "vocab-n5-iroiro",
+   "type": "word",
+   "term": "色々",
+   "meaning": "various",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "いろいろ",
+   "romaji": "iroiro"
+  },
+  {
+   "slug": "vocab-n5-ue",
+   "type": "word",
+   "term": "上",
+   "meaning": "above (up, top, etc.), over, on top of",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "うえ",
+   "romaji": "ue"
+  },
+  {
+   "slug": "vocab-n5-ushiro",
+   "type": "word",
+   "term": "後ろ",
+   "meaning": "back, behind, rear",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "うしろ",
+   "romaji": "ushiro"
+  },
+  {
+   "slug": "vocab-n5-usui",
+   "type": "word",
+   "term": "薄い",
+   "meaning": "thin, weak",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "うすい",
+   "romaji": "usui"
+  },
+  {
+   "slug": "vocab-n5-uta",
+   "type": "word",
+   "term": "歌",
+   "meaning": "a song",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "うた",
+   "romaji": "uta"
+  },
+  {
+   "slug": "vocab-n5-uchi",
+   "type": "word",
+   "term": "うち",
+   "meaning": "home; house; my place",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "うち",
+   "romaji": "uchi"
+  },
+  {
+   "slug": "vocab-n5-umareru",
+   "type": "word",
+   "term": "生まれる",
+   "meaning": "to be born",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "うまれる",
+   "romaji": "umareru"
+  },
+  {
+   "slug": "vocab-n5-uru",
+   "type": "word",
+   "term": "売る",
+   "meaning": "to sell (v.t.)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "うる",
+   "romaji": "uru"
+  },
+  {
+   "slug": "vocab-n5-urusai",
+   "type": "word",
+   "term": "うるさい",
+   "meaning": "noisy; annoying",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "うるさい",
+   "romaji": "urusai"
+  },
+  {
+   "slug": "vocab-n5-uwagi",
+   "type": "word",
+   "term": "上着",
+   "meaning": "coat, jacket",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "うわぎ",
+   "romaji": "uwagi"
+  },
+  {
+   "slug": "vocab-n5-e",
+   "type": "word",
+   "term": "絵",
+   "meaning": "a painting; a picture; a drawing",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "え",
+   "romaji": "e"
+  },
+  {
+   "slug": "vocab-n5-eigakan",
+   "type": "word",
+   "term": "映画館",
+   "meaning": "movie theater, cinema",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "えいがかん",
+   "romaji": "eigakan"
+  },
+  {
+   "slug": "vocab-n5-eigo",
+   "type": "word",
+   "term": "英語",
+   "meaning": "English (language)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "えいご",
+   "romaji": "eigo"
+  },
+  {
+   "slug": "vocab-n5-ee",
+   "type": "word",
+   "term": "ええ",
+   "meaning": "yes",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ええ",
+   "romaji": "ee"
+  },
+  {
+   "slug": "vocab-n5-erebeetaa",
+   "type": "word",
+   "term": "エレベーター",
+   "meaning": "elevator",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "エレベーター",
+   "romaji": "erebeetaa"
+  },
+  {
+   "slug": "vocab-n5-en",
+   "type": "word",
+   "term": "～円",
+   "meaning": "Yen",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "～えん",
+   "romaji": "～en"
+  },
+  {
+   "slug": "vocab-n5-o",
+   "type": "word",
+   "term": "お～",
+   "meaning": "honorable ~ (honorific)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "お～",
+   "romaji": "o～"
+  },
+  {
+   "slug": "vocab-n5-oishii",
+   "type": "word",
+   "term": "美味しい",
+   "meaning": "delicious, tasty",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "おいしい",
+   "romaji": "oishii"
+  },
+  {
+   "slug": "vocab-n5-ookina",
+   "type": "word",
+   "term": "大きな",
+   "meaning": "big",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "おおきな",
+   "romaji": "ookina"
+  },
+  {
+   "slug": "vocab-n5-oozei",
+   "type": "word",
+   "term": "大勢",
+   "meaning": "great number of people",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "おおぜい",
+   "romaji": "oozei"
+  },
+  {
+   "slug": "vocab-n5-okashi",
+   "type": "word",
+   "term": "お菓子",
+   "meaning": "confections, sweets, snack",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "おかし",
+   "romaji": "okashi"
+  },
+  {
+   "slug": "vocab-n5-oku",
+   "type": "word",
+   "term": "置く",
+   "meaning": "to put; to lay; to place",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "おく",
+   "romaji": "oku"
+  },
+  {
+   "slug": "vocab-n5-okusan",
+   "type": "word",
+   "term": "奥さん",
+   "meaning": "(someone else's) wife (hon.)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "おくさん",
+   "romaji": "okusan"
+  },
+  {
+   "slug": "vocab-n5-osake",
+   "type": "word",
+   "term": "お酒",
+   "meaning": "sake; alcohol",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "おさけ",
+   "romaji": "osake"
+  },
+  {
+   "slug": "vocab-n5-ojisan",
+   "type": "word",
+   "term": "伯父; 叔父さん",
+   "meaning": "uncle, middle-aged man",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "おじさん",
+   "romaji": "ojisan"
+  },
+  {
+   "slug": "vocab-n5-ojiisan",
+   "type": "word",
+   "term": "おじいさん",
+   "meaning": "grandfather, male senior citizen",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "おじいさん",
+   "romaji": "ojiisan"
+  },
+  {
+   "slug": "vocab-n5-otearai",
+   "type": "word",
+   "term": "お手洗い",
+   "meaning": "toilet, restroom, bathroom (lit., a place to wash one's hands)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "おてあらい",
+   "romaji": "otearai"
+  },
+  {
+   "slug": "vocab-n5-otoko",
+   "type": "word",
+   "term": "男",
+   "meaning": "man, male",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "おとこ",
+   "romaji": "otoko"
+  },
+  {
+   "slug": "vocab-n5-otokonoko",
+   "type": "word",
+   "term": "男の子",
+   "meaning": "boy",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "おとこのこ",
+   "romaji": "otokonoko"
+  },
+  {
+   "slug": "vocab-n5-ototoi",
+   "type": "word",
+   "term": "一昨日",
+   "meaning": "the day before yesterday",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "おととい",
+   "romaji": "ototoi"
+  },
+  {
+   "slug": "vocab-n5-ototoshi",
+   "type": "word",
+   "term": "おととし",
+   "meaning": "year before last",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "おととし",
+   "romaji": "ototoshi"
+  },
+  {
+   "slug": "vocab-n5-otona",
+   "type": "word",
+   "term": "大人",
+   "meaning": "adult",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "おとな",
+   "romaji": "otona"
+  },
+  {
+   "slug": "vocab-n5-onaji",
+   "type": "word",
+   "term": "同じ",
+   "meaning": "same, identical",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "おなじ",
+   "romaji": "onaji"
+  },
+  {
+   "slug": "vocab-n5-oniisan",
+   "type": "word",
+   "term": "お兄さん",
+   "meaning": "(someone else's) older brother (formal)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "おにいさん",
+   "romaji": "oniisan"
+  },
+  {
+   "slug": "vocab-n5-oneesan",
+   "type": "word",
+   "term": "お姉さん",
+   "meaning": "older sister (formal)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "おねえさん",
+   "romaji": "oneesan"
+  },
+  {
+   "slug": "vocab-n5-obasan",
+   "type": "word",
+   "term": "伯母さん; 叔母さん",
+   "meaning": "aunt",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "おばさん",
+   "romaji": "obasan"
+  },
+  {
+   "slug": "vocab-n5-obaasan",
+   "type": "word",
+   "term": "おばあさん",
+   "meaning": "grandmother, female senior-citizen",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "おばあさん",
+   "romaji": "obaasan"
+  },
+  {
+   "slug": "vocab-n5-ofuro",
+   "type": "word",
+   "term": "お風呂",
+   "meaning": "a bath",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "おふろ",
+   "romaji": "ofuro"
+  },
+  {
+   "slug": "vocab-n5-obentou",
+   "type": "word",
+   "term": "お弁当",
+   "meaning": "a boxed lunch",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "おべんとう",
+   "romaji": "obentou"
+  },
+  {
+   "slug": "vocab-n5-omawarisan",
+   "type": "word",
+   "term": "おまわりさん",
+   "meaning": "policeman (friendly term)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "おまわりさん",
+   "romaji": "omawarisan"
+  },
+  {
+   "slug": "vocab-n5-owaru",
+   "type": "word",
+   "term": "終る",
+   "meaning": "to finish, to close",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "おわる",
+   "romaji": "owaru"
+  },
+  {
+   "slug": "vocab-n5-onna",
+   "type": "word",
+   "term": "女",
+   "meaning": "woman, female",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "おんな",
+   "romaji": "onna"
+  },
+  {
+   "slug": "vocab-n5-onnanoko",
+   "type": "word",
+   "term": "女の子",
+   "meaning": "girl",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "おんなのこ",
+   "romaji": "onnanoko"
+  },
+  {
+   "slug": "vocab-n5-kai",
+   "type": "word",
+   "term": "～回",
+   "meaning": "counter for occurrences (~ times)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "～かい",
+   "romaji": "～kai"
+  },
+  {
+   "slug": "vocab-n5-kai-2",
+   "type": "word",
+   "term": "～階",
+   "meaning": "counter for stories (floors) of a building",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "～かい",
+   "romaji": "～kai"
+  },
+  {
+   "slug": "vocab-n5-gaikoku",
+   "type": "word",
+   "term": "外国",
+   "meaning": "foreign country; abroad",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "がいこく",
+   "romaji": "gaikoku"
+  },
+  {
+   "slug": "vocab-n5-gaikokujin",
+   "type": "word",
+   "term": "外国人",
+   "meaning": "foreigner",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "がいこくじん",
+   "romaji": "gaikokujin"
+  },
+  {
+   "slug": "vocab-n5-kaidan",
+   "type": "word",
+   "term": "階段",
+   "meaning": "stairs",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "かいだん",
+   "romaji": "kaidan"
+  },
+  {
+   "slug": "vocab-n5-kaesu",
+   "type": "word",
+   "term": "返す",
+   "meaning": "to return something",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "かえす",
+   "romaji": "kaesu"
+  },
+  {
+   "slug": "vocab-n5-kakaru",
+   "type": "word",
+   "term": "かかる",
+   "meaning": "it takes (amount of time, money) (v.i.)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "かかる",
+   "romaji": "kakaru"
+  },
+  {
+   "slug": "vocab-n5-gakusei",
+   "type": "word",
+   "term": "学生",
+   "meaning": "student",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "がくせい",
+   "romaji": "gakusei"
+  },
+  {
+   "slug": "vocab-n5-kagetsu",
+   "type": "word",
+   "term": "～か月",
+   "meaning": "(number of) months",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "～かげつ",
+   "romaji": "～kagetsu"
+  },
+  {
+   "slug": "vocab-n5-kakeru",
+   "type": "word",
+   "term": "掛ける",
+   "meaning": "to put on (e.g., glasses); to hang (e.g., on a wall)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "かける",
+   "romaji": "kakeru"
+  },
+  {
+   "slug": "vocab-n5-kakeru-2",
+   "type": "word",
+   "term": "かける",
+   "meaning": "to dial/call (e.g., phone); to sit down",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "かける",
+   "romaji": "kakeru"
+  },
+  {
+   "slug": "vocab-n5-kasu",
+   "type": "word",
+   "term": "貸す",
+   "meaning": "to lend",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "かす",
+   "romaji": "kasu"
+  },
+  {
+   "slug": "vocab-n5-kaze",
+   "type": "word",
+   "term": "風邪",
+   "meaning": "cold, flu",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "かぜ",
+   "romaji": "kaze"
+  },
+  {
+   "slug": "vocab-n5-kata",
+   "type": "word",
+   "term": "方",
+   "meaning": "-- honorific form for 人 (ひと) --; way of doing",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "かた",
+   "romaji": "kata"
+  },
+  {
+   "slug": "vocab-n5-katakana",
+   "type": "word",
+   "term": "片仮名",
+   "meaning": "katakana",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "かたかな",
+   "romaji": "katakana"
+  },
+  {
+   "slug": "vocab-n5-gatsu",
+   "type": "word",
+   "term": "～月",
+   "meaning": "month of year",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "～がつ",
+   "romaji": "～gatsu"
+  },
+  {
+   "slug": "vocab-n5-kappu",
+   "type": "word",
+   "term": "カップ",
+   "meaning": "cup",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "カップ",
+   "romaji": "kappu"
+  },
+  {
+   "slug": "vocab-n5-katei",
+   "type": "word",
+   "term": "家庭",
+   "meaning": "home; family",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "かてい",
+   "romaji": "katei"
+  },
+  {
+   "slug": "vocab-n5-kado",
+   "type": "word",
+   "term": "角",
+   "meaning": "corner (e.g., desk, pavement)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "かど",
+   "romaji": "kado"
+  },
+  {
+   "slug": "vocab-n5-kaban",
+   "type": "word",
+   "term": "かばん",
+   "meaning": "bag, basket",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "かばん",
+   "romaji": "kaban"
+  },
+  {
+   "slug": "vocab-n5-kabin",
+   "type": "word",
+   "term": "花瓶",
+   "meaning": "(flower) vase",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "かびん",
+   "romaji": "kabin"
+  },
+  {
+   "slug": "vocab-n5-kaburu",
+   "type": "word",
+   "term": "かぶる",
+   "meaning": "to wear, to put on (e.g., a hat on the head)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "かぶる",
+   "romaji": "kaburu"
+  },
+  {
+   "slug": "vocab-n5-kami",
+   "type": "word",
+   "term": "紙",
+   "meaning": "paper",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "かみ",
+   "romaji": "kami"
+  },
+  {
+   "slug": "vocab-n5-kamera",
+   "type": "word",
+   "term": "カメラ",
+   "meaning": "camera",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "カメラ",
+   "romaji": "kamera"
+  },
+  {
+   "slug": "vocab-n5-karada",
+   "type": "word",
+   "term": "体",
+   "meaning": "body; health",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "からだ",
+   "romaji": "karada"
+  },
+  {
+   "slug": "vocab-n5-kariru",
+   "type": "word",
+   "term": "借りる",
+   "meaning": "to borrow, to owe",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "かりる",
+   "romaji": "kariru"
+  },
+  {
+   "slug": "vocab-n5-garu",
+   "type": "word",
+   "term": "～がる",
+   "meaning": "feel",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "～がる",
+   "romaji": "～garu"
+  },
+  {
+   "slug": "vocab-n5-karee",
+   "type": "word",
+   "term": "カレー",
+   "meaning": "curry (abbr. for curry and rice)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "カレー",
+   "romaji": "karee"
+  },
+  {
+   "slug": "vocab-n5-karendaa",
+   "type": "word",
+   "term": "カレンダー",
+   "meaning": "calendar",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "カレンダー",
+   "romaji": "karendaa"
+  },
+  {
+   "slug": "vocab-n5-kawa",
+   "type": "word",
+   "term": "川; 河",
+   "meaning": "river",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "かわ",
+   "romaji": "kawa"
+  },
+  {
+   "slug": "vocab-n5-gawa",
+   "type": "word",
+   "term": "～側",
+   "meaning": "~ side",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "～がわ",
+   "romaji": "～gawa"
+  },
+  {
+   "slug": "vocab-n5-kawaii",
+   "type": "word",
+   "term": "可愛い",
+   "meaning": "cute, adorable",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "かわいい",
+   "romaji": "kawaii"
+  },
+  {
+   "slug": "vocab-n5-kanji",
+   "type": "word",
+   "term": "漢字",
+   "meaning": "kanji; Chinese character",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "かんじ",
+   "romaji": "kanji"
+  },
+  {
+   "slug": "vocab-n5-ki",
+   "type": "word",
+   "term": "木",
+   "meaning": "tree, wood, timber",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "き",
+   "romaji": "ki"
+  },
+  {
+   "slug": "vocab-n5-kiiroi",
+   "type": "word",
+   "term": "黄色い",
+   "meaning": "yellow",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "きいろい",
+   "romaji": "kiiroi"
+  },
+  {
+   "slug": "vocab-n5-kieru",
+   "type": "word",
+   "term": "消える",
+   "meaning": "to vanish, to disappear",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "きえる",
+   "romaji": "kieru"
+  },
+  {
+   "slug": "vocab-n5-kita",
+   "type": "word",
+   "term": "北",
+   "meaning": "north",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "きた",
+   "romaji": "kita"
+  },
+  {
+   "slug": "vocab-n5-gitaa",
+   "type": "word",
+   "term": "ギター",
+   "meaning": "guitar",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ギター",
+   "romaji": "gitaa"
+  },
+  {
+   "slug": "vocab-n5-kitanai",
+   "type": "word",
+   "term": "汚い",
+   "meaning": "dirty, unclean, filthy",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "きたない",
+   "romaji": "kitanai"
+  },
+  {
+   "slug": "vocab-n5-kissaten",
+   "type": "word",
+   "term": "喫茶店",
+   "meaning": "café",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "きっさてん",
+   "romaji": "kissaten"
+  },
+  {
+   "slug": "vocab-n5-kitte",
+   "type": "word",
+   "term": "切手",
+   "meaning": "postal (postage) stamps",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "きって",
+   "romaji": "kitte"
+  },
+  {
+   "slug": "vocab-n5-kyuu",
+   "type": "word",
+   "term": "九",
+   "meaning": "nine",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "きゅう",
+   "romaji": "kyuu"
+  },
+  {
+   "slug": "vocab-n5-gyuuniku",
+   "type": "word",
+   "term": "牛肉",
+   "meaning": "beef",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ぎゅうにく",
+   "romaji": "gyuuniku"
+  },
+  {
+   "slug": "vocab-n5-kyoushitsu",
+   "type": "word",
+   "term": "教室",
+   "meaning": "classroom",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "きょうしつ",
+   "romaji": "kyoushitsu"
+  },
+  {
+   "slug": "vocab-n5-kyoudai",
+   "type": "word",
+   "term": "兄弟",
+   "meaning": "siblings (humble), brothers and sisters",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "きょうだい",
+   "romaji": "kyoudai"
+  },
+  {
+   "slug": "vocab-n5-kiru",
+   "type": "word",
+   "term": "切る",
+   "meaning": "to cut; to hang up (a phone)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "きる",
+   "romaji": "kiru"
+  },
+  {
+   "slug": "vocab-n5-kirei",
+   "type": "word",
+   "term": "綺麗",
+   "meaning": "pretty, clean, tidy",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "きれい",
+   "romaji": "kirei"
+  },
+  {
+   "slug": "vocab-n5-kiro-kiroguramu",
+   "type": "word",
+   "term": "キロ; キログラム",
+   "meaning": "(abbr.) kilo (kilogram)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "キロ; キログラム",
+   "romaji": "kiro;kiroguramu"
+  },
+  {
+   "slug": "vocab-n5-kiro-kiromeetoru",
+   "type": "word",
+   "term": "キロ; キロメートル",
+   "meaning": "(abbr.) kilo (kilometer)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "キロ; キロメートル",
+   "romaji": "kiro;kiromeetoru"
+  },
+  {
+   "slug": "vocab-n5-ku",
+   "type": "word",
+   "term": "九",
+   "meaning": "nine",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "く",
+   "romaji": "ku"
+  },
+  {
+   "slug": "vocab-n5-kudasai",
+   "type": "word",
+   "term": "下さい",
+   "meaning": "(with te-form verb) please do for me",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ください",
+   "romaji": "kudasai"
+  },
+  {
+   "slug": "vocab-n5-kuni",
+   "type": "word",
+   "term": "国",
+   "meaning": "country; place of origin",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "くに",
+   "romaji": "kuni"
+  },
+  {
+   "slug": "vocab-n5-kumoru",
+   "type": "word",
+   "term": "曇る",
+   "meaning": "to become cloudy, to become dim",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "くもる",
+   "romaji": "kumoru"
+  },
+  {
+   "slug": "vocab-n5-kurai",
+   "type": "word",
+   "term": "暗い",
+   "meaning": "dark, gloomy",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "くらい",
+   "romaji": "kurai"
+  },
+  {
+   "slug": "vocab-n5-kurai-gurai",
+   "type": "word",
+   "term": "～くらい; ぐらい",
+   "meaning": "approximate (quantity)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "～くらい; ぐらい",
+   "romaji": "～kurai;gurai"
+  },
+  {
+   "slug": "vocab-n5-kurasu",
+   "type": "word",
+   "term": "クラス",
+   "meaning": "a class",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "クラス",
+   "romaji": "kurasu"
+  },
+  {
+   "slug": "vocab-n5-guramu",
+   "type": "word",
+   "term": "グラム",
+   "meaning": "gram",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "グラム",
+   "romaji": "guramu"
+  },
+  {
+   "slug": "vocab-n5-kuroi",
+   "type": "word",
+   "term": "黒い",
+   "meaning": "black; dark",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "くろい",
+   "romaji": "kuroi"
+  },
+  {
+   "slug": "vocab-n5-keikan",
+   "type": "word",
+   "term": "警官",
+   "meaning": "police officer",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "けいかん",
+   "romaji": "keikan"
+  },
+  {
+   "slug": "vocab-n5-kesa",
+   "type": "word",
+   "term": "今朝",
+   "meaning": "this morning",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "けさ",
+   "romaji": "kesa"
+  },
+  {
+   "slug": "vocab-n5-kesu",
+   "type": "word",
+   "term": "消す",
+   "meaning": "to erase, to delete, to turn off power",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "けす",
+   "romaji": "kesu"
+  },
+  {
+   "slug": "vocab-n5-kekkou",
+   "type": "word",
+   "term": "結構",
+   "meaning": "splendid; enough, tolerably",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "けっこう",
+   "romaji": "kekkou"
+  },
+  {
+   "slug": "vocab-n5-kekkon-suru",
+   "type": "word",
+   "term": "結婚",
+   "meaning": "marriage (get married)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "けっこん (する)",
+   "romaji": "kekkon(suru)"
+  },
+  {
+   "slug": "vocab-n5-genkan",
+   "type": "word",
+   "term": "玄関",
+   "meaning": "entrance (to a house or a building)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "げんかん",
+   "romaji": "genkan"
+  },
+  {
+   "slug": "vocab-n5-ko",
+   "type": "word",
+   "term": "～個",
+   "meaning": "counter for small items (e.g., fruits, cups)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "～こ",
+   "romaji": "～ko"
+  },
+  {
+   "slug": "vocab-n5-go",
+   "type": "word",
+   "term": "五",
+   "meaning": "five",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ご",
+   "romaji": "go"
+  },
+  {
+   "slug": "vocab-n5-go-2",
+   "type": "word",
+   "term": "～語",
+   "meaning": "word, language",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "～ご",
+   "romaji": "～go"
+  },
+  {
+   "slug": "vocab-n5-kousaten",
+   "type": "word",
+   "term": "交差点",
+   "meaning": "intersection",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "こうさてん",
+   "romaji": "kousaten"
+  },
+  {
+   "slug": "vocab-n5-koucha",
+   "type": "word",
+   "term": "紅茶",
+   "meaning": "black tea",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "こうちゃ",
+   "romaji": "koucha"
+  },
+  {
+   "slug": "vocab-n5-koe",
+   "type": "word",
+   "term": "声",
+   "meaning": "voice",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "こえ",
+   "romaji": "koe"
+  },
+  {
+   "slug": "vocab-n5-koko",
+   "type": "word",
+   "term": "ここ",
+   "meaning": "here, this place",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ここ",
+   "romaji": "koko"
+  },
+  {
+   "slug": "vocab-n5-kokonoka",
+   "type": "word",
+   "term": "九日",
+   "meaning": "nine days; ninth day of the month",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ここのか",
+   "romaji": "kokonoka"
+  },
+  {
+   "slug": "vocab-n5-kokonotsu",
+   "type": "word",
+   "term": "九つ",
+   "meaning": "nine things",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ここのつ",
+   "romaji": "kokonotsu"
+  },
+  {
+   "slug": "vocab-n5-kotaeru",
+   "type": "word",
+   "term": "答える",
+   "meaning": "to answer, to reply",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "こたえる",
+   "romaji": "kotaeru"
+  },
+  {
+   "slug": "vocab-n5-kochira",
+   "type": "word",
+   "term": "こちら",
+   "meaning": "this person (polite); this way (polite)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "こちら",
+   "romaji": "kochira"
+  },
+  {
+   "slug": "vocab-n5-kotchi",
+   "type": "word",
+   "term": "こっち",
+   "meaning": "this person; this direction; this side",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "こっち",
+   "romaji": "kotchi"
+  },
+  {
+   "slug": "vocab-n5-kono",
+   "type": "word",
+   "term": "この",
+   "meaning": "this",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "この",
+   "romaji": "kono"
+  },
+  {
+   "slug": "vocab-n5-gohan",
+   "type": "word",
+   "term": "御飯",
+   "meaning": "rice (cooked); meal",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ごはん",
+   "romaji": "gohan"
+  },
+  {
+   "slug": "vocab-n5-kopiisuru",
+   "type": "word",
+   "term": "コピーする",
+   "meaning": "to copy",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "コピーする",
+   "romaji": "kopiisuru"
+  },
+  {
+   "slug": "vocab-n5-komaru",
+   "type": "word",
+   "term": "困る",
+   "meaning": "to be bothered, to have difficulty",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "こまる",
+   "romaji": "komaru"
+  },
+  {
+   "slug": "vocab-n5-kore",
+   "type": "word",
+   "term": "これ",
+   "meaning": "this one",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "これ",
+   "romaji": "kore"
+  },
+  {
+   "slug": "vocab-n5-koro-goro",
+   "type": "word",
+   "term": "～ころ; ～ごろ",
+   "meaning": "about, toward, approximately (time)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "～ころ; ～ごろ",
+   "romaji": "～koro;～goro"
+  },
+  {
+   "slug": "vocab-n5-kongetsu",
+   "type": "word",
+   "term": "今月",
+   "meaning": "this month",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "こんげつ",
+   "romaji": "kongetsu"
+  },
+  {
+   "slug": "vocab-n5-konna",
+   "type": "word",
+   "term": "こんな",
+   "meaning": "such, like this",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "こんな",
+   "romaji": "konna"
+  },
+  {
+   "slug": "vocab-n5-konban",
+   "type": "word",
+   "term": "今晩",
+   "meaning": "tonight, this evening",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "こんばん",
+   "romaji": "konban"
+  },
+  {
+   "slug": "vocab-n5-saa",
+   "type": "word",
+   "term": "さあ",
+   "meaning": "come now, well",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "さあ",
+   "romaji": "saa"
+  },
+  {
+   "slug": "vocab-n5-sai",
+   "type": "word",
+   "term": "～歳",
+   "meaning": "~ years old",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "～さい",
+   "romaji": "～sai"
+  },
+  {
+   "slug": "vocab-n5-saki",
+   "type": "word",
+   "term": "先",
+   "meaning": "future; recent, previous",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "さき",
+   "romaji": "saki"
+  },
+  {
+   "slug": "vocab-n5-saku",
+   "type": "word",
+   "term": "咲く",
+   "meaning": "to bloom",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "さく",
+   "romaji": "saku"
+  },
+  {
+   "slug": "vocab-n5-sakubun",
+   "type": "word",
+   "term": "作文",
+   "meaning": "essay; composition",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "さくぶん",
+   "romaji": "sakubun"
+  },
+  {
+   "slug": "vocab-n5-sasu",
+   "type": "word",
+   "term": "差す",
+   "meaning": "to raise (stretch out) hands, to raise (e.g., umbrella)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "さす",
+   "romaji": "sasu"
+  },
+  {
+   "slug": "vocab-n5-satsu",
+   "type": "word",
+   "term": "～冊",
+   "meaning": "counter for books",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "～さつ",
+   "romaji": "～satsu"
+  },
+  {
+   "slug": "vocab-n5-zasshi",
+   "type": "word",
+   "term": "雑誌",
+   "meaning": "magazine, journal",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ざっし",
+   "romaji": "zasshi"
+  },
+  {
+   "slug": "vocab-n5-sarainen",
+   "type": "word",
+   "term": "さ来年",
+   "meaning": "year after next",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "さらいねん",
+   "romaji": "sarainen"
+  },
+  {
+   "slug": "vocab-n5-san",
+   "type": "word",
+   "term": "～さん",
+   "meaning": "Mr. ~, Ms. ~",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "～さん",
+   "romaji": "～san"
+  },
+  {
+   "slug": "vocab-n5-san-2",
+   "type": "word",
+   "term": "三",
+   "meaning": "three",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "さん",
+   "romaji": "san"
+  },
+  {
+   "slug": "vocab-n5-sanpo-suru",
+   "type": "word",
+   "term": "散歩",
+   "meaning": "walk, stroll",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "さんぽ (する)",
+   "romaji": "sanpo(suru)"
+  },
+  {
+   "slug": "vocab-n5-shi",
+   "type": "word",
+   "term": "四",
+   "meaning": "four",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "し",
+   "romaji": "shi"
+  },
+  {
+   "slug": "vocab-n5-ji",
+   "type": "word",
+   "term": "～時",
+   "meaning": "~ o'clock (time)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "～じ",
+   "romaji": "～ji"
+  },
+  {
+   "slug": "vocab-n5-shikashi",
+   "type": "word",
+   "term": "しかし",
+   "meaning": "however; but",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "しかし",
+   "romaji": "shikashi"
+  },
+  {
+   "slug": "vocab-n5-jikan",
+   "type": "word",
+   "term": "～時間",
+   "meaning": "~ hours",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "～じかん",
+   "romaji": "～jikan"
+  },
+  {
+   "slug": "vocab-n5-shizuka",
+   "type": "word",
+   "term": "静か",
+   "meaning": "quiet, calm",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "しずか",
+   "romaji": "shizuka"
+  },
+  {
+   "slug": "vocab-n5-shita",
+   "type": "word",
+   "term": "下",
+   "meaning": "under, below, beneath",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "した",
+   "romaji": "shita"
+  },
+  {
+   "slug": "vocab-n5-shichi",
+   "type": "word",
+   "term": "七",
+   "meaning": "seven",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "しち",
+   "romaji": "shichi"
+  },
+  {
+   "slug": "vocab-n5-shitsumon",
+   "type": "word",
+   "term": "質問",
+   "meaning": "question, inquiry",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "しつもん",
+   "romaji": "shitsumon"
+  },
+  {
+   "slug": "vocab-n5-jidousha",
+   "type": "word",
+   "term": "自動車",
+   "meaning": "automobile",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "じどうしゃ",
+   "romaji": "jidousha"
+  },
+  {
+   "slug": "vocab-n5-shinu",
+   "type": "word",
+   "term": "死ぬ",
+   "meaning": "to die",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "しぬ",
+   "romaji": "shinu"
+  },
+  {
+   "slug": "vocab-n5-jibiki",
+   "type": "word",
+   "term": "字引",
+   "meaning": "dictionary",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "じびき",
+   "romaji": "jibiki"
+  },
+  {
+   "slug": "vocab-n5-jibun",
+   "type": "word",
+   "term": "自分",
+   "meaning": "myself, oneself",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "じぶん",
+   "romaji": "jibun"
+  },
+  {
+   "slug": "vocab-n5-shimaru",
+   "type": "word",
+   "term": "閉まる",
+   "meaning": "to close, to be closed",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "しまる",
+   "romaji": "shimaru"
+  },
+  {
+   "slug": "vocab-n5-shimeru",
+   "type": "word",
+   "term": "閉める",
+   "meaning": "to close, to shut",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "しめる",
+   "romaji": "shimeru"
+  },
+  {
+   "slug": "vocab-n5-shimeru-2",
+   "type": "word",
+   "term": "締める",
+   "meaning": "to tie, to fasten, to tighten",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "しめる",
+   "romaji": "shimeru"
+  },
+  {
+   "slug": "vocab-n5-ja-jaa",
+   "type": "word",
+   "term": "じゃ; じゃあ",
+   "meaning": "well, well then",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "じゃ; じゃあ",
+   "romaji": "ja;jaa"
+  },
+  {
+   "slug": "vocab-n5-shawaa",
+   "type": "word",
+   "term": "シャワー",
+   "meaning": "shower",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "シャワー",
+   "romaji": "shawaa"
+  },
+  {
+   "slug": "vocab-n5-juu",
+   "type": "word",
+   "term": "十",
+   "meaning": "ten",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "じゅう",
+   "romaji": "juu"
+  },
+  {
+   "slug": "vocab-n5-juu-2",
+   "type": "word",
+   "term": "～中",
+   "meaning": "during, while",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "～じゅう",
+   "romaji": "～juu"
+  },
+  {
+   "slug": "vocab-n5-shuukan",
+   "type": "word",
+   "term": "～週間",
+   "meaning": "~ weeks",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "～しゅうかん",
+   "romaji": "～shuukan"
+  },
+  {
+   "slug": "vocab-n5-jouzu",
+   "type": "word",
+   "term": "上手",
+   "meaning": "be good at, skillful",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "じょうず",
+   "romaji": "jouzu"
+  },
+  {
+   "slug": "vocab-n5-joubu",
+   "type": "word",
+   "term": "丈夫",
+   "meaning": "strong, solid, durable",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "じょうぶ",
+   "romaji": "joubu"
+  },
+  {
+   "slug": "vocab-n5-shokudou",
+   "type": "word",
+   "term": "食堂",
+   "meaning": "cafeteria, dining hall",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "しょくどう",
+   "romaji": "shokudou"
+  },
+  {
+   "slug": "vocab-n5-shiroi",
+   "type": "word",
+   "term": "白い",
+   "meaning": "white",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "しろい",
+   "romaji": "shiroi"
+  },
+  {
+   "slug": "vocab-n5-jin",
+   "type": "word",
+   "term": "～人",
+   "meaning": "counter for people",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "～じん",
+   "romaji": "～jin"
+  },
+  {
+   "slug": "vocab-n5-shinbun",
+   "type": "word",
+   "term": "新聞",
+   "meaning": "newspaper",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "しんぶん",
+   "romaji": "shinbun"
+  },
+  {
+   "slug": "vocab-n5-suu",
+   "type": "word",
+   "term": "吸う",
+   "meaning": "to breathe in, to suck",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "すう",
+   "romaji": "suu"
+  },
+  {
+   "slug": "vocab-n5-sugi",
+   "type": "word",
+   "term": "～すぎ",
+   "meaning": "past; to exceed, ~ too much",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "～すぎ",
+   "romaji": "～sugi"
+  },
+  {
+   "slug": "vocab-n5-suguni",
+   "type": "word",
+   "term": "すぐに",
+   "meaning": "immediately, soon",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "すぐに",
+   "romaji": "suguni"
+  },
+  {
+   "slug": "vocab-n5-sukoshi",
+   "type": "word",
+   "term": "少し",
+   "meaning": "little, few",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "すこし",
+   "romaji": "sukoshi"
+  },
+  {
+   "slug": "vocab-n5-zutsu",
+   "type": "word",
+   "term": "～ずつ",
+   "meaning": "at a time",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "～ずつ",
+   "romaji": "～zutsu"
+  },
+  {
+   "slug": "vocab-n5-sutoobu",
+   "type": "word",
+   "term": "ストーブ",
+   "meaning": "heater (lit: stove)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ストーブ",
+   "romaji": "sutoobu"
+  },
+  {
+   "slug": "vocab-n5-supootsu",
+   "type": "word",
+   "term": "スポーツ",
+   "meaning": "sport(s)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "スポーツ",
+   "romaji": "supootsu"
+  },
+  {
+   "slug": "vocab-n5-sumu",
+   "type": "word",
+   "term": "住む",
+   "meaning": "to reside, to live in",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "すむ",
+   "romaji": "sumu"
+  },
+  {
+   "slug": "vocab-n5-suru",
+   "type": "word",
+   "term": "する",
+   "meaning": "to do, to try; to wear small items (e.g., necktie, watch, etc.)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "する",
+   "romaji": "suru"
+  },
+  {
+   "slug": "vocab-n5-suwaru",
+   "type": "word",
+   "term": "座る",
+   "meaning": "to sit",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "すわる",
+   "romaji": "suwaru"
+  },
+  {
+   "slug": "vocab-n5-sei",
+   "type": "word",
+   "term": "背",
+   "meaning": "(one's) height, stature",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "せい",
+   "romaji": "sei"
+  },
+  {
+   "slug": "vocab-n5-seito",
+   "type": "word",
+   "term": "生徒",
+   "meaning": "student; pupil",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "せいと",
+   "romaji": "seito"
+  },
+  {
+   "slug": "vocab-n5-sebiro",
+   "type": "word",
+   "term": "背広",
+   "meaning": "men's suit",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "せびろ",
+   "romaji": "sebiro"
+  },
+  {
+   "slug": "vocab-n5-semai",
+   "type": "word",
+   "term": "狭い",
+   "meaning": "narrow; not spacious",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "せまい",
+   "romaji": "semai"
+  },
+  {
+   "slug": "vocab-n5-zero",
+   "type": "word",
+   "term": "ゼロ",
+   "meaning": "zero",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ゼロ",
+   "romaji": "zero"
+  },
+  {
+   "slug": "vocab-n5-sen",
+   "type": "word",
+   "term": "千",
+   "meaning": "thousand",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "せん",
+   "romaji": "sen"
+  },
+  {
+   "slug": "vocab-n5-sengetsu",
+   "type": "word",
+   "term": "先月",
+   "meaning": "last month",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "せんげつ",
+   "romaji": "sengetsu"
+  },
+  {
+   "slug": "vocab-n5-sensei",
+   "type": "word",
+   "term": "先生",
+   "meaning": "teacher, professor; master; doctor",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "せんせい",
+   "romaji": "sensei"
+  },
+  {
+   "slug": "vocab-n5-sentaku",
+   "type": "word",
+   "term": "洗濯",
+   "meaning": "washing, laundry",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "せんたく",
+   "romaji": "sentaku"
+  },
+  {
+   "slug": "vocab-n5-zenbu",
+   "type": "word",
+   "term": "全部",
+   "meaning": "all, entire, whole",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ぜんぶ",
+   "romaji": "zenbu"
+  },
+  {
+   "slug": "vocab-n5-sou-soudesu",
+   "type": "word",
+   "term": "そう; そうです",
+   "meaning": "yes; appears, to be the case",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "そう; そうです",
+   "romaji": "sou;soudesu"
+  },
+  {
+   "slug": "vocab-n5-souji-suru",
+   "type": "word",
+   "term": "掃除",
+   "meaning": "cleaning, sweeping",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "そうじ (する)",
+   "romaji": "souji(suru)"
+  },
+  {
+   "slug": "vocab-n5-soushite-soshite",
+   "type": "word",
+   "term": "そうして; そして",
+   "meaning": "and, like that",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "そうして; そして",
+   "romaji": "soushite;soshite"
+  },
+  {
+   "slug": "vocab-n5-soko",
+   "type": "word",
+   "term": "そこ",
+   "meaning": "that place, there; bottom, sole",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "そこ",
+   "romaji": "soko"
+  },
+  {
+   "slug": "vocab-n5-sochira",
+   "type": "word",
+   "term": "そちら",
+   "meaning": "over there",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "そちら",
+   "romaji": "sochira"
+  },
+  {
+   "slug": "vocab-n5-sotchi",
+   "type": "word",
+   "term": "そっち",
+   "meaning": "over there",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "そっち",
+   "romaji": "sotchi"
+  },
+  {
+   "slug": "vocab-n5-soto",
+   "type": "word",
+   "term": "外",
+   "meaning": "outside, exterior",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "そと",
+   "romaji": "soto"
+  },
+  {
+   "slug": "vocab-n5-sono",
+   "type": "word",
+   "term": "その",
+   "meaning": "that",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "その",
+   "romaji": "sono"
+  },
+  {
+   "slug": "vocab-n5-soba",
+   "type": "word",
+   "term": "そば",
+   "meaning": "near, close, beside; Japanese traditional buckwheat noodle",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "そば",
+   "romaji": "soba"
+  },
+  {
+   "slug": "vocab-n5-sora",
+   "type": "word",
+   "term": "空",
+   "meaning": "sky",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "そら",
+   "romaji": "sora"
+  },
+  {
+   "slug": "vocab-n5-sore",
+   "type": "word",
+   "term": "それ",
+   "meaning": "that one",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "それ",
+   "romaji": "sore"
+  },
+  {
+   "slug": "vocab-n5-sorekara",
+   "type": "word",
+   "term": "それから",
+   "meaning": "and then, after that",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "それから",
+   "romaji": "sorekara"
+  },
+  {
+   "slug": "vocab-n5-soredeha",
+   "type": "word",
+   "term": "それでは",
+   "meaning": "in that situation, well then...",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "それでは",
+   "romaji": "soredeha"
+  },
+  {
+   "slug": "vocab-n5-dai",
+   "type": "word",
+   "term": "～台",
+   "meaning": "counter for vehicles; machines",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "～だい",
+   "romaji": "～dai"
+  },
+  {
+   "slug": "vocab-n5-daigaku",
+   "type": "word",
+   "term": "大学",
+   "meaning": "college; university",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "だいがく",
+   "romaji": "daigaku"
+  },
+  {
+   "slug": "vocab-n5-taishikan",
+   "type": "word",
+   "term": "大使館",
+   "meaning": "embassy",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "たいしかん",
+   "romaji": "taishikan"
+  },
+  {
+   "slug": "vocab-n5-daijoubu",
+   "type": "word",
+   "term": "大丈夫",
+   "meaning": "It's ok (all right); No need to worry; Everything is under control",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "だいじょうぶ",
+   "romaji": "daijoubu"
+  },
+  {
+   "slug": "vocab-n5-taisetsu",
+   "type": "word",
+   "term": "大切",
+   "meaning": "important",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "たいせつ",
+   "romaji": "taisetsu"
+  },
+  {
+   "slug": "vocab-n5-daidokoro",
+   "type": "word",
+   "term": "台所",
+   "meaning": "kitchen",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "だいどころ",
+   "romaji": "daidokoro"
+  },
+  {
+   "slug": "vocab-n5-taihen",
+   "type": "word",
+   "term": "大変",
+   "meaning": "very; difficult, hard",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "たいへん",
+   "romaji": "taihen"
+  },
+  {
+   "slug": "vocab-n5-dake",
+   "type": "word",
+   "term": "～だけ",
+   "meaning": "only ~, just ~, as ~",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "～だけ",
+   "romaji": "～dake"
+  },
+  {
+   "slug": "vocab-n5-takusan",
+   "type": "word",
+   "term": "沢山",
+   "meaning": "many, much",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "たくさん",
+   "romaji": "takusan"
+  },
+  {
+   "slug": "vocab-n5-dasu",
+   "type": "word",
+   "term": "出す",
+   "meaning": "to take (something) out; to hand in (something)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "だす",
+   "romaji": "dasu"
+  },
+  {
+   "slug": "vocab-n5-tachi",
+   "type": "word",
+   "term": "～たち",
+   "meaning": "plural suffix",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "～たち",
+   "romaji": "～tachi"
+  },
+  {
+   "slug": "vocab-n5-tatsu",
+   "type": "word",
+   "term": "立つ",
+   "meaning": "to stand up",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "たつ",
+   "romaji": "tatsu"
+  },
+  {
+   "slug": "vocab-n5-tate",
+   "type": "word",
+   "term": "たて",
+   "meaning": "length, height",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "たて",
+   "romaji": "tate"
+  },
+  {
+   "slug": "vocab-n5-tatemono",
+   "type": "word",
+   "term": "建物",
+   "meaning": "building",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "たてもの",
+   "romaji": "tatemono"
+  },
+  {
+   "slug": "vocab-n5-tanomu",
+   "type": "word",
+   "term": "頼む",
+   "meaning": "to request, to ask (a favor)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "たのむ",
+   "romaji": "tanomu"
+  },
+  {
+   "slug": "vocab-n5-tabako",
+   "type": "word",
+   "term": "たばこ",
+   "meaning": "tobacco, cigarettes",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "たばこ",
+   "romaji": "tabako"
+  },
+  {
+   "slug": "vocab-n5-tabun",
+   "type": "word",
+   "term": "多分",
+   "meaning": "perhaps, probably, maybe",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "たぶん",
+   "romaji": "tabun"
+  },
+  {
+   "slug": "vocab-n5-tabemono",
+   "type": "word",
+   "term": "食べ物",
+   "meaning": "food",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "たべもの",
+   "romaji": "tabemono"
+  },
+  {
+   "slug": "vocab-n5-tamago",
+   "type": "word",
+   "term": "卵",
+   "meaning": "egg",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "たまご",
+   "romaji": "tamago"
+  },
+  {
+   "slug": "vocab-n5-dare",
+   "type": "word",
+   "term": "誰",
+   "meaning": "who",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "だれ",
+   "romaji": "dare"
+  },
+  {
+   "slug": "vocab-n5-dareka",
+   "type": "word",
+   "term": "誰か",
+   "meaning": "someone",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "だれか",
+   "romaji": "dareka"
+  },
+  {
+   "slug": "vocab-n5-tanjoubi",
+   "type": "word",
+   "term": "誕生日",
+   "meaning": "birthday",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "たんじょうび",
+   "romaji": "tanjoubi"
+  },
+  {
+   "slug": "vocab-n5-dandan",
+   "type": "word",
+   "term": "段々",
+   "meaning": "gradually, by degrees",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "だんだん",
+   "romaji": "dandan"
+  },
+  {
+   "slug": "vocab-n5-chiisana",
+   "type": "word",
+   "term": "小さな",
+   "meaning": "small, little",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ちいさな",
+   "romaji": "chiisana"
+  },
+  {
+   "slug": "vocab-n5-chikai",
+   "type": "word",
+   "term": "近い",
+   "meaning": "near, close by, short",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ちかい",
+   "romaji": "chikai"
+  },
+  {
+   "slug": "vocab-n5-chigau",
+   "type": "word",
+   "term": "違う",
+   "meaning": "to be different; to differ; wrong",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ちがう",
+   "romaji": "chigau"
+  },
+  {
+   "slug": "vocab-n5-chikaku",
+   "type": "word",
+   "term": "近く",
+   "meaning": "nearby; in the neighborhood",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ちかく",
+   "romaji": "chikaku"
+  },
+  {
+   "slug": "vocab-n5-chizu",
+   "type": "word",
+   "term": "地図",
+   "meaning": "a map",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ちず",
+   "romaji": "chizu"
+  },
+  {
+   "slug": "vocab-n5-chawan",
+   "type": "word",
+   "term": "茶碗",
+   "meaning": "rice bowl",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ちゃわん",
+   "romaji": "chawan"
+  },
+  {
+   "slug": "vocab-n5-chuu",
+   "type": "word",
+   "term": "～中",
+   "meaning": "during, while ~ing",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "～ちゅう",
+   "romaji": "～chuu"
+  },
+  {
+   "slug": "vocab-n5-choudo",
+   "type": "word",
+   "term": "丁度",
+   "meaning": "just, right, exactly",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ちょうど",
+   "romaji": "choudo"
+  },
+  {
+   "slug": "vocab-n5-chotto",
+   "type": "word",
+   "term": "ちょっと",
+   "meaning": "a little, somewhat; just a little, somewhat",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ちょっと",
+   "romaji": "chotto"
+  },
+  {
+   "slug": "vocab-n5-tsuitachi",
+   "type": "word",
+   "term": "一日",
+   "meaning": "one day; first day of the month",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ついたち",
+   "romaji": "tsuitachi"
+  },
+  {
+   "slug": "vocab-n5-tsukau",
+   "type": "word",
+   "term": "使う",
+   "meaning": "to use",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "つかう",
+   "romaji": "tsukau"
+  },
+  {
+   "slug": "vocab-n5-tsukareru",
+   "type": "word",
+   "term": "疲れる",
+   "meaning": "to get (become) tired; to become fatigued",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "つかれる",
+   "romaji": "tsukareru"
+  },
+  {
+   "slug": "vocab-n5-tsugi",
+   "type": "word",
+   "term": "次",
+   "meaning": "next",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "つぎ",
+   "romaji": "tsugi"
+  },
+  {
+   "slug": "vocab-n5-tsuku",
+   "type": "word",
+   "term": "着く",
+   "meaning": "to arrive at, to reach",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "つく",
+   "romaji": "tsuku"
+  },
+  {
+   "slug": "vocab-n5-tsukuru",
+   "type": "word",
+   "term": "作る",
+   "meaning": "to make, to create",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "つくる",
+   "romaji": "tsukuru"
+  },
+  {
+   "slug": "vocab-n5-tsukeru",
+   "type": "word",
+   "term": "つける",
+   "meaning": "to turn on (e.g., a light); to take",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "つける",
+   "romaji": "tsukeru"
+  },
+  {
+   "slug": "vocab-n5-tsutomeru",
+   "type": "word",
+   "term": "勤める",
+   "meaning": "to work (for)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "つとめる",
+   "romaji": "tsutomeru"
+  },
+  {
+   "slug": "vocab-n5-tsumetai",
+   "type": "word",
+   "term": "冷たい",
+   "meaning": "cold (things, people)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "つめたい",
+   "romaji": "tsumetai"
+  },
+  {
+   "slug": "vocab-n5-tsuyoi",
+   "type": "word",
+   "term": "強い",
+   "meaning": "strong, powerful",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "つよい",
+   "romaji": "tsuyoi"
+  },
+  {
+   "slug": "vocab-n5-teepu",
+   "type": "word",
+   "term": "テープ",
+   "meaning": "tape",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "テープ",
+   "romaji": "teepu"
+  },
+  {
+   "slug": "vocab-n5-teepurekoodaa",
+   "type": "word",
+   "term": "テープレコーダー",
+   "meaning": "tape recorder",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "テープレコーダー",
+   "romaji": "teepurekoodaa"
+  },
+  {
+   "slug": "vocab-n5-teeburu",
+   "type": "word",
+   "term": "テーブル",
+   "meaning": "table",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "テーブル",
+   "romaji": "teeburu"
+  },
+  {
+   "slug": "vocab-n5-dekakeru",
+   "type": "word",
+   "term": "出かける",
+   "meaning": "to go out; to depart",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "でかける",
+   "romaji": "dekakeru"
+  },
+  {
+   "slug": "vocab-n5-tegami",
+   "type": "word",
+   "term": "手紙",
+   "meaning": "letter",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "てがみ",
+   "romaji": "tegami"
+  },
+  {
+   "slug": "vocab-n5-dekiru",
+   "type": "word",
+   "term": "できる",
+   "meaning": "to be able to (to accomplish)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "できる",
+   "romaji": "dekiru"
+  },
+  {
+   "slug": "vocab-n5-tesuto",
+   "type": "word",
+   "term": "テスト",
+   "meaning": "test",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "テスト",
+   "romaji": "tesuto"
+  },
+  {
+   "slug": "vocab-n5-deha",
+   "type": "word",
+   "term": "では",
+   "meaning": "then, well, so",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "では",
+   "romaji": "deha"
+  },
+  {
+   "slug": "vocab-n5-depaato",
+   "type": "word",
+   "term": "デパート",
+   "meaning": "(abbr.) department store",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "デパート",
+   "romaji": "depaato"
+  },
+  {
+   "slug": "vocab-n5-demo",
+   "type": "word",
+   "term": "でも",
+   "meaning": "but, however",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "でも",
+   "romaji": "demo"
+  },
+  {
+   "slug": "vocab-n5-terebi",
+   "type": "word",
+   "term": "テレビ",
+   "meaning": "television, TV",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "テレビ",
+   "romaji": "terebi"
+  },
+  {
+   "slug": "vocab-n5-denki",
+   "type": "word",
+   "term": "電気",
+   "meaning": "electricity, (electric) light",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "でんき",
+   "romaji": "denki"
+  },
+  {
+   "slug": "vocab-n5-to",
+   "type": "word",
+   "term": "戸",
+   "meaning": "door (Japanese style)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "と",
+   "romaji": "to"
+  },
+  {
+   "slug": "vocab-n5-do",
+   "type": "word",
+   "term": "～度",
+   "meaning": "counter for occurrences; ~ degree; ~ point",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "～ど",
+   "romaji": "～do"
+  },
+  {
+   "slug": "vocab-n5-doa",
+   "type": "word",
+   "term": "ドア",
+   "meaning": "door (Western style)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ドア",
+   "romaji": "doa"
+  },
+  {
+   "slug": "vocab-n5-toire",
+   "type": "word",
+   "term": "トイレ",
+   "meaning": "bathroom; toilet",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "トイレ",
+   "romaji": "toire"
+  },
+  {
+   "slug": "vocab-n5-dou",
+   "type": "word",
+   "term": "どう",
+   "meaning": "how, in what way",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "どう",
+   "romaji": "dou"
+  },
+  {
+   "slug": "vocab-n5-doushite",
+   "type": "word",
+   "term": "どうして",
+   "meaning": "why, for what reason",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "どうして",
+   "romaji": "doushite"
+  },
+  {
+   "slug": "vocab-n5-doubutsu",
+   "type": "word",
+   "term": "動物",
+   "meaning": "animal",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "どうぶつ",
+   "romaji": "doubutsu"
+  },
+  {
+   "slug": "vocab-n5-wo-too",
+   "type": "word",
+   "term": "十",
+   "meaning": "ten (~)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "(〜を) とお",
+   "romaji": "(~wo)too"
+  },
+  {
+   "slug": "vocab-n5-tooi",
+   "type": "word",
+   "term": "遠い",
+   "meaning": "far (away), distant",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "とおい",
+   "romaji": "tooi"
+  },
+  {
+   "slug": "vocab-n5-tooka",
+   "type": "word",
+   "term": "十日",
+   "meaning": "ten days; tenth day of the month",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "とおか",
+   "romaji": "tooka"
+  },
+  {
+   "slug": "vocab-n5-toki",
+   "type": "word",
+   "term": "～時",
+   "meaning": "at the time of ~",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "～とき",
+   "romaji": "～toki"
+  },
+  {
+   "slug": "vocab-n5-tokidoki",
+   "type": "word",
+   "term": "時々",
+   "meaning": "sometimes",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ときどき",
+   "romaji": "tokidoki"
+  },
+  {
+   "slug": "vocab-n5-doko",
+   "type": "word",
+   "term": "どこ",
+   "meaning": "where, what place",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "どこ",
+   "romaji": "doko"
+  },
+  {
+   "slug": "vocab-n5-tokoro",
+   "type": "word",
+   "term": "所",
+   "meaning": "place",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ところ",
+   "romaji": "tokoro"
+  },
+  {
+   "slug": "vocab-n5-toshi",
+   "type": "word",
+   "term": "年",
+   "meaning": "year, age",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "とし",
+   "romaji": "toshi"
+  },
+  {
+   "slug": "vocab-n5-dochira",
+   "type": "word",
+   "term": "どちら",
+   "meaning": "which (one) (way); where (polite)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "どちら",
+   "romaji": "dochira"
+  },
+  {
+   "slug": "vocab-n5-dotchi",
+   "type": "word",
+   "term": "どっち",
+   "meaning": "which one, which way",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "どっち",
+   "romaji": "dotchi"
+  },
+  {
+   "slug": "vocab-n5-totemo",
+   "type": "word",
+   "term": "とても",
+   "meaning": "very (much), greatly, exceedingly",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "とても",
+   "romaji": "totemo"
+  },
+  {
+   "slug": "vocab-n5-donata",
+   "type": "word",
+   "term": "どなた",
+   "meaning": "who",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "どなた",
+   "romaji": "donata"
+  },
+  {
+   "slug": "vocab-n5-tonari",
+   "type": "word",
+   "term": "隣",
+   "meaning": "next to, next door to",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "となり",
+   "romaji": "tonari"
+  },
+  {
+   "slug": "vocab-n5-dono",
+   "type": "word",
+   "term": "どの",
+   "meaning": "which",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "どの",
+   "romaji": "dono"
+  },
+  {
+   "slug": "vocab-n5-tobu",
+   "type": "word",
+   "term": "飛ぶ",
+   "meaning": "to fly, to hop",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "とぶ",
+   "romaji": "tobu"
+  },
+  {
+   "slug": "vocab-n5-toriniku",
+   "type": "word",
+   "term": "鶏肉",
+   "meaning": "chicken meat",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "とりにく",
+   "romaji": "toriniku"
+  },
+  {
+   "slug": "vocab-n5-toru",
+   "type": "word",
+   "term": "取る",
+   "meaning": "to take (a class); to get (a grade)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "とる",
+   "romaji": "toru"
+  },
+  {
+   "slug": "vocab-n5-toru-2",
+   "type": "word",
+   "term": "撮る",
+   "meaning": "to take (a photo), to make (a film)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "とる",
+   "romaji": "toru"
+  },
+  {
+   "slug": "vocab-n5-dore",
+   "type": "word",
+   "term": "どれ",
+   "meaning": "which one",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "どれ",
+   "romaji": "dore"
+  },
+  {
+   "slug": "vocab-n5-donna",
+   "type": "word",
+   "term": "どんな",
+   "meaning": "what, what kind of",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "どんな",
+   "romaji": "donna"
+  },
+  {
+   "slug": "vocab-n5-nai",
+   "type": "word",
+   "term": "ない",
+   "meaning": "there isn't, doesn't have",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ない",
+   "romaji": "nai"
+  },
+  {
+   "slug": "vocab-n5-naka",
+   "type": "word",
+   "term": "中",
+   "meaning": "inside, middle, among",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "なか",
+   "romaji": "naka"
+  },
+  {
+   "slug": "vocab-n5-naku",
+   "type": "word",
+   "term": "鳴く",
+   "meaning": "to make sound (animal)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "なく",
+   "romaji": "naku"
+  },
+  {
+   "slug": "vocab-n5-nakusu",
+   "type": "word",
+   "term": "無くす",
+   "meaning": "to lose something",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "なくす",
+   "romaji": "nakusu"
+  },
+  {
+   "slug": "vocab-n5-naze",
+   "type": "word",
+   "term": "なぜ",
+   "meaning": "why (same as どうして)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "なぜ",
+   "romaji": "naze"
+  },
+  {
+   "slug": "vocab-n5-natsu",
+   "type": "word",
+   "term": "夏",
+   "meaning": "summer",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "なつ",
+   "romaji": "natsu"
+  },
+  {
+   "slug": "vocab-n5-natsuyasumi",
+   "type": "word",
+   "term": "夏休み",
+   "meaning": "summer vacation",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "なつやすみ",
+   "romaji": "natsuyasumi"
+  },
+  {
+   "slug": "vocab-n5-nado",
+   "type": "word",
+   "term": "～など",
+   "meaning": "et cetera",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "～など",
+   "romaji": "～nado"
+  },
+  {
+   "slug": "vocab-n5-nanatsu",
+   "type": "word",
+   "term": "七つ",
+   "meaning": "seven things",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ななつ",
+   "romaji": "nanatsu"
+  },
+  {
+   "slug": "vocab-n5-nan-nani",
+   "type": "word",
+   "term": "何",
+   "meaning": "what",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "なん; なに",
+   "romaji": "nan;nani"
+  },
+  {
+   "slug": "vocab-n5-nanoka",
+   "type": "word",
+   "term": "七日",
+   "meaning": "seven days; seventh day (of the month)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "なのか",
+   "romaji": "nanoka"
+  },
+  {
+   "slug": "vocab-n5-namae",
+   "type": "word",
+   "term": "名前",
+   "meaning": "name",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "なまえ",
+   "romaji": "namae"
+  },
+  {
+   "slug": "vocab-n5-narabu",
+   "type": "word",
+   "term": "並ぶ",
+   "meaning": "to line up, to stand in a line (v.i.)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ならぶ",
+   "romaji": "narabu"
+  },
+  {
+   "slug": "vocab-n5-naraberu",
+   "type": "word",
+   "term": "並べる",
+   "meaning": "to put (things) side by side; to line up",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ならべる",
+   "romaji": "naraberu"
+  },
+  {
+   "slug": "vocab-n5-naru",
+   "type": "word",
+   "term": "なる",
+   "meaning": "to become",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "なる",
+   "romaji": "naru"
+  },
+  {
+   "slug": "vocab-n5-nan",
+   "type": "word",
+   "term": "何～",
+   "meaning": "what sort of ~",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "なん～",
+   "romaji": "nan～"
+  },
+  {
+   "slug": "vocab-n5-ni",
+   "type": "word",
+   "term": "二",
+   "meaning": "two",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "に",
+   "romaji": "ni"
+  },
+  {
+   "slug": "vocab-n5-nigiyaka",
+   "type": "word",
+   "term": "にぎやか",
+   "meaning": "bustling, busy",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "にぎやか",
+   "romaji": "nigiyaka"
+  },
+  {
+   "slug": "vocab-n5-nishi",
+   "type": "word",
+   "term": "西",
+   "meaning": "west",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "にし",
+   "romaji": "nishi"
+  },
+  {
+   "slug": "vocab-n5-nichi",
+   "type": "word",
+   "term": "～日",
+   "meaning": "~ day of the month, for ~ days",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "～にち",
+   "romaji": "～nichi"
+  },
+  {
+   "slug": "vocab-n5-nimotsu",
+   "type": "word",
+   "term": "荷物",
+   "meaning": "luggage; baggage",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "にもつ",
+   "romaji": "nimotsu"
+  },
+  {
+   "slug": "vocab-n5-nyuusu",
+   "type": "word",
+   "term": "ニュース",
+   "meaning": "news",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ニュース",
+   "romaji": "nyuusu"
+  },
+  {
+   "slug": "vocab-n5-niwa",
+   "type": "word",
+   "term": "庭",
+   "meaning": "garden",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "にわ",
+   "romaji": "niwa"
+  },
+  {
+   "slug": "vocab-n5-nin",
+   "type": "word",
+   "term": "～人",
+   "meaning": "counter for people",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "～にん",
+   "romaji": "～nin"
+  },
+  {
+   "slug": "vocab-n5-nurui",
+   "type": "word",
+   "term": "温い",
+   "meaning": "lukewarm",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ぬるい",
+   "romaji": "nurui"
+  },
+  {
+   "slug": "vocab-n5-nen",
+   "type": "word",
+   "term": "～年",
+   "meaning": "~ years",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "～ねん",
+   "romaji": "～nen"
+  },
+  {
+   "slug": "vocab-n5-noboru",
+   "type": "word",
+   "term": "登る",
+   "meaning": "to climb",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "のぼる",
+   "romaji": "noboru"
+  },
+  {
+   "slug": "vocab-n5-nomimono",
+   "type": "word",
+   "term": "飲み物",
+   "meaning": "drink, beverage",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "のみもの",
+   "romaji": "nomimono"
+  },
+  {
+   "slug": "vocab-n5-paateii",
+   "type": "word",
+   "term": "パーティー",
+   "meaning": "a party",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "パーティー",
+   "romaji": "paateii"
+  },
+  {
+   "slug": "vocab-n5-hai",
+   "type": "word",
+   "term": "～杯",
+   "meaning": "counter for cupfuls",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "～はい",
+   "romaji": "～hai"
+  },
+  {
+   "slug": "vocab-n5-haizara",
+   "type": "word",
+   "term": "灰皿",
+   "meaning": "ashtray",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "はいざら",
+   "romaji": "haizara"
+  },
+  {
+   "slug": "vocab-n5-hagaki",
+   "type": "word",
+   "term": "葉書",
+   "meaning": "postcard",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "はがき",
+   "romaji": "hagaki"
+  },
+  {
+   "slug": "vocab-n5-haku",
+   "type": "word",
+   "term": "はく",
+   "meaning": "to put on (items below your waist)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "はく",
+   "romaji": "haku"
+  },
+  {
+   "slug": "vocab-n5-hako",
+   "type": "word",
+   "term": "箱",
+   "meaning": "box",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "はこ",
+   "romaji": "hako"
+  },
+  {
+   "slug": "vocab-n5-hashi",
+   "type": "word",
+   "term": "橋",
+   "meaning": "bridge",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "はし",
+   "romaji": "hashi"
+  },
+  {
+   "slug": "vocab-n5-hajimaru",
+   "type": "word",
+   "term": "始まる",
+   "meaning": "(something) begins",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "はじまる",
+   "romaji": "hajimaru"
+  },
+  {
+   "slug": "vocab-n5-hajime",
+   "type": "word",
+   "term": "初め; 始め",
+   "meaning": "beginning, start",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "はじめ",
+   "romaji": "hajime"
+  },
+  {
+   "slug": "vocab-n5-hajimete",
+   "type": "word",
+   "term": "初めて",
+   "meaning": "for the first time",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "はじめて",
+   "romaji": "hajimete"
+  },
+  {
+   "slug": "vocab-n5-bataa",
+   "type": "word",
+   "term": "バター",
+   "meaning": "butter",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "バター",
+   "romaji": "bataa"
+  },
+  {
+   "slug": "vocab-n5-hatachi",
+   "type": "word",
+   "term": "二十歳",
+   "meaning": "20 years old",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "はたち",
+   "romaji": "hatachi"
+  },
+  {
+   "slug": "vocab-n5-hachi",
+   "type": "word",
+   "term": "八",
+   "meaning": "eight",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "はち",
+   "romaji": "hachi"
+  },
+  {
+   "slug": "vocab-n5-hatsuka",
+   "type": "word",
+   "term": "二十日",
+   "meaning": "twenty days, twentieth (day of the month)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "はつか",
+   "romaji": "hatsuka"
+  },
+  {
+   "slug": "vocab-n5-hana",
+   "type": "word",
+   "term": "花",
+   "meaning": "flower",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "はな",
+   "romaji": "hana"
+  },
+  {
+   "slug": "vocab-n5-hanashi",
+   "type": "word",
+   "term": "話",
+   "meaning": "talk (chat), story",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "はなし",
+   "romaji": "hanashi"
+  },
+  {
+   "slug": "vocab-n5-hayai",
+   "type": "word",
+   "term": "早い",
+   "meaning": "early",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "はやい",
+   "romaji": "hayai"
+  },
+  {
+   "slug": "vocab-n5-haru",
+   "type": "word",
+   "term": "春",
+   "meaning": "spring",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "はる",
+   "romaji": "haru"
+  },
+  {
+   "slug": "vocab-n5-haru-2",
+   "type": "word",
+   "term": "貼る",
+   "meaning": "to post; to paste; to attach",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "はる",
+   "romaji": "haru"
+  },
+  {
+   "slug": "vocab-n5-hareru",
+   "type": "word",
+   "term": "晴れる",
+   "meaning": "to be sunny",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "はれる",
+   "romaji": "hareru"
+  },
+  {
+   "slug": "vocab-n5-ban",
+   "type": "word",
+   "term": "晩",
+   "meaning": "evening",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ばん",
+   "romaji": "ban"
+  },
+  {
+   "slug": "vocab-n5-ban-2",
+   "type": "word",
+   "term": "～番",
+   "meaning": "~st; ~th best",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "～ばん",
+   "romaji": "～ban"
+  },
+  {
+   "slug": "vocab-n5-hankachi",
+   "type": "word",
+   "term": "ハンカチ",
+   "meaning": "handkerchief",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ハンカチ",
+   "romaji": "hankachi"
+  },
+  {
+   "slug": "vocab-n5-bangou",
+   "type": "word",
+   "term": "番号",
+   "meaning": "number, series of digits",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ばんごう",
+   "romaji": "bangou"
+  },
+  {
+   "slug": "vocab-n5-bangohan",
+   "type": "word",
+   "term": "晩御飯",
+   "meaning": "dinner, evening meal",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ばんごはん",
+   "romaji": "bangohan"
+  },
+  {
+   "slug": "vocab-n5-hanbun",
+   "type": "word",
+   "term": "半分",
+   "meaning": "half",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "はんぶん",
+   "romaji": "hanbun"
+  },
+  {
+   "slug": "vocab-n5-higashi",
+   "type": "word",
+   "term": "東",
+   "meaning": "east",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ひがし",
+   "romaji": "higashi"
+  },
+  {
+   "slug": "vocab-n5-hiki",
+   "type": "word",
+   "term": "～匹",
+   "meaning": "counter for small animals",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "～ひき",
+   "romaji": "～hiki"
+  },
+  {
+   "slug": "vocab-n5-hiku",
+   "type": "word",
+   "term": "弾く",
+   "meaning": "to play (a string instrument or piano)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ひく",
+   "romaji": "hiku"
+  },
+  {
+   "slug": "vocab-n5-hikui",
+   "type": "word",
+   "term": "低い",
+   "meaning": "short, low",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ひくい",
+   "romaji": "hikui"
+  },
+  {
+   "slug": "vocab-n5-hidari",
+   "type": "word",
+   "term": "左",
+   "meaning": "left hand side",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ひだり",
+   "romaji": "hidari"
+  },
+  {
+   "slug": "vocab-n5-hito",
+   "type": "word",
+   "term": "人",
+   "meaning": "man, person",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ひと",
+   "romaji": "hito"
+  },
+  {
+   "slug": "vocab-n5-hitotsu",
+   "type": "word",
+   "term": "一つ",
+   "meaning": "one thing",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ひとつ",
+   "romaji": "hitotsu"
+  },
+  {
+   "slug": "vocab-n5-hitori",
+   "type": "word",
+   "term": "一人",
+   "meaning": "one person",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ひとり",
+   "romaji": "hitori"
+  },
+  {
+   "slug": "vocab-n5-hima",
+   "type": "word",
+   "term": "暇",
+   "meaning": "free time, leisure",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ひま",
+   "romaji": "hima"
+  },
+  {
+   "slug": "vocab-n5-hyaku",
+   "type": "word",
+   "term": "百",
+   "meaning": "hundred",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ひゃく",
+   "romaji": "hyaku"
+  },
+  {
+   "slug": "vocab-n5-hiragana",
+   "type": "word",
+   "term": "平仮名",
+   "meaning": "hiragana",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ひらがな",
+   "romaji": "hiragana"
+  },
+  {
+   "slug": "vocab-n5-hirugohan",
+   "type": "word",
+   "term": "昼御飯",
+   "meaning": "lunch, midday meal",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ひるごはん",
+   "romaji": "hirugohan"
+  },
+  {
+   "slug": "vocab-n5-hiroi",
+   "type": "word",
+   "term": "広い",
+   "meaning": "spacious; wide; broad",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ひろい",
+   "romaji": "hiroi"
+  },
+  {
+   "slug": "vocab-n5-fyirumu",
+   "type": "word",
+   "term": "フィルム",
+   "meaning": "film (roll of)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "フィルム",
+   "romaji": "fyirumu"
+  },
+  {
+   "slug": "vocab-n5-fuutou",
+   "type": "word",
+   "term": "封筒",
+   "meaning": "envelope",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ふうとう",
+   "romaji": "fuutou"
+  },
+  {
+   "slug": "vocab-n5-puuru",
+   "type": "word",
+   "term": "プール",
+   "meaning": "swimming pool",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "プール",
+   "romaji": "puuru"
+  },
+  {
+   "slug": "vocab-n5-fuku",
+   "type": "word",
+   "term": "吹く",
+   "meaning": "to blow (wind, etc.)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ふく",
+   "romaji": "fuku"
+  },
+  {
+   "slug": "vocab-n5-futatsu",
+   "type": "word",
+   "term": "二つ",
+   "meaning": "two things",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ふたつ",
+   "romaji": "futatsu"
+  },
+  {
+   "slug": "vocab-n5-butaniku",
+   "type": "word",
+   "term": "豚肉",
+   "meaning": "pork",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ぶたにく",
+   "romaji": "butaniku"
+  },
+  {
+   "slug": "vocab-n5-futari",
+   "type": "word",
+   "term": "二人",
+   "meaning": "two people",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ふたり",
+   "romaji": "futari"
+  },
+  {
+   "slug": "vocab-n5-futsuka",
+   "type": "word",
+   "term": "二日",
+   "meaning": "two days; second day of the month",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ふつか",
+   "romaji": "futsuka"
+  },
+  {
+   "slug": "vocab-n5-futoi",
+   "type": "word",
+   "term": "太い",
+   "meaning": "fat, thick",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ふとい",
+   "romaji": "futoi"
+  },
+  {
+   "slug": "vocab-n5-fuyu",
+   "type": "word",
+   "term": "冬",
+   "meaning": "winter",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ふゆ",
+   "romaji": "fuyu"
+  },
+  {
+   "slug": "vocab-n5-furu",
+   "type": "word",
+   "term": "降る",
+   "meaning": "to precipitate, to fall (e.g., rain, snow, etc.)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ふる",
+   "romaji": "furu"
+  },
+  {
+   "slug": "vocab-n5-fun",
+   "type": "word",
+   "term": "～分",
+   "meaning": "~ minutes",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "～ふん",
+   "romaji": "～fun"
+  },
+  {
+   "slug": "vocab-n5-bunshou",
+   "type": "word",
+   "term": "文章",
+   "meaning": "sentence, text",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ぶんしょう",
+   "romaji": "bunshou"
+  },
+  {
+   "slug": "vocab-n5-peeji",
+   "type": "word",
+   "term": "ページ",
+   "meaning": "a page",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ページ",
+   "romaji": "peeji"
+  },
+  {
+   "slug": "vocab-n5-heta",
+   "type": "word",
+   "term": "下手",
+   "meaning": "unskillful, poor",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "へた",
+   "romaji": "heta"
+  },
+  {
+   "slug": "vocab-n5-petto",
+   "type": "word",
+   "term": "ペット",
+   "meaning": "pet",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ペット",
+   "romaji": "petto"
+  },
+  {
+   "slug": "vocab-n5-heya",
+   "type": "word",
+   "term": "部屋",
+   "meaning": "a room",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "へや",
+   "romaji": "heya"
+  },
+  {
+   "slug": "vocab-n5-hen",
+   "type": "word",
+   "term": "辺",
+   "meaning": "area, vicinity",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "へん",
+   "romaji": "hen"
+  },
+  {
+   "slug": "vocab-n5-benri",
+   "type": "word",
+   "term": "便利",
+   "meaning": "convenient, handy",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "べんり",
+   "romaji": "benri"
+  },
+  {
+   "slug": "vocab-n5-boorupen",
+   "type": "word",
+   "term": "ボールペン",
+   "meaning": "ball-point pen",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ボールペン",
+   "romaji": "boorupen"
+  },
+  {
+   "slug": "vocab-n5-hoka",
+   "type": "word",
+   "term": "外",
+   "meaning": "other, the rest",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ほか",
+   "romaji": "hoka"
+  },
+  {
+   "slug": "vocab-n5-poketto",
+   "type": "word",
+   "term": "ポケット",
+   "meaning": "pocket",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ポケット",
+   "romaji": "poketto"
+  },
+  {
+   "slug": "vocab-n5-hoshii",
+   "type": "word",
+   "term": "欲しい",
+   "meaning": "to want, in need of",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ほしい",
+   "romaji": "hoshii"
+  },
+  {
+   "slug": "vocab-n5-posuto",
+   "type": "word",
+   "term": "ポスト",
+   "meaning": "mailbox; post, position",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ポスト",
+   "romaji": "posuto"
+  },
+  {
+   "slug": "vocab-n5-hosoi",
+   "type": "word",
+   "term": "細い",
+   "meaning": "thin, slender, fine",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ほそい",
+   "romaji": "hosoi"
+  },
+  {
+   "slug": "vocab-n5-botan",
+   "type": "word",
+   "term": "ボタン",
+   "meaning": "button",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ボタン",
+   "romaji": "botan"
+  },
+  {
+   "slug": "vocab-n5-hon",
+   "type": "word",
+   "term": "～本",
+   "meaning": "counter for long cylindrical things",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "～ほん",
+   "romaji": "～hon"
+  },
+  {
+   "slug": "vocab-n5-hondana",
+   "type": "word",
+   "term": "本棚",
+   "meaning": "bookshelf",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ほんだな",
+   "romaji": "hondana"
+  },
+  {
+   "slug": "vocab-n5-hontou",
+   "type": "word",
+   "term": "本当",
+   "meaning": "real, true",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ほんとう",
+   "romaji": "hontou"
+  },
+  {
+   "slug": "vocab-n5-mai",
+   "type": "word",
+   "term": "～枚",
+   "meaning": "counter for flat things",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "～まい",
+   "romaji": "～mai"
+  },
+  {
+   "slug": "vocab-n5-maigetsu-maitsuki",
+   "type": "word",
+   "term": "毎月",
+   "meaning": "every month, monthly",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "まいげつ; まいつき",
+   "romaji": "maigetsu;maitsuki"
+  },
+  {
+   "slug": "vocab-n5-maishuu",
+   "type": "word",
+   "term": "毎週",
+   "meaning": "every week",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "まいしゅう",
+   "romaji": "maishuu"
+  },
+  {
+   "slug": "vocab-n5-mainen-maitoshi",
+   "type": "word",
+   "term": "毎年",
+   "meaning": "every year, yearly, annually",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "まいねん; まいとし",
+   "romaji": "mainen;maitoshi"
+  },
+  {
+   "slug": "vocab-n5-maiban",
+   "type": "word",
+   "term": "毎晩",
+   "meaning": "every night",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "まいばん",
+   "romaji": "maiban"
+  },
+  {
+   "slug": "vocab-n5-mae",
+   "type": "word",
+   "term": "前",
+   "meaning": "before, in front",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "まえ",
+   "romaji": "mae"
+  },
+  {
+   "slug": "vocab-n5-mae-2",
+   "type": "word",
+   "term": "～前",
+   "meaning": "in front of ~",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "～まえ",
+   "romaji": "～mae"
+  },
+  {
+   "slug": "vocab-n5-magaru",
+   "type": "word",
+   "term": "曲る",
+   "meaning": "to turn, to bend",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "まがる",
+   "romaji": "magaru"
+  },
+  {
+   "slug": "vocab-n5-mazui",
+   "type": "word",
+   "term": "まずい",
+   "meaning": "terrible (in reference to food), unappetizing, unpleasant (taste)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "まずい",
+   "romaji": "mazui"
+  },
+  {
+   "slug": "vocab-n5-mata",
+   "type": "word",
+   "term": "また",
+   "meaning": "and; furthermore",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "また",
+   "romaji": "mata"
+  },
+  {
+   "slug": "vocab-n5-machi",
+   "type": "word",
+   "term": "町",
+   "meaning": "town; city",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "まち",
+   "romaji": "machi"
+  },
+  {
+   "slug": "vocab-n5-massugu",
+   "type": "word",
+   "term": "まっすぐ",
+   "meaning": "straight (ahead), direct",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "まっすぐ",
+   "romaji": "massugu"
+  },
+  {
+   "slug": "vocab-n5-matchi",
+   "type": "word",
+   "term": "マッチ",
+   "meaning": "match",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "マッチ",
+   "romaji": "matchi"
+  },
+  {
+   "slug": "vocab-n5-marui",
+   "type": "word",
+   "term": "丸い; 円い",
+   "meaning": "round, circular",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "まるい",
+   "romaji": "marui"
+  },
+  {
+   "slug": "vocab-n5-man",
+   "type": "word",
+   "term": "万",
+   "meaning": "ten thousand",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "まん",
+   "romaji": "man"
+  },
+  {
+   "slug": "vocab-n5-mannenhitsu",
+   "type": "word",
+   "term": "万年筆",
+   "meaning": "fountain pen",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "まんねんひつ",
+   "romaji": "mannenhitsu"
+  },
+  {
+   "slug": "vocab-n5-migaku",
+   "type": "word",
+   "term": "磨く",
+   "meaning": "to brush (teeth); to polish",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "みがく",
+   "romaji": "migaku"
+  },
+  {
+   "slug": "vocab-n5-migi",
+   "type": "word",
+   "term": "右",
+   "meaning": "right hand side",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "みぎ",
+   "romaji": "migi"
+  },
+  {
+   "slug": "vocab-n5-miseru",
+   "type": "word",
+   "term": "見せる",
+   "meaning": "to show, to display",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "みせる",
+   "romaji": "miseru"
+  },
+  {
+   "slug": "vocab-n5-mikka",
+   "type": "word",
+   "term": "三日",
+   "meaning": "three days, third day of the month",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "みっか",
+   "romaji": "mikka"
+  },
+  {
+   "slug": "vocab-n5-mittsu",
+   "type": "word",
+   "term": "三つ",
+   "meaning": "three things",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "みっつ",
+   "romaji": "mittsu"
+  },
+  {
+   "slug": "vocab-n5-minasan",
+   "type": "word",
+   "term": "皆さん",
+   "meaning": "all of you, everyone",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "みなさん",
+   "romaji": "minasan"
+  },
+  {
+   "slug": "vocab-n5-minami",
+   "type": "word",
+   "term": "南",
+   "meaning": "South",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "みなみ",
+   "romaji": "minami"
+  },
+  {
+   "slug": "vocab-n5-minna",
+   "type": "word",
+   "term": "みんな",
+   "meaning": "all, everyone, everybody",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "みんな",
+   "romaji": "minna"
+  },
+  {
+   "slug": "vocab-n5-muika",
+   "type": "word",
+   "term": "六日",
+   "meaning": "six days; sixth day of month",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "むいか",
+   "romaji": "muika"
+  },
+  {
+   "slug": "vocab-n5-mukou",
+   "type": "word",
+   "term": "向こう",
+   "meaning": "beyond, over there",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "むこう",
+   "romaji": "mukou"
+  },
+  {
+   "slug": "vocab-n5-muttsu",
+   "type": "word",
+   "term": "六つ",
+   "meaning": "six things",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "むっつ",
+   "romaji": "muttsu"
+  },
+  {
+   "slug": "vocab-n5-mura",
+   "type": "word",
+   "term": "村",
+   "meaning": "village",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "むら",
+   "romaji": "mura"
+  },
+  {
+   "slug": "vocab-n5-meetoru",
+   "type": "word",
+   "term": "メートル",
+   "meaning": "meter",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "メートル",
+   "romaji": "meetoru"
+  },
+  {
+   "slug": "vocab-n5-moshimoshi",
+   "type": "word",
+   "term": "もしもし",
+   "meaning": "Hello? (used on the phone)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "もしもし",
+   "romaji": "moshimoshi"
+  },
+  {
+   "slug": "vocab-n5-motsu",
+   "type": "word",
+   "term": "持つ",
+   "meaning": "to hold, to carry; to possess",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "もつ",
+   "romaji": "motsu"
+  },
+  {
+   "slug": "vocab-n5-motto",
+   "type": "word",
+   "term": "もっと",
+   "meaning": "more",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "もっと",
+   "romaji": "motto"
+  },
+  {
+   "slug": "vocab-n5-mono",
+   "type": "word",
+   "term": "物",
+   "meaning": "thing (concrete object)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "もの",
+   "romaji": "mono"
+  },
+  {
+   "slug": "vocab-n5-mon",
+   "type": "word",
+   "term": "門",
+   "meaning": "gate",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "もん",
+   "romaji": "mon"
+  },
+  {
+   "slug": "vocab-n5-mondai",
+   "type": "word",
+   "term": "問題",
+   "meaning": "a problem",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "もんだい",
+   "romaji": "mondai"
+  },
+  {
+   "slug": "vocab-n5-ya",
+   "type": "word",
+   "term": "～屋",
+   "meaning": "~ shop",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "～や",
+   "romaji": "～ya"
+  },
+  {
+   "slug": "vocab-n5-yaoya",
+   "type": "word",
+   "term": "八百屋",
+   "meaning": "greengrocer",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "やおや",
+   "romaji": "yaoya"
+  },
+  {
+   "slug": "vocab-n5-yasashii",
+   "type": "word",
+   "term": "易しい",
+   "meaning": "easy, plain, simple",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "やさしい",
+   "romaji": "yasashii"
+  },
+  {
+   "slug": "vocab-n5-yasumi",
+   "type": "word",
+   "term": "休み",
+   "meaning": "holiday; day off; absence",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "やすみ",
+   "romaji": "yasumi"
+  },
+  {
+   "slug": "vocab-n5-yattsu",
+   "type": "word",
+   "term": "八つ",
+   "meaning": "eight things",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "やっつ",
+   "romaji": "yattsu"
+  },
+  {
+   "slug": "vocab-n5-yaru",
+   "type": "word",
+   "term": "やる",
+   "meaning": "to do; to give (to pets, parents, siblings, etc.)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "やる",
+   "romaji": "yaru"
+  },
+  {
+   "slug": "vocab-n5-yuugata",
+   "type": "word",
+   "term": "夕方",
+   "meaning": "late afternoon (typically just before dinner time), evening",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ゆうがた",
+   "romaji": "yuugata"
+  },
+  {
+   "slug": "vocab-n5-yuuhan",
+   "type": "word",
+   "term": "夕飯",
+   "meaning": "dinner, supper, evening meal",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ゆうはん",
+   "romaji": "yuuhan"
+  },
+  {
+   "slug": "vocab-n5-yuube",
+   "type": "word",
+   "term": "昨夜",
+   "meaning": "last night",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ゆうべ",
+   "romaji": "yuube"
+  },
+  {
+   "slug": "vocab-n5-yuumei",
+   "type": "word",
+   "term": "有名",
+   "meaning": "famous",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ゆうめい",
+   "romaji": "yuumei"
+  },
+  {
+   "slug": "vocab-n5-yukkurito",
+   "type": "word",
+   "term": "ゆっくりと",
+   "meaning": "slowly, at ease",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ゆっくりと",
+   "romaji": "yukkurito"
+  },
+  {
+   "slug": "vocab-n5-youka",
+   "type": "word",
+   "term": "八日",
+   "meaning": "eight days; eighth day of the month",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ようか",
+   "romaji": "youka"
+  },
+  {
+   "slug": "vocab-n5-youfuku",
+   "type": "word",
+   "term": "洋服",
+   "meaning": "Western-style clothes",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ようふく",
+   "romaji": "youfuku"
+  },
+  {
+   "slug": "vocab-n5-yoku",
+   "type": "word",
+   "term": "よく",
+   "meaning": "frequently, often (much); well, skillfully",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "よく",
+   "romaji": "yoku"
+  },
+  {
+   "slug": "vocab-n5-yoko",
+   "type": "word",
+   "term": "横",
+   "meaning": "beside; side; width",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "よこ",
+   "romaji": "yoko"
+  },
+  {
+   "slug": "vocab-n5-yokka",
+   "type": "word",
+   "term": "四日",
+   "meaning": "four days; fourth day of the month",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "よっか",
+   "romaji": "yokka"
+  },
+  {
+   "slug": "vocab-n5-yottsu",
+   "type": "word",
+   "term": "四つ",
+   "meaning": "four things",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "よっつ",
+   "romaji": "yottsu"
+  },
+  {
+   "slug": "vocab-n5-yobu",
+   "type": "word",
+   "term": "呼ぶ",
+   "meaning": "to call (one's name); to invite",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "よぶ",
+   "romaji": "yobu"
+  },
+  {
+   "slug": "vocab-n5-yowai",
+   "type": "word",
+   "term": "弱い",
+   "meaning": "weak",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "よわい",
+   "romaji": "yowai"
+  },
+  {
+   "slug": "vocab-n5-raigetsu",
+   "type": "word",
+   "term": "来月",
+   "meaning": "next month",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "らいげつ",
+   "romaji": "raigetsu"
+  },
+  {
+   "slug": "vocab-n5-rajio",
+   "type": "word",
+   "term": "ラジオ",
+   "meaning": "radio",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ラジオ",
+   "romaji": "rajio"
+  },
+  {
+   "slug": "vocab-n5-rajiokase",
+   "type": "word",
+   "term": "ラジオカセ",
+   "meaning": "radio cassette player",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ラジオカセ",
+   "romaji": "rajiokase"
+  },
+  {
+   "slug": "vocab-n5-rippa",
+   "type": "word",
+   "term": "りっぱ",
+   "meaning": "splendid, fine",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "りっぱ",
+   "romaji": "rippa"
+  },
+  {
+   "slug": "vocab-n5-ryuugakusei",
+   "type": "word",
+   "term": "留学生",
+   "meaning": "international student",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "りゅうがくせい",
+   "romaji": "ryuugakusei"
+  },
+  {
+   "slug": "vocab-n5-ryoushin",
+   "type": "word",
+   "term": "両親",
+   "meaning": "parents (lit., both parents)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "りょうしん",
+   "romaji": "ryoushin"
+  },
+  {
+   "slug": "vocab-n5-rei",
+   "type": "word",
+   "term": "零",
+   "meaning": "zero, nought",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "れい",
+   "romaji": "rei"
+  },
+  {
+   "slug": "vocab-n5-rekoodo",
+   "type": "word",
+   "term": "レコード",
+   "meaning": "record",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "レコード",
+   "romaji": "rekoodo"
+  },
+  {
+   "slug": "vocab-n5-renshuu-suru",
+   "type": "word",
+   "term": "練習",
+   "meaning": "(to) practice",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "れんしゅう (する)",
+   "romaji": "renshuu(suru)"
+  },
+  {
+   "slug": "vocab-n5-rouka",
+   "type": "word",
+   "term": "廊下",
+   "meaning": "corridor",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ろうか",
+   "romaji": "rouka"
+  },
+  {
+   "slug": "vocab-n5-roku",
+   "type": "word",
+   "term": "六",
+   "meaning": "six",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ろく",
+   "romaji": "roku"
+  },
+  {
+   "slug": "vocab-n5-waishatsu",
+   "type": "word",
+   "term": "ワイシャツ",
+   "meaning": "shirt (lit: white shirt), business shirt",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ワイシャツ",
+   "romaji": "waishatsu"
+  },
+  {
+   "slug": "vocab-n5-wakai",
+   "type": "word",
+   "term": "若い",
+   "meaning": "young",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "わかい",
+   "romaji": "wakai"
+  },
+  {
+   "slug": "vocab-n5-watashi",
+   "type": "word",
+   "term": "私",
+   "meaning": "I, myself",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "わたし",
+   "romaji": "watashi"
+  },
+  {
+   "slug": "vocab-n5-watakushi",
+   "type": "word",
+   "term": "私",
+   "meaning": "I (formal), myself, private affairs",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "わたくし",
+   "romaji": "watakushi"
+  },
+  {
+   "slug": "vocab-n5-watasu",
+   "type": "word",
+   "term": "渡す",
+   "meaning": "to hand (something) over (v.t.); to get across",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "わたす",
+   "romaji": "watasu"
+  }
+ ]
+}

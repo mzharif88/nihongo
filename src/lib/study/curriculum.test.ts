@@ -54,6 +54,13 @@ describe("pickNewItems", () => {
     expect(pickNewItems([a], new Set(), new Set(), 0)).toEqual([]);
   });
 
+  it("teaches common kanji first within a level", () => {
+    const rare = item({ type: "kanji", jlpt_level: "N4", term: "一", data: { freq: 900 } });
+    const common = item({ type: "kanji", jlpt_level: "N4", term: "二", data: { freq: 5 } });
+    const unknown = item({ type: "kanji", jlpt_level: "N4", term: "三" });
+    expect(pickNewItems([unknown, rare, common], new Set(), new Set(), 3)).toEqual([common, rare, unknown]);
+  });
+
   it("orders words by topic, greetings first", () => {
     const food = item({ type: "word", jlpt_level: "N5", term: "a", topic: "Food & Drink" });
     const greet = item({ type: "word", jlpt_level: "N5", term: "b", topic: "Greetings & Basics" });

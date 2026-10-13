@@ -1,5 +1,5 @@
-import { BUNDLED_PACKS } from "@/lib/content/packs";
-import { BundledImportForm, JsonImportForm } from "./forms";
+import { PACK_GROUPS } from "@/lib/content/packs";
+import { BundledImportForm, GroupImportForm, JsonImportForm } from "./forms";
 
 export default function ImportPage() {
   return (
@@ -12,17 +12,20 @@ export default function ImportPage() {
         </p>
         <JsonImportForm />
       </section>
-      <section>
-        <h2 className="text-lg font-bold">Old NihonGo! content</h2>
-        <p className="mt-1 text-sm text-muted">Ported from the legacy app. Import top to bottom.</p>
-        <ul className="mt-3 space-y-2">
-          {BUNDLED_PACKS.map((p) => (
-            <li key={p.file} className="rounded-xl border border-border bg-card p-3">
-              <BundledImportForm file={p.file} label={p.label} />
-            </li>
-          ))}
-        </ul>
-      </section>
+      {PACK_GROUPS.map((group) => (
+        <section key={group.id}>
+          <h2 className="text-lg font-bold">{group.title}</h2>
+          <p className="mt-1 text-sm text-muted">{group.description}</p>
+          <GroupImportForm group={group.id} count={group.packs.length} />
+          <ul className="mt-3 space-y-2">
+            {group.packs.map((p) => (
+              <li key={p.file} className="rounded-xl border border-border bg-card p-3">
+                <BundledImportForm group={group.id} file={p.file} label={p.label} />
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
     </main>
   );
 }

@@ -1,6 +1,7 @@
 import "server-only";
 import type { SupabaseClient } from "@supabase/supabase-js";
 import type { Profile } from "@/lib/auth";
+import { fetchAll } from "@/lib/supabase/fetch-all";
 import { dueQueue } from "@/lib/srs/fsrs";
 import { buildCard, type CardType, type StudyCard, type StudyItem } from "./cards";
 import { pickNewItems, SRS_TYPES } from "./curriculum";
@@ -8,9 +9,9 @@ import { studyPace, type Pace } from "./pace";
 import { localDate } from "./streak";
 
 export const ITEM_COLUMNS =
-  "id, slug, type, jlpt_level, term, reading, romaji, meaning, mnemonic, examples, tags, topic, prerequisites, audio_url, status";
+  "id, slug, type, jlpt_level, term, reading, romaji, meaning, mnemonic, examples, tags, topic, prerequisites, audio_url, status, data";
 
-type ItemRow = StudyItem & { status: string };
+type ItemRow = StudyItem & { status: string; data: { freq?: number | null } | null };
 
 interface UserItemRow {
   item_id: string;
@@ -42,21 +43,29 @@ export async function loadStudySession(
   profile: Profile,
   { now = new Date(), extraNew = 0 }: { now?: Date; extraNew?: number } = {},
 ): Promise<StudySession> {
-  const [{ data: itemRows, error: itemsError }, { data: cardRows, error: cardsError }] =
-    await Promise.all([
-      // Admins can read drafts too, so filter to live explicitly.
-      supabase.from("items").select(ITEM_COLUMNS).eq("status", "live").in("type", SRS_TYPES).returns<ItemRow[]>(),
+  const [items, cards] = await Promise.all([
+    fetchAll<ItemRow>((from, to) =>
+      supabase
+        .from("items")
+        .select(ITEM_COLUMNS)
+        // Admins can read drafts too, so filter to live explicitly.
+        .eq("status", "live")
+        .in("type", SRS_TYPES)
+        .order("id")
+        .range(from, to)
+        .returns<ItemRow[]>(),
+    ),
+    fetchAll<UserItemRow>((from, to) =>
       supabase
         .from("user_items")
         .select("item_id, card_type, due, fsrs_state, created_at")
         .eq("user_id", profile.id)
+        .order("item_id")
+        .order("card_type")
+        .range(from, to)
         .returns<UserItemRow[]>(),
-    ]);
-  if (itemsError) throw new Error(itemsError.message);
-  if (cardsError) throw new Error(cardsError.message);
-
-  const items = itemRows ?? [];
-  const cards = cardRows ?? [];
+    ),
+  ]);
   const byId = new Map(items.map((i) => [i.id, i]));
   const today = localDate(now, profile.timezone);
 

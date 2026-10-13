@@ -1,12 +1,11 @@
 "use server";
 
 import { readFile } from "node:fs/promises";
-import { join } from "node:path";
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import { requireAdmin } from "@/lib/auth";
 import { changeStatus, changeStatusWhere, importRecords, parseFilters, SYSTEM_COLUMNS } from "@/lib/content/admin";
-import { BUNDLED_PACKS, BUNDLED_DIR } from "@/lib/content/packs";
+import { PACK_GROUPS, packPath } from "@/lib/content/packs";
 import {
   CONTENT_KINDS,
   CONTENT_STATUSES,
@@ -58,10 +57,22 @@ export async function importJson(_prev: ImportState, formData: FormData): Promis
 }
 
 export async function importBundled(_prev: ImportState, formData: FormData): Promise<ImportState> {
-  const name = String(formData.get("pack") ?? "");
-  const pack = BUNDLED_PACKS.find((p) => p.file === name);
-  if (!pack) return { error: "Unknown pack." };
-  return runImport(await readFile(join(BUNDLED_DIR, pack.file), "utf8"));
+  const path = packPath(String(formData.get("group") ?? ""), String(formData.get("pack") ?? ""));
+  if (!path) return { error: "Unknown pack." };
+  return runImport(await readFile(path, "utf8"));
+}
+
+/** Import every pack in a group, in order, stopping at the first pack that fails outright. */
+export async function importGroup(_prev: ImportState, formData: FormData): Promise<ImportState> {
+  const group = PACK_GROUPS.find((g) => g.id === formData.get("group"));
+  if (!group) return { error: "Unknown pack group." };
+  const messages: string[] = [];
+  for (const pack of group.packs) {
+    const result = await runImport(await readFile(packPath(group.id, pack.file)!, "utf8"));
+    messages.push(`${pack.label}: ${result.message ?? result.error}`);
+    if (!result.message) return { error: messages.join("\n") };
+  }
+  return { message: messages.join("\n") };
 }
 
 export async function updateStatus(formData: FormData) {

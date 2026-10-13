@@ -1,0 +1,267 @@
+{
+ "version": 1,
+ "kind": "items",
+ "source": "opendata-kanjidic-tanos",
+ "records": [
+  {
+   "slug": "kanji-u5929",
+   "type": "kanji",
+   "term": "天",
+   "meaning": "Heavens, Sky, Imperial",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "あまつ",
+   "romaji": "amatsu/ame/ama/ten",
+   "data": {
+    "on": [
+     "てん"
+    ],
+    "kun": [
+     "あまつ",
+     "あめ",
+     "あま"
+    ],
+    "strokes": 4,
+    "grade": 1,
+    "freq": 512
+   }
+  },
+  {
+   "slug": "kanji-u4e07",
+   "type": "kanji",
+   "term": "万",
+   "meaning": "Ten Thousand, 10,000",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "よろず",
+   "romaji": "yorozu/man/ban",
+   "data": {
+    "on": [
+     "まん",
+     "ばん"
+    ],
+    "kun": [
+     "よろず"
+    ],
+    "strokes": 3,
+    "grade": 2,
+    "freq": 375
+   }
+  },
+  {
+   "slug": "kanji-u5348",
+   "type": "kanji",
+   "term": "午",
+   "meaning": "Noon, Sign Of The Horse, 11am-1pm, Seventh Sign Of Chinese Zodiac",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "うま",
+   "romaji": "uma/go",
+   "data": {
+    "on": [
+     "ご"
+    ],
+    "kun": [
+     "うま"
+    ],
+    "strokes": 4,
+    "grade": 2,
+    "freq": 154
+   }
+  },
+  {
+   "slug": "kanji-u53cb",
+   "type": "kanji",
+   "term": "友",
+   "meaning": "Friend",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "とも",
+   "romaji": "tomo/yuu",
+   "data": {
+    "on": [
+     "ゆう"
+    ],
+    "kun": [
+     "とも"
+    ],
+    "strokes": 4,
+    "grade": 2,
+    "freq": 622
+   }
+  },
+  {
+   "slug": "kanji-u5317",
+   "type": "kanji",
+   "term": "北",
+   "meaning": "North",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "きた",
+   "romaji": "kita/hoku",
+   "data": {
+    "on": [
+     "ほく"
+    ],
+    "kun": [
+     "きた"
+    ],
+    "strokes": 5,
+    "grade": 2,
+    "freq": 153
+   }
+  },
+  {
+   "slug": "kanji-u4f11",
+   "type": "kanji",
+   "term": "休",
+   "meaning": "Rest, Day Off, Retire, Sleep",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "やすむ",
+   "romaji": "yasumu/yasumaru/yasumeru/kyuu",
+   "data": {
+    "on": [
+     "きゅう"
+    ],
+    "kun": [
+     "やすむ",
+     "やすまる",
+     "やすめる"
+    ],
+    "strokes": 6,
+    "grade": 1,
+    "freq": 642
+   }
+  },
+  {
+   "slug": "kanji-u540d",
+   "type": "kanji",
+   "term": "名",
+   "meaning": "Name, Noted, Distinguished, Reputation",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "な",
+   "romaji": "na/mei/myou",
+   "data": {
+    "on": [
+     "めい",
+     "みょう"
+    ],
+    "kun": [
+     "な",
+     "な"
+    ],
+    "strokes": 6,
+    "grade": 1,
+    "freq": 177
+   }
+  },
+  {
+   "slug": "kanji-u897f",
+   "type": "kanji",
+   "term": "西",
+   "meaning": "West, Spain",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "にし",
+   "romaji": "nishi/sei/sai/su",
+   "data": {
+    "on": [
+     "せい",
+     "さい",
+     "す"
+    ],
+    "kun": [
+     "にし"
+    ],
+    "strokes": 6,
+    "grade": 2,
+    "freq": 259
+   }
+  },
+  {
+   "slug": "kanji-u6771",
+   "type": "kanji",
+   "term": "東",
+   "meaning": "East",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "ひがし",
+   "romaji": "higashi/tou",
+   "data": {
+    "on": [
+     "とう"
+    ],
+    "kun": [
+     "ひがし"
+    ],
+    "strokes": 8,
+    "grade": 2,
+    "freq": 37
+   }
+  },
+  {
+   "slug": "kanji-u5357",
+   "type": "kanji",
+   "term": "南",
+   "meaning": "South",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N5",
+   "reading": "みなみ",
+   "romaji": "minami/nan/na",
+   "data": {
+    "on": [
+     "なん",
+     "な"
+    ],
+    "kun": [
+     "みなみ"
+    ],
+    "strokes": 9,
+    "grade": 2,
+    "freq": 341
+   }
+  }
+ ]
+}

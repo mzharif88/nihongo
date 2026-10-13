@@ -1,12 +1,12 @@
 "use client";
 
 import { useActionState } from "react";
-import { importBundled, importJson, type ImportState } from "../actions";
+import { importBundled, importGroup, importJson, type ImportState } from "../actions";
 
 function Result({ state }: { state: ImportState }) {
   return (
     <div className="mt-3 space-y-2 text-sm">
-      {state.message && <p className="text-green-700 dark:text-green-400">{state.message}</p>}
+      {state.message && <p className="whitespace-pre-wrap text-green-700 dark:text-green-400">{state.message}</p>}
       {state.error && <p className="whitespace-pre-wrap text-red-600 dark:text-red-400">{state.error}</p>}
       {state.issues && state.issues.length > 0 && (
         <details className="rounded-lg border border-border p-2">
@@ -46,10 +46,11 @@ export function JsonImportForm() {
   );
 }
 
-export function BundledImportForm({ file, label }: { file: string; label: string }) {
+export function BundledImportForm({ group, file, label }: { group: string; file: string; label: string }) {
   const [state, action, pending] = useActionState<ImportState, FormData>(importBundled, {});
   return (
     <form action={action}>
+      <input type="hidden" name="group" value={group} />
       <input type="hidden" name="pack" value={file} />
       <div className="flex items-center justify-between gap-3">
         <div>
@@ -63,6 +64,19 @@ export function BundledImportForm({ file, label }: { file: string; label: string
           {pending ? "Importing…" : "Import"}
         </button>
       </div>
+      <Result state={state} />
+    </form>
+  );
+}
+
+export function GroupImportForm({ group, count }: { group: string; count: number }) {
+  const [state, action, pending] = useActionState<ImportState, FormData>(importGroup, {});
+  return (
+    <form action={action} className="mt-3">
+      <input type="hidden" name="group" value={group} />
+      <button disabled={pending} className="rounded-lg bg-accent px-4 py-2 font-medium text-white disabled:opacity-60">
+        {pending ? "Importing… (this can take a minute)" : `Import all ${count} in order`}
+      </button>
       <Result state={state} />
     </form>
   );

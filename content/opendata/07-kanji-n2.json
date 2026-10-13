@@ -1,0 +1,9453 @@
+{
+ "version": 1,
+ "kind": "items",
+ "source": "opendata-kanjidic-tanos",
+ "records": [
+  {
+   "slug": "kanji-u4e86",
+   "type": "kanji",
+   "term": "了",
+   "meaning": "Complete, Finish",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "りょう",
+   "romaji": "ryou",
+   "data": {
+    "on": [
+     "りょう"
+    ],
+    "kun": [],
+    "strokes": 2,
+    "grade": 8,
+    "freq": 792
+   }
+  },
+  {
+   "slug": "kanji-u4e38",
+   "type": "kanji",
+   "term": "丸",
+   "meaning": "Round, Full (month), Perfection, -ship, Pills, Make Round, Roll Up, Curl Up, Seduce, Explain Away",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "まる",
+   "romaji": "maru/marumeru/marui/gan",
+   "data": {
+    "on": [
+     "がん"
+    ],
+    "kun": [
+     "まる",
+     "まるめる",
+     "まるい"
+    ],
+    "strokes": 3,
+    "grade": 2,
+    "freq": 542
+   }
+  },
+  {
+   "slug": "kanji-u7389",
+   "type": "kanji",
+   "term": "玉",
+   "meaning": "Jewel, Ball",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "たま",
+   "romaji": "tama/dama/gyoku",
+   "data": {
+    "on": [
+     "ぎょく"
+    ],
+    "kun": [
+     "たま",
+     "たま",
+     "だま"
+    ],
+    "strokes": 5,
+    "grade": 1,
+    "freq": 737
+   }
+  },
+  {
+   "slug": "kanji-u4e45",
+   "type": "kanji",
+   "term": "久",
+   "meaning": "Long Time, Old Story",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ひさしい",
+   "romaji": "hisashii/kyuu/ku",
+   "data": {
+    "on": [
+     "きゅう",
+     "く"
+    ],
+    "kun": [
+     "ひさしい"
+    ],
+    "strokes": 3,
+    "grade": 5,
+    "freq": 688
+   }
+  },
+  {
+   "slug": "kanji-u6238",
+   "type": "kanji",
+   "term": "戸",
+   "meaning": "Door, Counter For Houses",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "と",
+   "romaji": "to/ko",
+   "data": {
+    "on": [
+     "こ"
+    ],
+    "kun": [
+     "と"
+    ],
+    "strokes": 4,
+    "grade": 2,
+    "freq": 575
+   }
+  },
+  {
+   "slug": "kanji-u6bdb",
+   "type": "kanji",
+   "term": "毛",
+   "meaning": "Fur, Hair, Feather, Down",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "け",
+   "romaji": "ke/mou",
+   "data": {
+    "on": [
+     "もう"
+    ],
+    "kun": [
+     "け"
+    ],
+    "strokes": 4,
+    "grade": 2,
+    "freq": 1179
+   }
+  },
+  {
+   "slug": "kanji-u592e",
+   "type": "kanji",
+   "term": "央",
+   "meaning": "Center, Middle",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "おう",
+   "romaji": "ou",
+   "data": {
+    "on": [
+     "おう"
+    ],
+    "kun": [],
+    "strokes": 5,
+    "grade": 3,
+    "freq": 582
+   }
+  },
+  {
+   "slug": "kanji-u6c37",
+   "type": "kanji",
+   "term": "氷",
+   "meaning": "Icicle, Ice, Hail, Freeze, Congeal",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "こおり",
+   "romaji": "koori/hi/kooru/hyou",
+   "data": {
+    "on": [
+     "ひょう"
+    ],
+    "kun": [
+     "こおり",
+     "ひ",
+     "こおる"
+    ],
+    "strokes": 5,
+    "grade": 3,
+    "freq": 1450
+   }
+  },
+  {
+   "slug": "kanji-u76ae",
+   "type": "kanji",
+   "term": "皮",
+   "meaning": "Pelt, Skin, Hide, Leather",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "かわ",
+   "romaji": "kawa/hi",
+   "data": {
+    "on": [
+     "ひ"
+    ],
+    "kun": [
+     "かわ"
+    ],
+    "strokes": 5,
+    "grade": 3,
+    "freq": 1092
+   }
+  },
+  {
+   "slug": "kanji-u76bf",
+   "type": "kanji",
+   "term": "皿",
+   "meaning": "Dish, A Helping, Plate",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "さら",
+   "romaji": "sara/bei",
+   "data": {
+    "on": [
+     "べい"
+    ],
+    "kun": [
+     "さら"
+    ],
+    "strokes": 5,
+    "grade": 3,
+    "freq": 1812
+   }
+  },
+  {
+   "slug": "kanji-u7af9",
+   "type": "kanji",
+   "term": "竹",
+   "meaning": "Bamboo",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "たけ",
+   "romaji": "take/chiku",
+   "data": {
+    "on": [
+     "ちく"
+    ],
+    "kun": [
+     "たけ"
+    ],
+    "strokes": 6,
+    "grade": 1,
+    "freq": 593
+   }
+  },
+  {
+   "slug": "kanji-u7cf8",
+   "type": "kanji",
+   "term": "糸",
+   "meaning": "Thread",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "いと",
+   "romaji": "ito/shi",
+   "data": {
+    "on": [
+     "し"
+    ],
+    "kun": [
+     "いと"
+    ],
+    "strokes": 6,
+    "grade": 1,
+    "freq": 1488
+   }
+  },
+  {
+   "slug": "kanji-u866b",
+   "type": "kanji",
+   "term": "虫",
+   "meaning": "Insect, Bug, Temper",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "むし",
+   "romaji": "mushi/chuu/ki",
+   "data": {
+    "on": [
+     "ちゅう",
+     "き"
+    ],
+    "kun": [
+     "むし"
+    ],
+    "strokes": 6,
+    "grade": 1,
+    "freq": 1351
+   }
+  },
+  {
+   "slug": "kanji-u6751",
+   "type": "kanji",
+   "term": "村",
+   "meaning": "Village, Town",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "むら",
+   "romaji": "mura/son",
+   "data": {
+    "on": [
+     "そん"
+    ],
+    "kun": [
+     "むら"
+    ],
+    "strokes": 7,
+    "grade": 1,
+    "freq": 253
+   }
+  },
+  {
+   "slug": "kanji-u8c9d",
+   "type": "kanji",
+   "term": "貝",
+   "meaning": "Shellfish",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "かい",
+   "romaji": "kai/bai",
+   "data": {
+    "on": [
+     "ばい"
+    ],
+    "kun": [
+     "かい"
+    ],
+    "strokes": 7,
+    "grade": 1,
+    "freq": 1787
+   }
+  },
+  {
+   "slug": "kanji-u6c60",
+   "type": "kanji",
+   "term": "池",
+   "meaning": "Pond, Cistern, Pool, Reservoir",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "いけ",
+   "romaji": "ike/chi",
+   "data": {
+    "on": [
+     "ち"
+    ],
+    "kun": [
+     "いけ"
+    ],
+    "strokes": 6,
+    "grade": 2,
+    "freq": 827
+   }
+  },
+  {
+   "slug": "kanji-u7fbd",
+   "type": "kanji",
+   "term": "羽",
+   "meaning": "Feathers, Counter For Birds, Rabbits",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "は",
+   "romaji": "ha/wa/hane/u",
+   "data": {
+    "on": [
+     "う"
+    ],
+    "kun": [
+     "は",
+     "わ",
+     "はね"
+    ],
+    "strokes": 6,
+    "grade": 2,
+    "freq": 748
+   }
+  },
+  {
+   "slug": "kanji-u89d2",
+   "type": "kanji",
+   "term": "角",
+   "meaning": "Angle, Corner, Square, Horn, Antlers",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "かど",
+   "romaji": "kado/tsuno/kaku",
+   "data": {
+    "on": [
+     "かく"
+    ],
+    "kun": [
+     "かど",
+     "つの"
+    ],
+    "strokes": 7,
+    "grade": 2,
+    "freq": 805
+   }
+  },
+  {
+   "slug": "kanji-u8c37",
+   "type": "kanji",
+   "term": "谷",
+   "meaning": "Valley",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "たに",
+   "romaji": "tani/kiwamaru/koku",
+   "data": {
+    "on": [
+     "こく"
+    ],
+    "kun": [
+     "たに",
+     "きわまる"
+    ],
+    "strokes": 7,
+    "grade": 2,
+    "freq": 508
+   }
+  },
+  {
+   "slug": "kanji-u9ea6",
+   "type": "kanji",
+   "term": "麦",
+   "meaning": "Barley, Wheat",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "むぎ",
+   "romaji": "mugi/baku",
+   "data": {
+    "on": [
+     "ばく"
+    ],
+    "kun": [
+     "むぎ"
+    ],
+    "strokes": 7,
+    "grade": 2,
+    "freq": 1615
+   }
+  },
+  {
+   "slug": "kanji-u6797",
+   "type": "kanji",
+   "term": "林",
+   "meaning": "Grove, Forest",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "はやし",
+   "romaji": "hayashi/rin",
+   "data": {
+    "on": [
+     "りん"
+    ],
+    "kun": [
+     "はやし"
+    ],
+    "strokes": 8,
+    "grade": 1,
+    "freq": 656
+   }
+  },
+  {
+   "slug": "kanji-u5dde",
+   "type": "kanji",
+   "term": "州",
+   "meaning": "State, Province",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "す",
+   "romaji": "su/shuu",
+   "data": {
+    "on": [
+     "しゅう",
+     "す"
+    ],
+    "kun": [
+     "す"
+    ],
+    "strokes": 6,
+    "grade": 3,
+    "freq": 386
+   }
+  },
+  {
+   "slug": "kanji-u8840",
+   "type": "kanji",
+   "term": "血",
+   "meaning": "Blood",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ち",
+   "romaji": "chi/ketsu",
+   "data": {
+    "on": [
+     "けつ"
+    ],
+    "kun": [
+     "ち"
+    ],
+    "strokes": 6,
+    "grade": 3,
+    "freq": 832
+   }
+  },
+  {
+   "slug": "kanji-u661f",
+   "type": "kanji",
+   "term": "星",
+   "meaning": "Star, Spot, Dot, Mark",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ほし",
+   "romaji": "hoshi/boshi/sei/shou",
+   "data": {
+    "on": [
+     "せい",
+     "しょう"
+    ],
+    "kun": [
+     "ほし",
+     "ぼし"
+    ],
+    "strokes": 9,
+    "grade": 2,
+    "freq": 844
+   }
+  },
+  {
+   "slug": "kanji-u672d",
+   "type": "kanji",
+   "term": "札",
+   "meaning": "Tag, Paper Money, Counter For Bonds, Placard, Bid",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ふだ",
+   "romaji": "fuda/satsu",
+   "data": {
+    "on": [
+     "さつ"
+    ],
+    "kun": [
+     "ふだ"
+    ],
+    "strokes": 5,
+    "grade": 4,
+    "freq": 921
+   }
+  },
+  {
+   "slug": "kanji-u8fba",
+   "type": "kanji",
+   "term": "辺",
+   "meaning": "Environs, Boundary, Border, Vicinity",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "あたり",
+   "romaji": "atari/hotori/be/hen",
+   "data": {
+    "on": [
+     "へん"
+    ],
+    "kun": [
+     "あたり",
+     "ほとり",
+     "べ"
+    ],
+    "strokes": 5,
+    "grade": 4,
+    "freq": 428
+   }
+  },
+  {
+   "slug": "kanji-u5f31",
+   "type": "kanji",
+   "term": "弱",
+   "meaning": "Weak, Frail",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "よわい",
+   "romaji": "yowai/yowaru/yowamaru/yowameru/jaku",
+   "data": {
+    "on": [
+     "じゃく"
+    ],
+    "kun": [
+     "よわい",
+     "よわる",
+     "よわまる",
+     "よわめる"
+    ],
+    "strokes": 10,
+    "grade": 2,
+    "freq": 958
+   }
+  },
+  {
+   "slug": "kanji-u9ec4",
+   "type": "kanji",
+   "term": "黄",
+   "meaning": "Yellow",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "き",
+   "romaji": "ki/ko/kou/ou",
+   "data": {
+    "on": [
+     "こう",
+     "おう"
+    ],
+    "kun": [
+     "き",
+     "こ"
+    ],
+    "strokes": 11,
+    "grade": 2,
+    "freq": 1240
+   }
+  },
+  {
+   "slug": "kanji-u68ee",
+   "type": "kanji",
+   "term": "森",
+   "meaning": "Forest, Woods",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "もり",
+   "romaji": "mori/shin",
+   "data": {
+    "on": [
+     "しん"
+    ],
+    "kun": [
+     "もり"
+    ],
+    "strokes": 12,
+    "grade": 1,
+    "freq": 609
+   }
+  },
+  {
+   "slug": "kanji-u96f2",
+   "type": "kanji",
+   "term": "雲",
+   "meaning": "Cloud",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "くも",
+   "romaji": "kumo/gumo/un",
+   "data": {
+    "on": [
+     "うん"
+    ],
+    "kun": [
+     "くも",
+     "ぐも"
+    ],
+    "strokes": 12,
+    "grade": 2,
+    "freq": 1256
+   }
+  },
+  {
+   "slug": "kanji-u770c",
+   "type": "kanji",
+   "term": "県",
+   "meaning": "Prefecture",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "かける",
+   "romaji": "kakeru/ken",
+   "data": {
+    "on": [
+     "けん"
+    ],
+    "kun": [
+     "かける"
+    ],
+    "strokes": 9,
+    "grade": 3,
+    "freq": 140
+   }
+  },
+  {
+   "slug": "kanji-u8efd",
+   "type": "kanji",
+   "term": "軽",
+   "meaning": "Lightly, Trifling, Unimportant",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "かるい",
+   "romaji": "karui/karoyaka/karonjiru/kei/kyou/kin",
+   "data": {
+    "on": [
+     "けい",
+     "きょう",
+     "きん"
+    ],
+    "kun": [
+     "かるい",
+     "かろやか",
+     "かろんじる"
+    ],
+    "strokes": 12,
+    "grade": 3,
+    "freq": 790
+   }
+  },
+  {
+   "slug": "kanji-u8fb2",
+   "type": "kanji",
+   "term": "農",
+   "meaning": "Agriculture, Farmers",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "のう",
+   "romaji": "nou",
+   "data": {
+    "on": [
+     "のう"
+    ],
+    "kun": [],
+    "strokes": 13,
+    "grade": 3,
+    "freq": 385
+   }
+  },
+  {
+   "slug": "kanji-u9244",
+   "type": "kanji",
+   "term": "鉄",
+   "meaning": "Iron",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "くろがね",
+   "romaji": "kurogane/tetsu",
+   "data": {
+    "on": [
+     "てつ"
+    ],
+    "kun": [
+     "くろがね"
+    ],
+    "strokes": 13,
+    "grade": 3,
+    "freq": 672
+   }
+  },
+  {
+   "slug": "kanji-u7b97",
+   "type": "kanji",
+   "term": "算",
+   "meaning": "Calculate, Divining, Number, Abacus, Probability",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "そろ",
+   "romaji": "soro/san",
+   "data": {
+    "on": [
+     "さん"
+    ],
+    "kun": [
+     "そろ"
+    ],
+    "strokes": 14,
+    "grade": 2,
+    "freq": 361
+   }
+  },
+  {
+   "slug": "kanji-u7dda",
+   "type": "kanji",
+   "term": "線",
+   "meaning": "Line, Track",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "すじ",
+   "romaji": "suji/sen",
+   "data": {
+    "on": [
+     "せん"
+    ],
+    "kun": [
+     "すじ"
+    ],
+    "strokes": 15,
+    "grade": 2,
+    "freq": 382
+   }
+  },
+  {
+   "slug": "kanji-u4ef2",
+   "type": "kanji",
+   "term": "仲",
+   "meaning": "Go-between, Relationship",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "なか",
+   "romaji": "naka/chuu",
+   "data": {
+    "on": [
+     "ちゅう"
+    ],
+    "kun": [
+     "なか"
+    ],
+    "strokes": 6,
+    "grade": 4,
+    "freq": 919
+   }
+  },
+  {
+   "slug": "kanji-u4f4e",
+   "type": "kanji",
+   "term": "低",
+   "meaning": "Lower, Short, Humble",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ひくい",
+   "romaji": "hikui/hikumeru/hikumaru/tei",
+   "data": {
+    "on": [
+     "てい"
+    ],
+    "kun": [
+     "ひくい",
+     "ひくめる",
+     "ひくまる"
+    ],
+    "strokes": 7,
+    "grade": 4,
+    "freq": 435
+   }
+  },
+  {
+   "slug": "kanji-u5cb8",
+   "type": "kanji",
+   "term": "岸",
+   "meaning": "Beach",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "きし",
+   "romaji": "kishi/gan",
+   "data": {
+    "on": [
+     "がん"
+    ],
+    "kun": [
+     "きし"
+    ],
+    "strokes": 8,
+    "grade": 3,
+    "freq": 556
+   }
+  },
+  {
+   "slug": "kanji-u6ce2",
+   "type": "kanji",
+   "term": "波",
+   "meaning": "Waves, Billows, Poland",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "なみ",
+   "romaji": "nami/ha",
+   "data": {
+    "on": [
+     "は"
+    ],
+    "kun": [
+     "なみ"
+    ],
+    "strokes": 8,
+    "grade": 3,
+    "freq": 740
+   }
+  },
+  {
+   "slug": "kanji-u62fe",
+   "type": "kanji",
+   "term": "拾",
+   "meaning": "Pick Up, Gather, Find, Go On Foot, Ten",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ひろう",
+   "romaji": "hirou/shuu/juu",
+   "data": {
+    "on": [
+     "しゅう",
+     "じゅう"
+    ],
+    "kun": [
+     "ひろう"
+    ],
+    "strokes": 9,
+    "grade": 3,
+    "freq": 1479
+   }
+  },
+  {
+   "slug": "kanji-u79d2",
+   "type": "kanji",
+   "term": "秒",
+   "meaning": "Second (1/60 Minute)",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "びょう",
+   "romaji": "byou",
+   "data": {
+    "on": [
+     "びょう"
+    ],
+    "kun": [],
+    "strokes": 9,
+    "grade": 3,
+    "freq": 1015
+   }
+  },
+  {
+   "slug": "kanji-u7af6",
+   "type": "kanji",
+   "term": "競",
+   "meaning": "Emulate, Compete With, Bid, Sell At Auction, Bout, Contest, Race",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "きそう",
+   "romaji": "kisou/seru/kuraberu/kyou/kei",
+   "data": {
+    "on": [
+     "きょう",
+     "けい"
+    ],
+    "kun": [
+     "きそう",
+     "せる",
+     "くらべる"
+    ],
+    "strokes": 20,
+    "grade": 4,
+    "freq": 610
+   }
+  },
+  {
+   "slug": "kanji-u4ee4",
+   "type": "kanji",
+   "term": "令",
+   "meaning": "Orders, Ancient Laws, Command, Decree",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "れい",
+   "romaji": "rei",
+   "data": {
+    "on": [
+     "れい"
+    ],
+    "kun": [],
+    "strokes": 5,
+    "grade": 4,
+    "freq": 804
+   }
+  },
+  {
+   "slug": "kanji-u6839",
+   "type": "kanji",
+   "term": "根",
+   "meaning": "Root, Radical, Head (pimple)",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ね",
+   "romaji": "ne/kon",
+   "data": {
+    "on": [
+     "こん"
+    ],
+    "kun": [
+     "ね",
+     "ね"
+    ],
+    "strokes": 10,
+    "grade": 3,
+    "freq": 620
+   }
+  },
+  {
+   "slug": "kanji-u500d",
+   "type": "kanji",
+   "term": "倍",
+   "meaning": "Double, Twice, Times, Fold",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ばい",
+   "romaji": "bai",
+   "data": {
+    "on": [
+     "ばい"
+    ],
+    "kun": [],
+    "strokes": 10,
+    "grade": 3,
+    "freq": 714
+   }
+  },
+  {
+   "slug": "kanji-u5cf6",
+   "type": "kanji",
+   "term": "島",
+   "meaning": "Island",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "しま",
+   "romaji": "shima/tou",
+   "data": {
+    "on": [
+     "とう"
+    ],
+    "kun": [
+     "しま"
+    ],
+    "strokes": 10,
+    "grade": 3,
+    "freq": 245
+   }
+  },
+  {
+   "slug": "kanji-u796d",
+   "type": "kanji",
+   "term": "祭",
+   "meaning": "Ritual, Offer Prayers, Celebrate, Deify, Enshrine, Worship",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "まつる",
+   "romaji": "matsuru/matsuri/sai",
+   "data": {
+    "on": [
+     "さい"
+    ],
+    "kun": [
+     "まつる",
+     "まつり",
+     "まつり"
+    ],
+    "strokes": 11,
+    "grade": 3,
+    "freq": 1124
+   }
+  },
+  {
+   "slug": "kanji-u7ae0",
+   "type": "kanji",
+   "term": "章",
+   "meaning": "Badge, Chapter, Composition, Poem, Design",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "しょう",
+   "romaji": "shou",
+   "data": {
+    "on": [
+     "しょう"
+    ],
+    "kun": [],
+    "strokes": 11,
+    "grade": 3,
+    "freq": 990
+   }
+  },
+  {
+   "slug": "kanji-u7ae5",
+   "type": "kanji",
+   "term": "童",
+   "meaning": "Juvenile, Child",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "わらべ",
+   "romaji": "warabe/dou",
+   "data": {
+    "on": [
+     "どう"
+    ],
+    "kun": [
+     "わらべ"
+    ],
+    "strokes": 12,
+    "grade": 3,
+    "freq": 1138
+   }
+  },
+  {
+   "slug": "kanji-u968e",
+   "type": "kanji",
+   "term": "階",
+   "meaning": "Storey, Stair, Counter For Storeys Of A Building",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "きざはし",
+   "romaji": "kizahashi/kai",
+   "data": {
+    "on": [
+     "かい"
+    ],
+    "kun": [
+     "きざはし"
+    ],
+    "strokes": 12,
+    "grade": 3,
+    "freq": 513
+   }
+  },
+  {
+   "slug": "kanji-u690d",
+   "type": "kanji",
+   "term": "植",
+   "meaning": "Plant",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "うえる",
+   "romaji": "ueru/uwaru/shoku",
+   "data": {
+    "on": [
+     "しょく"
+    ],
+    "kun": [
+     "うえる",
+     "うわる"
+    ],
+    "strokes": 12,
+    "grade": 3,
+    "freq": 699
+   }
+  },
+  {
+   "slug": "kanji-u6e29",
+   "type": "kanji",
+   "term": "温",
+   "meaning": "Warm",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "あたたか",
+   "romaji": "atataka/atatakai/atatamaru/atatameru/nuku/on",
+   "data": {
+    "on": [
+     "おん"
+    ],
+    "kun": [
+     "あたたか",
+     "あたたかい",
+     "あたたまる",
+     "あたためる",
+     "ぬく"
+    ],
+    "strokes": 12,
+    "grade": 3,
+    "freq": 838
+   }
+  },
+  {
+   "slug": "kanji-u6e6f",
+   "type": "kanji",
+   "term": "湯",
+   "meaning": "Hot Water, Bath, Hot Spring",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ゆ",
+   "romaji": "yu/tou",
+   "data": {
+    "on": [
+     "とう"
+    ],
+    "kun": [
+     "ゆ"
+    ],
+    "strokes": 12,
+    "grade": 3,
+    "freq": 1356
+   }
+  },
+  {
+   "slug": "kanji-u77ed",
+   "type": "kanji",
+   "term": "短",
+   "meaning": "Short, Brevity, Fault, Defect, Weak Point",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "みじかい",
+   "romaji": "mijikai/tan",
+   "data": {
+    "on": [
+     "たん"
+    ],
+    "kun": [
+     "みじかい"
+    ],
+    "strokes": 12,
+    "grade": 3,
+    "freq": 689
+   }
+  },
+  {
+   "slug": "kanji-u6cc9",
+   "type": "kanji",
+   "term": "泉",
+   "meaning": "Spring, Fountain",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "いずみ",
+   "romaji": "izumi/sen",
+   "data": {
+    "on": [
+     "せん"
+    ],
+    "kun": [
+     "いずみ"
+    ],
+    "strokes": 9,
+    "grade": 6,
+    "freq": 1086
+   }
+  },
+  {
+   "slug": "kanji-u6a4b",
+   "type": "kanji",
+   "term": "橋",
+   "meaning": "Bridge",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "はし",
+   "romaji": "hashi/kyou",
+   "data": {
+    "on": [
+     "きょう"
+    ],
+    "kun": [
+     "はし"
+    ],
+    "strokes": 16,
+    "grade": 3,
+    "freq": 553
+   }
+  },
+  {
+   "slug": "kanji-u7dd1",
+   "type": "kanji",
+   "term": "緑",
+   "meaning": "Green",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "みどり",
+   "romaji": "midori/ryoku/roku",
+   "data": {
+    "on": [
+     "りょく",
+     "ろく"
+    ],
+    "kun": [
+     "みどり"
+    ],
+    "strokes": 14,
+    "grade": 3,
+    "freq": 1180
+   }
+  },
+  {
+   "slug": "kanji-u7df4",
+   "type": "kanji",
+   "term": "練",
+   "meaning": "Practice, Gloss, Train, Drill, Polish, Refine",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ねる",
+   "romaji": "neru/neri/ren",
+   "data": {
+    "on": [
+     "れん"
+    ],
+    "kun": [
+     "ねる",
+     "ねり"
+    ],
+    "strokes": 14,
+    "grade": 3,
+    "freq": 788
+   }
+  },
+  {
+   "slug": "kanji-u5104",
+   "type": "kanji",
+   "term": "億",
+   "meaning": "Hundred Million, 10**8",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "おく",
+   "romaji": "oku",
+   "data": {
+    "on": [
+     "おく"
+    ],
+    "kun": [],
+    "strokes": 15,
+    "grade": 4,
+    "freq": 716
+   }
+  },
+  {
+   "slug": "kanji-u8ab2",
+   "type": "kanji",
+   "term": "課",
+   "meaning": "Chapter, Lesson, Section, Department, Division, Counter For Chapters (of A Book)",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "か",
+   "romaji": "ka",
+   "data": {
+    "on": [
+     "か"
+    ],
+    "kun": [],
+    "strokes": 15,
+    "grade": 4,
+    "freq": 455
+   }
+  },
+  {
+   "slug": "kanji-u8cde",
+   "type": "kanji",
+   "term": "賞",
+   "meaning": "Prize, Reward, Praise",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ほめる",
+   "romaji": "homeru/shou",
+   "data": {
+    "on": [
+     "しょう"
+    ],
+    "kun": [
+     "ほめる"
+    ],
+    "strokes": 15,
+    "grade": 4,
+    "freq": 426
+   }
+  },
+  {
+   "slug": "kanji-u8f2a",
+   "type": "kanji",
+   "term": "輪",
+   "meaning": "Wheel, Ring, Circle, Link, Loop, Counter For Wheels And Flowers",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "わ",
+   "romaji": "wa/rin",
+   "data": {
+    "on": [
+     "りん"
+    ],
+    "kun": [
+     "わ"
+    ],
+    "strokes": 15,
+    "grade": 4,
+    "freq": 693
+   }
+  },
+  {
+   "slug": "kanji-u50cf",
+   "type": "kanji",
+   "term": "像",
+   "meaning": "Statue, Picture, Image, Figure, Portrait",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ぞう",
+   "romaji": "zou",
+   "data": {
+    "on": [
+     "ぞう"
+    ],
+    "kun": [],
+    "strokes": 14,
+    "grade": 5,
+    "freq": 856
+   }
+  },
+  {
+   "slug": "kanji-u5352",
+   "type": "kanji",
+   "term": "卒",
+   "meaning": "Graduate, Soldier, Private, Die",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "そっする",
+   "romaji": "sossuru/oeru/owaru/tsuini/niwaka/sotsu/shutsu",
+   "data": {
+    "on": [
+     "そつ",
+     "しゅつ"
+    ],
+    "kun": [
+     "そっする",
+     "おえる",
+     "おわる",
+     "ついに",
+     "にわか"
+    ],
+    "strokes": 8,
+    "grade": 4,
+    "freq": 772
+   }
+  },
+  {
+   "slug": "kanji-u5354",
+   "type": "kanji",
+   "term": "協",
+   "meaning": "Co-, Cooperation",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "きょう",
+   "romaji": "kyou",
+   "data": {
+    "on": [
+     "きょう"
+    ],
+    "kun": [],
+    "strokes": 8,
+    "grade": 4,
+    "freq": 121
+   }
+  },
+  {
+   "slug": "kanji-u5468",
+   "type": "kanji",
+   "term": "周",
+   "meaning": "Circumference, Circuit, Lap",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "まわり",
+   "romaji": "mawari/shuu",
+   "data": {
+    "on": [
+     "しゅう"
+    ],
+    "kun": [
+     "まわり"
+    ],
+    "strokes": 8,
+    "grade": 4,
+    "freq": 562
+   }
+  },
+  {
+   "slug": "kanji-u56f2",
+   "type": "kanji",
+   "term": "囲",
+   "meaning": "Surround, Besiege, Store, Paling, Enclosure, Encircle, Preserve, Keep",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "かこむ",
+   "romaji": "kakomu/kakou/kakoi/i",
+   "data": {
+    "on": [
+     "い"
+    ],
+    "kun": [
+     "かこむ",
+     "かこう",
+     "かこい"
+    ],
+    "strokes": 7,
+    "grade": 4,
+    "freq": 771
+   }
+  },
+  {
+   "slug": "kanji-u56fa",
+   "type": "kanji",
+   "term": "固",
+   "meaning": "Harden, Set, Clot, Curdle",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "かためる",
+   "romaji": "katameru/katamaru/katamari/katai/ko",
+   "data": {
+    "on": [
+     "こ"
+    ],
+    "kun": [
+     "かためる",
+     "かたまる",
+     "かたまり",
+     "かたい"
+    ],
+    "strokes": 8,
+    "grade": 4,
+    "freq": 750
+   }
+  },
+  {
+   "slug": "kanji-u5b63",
+   "type": "kanji",
+   "term": "季",
+   "meaning": "Seasons",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "き",
+   "romaji": "ki",
+   "data": {
+    "on": [
+     "き"
+    ],
+    "kun": [],
+    "strokes": 8,
+    "grade": 4,
+    "freq": 842
+   }
+  },
+  {
+   "slug": "kanji-u5e0c",
+   "type": "kanji",
+   "term": "希",
+   "meaning": "Hope, Beg, Request, Pray, Beseech, Greece, Dilute (acid), Rare, Few, Phenomenal",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "まれ",
+   "romaji": "mare/ki/ke",
+   "data": {
+    "on": [
+     "き",
+     "け"
+    ],
+    "kun": [
+     "まれ"
+    ],
+    "strokes": 7,
+    "grade": 4,
+    "freq": 896
+   }
+  },
+  {
+   "slug": "kanji-u6750",
+   "type": "kanji",
+   "term": "材",
+   "meaning": "Lumber, Log, Timber, Wood, Materials, Ingredients, Talent",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ざい",
+   "romaji": "zai",
+   "data": {
+    "on": [
+     "ざい"
+    ],
+    "kun": [],
+    "strokes": 7,
+    "grade": 4,
+    "freq": 565
+   }
+  },
+  {
+   "slug": "kanji-u82b8",
+   "type": "kanji",
+   "term": "芸",
+   "meaning": "Technique, Art, Craft, Performance, Acting, Trick, Stunt",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "うえる",
+   "romaji": "ueru/nori/waza/gei/un",
+   "data": {
+    "on": [
+     "げい",
+     "うん"
+    ],
+    "kun": [
+     "うえる",
+     "のり",
+     "わざ"
+    ],
+    "strokes": 7,
+    "grade": 4,
+    "freq": 719
+   }
+  },
+  {
+   "slug": "kanji-u6280",
+   "type": "kanji",
+   "term": "技",
+   "meaning": "Skill, Art, Craft, Ability, Feat, Performance, Vocation, Arts",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "わざ",
+   "romaji": "waza/gi",
+   "data": {
+    "on": [
+     "ぎ"
+    ],
+    "kun": [
+     "わざ"
+    ],
+    "strokes": 7,
+    "grade": 5,
+    "freq": 434
+   }
+  },
+  {
+   "slug": "kanji-u9aa8",
+   "type": "kanji",
+   "term": "骨",
+   "meaning": "Skeleton, Bone, Remains, Frame",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ほね",
+   "romaji": "hone/kotsu",
+   "data": {
+    "on": [
+     "こつ"
+    ],
+    "kun": [
+     "ほね"
+    ],
+    "strokes": 10,
+    "grade": 6,
+    "freq": 936
+   }
+  },
+  {
+   "slug": "kanji-u5bfa",
+   "type": "kanji",
+   "term": "寺",
+   "meaning": "Buddhist Temple",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "てら",
+   "romaji": "tera/ji",
+   "data": {
+    "on": [
+     "じ"
+    ],
+    "kun": [
+     "てら"
+    ],
+    "strokes": 6,
+    "grade": 2,
+    "freq": 879
+   }
+  },
+  {
+   "slug": "kanji-u5ca9",
+   "type": "kanji",
+   "term": "岩",
+   "meaning": "Boulder, Rock, Cliff",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "いわ",
+   "romaji": "iwa/gan",
+   "data": {
+    "on": [
+     "がん"
+    ],
+    "kun": [
+     "いわ"
+    ],
+    "strokes": 8,
+    "grade": 2,
+    "freq": 787
+   }
+  },
+  {
+   "slug": "kanji-u533a",
+   "type": "kanji",
+   "term": "区",
+   "meaning": "Ward, District",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "く",
+   "romaji": "ku/ou/kou",
+   "data": {
+    "on": [
+     "く",
+     "おう",
+     "こう"
+    ],
+    "kun": [],
+    "strokes": 4,
+    "grade": 3,
+    "freq": 137
+   }
+  },
+  {
+   "slug": "kanji-u5742",
+   "type": "kanji",
+   "term": "坂",
+   "meaning": "Slope, Incline, Hill",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "さか",
+   "romaji": "saka/han",
+   "data": {
+    "on": [
+     "はん"
+    ],
+    "kun": [
+     "さか"
+    ],
+    "strokes": 7,
+    "grade": 3,
+    "freq": 865
+   }
+  },
+  {
+   "slug": "kanji-u52c7",
+   "type": "kanji",
+   "term": "勇",
+   "meaning": "Courage, Cheer Up, Be In High Spirits, Bravery, Heroism",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "いさむ",
+   "romaji": "isamu/yuu",
+   "data": {
+    "on": [
+     "ゆう"
+    ],
+    "kun": [
+     "いさむ"
+    ],
+    "strokes": 9,
+    "grade": 4,
+    "freq": 1319
+   }
+  },
+  {
+   "slug": "kanji-u6bd2",
+   "type": "kanji",
+   "term": "毒",
+   "meaning": "Poison, Virus, Venom, Germ, Harm, Injury, Spite",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "どく",
+   "romaji": "doku",
+   "data": {
+    "on": [
+     "どく"
+    ],
+    "kun": [],
+    "strokes": 8,
+    "grade": 4,
+    "freq": 1419
+   }
+  },
+  {
+   "slug": "kanji-u6d45",
+   "type": "kanji",
+   "term": "浅",
+   "meaning": "Shallow, Superficial, Frivolous, Wretched, Shameful",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "あさい",
+   "romaji": "asai/sen",
+   "data": {
+    "on": [
+     "せん"
+    ],
+    "kun": [
+     "あさい"
+    ],
+    "strokes": 9,
+    "grade": 4,
+    "freq": 1253
+   }
+  },
+  {
+   "slug": "kanji-u8ecd",
+   "type": "kanji",
+   "term": "軍",
+   "meaning": "Army, Force, Troops, War, Battle",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "いくさ",
+   "romaji": "ikusa/gun",
+   "data": {
+    "on": [
+     "ぐん"
+    ],
+    "kun": [
+     "いくさ"
+    ],
+    "strokes": 9,
+    "grade": 4,
+    "freq": 189
+   }
+  },
+  {
+   "slug": "kanji-u4ecf",
+   "type": "kanji",
+   "term": "仏",
+   "meaning": "Buddha, The Dead, France",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ほとけ",
+   "romaji": "hotoke/butsu/futsu",
+   "data": {
+    "on": [
+     "ぶつ",
+     "ふつ"
+    ],
+    "kun": [
+     "ほとけ"
+    ],
+    "strokes": 4,
+    "grade": 5,
+    "freq": 819
+   }
+  },
+  {
+   "slug": "kanji-u7bc9",
+   "type": "kanji",
+   "term": "築",
+   "meaning": "Fabricate, Build, Construct",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "きずく",
+   "romaji": "kizuku/chiku",
+   "data": {
+    "on": [
+     "ちく"
+    ],
+    "kun": [
+     "きずく"
+    ],
+    "strokes": 16,
+    "grade": 5,
+    "freq": 821
+   }
+  },
+  {
+   "slug": "kanji-u9580",
+   "type": "kanji",
+   "term": "門",
+   "meaning": "Gate, Counter For Cannons",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "かど",
+   "romaji": "kado/to/mon",
+   "data": {
+    "on": [
+     "もん"
+    ],
+    "kun": [
+     "かど",
+     "と"
+    ],
+    "strokes": 8,
+    "grade": 2,
+    "freq": 452
+   }
+  },
+  {
+   "slug": "kanji-u8377",
+   "type": "kanji",
+   "term": "荷",
+   "meaning": "Baggage, Shoulder-pole Load, Bear (a Burden), Shoulder (a Gun), Load, Cargo, Freight",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "に",
+   "romaji": "ni/ka",
+   "data": {
+    "on": [
+     "か"
+    ],
+    "kun": [
+     "に"
+    ],
+    "strokes": 10,
+    "grade": 3,
+    "freq": 1230
+   }
+  },
+  {
+   "slug": "kanji-u5e9c",
+   "type": "kanji",
+   "term": "府",
+   "meaning": "Borough, Urban Prefecture, Govt Office, Representative Body, Storehouse",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ふ",
+   "romaji": "fu",
+   "data": {
+    "on": [
+     "ふ"
+    ],
+    "kun": [],
+    "strokes": 8,
+    "grade": 4,
+    "freq": 170
+   }
+  },
+  {
+   "slug": "kanji-u6d74",
+   "type": "kanji",
+   "term": "浴",
+   "meaning": "Bathe, Be Favored With, Bask In",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "あびる",
+   "romaji": "abiru/abiseru/yoku",
+   "data": {
+    "on": [
+     "よく"
+    ],
+    "kun": [
+     "あびる",
+     "あびせる"
+    ],
+    "strokes": 10,
+    "grade": 4,
+    "freq": 1136
+   }
+  },
+  {
+   "slug": "kanji-u5c02",
+   "type": "kanji",
+   "term": "専",
+   "meaning": "Specialty, Exclusive, Mainly, Solely",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "もっぱら",
+   "romaji": "moppara/sen",
+   "data": {
+    "on": [
+     "せん"
+    ],
+    "kun": [
+     "もっぱら"
+    ],
+    "strokes": 9,
+    "grade": 6,
+    "freq": 506
+   }
+  },
+  {
+   "slug": "kanji-u7d30",
+   "type": "kanji",
+   "term": "細",
+   "meaning": "Dainty, Get Thin, Taper, Slender, Narrow, Detailed, Precise",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ほそい",
+   "romaji": "hosoi/hosoru/komaka/komakai/sai",
+   "data": {
+    "on": [
+     "さい"
+    ],
+    "kun": [
+     "ほそい",
+     "ほそる",
+     "こまか",
+     "こまかい"
+    ],
+    "strokes": 11,
+    "grade": 2,
+    "freq": 537
+   }
+  },
+  {
+   "slug": "kanji-u9f3b",
+   "type": "kanji",
+   "term": "鼻",
+   "meaning": "Nose, Snout",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "はな",
+   "romaji": "hana/bi",
+   "data": {
+    "on": [
+     "び"
+    ],
+    "kun": [
+     "はな"
+    ],
+    "strokes": 14,
+    "grade": 3,
+    "freq": 1632
+   }
+  },
+  {
+   "slug": "kanji-u5175",
+   "type": "kanji",
+   "term": "兵",
+   "meaning": "Soldier, Private, Troops, Army, Warfare, Strategy, Tactics",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "つわもの",
+   "romaji": "tsuwamono/hei/hyou",
+   "data": {
+    "on": [
+     "へい",
+     "ひょう"
+    ],
+    "kun": [
+     "つわもの"
+    ],
+    "strokes": 7,
+    "grade": 4,
+    "freq": 522
+   }
+  },
+  {
+   "slug": "kanji-u5869",
+   "type": "kanji",
+   "term": "塩",
+   "meaning": "Salt",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "しお",
+   "romaji": "shio/en",
+   "data": {
+    "on": [
+     "えん"
+    ],
+    "kun": [
+     "しお"
+    ],
+    "strokes": 13,
+    "grade": 4,
+    "freq": 1148
+   }
+  },
+  {
+   "slug": "kanji-u6804",
+   "type": "kanji",
+   "term": "栄",
+   "meaning": "Flourish, Prosperity, Honor, Glory, Splendor",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "さかえる",
+   "romaji": "sakaeru/hae/bae/haeru/e/ei/you",
+   "data": {
+    "on": [
+     "えい",
+     "よう"
+    ],
+    "kun": [
+     "さかえる",
+     "はえ",
+     "ばえ",
+     "はえる",
+     "え"
+    ],
+    "strokes": 9,
+    "grade": 4,
+    "freq": 920
+   }
+  },
+  {
+   "slug": "kanji-u5e72",
+   "type": "kanji",
+   "term": "干",
+   "meaning": "Dry, Parch, Ebb, Recede, Interfere, Intercede",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ほす",
+   "romaji": "hosu/hoshi/boshi/hiru/kan",
+   "data": {
+    "on": [
+     "かん"
+    ],
+    "kun": [
+     "ほす",
+     "ほし",
+     "ぼし",
+     "ひる"
+    ],
+    "strokes": 3,
+    "grade": 6,
+    "freq": 1349
+   }
+  },
+  {
+   "slug": "kanji-u5e95",
+   "type": "kanji",
+   "term": "底",
+   "meaning": "Bottom, Sole, Depth, Bottom Price, Base, Kind, Sort",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "そこ",
+   "romaji": "soko/tei",
+   "data": {
+    "on": [
+     "てい"
+    ],
+    "kun": [
+     "そこ"
+    ],
+    "strokes": 8,
+    "grade": 4,
+    "freq": 867
+   }
+  },
+  {
+   "slug": "kanji-u7f72",
+   "type": "kanji",
+   "term": "署",
+   "meaning": "Signature, Govt Office, Police Station",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "しょ",
+   "romaji": "sho",
+   "data": {
+    "on": [
+     "しょ"
+    ],
+    "kun": [],
+    "strokes": 13,
+    "grade": 6,
+    "freq": 725
+   }
+  },
+  {
+   "slug": "kanji-u604b",
+   "type": "kanji",
+   "term": "恋",
+   "meaning": "Romance, In Love, Yearn For, Miss, Darling",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "こう",
+   "romaji": "kou/koi/koishii/ren",
+   "data": {
+    "on": [
+     "れん"
+    ],
+    "kun": [
+     "こう",
+     "こい",
+     "こいしい"
+    ],
+    "strokes": 10,
+    "grade": 8,
+    "freq": 1296
+   }
+  },
+  {
+   "slug": "kanji-u8a13",
+   "type": "kanji",
+   "term": "訓",
+   "meaning": "Instruction, Japanese Character Reading, Explanation, Read",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "おしえる",
+   "romaji": "oshieru/yomu/kunzuru/kun/kin",
+   "data": {
+    "on": [
+     "くん",
+     "きん"
+    ],
+    "kun": [
+     "おしえる",
+     "よむ",
+     "くんずる"
+    ],
+    "strokes": 10,
+    "grade": 4,
+    "freq": 1134
+   }
+  },
+  {
+   "slug": "kanji-u7948",
+   "type": "kanji",
+   "term": "祈",
+   "meaning": "Pray, Wish",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "いのる",
+   "romaji": "inoru/ki",
+   "data": {
+    "on": [
+     "き"
+    ],
+    "kun": [
+     "いのる"
+    ],
+    "strokes": 8,
+    "grade": 8,
+    "freq": 1462
+   }
+  },
+  {
+   "slug": "kanji-u713c",
+   "type": "kanji",
+   "term": "焼",
+   "meaning": "Bake, Burning",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "やく",
+   "romaji": "yaku/yaki/yakeru/shou",
+   "data": {
+    "on": [
+     "しょう"
+    ],
+    "kun": [
+     "やく",
+     "やき",
+     "やき",
+     "やき",
+     "やける"
+    ],
+    "strokes": 12,
+    "grade": 4,
+    "freq": 982
+   }
+  },
+  {
+   "slug": "kanji-u80f8",
+   "type": "kanji",
+   "term": "胸",
+   "meaning": "Bosom, Breast, Chest, Heart, Feelings",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "むね",
+   "romaji": "mune/muna/kyou",
+   "data": {
+    "on": [
+     "きょう"
+    ],
+    "kun": [
+     "むね",
+     "むな"
+    ],
+    "strokes": 10,
+    "grade": 6,
+    "freq": 1144
+   }
+  },
+  {
+   "slug": "kanji-u8133",
+   "type": "kanji",
+   "term": "脳",
+   "meaning": "Brain, Memory",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "のうずる",
+   "romaji": "nouzuru/nou/dou",
+   "data": {
+    "on": [
+     "のう",
+     "どう"
+    ],
+    "kun": [
+     "のうずる"
+    ],
+    "strokes": 11,
+    "grade": 6,
+    "freq": 459
+   }
+  },
+  {
+   "slug": "kanji-u679a",
+   "type": "kanji",
+   "term": "枚",
+   "meaning": "Sheet Of..., Counter For Flat Thin Objects Or Sheets",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "まい",
+   "romaji": "mai/bai",
+   "data": {
+    "on": [
+     "まい",
+     "ばい"
+    ],
+    "kun": [],
+    "strokes": 8,
+    "grade": 6,
+    "freq": 911
+   }
+  },
+  {
+   "slug": "kanji-u7981",
+   "type": "kanji",
+   "term": "禁",
+   "meaning": "Prohibition, Ban, Forbid",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "きん",
+   "romaji": "kin",
+   "data": {
+    "on": [
+     "きん"
+    ],
+    "kun": [],
+    "strokes": 13,
+    "grade": 5,
+    "freq": 681
+   }
+  },
+  {
+   "slug": "kanji-u55ab",
+   "type": "kanji",
+   "term": "喫",
+   "meaning": "Consume, Eat, Drink, Smoke, Receive (a Blow)",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "のむ",
+   "romaji": "nomu/kitsu",
+   "data": {
+    "on": [
+     "きつ"
+    ],
+    "kun": [
+     "のむ"
+    ],
+    "strokes": 12,
+    "grade": 8,
+    "freq": 1347
+   }
+  },
+  {
+   "slug": "kanji-u6e1b",
+   "type": "kanji",
+   "term": "減",
+   "meaning": "Dwindle, Decrease, Reduce, Decline, Curtail, Get Hungry",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "へる",
+   "romaji": "heru/herasu/gen",
+   "data": {
+    "on": [
+     "げん"
+    ],
+    "kun": [
+     "へる",
+     "へらす"
+    ],
+    "strokes": 12,
+    "grade": 5,
+    "freq": 261
+   }
+  },
+  {
+   "slug": "kanji-u9806",
+   "type": "kanji",
+   "term": "順",
+   "meaning": "Obey, Order, Turn, Right, Docility, Occasion",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "じゅん",
+   "romaji": "jun",
+   "data": {
+    "on": [
+     "じゅん"
+    ],
+    "kun": [],
+    "strokes": 12,
+    "grade": 4,
+    "freq": 779
+   }
+  },
+  {
+   "slug": "kanji-u5e03",
+   "type": "kanji",
+   "term": "布",
+   "meaning": "Linen, Cloth, Spread, Distribute",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ぬの",
+   "romaji": "nuno/fu",
+   "data": {
+    "on": [
+     "ふ"
+    ],
+    "kun": [
+     "ぬの"
+    ],
+    "strokes": 5,
+    "grade": 5,
+    "freq": 877
+   }
+  },
+  {
+   "slug": "kanji-u8a5e",
+   "type": "kanji",
+   "term": "詞",
+   "meaning": "Part Of Speech, Words, Poetry",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ことば",
+   "romaji": "kotoba/shi",
+   "data": {
+    "on": [
+     "し"
+    ],
+    "kun": [
+     "ことば"
+    ],
+    "strokes": 12,
+    "grade": 6,
+    "freq": 1636
+   }
+  },
+  {
+   "slug": "kanji-u6b74",
+   "type": "kanji",
+   "term": "歴",
+   "meaning": "Curriculum, Continuation, Passage Of Time",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "れき",
+   "romaji": "reki/rekki",
+   "data": {
+    "on": [
+     "れき",
+     "れっき"
+    ],
+    "kun": [],
+    "strokes": 14,
+    "grade": 4,
+    "freq": 632
+   }
+  },
+  {
+   "slug": "kanji-u518a",
+   "type": "kanji",
+   "term": "冊",
+   "meaning": "Tome, Counter For Books, Volume",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ふみ",
+   "romaji": "fumi/satsu/saku",
+   "data": {
+    "on": [
+     "さつ",
+     "さく"
+    ],
+    "kun": [
+     "ふみ"
+    ],
+    "strokes": 5,
+    "grade": 6,
+    "freq": 1313
+   }
+  },
+  {
+   "slug": "kanji-u5b87",
+   "type": "kanji",
+   "term": "宇",
+   "meaning": "Eaves, Roof, House, Heaven",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "う",
+   "romaji": "u",
+   "data": {
+    "on": [
+     "う"
+    ],
+    "kun": [],
+    "strokes": 6,
+    "grade": 6,
+    "freq": 883
+   }
+  },
+  {
+   "slug": "kanji-u56e3",
+   "type": "kanji",
+   "term": "団",
+   "meaning": "Group, Association",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "かたまり",
+   "romaji": "katamari/marui/dan/ton",
+   "data": {
+    "on": [
+     "だん",
+     "とん"
+    ],
+    "kun": [
+     "かたまり",
+     "まるい"
+    ],
+    "strokes": 6,
+    "grade": 5,
+    "freq": 213
+   }
+  },
+  {
+   "slug": "kanji-u66b4",
+   "type": "kanji",
+   "term": "暴",
+   "meaning": "Outburst, Rave, Fret, Force, Violence, Cruelty, Outrage",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "あばく",
+   "romaji": "abaku/abareru/bou/baku",
+   "data": {
+    "on": [
+     "ぼう",
+     "ばく"
+    ],
+    "kun": [
+     "あばく",
+     "あばれる"
+    ],
+    "strokes": 15,
+    "grade": 5,
+    "freq": 692
+   }
+  },
+  {
+   "slug": "kanji-u6df7",
+   "type": "kanji",
+   "term": "混",
+   "meaning": "Mix, Blend, Confuse",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "まじる",
+   "romaji": "majiru/majiri/mazaru/mazeru/komu/kon",
+   "data": {
+    "on": [
+     "こん"
+    ],
+    "kun": [
+     "まじる",
+     "まじり",
+     "まざる",
+     "まぜる",
+     "こむ"
+    ],
+    "strokes": 11,
+    "grade": 5,
+    "freq": 824
+   }
+  },
+  {
+   "slug": "kanji-u4e71",
+   "type": "kanji",
+   "term": "乱",
+   "meaning": "Riot, War, Disorder, Disturb",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "みだれる",
+   "romaji": "midareru/midaru/midasu/mida/osameru/wataru/ran/ron",
+   "data": {
+    "on": [
+     "らん",
+     "ろん"
+    ],
+    "kun": [
+     "みだれる",
+     "みだる",
+     "みだす",
+     "みだ",
+     "おさめる",
+     "わたる"
+    ],
+    "strokes": 7,
+    "grade": 6,
+    "freq": 755
+   }
+  },
+  {
+   "slug": "kanji-u6539",
+   "type": "kanji",
+   "term": "改",
+   "meaning": "Reformation, Change, Modify, Mend, Renew, Examine, Inspect, Search",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "あらためる",
+   "romaji": "aratameru/aratamaru/kai",
+   "data": {
+    "on": [
+     "かい"
+    ],
+    "kun": [
+     "あらためる",
+     "あらたまる"
+    ],
+    "strokes": 7,
+    "grade": 4,
+    "freq": 147
+   }
+  },
+  {
+   "slug": "kanji-u7d61",
+   "type": "kanji",
+   "term": "絡",
+   "meaning": "Entwine, Coil Around, Get Caught In",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "からむ",
+   "romaji": "karamu/karamaru/raku",
+   "data": {
+    "on": [
+     "らく"
+    ],
+    "kun": [
+     "からむ",
+     "からまる"
+    ],
+    "strokes": 12,
+    "grade": 8,
+    "freq": 806
+   }
+  },
+  {
+   "slug": "kanji-u6bd4",
+   "type": "kanji",
+   "term": "比",
+   "meaning": "Compare, Race, Ratio, Philippines",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "くらべる",
+   "romaji": "kuraberu/hi",
+   "data": {
+    "on": [
+     "ひ"
+    ],
+    "kun": [
+     "くらべる"
+    ],
+    "strokes": 4,
+    "grade": 5,
+    "freq": 329
+   }
+  },
+  {
+   "slug": "kanji-u88ab",
+   "type": "kanji",
+   "term": "被",
+   "meaning": "Incur, Cover, Veil, Brood Over, Shelter, Wear, Put On, Be Exposed (film), Receiving",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "こうむる",
+   "romaji": "koumuru/oou/kaburu/kabuseru/hi",
+   "data": {
+    "on": [
+     "ひ"
+    ],
+    "kun": [
+     "こうむる",
+     "おおう",
+     "かぶる",
+     "かぶせる"
+    ],
+    "strokes": 10,
+    "grade": 8,
+    "freq": 431
+   }
+  },
+  {
+   "slug": "kanji-u9707",
+   "type": "kanji",
+   "term": "震",
+   "meaning": "Quake, Shake, Tremble, Quiver, Shiver",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ふるう",
+   "romaji": "furuu/furueru/shin",
+   "data": {
+    "on": [
+     "しん"
+    ],
+    "kun": [
+     "ふるう",
+     "ふるえる"
+    ],
+    "strokes": 15,
+    "grade": 8,
+    "freq": 893
+   }
+  },
+  {
+   "slug": "kanji-u68b0",
+   "type": "kanji",
+   "term": "械",
+   "meaning": "Contraption, Fetter, Machine, Instrument",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "かせ",
+   "romaji": "kase/kai",
+   "data": {
+    "on": [
+     "かい"
+    ],
+    "kun": [
+     "かせ"
+    ],
+    "strokes": 11,
+    "grade": 4,
+    "freq": 1321
+   }
+  },
+  {
+   "slug": "kanji-u500b",
+   "type": "kanji",
+   "term": "個",
+   "meaning": "Individual, Counter For Articles",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "こ",
+   "romaji": "ko/ka",
+   "data": {
+    "on": [
+     "こ",
+     "か"
+    ],
+    "kun": [],
+    "strokes": 10,
+    "grade": 5,
+    "freq": 451
+   }
+  },
+  {
+   "slug": "kanji-u5727",
+   "type": "kanji",
+   "term": "圧",
+   "meaning": "Pressure, Push, Overwhelm, Oppress, Dominate",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "おす",
+   "romaji": "osu/hesu/osaeru/atsu/en/ou",
+   "data": {
+    "on": [
+     "あつ",
+     "えん",
+     "おう"
+    ],
+    "kun": [
+     "おす",
+     "へす",
+     "おさえる",
+     "おさえる"
+    ],
+    "strokes": 5,
+    "grade": 5,
+    "freq": 718
+   }
+  },
+  {
+   "slug": "kanji-u539a",
+   "type": "kanji",
+   "term": "厚",
+   "meaning": "Thick, Heavy, Rich, Kind, Cordial, Brazen, Shameless",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "あつい",
+   "romaji": "atsui/aka/kou",
+   "data": {
+    "on": [
+     "こう"
+    ],
+    "kun": [
+     "あつい",
+     "あか"
+    ],
+    "strokes": 9,
+    "grade": 5,
+    "freq": 768
+   }
+  },
+  {
+   "slug": "kanji-u9632",
+   "type": "kanji",
+   "term": "防",
+   "meaning": "Ward Off, Defend, Protect, Resist",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ふせぐ",
+   "romaji": "fusegu/bou",
+   "data": {
+    "on": [
+     "ぼう"
+    ],
+    "kun": [
+     "ふせぐ"
+    ],
+    "strokes": 7,
+    "grade": 5,
+    "freq": 331
+   }
+  },
+  {
+   "slug": "kanji-u53f2",
+   "type": "kanji",
+   "term": "史",
+   "meaning": "History, Chronicle",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "し",
+   "romaji": "shi",
+   "data": {
+    "on": [
+     "し"
+    ],
+    "kun": [],
+    "strokes": 5,
+    "grade": 4,
+    "freq": 511
+   }
+  },
+  {
+   "slug": "kanji-u59d4",
+   "type": "kanji",
+   "term": "委",
+   "meaning": "Committee, Entrust To, Leave To, Devote, Discard",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ゆだねる",
+   "romaji": "yudaneru/i",
+   "data": {
+    "on": [
+     "い"
+    ],
+    "kun": [
+     "ゆだねる"
+    ],
+    "strokes": 8,
+    "grade": 3,
+    "freq": 187
+   }
+  },
+  {
+   "slug": "kanji-u67fb",
+   "type": "kanji",
+   "term": "査",
+   "meaning": "Investigate",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "さ",
+   "romaji": "sa",
+   "data": {
+    "on": [
+     "さ"
+    ],
+    "kun": [],
+    "strokes": 9,
+    "grade": 5,
+    "freq": 184
+   }
+  },
+  {
+   "slug": "kanji-u7dcf",
+   "type": "kanji",
+   "term": "総",
+   "meaning": "General, Whole, All, Full, Total",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "すべて",
+   "romaji": "subete/fusa/sou",
+   "data": {
+    "on": [
+     "そう"
+    ],
+    "kun": [
+     "すべて",
+     "すべて",
+     "ふさ"
+    ],
+    "strokes": 14,
+    "grade": 5,
+    "freq": 129
+   }
+  },
+  {
+   "slug": "kanji-u8a2d",
+   "type": "kanji",
+   "term": "設",
+   "meaning": "Establishment, Provision, Prepare",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "もうける",
+   "romaji": "moukeru/setsu",
+   "data": {
+    "on": [
+     "せつ"
+    ],
+    "kun": [
+     "もうける"
+    ],
+    "strokes": 11,
+    "grade": 5,
+    "freq": 145
+   }
+  },
+  {
+   "slug": "kanji-u7701",
+   "type": "kanji",
+   "term": "省",
+   "meaning": "Focus, Government Ministry, Conserve",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "かえりみる",
+   "romaji": "kaerimiru/habuku/sei/shou",
+   "data": {
+    "on": [
+     "せい",
+     "しょう"
+    ],
+    "kun": [
+     "かえりみる",
+     "はぶく"
+    ],
+    "strokes": 9,
+    "grade": 4,
+    "freq": 548
+   }
+  },
+  {
+   "slug": "kanji-u7a0e",
+   "type": "kanji",
+   "term": "税",
+   "meaning": "Tax, Duty",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ぜい",
+   "romaji": "zei",
+   "data": {
+    "on": [
+     "ぜい"
+    ],
+    "kun": [],
+    "strokes": 12,
+    "grade": 5,
+    "freq": 289
+   }
+  },
+  {
+   "slug": "kanji-u5404",
+   "type": "kanji",
+   "term": "各",
+   "meaning": "Each, Every, Either",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "おのおの",
+   "romaji": "onoono/kaku",
+   "data": {
+    "on": [
+     "かく"
+    ],
+    "kun": [
+     "おのおの"
+    ],
+    "strokes": 6,
+    "grade": 4,
+    "freq": 243
+   }
+  },
+  {
+   "slug": "kanji-u52e2",
+   "type": "kanji",
+   "term": "勢",
+   "meaning": "Forces, Energy, Military Strength",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "いきおい",
+   "romaji": "ikioi/hazumi/sei/zei",
+   "data": {
+    "on": [
+     "せい",
+     "ぜい"
+    ],
+    "kun": [
+     "いきおい",
+     "はずみ"
+    ],
+    "strokes": 13,
+    "grade": 5,
+    "freq": 260
+   }
+  },
+  {
+   "slug": "kanji-u55b6",
+   "type": "kanji",
+   "term": "営",
+   "meaning": "Occupation, Camp, Perform, Build, Conduct (business)",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "いとなむ",
+   "romaji": "itonamu/itonami/ei",
+   "data": {
+    "on": [
+     "えい"
+    ],
+    "kun": [
+     "いとなむ",
+     "いとなみ"
+    ],
+    "strokes": 12,
+    "grade": 5,
+    "freq": 303
+   }
+  },
+  {
+   "slug": "kanji-u9818",
+   "type": "kanji",
+   "term": "領",
+   "meaning": "Jurisdiction, Dominion, Territory, Fief, Reign",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "えり",
+   "romaji": "eri/ryou",
+   "data": {
+    "on": [
+     "りょう"
+    ],
+    "kun": [
+     "えり"
+    ],
+    "strokes": 14,
+    "grade": 5,
+    "freq": 138
+   }
+  },
+  {
+   "slug": "kanji-u526f",
+   "type": "kanji",
+   "term": "副",
+   "meaning": "Vice-, Assistant, Aide, Duplicate, Copy",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ふく",
+   "romaji": "fuku",
+   "data": {
+    "on": [
+     "ふく"
+    ],
+    "kun": [],
+    "strokes": 11,
+    "grade": 4,
+    "freq": 360
+   }
+  },
+  {
+   "slug": "kanji-u57df",
+   "type": "kanji",
+   "term": "域",
+   "meaning": "Range, Region, Limits, Stage, Level",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "いき",
+   "romaji": "iki",
+   "data": {
+    "on": [
+     "いき"
+    ],
+    "kun": [],
+    "strokes": 11,
+    "grade": 6,
+    "freq": 396
+   }
+  },
+  {
+   "slug": "kanji-u505c",
+   "type": "kanji",
+   "term": "停",
+   "meaning": "Halt, Stopping",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "とめる",
+   "romaji": "tomeru/tomaru/tei",
+   "data": {
+    "on": [
+     "てい"
+    ],
+    "kun": [
+     "とめる",
+     "とまる"
+    ],
+    "strokes": 11,
+    "grade": 4,
+    "freq": 733
+   }
+  },
+  {
+   "slug": "kanji-u9769",
+   "type": "kanji",
+   "term": "革",
+   "meaning": "Leather, Skin, Reform, Become Serious",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "かわ",
+   "romaji": "kawa/kaku",
+   "data": {
+    "on": [
+     "かく"
+    ],
+    "kun": [
+     "かわ"
+    ],
+    "strokes": 9,
+    "grade": 6,
+    "freq": 249
+   }
+  },
+  {
+   "slug": "kanji-u5f8b",
+   "type": "kanji",
+   "term": "律",
+   "meaning": "Rhythm, Law, Regulation, Gauge, Control",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "りつ",
+   "romaji": "ritsu/richi/retsu",
+   "data": {
+    "on": [
+     "りつ",
+     "りち",
+     "れつ"
+    ],
+    "kun": [],
+    "strokes": 9,
+    "grade": 6,
+    "freq": 992
+   }
+  },
+  {
+   "slug": "kanji-u6e96",
+   "type": "kanji",
+   "term": "準",
+   "meaning": "Semi-, Correspond To, Proportionate To, Conform, Imitate",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "じゅんじる",
+   "romaji": "junjiru/junzuru/nazoraeru/nori/hitoshii/mizumori/jun",
+   "data": {
+    "on": [
+     "じゅん"
+    ],
+    "kun": [
+     "じゅんじる",
+     "じゅんずる",
+     "なぞらえる",
+     "のり",
+     "ひとしい",
+     "みずもり"
+    ],
+    "strokes": 13,
+    "grade": 5,
+    "freq": 425
+   }
+  },
+  {
+   "slug": "kanji-u5247",
+   "type": "kanji",
+   "term": "則",
+   "meaning": "Rule, Follow, Based On, Model After",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "のっとる",
+   "romaji": "nottoru/soku",
+   "data": {
+    "on": [
+     "そく"
+    ],
+    "kun": [
+     "のっとる"
+    ],
+    "strokes": 9,
+    "grade": 5,
+    "freq": 753
+   }
+  },
+  {
+   "slug": "kanji-u5c0e",
+   "type": "kanji",
+   "term": "導",
+   "meaning": "Guidance, Leading, Conduct, Usher",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "みちびく",
+   "romaji": "michibiku/dou",
+   "data": {
+    "on": [
+     "どう"
+    ],
+    "kun": [
+     "みちびく"
+    ],
+    "strokes": 15,
+    "grade": 5,
+    "freq": 354
+   }
+  },
+  {
+   "slug": "kanji-u4e73",
+   "type": "kanji",
+   "term": "乳",
+   "meaning": "Milk, Breasts",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ちち",
+   "romaji": "chichi/chi/nyuu",
+   "data": {
+    "on": [
+     "にゅう"
+    ],
+    "kun": [
+     "ちち",
+     "ち"
+    ],
+    "strokes": 8,
+    "grade": 6,
+    "freq": 1289
+   }
+  },
+  {
+   "slug": "kanji-u57ce",
+   "type": "kanji",
+   "term": "城",
+   "meaning": "Castle",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "しろ",
+   "romaji": "shiro/jou/sei",
+   "data": {
+    "on": [
+     "じょう",
+     "せい"
+    ],
+    "kun": [
+     "しろ"
+    ],
+    "strokes": 9,
+    "grade": 6,
+    "freq": 795
+   }
+  },
+  {
+   "slug": "kanji-u62c5",
+   "type": "kanji",
+   "term": "担",
+   "meaning": "Shouldering, Carry, Raise, Bear",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "かつぐ",
+   "romaji": "katsugu/ninau/tan",
+   "data": {
+    "on": [
+     "たん"
+    ],
+    "kun": [
+     "かつぐ",
+     "になう"
+    ],
+    "strokes": 8,
+    "grade": 6,
+    "freq": 422
+   }
+  },
+  {
+   "slug": "kanji-u984d",
+   "type": "kanji",
+   "term": "額",
+   "meaning": "Forehead, Tablet, Plaque, Framed Picture, Sum, Amount, Volume",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ひたい",
+   "romaji": "hitai/gaku",
+   "data": {
+    "on": [
+     "がく"
+    ],
+    "kun": [
+     "ひたい"
+    ],
+    "strokes": 18,
+    "grade": 5,
+    "freq": 407
+   }
+  },
+  {
+   "slug": "kanji-u8f38",
+   "type": "kanji",
+   "term": "輸",
+   "meaning": "Transport, Send, Be Inferior",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ゆ",
+   "romaji": "yu/shu",
+   "data": {
+    "on": [
+     "ゆ",
+     "しゅ"
+    ],
+    "kun": [],
+    "strokes": 16,
+    "grade": 5,
+    "freq": 371
+   }
+  },
+  {
+   "slug": "kanji-u71c3",
+   "type": "kanji",
+   "term": "燃",
+   "meaning": "Burn, Blaze, Glow",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "もえる",
+   "romaji": "moeru/moyasu/mosu/nen",
+   "data": {
+    "on": [
+     "ねん"
+    ],
+    "kun": [
+     "もえる",
+     "もやす",
+     "もす"
+    ],
+    "strokes": 16,
+    "grade": 5,
+    "freq": 948
+   }
+  },
+  {
+   "slug": "kanji-u795d",
+   "type": "kanji",
+   "term": "祝",
+   "meaning": "Celebrate, Congratulate",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "いわう",
+   "romaji": "iwau/shuku/shuu",
+   "data": {
+    "on": [
+     "しゅく",
+     "しゅう"
+    ],
+    "kun": [
+     "いわう"
+    ],
+    "strokes": 9,
+    "grade": 4,
+    "freq": 1184
+   }
+  },
+  {
+   "slug": "kanji-u5c4a",
+   "type": "kanji",
+   "term": "届",
+   "meaning": "Deliver, Reach, Arrive, Report, Notify, Forward",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "とどける",
+   "romaji": "todokeru/todoke/todoku/kai",
+   "data": {
+    "on": [
+     "かい"
+    ],
+    "kun": [
+     "とどける",
+     "とどけ",
+     "とどく"
+    ],
+    "strokes": 8,
+    "grade": 6,
+    "freq": 939
+   }
+  },
+  {
+   "slug": "kanji-u80a9",
+   "type": "kanji",
+   "term": "肩",
+   "meaning": "Shoulder",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "かた",
+   "romaji": "kata/ken",
+   "data": {
+    "on": [
+     "けん"
+    ],
+    "kun": [
+     "かた"
+    ],
+    "strokes": 8,
+    "grade": 8,
+    "freq": 1215
+   }
+  },
+  {
+   "slug": "kanji-u8155",
+   "type": "kanji",
+   "term": "腕",
+   "meaning": "Arm, Ability, Talent",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "うで",
+   "romaji": "ude/wan",
+   "data": {
+    "on": [
+     "わん"
+    ],
+    "kun": [
+     "うで"
+    ],
+    "strokes": 12,
+    "grade": 8,
+    "freq": 1163
+   }
+  },
+  {
+   "slug": "kanji-u8170",
+   "type": "kanji",
+   "term": "腰",
+   "meaning": "Loins, Hips, Waist, Low Wainscoting",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "こし",
+   "romaji": "koshi/you",
+   "data": {
+    "on": [
+     "よう"
+    ],
+    "kun": [
+     "こし"
+    ],
+    "strokes": 13,
+    "grade": 8,
+    "freq": 1306
+   }
+  },
+  {
+   "slug": "kanji-u89e6",
+   "type": "kanji",
+   "term": "触",
+   "meaning": "Contact, Touch, Feel, Hit, Proclaim, Announce, Conflict",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ふれる",
+   "romaji": "fureru/sawaru/sawa/shoku",
+   "data": {
+    "on": [
+     "しょく"
+    ],
+    "kun": [
+     "ふれる",
+     "さわる",
+     "さわ"
+    ],
+    "strokes": 13,
+    "grade": 8,
+    "freq": 904
+   }
+  },
+  {
+   "slug": "kanji-u5c64",
+   "type": "kanji",
+   "term": "層",
+   "meaning": "Stratum, Social Class, Layer, Story, Floor",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "そう",
+   "romaji": "sou",
+   "data": {
+    "on": [
+     "そう"
+    ],
+    "kun": [],
+    "strokes": 14,
+    "grade": 6,
+    "freq": 801
+   }
+  },
+  {
+   "slug": "kanji-u578b",
+   "type": "kanji",
+   "term": "型",
+   "meaning": "Mould, Type, Model",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "かた",
+   "romaji": "kata/gata/kei",
+   "data": {
+    "on": [
+     "けい"
+    ],
+    "kun": [
+     "かた",
+     "がた"
+    ],
+    "strokes": 9,
+    "grade": 4,
+    "freq": 482
+   }
+  },
+  {
+   "slug": "kanji-u5e81",
+   "type": "kanji",
+   "term": "庁",
+   "meaning": "Government Office",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "やくしょ",
+   "romaji": "yakusho/chou/tei",
+   "data": {
+    "on": [
+     "ちょう",
+     "てい"
+    ],
+    "kun": [
+     "やくしょ"
+    ],
+    "strokes": 5,
+    "grade": 6,
+    "freq": 793
+   }
+  },
+  {
+   "slug": "kanji-u7ba1",
+   "type": "kanji",
+   "term": "管",
+   "meaning": "Pipe, Tube, Wind Instrument, Drunken Talk, Control, Jurisdiction",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "くだ",
+   "romaji": "kuda/kan",
+   "data": {
+    "on": [
+     "かん"
+    ],
+    "kun": [
+     "くだ"
+    ],
+    "strokes": 14,
+    "grade": 4,
+    "freq": 517
+   }
+  },
+  {
+   "slug": "kanji-u8c61",
+   "type": "kanji",
+   "term": "象",
+   "meaning": "Elephant, Pattern After, Imitate, Image, Shape, Sign (of The Times)",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "かたどる",
+   "romaji": "katadoru/shou/zou",
+   "data": {
+    "on": [
+     "しょう",
+     "ぞう"
+    ],
+    "kun": [
+     "かたどる"
+    ],
+    "strokes": 12,
+    "grade": 4,
+    "freq": 394
+   }
+  },
+  {
+   "slug": "kanji-u91cf",
+   "type": "kanji",
+   "term": "量",
+   "meaning": "Quantity, Measure, Weight, Amount, Consider, Estimate, Surmise",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "はかる",
+   "romaji": "hakaru/ryou",
+   "data": {
+    "on": [
+     "りょう"
+    ],
+    "kun": [
+     "はかる"
+    ],
+    "strokes": 12,
+    "grade": 4,
+    "freq": 469
+   }
+  },
+  {
+   "slug": "kanji-u5883",
+   "type": "kanji",
+   "term": "境",
+   "meaning": "Boundary, Border, Region",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "さかい",
+   "romaji": "sakai/kyou/kei",
+   "data": {
+    "on": [
+     "きょう",
+     "けい"
+    ],
+    "kun": [
+     "さかい"
+    ],
+    "strokes": 14,
+    "grade": 5,
+    "freq": 346
+   }
+  },
+  {
+   "slug": "kanji-u6b66",
+   "type": "kanji",
+   "term": "武",
+   "meaning": "Warrior, Military, Chivalry, Arms",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "たけ",
+   "romaji": "take/takeshi/bu/mu",
+   "data": {
+    "on": [
+     "ぶ",
+     "む"
+    ],
+    "kun": [
+     "たけ",
+     "たけし"
+    ],
+    "strokes": 8,
+    "grade": 5,
+    "freq": 387
+   }
+  },
+  {
+   "slug": "kanji-u8ff0",
+   "type": "kanji",
+   "term": "述",
+   "meaning": "Mention, State, Speak, Relate",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "のべる",
+   "romaji": "noberu/jutsu",
+   "data": {
+    "on": [
+     "じゅつ"
+    ],
+    "kun": [
+     "のべる"
+    ],
+    "strokes": 8,
+    "grade": 5,
+    "freq": 379
+   }
+  },
+  {
+   "slug": "kanji-u8ca9",
+   "type": "kanji",
+   "term": "販",
+   "meaning": "Marketing, Sell, Trade",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "はん",
+   "romaji": "han",
+   "data": {
+    "on": [
+     "はん"
+    ],
+    "kun": [],
+    "strokes": 11,
+    "grade": 8,
+    "freq": 627
+   }
+  },
+  {
+   "slug": "kanji-u542b",
+   "type": "kanji",
+   "term": "含",
+   "meaning": "Contain, Include, Hold In The Mouth, Bear In Mind, Understand, Cherish",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ふくむ",
+   "romaji": "fukumu/fukumeru/gan",
+   "data": {
+    "on": [
+     "がん"
+    ],
+    "kun": [
+     "ふくむ",
+     "ふくめる"
+    ],
+    "strokes": 7,
+    "grade": 8,
+    "freq": 466
+   }
+  },
+  {
+   "slug": "kanji-u6cc1",
+   "type": "kanji",
+   "term": "況",
+   "meaning": "Condition, Situation",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "まして",
+   "romaji": "mashite/iwan'ya/omomuki/kyou",
+   "data": {
+    "on": [
+     "きょう"
+    ],
+    "kun": [
+     "まして",
+     "いわんや",
+     "おもむき"
+    ],
+    "strokes": 8,
+    "grade": 8,
+    "freq": 490
+   }
+  },
+  {
+   "slug": "kanji-u88dc",
+   "type": "kanji",
+   "term": "補",
+   "meaning": "Supplement, Supply, Make Good, Offset, Compensate, Assistant, Learner",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "おぎなう",
+   "romaji": "oginau/ho",
+   "data": {
+    "on": [
+     "ほ"
+    ],
+    "kun": [
+     "おぎなう"
+    ],
+    "strokes": 12,
+    "grade": 6,
+    "freq": 332
+   }
+  },
+  {
+   "slug": "kanji-u52b9",
+   "type": "kanji",
+   "term": "効",
+   "meaning": "Merit, Efficacy, Efficiency, Benefit",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "きく",
+   "romaji": "kiku/kikime/narau/kou",
+   "data": {
+    "on": [
+     "こう"
+    ],
+    "kun": [
+     "きく",
+     "ききめ",
+     "ならう"
+    ],
+    "strokes": 8,
+    "grade": 5,
+    "freq": 538
+   }
+  },
+  {
+   "slug": "kanji-u8c4a",
+   "type": "kanji",
+   "term": "豊",
+   "meaning": "Bountiful, Excellent, Rich",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ゆたか",
+   "romaji": "yutaka/toyo/hou/bu",
+   "data": {
+    "on": [
+     "ほう",
+     "ぶ"
+    ],
+    "kun": [
+     "ゆたか",
+     "とよ"
+    ],
+    "strokes": 13,
+    "grade": 5,
+    "freq": 762
+   }
+  },
+  {
+   "slug": "kanji-u5dfb",
+   "type": "kanji",
+   "term": "巻",
+   "meaning": "Scroll, Volume, Book, Part, Roll Up, Wind Up, Tie, Coil, Counter For Texts (or Book Scrolls)",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "まく",
+   "romaji": "maku/maki/kan/ken",
+   "data": {
+    "on": [
+     "かん",
+     "けん"
+    ],
+    "kun": [
+     "まく",
+     "まき",
+     "まき"
+    ],
+    "strokes": 9,
+    "grade": 6,
+    "freq": 944
+   }
+  },
+  {
+   "slug": "kanji-u635c",
+   "type": "kanji",
+   "term": "捜",
+   "meaning": "Search, Look For, Locate",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "さがす",
+   "romaji": "sagasu/sou/shu/shuu",
+   "data": {
+    "on": [
+     "そう",
+     "しゅ",
+     "しゅう"
+    ],
+    "kun": [
+     "さがす"
+    ],
+    "strokes": 10,
+    "grade": 8,
+    "freq": 592
+   }
+  },
+  {
+   "slug": "kanji-u66ff",
+   "type": "kanji",
+   "term": "替",
+   "meaning": "Exchange, Spare, Substitute, Per-",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "かえる",
+   "romaji": "kaeru/kae/kawaru/tai",
+   "data": {
+    "on": [
+     "たい"
+    ],
+    "kun": [
+     "かえる",
+     "かえ",
+     "かわる"
+    ],
+    "strokes": 12,
+    "grade": 8,
+    "freq": 979
+   }
+  },
+  {
+   "slug": "kanji-u9020",
+   "type": "kanji",
+   "term": "造",
+   "meaning": "Create, Make, Structure, Physique",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "つくる",
+   "romaji": "tsukuru/tsukuri/zukuri/zou",
+   "data": {
+    "on": [
+     "ぞう"
+    ],
+    "kun": [
+     "つくる",
+     "つくり",
+     "づくり"
+    ],
+    "strokes": 10,
+    "grade": 5,
+    "freq": 429
+   }
+  },
+  {
+   "slug": "kanji-u5370",
+   "type": "kanji",
+   "term": "印",
+   "meaning": "Stamp, Seal, Mark, Imprint, Symbol, Emblem, Trademark, Evidence, Souvenir, India",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "しるし",
+   "romaji": "shirushi/jirushi/shirusu/in",
+   "data": {
+    "on": [
+     "いん"
+    ],
+    "kun": [
+     "しるし",
+     "じるし",
+     "しるす"
+    ],
+    "strokes": 6,
+    "grade": 4,
+    "freq": 682
+   }
+  },
+  {
+   "slug": "kanji-u5fa9",
+   "type": "kanji",
+   "term": "復",
+   "meaning": "Restore, Return To, Revert, Resume",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "また",
+   "romaji": "mata/fuku",
+   "data": {
+    "on": [
+     "ふく"
+    ],
+    "kun": [
+     "また"
+    ],
+    "strokes": 12,
+    "grade": 5,
+    "freq": 438
+   }
+  },
+  {
+   "slug": "kanji-u7b46",
+   "type": "kanji",
+   "term": "筆",
+   "meaning": "Writing Brush, Writing, Painting Brush, Handwriting",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ふで",
+   "romaji": "fude/hitsu",
+   "data": {
+    "on": [
+     "ひつ"
+    ],
+    "kun": [
+     "ふで"
+    ],
+    "strokes": 12,
+    "grade": 3,
+    "freq": 1132
+   }
+  },
+  {
+   "slug": "kanji-u8caf",
+   "type": "kanji",
+   "term": "貯",
+   "meaning": "Savings, Store, Lay In, Keep, Wear Mustache",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ためる",
+   "romaji": "tameru/takuwaeru/cho",
+   "data": {
+    "on": [
+     "ちょ"
+    ],
+    "kun": [
+     "ためる",
+     "たくわえる"
+    ],
+    "strokes": 12,
+    "grade": 4,
+    "freq": 1100
+   }
+  },
+  {
+   "slug": "kanji-u523a",
+   "type": "kanji",
+   "term": "刺",
+   "meaning": "Thorn, Pierce, Stab, Prick, Sting, Calling Card",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "さす",
+   "romaji": "sasu/sasaru/sashi/toge/shi",
+   "data": {
+    "on": [
+     "し"
+    ],
+    "kun": [
+     "さす",
+     "ささる",
+     "さし",
+     "さし",
+     "とげ"
+    ],
+    "strokes": 8,
+    "grade": 8,
+    "freq": 1031
+   }
+  },
+  {
+   "slug": "kanji-u90f5",
+   "type": "kanji",
+   "term": "郵",
+   "meaning": "Mail, Stagecoach Stop",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ゆう",
+   "romaji": "yuu",
+   "data": {
+    "on": [
+     "ゆう"
+    ],
+    "kun": [],
+    "strokes": 11,
+    "grade": 6,
+    "freq": 917
+   }
+  },
+  {
+   "slug": "kanji-u91dd",
+   "type": "kanji",
+   "term": "針",
+   "meaning": "Needle, Pin, Staple, Stinger",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "はり",
+   "romaji": "hari/shin",
+   "data": {
+    "on": [
+     "しん"
+    ],
+    "kun": [
+     "はり"
+    ],
+    "strokes": 10,
+    "grade": 6,
+    "freq": 505
+   }
+  },
+  {
+   "slug": "kanji-u83d3",
+   "type": "kanji",
+   "term": "菓",
+   "meaning": "Candy, Cakes, Fruit",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "か",
+   "romaji": "ka",
+   "data": {
+    "on": [
+     "か"
+    ],
+    "kun": [],
+    "strokes": 11,
+    "grade": 8,
+    "freq": 1719
+   }
+  },
+  {
+   "slug": "kanji-u6cb3",
+   "type": "kanji",
+   "term": "河",
+   "meaning": "River",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "かわ",
+   "romaji": "kawa/ka",
+   "data": {
+    "on": [
+     "か"
+    ],
+    "kun": [
+     "かわ"
+    ],
+    "strokes": 8,
+    "grade": 5,
+    "freq": 663
+   }
+  },
+  {
+   "slug": "kanji-u6c57",
+   "type": "kanji",
+   "term": "汗",
+   "meaning": "Sweat, Perspire",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "あせ",
+   "romaji": "ase/kan",
+   "data": {
+    "on": [
+     "かん"
+    ],
+    "kun": [
+     "あせ"
+    ],
+    "strokes": 6,
+    "grade": 8,
+    "freq": 1502
+   }
+  },
+  {
+   "slug": "kanji-u518d",
+   "type": "kanji",
+   "term": "再",
+   "meaning": "Again, Twice, Second Time",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ふたたび",
+   "romaji": "futatabi/sai/sa",
+   "data": {
+    "on": [
+     "さい",
+     "さ"
+    ],
+    "kun": [
+     "ふたたび"
+    ],
+    "strokes": 6,
+    "grade": 5,
+    "freq": 275
+   }
+  },
+  {
+   "slug": "kanji-u63a5",
+   "type": "kanji",
+   "term": "接",
+   "meaning": "Touch, Contact, Adjoin, Piece Together",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "つぐ",
+   "romaji": "tsugu/setsu/shou",
+   "data": {
+    "on": [
+     "せつ",
+     "しょう"
+    ],
+    "kun": [
+     "つぐ"
+    ],
+    "strokes": 11,
+    "grade": 5,
+    "freq": 523
+   }
+  },
+  {
+   "slug": "kanji-u5360",
+   "type": "kanji",
+   "term": "占",
+   "meaning": "Fortune-telling, Divining, Forecasting, Occupy, Hold, Have, Get, Take",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "しめる",
+   "romaji": "shimeru/uranau/sen",
+   "data": {
+    "on": [
+     "せん"
+    ],
+    "kun": [
+     "しめる",
+     "うらなう"
+    ],
+    "strokes": 5,
+    "grade": 8,
+    "freq": 694
+   }
+  },
+  {
+   "slug": "kanji-u80c3",
+   "type": "kanji",
+   "term": "胃",
+   "meaning": "Stomach, Paunch, Crop, Craw",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "い",
+   "romaji": "i",
+   "data": {
+    "on": [
+     "い"
+    ],
+    "kun": [],
+    "strokes": 9,
+    "grade": 4,
+    "freq": 1647
+   }
+  },
+  {
+   "slug": "kanji-u60a9",
+   "type": "kanji",
+   "term": "悩",
+   "meaning": "Trouble, Worry, In Pain, Distress, Illness",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "なやむ",
+   "romaji": "nayamu/nayamasu/nayamashii/nayami/nou",
+   "data": {
+    "on": [
+     "のう"
+    ],
+    "kun": [
+     "なやむ",
+     "なやます",
+     "なやましい",
+     "なやみ"
+    ],
+    "strokes": 10,
+    "grade": 8,
+    "freq": 1084
+   }
+  },
+  {
+   "slug": "kanji-u6607",
+   "type": "kanji",
+   "term": "昇",
+   "meaning": "Rise Up",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "のぼる",
+   "romaji": "noboru/shou",
+   "data": {
+    "on": [
+     "しょう"
+    ],
+    "kun": [
+     "のぼる"
+    ],
+    "strokes": 8,
+    "grade": 8,
+    "freq": 826
+   }
+  },
+  {
+   "slug": "kanji-u6fc3",
+   "type": "kanji",
+   "term": "濃",
+   "meaning": "Concentrated, Thick, Dark, Undiluted",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "こい",
+   "romaji": "koi/nou",
+   "data": {
+    "on": [
+     "のう"
+    ],
+    "kun": [
+     "こい"
+    ],
+    "strokes": 16,
+    "grade": 8,
+    "freq": 1200
+   }
+  },
+  {
+   "slug": "kanji-u6975",
+   "type": "kanji",
+   "term": "極",
+   "meaning": "Poles, Settlement, Conclusion, End, Highest Rank, Electric Poles, Very, Extremely, Most, Highly, 10**48",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "きわめる",
+   "romaji": "kiwameru/kiwamaru/kiwamari/kiwami/kimeru/gime/kimaru/kyoku/goku",
+   "data": {
+    "on": [
+     "きょく",
+     "ごく"
+    ],
+    "kun": [
+     "きわめる",
+     "きわまる",
+     "きわまり",
+     "きわみ",
+     "きめる",
+     "ぎめ",
+     "きまる"
+    ],
+    "strokes": 12,
+    "grade": 4,
+    "freq": 460
+   }
+  },
+  {
+   "slug": "kanji-u9006",
+   "type": "kanji",
+   "term": "逆",
+   "meaning": "Inverted, Reverse, Opposite, Wicked",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "さか",
+   "romaji": "saka/sakasa/sakarau/gyaku/geki",
+   "data": {
+    "on": [
+     "ぎゃく",
+     "げき"
+    ],
+    "kun": [
+     "さか",
+     "さかさ",
+     "さからう"
+    ],
+    "strokes": 9,
+    "grade": 5,
+    "freq": 683
+   }
+  },
+  {
+   "slug": "kanji-u5de8",
+   "type": "kanji",
+   "term": "巨",
+   "meaning": "Gigantic, Big, Large, Great",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "きょ",
+   "romaji": "kyo",
+   "data": {
+    "on": [
+     "きょ"
+    ],
+    "kun": [],
+    "strokes": 5,
+    "grade": 8,
+    "freq": 892
+   }
+  },
+  {
+   "slug": "kanji-u5eab",
+   "type": "kanji",
+   "term": "庫",
+   "meaning": "Warehouse, Storehouse",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "くら",
+   "romaji": "kura/ko/ku",
+   "data": {
+    "on": [
+     "こ",
+     "く"
+    ],
+    "kun": [
+     "くら"
+    ],
+    "strokes": 10,
+    "grade": 3,
+    "freq": 852
+   }
+  },
+  {
+   "slug": "kanji-u5150",
+   "type": "kanji",
+   "term": "児",
+   "meaning": "Newborn Babe, Child, Young Of Animals",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "こ",
+   "romaji": "ko/kko/ji/ni/gei",
+   "data": {
+    "on": [
+     "じ",
+     "に",
+     "げい"
+    ],
+    "kun": [
+     "こ",
+     "こ",
+     "っこ"
+    ],
+    "strokes": 7,
+    "grade": 4,
+    "freq": 679
+   }
+  },
+  {
+   "slug": "kanji-u51cd",
+   "type": "kanji",
+   "term": "凍",
+   "meaning": "Frozen, Congeal, Refrigerate",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "こおる",
+   "romaji": "kooru/kogoeru/kogoru/iteru/shimiru/tou",
+   "data": {
+    "on": [
+     "とう"
+    ],
+    "kun": [
+     "こおる",
+     "こごえる",
+     "こごる",
+     "いてる",
+     "しみる"
+    ],
+    "strokes": 10,
+    "grade": 8,
+    "freq": 1284
+   }
+  },
+  {
+   "slug": "kanji-u5e7c",
+   "type": "kanji",
+   "term": "幼",
+   "meaning": "Infancy, Childhood",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "おさない",
+   "romaji": "osanai/you",
+   "data": {
+    "on": [
+     "よう"
+    ],
+    "kun": [
+     "おさない"
+    ],
+    "strokes": 5,
+    "grade": 6,
+    "freq": 1227
+   }
+  },
+  {
+   "slug": "kanji-u6e05",
+   "type": "kanji",
+   "term": "清",
+   "meaning": "Pure, Purify, Cleanse, Exorcise, Manchu Dynasty",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "きよい",
+   "romaji": "kiyoi/kiyomaru/kiyomeru/sei/shou/shin",
+   "data": {
+    "on": [
+     "せい",
+     "しょう",
+     "しん"
+    ],
+    "kun": [
+     "きよい",
+     "きよまる",
+     "きよめる"
+    ],
+    "strokes": 11,
+    "grade": 4,
+    "freq": 705
+   }
+  },
+  {
+   "slug": "kanji-u9332",
+   "type": "kanji",
+   "term": "録",
+   "meaning": "Record",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "しるす",
+   "romaji": "shirusu/toru/roku",
+   "data": {
+    "on": [
+     "ろく"
+    ],
+    "kun": [
+     "しるす",
+     "とる"
+    ],
+    "strokes": 16,
+    "grade": 4,
+    "freq": 546
+   }
+  },
+  {
+   "slug": "kanji-u5238",
+   "type": "kanji",
+   "term": "券",
+   "meaning": "Ticket",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "けん",
+   "romaji": "ken",
+   "data": {
+    "on": [
+     "けん"
+    ],
+    "kun": [],
+    "strokes": 8,
+    "grade": 5,
+    "freq": 583
+   }
+  },
+  {
+   "slug": "kanji-u79fb",
+   "type": "kanji",
+   "term": "移",
+   "meaning": "Shift, Move, Change, Drift, Catch (cold, Fire), Pass Into",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "うつる",
+   "romaji": "utsuru/utsusu/i",
+   "data": {
+    "on": [
+     "い"
+    ],
+    "kun": [
+     "うつる",
+     "うつす"
+    ],
+    "strokes": 11,
+    "grade": 5,
+    "freq": 448
+   }
+  },
+  {
+   "slug": "kanji-u4e26",
+   "type": "kanji",
+   "term": "並",
+   "meaning": "Row, And, Besides, As Well As, Line Up, Rank With, Rival, Equal",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "なみ",
+   "romaji": "nami/naraberu/narabu/narabini/hei/hou",
+   "data": {
+    "on": [
+     "へい",
+     "ほう"
+    ],
+    "kun": [
+     "なみ",
+     "なみ",
+     "ならべる",
+     "ならぶ",
+     "ならびに"
+    ],
+    "strokes": 8,
+    "grade": 6,
+    "freq": 599
+   }
+  },
+  {
+   "slug": "kanji-u4e7e",
+   "type": "kanji",
+   "term": "乾",
+   "meaning": "Drought, Dry, Dessicate, Drink Up, Heaven, Emperor",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "かわく",
+   "romaji": "kawaku/kawakasu/hosu/hiru/inui/kan/ken",
+   "data": {
+    "on": [
+     "かん",
+     "けん"
+    ],
+    "kun": [
+     "かわく",
+     "かわかす",
+     "ほす",
+     "ひる",
+     "いぬい"
+    ],
+    "strokes": 11,
+    "grade": 8,
+    "freq": 1453
+   }
+  },
+  {
+   "slug": "kanji-u6b27",
+   "type": "kanji",
+   "term": "欧",
+   "meaning": "Europe",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "うたう",
+   "romaji": "utau/haku/ou",
+   "data": {
+    "on": [
+     "おう"
+    ],
+    "kun": [
+     "うたう",
+     "はく"
+    ],
+    "strokes": 8,
+    "grade": 8,
+    "freq": 421
+   }
+  },
+  {
+   "slug": "kanji-u81e3",
+   "type": "kanji",
+   "term": "臣",
+   "meaning": "Retainer, Subject",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "しん",
+   "romaji": "shin/jin",
+   "data": {
+    "on": [
+     "しん",
+     "じん"
+    ],
+    "kun": [],
+    "strokes": 7,
+    "grade": 4,
+    "freq": 1249
+   }
+  },
+  {
+   "slug": "kanji-u7565",
+   "type": "kanji",
+   "term": "略",
+   "meaning": "Abbreviation, Omission, Outline, Shorten, Capture, Plunder",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ほぼ",
+   "romaji": "hobo/habuku/okasu/osameru/hakarigoto/hakaru/ryaku",
+   "data": {
+    "on": [
+     "りゃく"
+    ],
+    "kun": [
+     "ほぼ",
+     "はぶく",
+     "おかす",
+     "おさめる",
+     "はかりごと",
+     "はかる"
+    ],
+    "strokes": 11,
+    "grade": 5,
+    "freq": 774
+   }
+  },
+  {
+   "slug": "kanji-u822a",
+   "type": "kanji",
+   "term": "航",
+   "meaning": "Navigate, Sail, Cruise, Fly",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "こう",
+   "romaji": "kou",
+   "data": {
+    "on": [
+     "こう"
+    ],
+    "kun": [],
+    "strokes": 10,
+    "grade": 4,
+    "freq": 665
+   }
+  },
+  {
+   "slug": "kanji-u677f",
+   "type": "kanji",
+   "term": "板",
+   "meaning": "Plank, Board, Plate, Stage",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "いた",
+   "romaji": "ita/han/ban",
+   "data": {
+    "on": [
+     "はん",
+     "ばん"
+    ],
+    "kun": [
+     "いた"
+    ],
+    "strokes": 8,
+    "grade": 3,
+    "freq": 926
+   }
+  },
+  {
+   "slug": "kanji-u8a70",
+   "type": "kanji",
+   "term": "詰",
+   "meaning": "Packed, Close, Pressed, Reprove, Rebuke, Blame",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "つめる",
+   "romaji": "tsumeru/tsume/zume/tsumaru/tsumu/kitsu/kichi",
+   "data": {
+    "on": [
+     "きつ",
+     "きち"
+    ],
+    "kun": [
+     "つめる",
+     "つめ",
+     "づめ",
+     "つまる",
+     "つむ"
+    ],
+    "strokes": 13,
+    "grade": 8,
+    "freq": 1020
+   }
+  },
+  {
+   "slug": "kanji-u7167",
+   "type": "kanji",
+   "term": "照",
+   "meaning": "Illuminate, Shine, Compare, Bashful",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "てる",
+   "romaji": "teru/terasu/tereru/shou",
+   "data": {
+    "on": [
+     "しょう"
+    ],
+    "kun": [
+     "てる",
+     "てらす",
+     "てれる"
+    ],
+    "strokes": 13,
+    "grade": 4,
+    "freq": 1004
+   }
+  },
+  {
+   "slug": "kanji-u5feb",
+   "type": "kanji",
+   "term": "快",
+   "meaning": "Cheerful, Pleasant, Agreeable, Comfortable",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "こころよい",
+   "romaji": "kokoroyoi/kai",
+   "data": {
+    "on": [
+     "かい"
+    ],
+    "kun": [
+     "こころよい"
+    ],
+    "strokes": 7,
+    "grade": 5,
+    "freq": 1074
+   }
+  },
+  {
+   "slug": "kanji-u7248",
+   "type": "kanji",
+   "term": "版",
+   "meaning": "Printing Block, Printing Plate, Edition, Impression, Label",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "はん",
+   "romaji": "han",
+   "data": {
+    "on": [
+     "はん"
+    ],
+    "kun": [],
+    "strokes": 8,
+    "grade": 5,
+    "freq": 802
+   }
+  },
+  {
+   "slug": "kanji-u9810",
+   "type": "kanji",
+   "term": "預",
+   "meaning": "Deposit, Custody, Leave With, Entrust To",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "あずける",
+   "romaji": "azukeru/azukaru/yo",
+   "data": {
+    "on": [
+     "よ"
+    ],
+    "kun": [
+     "あずける",
+     "あずかる"
+    ],
+    "strokes": 13,
+    "grade": 5,
+    "freq": 981
+   }
+  },
+  {
+   "slug": "kanji-u5ef6",
+   "type": "kanji",
+   "term": "延",
+   "meaning": "Prolong, Stretching",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "のびる",
+   "romaji": "nobiru/noberu/nobe/nobasu/en",
+   "data": {
+    "on": [
+     "えん"
+    ],
+    "kun": [
+     "のびる",
+     "のべる",
+     "のべ",
+     "のばす"
+    ],
+    "strokes": 8,
+    "grade": 6,
+    "freq": 747
+   }
+  },
+  {
+   "slug": "kanji-u7fcc",
+   "type": "kanji",
+   "term": "翌",
+   "meaning": "The Following, Next",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "よく",
+   "romaji": "yoku",
+   "data": {
+    "on": [
+     "よく"
+    ],
+    "kun": [],
+    "strokes": 11,
+    "grade": 6,
+    "freq": 1070
+   }
+  },
+  {
+   "slug": "kanji-u7b26",
+   "type": "kanji",
+   "term": "符",
+   "meaning": "Token, Sign, Mark, Tally, Charm",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ふ",
+   "romaji": "fu",
+   "data": {
+    "on": [
+     "ふ"
+    ],
+    "kun": [],
+    "strokes": 11,
+    "grade": 8,
+    "freq": 1798
+   }
+  },
+  {
+   "slug": "kanji-u7de8",
+   "type": "kanji",
+   "term": "編",
+   "meaning": "Compilation, Knit, Plait, Braid, Twist, Editing, Completed Poem, Part Of A Book",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "あむ",
+   "romaji": "amu/ami/hen",
+   "data": {
+    "on": [
+     "へん"
+    ],
+    "kun": [
+     "あむ",
+     "あみ"
+    ],
+    "strokes": 15,
+    "grade": 5,
+    "freq": 591
+   }
+  },
+  {
+   "slug": "kanji-u666e",
+   "type": "kanji",
+   "term": "普",
+   "meaning": "Universal, Wide(ly), Generally, Prussia",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "あまねく",
+   "romaji": "amaneku/amaneshi/fu",
+   "data": {
+    "on": [
+     "ふ"
+    ],
+    "kun": [
+     "あまねく",
+     "あまねし"
+    ],
+    "strokes": 12,
+    "grade": 8,
+    "freq": 757
+   }
+  },
+  {
+   "slug": "kanji-u6383",
+   "type": "kanji",
+   "term": "掃",
+   "meaning": "Sweep, Brush",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "はく",
+   "romaji": "haku/sou/shu",
+   "data": {
+    "on": [
+     "そう",
+     "しゅ"
+    ],
+    "kun": [
+     "はく"
+    ],
+    "strokes": 11,
+    "grade": 8,
+    "freq": 1255
+   }
+  },
+  {
+   "slug": "kanji-u6ce5",
+   "type": "kanji",
+   "term": "泥",
+   "meaning": "Mud, Mire, Adhere To, Be Attached To",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "どろ",
+   "romaji": "doro/nazumu/dei/nai/de/ni",
+   "data": {
+    "on": [
+     "でい",
+     "ない",
+     "で",
+     "に"
+    ],
+    "kun": [
+     "どろ",
+     "なずむ"
+    ],
+    "strokes": 8,
+    "grade": 8,
+    "freq": 1589
+   }
+  },
+  {
+   "slug": "kanji-u68d2",
+   "type": "kanji",
+   "term": "棒",
+   "meaning": "Rod, Stick, Cane, Pole, Club, Line",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ぼう",
+   "romaji": "bou",
+   "data": {
+    "on": [
+     "ぼう"
+    ],
+    "kun": [],
+    "strokes": 12,
+    "grade": 6,
+    "freq": 1455
+   }
+  },
+  {
+   "slug": "kanji-u5b6b",
+   "type": "kanji",
+   "term": "孫",
+   "meaning": "Grandchild, Descendants",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "まご",
+   "romaji": "mago/son",
+   "data": {
+    "on": [
+     "そん"
+    ],
+    "kun": [
+     "まご"
+    ],
+    "strokes": 10,
+    "grade": 4,
+    "freq": 1388
+   }
+  },
+  {
+   "slug": "kanji-u5e2f",
+   "type": "kanji",
+   "term": "帯",
+   "meaning": "Sash, Belt, Obi, Zone, Region",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "おびる",
+   "romaji": "obiru/obi/tai",
+   "data": {
+    "on": [
+     "たい"
+    ],
+    "kun": [
+     "おびる",
+     "おび"
+    ],
+    "strokes": 10,
+    "grade": 4,
+    "freq": 746
+   }
+  },
+  {
+   "slug": "kanji-u7c89",
+   "type": "kanji",
+   "term": "粉",
+   "meaning": "Flour, Powder, Dust",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "デシメートル",
+   "romaji": "deshimeetoru/ko/kona/fun",
+   "data": {
+    "on": [
+     "ふん"
+    ],
+    "kun": [
+     "デシメートル",
+     "こ",
+     "こな"
+    ],
+    "strokes": 10,
+    "grade": 4,
+    "freq": 1484
+   }
+  },
+  {
+   "slug": "kanji-u83dc",
+   "type": "kanji",
+   "term": "菜",
+   "meaning": "Vegetable, Side Dish, Greens",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "な",
+   "romaji": "na/sai",
+   "data": {
+    "on": [
+     "さい"
+    ],
+    "kun": [
+     "な"
+    ],
+    "strokes": 11,
+    "grade": 4,
+    "freq": 1327
+   }
+  },
+  {
+   "slug": "kanji-u8ca8",
+   "type": "kanji",
+   "term": "貨",
+   "meaning": "Freight, Goods, Property",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "たから",
+   "romaji": "takara/ka",
+   "data": {
+    "on": [
+     "か"
+    ],
+    "kun": [
+     "たから"
+    ],
+    "strokes": 11,
+    "grade": 4,
+    "freq": 822
+   }
+  },
+  {
+   "slug": "kanji-u9678",
+   "type": "kanji",
+   "term": "陸",
+   "meaning": "Land, Six",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "おか",
+   "romaji": "oka/riku/roku",
+   "data": {
+    "on": [
+     "りく",
+     "ろく"
+    ],
+    "kun": [
+     "おか"
+    ],
+    "strokes": 11,
+    "grade": 4,
+    "freq": 736
+   }
+  },
+  {
+   "slug": "kanji-u5747",
+   "type": "kanji",
+   "term": "均",
+   "meaning": "Level, Average",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ならす",
+   "romaji": "narasu/kin",
+   "data": {
+    "on": [
+     "きん"
+    ],
+    "kun": [
+     "ならす"
+    ],
+    "strokes": 7,
+    "grade": 5,
+    "freq": 715
+   }
+  },
+  {
+   "slug": "kanji-u63a1",
+   "type": "kanji",
+   "term": "採",
+   "meaning": "Pick, Take, Fetch, Take Up",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "とる",
+   "romaji": "toru/sai",
+   "data": {
+    "on": [
+     "さい"
+    ],
+    "kun": [
+     "とる"
+    ],
+    "strokes": 11,
+    "grade": 5,
+    "freq": 607
+   }
+  },
+  {
+   "slug": "kanji-u6c38",
+   "type": "kanji",
+   "term": "永",
+   "meaning": "Eternity, Long, Lengthy",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ながい",
+   "romaji": "nagai/ei",
+   "data": {
+    "on": [
+     "えい"
+    ],
+    "kun": [
+     "ながい"
+    ],
+    "strokes": 5,
+    "grade": 5,
+    "freq": 846
+   }
+  },
+  {
+   "slug": "kanji-u6db2",
+   "type": "kanji",
+   "term": "液",
+   "meaning": "Fluid, Liquid, Juice, Sap, Secretion",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "えき",
+   "romaji": "eki",
+   "data": {
+    "on": [
+     "えき"
+    ],
+    "kun": [],
+    "strokes": 11,
+    "grade": 5,
+    "freq": 1210
+   }
+  },
+  {
+   "slug": "kanji-u7e3e",
+   "type": "kanji",
+   "term": "績",
+   "meaning": "Exploits, Achievements, Unreeling Cocoons",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "せき",
+   "romaji": "seki",
+   "data": {
+    "on": [
+     "せき"
+    ],
+    "kun": [],
+    "strokes": 17,
+    "grade": 5,
+    "freq": 820
+   }
+  },
+  {
+   "slug": "kanji-u8907",
+   "type": "kanji",
+   "term": "複",
+   "meaning": "Duplicate, Double, Compound, Multiple",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ふく",
+   "romaji": "fuku",
+   "data": {
+    "on": [
+     "ふく"
+    ],
+    "kun": [],
+    "strokes": 14,
+    "grade": 5,
+    "freq": 915
+   }
+  },
+  {
+   "slug": "kanji-u515a",
+   "type": "kanji",
+   "term": "党",
+   "meaning": "Party, Faction, Clique",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "なかま",
+   "romaji": "nakama/mura/tou",
+   "data": {
+    "on": [
+     "とう"
+    ],
+    "kun": [
+     "なかま",
+     "むら"
+    ],
+    "strokes": 10,
+    "grade": 6,
+    "freq": 39
+   }
+  },
+  {
+   "slug": "kanji-u5375",
+   "type": "kanji",
+   "term": "卵",
+   "meaning": "Egg, Ovum, Spawn, Roe",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "たまご",
+   "romaji": "tamago/ran",
+   "data": {
+    "on": [
+     "らん"
+    ],
+    "kun": [
+     "たまご"
+    ],
+    "strokes": 7,
+    "grade": 6,
+    "freq": 1342
+   }
+  },
+  {
+   "slug": "kanji-u6368",
+   "type": "kanji",
+   "term": "捨",
+   "meaning": "Discard, Throw Away, Abandon, Resign, Reject, Sacrifice",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "すてる",
+   "romaji": "suteru/sha",
+   "data": {
+    "on": [
+     "しゃ"
+    ],
+    "kun": [
+     "すてる"
+    ],
+    "strokes": 11,
+    "grade": 6,
+    "freq": 1266
+   }
+  },
+  {
+   "slug": "kanji-u6c5a",
+   "type": "kanji",
+   "term": "汚",
+   "meaning": "Dirty, Pollute, Disgrace, Rape, Defile",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "けがす",
+   "romaji": "kegasu/kegareru/kegarawashii/yogosu/yogoreru/kitanai/o",
+   "data": {
+    "on": [
+     "お"
+    ],
+    "kun": [
+     "けがす",
+     "けがれる",
+     "けがらわしい",
+     "よごす",
+     "よごれる",
+     "きたない"
+    ],
+    "strokes": 6,
+    "grade": 8,
+    "freq": 908
+   }
+  },
+  {
+   "slug": "kanji-u673a",
+   "type": "kanji",
+   "term": "机",
+   "meaning": "Desk, Table",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "つくえ",
+   "romaji": "tsukue/ki",
+   "data": {
+    "on": [
+     "き"
+    ],
+    "kun": [
+     "つくえ"
+    ],
+    "strokes": 6,
+    "grade": 6,
+    "freq": 1671
+   }
+  },
+  {
+   "slug": "kanji-u7c21",
+   "type": "kanji",
+   "term": "簡",
+   "meaning": "Simplicity, Brevity",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "えらぶ",
+   "romaji": "erabu/fuda/kan/ken",
+   "data": {
+    "on": [
+     "かん",
+     "けん"
+    ],
+    "kun": [
+     "えらぶ",
+     "ふだ"
+    ],
+    "strokes": 18,
+    "grade": 6,
+    "freq": 983
+   }
+  },
+  {
+   "slug": "kanji-u8a8c",
+   "type": "kanji",
+   "term": "誌",
+   "meaning": "Document, Records",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "し",
+   "romaji": "shi",
+   "data": {
+    "on": [
+     "し"
+    ],
+    "kun": [],
+    "strokes": 14,
+    "grade": 6,
+    "freq": 851
+   }
+  },
+  {
+   "slug": "kanji-u5b9d",
+   "type": "kanji",
+   "term": "宝",
+   "meaning": "Treasure, Wealth, Valuables",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "たから",
+   "romaji": "takara/hou",
+   "data": {
+    "on": [
+     "ほう"
+    ],
+    "kun": [
+     "たから"
+    ],
+    "strokes": 8,
+    "grade": 6,
+    "freq": 1139
+   }
+  },
+  {
+   "slug": "kanji-u5c0a",
+   "type": "kanji",
+   "term": "尊",
+   "meaning": "Revered, Valuable, Precious, Noble, Exalted",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "たっとい",
+   "romaji": "tattoi/toutoi/tattobu/toutobu/son",
+   "data": {
+    "on": [
+     "そん"
+    ],
+    "kun": [
+     "たっとい",
+     "とうとい",
+     "たっとぶ",
+     "とうとぶ"
+    ],
+    "strokes": 12,
+    "grade": 6,
+    "freq": 1181
+   }
+  },
+  {
+   "slug": "kanji-u656c",
+   "type": "kanji",
+   "term": "敬",
+   "meaning": "Awe, Respect, Honor, Revere",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "うやまう",
+   "romaji": "uyamau/kei/kyou",
+   "data": {
+    "on": [
+     "けい",
+     "きょう"
+    ],
+    "kun": [
+     "うやまう"
+    ],
+    "strokes": 12,
+    "grade": 6,
+    "freq": 1078
+   }
+  },
+  {
+   "slug": "kanji-u7070",
+   "type": "kanji",
+   "term": "灰",
+   "meaning": "Ashes, Puckery Juice, Cremate",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "はい",
+   "romaji": "hai/kai",
+   "data": {
+    "on": [
+     "かい"
+    ],
+    "kun": [
+     "はい"
+    ],
+    "strokes": 6,
+    "grade": 6,
+    "freq": 1717
+   }
+  },
+  {
+   "slug": "kanji-u7802",
+   "type": "kanji",
+   "term": "砂",
+   "meaning": "Sand",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "すな",
+   "romaji": "suna/sa/sha",
+   "data": {
+    "on": [
+     "さ",
+     "しゃ"
+    ],
+    "kun": [
+     "すな"
+    ],
+    "strokes": 9,
+    "grade": 6,
+    "freq": 1146
+   }
+  },
+  {
+   "slug": "kanji-u8457",
+   "type": "kanji",
+   "term": "著",
+   "meaning": "Renowned, Publish, Write, Remarkable, Phenomenal, Put On, Don, Wear, Arrival, Finish (race), Counter For Suits Of Clothing, Literary Work",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "あらわす",
+   "romaji": "arawasu/ichijirushii/cho/chaku",
+   "data": {
+    "on": [
+     "ちょ",
+     "ちゃく"
+    ],
+    "kun": [
+     "あらわす",
+     "いちじるしい"
+    ],
+    "strokes": 11,
+    "grade": 6,
+    "freq": 849
+   }
+  },
+  {
+   "slug": "kanji-u84b8",
+   "type": "kanji",
+   "term": "蒸",
+   "meaning": "Steam, Heat, Sultry, Foment, Get Musty",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "むす",
+   "romaji": "musu/mureru/murasu/jou/sei",
+   "data": {
+    "on": [
+     "じょう",
+     "せい"
+    ],
+    "kun": [
+     "むす",
+     "むれる",
+     "むらす"
+    ],
+    "strokes": 13,
+    "grade": 6,
+    "freq": 1552
+   }
+  },
+  {
+   "slug": "kanji-u8535",
+   "type": "kanji",
+   "term": "蔵",
+   "meaning": "Storehouse, Hide, Own, Have, Possess",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "くら",
+   "romaji": "kura/osameru/kakureru/zou/sou",
+   "data": {
+    "on": [
+     "ぞう",
+     "そう"
+    ],
+    "kun": [
+     "くら",
+     "おさめる",
+     "かくれる"
+    ],
+    "strokes": 15,
+    "grade": 6,
+    "freq": 468
+   }
+  },
+  {
+   "slug": "kanji-u88c5",
+   "type": "kanji",
+   "term": "装",
+   "meaning": "Attire, Dress, Pretend, Disguise, Profess",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "よそおう",
+   "romaji": "yosoou/yosooi/sou/shou",
+   "data": {
+    "on": [
+     "そう",
+     "しょう"
+    ],
+    "kun": [
+     "よそおう",
+     "よそおい"
+    ],
+    "strokes": 12,
+    "grade": 6,
+    "freq": 657
+   }
+  },
+  {
+   "slug": "kanji-u88cf",
+   "type": "kanji",
+   "term": "裏",
+   "meaning": "Back, Amidst, In, Reverse, Inside, Palm, Sole, Rear, Lining, Wrong Side",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "うら",
+   "romaji": "ura/ri",
+   "data": {
+    "on": [
+     "り"
+    ],
+    "kun": [
+     "うら"
+    ],
+    "strokes": 13,
+    "grade": 6,
+    "freq": 812
+   }
+  },
+  {
+   "slug": "kanji-u8af8",
+   "type": "kanji",
+   "term": "諸",
+   "meaning": "Various, Many, Several, Together",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "もろ",
+   "romaji": "moro/sho",
+   "data": {
+    "on": [
+     "しょ"
+    ],
+    "kun": [
+     "もろ"
+    ],
+    "strokes": 15,
+    "grade": 6,
+    "freq": 658
+   }
+  },
+  {
+   "slug": "kanji-u81d3",
+   "type": "kanji",
+   "term": "臓",
+   "meaning": "Entrails, Viscera, Bowels",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "はらわた",
+   "romaji": "harawata/zou",
+   "data": {
+    "on": [
+     "ぞう"
+    ],
+    "kun": [
+     "はらわた"
+    ],
+    "strokes": 19,
+    "grade": 6,
+    "freq": 991
+   }
+  },
+  {
+   "slug": "kanji-u7d14",
+   "type": "kanji",
+   "term": "純",
+   "meaning": "Genuine, Purity, Innocence, Net (profit)",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "じゅん",
+   "romaji": "jun",
+   "data": {
+    "on": [
+     "じゅん"
+    ],
+    "kun": [],
+    "strokes": 10,
+    "grade": 6,
+    "freq": 1044
+   }
+  },
+  {
+   "slug": "kanji-u7d05",
+   "type": "kanji",
+   "term": "紅",
+   "meaning": "Crimson, Deep Red",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "べに",
+   "romaji": "beni/kurenai/akai/kou/ku",
+   "data": {
+    "on": [
+     "こう",
+     "く"
+    ],
+    "kun": [
+     "べに",
+     "くれない",
+     "あかい"
+    ],
+    "strokes": 9,
+    "grade": 6,
+    "freq": 1299
+   }
+  },
+  {
+   "slug": "kanji-u62dd",
+   "type": "kanji",
+   "term": "拝",
+   "meaning": "Worship, Adore, Pray To",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "おがむ",
+   "romaji": "ogamu/orogamu/hai",
+   "data": {
+    "on": [
+     "はい"
+    ],
+    "kun": [
+     "おがむ",
+     "おろがむ"
+    ],
+    "strokes": 8,
+    "grade": 6,
+    "freq": 1443
+   }
+  },
+  {
+   "slug": "kanji-u5287",
+   "type": "kanji",
+   "term": "劇",
+   "meaning": "Drama, Play",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "げき",
+   "romaji": "geki",
+   "data": {
+    "on": [
+     "げき"
+    ],
+    "kun": [],
+    "strokes": 15,
+    "grade": 6,
+    "freq": 662
+   }
+  },
+  {
+   "slug": "kanji-u627f",
+   "type": "kanji",
+   "term": "承",
+   "meaning": "Acquiesce, Hear, Listen To, Be Informed, Receive",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "うけたまわる",
+   "romaji": "uketamawaru/ukeru/shou/jou",
+   "data": {
+    "on": [
+     "しょう",
+     "じょう"
+    ],
+    "kun": [
+     "うけたまわる",
+     "うける"
+    ],
+    "strokes": 8,
+    "grade": 5,
+    "freq": 775
+   }
+  },
+  {
+   "slug": "kanji-u640d",
+   "type": "kanji",
+   "term": "損",
+   "meaning": "Damage, Loss, Disadvantage, Hurt, Injure",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "そこなう",
+   "romaji": "sokonau/sokoneru/son",
+   "data": {
+    "on": [
+     "そん"
+    ],
+    "kun": [
+     "そこなう",
+     "そこなう",
+     "そこなう",
+     "そこねる",
+     "そこねる"
+    ],
+    "strokes": 13,
+    "grade": 5,
+    "freq": 807
+   }
+  },
+  {
+   "slug": "kanji-u679d",
+   "type": "kanji",
+   "term": "枝",
+   "meaning": "Bough, Branch, Twig, Limb, Counter For Branches",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "えだ",
+   "romaji": "eda/shi",
+   "data": {
+    "on": [
+     "し"
+    ],
+    "kun": [
+     "えだ"
+    ],
+    "strokes": 8,
+    "grade": 5,
+    "freq": 1401
+   }
+  },
+  {
+   "slug": "kanji-u6e2c",
+   "type": "kanji",
+   "term": "測",
+   "meaning": "Fathom, Plan, Scheme, Measure",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "はかる",
+   "romaji": "hakaru/soku",
+   "data": {
+    "on": [
+     "そく"
+    ],
+    "kun": [
+     "はかる"
+    ],
+    "strokes": 12,
+    "grade": 5,
+    "freq": 761
+   }
+  },
+  {
+   "slug": "kanji-u8b1b",
+   "type": "kanji",
+   "term": "講",
+   "meaning": "Lecture, Club, Association",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "こう",
+   "romaji": "kou",
+   "data": {
+    "on": [
+     "こう"
+    ],
+    "kun": [],
+    "strokes": 17,
+    "grade": 5,
+    "freq": 653
+   }
+  },
+  {
+   "slug": "kanji-u7d39",
+   "type": "kanji",
+   "term": "紹",
+   "meaning": "Introduce, Inherit, Help",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "しょう",
+   "romaji": "shou",
+   "data": {
+    "on": [
+     "しょう"
+    ],
+    "kun": [],
+    "strokes": 11,
+    "grade": 8,
+    "freq": 963
+   }
+  },
+  {
+   "slug": "kanji-u4ecb",
+   "type": "kanji",
+   "term": "介",
+   "meaning": "Jammed In, Shellfish, Mediate, Concern Oneself With",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "かい",
+   "romaji": "kai",
+   "data": {
+    "on": [
+     "かい"
+    ],
+    "kun": [],
+    "strokes": 4,
+    "grade": 8,
+    "freq": 617
+   }
+  },
+  {
+   "slug": "kanji-u6e56",
+   "type": "kanji",
+   "term": "湖",
+   "meaning": "Lake",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "みずうみ",
+   "romaji": "mizuumi/ko",
+   "data": {
+    "on": [
+     "こ"
+    ],
+    "kun": [
+     "みずうみ"
+    ],
+    "strokes": 12,
+    "grade": 3,
+    "freq": 1344
+   }
+  },
+  {
+   "slug": "kanji-u9285",
+   "type": "kanji",
+   "term": "銅",
+   "meaning": "Copper",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "あかがね",
+   "romaji": "akagane/dou",
+   "data": {
+    "on": [
+     "どう"
+    ],
+    "kun": [
+     "あかがね"
+    ],
+    "strokes": 14,
+    "grade": 5,
+    "freq": 1505
+   }
+  },
+  {
+   "slug": "kanji-u6cb9",
+   "type": "kanji",
+   "term": "油",
+   "meaning": "Oil, Fat",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "あぶら",
+   "romaji": "abura/yu/yuu",
+   "data": {
+    "on": [
+     "ゆ",
+     "ゆう"
+    ],
+    "kun": [
+     "あぶら"
+    ],
+    "strokes": 8,
+    "grade": 3,
+    "freq": 690
+   }
+  },
+  {
+   "slug": "kanji-u65e7",
+   "type": "kanji",
+   "term": "旧",
+   "meaning": "Old Times, Old Things, Old Friend, Former, Ex-",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ふるい",
+   "romaji": "furui/moto/kyuu",
+   "data": {
+    "on": [
+     "きゅう"
+    ],
+    "kun": [
+     "ふるい",
+     "もと"
+    ],
+    "strokes": 5,
+    "grade": 5,
+    "freq": 549
+   }
+  },
+  {
+   "slug": "kanji-u59d3",
+   "type": "kanji",
+   "term": "姓",
+   "meaning": "Surname",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "せい",
+   "romaji": "sei/shou",
+   "data": {
+    "on": [
+     "せい",
+     "しょう"
+    ],
+    "kun": [],
+    "strokes": 8,
+    "grade": 8,
+    "freq": 1628
+   }
+  },
+  {
+   "slug": "kanji-u8cbf",
+   "type": "kanji",
+   "term": "貿",
+   "meaning": "Trade, Exchange",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ぼう",
+   "romaji": "bou",
+   "data": {
+    "on": [
+     "ぼう"
+    ],
+    "kun": [],
+    "strokes": 12,
+    "grade": 5,
+    "freq": 652
+   }
+  },
+  {
+   "slug": "kanji-u5c06",
+   "type": "kanji",
+   "term": "将",
+   "meaning": "Leader, Commander, General, Admiral, Or, And Again, Soon, From Now On, Just About",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "まさに",
+   "romaji": "masani/hata/masa/hikiiru/motte/shou/sou",
+   "data": {
+    "on": [
+     "しょう",
+     "そう"
+    ],
+    "kun": [
+     "まさに",
+     "はた",
+     "まさ",
+     "ひきいる",
+     "もって"
+    ],
+    "strokes": 10,
+    "grade": 6,
+    "freq": 634
+   }
+  },
+  {
+   "slug": "kanji-u4f38",
+   "type": "kanji",
+   "term": "伸",
+   "meaning": "Expand, Stretch, Extend, Lengthen, Increase",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "のびる",
+   "romaji": "nobiru/nobasu/noberu/nosu/shin",
+   "data": {
+    "on": [
+     "しん"
+    ],
+    "kun": [
+     "のびる",
+     "のばす",
+     "のべる",
+     "のす"
+    ],
+    "strokes": 7,
+    "grade": 8,
+    "freq": 730
+   }
+  },
+  {
+   "slug": "kanji-u5e45",
+   "type": "kanji",
+   "term": "幅",
+   "meaning": "Hanging Scroll, Width",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "はば",
+   "romaji": "haba/fuku",
+   "data": {
+    "on": [
+     "ふく"
+    ],
+    "kun": [
+     "はば"
+    ],
+    "strokes": 12,
+    "grade": 8,
+    "freq": 641
+   }
+  },
+  {
+   "slug": "kanji-u7518",
+   "type": "kanji",
+   "term": "甘",
+   "meaning": "Sweet, Coax, Pamper, Be Content, Sugary",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "あまい",
+   "romaji": "amai/amaeru/amayakasu/umai/kan",
+   "data": {
+    "on": [
+     "かん"
+    ],
+    "kun": [
+     "あまい",
+     "あまえる",
+     "あまやかす",
+     "うまい"
+    ],
+    "strokes": 5,
+    "grade": 8,
+    "freq": 1248
+   }
+  },
+  {
+   "slug": "kanji-u63db",
+   "type": "kanji",
+   "term": "換",
+   "meaning": "Interchange, Period, Change, Convert, Replace, Renew",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "かえる",
+   "romaji": "kaeru/kawaru/kan",
+   "data": {
+    "on": [
+     "かん"
+    ],
+    "kun": [
+     "かえる",
+     "かえる",
+     "かわる"
+    ],
+    "strokes": 12,
+    "grade": 8,
+    "freq": 687
+   }
+  },
+  {
+   "slug": "kanji-u7642",
+   "type": "kanji",
+   "term": "療",
+   "meaning": "Heal, Cure",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "りょう",
+   "romaji": "ryou",
+   "data": {
+    "on": [
+     "りょう"
+    ],
+    "kun": [],
+    "strokes": 17,
+    "grade": 8,
+    "freq": 600
+   }
+  },
+  {
+   "slug": "kanji-u822c",
+   "type": "kanji",
+   "term": "般",
+   "meaning": "Carrier, Carry, All, General, Sort, Kind",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "はん",
+   "romaji": "han",
+   "data": {
+    "on": [
+     "はん"
+    ],
+    "kun": [],
+    "strokes": 10,
+    "grade": 8,
+    "freq": 649
+   }
+  },
+  {
+   "slug": "kanji-u4f9d",
+   "type": "kanji",
+   "term": "依",
+   "meaning": "Reliant, Depend On, Consequently, Therefore, Due To",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "よる",
+   "romaji": "yoru/i/e",
+   "data": {
+    "on": [
+     "い",
+     "え"
+    ],
+    "kun": [
+     "よる"
+    ],
+    "strokes": 8,
+    "grade": 8,
+    "freq": 906
+   }
+  },
+  {
+   "slug": "kanji-u6f01",
+   "type": "kanji",
+   "term": "漁",
+   "meaning": "Fishing, Fishery",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "あさる",
+   "romaji": "asaru/gyo/ryou",
+   "data": {
+    "on": [
+     "ぎょ",
+     "りょう"
+    ],
+    "kun": [
+     "あさる"
+    ],
+    "strokes": 14,
+    "grade": 4,
+    "freq": 1094
+   }
+  },
+  {
+   "slug": "kanji-u52df",
+   "type": "kanji",
+   "term": "募",
+   "meaning": "Recruit, Campaign, Gather (contributions), Enlist, Grow Violent",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "つのる",
+   "romaji": "tsunoru/bo",
+   "data": {
+    "on": [
+     "ぼ"
+    ],
+    "kun": [
+     "つのる"
+    ],
+    "strokes": 12,
+    "grade": 8,
+    "freq": 809
+   }
+  },
+  {
+   "slug": "kanji-u60a3",
+   "type": "kanji",
+   "term": "患",
+   "meaning": "Afflicted, Disease, Suffer From, Be Ill",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "わずらう",
+   "romaji": "wazurau/kan",
+   "data": {
+    "on": [
+     "かん"
+    ],
+    "kun": [
+     "わずらう"
+    ],
+    "strokes": 11,
+    "grade": 8,
+    "freq": 796
+   }
+  },
+  {
+   "slug": "kanji-u6e7e",
+   "type": "kanji",
+   "term": "湾",
+   "meaning": "Gulf, Bay, Inlet",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "いりえ",
+   "romaji": "irie/wan",
+   "data": {
+    "on": [
+     "わん"
+    ],
+    "kun": [
+     "いりえ"
+    ],
+    "strokes": 12,
+    "grade": 8,
+    "freq": 545
+   }
+  },
+  {
+   "slug": "kanji-u7206",
+   "type": "kanji",
+   "term": "爆",
+   "meaning": "Bomb, Burst Open, Pop, Split",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "はぜる",
+   "romaji": "hazeru/baku",
+   "data": {
+    "on": [
+     "ばく"
+    ],
+    "kun": [
+     "はぜる"
+    ],
+    "strokes": 19,
+    "grade": 8,
+    "freq": 735
+   }
+  },
+  {
+   "slug": "kanji-u8de1",
+   "type": "kanji",
+   "term": "跡",
+   "meaning": "Tracks, Mark, Print, Impression",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "あと",
+   "romaji": "ato/seki",
+   "data": {
+    "on": [
+     "せき"
+    ],
+    "kun": [
+     "あと"
+    ],
+    "strokes": 13,
+    "grade": 8,
+    "freq": 953
+   }
+  },
+  {
+   "slug": "kanji-u9999",
+   "type": "kanji",
+   "term": "香",
+   "meaning": "Incense, Smell, Perfume",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "か",
+   "romaji": "ka/kaori/kaoru/kou/kyou",
+   "data": {
+    "on": [
+     "こう",
+     "きょう"
+    ],
+    "kun": [
+     "か",
+     "かおり",
+     "かおる"
+    ],
+    "strokes": 9,
+    "grade": 8,
+    "freq": 859
+   }
+  },
+  {
+   "slug": "kanji-u5146",
+   "type": "kanji",
+   "term": "兆",
+   "meaning": "Portent, 10**12, Trillion, Sign, Omen, Symptoms",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "きざす",
+   "romaji": "kizasu/kizashi/chou",
+   "data": {
+    "on": [
+     "ちょう"
+    ],
+    "kun": [
+     "きざす",
+     "きざし"
+    ],
+    "strokes": 6,
+    "grade": 4,
+    "freq": 1174
+   }
+  },
+  {
+   "slug": "kanji-u9f62",
+   "type": "kanji",
+   "term": "齢",
+   "meaning": "Age",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "よわい",
+   "romaji": "yowai/toshi/rei",
+   "data": {
+    "on": [
+     "れい"
+    ],
+    "kun": [
+     "よわい",
+     "とし"
+    ],
+    "strokes": 17,
+    "grade": 8,
+    "freq": 770
+   }
+  },
+  {
+   "slug": "kanji-u520a",
+   "type": "kanji",
+   "term": "刊",
+   "meaning": "Publish, Carve, Engrave",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "かん",
+   "romaji": "kan",
+   "data": {
+    "on": [
+     "かん"
+    ],
+    "kun": [],
+    "strokes": 5,
+    "grade": 5,
+    "freq": 855
+   }
+  },
+  {
+   "slug": "kanji-u50be",
+   "type": "kanji",
+   "term": "傾",
+   "meaning": "Lean, Incline, Tilt, Trend, Wane, Sink, Ruin, Bias",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "かたむく",
+   "romaji": "katamuku/katamukeru/katabuku/katageru/kashigeru/kei",
+   "data": {
+    "on": [
+     "けい"
+    ],
+    "kun": [
+     "かたむく",
+     "かたむける",
+     "かたぶく",
+     "かたげる",
+     "かしげる"
+    ],
+    "strokes": 13,
+    "grade": 8,
+    "freq": 938
+   }
+  },
+  {
+   "slug": "kanji-u5965",
+   "type": "kanji",
+   "term": "奥",
+   "meaning": "Heart, Interior",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "おく",
+   "romaji": "oku/okumaru/kuma/ou",
+   "data": {
+    "on": [
+     "おう"
+    ],
+    "kun": [
+     "おく",
+     "おくまる",
+     "くま"
+    ],
+    "strokes": 12,
+    "grade": 8,
+    "freq": 1018
+   }
+  },
+  {
+   "slug": "kanji-u8d08",
+   "type": "kanji",
+   "term": "贈",
+   "meaning": "Presents, Send, Give To, Award To, Confer On, Presenting Something",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "おくる",
+   "romaji": "okuru/zou/sou",
+   "data": {
+    "on": [
+     "ぞう",
+     "そう"
+    ],
+    "kun": [
+     "おくる"
+    ],
+    "strokes": 18,
+    "grade": 8,
+    "freq": 1001
+   }
+  },
+  {
+   "slug": "kanji-u8d85",
+   "type": "kanji",
+   "term": "超",
+   "meaning": "Transcend, Super-, Ultra-",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "こえる",
+   "romaji": "koeru/kosu/chou",
+   "data": {
+    "on": [
+     "ちょう"
+    ],
+    "kun": [
+     "こえる",
+     "こす"
+    ],
+    "strokes": 12,
+    "grade": 8,
+    "freq": 597
+   }
+  },
+  {
+   "slug": "kanji-u96c7",
+   "type": "kanji",
+   "term": "雇",
+   "meaning": "Employ, Hire",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "やとう",
+   "romaji": "yatou/ko",
+   "data": {
+    "on": [
+     "こ"
+    ],
+    "kun": [
+     "やとう"
+    ],
+    "strokes": 12,
+    "grade": 8,
+    "freq": 975
+   }
+  },
+  {
+   "slug": "kanji-u7247",
+   "type": "kanji",
+   "term": "片",
+   "meaning": "One-sided, Leaf, Sheet",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "かた",
+   "romaji": "kata/hen",
+   "data": {
+    "on": [
+     "へん"
+    ],
+    "kun": [
+     "かた",
+     "かた"
+    ],
+    "strokes": 4,
+    "grade": 6,
+    "freq": 1076
+   }
+  },
+  {
+   "slug": "kanji-u7fa4",
+   "type": "kanji",
+   "term": "群",
+   "meaning": "Flock, Group, Crowd, Herd, Swarm, Cluster",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "むれる",
+   "romaji": "mureru/mure/mura/muragaru/gun",
+   "data": {
+    "on": [
+     "ぐん"
+    ],
+    "kun": [
+     "むれる",
+     "むれ",
+     "むら",
+     "むらがる"
+    ],
+    "strokes": 13,
+    "grade": 5,
+    "freq": 1012
+   }
+  },
+  {
+   "slug": "kanji-u57cb",
+   "type": "kanji",
+   "term": "埋",
+   "meaning": "Bury, Be Filled Up, Embedded",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "うめる",
+   "romaji": "umeru/umaru/umoreru/uzumeru/uzumaru/ikeru/mai",
+   "data": {
+    "on": [
+     "まい"
+    ],
+    "kun": [
+     "うめる",
+     "うまる",
+     "うもれる",
+     "うずめる",
+     "うずまる",
+     "いける"
+    ],
+    "strokes": 10,
+    "grade": 8,
+    "freq": 1110
+   }
+  },
+  {
+   "slug": "kanji-u99d0",
+   "type": "kanji",
+   "term": "駐",
+   "meaning": "Stop-over, Reside In, Resident",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ちゅう",
+   "romaji": "chuu",
+   "data": {
+    "on": [
+     "ちゅう"
+    ],
+    "kun": [],
+    "strokes": 15,
+    "grade": 8,
+    "freq": 955
+   }
+  },
+  {
+   "slug": "kanji-u67f1",
+   "type": "kanji",
+   "term": "柱",
+   "meaning": "Pillar, Post, Cylinder, Support",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "はしら",
+   "romaji": "hashira/chuu",
+   "data": {
+    "on": [
+     "ちゅう"
+    ],
+    "kun": [
+     "はしら"
+    ],
+    "strokes": 9,
+    "grade": 3,
+    "freq": 1119
+   }
+  },
+  {
+   "slug": "kanji-u92ed",
+   "type": "kanji",
+   "term": "鋭",
+   "meaning": "Pointed, Sharpness, Edge, Weapon, Sharp, Violent",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "するどい",
+   "romaji": "surudoi/ei",
+   "data": {
+    "on": [
+     "えい"
+    ],
+    "kun": [
+     "するどい"
+    ],
+    "strokes": 15,
+    "grade": 8,
+    "freq": 1395
+   }
+  },
+  {
+   "slug": "kanji-u6bbf",
+   "type": "kanji",
+   "term": "殿",
+   "meaning": "Mr., Hall, Mansion, Palace, Temple, Lord",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "との",
+   "romaji": "tono/dono/den/ten",
+   "data": {
+    "on": [
+     "でん",
+     "てん"
+    ],
+    "kun": [
+     "との",
+     "どの"
+    ],
+    "strokes": 13,
+    "grade": 8,
+    "freq": 1199
+   }
+  },
+  {
+   "slug": "kanji-u8584",
+   "type": "kanji",
+   "term": "薄",
+   "meaning": "Dilute, Thin, Weak (tea), Pampas Grass",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "うすい",
+   "romaji": "usui/usu/usumeru/usumaru/usuragu/usura/usureru/susuki/haku",
+   "data": {
+    "on": [
+     "はく"
+    ],
+    "kun": [
+     "うすい",
+     "うす",
+     "うす",
+     "うすめる",
+     "うすまる",
+     "うすらぐ",
+     "うすら",
+     "うすれる",
+     "すすき"
+    ],
+    "strokes": 16,
+    "grade": 8,
+    "freq": 1009
+   }
+  },
+  {
+   "slug": "kanji-u4f3a",
+   "type": "kanji",
+   "term": "伺",
+   "meaning": "Pay Respects, Visit, Ask, Inquire, Question, Implore",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "うかがう",
+   "romaji": "ukagau/shi",
+   "data": {
+    "on": [
+     "し"
+    ],
+    "kun": [
+     "うかがう"
+    ],
+    "strokes": 7,
+    "grade": 8,
+    "freq": 2209
+   }
+  },
+  {
+   "slug": "kanji-u70ad",
+   "type": "kanji",
+   "term": "炭",
+   "meaning": "Charcoal, Coal",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "すみ",
+   "romaji": "sumi/tan",
+   "data": {
+    "on": [
+     "たん"
+    ],
+    "kun": [
+     "すみ"
+    ],
+    "strokes": 9,
+    "grade": 3,
+    "freq": 1307
+   }
+  },
+  {
+   "slug": "kanji-u5305",
+   "type": "kanji",
+   "term": "包",
+   "meaning": "Wrap, Pack Up, Cover, Conceal",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "つつむ",
+   "romaji": "tsutsumu/kurumu/hou",
+   "data": {
+    "on": [
+     "ほう"
+    ],
+    "kun": [
+     "つつむ",
+     "くるむ"
+    ],
+    "strokes": 5,
+    "grade": 4,
+    "freq": 954
+   }
+  },
+  {
+   "slug": "kanji-u8863",
+   "type": "kanji",
+   "term": "衣",
+   "meaning": "Garment, Clothes, Dressing",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ころも",
+   "romaji": "koromo/kinu/gi/i/e",
+   "data": {
+    "on": [
+     "い",
+     "え"
+    ],
+    "kun": [
+     "ころも",
+     "きぬ",
+     "ぎ"
+    ],
+    "strokes": 6,
+    "grade": 4,
+    "freq": 1214
+   }
+  },
+  {
+   "slug": "kanji-u9271",
+   "type": "kanji",
+   "term": "鉱",
+   "meaning": "Mineral, Ore",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "あらがね",
+   "romaji": "aragane/kou",
+   "data": {
+    "on": [
+     "こう"
+    ],
+    "kun": [
+     "あらがね"
+    ],
+    "strokes": 13,
+    "grade": 5,
+    "freq": 1376
+   }
+  },
+  {
+   "slug": "kanji-u53cc",
+   "type": "kanji",
+   "term": "双",
+   "meaning": "Pair, Set, Comparison, Counter For Pairs",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ふた",
+   "romaji": "futa/tagui/narabu/futatsu/sou",
+   "data": {
+    "on": [
+     "そう"
+    ],
+    "kun": [
+     "ふた",
+     "たぐい",
+     "ならぶ",
+     "ふたつ"
+    ],
+    "strokes": 4,
+    "grade": 8,
+    "freq": 1029
+   }
+  },
+  {
+   "slug": "kanji-u5e8a",
+   "type": "kanji",
+   "term": "床",
+   "meaning": "Bed, Counter For Beds, Floor, Padding, Tatami",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "とこ",
+   "romaji": "toko/yuka/shou",
+   "data": {
+    "on": [
+     "しょう"
+    ],
+    "kun": [
+     "とこ",
+     "ゆか"
+    ],
+    "strokes": 7,
+    "grade": 8,
+    "freq": 1175
+   }
+  },
+  {
+   "slug": "kanji-u6398",
+   "type": "kanji",
+   "term": "掘",
+   "meaning": "Dig, Delve, Excavate",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ほる",
+   "romaji": "horu/kutsu",
+   "data": {
+    "on": [
+     "くつ"
+    ],
+    "kun": [
+     "ほる"
+    ],
+    "strokes": 11,
+    "grade": 8,
+    "freq": 1257
+   }
+  },
+  {
+   "slug": "kanji-u6cca",
+   "type": "kanji",
+   "term": "泊",
+   "meaning": "Overnight Stay, Put Up At, Ride At Anchor",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "とまる",
+   "romaji": "tomaru/tomeru/haku",
+   "data": {
+    "on": [
+     "はく"
+    ],
+    "kun": [
+     "とまる",
+     "とめる"
+    ],
+    "strokes": 8,
+    "grade": 8,
+    "freq": 1233
+   }
+  },
+  {
+   "slug": "kanji-u8352",
+   "type": "kanji",
+   "term": "荒",
+   "meaning": "Laid Waste, Rough, Rude, Wild",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "あらい",
+   "romaji": "arai/ara/areru/arasu/arashi/susamu/kou",
+   "data": {
+    "on": [
+     "こう"
+    ],
+    "kun": [
+     "あらい",
+     "あら",
+     "あれる",
+     "あらす",
+     "あらし",
+     "すさむ"
+    ],
+    "strokes": 9,
+    "grade": 8,
+    "freq": 1099
+   }
+  },
+  {
+   "slug": "kanji-u888b",
+   "type": "kanji",
+   "term": "袋",
+   "meaning": "Sack, Bag, Pouch",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ふくろ",
+   "romaji": "fukuro/tai/dai",
+   "data": {
+    "on": [
+     "たい",
+     "だい"
+    ],
+    "kun": [
+     "ふくろ"
+    ],
+    "strokes": 11,
+    "grade": 8,
+    "freq": 1125
+   }
+  },
+  {
+   "slug": "kanji-u73cd",
+   "type": "kanji",
+   "term": "珍",
+   "meaning": "Rare, Curious, Strange",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "めずらしい",
+   "romaji": "mezurashii/takara/chin",
+   "data": {
+    "on": [
+     "ちん"
+    ],
+    "kun": [
+     "めずらしい",
+     "たから"
+    ],
+    "strokes": 9,
+    "grade": 8,
+    "freq": 1330
+   }
+  },
+  {
+   "slug": "kanji-u7c4d",
+   "type": "kanji",
+   "term": "籍",
+   "meaning": "Enroll, Domiciliary Register, Membership",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "せき",
+   "romaji": "seki",
+   "data": {
+    "on": [
+     "せき"
+    ],
+    "kun": [],
+    "strokes": 20,
+    "grade": 8,
+    "freq": 907
+   }
+  },
+  {
+   "slug": "kanji-u5237",
+   "type": "kanji",
+   "term": "刷",
+   "meaning": "Printing, Print, Brush",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "する",
+   "romaji": "suru/zuri/haku/satsu",
+   "data": {
+    "on": [
+     "さつ"
+    ],
+    "kun": [
+     "する",
+     "ずり",
+     "ずり",
+     "はく"
+    ],
+    "strokes": 8,
+    "grade": 4,
+    "freq": 1352
+   }
+  },
+  {
+   "slug": "kanji-u5c01",
+   "type": "kanji",
+   "term": "封",
+   "meaning": "Seal, Closing",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ふう",
+   "romaji": "fuu/hou",
+   "data": {
+    "on": [
+     "ふう",
+     "ほう"
+    ],
+    "kun": [],
+    "strokes": 9,
+    "grade": 8,
+    "freq": 1143
+   }
+  },
+  {
+   "slug": "kanji-u7b52",
+   "type": "kanji",
+   "term": "筒",
+   "meaning": "Cylinder, Pipe, Tube, Gun Barrel, Sleeve",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "つつ",
+   "romaji": "tsutsu/tou",
+   "data": {
+    "on": [
+     "とう"
+    ],
+    "kun": [
+     "つつ"
+    ],
+    "strokes": 12,
+    "grade": 8,
+    "freq": 1631
+   }
+  },
+  {
+   "slug": "kanji-u67d4",
+   "type": "kanji",
+   "term": "柔",
+   "meaning": "Tender, Weakness, Gentleness, Softness",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "やわらか",
+   "romaji": "yawaraka/yawarakai/yawa/yawara/juu/nyuu",
+   "data": {
+    "on": [
+     "じゅう",
+     "にゅう"
+    ],
+    "kun": [
+     "やわらか",
+     "やわらかい",
+     "やわ",
+     "やわら"
+    ],
+    "strokes": 9,
+    "grade": 8,
+    "freq": 1187
+   }
+  },
+  {
+   "slug": "kanji-u6c88",
+   "type": "kanji",
+   "term": "沈",
+   "meaning": "Sink, Be Submerged, Subside, Be Depressed, Aloes",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "しずむ",
+   "romaji": "shizumu/shizumeru/chin/jin",
+   "data": {
+    "on": [
+     "ちん",
+     "じん"
+    ],
+    "kun": [
+     "しずむ",
+     "しずめる"
+    ],
+    "strokes": 7,
+    "grade": 8,
+    "freq": 1271
+   }
+  },
+  {
+   "slug": "kanji-u8f9b",
+   "type": "kanji",
+   "term": "辛",
+   "meaning": "Spicy, Bitter, Hot, Acrid",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "からい",
+   "romaji": "karai/tsurai/zurai/kanoto/shin",
+   "data": {
+    "on": [
+     "しん"
+    ],
+    "kun": [
+     "からい",
+     "つらい",
+     "づらい",
+     "かのと"
+    ],
+    "strokes": 7,
+    "grade": 8,
+    "freq": 1607
+   }
+  },
+  {
+   "slug": "kanji-u5339",
+   "type": "kanji",
+   "term": "匹",
+   "meaning": "Equal, Head, Counter For Small Animals, Roll Of Cloth",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ひき",
+   "romaji": "hiki/hitsu",
+   "data": {
+    "on": [
+     "ひつ"
+    ],
+    "kun": [
+     "ひき"
+    ],
+    "strokes": 4,
+    "grade": 8,
+    "freq": 1384
+   }
+  },
+  {
+   "slug": "kanji-u53eb",
+   "type": "kanji",
+   "term": "叫",
+   "meaning": "Shout, Exclaim, Yell",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "さけぶ",
+   "romaji": "sakebu/kyou",
+   "data": {
+    "on": [
+     "きょう"
+    ],
+    "kun": [
+     "さけぶ"
+    ],
+    "strokes": 6,
+    "grade": 8,
+    "freq": 1426
+   }
+  },
+  {
+   "slug": "kanji-u6d99",
+   "type": "kanji",
+   "term": "涙",
+   "meaning": "Tears, Sympathy",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "なみだ",
+   "romaji": "namida/rui/rei",
+   "data": {
+    "on": [
+     "るい",
+     "れい"
+    ],
+    "kun": [
+     "なみだ"
+    ],
+    "strokes": 10,
+    "grade": 8,
+    "freq": 1381
+   }
+  },
+  {
+   "slug": "kanji-u7f36",
+   "type": "kanji",
+   "term": "缶",
+   "meaning": "Tin Can, Container",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "かま",
+   "romaji": "kama/kan",
+   "data": {
+    "on": [
+     "かん"
+    ],
+    "kun": [
+     "かま"
+    ],
+    "strokes": 6,
+    "grade": 8,
+    "freq": 1543
+   }
+  },
+  {
+   "slug": "kanji-u7c92",
+   "type": "kanji",
+   "term": "粒",
+   "meaning": "Grains, Drop, Counter For Tiny Particles",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "つぶ",
+   "romaji": "tsubu/ryuu",
+   "data": {
+    "on": [
+     "りゅう"
+    ],
+    "kun": [
+     "つぶ"
+    ],
+    "strokes": 11,
+    "grade": 8,
+    "freq": 1635
+   }
+  },
+  {
+   "slug": "kanji-u5854",
+   "type": "kanji",
+   "term": "塔",
+   "meaning": "Pagoda, Tower, Steeple",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "とう",
+   "romaji": "tou",
+   "data": {
+    "on": [
+     "とう"
+    ],
+    "kun": [],
+    "strokes": 12,
+    "grade": 8,
+    "freq": 1708
+   }
+  },
+  {
+   "slug": "kanji-u808c",
+   "type": "kanji",
+   "term": "肌",
+   "meaning": "Texture, Skin, Body, Grain",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "はだ",
+   "romaji": "hada/ki",
+   "data": {
+    "on": [
+     "き"
+    ],
+    "kun": [
+     "はだ"
+    ],
+    "strokes": 6,
+    "grade": 8,
+    "freq": 1559
+   }
+  },
+  {
+   "slug": "kanji-u821f",
+   "type": "kanji",
+   "term": "舟",
+   "meaning": "Boat, Ship",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ふね",
+   "romaji": "fune/funa/bune/shuu",
+   "data": {
+    "on": [
+     "しゅう"
+    ],
+    "kun": [
+     "ふね",
+     "ふな",
+     "ぶね"
+    ],
+    "strokes": 6,
+    "grade": 8,
+    "freq": 1786
+   }
+  },
+  {
+   "slug": "kanji-u66c7",
+   "type": "kanji",
+   "term": "曇",
+   "meaning": "Cloudy Weather, Cloud Up",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "くもる",
+   "romaji": "kumoru/don",
+   "data": {
+    "on": [
+     "どん"
+    ],
+    "kun": [
+     "くもる"
+    ],
+    "strokes": 16,
+    "grade": 8,
+    "freq": 1899
+   }
+  },
+  {
+   "slug": "kanji-u78e8",
+   "type": "kanji",
+   "term": "磨",
+   "meaning": "Grind, Polish, Scour, Improve, Brush (teeth)",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "みがく",
+   "romaji": "migaku/suru/ma",
+   "data": {
+    "on": [
+     "ま"
+    ],
+    "kun": [
+     "みがく",
+     "する"
+    ],
+    "strokes": 16,
+    "grade": 8,
+    "freq": 1608
+   }
+  },
+  {
+   "slug": "kanji-u6e7f",
+   "type": "kanji",
+   "term": "湿",
+   "meaning": "Damp, Wet, Moist",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "しめる",
+   "romaji": "shimeru/shimesu/uruou/uruosu/shitsu/shuu",
+   "data": {
+    "on": [
+     "しつ",
+     "しゅう"
+    ],
+    "kun": [
+     "しめる",
+     "しめす",
+     "うるおう",
+     "うるおす"
+    ],
+    "strokes": 12,
+    "grade": 8,
+    "freq": 1517
+   }
+  },
+  {
+   "slug": "kanji-u786c",
+   "type": "kanji",
+   "term": "硬",
+   "meaning": "Stiff, Hard",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "かたい",
+   "romaji": "katai/kou",
+   "data": {
+    "on": [
+     "こう"
+    ],
+    "kun": [
+     "かたい"
+    ],
+    "strokes": 12,
+    "grade": 8,
+    "freq": 1101
+   }
+  },
+  {
+   "slug": "kanji-u920d",
+   "type": "kanji",
+   "term": "鈍",
+   "meaning": "Dull, Slow, Foolish, Blunt",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "にぶい",
+   "romaji": "nibui/niburu/nibu/namaru/namakura/don",
+   "data": {
+    "on": [
+     "どん"
+    ],
+    "kun": [
+     "にぶい",
+     "にぶる",
+     "にぶ",
+     "なまる",
+     "なまくら"
+    ],
+    "strokes": 12,
+    "grade": 8,
+    "freq": 1574
+   }
+  },
+  {
+   "slug": "kanji-u6dbc",
+   "type": "kanji",
+   "term": "涼",
+   "meaning": "Refreshing, Nice And Cool",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "すずしい",
+   "romaji": "suzushii/suzumu/suzuyaka/usui/hiyasu/makotoni/ryou",
+   "data": {
+    "on": [
+     "りょう"
+    ],
+    "kun": [
+     "すずしい",
+     "すずむ",
+     "すずやか",
+     "うすい",
+     "ひやす",
+     "まことに"
+    ],
+    "strokes": 11,
+    "grade": 8,
+    "freq": 1783
+   }
+  },
+  {
+   "slug": "kanji-u96f6",
+   "type": "kanji",
+   "term": "零",
+   "meaning": "Zero, Spill, Overflow, Nothing, Cipher",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ぜろ",
+   "romaji": "zero/kobosu/koboreru/rei",
+   "data": {
+    "on": [
+     "れい"
+    ],
+    "kun": [
+     "ぜろ",
+     "こぼす",
+     "こぼれる"
+    ],
+    "strokes": 13,
+    "grade": 8,
+    "freq": 1217
+   }
+  },
+  {
+   "slug": "kanji-u7dbf",
+   "type": "kanji",
+   "term": "綿",
+   "meaning": "Cotton",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "わた",
+   "romaji": "wata/men",
+   "data": {
+    "on": [
+     "めん"
+    ],
+    "kun": [
+     "わた"
+    ],
+    "strokes": 14,
+    "grade": 5,
+    "freq": 1495
+   }
+  },
+  {
+   "slug": "kanji-u5e3d",
+   "type": "kanji",
+   "term": "帽",
+   "meaning": "Cap, Headgear",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ずきん",
+   "romaji": "zukin/oou/bou/mou",
+   "data": {
+    "on": [
+     "ぼう",
+     "もう"
+    ],
+    "kun": [
+     "ずきん",
+     "おおう"
+    ],
+    "strokes": 12,
+    "grade": 8,
+    "freq": 1742
+   }
+  },
+  {
+   "slug": "kanji-u618e",
+   "type": "kanji",
+   "term": "憎",
+   "meaning": "Hate, Detest",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "にくむ",
+   "romaji": "nikumu/nikui/nikurashii/nikushimi/zou",
+   "data": {
+    "on": [
+     "ぞう"
+    ],
+    "kun": [
+     "にくむ",
+     "にくい",
+     "にくらしい",
+     "にくしみ"
+    ],
+    "strokes": 14,
+    "grade": 8,
+    "freq": 1808
+   }
+  },
+  {
+   "slug": "kanji-u6ef4",
+   "type": "kanji",
+   "term": "滴",
+   "meaning": "Drip, Drop",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "しずく",
+   "romaji": "shizuku/shitataru/teki",
+   "data": {
+    "on": [
+     "てき"
+    ],
+    "kun": [
+     "しずく",
+     "したたる"
+    ],
+    "strokes": 14,
+    "grade": 8,
+    "freq": 2019
+   }
+  },
+  {
+   "slug": "kanji-u7573",
+   "type": "kanji",
+   "term": "畳",
+   "meaning": "Tatami Mat, Counter For Tatami Mats, Fold, Shut Up, Do Away With",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "たたむ",
+   "romaji": "tatamu/tatami/kasanaru/jou/chou",
+   "data": {
+    "on": [
+     "じょう",
+     "ちょう"
+    ],
+    "kun": [
+     "たたむ",
+     "たたみ",
+     "かさなる"
+    ],
+    "strokes": 12,
+    "grade": 8,
+    "freq": 1665
+   }
+  },
+  {
+   "slug": "kanji-u755c",
+   "type": "kanji",
+   "term": "畜",
+   "meaning": "Livestock, Domestic Fowl And Animals",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ちく",
+   "romaji": "chiku",
+   "data": {
+    "on": [
+     "ちく"
+    ],
+    "kun": [],
+    "strokes": 10,
+    "grade": 8,
+    "freq": 1824
+   }
+  },
+  {
+   "slug": "kanji-u6eb6",
+   "type": "kanji",
+   "term": "溶",
+   "meaning": "Melt, Dissolve, Thaw",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "とける",
+   "romaji": "tokeru/tokasu/toku/you",
+   "data": {
+    "on": [
+     "よう"
+    ],
+    "kun": [
+     "とける",
+     "とかす",
+     "とく"
+    ],
+    "strokes": 13,
+    "grade": 8,
+    "freq": 1364
+   }
+  },
+  {
+   "slug": "kanji-u8e0a",
+   "type": "kanji",
+   "term": "踊",
+   "meaning": "Jump, Dance, Leap, Skip",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "おどる",
+   "romaji": "odoru/you",
+   "data": {
+    "on": [
+     "よう"
+    ],
+    "kun": [
+     "おどる"
+    ],
+    "strokes": 14,
+    "grade": 8,
+    "freq": 1308
+   }
+  },
+  {
+   "slug": "kanji-u8ce2",
+   "type": "kanji",
+   "term": "賢",
+   "meaning": "Intelligent, Wise, Wisdom, Cleverness",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "かしこい",
+   "romaji": "kashikoi/ken",
+   "data": {
+    "on": [
+     "けん"
+    ],
+    "kun": [
+     "かしこい"
+    ],
+    "strokes": 16,
+    "grade": 8,
+    "freq": 1159
+   }
+  },
+  {
+   "slug": "kanji-u706f",
+   "type": "kanji",
+   "term": "灯",
+   "meaning": "Lamp, A Light, Light, Counter For Lights",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ひ",
+   "romaji": "hi/ho/tomoshibi/tomosu/akari/tou",
+   "data": {
+    "on": [
+     "とう"
+    ],
+    "kun": [
+     "ひ",
+     "ほ",
+     "ともしび",
+     "ともす",
+     "あかり"
+    ],
+    "strokes": 6,
+    "grade": 4,
+    "freq": 1605
+   }
+  },
+  {
+   "slug": "kanji-u54b2",
+   "type": "kanji",
+   "term": "咲",
+   "meaning": "Blossom, Bloom",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "さく",
+   "romaji": "saku/zaki/shou",
+   "data": {
+    "on": [
+     "しょう"
+    ],
+    "kun": [
+     "さく",
+     "ざき"
+    ],
+    "strokes": 9,
+    "grade": 8,
+    "freq": 1534
+   }
+  },
+  {
+   "slug": "kanji-u5857",
+   "type": "kanji",
+   "term": "塗",
+   "meaning": "Paint, Plaster, Daub, Smear, Coating",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "ぬる",
+   "romaji": "nuru/nuri/mamireru/to",
+   "data": {
+    "on": [
+     "と"
+    ],
+    "kun": [
+     "ぬる",
+     "ぬり",
+     "まみれる"
+    ],
+    "strokes": 13,
+    "grade": 8,
+    "freq": 1414
+   }
+  },
+  {
+   "slug": "kanji-u53ec",
+   "type": "kanji",
+   "term": "召",
+   "meaning": "Seduce, Call, Send For, Wear, Put On, Ride In, Buy, Eat, Drink, Catch (cold)",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "めす",
+   "romaji": "mesu/shou",
+   "data": {
+    "on": [
+     "しょう"
+    ],
+    "kun": [
+     "めす"
+    ],
+    "strokes": 5,
+    "grade": 8,
+    "freq": 1540
+   }
+  },
+  {
+   "slug": "kanji-u631f",
+   "type": "kanji",
+   "term": "挟",
+   "meaning": "Pinch, Between",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "はさむ",
+   "romaji": "hasamu/hasamaru/wakibasamu/sashihasamu/kyou/shou",
+   "data": {
+    "on": [
+     "きょう",
+     "しょう"
+    ],
+    "kun": [
+     "はさむ",
+     "はさまる",
+     "わきばさむ",
+     "さしはさむ"
+    ],
+    "strokes": 9,
+    "grade": 8,
+    "freq": 1870
+   }
+  },
+  {
+   "slug": "kanji-u67af",
+   "type": "kanji",
+   "term": "枯",
+   "meaning": "Wither, Die, Dry Up, Be Seasoned",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "かれる",
+   "romaji": "kareru/karasu/ko",
+   "data": {
+    "on": [
+     "こ"
+    ],
+    "kun": [
+     "かれる",
+     "からす"
+    ],
+    "strokes": 9,
+    "grade": 8,
+    "freq": 1749
+   }
+  },
+  {
+   "slug": "kanji-u6cb8",
+   "type": "kanji",
+   "term": "沸",
+   "meaning": "Seethe, Boil, Ferment, Uproar, Breed",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "わく",
+   "romaji": "waku/wakasu/futsu",
+   "data": {
+    "on": [
+     "ふつ"
+    ],
+    "kun": [
+     "わく",
+     "わかす"
+    ],
+    "strokes": 8,
+    "grade": 8,
+    "freq": 1709
+   }
+  },
+  {
+   "slug": "kanji-u6fef",
+   "type": "kanji",
+   "term": "濯",
+   "meaning": "Laundry, Wash, Pour On, Rinse",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "すすぐ",
+   "romaji": "susugu/yusugu/taku",
+   "data": {
+    "on": [
+     "たく"
+    ],
+    "kun": [
+     "すすぐ",
+     "ゆすぐ"
+    ],
+    "strokes": 17,
+    "grade": 8,
+    "freq": 1698
+   }
+  },
+  {
+   "slug": "kanji-u71e5",
+   "type": "kanji",
+   "term": "燥",
+   "meaning": "Parch, Dry Up",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "はしゃぐ",
+   "romaji": "hashagu/sou",
+   "data": {
+    "on": [
+     "そう"
+    ],
+    "kun": [
+     "はしゃぐ"
+    ],
+    "strokes": 17,
+    "grade": 8,
+    "freq": 1819
+   }
+  },
+  {
+   "slug": "kanji-u74f6",
+   "type": "kanji",
+   "term": "瓶",
+   "meaning": "Bottle, Vial, Jar, Jug, Vat, Urn",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "かめ",
+   "romaji": "kame/bin",
+   "data": {
+    "on": [
+     "びん"
+    ],
+    "kun": [
+     "かめ"
+    ],
+    "strokes": 11,
+    "grade": 8,
+    "freq": 1528
+   }
+  },
+  {
+   "slug": "kanji-u8015",
+   "type": "kanji",
+   "term": "耕",
+   "meaning": "Till, Plow, Cultivate",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "たがやす",
+   "romaji": "tagayasu/kou",
+   "data": {
+    "on": [
+     "こう"
+    ],
+    "kun": [
+     "たがやす"
+    ],
+    "strokes": 10,
+    "grade": 5,
+    "freq": 1568
+   }
+  },
+  {
+   "slug": "kanji-u80af",
+   "type": "kanji",
+   "term": "肯",
+   "meaning": "Agreement, Consent, Comply With",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "がえんじる",
+   "romaji": "gaenjiru/kou",
+   "data": {
+    "on": [
+     "こう"
+    ],
+    "kun": [
+     "がえんじる"
+    ],
+    "strokes": 8,
+    "grade": 8,
+    "freq": 1813
+   }
+  },
+  {
+   "slug": "kanji-u8102",
+   "type": "kanji",
+   "term": "脂",
+   "meaning": "Fat, Grease, Tallow, Lard, Rosin, Gum, Tar",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "あぶら",
+   "romaji": "abura/shi",
+   "data": {
+    "on": [
+     "し"
+    ],
+    "kun": [
+     "あぶら"
+    ],
+    "strokes": 10,
+    "grade": 8,
+    "freq": 1548
+   }
+  },
+  {
+   "slug": "kanji-u819a",
+   "type": "kanji",
+   "term": "膚",
+   "meaning": "Skin, Body, Grain, Texture, Disposition",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "はだ",
+   "romaji": "hada/fu",
+   "data": {
+    "on": [
+     "ふ"
+    ],
+    "kun": [
+     "はだ"
+    ],
+    "strokes": 15,
+    "grade": 8,
+    "freq": 1679
+   }
+  },
+  {
+   "slug": "kanji-u8ed2",
+   "type": "kanji",
+   "term": "軒",
+   "meaning": "Flats, Counter For Houses, Eaves",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "のき",
+   "romaji": "noki/ken",
+   "data": {
+    "on": [
+     "けん"
+    ],
+    "kun": [
+     "のき"
+    ],
+    "strokes": 10,
+    "grade": 8,
+    "freq": 1416
+   }
+  },
+  {
+   "slug": "kanji-u8edf",
+   "type": "kanji",
+   "term": "軟",
+   "meaning": "Soft",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "やわらか",
+   "romaji": "yawaraka/yawarakai/nan",
+   "data": {
+    "on": [
+     "なん"
+    ],
+    "kun": [
+     "やわらか",
+     "やわらかい"
+    ],
+    "strokes": 11,
+    "grade": 8,
+    "freq": 1269
+   }
+  },
+  {
+   "slug": "kanji-u90ca",
+   "type": "kanji",
+   "term": "郊",
+   "meaning": "Outskirts, Suburbs, Rural Area",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "こう",
+   "romaji": "kou",
+   "data": {
+    "on": [
+     "こう"
+    ],
+    "kun": [],
+    "strokes": 9,
+    "grade": 8,
+    "freq": 1304
+   }
+  },
+  {
+   "slug": "kanji-u9685",
+   "type": "kanji",
+   "term": "隅",
+   "meaning": "Corner, Nook",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "すみ",
+   "romaji": "sumi/guu",
+   "data": {
+    "on": [
+     "ぐう"
+    ],
+    "kun": [
+     "すみ"
+    ],
+    "strokes": 12,
+    "grade": 8,
+    "freq": 1601
+   }
+  },
+  {
+   "slug": "kanji-u96bb",
+   "type": "kanji",
+   "term": "隻",
+   "meaning": "Vessels, Counter For Ships, Fish, Birds, Arrows, One Of A Pair",
+   "skill": "kanji",
+   "tags": [
+    "kanji",
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N2",
+   "reading": "せき",
+   "romaji": "seki",
+   "data": {
+    "on": [
+     "せき"
+    ],
+    "kun": [],
+    "strokes": 10,
+    "grade": 8,
+    "freq": 1546
+   }
+  }
+ ]
+}

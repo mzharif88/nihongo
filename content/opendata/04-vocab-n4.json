@@ -1,0 +1,7909 @@
+{
+ "version": 1,
+ "kind": "items",
+ "source": "opendata-kanjidic-tanos",
+ "records": [
+  {
+   "slug": "vocab-n4-fumu",
+   "type": "word",
+   "term": "踏む",
+   "meaning": "to step on, to tread on",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ふむ",
+   "romaji": "fumu"
+  },
+  {
+   "slug": "vocab-n4-ku",
+   "type": "word",
+   "term": "～区",
+   "meaning": "~ district, ~ ward, ~ borough",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "～く",
+   "romaji": "～ku"
+  },
+  {
+   "slug": "vocab-n4-sutto",
+   "type": "word",
+   "term": "すっと",
+   "meaning": "straight, quickly",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "すっと",
+   "romaji": "sutto"
+  },
+  {
+   "slug": "vocab-n4-nusumu",
+   "type": "word",
+   "term": "盗む",
+   "meaning": "to steal; to rob",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ぬすむ",
+   "romaji": "nusumu"
+  },
+  {
+   "slug": "vocab-n4-taitei",
+   "type": "word",
+   "term": "大抵",
+   "meaning": "generally, usually",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "たいてい",
+   "romaji": "taitei"
+  },
+  {
+   "slug": "vocab-n4-toutou",
+   "type": "word",
+   "term": "とうとう",
+   "meaning": "finally, at last",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "とうとう",
+   "romaji": "toutou"
+  },
+  {
+   "slug": "vocab-n4-gasorin",
+   "type": "word",
+   "term": "ガソリン",
+   "meaning": "gasoline, petrol",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ガソリン",
+   "romaji": "gasorin"
+  },
+  {
+   "slug": "vocab-n4-naru",
+   "type": "word",
+   "term": "鳴る",
+   "meaning": "to sound, to ring (v.i.)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "なる",
+   "romaji": "naru"
+  },
+  {
+   "slug": "vocab-n4-shikkari",
+   "type": "word",
+   "term": "しっかり",
+   "meaning": "firmly, steady",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "しっかり",
+   "romaji": "shikkari"
+  },
+  {
+   "slug": "vocab-n4-ikiru",
+   "type": "word",
+   "term": "生きる",
+   "meaning": "to live",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "いきる",
+   "romaji": "ikiru"
+  },
+  {
+   "slug": "vocab-n4-nigai",
+   "type": "word",
+   "term": "苦い",
+   "meaning": "bitter",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "にがい",
+   "romaji": "nigai"
+  },
+  {
+   "slug": "vocab-n4-waku",
+   "type": "word",
+   "term": "沸く",
+   "meaning": "to boil, to grow hot",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "わく",
+   "romaji": "waku"
+  },
+  {
+   "slug": "vocab-n4-iken",
+   "type": "word",
+   "term": "意見",
+   "meaning": "opinion, view, idea",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "いけん",
+   "romaji": "iken"
+  },
+  {
+   "slug": "vocab-n4-yahari-yappari",
+   "type": "word",
+   "term": "やはり; やっぱり",
+   "meaning": "as I thought, absolutely",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "やはり; やっぱり",
+   "romaji": "yahari;yappari"
+  },
+  {
+   "slug": "vocab-n4-manga",
+   "type": "word",
+   "term": "漫画",
+   "meaning": "comic (book), cartoon",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "まんが",
+   "romaji": "manga"
+  },
+  {
+   "slug": "vocab-n4-sutereo",
+   "type": "word",
+   "term": "ステレオ",
+   "meaning": "stereo",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ステレオ",
+   "romaji": "sutereo"
+  },
+  {
+   "slug": "vocab-n4-igaku",
+   "type": "word",
+   "term": "医学",
+   "meaning": "medical science",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "いがく",
+   "romaji": "igaku"
+  },
+  {
+   "slug": "vocab-n4-tekisuto",
+   "type": "word",
+   "term": "テキスト",
+   "meaning": "text; text book",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "テキスト",
+   "romaji": "tekisuto"
+  },
+  {
+   "slug": "vocab-n4-tsuki",
+   "type": "word",
+   "term": "～月",
+   "meaning": "month",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "～つき",
+   "romaji": "～tsuki"
+  },
+  {
+   "slug": "vocab-n4-oru",
+   "type": "word",
+   "term": "折る",
+   "meaning": "to snap, to break; to bend",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "おる",
+   "romaji": "oru"
+  },
+  {
+   "slug": "vocab-n4-kai",
+   "type": "word",
+   "term": "～会",
+   "meaning": "~ meeting",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "～かい",
+   "romaji": "～kai"
+  },
+  {
+   "slug": "vocab-n4-ukagau",
+   "type": "word",
+   "term": "うかがう",
+   "meaning": "to ask",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "うかがう",
+   "romaji": "ukagau"
+  },
+  {
+   "slug": "vocab-n4-kikoeru",
+   "type": "word",
+   "term": "聞こえる",
+   "meaning": "to be heard, to be audible",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "きこえる",
+   "romaji": "kikoeru"
+  },
+  {
+   "slug": "vocab-n4-boku",
+   "type": "word",
+   "term": "僕",
+   "meaning": "I (used by men towards those of equal or lower status)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ぼく",
+   "romaji": "boku"
+  },
+  {
+   "slug": "vocab-n4-kanarazu",
+   "type": "word",
+   "term": "必ず",
+   "meaning": "surely, certainly",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "かならず",
+   "romaji": "kanarazu"
+  },
+  {
+   "slug": "vocab-n4-kowasu",
+   "type": "word",
+   "term": "壊す",
+   "meaning": "to break, to break down",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "こわす",
+   "romaji": "kowasu"
+  },
+  {
+   "slug": "vocab-n4-tokoya",
+   "type": "word",
+   "term": "床屋",
+   "meaning": "barber's (shop)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "とこや",
+   "romaji": "tokoya"
+  },
+  {
+   "slug": "vocab-n4-ootobai",
+   "type": "word",
+   "term": "オートバイ",
+   "meaning": "motorcycle (lit: auto-bi(ke))",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "オートバイ",
+   "romaji": "ootobai"
+  },
+  {
+   "slug": "vocab-n4-yamu",
+   "type": "word",
+   "term": "止む",
+   "meaning": "to cease, to stop",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "やむ",
+   "romaji": "yamu"
+  },
+  {
+   "slug": "vocab-n4-moshi",
+   "type": "word",
+   "term": "もし",
+   "meaning": "if",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "もし",
+   "romaji": "moshi"
+  },
+  {
+   "slug": "vocab-n4-omote",
+   "type": "word",
+   "term": "表",
+   "meaning": "surface; front; outside",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "おもて",
+   "romaji": "omote"
+  },
+  {
+   "slug": "vocab-n4-daigakusei",
+   "type": "word",
+   "term": "大学生",
+   "meaning": "college student, university student",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "だいがくせい",
+   "romaji": "daigakusei"
+  },
+  {
+   "slug": "vocab-n4-untenshu",
+   "type": "word",
+   "term": "運転手",
+   "meaning": "driver (by occupation)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "うんてんしゅ",
+   "romaji": "untenshu"
+  },
+  {
+   "slug": "vocab-n4-yoshuu",
+   "type": "word",
+   "term": "予習",
+   "meaning": "preparation of lessons (for class)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "よしゅう",
+   "romaji": "yoshuu"
+  },
+  {
+   "slug": "vocab-n4-betsu",
+   "type": "word",
+   "term": "別",
+   "meaning": "distinction, different",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "べつ",
+   "romaji": "betsu"
+  },
+  {
+   "slug": "vocab-n4-hijouni",
+   "type": "word",
+   "term": "非常に",
+   "meaning": "extremely; very",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ひじょうに",
+   "romaji": "hijouni"
+  },
+  {
+   "slug": "vocab-n4-otaku",
+   "type": "word",
+   "term": "お宅",
+   "meaning": "(someone else's) house; home -- polite word for 家 (いえ) --",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "おたく",
+   "romaji": "otaku"
+  },
+  {
+   "slug": "vocab-n4-yawarakai",
+   "type": "word",
+   "term": "柔らかい",
+   "meaning": "soft (in reference to texture), tender",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "やわらかい",
+   "romaji": "yawarakai"
+  },
+  {
+   "slug": "vocab-n4-gozaimasu",
+   "type": "word",
+   "term": "～ございます",
+   "meaning": "to be (polite), to exist",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "～ございます",
+   "romaji": "～gozaimasu"
+  },
+  {
+   "slug": "vocab-n4-ki",
+   "type": "word",
+   "term": "気",
+   "meaning": "spirit, mood",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "き",
+   "romaji": "ki"
+  },
+  {
+   "slug": "vocab-n4-kuraberu",
+   "type": "word",
+   "term": "比べる",
+   "meaning": "to compare",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "くらべる",
+   "romaji": "kuraberu"
+  },
+  {
+   "slug": "vocab-n4-hotondo",
+   "type": "word",
+   "term": "ほとんど",
+   "meaning": "mostly, almost",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ほとんど",
+   "romaji": "hotondo"
+  },
+  {
+   "slug": "vocab-n4-tsumori",
+   "type": "word",
+   "term": "つもり",
+   "meaning": "intention, plan",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "つもり",
+   "romaji": "tsumori"
+  },
+  {
+   "slug": "vocab-n4-kougai",
+   "type": "word",
+   "term": "郊外",
+   "meaning": "suburb, outskirts",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "こうがい",
+   "romaji": "kougai"
+  },
+  {
+   "slug": "vocab-n4-dame",
+   "type": "word",
+   "term": "だめ",
+   "meaning": "useless, no good, hopeless",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "だめ",
+   "romaji": "dame"
+  },
+  {
+   "slug": "vocab-n4-uriba",
+   "type": "word",
+   "term": "売り場",
+   "meaning": "place where things are sold",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "うりば",
+   "romaji": "uriba"
+  },
+  {
+   "slug": "vocab-n4-shougatsu",
+   "type": "word",
+   "term": "正月",
+   "meaning": "New Year, New Year's Day",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "しょうがつ",
+   "romaji": "shougatsu"
+  },
+  {
+   "slug": "vocab-n4-kisoku",
+   "type": "word",
+   "term": "規則",
+   "meaning": "rule, regulation",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "きそく",
+   "romaji": "kisoku"
+  },
+  {
+   "slug": "vocab-n4-un",
+   "type": "word",
+   "term": "うん",
+   "meaning": "yes (informal), all right (ok)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "うん",
+   "romaji": "un"
+  },
+  {
+   "slug": "vocab-n4-hatsuon",
+   "type": "word",
+   "term": "発音",
+   "meaning": "pronunciation",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "はつおん",
+   "romaji": "hatsuon"
+  },
+  {
+   "slug": "vocab-n4-yaku",
+   "type": "word",
+   "term": "焼く",
+   "meaning": "to bake, to grill",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "やく",
+   "romaji": "yaku"
+  },
+  {
+   "slug": "vocab-n4-okujou",
+   "type": "word",
+   "term": "屋上",
+   "meaning": "rooftop",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "おくじょう",
+   "romaji": "okujou"
+  },
+  {
+   "slug": "vocab-n4-shitsurei",
+   "type": "word",
+   "term": "失礼",
+   "meaning": "discourtesy, impoliteness; Excuse me",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "しつれい",
+   "romaji": "shitsurei"
+  },
+  {
+   "slug": "vocab-n4-gomi",
+   "type": "word",
+   "term": "ごみ",
+   "meaning": "trash, garbage",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ごみ",
+   "romaji": "gomi"
+  },
+  {
+   "slug": "vocab-n4-afurika",
+   "type": "word",
+   "term": "アフリカ",
+   "meaning": "Africa",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "アフリカ",
+   "romaji": "afurika"
+  },
+  {
+   "slug": "vocab-n4-ten",
+   "type": "word",
+   "term": "点",
+   "meaning": "mark, score, grade; point, dot",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "てん",
+   "romaji": "ten"
+  },
+  {
+   "slug": "vocab-n4-isshoukenmei",
+   "type": "word",
+   "term": "一生懸命",
+   "meaning": "very hard (as in \"to work hard\"), with utmost effort",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "いっしょうけんめい",
+   "romaji": "isshoukenmei"
+  },
+  {
+   "slug": "vocab-n4-kondo",
+   "type": "word",
+   "term": "今度",
+   "meaning": "now, this time, near future, one of these days, next time",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "こんど",
+   "romaji": "kondo"
+  },
+  {
+   "slug": "vocab-n4-kikai",
+   "type": "word",
+   "term": "機会",
+   "meaning": "chance, opportunity",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "きかい",
+   "romaji": "kikai"
+  },
+  {
+   "slug": "vocab-n4-tateru",
+   "type": "word",
+   "term": "建てる",
+   "meaning": "to build",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "たてる",
+   "romaji": "tateru"
+  },
+  {
+   "slug": "vocab-n4-fukuzatsu",
+   "type": "word",
+   "term": "複雑",
+   "meaning": "complexity, complication",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ふくざつ",
+   "romaji": "fukuzatsu"
+  },
+  {
+   "slug": "vocab-n4-kare",
+   "type": "word",
+   "term": "彼",
+   "meaning": "he, boyfriend",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "かれ",
+   "romaji": "kare"
+  },
+  {
+   "slug": "vocab-n4-irassharu",
+   "type": "word",
+   "term": "いらっしゃる",
+   "meaning": "-- honorific expression for いく, くる, and いる --",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "いらっしゃる",
+   "romaji": "irassharu"
+  },
+  {
+   "slug": "vocab-n4-daiji",
+   "type": "word",
+   "term": "大事",
+   "meaning": "important, valuable, serious matter",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "だいじ",
+   "romaji": "daiji"
+  },
+  {
+   "slug": "vocab-n4-okurimono",
+   "type": "word",
+   "term": "贈り物",
+   "meaning": "a gift; a present",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "おくりもの",
+   "romaji": "okurimono"
+  },
+  {
+   "slug": "vocab-n4-dorobou",
+   "type": "word",
+   "term": "泥棒",
+   "meaning": "thief; burglar",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "どろぼう",
+   "romaji": "dorobou"
+  },
+  {
+   "slug": "vocab-n4-sei",
+   "type": "word",
+   "term": "～製",
+   "meaning": "made in ~",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "～せい",
+   "romaji": "～sei"
+  },
+  {
+   "slug": "vocab-n4-chuui",
+   "type": "word",
+   "term": "注意",
+   "meaning": "caution, attention",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ちゅうい",
+   "romaji": "chuui"
+  },
+  {
+   "slug": "vocab-n4-taifuu",
+   "type": "word",
+   "term": "台風",
+   "meaning": "typhoon",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "たいふう",
+   "romaji": "taifuu"
+  },
+  {
+   "slug": "vocab-n4-hi",
+   "type": "word",
+   "term": "日",
+   "meaning": "sun, sunshine, day",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ひ",
+   "romaji": "hi"
+  },
+  {
+   "slug": "vocab-n4-ken",
+   "type": "word",
+   "term": "～軒",
+   "meaning": "counter for houses",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "～けん",
+   "romaji": "～ken"
+  },
+  {
+   "slug": "vocab-n4-sou",
+   "type": "word",
+   "term": "そう",
+   "meaning": "really, (is that) so; yes, right",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "そう",
+   "romaji": "sou"
+  },
+  {
+   "slug": "vocab-n4-tooru",
+   "type": "word",
+   "term": "通る",
+   "meaning": "to pass (by), to go through",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "とおる",
+   "romaji": "tooru"
+  },
+  {
+   "slug": "vocab-n4-sugiru",
+   "type": "word",
+   "term": "過ぎる",
+   "meaning": "to exceed, to go beyond",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "すぎる",
+   "romaji": "sugiru"
+  },
+  {
+   "slug": "vocab-n4-repooto-ripooto",
+   "type": "word",
+   "term": "レポート; リポート",
+   "meaning": "report",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "レポート; リポート",
+   "romaji": "repooto;ripooto"
+  },
+  {
+   "slug": "vocab-n4-ha",
+   "type": "word",
+   "term": "葉",
+   "meaning": "leaf",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "は",
+   "romaji": "ha"
+  },
+  {
+   "slug": "vocab-n4-hitsuyou",
+   "type": "word",
+   "term": "必要",
+   "meaning": "necessary",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ひつよう",
+   "romaji": "hitsuyou"
+  },
+  {
+   "slug": "vocab-n4-kachou",
+   "type": "word",
+   "term": "課長",
+   "meaning": "section manager",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "かちょう",
+   "romaji": "kachou"
+  },
+  {
+   "slug": "vocab-n4-jishin",
+   "type": "word",
+   "term": "地震",
+   "meaning": "earthquake",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "じしん",
+   "romaji": "jishin"
+  },
+  {
+   "slug": "vocab-n4-suruto",
+   "type": "word",
+   "term": "すると",
+   "meaning": "and, then",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "すると",
+   "romaji": "suruto"
+  },
+  {
+   "slug": "vocab-n4-yameru",
+   "type": "word",
+   "term": "止める",
+   "meaning": "to end, to stop",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "やめる",
+   "romaji": "yameru"
+  },
+  {
+   "slug": "vocab-n4-garasu",
+   "type": "word",
+   "term": "ガラス",
+   "meaning": "glass, pane",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ガラス",
+   "romaji": "garasu"
+  },
+  {
+   "slug": "vocab-n4-gakubu",
+   "type": "word",
+   "term": "～学部",
+   "meaning": "department of a university",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "～がくぶ",
+   "romaji": "～gakubu"
+  },
+  {
+   "slug": "vocab-n4-kibishii",
+   "type": "word",
+   "term": "厳しい",
+   "meaning": "hard; rigorous; strict",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "きびしい",
+   "romaji": "kibishii"
+  },
+  {
+   "slug": "vocab-n4-esukareetaa",
+   "type": "word",
+   "term": "エスカレーター",
+   "meaning": "escalator",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "エスカレーター",
+   "romaji": "esukareetaa"
+  },
+  {
+   "slug": "vocab-n4-jinkou",
+   "type": "word",
+   "term": "人口",
+   "meaning": "population",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "じんこう",
+   "romaji": "jinkou"
+  },
+  {
+   "slug": "vocab-n4-tsuki-2",
+   "type": "word",
+   "term": "月",
+   "meaning": "moon",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "つき",
+   "romaji": "tsuki"
+  },
+  {
+   "slug": "vocab-n4-kinu",
+   "type": "word",
+   "term": "絹",
+   "meaning": "silk",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "きぬ",
+   "romaji": "kinu"
+  },
+  {
+   "slug": "vocab-n4-chittomo",
+   "type": "word",
+   "term": "ちっとも",
+   "meaning": "not at all (neg. verb)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ちっとも",
+   "romaji": "chittomo"
+  },
+  {
+   "slug": "vocab-n4-fukai",
+   "type": "word",
+   "term": "深い",
+   "meaning": "deep, profound",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ふかい",
+   "romaji": "fukai"
+  },
+  {
+   "slug": "vocab-n4-kowareru",
+   "type": "word",
+   "term": "壊れる",
+   "meaning": "to be broken, to break",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "こわれる",
+   "romaji": "kowareru"
+  },
+  {
+   "slug": "vocab-n4-yureru",
+   "type": "word",
+   "term": "揺れる",
+   "meaning": "to shake, to sway",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ゆれる",
+   "romaji": "yureru"
+  },
+  {
+   "slug": "vocab-n4-ochiru",
+   "type": "word",
+   "term": "落る",
+   "meaning": "to fall, to drop",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "おちる",
+   "romaji": "ochiru"
+  },
+  {
+   "slug": "vocab-n4-dekirudake",
+   "type": "word",
+   "term": "できるだけ",
+   "meaning": "if at all possible, as much as possible",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "できるだけ",
+   "romaji": "dekirudake"
+  },
+  {
+   "slug": "vocab-n4-chuugakkou",
+   "type": "word",
+   "term": "中学校",
+   "meaning": "junior high school pupil",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ちゅうがっこう",
+   "romaji": "chuugakkou"
+  },
+  {
+   "slug": "vocab-n4-gasu",
+   "type": "word",
+   "term": "ガス",
+   "meaning": "gas",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ガス",
+   "romaji": "gasu"
+  },
+  {
+   "slug": "vocab-n4-inoru",
+   "type": "word",
+   "term": "祈る",
+   "meaning": "to pray; to wish",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "いのる",
+   "romaji": "inoru"
+  },
+  {
+   "slug": "vocab-n4-sakan",
+   "type": "word",
+   "term": "盛ん",
+   "meaning": "prosperous, active, thriving",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "さかん",
+   "romaji": "sakan"
+  },
+  {
+   "slug": "vocab-n4-arubaito",
+   "type": "word",
+   "term": "アルバイト",
+   "meaning": "part-time job",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "アルバイト",
+   "romaji": "arubaito"
+  },
+  {
+   "slug": "vocab-n4-okosu",
+   "type": "word",
+   "term": "起こす",
+   "meaning": "to wake (someone) up",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "おこす",
+   "romaji": "okosu"
+  },
+  {
+   "slug": "vocab-n4-itasu",
+   "type": "word",
+   "term": "致す",
+   "meaning": "-- extra-modest expression for する --",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "いたす",
+   "romaji": "itasu"
+  },
+  {
+   "slug": "vocab-n4-kamu",
+   "type": "word",
+   "term": "噛む",
+   "meaning": "to bite, to chew",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "かむ",
+   "romaji": "kamu"
+  },
+  {
+   "slug": "vocab-n4-akachan",
+   "type": "word",
+   "term": "赤ちゃん",
+   "meaning": "baby, infant",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "あかちゃん",
+   "romaji": "akachan"
+  },
+  {
+   "slug": "vocab-n4-asai",
+   "type": "word",
+   "term": "浅い",
+   "meaning": "shallow, superficial",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "あさい",
+   "romaji": "asai"
+  },
+  {
+   "slug": "vocab-n4-uso",
+   "type": "word",
+   "term": "嘘",
+   "meaning": "lie",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "うそ",
+   "romaji": "uso"
+  },
+  {
+   "slug": "vocab-n4-shousetsu",
+   "type": "word",
+   "term": "小説",
+   "meaning": "novel",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "しょうせつ",
+   "romaji": "shousetsu"
+  },
+  {
+   "slug": "vocab-n4-oya",
+   "type": "word",
+   "term": "親",
+   "meaning": "a parent",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "おや",
+   "romaji": "oya"
+  },
+  {
+   "slug": "vocab-n4-soreni",
+   "type": "word",
+   "term": "それに",
+   "meaning": "moreover; besides",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "それに",
+   "romaji": "soreni"
+  },
+  {
+   "slug": "vocab-n4-seiyou",
+   "type": "word",
+   "term": "西洋",
+   "meaning": "the West, Western countries",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "せいよう",
+   "romaji": "seiyou"
+  },
+  {
+   "slug": "vocab-n4-omou",
+   "type": "word",
+   "term": "思う",
+   "meaning": "to think, to feel",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "おもう",
+   "romaji": "omou"
+  },
+  {
+   "slug": "vocab-n4-paato-taimu",
+   "type": "word",
+   "term": "パート (タイム)",
+   "meaning": "part time (esp. female part time employees)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "パート (タイム)",
+   "romaji": "paato(taimu)"
+  },
+  {
+   "slug": "vocab-n4-jidai",
+   "type": "word",
+   "term": "時代",
+   "meaning": "age, period, epoch, era",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "じだい",
+   "romaji": "jidai"
+  },
+  {
+   "slug": "vocab-n4-moushiageru",
+   "type": "word",
+   "term": "申し上げる",
+   "meaning": "(humble)to say, to tell",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "もうしあげる",
+   "romaji": "moushiageru"
+  },
+  {
+   "slug": "vocab-n4-shiki",
+   "type": "word",
+   "term": "～式",
+   "meaning": "~ ceremony; ~ style",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "～しき",
+   "romaji": "～shiki"
+  },
+  {
+   "slug": "vocab-n4-shussekisuru",
+   "type": "word",
+   "term": "出席",
+   "meaning": "attendance",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "しゅっせきする",
+   "romaji": "shussekisuru"
+  },
+  {
+   "slug": "vocab-n4-ka",
+   "type": "word",
+   "term": "～家",
+   "meaning": "person who is specialized in ~",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "～か",
+   "romaji": "～ka"
+  },
+  {
+   "slug": "vocab-n4-mukaeru",
+   "type": "word",
+   "term": "迎える",
+   "meaning": "to welcome; to meet; to greet",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "むかえる",
+   "romaji": "mukaeru"
+  },
+  {
+   "slug": "vocab-n4-sawaru",
+   "type": "word",
+   "term": "触る",
+   "meaning": "to touch, to feel",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "さわる",
+   "romaji": "sawaru"
+  },
+  {
+   "slug": "vocab-n4-date",
+   "type": "word",
+   "term": "建て",
+   "meaning": "~ storied, separate housing",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "～だて",
+   "romaji": "～date"
+  },
+  {
+   "slug": "vocab-n4-shachou",
+   "type": "word",
+   "term": "社長",
+   "meaning": "president of a company",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "しゃちょう",
+   "romaji": "shachou"
+  },
+  {
+   "slug": "vocab-n4-doubutsuen",
+   "type": "word",
+   "term": "動物園",
+   "meaning": "zoo",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "どうぶつえん",
+   "romaji": "doubutsuen"
+  },
+  {
+   "slug": "vocab-n4-tsukamaeru",
+   "type": "word",
+   "term": "捕まえる",
+   "meaning": "to catch, to arrest",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "つかまえる",
+   "romaji": "tsukamaeru"
+  },
+  {
+   "slug": "vocab-n4-kisetsu",
+   "type": "word",
+   "term": "季節",
+   "meaning": "season (in reference to weather)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "きせつ",
+   "romaji": "kisetsu"
+  },
+  {
+   "slug": "vocab-n4-yoru",
+   "type": "word",
+   "term": "寄る",
+   "meaning": "to stop by",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "よる",
+   "romaji": "yoru"
+  },
+  {
+   "slug": "vocab-n4-kimaru",
+   "type": "word",
+   "term": "決まる",
+   "meaning": "to be set; fixed (v.i.)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "きまる",
+   "romaji": "kimaru"
+  },
+  {
+   "slug": "vocab-n4-hiraku",
+   "type": "word",
+   "term": "開く",
+   "meaning": "to open; to hold (an event)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ひらく",
+   "romaji": "hiraku"
+  },
+  {
+   "slug": "vocab-n4-nigeru",
+   "type": "word",
+   "term": "逃げる",
+   "meaning": "to escape, to run away",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "にげる",
+   "romaji": "nigeru"
+  },
+  {
+   "slug": "vocab-n4-dakara",
+   "type": "word",
+   "term": "だから",
+   "meaning": "so; therefore",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "だから",
+   "romaji": "dakara"
+  },
+  {
+   "slug": "vocab-n4-zannen",
+   "type": "word",
+   "term": "残念",
+   "meaning": "regret; regrettable",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ざんねん",
+   "romaji": "zannen"
+  },
+  {
+   "slug": "vocab-n4-tatami",
+   "type": "word",
+   "term": "畳",
+   "meaning": "tatami mat (Japanese straw mat)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "たたみ",
+   "romaji": "tatami"
+  },
+  {
+   "slug": "vocab-n4-teinei",
+   "type": "word",
+   "term": "丁寧",
+   "meaning": "polite, courteous, careful",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ていねい",
+   "romaji": "teinei"
+  },
+  {
+   "slug": "vocab-n4-chiri",
+   "type": "word",
+   "term": "地理",
+   "meaning": "geography",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ちり",
+   "romaji": "chiri"
+  },
+  {
+   "slug": "vocab-n4-tsutsumu",
+   "type": "word",
+   "term": "包む",
+   "meaning": "to wrap, to cover",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "つつむ",
+   "romaji": "tsutsumu"
+  },
+  {
+   "slug": "vocab-n4-narubeku",
+   "type": "word",
+   "term": "なるべく",
+   "meaning": "if possible, as much as possible",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "なるべく",
+   "romaji": "narubeku"
+  },
+  {
+   "slug": "vocab-n4-muri",
+   "type": "word",
+   "term": "無理",
+   "meaning": "unreasonable, impossible",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "むり",
+   "romaji": "muri"
+  },
+  {
+   "slug": "vocab-n4-sandoitchi",
+   "type": "word",
+   "term": "サンドイッチ",
+   "meaning": "sandwich",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "サンドイッチ",
+   "romaji": "sandoitchi"
+  },
+  {
+   "slug": "vocab-n4-kaigishitsu",
+   "type": "word",
+   "term": "会議室",
+   "meaning": "conference room",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "かいぎしつ",
+   "romaji": "kaigishitsu"
+  },
+  {
+   "slug": "vocab-n4-shinamono",
+   "type": "word",
+   "term": "品物",
+   "meaning": "goods",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "しなもの",
+   "romaji": "shinamono"
+  },
+  {
+   "slug": "vocab-n4-ningyou",
+   "type": "word",
+   "term": "人形",
+   "meaning": "doll, figure",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "にんぎょう",
+   "romaji": "ningyou"
+  },
+  {
+   "slug": "vocab-n4-riyou",
+   "type": "word",
+   "term": "利用",
+   "meaning": "use, utilization",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "りよう",
+   "romaji": "riyou"
+  },
+  {
+   "slug": "vocab-n4-kazaru",
+   "type": "word",
+   "term": "飾る",
+   "meaning": "to decorate, to adorn",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "かざる",
+   "romaji": "kazaru"
+  },
+  {
+   "slug": "vocab-n4-tomeru",
+   "type": "word",
+   "term": "止める",
+   "meaning": "to stop (something)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "とめる",
+   "romaji": "tomeru"
+  },
+  {
+   "slug": "vocab-n4-ikura-temo",
+   "type": "word",
+   "term": "いくら～ても",
+   "meaning": "however much one may ~",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "いくら～ても",
+   "romaji": "ikura～temo"
+  },
+  {
+   "slug": "vocab-n4-youji",
+   "type": "word",
+   "term": "用事",
+   "meaning": "business to take care of; tasks; errands",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ようじ",
+   "romaji": "youji"
+  },
+  {
+   "slug": "vocab-n4-biru",
+   "type": "word",
+   "term": "ビル",
+   "meaning": "(abbr.) building",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ビル",
+   "romaji": "biru"
+  },
+  {
+   "slug": "vocab-n4-kenkasuru",
+   "type": "word",
+   "term": "けんかする",
+   "meaning": "quarrel",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "けんかする",
+   "romaji": "kenkasuru"
+  },
+  {
+   "slug": "vocab-n4-ganbaru",
+   "type": "word",
+   "term": "頑張る",
+   "meaning": "to try one's best, to try hard, to persist",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "がんばる",
+   "romaji": "ganbaru"
+  },
+  {
+   "slug": "vocab-n4-nageru",
+   "type": "word",
+   "term": "投げる",
+   "meaning": "to pitch, to cast away",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "なげる",
+   "romaji": "nageru"
+  },
+  {
+   "slug": "vocab-n4-koshousuru",
+   "type": "word",
+   "term": "故障",
+   "meaning": "breakdown",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "こしょうする",
+   "romaji": "koshousuru"
+  },
+  {
+   "slug": "vocab-n4-ukeru",
+   "type": "word",
+   "term": "受ける",
+   "meaning": "to take (an examination, interview, etc.); to receive",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "うける",
+   "romaji": "ukeru"
+  },
+  {
+   "slug": "vocab-n4-kibun",
+   "type": "word",
+   "term": "気分",
+   "meaning": "feeling, mood",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "きぶん",
+   "romaji": "kibun"
+  },
+  {
+   "slug": "vocab-n4-machigaeru",
+   "type": "word",
+   "term": "間違える",
+   "meaning": "to make a mistake",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "まちがえる",
+   "romaji": "machigaeru"
+  },
+  {
+   "slug": "vocab-n4-sonna",
+   "type": "word",
+   "term": "そんな",
+   "meaning": "such, like that, that sort of",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "そんな",
+   "romaji": "sonna"
+  },
+  {
+   "slug": "vocab-n4-baai",
+   "type": "word",
+   "term": "場合",
+   "meaning": "case, situation",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ばあい",
+   "romaji": "baai"
+  },
+  {
+   "slug": "vocab-n4-yatto",
+   "type": "word",
+   "term": "やっと",
+   "meaning": "at last, finally",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "やっと",
+   "romaji": "yatto"
+  },
+  {
+   "slug": "vocab-n4-tariru",
+   "type": "word",
+   "term": "足りる",
+   "meaning": "to be sufficient; to be enough",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "たりる",
+   "romaji": "tariru"
+  },
+  {
+   "slug": "vocab-n4-okonau",
+   "type": "word",
+   "term": "行う",
+   "meaning": "to carry out; to conduct (typically used in written language)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "おこなう",
+   "romaji": "okonau"
+  },
+  {
+   "slug": "vocab-n4-nakunaru",
+   "type": "word",
+   "term": "無くなる",
+   "meaning": "to disappear, to get lost",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "なくなる",
+   "romaji": "nakunaru"
+  },
+  {
+   "slug": "vocab-n4-junbisuru",
+   "type": "word",
+   "term": "準備",
+   "meaning": "prepare",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "じゅんびする",
+   "romaji": "junbisuru"
+  },
+  {
+   "slug": "vocab-n4-sekai",
+   "type": "word",
+   "term": "世界",
+   "meaning": "world",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "せかい",
+   "romaji": "sekai"
+  },
+  {
+   "slug": "vocab-n4-juusho",
+   "type": "word",
+   "term": "住所",
+   "meaning": "address; place of residence",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "じゅうしょ",
+   "romaji": "juusho"
+  },
+  {
+   "slug": "vocab-n4-saraigetsu",
+   "type": "word",
+   "term": "再来月",
+   "meaning": "the month after next",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "さらいげつ",
+   "romaji": "saraigetsu"
+  },
+  {
+   "slug": "vocab-n4-hayashi",
+   "type": "word",
+   "term": "林",
+   "meaning": "woods, forest",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "はやし",
+   "romaji": "hayashi"
+  },
+  {
+   "slug": "vocab-n4-bai",
+   "type": "word",
+   "term": "倍",
+   "meaning": "double",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ばい",
+   "romaji": "bai"
+  },
+  {
+   "slug": "vocab-n4-yaseru",
+   "type": "word",
+   "term": "痩せる",
+   "meaning": "to lose weight",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "やせる",
+   "romaji": "yaseru"
+  },
+  {
+   "slug": "vocab-n4-sen",
+   "type": "word",
+   "term": "線",
+   "meaning": "line, wire",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "せん",
+   "romaji": "sen"
+  },
+  {
+   "slug": "vocab-n4-sensou",
+   "type": "word",
+   "term": "戦争",
+   "meaning": "war",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "せんそう",
+   "romaji": "sensou"
+  },
+  {
+   "slug": "vocab-n4-shiraberu",
+   "type": "word",
+   "term": "調べる",
+   "meaning": "to check; to look up; to inquire; to search",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "しらべる",
+   "romaji": "shiraberu"
+  },
+  {
+   "slug": "vocab-n4-nebou",
+   "type": "word",
+   "term": "寝坊",
+   "meaning": "sleeping in late",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ねぼう",
+   "romaji": "nebou"
+  },
+  {
+   "slug": "vocab-n4-papa",
+   "type": "word",
+   "term": "パパ",
+   "meaning": "papa, daddy",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "パパ",
+   "romaji": "papa"
+  },
+  {
+   "slug": "vocab-n4-hikaru",
+   "type": "word",
+   "term": "光る",
+   "meaning": "to shine, to glitter",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ひかる",
+   "romaji": "hikaru"
+  },
+  {
+   "slug": "vocab-n4-kumo",
+   "type": "word",
+   "term": "雲",
+   "meaning": "cloud",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "くも",
+   "romaji": "kumo"
+  },
+  {
+   "slug": "vocab-n4-saka",
+   "type": "word",
+   "term": "坂",
+   "meaning": "slope, hill",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "さか",
+   "romaji": "saka"
+  },
+  {
+   "slug": "vocab-n4-te-shimau",
+   "type": "word",
+   "term": "～(て) しまう",
+   "meaning": "to end up ~",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "～(て) しまう",
+   "romaji": "～(te)shimau"
+  },
+  {
+   "slug": "vocab-n4-hikoujou",
+   "type": "word",
+   "term": "飛行場",
+   "meaning": "airport",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ひこうじょう",
+   "romaji": "hikoujou"
+  },
+  {
+   "slug": "vocab-n4-juudou",
+   "type": "word",
+   "term": "柔道",
+   "meaning": "judo",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "じゅうどう",
+   "romaji": "juudou"
+  },
+  {
+   "slug": "vocab-n4-kesshite",
+   "type": "word",
+   "term": "決して",
+   "meaning": "never",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "けっして",
+   "romaji": "kesshite"
+  },
+  {
+   "slug": "vocab-n4-jimusho",
+   "type": "word",
+   "term": "事務所",
+   "meaning": "office",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "じむしょ",
+   "romaji": "jimusho"
+  },
+  {
+   "slug": "vocab-n4-renraku",
+   "type": "word",
+   "term": "連絡",
+   "meaning": "communication, contact, connection",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "れんらく",
+   "romaji": "renraku"
+  },
+  {
+   "slug": "vocab-n4-shougakkou",
+   "type": "word",
+   "term": "小学校",
+   "meaning": "elementary school",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "しょうがっこう",
+   "romaji": "shougakkou"
+  },
+  {
+   "slug": "vocab-n4-kyaku",
+   "type": "word",
+   "term": "客",
+   "meaning": "guest, customer",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "きゃく",
+   "romaji": "kyaku"
+  },
+  {
+   "slug": "vocab-n4-mukashi",
+   "type": "word",
+   "term": "昔",
+   "meaning": "old days; past",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "むかし",
+   "romaji": "mukashi"
+  },
+  {
+   "slug": "vocab-n4-utsukushii",
+   "type": "word",
+   "term": "美しい",
+   "meaning": "beautiful, lovely",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "うつくしい",
+   "romaji": "utsukushii"
+  },
+  {
+   "slug": "vocab-n4-suteru",
+   "type": "word",
+   "term": "捨てる",
+   "meaning": "throw away (trash), dump, discard",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "すてる",
+   "romaji": "suteru"
+  },
+  {
+   "slug": "vocab-n4-nasaru",
+   "type": "word",
+   "term": "なさる",
+   "meaning": "-- honorific expression for する --",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "なさる",
+   "romaji": "nasaru"
+  },
+  {
+   "slug": "vocab-n4-koto",
+   "type": "word",
+   "term": "事",
+   "meaning": "thing(s), matter(s), fact",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "こと",
+   "romaji": "koto"
+  },
+  {
+   "slug": "vocab-n4-dondon",
+   "type": "word",
+   "term": "どんどん",
+   "meaning": "quickly and steadily; at a rapid pace",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "どんどん",
+   "romaji": "dondon"
+  },
+  {
+   "slug": "vocab-n4-shiai",
+   "type": "word",
+   "term": "試合",
+   "meaning": "match, game, competition",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "しあい",
+   "romaji": "shiai"
+  },
+  {
+   "slug": "vocab-n4-tekitou",
+   "type": "word",
+   "term": "適当",
+   "meaning": "fitness, suitability",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "てきとう",
+   "romaji": "tekitou"
+  },
+  {
+   "slug": "vocab-n4-bunpou",
+   "type": "word",
+   "term": "文法",
+   "meaning": "grammar",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ぶんぽう",
+   "romaji": "bunpou"
+  },
+  {
+   "slug": "vocab-n4-owari",
+   "type": "word",
+   "term": "終わり",
+   "meaning": "end",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "おわり",
+   "romaji": "owari"
+  },
+  {
+   "slug": "vocab-n4-kabe",
+   "type": "word",
+   "term": "壁",
+   "meaning": "wall",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "かべ",
+   "romaji": "kabe"
+  },
+  {
+   "slug": "vocab-n4-ichido",
+   "type": "word",
+   "term": "一度",
+   "meaning": "once, one time",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "いちど",
+   "romaji": "ichido"
+  },
+  {
+   "slug": "vocab-n4-orei",
+   "type": "word",
+   "term": "お礼",
+   "meaning": "expression of gratitude; thanking; gift of appreciation; bow",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "おれい",
+   "romaji": "orei"
+  },
+  {
+   "slug": "vocab-n4-shinsetsu",
+   "type": "word",
+   "term": "親切",
+   "meaning": "kindness",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "しんせつ",
+   "romaji": "shinsetsu"
+  },
+  {
+   "slug": "vocab-n4-shiraseru",
+   "type": "word",
+   "term": "知らせる",
+   "meaning": "to notify",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "しらせる",
+   "romaji": "shiraseru"
+  },
+  {
+   "slug": "vocab-n4-haisha",
+   "type": "word",
+   "term": "歯医者",
+   "meaning": "dentist",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "はいしゃ",
+   "romaji": "haisha"
+  },
+  {
+   "slug": "vocab-n4-nesshin",
+   "type": "word",
+   "term": "熱心",
+   "meaning": "enthusiasm",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ねっしん",
+   "romaji": "nesshin"
+  },
+  {
+   "slug": "vocab-n4-hajimeru",
+   "type": "word",
+   "term": "始める",
+   "meaning": "to start, to begin",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "はじめる",
+   "romaji": "hajimeru"
+  },
+  {
+   "slug": "vocab-n4-morau",
+   "type": "word",
+   "term": "もらう",
+   "meaning": "to receive",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "もらう",
+   "romaji": "morau"
+  },
+  {
+   "slug": "vocab-n4-naku",
+   "type": "word",
+   "term": "泣く",
+   "meaning": "to cry",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "なく",
+   "romaji": "naku"
+  },
+  {
+   "slug": "vocab-n4-naoru",
+   "type": "word",
+   "term": "治る",
+   "meaning": "to get better; to recover from illness (v.i.)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "なおる",
+   "romaji": "naoru"
+  },
+  {
+   "slug": "vocab-n4-omatsuri",
+   "type": "word",
+   "term": "お祭り",
+   "meaning": "festival",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "おまつり",
+   "romaji": "omatsuri"
+  },
+  {
+   "slug": "vocab-n4-suidou",
+   "type": "word",
+   "term": "水道",
+   "meaning": "water service, water line",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "すいどう",
+   "romaji": "suidou"
+  },
+  {
+   "slug": "vocab-n4-nioi",
+   "type": "word",
+   "term": "匂い",
+   "meaning": "odor, smell",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "におい",
+   "romaji": "nioi"
+  },
+  {
+   "slug": "vocab-n4-beru",
+   "type": "word",
+   "term": "ベル",
+   "meaning": "bell",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ベル",
+   "romaji": "beru"
+  },
+  {
+   "slug": "vocab-n4-akanbou",
+   "type": "word",
+   "term": "赤ん坊",
+   "meaning": "baby",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "あかんぼう",
+   "romaji": "akanbou"
+  },
+  {
+   "slug": "vocab-n4-okashii",
+   "type": "word",
+   "term": "おかしい",
+   "meaning": "strange; odd; funny",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "おかしい",
+   "romaji": "okashii"
+  },
+  {
+   "slug": "vocab-n4-jiko",
+   "type": "word",
+   "term": "事故",
+   "meaning": "accident",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "じこ",
+   "romaji": "jiko"
+  },
+  {
+   "slug": "vocab-n4-hen",
+   "type": "word",
+   "term": "変",
+   "meaning": "strange, odd",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "へん",
+   "romaji": "hen"
+  },
+  {
+   "slug": "vocab-n4-jiten",
+   "type": "word",
+   "term": "辞典",
+   "meaning": "encyclopedia, reference book",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "じてん",
+   "romaji": "jiten"
+  },
+  {
+   "slug": "vocab-n4-nokoru",
+   "type": "word",
+   "term": "残る",
+   "meaning": "to remain (v.i.), to be left",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "のこる",
+   "romaji": "nokoru"
+  },
+  {
+   "slug": "vocab-n4-tateru-2",
+   "type": "word",
+   "term": "立てる",
+   "meaning": "to stand (something) up, to erect (something)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "たてる",
+   "romaji": "tateru"
+  },
+  {
+   "slug": "vocab-n4-kureru",
+   "type": "word",
+   "term": "くれる",
+   "meaning": "to give, to do for",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "くれる",
+   "romaji": "kureru"
+  },
+  {
+   "slug": "vocab-n4-in",
+   "type": "word",
+   "term": "～員",
+   "meaning": "member of ~",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "～いん",
+   "romaji": "～in"
+  },
+  {
+   "slug": "vocab-n4-gen-in",
+   "type": "word",
+   "term": "原因",
+   "meaning": "cause, origin, source",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "げんいん",
+   "romaji": "gen'in"
+  },
+  {
+   "slug": "vocab-n4-ku-2",
+   "type": "word",
+   "term": "いただく",
+   "meaning": "-- extra-modest expression for たべる and のむ; humble expression for もらう --",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "頂く",
+   "romaji": "頂ku"
+  },
+  {
+   "slug": "vocab-n4-kotae",
+   "type": "word",
+   "term": "答",
+   "meaning": "answer, response",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "こたえ",
+   "romaji": "kotae"
+  },
+  {
+   "slug": "vocab-n4-mochiron",
+   "type": "word",
+   "term": "もちろん",
+   "meaning": "certainly, of course",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "もちろん",
+   "romaji": "mochiron"
+  },
+  {
+   "slug": "vocab-n4-tsukeru",
+   "type": "word",
+   "term": "漬ける",
+   "meaning": "to soak, to moisten, to pickle",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "つける",
+   "romaji": "tsukeru"
+  },
+  {
+   "slug": "vocab-n4-uketsuke",
+   "type": "word",
+   "term": "受付",
+   "meaning": "reception(ist) desk",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "うけつけ",
+   "romaji": "uketsuke"
+  },
+  {
+   "slug": "vocab-n4-uchi",
+   "type": "word",
+   "term": "内",
+   "meaning": "within, inside",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "うち",
+   "romaji": "uchi"
+  },
+  {
+   "slug": "vocab-n4-sukuriin",
+   "type": "word",
+   "term": "スクリーン",
+   "meaning": "screen",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "スクリーン",
+   "romaji": "sukuriin"
+  },
+  {
+   "slug": "vocab-n4-fueru",
+   "type": "word",
+   "term": "増える",
+   "meaning": "to increase, to multiply",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ふえる",
+   "romaji": "fueru"
+  },
+  {
+   "slug": "vocab-n4-mataha",
+   "type": "word",
+   "term": "または",
+   "meaning": "or, otherwise",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "または",
+   "romaji": "mataha"
+  },
+  {
+   "slug": "vocab-n4-kegasuru",
+   "type": "word",
+   "term": "けがする",
+   "meaning": "injury (to animate object), hurt",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "けがする",
+   "romaji": "kegasuru"
+  },
+  {
+   "slug": "vocab-n4-ika",
+   "type": "word",
+   "term": "以下",
+   "meaning": "less than, below",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "いか",
+   "romaji": "ika"
+  },
+  {
+   "slug": "vocab-n4-erabu",
+   "type": "word",
+   "term": "選ぶ",
+   "meaning": "to choose; to select",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "えらぶ",
+   "romaji": "erabu"
+  },
+  {
+   "slug": "vocab-n4-bakari",
+   "type": "word",
+   "term": "～ばかり",
+   "meaning": "just did ~, only",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "～ばかり",
+   "romaji": "～bakari"
+  },
+  {
+   "slug": "vocab-n4-kokoro",
+   "type": "word",
+   "term": "心",
+   "meaning": "heart, mind",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "こころ",
+   "romaji": "kokoro"
+  },
+  {
+   "slug": "vocab-n4-dasu",
+   "type": "word",
+   "term": "～だす",
+   "meaning": "to start doing ~",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "～だす",
+   "romaji": "～dasu"
+  },
+  {
+   "slug": "vocab-n4-sarada",
+   "type": "word",
+   "term": "サラダ",
+   "meaning": "salad",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "サラダ",
+   "romaji": "sarada"
+  },
+  {
+   "slug": "vocab-n4-todokeru",
+   "type": "word",
+   "term": "届ける",
+   "meaning": "to deliver (v.t.)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "とどける",
+   "romaji": "todokeru"
+  },
+  {
+   "slug": "vocab-n4-keshiki",
+   "type": "word",
+   "term": "景色",
+   "meaning": "scenery, landscape",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "けしき",
+   "romaji": "keshiki"
+  },
+  {
+   "slug": "vocab-n4-tashika",
+   "type": "word",
+   "term": "確か",
+   "meaning": "if I remember correctly; certain, definite",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "たしか",
+   "romaji": "tashika"
+  },
+  {
+   "slug": "vocab-n4-suteeki",
+   "type": "word",
+   "term": "ステーキ",
+   "meaning": "steak",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ステーキ",
+   "romaji": "suteeki"
+  },
+  {
+   "slug": "vocab-n4-shokuryouhin",
+   "type": "word",
+   "term": "食料品",
+   "meaning": "foodstuff, groceries",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "しょくりょうひん",
+   "romaji": "shokuryouhin"
+  },
+  {
+   "slug": "vocab-n4-inai",
+   "type": "word",
+   "term": "以内",
+   "meaning": "within, less (no more) than",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "いない",
+   "romaji": "inai"
+  },
+  {
+   "slug": "vocab-n4-yotei",
+   "type": "word",
+   "term": "予定",
+   "meaning": "plans, arrangement, schedule",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "よてい",
+   "romaji": "yotei"
+  },
+  {
+   "slug": "vocab-n4-oobaa",
+   "type": "word",
+   "term": "オーバー",
+   "meaning": "overcoat; over, exceeding, exaggeration",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "オーバー",
+   "romaji": "oobaa"
+  },
+  {
+   "slug": "vocab-n4-kawaku",
+   "type": "word",
+   "term": "乾く",
+   "meaning": "to get dry",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "かわく",
+   "romaji": "kawaku"
+  },
+  {
+   "slug": "vocab-n4-ishi",
+   "type": "word",
+   "term": "石",
+   "meaning": "stone",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "いし",
+   "romaji": "ishi"
+  },
+  {
+   "slug": "vocab-n4-omoidasu",
+   "type": "word",
+   "term": "思い出す",
+   "meaning": "to recall, to remember",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "おもいだす",
+   "romaji": "omoidasu"
+  },
+  {
+   "slug": "vocab-n4-komakai",
+   "type": "word",
+   "term": "細かい",
+   "meaning": "small; fine, minute",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "こまかい",
+   "romaji": "komakai"
+  },
+  {
+   "slug": "vocab-n4-nuru",
+   "type": "word",
+   "term": "塗る",
+   "meaning": "to paint, to plaster",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ぬる",
+   "romaji": "nuru"
+  },
+  {
+   "slug": "vocab-n4-goshujin",
+   "type": "word",
+   "term": "ご主人",
+   "meaning": "(your, her) husband",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ごしゅじん",
+   "romaji": "goshujin"
+  },
+  {
+   "slug": "vocab-n4-mezurashii",
+   "type": "word",
+   "term": "珍しい",
+   "meaning": "unusual, rare",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "めずらしい",
+   "romaji": "mezurashii"
+  },
+  {
+   "slug": "vocab-n4-you",
+   "type": "word",
+   "term": "用",
+   "meaning": "errand, task, business (to take care of)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "よう",
+   "romaji": "you"
+  },
+  {
+   "slug": "vocab-n4-koumuin",
+   "type": "word",
+   "term": "公務員",
+   "meaning": "government worker, public servant",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "こうむいん",
+   "romaji": "koumuin"
+  },
+  {
+   "slug": "vocab-n4-ojousan",
+   "type": "word",
+   "term": "お嬢さん",
+   "meaning": "(someone's) daughter (polite)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "おじょうさん",
+   "romaji": "ojousan"
+  },
+  {
+   "slug": "vocab-n4-youi",
+   "type": "word",
+   "term": "用意",
+   "meaning": "preparation",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ようい",
+   "romaji": "youi"
+  },
+  {
+   "slug": "vocab-n4-sagasu",
+   "type": "word",
+   "term": "探す",
+   "meaning": "to search, to seek, to look for",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "さがす",
+   "romaji": "sagasu"
+  },
+  {
+   "slug": "vocab-n4-katachi",
+   "type": "word",
+   "term": "形",
+   "meaning": "shape",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "かたち",
+   "romaji": "katachi"
+  },
+  {
+   "slug": "vocab-n4-untensuru",
+   "type": "word",
+   "term": "運転",
+   "meaning": "driving",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "うんてんする",
+   "romaji": "untensuru"
+  },
+  {
+   "slug": "vocab-n4-sukkari",
+   "type": "word",
+   "term": "すっかり",
+   "meaning": "all, completely",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "すっかり",
+   "romaji": "sukkari"
+  },
+  {
+   "slug": "vocab-n4-anaunsaa",
+   "type": "word",
+   "term": "アナウンサー",
+   "meaning": "announcer",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "アナウンサー",
+   "romaji": "anaunsaa"
+  },
+  {
+   "slug": "vocab-n4-ryokan",
+   "type": "word",
+   "term": "旅館",
+   "meaning": "a Japanese inn",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "りょかん",
+   "romaji": "ryokan"
+  },
+  {
+   "slug": "vocab-n4-kaigan",
+   "type": "word",
+   "term": "海岸",
+   "meaning": "coast, seashore",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "かいがん",
+   "romaji": "kaigan"
+  },
+  {
+   "slug": "vocab-n4-hi-2",
+   "type": "word",
+   "term": "火",
+   "meaning": "fire",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ひ",
+   "romaji": "hi"
+  },
+  {
+   "slug": "vocab-n4-sodateru",
+   "type": "word",
+   "term": "育てる",
+   "meaning": "to raise (v.t.); to bring up",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "そだてる",
+   "romaji": "sodateru"
+  },
+  {
+   "slug": "vocab-n4-oiwai",
+   "type": "word",
+   "term": "お祝い",
+   "meaning": "congratulation, celebration",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "おいわい",
+   "romaji": "oiwai"
+  },
+  {
+   "slug": "vocab-n4-norimono",
+   "type": "word",
+   "term": "乗り物",
+   "meaning": "vehicle",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "のりもの",
+   "romaji": "norimono"
+  },
+  {
+   "slug": "vocab-n4-annaisuru",
+   "type": "word",
+   "term": "案内",
+   "meaning": "information, guidance",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "あんないする",
+   "romaji": "annaisuru"
+  },
+  {
+   "slug": "vocab-n4-kayou",
+   "type": "word",
+   "term": "通う",
+   "meaning": "to go back and forth; to commute",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "かよう",
+   "romaji": "kayou"
+  },
+  {
+   "slug": "vocab-n4-tsureru",
+   "type": "word",
+   "term": "連れる",
+   "meaning": "to lead, to take (a person)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "つれる",
+   "romaji": "tsureru"
+  },
+  {
+   "slug": "vocab-n4-gijutsu",
+   "type": "word",
+   "term": "技術",
+   "meaning": "technique, technology, skill",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ぎじゅつ",
+   "romaji": "gijutsu"
+  },
+  {
+   "slug": "vocab-n4-kotori",
+   "type": "word",
+   "term": "小鳥",
+   "meaning": "small bird",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ことり",
+   "romaji": "kotori"
+  },
+  {
+   "slug": "vocab-n4-geshuku",
+   "type": "word",
+   "term": "下宿",
+   "meaning": "lodging, boarding house",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "げしゅく",
+   "romaji": "geshuku"
+  },
+  {
+   "slug": "vocab-n4-jamu",
+   "type": "word",
+   "term": "ジャム",
+   "meaning": "jam",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ジャム",
+   "romaji": "jamu"
+  },
+  {
+   "slug": "vocab-n4-shoutaisuru",
+   "type": "word",
+   "term": "招待",
+   "meaning": "invitation",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "しょうたいする",
+   "romaji": "shoutaisuru"
+  },
+  {
+   "slug": "vocab-n4-hazu",
+   "type": "word",
+   "term": "はず",
+   "meaning": "it should be so",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "はず",
+   "romaji": "hazu"
+  },
+  {
+   "slug": "vocab-n4-houritsu",
+   "type": "word",
+   "term": "法律",
+   "meaning": "law",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ほうりつ",
+   "romaji": "houritsu"
+  },
+  {
+   "slug": "vocab-n4-susumu",
+   "type": "word",
+   "term": "進む",
+   "meaning": "to advance, to proceed",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "すすむ",
+   "romaji": "susumu"
+  },
+  {
+   "slug": "vocab-n4-tanoshimu",
+   "type": "word",
+   "term": "楽む",
+   "meaning": "to enjoy",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "たのしむ",
+   "romaji": "tanoshimu"
+  },
+  {
+   "slug": "vocab-n4-boueki",
+   "type": "word",
+   "term": "貿易",
+   "meaning": "trade",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ぼうえき",
+   "romaji": "boueki"
+  },
+  {
+   "slug": "vocab-n4-hantai",
+   "type": "word",
+   "term": "反対",
+   "meaning": "oppose, opposition, resistance",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "はんたい",
+   "romaji": "hantai"
+  },
+  {
+   "slug": "vocab-n4-oru-2",
+   "type": "word",
+   "term": "おる",
+   "meaning": "-- extra-modest expression for いる --",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "おる",
+   "romaji": "oru"
+  },
+  {
+   "slug": "vocab-n4-mousu",
+   "type": "word",
+   "term": "申す",
+   "meaning": "-- extra-modest (humble) expression for 言う (いう) --",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "もうす",
+   "romaji": "mousu"
+  },
+  {
+   "slug": "vocab-n4-majime",
+   "type": "word",
+   "term": "真面目",
+   "meaning": "diligent, serious",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "まじめ",
+   "romaji": "majime"
+  },
+  {
+   "slug": "vocab-n4-goranninaru",
+   "type": "word",
+   "term": "ごらんになる",
+   "meaning": "-- honorific expression for みる --",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "romaji": "goranninaru"
+  },
+  {
+   "slug": "vocab-n4-ten-in",
+   "type": "word",
+   "term": "店員",
+   "meaning": "clerk; shop-employee",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "てんいん",
+   "romaji": "ten'in"
+  },
+  {
+   "slug": "vocab-n4-tomaru",
+   "type": "word",
+   "term": "泊まる",
+   "meaning": "to stay (over night) (v.i.)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "とまる",
+   "romaji": "tomaru"
+  },
+  {
+   "slug": "vocab-n4-yoroshii",
+   "type": "word",
+   "term": "よろしい",
+   "meaning": "(hon.) good, OK, all right",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "よろしい",
+   "romaji": "yoroshii"
+  },
+  {
+   "slug": "vocab-n4-kon-ya",
+   "type": "word",
+   "term": "今夜",
+   "meaning": "this evening, tonight",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "こんや",
+   "romaji": "kon'ya"
+  },
+  {
+   "slug": "vocab-n4-otsuri",
+   "type": "word",
+   "term": "おつり",
+   "meaning": "change; balance of money returned to the purchaser",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "おつり",
+   "romaji": "otsuri"
+  },
+  {
+   "slug": "vocab-n4-chekkusuru",
+   "type": "word",
+   "term": "チェックする",
+   "meaning": "check",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "チェックする",
+   "romaji": "chekkusuru"
+  },
+  {
+   "slug": "vocab-n4-kaiwa",
+   "type": "word",
+   "term": "会話",
+   "meaning": "conversation",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "かいわ",
+   "romaji": "kaiwa"
+  },
+  {
+   "slug": "vocab-n4-kuuki",
+   "type": "word",
+   "term": "空気",
+   "meaning": "air, atmosphere",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "くうき",
+   "romaji": "kuuki"
+  },
+  {
+   "slug": "vocab-n4-koutsuu",
+   "type": "word",
+   "term": "交通",
+   "meaning": "traffic, transportation",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "こうつう",
+   "romaji": "koutsuu"
+  },
+  {
+   "slug": "vocab-n4-waapuro",
+   "type": "word",
+   "term": "ワープロ",
+   "meaning": "word processor",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ワープロ",
+   "romaji": "waapuro"
+  },
+  {
+   "slug": "vocab-n4-yorokobu",
+   "type": "word",
+   "term": "喜ぶ",
+   "meaning": "to rejoice, to be delighted, to be glad",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "よろこぶ",
+   "romaji": "yorokobu"
+  },
+  {
+   "slug": "vocab-n4-kyuukou",
+   "type": "word",
+   "term": "急行",
+   "meaning": "express train or bus",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "きゅうこう",
+   "romaji": "kyuukou"
+  },
+  {
+   "slug": "vocab-n4-mina",
+   "type": "word",
+   "term": "皆",
+   "meaning": "everyone",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "みな",
+   "romaji": "mina"
+  },
+  {
+   "slug": "vocab-n4-aji",
+   "type": "word",
+   "term": "味",
+   "meaning": "flavor, taste",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "あじ",
+   "romaji": "aji"
+  },
+  {
+   "slug": "vocab-n4-kouchou",
+   "type": "word",
+   "term": "校長",
+   "meaning": "principal, headmaster",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "こうちょう",
+   "romaji": "kouchou"
+  },
+  {
+   "slug": "vocab-n4-gochisou",
+   "type": "word",
+   "term": "ごちそう",
+   "meaning": "feast, treating (someone)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ごちそう",
+   "romaji": "gochisou"
+  },
+  {
+   "slug": "vocab-n4-odori",
+   "type": "word",
+   "term": "踊り",
+   "meaning": "dance",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "おどり",
+   "romaji": "odori"
+  },
+  {
+   "slug": "vocab-n4-kyoumi",
+   "type": "word",
+   "term": "興味",
+   "meaning": "interest (in something)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "きょうみ",
+   "romaji": "kyoumi"
+  },
+  {
+   "slug": "vocab-n4-hikkosu",
+   "type": "word",
+   "term": "引っ越す",
+   "meaning": "to move to a new place of residence",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ひっこす",
+   "romaji": "hikkosu"
+  },
+  {
+   "slug": "vocab-n4-reibou",
+   "type": "word",
+   "term": "冷房",
+   "meaning": "cooling, air conditioning",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "れいぼう",
+   "romaji": "reibou"
+  },
+  {
+   "slug": "vocab-n4-tsugou",
+   "type": "word",
+   "term": "都合",
+   "meaning": "circumstances, convenience",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "つごう",
+   "romaji": "tsugou"
+  },
+  {
+   "slug": "vocab-n4-enryosuru",
+   "type": "word",
+   "term": "遠慮",
+   "meaning": "restraint, reserve, hesitate",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "えんりょする",
+   "romaji": "enryosuru"
+  },
+  {
+   "slug": "vocab-n4-nakunaru-2",
+   "type": "word",
+   "term": "亡くなる",
+   "meaning": "to pass away",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "なくなる",
+   "romaji": "nakunaru"
+  },
+  {
+   "slug": "vocab-n4-kagaku",
+   "type": "word",
+   "term": "科学",
+   "meaning": "science",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "かがく",
+   "romaji": "kagaku"
+  },
+  {
+   "slug": "vocab-n4-hakkiri",
+   "type": "word",
+   "term": "はっきり",
+   "meaning": "clearly, distinctly",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "はっきり",
+   "romaji": "hakkiri"
+  },
+  {
+   "slug": "vocab-n4-sashiageru",
+   "type": "word",
+   "term": "差し上げる",
+   "meaning": "-- humble expression for あげる --",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "さしあげる",
+   "romaji": "sashiageru"
+  },
+  {
+   "slug": "vocab-n4-minato",
+   "type": "word",
+   "term": "港",
+   "meaning": "harbor, port",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "みなと",
+   "romaji": "minato"
+  },
+  {
+   "slug": "vocab-n4-yoyaku",
+   "type": "word",
+   "term": "予約",
+   "meaning": "reservation",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "よやく",
+   "romaji": "yoyaku"
+  },
+  {
+   "slug": "vocab-n4-sugoi",
+   "type": "word",
+   "term": "凄い",
+   "meaning": "terrific, great",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "すごい",
+   "romaji": "sugoi"
+  },
+  {
+   "slug": "vocab-n4-nyuugakusuru",
+   "type": "word",
+   "term": "入学",
+   "meaning": "entry to school or university",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "にゅうがくする",
+   "romaji": "nyuugakusuru"
+  },
+  {
+   "slug": "vocab-n4-katazukeru",
+   "type": "word",
+   "term": "片付ける",
+   "meaning": "to (clean) tidy up (v.t.), to put away",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "かたづける",
+   "romaji": "katazukeru"
+  },
+  {
+   "slug": "vocab-n4-utsusu",
+   "type": "word",
+   "term": "写す",
+   "meaning": "to copy (v.t.); to photograph",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "うつす",
+   "romaji": "utsusu"
+  },
+  {
+   "slug": "vocab-n4-buchou",
+   "type": "word",
+   "term": "部長",
+   "meaning": "department (division) manager",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ぶちょう",
+   "romaji": "buchou"
+  },
+  {
+   "slug": "vocab-n4-kaji",
+   "type": "word",
+   "term": "火事",
+   "meaning": "fire",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "かじ",
+   "romaji": "kaji"
+  },
+  {
+   "slug": "vocab-n4-tasu",
+   "type": "word",
+   "term": "足す",
+   "meaning": "to add (numbers)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "たす",
+   "romaji": "tasu"
+  },
+  {
+   "slug": "vocab-n4-kyoukai",
+   "type": "word",
+   "term": "教会",
+   "meaning": "church",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "きょうかい",
+   "romaji": "kyoukai"
+  },
+  {
+   "slug": "vocab-n4-karera",
+   "type": "word",
+   "term": "彼ら",
+   "meaning": "they (usually male)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "かれら",
+   "romaji": "karera"
+  },
+  {
+   "slug": "vocab-n4-ippai",
+   "type": "word",
+   "term": "一杯",
+   "meaning": "full, to the utmost",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "いっぱい",
+   "romaji": "ippai"
+  },
+  {
+   "slug": "vocab-n4-amerika",
+   "type": "word",
+   "term": "アメリカ",
+   "meaning": "America, U.S.A.",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "アメリカ",
+   "romaji": "amerika"
+  },
+  {
+   "slug": "vocab-n4-dansei",
+   "type": "word",
+   "term": "男性",
+   "meaning": "man; male",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "だんせい",
+   "romaji": "dansei"
+  },
+  {
+   "slug": "vocab-n4-riyuu",
+   "type": "word",
+   "term": "理由",
+   "meaning": "reason",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "りゆう",
+   "romaji": "riyuu"
+  },
+  {
+   "slug": "vocab-n4-seisansuru",
+   "type": "word",
+   "term": "生産",
+   "meaning": "production; to produce",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "せいさんする",
+   "romaji": "seisansuru"
+  },
+  {
+   "slug": "vocab-n4-omocha",
+   "type": "word",
+   "term": "おもちゃ",
+   "meaning": "a toy",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "おもちゃ",
+   "romaji": "omocha"
+  },
+  {
+   "slug": "vocab-n4-kureru-2",
+   "type": "word",
+   "term": "暮れる",
+   "meaning": "to get dark, to come to an end",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "くれる",
+   "romaji": "kureru"
+  },
+  {
+   "slug": "vocab-n4-tsuru",
+   "type": "word",
+   "term": "釣る",
+   "meaning": "to fish",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "つる",
+   "romaji": "tsuru"
+  },
+  {
+   "slug": "vocab-n4-chan",
+   "type": "word",
+   "term": "～ちゃん",
+   "meaning": "suffix for familiar (female) person",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "～ちゃん",
+   "romaji": "～chan"
+  },
+  {
+   "slug": "vocab-n4-utsu",
+   "type": "word",
+   "term": "打つ",
+   "meaning": "to hit, to strike",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "うつ",
+   "romaji": "utsu"
+  },
+  {
+   "slug": "vocab-n4-anna",
+   "type": "word",
+   "term": "あんな",
+   "meaning": "such, like that",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "あんな",
+   "romaji": "anna"
+  },
+  {
+   "slug": "vocab-n4-ayamaru",
+   "type": "word",
+   "term": "謝る",
+   "meaning": "to apologize",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "あやまる",
+   "romaji": "ayamaru"
+  },
+  {
+   "slug": "vocab-n4-hiruma",
+   "type": "word",
+   "term": "昼間",
+   "meaning": "daytime, during the day",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ひるま",
+   "romaji": "hiruma"
+  },
+  {
+   "slug": "vocab-n4-kyouiku",
+   "type": "word",
+   "term": "教育",
+   "meaning": "education",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "きょういく",
+   "romaji": "kyouiku"
+  },
+  {
+   "slug": "vocab-n4-josei",
+   "type": "word",
+   "term": "女性",
+   "meaning": "woman",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "じょせい",
+   "romaji": "josei"
+  },
+  {
+   "slug": "vocab-n4-kome",
+   "type": "word",
+   "term": "米",
+   "meaning": "uncooked rice",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "こめ",
+   "romaji": "kome"
+  },
+  {
+   "slug": "vocab-n4-jama",
+   "type": "word",
+   "term": "邪魔",
+   "meaning": "hindrance, intrusion",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "じゃま",
+   "romaji": "jama"
+  },
+  {
+   "slug": "vocab-n4-kokusai",
+   "type": "word",
+   "term": "国際",
+   "meaning": "international",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "こくさい",
+   "romaji": "kokusai"
+  },
+  {
+   "slug": "vocab-n4-sumi",
+   "type": "word",
+   "term": "隅",
+   "meaning": "corner",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "すみ",
+   "romaji": "sumi"
+  },
+  {
+   "slug": "vocab-n4-ukagau-2",
+   "type": "word",
+   "term": "伺う",
+   "meaning": "humble form of 行く (いく), 聞く (きく) and 来る (くる)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "うかがう",
+   "romaji": "ukagau"
+  },
+  {
+   "slug": "vocab-n4-saraishuu",
+   "type": "word",
+   "term": "再来週",
+   "meaning": "the week after next",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "さらいしゅう",
+   "romaji": "saraishuu"
+  },
+  {
+   "slug": "vocab-n4-nodo",
+   "type": "word",
+   "term": "喉",
+   "meaning": "throat",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "のど",
+   "romaji": "nodo"
+  },
+  {
+   "slug": "vocab-n4-saikin",
+   "type": "word",
+   "term": "最近",
+   "meaning": "recently, nowadays, in recent years, most recent, latest",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "さいきん",
+   "romaji": "saikin"
+  },
+  {
+   "slug": "vocab-n4-mawari",
+   "type": "word",
+   "term": "周り",
+   "meaning": "surroundings",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "まわり",
+   "romaji": "mawari"
+  },
+  {
+   "slug": "vocab-n4-rekishi",
+   "type": "word",
+   "term": "歴史",
+   "meaning": "history",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "れきし",
+   "romaji": "rekishi"
+  },
+  {
+   "slug": "vocab-n4-fuben",
+   "type": "word",
+   "term": "不便",
+   "meaning": "inconvenience",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ふべん",
+   "romaji": "fuben"
+  },
+  {
+   "slug": "vocab-n4-tsuzukeru",
+   "type": "word",
+   "term": "～続ける",
+   "meaning": "to continue doing ~",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "～つづける",
+   "romaji": "～tsuzukeru"
+  },
+  {
+   "slug": "vocab-n4-ke",
+   "type": "word",
+   "term": "毛",
+   "meaning": "hair, fur",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "け",
+   "romaji": "ke"
+  },
+  {
+   "slug": "vocab-n4-hidoi",
+   "type": "word",
+   "term": "ひどい",
+   "meaning": "terrible, awful, unfair, cruel",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ひどい",
+   "romaji": "hidoi"
+  },
+  {
+   "slug": "vocab-n4-tatoeba",
+   "type": "word",
+   "term": "例えば",
+   "meaning": "for example, e.g.",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "たとえば",
+   "romaji": "tatoeba"
+  },
+  {
+   "slug": "vocab-n4-nakanaka",
+   "type": "word",
+   "term": "中々",
+   "meaning": "very, considerably, quite",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "なかなか",
+   "romaji": "nakanaka"
+  },
+  {
+   "slug": "vocab-n4-zuibun",
+   "type": "word",
+   "term": "随分",
+   "meaning": "extremely",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ずいぶん",
+   "romaji": "zuibun"
+  },
+  {
+   "slug": "vocab-n4-yasui",
+   "type": "word",
+   "term": "～やすい",
+   "meaning": "easy to do ~",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "～やすい",
+   "romaji": "～yasui"
+  },
+  {
+   "slug": "vocab-n4-oshiire",
+   "type": "word",
+   "term": "押し入れ",
+   "meaning": "closet",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "おしいれ",
+   "romaji": "oshiire"
+  },
+  {
+   "slug": "vocab-n4-shikaru",
+   "type": "word",
+   "term": "叱る",
+   "meaning": "to scold",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "しかる",
+   "romaji": "shikaru"
+  },
+  {
+   "slug": "vocab-n4-sandaru",
+   "type": "word",
+   "term": "サンダル",
+   "meaning": "sandal",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "サンダル",
+   "romaji": "sandaru"
+  },
+  {
+   "slug": "vocab-n4-bikkurisuru",
+   "type": "word",
+   "term": "びっくりする",
+   "meaning": "to be surprised",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "びっくりする",
+   "romaji": "bikkurisuru"
+  },
+  {
+   "slug": "vocab-n4-umai",
+   "type": "word",
+   "term": "うまい",
+   "meaning": "delicious; skillful; fortunate",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "うまい",
+   "romaji": "umai"
+  },
+  {
+   "slug": "vocab-n4-kaeru",
+   "type": "word",
+   "term": "変える",
+   "meaning": "to change, to alter, to vary",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "かえる",
+   "romaji": "kaeru"
+  },
+  {
+   "slug": "vocab-n4-koudou",
+   "type": "word",
+   "term": "講堂",
+   "meaning": "auditorium",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "こうどう",
+   "romaji": "koudou"
+  },
+  {
+   "slug": "vocab-n4-ko",
+   "type": "word",
+   "term": "子",
+   "meaning": "child",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "こ",
+   "romaji": "ko"
+  },
+  {
+   "slug": "vocab-n4-wakasu",
+   "type": "word",
+   "term": "沸かす",
+   "meaning": "to boil",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "わかす",
+   "romaji": "wakasu"
+  },
+  {
+   "slug": "vocab-n4-shibaraku",
+   "type": "word",
+   "term": "しばらく",
+   "meaning": "little while",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "しばらく",
+   "romaji": "shibaraku"
+  },
+  {
+   "slug": "vocab-n4-tokuni",
+   "type": "word",
+   "term": "特に",
+   "meaning": "particularly",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "とくに",
+   "romaji": "tokuni"
+  },
+  {
+   "slug": "vocab-n4-aku",
+   "type": "word",
+   "term": "空く",
+   "meaning": "to open, to become empty (vacant)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "あく",
+   "romaji": "aku"
+  },
+  {
+   "slug": "vocab-n4-keikakusuru",
+   "type": "word",
+   "term": "計画",
+   "meaning": "plan, project, schedule",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "けいかくする",
+   "romaji": "keikakusuru"
+  },
+  {
+   "slug": "vocab-n4-toori",
+   "type": "word",
+   "term": "通り",
+   "meaning": "~ Street, ~ Avenue",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "とおり",
+   "romaji": "toori"
+  },
+  {
+   "slug": "vocab-n4-keizai",
+   "type": "word",
+   "term": "経済",
+   "meaning": "economics, finance, economy",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "けいざい",
+   "romaji": "keizai"
+  },
+  {
+   "slug": "vocab-n4-kou",
+   "type": "word",
+   "term": "こう",
+   "meaning": "like this, this way",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "こう",
+   "romaji": "kou"
+  },
+  {
+   "slug": "vocab-n4-zehi",
+   "type": "word",
+   "term": "是非",
+   "meaning": "certainly, by all means; without fail",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ぜひ",
+   "romaji": "zehi"
+  },
+  {
+   "slug": "vocab-n4-ura",
+   "type": "word",
+   "term": "裏",
+   "meaning": "reverse side, back",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "うら",
+   "romaji": "ura"
+  },
+  {
+   "slug": "vocab-n4-tame",
+   "type": "word",
+   "term": "為",
+   "meaning": "good, advantage, in order to",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ため",
+   "romaji": "tame"
+  },
+  {
+   "slug": "vocab-n4-oideninaru",
+   "type": "word",
+   "term": "おいでになる",
+   "meaning": "(hon.) to be",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "おいでになる",
+   "romaji": "oideninaru"
+  },
+  {
+   "slug": "vocab-n4-kawaru",
+   "type": "word",
+   "term": "変わる",
+   "meaning": "to change (v.i.), to be transformed, to vary",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "かわる",
+   "romaji": "kawaru"
+  },
+  {
+   "slug": "vocab-n4-igai",
+   "type": "word",
+   "term": "以外",
+   "meaning": "other than, with the exception of, excepting",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "いがい",
+   "romaji": "igai"
+  },
+  {
+   "slug": "vocab-n4-sumu",
+   "type": "word",
+   "term": "済む",
+   "meaning": "to finish, to end",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "すむ",
+   "romaji": "sumu"
+  },
+  {
+   "slug": "vocab-n4-hanbaagu",
+   "type": "word",
+   "term": "ハンバーグ",
+   "meaning": "hamburger steak",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ハンバーグ",
+   "romaji": "hanbaagu"
+  },
+  {
+   "slug": "vocab-n4-shi",
+   "type": "word",
+   "term": "市",
+   "meaning": "city",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "し",
+   "romaji": "shi"
+  },
+  {
+   "slug": "vocab-n4-hikidashi",
+   "type": "word",
+   "term": "引き出し",
+   "meaning": "drawer",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ひきだし",
+   "romaji": "hikidashi"
+  },
+  {
+   "slug": "vocab-n4-asobi",
+   "type": "word",
+   "term": "遊び",
+   "meaning": "play",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "あそび",
+   "romaji": "asobi"
+  },
+  {
+   "slug": "vocab-n4-shitakusuru",
+   "type": "word",
+   "term": "支度",
+   "meaning": "preparation",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "したくする",
+   "romaji": "shitakusuru"
+  },
+  {
+   "slug": "vocab-n4-hajimeru-2",
+   "type": "word",
+   "term": "～始める",
+   "meaning": "to start doing ~",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "～はじめる",
+   "romaji": "～hajimeru"
+  },
+  {
+   "slug": "vocab-n4-mieru",
+   "type": "word",
+   "term": "見える",
+   "meaning": "to be visible; -- polite verb meaning 来る (くる) --",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "みえる",
+   "romaji": "mieru"
+  },
+  {
+   "slug": "vocab-n4-juubun",
+   "type": "word",
+   "term": "十分",
+   "meaning": "enough",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "じゅうぶん",
+   "romaji": "juubun"
+  },
+  {
+   "slug": "vocab-n4-oto",
+   "type": "word",
+   "term": "音",
+   "meaning": "sound, note",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "おと",
+   "romaji": "oto"
+  },
+  {
+   "slug": "vocab-n4-kitto",
+   "type": "word",
+   "term": "きっと",
+   "meaning": "surely, definitely, undoubtedly, certainly",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "きっと",
+   "romaji": "kitto"
+  },
+  {
+   "slug": "vocab-n4-mazu",
+   "type": "word",
+   "term": "まず",
+   "meaning": "first (of all), to start with",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "まず",
+   "romaji": "mazu"
+  },
+  {
+   "slug": "vocab-n4-tooku",
+   "type": "word",
+   "term": "遠く",
+   "meaning": "far away, distant",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "とおく",
+   "romaji": "tooku"
+  },
+  {
+   "slug": "vocab-n4-daitai",
+   "type": "word",
+   "term": "大体",
+   "meaning": "approximately; in most cases; in general; to begin with (same as もともと)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "だいたい",
+   "romaji": "daitai"
+  },
+  {
+   "slug": "vocab-n4-oreru",
+   "type": "word",
+   "term": "折れる",
+   "meaning": "to break, to be folded, to give in; to turn (a corner)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "おれる",
+   "romaji": "oreru"
+  },
+  {
+   "slug": "vocab-n4-tadashii",
+   "type": "word",
+   "term": "正しい",
+   "meaning": "correct",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ただしい",
+   "romaji": "tadashii"
+  },
+  {
+   "slug": "vocab-n4-yunyuu",
+   "type": "word",
+   "term": "輸入",
+   "meaning": "import",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ゆにゅう",
+   "romaji": "yunyuu"
+  },
+  {
+   "slug": "vocab-n4-henji",
+   "type": "word",
+   "term": "返事",
+   "meaning": "reply, answer",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "へんじ",
+   "romaji": "henji"
+  },
+  {
+   "slug": "vocab-n4-to",
+   "type": "word",
+   "term": "都",
+   "meaning": "metropolitan",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "と",
+   "romaji": "to"
+  },
+  {
+   "slug": "vocab-n4-sangyou",
+   "type": "word",
+   "term": "産業",
+   "meaning": "industry",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "さんぎょう",
+   "romaji": "sangyou"
+  },
+  {
+   "slug": "vocab-n4-tsutaeru",
+   "type": "word",
+   "term": "伝える",
+   "meaning": "to convey (a message); to tell, to report",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "つたえる",
+   "romaji": "tsutaeru"
+  },
+  {
+   "slug": "vocab-n4-kanemochi-okanemochi",
+   "type": "word",
+   "term": "お金持ち",
+   "meaning": "rich person",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "かねもち; おかねもち",
+   "romaji": "kanemochi;okanemochi"
+  },
+  {
+   "slug": "vocab-n4-setsumei",
+   "type": "word",
+   "term": "説明",
+   "meaning": "explanation",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "せつめい",
+   "romaji": "setsumei"
+  },
+  {
+   "slug": "vocab-n4-shima",
+   "type": "word",
+   "term": "島",
+   "meaning": "island",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "しま",
+   "romaji": "shima"
+  },
+  {
+   "slug": "vocab-n4-dougu",
+   "type": "word",
+   "term": "道具",
+   "meaning": "tool",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "どうぐ",
+   "romaji": "dougu"
+  },
+  {
+   "slug": "vocab-n4-suberu",
+   "type": "word",
+   "term": "滑る",
+   "meaning": "to slide, to slip",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "すべる",
+   "romaji": "suberu"
+  },
+  {
+   "slug": "vocab-n4-sorehodo",
+   "type": "word",
+   "term": "それほど",
+   "meaning": "to that degree; extent",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "それほど",
+   "romaji": "sorehodo"
+  },
+  {
+   "slug": "vocab-n4-ijou",
+   "type": "word",
+   "term": "以上",
+   "meaning": "more than; this is all",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "いじょう",
+   "romaji": "ijou"
+  },
+  {
+   "slug": "vocab-n4-mama",
+   "type": "word",
+   "term": "～まま",
+   "meaning": "as it is",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "～まま",
+   "romaji": "～mama"
+  },
+  {
+   "slug": "vocab-n4-tokkyuu",
+   "type": "word",
+   "term": "特急",
+   "meaning": "limited express (train faster than an express)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "とっきゅう",
+   "romaji": "tokkyuu"
+  },
+  {
+   "slug": "vocab-n4-purezento",
+   "type": "word",
+   "term": "プレゼント",
+   "meaning": "present, gift",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "プレゼント",
+   "romaji": "purezento"
+  },
+  {
+   "slug": "vocab-n4-ni-yoruto",
+   "type": "word",
+   "term": "～(に) よると",
+   "meaning": "according to ~",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "～(に) よると",
+   "romaji": "～(ni)yoruto"
+  },
+  {
+   "slug": "vocab-n4-kaeri",
+   "type": "word",
+   "term": "帰り",
+   "meaning": "return, coming back",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "かえり",
+   "romaji": "kaeri"
+  },
+  {
+   "slug": "vocab-n4-guai",
+   "type": "word",
+   "term": "具合",
+   "meaning": "condition, state, health",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ぐあい",
+   "romaji": "guai"
+  },
+  {
+   "slug": "vocab-n4-katai",
+   "type": "word",
+   "term": "堅; 硬; 固い",
+   "meaning": "solid, hard, firm",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "かたい",
+   "romaji": "katai"
+  },
+  {
+   "slug": "vocab-n4-suutsu",
+   "type": "word",
+   "term": "スーツ",
+   "meaning": "suit",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "スーツ",
+   "romaji": "suutsu"
+  },
+  {
+   "slug": "vocab-n4-kiken",
+   "type": "word",
+   "term": "危険",
+   "meaning": "danger, risk, hazard",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "きけん",
+   "romaji": "kiken"
+  },
+  {
+   "slug": "vocab-n4-kami",
+   "type": "word",
+   "term": "髪",
+   "meaning": "hair",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "かみ",
+   "romaji": "kami"
+  },
+  {
+   "slug": "vocab-n4-tenkiyohou",
+   "type": "word",
+   "term": "天気予報",
+   "meaning": "weather forecast",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "てんきよほう",
+   "romaji": "tenkiyohou"
+  },
+  {
+   "slug": "vocab-n4-kanojo",
+   "type": "word",
+   "term": "彼女",
+   "meaning": "girlfriend; she",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "かのじょ",
+   "romaji": "kanojo"
+  },
+  {
+   "slug": "vocab-n4-aida",
+   "type": "word",
+   "term": "間",
+   "meaning": "space, interval",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "あいだ",
+   "romaji": "aida"
+  },
+  {
+   "slug": "vocab-n4-sotsugyou",
+   "type": "word",
+   "term": "卒業",
+   "meaning": "graduation",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "そつぎょう",
+   "romaji": "sotsugyou"
+  },
+  {
+   "slug": "vocab-n4-sorede",
+   "type": "word",
+   "term": "それで",
+   "meaning": "and (conj.), thereupon, because of that",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "それで",
+   "romaji": "sorede"
+  },
+  {
+   "slug": "vocab-n4-eda",
+   "type": "word",
+   "term": "枝",
+   "meaning": "branch, twig",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "えだ",
+   "romaji": "eda"
+  },
+  {
+   "slug": "vocab-n4-senmon",
+   "type": "word",
+   "term": "専門",
+   "meaning": "major; speciality",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "せんもん",
+   "romaji": "senmon"
+  },
+  {
+   "slug": "vocab-n4-sorosoro",
+   "type": "word",
+   "term": "そろそろ",
+   "meaning": "gradually, soon",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "そろそろ",
+   "romaji": "sorosoro"
+  },
+  {
+   "slug": "vocab-n4-okuru",
+   "type": "word",
+   "term": "送る",
+   "meaning": "to send, to dispatch",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "おくる",
+   "romaji": "okuru"
+  },
+  {
+   "slug": "vocab-n4-ageru",
+   "type": "word",
+   "term": "あげる",
+   "meaning": "to give",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "あげる",
+   "romaji": "ageru"
+  },
+  {
+   "slug": "vocab-n4-sawagu",
+   "type": "word",
+   "term": "騒ぐ",
+   "meaning": "to make noise, to clamor",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "さわぐ",
+   "romaji": "sawagu"
+  },
+  {
+   "slug": "vocab-n4-tazuneru",
+   "type": "word",
+   "term": "尋ねる",
+   "meaning": "to inquire (same as 質問する)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "たずねる",
+   "romaji": "tazuneru"
+  },
+  {
+   "slug": "vocab-n4-housousuru",
+   "type": "word",
+   "term": "放送",
+   "meaning": "broadcasting",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ほうそうする",
+   "romaji": "housousuru"
+  },
+  {
+   "slug": "vocab-n4-seiji",
+   "type": "word",
+   "term": "政治",
+   "meaning": "politics",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "せいじ",
+   "romaji": "seiji"
+  },
+  {
+   "slug": "vocab-n4-shimin",
+   "type": "word",
+   "term": "市民",
+   "meaning": "citizen",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "しみん",
+   "romaji": "shimin"
+  },
+  {
+   "slug": "vocab-n4-fuakkusu",
+   "type": "word",
+   "term": "ファックス",
+   "meaning": "fax",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ファックス",
+   "romaji": "fuakkusu"
+  },
+  {
+   "slug": "vocab-n4-makeru",
+   "type": "word",
+   "term": "負ける",
+   "meaning": "to lose (a game) (v.i.), to be defeated",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "まける",
+   "romaji": "makeru"
+  },
+  {
+   "slug": "vocab-n4-inaka",
+   "type": "word",
+   "term": "田舎",
+   "meaning": "rural, countryside",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "いなか",
+   "romaji": "inaka"
+  },
+  {
+   "slug": "vocab-n4-mitsukeru",
+   "type": "word",
+   "term": "見つける",
+   "meaning": "to discover, to find (v.t.)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "みつける",
+   "romaji": "mitsukeru"
+  },
+  {
+   "slug": "vocab-n4-koukousei",
+   "type": "word",
+   "term": "高校生",
+   "meaning": "high school student",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "こうこうせい",
+   "romaji": "koukousei"
+  },
+  {
+   "slug": "vocab-n4-kougi",
+   "type": "word",
+   "term": "講義",
+   "meaning": "a lecture",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "こうぎ",
+   "romaji": "kougi"
+  },
+  {
+   "slug": "vocab-n4-sonnani",
+   "type": "word",
+   "term": "そんなに",
+   "meaning": "so much, like that",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "そんなに",
+   "romaji": "sonnani"
+  },
+  {
+   "slug": "vocab-n4-hiruyasumi",
+   "type": "word",
+   "term": "昼休み",
+   "meaning": "lunch break, noon recess",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ひるやすみ",
+   "romaji": "hiruyasumi"
+  },
+  {
+   "slug": "vocab-n4-wasuremono",
+   "type": "word",
+   "term": "忘れ物",
+   "meaning": "lost article, something forgotten",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "わすれもの",
+   "romaji": "wasuremono"
+  },
+  {
+   "slug": "vocab-n4-oriru",
+   "type": "word",
+   "term": "下りる",
+   "meaning": "to get down, to go; come down",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "おりる",
+   "romaji": "oriru"
+  },
+  {
+   "slug": "vocab-n4-ude",
+   "type": "word",
+   "term": "腕",
+   "meaning": "arm (in reference to body)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "うで",
+   "romaji": "ude"
+  },
+  {
+   "slug": "vocab-n4-wake",
+   "type": "word",
+   "term": "訳",
+   "meaning": "reason; explanation",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "わけ",
+   "romaji": "wake"
+  },
+  {
+   "slug": "vocab-n4-shouchisuru",
+   "type": "word",
+   "term": "承知",
+   "meaning": "consent, acceptance",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "しょうちする",
+   "romaji": "shouchisuru"
+  },
+  {
+   "slug": "vocab-n4-nikki",
+   "type": "word",
+   "term": "日記",
+   "meaning": "diary, journal",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "にっき",
+   "romaji": "nikki"
+  },
+  {
+   "slug": "vocab-n4-koukou-koutougakkou",
+   "type": "word",
+   "term": "高校; 高等学校",
+   "meaning": "high school; senior high school",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "こうこう; こうとうがっこう",
+   "romaji": "koukou;koutougakkou"
+  },
+  {
+   "slug": "vocab-n4-niru",
+   "type": "word",
+   "term": "似る",
+   "meaning": "to resemble, to be similar",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "にる",
+   "romaji": "niru"
+  },
+  {
+   "slug": "vocab-n4-owaru",
+   "type": "word",
+   "term": "～おわる",
+   "meaning": "to finish doing ~",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "～おわる",
+   "romaji": "～owaru"
+  },
+  {
+   "slug": "vocab-n4-danbou",
+   "type": "word",
+   "term": "暖房",
+   "meaning": "heating",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "だんぼう",
+   "romaji": "danbou"
+  },
+  {
+   "slug": "vocab-n4-rusu",
+   "type": "word",
+   "term": "留守",
+   "meaning": "absence; not at home",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "るす",
+   "romaji": "rusu"
+  },
+  {
+   "slug": "vocab-n4-wariai",
+   "type": "word",
+   "term": "割合",
+   "meaning": "rate, ratio, percentage",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "わりあい",
+   "romaji": "wariai"
+  },
+  {
+   "slug": "vocab-n4-tera",
+   "type": "word",
+   "term": "寺",
+   "meaning": "Buddhist temple",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "てら",
+   "romaji": "tera"
+  },
+  {
+   "slug": "vocab-n4-nareru",
+   "type": "word",
+   "term": "慣れる",
+   "meaning": "to grow accustomed to",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "なれる",
+   "romaji": "nareru"
+  },
+  {
+   "slug": "vocab-n4-futsuu",
+   "type": "word",
+   "term": "普通",
+   "meaning": "common; usual",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ふつう",
+   "romaji": "futsuu"
+  },
+  {
+   "slug": "vocab-n4-tetsudau",
+   "type": "word",
+   "term": "手伝う",
+   "meaning": "to help",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "てつだう",
+   "romaji": "tetsudau"
+  },
+  {
+   "slug": "vocab-n4-naruhodo",
+   "type": "word",
+   "term": "なるほど",
+   "meaning": "I see; I now understand",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "なるほど",
+   "romaji": "naruhodo"
+  },
+  {
+   "slug": "vocab-n4-kudasaru",
+   "type": "word",
+   "term": "くださる",
+   "meaning": "(hon.) to give, to confer",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "くださる",
+   "romaji": "kudasaru"
+  },
+  {
+   "slug": "vocab-n4-musuko",
+   "type": "word",
+   "term": "息子",
+   "meaning": "(humble) son",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "むすこ",
+   "romaji": "musuko"
+  },
+  {
+   "slug": "vocab-n4-okosan",
+   "type": "word",
+   "term": "お子さん",
+   "meaning": "(someone else's) child (polite)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "おこさん",
+   "romaji": "okosan"
+  },
+  {
+   "slug": "vocab-n4-kaijou",
+   "type": "word",
+   "term": "会場",
+   "meaning": "venue, meeting place",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "かいじょう",
+   "romaji": "kaijou"
+  },
+  {
+   "slug": "vocab-n4-warau",
+   "type": "word",
+   "term": "笑う",
+   "meaning": "to laugh, to smile",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "わらう",
+   "romaji": "warau"
+  },
+  {
+   "slug": "vocab-n4-hakobu",
+   "type": "word",
+   "term": "運ぶ",
+   "meaning": "to transport, to carry",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "はこぶ",
+   "romaji": "hakobu"
+  },
+  {
+   "slug": "vocab-n4-bungaku",
+   "type": "word",
+   "term": "文学",
+   "meaning": "literature",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ぶんがく",
+   "romaji": "bungaku"
+  },
+  {
+   "slug": "vocab-n4-hikari",
+   "type": "word",
+   "term": "光",
+   "meaning": "light",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ひかり",
+   "romaji": "hikari"
+  },
+  {
+   "slug": "vocab-n4-omimai",
+   "type": "word",
+   "term": "お見舞い",
+   "meaning": "calling on someone who is ill, visit",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "おみまい",
+   "romaji": "omimai"
+  },
+  {
+   "slug": "vocab-n4-seki",
+   "type": "word",
+   "term": "席",
+   "meaning": "a seat",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "せき",
+   "romaji": "seki"
+  },
+  {
+   "slug": "vocab-n4-sama",
+   "type": "word",
+   "term": "～様",
+   "meaning": "Mr., Mrs., Ms.",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "～さま",
+   "romaji": "～sama"
+  },
+  {
+   "slug": "vocab-n4-gozonji",
+   "type": "word",
+   "term": "ご存じ",
+   "meaning": "knowing, acquaintance",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ごぞんじ",
+   "romaji": "gozonji"
+  },
+  {
+   "slug": "vocab-n4-sagaru",
+   "type": "word",
+   "term": "下る",
+   "meaning": "to descend, to drop, to fall",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "さがる",
+   "romaji": "sagaru"
+  },
+  {
+   "slug": "vocab-n4-ji",
+   "type": "word",
+   "term": "字",
+   "meaning": "letter; character",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "じ",
+   "romaji": "ji"
+  },
+  {
+   "slug": "vocab-n4-ajia",
+   "type": "word",
+   "term": "アジア",
+   "meaning": "Asia",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "アジア",
+   "romaji": "ajia"
+  },
+  {
+   "slug": "vocab-n4-homeru",
+   "type": "word",
+   "term": "褒める",
+   "meaning": "to praise; to say nice things",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ほめる",
+   "romaji": "homeru"
+  },
+  {
+   "slug": "vocab-n4-suku",
+   "type": "word",
+   "term": "空く",
+   "meaning": "to be empty (in reference to people), to be less crowded",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "すく",
+   "romaji": "suku"
+  },
+  {
+   "slug": "vocab-n4-a",
+   "type": "word",
+   "term": "あ",
+   "meaning": "Ah",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "あ",
+   "romaji": "a"
+  },
+  {
+   "slug": "vocab-n4-mottomo",
+   "type": "word",
+   "term": "最も",
+   "meaning": "most",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "もっとも",
+   "romaji": "mottomo"
+  },
+  {
+   "slug": "vocab-n4-au",
+   "type": "word",
+   "term": "合う",
+   "meaning": "to fit, to match",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "あう",
+   "romaji": "au"
+  },
+  {
+   "slug": "vocab-n4-dai",
+   "type": "word",
+   "term": "～代",
+   "meaning": "~ age; period",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "～だい",
+   "romaji": "～dai"
+  },
+  {
+   "slug": "vocab-n4-saigo",
+   "type": "word",
+   "term": "最後",
+   "meaning": "last, end",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "さいご",
+   "romaji": "saigo"
+  },
+  {
+   "slug": "vocab-n4-taiinsuru",
+   "type": "word",
+   "term": "退院",
+   "meaning": "leaving hospital",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "たいいんする",
+   "romaji": "taiinsuru"
+  },
+  {
+   "slug": "vocab-n4-tenrankai",
+   "type": "word",
+   "term": "展覧会",
+   "meaning": "exhibition",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "てんらんかい",
+   "romaji": "tenrankai"
+  },
+  {
+   "slug": "vocab-n4-hisashiburi",
+   "type": "word",
+   "term": "久しぶり",
+   "meaning": "it has been a long time; for the first time in a long time",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ひさしぶり",
+   "romaji": "hisashiburi"
+  },
+  {
+   "slug": "vocab-n4-kisha",
+   "type": "word",
+   "term": "汽車",
+   "meaning": "train (steam)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "きしゃ",
+   "romaji": "kisha"
+  },
+  {
+   "slug": "vocab-n4-okureru",
+   "type": "word",
+   "term": "遅れる",
+   "meaning": "to (be) become late",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "おくれる",
+   "romaji": "okureru"
+  },
+  {
+   "slug": "vocab-n4-mitsukaru",
+   "type": "word",
+   "term": "見つかる",
+   "meaning": "to be found (v.i.), to be discovered",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "みつかる",
+   "romaji": "mitsukaru"
+  },
+  {
+   "slug": "vocab-n4-meshiagaru",
+   "type": "word",
+   "term": "召し上がる",
+   "meaning": "-- honorific form of 食べる (たべる) and 飲む (のむ) --",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "めしあがる",
+   "romaji": "meshiagaru"
+  },
+  {
+   "slug": "vocab-n4-futoru",
+   "type": "word",
+   "term": "太る",
+   "meaning": "to gain weight",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ふとる",
+   "romaji": "futoru"
+  },
+  {
+   "slug": "vocab-n4-chuusha",
+   "type": "word",
+   "term": "注射",
+   "meaning": "injection",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ちゅうしゃ",
+   "romaji": "chuusha"
+  },
+  {
+   "slug": "vocab-n4-you-2",
+   "type": "word",
+   "term": "様",
+   "meaning": "way, manner, kind",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "よう",
+   "romaji": "you"
+  },
+  {
+   "slug": "vocab-n4-oki",
+   "type": "word",
+   "term": "～おき",
+   "meaning": "after every ~",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "～おき",
+   "romaji": "～oki"
+  },
+  {
+   "slug": "vocab-n4-saisho",
+   "type": "word",
+   "term": "最初",
+   "meaning": "beginning, first",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "さいしょ",
+   "romaji": "saisho"
+  },
+  {
+   "slug": "vocab-n4-go",
+   "type": "word",
+   "term": "御～",
+   "meaning": "honorable ~",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ご～",
+   "romaji": "go～"
+  },
+  {
+   "slug": "vocab-n4-anshin",
+   "type": "word",
+   "term": "安心",
+   "meaning": "peace of mind, relief",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "あんしん",
+   "romaji": "anshin"
+  },
+  {
+   "slug": "vocab-n4-naoru-2",
+   "type": "word",
+   "term": "直る",
+   "meaning": "to be fixed",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "なおる",
+   "romaji": "naoru"
+  },
+  {
+   "slug": "vocab-n4-atsumeru",
+   "type": "word",
+   "term": "集める",
+   "meaning": "to collect, to gather (v.t.), to assemble",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "あつめる",
+   "romaji": "atsumeru"
+  },
+  {
+   "slug": "vocab-n4-naosu",
+   "type": "word",
+   "term": "直す",
+   "meaning": "to correct (v.t.); to fix",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "なおす",
+   "romaji": "naosu"
+  },
+  {
+   "slug": "vocab-n4-tsuzuku",
+   "type": "word",
+   "term": "続く",
+   "meaning": "to be continued",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "つづく",
+   "romaji": "tsuzuku"
+  },
+  {
+   "slug": "vocab-n4-senpai",
+   "type": "word",
+   "term": "先輩",
+   "meaning": "senior members of a group",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "せんぱい",
+   "romaji": "senpai"
+  },
+  {
+   "slug": "vocab-n4-yakusoku",
+   "type": "word",
+   "term": "約束",
+   "meaning": "arrangement, appointment, promise",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "やくそく",
+   "romaji": "yakusoku"
+  },
+  {
+   "slug": "vocab-n4-sewasuru",
+   "type": "word",
+   "term": "世話",
+   "meaning": "looking after; to look after",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "せわする",
+   "romaji": "sewasuru"
+  },
+  {
+   "slug": "vocab-n4-kinjo",
+   "type": "word",
+   "term": "近所",
+   "meaning": "neighborhood",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "きんじょ",
+   "romaji": "kinjo"
+  },
+  {
+   "slug": "vocab-n4-shourai",
+   "type": "word",
+   "term": "将来",
+   "meaning": "(in the) future; prospects",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "しょうらい",
+   "romaji": "shourai"
+  },
+  {
+   "slug": "vocab-n4-oku",
+   "type": "word",
+   "term": "億",
+   "meaning": "hundred million",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "おく",
+   "romaji": "oku"
+  },
+  {
+   "slug": "vocab-n4-suugaku",
+   "type": "word",
+   "term": "数学",
+   "meaning": "mathematics",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "すうがく",
+   "romaji": "suugaku"
+  },
+  {
+   "slug": "vocab-n4-harau",
+   "type": "word",
+   "term": "払う",
+   "meaning": "to pay",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "はらう",
+   "romaji": "harau"
+  },
+  {
+   "slug": "vocab-n4-yakeru",
+   "type": "word",
+   "term": "焼ける",
+   "meaning": "to burn, to be roasted",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "やける",
+   "romaji": "yakeru"
+  },
+  {
+   "slug": "vocab-n4-kimi",
+   "type": "word",
+   "term": "君",
+   "meaning": "you (informal for men)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "きみ",
+   "romaji": "kimi"
+  },
+  {
+   "slug": "vocab-n4-hieru",
+   "type": "word",
+   "term": "冷える",
+   "meaning": "to grow cold, to cool down",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ひえる",
+   "romaji": "hieru"
+  },
+  {
+   "slug": "vocab-n4-tsuku",
+   "type": "word",
+   "term": "点く",
+   "meaning": "to be started, to be switched on",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "つく",
+   "romaji": "tsuku"
+  },
+  {
+   "slug": "vocab-n4-konoaida",
+   "type": "word",
+   "term": "この間",
+   "meaning": "the other day, recently",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "このあいだ",
+   "romaji": "konoaida"
+  },
+  {
+   "slug": "vocab-n4-kakkou",
+   "type": "word",
+   "term": "格好",
+   "meaning": "appearance, manner, shape, form, posture",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "かっこう",
+   "romaji": "kakkou"
+  },
+  {
+   "slug": "vocab-n4-kamau",
+   "type": "word",
+   "term": "かまう",
+   "meaning": "to mind, to care about, to be concerned about",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "romaji": "kamau"
+  },
+  {
+   "slug": "vocab-n4-tsuzukeru-2",
+   "type": "word",
+   "term": "続ける",
+   "meaning": "to continue, to keep up",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "つづける",
+   "romaji": "tsuzukeru"
+  },
+  {
+   "slug": "vocab-n4-otosu",
+   "type": "word",
+   "term": "落す",
+   "meaning": "to drop, to lose",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "おとす",
+   "romaji": "otosu"
+  },
+  {
+   "slug": "vocab-n4-shuppatsusuru",
+   "type": "word",
+   "term": "出発",
+   "meaning": "departure",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "しゅっぱつする",
+   "romaji": "shuppatsusuru"
+  },
+  {
+   "slug": "vocab-n4-haikensuru",
+   "type": "word",
+   "term": "拝見",
+   "meaning": "(humble) (polite) seeing, look at",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "はいけんする",
+   "romaji": "haikensuru"
+  },
+  {
+   "slug": "vocab-n4-wareru",
+   "type": "word",
+   "term": "割れる",
+   "meaning": "to break",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "われる",
+   "romaji": "wareru"
+  },
+  {
+   "slug": "vocab-n4-shinbunsha",
+   "type": "word",
+   "term": "新聞社",
+   "meaning": "newspaper company",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "しんぶんしゃ",
+   "romaji": "shinbunsha"
+  },
+  {
+   "slug": "vocab-n4-ijimeru",
+   "type": "word",
+   "term": "いじめる",
+   "meaning": "to bully, to torment",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "いじめる",
+   "romaji": "ijimeru"
+  },
+  {
+   "slug": "vocab-n4-mawaru-mawasu",
+   "type": "word",
+   "term": "回る、回す",
+   "meaning": "to go around, to revolve",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "まわる、まわす",
+   "romaji": "mawaru,mawasu"
+  },
+  {
+   "slug": "vocab-n4-kun",
+   "type": "word",
+   "term": "～君",
+   "meaning": "Mr. (junior) ~, master ~",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "～くん",
+   "romaji": "～kun"
+  },
+  {
+   "slug": "vocab-n4-ossharu",
+   "type": "word",
+   "term": "おっしゃる",
+   "meaning": "-- honorific expression for いう --",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "おっしゃる",
+   "romaji": "ossharu"
+  },
+  {
+   "slug": "vocab-n4-nureru",
+   "type": "word",
+   "term": "濡れる",
+   "meaning": "to get wet",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ぬれる",
+   "romaji": "nureru"
+  },
+  {
+   "slug": "vocab-n4-taoreru",
+   "type": "word",
+   "term": "倒れる",
+   "meaning": "to collapse, to break down",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "たおれる",
+   "romaji": "taoreru"
+  },
+  {
+   "slug": "vocab-n4-suupaa-maaketto",
+   "type": "word",
+   "term": "スーパー (マーケット)",
+   "meaning": "supermarket",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "スーパー (マーケット)",
+   "romaji": "suupaa(maaketto)"
+  },
+  {
+   "slug": "vocab-n4-akusesarii",
+   "type": "word",
+   "term": "アクセサリー",
+   "meaning": "accessory",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "アクセサリー",
+   "romaji": "akusesarii"
+  },
+  {
+   "slug": "vocab-n4-mukau",
+   "type": "word",
+   "term": "向かう",
+   "meaning": "to face, to go towards",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "むかう",
+   "romaji": "mukau"
+  },
+  {
+   "slug": "vocab-n4-jiyuu",
+   "type": "word",
+   "term": "自由",
+   "meaning": "freedom",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "じゆう",
+   "romaji": "jiyuu"
+  },
+  {
+   "slug": "vocab-n4-shikata",
+   "type": "word",
+   "term": "仕方",
+   "meaning": "way (of doing something)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "しかた",
+   "romaji": "shikata"
+  },
+  {
+   "slug": "vocab-n4-kubi",
+   "type": "word",
+   "term": "首",
+   "meaning": "neck",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "くび",
+   "romaji": "kubi"
+  },
+  {
+   "slug": "vocab-n4-hodo",
+   "type": "word",
+   "term": "程",
+   "meaning": "degree, extent",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ほど",
+   "romaji": "hodo"
+  },
+  {
+   "slug": "vocab-n4-kawari",
+   "type": "word",
+   "term": "代わり",
+   "meaning": "substitute, replacement",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "かわり",
+   "romaji": "kawari"
+  },
+  {
+   "slug": "vocab-n4-shippai",
+   "type": "word",
+   "term": "失敗",
+   "meaning": "failure, mistake",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "しっぱい",
+   "romaji": "shippai"
+  },
+  {
+   "slug": "vocab-n4-kougyou",
+   "type": "word",
+   "term": "工業",
+   "meaning": "(manufacturing) industry",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "こうぎょう",
+   "romaji": "kougyou"
+  },
+  {
+   "slug": "vocab-n4-utsuru",
+   "type": "word",
+   "term": "移る",
+   "meaning": "to move (from a house); to transfer (from a department); to shift",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "うつる",
+   "romaji": "utsuru"
+  },
+  {
+   "slug": "vocab-n4-suutsukeesu",
+   "type": "word",
+   "term": "スーツケース",
+   "meaning": "suitcase",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "スーツケース",
+   "romaji": "suutsukeesu"
+  },
+  {
+   "slug": "vocab-n4-hige",
+   "type": "word",
+   "term": "ひげ",
+   "meaning": "beard",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ひげ",
+   "romaji": "hige"
+  },
+  {
+   "slug": "vocab-n4-kenkyuushitsu",
+   "type": "word",
+   "term": "研究室",
+   "meaning": "the professor's office; laboratory",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "けんきゅうしつ",
+   "romaji": "kenkyuushitsu"
+  },
+  {
+   "slug": "vocab-n4-koujou",
+   "type": "word",
+   "term": "工場",
+   "meaning": "factory",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "こうじょう",
+   "romaji": "koujou"
+  },
+  {
+   "slug": "vocab-n4-shoukai",
+   "type": "word",
+   "term": "紹介",
+   "meaning": "an introduction",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "しょうかい",
+   "romaji": "shoukai"
+  },
+  {
+   "slug": "vocab-n4-keredo-keredomo",
+   "type": "word",
+   "term": "けれど; けれども",
+   "meaning": "but, although",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "けれど; けれども",
+   "romaji": "keredo;keredomo"
+  },
+  {
+   "slug": "vocab-n4-fune",
+   "type": "word",
+   "term": "舟",
+   "meaning": "ship, boat",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ふね",
+   "romaji": "fune"
+  },
+  {
+   "slug": "vocab-n4-ugoku",
+   "type": "word",
+   "term": "動く",
+   "meaning": "to move",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "うごく",
+   "romaji": "ugoku"
+  },
+  {
+   "slug": "vocab-n4-ni-tsuite",
+   "type": "word",
+   "term": "～(に) ついて",
+   "meaning": "about, concerning",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "～(に) ついて",
+   "romaji": "～(ni)tsuite"
+  },
+  {
+   "slug": "vocab-n4-konsaato",
+   "type": "word",
+   "term": "コンサート",
+   "meaning": "concert",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "コンサート",
+   "romaji": "konsaato"
+  },
+  {
+   "slug": "vocab-n4-mushi",
+   "type": "word",
+   "term": "虫",
+   "meaning": "insect",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "むし",
+   "romaji": "mushi"
+  },
+  {
+   "slug": "vocab-n4-yasashii",
+   "type": "word",
+   "term": "優しい",
+   "meaning": "kind (person), gentle (person), easy (problem)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "やさしい",
+   "romaji": "yasashii"
+  },
+  {
+   "slug": "vocab-n4-konpyuuta-konpyuutaa",
+   "type": "word",
+   "term": "コンピュータ; コンピューター",
+   "meaning": "computer",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "コンピュータ; コンピューター",
+   "romaji": "konpyuuta;konpyuutaa"
+  },
+  {
+   "slug": "vocab-n4-ueru",
+   "type": "word",
+   "term": "植える",
+   "meaning": "to plant",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "うえる",
+   "romaji": "ueru"
+  },
+  {
+   "slug": "vocab-n4-ryouhou",
+   "type": "word",
+   "term": "両方",
+   "meaning": "both sides, both parties",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "りょうほう",
+   "romaji": "ryouhou"
+  },
+  {
+   "slug": "vocab-n4-yogoreru",
+   "type": "word",
+   "term": "汚れる",
+   "meaning": "to become dirty",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "よごれる",
+   "romaji": "yogoreru"
+  },
+  {
+   "slug": "vocab-n4-suiei",
+   "type": "word",
+   "term": "水泳",
+   "meaning": "swimming",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "すいえい",
+   "romaji": "suiei"
+  },
+  {
+   "slug": "vocab-n4-keikensuru",
+   "type": "word",
+   "term": "経験",
+   "meaning": "experience",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "けいけんする",
+   "romaji": "keikensuru"
+  },
+  {
+   "slug": "vocab-n4-katsu",
+   "type": "word",
+   "term": "勝つ",
+   "meaning": "to win",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "かつ",
+   "romaji": "katsu"
+  },
+  {
+   "slug": "vocab-n4-suna",
+   "type": "word",
+   "term": "砂",
+   "meaning": "sand",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "すな",
+   "romaji": "suna"
+  },
+  {
+   "slug": "vocab-n4-keisatsu",
+   "type": "word",
+   "term": "警察",
+   "meaning": "police; police station",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "けいさつ",
+   "romaji": "keisatsu"
+  },
+  {
+   "slug": "vocab-n4-torikaeru",
+   "type": "word",
+   "term": "取り替える",
+   "meaning": "to exchange, to replace",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "とりかえる",
+   "romaji": "torikaeru"
+  },
+  {
+   "slug": "vocab-n4-isogu",
+   "type": "word",
+   "term": "急ぐ",
+   "meaning": "to hurry, to be in a hurry, to rush",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "いそぐ",
+   "romaji": "isogu"
+  },
+  {
+   "slug": "vocab-n4-mairu",
+   "type": "word",
+   "term": "参る",
+   "meaning": "humble expression for 行く and 来る",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "まいる",
+   "romaji": "mairu"
+  },
+  {
+   "slug": "vocab-n4-zenzen",
+   "type": "word",
+   "term": "全然",
+   "meaning": "not at all; wholly, entirely",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ぜんぜん",
+   "romaji": "zenzen"
+  },
+  {
+   "slug": "vocab-n4-tokubetsu",
+   "type": "word",
+   "term": "特別",
+   "meaning": "special",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "とくべつ",
+   "romaji": "tokubetsu"
+  },
+  {
+   "slug": "vocab-n4-fukushuu",
+   "type": "word",
+   "term": "復習",
+   "meaning": "review (of lessons), revision",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ふくしゅう",
+   "romaji": "fukushuu"
+  },
+  {
+   "slug": "vocab-n4-maniau",
+   "type": "word",
+   "term": "間に合う",
+   "meaning": "to be in time for",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "まにあう",
+   "romaji": "maniau"
+  },
+  {
+   "slug": "vocab-n4-yakunitatsu",
+   "type": "word",
+   "term": "役に立つ",
+   "meaning": "to be helpful, to be useful",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "やくにたつ",
+   "romaji": "yakunitatsu"
+  },
+  {
+   "slug": "vocab-n4-mousugu",
+   "type": "word",
+   "term": "もうすぐ",
+   "meaning": "very soon; in a few moments; days",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "もうすぐ",
+   "romaji": "mousugu"
+  },
+  {
+   "slug": "vocab-n4-mannaka",
+   "type": "word",
+   "term": "真中",
+   "meaning": "middle, center",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "まんなか",
+   "romaji": "mannaka"
+  },
+  {
+   "slug": "vocab-n4-kenkyuu",
+   "type": "word",
+   "term": "研究",
+   "meaning": "study, research, investigation",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "けんきゅう",
+   "romaji": "kenkyuu"
+  },
+  {
+   "slug": "vocab-n4-keeki",
+   "type": "word",
+   "term": "ケーキ",
+   "meaning": "cake",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ケーキ",
+   "romaji": "keeki"
+  },
+  {
+   "slug": "vocab-n4-kusa",
+   "type": "word",
+   "term": "草",
+   "meaning": "grass",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "くさ",
+   "romaji": "kusa"
+  },
+  {
+   "slug": "vocab-n4-komu",
+   "type": "word",
+   "term": "込む",
+   "meaning": "to be crowded",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "こむ",
+   "romaji": "komu"
+  },
+  {
+   "slug": "vocab-n4-konogoro",
+   "type": "word",
+   "term": "この頃",
+   "meaning": "these days, nowadays",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "このごろ",
+   "romaji": "konogoro"
+  },
+  {
+   "slug": "vocab-n4-tazuneru-2",
+   "type": "word",
+   "term": "訪ねる",
+   "meaning": "to visit",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "たずねる",
+   "romaji": "tazuneru"
+  },
+  {
+   "slug": "vocab-n4-sageru",
+   "type": "word",
+   "term": "下げる",
+   "meaning": "to lower (v.t.); to hang",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "さげる",
+   "romaji": "sageru"
+  },
+  {
+   "slug": "vocab-n4-tochuu",
+   "type": "word",
+   "term": "途中",
+   "meaning": "on the way, midway",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "とちゅう",
+   "romaji": "tochuu"
+  },
+  {
+   "slug": "vocab-n4-nyuuinsuru",
+   "type": "word",
+   "term": "入院",
+   "meaning": "hospitalization",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "にゅういんする",
+   "romaji": "nyuuinsuru"
+  },
+  {
+   "slug": "vocab-n4-norikaeru",
+   "type": "word",
+   "term": "乗り換える",
+   "meaning": "to transfer (trains), to change (bus, train, etc.)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "のりかえる",
+   "romaji": "norikaeru"
+  },
+  {
+   "slug": "vocab-n4-wakareru",
+   "type": "word",
+   "term": "別れる",
+   "meaning": "to part from, to separate",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "わかれる",
+   "romaji": "wakareru"
+  },
+  {
+   "slug": "vocab-n4-chou",
+   "type": "word",
+   "term": "～町",
+   "meaning": "the town of ~",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "～ちょう",
+   "romaji": "～chou"
+  },
+  {
+   "slug": "vocab-n4-anzen",
+   "type": "word",
+   "term": "安全",
+   "meaning": "safety, security",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "あんぜん",
+   "romaji": "anzen"
+  },
+  {
+   "slug": "vocab-n4-kangofu",
+   "type": "word",
+   "term": "看護婦",
+   "meaning": "(female) nurse",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "かんごふ",
+   "romaji": "kangofu"
+  },
+  {
+   "slug": "vocab-n4-kenbutsu",
+   "type": "word",
+   "term": "見物",
+   "meaning": "sightseeing",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "けんぶつ",
+   "romaji": "kenbutsu"
+  },
+  {
+   "slug": "vocab-n4-soudansuru",
+   "type": "word",
+   "term": "相談",
+   "meaning": "consultation",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "そうだんする",
+   "romaji": "soudansuru"
+  },
+  {
+   "slug": "vocab-n4-gasorinsutando",
+   "type": "word",
+   "term": "ガソリンスタンド",
+   "meaning": "gas station, service station",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ガソリンスタンド",
+   "romaji": "gasorinsutando"
+  },
+  {
+   "slug": "vocab-n4-tenisu",
+   "type": "word",
+   "term": "テニス",
+   "meaning": "tennis",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "テニス",
+   "romaji": "tenisu"
+  },
+  {
+   "slug": "vocab-n4-nemuru",
+   "type": "word",
+   "term": "眠る",
+   "meaning": "to sleep",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ねむる",
+   "romaji": "nemuru"
+  },
+  {
+   "slug": "vocab-n4-agaru",
+   "type": "word",
+   "term": "上がる",
+   "meaning": "to rise, to go up",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "あがる",
+   "romaji": "agaru"
+  },
+  {
+   "slug": "vocab-n4-hon-yaku",
+   "type": "word",
+   "term": "翻訳",
+   "meaning": "translation",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ほんやく",
+   "romaji": "hon'yaku"
+  },
+  {
+   "slug": "vocab-n4-shokujisuru",
+   "type": "word",
+   "term": "食事",
+   "meaning": "meal",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "しょくじする",
+   "romaji": "shokujisuru"
+  },
+  {
+   "slug": "vocab-n4-okage",
+   "type": "word",
+   "term": "お陰",
+   "meaning": "thanks or owing to",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "おかげ",
+   "romaji": "okage"
+  },
+  {
+   "slug": "vocab-n4-musume",
+   "type": "word",
+   "term": "娘",
+   "meaning": "daughter (humble)",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "むすめ",
+   "romaji": "musume"
+  },
+  {
+   "slug": "vocab-n4-yu",
+   "type": "word",
+   "term": "湯",
+   "meaning": "hot water",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ゆ",
+   "romaji": "yu"
+  },
+  {
+   "slug": "vocab-n4-kyousou",
+   "type": "word",
+   "term": "競争",
+   "meaning": "competition, contest",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "きょうそう",
+   "romaji": "kyousou"
+  },
+  {
+   "slug": "vocab-n4-mizuumi",
+   "type": "word",
+   "term": "湖",
+   "meaning": "lake",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "みずうみ",
+   "romaji": "mizuumi"
+  },
+  {
+   "slug": "vocab-n4-atsumaru",
+   "type": "word",
+   "term": "集まる",
+   "meaning": "to gather (v.i.), to collect",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "あつまる",
+   "romaji": "atsumaru"
+  },
+  {
+   "slug": "vocab-n4-nikui",
+   "type": "word",
+   "term": "～にくい",
+   "meaning": "difficult to do ~",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "～にくい",
+   "romaji": "～nikui"
+  },
+  {
+   "slug": "vocab-n4-seikatsusuru",
+   "type": "word",
+   "term": "生活",
+   "meaning": "living, life; to live",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "せいかつする",
+   "romaji": "seikatsusuru"
+  },
+  {
+   "slug": "vocab-n4-ito",
+   "type": "word",
+   "term": "糸",
+   "meaning": "thread",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "いと",
+   "romaji": "ito"
+  },
+  {
+   "slug": "vocab-n4-kankei",
+   "type": "word",
+   "term": "関係",
+   "meaning": "relation(ship), connection",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "かんけい",
+   "romaji": "kankei"
+  },
+  {
+   "slug": "vocab-n4-piano",
+   "type": "word",
+   "term": "ピアノ",
+   "meaning": "piano",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ピアノ",
+   "romaji": "piano"
+  },
+  {
+   "slug": "vocab-n4-me",
+   "type": "word",
+   "term": "～目",
+   "meaning": "number ~ sequence, ~nd; ~th",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "～め",
+   "romaji": "～me"
+  },
+  {
+   "slug": "vocab-n4-bangumi",
+   "type": "word",
+   "term": "番組",
+   "meaning": "broadcast program",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ばんぐみ",
+   "romaji": "bangumi"
+  },
+  {
+   "slug": "vocab-n4-kyuu",
+   "type": "word",
+   "term": "急",
+   "meaning": "urgent, sudden; steep",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "きゅう",
+   "romaji": "kyuu"
+  },
+  {
+   "slug": "vocab-n4-momen",
+   "type": "word",
+   "term": "木綿",
+   "meaning": "cotton",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "もめん",
+   "romaji": "momen"
+  },
+  {
+   "slug": "vocab-n4-yushutsusuru",
+   "type": "word",
+   "term": "輸出",
+   "meaning": "export",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ゆしゅつする",
+   "romaji": "yushutsusuru"
+  },
+  {
+   "slug": "vocab-n4-taipu",
+   "type": "word",
+   "term": "タイプ",
+   "meaning": "type, style",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "タイプ",
+   "romaji": "taipu"
+  },
+  {
+   "slug": "vocab-n4-suri",
+   "type": "word",
+   "term": "すり",
+   "meaning": "pickpocket",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "すり",
+   "romaji": "suri"
+  },
+  {
+   "slug": "vocab-n4-arukooru",
+   "type": "word",
+   "term": "アルコール",
+   "meaning": "alcohol",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "アルコール",
+   "romaji": "arukooru"
+  },
+  {
+   "slug": "vocab-n4-sofuto",
+   "type": "word",
+   "term": "ソフト",
+   "meaning": "soft; soft hat; software",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ソフト",
+   "romaji": "sofuto"
+  },
+  {
+   "slug": "vocab-n4-daibu",
+   "type": "word",
+   "term": "大分",
+   "meaning": "fairly well, to a large extent, considerably, pretty much",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "だいぶ",
+   "romaji": "daibu"
+  },
+  {
+   "slug": "vocab-n4-shumi",
+   "type": "word",
+   "term": "趣味",
+   "meaning": "hobby; pastime",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "しゅみ",
+   "romaji": "shumi"
+  },
+  {
+   "slug": "vocab-n4-denpou",
+   "type": "word",
+   "term": "電報",
+   "meaning": "telegram",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "でんぽう",
+   "romaji": "denpou"
+  },
+  {
+   "slug": "vocab-n4-kanai",
+   "type": "word",
+   "term": "家内",
+   "meaning": "(one's own) wife",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "かない",
+   "romaji": "kanai"
+  },
+  {
+   "slug": "vocab-n4-yubi",
+   "type": "word",
+   "term": "指",
+   "meaning": "finger",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "ゆび",
+   "romaji": "yubi"
+  },
+  {
+   "slug": "vocab-n4-tamani",
+   "type": "word",
+   "term": "たまに",
+   "meaning": "occasionally",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "たまに",
+   "romaji": "tamani"
+  },
+  {
+   "slug": "vocab-n4-shakai",
+   "type": "word",
+   "term": "社会",
+   "meaning": "society",
+   "skill": "vocabulary",
+   "tags": [
+    "jlpt-verified"
+   ],
+   "jlpt_level": "N4",
+   "reading": "しゃかい",
+   "romaji": "shakai"
+  }
+ ]
+}

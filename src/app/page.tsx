@@ -59,6 +59,12 @@ export default async function HomePage() {
           Admin console →
         </Link>
       )}
+
+      <footer className="mt-10 text-center text-xs text-muted">
+        <Link href="/attributions" className="underline">
+          Data sources and attributions
+        </Link>
+      </footer>
     </main>
   );
 }
