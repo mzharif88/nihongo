@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useMemo, useState, useTransition } from "react";
 import { Ruby } from "@/components/ruby";
 import { stripMarkup } from "@/lib/furigana";
-import { BUILDER_BONUS_XP, dealTiles, isCorrect, seededRng, type PatternRow, type Tile } from "@/lib/builder/builder";
+import { BUILDER_BONUS_XP, dealTiles, isCorrect, seededRng, type PatternRow, type Tile, alsoMarkup } from "@/lib/builder/builder";
 import { readSaved, useHydrated, writeSaved } from "@/lib/saved-progress";
 import { XP_CORRECT, XP_WRONG } from "@/lib/study/streak";
 import { speak } from "@/app/study/speak";
@@ -233,7 +233,12 @@ function Player({ pattern, grammar, nextSlug, firstRun, resume }: Props & { resu
             </button>
             {ex.also.length > 0 && (
               <p className="mt-1 text-sm text-muted">
-                Also correct: <span lang="ja">{ex.also.map((a) => `${a}。`).join(" ")}</span>
+                Also correct:{" "}
+                {ex.also.map((a) => (
+                  <span key={a} className="mr-2">
+                    <Ruby text={`${alsoMarkup(a, ex.tiles)}。`} />
+                  </span>
+                ))}
               </p>
             )}
           </div>

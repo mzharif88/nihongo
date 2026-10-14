@@ -25,6 +25,9 @@ export interface StudyCard {
   itemId: string;
   cardType: CardType;
   isNew: boolean;
+  /** The item's type and JLPT level: kanji above the level show as kana (see KanjiScope), except on kanji cards. */
+  itemType: string;
+  level: string;
   /** Practice only (course context cards): answered and shown, never sent to the scheduler. */
   practice?: boolean;
   /** Every card is multiple choice; the app grades the answer. */
@@ -87,7 +90,12 @@ export function answerText(item: StudyItem, cardType: CardType): string {
 function distractors(item: StudyItem, cardType: CardType, pool: StudyItem[], rng: Rng, count = 3): string[] {
   const answer = answerText(item, cardType).toLowerCase();
   const sameKind = pool.filter(
-    (p) => p.id !== item.id && p.type === item.type && (item.type !== "kana" || isKatakana(p) === isKatakana(item)),
+    (p) =>
+      p.id !== item.id &&
+      p.type === item.type &&
+      (item.type !== "kana" || isKatakana(p) === isKatakana(item)) &&
+      // Homophones look identical when a word is shown in kana, so never offer one.
+      (item.type !== "word" || !p.reading || p.reading !== item.reading),
   );
   const seen = new Set([answer]);
   const out: string[] = [];
@@ -139,6 +147,8 @@ export function buildCard(
     itemId: item.id,
     cardType,
     isNew,
+    itemType: item.type,
+    level: item.jlpt_level,
     reveal: {
       term: item.term,
       reading: item.reading,

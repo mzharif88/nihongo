@@ -241,7 +241,7 @@ function Player({ mock, papers, resume }: { mock: MockRow; papers: Paper[]; resu
               >
                 <span className={`mt-0.5 text-sm ${chosen ? "text-accent" : "text-muted"}`}>{i + 1}</span>
                 <span className="leading-loose">
-                  <ExamText text={option} furigana={furigana && q.section !== "vocabulary"} />
+                  <ExamText text={option} furigana={furigana && q.section !== "vocabulary"} keepKanji={/表記|語形成/.test(q.part ?? "")} />
                 </span>
               </button>
             );

@@ -3,6 +3,7 @@ import { StudySession } from "@/app/study/session";
 import { requireUser } from "@/lib/auth";
 import { loadCourse, loadSentences } from "@/lib/course/course.server";
 import { unitCards } from "@/lib/course/unit";
+import { loadKanjiStage } from "@/lib/study/kanji-stage.server";
 
 export const dynamic = "force-dynamic";
 
@@ -11,7 +12,7 @@ const slugs = (s?: string) => (s ? s.split(",").filter((x) => /^[a-z0-9][a-z0-9-
 export default async function UnitPage({ searchParams }: { searchParams: Promise<{ i?: string; r?: string }> }) {
   const { i, r } = await searchParams;
   const { supabase, profile } = await requireUser();
-  const course = await loadCourse(supabase, profile);
+  const [course, kanji] = await Promise.all([loadCourse(supabase, profile), loadKanjiStage(supabase, profile.id)]);
   const bySlug = new Map(course.items.map((x) => [x.slug, x]));
   // New items must still be unstarted, refreshers already started: a stale link just teaches what's left.
   const items = slugs(i).flatMap((s) => bySlug.get(s) ?? []).filter((x) => !course.state.started.has(x.id));
@@ -41,6 +42,7 @@ export default async function UnitPage({ searchParams }: { searchParams: Promise
       cards={unitCards(items, refresh, pool, corpus)}
       keepGoingHref="/course/next"
       source="course"
+      kanji={kanji}
       doneLink={{ href: "/course", label: "Your course" }}
     />
   );

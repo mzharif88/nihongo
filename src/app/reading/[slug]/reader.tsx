@@ -124,7 +124,7 @@ function ReaderView({ text, questions, resume }: { text: TextRow; questions: Que
               {answered && q.explanation && (
                 <p className="mt-2 text-sm leading-loose" lang="ja">
                   {picked === q.answer ? "✓ " : "✗ "}
-                  <ExamText text={q.explanation} furigana={furigana} />
+                  <ExamText text={q.explanation} furigana={furigana} keepKanji />
                 </p>
               )}
             </div>

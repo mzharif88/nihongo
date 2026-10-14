@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { KanjiScope } from "@/components/kanji-scope";
 import { Ruby } from "@/components/ruby";
 import { requireUser } from "@/lib/auth";
 import { loadPatternList } from "@/lib/builder/builder.server";
@@ -48,7 +49,7 @@ export default async function BuilderPage() {
               </span>
               <div className="min-w-0">
                 <div className="font-medium leading-snug" lang="ja">
-                  <Ruby text={p.title} />
+                  <KanjiScope level={p.jlpt_level}><Ruby text={p.title} /></KanjiScope>
                 </div>
                 <div className="text-xs text-muted">
                   {p.jlpt_level} · {p.exerciseCount} sentences

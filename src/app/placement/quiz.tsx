@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState, useTransition } from "react";
+import { KanjiScope } from "@/components/kanji-scope";
 import { Ruby } from "@/components/ruby";
 import { passed, passedLevels, type LevelQuiz } from "@/lib/placement/placement";
 import { applyPlacement } from "./actions";
@@ -50,7 +51,9 @@ export function PlacementQuiz({ quizzes }: { quizzes: LevelQuiz[] }) {
     }, right ? 500 : 1200);
   }
 
+  // Each word as its level's exam prints it.
   return (
+    <KanjiScope level={quiz.level}>
     <section className="mt-6">
       <div className="flex justify-between text-sm text-muted">
         <span className="font-medium">{quiz.level}</span>
@@ -91,6 +94,7 @@ export function PlacementQuiz({ quizzes }: { quizzes: LevelQuiz[] }) {
         </button>
       </div>
     </section>
+    </KanjiScope>
   );
 }
 

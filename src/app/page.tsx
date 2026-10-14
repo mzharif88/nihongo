@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { KanjiScope } from "@/components/kanji-scope";
 import { Ruby } from "@/components/ruby";
 import { requireUser } from "@/lib/auth";
 import { isSituation } from "@/lib/lessons/lessons";
@@ -103,7 +104,7 @@ export default async function HomePage() {
             </span>
           </div>
           <div className="mt-1 text-lg font-bold">
-            {nextLesson ? <Ruby text={nextLesson.title} /> : "All lessons done: replay any of them"}
+            {nextLesson ? <KanjiScope level={nextLesson.jlpt_level}><Ruby text={nextLesson.title} /></KanjiScope> : "All lessons done: replay any of them"}
           </div>
         </Link>
       )}

@@ -6,7 +6,7 @@
   "records": [
     {
       "slug": "pattern-n4-potential", "jlpt_level": "N4", "position": 101, "grammar_slug": "grammar-n4-potential",
-      "title": "Can do — 可能形", "english": "I can read a little kanji.",
+      "title": "Can do — [可能形|かのうけい]", "english": "I can read a little kanji.",
       "template": [{ "slot": "noun", "label": "What you can do" }, { "text": "が", "label": "が marks it" }, { "slot": "verb-masu", "label": "Potential verb (読めます)" }],
       "notes": "Potential: 読む → 読める, 着る → 着られる, 来る → 来られる, する → できる. The thing you can do usually takes が.",
       "exercises": [

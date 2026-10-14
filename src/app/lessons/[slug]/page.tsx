@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { requireUser } from "@/lib/auth";
 import { loadLesson } from "@/lib/lessons/lessons.server";
+import { KanjiScope } from "@/components/kanji-scope";
 import { LessonPlayer } from "./player";
 
 export const dynamic = "force-dynamic";
@@ -25,5 +26,9 @@ export default async function LessonPage({ params }: { params: Promise<{ slug: s
     );
   }
 
-  return <LessonPlayer lesson={detail.lesson} items={detail.items} grammar={detail.grammar} replay={!!detail.summary.progress} />;
+  return (
+    <KanjiScope level={detail.lesson.jlpt_level}>
+      <LessonPlayer lesson={detail.lesson} items={detail.items} grammar={detail.grammar} replay={!!detail.summary.progress} />
+    </KanjiScope>
+  );
 }

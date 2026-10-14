@@ -1,28 +1,39 @@
+"use client";
+
 import { Fragment } from "react";
-import { furiganaSegments } from "@/lib/furigana";
+import { furiganaSegments, hasKanji } from "@/lib/furigana";
+import { kanjiAllowed } from "@/lib/kanji-levels";
+import { useKanjiAllowance } from "./kanji-scope";
 
 /**
  * Japanese text with furigana over the kanji. `reading` may be plain kana
  * (aligned to the text) or ruby markup; `text` itself may also be markup.
  * Set `hide` where the reading is the answer being tested. Sentences that
  * carry grammar roles are colour-coded (see .role-* in globals.css).
+ *
+ * Inside a <KanjiScope>, a word whose kanji are above the scope's level is
+ * shown in kana, the way the JLPT prints it; `keepKanji` opts out (kanji
+ * cards and kanji questions, where the kanji is the point).
  */
-export function Ruby({ text, reading, hide = false }: { text: string; reading?: string | null; hide?: boolean }) {
-  const segments = furiganaSegments(text, hide ? null : reading);
+export function Ruby({ text, reading, hide = false, keepKanji = false }: { text: string; reading?: string | null; hide?: boolean; keepKanji?: boolean }) {
+  const allowance = useKanjiAllowance();
+  const segments = furiganaSegments(text, reading);
   return (
     <span lang={/[぀-ヿ㐀-鿿]/.test(text) ? "ja" : undefined}>
       {segments.map((s, i) => {
-        const inner =
-          s.ruby && !hide ? (
-            <ruby>
-              {s.text}
-              <rp>(</rp>
-              <rt>{s.ruby}</rt>
-              <rp>)</rp>
-            </ruby>
-          ) : (
-            s.text
-          );
+        const asKana = !keepKanji && s.ruby && hasKanji(s.text) && !kanjiAllowed(s.text, allowance);
+        const inner = asKana ? (
+          s.ruby
+        ) : s.ruby && !hide ? (
+          <ruby>
+            {s.text}
+            <rp>(</rp>
+            <rt>{s.ruby}</rt>
+            <rp>)</rp>
+          </ruby>
+        ) : (
+          s.text
+        );
         return s.role ? (
           <span key={i} className={`role-${s.role}`}>
             {inner}

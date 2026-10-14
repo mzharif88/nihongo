@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { KanjiScope } from "@/components/kanji-scope";
 import { Ruby } from "@/components/ruby";
 import { requireUser } from "@/lib/auth";
 import { isSituation } from "@/lib/lessons/lessons";
@@ -53,7 +54,7 @@ export default async function LessonsPage() {
                     </span>
                     <div className="min-w-0">
                       <div className="font-medium leading-snug">
-                        <Ruby text={l.title} />
+                        <KanjiScope level={l.jlpt_level}><Ruby text={l.title} /></KanjiScope>
                       </div>
                       <div className="text-xs text-muted">
                         {l.itemCount} words

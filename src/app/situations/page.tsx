@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { KanjiScope } from "@/components/kanji-scope";
 import { Ruby } from "@/components/ruby";
 import { requireUser } from "@/lib/auth";
 import { SITUATION_GROUPS, situationGroup } from "@/lib/lessons/lessons";
@@ -31,7 +32,7 @@ export default async function SituationsPage() {
           <section key={group.id} className="mt-6">
             <h2 className="flex items-baseline justify-between">
               <span className="font-bold">
-                {group.title} <span className="font-normal text-muted" lang="ja">· <Ruby text={group.jp} /></span>
+                {group.title} <span className="font-normal text-muted" lang="ja">· <KanjiScope level={"N5"}><Ruby text={group.jp} /></KanjiScope></span>
               </span>
               <span className="text-xs text-muted">
                 {done}/{inGroup.length} done
@@ -54,7 +55,7 @@ export default async function SituationsPage() {
                     </span>
                     <div className="min-w-0">
                       <div className="font-medium leading-snug">
-                        <Ruby text={l.title} />
+                        <KanjiScope level={l.jlpt_level}><Ruby text={l.title} /></KanjiScope>
                       </div>
                       <div className="text-xs text-muted">
                         {l.itemCount} words

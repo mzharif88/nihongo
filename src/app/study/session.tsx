@@ -2,7 +2,9 @@
 
 import Link from "next/link";
 import { useState, useTransition } from "react";
+import { KanjiScope, useKanjiAllowance } from "@/components/kanji-scope";
 import { Ruby } from "@/components/ruby";
+import { higherLevel, kanjiAllowed } from "@/lib/kanji-levels";
 import { isMarkup, stripMarkup } from "@/lib/furigana";
 import type { StudyCard } from "@/lib/study/cards";
 import { XP_CORRECT, XP_WRONG } from "@/lib/study/streak";
@@ -26,9 +28,22 @@ interface Props {
   source?: "srs" | "course";
   /** The finish screen's way out. */
   doneLink?: { href: string; label: string };
+  /**
+   * The learner's kanji stage: a word shows kanji up to the higher of its
+   * own level and the stage, plus kanji already started; the rest in kana,
+   * as the JLPT prints them. Omit for no limit.
+   */
+  kanji?: { stage: string; known: string };
 }
 
-export function StudySession({ title, cards: initial, keepGoingHref, source = "srs", doneLink = { href: "/", label: "Pick another topic" } }: Props) {
+export function StudySession({
+  title,
+  cards: initial,
+  keepGoingHref,
+  source = "srs",
+  doneLink = { href: "/", label: "Pick another topic" },
+  kanji,
+}: Props) {
   const [queue, setQueue] = useState(initial);
   const [repeats, setRepeats] = useState<Record<string, number>>({});
   const [phase, setPhase] = useState<Phase>(initial[0]?.isNew ? "intro" : "question");
@@ -135,6 +150,11 @@ export function StudySession({ title, cards: initial, keepGoingHref, source = "s
         />
       </div>
 
+      <KanjiScope
+        all={!kanji || card.itemType === "kanji" || card.itemType === "radical"}
+        level={kanji ? higherLevel(card.level, kanji.stage) : undefined}
+        known={kanji?.known}
+      >
       {phase === "intro" ? (
         <Intro card={card} onDone={startQuestion} />
       ) : (
@@ -171,12 +191,15 @@ export function StudySession({ title, cards: initial, keepGoingHref, source = "s
           </div>
         </section>
       )}
+      </KanjiScope>
     </main>
   );
 }
 
 function Intro({ card, onDone }: { card: StudyCard; onDone: () => void }) {
   const r = card.reveal;
+  // Shown in kana for now (its kanji are above this stage): name the kanji spelling, skip the kanji-parts hint.
+  const inKana = !kanjiAllowed(stripMarkup(r.term), useKanjiAllowance());
   return (
     <section className="flex flex-1 flex-col">
       <p className="mt-8 text-center text-sm font-medium text-accent">New item</p>
@@ -199,7 +222,15 @@ function Intro({ card, onDone }: { card: StudyCard; onDone: () => void }) {
           <dt className="text-xs text-muted">Meaning</dt>
           <dd className="text-lg">{r.meaning}</dd>
         </div>
-        {r.mnemonic && (
+        {inKana && (
+          <div>
+            <dt className="text-xs text-muted">In kanji</dt>
+            <dd lang="ja">
+              {stripMarkup(r.term)} <span className="text-sm text-muted">· the exam prints this in kana until you reach its kanji</span>
+            </dd>
+          </div>
+        )}
+        {r.mnemonic && !inKana && (
           <div>
             <dt className="text-xs text-muted">Memory hint</dt>
             <dd>{r.mnemonic}</dd>

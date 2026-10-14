@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { KanjiScope } from "@/components/kanji-scope";
 import { Ruby } from "@/components/ruby";
 import { requireUser } from "@/lib/auth";
 import { loadReadingList } from "@/lib/reading/reading.server";
@@ -29,7 +30,7 @@ export default async function ReadingListPage() {
               <Link href={`/reading/${t.slug}`} className="block rounded-xl border border-border bg-card p-3 active:border-accent">
                 <div className="flex items-start justify-between gap-2">
                   <span className="font-medium leading-loose" lang="ja">
-                    <Ruby text={t.title} />
+                    <KanjiScope level={t.jlpt_level}><Ruby text={t.title} /></KanjiScope>
                   </span>
                   {t.progress && (
                     <span className={`shrink-0 text-sm ${perfect ? "text-green-700 dark:text-green-400" : "text-muted"}`}>

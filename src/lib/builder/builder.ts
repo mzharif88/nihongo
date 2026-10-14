@@ -89,3 +89,24 @@ export function seededRng(seed: string): Rng {
     return (h >>> 0) / 4294967296;
   };
 }
+
+/**
+ * An alternative word order as ruby markup: rebuilt from the exercise's tiles
+ * (longest first), so "also correct" sentences get furigana like the rest.
+ */
+export function alsoMarkup(also: string, tiles: string[]): string {
+  const sorted = [...new Set(tiles)].sort((a, b) => stripMarkup(b).length - stripMarkup(a).length);
+  let rest = also;
+  let out = "";
+  while (rest) {
+    const tile = sorted.find((t) => stripMarkup(t) && rest.startsWith(stripMarkup(t)));
+    if (tile) {
+      out += tile;
+      rest = rest.slice(stripMarkup(tile).length);
+    } else {
+      out += rest[0];
+      rest = rest.slice(1);
+    }
+  }
+  return out;
+}

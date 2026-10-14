@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { requireUser } from "@/lib/auth";
 import { buildPapers } from "@/lib/mock/mock";
 import { loadMock } from "@/lib/mock/mock.server";
+import { KanjiScope } from "@/components/kanji-scope";
 import { MockPlayer } from "./player";
 
 export const dynamic = "force-dynamic";
@@ -25,5 +26,10 @@ export default async function MockPage({ params }: { params: Promise<{ slug: str
       options: q.options,
     })),
   }));
-  return <MockPlayer mock={loaded.mock} papers={papers} />;
+  // Like the real exam: kanji above the test's level are printed in kana.
+  return (
+    <KanjiScope level={loaded.mock.jlpt_level}>
+      <MockPlayer mock={loaded.mock} papers={papers} />
+    </KanjiScope>
+  );
 }

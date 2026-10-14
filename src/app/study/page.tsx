@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { requireUser } from "@/lib/auth";
+import { loadKanjiStage } from "@/lib/study/kanji-stage.server";
 import { loadStudySession } from "@/lib/study/session.server";
 import { TOPIC_ID } from "@/lib/study/topics";
 import { StudySession } from "./session";
@@ -10,7 +11,7 @@ export default async function StudyPage({ searchParams }: { searchParams: Promis
   const { topic: topicParam } = await searchParams;
   const topicId = topicParam && TOPIC_ID.test(topicParam) ? topicParam : null;
   const { supabase, user, profile } = await requireUser();
-  const session = await loadStudySession(supabase, profile, { topicId });
+  const [session, kanji] = await Promise.all([loadStudySession(supabase, profile, { topicId }), loadKanjiStage(supabase, user.id)]);
 
   // Remember the last topic studied so the home page can offer "Continue".
   if (session.topic && profile.study_topic !== session.topic.id) {
@@ -42,6 +43,7 @@ export default async function StudyPage({ searchParams }: { searchParams: Promis
     <StudySession
       title={title}
       cards={session.cards}
+      kanji={kanji}
       keepGoingHref={hasMore || session.totalDue > session.dueCount ? again : null}
     />
   );

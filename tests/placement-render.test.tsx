@@ -38,7 +38,9 @@ describe("placement quiz", () => {
     expect(quizzes[0].level).toBe("N5");
     const html = renderToString(<PlacementQuiz quizzes={quizzes} />);
     expect(html).toContain("What does this mean?");
-    expect(html).toContain(stripMarkup(quizzes[0].cards[0].prompt).slice(0, 1));
+    // Shown as the N5 exam prints it: kanji above N5 in kana.
+    const c = quizzes[0].cards[0];
+    expect(html.includes(stripMarkup(c.prompt).slice(0, 1)) || html.includes((c.promptReading ?? "").slice(0, 1))).toBe(true);
     expect(html.match(/<button/g)).toHaveLength(5);
   });
 });

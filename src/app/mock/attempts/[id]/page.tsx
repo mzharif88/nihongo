@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ExamText } from "@/components/exam-text";
+import { KanjiScope } from "@/components/kanji-scope";
 import { requireUser } from "@/lib/auth";
 import { examOrder, type Answers, type MockResult } from "@/lib/mock/mock";
 import { loadAttempt } from "@/lib/mock/mock.server";
@@ -18,6 +19,7 @@ export default async function AttemptPage({ params }: { params: Promise<{ id: st
   const prediction = result.prediction;
 
   return (
+    <KanjiScope level={mock.jlpt_level}>
     <main className="mx-auto max-w-xl px-4 py-8">
       <header className="flex items-center justify-between">
         <Link href="/mock" className="text-sm text-muted underline">
@@ -130,14 +132,14 @@ export default async function AttemptPage({ params }: { params: Promise<{ id: st
                       }
                     >
                       {j === q.answer ? "✓ " : j === given ? "✗ " : "　"}
-                      <ExamText text={o} furigana />
+                      <ExamText text={o} furigana keepKanji={/表記|語形成/.test(q.part ?? "")} />
                     </li>
                   ))}
                 </ul>
                 {given === null || given === undefined ? <p className="mt-1 text-sm text-red-600 dark:text-red-400">Left blank</p> : null}
                 {q.explanation && (
                   <p className="mt-2 text-sm leading-loose">
-                    <ExamText text={q.explanation} furigana />
+                    <ExamText text={q.explanation} furigana keepKanji />
                   </p>
                 )}
               </li>
@@ -146,5 +148,6 @@ export default async function AttemptPage({ params }: { params: Promise<{ id: st
         </ol>
       </section>
     </main>
+    </KanjiScope>
   );
 }

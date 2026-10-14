@@ -118,7 +118,7 @@ export function Listener({ text, questions }: { text: TextRow; questions: Questi
           {q.explanation && (
             <p className="text-sm leading-loose" lang="ja">
               {picked === q.answer ? "✓ " : "✗ "}
-              <ExamText text={q.explanation} furigana />
+              <ExamText text={q.explanation} furigana keepKanji />
             </p>
           )}
           {q.passage && (

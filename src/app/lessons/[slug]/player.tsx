@@ -167,7 +167,7 @@ function Intro({ lesson, items }: { lesson: LessonRow; items: StudyItem[] }) {
       <h1 className="mt-1 text-2xl font-bold">
         <Ruby text={lesson.title} />
       </h1>
-      {lesson.situation && <p className="mt-3 text-lg">{lesson.situation}</p>}
+      {lesson.situation && <p className="mt-3 text-lg"><Ruby text={lesson.situation} /></p>}
       <div className="mt-6 rounded-xl border border-border bg-card p-4">
         <p className="text-xs text-muted">You&apos;ll learn</p>
         <p className="mt-2 flex flex-wrap gap-x-3 gap-y-2 text-lg" lang="ja">
