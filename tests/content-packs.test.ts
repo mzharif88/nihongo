@@ -122,14 +122,16 @@ describe("lesson packs", () => {
 describe("builder packs", () => {
   const patterns = PACK_GROUPS.find((g) => g.id === "builder")!.packs.flatMap((p) => loadFrom("builder", p.file).records);
   const grammar = new Set(
-    load("01-items.json").records.filter((r) => r.type === "grammar").map((r) => r.slug as string),
+    [...load("01-items.json").records, ...loadFrom("grammar", "n4.json").records]
+      .filter((r) => r.type === "grammar")
+      .map((r) => r.slug as string),
   );
   const strip = (s: string) => s.replace(/\[([^\]|]+)\|[^\]]+\]/g, "$1");
 
-  it("only update patterns that exist in the legacy pack, with real grammar points", () => {
+  it("update legacy patterns or bring their own template, with real grammar points", () => {
     const legacy = new Set(load("02-sentence-patterns.json").records.map((r) => r.slug as string));
     for (const p of patterns) {
-      expect(legacy, p.slug as string).toContain(p.slug);
+      expect(legacy.has(p.slug as string) || (p.template as unknown[]).length > 0, p.slug as string).toBe(true);
       if (p.grammar_slug) expect(grammar, `${p.slug} → ${p.grammar_slug}`).toContain(p.grammar_slug);
     }
   });
@@ -176,13 +178,15 @@ describe("kana duplicate merges", () => {
 
 describe("mock and reading packs", () => {
   const items = new Set(
-    PACK_GROUPS.filter((g) => g.id === "legacy" || g.id === "opendata").flatMap((g) =>
+    PACK_GROUPS.filter((g) => ["legacy", "opendata", "grammar"].includes(g.id)).flatMap((g) =>
       g.packs.map((p) => loadFrom(g.id, p.file)).filter((p) => p.kind === "items").flatMap((p) => p.records.map((r) => r.slug as string)),
     ),
   );
-  const mocks = new Set(loadFrom("mock", "n5-1-test.json").records.map((r) => r.slug as string));
-  const texts = new Set(loadFrom("reading", "n5-texts.json").records.map((r) => r.slug as string));
-  const questions = [...loadFrom("mock", "n5-1-questions.json").records, ...loadFrom("reading", "n5-questions.json").records];
+  const packsOf = (group: string, kind: string) =>
+    PACK_GROUPS.find((g) => g.id === group)!.packs.map((p) => loadFrom(group, p.file)).filter((p) => p.kind === kind).flatMap((p) => p.records);
+  const mocks = new Set(packsOf("mock", "mock_tests").map((r) => r.slug as string));
+  const texts = new Set(packsOf("reading", "texts").map((r) => r.slug as string));
+  const questions = [...packsOf("mock", "questions"), ...packsOf("reading", "questions")];
 
   it("point at real tests, texts and items", () => {
     for (const q of questions) {

@@ -8312,7 +8312,7 @@
    "type": "word",
    "jlpt_level": "N4",
    "term": "運動",
-   "romaji": "undousuru",
+   "romaji": "undou",
    "meaning": "Exercise",
    "examples": [
     {
@@ -8326,7 +8326,7 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "うんどうする",
+   "reading": "うんどう",
    "mnemonic": "運 carry + 動 move"
   },
   {
@@ -8334,7 +8334,7 @@
    "type": "word",
    "jlpt_level": "N4",
    "term": "心配",
-   "romaji": "shinpaisuru",
+   "romaji": "shinpai",
    "meaning": "Worry",
    "examples": [
     {
@@ -8348,7 +8348,7 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "しんぱいする",
+   "reading": "しんぱい",
    "mnemonic": "心 heart + 配 distribute"
   },
   {
@@ -8728,7 +8728,7 @@
    "type": "word",
    "jlpt_level": "N4",
    "term": "挨拶",
-   "romaji": "aisatsusuru",
+   "romaji": "aisatsu",
    "meaning": "Greeting",
    "examples": [
     {
@@ -8742,7 +8742,7 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "あいさつする",
+   "reading": "あいさつ",
    "mnemonic": "挨 + 拶"
   },
   {

@@ -97,11 +97,11 @@
         { "speaker": "田中", "jp": "早いですね。わたしは一時に寝ます。", "en": "That's early. I go to bed at one." }
       ],
       "checks": [
-        { "prompt": "How do you say \"half past seven\"?", "options": ["七時分", "半七時", "七時半", "七分半"], "answer": 2, "explanation": "Hour + 時, then 半 for half past: 七時半 (しちじはん)." },
+        { "prompt": "How do you say \"half past seven\"?", "options": ["七時分", "半七時", "七時半", "七分半"], "answer": 2, "explanation": "Hour + [時|じ], then 半 for half past: 七時半 (しちじはん)." },
         { "prompt": "What is the polite (ます) form of 寝る (to sleep)?", "options": ["寝ます", "寝る", "寝ません", "寝ました"], "answer": 0, "explanation": "寝る → 寝ます (polite present). 寝ません is negative, 寝ました is past." },
         { "prompt": "What time does the speaker get up?", "options": ["8:30", "6:00", "9:00", "11:00"], "answer": 1, "explanation": "「六時に起きます」 = I get up at six." }
       ],
-      "notes": "ます makes a verb polite: 起きる → 起きます (get up), 寝る → 寝ます (go to bed), 行く → 行きます (go). Use に after a clock time: 六時に起きます = \"I get up at six.\"\n\nTelling time: number + 時 (じ) for the hour, + 分 (ふん/ぷん) for minutes, 半 (はん) for half past. Careful with 四時 (よじ), 七時 (しちじ) and 九時 (くじ)."
+      "notes": "ます makes a verb polite: 起きる → 起きます (get up), 寝る → 寝ます (go to bed), 行く → 行きます (go). Use に after a clock time: 六時に起きます = \"I get up at six.\"\n\nTelling time: number + [時|じ] for the hour, + 分 (ふん/ぷん) for minutes, 半 (はん) for half past. Careful with 四時 (よじ), 七時 (しちじ) and 九時 (くじ)."
     },
     {
       "slug": "lesson-n5-05-resutoran",

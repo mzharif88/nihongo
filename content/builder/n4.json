@@ -1,0 +1,896 @@
+{
+ "version": 1,
+ "kind": "sentence_patterns",
+ "source": "original-n4-builder",
+ "records": [
+  {
+   "slug": "pattern-n4-potential",
+   "jlpt_level": "N4",
+   "position": 101,
+   "grammar_slug": "grammar-n4-potential",
+   "title": "Can do — 可能形",
+   "english": "I can read a little kanji.",
+   "template": [
+    {
+     "slot": "noun",
+     "label": "What you can do"
+    },
+    {
+     "text": "が",
+     "label": "が marks it"
+    },
+    {
+     "slot": "verb-masu",
+     "label": "Potential verb (読めます)"
+    }
+   ],
+   "notes": "Potential: 読む → 読める, 着る → 着られる, 来る → 来られる, する → できる. The thing you can do usually takes が.",
+   "examples": [
+    {
+     "jp": "私は漢字が少し読めます。",
+     "en": "I can read a little kanji.",
+     "reading": "[私|わたし]は[漢字|かんじ]が[少|すこ]し[読|よ]めます。",
+     "tiles": [
+      "[私|わたし]",
+      "は",
+      "[漢字|かんじ]",
+      "が",
+      "[少|すこ]し",
+      "[読|よ]めます"
+     ],
+     "distractors": [
+      "[読|よ]みます"
+     ],
+     "also": []
+    },
+    {
+     "jp": "兄はピアノが弾けます。",
+     "en": "My older brother can play the piano.",
+     "reading": "[兄|あに]はピアノが[弾|ひ]けます。",
+     "tiles": [
+      "[兄|あに]",
+      "は",
+      "ピアノ",
+      "が",
+      "[弾|ひ]けます"
+     ],
+     "distractors": [
+      "[弾|ひ]きます"
+     ],
+     "also": []
+    },
+    {
+     "jp": "ここで写真が撮れません。",
+     "en": "You can't take photos here.",
+     "reading": "ここで[写真|しゃしん]が[撮|と]れません。",
+     "tiles": [
+      "ここ",
+      "で",
+      "[写真|しゃしん]",
+      "が",
+      "[撮|と]れません"
+     ],
+     "distractors": [
+      "[撮|と]りません"
+     ],
+     "also": []
+    },
+    {
+     "jp": "明日は来られますか。",
+     "en": "Can you come tomorrow?",
+     "reading": "[明日|あした]は[来|こ]られますか。",
+     "tiles": [
+      "[明日|あした]",
+      "は",
+      "[来|こ]られます",
+      "か"
+     ],
+     "distractors": [
+      "[来|き]ます"
+     ],
+     "also": []
+    },
+    {
+     "jp": "一人で着物が着られます。",
+     "en": "I can put on a kimono by myself.",
+     "reading": "[一人|ひとり]で[着物|きもの]が[着|き]られます。",
+     "tiles": [
+      "[一人|ひとり]",
+      "で",
+      "[着物|きもの]",
+      "が",
+      "[着|き]られます"
+     ],
+     "distractors": [
+      "[着|き]ます"
+     ],
+     "also": []
+    }
+   ]
+  },
+  {
+   "slug": "pattern-n4-tari",
+   "jlpt_level": "N4",
+   "position": 102,
+   "grammar_slug": "grammar-n4-tari",
+   "title": "Things like — 〜たり〜たりする",
+   "english": "At the weekend I cleaned, went shopping and so on.",
+   "template": [
+    {
+     "slot": "verb-ta",
+     "label": "Action 1 (た + り)"
+    },
+    {
+     "slot": "verb-ta",
+     "label": "Action 2 (た + り)"
+    },
+    {
+     "text": "します",
+     "label": "する at the end"
+    }
+   ],
+   "notes": "Both verbs take the た-form + り, and the sentence ends with する in the tense you need.",
+   "examples": [
+    {
+     "jp": "週末は掃除をしたり買い物をしたりしました。",
+     "en": "At the weekend I did some cleaning, went shopping and so on.",
+     "reading": "[週末|しゅうまつ]は[掃除|そうじ]をしたり[買|か]い[物|もの]をしたりしました。",
+     "tiles": [
+      "[週末|しゅうまつ]",
+      "は",
+      "[掃除|そうじ]",
+      "を",
+      "したり",
+      "[買|か]い[物|もの]",
+      "を",
+      "したり",
+      "しました"
+     ],
+     "distractors": [
+      "して"
+     ],
+     "also": [
+      "週末は買い物をしたり掃除をしたりしました"
+     ]
+    },
+    {
+     "jp": "休みの日は本を読んだり音楽を聞いたりします。",
+     "en": "On days off I read books, listen to music and so on.",
+     "reading": "[休|やす]みの[日|ひ]は[本|ほん]を[読|よ]んだり[音楽|おんがく]を[聞|き]いたりします。",
+     "tiles": [
+      "[休|やす]み",
+      "の",
+      "[日|ひ]",
+      "は",
+      "[本|ほん]",
+      "を",
+      "[読|よ]んだり",
+      "[音楽|おんがく]",
+      "を",
+      "[聞|き]いたり",
+      "します"
+     ],
+     "distractors": [
+      "[読|よ]んで"
+     ],
+     "also": [
+      "休みの日は音楽を聞いたり本を読んだりします"
+     ]
+    },
+    {
+     "jp": "京都でお寺を見たり写真を撮ったりしました。",
+     "en": "In Kyoto I saw temples, took photos and so on.",
+     "reading": "[京都|きょうと]でお[寺|てら]を[見|み]たり[写真|しゃしん]を[撮|と]ったりしました。",
+     "tiles": [
+      "[京都|きょうと]",
+      "で",
+      "お[寺|てら]",
+      "を",
+      "[見|み]たり",
+      "[写真|しゃしん]",
+      "を",
+      "[撮|と]ったり",
+      "しました"
+     ],
+     "distractors": [
+      "[見|み]て"
+     ],
+     "also": [
+      "京都で写真を撮ったりお寺を見たりしました"
+     ]
+    },
+    {
+     "jp": "夜はテレビを見たり日記を書いたりします。",
+     "en": "In the evening I watch TV, write my diary and so on.",
+     "reading": "[夜|よる]はテレビを[見|み]たり[日記|にっき]を[書|か]いたりします。",
+     "tiles": [
+      "[夜|よる]",
+      "は",
+      "テレビ",
+      "を",
+      "[見|み]たり",
+      "[日記|にっき]",
+      "を",
+      "[書|か]いたり",
+      "します"
+     ],
+     "distractors": [
+      "[書|か]いて"
+     ],
+     "also": [
+      "夜は日記を書いたりテレビを見たりします"
+     ]
+    },
+    {
+     "jp": "昨日は友達と話したりゲームをしたりしました。",
+     "en": "Yesterday I chatted with friends, played games and so on.",
+     "reading": "[昨日|きのう]は[友達|ともだち]と[話|はな]したりゲームをしたりしました。",
+     "tiles": [
+      "[昨日|きのう]",
+      "は",
+      "[友達|ともだち]",
+      "と",
+      "[話|はな]したり",
+      "ゲーム",
+      "を",
+      "したり",
+      "しました"
+     ],
+     "distractors": [
+      "[話|はな]して"
+     ],
+     "also": [
+      "昨日は友達とゲームをしたり話したりしました"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "pattern-n4-hou-ga-ii",
+   "jlpt_level": "N4",
+   "position": 103,
+   "grammar_slug": "grammar-n4-hou-ga-ii",
+   "title": "Had better — 〜たほうがいい",
+   "english": "You'd better go to bed early.",
+   "template": [
+    {
+     "slot": "verb-ta",
+     "label": "Verb, た-form (or ない-form)"
+    },
+    {
+     "text": "ほうがいいです",
+     "label": "had better"
+    }
+   ],
+   "notes": "Advice: た-form + ほうがいいです. Advice not to: ない-form + ほうがいいです.",
+   "examples": [
+    {
+     "jp": "早く寝たほうがいいです。",
+     "en": "You'd better go to bed early.",
+     "reading": "[早|はや]く[寝|ね]たほうがいいです。",
+     "tiles": [
+      "[早|はや]く",
+      "[寝|ね]た",
+      "ほうが",
+      "いいです"
+     ],
+     "distractors": [
+      "[寝|ね]る"
+     ],
+     "also": []
+    },
+    {
+     "jp": "薬を飲んだほうがいいです。",
+     "en": "You'd better take some medicine.",
+     "reading": "[薬|くすり]を[飲|の]んだほうがいいです。",
+     "tiles": [
+      "[薬|くすり]",
+      "を",
+      "[飲|の]んだ",
+      "ほうが",
+      "いいです"
+     ],
+     "distractors": [
+      "[飲|の]む"
+     ],
+     "also": []
+    },
+    {
+     "jp": "夜は一人で歩かないほうがいいです。",
+     "en": "You'd better not walk alone at night.",
+     "reading": "[夜|よる]は[一人|ひとり]で[歩|ある]かないほうがいいです。",
+     "tiles": [
+      "[夜|よる]",
+      "は",
+      "[一人|ひとり]",
+      "で",
+      "[歩|ある]かない",
+      "ほうが",
+      "いいです"
+     ],
+     "distractors": [
+      "[歩|ある]く"
+     ],
+     "also": []
+    },
+    {
+     "jp": "傘を持って行ったほうがいいです。",
+     "en": "You'd better take an umbrella.",
+     "reading": "[傘|かさ]を[持|も]って[行|い]ったほうがいいです。",
+     "tiles": [
+      "[傘|かさ]",
+      "を",
+      "[持|も]って",
+      "[行|い]った",
+      "ほうが",
+      "いいです"
+     ],
+     "distractors": [
+      "[行|い]く"
+     ],
+     "also": []
+    },
+    {
+     "jp": "無理をしないほうがいいです。",
+     "en": "You'd better not overdo it.",
+     "reading": "[無理|むり]をしないほうがいいです。",
+     "tiles": [
+      "[無理|むり]",
+      "を",
+      "しない",
+      "ほうが",
+      "いいです"
+     ],
+     "distractors": [
+      "する"
+     ],
+     "also": []
+    }
+   ]
+  },
+  {
+   "slug": "pattern-n4-nakereba",
+   "jlpt_level": "N4",
+   "position": 104,
+   "grammar_slug": "grammar-n4-nakereba",
+   "title": "Must — 〜なければならない",
+   "english": "I have to get up early tomorrow.",
+   "template": [
+    {
+     "slot": "verb-nai",
+     "label": "ない-form minus い + ければ"
+    },
+    {
+     "text": "なりません",
+     "label": "must"
+    }
+   ],
+   "notes": "Must: 起きない → 起きなければなりません. Compare 〜てはいけません (must not).",
+   "examples": [
+    {
+     "jp": "明日は早く起きなければなりません。",
+     "en": "I have to get up early tomorrow.",
+     "reading": "[明日|あした]は[早|はや]く[起|お]きなければなりません。",
+     "tiles": [
+      "[明日|あした]",
+      "は",
+      "[早|はや]く",
+      "[起|お]きなければ",
+      "なりません"
+     ],
+     "distractors": [
+      "[起|お]きては"
+     ],
+     "also": []
+    },
+    {
+     "jp": "毎日薬を飲まなければなりません。",
+     "en": "I have to take medicine every day.",
+     "reading": "[毎日|まいにち][薬|くすり]を[飲|の]まなければなりません。",
+     "tiles": [
+      "[毎日|まいにち]",
+      "[薬|くすり]",
+      "を",
+      "[飲|の]まなければ",
+      "なりません"
+     ],
+     "distractors": [
+      "[飲|の]んでは"
+     ],
+     "also": [
+      "薬を毎日飲まなければなりません"
+     ]
+    },
+    {
+     "jp": "八時までに会社へ行かなければなりません。",
+     "en": "I have to get to the office by eight.",
+     "reading": "[八|はち][時|じ]までに[会社|かいしゃ]へ[行|い]かなければなりません。",
+     "tiles": [
+      "[八|はち][時|じ]",
+      "までに",
+      "[会社|かいしゃ]",
+      "へ",
+      "[行|い]かなければ",
+      "なりません"
+     ],
+     "distractors": [
+      "[行|い]っては"
+     ],
+     "also": [
+      "会社へ八時までに行かなければなりません"
+     ]
+    },
+    {
+     "jp": "金曜日までに宿題を出さなければなりません。",
+     "en": "I have to hand in my homework by Friday.",
+     "reading": "[金曜日|きんようび]までに[宿題|しゅくだい]を[出|だ]さなければなりません。",
+     "tiles": [
+      "[金曜日|きんようび]",
+      "までに",
+      "[宿題|しゅくだい]",
+      "を",
+      "[出|だ]さなければ",
+      "なりません"
+     ],
+     "distractors": [
+      "[出|だ]しては"
+     ],
+     "also": [
+      "宿題を金曜日までに出さなければなりません"
+     ]
+    },
+    {
+     "jp": "店の制服を着なければなりません。",
+     "en": "You have to wear the shop uniform.",
+     "reading": "[店|みせ]の[制服|せいふく]を[着|き]なければなりません。",
+     "tiles": [
+      "[店|みせ]",
+      "の",
+      "[制服|せいふく]",
+      "を",
+      "[着|き]なければ",
+      "なりません"
+     ],
+     "distractors": [
+      "[着|き]ては"
+     ],
+     "also": []
+    }
+   ]
+  },
+  {
+   "slug": "pattern-n4-tara",
+   "jlpt_level": "N4",
+   "position": 105,
+   "grammar_slug": "grammar-n4-tara",
+   "title": "If / when — 〜たら",
+   "english": "When you get to the station, please call me.",
+   "template": [
+    {
+     "slot": "verb-ta",
+     "label": "Condition, た-form + ら"
+    },
+    {
+     "text": "、",
+     "label": ""
+    },
+    {
+     "slot": "verb-masu",
+     "label": "What happens"
+    }
+   ],
+   "notes": "た-form + ら = if / when / once. The second half can be a request, a plan or a result.",
+   "examples": [
+    {
+     "jp": "駅に着いたら電話してください。",
+     "en": "When you get to the station, please call me.",
+     "reading": "[駅|えき]に[着|つ]いたら[電話|でんわ]してください。",
+     "tiles": [
+      "[駅|えき]",
+      "に",
+      "[着|つ]いたら",
+      "[電話|でんわ]して",
+      "ください"
+     ],
+     "distractors": [
+      "[着|つ]いて"
+     ],
+     "also": []
+    },
+    {
+     "jp": "雨が降ったら行きません。",
+     "en": "If it rains, I won't go.",
+     "reading": "[雨|あめ]が[降|ふ]ったら[行|い]きません。",
+     "tiles": [
+      "[雨|あめ]",
+      "が",
+      "[降|ふ]ったら",
+      "[行|い]きません"
+     ],
+     "distractors": [
+      "[降|ふ]って"
+     ],
+     "also": []
+    },
+    {
+     "jp": "お金があったら旅行したいです。",
+     "en": "If I had money, I'd like to travel.",
+     "reading": "お[金|かね]があったら[旅行|りょこう]したいです。",
+     "tiles": [
+      "お[金|かね]",
+      "が",
+      "あったら",
+      "[旅行|りょこう]",
+      "したいです"
+     ],
+     "distractors": [
+      "あって"
+     ],
+     "also": []
+    },
+    {
+     "jp": "暇だったら遊びに来てください。",
+     "en": "If you're free, come over.",
+     "reading": "[暇|ひま]だったら[遊|あそ]びに[来|き]てください。",
+     "tiles": [
+      "[暇|ひま]",
+      "だったら",
+      "[遊|あそ]び",
+      "に",
+      "[来|き]て",
+      "ください"
+     ],
+     "distractors": [
+      "[暇|ひま]な"
+     ],
+     "also": []
+    },
+    {
+     "jp": "宿題が終わったらテレビを見ます。",
+     "en": "Once my homework is finished, I'll watch TV.",
+     "reading": "[宿題|しゅくだい]が[終|お]わったらテレビを[見|み]ます。",
+     "tiles": [
+      "[宿題|しゅくだい]",
+      "が",
+      "[終|お]わったら",
+      "テレビ",
+      "を",
+      "[見|み]ます"
+     ],
+     "distractors": [
+      "[終|お]わって"
+     ],
+     "also": []
+    }
+   ]
+  },
+  {
+   "slug": "pattern-n4-te-morau",
+   "jlpt_level": "N4",
+   "position": 106,
+   "grammar_slug": "grammar-n4-te-morau",
+   "title": "Have someone do — 〜てもらう / 〜てくれる",
+   "english": "I had a friend help me move.",
+   "template": [
+    {
+     "slot": "person",
+     "label": "Helper + に (もらう) or が (くれる)"
+    },
+    {
+     "slot": "verb-te",
+     "label": "Verb, て-form"
+    },
+    {
+     "text": "もらいました / くれました",
+     "label": "receive the favour"
+    }
+   ],
+   "notes": "Helper + に + 〜てもらう (I had them do it); helper + が + 〜てくれる (they kindly did it for me).",
+   "examples": [
+    {
+     "jp": "友達に引っ越しを手伝ってもらいました。",
+     "en": "I had a friend help me move.",
+     "reading": "[友達|ともだち]に[引|ひ]っ[越|こ]しを[手伝|てつだ]ってもらいました。",
+     "tiles": [
+      "[友達|ともだち]",
+      "に",
+      "[引|ひ]っ[越|こ]し",
+      "を",
+      "[手伝|てつだ]って",
+      "もらいました"
+     ],
+     "distractors": [
+      "くれました"
+     ],
+     "also": []
+    },
+    {
+     "jp": "先生に作文を直してもらいました。",
+     "en": "I had the teacher correct my essay.",
+     "reading": "[先生|せんせい]に[作文|さくぶん]を[直|なお]してもらいました。",
+     "tiles": [
+      "[先生|せんせい]",
+      "に",
+      "[作文|さくぶん]",
+      "を",
+      "[直|なお]して",
+      "もらいました"
+     ],
+     "distractors": [
+      "くれました"
+     ],
+     "also": []
+    },
+    {
+     "jp": "兄が駅まで送ってくれました。",
+     "en": "My older brother kindly took me to the station.",
+     "reading": "[兄|あに]が[駅|えき]まで[送|おく]ってくれました。",
+     "tiles": [
+      "[兄|あに]",
+      "が",
+      "[駅|えき]",
+      "まで",
+      "[送|おく]って",
+      "くれました"
+     ],
+     "distractors": [
+      "もらいました"
+     ],
+     "also": []
+    },
+    {
+     "jp": "母にお弁当を作ってもらいました。",
+     "en": "I had my mother make me a packed lunch.",
+     "reading": "[母|はは]にお[弁当|べんとう]を[作|つく]ってもらいました。",
+     "tiles": [
+      "[母|はは]",
+      "に",
+      "お[弁当|べんとう]",
+      "を",
+      "[作|つく]って",
+      "もらいました"
+     ],
+     "distractors": [
+      "くれました"
+     ],
+     "also": []
+    },
+    {
+     "jp": "田中さんが傘を貸してくれました。",
+     "en": "Mr. Tanaka kindly lent me an umbrella.",
+     "reading": "[田中|たなか]さんが[傘|かさ]を[貸|か]してくれました。",
+     "tiles": [
+      "[田中|たなか]さん",
+      "が",
+      "[傘|かさ]",
+      "を",
+      "[貸|か]して",
+      "くれました"
+     ],
+     "distractors": [
+      "もらいました"
+     ],
+     "also": []
+    }
+   ]
+  },
+  {
+   "slug": "pattern-n4-to-omou",
+   "jlpt_level": "N4",
+   "position": 107,
+   "grammar_slug": "grammar-n4-to-omou",
+   "title": "I think — 〜と思う",
+   "english": "I think it will rain tomorrow.",
+   "template": [
+    {
+     "slot": "verb-dict",
+     "label": "Plain form (verb, adjective, noun + だ)"
+    },
+    {
+     "text": "と思います",
+     "label": "I think"
+    }
+   ],
+   "notes": "Plain form + と思います. Nouns and な-adjectives need だ: 先生だと思います.",
+   "examples": [
+    {
+     "jp": "明日は雨が降ると思います。",
+     "en": "I think it will rain tomorrow.",
+     "reading": "[明日|あした]は[雨|あめ]が[降|ふ]ると[思|おも]います。",
+     "tiles": [
+      "[明日|あした]",
+      "は",
+      "[雨|あめ]",
+      "が",
+      "[降|ふ]る",
+      "と",
+      "[思|おも]います"
+     ],
+     "distractors": [
+      "[降|ふ]って"
+     ],
+     "also": []
+    },
+    {
+     "jp": "この映画は面白いと思います。",
+     "en": "I think this film is interesting.",
+     "reading": "この[映画|えいが]は[面白|おもしろ]いと[思|おも]います。",
+     "tiles": [
+      "この",
+      "[映画|えいが]",
+      "は",
+      "[面白|おもしろ]い",
+      "と",
+      "[思|おも]います"
+     ],
+     "distractors": [
+      "[面白|おもしろ]くて"
+     ],
+     "also": []
+    },
+    {
+     "jp": "田中さんはもう帰ったと思います。",
+     "en": "I think Mr. Tanaka has already gone home.",
+     "reading": "[田中|たなか]さんはもう[帰|かえ]ったと[思|おも]います。",
+     "tiles": [
+      "[田中|たなか]さん",
+      "は",
+      "もう",
+      "[帰|かえ]った",
+      "と",
+      "[思|おも]います"
+     ],
+     "distractors": [
+      "[帰|かえ]って"
+     ],
+     "also": []
+    },
+    {
+     "jp": "日本語は難しくないと思います。",
+     "en": "I don't think Japanese is difficult.",
+     "reading": "[日本語|にほんご]は[難|むずか]しくないと[思|おも]います。",
+     "tiles": [
+      "[日本語|にほんご]",
+      "は",
+      "[難|むずか]しくない",
+      "と",
+      "[思|おも]います"
+     ],
+     "distractors": [
+      "[難|むずか]しくなくて"
+     ],
+     "also": []
+    },
+    {
+     "jp": "あの人は先生だと思います。",
+     "en": "I think that person is a teacher.",
+     "reading": "あの[人|ひと]は[先生|せんせい]だと[思|おも]います。",
+     "tiles": [
+      "あの",
+      "[人|ひと]",
+      "は",
+      "[先生|せんせい]",
+      "だ",
+      "と",
+      "[思|おも]います"
+     ],
+     "distractors": [
+      "です"
+     ],
+     "also": []
+    }
+   ]
+  },
+  {
+   "slug": "pattern-n4-ta-koto-ga-aru",
+   "jlpt_level": "N4",
+   "position": 108,
+   "grammar_slug": "grammar-ta-koto-ga-aru",
+   "title": "Have done — 〜たことがある",
+   "english": "I have climbed Mt. Fuji.",
+   "template": [
+    {
+     "slot": "verb-ta",
+     "label": "Verb, た-form"
+    },
+    {
+     "text": "ことがあります",
+     "label": "have the experience"
+    }
+   ],
+   "notes": "た-form + ことがあります = have done (at some time). Never: 〜たことがありません.",
+   "examples": [
+    {
+     "jp": "富士山に登ったことがあります。",
+     "en": "I have climbed Mt. Fuji.",
+     "reading": "[富士山|ふじさん]に[登|のぼ]ったことがあります。",
+     "tiles": [
+      "[富士山|ふじさん]",
+      "に",
+      "[登|のぼ]った",
+      "こと",
+      "が",
+      "あります"
+     ],
+     "distractors": [
+      "[登|のぼ]る"
+     ],
+     "also": []
+    },
+    {
+     "jp": "日本のお酒を飲んだことがあります。",
+     "en": "I have tried Japanese sake.",
+     "reading": "[日本|にほん]のお[酒|さけ]を[飲|の]んだことがあります。",
+     "tiles": [
+      "[日本|にほん]",
+      "の",
+      "お[酒|さけ]",
+      "を",
+      "[飲|の]んだ",
+      "こと",
+      "が",
+      "あります"
+     ],
+     "distractors": [
+      "[飲|の]む"
+     ],
+     "also": []
+    },
+    {
+     "jp": "一度も着物を着たことがありません。",
+     "en": "I have never once worn a kimono.",
+     "reading": "[一度|いちど]も[着物|きもの]を[着|き]たことがありません。",
+     "tiles": [
+      "[一度|いちど]",
+      "も",
+      "[着物|きもの]",
+      "を",
+      "[着|き]た",
+      "こと",
+      "が",
+      "ありません"
+     ],
+     "distractors": [
+      "[着|き]る"
+     ],
+     "also": []
+    },
+    {
+     "jp": "新幹線に乗ったことがありますか。",
+     "en": "Have you ever ridden the shinkansen?",
+     "reading": "[新幹線|しんかんせん]に[乗|の]ったことがありますか。",
+     "tiles": [
+      "[新幹線|しんかんせん]",
+      "に",
+      "[乗|の]った",
+      "こと",
+      "が",
+      "あります",
+      "か"
+     ],
+     "distractors": [
+      "[乗|の]る"
+     ],
+     "also": []
+    },
+    {
+     "jp": "納豆を食べたことがありません。",
+     "en": "I have never eaten natto.",
+     "reading": "[納豆|なっとう]を[食|た]べたことがありません。",
+     "tiles": [
+      "[納豆|なっとう]",
+      "を",
+      "[食|た]べた",
+      "こと",
+      "が",
+      "ありません"
+     ],
+     "distractors": [
+      "[食|た]べる"
+     ],
+     "also": []
+    }
+   ]
+  }
+ ]
+}

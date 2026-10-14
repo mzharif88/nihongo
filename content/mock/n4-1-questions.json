@@ -1,0 +1,985 @@
+{
+ "version": 1,
+ "kind": "questions",
+ "source": "original-mock",
+ "records": [
+  {
+   "slug": "mock-n4-1-01",
+   "mock_test_slug": "mock-n4-1",
+   "position": 1,
+   "jlpt_level": "N4",
+   "section": "vocabulary",
+   "part": "問題1 漢字読み · Kanji reading",
+   "prompt": "[来週|らいしゅう]、{{[会議|かいぎ]}}があります。",
+   "options": [
+    "かいぎ",
+    "かいき",
+    "がいぎ",
+    "あいぎ"
+   ],
+   "answer": 0,
+   "explanation": "[会議|かいぎ] = かいぎ (meeting).",
+   "item_slugs": [
+    "word-kaigi"
+   ]
+  },
+  {
+   "slug": "mock-n4-1-02",
+   "mock_test_slug": "mock-n4-1",
+   "position": 2,
+   "jlpt_level": "N4",
+   "section": "vocabulary",
+   "part": "問題1 漢字読み · Kanji reading",
+   "prompt": "[駅|えき]の[前|まえ]に[新|あたら]しい{{[建物|たてもの]}}ができました。",
+   "options": [
+    "けんぶつ",
+    "たてもの",
+    "たてぶつ",
+    "けんもの"
+   ],
+   "answer": 1,
+   "explanation": "[建物|たてもの] = たてもの (building).",
+   "item_slugs": [
+    "vocab-n5-tatemono"
+   ]
+  },
+  {
+   "slug": "mock-n4-1-03",
+   "mock_test_slug": "mock-n4-1",
+   "position": 3,
+   "jlpt_level": "N4",
+   "section": "vocabulary",
+   "part": "問題1 漢字読み · Kanji reading",
+   "prompt": "[大学|だいがく]で[日本|にほん]の{{[文化|ぶんか]}}を[勉強|べんきょう]しています。",
+   "options": [
+    "ぶんが",
+    "もんか",
+    "ぶんか",
+    "ぶんけ"
+   ],
+   "answer": 2,
+   "explanation": "[文化|ぶんか] = ぶんか (culture).",
+   "item_slugs": [
+    "word-bunka"
+   ]
+  },
+  {
+   "slug": "mock-n4-1-04",
+   "mock_test_slug": "mock-n4-1",
+   "position": 4,
+   "jlpt_level": "N4",
+   "section": "vocabulary",
+   "part": "問題1 漢字読み · Kanji reading",
+   "prompt": "[母|はは]は{{[料理|りょうり]}}が[上手|じょうず]です。",
+   "options": [
+    "りょり",
+    "りょうり",
+    "りようり",
+    "りょうりい"
+   ],
+   "answer": 1,
+   "explanation": "[料理|りょうり] = りょうり (cooking).",
+   "item_slugs": [
+    "word-ryouri"
+   ]
+  },
+  {
+   "slug": "mock-n4-1-05",
+   "mock_test_slug": "mock-n4-1",
+   "position": 5,
+   "jlpt_level": "N4",
+   "section": "vocabulary",
+   "part": "問題1 漢字読み · Kanji reading",
+   "prompt": "[毎朝|まいあさ]、[公園|こうえん]で{{[運動|うんどう]}}をしています。",
+   "options": [
+    "うんど",
+    "ゆんどう",
+    "うんとう",
+    "うんどう"
+   ],
+   "answer": 3,
+   "explanation": "[運動|うんどう] = うんどう (exercise).",
+   "item_slugs": [
+    "word-undou"
+   ]
+  },
+  {
+   "slug": "mock-n4-1-06",
+   "mock_test_slug": "mock-n4-1",
+   "position": 6,
+   "jlpt_level": "N4",
+   "section": "vocabulary",
+   "part": "問題1 漢字読み · Kanji reading",
+   "prompt": "[今日|きょう]は{{[特別|とくべつ]}}な[日|ひ]です。",
+   "options": [
+    "とくべつ",
+    "どくべつ",
+    "とくへつ",
+    "とっべつ"
+   ],
+   "answer": 0,
+   "explanation": "[特別|とくべつ] = とくべつ (special).",
+   "item_slugs": [
+    "vocab-n4-tokubetsu"
+   ]
+  },
+  {
+   "slug": "mock-n4-1-07",
+   "mock_test_slug": "mock-n4-1",
+   "position": 7,
+   "jlpt_level": "N4",
+   "section": "vocabulary",
+   "part": "問題2 表記 · Writing in kanji",
+   "prompt": "[来月|らいげつ]、{{ひっこし}}をします。",
+   "options": [
+    "[引|ひ]っ[越|こ]し",
+    "[引|ひ]っ[超|こ]し",
+    "[弓|ゆみ]っ[越|こ]し",
+    "[引|ひ]っ[起|おこ]し"
+   ],
+   "answer": 0,
+   "explanation": "ひっこし = [引|ひ]っ[越|こ]し (moving house).",
+   "item_slugs": [
+    "vocab-n4-hikkosu"
+   ]
+  },
+  {
+   "slug": "mock-n4-1-08",
+   "mock_test_slug": "mock-n4-1",
+   "position": 8,
+   "jlpt_level": "N4",
+   "section": "vocabulary",
+   "part": "問題2 表記 · Writing in kanji",
+   "prompt": "この[本|ほん]を{{かして}}ください。",
+   "options": [
+    "[借|か]して",
+    "[貸|か]して",
+    "[化|か]して",
+    "[賃|ちん]して"
+   ],
+   "answer": 1,
+   "explanation": "かす = [貸|か]す (lend). [借|か]りる = borrow.",
+   "item_slugs": [
+    "vocab-n5-kasu"
+   ]
+  },
+  {
+   "slug": "mock-n4-1-09",
+   "mock_test_slug": "mock-n4-1",
+   "position": 9,
+   "jlpt_level": "N4",
+   "section": "vocabulary",
+   "part": "問題2 表記 · Writing in kanji",
+   "prompt": "この[部屋|へや]は[少|すこ]し{{くらい}}ですね。",
+   "options": [
+    "[黒|くろ]い",
+    "[晴|はれ]い",
+    "[暗|くら]い",
+    "[暖|だん]い"
+   ],
+   "answer": 2,
+   "explanation": "くらい = [暗|くら]い (dark).",
+   "item_slugs": [
+    "vocab-n5-kurai"
+   ]
+  },
+  {
+   "slug": "mock-n4-1-10",
+   "mock_test_slug": "mock-n4-1",
+   "position": 10,
+   "jlpt_level": "N4",
+   "section": "vocabulary",
+   "part": "問題2 表記 · Writing in kanji",
+   "prompt": "[駅|えき]で[友達|ともだち]を[三|さん][十分|じゅっぷん]{{まちました}}。",
+   "options": [
+    "[持|も]ちました",
+    "[特|とく]ちました",
+    "[侍|さむらい]ちました",
+    "[待|ま]ちました"
+   ],
+   "answer": 3,
+   "explanation": "まつ = [待|ま]つ (wait). [持|も]つ = hold.",
+   "item_slugs": [
+    "word-matsu"
+   ]
+  },
+  {
+   "slug": "mock-n4-1-11",
+   "mock_test_slug": "mock-n4-1",
+   "position": 11,
+   "jlpt_level": "N4",
+   "section": "vocabulary",
+   "part": "問題2 表記 · Writing in kanji",
+   "prompt": "[電車|でんしゃ]の{{じかん}}を[調|しら]べます。",
+   "options": [
+    "[時間|じかん]",
+    "[時|とき]聞",
+    "[持|じ][間|あいだ]",
+    "[時|とき][問|とい]"
+   ],
+   "answer": 0,
+   "explanation": "じかん = [時間|じかん] (time).",
+   "item_slugs": [
+    "word-jikan"
+   ]
+  },
+  {
+   "slug": "mock-n4-1-12",
+   "mock_test_slug": "mock-n4-1",
+   "position": 12,
+   "jlpt_level": "N4",
+   "section": "vocabulary",
+   "part": "問題3 文脈規定 · Word in context",
+   "prompt": "[図書館|としょかん]で[本|ほん]を[二|に][冊|さつ]（　）。",
+   "options": [
+    "かしました",
+    "かりました",
+    "うりました",
+    "おりました"
+   ],
+   "answer": 1,
+   "explanation": "You borrow (かりる) books from a library.",
+   "item_slugs": [
+    "vocab-n5-kariru"
+   ]
+  },
+  {
+   "slug": "mock-n4-1-13",
+   "mock_test_slug": "mock-n4-1",
+   "position": 13,
+   "jlpt_level": "N4",
+   "section": "vocabulary",
+   "part": "問題3 文脈規定 · Word in context",
+   "prompt": "[雨|あめ]が[降|ふ]りそうなので、（　）を[持|も]って[行|い]きます。",
+   "options": [
+    "さいふ",
+    "めがね",
+    "かさ",
+    "かばん"
+   ],
+   "answer": 2,
+   "explanation": "It looks like rain, so take an umbrella (かさ).",
+   "item_slugs": [
+    "word-kasa"
+   ]
+  },
+  {
+   "slug": "mock-n4-1-14",
+   "mock_test_slug": "mock-n4-1",
+   "position": 14,
+   "jlpt_level": "N4",
+   "section": "vocabulary",
+   "part": "問題3 文脈規定 · Word in context",
+   "prompt": "[道|みち]が（　）いたので、[遅|おそ]くなりました。",
+   "options": [
+    "こんで",
+    "すいて",
+    "ひらいて",
+    "あいて"
+   ],
+   "answer": 0,
+   "explanation": "[道|みち]がこんでいた = the roads were busy, so you were late.",
+   "item_slugs": [
+    "vocab-n4-komu"
+   ]
+  },
+  {
+   "slug": "mock-n4-1-15",
+   "mock_test_slug": "mock-n4-1",
+   "position": 15,
+   "jlpt_level": "N4",
+   "section": "vocabulary",
+   "part": "問題3 文脈規定 · Word in context",
+   "prompt": "[友達|ともだち]の[誕生日|たんじょうび]に（　）を[送|おく]りました。",
+   "options": [
+    "レポート",
+    "プレゼント",
+    "パスポート",
+    "スケジュール"
+   ],
+   "answer": 1,
+   "explanation": "You send a present (プレゼント) for a birthday.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n4-1-16",
+   "mock_test_slug": "mock-n4-1",
+   "position": 16,
+   "jlpt_level": "N4",
+   "section": "vocabulary",
+   "part": "問題3 文脈規定 · Word in context",
+   "prompt": "[先生|せんせい]の[話|はなし]を（　）[聞|き]いてください。",
+   "options": [
+    "はやく",
+    "たかく",
+    "よく",
+    "おおきく"
+   ],
+   "answer": 2,
+   "explanation": "よく[聞|き]く = listen carefully.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n4-1-17",
+   "mock_test_slug": "mock-n4-1",
+   "position": 17,
+   "jlpt_level": "N4",
+   "section": "vocabulary",
+   "part": "問題4 言いかえ類義 · Same meaning",
+   "prompt": "[山田|やまだ]さんは[先月|せんげつ][会社|かいしゃ]をやめました。",
+   "options": [
+    "[山田|やまだ]さんは[今|いま]その[会社|かいしゃ]で[働|はたら]いていません。",
+    "[山田|やまだ]さんは[毎日|まいにち]その[会社|かいしゃ]へ[行|い]っています。",
+    "[山田|やまだ]さんは[先月|せんげつ]その[会社|かいしゃ]に[入|はい]りました。",
+    "[山田|やまだ]さんは[今日|きょう][会社|かいしゃ]を[休|やす]んでいます。"
+   ],
+   "answer": 0,
+   "explanation": "やめる (quit) = no longer works there.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n4-1-18",
+   "mock_test_slug": "mock-n4-1",
+   "position": 18,
+   "jlpt_level": "N4",
+   "section": "vocabulary",
+   "part": "問題4 言いかえ類義 · Same meaning",
+   "prompt": "この[道|みち]は[車|くるま]が[多|おお]いです。",
+   "options": [
+    "この[道|みち]は[車|くるま]があまり[通|とお]りません。",
+    "この[道|みち]は[車|くるま]がたくさん[通|とお]ります。",
+    "この[道|みち]はとても[広|ひろ]いです。",
+    "この[道|みち]はとてもせまいです。"
+   ],
+   "answer": 1,
+   "explanation": "[車|くるま]が[多|おお]い = many cars pass (たくさん[通|とお]る).",
+   "item_slugs": [
+    "vocab-n4-tooru"
+   ]
+  },
+  {
+   "slug": "mock-n4-1-19",
+   "mock_test_slug": "mock-n4-1",
+   "position": 19,
+   "jlpt_level": "N4",
+   "section": "vocabulary",
+   "part": "問題4 言いかえ類義 · Same meaning",
+   "prompt": "スミスさんは[日本語|にほんご]が[上手|じょうず]になりました。",
+   "options": [
+    "スミスさんは[前|まえ]から[日本語|にほんご]が[上手|じょうず]です。",
+    "スミスさんは[日本語|にほんご]を[習|なら]い[始|はじ]めました。",
+    "スミスさんは[前|まえ]より[日本語|にほんご]が[上手|じょうず]です。",
+    "スミスさんは[日本語|にほんご]が[下手|へた]です。"
+   ],
+   "answer": 2,
+   "explanation": "[上手|じょうず]になった = got better than before ([前|まえ]より[上手|じょうず]).",
+   "item_slugs": [
+    "vocab-n5-jouzu"
+   ]
+  },
+  {
+   "slug": "mock-n4-1-20",
+   "mock_test_slug": "mock-n4-1",
+   "position": 20,
+   "jlpt_level": "N4",
+   "section": "vocabulary",
+   "part": "問題5 用法 · Correct usage",
+   "prompt": "しんせつ",
+   "options": [
+    "このりんごはとてもしんせつです。",
+    "[今日|きょう]はしんせつな[天気|てんき]です。",
+    "この[店|みせ]の[人|ひと]はとてもしんせつです。",
+    "この[部屋|へや]はとてもしんせつです。"
+   ],
+   "answer": 2,
+   "explanation": "しんせつ (kind) describes people.",
+   "item_slugs": [
+    "vocab-n4-shinsetsu"
+   ]
+  },
+  {
+   "slug": "mock-n4-1-21",
+   "mock_test_slug": "mock-n4-1",
+   "position": 21,
+   "jlpt_level": "N4",
+   "section": "vocabulary",
+   "part": "問題5 用法 · Correct usage",
+   "prompt": "おくれる",
+   "options": [
+    "[時計|とけい]をおくれてください。",
+    "バスが[十分|じゅっぷん]おくれて[来|き]ました。",
+    "この[本|ほん]はおくれて[面白|おもしろ]いです。",
+    "[宿題|しゅくだい]を[先生|せんせい]におくれました。"
+   ],
+   "answer": 1,
+   "explanation": "おくれる = be late: バスが[十分|じゅっぷん]おくれた.",
+   "item_slugs": [
+    "vocab-n4-okureru"
+   ]
+  },
+  {
+   "slug": "mock-n4-1-22",
+   "mock_test_slug": "mock-n4-1",
+   "position": 22,
+   "jlpt_level": "N4",
+   "section": "grammar",
+   "part": "問題1 文の文法 · Sentence grammar",
+   "prompt": "[日本語|にほんご]が[少|すこ]し[話|はな]せる（　）なりました。",
+   "options": [
+    "ように",
+    "ために",
+    "ことに",
+    "そうに"
+   ],
+   "answer": 0,
+   "explanation": "Potential + ようになる = have become able to.",
+   "item_slugs": [
+    "grammar-n4-you-ni-naru"
+   ]
+  },
+  {
+   "slug": "mock-n4-1-23",
+   "mock_test_slug": "mock-n4-1",
+   "position": 23,
+   "jlpt_level": "N4",
+   "section": "grammar",
+   "part": "問題1 文の文法 · Sentence grammar",
+   "prompt": "[雨|あめ]が[降|ふ]り（　）ですね。[傘|かさ]を[持|も]って[行|い]きましょう。",
+   "options": [
+    "よう",
+    "そう",
+    "らしい",
+    "みたい"
+   ],
+   "answer": 1,
+   "explanation": "ます-stem + そう = looks about to: [降|お]りそう.",
+   "item_slugs": [
+    "grammar-n4-sou"
+   ]
+  },
+  {
+   "slug": "mock-n4-1-24",
+   "mock_test_slug": "mock-n4-1",
+   "position": 24,
+   "jlpt_level": "N4",
+   "section": "grammar",
+   "part": "問題1 文の文法 · Sentence grammar",
+   "prompt": "この[本|ほん]は[難|むずか]し（　）、わかりません。",
+   "options": [
+    "すぎて",
+    "すぎる",
+    "すぎた",
+    "すぎ"
+   ],
+   "answer": 0,
+   "explanation": "[難|むずか]しすぎて = too difficult, so…; て links to the result.",
+   "item_slugs": [
+    "grammar-n4-sugiru"
+   ]
+  },
+  {
+   "slug": "mock-n4-1-25",
+   "mock_test_slug": "mock-n4-1",
+   "position": 25,
+   "jlpt_level": "N4",
+   "section": "grammar",
+   "part": "問題1 文の文法 · Sentence grammar",
+   "prompt": "[駅|えき]に[着|つ]い（　）、[電話|でんわ]してください。",
+   "options": [
+    "ても",
+    "たら",
+    "ては",
+    "ながら"
+   ],
+   "answer": 1,
+   "explanation": "[着|つ]いたら = once you arrive.",
+   "item_slugs": [
+    "grammar-n4-tara"
+   ]
+  },
+  {
+   "slug": "mock-n4-1-26",
+   "mock_test_slug": "mock-n4-1",
+   "position": 26,
+   "jlpt_level": "N4",
+   "section": "grammar",
+   "part": "問題1 文の文法 · Sentence grammar",
+   "prompt": "たくさん[勉強|べんきょう]した（　）、テストはよくありませんでした。",
+   "options": [
+    "ので",
+    "から",
+    "のに",
+    "ために"
+   ],
+   "answer": 2,
+   "explanation": "のに = even though (an unexpected result).",
+   "item_slugs": [
+    "grammar-n4-noni"
+   ]
+  },
+  {
+   "slug": "mock-n4-1-27",
+   "mock_test_slug": "mock-n4-1",
+   "position": 27,
+   "jlpt_level": "N4",
+   "section": "grammar",
+   "part": "問題1 文の文法 · Sentence grammar",
+   "prompt": "[先生|せんせい]（　）[作文|さくぶん]を[直|なお]してもらいました。",
+   "options": [
+    "に",
+    "が",
+    "を",
+    "で"
+   ],
+   "answer": 0,
+   "explanation": "The helper takes に with 〜てもらう.",
+   "item_slugs": [
+    "grammar-n4-te-morau"
+   ]
+  },
+  {
+   "slug": "mock-n4-1-28",
+   "mock_test_slug": "mock-n4-1",
+   "position": 28,
+   "jlpt_level": "N4",
+   "section": "grammar",
+   "part": "問題1 文の文法 · Sentence grammar",
+   "prompt": "[明日|あした]は[雪|ゆき]が[降|ふ]る（　）しれません。",
+   "options": [
+    "でも",
+    "しか",
+    "ほど",
+    "かも"
+   ],
+   "answer": 3,
+   "explanation": "かもしれません = might.",
+   "item_slugs": [
+    "grammar-n4-kamoshirenai"
+   ]
+  },
+  {
+   "slug": "mock-n4-1-29",
+   "mock_test_slug": "mock-n4-1",
+   "position": 29,
+   "jlpt_level": "N4",
+   "section": "grammar",
+   "part": "問題1 文の文法 · Sentence grammar",
+   "prompt": "[寝|ね]る（　）、[歯|は]をみがきます。",
+   "options": [
+    "[前|まえ]に",
+    "[後|あと]で",
+    "ながら",
+    "ために"
+   ],
+   "answer": 0,
+   "explanation": "Dictionary form + [前|まえ]に = before doing. ([後|あと]で needs the た-form.)",
+   "item_slugs": [
+    "grammar-n4-mae-ato"
+   ]
+  },
+  {
+   "slug": "mock-n4-1-30",
+   "mock_test_slug": "mock-n4-1",
+   "position": 30,
+   "jlpt_level": "N4",
+   "section": "grammar",
+   "part": "問題1 文の文法 · Sentence grammar",
+   "prompt": "[電車|でんしゃ]の[中|なか]で[足|あし]をふま（　）。",
+   "options": [
+    "れました",
+    "せました",
+    "させました",
+    "られました"
+   ],
+   "answer": 0,
+   "explanation": "Passive of ふむ: ふまれる → ふまれました (someone stepped on my foot).",
+   "item_slugs": [
+    "grammar-n4-passive"
+   ]
+  },
+  {
+   "slug": "mock-n4-1-31",
+   "mock_test_slug": "mock-n4-1",
+   "position": 31,
+   "jlpt_level": "N4",
+   "section": "grammar",
+   "part": "問題2 文の組み立て · Sentence order (★)",
+   "prompt": "[私|わたし]は ＿＿ ＿＿ ★ ＿＿ [思|おも]っています。",
+   "options": [
+    "と",
+    "[大学|だいがく]に",
+    "[入|はい]ろう",
+    "[日本|にほん]の"
+   ],
+   "answer": 2,
+   "explanation": "[私|わたし]は [日本|にほん]の [大学|だいがく]に [入|はい]ろう と [思|おも]っています. ★ is the third word: [入|はい]ろう.",
+   "item_slugs": [
+    "grammar-n4-volitional"
+   ]
+  },
+  {
+   "slug": "mock-n4-1-32",
+   "mock_test_slug": "mock-n4-1",
+   "position": 32,
+   "jlpt_level": "N4",
+   "section": "grammar",
+   "part": "問題2 文の組み立て · Sentence order (★)",
+   "prompt": "すみません、＿＿ ＿＿ ★ ＿＿ か。",
+   "options": [
+    "[着|き]て",
+    "この",
+    "みてもいいです",
+    "[服|ふく]を"
+   ],
+   "answer": 0,
+   "explanation": "すみません、この [服|ふく]を [着|き]て みてもいいです か. ★ is the third word: [着|き]て.",
+   "item_slugs": [
+    "grammar-n4-te-miru"
+   ]
+  },
+  {
+   "slug": "mock-n4-1-33",
+   "mock_test_slug": "mock-n4-1",
+   "position": 33,
+   "jlpt_level": "N4",
+   "section": "grammar",
+   "part": "問題3 文章の文法 · Text grammar",
+   "passage": "　[日本|にほん]に[来|き]て、[半年|はんとし]になりました。[来|き]たときは、[日本語|にほんご]がぜんぜん[話|はな]せませんでした。　1　、[今|いま]は[買|か]い[物|もの]や[駅|えき]で[困|こま]ることがありません。[先週|せんしゅう]は[初|はじ]めて[一人|ひとり]で[病院|びょういん]へ[行|い]きました。[医者|いしゃ]の[話|はなし]がよくわかったので、とてもうれしかったです。これからも[毎日|まいにち][日本語|にほんご]を　2　と[思|おも]います。",
+   "prompt": "　1　に[何|なに]を[入|い]れますか。",
+   "options": [
+    "それで",
+    "でも",
+    "それから",
+    "たとえば"
+   ],
+   "answer": 1,
+   "explanation": "Couldn't speak at first, but (でも) now has no trouble: a contrast.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n4-1-34",
+   "mock_test_slug": "mock-n4-1",
+   "position": 34,
+   "jlpt_level": "N4",
+   "section": "grammar",
+   "part": "問題3 文章の文法 · Text grammar",
+   "passage": "　[日本|にほん]に[来|き]て、[半年|はんとし]になりました。[来|き]たときは、[日本語|にほんご]がぜんぜん[話|はな]せませんでした。　1　、[今|いま]は[買|か]い[物|もの]や[駅|えき]で[困|こま]ることがありません。[先週|せんしゅう]は[初|はじ]めて[一人|ひとり]で[病院|びょういん]へ[行|い]きました。[医者|いしゃ]の[話|はなし]がよくわかったので、とてもうれしかったです。これからも[毎日|まいにち][日本語|にほんご]を　2　と[思|おも]います。",
+   "prompt": "　2　に[何|なに]を[入|い]れますか。",
+   "options": [
+    "[勉強|べんきょう]した",
+    "[勉強|べんきょう]して",
+    "[勉強|べんきょう]しよう",
+    "[勉強|べんきょう]しない"
+   ],
+   "answer": 2,
+   "explanation": "Volitional + と[思|おも]います = I intend to keep studying.",
+   "item_slugs": [
+    "grammar-n4-volitional"
+   ]
+  },
+  {
+   "slug": "mock-n4-1-35",
+   "mock_test_slug": "mock-n4-1",
+   "position": 35,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "part": "問題4 内容理解（短文） · Short passage",
+   "passage": "マリアさんへ\n\n[明日|あした]のパーティーのことですが、[場所|ばしょ]が[変|か]わりました。[駅前|えきまえ]のレストランではなく、[私|わたし]の[家|いえ]でします。[時間|じかん]は[同|おな]じで、[六|ろく][時|じ]からです。[飲|の]み[物|もの]は[私|わたし]が[用意|ようい]しておきますから、[何|なに]も[持|も]って[来|こ]なくていいですよ。\n\n[田中|たなか]",
+   "prompt": "マリアさんは[明日|あした]どこへ[行|い]きますか。",
+   "options": [
+    "[駅前|えきまえ]のレストラン",
+    "[田中|たなか]さんの[家|いえ]",
+    "[駅|えき]",
+    "[飲|の]み[物|もの]を[買|か]いに[店|みせ]へ"
+   ],
+   "answer": 1,
+   "explanation": "[駅前|えきまえ]のレストランではなく、[私|わたし]（[田中|たなか]）の[家|いえ]でします.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n4-1-36",
+   "mock_test_slug": "mock-n4-1",
+   "position": 36,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "part": "問題4 内容理解（短文） · Short passage",
+   "passage": "[私|わたし]は[毎朝|まいあさ][電車|でんしゃ]で[会社|かいしゃ]へ[行|い]きます。[前|まえ]はバスで[行|おこな]っていましたが、[道|みち]がよく[込|こ]むので、[去年|きょねん]から[電車|でんしゃ]にしました。[電車|でんしゃ]はバスより[少|すこ]し[高|たか]いですが、[時間|じかん]がかからないので、[便利|べんり]です。",
+   "prompt": "どうして[電車|でんしゃ]で[行|い]くようになりましたか。",
+   "options": [
+    "[電車|でんしゃ]のほうが[安|やす]いから",
+    "バスの[道|みち]がよく[込|こ]むから",
+    "[会社|かいしゃ]が[駅|えき]の[前|まえ]にあるから",
+    "バスがなくなったから"
+   ],
+   "answer": 1,
+   "explanation": "[道|みち]がよく[込|こ]むので、[去年|きょねん]から[電車|でんしゃ]にしました.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n4-1-37",
+   "mock_test_slug": "mock-n4-1",
+   "position": 37,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "part": "問題5 内容理解（中文） · Mid-length passage",
+   "passage": "[初|はじ]めてのアルバイト\n\n　[私|わたし]は[先月|せんげつ]から、[駅|えき]の[近|ちか]くのパン[屋|や]でアルバイトをしています。[週|しゅう]に[三|さん][回|かい]、[朝|あさ][七時|しちじ]から[十|じゅう][一時|いちじ]まで[働|はたら]きます。[朝|あさ]はお[客|きゃく]さんが[多|おお]いので、とても[忙|いそが]しいです。\n　[初|はじ]めは、パンの[名前|なまえ]がなかなか[覚|おぼ]えられませんでした。それで、[店長|てんちょう]にパンの[写真|しゃしん]をとらせてもらって、[家|いえ]で[毎日|まいにち][見|み]ました。[今|いま]は[全部|ぜんぶ][覚|おぼ]えたので、お[客|きゃく]さんに[聞|き]かれても、すぐ[答|こた]えられます。\n　[店長|てんちょう]は「よくがんばったね」と[言|い]って、[新|あたら]しいパンを[一|ひと]つくれました。とてもうれしかったです。",
+   "prompt": "[朝|あさ]のアルバイトはどうして[忙|いそが]しいですか。",
+   "options": [
+    "パンを[作|つく]るから",
+    "お[客|きゃく]さんが[多|おお]いから",
+    "[店長|てんちょう]がいないから",
+    "[七時|しちじ]に[起|お]きるから"
+   ],
+   "answer": 1,
+   "explanation": "[朝|あさ]はお[客|きゃく]さんが[多|おお]いので、とても[忙|いそが]しいです.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n4-1-38",
+   "mock_test_slug": "mock-n4-1",
+   "position": 38,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "part": "問題5 内容理解（中文） · Mid-length passage",
+   "passage": "[初|はじ]めてのアルバイト\n\n　[私|わたし]は[先月|せんげつ]から、[駅|えき]の[近|ちか]くのパン[屋|や]でアルバイトをしています。[週|しゅう]に[三|さん][回|かい]、[朝|あさ][七時|しちじ]から[十|じゅう][一時|いちじ]まで[働|はたら]きます。[朝|あさ]はお[客|きゃく]さんが[多|おお]いので、とても[忙|いそが]しいです。\n　[初|はじ]めは、パンの[名前|なまえ]がなかなか[覚|おぼ]えられませんでした。それで、[店長|てんちょう]にパンの[写真|しゃしん]をとらせてもらって、[家|いえ]で[毎日|まいにち][見|み]ました。[今|いま]は[全部|ぜんぶ][覚|おぼ]えたので、お[客|きゃく]さんに[聞|き]かれても、すぐ[答|こた]えられます。\n　[店長|てんちょう]は「よくがんばったね」と[言|い]って、[新|あたら]しいパンを[一|ひと]つくれました。とてもうれしかったです。",
+   "prompt": "パンの[名前|なまえ]を[覚|おぼ]えるために、[何|なに]をしましたか。",
+   "options": [
+    "[店長|てんちょう]に[名前|なまえ]を[書|か]いてもらった",
+    "[毎日|まいにち]パンを[食|た]べた",
+    "お[客|きゃく]さんに[聞|き]いた",
+    "パンの[写真|しゃしん]を[家|いえ]で[毎日|まいにち][見|み]た"
+   ],
+   "answer": 3,
+   "explanation": "[店長|てんちょう]にパンの[写真|しゃしん]をとらせてもらって、[家|いえ]で[毎日|まいにち][見|み]ました.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n4-1-39",
+   "mock_test_slug": "mock-n4-1",
+   "position": 39,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "part": "問題6 情報検索 · Finding information",
+   "passage": "[市民|しみん]プール　ご[利用|りよう][案内|あんない]\n\n・[開|ひら]いている[時間|じかん]：[午前|ごぜん]9[時|じ]～[午後|ごご]9[時|じ]（[月曜日|げつようび]は[休|やす]み）\n・[料金|りょうきん]：[大人|おとな]500[円|えん]、[子|こ]ども（[中学生|ちゅうがくせい]まで）200[円|えん]\n・[午後|ごご]5[時|じ]からは、[大人|おとな]も300[円|えん]です。\n・[水泳|すいえい]ぼうしをかぶらなければなりません。（[受付|うけつけ]で100[円|えん]で[買|か]えます）",
+   "prompt": "[高校生|こうこうせい]のリンさんは、[水曜日|すいようび]の[午後|ごご]6[時|じ]にプールへ[行|い]きます。ぼうしを[持|も]っていません。[全部|ぜんぶ]でいくら[払|はら]いますか。",
+   "options": [
+    "200[円|えん]",
+    "300[円|えん]",
+    "400[円|えん]",
+    "600[円|えん]"
+   ],
+   "answer": 2,
+   "explanation": "A high-school student pays the adult price; after 5 p.m. that's 300[円|えん], plus a 100[円|えん] cap = 400[円|えん].",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n4-1-40",
+   "mock_test_slug": "mock-n4-1",
+   "position": 40,
+   "jlpt_level": "N4",
+   "section": "listening",
+   "part": "問題1 課題理解 · Task",
+   "passage": "[会社|かいしゃ]で[男|おとこ]の[人|ひと]と[女|おんな]の[人|ひと]が[話|はな]しています。[女|おんな]の[人|ひと]はこのあと[何|なに]をしますか。\n[男|おとこ]：[会議|かいぎ]の[資料|しりょう]、もうコピーしましたか。\n[女|おんな]：はい、[二|に][十|じゅう][部|ぶ]コピーしました。\n[男|おとこ]：ありがとう。じゃあ、[会議室|かいぎしつ]にいすを[並|なら]べておいてもらえますか。\n[女|おんな]：わかりました。[飲|の]み[物|もの]はどうしますか。\n[男|おとこ]：それは[私|わたし]が[買|か]って[来|き]ます。\n[女|おんな]の[人|ひと]はこのあと[何|なに]をしますか。",
+   "prompt": "[女|おんな]の[人|ひと]はこのあと[何|なに]をしますか。",
+   "options": [
+    "[資料|しりょう]をコピーする",
+    "いすを[並|なら]べる",
+    "[飲|の]み[物|もの]を[買|か]う",
+    "[会議|かいぎ]に[出|で]る"
+   ],
+   "answer": 1,
+   "explanation": "The copies are done; he asks her to set out chairs. He'll buy the drinks.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n4-1-41",
+   "mock_test_slug": "mock-n4-1",
+   "position": 41,
+   "jlpt_level": "N4",
+   "section": "listening",
+   "part": "問題1 課題理解 · Task",
+   "passage": "[女|おんな]の[人|ひと]と[男|おとこ]の[人|ひと]が[話|はな]しています。[男|おとこ]の[人|ひと]は[何|なに]を[持|も]って[行|い]きますか。\n[女|おんな]：[明日|あした]のハイキング、お[弁当|べんとう]は[私|わたし]が[作|つく]るね。\n[男|おとこ]：ありがとう。じゃあ、ぼくは[飲|の]み[物|もの]を[持|も]って[行|い]くよ。\n[女|おんな]：[飲|の]み[物|もの]は[山|やま]の[上|うえ]の[店|みせ]で[買|か]えるから、いらないよ。それより、[雨|あめ]が[降|ふ]るかもしれないから、かさをお[願|ねが]い。\n[男|おとこ]：わかった。\n[男|おとこ]の[人|ひと]は[何|なに]を[持|も]って[行|い]きますか。",
+   "prompt": "[男|おとこ]の[人|ひと]は[何|なに]を[持|も]って[行|い]きますか。",
+   "options": [
+    "お[弁当|べんとう]",
+    "[飲|の]み[物|もの]",
+    "かさ",
+    "[何|なに]も[持|も]って[行|い]かない"
+   ],
+   "answer": 2,
+   "explanation": "Drinks can be bought on the mountain, so he brings umbrellas.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n4-1-42",
+   "mock_test_slug": "mock-n4-1",
+   "position": 42,
+   "jlpt_level": "N4",
+   "section": "listening",
+   "part": "問題1 課題理解 · Task",
+   "passage": "[先生|せんせい]が[学生|がくせい]に[話|はな]しています。[学生|がくせい]は[金曜日|きんようび]までに[何|なに]をしなければなりませんか。\n[先生|せんせい]：[来週|らいしゅう]の[月曜日|げつようび]はテストです。テストの[前|まえ]に、[教科書|きょうかしょ]の[三|さん][課|か]を[読|よ]んでおいてください。それから、[作文|さくぶん]は[今週|こんしゅう]の[金曜日|きんようび]までに[出|だ]してください。\n[学生|がくせい]は[金曜日|きんようび]までに[何|なに]をしなければなりませんか。",
+   "prompt": "[学生|がくせい]は[金曜日|きんようび]までに[何|なに]をしなければなりませんか。",
+   "options": [
+    "[作文|さくぶん]を[出|だ]す",
+    "[三|さん][課|か]を[読|よ]む",
+    "テストを[受|う]ける",
+    "[教科書|きょうかしょ]を[買|か]う"
+   ],
+   "answer": 0,
+   "explanation": "[作文|さくぶん]は[今週|こんしゅう]の[金曜日|きんようび]までに[出|だ]してください. Chapter 3 is for before Monday's test.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n4-1-43",
+   "mock_test_slug": "mock-n4-1",
+   "position": 43,
+   "jlpt_level": "N4",
+   "section": "listening",
+   "part": "問題2 ポイント理解 · Key point",
+   "passage": "[男|おとこ]の[人|ひと]と[女|おんな]の[人|ひと]が[話|はな]しています。[女|おんな]の[人|ひと]はどうして[引|ひ]っ[越|こ]しますか。\n[男|おとこ]：[引|ひ]っ[越|こ]すんですか。[今|いま]のアパート、[駅|えき]から[近|ちか]くて[便利|べんり]でしょう。\n[女|おんな]：ええ、[便利|べんり]なんですけど、[部屋|へや]がせまいんです。[来月|らいげつ][妹|いもうと]が[東京|とうきょう]に[来|き]て、[一緒|いっしょ]に[住|す]むので、もっと[広|ひろ]い[部屋|へや]にしたいんです。\n[男|おとこ]：そうですか。\n[女|おんな]の[人|ひと]はどうして[引|ひ]っ[越|こ]しますか。",
+   "prompt": "[女|おんな]の[人|ひと]はどうして[引|ひ]っ[越|こ]しますか。",
+   "options": [
+    "[駅|えき]から[遠|とお]いから",
+    "[家賃|やちん]が[高|たか]いから",
+    "[妹|いもうと]と[一緒|いっしょ]に[住|す]むから",
+    "[会社|かいしゃ]が[変|か]わったから"
+   ],
+   "answer": 2,
+   "explanation": "Her sister is coming to live with her, so she wants a bigger room.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n4-1-44",
+   "mock_test_slug": "mock-n4-1",
+   "position": 44,
+   "jlpt_level": "N4",
+   "section": "listening",
+   "part": "問題2 ポイント理解 · Key point",
+   "passage": "[女|おんな]の[人|ひと]と[男|おとこ]の[人|ひと]が[話|はな]しています。[男|おとこ]の[人|ひと]は[昨日|きのう][何|なん][時間|じかん][寝|ね]ましたか。\n[女|おんな]：[眠|ねむ]そうですね。\n[男|おとこ]：ええ、[昨日|きのう]はレポートを[書|か]いていて、[寝|ね]たのは[三|さん][時|じ]でした。\n[女|おんな]：[何|なん][時|じ]に[起|お]きたんですか。\n[男|おとこ]：[七時|しちじ]です。\n[男|おとこ]の[人|ひと]は[昨日|きのう][何|なん][時間|じかん][寝|ね]ましたか。",
+   "prompt": "[男|おとこ]の[人|ひと]は[昨日|きのう][何|なん][時間|じかん][寝|ね]ましたか。",
+   "options": [
+    "[三|さん][時間|じかん]",
+    "[四時間|よじかん]",
+    "[七|しち][時間|じかん]",
+    "[十|じゅう][時間|じかん]"
+   ],
+   "answer": 1,
+   "explanation": "Slept at 3, got up at 7: four hours.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n4-1-45",
+   "mock_test_slug": "mock-n4-1",
+   "position": 45,
+   "jlpt_level": "N4",
+   "section": "listening",
+   "part": "問題2 ポイント理解 · Key point",
+   "passage": "[男|おとこ]の[人|ひと]と[女|おんな]の[人|ひと]が[話|はな]しています。[二人|ふたり]は[何|なん]で[空港|くうこう]へ[行|い]きますか。\n[男|おとこ]：[空港|くうこう]までタクシーで[行|い]こうか。\n[女|おんな]：タクシーは[高|たか]いよ。[電車|でんしゃ]はどう？\n[男|おとこ]：[電車|でんしゃ]は[乗|の]りかえが[多|おお]くて[大変|たいへん]だよ。[荷物|にもつ]も[重|おも]いし。\n[女|おんな]：じゃあ、[空港|くうこう]バスは？ホテルの[前|まえ]から[出|で]るよ。\n[男|おとこ]：いいね。そうしよう。\n[二人|ふたり]は[何|なん]で[空港|くうこう]へ[行|い]きますか。",
+   "prompt": "[二人|ふたり]は[何|なん]で[空港|くうこう]へ[行|い]きますか。",
+   "options": [
+    "[電車|でんしゃ]",
+    "バス",
+    "タクシー",
+    "[車|くるま]"
+   ],
+   "answer": 1,
+   "explanation": "Taxi is expensive, the train has too many changes, so the airport bus.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n4-1-46",
+   "mock_test_slug": "mock-n4-1",
+   "position": 46,
+   "jlpt_level": "N4",
+   "section": "listening",
+   "part": "問題3 発話表現 · What do you say?",
+   "passage": "[友達|ともだち]の[家|いえ]で、もう[帰|かえ]る[時間|じかん]になりました。[何|なん]と[言|い]いますか。",
+   "prompt": "[何|なん]と[言|い]いますか。",
+   "options": [
+    "いってきます",
+    "おじゃまします",
+    "そろそろ[失礼|しつれい]します",
+    "いただきます"
+   ],
+   "answer": 2,
+   "explanation": "When leaving someone's home: そろそろ[失礼|しつれい]します.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n4-1-47",
+   "mock_test_slug": "mock-n4-1",
+   "position": 47,
+   "jlpt_level": "N4",
+   "section": "listening",
+   "part": "問題3 発話表現 · What do you say?",
+   "passage": "[先生|せんせい]の[部屋|へや]に[入|はい]ります。[何|なん]と[言|い]いますか。",
+   "prompt": "[何|なん]と[言|い]いますか。",
+   "options": [
+    "[失礼|しつれい]します",
+    "ただいま",
+    "お[先|さき]に",
+    "いってらっしゃい"
+   ],
+   "answer": 0,
+   "explanation": "Entering a teacher's or boss's room: [失礼|しつれい]します.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n4-1-48",
+   "mock_test_slug": "mock-n4-1",
+   "position": 48,
+   "jlpt_level": "N4",
+   "section": "listening",
+   "part": "問題4 即時応答 · Quick response",
+   "passage": "[男|おとこ]：この[荷物|にもつ]、[運|はこ]んでもらえませんか。",
+   "prompt": "[何|なん]と[答|こた]えますか。",
+   "options": [
+    "はい、[運|はこ]びました。",
+    "ええ、いいですよ。",
+    "いいえ、もらいません。",
+    "どうぞ、[運|はこ]んでください。"
+   ],
+   "answer": 1,
+   "explanation": "A request for help: accept with ええ、いいですよ.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n4-1-49",
+   "mock_test_slug": "mock-n4-1",
+   "position": 49,
+   "jlpt_level": "N4",
+   "section": "listening",
+   "part": "問題4 即時応答 · Quick response",
+   "passage": "[女|おんな]：[日曜日|にちようび]、[一緒|いっしょ]に[映画|えいが]を[見|み]に[行|い]きませんか。",
+   "prompt": "[何|なん]と[答|こた]えますか。",
+   "options": [
+    "はい、[見|み]ました。",
+    "いいえ、[行|い]きました。",
+    "どうもありがとう。",
+    "ええ、ぜひ。"
+   ],
+   "answer": 3,
+   "explanation": "An invitation: ええ、ぜひ (yes, I'd love to).",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n4-1-50",
+   "mock_test_slug": "mock-n4-1",
+   "position": 50,
+   "jlpt_level": "N4",
+   "section": "listening",
+   "part": "問題4 即時応答 · Quick response",
+   "passage": "[男|おとこ]：お[先|さき]に[失礼|しつれい]します。",
+   "prompt": "[何|なん]と[答|こた]えますか。",
+   "options": [
+    "お[疲|つか]れさまでした。",
+    "いただきます。",
+    "おかえりなさい。",
+    "はじめまして。"
+   ],
+   "answer": 0,
+   "explanation": "When a colleague leaves first: お[疲|つか]れさまでした.",
+   "item_slugs": []
+  }
+ ]
+}

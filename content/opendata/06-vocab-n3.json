@@ -6223,20 +6223,6 @@
    "mnemonic": "運 carry: 辶 + 車 car + 冖 cover"
   },
   {
-   "slug": "vocab-n3-unten",
-   "type": "word",
-   "term": "運転",
-   "meaning": "operation, driving",
-   "skill": "vocabulary",
-   "tags": [
-    "jlpt-verified"
-   ],
-   "jlpt_level": "N3",
-   "reading": "うんてん",
-   "romaji": "unten",
-   "mnemonic": "運 carry + 転 revolve"
-  },
-  {
    "slug": "vocab-n3-e",
    "type": "word",
    "term": "柄",

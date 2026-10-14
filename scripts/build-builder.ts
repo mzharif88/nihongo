@@ -91,7 +91,7 @@ async function main() {
           also: (ex.also ?? []).map(plainOf),
         };
       });
-      return { ...base, ...pattern, position: position + 1, examples };
+      return { ...base, ...pattern, position: (pattern.position as number | undefined) ?? position + 1, examples };
     });
     const out = { version: doc.version, kind: doc.kind, source: doc.source, records };
     const parsed = parseImport(out);

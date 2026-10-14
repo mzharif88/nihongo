@@ -18,6 +18,7 @@ This is a fresh build. The old NihonGo! app (React + Vite) lives on the
 | Content | Old NihonGo! content (`content/legacy`) plus N5–N2 kanji and vocabulary from open data (`content/opendata`, ~6,300 items); `/attributions` credits the sources |
 | SRS | `/study`: every due review (no cap) then the next 10 new items, with "Keep going" for more and no daily limit; `/study?topic=…` studies one topic (resumes where you left off, since every answer is saved); all cards multiple choice; furigana over kanji everywhere (hidden only when the reading is the answer); XP and streaks |
 | Home | Study everything, Continue (last topic), and a topic grid (scripts, kanji and words by level, word topics) with progress and due counts; pace card shows the exam-date target as a guide only; `/settings` for level, exam date, goal and timezone |
+| N4 | 24 original N4 grammar points (`content/grammar`), 6 N4 lessons (clinic, travel plans, part-time job rules, moving house, casual weekend chat, directions), 8 N4 builder patterns (40 sentences), N4 mock test 1 (50 questions, including the N4 usage part) and 5 N4 reading passages |
 | Lessons | `/lessons`: 5 original N5 situation lessons (introductions, konbini, station, time, restaurant). Each runs situation → new words → grammar → dialogue (tap to hear, English toggle) → 3 quick checks; checks are scored on the server, finishing adds the words to SRS, logs wrong checks as mistakes and unlocks the next lesson. Leaving halfway resumes at the same step. Furigana throughout |
 | Sentence builder | `/builder`: the 12 N5 sentence patterns, 5 sentences each. Tap tiles into order (with decoy tiles; furigana on every tile), check, hear it read; other natural word orders count. Runs are scored on the server; best score per pattern is kept, wrong sentences are logged as mistakes, XP and streak count. Leaving halfway resumes |
 | JLPT Center | `/mock`: original N5 mock test 1 (51 questions) in real JLPT order — vocabulary, grammar & reading, listening — with a timer per paper at the official minutes per question. Exam conditions (timed, no furigana, counts towards the pass record) or practice mode (untimed, furigana except on the answer, listening scripts). Listening is read aloud by the device voice. Results show a predicted score per scoring section against the real pass lines and sectional minimums, accuracy by part, and a full review; every miss is logged and its words go into reviews |
@@ -73,7 +74,7 @@ npm run dev
 | `npm run build:lessons` | Regenerate `content/lessons/*.json` (adds furigana) from the hand-written `*.source.json` files |
 | `npm run build:builder` | Regenerate `content/builder/*.json` (tiles + furigana) from `*.source.json` |
 | `npm run build:kanji-parts -- <kradfile-u>` | Re-vendor KRADFILE kanji components (`content/kanji-parts`) used for memory hints |
-| `npm run build:practice` | Regenerate the mock and reading packs (`content/mock`, `content/reading`) from `*.source.json` |
+| `npm run build:practice` | Regenerate the grammar, mock and reading packs (`content/grammar`, `content/mock`, `content/reading`) from `*.source.json` |
 | `npm run build:open-data -- <dir>` | Regenerate `content/opendata/*.json` from downloaded `kanji.json` (kanji-data) and `n5–n2.csv` (open-anki-jlpt-decks) |
 
 New migrations go in `supabase/migrations/` with a timestamp prefix. New
@@ -81,6 +82,8 @@ content tables need RLS enabled and policies in the same migration; extend
 `tests/db/rls.test.ts` to cover them.
 
 ## Content
+
+Hand-written sources can name words by spelling (`"友達"`) instead of slug; `scripts/content-items.ts` resolves them. Furigana comes from the tokenizer plus our vocabulary readings, with `LESSON_READINGS` in `scripts/build-lessons.ts` for readings it gets wrong; a source can also pin one inline as `[時|じ]`.
 
 Memory hints for words and kanji are built only from kanji parts (男 = 田 rice field + 力 power; 学生 = 学 study + 生 life), never English sound-alikes. `scripts/kanji-hints.ts` generates them from KRADFILE when the packs are built; words written only in kana get no hint.
 

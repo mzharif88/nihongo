@@ -1,0 +1,145 @@
+{
+  "version": 1,
+  "kind": "lessons",
+  "source": "original-n4-lessons",
+  "records": [
+    {
+      "slug": "lesson-n4-01-byouin", "jlpt_level": "N4", "position": 1,
+      "title": "病院で — At the clinic",
+      "situation": "You've had a fever since yesterday, so you see a doctor.",
+      "item_slugs": ["病院", "熱", "喉", "風邪", "薬", "心配", "注意", "大事"],
+      "grammar_slug": "grammar-n4-hou-ga-ii",
+      "dialogue": [
+        { "speaker": "医者", "jp": "どうしましたか。", "en": "What seems to be the problem?" },
+        { "speaker": "あなた", "jp": "昨日から熱があって、喉も痛いんです。", "en": "I've had a fever since yesterday, and my throat hurts too." },
+        { "speaker": "医者", "jp": "そうですか。ちょっと見ましょう。…風邪ですね。心配はいりませんよ。", "en": "I see. Let me have a look… It's a cold. Nothing to worry about." },
+        { "speaker": "あなた", "jp": "薬を飲んだほうがいいですか。", "en": "Should I take medicine?" },
+        { "speaker": "医者", "jp": "はい。この薬を一日三回、ご飯の後で飲んでください。", "en": "Yes. Take this medicine three times a day, after meals." },
+        { "speaker": "あなた", "jp": "仕事に行ってもいいですか。", "en": "Can I go to work?" },
+        { "speaker": "医者", "jp": "今日と明日は休んだほうがいいですよ。水をたくさん飲んで、早く寝てください。", "en": "You'd better rest today and tomorrow. Drink plenty of water and go to bed early." },
+        { "speaker": "あなた", "jp": "わかりました。ありがとうございました。", "en": "Understood. Thank you very much." },
+        { "speaker": "医者", "jp": "お大事に。", "en": "Take care of yourself." }
+      ],
+      "checks": [
+        { "prompt": "Fill in the blank: 薬を（　）ほうがいいです。", "options": ["飲む", "飲んだ", "飲んで", "飲み"], "answer": 1, "explanation": "Advice uses the た-form: 飲んだほうがいいです = you'd better take it." },
+        { "prompt": "When should you take the medicine?", "options": ["Before meals", "After meals", "Before bed only", "Only in the morning"], "answer": 1, "explanation": "「ご飯の後で飲んでください」 = take it after meals." },
+        { "prompt": "What does the doctor advise about work?", "options": ["Go as usual", "Rest today and tomorrow", "Go in the afternoon", "Work from home"], "answer": 1, "explanation": "「今日と明日は休んだほうがいいですよ」." }
+      ],
+      "notes": "〜たほうがいいです gives advice: た-form + ほうがいいです = you'd better… For \"you'd better not\", use the ない-form: 無理をしないほうがいいです.\n\n〜んです explains a situation: 喉が痛いんです = (the thing is,) my throat hurts.\n\nCulture: お大事に (take care) is what doctors, colleagues and friends say to someone who is ill."
+    },
+    {
+      "slug": "lesson-n4-02-ryokou", "jlpt_level": "N4", "position": 2,
+      "title": "旅行の計画 — Travel plans",
+      "situation": "A colleague asks about your plans for the winter holidays.",
+      "item_slugs": ["旅行", "計画", "予約", "新幹線", "泊まる", "予定", "楽しみ", "お寺"],
+      "grammar_slug": "grammar-n4-tsumori",
+      "dialogue": [
+        { "speaker": "田中", "jp": "冬休みはどうしますか。", "en": "What are you doing for the winter holidays?" },
+        { "speaker": "あなた", "jp": "京都へ旅行に行くつもりです。", "en": "I'm planning a trip to Kyoto." },
+        { "speaker": "田中", "jp": "いいですね。何で行きますか。", "en": "Nice. How are you getting there?" },
+        { "speaker": "あなた", "jp": "新幹線で行こうと思っています。もうホテルも予約しました。", "en": "I'm thinking of taking the shinkansen. I've already booked the hotel." },
+        { "speaker": "田中", "jp": "何日泊まりますか。", "en": "How many nights are you staying?" },
+        { "speaker": "あなた", "jp": "三日泊まる予定です。お寺をたくさん見るつもりです。", "en": "I'm due to stay three nights. I intend to see lots of temples." },
+        { "speaker": "田中", "jp": "京都の冬は寒いですから、暖かい服を持って行ったほうがいいですよ。", "en": "Kyoto is cold in winter, so you'd better take warm clothes." },
+        { "speaker": "あなた", "jp": "そうですね。とても楽しみです。", "en": "Good point. I'm really looking forward to it." }
+      ],
+      "checks": [
+        { "prompt": "How will you travel to Kyoto?", "options": ["By plane", "By shinkansen", "By bus", "By car"], "answer": 1, "explanation": "「新幹線で行こうと思っています」." },
+        { "prompt": "Fill in the blank: 京都へ行く（　）です。", "options": ["つもり", "ほう", "こと", "ため"], "answer": 0, "explanation": "Dictionary form + つもりです = intend to: 行くつもりです." },
+        { "prompt": "What is the volitional form of 行く?", "options": ["行こう", "行よう", "行けよう", "行きよう"], "answer": 0, "explanation": "う-verbs change u → ō: 行く → 行こう. る-verbs add よう: 食べる → 食べよう." }
+      ],
+      "notes": "〜つもりです = I intend to (a decided plan): 行くつもりです. Negative: 行かないつもりです.\n\nVolitional + と思っています = I'm thinking of doing: 行こうと思っています. Make the volitional form: う-verbs u → ō (行く → 行こう, 飲む → 飲もう); る-verbs + よう (見る → 見よう); する → しよう, 来る → 来よう.\n\n予定です = it's scheduled: 三日泊まる予定です."
+    },
+    {
+      "slug": "lesson-n4-03-arubaito", "jlpt_level": "N4", "position": 3,
+      "title": "アルバイトの規則 — Part-time job rules",
+      "situation": "Your first day at a café job. The manager explains the rules.",
+      "item_slugs": ["規則", "遅れる", "休憩", "店員", "着る", "仕事", "携帯", "服"],
+      "grammar_slug": "grammar-n4-nakereba",
+      "dialogue": [
+        { "speaker": "店長", "jp": "明日からよろしくお願いします。", "en": "Welcome aboard from tomorrow." },
+        { "speaker": "あなた", "jp": "よろしくお願いします。何時に来なければなりませんか。", "en": "Thank you. What time do I have to come in?" },
+        { "speaker": "店長", "jp": "仕事は九時からですが、八時五十分までに来てください。遅れてはいけませんよ。", "en": "Work starts at nine, but please be here by 8:50. Don't be late." },
+        { "speaker": "あなた", "jp": "はい。仕事中に携帯電話を使ってもいいですか。", "en": "OK. May I use my phone while working?" },
+        { "speaker": "店長", "jp": "いいえ、使ってはいけません。休憩の時は使ってもいいですよ。", "en": "No, you can't. You can use it on your break." },
+        { "speaker": "あなた", "jp": "わかりました。服はどうしますか。", "en": "Understood. What about clothes?" },
+        { "speaker": "店長", "jp": "店の制服を着なければなりません。ロッカーにありますよ。", "en": "You have to wear the shop uniform. It's in the locker." },
+        { "speaker": "あなた", "jp": "はい、わかりました。", "en": "OK, got it." }
+      ],
+      "checks": [
+        { "prompt": "By what time must you arrive?", "options": ["8:30", "8:50", "9:00", "9:10"], "answer": 1, "explanation": "「八時五十分までに来てください」." },
+        { "prompt": "When can you use your phone?", "options": ["While working", "On your break", "Any time", "Never"], "answer": 1, "explanation": "「休憩の時は使ってもいいですよ」." },
+        { "prompt": "Fill in the blank: 制服を着（　）なりません。", "options": ["なければ", "ても", "ては", "たら"], "answer": 0, "explanation": "〜なければなりません = must: 着なければなりません." }
+      ],
+      "notes": "Must: ない-form, drop い, add ければなりません. 行かない → 行かなければなりません; 着ない → 着なければなりません.\n\nMust not: て-form + はいけません: 遅れてはいけません. Compare permission: て-form + もいいです (使ってもいいです = you may use it).\n\nまでに = by (a deadline): 八時五十分までに来てください. まで alone = until."
+    },
+    {
+      "slug": "lesson-n4-04-hikkoshi", "jlpt_level": "N4", "position": 4,
+      "title": "引っ越し — Moving house",
+      "situation": "You're moving flat this weekend and ask a friend for help.",
+      "item_slugs": ["引っ越す", "手伝う", "運ぶ", "荷物", "箱", "重い", "冷蔵庫", "お礼"],
+      "grammar_slug": "grammar-n4-te-morau",
+      "dialogue": [
+        { "speaker": "あなた", "jp": "山田さん、土曜日に引っ越すんですが、手伝ってもらえませんか。", "en": "Yamada-san, I'm moving on Saturday. Could you help me?" },
+        { "speaker": "山田", "jp": "いいですよ。何時に行けばいいですか。", "en": "Sure. What time should I come?" },
+        { "speaker": "あなた", "jp": "十時ごろお願いします。荷物はもう箱に入れておきました。", "en": "Around ten, please. I've already packed my things into boxes." },
+        { "speaker": "山田", "jp": "重い物はありますか。", "en": "Is there anything heavy?" },
+        { "speaker": "あなた", "jp": "冷蔵庫があります。兄も手伝ってくれるので、三人で運びます。", "en": "There's a fridge. My older brother is helping too, so the three of us will carry it." },
+        { "speaker": "山田", "jp": "わかりました。じゃ、土曜日に。", "en": "Got it. See you Saturday, then." },
+        { "speaker": "あなた", "jp": "今日は本当にありがとうございました。とても助かりました。これ、お礼です。", "en": "(Saturday evening) Thank you so much for today. You were a huge help. This is a little thank-you." },
+        { "speaker": "山田", "jp": "わあ、ありがとうございます。", "en": "Oh, thank you!" }
+      ],
+      "checks": [
+        { "prompt": "Who helps with the move?", "options": ["Only Yamada", "Only the older brother", "Yamada and the older brother", "Nobody"], "answer": 2, "explanation": "Yamada agrees, and 「兄も手伝ってくれる」." },
+        { "prompt": "Fill in the blank: 友達に引っ越しを手伝って（　）。", "options": ["もらいました", "くれました", "あげました", "しました"], "answer": 0, "explanation": "Person + に + て-form + もらう = have someone do it for you." },
+        { "prompt": "What did you do before Saturday?", "options": ["Packed things into boxes", "Carried the fridge", "Bought a fridge", "Cleaned the new flat"], "answer": 0, "explanation": "「荷物はもう箱に入れておきました」 (〜ておく = do in advance)." }
+      ],
+      "notes": "〜てもらう: I have someone do something for me — the helper takes に: 友達に手伝ってもらいました.\n〜てくれる: someone kindly does something for me — the helper is the subject: 兄が手伝ってくれます.\n〜てもらえませんか is a polite request: 手伝ってもらえませんか = could you help me?\n\nCulture: after someone helps you move, it's normal to give a small お礼 (thank-you gift), often food or drinks."
+    },
+    {
+      "slug": "lesson-n4-05-shuumatsu", "jlpt_level": "N4", "position": 5,
+      "title": "週末どうだった？ — Weekend chat (casual)",
+      "situation": "Monday morning. A friend asks about your weekend, in casual Japanese.",
+      "item_slugs": ["週末", "込む", "疲れる", "久しぶり", "映画", "買い物", "凄い", "楽しい"],
+      "grammar_slug": "grammar-n4-plain-form",
+      "dialogue": [
+        { "speaker": "ケン", "jp": "週末、何してた？", "en": "What did you get up to at the weekend?" },
+        { "speaker": "あなた", "jp": "土曜日は友達と買い物に行ったり、映画を見たりしたよ。", "en": "On Saturday I went shopping with a friend, saw a film and so on." },
+        { "speaker": "ケン", "jp": "いいね。どの映画？", "en": "Nice. Which film?" },
+        { "speaker": "あなた", "jp": "新しいアニメの映画。すごく込んでた。", "en": "The new anime film. It was really crowded." },
+        { "speaker": "ケン", "jp": "日曜日は？", "en": "And Sunday?" },
+        { "speaker": "あなた", "jp": "疲れたから、どこにも行かなかった。家でゆっくりした。ケンは？", "en": "I was tired, so I didn't go anywhere. I took it easy at home. You?" },
+        { "speaker": "ケン", "jp": "久しぶりに高校の友達に会った。楽しかったよ。", "en": "I met my high-school friends for the first time in ages. It was fun." },
+        { "speaker": "あなた", "jp": "いいなあ。", "en": "Lucky you." }
+      ],
+      "checks": [
+        { "prompt": "What is the plain form of 行きませんでした?", "options": ["行かなかった", "行かない", "行った", "行かなくて"], "answer": 0, "explanation": "Past negative plain: 行かない → 行かなかった." },
+        { "prompt": "What did you do on Saturday?", "options": ["Shopping and a film", "Rested at home", "Met high-school friends", "Went to work"], "answer": 0, "explanation": "「買い物に行ったり、映画を見たりした」." },
+        { "prompt": "Fill in the blank: 本を読んだり、音楽を（　）します。", "options": ["聞いたり", "聞いて", "聞く", "聞きます"], "answer": 0, "explanation": "〜たり〜たりする: both verbs take た-form + り." }
+      ],
+      "notes": "Plain (casual) forms: 行く / 行かない / 行った / 行かなかった. い-adjectives: 楽しい / 楽しかった. Nouns and な-adjectives use だ: 休みだ (often dropped in speech).\n\nQuestions in casual speech just rise in tone, without か: 何してた？\n\n〜たり〜たりする lists some of the things you did: 買い物に行ったり、映画を見たりした."
+    },
+    {
+      "slug": "lesson-n4-06-michi", "jlpt_level": "N4", "position": 6,
+      "title": "道に迷った — Lost in town",
+      "situation": "You're looking for an art museum and ask someone in the street.",
+      "item_slugs": ["迷う", "信号", "曲がる", "橋", "渡る", "建物", "美術館", "かかる"],
+      "grammar_slug": "grammar-n4-tara",
+      "dialogue": [
+        { "speaker": "あなた", "jp": "すみません、道に迷ってしまったんですが、さくら美術館はどこですか。", "en": "Excuse me, I'm lost. Where is the Sakura Art Museum?" },
+        { "speaker": "通行人", "jp": "この道をまっすぐ行って、二つ目の信号を右に曲がってください。", "en": "Go straight along this road and turn right at the second traffic light." },
+        { "speaker": "あなた", "jp": "二つ目の信号を右ですね。", "en": "Right at the second light." },
+        { "speaker": "通行人", "jp": "はい。右に曲がったら、橋が見えます。橋を渡ったら、左に大きい建物があります。それが美術館です。", "en": "Yes. When you turn right, you'll see a bridge. Once you cross it, there's a big building on the left. That's the museum." },
+        { "speaker": "あなた", "jp": "歩いて何分ぐらいかかりますか。", "en": "About how many minutes on foot?" },
+        { "speaker": "通行人", "jp": "十分ぐらいですね。わからなかったら、また誰かに聞いてください。", "en": "About ten minutes. If you can't find it, ask someone again." },
+        { "speaker": "あなた", "jp": "ありがとうございます。", "en": "Thank you." }
+      ],
+      "checks": [
+        { "prompt": "What do you do at the second traffic light?", "options": ["Turn right", "Turn left", "Go straight", "Cross the road"], "answer": 0, "explanation": "「二つ目の信号を右に曲がってください」." },
+        { "prompt": "Fill in the blank: 駅に着い（　）、電話してください。", "options": ["たら", "ても", "ては", "ながら"], "answer": 0, "explanation": "た-form + ら = when/once: 着いたら = once you arrive." },
+        { "prompt": "Where is the museum?", "options": ["Before the bridge, on the right", "Over the bridge, on the left", "At the traffic light", "Next to the station"], "answer": 1, "explanation": "「橋を渡ったら、左に大きい建物があります」." }
+      ],
+      "notes": "〜たら = when / once / if: take the た-form and add ら. 曲がったら (once you turn), わからなかったら (if you don't know).\n\n〜てしまう here shows something unwanted happened: 道に迷ってしまいました = I (ended up) lost.\n\nDirections: まっすぐ行く (go straight), 右/左に曲がる (turn right/left), 〜を渡る (cross), 二つ目の (the second)."
+    }
+  ]
+}

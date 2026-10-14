@@ -1,0 +1,625 @@
+{
+ "version": 1,
+ "kind": "lessons",
+ "source": "original-n4-lessons",
+ "records": [
+  {
+   "slug": "lesson-n4-01-byouin",
+   "jlpt_level": "N4",
+   "position": 1,
+   "title": "[病院|びょういん]で — At the clinic",
+   "situation": "You've had a fever since yesterday, so you see a doctor.",
+   "item_slugs": [
+    "word-byouin",
+    "word-netsu",
+    "vocab-n4-nodo",
+    "vocab-n5-kaze",
+    "word-kusuri",
+    "word-shinpai",
+    "vocab-n4-chuui",
+    "vocab-n4-daiji"
+   ],
+   "grammar_slug": "grammar-n4-hou-ga-ii",
+   "dialogue": [
+    {
+     "speaker": "[医者|いしゃ]",
+     "jp": "どうしましたか。",
+     "en": "What seems to be the problem?"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "昨日から熱があって、喉も痛いんです。",
+     "en": "I've had a fever since yesterday, and my throat hurts too.",
+     "reading": "[昨日|きのう]から[熱|ねつ]があって、[喉|のど]も[痛|いた]いんです。"
+    },
+    {
+     "speaker": "[医者|いしゃ]",
+     "jp": "そうですか。ちょっと見ましょう。…風邪ですね。心配はいりませんよ。",
+     "en": "I see. Let me have a look… It's a cold. Nothing to worry about.",
+     "reading": "そうですか。ちょっと[見|み]ましょう。…[風邪|かぜ]ですね。[心配|しんぱい]はいりませんよ。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "薬を飲んだほうがいいですか。",
+     "en": "Should I take medicine?",
+     "reading": "[薬|くすり]を[飲|の]んだほうがいいですか。"
+    },
+    {
+     "speaker": "[医者|いしゃ]",
+     "jp": "はい。この薬を一日三回、ご飯の後で飲んでください。",
+     "en": "Yes. Take this medicine three times a day, after meals.",
+     "reading": "はい。この[薬|くすり]を[一日|いちにち][三|さん][回|かい]、ご[飯|はん]の[後|あと]で[飲|の]んでください。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "仕事に行ってもいいですか。",
+     "en": "Can I go to work?",
+     "reading": "[仕事|しごと]に[行|い]ってもいいですか。"
+    },
+    {
+     "speaker": "[医者|いしゃ]",
+     "jp": "今日と明日は休んだほうがいいですよ。水をたくさん飲んで、早く寝てください。",
+     "en": "You'd better rest today and tomorrow. Drink plenty of water and go to bed early.",
+     "reading": "[今日|きょう]と[明日|あした]は[休|やす]んだほうがいいですよ。[水|みず]をたくさん[飲|の]んで、[早|はや]く[寝|ね]てください。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "わかりました。ありがとうございました。",
+     "en": "Understood. Thank you very much."
+    },
+    {
+     "speaker": "[医者|いしゃ]",
+     "jp": "お大事に。",
+     "en": "Take care of yourself.",
+     "reading": "お[大事|だいじ]に。"
+    }
+   ],
+   "checks": [
+    {
+     "prompt": "Fill in the blank: [薬|くすり]を（　）ほうがいいです。",
+     "options": [
+      "[飲|の]む",
+      "[飲|の]んだ",
+      "[飲|の]んで",
+      "[飲|の]み"
+     ],
+     "answer": 1,
+     "explanation": "Advice uses the た-form: [飲|の]んだほうがいいです = you'd better take it."
+    },
+    {
+     "prompt": "When should you take the medicine?",
+     "options": [
+      "Before meals",
+      "After meals",
+      "Before bed only",
+      "Only in the morning"
+     ],
+     "answer": 1,
+     "explanation": "「ご[飯|はん]の[後|あと]で[飲|の]んでください」 = take it after meals."
+    },
+    {
+     "prompt": "What does the doctor advise about work?",
+     "options": [
+      "Go as usual",
+      "Rest today and tomorrow",
+      "Go in the afternoon",
+      "Work from home"
+     ],
+     "answer": 1,
+     "explanation": "「[今日|きょう]と[明日|あした]は[休|やす]んだほうがいいですよ」."
+    }
+   ],
+   "notes": "〜たほうがいいです gives advice: た-form + ほうがいいです = you'd better… For \"you'd better not\", use the ない-form: [無理|むり]をしないほうがいいです.\n\n〜んです explains a situation: [喉|のど]が[痛|いた]いんです = (the thing is,) my throat hurts.\n\nCulture: お[大事|だいじ]に (take care) is what doctors, colleagues and friends say to someone who is ill."
+  },
+  {
+   "slug": "lesson-n4-02-ryokou",
+   "jlpt_level": "N4",
+   "position": 2,
+   "title": "[旅行|りょこう]の[計画|けいかく] — Travel plans",
+   "situation": "A colleague asks about your plans for the winter holidays.",
+   "item_slugs": [
+    "word-ryokou",
+    "vocab-n4-keikakusuru",
+    "vocab-n4-yoyaku",
+    "word-shinkansen",
+    "vocab-n4-tomaru",
+    "vocab-n4-yotei",
+    "word-tanoshimi",
+    "word-otera"
+   ],
+   "grammar_slug": "grammar-n4-tsumori",
+   "dialogue": [
+    {
+     "speaker": "[田中|たなか]",
+     "jp": "冬休みはどうしますか。",
+     "en": "What are you doing for the winter holidays?",
+     "reading": "[冬休|ふゆやす]みはどうしますか。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "京都へ旅行に行くつもりです。",
+     "en": "I'm planning a trip to Kyoto.",
+     "reading": "[京都|きょうと]へ[旅行|りょこう]に[行|い]くつもりです。"
+    },
+    {
+     "speaker": "[田中|たなか]",
+     "jp": "いいですね。何で行きますか。",
+     "en": "Nice. How are you getting there?",
+     "reading": "いいですね。[何|なん]で[行|い]きますか。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "新幹線で行こうと思っています。もうホテルも予約しました。",
+     "en": "I'm thinking of taking the shinkansen. I've already booked the hotel.",
+     "reading": "[新幹線|しんかんせん]で[行|い]こうと[思|おも]っています。もうホテルも[予約|よやく]しました。"
+    },
+    {
+     "speaker": "[田中|たなか]",
+     "jp": "何日泊まりますか。",
+     "en": "How many nights are you staying?",
+     "reading": "[何日|なんにち][泊|と]まりますか。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "三日泊まる予定です。お寺をたくさん見るつもりです。",
+     "en": "I'm due to stay three nights. I intend to see lots of temples.",
+     "reading": "[三日|みっか][泊|と]まる[予定|よてい]です。お[寺|てら]をたくさん[見|み]るつもりです。"
+    },
+    {
+     "speaker": "[田中|たなか]",
+     "jp": "京都の冬は寒いですから、暖かい服を持って行ったほうがいいですよ。",
+     "en": "Kyoto is cold in winter, so you'd better take warm clothes.",
+     "reading": "[京都|きょうと]の[冬|ふゆ]は[寒|さむ]いですから、[暖|あたた]かい[服|ふく]を[持|も]って[行|い]ったほうがいいですよ。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "そうですね。とても楽しみです。",
+     "en": "Good point. I'm really looking forward to it.",
+     "reading": "そうですね。とても[楽|たの]しみです。"
+    }
+   ],
+   "checks": [
+    {
+     "prompt": "How will you travel to Kyoto?",
+     "options": [
+      "By plane",
+      "By shinkansen",
+      "By bus",
+      "By car"
+     ],
+     "answer": 1,
+     "explanation": "「[新幹線|しんかんせん]で[行|い]こうと[思|おも]っています」."
+    },
+    {
+     "prompt": "Fill in the blank: [京都|きょうと]へ[行|い]く（　）です。",
+     "options": [
+      "つもり",
+      "ほう",
+      "こと",
+      "ため"
+     ],
+     "answer": 0,
+     "explanation": "Dictionary form + つもりです = intend to: [行|い]くつもりです."
+    },
+    {
+     "prompt": "What is the volitional form of [行|い]く?",
+     "options": [
+      "[行|い]こう",
+      "[行|くだり]よう",
+      "[行|い]けよう",
+      "[行|い]きよう"
+     ],
+     "answer": 0,
+     "explanation": "う-verbs change u → ō: [行|い]く → [行|い]こう. る-verbs add よう: [食|た]べる → [食|た]べよう."
+    }
+   ],
+   "notes": "〜つもりです = I intend to (a decided plan): [行|い]くつもりです. Negative: [行|い]かないつもりです.\n\nVolitional + と[思|おも]っています = I'm thinking of doing: [行|い]こうと[思|おも]っています. Make the volitional form: う-verbs u → ō ([行|い]く → [行|い]こう, [飲|の]む → [飲|の]もう); る-verbs + よう ([見|み]る → [見|み]よう); する → しよう, [来|く]る → [来|こ]よう.\n\n[予定|よてい]です = it's scheduled: [三日|みっか][泊|と]まる[予定|よてい]です."
+  },
+  {
+   "slug": "lesson-n4-03-arubaito",
+   "jlpt_level": "N4",
+   "position": 3,
+   "title": "アルバイトの[規則|きそく] — Part-time job rules",
+   "situation": "Your first day at a café job. The manager explains the rules.",
+   "item_slugs": [
+    "vocab-n4-kisoku",
+    "vocab-n4-okureru",
+    "word-kyuukei",
+    "vocab-n4-ten-in",
+    "word-kiru",
+    "word-shigoto",
+    "vocab-n3-keitai",
+    "word-fuku"
+   ],
+   "grammar_slug": "grammar-n4-nakereba",
+   "dialogue": [
+    {
+     "speaker": "[店長|てんちょう]",
+     "jp": "明日からよろしくお願いします。",
+     "en": "Welcome aboard from tomorrow.",
+     "reading": "[明日|あした]からよろしくお[願|ねが]いします。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "よろしくお願いします。何時に来なければなりませんか。",
+     "en": "Thank you. What time do I have to come in?",
+     "reading": "よろしくお[願|ねが]いします。[何|なん][時|じ]に[来|こ]なければなりませんか。"
+    },
+    {
+     "speaker": "[店長|てんちょう]",
+     "jp": "仕事は九時からですが、八時五十分までに来てください。遅れてはいけませんよ。",
+     "en": "Work starts at nine, but please be here by 8:50. Don't be late.",
+     "reading": "[仕事|しごと]は[九時|くじ]からですが、[八|はち][時|じ][五十分|ごじゅっぷん]までに[来|き]てください。[遅|おく]れてはいけませんよ。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "はい。仕事中に携帯電話を使ってもいいですか。",
+     "en": "OK. May I use my phone while working?",
+     "reading": "はい。[仕事中|しごとちゅう]に[携帯|けいたい][電話|でんわ]を[使|つか]ってもいいですか。"
+    },
+    {
+     "speaker": "[店長|てんちょう]",
+     "jp": "いいえ、使ってはいけません。休憩の時は使ってもいいですよ。",
+     "en": "No, you can't. You can use it on your break.",
+     "reading": "いいえ、[使|つか]ってはいけません。[休憩|きゅうけい]の[時|とき]は[使|つか]ってもいいですよ。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "わかりました。服はどうしますか。",
+     "en": "Understood. What about clothes?",
+     "reading": "わかりました。[服|ふく]はどうしますか。"
+    },
+    {
+     "speaker": "[店長|てんちょう]",
+     "jp": "店の制服を着なければなりません。ロッカーにありますよ。",
+     "en": "You have to wear the shop uniform. It's in the locker.",
+     "reading": "[店|みせ]の[制服|せいふく]を[着|き]なければなりません。ロッカーにありますよ。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "はい、わかりました。",
+     "en": "OK, got it."
+    }
+   ],
+   "checks": [
+    {
+     "prompt": "By what time must you arrive?",
+     "options": [
+      "8:30",
+      "8:50",
+      "9:00",
+      "9:10"
+     ],
+     "answer": 1,
+     "explanation": "「[八|はち][時|じ][五十分|ごじゅっぷん]までに[来|き]てください」."
+    },
+    {
+     "prompt": "When can you use your phone?",
+     "options": [
+      "While working",
+      "On your break",
+      "Any time",
+      "Never"
+     ],
+     "answer": 1,
+     "explanation": "「[休憩|きゅうけい]の[時|とき]は[使|つか]ってもいいですよ」."
+    },
+    {
+     "prompt": "Fill in the blank: [制服|せいふく]を[着|き]（　）なりません。",
+     "options": [
+      "なければ",
+      "ても",
+      "ては",
+      "たら"
+     ],
+     "answer": 0,
+     "explanation": "〜なければなりません = must: [着|き]なければなりません."
+    }
+   ],
+   "notes": "Must: ない-form, drop い, add ければなりません. [行|い]かない → [行|い]かなければなりません; [着|き]ない → [着|き]なければなりません.\n\nMust not: て-form + はいけません: [遅|おく]れてはいけません. Compare permission: て-form + もいいです ([使|つか]ってもいいです = you may use it).\n\nまでに = by (a deadline): [八|はち][時|じ][五十分|ごじゅっぷん]までに[来|き]てください. まで alone = until."
+  },
+  {
+   "slug": "lesson-n4-04-hikkoshi",
+   "jlpt_level": "N4",
+   "position": 4,
+   "title": "[引|ひ]っ[越|こ]し — Moving house",
+   "situation": "You're moving flat this weekend and ask a friend for help.",
+   "item_slugs": [
+    "vocab-n4-hikkosu",
+    "vocab-n4-tetsudau",
+    "vocab-n4-hakobu",
+    "vocab-n5-nimotsu",
+    "vocab-n5-hako",
+    "word-omoi",
+    "word-reizouko",
+    "vocab-n4-orei"
+   ],
+   "grammar_slug": "grammar-n4-te-morau",
+   "dialogue": [
+    {
+     "speaker": "あなた",
+     "jp": "山田さん、土曜日に引っ越すんですが、手伝ってもらえませんか。",
+     "en": "Yamada-san, I'm moving on Saturday. Could you help me?",
+     "reading": "[山田|やまだ]さん、[土曜日|どようび]に[引|ひ]っ[越|こ]すんですが、[手伝|てつだ]ってもらえませんか。"
+    },
+    {
+     "speaker": "[山田|やまだ]",
+     "jp": "いいですよ。何時に行けばいいですか。",
+     "en": "Sure. What time should I come?",
+     "reading": "いいですよ。[何|なん][時|じ]に[行|い]けばいいですか。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "十時ごろお願いします。荷物はもう箱に入れておきました。",
+     "en": "Around ten, please. I've already packed my things into boxes.",
+     "reading": "[十|じゅう][時|じ]ごろお[願|ねが]いします。[荷物|にもつ]はもう[箱|はこ]に[入|い]れておきました。"
+    },
+    {
+     "speaker": "[山田|やまだ]",
+     "jp": "重い物はありますか。",
+     "en": "Is there anything heavy?",
+     "reading": "[重|おも]い[物|もの]はありますか。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "冷蔵庫があります。兄も手伝ってくれるので、三人で運びます。",
+     "en": "There's a fridge. My older brother is helping too, so the three of us will carry it.",
+     "reading": "[冷蔵庫|れいぞうこ]があります。[兄|あに]も[手伝|てつだ]ってくれるので、[三人|さんにん]で[運|はこ]びます。"
+    },
+    {
+     "speaker": "[山田|やまだ]",
+     "jp": "わかりました。じゃ、土曜日に。",
+     "en": "Got it. See you Saturday, then.",
+     "reading": "わかりました。じゃ、[土曜日|どようび]に。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "今日は本当にありがとうございました。とても助かりました。これ、お礼です。",
+     "en": "(Saturday evening) Thank you so much for today. You were a huge help. This is a little thank-you.",
+     "reading": "[今日|きょう]は[本当|ほんとう]にありがとうございました。とても[助|たす]かりました。これ、お[礼|れい]です。"
+    },
+    {
+     "speaker": "[山田|やまだ]",
+     "jp": "わあ、ありがとうございます。",
+     "en": "Oh, thank you!"
+    }
+   ],
+   "checks": [
+    {
+     "prompt": "Who helps with the move?",
+     "options": [
+      "Only Yamada",
+      "Only the older brother",
+      "Yamada and the older brother",
+      "Nobody"
+     ],
+     "answer": 2,
+     "explanation": "Yamada agrees, and 「[兄|あに]も[手伝|てつだ]ってくれる」."
+    },
+    {
+     "prompt": "Fill in the blank: [友達|ともだち]に[引|ひ]っ[越|こ]しを[手伝|てつだ]って（　）。",
+     "options": [
+      "もらいました",
+      "くれました",
+      "あげました",
+      "しました"
+     ],
+     "answer": 0,
+     "explanation": "Person + に + て-form + もらう = have someone do it for you."
+    },
+    {
+     "prompt": "What did you do before Saturday?",
+     "options": [
+      "Packed things into boxes",
+      "Carried the fridge",
+      "Bought a fridge",
+      "Cleaned the new flat"
+     ],
+     "answer": 0,
+     "explanation": "「[荷物|にもつ]はもう[箱|はこ]に[入|い]れておきました」 (〜ておく = do in advance)."
+    }
+   ],
+   "notes": "〜てもらう: I have someone do something for me — the helper takes に: [友達|ともだち]に[手伝|てつだ]ってもらいました.\n〜てくれる: someone kindly does something for me — the helper is the subject: [兄|あに]が[手伝|てつだ]ってくれます.\n〜てもらえませんか is a polite request: [手伝|てつだ]ってもらえませんか = could you help me?\n\nCulture: after someone helps you move, it's normal to give a small お[礼|れい] (thank-you gift), often food or drinks."
+  },
+  {
+   "slug": "lesson-n4-05-shuumatsu",
+   "jlpt_level": "N4",
+   "position": 5,
+   "title": "[週末|しゅうまつ]どうだった？ — Weekend chat (casual)",
+   "situation": "Monday morning. A friend asks about your weekend, in casual Japanese.",
+   "item_slugs": [
+    "word-shuumatsu",
+    "vocab-n4-komu",
+    "vocab-n5-tsukareru",
+    "vocab-n4-hisashiburi",
+    "word-eiga",
+    "word-kaimono",
+    "vocab-n4-sugoi",
+    "word-tanoshii"
+   ],
+   "grammar_slug": "grammar-n4-plain-form",
+   "dialogue": [
+    {
+     "speaker": "ケン",
+     "jp": "週末、何してた？",
+     "en": "What did you get up to at the weekend?",
+     "reading": "[週末|しゅうまつ]、[何|なに]してた？"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "土曜日は友達と買い物に行ったり、映画を見たりしたよ。",
+     "en": "On Saturday I went shopping with a friend, saw a film and so on.",
+     "reading": "[土曜日|どようび]は[友達|ともだち]と[買|か]い[物|もの]に[行|い]ったり、[映画|えいが]を[見|み]たりしたよ。"
+    },
+    {
+     "speaker": "ケン",
+     "jp": "いいね。どの映画？",
+     "en": "Nice. Which film?",
+     "reading": "いいね。どの[映画|えいが]？"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "新しいアニメの映画。すごく込んでた。",
+     "en": "The new anime film. It was really crowded.",
+     "reading": "[新|あたら]しいアニメの[映画|えいが]。すごく[込|こ]んでた。"
+    },
+    {
+     "speaker": "ケン",
+     "jp": "日曜日は？",
+     "en": "And Sunday?",
+     "reading": "[日曜日|にちようび]は？"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "疲れたから、どこにも行かなかった。家でゆっくりした。ケンは？",
+     "en": "I was tired, so I didn't go anywhere. I took it easy at home. You?",
+     "reading": "[疲|つか]れたから、どこにも[行|い]かなかった。[家|いえ]でゆっくりした。ケンは？"
+    },
+    {
+     "speaker": "ケン",
+     "jp": "久しぶりに高校の友達に会った。楽しかったよ。",
+     "en": "I met my high-school friends for the first time in ages. It was fun.",
+     "reading": "[久|ひさ]しぶりに[高校|こうこう]の[友達|ともだち]に[会|あ]った。[楽|たの]しかったよ。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "いいなあ。",
+     "en": "Lucky you."
+    }
+   ],
+   "checks": [
+    {
+     "prompt": "What is the plain form of [行|い]きませんでした?",
+     "options": [
+      "[行|い]かなかった",
+      "[行|い]かない",
+      "[行|い]った",
+      "[行|い]かなくて"
+     ],
+     "answer": 0,
+     "explanation": "Past negative plain: [行|い]かない → [行|い]かなかった."
+    },
+    {
+     "prompt": "What did you do on Saturday?",
+     "options": [
+      "Shopping and a film",
+      "Rested at home",
+      "Met high-school friends",
+      "Went to work"
+     ],
+     "answer": 0,
+     "explanation": "「[買|か]い[物|もの]に[行|い]ったり、[映画|えいが]を[見|み]たりした」."
+    },
+    {
+     "prompt": "Fill in the blank: [本|ほん]を[読|よ]んだり、[音楽|おんがく]を（　）します。",
+     "options": [
+      "[聞|き]いたり",
+      "[聞|き]いて",
+      "[聞|き]く",
+      "[聞|き]きます"
+     ],
+     "answer": 0,
+     "explanation": "〜たり〜たりする: both verbs take た-form + り."
+    }
+   ],
+   "notes": "Plain (casual) forms: [行|い]く / [行|い]かない / [行|おこな]った / [行|い]かなかった. い-adjectives: [楽|たの]しい / [楽|たの]しかった. Nouns and な-adjectives use だ: [休|やす]みだ (often dropped in speech).\n\nQuestions in casual speech just rise in tone, without か: [何|なに]してた？\n\n〜たり〜たりする lists some of the things you did: [買|か]い[物|もの]に[行|い]ったり、[映画|えいが]を[見|み]たりした."
+  },
+  {
+   "slug": "lesson-n4-06-michi",
+   "jlpt_level": "N4",
+   "position": 6,
+   "title": "[道|みち]に[迷|まよ]った — Lost in town",
+   "situation": "You're looking for an art museum and ask someone in the street.",
+   "item_slugs": [
+    "vocab-n3-mayou",
+    "word-shingou",
+    "word-magaru",
+    "vocab-n5-hashi",
+    "word-wataru",
+    "vocab-n5-tatemono",
+    "word-bijutsukan",
+    "vocab-n5-kakaru"
+   ],
+   "grammar_slug": "grammar-n4-tara",
+   "dialogue": [
+    {
+     "speaker": "あなた",
+     "jp": "すみません、道に迷ってしまったんですが、さくら美術館はどこですか。",
+     "en": "Excuse me, I'm lost. Where is the Sakura Art Museum?",
+     "reading": "すみません、[道|みち]に[迷|まよ]ってしまったんですが、さくら[美術館|びじゅつかん]はどこですか。"
+    },
+    {
+     "speaker": "[通行人|つうこうにん]",
+     "jp": "この道をまっすぐ行って、二つ目の信号を右に曲がってください。",
+     "en": "Go straight along this road and turn right at the second traffic light.",
+     "reading": "この[道|みち]をまっすぐ[行|い]って、[二|ふた]つ[目|め]の[信号|しんごう]を[右|みぎ]に[曲|ま]がってください。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "二つ目の信号を右ですね。",
+     "en": "Right at the second light.",
+     "reading": "[二|ふた]つ[目|め]の[信号|しんごう]を[右|みぎ]ですね。"
+    },
+    {
+     "speaker": "[通行人|つうこうにん]",
+     "jp": "はい。右に曲がったら、橋が見えます。橋を渡ったら、左に大きい建物があります。それが美術館です。",
+     "en": "Yes. When you turn right, you'll see a bridge. Once you cross it, there's a big building on the left. That's the museum.",
+     "reading": "はい。[右|みぎ]に[曲|ま]がったら、[橋|はし]が[見|み]えます。[橋|はし]を[渡|わた]ったら、[左|ひだり]に[大|おお]きい[建物|たてもの]があります。それが[美術館|びじゅつかん]です。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "歩いて何分ぐらいかかりますか。",
+     "en": "About how many minutes on foot?",
+     "reading": "[歩|ある]いて[何分|なんぷん]ぐらいかかりますか。"
+    },
+    {
+     "speaker": "[通行人|つうこうにん]",
+     "jp": "十分ぐらいですね。わからなかったら、また誰かに聞いてください。",
+     "en": "About ten minutes. If you can't find it, ask someone again.",
+     "reading": "[十分|じゅっぷん]ぐらいですね。わからなかったら、また[誰|だれ]かに[聞|き]いてください。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "ありがとうございます。",
+     "en": "Thank you."
+    }
+   ],
+   "checks": [
+    {
+     "prompt": "What do you do at the second traffic light?",
+     "options": [
+      "Turn right",
+      "Turn left",
+      "Go straight",
+      "Cross the road"
+     ],
+     "answer": 0,
+     "explanation": "「[二|ふた]つ[目|め]の[信号|しんごう]を[右|みぎ]に[曲|ま]がってください」."
+    },
+    {
+     "prompt": "Fill in the blank: [駅|えき]に[着|つ]い（　）、[電話|でんわ]してください。",
+     "options": [
+      "たら",
+      "ても",
+      "ては",
+      "ながら"
+     ],
+     "answer": 0,
+     "explanation": "た-form + ら = when/once: [着|つ]いたら = once you arrive."
+    },
+    {
+     "prompt": "Where is the museum?",
+     "options": [
+      "Before the bridge, on the right",
+      "Over the bridge, on the left",
+      "At the traffic light",
+      "Next to the station"
+     ],
+     "answer": 1,
+     "explanation": "「[橋|はし]を[渡|わた]ったら、[左|ひだり]に[大|おお]きい[建物|たてもの]があります」."
+    }
+   ],
+   "notes": "〜たら = when / once / if: take the た-form and add ら. [曲|ま]がったら (once you turn), わからなかったら (if you don't know).\n\n〜てしまう here shows something unwanted happened: [道|みち]に[迷|まよ]ってしまいました = I (ended up) lost.\n\nDirections: まっすぐ[行|い]く (go straight), [右|みぎ]/[左|ひだり]に[曲|ま]がる (turn right/left), 〜を[渡|わた]る (cross), [二|ふた]つ[目|め]の (the second)."
+  }
+ ]
+}

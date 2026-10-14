@@ -97,3 +97,14 @@ export function knownWordsFrom(records: ItemRecord[]): Map<string, string> {
   }
   return map;
 }
+
+/**
+ * Annotate text that may already pin some readings with markup
+ * ("number + [時|じ]"): the pinned parts stay, the rest is annotated.
+ */
+export function annotateMixed(text: string, annotate: Annotate): string {
+  return text
+    .split(/(\[[^\]|]+\|[^\]]+\])/)
+    .map((part) => (isMarkup(part) || !hasKanji(part) ? part : (annotate(part) ?? part)))
+    .join("");
+}

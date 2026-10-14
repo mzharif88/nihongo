@@ -121,7 +121,7 @@ export function loadHintData(extra: Item[] = []): HintData {
     if (r.type === "kanji" && typeof r.meaning === "string" && !gloss.has(r.term)) gloss.set(r.term, firstGloss(r.meaning));
   };
   extra.forEach(add);
-  for (const dir of ["opendata", "legacy"]) {
+  for (const dir of ["opendata", "legacy", "grammar"]) {
     const d = join(root, dir);
     if (!existsSync(d)) continue;
     for (const f of readdirSync(d).filter((f) => f.endsWith(".json"))) {

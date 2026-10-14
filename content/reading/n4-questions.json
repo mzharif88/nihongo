@@ -1,0 +1,262 @@
+{
+ "version": 1,
+ "kind": "questions",
+ "source": "original-reading",
+ "records": [
+  {
+   "slug": "reading-n4-01-densha-q1",
+   "text_slug": "reading-n4-01-densha",
+   "position": 1,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "[朝|あさ]の[電車|でんしゃ]はどうして[込|こ]みますか。",
+   "options": [
+    "[会社|かいしゃ]や[学校|がっこう]へ[行|い]く[人|ひと]が[多|おお]いから",
+    "[電車|でんしゃ]が[少|すく]ないから",
+    "[時刻表|じこくひょう]がないから",
+    "[旅行|りょこう]する[人|ひと]が[多|おお]いから"
+   ],
+   "answer": 0,
+   "explanation": "[会社|かいしゃ]や[学校|がっこう]へ[行|い]く[人|ひと]でとても[込|こ]みます.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n4-01-densha-q2",
+   "text_slug": "reading-n4-01-densha",
+   "position": 2,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "[電車|でんしゃ]の[中|なか]でしてはいけないことは[何|なん]ですか。",
+   "options": [
+    "[本|ほん]を[読|よ]むこと",
+    "[電話|でんわ]で[話|はな]すこと",
+    "ゲームをすること",
+    "[静|しず]かにすること"
+   ],
+   "answer": 1,
+   "explanation": "[電話|でんわ]で[話|はな]してはいけません.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n4-01-densha-q3",
+   "text_slug": "reading-n4-01-densha",
+   "position": 3,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "[時刻表|じこくひょう]を[見|み]なくても[大丈夫|だいじょうぶ]なのはどうしてですか。",
+   "options": [
+    "[電車|でんしゃ]がすぐ[来|く]るから",
+    "[電車|でんしゃ]が[遅|おく]れないから",
+    "[駅員|えきいん]が[教|おし]えてくれるから",
+    "[電車|でんしゃ]が[少|すく]ないから"
+   ],
+   "answer": 0,
+   "explanation": "[数|すう][分|ふん]に[一本|いっぽん][来|く]るので = a train comes every few minutes.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n4-02-tegami-q1",
+   "text_slug": "reading-n4-02-tegami",
+   "position": 1,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "キムさんは[今|いま]どこにいますか。",
+   "options": [
+    "[日本|にほん]",
+    "[自分|じぶん]の[国|くに]",
+    "[東京|とうきょう]の[会社|かいしゃ]",
+    "[先生|せんせい]の[家|いえ]"
+   ],
+   "answer": 1,
+   "explanation": "[先月|せんげつ]、[国|くに]へ[帰|かえ]りました.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n4-02-tegami-q2",
+   "text_slug": "reading-n4-02-tegami",
+   "position": 2,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "キムさんの[仕事|しごと]について、[正|ただ]しいのはどれですか。",
+   "options": [
+    "[日本語|にほんご]を[使|つか]わない",
+    "[仕事|しごと]の[言葉|ことば]はまだ[難|むずか]しい",
+    "もう[全部|ぜんぶ]わかる",
+    "[来月|らいげつ]から[始|はじ]める"
+   ],
+   "answer": 1,
+   "explanation": "[仕事|しごと]の[言葉|ことば]は[難|むずか]しくて、まだ[大変|たいへん]です.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n4-02-tegami-q3",
+   "text_slug": "reading-n4-02-tegami",
+   "position": 3,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "[来年|らいねん]の[春|はる]、キムさんは[何|なに]をしたいですか。",
+   "options": [
+    "[国|くに]へ[帰|かえ]りたい",
+    "[先生|せんせい]に[会|あ]いたい",
+    "[日本語|にほんご]を[勉強|べんきょう]したい",
+    "[会社|かいしゃ]をやめたい"
+   ],
+   "answer": 1,
+   "explanation": "その[時|とき]は、ぜひ[会|あ]いに[行|い]きたいです.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n4-03-gomi-q1",
+   "text_slug": "reading-n4-03-gomi",
+   "position": 1,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "[古|ふる]い[新聞|しんぶん]はいつ[出|だ]しますか。",
+   "options": [
+    "[月曜日|げつようび]と[木曜日|もくようび]",
+    "[毎月|まいつき][第|だい][二|に][水曜日|すいようび]",
+    "[金曜日|きんようび]",
+    "[毎日|まいにち]"
+   ],
+   "answer": 0,
+   "explanation": "Paper is [燃|も]えるごみ: Mondays and Thursdays.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n4-03-gomi-q2",
+   "text_slug": "reading-n4-03-gomi",
+   "position": 2,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "ごみは[何時|いつ]までに[出|だ]さなければなりませんか。",
+   "options": [
+    "[朝|あさ][七時|しちじ]",
+    "[朝|あさ][八|はち][時|じ]",
+    "[夜|よる][八|はち][時|じ]",
+    "[前|まえ]の[日|ひ]の[夜|よる]"
+   ],
+   "answer": 1,
+   "explanation": "[朝|あさ][八|はち][時|じ]までに… [出|だ]してください. Not the night before.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n4-03-gomi-q3",
+   "text_slug": "reading-n4-03-gomi",
+   "position": 3,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "ガラスのコップが[割|わ]れました。いつ[出|だ]しますか。",
+   "options": [
+    "[月曜日|げつようび]",
+    "[金曜日|きんようび]",
+    "[毎月|まいつき][第|だい][二|に][水曜日|すいようび]",
+    "[木曜日|もくようび]"
+   ],
+   "answer": 2,
+   "explanation": "Glass is [燃|も]えないごみ: the second Wednesday of each month.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n4-04-shumi-q1",
+   "text_slug": "reading-n4-04-shumi",
+   "position": 1,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "この[人|ひと]はいつから[写真|しゃしん]をとっていますか。",
+   "options": [
+    "[小学生|しょうがくせい]の[時|とき]",
+    "[高校生|こうこうせい]の[時|とき]",
+    "[大学生|だいがくせい]の[時|とき]",
+    "[先月|せんげつ]"
+   ],
+   "answer": 1,
+   "explanation": "[高校生|こうこうせい]の[時|とき]、[父|ちち]に[古|ふる]いカメラをもらってから.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n4-04-shumi-q2",
+   "text_slug": "reading-n4-04-shumi",
+   "position": 2,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "[何|なん]の[写真|しゃしん]をとるのが[一番|いちばん][好|す]きですか。",
+   "options": [
+    "[山|やま]や[川|かわ]",
+    "[家族|かぞく]",
+    "[花|はな]や[鳥|とり]",
+    "[町|まち]"
+   ],
+   "answer": 2,
+   "explanation": "[花|はな]や[鳥|とり]の[写真|しゃしん]をとるのが[一番|いちばん][好|す]きです.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n4-04-shumi-q3",
+   "text_slug": "reading-n4-04-shumi",
+   "position": 3,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "コンテストの[結果|けっか]はどうでしたか。",
+   "options": [
+    "[一位|いちい]",
+    "[二位|にい]",
+    "[三|さん][位|くらい]",
+    "[出|だ]さなかった"
+   ],
+   "answer": 1,
+   "explanation": "[二位|にい]になりました.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n4-05-shigoto-q1",
+   "text_slug": "reading-n4-05-shigoto",
+   "position": 1,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "この[人|ひと]の[仕事|しごと]ではないものはどれですか。",
+   "options": [
+    "[旅行|りょこう]の[計画|けいかく]を[立|た]てる",
+    "ホテルを[予約|よやく]する",
+    "[飛行機|ひこうき]を[予約|よやく]する",
+    "[英語|えいご]を[教|おし]える"
+   ],
+   "answer": 3,
+   "explanation": "The job is planning trips and booking hotels and flights; they are learning English, not teaching it.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n4-05-shigoto-q2",
+   "text_slug": "reading-n4-05-shigoto",
+   "position": 2,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "この[人|ひと]がうれしくなるのはどんな[時|とき]ですか。",
+   "options": [
+    "[仕事|しごと]が[早|はや]く[終|お]わった[時|とき]",
+    "お[客|きゃく]さんに「[楽|たの]しかった」と[言|い]われた[時|とき]",
+    "[旅行|りょこう]に[行|い]った[時|とき]",
+    "[英語|えいご]で[話|はな]せた[時|とき]"
+   ],
+   "answer": 1,
+   "explanation": "お[客|きゃく]さんに「[楽|たの]しかったです」と[言|い]ってもらえると、とてもうれしくなります.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n4-05-shigoto-q3",
+   "text_slug": "reading-n4-05-shigoto",
+   "position": 3,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "この[人|ひと]はどうして[英語|えいご]の[学校|がっこう]に[通|かよ]っていますか。",
+   "options": [
+    "[旅行|りょこう]に[行|い]きたいから",
+    "[英語|えいご]の[電話|でんわ]がかかってくることがあるから",
+    "[会社|かいしゃ]に[言|い]われたから",
+    "[英語|えいご]の[先生|せんせい]になりたいから"
+   ],
+   "answer": 1,
+   "explanation": "[英語|えいご]や[中国|ちゅうごく][語|ご]で[電話|でんわ]がかかってくることがある… [英語|えいご]が[少|すこ]ししか[話|はな]せないので.",
+   "item_slugs": []
+  }
+ ]
+}

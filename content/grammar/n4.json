@@ -1,0 +1,582 @@
+{
+ "version": 1,
+ "kind": "items",
+ "source": "original-grammar",
+ "records": [
+  {
+   "slug": "grammar-n4-plain-form",
+   "term": "普通形 (plain form)",
+   "meaning": "Casual form used with friends and inside longer sentences: 食べる / 食べない / 食べた / 食べなかった; だ for です.",
+   "examples": [
+    {
+     "jp": "明日、映画を見に行く？",
+     "en": "Going to see a film tomorrow?",
+     "reading": "[明日|あした]、[映画|えいが]を[見|み]に[行|い]く？"
+    },
+    {
+     "jp": "昨日はどこにも行かなかった。",
+     "en": "I didn't go anywhere yesterday.",
+     "reading": "[昨日|きのう]はどこにも[行|い]かなかった。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N4",
+   "skill": "grammar",
+   "grammar_point": "grammar-n4-plain-form",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n4-potential",
+   "term": "可能形 (can do)",
+   "meaning": "Potential form: 書く → 書ける, 食べる → 食べられる, する → できる, 来る → 来られる. What you can do takes が.",
+   "examples": [
+    {
+     "jp": "私は漢字が少し読めます。",
+     "en": "I can read a little kanji.",
+     "reading": "[私|わたし]は[漢字|かんじ]が[少|すこ]し[読|よ]めます。"
+    },
+    {
+     "jp": "ここでは写真が撮れません。",
+     "en": "You can't take photos here.",
+     "reading": "ここでは[写真|しゃしん]が[撮|と]れません。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N4",
+   "skill": "grammar",
+   "grammar_point": "grammar-n4-potential",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n4-to-omou",
+   "term": "〜と思う (I think)",
+   "meaning": "Plain form + と思います = I think that…",
+   "examples": [
+    {
+     "jp": "明日は雨が降ると思います。",
+     "en": "I think it will rain tomorrow.",
+     "reading": "[明日|あした]は[雨|あめ]が[降|ふ]ると[思|おも]います。"
+    },
+    {
+     "jp": "この本は面白いと思います。",
+     "en": "I think this book is interesting.",
+     "reading": "この[本|ほん]は[面白|おもしろ]いと[思|おも]います。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N4",
+   "skill": "grammar",
+   "grammar_point": "grammar-n4-to-omou",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n4-tari",
+   "term": "〜たり〜たりする (things like)",
+   "meaning": "た-form + り, twice, then する: listing some of several actions.",
+   "examples": [
+    {
+     "jp": "週末は掃除をしたり、買い物をしたりしました。",
+     "en": "At the weekend I did things like cleaning and shopping.",
+     "reading": "[週末|しゅうまつ]は[掃除|そうじ]をしたり、[買|か]い[物|もの]をしたりしました。"
+    },
+    {
+     "jp": "休みの日は本を読んだり、音楽を聞いたりします。",
+     "en": "On days off I read books, listen to music and so on.",
+     "reading": "[休|やす]みの[日|ひ]は[本|ほん]を[読|よ]んだり、[音楽|おんがく]を[聞|き]いたりします。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N4",
+   "skill": "grammar",
+   "grammar_point": "grammar-n4-tari",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n4-hou-ga-ii",
+   "term": "〜たほうがいい (had better)",
+   "meaning": "た-form + ほうがいいです = you'd better… (advice). Negative: ない-form + ほうがいい.",
+   "examples": [
+    {
+     "jp": "熱があるなら、早く寝たほうがいいですよ。",
+     "en": "If you have a fever, you'd better go to bed early.",
+     "reading": "[熱|ねつ]があるなら、[早|はや]く[寝|ね]たほうがいいですよ。"
+    },
+    {
+     "jp": "夜は一人で歩かないほうがいいです。",
+     "en": "You'd better not walk alone at night.",
+     "reading": "[夜|よる]は[一人|ひとり]で[歩|ある]かないほうがいいです。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N4",
+   "skill": "grammar",
+   "grammar_point": "grammar-n4-hou-ga-ii",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n4-nakereba",
+   "term": "〜なければならない (must)",
+   "meaning": "ない-form minus い + ければなりません = must / have to.",
+   "examples": [
+    {
+     "jp": "明日は早く起きなければなりません。",
+     "en": "I have to get up early tomorrow.",
+     "reading": "[明日|あした]は[早|はや]く[起|お]きなければなりません。"
+    },
+    {
+     "jp": "この薬は毎日飲まなければなりません。",
+     "en": "You must take this medicine every day.",
+     "reading": "この[薬|くすり]は[毎日|まいにち][飲|の]まなければなりません。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N4",
+   "skill": "grammar",
+   "grammar_point": "grammar-n4-nakereba",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n4-te-wa-ikenai",
+   "term": "〜てはいけない (must not)",
+   "meaning": "て-form + はいけません = must not / not allowed.",
+   "examples": [
+    {
+     "jp": "ここでたばこを吸ってはいけません。",
+     "en": "You must not smoke here.",
+     "reading": "ここでたばこを[吸|す]ってはいけません。"
+    },
+    {
+     "jp": "テストの時、辞書を使ってはいけません。",
+     "en": "You can't use a dictionary during the test.",
+     "reading": "テストの[時|とき]、[辞書|じしょ]を[使|つか]ってはいけません。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N4",
+   "skill": "grammar",
+   "grammar_point": "grammar-n4-te-wa-ikenai",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n4-tsumori",
+   "term": "〜つもり (intend to)",
+   "meaning": "Dictionary form + つもりです = I intend to… (a decided plan).",
+   "examples": [
+    {
+     "jp": "夏休みに国へ帰るつもりです。",
+     "en": "I plan to go home during the summer holidays.",
+     "reading": "[夏休|なつやす]みに[国|くに]へ[帰|かえ]るつもりです。"
+    },
+    {
+     "jp": "今年は車を買わないつもりです。",
+     "en": "I don't intend to buy a car this year.",
+     "reading": "[今年|ことし]は[車|くるま]を[買|か]わないつもりです。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N4",
+   "skill": "grammar",
+   "grammar_point": "grammar-n4-tsumori",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n4-volitional",
+   "term": "〜よう / 〜おう (let's; I think I'll)",
+   "meaning": "Volitional form: 行く → 行こう, 食べる → 食べよう, する → しよう. + と思っています = I'm thinking of…",
+   "examples": [
+    {
+     "jp": "一緒に昼ご飯を食べよう。",
+     "en": "Let's eat lunch together.",
+     "reading": "[一緒|いっしょ]に[昼|ひる]ご[飯|はん]を[食|た]べよう。"
+    },
+    {
+     "jp": "来年、日本語の試験を受けようと思っています。",
+     "en": "I'm thinking of taking the Japanese exam next year.",
+     "reading": "[来年|らいねん]、[日本語|にほんご]の[試験|しけん]を[受|う]けようと[思|おも]っています。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N4",
+   "skill": "grammar",
+   "grammar_point": "grammar-n4-volitional",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n4-tara",
+   "term": "〜たら (if / when)",
+   "meaning": "た-form + ら = if…, or when… (once it happens).",
+   "examples": [
+    {
+     "jp": "駅に着いたら、電話してください。",
+     "en": "When you get to the station, please call me.",
+     "reading": "[駅|えき]に[着|つ]いたら、[電話|でんわ]してください。"
+    },
+    {
+     "jp": "雨が降ったら、試合は中止です。",
+     "en": "If it rains, the match is cancelled.",
+     "reading": "[雨|あめ]が[降|ふ]ったら、[試合|しあい]は[中止|ちゅうし]です。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N4",
+   "skill": "grammar",
+   "grammar_point": "grammar-n4-tara",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n4-ba",
+   "term": "〜ば (if)",
+   "meaning": "Conditional: 行く → 行けば, 高い → 高ければ. Stating a condition and its result.",
+   "examples": [
+    {
+     "jp": "安ければ、買います。",
+     "en": "If it's cheap, I'll buy it.",
+     "reading": "[安|やす]ければ、[買|か]います。"
+    },
+    {
+     "jp": "この道をまっすぐ行けば、駅に着きます。",
+     "en": "If you go straight along this road, you'll reach the station.",
+     "reading": "この[道|みち]をまっすぐ[行|い]けば、[駅|えき]に[着|つ]きます。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N4",
+   "skill": "grammar",
+   "grammar_point": "grammar-n4-ba",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n4-te-shimau",
+   "term": "〜てしまう (end up; finish)",
+   "meaning": "て-form + しまう: finished completely, or something regrettable happened. Casual: 〜ちゃう.",
+   "examples": [
+    {
+     "jp": "電車に傘を忘れてしまいました。",
+     "en": "I (accidentally) left my umbrella on the train.",
+     "reading": "[電車|でんしゃ]に[傘|かさ]を[忘|わす]れてしまいました。"
+    },
+    {
+     "jp": "もう宿題を全部やってしまいました。",
+     "en": "I've already finished all my homework.",
+     "reading": "もう[宿題|しゅくだい]を[全部|ぜんぶ]やってしまいました。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N4",
+   "skill": "grammar",
+   "grammar_point": "grammar-n4-te-shimau",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n4-te-miru",
+   "term": "〜てみる (try doing)",
+   "meaning": "て-form + みる = do something to see what it's like.",
+   "examples": [
+    {
+     "jp": "この服を着てみてもいいですか。",
+     "en": "May I try this on?",
+     "reading": "この[服|ふく]を[着|き]てみてもいいですか。"
+    },
+    {
+     "jp": "日本のお酒を飲んでみたいです。",
+     "en": "I'd like to try Japanese sake.",
+     "reading": "[日本|にほん]のお[酒|さけ]を[飲|の]んでみたいです。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N4",
+   "skill": "grammar",
+   "grammar_point": "grammar-n4-te-miru",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n4-te-oku",
+   "term": "〜ておく (do in advance)",
+   "meaning": "て-form + おく = do something in preparation, or leave something as it is.",
+   "examples": [
+    {
+     "jp": "旅行の前に、ホテルを予約しておきます。",
+     "en": "I'll book the hotel before the trip.",
+     "reading": "[旅行|りょこう]の[前|まえ]に、ホテルを[予約|よやく]しておきます。"
+    },
+    {
+     "jp": "窓を開けておいてください。",
+     "en": "Please leave the window open.",
+     "reading": "[窓|まど]を[開|あ]けておいてください。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N4",
+   "skill": "grammar",
+   "grammar_point": "grammar-n4-te-oku",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n4-giving",
+   "term": "あげる・くれる・もらう (give, receive)",
+   "meaning": "あげる = I/we give to others. くれる = someone gives to me/us. もらう = receive (from に or から).",
+   "examples": [
+    {
+     "jp": "私は妹に本をあげました。",
+     "en": "I gave my younger sister a book.",
+     "reading": "[私|わたし]は[妹|いもうと]に[本|ほん]をあげました。"
+    },
+    {
+     "jp": "友達が私に花をくれました。",
+     "en": "A friend gave me flowers.",
+     "reading": "[友達|ともだち]が[私|わたし]に[花|はな]をくれました。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N4",
+   "skill": "grammar",
+   "grammar_point": "grammar-n4-giving",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n4-te-morau",
+   "term": "〜てもらう / 〜てくれる (have someone do)",
+   "meaning": "て-form + もらう = have someone do something for me; て-form + くれる = someone kindly does it for me.",
+   "examples": [
+    {
+     "jp": "友達に引っ越しを手伝ってもらいました。",
+     "en": "I had a friend help me move.",
+     "reading": "[友達|ともだち]に[引|ひ]っ[越|こ]しを[手伝|てつだ]ってもらいました。"
+    },
+    {
+     "jp": "先生が作文を直してくれました。",
+     "en": "The teacher kindly corrected my essay.",
+     "reading": "[先生|せんせい]が[作文|さくぶん]を[直|なお]してくれました。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N4",
+   "skill": "grammar",
+   "grammar_point": "grammar-n4-te-morau",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n4-sou",
+   "term": "〜そう (looks like)",
+   "meaning": "Adjective stem + そう = looks…; ます-stem + そう = looks about to… (おいしそう, 雨が降りそう).",
+   "examples": [
+    {
+     "jp": "このケーキはおいしそうですね。",
+     "en": "This cake looks delicious."
+    },
+    {
+     "jp": "雨が降りそうですから、傘を持って行きます。",
+     "en": "It looks like rain, so I'll take an umbrella.",
+     "reading": "[雨|あめ]が[降|ふ]りそうですから、[傘|かさ]を[持|も]って[行|い]きます。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N4",
+   "skill": "grammar",
+   "grammar_point": "grammar-n4-sou",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n4-sugiru",
+   "term": "〜すぎる (too much)",
+   "meaning": "ます-stem or adjective stem + すぎる = too… (食べすぎる, 高すぎる).",
+   "examples": [
+    {
+     "jp": "昨日は食べすぎました。",
+     "en": "I ate too much yesterday.",
+     "reading": "[昨日|きのう]は[食|た]べすぎました。"
+    },
+    {
+     "jp": "この靴は高すぎて、買えません。",
+     "en": "These shoes are too expensive to buy.",
+     "reading": "この[靴|くつ]は[高|たか]すぎて、[買|か]えません。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N4",
+   "skill": "grammar",
+   "grammar_point": "grammar-n4-sugiru",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n4-node",
+   "term": "〜ので (because, so)",
+   "meaning": "Plain form + ので = because (softer and more polite than から). な-adj/noun + なので.",
+   "examples": [
+    {
+     "jp": "頭が痛いので、今日は休みます。",
+     "en": "I have a headache, so I'm taking today off.",
+     "reading": "[頭|あたま]が[痛|いた]いので、[今日|きょう]は[休|やす]みます。"
+    },
+    {
+     "jp": "明日は休みなので、ゆっくり寝ます。",
+     "en": "Tomorrow is a day off, so I'll sleep in.",
+     "reading": "[明日|あした]は[休|やす]みなので、ゆっくり[寝|ね]ます。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N4",
+   "skill": "grammar",
+   "grammar_point": "grammar-n4-node",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n4-noni",
+   "term": "〜のに (even though)",
+   "meaning": "Plain form + のに = even though… (often surprise or disappointment).",
+   "examples": [
+    {
+     "jp": "たくさん勉強したのに、試験に落ちました。",
+     "en": "Even though I studied a lot, I failed the exam.",
+     "reading": "たくさん[勉強|べんきょう]したのに、[試験|しけん]に[落|お]ちました。"
+    },
+    {
+     "jp": "日曜日なのに、会社へ行かなければなりません。",
+     "en": "Even though it's Sunday, I have to go to work.",
+     "reading": "[日曜日|にちようび]なのに、[会社|かいしゃ]へ[行|い]かなければなりません。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N4",
+   "skill": "grammar",
+   "grammar_point": "grammar-n4-noni",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n4-kamoshirenai",
+   "term": "〜かもしれない (might)",
+   "meaning": "Plain form + かもしれません = might / maybe. な-adj/noun drop だ.",
+   "examples": [
+    {
+     "jp": "午後から雪が降るかもしれません。",
+     "en": "It might snow from the afternoon.",
+     "reading": "[午後|ごご]から[雪|ゆき]が[降|ふ]るかもしれません。"
+    },
+    {
+     "jp": "あの人は先生かもしれません。",
+     "en": "That person might be a teacher.",
+     "reading": "あの[人|ひと]は[先生|せんせい]かもしれません。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N4",
+   "skill": "grammar",
+   "grammar_point": "grammar-n4-kamoshirenai",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n4-passive",
+   "term": "受身 (passive)",
+   "meaning": "Passive form: 読む → 読まれる, 見る → 見られる. The doer takes に. Also for being troubled by something.",
+   "examples": [
+    {
+     "jp": "私は先生に褒められました。",
+     "en": "I was praised by the teacher.",
+     "reading": "[私|わたし]は[先生|せんせい]に[褒|ほ]められました。"
+    },
+    {
+     "jp": "電車で足を踏まれました。",
+     "en": "Someone stepped on my foot on the train.",
+     "reading": "[電車|でんしゃ]で[足|あし]を[踏|ふ]まれました。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N4",
+   "skill": "grammar",
+   "grammar_point": "grammar-n4-passive",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n4-you-ni-naru",
+   "term": "〜ようになる (come to, become able)",
+   "meaning": "Dictionary or potential form + ようになる = a change: now able to, or now in the habit of.",
+   "examples": [
+    {
+     "jp": "日本語が少し話せるようになりました。",
+     "en": "I've become able to speak a little Japanese.",
+     "reading": "[日本語|にほんご]が[少|すこ]し[話|はな]せるようになりました。"
+    },
+    {
+     "jp": "毎朝、運動するようになりました。",
+     "en": "I've started exercising every morning.",
+     "reading": "[毎朝|まいあさ]、[運動|うんどう]するようになりました。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N4",
+   "skill": "grammar",
+   "grammar_point": "grammar-n4-you-ni-naru",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n4-mae-ato",
+   "term": "〜前に / 〜た後で (before / after)",
+   "meaning": "Dictionary form + 前に = before doing; た-form + 後で = after doing.",
+   "examples": [
+    {
+     "jp": "寝る前に、歯を磨きます。",
+     "en": "I brush my teeth before going to bed.",
+     "reading": "[寝|ね]る[前|まえ]に、[歯|は]を[磨|みが]きます。"
+    },
+    {
+     "jp": "仕事が終わった後で、ジムへ行きます。",
+     "en": "After work finishes, I go to the gym.",
+     "reading": "[仕事|しごと]が[終|お]わった[後|あと]で、ジムへ[行|い]きます。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N4",
+   "skill": "grammar",
+   "grammar_point": "grammar-n4-mae-ato",
+   "tags": [
+    "grammar"
+   ]
+  }
+ ]
+}

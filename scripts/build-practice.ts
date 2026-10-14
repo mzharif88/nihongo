@@ -13,11 +13,12 @@
  */
 import { readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
-import { hasKanji, isMarkup } from "../src/lib/furigana";
+import { hasKanji } from "../src/lib/furigana";
 import { IMPORT_FORMAT_VERSION, parseImport, type ContentKind } from "../src/lib/content/schema";
 import { mockPapers, type Section } from "../src/lib/mock/format";
 import { teachingAnnotator } from "./build-lessons";
-import type { Annotate } from "./furigana-build";
+import { annotateItems, annotateMixed, type Annotate } from "./furigana-build";
+import { itemResolver, loadItems } from "./content-items";
 
 const CONTENT = join(process.cwd(), "content");
 
@@ -32,42 +33,11 @@ interface SourceQuestion {
   items?: string[];
 }
 
-type Item = { slug: string; type: string; term: string; jlpt_level: string };
-
-function loadItems(): Item[] {
-  const items: Item[] = [];
-  for (const dir of ["legacy", "opendata"]) {
-    for (const f of readdirSync(join(CONTENT, dir)).filter((f) => f.endsWith(".json"))) {
-      const doc = JSON.parse(readFileSync(join(CONTENT, dir, f), "utf8"));
-      if (doc.kind === "items") items.push(...doc.records);
-    }
-  }
-  return items;
-}
-
-/** Word terms → slug (lowest JLPT level wins), grammar slugs pass through. */
-function itemResolver(items: Item[]) {
-  const rank = ["preN5", "N5", "N4", "N3", "N2", "N1"];
-  const bySlug = new Set(items.map((i) => i.slug));
-  const byTerm = new Map<string, Item>();
-  for (const i of items) {
-    if (i.type !== "word") continue;
-    const seen = byTerm.get(i.term);
-    if (!seen || rank.indexOf(i.jlpt_level) < rank.indexOf(seen.jlpt_level)) byTerm.set(i.term, i);
-  }
-  return (ref: string, where: string) => {
-    if (bySlug.has(ref)) return ref;
-    const hit = byTerm.get(ref);
-    if (!hit) throw new Error(`${where}: no item for "${ref}"`);
-    return hit.slug;
-  };
-}
-
 /** Markup per line, keeping {{underline}} marks; text that already has markup stays. */
 const marked = (annotate: Annotate) => (text: string) =>
   text
     .split("\n")
-    .map((line) => (!hasKanji(line) || isMarkup(line) ? line : (annotate(line) ?? line)))
+    .map((line) => (hasKanji(line) ? annotateMixed(line, annotate) : line))
     .join("\n");
 
 function write(dir: string, file: string, kind: ContentKind, source: string, records: Record<string, unknown>[]) {
@@ -94,9 +64,31 @@ function question(q: SourceQuestion, m: (s: string) => string, resolve: (r: stri
   };
 }
 
+/** Hand-written grammar points → item packs (examples get furigana). */
+function buildGrammar(annotate: Annotate) {
+  const dir = join(CONTENT, "grammar");
+  for (const file of readdirSync(dir).filter((f) => f.endsWith(".source.json"))) {
+    const level = file.replace(".source.json", "").toUpperCase();
+    const src = JSON.parse(readFileSync(join(dir, file), "utf8"));
+    const records = annotateItems(
+      (src.records as { slug: string; term: string; meaning: string; examples: { jp: string; en: string }[] }[]).map((g) => ({
+        ...g,
+        type: "grammar",
+        jlpt_level: level,
+        skill: "grammar",
+        grammar_point: g.slug,
+        tags: ["grammar"],
+      })),
+      annotate,
+    );
+    write("grammar", file.replace(".source.json", ".json"), "items", "original-grammar", records);
+  }
+}
+
 async function main() {
   const annotate = await teachingAnnotator();
   const m = marked(annotate);
+  buildGrammar(annotate);
   const resolve = itemResolver(loadItems());
 
   for (const file of readdirSync(join(CONTENT, "mock")).filter((f) => f.endsWith(".source.json"))) {

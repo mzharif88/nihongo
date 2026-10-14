@@ -150,7 +150,10 @@ async function main() {
     const merged = new Map<string, { term: string; reading: string; meanings: string[] }>();
     for (const row of rows) {
       const term = row.expression.trim();
-      const reading = row.reading.trim();
+      // The lists write suru-nouns as 心配 / しんぱいする: keep the reading to the noun itself,
+      // so the same word listed both ways at two levels merges into one item.
+      const raw = row.reading.trim();
+      const reading = raw.length > 2 && /する$/.test(raw) && !/る$/.test(term) ? raw.slice(0, -2) : raw;
       if (!term || !row.meaning.trim()) continue;
       const key = `${term}|${reading}`;
       const entry = merged.get(key) ?? { term, reading, meanings: [] };
