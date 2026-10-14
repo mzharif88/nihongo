@@ -129,12 +129,14 @@
     {
      "speaker": "[店員|てんいん]",
      "jp": "いらっしゃいませ。",
-     "en": "Welcome!"
+     "en": "Welcome!",
+     "reading": "⟨v⟩いらっしゃいませ⟨/⟩。"
     },
     {
      "speaker": "あなた",
      "jp": "すみません、これはいくらですか。",
-     "en": "Excuse me, how much is this?"
+     "en": "Excuse me, how much is this?",
+     "reading": "すみません、⟨s⟩これ⟨/⟩⟨p⟩は⟨/⟩いくら⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。"
     },
     {
      "speaker": "[店員|てんいん]",

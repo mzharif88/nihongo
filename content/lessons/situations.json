@@ -21,7 +21,8 @@
     {
      "speaker": "[駅員|えきいん]",
      "jp": "いらっしゃいませ。",
-     "en": "Hello, how can I help?"
+     "en": "Hello, how can I help?",
+     "reading": "⟨v⟩いらっしゃいませ⟨/⟩。"
     },
     {
      "speaker": "あなた",
@@ -816,7 +817,8 @@
     {
      "speaker": "あなた",
      "jp": "きれいですね。これはいくらですか。",
-     "en": "It's pretty. How much is it?"
+     "en": "It's pretty. How much is it?",
+     "reading": "きれい⟨v⟩です⟨/⟩⟨p⟩ね⟨/⟩。⟨s⟩これ⟨/⟩⟨p⟩は⟨/⟩いくら⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。"
     },
     {
      "speaker": "[店員|てんいん]",
@@ -936,7 +938,8 @@
     {
      "speaker": "[店員|てんいん]",
      "jp": "いかがですか。",
-     "en": "How is it?"
+     "en": "How is it?",
+     "reading": "いかが⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。"
     },
     {
      "speaker": "あなた",
@@ -1194,7 +1197,8 @@
     {
      "speaker": "[店員|てんいん]",
      "jp": "いらっしゃいませ。",
-     "en": "Welcome."
+     "en": "Welcome.",
+     "reading": "⟨v⟩いらっしゃいませ⟨/⟩。"
     },
     {
      "speaker": "[店員|てんいん]",
@@ -1345,7 +1349,8 @@
     {
      "speaker": "あなた",
      "jp": "これですか。",
-     "en": "This one?"
+     "en": "This one?",
+     "reading": "これ⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。"
     },
     {
      "speaker": "[店員|てんいん]",
@@ -1373,7 +1378,8 @@
     {
      "speaker": "あなた",
      "jp": "いいえ、いりません。",
-     "en": "No, I don't need it."
+     "en": "No, I don't need it.",
+     "reading": "いいえ、⟨v⟩いりません⟨/⟩。"
     }
    ],
    "checks": [

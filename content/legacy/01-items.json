@@ -938,7 +938,8 @@
       "examples": [
         {
           "jp": "ほんをよむ",
-          "en": "Read a book"
+          "en": "Read a book",
+          "reading": "⟨o⟩ほん⟨/⟩⟨p⟩を⟨/⟩⟨v⟩よむ⟨/⟩"
         }
       ],
       "skill": "script",
@@ -3122,7 +3123,8 @@
       "examples": [
         {
           "jp": "ほんをよむ",
-          "en": "Read a book"
+          "en": "Read a book",
+          "reading": "⟨o⟩ほん⟨/⟩⟨p⟩を⟨/⟩⟨v⟩よむ⟨/⟩"
         }
       ],
       "skill": "script",
@@ -6994,7 +6996,8 @@
       "examples": [
         {
           "jp": "おはようございます",
-          "en": "Good morning (polite)"
+          "en": "Good morning (polite)",
+          "reading": "おはよう⟨v⟩ございます⟨/⟩"
         }
       ],
       "skill": "vocabulary",
@@ -7051,7 +7054,8 @@
       "examples": [
         {
           "jp": "すみません、どこですか",
-          "en": "Excuse me, where is it?"
+          "en": "Excuse me, where is it?",
+          "reading": "すみません、どこ⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩"
         }
       ],
       "skill": "vocabulary",
@@ -7325,7 +7329,8 @@
       "examples": [
         {
           "jp": "いくらですか",
-          "en": "How much is it?"
+          "en": "How much is it?",
+          "reading": "いくら⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩"
         }
       ],
       "skill": "vocabulary",
@@ -9367,7 +9372,8 @@
       "examples": [
         {
           "jp": "アレルギーがある",
-          "en": "I have an allergy"
+          "en": "I have an allergy",
+          "reading": "⟨s⟩アレルギー⟨/⟩⟨p⟩が⟨/⟩⟨v⟩ある⟨/⟩"
         }
       ],
       "skill": "vocabulary",
@@ -12784,7 +12790,8 @@
       "examples": [
         {
           "jp": "ゲームをする",
-          "en": "Play a game"
+          "en": "Play a game",
+          "reading": "⟨o⟩ゲーム⟨/⟩⟨p⟩を⟨/⟩⟨v⟩する⟨/⟩"
         }
       ],
       "skill": "vocabulary",
@@ -14652,7 +14659,8 @@
       "examples": [
         {
           "jp": "エプロンをつける",
-          "en": "Put on an apron"
+          "en": "Put on an apron",
+          "reading": "⟨o⟩エプロン⟨/⟩⟨p⟩を⟨/⟩⟨v⟩つける⟨/⟩"
         }
       ],
       "skill": "vocabulary",
@@ -14753,7 +14761,8 @@
       "examples": [
         {
           "jp": "スカートをはく",
-          "en": "Wear a skirt"
+          "en": "Wear a skirt",
+          "reading": "⟨o⟩スカート⟨/⟩⟨p⟩を⟨/⟩⟨v⟩はく⟨/⟩"
         }
       ],
       "skill": "vocabulary",
@@ -14854,7 +14863,8 @@
       "examples": [
         {
           "jp": "ベルトをする",
-          "en": "Wear a belt"
+          "en": "Wear a belt",
+          "reading": "⟨o⟩ベルト⟨/⟩⟨p⟩を⟨/⟩⟨v⟩する⟨/⟩"
         }
       ],
       "skill": "vocabulary",
@@ -15385,7 +15395,8 @@
       "examples": [
         {
           "jp": "シャンプーをつける",
-          "en": "Apply shampoo"
+          "en": "Apply shampoo",
+          "reading": "⟨o⟩シャンプー⟨/⟩⟨p⟩を⟨/⟩⟨v⟩つける⟨/⟩"
         }
       ],
       "skill": "vocabulary",
@@ -15488,7 +15499,8 @@
       "examples": [
         {
           "jp": "エアコンをつける",
-          "en": "Turn on AC"
+          "en": "Turn on AC",
+          "reading": "⟨o⟩エアコン⟨/⟩⟨p⟩を⟨/⟩⟨v⟩つける⟨/⟩"
         }
       ],
       "skill": "vocabulary",
@@ -15629,7 +15641,8 @@
       "examples": [
         {
           "jp": "みかんをむく",
-          "en": "Peel a mandarin"
+          "en": "Peel a mandarin",
+          "reading": "⟨o⟩みかん⟨/⟩⟨p⟩を⟨/⟩⟨v⟩むく⟨/⟩"
         }
       ],
       "skill": "vocabulary",
@@ -16686,7 +16699,8 @@
       "examples": [
         {
           "jp": "レシートをください",
-          "en": "Receipt please"
+          "en": "Receipt please",
+          "reading": "⟨o⟩レシート⟨/⟩⟨p⟩を⟨/⟩⟨v⟩ください⟨/⟩"
         }
       ],
       "skill": "vocabulary",
@@ -17446,7 +17460,8 @@
       "examples": [
         {
           "jp": "ごちそうさまでした",
-          "en": "Said after eating"
+          "en": "Said after eating",
+          "reading": "ごちそうさま⟨v⟩でした⟨/⟩"
         }
       ],
       "skill": "vocabulary",
@@ -18705,7 +18720,8 @@
       "skill": "reading",
       "tags": [
         "jlpt"
-      ]
+      ],
+      "reading": "⟨s⟩これ⟨/⟩⟨p⟩は⟨/⟩いくら⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。"
     },
     {
       "slug": "sentence-where-is-the-restroom",
@@ -18724,7 +18740,8 @@
       "skill": "reading",
       "tags": [
         "jlpt"
-      ]
+      ],
+      "reading": "⟨s⟩トイレ⟨/⟩⟨p⟩は⟨/⟩どこ⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。"
     },
     {
       "slug": "sentence-do-you-understand-japanese",
@@ -18737,7 +18754,8 @@
       "examples": [
         {
           "jp": "すこしわかります",
-          "en": "I understand a little"
+          "en": "I understand a little",
+          "reading": "すこし⟨v⟩わかります⟨/⟩"
         }
       ],
       "skill": "reading",
@@ -18841,7 +18859,8 @@
       "examples": [
         {
           "jp": "どこですか",
-          "en": "Where is it?"
+          "en": "Where is it?",
+          "reading": "どこ⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩"
         }
       ],
       "skill": "reading",
@@ -18867,7 +18886,8 @@
       "skill": "reading",
       "tags": [
         "jlpt"
-      ]
+      ],
+      "reading": "⟨o⟩これ⟨/⟩⟨p⟩を⟨/⟩⟨v⟩ください⟨/⟩。"
     },
     {
       "slug": "sentence-what-food-do-you-like",
@@ -19089,7 +19109,8 @@
       "examples": [
         {
           "jp": "これはペンです",
-          "en": "This is a pen"
+          "en": "This is a pen",
+          "reading": "⟨s⟩これ⟨/⟩⟨p⟩は⟨/⟩ペン⟨v⟩です⟨/⟩"
         }
       ],
       "skill": "reading",
@@ -19110,14 +19131,16 @@
       "examples": [
         {
           "jp": "トイレはどこですか",
-          "en": "Where is the restroom?"
+          "en": "Where is the restroom?",
+          "reading": "⟨s⟩トイレ⟨/⟩⟨p⟩は⟨/⟩どこ⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩"
         }
       ],
       "skill": "reading",
       "tags": [
         "common",
         "level-unverified"
-      ]
+      ],
+      "reading": "どこ⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。"
     },
     {
       "slug": "sentence-do-you-have",
@@ -19138,7 +19161,8 @@
       "tags": [
         "common",
         "level-unverified"
-      ]
+      ],
+      "reading": "〜⟨p⟩は⟨/⟩⟨v⟩あります⟨/⟩⟨p⟩か⟨/⟩。"
     },
     {
       "slug": "sentence-please-give-me",
@@ -19159,7 +19183,8 @@
       "tags": [
         "common",
         "level-unverified"
-      ]
+      ],
+      "reading": "〜⟨p⟩を⟨/⟩⟨v⟩ください⟨/⟩。"
     },
     {
       "slug": "sentence-how-much-is-it",
@@ -19172,14 +19197,16 @@
       "examples": [
         {
           "jp": "このシャツはいくらですか",
-          "en": "How much is this shirt?"
+          "en": "How much is this shirt?",
+          "reading": "⟨s⟩このシャツ⟨/⟩⟨p⟩は⟨/⟩いくら⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩"
         }
       ],
       "skill": "reading",
       "tags": [
         "common",
         "level-unverified"
-      ]
+      ],
+      "reading": "いくら⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。"
     },
     {
       "slug": "sentence-where-is",
@@ -19200,7 +19227,8 @@
       "tags": [
         "common",
         "level-unverified"
-      ]
+      ],
+      "reading": "〜⟨p⟩は⟨/⟩どこ⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。"
     },
     {
       "slug": "sentence-i-would-like-please",
@@ -19235,14 +19263,16 @@
       "examples": [
         {
           "jp": "すみません、わかりません",
-          "en": "Sorry, I don't understand"
+          "en": "Sorry, I don't understand",
+          "reading": "すみません、⟨v⟩わかりません⟨/⟩"
         }
       ],
       "skill": "reading",
       "tags": [
         "common",
         "level-unverified"
-      ]
+      ],
+      "reading": "⟨v⟩わかりません⟨/⟩。"
     },
     {
       "slug": "sentence-i-want-to-go-to",
@@ -19329,7 +19359,8 @@
       "tags": [
         "common",
         "level-unverified"
-      ]
+      ],
+      "reading": "〜⟨p⟩が⟨/⟩⟨v⟩できます⟨/⟩。"
     },
     {
       "slug": "sentence-i-have-eaten-before",
@@ -19372,7 +19403,8 @@
       "tags": [
         "common",
         "level-unverified"
-      ]
+      ],
+      "reading": "〜⟨p⟩ても⟨/⟩いい⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。"
     },
     {
       "slug": "sentence-please-do",
@@ -19393,7 +19425,8 @@
       "tags": [
         "common",
         "level-unverified"
-      ]
+      ],
+      "reading": "〜⟨p⟩て⟨/⟩⟨v⟩ください⟨/⟩。"
     },
     {
       "slug": "sentence-how-is-about",
@@ -19414,7 +19447,8 @@
       "tags": [
         "common",
         "level-unverified"
-      ]
+      ],
+      "reading": "〜⟨p⟩は⟨/⟩どう⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。"
     },
     {
       "slug": "sentence-let-s",
@@ -19435,7 +19469,8 @@
       "tags": [
         "common",
         "level-unverified"
-      ]
+      ],
+      "reading": "〜⟨v⟩ましょう⟨/⟩。"
     },
     {
       "slug": "sentence-i-want-to",
@@ -19456,7 +19491,8 @@
       "tags": [
         "common",
         "level-unverified"
-      ]
+      ],
+      "reading": "〜たい⟨v⟩です⟨/⟩。"
     },
     {
       "slug": "sentence-how-are-you",
@@ -19541,7 +19577,8 @@
       "tags": [
         "common",
         "level-unverified"
-      ]
+      ],
+      "reading": "どの⟨p⟩くらい⟨/⟩⟨v⟩かかります⟨/⟩⟨p⟩か⟨/⟩。"
     },
     {
       "slug": "sentence-it-is-called-i-am-called",
@@ -19633,7 +19670,8 @@
       "examples": [
         {
           "jp": "りんごをたべます。",
-          "en": "I eat an apple."
+          "en": "I eat an apple.",
+          "reading": "⟨o⟩りんご⟨/⟩⟨p⟩を⟨/⟩⟨v⟩たべます⟨/⟩。"
         }
       ],
       "tags": [
@@ -19687,7 +19725,8 @@
       "examples": [
         {
           "jp": "こうえんであそびます。",
-          "en": "I play at the park."
+          "en": "I play at the park.",
+          "reading": "こうえん⟨p⟩で⟨/⟩⟨v⟩あそびます⟨/⟩。"
         }
       ],
       "tags": [
@@ -19795,7 +19834,8 @@
       "examples": [
         {
           "jp": "たべました",
-          "en": "I ate | いきました"
+          "en": "I ate | いきました",
+          "reading": "⟨v⟩たべました⟨/⟩"
         }
       ],
       "tags": [
@@ -19813,7 +19853,8 @@
       "examples": [
         {
           "jp": "のみません",
-          "en": "I don't drink | いきません"
+          "en": "I don't drink | いきません",
+          "reading": "⟨v⟩のみません⟨/⟩"
         }
       ],
       "tags": [
@@ -19831,7 +19872,8 @@
       "examples": [
         {
           "jp": "いきませんでした",
-          "en": "I did not go | たべませんでした"
+          "en": "I did not go | たべませんでした",
+          "reading": "⟨v⟩いきませんでした⟨/⟩"
         }
       ],
       "tags": [
@@ -19849,7 +19891,8 @@
       "examples": [
         {
           "jp": "はなしてください",
-          "en": "Please speak | みてください"
+          "en": "Please speak | みてください",
+          "reading": "⟨v⟩はなしてください⟨/⟩"
         }
       ],
       "tags": [
@@ -19903,7 +19946,8 @@
       "examples": [
         {
           "jp": "てんきがいいです",
-          "en": "The weather is good"
+          "en": "The weather is good",
+          "reading": "⟨s⟩てんき⟨/⟩⟨p⟩が⟨/⟩いい⟨v⟩です⟨/⟩"
         }
       ],
       "tags": [
@@ -19921,7 +19965,8 @@
       "examples": [
         {
           "jp": "さむかったです",
-          "en": "It was cold | たかかったです"
+          "en": "It was cold | たかかったです",
+          "reading": "さむかった⟨v⟩です⟨/⟩"
         }
       ],
       "tags": [
@@ -19939,7 +19984,8 @@
       "examples": [
         {
           "jp": "たかくないです",
-          "en": "not expensive | さむくないです"
+          "en": "not expensive | さむくないです",
+          "reading": "たかくない⟨v⟩です⟨/⟩"
         }
       ],
       "tags": [
@@ -19975,7 +20021,8 @@
       "examples": [
         {
           "jp": "どこですか",
-          "en": "Where is it? | どこにいきますか"
+          "en": "Where is it? | どこにいきますか",
+          "reading": "どこ⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩"
         }
       ],
       "tags": [
@@ -20065,7 +20112,8 @@
       "examples": [
         {
           "jp": "もうたべました",
-          "en": "I already ate | まだたべていません"
+          "en": "I already ate | まだたべていません",
+          "reading": "もう⟨v⟩たべました⟨/⟩"
         }
       ],
       "tags": [
@@ -20119,7 +20167,8 @@
       "examples": [
         {
           "jp": "あついですから",
-          "en": "Because it's hot | つかれたから"
+          "en": "Because it's hot | つかれたから",
+          "reading": "あつい⟨v⟩です⟨/⟩⟨p⟩から⟨/⟩"
         }
       ],
       "tags": [
@@ -20155,7 +20204,8 @@
       "examples": [
         {
           "jp": "たべたことがあります",
-          "en": "I have eaten (it) before"
+          "en": "I have eaten (it) before",
+          "reading": "⟨v⟩たべた⟨/⟩⟨s⟩こと⟨/⟩⟨p⟩が⟨/⟩⟨v⟩あります⟨/⟩"
         }
       ],
       "tags": [
@@ -20191,7 +20241,8 @@
       "examples": [
         {
           "jp": "してから",
-          "en": "after doing | たべてから"
+          "en": "after doing | たべてから",
+          "reading": "⟨v⟩して⟨/⟩⟨p⟩から⟨/⟩"
         }
       ],
       "tags": [
@@ -20209,7 +20260,8 @@
       "examples": [
         {
           "jp": "まなぶために",
-          "en": "in order to learn | けんこうのために"
+          "en": "in order to learn | けんこうのために",
+          "reading": "⟨v⟩まなぶ⟨/⟩ため⟨p⟩に⟨/⟩"
         }
       ],
       "tags": [

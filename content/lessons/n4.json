@@ -65,7 +65,8 @@
     {
      "speaker": "あなた",
      "jp": "わかりました。ありがとうございました。",
-     "en": "Understood. Thank you very much."
+     "en": "Understood. Thank you very much.",
+     "reading": "⟨v⟩わかりました⟨/⟩。ありがとう⟨v⟩ございました⟨/⟩。"
     },
     {
      "speaker": "[医者|いしゃ]",
@@ -278,7 +279,8 @@
     {
      "speaker": "あなた",
      "jp": "はい、わかりました。",
-     "en": "OK, got it."
+     "en": "OK, got it.",
+     "reading": "はい、⟨v⟩わかりました⟨/⟩。"
     }
    ],
    "checks": [

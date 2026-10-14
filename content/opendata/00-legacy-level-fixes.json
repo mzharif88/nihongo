@@ -3749,7 +3749,8 @@
    "examples": [
     {
      "jp": "いくらですか",
-     "en": "How much is it?"
+     "en": "How much is it?",
+     "reading": "いくら⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩"
     }
    ],
    "skill": "vocabulary",
@@ -5899,7 +5900,8 @@
    "examples": [
     {
      "jp": "スカートをはく",
-     "en": "Wear a skirt"
+     "en": "Wear a skirt",
+     "reading": "⟨o⟩スカート⟨/⟩⟨p⟩を⟨/⟩⟨v⟩はく⟨/⟩"
     }
    ],
    "skill": "vocabulary",
@@ -10022,7 +10024,8 @@
    "examples": [
     {
      "jp": "ゲームをする",
-     "en": "Play a game"
+     "en": "Play a game",
+     "reading": "⟨o⟩ゲーム⟨/⟩⟨p⟩を⟨/⟩⟨v⟩する⟨/⟩"
     }
    ],
    "skill": "vocabulary",
@@ -10367,7 +10370,8 @@
    "examples": [
     {
      "jp": "ベルトをする",
-     "en": "Wear a belt"
+     "en": "Wear a belt",
+     "reading": "⟨o⟩ベルト⟨/⟩⟨p⟩を⟨/⟩⟨v⟩する⟨/⟩"
     }
    ],
    "skill": "vocabulary",
@@ -10474,7 +10478,8 @@
    "examples": [
     {
      "jp": "エプロンをつける",
-     "en": "Put on an apron"
+     "en": "Put on an apron",
+     "reading": "⟨o⟩エプロン⟨/⟩⟨p⟩を⟨/⟩⟨v⟩つける⟨/⟩"
     }
    ],
    "skill": "vocabulary",
@@ -10560,7 +10565,8 @@
    "examples": [
     {
      "jp": "おはようございます",
-     "en": "Good morning (polite)"
+     "en": "Good morning (polite)",
+     "reading": "おはよう⟨v⟩ございます⟨/⟩"
     }
    ],
    "skill": "vocabulary",
@@ -10646,7 +10652,8 @@
    "examples": [
     {
      "jp": "ごちそうさまでした",
-     "en": "Said after eating"
+     "en": "Said after eating",
+     "reading": "ごちそうさま⟨v⟩でした⟨/⟩"
     }
    ],
    "skill": "vocabulary",

@@ -90,7 +90,38 @@ export function tokenRoles(tokens: Token[]): (Role | null)[] {
   return roles;
 }
 
-export async function createRoleTagger(): Promise<TagRoles> {
+/** Content words, whose dictionary form must be a known word for kana-only text to be trusted. */
+const CONTENT_POS = new Set(["名詞", "動詞", "形容詞", "副詞", "連体詞", "感動詞", "フィラー", "接頭詞"]);
+
+/**
+ * `knownKana` holds vocabulary written or read in kana (たべる, ねこ, これ).
+ * Kana-only text is tagged only when every content word the tokenizer finds
+ * is one of them: がっこう split as がっ + こう fails that check and stays plain.
+ */
+/**
+ * Can we trust the tokenizer on kana-only text? Every content word must be a
+ * known word (verbs and adjectives by dictionary form), and no run of
+ * neighbouring tokens may spell a longer known word: がっ + こう = がっこう
+ * means the word was split, so the tags would be wrong.
+ */
+export function trustKana(tokens: Token[], knownKana: Set<string>): boolean {
+  for (const t of tokens) {
+    if (t.word_type === "UNKNOWN") return false;
+    if (!CONTENT_POS.has(t.pos)) continue;
+    const ok = t.pos === "動詞" || t.pos === "形容詞" ? knownKana.has(t.basic_form) : knownKana.has(t.surface_form) || knownKana.has(t.basic_form);
+    if (!ok) return false;
+  }
+  for (let i = 0; i < tokens.length; i++) {
+    for (let n = 2; n <= 4 && i + n <= tokens.length; n++) {
+      const span = tokens.slice(i, i + n);
+      if (!span.some((t) => CONTENT_POS.has(t.pos)) || span.some((t) => t.pos === "記号")) continue;
+      if (knownKana.has(span.map((t) => t.surface_form).join(""))) return false;
+    }
+  }
+  return true;
+}
+
+export async function createRoleTagger(knownKana: Set<string> = new Set()): Promise<TagRoles> {
   const tokenizer = await new Promise<kuromoji.Tokenizer<Token>>((resolve, reject) =>
     kuromoji
       .builder({ dicPath: join(process.cwd(), "node_modules", "kuromoji", "dict") })
@@ -105,12 +136,15 @@ export async function createRoleTagger(): Promise<TagRoles> {
   return (text: string) => {
     const markup = stripRoles(text);
     const plain = stripMarkup(markup);
-    // Word examples with a romaji gloss ("うみ (umi)") are words, not sentences. Kana-only text
-    // has no word boundaries for the tokenizer to go on (がっこう splits as が + っこう), so it stays plain.
-    if (/\([A-Za-z]/.test(plain) || !hasKanji(plain)) return markup;
+    // Word examples with a romaji gloss ("うみ (umi)") are words, not sentences. Kana-only text has no
+    // word boundaries to go on, so it's tagged only when every word the tokenizer found is a known word.
+    if (/\([A-Za-z]/.test(plain)) return markup;
     const tokens = tokenizer.tokenize(plain);
+    if (!hasKanji(plain) && !trustKana(tokens, knownKana)) return markup;
     const roles = tokenRoles(tokens);
     if (tokens.length < 3 || !roles.some((r) => r === "v" || r === "p")) return markup;
+    // Kana-only text also needs a verb or です: number words and bare phrases are too easy to mis-split.
+    if (!hasKanji(plain) && !roles.includes("v")) return markup;
 
     const byChar: (Role | null)[] = [];
     tokens.forEach((t, i) => byChar.push(...[...t.surface_form].map(() => roles[i])));
@@ -141,7 +175,11 @@ type Example = { jp: string; en: string; reading?: string };
 type Rec = Record<string, unknown>;
 
 /** A sentence's reading with roles; kana-only sentences gain a reading so their colours have somewhere to live. */
+let addFurigana: ((text: string) => string | undefined) | null = null;
+
 function withRoles(tag: TagRoles, jp: string, reading: string | undefined): string | undefined {
+  // A sentence with kanji but no readings (old content) gets furigana first.
+  if (hasKanji(jp) && addFurigana && !/\[[^\]|]+\|[^\]]+\]/.test(reading ?? "")) reading = addFurigana(jp) ?? reading;
   const tagged = tag(reading ?? jp);
   return tagged === stripRoles(reading ?? jp) && !reading ? undefined : tagged;
 }
@@ -188,8 +226,27 @@ export function tagPack(tag: TagRoles, doc: { kind: string; records: Rec[] }): {
 /** Pack files that hold sentences. */
 const PACK_DIRS = ["legacy", "opendata", "grammar", "lessons", "builder", "reading"];
 
+/** Kana spellings and readings of every word in the packs, for trusting kana-only sentences. */
+function knownKanaWords(): Set<string> {
+  const out = new Set<string>();
+  for (const dir of ["legacy", "opendata"]) {
+    for (const file of readdirSync(join(CONTENT, dir)).filter((f) => f.endsWith(".json"))) {
+      const doc = JSON.parse(readFileSync(join(CONTENT, dir, file), "utf8"));
+      if (doc.kind !== "items") continue;
+      for (const r of doc.records as { type?: string; term?: string; reading?: string }[]) {
+        if (r.type !== "word" || !r.term) continue;
+        if (!hasKanji(r.term)) out.add(r.term.replace(/[〜～]/g, ""));
+        if (r.reading && !r.reading.includes("[")) for (const part of r.reading.split(/[;；、,]/)) out.add(part.replace(/\s*\(.*?\)\s*|[〜～]/g, "").trim());
+      }
+    }
+  }
+  return out;
+}
+
 async function main() {
-  const tag = await createRoleTagger();
+  const tag = await createRoleTagger(knownKanaWords());
+  const { teachingAnnotator } = await import("./build-lessons");
+  addFurigana = await teachingAnnotator();
   for (const dir of PACK_DIRS) {
     for (const file of readdirSync(join(CONTENT, dir)).filter((f) => f.endsWith(".json") && !f.endsWith(".source.json"))) {
       const path = join(CONTENT, dir, file);
