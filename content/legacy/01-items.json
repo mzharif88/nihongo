@@ -7820,7 +7820,8 @@
       "topic": "Body Parts",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "あし"
     },
     {
       "slug": "word-senaka",
@@ -8257,7 +8258,8 @@
       "topic": "Colors & Appearance",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "せがたかい"
     },
     {
       "slug": "word-pan",
@@ -8651,7 +8653,7 @@
     {
       "slug": "word-fune",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N4",
       "term": "船",
       "romaji": "fune",
       "meaning": "Ship / Boat",
@@ -8667,7 +8669,8 @@
       "topic": "Transportation",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "ふね"
     },
     {
       "slug": "word-jitensha",
@@ -9087,7 +9090,8 @@
       "topic": "Weather & Nature",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "かわ"
     },
     {
       "slug": "word-umi",
@@ -9276,7 +9280,8 @@
       "topic": "Health",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "つかれた"
     },
     {
       "slug": "word-nemui",
@@ -9318,12 +9323,13 @@
       "topic": "Health",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "おなかがすいた"
     },
     {
       "slug": "word-nodo-ga-kawaita",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N4",
       "term": "のどが渇いた",
       "romaji": "nodo ga kawaita",
       "meaning": "Thirsty",
@@ -9339,7 +9345,8 @@
       "topic": "Health",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "のどがかわいた"
     },
     {
       "slug": "word-kibun-ga-warui",
@@ -9360,7 +9367,8 @@
       "topic": "Health",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "きぶんがわるい"
     },
     {
       "slug": "word-arerugii",
@@ -10242,7 +10250,7 @@
     {
       "slug": "word-ryoushuusho",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N2",
       "term": "領収書",
       "romaji": "ryoushuusho",
       "meaning": "Receipt",
@@ -10258,7 +10266,8 @@
       "topic": "Shopping",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "りょうしゅうしょ"
     },
     {
       "slug": "word-kurejitto-kaado",
@@ -10324,7 +10333,7 @@
     {
       "slug": "word-otsuri",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N3",
       "term": "お釣り",
       "romaji": "otsuri",
       "meaning": "Change (money)",
@@ -10340,7 +10349,8 @@
       "topic": "Shopping",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "おつり"
     },
     {
       "slug": "word-waribiki",
@@ -10386,7 +10396,7 @@
     {
       "slug": "word-shichaku",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N3",
       "term": "試着",
       "romaji": "shichaku",
       "meaning": "Try on (clothes)",
@@ -10402,7 +10412,8 @@
       "topic": "Shopping",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "しちゃく"
     },
     {
       "slug": "word-ima",
@@ -11193,7 +11204,8 @@
       "topic": "Daily Actions",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "そうじする"
     },
     {
       "slug": "word-ryouri-suru",
@@ -11214,7 +11226,8 @@
       "topic": "Daily Actions",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "りょうりする"
     },
     {
       "slug": "word-asobu",
@@ -11908,7 +11921,7 @@
     {
       "slug": "word-otera",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N4",
       "term": "お寺",
       "romaji": "otera",
       "meaning": "Buddhist temple",
@@ -11924,12 +11937,13 @@
       "topic": "Places Around Town",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "おてら"
     },
     {
       "slug": "word-sentou",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N2",
       "term": "銭湯",
       "romaji": "sentou",
       "meaning": "Public bath",
@@ -11945,12 +11959,13 @@
       "topic": "Places Around Town",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "せんとう"
     },
     {
       "slug": "word-shiyakusho",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N3",
       "term": "市役所",
       "romaji": "shiyakusho",
       "meaning": "City hall",
@@ -11966,7 +11981,8 @@
       "topic": "Places Around Town",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "しやくしょ"
     },
     {
       "slug": "word-iku",
@@ -12155,7 +12171,8 @@
       "topic": "Movement Verbs",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "まがる"
     },
     {
       "slug": "word-tomaru",
@@ -12202,7 +12219,7 @@
     {
       "slug": "word-otosu",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N4",
       "term": "落とす",
       "romaji": "otosu",
       "meaning": "To drop",
@@ -12218,7 +12235,8 @@
       "topic": "Movement Verbs",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "おとす"
     },
     {
       "slug": "word-hirou",
@@ -12328,7 +12346,7 @@
     {
       "slug": "word-matsuri",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N3",
       "term": "祭り",
       "romaji": "matsuri",
       "meaning": "Festival",
@@ -12344,7 +12362,8 @@
       "topic": "Japanese Culture",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "まつり"
     },
     {
       "slug": "word-hanami",
@@ -12412,7 +12431,7 @@
     {
       "slug": "word-obon",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N3",
       "term": "お盆",
       "romaji": "obon",
       "meaning": "Obon festival",
@@ -12428,7 +12447,8 @@
       "topic": "Japanese Culture",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "おぼん"
     },
     {
       "slug": "word-oshougatsu",
@@ -12449,7 +12469,8 @@
       "topic": "Japanese Culture",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "おしょうがつ"
     },
     {
       "slug": "word-omiyage",
@@ -12538,7 +12559,7 @@
     {
       "slug": "word-bukatsu",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N3",
       "term": "部活",
       "romaji": "bukatsu",
       "meaning": "Club activity",
@@ -12554,7 +12575,8 @@
       "topic": "Japanese Culture",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "ぶかつ"
     },
     {
       "slug": "word-aisatsu",
@@ -12700,7 +12722,7 @@
     {
       "slug": "word-juuden",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N3",
       "term": "充電",
       "romaji": "juuden",
       "meaning": "Charging",
@@ -12716,7 +12738,8 @@
       "topic": "Tech & Modern Life",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "じゅうでん"
     },
     {
       "slug": "word-pasuwaado",
@@ -12762,7 +12785,7 @@
     {
       "slug": "word-douga",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N3",
       "term": "動画",
       "romaji": "douga",
       "meaning": "Video",
@@ -12778,7 +12801,8 @@
       "topic": "Tech & Modern Life",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "どうが"
     },
     {
       "slug": "word-geemu",
@@ -12843,7 +12867,7 @@
     {
       "slug": "word-kensaku",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N2",
       "term": "検索",
       "romaji": "kensaku",
       "meaning": "Search",
@@ -12859,7 +12883,8 @@
       "topic": "Tech & Modern Life",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "けんさく"
     },
     {
       "slug": "word-tsuuchi",
@@ -12885,7 +12910,7 @@
     {
       "slug": "word-koushin",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N3",
       "term": "更新",
       "romaji": "koushin",
       "meaning": "Update",
@@ -12901,7 +12926,8 @@
       "topic": "Tech & Modern Life",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "こうしん"
     },
     {
       "slug": "word-neko",
@@ -13032,7 +13058,7 @@
     {
       "slug": "word-buta",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N3",
       "term": "豚",
       "romaji": "buta",
       "meaning": "Pig",
@@ -13048,7 +13074,8 @@
       "topic": "Pets & Common",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "ぶた"
     },
     {
       "slug": "word-zou",
@@ -13095,7 +13122,7 @@
     {
       "slug": "word-kuma",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N2",
       "term": "熊",
       "romaji": "kuma",
       "meaning": "Bear",
@@ -13111,7 +13138,8 @@
       "topic": "Pets & Common",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "くま"
     },
     {
       "slug": "word-usagi",
@@ -13137,7 +13165,7 @@
     {
       "slug": "word-hebi",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N1",
       "term": "蛇",
       "romaji": "hebi",
       "meaning": "Snake",
@@ -13153,7 +13181,8 @@
       "topic": "Pets & Common",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "へび"
     },
     {
       "slug": "word-nezumi",
@@ -13200,7 +13229,7 @@
     {
       "slug": "word-hachi-2",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N1",
       "term": "蜂",
       "romaji": "hachi",
       "meaning": "Bee",
@@ -13216,12 +13245,13 @@
       "topic": "Pets & Common",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "はち"
     },
     {
       "slug": "word-kame",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N1",
       "term": "亀",
       "romaji": "kame",
       "meaning": "Turtle",
@@ -13237,12 +13267,13 @@
       "topic": "Wild Animals",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "かめ"
     },
     {
       "slug": "word-kitsune",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N1",
       "term": "狐",
       "romaji": "kitsune",
       "meaning": "Fox",
@@ -13258,12 +13289,13 @@
       "topic": "Wild Animals",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "きつね"
     },
     {
       "slug": "word-ookami",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N1",
       "term": "狼",
       "romaji": "ookami",
       "meaning": "Wolf",
@@ -13279,12 +13311,13 @@
       "topic": "Wild Animals",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "おおかみ"
     },
     {
       "slug": "word-shika",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N2",
       "term": "鹿",
       "romaji": "shika",
       "meaning": "Deer",
@@ -13300,12 +13333,13 @@
       "topic": "Wild Animals",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "しか"
     },
     {
       "slug": "word-kaeru-2",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N1",
       "term": "蛙",
       "romaji": "kaeru",
       "meaning": "Frog",
@@ -13321,12 +13355,13 @@
       "topic": "Wild Animals",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "かえる"
     },
     {
       "slug": "word-chou",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N1",
       "term": "蝶",
       "romaji": "chou",
       "meaning": "Butterfly",
@@ -13342,12 +13377,13 @@
       "topic": "Wild Animals",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "ちょう"
     },
     {
       "slug": "word-kujira",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N1",
       "term": "鯨",
       "romaji": "kujira",
       "meaning": "Whale",
@@ -13363,12 +13399,13 @@
       "topic": "Wild Animals",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "くじら"
     },
     {
       "slug": "word-hitsuji",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N3",
       "term": "羊",
       "romaji": "hitsuji",
       "meaning": "Sheep",
@@ -13384,12 +13421,13 @@
       "topic": "Wild Animals",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "ひつじ"
     },
     {
       "slug": "word-niwatori",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N3",
       "term": "鶏",
       "romaji": "niwatori",
       "meaning": "Chicken",
@@ -13405,7 +13443,8 @@
       "topic": "Wild Animals",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "にわとり"
     },
     {
       "slug": "word-raion",
@@ -13830,7 +13869,7 @@
     {
       "slug": "word-yagi",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N2",
       "term": "山羊",
       "romaji": "yagi",
       "meaning": "Goat",
@@ -13846,7 +13885,8 @@
       "topic": "Farm & Domestic",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "やぎ"
     },
     {
       "slug": "word-ahiru",
@@ -13871,7 +13911,7 @@
     {
       "slug": "word-shichimenchou",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N1",
       "term": "七面鳥",
       "romaji": "shichimenchou",
       "meaning": "Turkey",
@@ -13887,7 +13927,8 @@
       "topic": "Farm & Domestic",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "しちめんちょう"
     },
     {
       "slug": "word-usagi-2",
@@ -14197,7 +14238,7 @@
     {
       "slug": "word-tobira",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N1",
       "term": "扉",
       "romaji": "tobira",
       "meaning": "Door",
@@ -14213,7 +14254,8 @@
       "topic": "Household Items",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "とびら"
     },
     {
       "slug": "word-kagi",
@@ -14427,7 +14469,7 @@
     {
       "slug": "word-owan",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N1",
       "term": "お椀",
       "romaji": "owan",
       "meaning": "Bowl",
@@ -14443,7 +14485,8 @@
       "topic": "Kitchen Items",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "おわん"
     },
     {
       "slug": "word-hashi",
@@ -14550,7 +14593,7 @@
     {
       "slug": "word-denshi-renji",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N4",
       "term": "電子レンジ",
       "romaji": "denshi renji",
       "meaning": "Microwave",
@@ -14566,7 +14609,8 @@
       "topic": "Kitchen Items",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "でんしれんじ"
     },
     {
       "slug": "word-furaipan",
@@ -14631,7 +14675,7 @@
     {
       "slug": "word-manaita",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N3",
       "term": "まな板",
       "romaji": "manaita",
       "meaning": "Cutting board",
@@ -14647,7 +14691,8 @@
       "topic": "Kitchen Items",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "まないた"
     },
     {
       "slug": "word-epuron",
@@ -14688,7 +14733,8 @@
       "topic": "Kitchen Items",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "ごみばこ"
     },
     {
       "slug": "word-fuku",
@@ -14917,7 +14963,7 @@
     {
       "slug": "word-udedokei",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N4",
       "term": "腕時計",
       "romaji": "udedokei",
       "meaning": "Wristwatch",
@@ -14933,7 +14979,8 @@
       "topic": "Clothes & Fashion",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "うでどけい"
     },
     {
       "slug": "word-baggu",
@@ -15244,7 +15291,7 @@
     {
       "slug": "word-kopii-ki",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N4",
       "term": "コピー機",
       "romaji": "kopii ki",
       "meaning": "Copier",
@@ -15260,7 +15307,8 @@
       "topic": "Tech & Stationery",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "こぴーき"
     },
     {
       "slug": "word-fairu",
@@ -15424,7 +15472,8 @@
       "topic": "Home & Living",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "はぶらし"
     },
     {
       "slug": "word-senzai",
@@ -15450,7 +15499,7 @@
     {
       "slug": "word-soujiki",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N4",
       "term": "掃除機",
       "romaji": "soujiki",
       "meaning": "Vacuum cleaner",
@@ -15466,12 +15515,13 @@
       "topic": "Home & Living",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "そうじき"
     },
     {
       "slug": "word-sentakuki",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N4",
       "term": "洗濯機",
       "romaji": "sentakuki",
       "meaning": "Washing machine",
@@ -15487,7 +15537,8 @@
       "topic": "Home & Living",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "せんたくき"
     },
     {
       "slug": "word-eakon",
@@ -15931,7 +15982,8 @@
       "topic": "Time & Calendar",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "にじ"
     },
     {
       "slug": "word-sanji",
@@ -15952,7 +16004,8 @@
       "topic": "Time & Calendar",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "さんじ"
     },
     {
       "slug": "word-yoji",
@@ -15973,7 +16026,8 @@
       "topic": "Time & Calendar",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "よじ"
     },
     {
       "slug": "word-goji",
@@ -15994,7 +16048,8 @@
       "topic": "Time & Calendar",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "ごじ"
     },
     {
       "slug": "word-rokuji",
@@ -16015,7 +16070,8 @@
       "topic": "Time & Calendar",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "ろくじ"
     },
     {
       "slug": "word-shichiji",
@@ -16036,7 +16092,8 @@
       "topic": "Time & Calendar",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "しちじ"
     },
     {
       "slug": "word-hachiji",
@@ -16057,7 +16114,8 @@
       "topic": "Time & Calendar",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "はちじ"
     },
     {
       "slug": "word-kuji",
@@ -16078,7 +16136,8 @@
       "topic": "Time & Calendar",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "くじ"
     },
     {
       "slug": "word-juuji",
@@ -16099,7 +16158,8 @@
       "topic": "Time & Calendar",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "じゅうじ"
     },
     {
       "slug": "word-juuichiji",
@@ -16120,7 +16180,8 @@
       "topic": "Time & Calendar",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "じゅういちじ"
     },
     {
       "slug": "word-juuniji",
@@ -16141,7 +16202,8 @@
       "topic": "Time & Calendar",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "じゅうにじ"
     },
     {
       "slug": "word-fun-pun",
@@ -16162,7 +16224,8 @@
       "topic": "Time & Calendar",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "〜ふん"
     },
     {
       "slug": "word-han",
@@ -16246,7 +16309,8 @@
       "topic": "Time & Calendar",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "〜じかん"
     },
     {
       "slug": "word-funkan",
@@ -16267,7 +16331,8 @@
       "topic": "Time & Calendar",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "〜ふんかん"
     },
     {
       "slug": "word-nichiyoubi",
@@ -16456,7 +16521,8 @@
       "topic": "Time & Calendar",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "にがつ"
     },
     {
       "slug": "word-sangatsu",
@@ -16477,7 +16543,8 @@
       "topic": "Time & Calendar",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "さんがつ"
     },
     {
       "slug": "word-shigatsu",
@@ -16498,7 +16565,8 @@
       "topic": "Time & Calendar",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "しがつ"
     },
     {
       "slug": "word-ichien",
@@ -16519,7 +16587,8 @@
       "topic": "Money & Prices",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "いちえん"
     },
     {
       "slug": "word-goen",
@@ -16540,7 +16609,8 @@
       "topic": "Money & Prices",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "ごえん"
     },
     {
       "slug": "word-juuen",
@@ -16561,7 +16631,8 @@
       "topic": "Money & Prices",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "じゅうえん"
     },
     {
       "slug": "word-gojuuen",
@@ -16582,7 +16653,8 @@
       "topic": "Money & Prices",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "ごじゅうえん"
     },
     {
       "slug": "word-hyakuen",
@@ -16603,7 +16675,8 @@
       "topic": "Money & Prices",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "ひゃくえん"
     },
     {
       "slug": "word-gohyakuen",
@@ -16624,7 +16697,8 @@
       "topic": "Money & Prices",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "ごひゃくえん"
     },
     {
       "slug": "word-senen",
@@ -16645,7 +16719,8 @@
       "topic": "Money & Prices",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "せんえん"
     },
     {
       "slug": "word-gosenen",
@@ -16666,7 +16741,8 @@
       "topic": "Money & Prices",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "ごせんえん"
     },
     {
       "slug": "word-ichimanen",
@@ -16687,7 +16763,8 @@
       "topic": "Money & Prices",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "いちまんえん"
     },
     {
       "slug": "word-reshiito",
@@ -16753,7 +16830,7 @@
     {
       "slug": "word-shouhizei",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N3",
       "term": "消費税",
       "romaji": "shouhizei",
       "meaning": "Consumption tax",
@@ -16769,7 +16846,8 @@
       "topic": "Money & Prices",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "しょうひぜい"
     },
     {
       "slug": "word-souryou",
@@ -16816,7 +16894,7 @@
     {
       "slug": "word-shiharai",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N3",
       "term": "支払い",
       "romaji": "shiharai",
       "meaning": "Payment",
@@ -16832,7 +16910,8 @@
       "topic": "Money & Prices",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "しはらい"
     },
     {
       "slug": "word-tsu",
@@ -16873,7 +16952,8 @@
       "topic": "Counters",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "〜ほん"
     },
     {
       "slug": "word-ippon",
@@ -16894,7 +16974,8 @@
       "topic": "Counters",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "いっぽん"
     },
     {
       "slug": "word-nihon",
@@ -16915,7 +16996,8 @@
       "topic": "Counters",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "にほん"
     },
     {
       "slug": "word-sanbon",
@@ -16936,7 +17018,8 @@
       "topic": "Counters",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "さんぼん"
     },
     {
       "slug": "word-mai",
@@ -16957,7 +17040,8 @@
       "topic": "Counters",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "〜まい"
     },
     {
       "slug": "word-ichimai",
@@ -16978,7 +17062,8 @@
       "topic": "Counters",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "いちまい"
     },
     {
       "slug": "word-nimai",
@@ -16999,7 +17084,8 @@
       "topic": "Counters",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "にまい"
     },
     {
       "slug": "word-satsu",
@@ -17020,7 +17106,8 @@
       "topic": "Counters",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "〜さつ"
     },
     {
       "slug": "word-dai",
@@ -17041,7 +17128,8 @@
       "topic": "Counters",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "〜だい"
     },
     {
       "slug": "word-hiki-biki-piki",
@@ -17062,12 +17150,13 @@
       "topic": "Counters",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "〜ひき"
     },
     {
       "slug": "word-tou",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N3",
       "term": "〜頭",
       "romaji": "~tou",
       "meaning": "Counter for large animals",
@@ -17083,12 +17172,13 @@
       "topic": "Counters",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "〜とう"
     },
     {
       "slug": "word-wa-ba-pa",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N4",
       "term": "〜羽",
       "romaji": "~wa/ba/pa",
       "meaning": "Counter for birds/rabbits",
@@ -17104,7 +17194,8 @@
       "topic": "Counters",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "〜わ"
     },
     {
       "slug": "word-nin-ri",
@@ -17125,7 +17216,8 @@
       "topic": "Counters",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "〜にん"
     },
     {
       "slug": "word-ko",
@@ -17146,7 +17238,8 @@
       "topic": "Counters",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "〜こ"
     },
     {
       "slug": "word-hai-bai-pai",
@@ -17167,7 +17260,8 @@
       "topic": "Counters",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "〜はい"
     },
     {
       "slug": "word-kai-gai",
@@ -17188,7 +17282,8 @@
       "topic": "Counters",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "〜かい"
     },
     {
       "slug": "word-kai",
@@ -17209,7 +17304,8 @@
       "topic": "Counters",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "〜かい"
     },
     {
       "slug": "word-ban",
@@ -17230,7 +17326,8 @@
       "topic": "Counters",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "〜ばん"
     },
     {
       "slug": "word-naruhodo",
@@ -17489,7 +17586,8 @@
       "topic": "Expressions",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "おつかれさま"
     },
     {
       "slug": "word-yoroshiku-onegaishimasu",
@@ -17510,7 +17608,8 @@
       "topic": "Expressions",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "よろしくおねがいします"
     },
     {
       "slug": "word-ojama-shimasu",
@@ -17573,12 +17672,13 @@
       "topic": "Expressions",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "きをつけて"
     },
     {
       "slug": "word-osaki-ni-shitsurei-shimasu",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N4",
       "term": "お先に失礼します",
       "romaji": "osaki ni shitsurei shimasu",
       "meaning": "I'm leaving first, excuse me",
@@ -17594,7 +17694,8 @@
       "topic": "Expressions",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "おさきにしつれいします"
     },
     {
       "slug": "word-chotto-matte",
@@ -17615,7 +17716,8 @@
       "topic": "Expressions",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "ちょっとまって"
     },
     {
       "slug": "word-daijoubu-desu-ka",
@@ -17636,7 +17738,8 @@
       "topic": "Expressions",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "だいじょうぶですか"
     },
     {
       "slug": "word-daijoubu-desu",
@@ -17657,7 +17760,8 @@
       "topic": "Expressions",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "だいじょうぶです"
     },
     {
       "slug": "word-ii-desu-yo",
@@ -18138,7 +18242,7 @@
     {
       "slug": "word-shuumatsu",
       "type": "word",
-      "jlpt_level": "N5",
+      "jlpt_level": "N3",
       "term": "週末",
       "romaji": "shuumatsu",
       "meaning": "Weekend",
@@ -18154,7 +18258,8 @@
       "topic": "Words",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "しゅうまつ"
     },
     {
       "slug": "word-mainichi",
@@ -18238,7 +18343,8 @@
       "topic": "Words",
       "tags": [
         "level-unverified"
-      ]
+      ],
+      "reading": "ごはん"
     },
     {
       "slug": "word-niku",
