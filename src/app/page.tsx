@@ -108,51 +108,18 @@ export default async function HomePage() {
           </div>
         </Link>
       )}
-      <div className="mt-2 flex justify-between text-sm">
-        <Link href="/builder" className="font-medium text-accent underline">
-          Sentence builder →
-        </Link>
-        <Link href="/placement" className="text-muted underline">
-          Placement test
-        </Link>
-        <Link href="/lessons" className="text-muted underline">
-          All lessons
-        </Link>
-      </div>
-
-      <section className="mt-4 grid grid-cols-2 gap-3">
-        <Link href="/mock" className="rounded-xl border border-border bg-card p-4 hover:border-accent">
-          <div className="text-xs text-muted">JLPT Center</div>
-          <div className="text-lg font-bold">Mock tests</div>
-          <div className="mt-1 text-xs text-muted">Timed, real format, predicted score</div>
-        </Link>
-        <Link href="/reading" className="rounded-xl border border-border bg-card p-4 hover:border-accent">
-          <div className="text-xs text-muted">Practice</div>
-          <div className="text-lg font-bold">Reading</div>
-          <div className="mt-1 text-xs text-muted">Graded passages with furigana</div>
-        </Link>
-        <Link href="/kanji" className="col-span-2 rounded-xl border border-border bg-card p-4 hover:border-accent">
-          <div className="text-xs text-muted">Kanji</div>
-          <div className="text-lg font-bold">Kanji side by side</div>
-          <div className="mt-1 text-xs text-muted">Look-alikes and sound families: compare, then quiz the difference</div>
-        </Link>
-        <Link href="/listening" className="col-span-2 rounded-xl border border-border bg-card p-4 hover:border-accent">
-          <div className="text-xs text-muted">Practice</div>
-          <div className="text-lg font-bold">Listening</div>
-          <div className="mt-1 text-xs text-muted">Drills in the JLPT listening format, N5 to N2</div>
-        </Link>
-        {situations.length > 0 && (
-          <Link href="/situations" className="col-span-2 rounded-xl border border-border bg-card p-4 hover:border-accent">
-            <div className="flex items-baseline justify-between text-xs text-muted">
-              <span>Real life</span>
-              <span>
-                {situationsDone}/{situations.length} done
-              </span>
-            </div>
-            <div className="text-lg font-bold">Everyday situations</div>
-            <div className="mt-1 text-xs text-muted">Trains, restaurants, shopping and the convenience store: understand and respond</div>
-          </Link>
-        )}
+      <section className="mt-6">
+        <h2 className="mb-2 text-lg font-bold">All sections</h2>
+        <div className="grid grid-cols-2 gap-3">
+          <Section href="/mock" label="JLPT mock tests" detail="Timed, real format, predicted score" highlight />
+          <Section href="/lessons" label="Lessons" detail={`${lessonsDone}/${lessons.length} done`} />
+          <Section href="/situations" label="Everyday situations" detail={`${situationsDone}/${situations.length} done`} />
+          <Section href="/builder" label="Sentence builder" detail="Put words in order" />
+          <Section href="/reading" label="Reading" detail="Graded passages" />
+          <Section href="/listening" label="Listening" detail="JLPT listening parts" />
+          <Section href="/kanji" label="Kanji side by side" detail="Look-alikes and families" />
+          <Section href="/placement" label="Placement test" detail="Skip words you know" />
+        </div>
       </section>
 
       <TopicGrid topics={session.topics} href={studyHref} />
@@ -341,6 +308,18 @@ function TopicGrid({ topics, href }: { topics: Topic[]; href: (t: Topic) => stri
         );
       })}
     </section>
+  );
+}
+
+function Section({ href, label, detail, highlight = false }: { href: string; label: string; detail: string; highlight?: boolean }) {
+  return (
+    <Link
+      href={href}
+      className={`rounded-xl bg-card p-4 hover:border-accent ${highlight ? "border-2 border-accent" : "border border-border"}`}
+    >
+      <div className="font-bold leading-tight">{label}</div>
+      <div className="mt-1 text-xs text-muted">{detail}</div>
+    </Link>
   );
 }
 

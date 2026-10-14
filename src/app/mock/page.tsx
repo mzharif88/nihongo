@@ -6,7 +6,10 @@ export const dynamic = "force-dynamic";
 
 export default async function MockListPage() {
   const { supabase, user } = await requireUser();
-  const mocks = await loadMockList(supabase, user.id);
+  const all = await loadMockList(supabase, user.id);
+  // Full mocks in exam format first; the old app's 10-question quizzes after.
+  const mocks = all.filter((m) => !m.slug.startsWith("mock-legacy-"));
+  const quizzes = all.filter((m) => m.slug.startsWith("mock-legacy-"));
 
   return (
     <main className="mx-auto max-w-xl px-4 py-8">
@@ -23,6 +26,20 @@ export default async function MockListPage() {
 
       {mocks.length === 0 && <p className="mt-8 text-muted">No mock tests are live yet.</p>}
 
+      <MockList mocks={mocks} />
+      {quizzes.length > 0 && (
+        <>
+          <h2 className="mt-10 font-bold">Quick quizzes</h2>
+          <p className="text-sm text-muted">Short 10-question sets from the old app. Not in exam format.</p>
+          <MockList mocks={quizzes} />
+        </>
+      )}
+    </main>
+  );
+}
+
+function MockList({ mocks }: { mocks: Awaited<ReturnType<typeof loadMockList>> }) {
+  return (
       <ul className="mt-6 space-y-3">
         {mocks.map((m) => {
           const last = m.attempts[0];
@@ -70,6 +87,5 @@ export default async function MockListPage() {
           );
         })}
       </ul>
-    </main>
   );
 }
