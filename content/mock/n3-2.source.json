@@ -1,0 +1,817 @@
+{
+  "note": "Original N3 mock in JLPT format. {{…}} marks the underlined part.",
+  "mock_test": {
+    "slug": "mock-n3-2",
+    "jlpt_level": "N3",
+    "title": "N3 mock test 2"
+  },
+  "questions": [
+    {
+      "section": "vocabulary",
+      "part": "問題1 漢字読み · Kanji reading",
+      "prompt": "机の上を{{片付けて}}から出かけた。",
+      "options": [
+        "かだづけて",
+        "かたつけて",
+        "かたづけて",
+        "へんづけて"
+      ],
+      "answer": 2,
+      "explanation": "片付ける = かたづける (tidy up). The つ becomes voiced: づ.",
+      "items": [
+        "片付ける"
+      ]
+    },
+    {
+      "section": "vocabulary",
+      "part": "問題1 漢字読み · Kanji reading",
+      "prompt": "弟は毎日{{熱心}}にピアノを練習している。",
+      "options": [
+        "ねつしん",
+        "ねっしん",
+        "ねっじん",
+        "ねしん"
+      ],
+      "answer": 1,
+      "explanation": "熱心 = ねっしん (eager, keen), with a small っ.",
+      "items": [
+        "熱心"
+      ]
+    },
+    {
+      "section": "vocabulary",
+      "part": "問題1 漢字読み · Kanji reading",
+      "prompt": "夕方になると、{{近所}}の公園で犬を散歩させる。",
+      "options": [
+        "きんしょ",
+        "ちかじょ",
+        "きんどころ",
+        "きんじょ"
+      ],
+      "answer": 3,
+      "explanation": "近所 = きんじょ (neighbourhood).",
+      "items": [
+        "近所"
+      ]
+    },
+    {
+      "section": "vocabulary",
+      "part": "問題1 漢字読み · Kanji reading",
+      "prompt": "来週、取引先の会社を{{訪問}}する予定だ。",
+      "options": [
+        "ほうもん",
+        "ほうぶん",
+        "ぼうもん",
+        "ほもん"
+      ],
+      "answer": 0,
+      "explanation": "訪問 = ほうもん (visit).",
+      "items": [
+        "訪問"
+      ]
+    },
+    {
+      "section": "vocabulary",
+      "part": "問題1 漢字読み · Kanji reading",
+      "prompt": "この薬はとても{{苦い}}。",
+      "options": [
+        "くるしい",
+        "からい",
+        "にがい",
+        "しぶい"
+      ],
+      "answer": 2,
+      "explanation": "苦い = にがい (bitter). 苦しい is くるしい (painful).",
+      "items": [
+        "苦い"
+      ]
+    },
+    {
+      "section": "vocabulary",
+      "part": "問題2 表記 · Writing in kanji",
+      "prompt": "この会社の新しい{{せいひん}}は来月発売される。",
+      "options": [
+        "制品",
+        "製晶",
+        "性品",
+        "製品"
+      ],
+      "answer": 3,
+      "explanation": "せいひん = 製品 (product).",
+      "items": [
+        "製品"
+      ]
+    },
+    {
+      "section": "vocabulary",
+      "part": "問題2 表記 · Writing in kanji",
+      "prompt": "旅行の間、犬を友達に{{あずけた}}。",
+      "options": [
+        "預けた",
+        "予けた",
+        "頼けた",
+        "須けた"
+      ],
+      "answer": 0,
+      "explanation": "あずける = 預ける (leave in someone's care).",
+      "items": [
+        "預ける"
+      ]
+    },
+    {
+      "section": "vocabulary",
+      "part": "問題2 表記 · Writing in kanji",
+      "prompt": "この道は{{せまい}}ので、車に気をつけてください。",
+      "options": [
+        "峡い",
+        "狭い",
+        "挟い",
+        "侠い"
+      ],
+      "answer": 1,
+      "explanation": "せまい = 狭い (narrow). 挟む (はさむ) uses a different kanji.",
+      "items": [
+        "狭い"
+      ]
+    },
+    {
+      "section": "vocabulary",
+      "part": "問題2 表記 · Writing in kanji",
+      "prompt": "来月から{{きゅうりょう}}が上がるそうだ。",
+      "options": [
+        "級料",
+        "給量",
+        "急料",
+        "給料"
+      ],
+      "answer": 3,
+      "explanation": "きゅうりょう = 給料 (salary).",
+      "items": [
+        "給料"
+      ]
+    },
+    {
+      "section": "vocabulary",
+      "part": "問題3 文脈規定 · Word in context",
+      "prompt": "寒かったので、ストーブをつけて部屋を（　）。",
+      "options": [
+        "あつめた",
+        "あげた",
+        "あたためた",
+        "あわせた"
+      ],
+      "answer": 2,
+      "explanation": "部屋をあたためる = warm up the room.",
+      "items": [
+        "暖める"
+      ]
+    },
+    {
+      "section": "vocabulary",
+      "part": "問題3 文脈規定 · Word in context",
+      "prompt": "駅で財布を落としたので、交番に（　）を出した。",
+      "options": [
+        "届け",
+        "申し込み",
+        "受付",
+        "手続き"
+      ],
+      "answer": 0,
+      "explanation": "届けを出す = file a report (here, of a lost item) with the police box.",
+      "items": []
+    },
+    {
+      "section": "vocabulary",
+      "part": "問題3 文脈規定 · Word in context",
+      "prompt": "彼女は約束を必ず守るので、みんなから（　）されている。",
+      "options": [
+        "注意",
+        "信用",
+        "遠慮",
+        "我慢"
+      ],
+      "answer": 1,
+      "explanation": "She always keeps her promises, so she is 信用されている (trusted).",
+      "items": [
+        "信用"
+      ]
+    },
+    {
+      "section": "vocabulary",
+      "part": "問題3 文脈規定 · Word in context",
+      "prompt": "このシャツは洗濯したら（　）しまって、もう着られない。",
+      "options": [
+        "減って",
+        "余って",
+        "下がって",
+        "縮んで"
+      ],
+      "answer": 3,
+      "explanation": "縮む = shrink (clothes after washing).",
+      "items": []
+    },
+    {
+      "section": "vocabulary",
+      "part": "問題3 文脈規定 · Word in context",
+      "prompt": "今度の旅行の（　）は、全部友達が立ててくれた。",
+      "options": [
+        "計画",
+        "準備",
+        "用意",
+        "支度"
+      ],
+      "answer": 0,
+      "explanation": "計画を立てる = make a plan. 準備・用意・支度 do not go with 立てる.",
+      "items": [
+        "計画"
+      ]
+    },
+    {
+      "section": "vocabulary",
+      "part": "問題4 言い換え類義 · Same meaning",
+      "prompt": "今日は仕事で{{くたくた}}だ。",
+      "options": [
+        "今日は仕事でとても忙しい。",
+        "今日は仕事でとても疲れている。",
+        "今日は仕事でとても眠い。",
+        "今日は仕事でとてもおなかがすいている。"
+      ],
+      "answer": 1,
+      "explanation": "くたくた = completely worn out = とても疲れている.",
+      "items": []
+    },
+    {
+      "section": "vocabulary",
+      "part": "問題4 言い換え類義 · Same meaning",
+      "prompt": "来週の会議は{{延期}}になった。",
+      "options": [
+        "来週の会議は中止になった。",
+        "来週の会議は早く始まることになった。",
+        "来週の会議は予定より長くなった。",
+        "来週の会議は別の日に行われることになった。"
+      ],
+      "answer": 3,
+      "explanation": "延期 = postponement: it will be held on a later day. 中止 would mean it is cancelled.",
+      "items": [
+        "延期"
+      ]
+    },
+    {
+      "section": "vocabulary",
+      "part": "問題4 言い換え類義 · Same meaning",
+      "prompt": "妹は{{おしゃべり}}だ。",
+      "options": [
+        "妹はよく話す人だ。",
+        "妹は静かな人だ。",
+        "妹はよく笑う人だ。",
+        "妹は歌が上手な人だ。"
+      ],
+      "answer": 0,
+      "explanation": "おしゃべり = talkative = よく話す人.",
+      "items": [
+        "お喋り"
+      ]
+    },
+    {
+      "section": "vocabulary",
+      "part": "問題5 用法 · Correct usage",
+      "prompt": "うっかり",
+      "options": [
+        "明日はうっかり晴れるでしょう。",
+        "うっかりして、傘を電車に忘れてしまった。",
+        "うっかり勉強したので、試験に合格した。",
+        "この部屋はうっかり広い。"
+      ],
+      "answer": 1,
+      "explanation": "うっかり = carelessly, without thinking (forgetting something).",
+      "items": [
+        "うっかり"
+      ]
+    },
+    {
+      "section": "vocabulary",
+      "part": "問題5 用法 · Correct usage",
+      "prompt": "申し込む",
+      "options": [
+        "先生に「おはようございます」と申し込んだ。",
+        "新しい服を申し込んで出かけた。",
+        "重い荷物を部屋に申し込んだ。",
+        "来月の料理教室に申し込んだ。"
+      ],
+      "answer": 3,
+      "explanation": "申し込む = apply / sign up for something (〜に申し込む).",
+      "items": [
+        "申し込む"
+      ]
+    },
+    {
+      "section": "vocabulary",
+      "part": "問題5 用法 · Correct usage",
+      "prompt": "感心",
+      "options": [
+        "毎日休まずに練習する彼の努力に感心した。",
+        "明日の試験に感心がある。",
+        "感心して道を渡ってください。",
+        "風邪で感心が悪い。"
+      ],
+      "answer": 0,
+      "explanation": "感心する = be impressed by (someone's effort). Interest in something is 関心.",
+      "items": [
+        "感心"
+      ]
+    },
+    {
+      "section": "grammar",
+      "part": "問題1 文法形式の判断 · Grammar form",
+      "prompt": "健康のために、毎日野菜を食べる（　）しています。",
+      "options": [
+        "ために",
+        "ほどに",
+        "ように",
+        "ばかりに"
+      ],
+      "answer": 2,
+      "explanation": "〜ようにしている = make a point of doing.",
+      "items": [
+        "grammar-n3-you-ni-suru"
+      ]
+    },
+    {
+      "section": "grammar",
+      "part": "問題1 文法形式の判断 · Grammar form",
+      "prompt": "会社の決定で、来月から大阪の支店で働く（　）なりました。",
+      "options": [
+        "はずに",
+        "ために",
+        "ことに",
+        "わけに"
+      ],
+      "answer": 2,
+      "explanation": "〜ことになる = it has been decided (by someone else, here the company).",
+      "items": [
+        "grammar-n3-koto-ni-naru"
+      ]
+    },
+    {
+      "section": "grammar",
+      "part": "問題1 文法形式の判断 · Grammar form",
+      "prompt": "先輩が手伝ってくれた（　）、仕事が早く終わった。",
+      "options": [
+        "せいで",
+        "くせに",
+        "わりに",
+        "おかげで"
+      ],
+      "answer": 3,
+      "explanation": "A good result thanks to someone: 〜おかげで. せいで is for bad results.",
+      "items": [
+        "grammar-n3-okage-sei"
+      ]
+    },
+    {
+      "section": "grammar",
+      "part": "問題1 文法形式の判断 · Grammar form",
+      "prompt": "今朝は朝ご飯を食べ（　）家を出たので、おなかがすいた。",
+      "options": [
+        "ずに",
+        "ないと",
+        "なくて",
+        "ないなら"
+      ],
+      "answer": 0,
+      "explanation": "食べずに = without eating.",
+      "items": [
+        "grammar-n3-zu-ni"
+      ]
+    },
+    {
+      "section": "grammar",
+      "part": "問題1 文法形式の判断 · Grammar form",
+      "prompt": "一度した約束は、どんなことがあっても守る（　）だ。",
+      "options": [
+        "はず",
+        "べき",
+        "ところ",
+        "まま"
+      ],
+      "answer": 1,
+      "explanation": "〜べきだ = one should (a moral obligation).",
+      "items": [
+        "grammar-n3-beki"
+      ]
+    },
+    {
+      "section": "grammar",
+      "part": "問題1 文法形式の判断 · Grammar form",
+      "prompt": "子どもは子ども（　）、外で元気に遊んだほうがいい。",
+      "options": [
+        "そうに",
+        "ほど",
+        "ばかり",
+        "らしく"
+      ],
+      "answer": 3,
+      "explanation": "子どもらしく = in a way typical of a child.",
+      "items": [
+        "grammar-n3-rashii"
+      ]
+    },
+    {
+      "section": "grammar",
+      "part": "問題1 文法形式の判断 · Grammar form",
+      "prompt": "母は、遊んでばかりいる弟に部屋の掃除を（　）。",
+      "options": [
+        "された",
+        "させた",
+        "させられた",
+        "くれた"
+      ],
+      "answer": 1,
+      "explanation": "Causative: the mother made the brother clean (弟に掃除をさせた).",
+      "items": [
+        "grammar-n3-causative"
+      ]
+    },
+    {
+      "section": "grammar",
+      "part": "問題1 文法形式の判断 · Grammar form",
+      "prompt": "お客様、こちらで少々お（　）ください。",
+      "options": [
+        "待ち",
+        "待って",
+        "待ちし",
+        "待たれ"
+      ],
+      "answer": 0,
+      "explanation": "Honorific request: お＋ます-stem＋ください → お待ちください.",
+      "items": [
+        "grammar-n3-keigo"
+      ]
+    },
+    {
+      "section": "grammar",
+      "part": "問題2 文の組み立て · Sentence order (★)",
+      "prompt": "兄は大学で ＿＿ ＿＿ ★ ＿＿ いる。",
+      "options": [
+        "働いて",
+        "先生",
+        "として",
+        "日本語の"
+      ],
+      "answer": 2,
+      "explanation": "兄は大学で 日本語の 先生 として 働いて いる. ★ is the third: として.",
+      "items": [
+        "grammar-n3-to-shite"
+      ]
+    },
+    {
+      "section": "grammar",
+      "part": "問題2 文の組み立て · Sentence order (★)",
+      "prompt": "私は ＿＿ ＿＿ ★ ＿＿ ないが、夜はあまり飲まない。",
+      "options": [
+        "わけ",
+        "コーヒーが",
+        "では",
+        "嫌いな"
+      ],
+      "answer": 0,
+      "explanation": "私は コーヒーが 嫌いな わけ では ないが… ★ is the third: わけ.",
+      "items": [
+        "grammar-n3-wake"
+      ]
+    },
+    {
+      "section": "grammar",
+      "part": "問題2 文の組み立て · Sentence order (★)",
+      "prompt": "先生は ＿＿ ★ ＿＿ ＿＿ ていねいに答えてくれた。",
+      "options": [
+        "質問",
+        "に対して",
+        "私が",
+        "した"
+      ],
+      "answer": 3,
+      "explanation": "先生は 私が した 質問 に対して ていねいに答えてくれた. ★ is the second: した.",
+      "items": [
+        "grammar-n3-ni-taishite"
+      ]
+    },
+    {
+      "section": "grammar",
+      "part": "問題3 文章の文法 · Text grammar",
+      "passage": "　私の住んでいる町には、小さな図書館がある。去年の春から、私は週に一度、そこでボランティアをしている。子どもたちに絵本を読んであげる仕事だ。　1　、最初はうまくできなかった。声が小さくて、後ろに座っている子どもには聞こえなかったのだ。そこで、家で毎晩、声を出して読む練習をした。図書館の人の話　2　、今では子どもたちが私の来る日を楽しみに待っているそうだ。",
+      "prompt": "　1　に何を入れますか。",
+      "options": [
+        "それに",
+        "だから",
+        "しかし",
+        "たとえば"
+      ],
+      "answer": 2,
+      "explanation": "しかし = however: she started the job, but at first it did not go well.",
+      "items": []
+    },
+    {
+      "section": "grammar",
+      "part": "問題3 文章の文法 · Text grammar",
+      "passage": "　私の住んでいる町には、小さな図書館がある。去年の春から、私は週に一度、そこでボランティアをしている。子どもたちに絵本を読んであげる仕事だ。　1　、最初はうまくできなかった。声が小さくて、後ろに座っている子どもには聞こえなかったのだ。そこで、家で毎晩、声を出して読む練習をした。図書館の人の話　2　、今では子どもたちが私の来る日を楽しみに待っているそうだ。",
+      "prompt": "　2　に何を入れますか。",
+      "options": [
+        "に対して",
+        "によると",
+        "として",
+        "について"
+      ],
+      "answer": 1,
+      "explanation": "〜の話によると…そうだ = according to what the library staff say.",
+      "items": [
+        "grammar-n3-ni-yoru-to"
+      ]
+    },
+    {
+      "section": "reading",
+      "part": "問題4 内容理解（短文） · Short passage",
+      "passage": "マンションにお住まいの皆様へ\n\n来月から、ごみを出す日が変わります。燃えるごみは月曜日と木曜日、プラスチックごみは水曜日です。びんと缶は、これまでと同じく金曜日です。\nごみは、収集日の朝八時までに出してください。前の日の夜に出すことはできませんので、ご注意ください。\n\n管理人",
+      "prompt": "来月から、プラスチックごみはいつ出せばいいか。",
+      "options": [
+        "月曜日の朝八時まで",
+        "火曜日の夜",
+        "水曜日の朝八時まで",
+        "金曜日の朝八時まで"
+      ],
+      "answer": 2,
+      "explanation": "プラスチックごみは水曜日, by 8 a.m. on collection day; the night before is not allowed.",
+      "items": []
+    },
+    {
+      "section": "reading",
+      "part": "問題4 内容理解（短文） · Short passage",
+      "passage": "祖母は[七十五歳|ななじゅうごさい]だが、去年からスマートフォンを使い始めた。最初は電話をかけることしかできなかったが、孫の私が使い方を教えると、すぐに写真を送ってくるようになった。今では毎朝、庭に咲いた花の写真が届く。遠く離れて住んでいても、祖母が元気に過ごしていることがわかるので、安心だ。",
+      "prompt": "筆者が安心しているのはなぜか。",
+      "options": [
+        "祖母が電話をかけられるようになったから",
+        "祖母の家の近くに引っ越したから",
+        "祖母から毎朝写真が届き、元気だとわかるから",
+        "祖母が花を育て始めたから"
+      ],
+      "answer": 2,
+      "explanation": "毎朝…写真が届く… 祖母が元気に過ごしていることがわかるので、安心だ.",
+      "items": []
+    },
+    {
+      "section": "reading",
+      "part": "問題5 内容理解（中文） · Mid-length passage",
+      "passage": "手紙のよさ\n\n　先月、小学校のときの先生から手紙が届いた。私が送った年賀状に、返事を書いてくださったのだ。封筒を開けると、きれいな字で、私の小さいころの思い出や、先生の最近の生活のことが書いてあった。\n　ふだん、私は友達との連絡にはメールやメッセージアプリしか使わない。すぐに届くし、返事もすぐにもらえるので便利だ。しかし、先生の手紙を読んで、手で書かれた文字には、画面の文字にはない温かさがあると感じた。[一文字|いちもじ][一文字|いちもじ]から、先生が時間をかけて書いてくださったことが伝わってきたからだ。\n　私もすぐに返事を書くことにした。ところが、ペンを持ってみると、簡単な漢字がなかなか思い出せない。何度も辞書を引きながら、二時間かけて、やっと便せん二枚を書き終えた。\n　これからは、大切な人には、ときどき手紙を書こうと思う。",
+      "prompt": "先生から手紙が届いたのはどうしてか。",
+      "options": [
+        "筆者がメールを送ったから",
+        "筆者が先生に会いに行ったから",
+        "先生が引っ越したから",
+        "筆者が年賀状を送ったから"
+      ],
+      "answer": 3,
+      "explanation": "私が送った年賀状に、返事を書いてくださったのだ.",
+      "items": []
+    },
+    {
+      "section": "reading",
+      "part": "問題5 内容理解（中文） · Mid-length passage",
+      "passage": "手紙のよさ\n\n　先月、小学校のときの先生から手紙が届いた。私が送った年賀状に、返事を書いてくださったのだ。封筒を開けると、きれいな字で、私の小さいころの思い出や、先生の最近の生活のことが書いてあった。\n　ふだん、私は友達との連絡にはメールやメッセージアプリしか使わない。すぐに届くし、返事もすぐにもらえるので便利だ。しかし、先生の手紙を読んで、手で書かれた文字には、画面の文字にはない温かさがあると感じた。[一文字|いちもじ][一文字|いちもじ]から、先生が時間をかけて書いてくださったことが伝わってきたからだ。\n　私もすぐに返事を書くことにした。ところが、ペンを持ってみると、簡単な漢字がなかなか思い出せない。何度も辞書を引きながら、二時間かけて、やっと便せん二枚を書き終えた。\n　これからは、大切な人には、ときどき手紙を書こうと思う。",
+      "prompt": "筆者が手で書かれた文字に温かさを感じたのはなぜか。",
+      "options": [
+        "先生の字がきれいだったから",
+        "先生が時間をかけて書いてくれたことが伝わってきたから",
+        "返事がすぐに届いたから",
+        "小さいころの思い出が書いてあったから"
+      ],
+      "answer": 1,
+      "explanation": "…からだ gives the reason: 先生が時間をかけて書いてくださったことが伝わってきた.",
+      "items": []
+    },
+    {
+      "section": "reading",
+      "part": "問題5 内容理解（中文） · Mid-length passage",
+      "passage": "手紙のよさ\n\n　先月、小学校のときの先生から手紙が届いた。私が送った年賀状に、返事を書いてくださったのだ。封筒を開けると、きれいな字で、私の小さいころの思い出や、先生の最近の生活のことが書いてあった。\n　ふだん、私は友達との連絡にはメールやメッセージアプリしか使わない。すぐに届くし、返事もすぐにもらえるので便利だ。しかし、先生の手紙を読んで、手で書かれた文字には、画面の文字にはない温かさがあると感じた。[一文字|いちもじ][一文字|いちもじ]から、先生が時間をかけて書いてくださったことが伝わってきたからだ。\n　私もすぐに返事を書くことにした。ところが、ペンを持ってみると、簡単な漢字がなかなか思い出せない。何度も辞書を引きながら、二時間かけて、やっと便せん二枚を書き終えた。\n　これからは、大切な人には、ときどき手紙を書こうと思う。",
+      "prompt": "筆者が先生に返事を書いたとき、どうだったか。",
+      "options": [
+        "漢字がなかなか思い出せず、時間がかかった",
+        "すぐに書き終わった",
+        "便せんが足りなくなった",
+        "結局メールで返事を送った"
+      ],
+      "answer": 0,
+      "explanation": "簡単な漢字がなかなか思い出せない… 二時間かけて、やっと書き終えた.",
+      "items": []
+    },
+    {
+      "section": "reading",
+      "part": "問題6 情報検索 · Finding information",
+      "passage": "駅前駐輪場　利用料金のご案内\n\n①一回利用（その日のみ）　一般 150円　学生 100円\n②一か月定期　一般 2,000円　学生 1,500円\n③三か月定期　一般 5,500円　学生 4,000円\n\n＊学生料金で定期を申し込むときは、学生証が必要です。\n＊午前0時から午前5時までは、自転車を出し入れできません。",
+      "prompt": "大学生のキムさんは、これから三か月[間|かん]、毎日この駐輪場を使うつもりです。学生証を持っています。一番安くなるのはどれか。",
+      "options": [
+        "一回利用の料金を毎日払う",
+        "三か月定期（学生）を買う",
+        "一か月定期（学生）を三回買う",
+        "三か月定期（一般）を買う"
+      ],
+      "answer": 1,
+      "explanation": "Student 3-month pass 4,000円 is cheapest: three 1-month passes cost 4,500円, and paying 100円 every day costs far more.",
+      "items": []
+    },
+    {
+      "section": "listening",
+      "part": "問題1 課題理解 · Task",
+      "passage": "会社で女の人と男の人が話しています。男の人はまず何をしますか。\n女：田中さん、明日の歓迎会の準備、手伝ってくれる？\n男：いいですよ。何をすればいいですか。\n女：お店の予約はもうしてあるから、参加する人の[数|かず]を確認してほしいの。\n男：わかりました。じゃあ、皆さんにメールで聞いてみます。\n女：あ、それはもう私が聞いたの。返事のメールを今から送るから、それを見て人数を数えてくれる？そのあとで、お店に人数を電話で伝えてね。\n男：わかりました。\n男の人はまず何をしますか。",
+      "prompt": "男の人はまず何をしますか。",
+      "options": [
+        "店を予約する",
+        "参加する人にメールで聞く",
+        "届いたメールを見て人数を数える",
+        "店に電話する"
+      ],
+      "answer": 2,
+      "explanation": "She already asked everyone; first he counts from the replies, then phones the restaurant (そのあとで).",
+      "items": []
+    },
+    {
+      "section": "listening",
+      "part": "問題1 課題理解 · Task",
+      "passage": "図書館で男の人と係の人が話しています。男の人はカードを作るために、何をしなければなりませんか。\n男：すみません、本を借りたいんですが、初めてなんです。\n女：では、まず利用カードを作っていただきます。住所がわかるものをお持ちですか。\n男：運転免許証でいいですか。\n女：はい、大丈夫です。それから、こちらの用紙にお名前と電話番号を書いてください。\n男：写真はいりますか。\n女：いいえ、写真はいりません。\n男の人はカードを作るために、何をしなければなりませんか。",
+      "prompt": "男の人はカードを作るために、何をしなければなりませんか。",
+      "options": [
+        "写真を持ってくる",
+        "用紙に名前だけ書く",
+        "電話番号を調べる",
+        "免許証を見せて、用紙に書く"
+      ],
+      "answer": 3,
+      "explanation": "ID with an address (the licence) plus name and phone number on the form; no photo needed.",
+      "items": []
+    },
+    {
+      "section": "listening",
+      "part": "問題1 課題理解 · Task",
+      "passage": "教室で先生が話しています。学生は、明日雨が降ったらどうしますか。\n先生：明日は博物館へ見学に行きます。朝九時に、学校ではなく駅の改札の前に集まってください。博物館の中では食べ物が食べられないので、お弁当は近くの公園で食べます。もし雨が降ったら、見学は来週に延期して、明日は学校でふつうの授業をします。\n学生は、明日雨が降ったらどうしますか。",
+      "prompt": "学生は、明日雨が降ったらどうしますか。",
+      "options": [
+        "学校で授業を受ける",
+        "駅の改札の前に集まる",
+        "公園で弁当を食べる",
+        "博物館の中で弁当を食べる"
+      ],
+      "answer": 0,
+      "explanation": "雨が降ったら…明日は学校でふつうの授業をします.",
+      "items": []
+    },
+    {
+      "section": "listening",
+      "part": "問題2 ポイント理解 · Key point",
+      "passage": "女の人と男の人が話しています。男の人はどうしてジョギングをやめましたか。\n女：最近、朝のジョギング、してないんですか。\n男：ええ、先月やめちゃったんです。\n女：え、膝でも痛めたんですか。\n男：いいえ、体は大丈夫です。早起きにも慣れましたし。実は、会社が引っ越して遠くなって、家を出る時間が一時間も早くなったんですよ。\n女：ああ、それじゃ走る時間がありませんね。\n男の人はどうしてジョギングをやめましたか。",
+      "prompt": "男の人はどうしてジョギングをやめましたか。",
+      "options": [
+        "膝が痛くなったから",
+        "早く起きられないから",
+        "会社で運動するようになったから",
+        "朝の時間がなくなったから"
+      ],
+      "answer": 3,
+      "explanation": "He has to leave home an hour earlier, so there's no time in the morning. His body is fine and he's used to waking early.",
+      "items": []
+    },
+    {
+      "section": "listening",
+      "part": "問題2 ポイント理解 · Key point",
+      "passage": "男の人と女の人が話しています。女の人が一番困っていることは何ですか。\n男：新しい部屋はどう？\n女：駅から近いし、部屋も広いし、気に入ってるんだけど…。\n男：けど？\n女：日当たりがよくないから、洗濯物がなかなか乾かないの。それが一番困ってる。\n男：それは大変だね。\n女：家賃が少し高いのも気になるけど、まあ、それは仕方ないかな。\n女の人が一番困っていることは何ですか。",
+      "prompt": "女の人が一番困っていることは何ですか。",
+      "options": [
+        "駅から遠いこと",
+        "洗濯物が乾かないこと",
+        "家賃が高いこと",
+        "部屋が狭いこと"
+      ],
+      "answer": 1,
+      "explanation": "洗濯物がなかなか乾かないの。それが一番困ってる. The rent bothers her less.",
+      "items": []
+    },
+    {
+      "section": "listening",
+      "part": "問題2 ポイント理解 · Key point",
+      "passage": "男の人と女の人が映画について話しています。女の人は、映画の何が一番よかったと言っていますか。\n男：昨日見た映画、どうだった？\n女：話はちょっとわかりにくかったけど、音楽がすごくよかった。\n男：主人公の俳優、人気があるよね。\n女：うん。でも、私はあまり好きじゃないんだ。景色もきれいだったけど、やっぱり音楽が一番よかったな。\n女の人は、映画の何が一番よかったと言っていますか。",
+      "prompt": "女の人は、映画の何が一番よかったと言っていますか。",
+      "options": [
+        "音楽",
+        "話",
+        "俳優",
+        "景色"
+      ],
+      "answer": 0,
+      "explanation": "やっぱり音楽が一番よかった. The story was hard to follow and she doesn't like the actor.",
+      "items": []
+    },
+    {
+      "section": "listening",
+      "part": "問題3 概要理解 · Gist",
+      "passage": "ラジオで男の人が話しています。\n男：皆さんは、家に水や食べ物をどのぐらい用意していますか。大きな地震が起きると、電気や水道が何日も止まってしまうことがあります。専門[家|か]によると、少なくとも三日分の水と食料を準備しておくと安心だそうです。また、懐中電灯や薬なども一つの袋に入れて、すぐに持って出られる場所に置いておきましょう。\n男の人は何について話していますか。",
+      "prompt": "男の人は何について話していますか。",
+      "options": [
+        "地震が起きる原因",
+        "水道の正しい使い方",
+        "災害に備えて準備しておくもの",
+        "薬の飲み方"
+      ],
+      "answer": 2,
+      "explanation": "Water, food, a torch and medicine to prepare in case of an earthquake.",
+      "items": []
+    },
+    {
+      "section": "listening",
+      "part": "問題3 概要理解 · Gist",
+      "passage": "女の人が友達の留守番電話にメッセージを残しています。\n女：もしもし、ゆみです。明日のハイキングのことなんだけど、天気予報を見たら、午後から雨が強くなるんだって。だから、山に登るのはやめて、代わりに駅の近くの美術館に行かない？時間は予定どおり十時で、集まる場所も駅の東口のままでいいと思う。今夜までに返事ちょうだいね。\n女の人が一番伝えたいことは何ですか。",
+      "prompt": "女の人が一番伝えたいことは何ですか。",
+      "options": [
+        "ハイキングの時間を変えたい",
+        "行く場所を美術館に変えたい",
+        "集まる場所を変えたい",
+        "天気がよくなったら山に行きたい"
+      ],
+      "answer": 1,
+      "explanation": "Because of rain she suggests the museum instead; the time and meeting place stay the same.",
+      "items": []
+    },
+    {
+      "section": "listening",
+      "part": "問題4 発話表現 · What do you say?",
+      "passage": "友達の家に遊びに来ました。友達のお母さんに、トイレを使わせてもらいたいです。何と言いますか。",
+      "prompt": "何と言いますか。",
+      "options": [
+        "トイレを貸してあげましょうか。",
+        "トイレはいかがですか。",
+        "すみません、トイレをお借りしてもいいですか。",
+        "トイレに行ってもらえますか。"
+      ],
+      "answer": 2,
+      "explanation": "Asking permission politely: お借りしてもいいですか.",
+      "items": []
+    },
+    {
+      "section": "listening",
+      "part": "問題4 発話表現 · What do you say?",
+      "passage": "あなたは店員です。お客さんが重そうな荷物を持っています。何と言いますか。",
+      "prompt": "何と言いますか。",
+      "options": [
+        "お荷物、持ってくださいませんか。",
+        "お荷物、お持ちになってください。",
+        "お荷物、持っていただきます。",
+        "お荷物、お持ちしましょうか。"
+      ],
+      "answer": 3,
+      "explanation": "Offering help with humble speech: お持ちしましょうか.",
+      "items": []
+    },
+    {
+      "section": "listening",
+      "part": "問題5 即時応答 · Quick response",
+      "passage": "女：今度の日曜日、もし暇だったら、一緒に買い物に行かない？",
+      "prompt": "何と答えますか。",
+      "options": [
+        "ごめん、もう行ってきたよ。",
+        "いいね。どこに行く？",
+        "日曜日は暇じゃなかったよ。",
+        "うん、買ってきてくれる？"
+      ],
+      "answer": 1,
+      "explanation": "Accepting the invitation: いいね。どこに行く？",
+      "items": []
+    },
+    {
+      "section": "listening",
+      "part": "問題5 即時応答 · Quick response",
+      "passage": "男：すみません、もう少しゆっくり話していただけますか。",
+      "prompt": "何と答えますか。",
+      "options": [
+        "あ、すみません。じゃあ、もう一度言いますね。",
+        "はい、ゆっくりしてください。",
+        "いいえ、早く話しました。",
+        "ありがとうございます。話してください。"
+      ],
+      "answer": 0,
+      "explanation": "He asks you to speak more slowly; apologise and repeat it.",
+      "items": []
+    },
+    {
+      "section": "listening",
+      "part": "問題5 即時応答 · Quick response",
+      "passage": "女：あ、雨降ってきた。傘持ってる？",
+      "prompt": "何と答えますか。",
+      "options": [
+        "うん、雨が降ってきたね。",
+        "うん、明日も降るらしいよ。",
+        "うん、折りたたみのが一本あるよ。",
+        "ううん、傘はぬれてないよ。"
+      ],
+      "answer": 2,
+      "explanation": "Answer the question about an umbrella: 折りたたみのが一本あるよ (I have a folding one).",
+      "items": []
+    }
+  ]
+}

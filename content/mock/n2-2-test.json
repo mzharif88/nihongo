@@ -1,0 +1,13 @@
+{
+ "version": 1,
+ "kind": "mock_tests",
+ "source": "original-mock",
+ "records": [
+  {
+   "slug": "mock-n2-2",
+   "jlpt_level": "N2",
+   "title": "N2 mock test 2",
+   "time_limit_min": 81
+  }
+ ]
+}
