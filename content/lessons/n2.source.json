@@ -1,0 +1,161 @@
+{
+  "version": 1,
+  "kind": "lessons",
+  "source": "original-n2-lessons",
+  "records": [
+    {
+      "slug": "lesson-n2-01-kaigi",
+      "jlpt_level": "N2",
+      "position": 1,
+      "title": "会議 — A tough budget meeting",
+      "situation": "Sales have dropped, and your team meets to decide what to cut. The manager has bad news.",
+      "item_slugs": ["予算", "費用", "売上", "延期", "検討", "提案", "方針", "影響"],
+      "grammar_slug": "grammar-n2-zaru-wo-enai",
+      "dialogue": [
+        { "speaker": "部長", "jp": "皆さんもご存じのとおり、今期は売上が大きく落ち込んでいます。", "en": "As you all know, sales have fallen sharply this quarter." },
+        { "speaker": "部長", "jp": "そこで、来期の予算を二割削減せざるを得なくなりました。", "en": "So we have no choice but to cut next quarter's budget by twenty percent." },
+        { "speaker": "山田", "jp": "二割もですか。新しい広告の計画はどうなるんでしょうか。", "en": "Twenty percent? What happens to the new advertising plan?" },
+        { "speaker": "部長", "jp": "残念ですが、広告は来年まで延期することになると思います。", "en": "Unfortunately, I think the advertising will have to be postponed until next year." },
+        { "speaker": "あなた", "jp": "でも、広告をやめると、売上がさらに下がりかねません。", "en": "But if we stop advertising, sales could fall even further." },
+        { "speaker": "部長", "jp": "確かにその影響は無視するわけにはいきませんね。何か提案はありますか。", "en": "True, we can't very well ignore that effect. Do you have a proposal?" },
+        { "speaker": "あなた", "jp": "インターネット広告なら、費用を半分以下に抑えられます。", "en": "With online ads, we could keep the cost to less than half." },
+        { "speaker": "部長", "jp": "なるほど。では、具体的な数字を出した上で、もう一度検討しましょう。", "en": "I see. Then let's look at it again once you've put together concrete figures." },
+        { "speaker": "部長", "jp": "会社の方針は変わりませんが、できることはやりましょう。", "en": "The company's policy won't change, but let's do what we can." }
+      ],
+      "checks": [
+        { "prompt": "Why is the budget being cut?", "options": ["The company is moving", "Sales have fallen sharply", "Advertising was too expensive", "The manager is leaving"], "answer": 1, "explanation": "「今期は売上が大きく落ち込んでいます」→ so the cut is unavoidable." },
+        { "prompt": "Fill in the blank: 予算を削減（　）なりました。", "options": ["せざるを得なく", "しざるを得なく", "するざるを得なく", "さざるを得なく"], "answer": 0, "explanation": "する is irregular: せ + ざるを得ない." },
+        { "prompt": "What does the manager ask for before deciding again?", "options": ["A new advertising company", "Concrete figures", "A bigger budget", "Next year's sales"], "answer": 1, "explanation": "「具体的な数字を出した上で、もう一度検討しましょう」: 上で = after doing, as a basis." }
+      ],
+      "notes": "ざるを得ない = have no choice but to: ない-stem + ざる (行かない → 行かざるを得ない). する becomes せざるを得ない.\nかねない = could well (a bad result): 下がりかねない.\nわけにはいかない = can't very well (a social or moral reason): 無視するわけにはいかない.\n\n上で: た-form + 上で = after doing, and on that basis: 考えた上で決める.\n\nCulture: at Japanese meetings, a junior who disagrees usually offers an alternative (提案) instead of a flat no."
+    },
+    {
+      "slug": "lesson-n2-02-keiyaku",
+      "jlpt_level": "N2",
+      "position": 2,
+      "title": "部屋の契約 — Signing a lease",
+      "situation": "You've found an apartment and sit down with the estate agent to go through the contract.",
+      "item_slugs": ["契約", "家賃", "条件", "期間", "利用", "保証", "手続き", "支払う"],
+      "grammar_slug": "grammar-n2-ni-kakawarazu",
+      "dialogue": [
+        { "speaker": "不動産屋", "jp": "では、契約の条件をご説明いたします。", "en": "Now, let me explain the terms of the contract." },
+        { "speaker": "不動産屋", "jp": "家賃は毎月二十七日までにお支払いください。", "en": "Please pay the rent by the 27th of each month." },
+        { "speaker": "あなた", "jp": "もし途中で解約したい場合は、どうなりますか。", "en": "What happens if I want to cancel partway through?" },
+        { "speaker": "不動産屋", "jp": "一か月前までにご連絡いただければ、いつでも解約できます。", "en": "As long as you let us know a month in advance, you can cancel any time." },
+        { "speaker": "不動産屋", "jp": "ただし、住んだ期間にかかわらず、部屋の掃除の費用はご負担いただきます。", "en": "However, regardless of how long you lived here, you'll bear the cost of cleaning the room." },
+        { "speaker": "あなた", "jp": "わかりました。保証人がいないんですが、大丈夫でしょうか。", "en": "I see. I don't have a guarantor. Is that all right?" },
+        { "speaker": "不動産屋", "jp": "保証会社を利用すれば問題ありません。国籍にかかわらず、皆さんご利用になっています。", "en": "If you use a guarantor company, there's no problem. Everyone uses one, whatever their nationality." },
+        { "speaker": "あなた", "jp": "それなら安心しました。", "en": "That's a relief." },
+        { "speaker": "不動産屋", "jp": "では、こちらの書類にサインしていただければ、手続きは終わりです。", "en": "Then if you sign these papers, the procedure is complete." }
+      ],
+      "checks": [
+        { "prompt": "How early must you give notice to cancel?", "options": ["One week", "Two weeks", "One month", "Three months"], "answer": 2, "explanation": "「一か月前までにご連絡いただければ」." },
+        { "prompt": "What do you always pay when you leave?", "options": ["One month's rent", "The cleaning cost", "The guarantor fee", "Nothing"], "answer": 1, "explanation": "「住んだ期間にかかわらず、部屋の掃除の費用はご負担いただきます」." },
+        { "prompt": "Fill in the blank: 天気（　）、イベントは行います。", "options": ["にかかわらず", "にもかかわらず", "につれて", "に応じて"], "answer": 0, "explanation": "にかかわらず = regardless of. にもかかわらず = despite (one fact that happened)." }
+      ],
+      "notes": "にかかわらず = regardless of: 年齢にかかわらず, 経験の有無にかかわらず, 天候にかかわらず.\nにもかかわらず = despite: one real fact, with surprise. 雨にもかかわらず、人が来た.\n\n〜ていただく is very common in contracts: ご負担いただきます = we'll have you bear it.\n\nCulture: many Japanese rentals ask for a guarantor (保証人). Guarantor companies (保証会社) solve this for most foreign residents, for a fee."
+    },
+    {
+      "slug": "lesson-n2-03-kankyou",
+      "jlpt_level": "N2",
+      "position": 3,
+      "title": "環境の話 — A class discussion on the environment",
+      "situation": "In a university seminar, you and a classmate present on climate change and plastic waste.",
+      "item_slugs": ["環境", "平均", "資源", "減少", "増加", "対策", "深刻", "努力"],
+      "grammar_slug": "grammar-n2-tsutsu-aru",
+      "dialogue": [
+        { "speaker": "先生", "jp": "では、今日の発表を始めてください。", "en": "Please begin today's presentation." },
+        { "speaker": "あなた", "jp": "私たちは地球温暖化とプラスチックごみについて調べました。", "en": "We researched global warming and plastic waste." },
+        { "speaker": "あなた", "jp": "世界の平均気温は少しずつ上がりつつあります。", "en": "The world's average temperature is gradually rising." },
+        { "speaker": "リン", "jp": "それにつれて、海の氷が減少し、海面が上昇しています。", "en": "Along with that, sea ice is decreasing and the sea level is rising." },
+        { "speaker": "リン", "jp": "また、海に捨てられるプラスチックごみも増加する一方です。", "en": "Also, the plastic waste dumped in the sea just keeps increasing." },
+        { "speaker": "先生", "jp": "問題はかなり深刻ですね。では、対策としては何が考えられますか。", "en": "It's quite a serious problem. What measures can we think of?" },
+        { "speaker": "あなた", "jp": "国の努力ももちろん必要ですが、一人一人の行動も大切だと思います。", "en": "Government effort is of course necessary, but I think each person's actions matter too." },
+        { "speaker": "リン", "jp": "例えば、マイバッグを使うだけでも、資源の無駄を減らせます。", "en": "For example, just using your own bag can reduce wasted resources." },
+        { "speaker": "先生", "jp": "小さなことだからこそ、続けることが大事ですね。", "en": "It's precisely because it's small that it's important to keep it up." }
+      ],
+      "checks": [
+        { "prompt": "Fill in the blank: 気温は少しずつ上がり（　）。", "options": ["つつあります", "かねます", "ざるを得ません", "ものです"], "answer": 0, "explanation": "ます-stem + つつある = in the process of changing." },
+        { "prompt": "What does Lin say about plastic waste in the sea?", "options": ["It is decreasing", "It keeps increasing", "It has stopped", "It is not a problem"], "answer": 1, "explanation": "「増加する一方です」: 一方だ = keeps going one way." },
+        { "prompt": "What example of personal action is given?", "options": ["Using your own bag", "Driving less", "Eating less meat", "Turning off lights"], "answer": 0, "explanation": "「マイバッグを使うだけでも、資源の無駄を減らせます」." }
+      ],
+      "notes": "つつある = in the process of (written, formal): 増えつつある, 変わりつつある.\nにつれて = as one thing changes, so does another.\n一方だ = keeps on (one direction): 増える一方だ, 悪くなる一方だ.\nからこそ = precisely because.\n\nVocabulary pairs: 増加 (increase) ↔ 減少 (decrease); 上昇 (rise) ↔ 低下 (fall)."
+    },
+    {
+      "slug": "lesson-n2-04-kujou",
+      "jlpt_level": "N2",
+      "position": 4,
+      "title": "クレーム対応 — Handling a complaint",
+      "situation": "A customer calls your company: the product they ordered arrived damaged. You handle it politely.",
+      "item_slugs": ["苦情", "商品", "注文", "交換", "確認", "至急", "迷惑", "責任"],
+      "grammar_slug": "grammar-n2-kaneru",
+      "dialogue": [
+        { "speaker": "客", "jp": "昨日届いた商品が壊れていたんですけど。", "en": "The product that arrived yesterday was broken." },
+        { "speaker": "あなた", "jp": "大変ご迷惑をおかけして、申し訳ございません。", "en": "We're terribly sorry for the trouble we've caused." },
+        { "speaker": "あなた", "jp": "ご注文番号を確認させていただけますか。", "en": "May I check your order number?" },
+        { "speaker": "客", "jp": "はい、A3205です。すぐに新しいものと交換してもらえますか。", "en": "Yes, A3205. Can you exchange it for a new one right away?" },
+        { "speaker": "あなた", "jp": "はい、至急新しい商品をお送りいたします。壊れた商品は返品していただけますでしょうか。", "en": "Yes, we'll send a new product urgently. Could you return the broken one?" },
+        { "speaker": "客", "jp": "わかりました。でも、どうしてこんなことになったんですか。", "en": "All right. But how did this happen?" },
+        { "speaker": "あなた", "jp": "原因については、現在調べておりますので、今の段階ではお答えしかねます。", "en": "We're investigating the cause now, so at this stage I'm unable to answer." },
+        { "speaker": "あなた", "jp": "分かり次第、責任を持ってご連絡いたします。", "en": "As soon as we find out, I'll take responsibility for contacting you." },
+        { "speaker": "客", "jp": "じゃあ、お願いします。", "en": "Then please do." }
+      ],
+      "checks": [
+        { "prompt": "What will the company do first?", "options": ["Refund the money", "Send a new product urgently", "Repair the broken one", "Visit the customer"], "answer": 1, "explanation": "「至急新しい商品をお送りいたします」." },
+        { "prompt": "What does お答えしかねます mean?", "options": ["I'll answer gladly", "I'm unable to answer", "I've already answered", "Please answer"], "answer": 1, "explanation": "ます-stem + かねる = (politely) can't." },
+        { "prompt": "Fill in the blank: 無理をすると、病気になり（　）よ。", "options": ["かねる", "かねない", "かねます", "つつある"], "answer": 1, "explanation": "かねない = could well happen (a risk). かねる = can't (refusal)." }
+      ],
+      "notes": "かねる vs かねない look alike but mean different things:\n・お答えしかねます = I'm unable to answer (a polite refusal).\n・事故になりかねない = it could lead to an accident (a risk).\n\nApologies, from light to deep: すみません → 申し訳ありません → 申し訳ございません → 大変ご迷惑をおかけしました.\n\n〜次第 = as soon as: 分かり次第, 着き次第."
+    },
+    {
+      "slug": "lesson-n2-05-shinro",
+      "jlpt_level": "N2",
+      "position": 5,
+      "title": "進路相談 — Talking about your future",
+      "situation": "You visit your professor's office to talk about whether to go on to graduate school or start working.",
+      "item_slugs": ["進学", "就職", "将来", "迷う", "専門", "研究", "相談", "決心"],
+      "grammar_slug": "grammar-n2-ue-de",
+      "dialogue": [
+        { "speaker": "あなた", "jp": "先生、卒業後のことでご相談したいことがあるんですが。", "en": "Professor, there's something I'd like to talk to you about, regarding after graduation." },
+        { "speaker": "先生", "jp": "どうぞ。大学院に進学するか、就職するか、迷っているんですか。", "en": "Go ahead. Are you torn between graduate school and getting a job?" },
+        { "speaker": "あなた", "jp": "はい。研究は好きなんですが、早く働いて家族を助けたい気持ちもあって。", "en": "Yes. I like research, but I also want to start working soon and help my family." },
+        { "speaker": "先生", "jp": "なるほど。どちらを選ぶにしても、自分の将来をよく考えた上で決めることが大切ですよ。", "en": "I see. Whichever you choose, it's important to decide after thinking carefully about your future." },
+        { "speaker": "先生", "jp": "あなたの専門なら、就職してから大学院に戻る人も少なくありません。", "en": "In your field, quite a few people go back to graduate school after working." },
+        { "speaker": "あなた", "jp": "そうなんですか。それは知りませんでした。", "en": "Really? I didn't know that." },
+        { "speaker": "先生", "jp": "会社で働く上で、研究で学んだことはきっと役に立ちますよ。", "en": "What you learned in research will surely be useful in working at a company." },
+        { "speaker": "あなた", "jp": "ありがとうございます。両親とも話した上で、決心しようと思います。", "en": "Thank you. I'll make up my mind after talking with my parents too." }
+      ],
+      "checks": [
+        { "prompt": "Why is the student torn?", "options": ["Their grades are low", "They like research but want to help their family", "They don't like their major", "Their parents want them to study"], "answer": 1, "explanation": "「研究は好きなんですが、早く働いて家族を助けたい気持ちもあって」." },
+        { "prompt": "What does the professor say about people in this field?", "options": ["Few of them find jobs", "Many go back to grad school after working", "They all go to grad school", "They earn a lot"], "answer": 1, "explanation": "「就職してから大学院に戻る人も少なくありません」= quite a few." },
+        { "prompt": "Fill in the blank: 両親と話した（　）、決めます。", "options": ["上で", "上に", "うちに", "ばかりか"], "answer": 0, "explanation": "た-form + 上で = after doing (and based on it). 上に = on top of." }
+      ],
+      "notes": "上で has two uses:\n・た-form / noun + の + 上で = after (and based on): 考えた上で, 相談の上で.\n・Dictionary form + 上で = in doing, for: 働く上で大切なこと.\n上に is different: on top of, besides (安い上においしい).\n\n少なくない = not few = quite a lot (a typical N2 understatement)."
+    },
+    {
+      "slug": "lesson-n2-06-bousai",
+      "jlpt_level": "N2",
+      "position": 6,
+      "title": "防災訓練 — A disaster drill",
+      "situation": "Your neighbourhood holds an earthquake drill. A fire officer explains what to do.",
+      "item_slugs": ["用意", "地震", "訓練", "揺れる", "非常", "被害", "備える", "慌てる"],
+      "grammar_slug": "grammar-n2-osore-ga-aru",
+      "dialogue": [
+        { "speaker": "消防士", "jp": "皆さん、本日は防災訓練にご参加いただき、ありがとうございます。", "en": "Everyone, thank you for taking part in today's disaster drill." },
+        { "speaker": "消防士", "jp": "この地域では、大きな地震が起きると、津波のおそれがあります。", "en": "In this area, if a big earthquake hits, there is a risk of a tsunami." },
+        { "speaker": "消防士", "jp": "揺れを感じたら、まず机の下に入って、頭を守ってください。", "en": "When you feel shaking, first get under a desk and protect your head." },
+        { "speaker": "あなた", "jp": "揺れが止まったら、すぐに外に出たほうがいいですか。", "en": "When the shaking stops, should we go outside right away?" },
+        { "speaker": "消防士", "jp": "慌てて出ると、物が落ちてきてけがをしかねません。落ち着いて、係員の指示にしたがって避難してください。", "en": "If you rush out, things could fall on you and hurt you. Stay calm and evacuate following the staff's instructions." },
+        { "speaker": "あなた", "jp": "非常用の水や食べ物は、どのくらい用意すればいいでしょうか。", "en": "How much emergency water and food should we prepare?" },
+        { "speaker": "消防士", "jp": "最低三日分は備えておいてください。家族の人数に応じて、量を決めるといいですね。", "en": "Please keep at least three days' worth. It's good to decide the amount according to the number of people in your family." },
+        { "speaker": "消防士", "jp": "準備さえしておけば、被害を小さくすることができます。", "en": "As long as you're prepared, you can reduce the damage." }
+      ],
+      "checks": [
+        { "prompt": "What is the first thing to do when you feel shaking?", "options": ["Run outside", "Get under a desk and protect your head", "Call the fire station", "Open the windows"], "answer": 1, "explanation": "「まず机の下に入って、頭を守ってください」." },
+        { "prompt": "How much emergency food should you keep?", "options": ["One day's worth", "At least three days' worth", "A week's worth", "A month's worth"], "answer": 1, "explanation": "「最低三日分は備えておいてください」." },
+        { "prompt": "Fill in the blank: 明日は大雪の（　）があります。", "options": ["おそれ", "くせ", "もの", "きっかけ"], "answer": 0, "explanation": "Noun + の + おそれがある = there is a risk of (warnings, news)." }
+      ],
+      "notes": "おそれがある = there's a risk of (news and warnings): 大雨のおそれ, 倒れるおそれがある.\nかねない is the same idea in everyday speech: けがをしかねない.\nにしたがって = following (instructions). に応じて = matching (a number or need).\nさえ〜ば = as long as just this: 準備さえしておけば.\n\nCulture: Japan holds disaster drills on 防災の日 (1 September). Keep an emergency bag (非常持ち出し袋) by the door."
+    }
+  ]
+}

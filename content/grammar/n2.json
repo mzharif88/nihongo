@@ -1,0 +1,607 @@
+{
+ "version": 1,
+ "kind": "items",
+ "source": "original-grammar",
+ "records": [
+  {
+   "slug": "grammar-n2-ni-tsurete",
+   "term": "〜につれて (as… so…)",
+   "meaning": "Dictionary form / noun + につれて = as one thing changes, another changes with it.",
+   "examples": [
+    {
+     "jp": "年をとるにつれて、体力が落ちてきた。",
+     "en": "As I've got older, my stamina has dropped.",
+     "reading": "[年|とし]をとるにつれて、[体力|たいりょく]が[落|お]ちてきた。"
+    },
+    {
+     "jp": "日本語が上手になるにつれて、日本の生活が楽しくなった。",
+     "en": "As my Japanese improved, life in Japan became more fun.",
+     "reading": "[日本語|にほんご]が[上手|じょうず]になるにつれて、[日本|にほん]の[生活|せいかつ]が[楽|たの]しくなった。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N2",
+   "skill": "grammar",
+   "grammar_point": "grammar-n2-ni-tsurete",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n2-ni-shitagatte",
+   "term": "〜にしたがって (as…; in accordance with)",
+   "meaning": "Dictionary form + にしたがって = as… (gradual change). Noun + にしたがって = following (rules, instructions).",
+   "examples": [
+    {
+     "jp": "山を登るにしたがって、気温が下がっていく。",
+     "en": "As you climb the mountain, the temperature goes down.",
+     "reading": "[山|やま]を[登|のぼ]るにしたがって、[気温|きおん]が[下|さ]がっていく。"
+    },
+    {
+     "jp": "係員の指示にしたがって、避難してください。",
+     "en": "Please evacuate following the staff's instructions.",
+     "reading": "[係員|かかりいん]の[指示|しじ]にしたがって、[避難|ひなん]してください。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N2",
+   "skill": "grammar",
+   "grammar_point": "grammar-n2-ni-shitagatte",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n2-ni-kakawarazu",
+   "term": "〜にかかわらず (regardless of)",
+   "meaning": "Noun (often a pair or range) + にかかわらず = regardless of, whether or not.",
+   "examples": [
+    {
+     "jp": "年齢や経験にかかわらず、だれでも応募できます。",
+     "en": "Anyone can apply, regardless of age or experience.",
+     "reading": "[年齢|ねんれい]や[経験|けいけん]にかかわらず、だれでも[応募|おうぼ]できます。"
+    },
+    {
+     "jp": "天気にかかわらず、試合は行われます。",
+     "en": "The match will be held whatever the weather.",
+     "reading": "[天気|てんき]にかかわらず、[試合|しあい]は[行|おこな]われます。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N2",
+   "skill": "grammar",
+   "grammar_point": "grammar-n2-ni-kakawarazu",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n2-ni-mo-kakawarazu",
+   "term": "〜にもかかわらず (despite)",
+   "meaning": "Plain form / noun + にもかかわらず = despite, even though (with surprise or criticism).",
+   "examples": [
+    {
+     "jp": "雨にもかかわらず、たくさんの人が集まった。",
+     "en": "Despite the rain, a lot of people gathered.",
+     "reading": "[雨|あめ]にもかかわらず、たくさんの[人|ひと]が[集|あつ]まった。"
+    },
+    {
+     "jp": "何度も注意したにもかかわらず、彼はまた遅刻した。",
+     "en": "Even though I warned him many times, he was late again.",
+     "reading": "[何度|なんど]も[注意|ちゅうい]したにもかかわらず、[彼|かれ]はまた[遅刻|ちこく]した。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N2",
+   "skill": "grammar",
+   "grammar_point": "grammar-n2-ni-mo-kakawarazu",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n2-wake-ni-wa-ikanai",
+   "term": "〜わけにはいかない (can't very well)",
+   "meaning": "Dictionary form + わけにはいかない = can't do it (for social or moral reasons). ない-form + わけにはいかない = have to.",
+   "examples": [
+    {
+     "jp": "大事な会議があるので、休むわけにはいかない。",
+     "en": "There's an important meeting, so I can't very well take the day off.",
+     "reading": "[大事|だいじ]な[会議|かいぎ]があるので、[休|やす]むわけにはいかない。"
+    },
+    {
+     "jp": "先輩の頼みなので、引き受けないわけにはいかない。",
+     "en": "It's a request from a senior colleague, so I have to accept it.",
+     "reading": "[先輩|せんぱい]の[頼|たの]みなので、[引|ひ]き[受|う]けないわけにはいかない。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N2",
+   "skill": "grammar",
+   "grammar_point": "grammar-n2-wake-ni-wa-ikanai",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n2-zaru-wo-enai",
+   "term": "〜ざるを得ない (have no choice but to)",
+   "meaning": "ない-stem + ざるを得ない = have no choice but to (する → せざるを得ない).",
+   "examples": [
+    {
+     "jp": "台風が来ているので、旅行は中止せざるを得ない。",
+     "en": "A typhoon is coming, so we have no choice but to cancel the trip.",
+     "reading": "[台風|たいふう]が[来|き]ているので、[旅行|りょこう]は[中止|ちゅうし]せざるを[得|え]ない。"
+    },
+    {
+     "jp": "部長の命令なら、従わざるを得ない。",
+     "en": "If it's the manager's order, I have no choice but to obey.",
+     "reading": "[部長|ぶちょう]の[命令|めいれい]なら、[従|したが]わざるを[得|え]ない。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N2",
+   "skill": "grammar",
+   "grammar_point": "grammar-n2-zaru-wo-enai",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n2-kaneru",
+   "term": "〜かねる (cannot, would rather not)",
+   "meaning": "ます-stem + かねる = can't do it (politely refusing). Common in business: 分かりかねます, お答えしかねます.",
+   "examples": [
+    {
+     "jp": "申し訳ございませんが、そのご質問にはお答えしかねます。",
+     "en": "I'm very sorry, but I'm unable to answer that question.",
+     "reading": "[申|もう]し[訳|わけ]ございませんが、そのご[質問|しつもん]にはお[答|こた]えしかねます。"
+    },
+    {
+     "jp": "その意見には賛成しかねます。",
+     "en": "I can't agree with that opinion.",
+     "reading": "その[意見|いけん]には[賛成|さんせい]しかねます。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N2",
+   "skill": "grammar",
+   "grammar_point": "grammar-n2-kaneru",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n2-kanenai",
+   "term": "〜かねない (could well, might)",
+   "meaning": "ます-stem + かねない = there's a risk it could happen (something bad).",
+   "examples": [
+    {
+     "jp": "そんなに無理をしたら、病気になりかねないよ。",
+     "en": "If you push yourself that hard, you could well get sick.",
+     "reading": "そんなに[無理|むり]をしたら、[病気|びょうき]になりかねないよ。"
+    },
+    {
+     "jp": "スマホを見ながら運転すると、事故を起こしかねない。",
+     "en": "Driving while looking at your phone could cause an accident.",
+     "reading": "スマホを[見|み]ながら[運転|うんてん]すると、[事故|じこ]を[起|お]こしかねない。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N2",
+   "skill": "grammar",
+   "grammar_point": "grammar-n2-kanenai",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n2-osore-ga-aru",
+   "term": "〜おそれがある (there is a risk of)",
+   "meaning": "Dictionary form / noun + の + おそれがある = there's a danger of (formal: news, warnings).",
+   "examples": [
+    {
+     "jp": "明日は大雨のおそれがあります。",
+     "en": "There is a risk of heavy rain tomorrow.",
+     "reading": "[明日|あした]は[大雨|おおあめ]のおそれがあります。"
+    },
+    {
+     "jp": "この地域では、川があふれるおそれがある。",
+     "en": "In this area, there's a risk the river will flood.",
+     "reading": "この[地域|ちいき]では、[川|かわ]があふれるおそれがある。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N2",
+   "skill": "grammar",
+   "grammar_point": "grammar-n2-osore-ga-aru",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n2-ue-de",
+   "term": "〜上で (after; when, in doing)",
+   "meaning": "た-form / noun + の + 上で = after doing (as a basis for the next step). Dictionary form + 上で = when doing, for.",
+   "examples": [
+    {
+     "jp": "よく考えた上で、お返事します。",
+     "en": "I'll give you my answer after thinking it over carefully.",
+     "reading": "よく[考|かんが]えた[上|うえ]で、お[返事|へんじ]します。"
+    },
+    {
+     "jp": "日本で働く上で、敬語は欠かせない。",
+     "en": "In working in Japan, keigo is indispensable.",
+     "reading": "[日本|にほん]で[働|はたら]く[上|うえ]で、[敬語|けいご]は[欠|か]かせない。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N2",
+   "skill": "grammar",
+   "grammar_point": "grammar-n2-ue-de",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n2-ue-ni",
+   "term": "〜上に (on top of, besides)",
+   "meaning": "Plain form / な-adj + な / noun + の + 上に = not only… but also (adds a point in the same direction).",
+   "examples": [
+    {
+     "jp": "この店は安い上に、料理もおいしい。",
+     "en": "This restaurant is cheap, and on top of that the food is good.",
+     "reading": "この[店|みせ]は[安|やす]い[上|うえ]に、[料理|りょうり]もおいしい。"
+    },
+    {
+     "jp": "道に迷った上に、雨まで降ってきた。",
+     "en": "I got lost, and on top of that it started to rain.",
+     "reading": "[道|みち]に[迷|まよ]った[上|うえ]に、[雨|あめ]まで[降|ふ]ってきた。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N2",
+   "skill": "grammar",
+   "grammar_point": "grammar-n2-ue-ni",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n2-bakari-ka",
+   "term": "〜ばかりか (not only… but even)",
+   "meaning": "Plain form / noun + ばかりか = not only… but (something more surprising), often with も or まで.",
+   "examples": [
+    {
+     "jp": "彼は英語ばかりか、中国語も話せる。",
+     "en": "Not only does he speak English, he speaks Chinese too.",
+     "reading": "[彼|かれ]は[英語|えいご]ばかりか、[中国|ちゅうごく][語|ご]も[話|はな]せる。"
+    },
+    {
+     "jp": "薬を飲んだが、治るばかりか、かえって悪くなった。",
+     "en": "I took the medicine, but far from getting better, I got worse.",
+     "reading": "[薬|くすり]を[飲|の]んだが、[治|なお]るばかりか、かえって[悪|わる]くなった。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N2",
+   "skill": "grammar",
+   "grammar_point": "grammar-n2-bakari-ka",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n2-dake-atte",
+   "term": "〜だけあって (as you'd expect from)",
+   "meaning": "Plain form / noun + だけあって = as expected from (praise that matches the reason).",
+   "examples": [
+    {
+     "jp": "十年も日本に住んでいるだけあって、彼女の日本語は自然だ。",
+     "en": "As you'd expect from someone who's lived in Japan for ten years, her Japanese is natural.",
+     "reading": "[十年|じゅうねん]も[日本|にほん]に[住|す]んでいるだけあって、[彼女|かのじょ]の[日本語|にほんご]は[自然|しぜん]だ。"
+    },
+    {
+     "jp": "有名なレストランだけあって、どの料理もおいしかった。",
+     "en": "As expected of a famous restaurant, every dish was delicious.",
+     "reading": "[有名|ゆうめい]なレストランだけあって、どの[料理|りょうり]もおいしかった。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N2",
+   "skill": "grammar",
+   "grammar_point": "grammar-n2-dake-atte",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n2-kara-koso",
+   "term": "〜からこそ (precisely because)",
+   "meaning": "Plain form + からこそ = precisely because (stresses the reason).",
+   "examples": [
+    {
+     "jp": "あなたのことを心配しているからこそ、厳しく言うのです。",
+     "en": "It's precisely because I worry about you that I'm being strict.",
+     "reading": "あなたのことを[心配|しんぱい]しているからこそ、[厳|きび]しく[言|い]うのです。"
+    },
+    {
+     "jp": "失敗したからこそ、学べたこともある。",
+     "en": "There are things I could learn precisely because I failed.",
+     "reading": "[失敗|しっぱい]したからこそ、[学|まな]べたこともある。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N2",
+   "skill": "grammar",
+   "grammar_point": "grammar-n2-kara-koso",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n2-mono-no",
+   "term": "〜ものの (although)",
+   "meaning": "Plain form + ものの = although (it's true, but the result falls short).",
+   "examples": [
+    {
+     "jp": "免許は取ったものの、まだ一度も運転していない。",
+     "en": "Although I got my licence, I haven't driven even once.",
+     "reading": "[免許|めんきょ]は[取|と]ったものの、まだ[一度|いちど]も[運転|うんてん]していない。"
+    },
+    {
+     "jp": "頭では分かっているものの、なかなかやめられない。",
+     "en": "Although I know it in my head, I just can't stop.",
+     "reading": "[頭|あたま]では[分|わ]かっているものの、なかなかやめられない。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N2",
+   "skill": "grammar",
+   "grammar_point": "grammar-n2-mono-no",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n2-to-wa-kagiranai",
+   "term": "〜とは限らない (not necessarily)",
+   "meaning": "Plain form + とは限らない = it isn't always so. Often with 必ずしも.",
+   "examples": [
+    {
+     "jp": "高い物が必ずしもいい物だとは限らない。",
+     "en": "Expensive things aren't necessarily good things.",
+     "reading": "[高|たか]い[物|もの]が[必|かなら]ずしもいい[物|もの]だとは[限|かぎ]らない。"
+    },
+    {
+     "jp": "日本人だからといって、敬語が上手だとは限らない。",
+     "en": "Just because someone is Japanese doesn't mean they're good at keigo.",
+     "reading": "[日本人|にほんじん]だからといって、[敬語|けいご]が[上手|じょうず]だとは[限|かぎ]らない。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N2",
+   "skill": "grammar",
+   "grammar_point": "grammar-n2-to-wa-kagiranai",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n2-ni-kagitte",
+   "term": "〜に限って (of all times / people)",
+   "meaning": "Noun + に限って = just when / of all (something unlucky happens); also ○○に限って〜ない = X of all people wouldn't.",
+   "examples": [
+    {
+     "jp": "急いでいる日に限って、電車が遅れる。",
+     "en": "The train is always late on the very day I'm in a hurry.",
+     "reading": "[急|いそ]いでいる[日|ひ]に[限|かぎ]って、[電車|でんしゃ]が[遅|おく]れる。"
+    },
+    {
+     "jp": "うちの子に限って、うそをつくはずがない。",
+     "en": "My child, of all people, would never lie.",
+     "reading": "うちの[子|こ]に[限|かぎ]って、うそをつくはずがない。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N2",
+   "skill": "grammar",
+   "grammar_point": "grammar-n2-ni-kagitte",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n2-wo-kikkake-ni",
+   "term": "〜をきっかけに (taking the chance of)",
+   "meaning": "Noun + をきっかけに = with… as the trigger, something new started.",
+   "examples": [
+    {
+     "jp": "留学をきっかけに、日本の文化に興味を持った。",
+     "en": "Studying abroad got me interested in Japanese culture.",
+     "reading": "[留学|りゅうがく]をきっかけに、[日本|にほん]の[文化|ぶんか]に[興味|きょうみ]を[持|も]った。"
+    },
+    {
+     "jp": "病気をきっかけに、たばこをやめた。",
+     "en": "Getting ill was what made me quit smoking.",
+     "reading": "[病気|びょうき]をきっかけに、たばこをやめた。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N2",
+   "skill": "grammar",
+   "grammar_point": "grammar-n2-wo-kikkake-ni",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n2-ni-oujite",
+   "term": "〜に応じて (according to, depending on)",
+   "meaning": "Noun + に応じて = in response to, matching (ability, need, request).",
+   "examples": [
+    {
+     "jp": "能力に応じて、給料が決まります。",
+     "en": "Salary is decided according to ability.",
+     "reading": "[能力|のうりょく]に[応|おう]じて、[給料|きゅうりょう]が[決|き]まります。"
+    },
+    {
+     "jp": "お客様の予算に応じて、プランを用意しております。",
+     "en": "We prepare plans to suit the customer's budget.",
+     "reading": "お[客様|きゃくさま]の[予算|よさん]に[応|おう]じて、プランを[用意|ようい]しております。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N2",
+   "skill": "grammar",
+   "grammar_point": "grammar-n2-ni-oujite",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n2-wo-towazu",
+   "term": "〜を問わず (regardless of)",
+   "meaning": "Noun + を問わず = regardless of (年齢・性別・経験・国籍を問わず).",
+   "examples": [
+    {
+     "jp": "このイベントは年齢を問わず、だれでも参加できます。",
+     "en": "Anyone can join this event, regardless of age.",
+     "reading": "このイベントは[年齢|ねんれい]を[問|と]わず、だれでも[参加|さんか]できます。"
+    },
+    {
+     "jp": "経験の有無を問わず、やる気のある方を募集しています。",
+     "en": "We're recruiting motivated people, with or without experience.",
+     "reading": "[経験|けいけん]の[有無|うむ]を[問|と]わず、やる[気|き]のある[方|かた]を[募集|ぼしゅう]しています。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N2",
+   "skill": "grammar",
+   "grammar_point": "grammar-n2-wo-towazu",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n2-sae-ba",
+   "term": "〜さえ〜ば (if only, as long as)",
+   "meaning": "Noun + さえ + ば-form = as long as just this one condition is met.",
+   "examples": [
+    {
+     "jp": "時間さえあれば、もっと旅行したい。",
+     "en": "If only I had the time, I'd travel more.",
+     "reading": "[時間|じかん]さえあれば、もっと[旅行|りょこう]したい。"
+    },
+    {
+     "jp": "この薬を飲みさえすれば、すぐ治りますよ。",
+     "en": "As long as you take this medicine, you'll get better soon.",
+     "reading": "この[薬|くすり]を[飲|の]みさえすれば、すぐ[治|なお]りますよ。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N2",
+   "skill": "grammar",
+   "grammar_point": "grammar-n2-sae-ba",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n2-tsutsu-aru",
+   "term": "〜つつある (is in the process of)",
+   "meaning": "ます-stem + つつある = gradually changing, in progress (written style).",
+   "examples": [
+    {
+     "jp": "地球の気温は上がりつつある。",
+     "en": "The earth's temperature is rising.",
+     "reading": "[地球|ちきゅう]の[気温|きおん]は[上|あ]がりつつある。"
+    },
+    {
+     "jp": "この町の人口は減りつつある。",
+     "en": "This town's population is shrinking.",
+     "reading": "この[町|まち]の[人口|じんこう]は[減|へ]りつつある。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N2",
+   "skill": "grammar",
+   "grammar_point": "grammar-n2-tsutsu-aru",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n2-mono-da",
+   "term": "〜ものだ (should; used to; how…!)",
+   "meaning": "Dictionary form + ものだ = that's how it should be (advice, common sense). た-form + ものだ = used to (nostalgia).",
+   "examples": [
+    {
+     "jp": "目上の人には敬語を使うものだ。",
+     "en": "You should use keigo with your superiors.",
+     "reading": "[目上|めうえ]の[人|ひと]には[敬語|けいご]を[使|つか]うものだ。"
+    },
+    {
+     "jp": "子どものころは、よくこの川で遊んだものだ。",
+     "en": "As a child, I used to play in this river a lot.",
+     "reading": "[子|こ]どものころは、よくこの[川|かわ]で[遊|あそ]んだものだ。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N2",
+   "skill": "grammar",
+   "grammar_point": "grammar-n2-mono-da",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n2-kuse-ni",
+   "term": "〜くせに (even though, and yet — critical)",
+   "meaning": "Plain form / な-adj + な / noun + の + くせに = even though (blaming the person).",
+   "examples": [
+    {
+     "jp": "知っているくせに、教えてくれない。",
+     "en": "He knows, and yet he won't tell me.",
+     "reading": "[知|し]っているくせに、[教|おし]えてくれない。"
+    },
+    {
+     "jp": "子どものくせに、生意気なことを言うな。",
+     "en": "Don't talk back when you're just a kid.",
+     "reading": "[子|こ]どものくせに、[生意気|なまいき]なことを[言|い]うな。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N2",
+   "skill": "grammar",
+   "grammar_point": "grammar-n2-kuse-ni",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n2-ippou-da",
+   "term": "〜一方だ (keeps on…ing)",
+   "meaning": "Dictionary form + 一方だ = keeps going in one direction (usually worse).",
+   "examples": [
+    {
+     "jp": "物価は上がる一方だ。",
+     "en": "Prices just keep going up.",
+     "reading": "[物価|ぶっか]は[上|あ]がる[一方|いっぽう]だ。"
+    },
+    {
+     "jp": "最近、仕事は増える一方だ。",
+     "en": "Lately my work just keeps piling up.",
+     "reading": "[最近|さいきん]、[仕事|しごと]は[増|ふ]える[一方|いっぽう]だ。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N2",
+   "skill": "grammar",
+   "grammar_point": "grammar-n2-ippou-da",
+   "tags": [
+    "grammar"
+   ]
+  }
+ ]
+}

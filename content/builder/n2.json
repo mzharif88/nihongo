@@ -1,0 +1,920 @@
+{
+ "version": 1,
+ "kind": "sentence_patterns",
+ "source": "original-n2-builder",
+ "records": [
+  {
+   "slug": "pattern-n2-zaru-wo-enai",
+   "jlpt_level": "N2",
+   "position": 301,
+   "grammar_slug": "grammar-n2-zaru-wo-enai",
+   "title": "No choice but to — 〜ざるを得ない",
+   "english": "We have no choice but to cancel the trip.",
+   "template": [
+    {
+     "slot": "verb-nai",
+     "label": "ない-stem (する → せ)"
+    },
+    {
+     "text": "ざるを得ない",
+     "label": "have no choice but to"
+    }
+   ],
+   "notes": "ない-stem + ざるを得ない = have no choice but to. 行く → 行かざるを得ない; する → せざるを得ない.",
+   "examples": [
+    {
+     "jp": "台風が来るので旅行は中止せざるを得ない。",
+     "en": "A typhoon is coming, so we have no choice but to cancel the trip.",
+     "reading": "[台風|たいふう]が[来|く]るので[旅行|りょこう]は[中止|ちゅうし]せざるを[得|え]ない。",
+     "tiles": [
+      "[台風|たいふう]",
+      "が",
+      "[来|く]る",
+      "ので",
+      "[旅行|りょこう]",
+      "は",
+      "[中止|ちゅうし]",
+      "せざるを[得|え]ない"
+     ],
+     "distractors": [
+      "しざるを[得|え]ない"
+     ],
+     "also": []
+    },
+    {
+     "jp": "部長の命令なら従わざるを得ない。",
+     "en": "If it's the manager's order, I have no choice but to obey.",
+     "reading": "[部長|ぶちょう]の[命令|めいれい]なら[従|したが]わざるを[得|え]ない。",
+     "tiles": [
+      "[部長|ぶちょう]",
+      "の",
+      "[命令|めいれい]",
+      "なら",
+      "[従|したが]わざるを[得|え]ない"
+     ],
+     "distractors": [
+      "[従|したが]うざるを[得|え]ない"
+     ],
+     "also": []
+    },
+    {
+     "jp": "電車が止まったので歩いて帰らざるを得なかった。",
+     "en": "The trains stopped, so I had no choice but to walk home.",
+     "reading": "[電車|でんしゃ]が[止|と]まったので[歩|ある]いて[帰|かえ]らざるを[得|え]なかった。",
+     "tiles": [
+      "[電車|でんしゃ]",
+      "が",
+      "[止|と]まった",
+      "ので",
+      "[歩|ある]いて",
+      "[帰|かえ]らざるを[得|え]なかった"
+     ],
+     "distractors": [
+      "[帰|かえ]るざるを[得|え]なかった"
+     ],
+     "also": []
+    },
+    {
+     "jp": "予算が足りないので計画を変更せざるを得ない。",
+     "en": "The budget isn't enough, so we have no choice but to change the plan.",
+     "reading": "[予算|よさん]が[足|た]りないので[計画|けいかく]を[変更|へんこう]せざるを[得|え]ない。",
+     "tiles": [
+      "[予算|よさん]",
+      "が",
+      "[足|た]りない",
+      "ので",
+      "[計画|けいかく]",
+      "を",
+      "[変更|へんこう]",
+      "せざるを[得|え]ない"
+     ],
+     "distractors": [
+      "さざるを[得|え]ない"
+     ],
+     "also": [
+      "計画を予算が足りないので変更せざるを得ない"
+     ]
+    },
+    {
+     "jp": "熱があるので試合を休まざるを得ない。",
+     "en": "I have a fever, so I have no choice but to miss the match.",
+     "reading": "[熱|ねつ]があるので[試合|しあい]を[休|やす]まざるを[得|え]ない。",
+     "tiles": [
+      "[熱|ねつ]",
+      "が",
+      "ある",
+      "ので",
+      "[試合|しあい]",
+      "を",
+      "[休|やす]まざるを[得|え]ない"
+     ],
+     "distractors": [
+      "[休|やす]みざるを[得|え]ない"
+     ],
+     "also": []
+    }
+   ]
+  },
+  {
+   "slug": "pattern-n2-wake-ni-wa-ikanai",
+   "jlpt_level": "N2",
+   "position": 302,
+   "grammar_slug": "grammar-n2-wake-ni-wa-ikanai",
+   "title": "Can't very well — 〜わけにはいかない",
+   "english": "There's an important meeting, so I can't very well take the day off.",
+   "template": [
+    {
+     "slot": "verb-dict",
+     "label": "Dictionary or ない-form"
+    },
+    {
+     "text": "わけにはいかない",
+     "label": "can't very well"
+    }
+   ],
+   "notes": "Dictionary form + わけにはいかない = can't (for social or moral reasons). ない-form + わけにはいかない = have to.",
+   "examples": [
+    {
+     "jp": "大事な会議があるので休むわけにはいかない。",
+     "en": "There's an important meeting, so I can't very well take the day off.",
+     "reading": "[大事|だいじ]な[会議|かいぎ]があるので[休|やす]むわけにはいかない。",
+     "tiles": [
+      "[大事|だいじ]な",
+      "[会議|かいぎ]",
+      "が",
+      "ある",
+      "ので",
+      "[休|やす]む",
+      "わけにはいかない"
+     ],
+     "distractors": [
+      "わけにはならない"
+     ],
+     "also": []
+    },
+    {
+     "jp": "車で来たのでお酒を飲むわけにはいかない。",
+     "en": "I came by car, so I can't very well drink alcohol.",
+     "reading": "[車|くるま]で[来|き]たのでお[酒|さけ]を[飲|の]むわけにはいかない。",
+     "tiles": [
+      "[車|くるま]",
+      "で",
+      "[来|き]た",
+      "ので",
+      "お[酒|さけ]",
+      "を",
+      "[飲|の]む",
+      "わけにはいかない"
+     ],
+     "distractors": [
+      "わけではいかない"
+     ],
+     "also": []
+    },
+    {
+     "jp": "約束した以上行かないわけにはいかない。",
+     "en": "Now that I've promised, I have to go.",
+     "reading": "[約束|やくそく]した[以上|いじょう][行|い]かないわけにはいかない。",
+     "tiles": [
+      "[約束|やくそく]",
+      "した",
+      "[以上|いじょう]",
+      "[行|い]かない",
+      "わけにはいかない"
+     ],
+     "distractors": [
+      "わけにはならない"
+     ],
+     "also": []
+    },
+    {
+     "jp": "先輩の頼みなので断るわけにはいかない。",
+     "en": "It's a senior colleague's request, so I can't very well refuse.",
+     "reading": "[先輩|せんぱい]の[頼|たの]みなので[断|ことわ]るわけにはいかない。",
+     "tiles": [
+      "[先輩|せんぱい]",
+      "の",
+      "[頼|たの]み",
+      "なので",
+      "[断|ことわ]る",
+      "わけにはいかない"
+     ],
+     "distractors": [
+      "わけではいかない"
+     ],
+     "also": []
+    },
+    {
+     "jp": "これは秘密なので話すわけにはいかない。",
+     "en": "This is a secret, so I can't very well tell you.",
+     "reading": "これは[秘密|ひみつ]なので[話|はな]すわけにはいかない。",
+     "tiles": [
+      "これ",
+      "は",
+      "[秘密|ひみつ]",
+      "なので",
+      "[話|はな]す",
+      "わけにはいかない"
+     ],
+     "distractors": [
+      "わけにはならない"
+     ],
+     "also": []
+    }
+   ]
+  },
+  {
+   "slug": "pattern-n2-ni-tsurete",
+   "jlpt_level": "N2",
+   "position": 303,
+   "grammar_slug": "grammar-n2-ni-tsurete",
+   "title": "As… so… — 〜につれて",
+   "english": "As I've got older, my stamina has dropped.",
+   "template": [
+    {
+     "slot": "verb-dict",
+     "label": "Dictionary form / noun (change)"
+    },
+    {
+     "text": "につれて",
+     "label": "as"
+    },
+    {
+     "slot": "verb-masu",
+     "label": "Change that follows"
+    }
+   ],
+   "notes": "Dictionary form / noun + につれて = as A changes, B changes with it. Both sides describe gradual change.",
+   "examples": [
+    {
+     "jp": "年をとるにつれて体力が落ちてきた。",
+     "en": "As I've got older, my stamina has dropped.",
+     "reading": "[年|とし]をとるにつれて[体力|たいりょく]が[落|お]ちてきた。",
+     "tiles": [
+      "[年|とし]",
+      "を",
+      "とる",
+      "につれて",
+      "[体力|たいりょく]",
+      "が",
+      "[落|お]ちて",
+      "きた"
+     ],
+     "distractors": [
+      "によって"
+     ],
+     "also": []
+    },
+    {
+     "jp": "日本語が上手になるにつれて生活が楽しくなった。",
+     "en": "As my Japanese improved, life became more fun.",
+     "reading": "[日本語|にほんご]が[上手|じょうず]になるにつれて[生活|せいかつ]が[楽|たの]しくなった。",
+     "tiles": [
+      "[日本語|にほんご]",
+      "が",
+      "[上手|じょうず]",
+      "に",
+      "なる",
+      "につれて",
+      "[生活|せいかつ]",
+      "が",
+      "[楽|たの]しく",
+      "なった"
+     ],
+     "distractors": [
+      "ために"
+     ],
+     "also": []
+    },
+    {
+     "jp": "時間がたつにつれて悲しみは薄れていった。",
+     "en": "As time passed, the sadness faded.",
+     "reading": "[時間|じかん]がたつにつれて[悲|かな]しみは[薄|うす]れていった。",
+     "tiles": [
+      "[時間|じかん]",
+      "が",
+      "たつ",
+      "につれて",
+      "[悲|かな]しみ",
+      "は",
+      "[薄|うす]れて",
+      "いった"
+     ],
+     "distractors": [
+      "ために"
+     ],
+     "also": []
+    },
+    {
+     "jp": "町が発展するにつれて人口が増えた。",
+     "en": "As the town developed, the population grew.",
+     "reading": "[町|まち]が[発展|はってん]するにつれて[人口|じんこう]が[増|ふ]えた。",
+     "tiles": [
+      "[町|まち]",
+      "が",
+      "[発展|はってん]",
+      "する",
+      "につれて",
+      "[人口|じんこう]",
+      "が",
+      "[増|ふ]えた"
+     ],
+     "distractors": [
+      "によって"
+     ],
+     "also": []
+    },
+    {
+     "jp": "山を登るにつれて気温が下がっていく。",
+     "en": "As you climb the mountain, the temperature goes down.",
+     "reading": "[山|やま]を[登|のぼ]るにつれて[気温|きおん]が[下|さ]がっていく。",
+     "tiles": [
+      "[山|やま]",
+      "を",
+      "[登|のぼ]る",
+      "につれて",
+      "[気温|きおん]",
+      "が",
+      "[下|さ]がって",
+      "いく"
+     ],
+     "distractors": [
+      "ために"
+     ],
+     "also": []
+    }
+   ]
+  },
+  {
+   "slug": "pattern-n2-ue-de",
+   "jlpt_level": "N2",
+   "position": 304,
+   "grammar_slug": "grammar-n2-ue-de",
+   "title": "After (and based on) — 〜た上で",
+   "english": "I'll give you my answer after thinking it over carefully.",
+   "template": [
+    {
+     "slot": "verb-ta",
+     "label": "た-form / noun + の"
+    },
+    {
+     "text": "上で",
+     "label": "after, based on that"
+    },
+    {
+     "slot": "verb-masu",
+     "label": "Next step"
+    }
+   ],
+   "notes": "た-form / noun + の + 上で = after doing, and on that basis, do the next thing. Formal; common in business.",
+   "examples": [
+    {
+     "jp": "よく考えた上でお返事します。",
+     "en": "I'll give you my answer after thinking it over carefully.",
+     "reading": "よく[考|かんが]えた[上|うえ]でお[返事|へんじ]します。",
+     "tiles": [
+      "よく",
+      "[考|かんが]えた",
+      "[上|うえ]で",
+      "お[返事|へんじ]",
+      "します"
+     ],
+     "distractors": [
+      "[上|うえ]に"
+     ],
+     "also": []
+    },
+    {
+     "jp": "両親と相談した上で決めます。",
+     "en": "I'll decide after talking it over with my parents.",
+     "reading": "[両親|りょうしん]と[相談|そうだん]した[上|うえ]で[決|き]めます。",
+     "tiles": [
+      "[両親|りょうしん]",
+      "と",
+      "[相談|そうだん]",
+      "した",
+      "[上|うえ]で",
+      "[決|き]めます"
+     ],
+     "distractors": [
+      "うちに"
+     ],
+     "also": []
+    },
+    {
+     "jp": "内容を確認した上でサインしてください。",
+     "en": "Please sign after checking the contents.",
+     "reading": "[内容|ないよう]を[確認|かくにん]した[上|うえ]でサインしてください。",
+     "tiles": [
+      "[内容|ないよう]",
+      "を",
+      "[確認|かくにん]",
+      "した",
+      "[上|うえ]で",
+      "サイン",
+      "して",
+      "ください"
+     ],
+     "distractors": [
+      "[上|うえ]に"
+     ],
+     "also": []
+    },
+    {
+     "jp": "説明を聞いた上で申し込むつもりです。",
+     "en": "I plan to apply after hearing the explanation.",
+     "reading": "[説明|せつめい]を[聞|き]いた[上|うえ]で[申|もう]し[込|こ]むつもりです。",
+     "tiles": [
+      "[説明|せつめい]",
+      "を",
+      "[聞|き]いた",
+      "[上|うえ]で",
+      "[申|もう]し[込|こ]む",
+      "つもり",
+      "です"
+     ],
+     "distractors": [
+      "ばかりか"
+     ],
+     "also": []
+    },
+    {
+     "jp": "話し合いの上で方針を決定します。",
+     "en": "We'll decide the policy after discussing it.",
+     "reading": "[話|はな]し[合|あ]いの[上|うえ]で[方針|ほうしん]を[決定|けってい]します。",
+     "tiles": [
+      "[話|はな]し[合|あ]い",
+      "の",
+      "[上|うえ]で",
+      "[方針|ほうしん]",
+      "を",
+      "[決定|けってい]",
+      "します"
+     ],
+     "distractors": [
+      "[上|うえ]に"
+     ],
+     "also": []
+    }
+   ]
+  },
+  {
+   "slug": "pattern-n2-mono-no",
+   "jlpt_level": "N2",
+   "position": 305,
+   "grammar_slug": "grammar-n2-mono-no",
+   "title": "Although — 〜ものの",
+   "english": "Although I got my licence, I haven't driven even once.",
+   "template": [
+    {
+     "slot": "verb-dict",
+     "label": "Plain form (fact)"
+    },
+    {
+     "text": "ものの",
+     "label": "although"
+    },
+    {
+     "slot": "verb-masu",
+     "label": "Result that falls short"
+    }
+   ],
+   "notes": "Plain form + ものの = although (it's true), the expected result didn't follow. Written, a little formal.",
+   "examples": [
+    {
+     "jp": "免許は取ったもののまだ一度も運転していない。",
+     "en": "Although I got my licence, I haven't driven even once.",
+     "reading": "[免許|めんきょ]は[取|と]ったもののまだ[一度|いちど]も[運転|うんてん]していない。",
+     "tiles": [
+      "[免許|めんきょ]",
+      "は",
+      "[取|と]った",
+      "ものの",
+      "まだ",
+      "[一度|いちど]",
+      "も",
+      "[運転|うんてん]",
+      "して",
+      "いない"
+     ],
+     "distractors": [
+      "ものだ"
+     ],
+     "also": []
+    },
+    {
+     "jp": "頭では分かっているもののなかなかやめられない。",
+     "en": "Although I know it in my head, I just can't stop.",
+     "reading": "[頭|あたま]では[分|わ]かっているもののなかなかやめられない。",
+     "tiles": [
+      "[頭|あたま]",
+      "で",
+      "は",
+      "[分|わ]かって",
+      "いる",
+      "ものの",
+      "なかなか",
+      "やめられない"
+     ],
+     "distractors": [
+      "からこそ"
+     ],
+     "also": []
+    },
+    {
+     "jp": "パソコンを買ったものの使い方が分からない。",
+     "en": "Although I bought a computer, I don't know how to use it.",
+     "reading": "パソコンを[買|か]ったものの[使|つか]い[方|かた]が[分|わ]からない。",
+     "tiles": [
+      "パソコン",
+      "を",
+      "[買|か]った",
+      "ものの",
+      "[使|つか]い[方|かた]",
+      "が",
+      "[分|わ]からない"
+     ],
+     "distractors": [
+      "[上|うえ]で"
+     ],
+     "also": []
+    },
+    {
+     "jp": "引き受けたものの自信がない。",
+     "en": "Although I took it on, I'm not confident.",
+     "reading": "[引|ひ]き[受|う]けたものの[自信|じしん]がない。",
+     "tiles": [
+      "[引|ひ]き[受|う]けた",
+      "ものの",
+      "[自信|じしん]",
+      "が",
+      "ない"
+     ],
+     "distractors": [
+      "からこそ"
+     ],
+     "also": []
+    },
+    {
+     "jp": "春になったもののまだ寒い日が続いている。",
+     "en": "Although spring has come, cold days continue.",
+     "reading": "[春|はる]になったもののまだ[寒|さむ]い[日|ひ]が[続|つづ]いている。",
+     "tiles": [
+      "[春|はる]",
+      "に",
+      "なった",
+      "ものの",
+      "まだ",
+      "[寒|さむ]い",
+      "[日|ひ]",
+      "が",
+      "[続|つづ]いて",
+      "いる"
+     ],
+     "distractors": [
+      "ものだ"
+     ],
+     "also": []
+    }
+   ]
+  },
+  {
+   "slug": "pattern-n2-to-wa-kagiranai",
+   "jlpt_level": "N2",
+   "position": 306,
+   "grammar_slug": "grammar-n2-to-wa-kagiranai",
+   "title": "Not necessarily — 〜とは限らない",
+   "english": "Expensive things aren't necessarily good things.",
+   "template": [
+    {
+     "slot": "verb-dict",
+     "label": "Plain form"
+    },
+    {
+     "text": "とは限らない",
+     "label": "isn't necessarily so"
+    }
+   ],
+   "notes": "Plain form + とは限らない = it isn't always so. Often paired with 必ずしも or からといって.",
+   "examples": [
+    {
+     "jp": "高い物が必ずしもいい物だとは限らない。",
+     "en": "Expensive things aren't necessarily good things.",
+     "reading": "[高|たか]い[物|もの]が[必|かなら]ずしもいい[物|もの]だとは[限|かぎ]らない。",
+     "tiles": [
+      "[高|たか]い",
+      "[物|もの]",
+      "が",
+      "[必|かなら]ずしも",
+      "いい",
+      "[物|もの]",
+      "だ",
+      "とは[限|かぎ]らない"
+     ],
+     "distractors": [
+      "とは[限|かぎ]る"
+     ],
+     "also": []
+    },
+    {
+     "jp": "有名な店がおいしいとは限らない。",
+     "en": "Famous restaurants aren't necessarily tasty.",
+     "reading": "[有名|ゆうめい]な[店|みせ]がおいしいとは[限|かぎ]らない。",
+     "tiles": [
+      "[有名|ゆうめい]な",
+      "[店|みせ]",
+      "が",
+      "おいしい",
+      "とは[限|かぎ]らない"
+     ],
+     "distractors": [
+      "とは[限|かぎ]る"
+     ],
+     "also": []
+    },
+    {
+     "jp": "先生の言うことがいつも正しいとは限らない。",
+     "en": "What the teacher says isn't always right.",
+     "reading": "[先生|せんせい]の[言|い]うことがいつも[正|ただ]しいとは[限|かぎ]らない。",
+     "tiles": [
+      "[先生|せんせい]",
+      "の",
+      "[言|い]う",
+      "こと",
+      "が",
+      "いつも",
+      "[正|ただ]しい",
+      "とは[限|かぎ]らない"
+     ],
+     "distractors": [
+      "とは[限|かぎ]る"
+     ],
+     "also": []
+    },
+    {
+     "jp": "練習すれば必ず勝てるとは限らない。",
+     "en": "Practising doesn't necessarily mean you'll win.",
+     "reading": "[練習|れんしゅう]すれば[必|かなら]ず[勝|か]てるとは[限|かぎ]らない。",
+     "tiles": [
+      "[練習|れんしゅう]",
+      "すれば",
+      "[必|かなら]ず",
+      "[勝|か]てる",
+      "とは[限|かぎ]らない"
+     ],
+     "distractors": [
+      "とは[限|かぎ]る"
+     ],
+     "also": []
+    },
+    {
+     "jp": "日本人だからといって敬語が上手だとは限らない。",
+     "en": "Just because someone is Japanese doesn't mean they're good at keigo.",
+     "reading": "[日本人|にほんじん]だからといって[敬語|けいご]が[上手|じょうず]だとは[限|かぎ]らない。",
+     "tiles": [
+      "[日本人|にほんじん]",
+      "だ",
+      "から",
+      "といって",
+      "[敬語|けいご]",
+      "が",
+      "[上手|じょうず]",
+      "だ",
+      "とは[限|かぎ]らない"
+     ],
+     "distractors": [
+      "とは[限|かぎ]る"
+     ],
+     "also": []
+    }
+   ]
+  },
+  {
+   "slug": "pattern-n2-kara-koso",
+   "jlpt_level": "N2",
+   "position": 307,
+   "grammar_slug": "grammar-n2-kara-koso",
+   "title": "Precisely because — 〜からこそ",
+   "english": "It's precisely because I worry about you that I'm strict.",
+   "template": [
+    {
+     "slot": "verb-dict",
+     "label": "Plain form (reason)"
+    },
+    {
+     "text": "からこそ",
+     "label": "precisely because"
+    },
+    {
+     "slot": "verb-masu",
+     "label": "Result"
+    }
+   ],
+   "notes": "Plain form + からこそ = precisely because (this, and nothing else). Stresses a positive or surprising reason.",
+   "examples": [
+    {
+     "jp": "心配しているからこそ厳しく言うのです。",
+     "en": "It's precisely because I worry about you that I'm being strict.",
+     "reading": "[心配|しんぱい]しているからこそ[厳|きび]しく[言|い]うのです。",
+     "tiles": [
+      "[心配|しんぱい]",
+      "して",
+      "いる",
+      "からこそ",
+      "[厳|きび]しく",
+      "[言|い]う",
+      "のです"
+     ],
+     "distractors": [
+      "こそから"
+     ],
+     "also": []
+    },
+    {
+     "jp": "失敗したからこそ学べたこともある。",
+     "en": "There are things I could learn precisely because I failed.",
+     "reading": "[失敗|しっぱい]したからこそ[学|まな]べたこともある。",
+     "tiles": [
+      "[失敗|しっぱい]",
+      "した",
+      "からこそ",
+      "[学|まな]べた",
+      "こと",
+      "も",
+      "ある"
+     ],
+     "distractors": [
+      "こそから"
+     ],
+     "also": []
+    },
+    {
+     "jp": "毎日練習したからこそ合格できた。",
+     "en": "It's precisely because I practised every day that I passed.",
+     "reading": "[毎日|まいにち][練習|れんしゅう]したからこそ[合格|ごうかく]できた。",
+     "tiles": [
+      "[毎日|まいにち]",
+      "[練習|れんしゅう]",
+      "した",
+      "からこそ",
+      "[合格|ごうかく]",
+      "できた"
+     ],
+     "distractors": [
+      "こそから"
+     ],
+     "also": []
+    },
+    {
+     "jp": "家族がいるからこそ頑張れる。",
+     "en": "It's precisely because I have a family that I can keep going.",
+     "reading": "[家族|かぞく]がいるからこそ[頑張|がんば]れる。",
+     "tiles": [
+      "[家族|かぞく]",
+      "が",
+      "いる",
+      "からこそ",
+      "[頑張|がんば]れる"
+     ],
+     "distractors": [
+      "こそから"
+     ],
+     "also": []
+    },
+    {
+     "jp": "難しいからこそやる価値がある。",
+     "en": "It's precisely because it's difficult that it's worth doing.",
+     "reading": "[難|むずか]しいからこそやる[価値|かち]がある。",
+     "tiles": [
+      "[難|むずか]しい",
+      "からこそ",
+      "やる",
+      "[価値|かち]",
+      "が",
+      "ある"
+     ],
+     "distractors": [
+      "こそから"
+     ],
+     "also": []
+    }
+   ]
+  },
+  {
+   "slug": "pattern-n2-sae-ba",
+   "jlpt_level": "N2",
+   "position": 308,
+   "grammar_slug": "grammar-n2-sae-ba",
+   "title": "As long as — 〜さえ〜ば",
+   "english": "If only I had the time, I'd travel more.",
+   "template": [
+    {
+     "slot": "noun",
+     "label": "Noun"
+    },
+    {
+     "text": "さえ",
+     "label": "just"
+    },
+    {
+     "slot": "verb-dict",
+     "label": "ば-form"
+    },
+    {
+     "slot": "verb-masu",
+     "label": "Result"
+    }
+   ],
+   "notes": "Noun + さえ + ば-form = as long as just this one thing. Verbs: ます-stem + さえすれば (飲みさえすれば).",
+   "examples": [
+    {
+     "jp": "時間さえあればもっと旅行したい。",
+     "en": "If only I had the time, I'd travel more.",
+     "reading": "[時間|じかん]さえあればもっと[旅行|りょこう]したい。",
+     "tiles": [
+      "[時間|じかん]",
+      "さえ",
+      "あれば",
+      "もっと",
+      "[旅行|りょこう]",
+      "したい"
+     ],
+     "distractors": [
+      "まで"
+     ],
+     "also": []
+    },
+    {
+     "jp": "この薬を飲みさえすればすぐ治ります。",
+     "en": "As long as you take this medicine, you'll get better soon.",
+     "reading": "この[薬|くすり]を[飲|の]みさえすればすぐ[治|なお]ります。",
+     "tiles": [
+      "この",
+      "[薬|くすり]",
+      "を",
+      "[飲|の]み",
+      "さえ",
+      "すれば",
+      "すぐ",
+      "[治|なお]ります"
+     ],
+     "distractors": [
+      "しか"
+     ],
+     "also": []
+    },
+    {
+     "jp": "天気さえよければ富士山が見えます。",
+     "en": "As long as the weather is good, you can see Mt Fuji.",
+     "reading": "[天気|てんき]さえよければ[富士山|ふじさん]が[見|み]えます。",
+     "tiles": [
+      "[天気|てんき]",
+      "さえ",
+      "よければ",
+      "[富士山|ふじさん]",
+      "が",
+      "[見|み]えます"
+     ],
+     "distractors": [
+      "まで"
+     ],
+     "also": []
+    },
+    {
+     "jp": "お金さえあれば幸せだとは限らない。",
+     "en": "Having money doesn't necessarily make you happy.",
+     "reading": "お[金|かね]さえあれば[幸|しあわ]せだとは[限|かぎ]らない。",
+     "tiles": [
+      "お[金|かね]",
+      "さえ",
+      "あれば",
+      "[幸|しあわ]せ",
+      "だ",
+      "とは[限|かぎ]らない"
+     ],
+     "distractors": [
+      "しか"
+     ],
+     "also": []
+    },
+    {
+     "jp": "住所さえ分かれば荷物を送れます。",
+     "en": "As long as I know the address, I can send the parcel.",
+     "reading": "[住所|じゅうしょ]さえ[分|わ]かれば[荷物|にもつ]を[送|おく]れます。",
+     "tiles": [
+      "[住所|じゅうしょ]",
+      "さえ",
+      "[分|わ]かれば",
+      "[荷物|にもつ]",
+      "を",
+      "[送|おく]れます"
+     ],
+     "distractors": [
+      "しか"
+     ],
+     "also": []
+    }
+   ]
+  }
+ ]
+}

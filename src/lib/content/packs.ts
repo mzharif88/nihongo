@@ -47,6 +47,7 @@ export const PACK_GROUPS: PackGroup[] = [
     packs: [
       { file: "n4.json", label: "N4 grammar: 24 points" },
       { file: "n3.json", label: "N3 grammar: 25 points" },
+      { file: "n2.json", label: "N2 grammar: 25 points" },
     ],
   },
   {
@@ -57,6 +58,7 @@ export const PACK_GROUPS: PackGroup[] = [
       { file: "n5.json", label: "N5 lessons 1–5" },
       { file: "n4.json", label: "N4 lessons 1–6" },
       { file: "n3.json", label: "N3 lessons 1–6" },
+      { file: "n2.json", label: "N2 lessons 1–6" },
     ],
   },
   {
@@ -67,6 +69,7 @@ export const PACK_GROUPS: PackGroup[] = [
       { file: "n5.json", label: "N5 patterns: 12 patterns, 60 sentences" },
       { file: "n4.json", label: "N4 patterns: 8 patterns, 40 sentences" },
       { file: "n3.json", label: "N3 patterns: 8 patterns, 40 sentences" },
+      { file: "n2.json", label: "N2 patterns: 8 patterns, 40 sentences" },
     ],
   },
   {
@@ -80,6 +83,8 @@ export const PACK_GROUPS: PackGroup[] = [
       { file: "n4-1-questions.json", label: "N4 mock test 1: 50 questions" },
       { file: "n3-1-test.json", label: "N3 mock test 1" },
       { file: "n3-1-questions.json", label: "N3 mock test 1: 52 questions" },
+      { file: "n2-1-test.json", label: "N2 mock test 1" },
+      { file: "n2-1-questions.json", label: "N2 mock test 1: 56 questions" },
     ],
   },
   {
@@ -93,6 +98,8 @@ export const PACK_GROUPS: PackGroup[] = [
       { file: "n4-questions.json", label: "N4 reading questions" },
       { file: "n3-texts.json", label: "N3 readings: 5 passages" },
       { file: "n3-questions.json", label: "N3 reading questions" },
+      { file: "n2-texts.json", label: "N2 readings: 5 passages" },
+      { file: "n2-questions.json", label: "N2 reading questions" },
     ],
   },
 ];
