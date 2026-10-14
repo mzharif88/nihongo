@@ -7,6 +7,11 @@
   --card: #ffffff;
   --border: #e7e5e4;
   --accent: #c2410c;
+  /* Grammar colours: subject/topic, object, verb, particle. */
+  --role-s: #dc2626;
+  --role-o: #2563eb;
+  --role-v: #16a34a;
+  --role-p: #ea580c;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,6 +22,10 @@
     --card: #1c1917;
     --border: #292524;
     --accent: #fb923c;
+    --role-s: #f87171;
+    --role-o: #60a5fa;
+    --role-v: #4ade80;
+    --role-p: #fb923c;
   }
 }
 
@@ -44,6 +53,18 @@ rt {
   font-weight: 400;
   color: var(--muted);
   letter-spacing: 0;
+}
+
+/* Grammar colours on sentences; off when <html> has .roles-off (Settings). */
+.role-s { color: var(--role-s); }
+.role-o { color: var(--role-o); }
+.role-v { color: var(--role-v); }
+.role-p { color: var(--role-p); }
+.roles-off .role-s,
+.roles-off .role-o,
+.roles-off .role-v,
+.roles-off .role-p {
+  color: inherit;
 }
 
 /* Bottom action buttons (Next, Check, Finish) stay on screen on phones,

@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState, useTransition } from "react";
+import { RoleLegend } from "@/components/role-colours";
 import { Ruby } from "@/components/ruby";
 import { isMarkup, stripMarkup } from "@/lib/furigana";
 import type { LessonRow } from "@/lib/lessons/lessons";
@@ -286,6 +287,9 @@ function DialogueStep({ lesson }: { lesson: LessonRow }) {
         </button>
       </div>
       <p className="mt-1 text-xs text-muted">Tap a line to hear it.</p>
+      <div className="mt-2">
+        <RoleLegend />
+      </div>
       <ol className="mt-4 space-y-3">
         {lesson.dialogue.map((line, i) => {
           const mine = line.speaker === "あなた";
@@ -294,16 +298,17 @@ function DialogueStep({ lesson }: { lesson: LessonRow }) {
               <button
                 onClick={() => speak(line.jp, line.audio_url)}
                 className={`max-w-[85%] rounded-2xl px-4 py-2.5 text-left ${
-                  mine ? "bg-accent text-white" : "border border-border bg-card"
+                  // A tint, not solid orange, so the grammar colours stay readable.
+                  mine ? "border border-accent bg-accent/10" : "border border-border bg-card"
                 }`}
               >
-                <span className={`block text-xs ${mine ? "opacity-80" : "text-muted"}`} lang="ja">
+                <span className="block text-xs text-muted" lang="ja">
                   {line.speaker === "あなた" ? "You" : <Ruby text={line.speaker} />}
                 </span>
                 <span className="block text-lg leading-loose">
                   <Ruby text={line.jp} reading={line.reading} />
                 </span>
-                {showEnglish && <span className={`block text-sm ${mine ? "opacity-90" : "text-muted"}`}>{line.en}</span>}
+                {showEnglish && <span className="block text-sm text-muted">{line.en}</span>}
               </button>
             </li>
           );

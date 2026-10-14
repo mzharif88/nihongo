@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { alignReading, furiganaSegments, parseMarkup, stripMarkup, toMarkup } from "./furigana";
+import { alignReading, furiganaSegments, isMarkup, parseMarkup, stripMarkup, stripRoles, toMarkup } from "./furigana";
 
 describe("alignReading", () => {
   it("puts each kanji run's reading over it and leaves okurigana bare", () => {
@@ -46,5 +46,32 @@ describe("markup", () => {
     expect(furiganaSegments("今日は雨", "[今日|きょう]は[雨|あめ]")[0]).toEqual({ text: "今日", ruby: "きょう" });
     expect(furiganaSegments("水", "みず")).toEqual([{ text: "水", ruby: "みず" }]);
     expect(furiganaSegments("Water")).toEqual([{ text: "Water" }]);
+  });
+});
+
+describe("grammar roles", () => {
+  const tagged = "⟨s⟩[私|わたし]⟨/⟩⟨p⟩は⟨/⟩⟨o⟩りんご⟨/⟩⟨p⟩を⟨/⟩⟨v⟩[食|た]べます⟨/⟩。";
+
+  it("parses role spans onto segments, furigana and all", () => {
+    expect(parseMarkup(tagged)).toEqual([
+      { text: "私", ruby: "わたし", role: "s" },
+      { text: "は", role: "p" },
+      { text: "りんご", role: "o" },
+      { text: "を", role: "p" },
+      { text: "食", ruby: "た", role: "v" },
+      { text: "べます", role: "v" },
+      { text: "。" },
+    ]);
+  });
+
+  it("round-trips through toMarkup and strips to plain text", () => {
+    expect(toMarkup(parseMarkup(tagged))).toBe(tagged);
+    expect(stripMarkup(tagged)).toBe("私はりんごを食べます。");
+    expect(stripRoles(tagged)).toBe("[私|わたし]はりんごを[食|た]べます。");
+  });
+
+  it("counts role-only text as markup", () => {
+    expect(isMarkup("⟨s⟩これ⟨/⟩⟨p⟩は⟨/⟩")).toBe(true);
+    expect(furiganaSegments("これはペンです", "⟨s⟩これ⟨/⟩⟨p⟩は⟨/⟩ペン⟨v⟩です⟨/⟩")[0]).toEqual({ text: "これ", role: "s" });
   });
 });

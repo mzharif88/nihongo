@@ -40,7 +40,8 @@
       "examples": [
         {
           "jp": "わたしは学生ですか",
-          "en": "A is B."
+          "en": "A is B.",
+          "reading": "⟨s⟩わたし⟨/⟩⟨p⟩は⟨/⟩学生⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩"
         }
       ],
       "notes": "は (wa) marks the topic. です (desu) = am/is/are. Add か at end for question."
@@ -83,7 +84,8 @@
       "examples": [
         {
           "jp": "わたしはすしを食べます",
-          "en": "I eat sushi."
+          "en": "I eat sushi.",
+          "reading": "⟨s⟩わたし⟨/⟩⟨p⟩は⟨/⟩⟨o⟩すし⟨/⟩⟨p⟩を⟨/⟩⟨v⟩食べます⟨/⟩"
         }
       ],
       "notes": "を (wo) marks the direct object. Verb always comes at the END in Japanese."
@@ -126,7 +128,8 @@
       "examples": [
         {
           "jp": "わたしは学校で勉強します",
-          "en": "I study at school."
+          "en": "I study at school.",
+          "reading": "⟨s⟩わたし⟨/⟩⟨p⟩は⟨/⟩学校⟨p⟩で⟨/⟩⟨v⟩勉強します⟨/⟩"
         }
       ],
       "notes": "で (de) = at/in (location of action). Different from に!"
@@ -169,7 +172,8 @@
       "examples": [
         {
           "jp": "わたしは日本に行きます",
-          "en": "I go to Japan."
+          "en": "I go to Japan.",
+          "reading": "⟨s⟩わたし⟨/⟩⟨p⟩は⟨/⟩日本⟨p⟩に⟨/⟩⟨v⟩行きます⟨/⟩"
         }
       ],
       "notes": "に (ni) = to/toward (destination). Also used for time: 三時に = at 3."
@@ -218,7 +222,8 @@
       "examples": [
         {
           "jp": "毎日わたしは日本語を勉強します",
-          "en": "I study Japanese every day."
+          "en": "I study Japanese every day.",
+          "reading": "毎日⟨s⟩わたし⟨/⟩⟨p⟩は⟨/⟩⟨o⟩日本語⟨/⟩⟨p⟩を⟨/⟩⟨v⟩勉強します⟨/⟩"
         }
       ],
       "notes": "Time expressions usually come first or after the topic. Order: Time → Place → Object → Verb."
@@ -282,7 +287,8 @@
       "examples": [
         {
           "jp": "東京は大きいです",
-          "en": "Tokyo is big."
+          "en": "Tokyo is big.",
+          "reading": "⟨s⟩東京⟨/⟩⟨p⟩は⟨/⟩大きい⟨v⟩です⟨/⟩"
         }
       ],
       "notes": "Topic は + adjective + です. For な-adjectives add な before nouns: きれいな花."
@@ -330,7 +336,8 @@
       "examples": [
         {
           "jp": "これはわたしの本です",
-          "en": "This is my book."
+          "en": "This is my book.",
+          "reading": "⟨s⟩これ⟨/⟩⟨p⟩は⟨/⟩わたし⟨p⟩の⟨/⟩本⟨v⟩です⟨/⟩"
         }
       ],
       "notes": "の (no) = 's (possessive). わたしの本 = my book. 日本の食べ物 = Japanese food."
@@ -373,7 +380,8 @@
       "examples": [
         {
           "jp": "わたしは肉を食べません",
-          "en": "I don't eat meat."
+          "en": "I don't eat meat.",
+          "reading": "⟨s⟩わたし⟨/⟩⟨p⟩は⟨/⟩⟨o⟩肉⟨/⟩⟨p⟩を⟨/⟩⟨v⟩食べません⟨/⟩"
         }
       ],
       "notes": "ます (masu) → ません (masen) for negative. です → ではありません."
@@ -422,7 +430,8 @@
       "examples": [
         {
           "jp": "昨日わたしはすしを食べました",
-          "en": "I ate sushi yesterday."
+          "en": "I ate sushi yesterday.",
+          "reading": "昨日⟨s⟩わたし⟨/⟩⟨p⟩は⟨/⟩⟨o⟩すし⟨/⟩⟨p⟩を⟨/⟩⟨v⟩食べました⟨/⟩"
         }
       ],
       "notes": "ます → ました for past tense. ません → ませんでした for past negative."
@@ -455,7 +464,8 @@
       "examples": [
         {
           "jp": "起きて食べて出かけました",
-          "en": "I woke up, ate, and left."
+          "en": "I woke up, ate, and left.",
+          "reading": "⟨v⟩起きて食べて出かけました⟨/⟩"
         }
       ],
       "notes": "て-form connects sequential actions. Change ます → て to link verbs."
@@ -503,7 +513,8 @@
       "examples": [
         {
           "jp": "わたしは日本に行きたいです",
-          "en": "I want to go to Japan."
+          "en": "I want to go to Japan.",
+          "reading": "⟨s⟩わたし⟨/⟩⟨p⟩は⟨/⟩日本⟨p⟩に⟨/⟩⟨v⟩行きたいです⟨/⟩"
         }
       ],
       "notes": "Remove ます from verb, add たいです. いきます → いきたいです = want to go."

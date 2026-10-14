@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { requireUser } from "@/lib/auth";
 import { JLPT_LEVELS } from "@/lib/content/schema";
+import { RoleColoursToggle } from "@/components/role-colours";
 import { SettingsForm } from "./settings-form";
 
 export default async function SettingsPage() {
@@ -22,6 +23,11 @@ export default async function SettingsPage() {
           timezone: profile.timezone,
         }}
       />
+      <section className="mt-8">
+        <h2 className="font-bold">Sentences</h2>
+        <p className="mt-1 mb-3 text-sm text-muted">Colour each part of a sentence by its job, so the structure stands out.</p>
+        <RoleColoursToggle />
+      </section>
     </main>
   );
 }

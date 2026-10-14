@@ -3,6 +3,7 @@ import { join } from "node:path";
 import { describe, expect, it } from "vitest";
 import { PACK_GROUPS } from "@/lib/content/packs";
 import { parseImport } from "@/lib/content/schema";
+import { stripMarkup } from "@/lib/furigana";
 
 const CONTENT = join(__dirname, "..", "content");
 const loadFrom = (group: string, file: string) =>
@@ -129,7 +130,7 @@ describe("builder packs", () => {
       .filter((r) => r.type === "grammar")
       .map((r) => r.slug as string),
   );
-  const strip = (s: string) => s.replace(/\[([^\]|]+)\|[^\]]+\]/g, "$1");
+  const strip = stripMarkup;
 
   it("update legacy patterns or bring their own template, with real grammar points", () => {
     const legacy = new Set(load("02-sentence-patterns.json").records.map((r) => r.slug as string));
@@ -211,5 +212,22 @@ describe("mock and reading packs", () => {
     for (const q of questions) {
       if (/漢字読み|表記/.test(String(q.part))) expect(String(q.prompt).match(/\{\{/g), q.slug as string).toHaveLength(1);
     }
+  });
+});
+
+describe("grammar colours", () => {
+  const roleMarks = /⟨[sovp]⟩/;
+  const lines = PACK_GROUPS.find((g) => g.id === "lessons")!.packs.flatMap((p) =>
+    loadFrom("lessons", p.file).records.flatMap((l) => l.dialogue as { jp: string; reading?: string }[]),
+  );
+
+  it("are on lesson dialogue with kanji (rerun npm run build:roles after building packs)", () => {
+    const withKanji = lines.filter((l) => /[一-龯]/.test(l.jp));
+    const tagged = withKanji.filter((l) => roleMarks.test(l.reading ?? ""));
+    expect(tagged.length / withKanji.length).toBeGreaterThan(0.9);
+  });
+
+  it("never change the sentence itself", () => {
+    for (const l of lines) if (l.reading) expect(stripMarkup(l.reading).replace(/\s/g, "")).toBe(l.jp.replace(/\s/g, ""));
   });
 });

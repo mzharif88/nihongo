@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState, useTransition } from "react";
 import { ExamText } from "@/components/exam-text";
+import { RoleColoursToggle } from "@/components/role-colours";
 import { Ruby } from "@/components/ruby";
 import { stripMarkup } from "@/lib/furigana";
 import type { QuestionRow } from "@/lib/mock/mock";
@@ -58,6 +59,10 @@ function ReaderView({ text, questions, resume }: { text: TextRow; questions: Que
           Furigana {furigana ? "on" : "off"}
         </button>
       </header>
+
+      <div className="mt-3">
+        <RoleColoursToggle />
+      </div>
 
       <h1 className="mt-4 text-2xl font-bold leading-loose" lang="ja">
         <Ruby text={text.title} hide={!furigana} />

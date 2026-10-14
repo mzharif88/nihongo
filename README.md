@@ -77,6 +77,7 @@ npm run dev
 | `npm run build:builder` | Regenerate `content/builder/*.json` (tiles + furigana) from `*.source.json` |
 | `npm run build:kanji-parts -- <kradfile-u>` | Re-vendor KRADFILE kanji components (`content/kanji-parts`) used for memory hints |
 | `npm run build:practice` | Regenerate the grammar, mock and reading packs (`content/grammar`, `content/mock`, `content/reading`) from `*.source.json` |
+| `npm run build:roles` | Add grammar colours (subject, object, verb, particle) to every sentence in the packs. Run it last, after any other build script |
 | `npm run build:open-data -- <dir>` | Regenerate `content/opendata/*.json` from downloaded `kanji.json` (kanji-data) and `n5–n2.csv` (open-anki-jlpt-decks) |
 
 New migrations go in `supabase/migrations/` with a timestamp prefix. New

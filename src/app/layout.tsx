@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Noto_Sans_JP } from "next/font/google";
+import { ROLE_SCRIPT } from "@/lib/role-colours";
 import "./globals.css";
 
 const notoSansJp = Noto_Sans_JP({
@@ -26,7 +27,11 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="ja">
+    // The script may add .roles-off before hydration, hence suppressHydrationWarning.
+    <html lang="ja" suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: ROLE_SCRIPT }} />
+      </head>
       <body className={`${notoSansJp.variable} font-sans antialiased`}>{children}</body>
     </html>
   );
