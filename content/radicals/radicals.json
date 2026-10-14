@@ -8,6 +8,7 @@
    "type": "radical",
    "jlpt_level": "N5",
    "term": "匕",
+   "reading": "さじ",
    "meaning": "spoon",
    "skill": "kanji",
    "tags": [
@@ -19,6 +20,7 @@
    "type": "radical",
    "jlpt_level": "N5",
    "term": "卜",
+   "reading": "ぼく",
    "meaning": "divining rod",
    "skill": "kanji",
    "tags": [
@@ -30,6 +32,7 @@
    "type": "radical",
    "jlpt_level": "N5",
    "term": "𠆢",
+   "reading": "ひとやね",
    "meaning": "person (on top)",
    "skill": "kanji",
    "tags": [
@@ -41,6 +44,7 @@
    "type": "radical",
    "jlpt_level": "N5",
    "term": "⺅",
+   "reading": "にんべん",
    "meaning": "person (on the left)",
    "skill": "kanji",
    "tags": [
@@ -52,6 +56,7 @@
    "type": "radical",
    "jlpt_level": "N5",
    "term": "ハ",
+   "reading": "はち",
    "meaning": "eight / split apart",
    "skill": "kanji",
    "tags": [
@@ -63,6 +68,7 @@
    "type": "radical",
    "jlpt_level": "N5",
    "term": "亠",
+   "reading": "なべぶた",
    "meaning": "lid",
    "skill": "kanji",
    "tags": [
@@ -74,6 +80,7 @@
    "type": "radical",
    "jlpt_level": "N5",
    "term": "冂",
+   "reading": "けいがまえ",
    "meaning": "upside-down box",
    "skill": "kanji",
    "tags": [
@@ -85,6 +92,7 @@
    "type": "radical",
    "jlpt_level": "N5",
    "term": "刀",
+   "reading": "かたな",
    "meaning": "sword",
    "skill": "kanji",
    "tags": [
@@ -96,6 +104,7 @@
    "type": "radical",
    "jlpt_level": "N5",
    "term": "刂",
+   "reading": "りっとう",
    "meaning": "knife (on the right)",
    "skill": "kanji",
    "tags": [
@@ -107,6 +116,7 @@
    "type": "radical",
    "jlpt_level": "N5",
    "term": "并",
+   "reading": "はちがしら",
    "meaning": "horns",
    "skill": "kanji",
    "tags": [
@@ -118,6 +128,7 @@
    "type": "radical",
    "jlpt_level": "N5",
    "term": "爿",
+   "reading": "しょうへん",
    "meaning": "split wood",
    "skill": "kanji",
    "tags": [
@@ -129,6 +140,7 @@
    "type": "radical",
    "jlpt_level": "N5",
    "term": "干",
+   "reading": "かん",
    "meaning": "dry / shield",
    "skill": "kanji",
    "tags": [
@@ -140,6 +152,7 @@
    "type": "radical",
    "jlpt_level": "N5",
    "term": "又",
+   "reading": "また",
    "meaning": "right hand / again",
    "skill": "kanji",
    "tags": [
@@ -151,6 +164,7 @@
    "type": "radical",
    "jlpt_level": "N5",
    "term": "夕",
+   "reading": "ゆう",
    "meaning": "evening",
    "skill": "kanji",
    "tags": [
@@ -162,6 +176,7 @@
    "type": "radical",
    "jlpt_level": "N5",
    "term": "囗",
+   "reading": "くにがまえ",
    "meaning": "enclosure",
    "skill": "kanji",
    "tags": [
@@ -173,6 +188,7 @@
    "type": "radical",
    "jlpt_level": "N5",
    "term": "王",
+   "reading": "おう",
    "meaning": "king",
    "skill": "kanji",
    "tags": [
@@ -184,6 +200,7 @@
    "type": "radical",
    "jlpt_level": "N5",
    "term": "⺌",
+   "reading": "しょう",
    "meaning": "small (on top)",
    "skill": "kanji",
    "tags": [
@@ -195,6 +212,7 @@
    "type": "radical",
    "jlpt_level": "N5",
    "term": "冖",
+   "reading": "わかんむり",
    "meaning": "cover",
    "skill": "kanji",
    "tags": [
@@ -206,6 +224,7 @@
    "type": "radical",
    "jlpt_level": "N5",
    "term": "夂",
+   "reading": "ふゆがしら",
    "meaning": "winter / walking slowly",
    "skill": "kanji",
    "tags": [
@@ -217,6 +236,7 @@
    "type": "radical",
    "jlpt_level": "N5",
    "term": "幺",
+   "reading": "いとがしら",
    "meaning": "short thread",
    "skill": "kanji",
    "tags": [
@@ -228,6 +248,7 @@
    "type": "radical",
    "jlpt_level": "N5",
    "term": "彳",
+   "reading": "ぎょうにんべん",
    "meaning": "step / going",
    "skill": "kanji",
    "tags": [
@@ -239,6 +260,7 @@
    "type": "radical",
    "jlpt_level": "N5",
    "term": "寸",
+   "reading": "すん",
    "meaning": "inch / measure",
    "skill": "kanji",
    "tags": [
@@ -250,6 +272,7 @@
    "type": "radical",
    "jlpt_level": "N5",
    "term": "聿",
+   "reading": "ふでづくり",
    "meaning": "brush",
    "skill": "kanji",
    "tags": [
@@ -261,6 +284,7 @@
    "type": "radical",
    "jlpt_level": "N5",
    "term": "毋",
+   "reading": "なかれ",
    "meaning": "mother / do not",
    "skill": "kanji",
    "tags": [
@@ -272,6 +296,7 @@
    "type": "radical",
    "jlpt_level": "N5",
    "term": "門",
+   "reading": "もんがまえ",
    "meaning": "gate",
    "skill": "kanji",
    "tags": [
@@ -283,6 +308,7 @@
    "type": "radical",
    "jlpt_level": "N5",
    "term": "舌",
+   "reading": "した",
    "meaning": "tongue",
    "skill": "kanji",
    "tags": [
@@ -294,6 +320,7 @@
    "type": "radical",
    "jlpt_level": "N5",
    "term": "士",
+   "reading": "さむらい",
    "meaning": "samurai / scholar",
    "skill": "kanji",
    "tags": [
@@ -305,6 +332,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "ヨ",
+   "reading": "けいがしら",
    "meaning": "hand holding a broom",
    "skill": "kanji",
    "tags": [
@@ -316,6 +344,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "弋",
+   "reading": "しきがまえ",
    "meaning": "stake / ceremony",
    "skill": "kanji",
    "tags": [
@@ -327,6 +356,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "厶",
+   "reading": "む",
    "meaning": "private / nose",
    "skill": "kanji",
    "tags": [
@@ -338,6 +368,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "勹",
+   "reading": "つつみがまえ",
    "meaning": "wrap",
    "skill": "kanji",
    "tags": [
@@ -349,6 +380,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "攵",
+   "reading": "のぶん",
    "meaning": "strike / tap",
    "skill": "kanji",
    "tags": [
@@ -360,6 +392,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "免",
+   "reading": "めん",
    "meaning": "escape (rabbit without its tail)",
    "skill": "kanji",
    "tags": [
@@ -371,6 +404,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "里",
+   "reading": "さと",
    "meaning": "village",
    "skill": "kanji",
    "tags": [
@@ -382,6 +416,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "矢",
+   "reading": "や",
    "meaning": "arrow",
    "skill": "kanji",
    "tags": [
@@ -393,6 +428,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "匚",
+   "reading": "はこがまえ",
    "meaning": "box open on the right",
    "skill": "kanji",
    "tags": [
@@ -404,6 +440,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "貝",
+   "reading": "かい",
    "meaning": "shell / money",
    "skill": "kanji",
    "tags": [
@@ -415,6 +452,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "斗",
+   "reading": "と",
    "meaning": "dipper",
    "skill": "kanji",
    "tags": [
@@ -426,6 +464,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "也",
+   "reading": "なり",
    "meaning": "also",
    "skill": "kanji",
    "tags": [
@@ -437,6 +476,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "勿",
+   "reading": "なかれ",
    "meaning": "do not / banner",
    "skill": "kanji",
    "tags": [
@@ -448,6 +488,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "巾",
+   "reading": "はば",
    "meaning": "cloth",
    "skill": "kanji",
    "tags": [
@@ -459,6 +500,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "宀",
+   "reading": "うかんむり",
    "meaning": "roof",
    "skill": "kanji",
    "tags": [
@@ -470,6 +512,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "至",
+   "reading": "いたる",
    "meaning": "arrive",
    "skill": "kanji",
    "tags": [
@@ -481,6 +524,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "豕",
+   "reading": "いのこ",
    "meaning": "pig",
    "skill": "kanji",
    "tags": [
@@ -492,6 +536,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "尸",
+   "reading": "しかばね",
    "meaning": "corpse / flag",
    "skill": "kanji",
    "tags": [
@@ -503,6 +548,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "广",
+   "reading": "まだれ",
    "meaning": "building on a cliff",
    "skill": "kanji",
    "tags": [
@@ -514,6 +560,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "凵",
+   "reading": "うけばこ",
    "meaning": "open box",
    "skill": "kanji",
    "tags": [
@@ -525,6 +572,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "廴",
+   "reading": "えんにょう",
    "meaning": "long stride",
    "skill": "kanji",
    "tags": [
@@ -536,6 +584,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "弓",
+   "reading": "ゆみ",
    "meaning": "bow",
    "skill": "kanji",
    "tags": [
@@ -547,6 +596,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "虫",
+   "reading": "むし",
    "meaning": "insect",
    "skill": "kanji",
    "tags": [
@@ -558,6 +608,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "扌",
+   "reading": "てへん",
    "meaning": "hand (on the left)",
    "skill": "kanji",
    "tags": [
@@ -569,6 +620,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "⺹",
+   "reading": "おいかんむり",
    "meaning": "old (on top)",
    "skill": "kanji",
    "tags": [
@@ -580,6 +632,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "辛",
+   "reading": "からい",
    "meaning": "bitter / needle",
    "skill": "kanji",
    "tags": [
@@ -591,6 +644,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "隹",
+   "reading": "ふるとり",
    "meaning": "short-tailed bird",
    "skill": "kanji",
    "tags": [
@@ -602,6 +656,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "卩",
+   "reading": "ふしづくり",
    "meaning": "seal / kneeling person",
    "skill": "kanji",
    "tags": [
@@ -613,6 +668,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "羊",
+   "reading": "ひつじ",
    "meaning": "sheep",
    "skill": "kanji",
    "tags": [
@@ -624,6 +680,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "耒",
+   "reading": "すきへん",
    "meaning": "plough",
    "skill": "kanji",
    "tags": [
@@ -635,6 +692,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "冫",
+   "reading": "にすい",
    "meaning": "ice",
    "skill": "kanji",
    "tags": [
@@ -646,6 +704,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "歹",
+   "reading": "がつへん",
    "meaning": "bones / death",
    "skill": "kanji",
    "tags": [
@@ -657,6 +716,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "⺾",
+   "reading": "くさかんむり",
    "meaning": "grass (on top)",
    "skill": "kanji",
    "tags": [
@@ -668,6 +728,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "疒",
+   "reading": "やまいだれ",
    "meaning": "sickness",
    "skill": "kanji",
    "tags": [
@@ -679,6 +740,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "癶",
+   "reading": "はつがしら",
    "meaning": "footsteps",
    "skill": "kanji",
    "tags": [
@@ -690,6 +752,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "石",
+   "reading": "いし",
    "meaning": "stone",
    "skill": "kanji",
    "tags": [
@@ -701,6 +764,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "廾",
+   "reading": "にじゅうあし",
    "meaning": "two hands",
    "skill": "kanji",
    "tags": [
@@ -712,6 +776,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "礻",
+   "reading": "しめすへん",
    "meaning": "altar / spirit",
    "skill": "kanji",
    "tags": [
@@ -723,6 +788,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "禾",
+   "reading": "のぎへん",
    "meaning": "grain",
    "skill": "kanji",
    "tags": [
@@ -734,6 +800,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "竹",
+   "reading": "たけ",
    "meaning": "bamboo",
    "skill": "kanji",
    "tags": [
@@ -745,6 +812,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "氏",
+   "reading": "うじ",
    "meaning": "clan",
    "skill": "kanji",
    "tags": [
@@ -756,6 +824,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "糸",
+   "reading": "いと",
    "meaning": "thread",
    "skill": "kanji",
    "tags": [
@@ -767,6 +836,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "羽",
+   "reading": "はね",
    "meaning": "feathers",
    "skill": "kanji",
    "tags": [
@@ -778,6 +848,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "巴",
+   "reading": "ともえ",
    "meaning": "coiled snake",
    "skill": "kanji",
    "tags": [
@@ -789,6 +860,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "罒",
+   "reading": "あみがしら",
    "meaning": "net",
    "skill": "kanji",
    "tags": [
@@ -800,6 +872,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "已",
+   "reading": "すでに",
    "meaning": "already",
    "skill": "kanji",
    "tags": [
@@ -811,6 +884,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "辶",
+   "reading": "しんにょう",
    "meaning": "road / movement",
    "skill": "kanji",
    "tags": [
@@ -822,6 +896,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "マ",
+   "reading": "ま",
    "meaning": "ma shape",
    "skill": "kanji",
    "tags": [
@@ -833,6 +908,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "首",
+   "reading": "くび",
    "meaning": "neck / head",
    "skill": "kanji",
    "tags": [
@@ -844,6 +920,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "矛",
+   "reading": "ほこ",
    "meaning": "halberd",
    "skill": "kanji",
    "tags": [
@@ -855,6 +932,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "艮",
+   "reading": "こん",
    "meaning": "stopping",
    "skill": "kanji",
    "tags": [
@@ -866,6 +944,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "⻖",
+   "reading": "こざとへん",
    "meaning": "hill (on the left)",
    "skill": "kanji",
    "tags": [
@@ -877,6 +956,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "疋",
+   "reading": "ひき",
    "meaning": "bolt of cloth / foot",
    "skill": "kanji",
    "tags": [
@@ -888,6 +968,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "頁",
+   "reading": "おおがい",
    "meaning": "page / head",
    "skill": "kanji",
    "tags": [
@@ -899,6 +980,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "厂",
+   "reading": "がんだれ",
    "meaning": "cliff",
    "skill": "kanji",
    "tags": [
@@ -910,6 +992,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "馬",
+   "reading": "うま",
    "meaning": "horse",
    "skill": "kanji",
    "tags": [
@@ -921,6 +1004,7 @@
    "type": "radical",
    "jlpt_level": "N4",
    "term": "灬",
+   "reading": "れっか",
    "meaning": "fire (at the bottom)",
    "skill": "kanji",
    "tags": [
@@ -932,6 +1016,7 @@
    "type": "radical",
    "jlpt_level": "N3",
    "term": "彑",
+   "reading": "けいがしら",
    "meaning": "pig's snout",
    "skill": "kanji",
    "tags": [
@@ -943,6 +1028,7 @@
    "type": "radical",
    "jlpt_level": "N3",
    "term": "韋",
+   "reading": "なめしがわ",
    "meaning": "tanned leather",
    "skill": "kanji",
    "tags": [
@@ -954,6 +1040,7 @@
    "type": "radical",
    "jlpt_level": "N3",
    "term": "禸",
+   "reading": "ぐうのあし",
    "meaning": "track",
    "skill": "kanji",
    "tags": [
@@ -965,6 +1052,7 @@
    "type": "radical",
    "jlpt_level": "N3",
    "term": "几",
+   "reading": "つくえ",
    "meaning": "table",
    "skill": "kanji",
    "tags": [
@@ -976,6 +1064,7 @@
    "type": "radical",
    "jlpt_level": "N3",
    "term": "衤",
+   "reading": "ころもへん",
    "meaning": "clothing (on the left)",
    "skill": "kanji",
    "tags": [
@@ -987,6 +1076,7 @@
    "type": "radical",
    "jlpt_level": "N3",
    "term": "彡",
+   "reading": "さんづくり",
    "meaning": "hair / pattern",
    "skill": "kanji",
    "tags": [
@@ -998,6 +1088,7 @@
    "type": "radical",
    "jlpt_level": "N3",
    "term": "爪",
+   "reading": "つめ",
    "meaning": "claw",
    "skill": "kanji",
    "tags": [
@@ -1009,6 +1100,7 @@
    "type": "radical",
    "jlpt_level": "N3",
    "term": "及",
+   "reading": "きゅう",
    "meaning": "reach",
    "skill": "kanji",
    "tags": [
@@ -1020,6 +1112,7 @@
    "type": "radical",
    "jlpt_level": "N3",
    "term": "豆",
+   "reading": "まめ",
    "meaning": "bean",
    "skill": "kanji",
    "tags": [
@@ -1031,6 +1124,7 @@
    "type": "radical",
    "jlpt_level": "N3",
    "term": "衣",
+   "reading": "ころも",
    "meaning": "clothing",
    "skill": "kanji",
    "tags": [
@@ -1042,6 +1136,7 @@
    "type": "radical",
    "jlpt_level": "N3",
    "term": "谷",
+   "reading": "たに",
    "meaning": "valley",
    "skill": "kanji",
    "tags": [
@@ -1053,6 +1148,7 @@
    "type": "radical",
    "jlpt_level": "N3",
    "term": "戈",
+   "reading": "ほこづくり",
    "meaning": "halberd",
    "skill": "kanji",
    "tags": [
@@ -1064,6 +1160,7 @@
    "type": "radical",
    "jlpt_level": "N3",
    "term": "殳",
+   "reading": "るまた",
    "meaning": "club / weapon",
    "skill": "kanji",
    "tags": [
@@ -1075,6 +1172,7 @@
    "type": "radical",
    "jlpt_level": "N3",
    "term": "皮",
+   "reading": "けがわ",
    "meaning": "skin",
    "skill": "kanji",
    "tags": [
@@ -1086,6 +1184,7 @@
    "type": "radical",
    "jlpt_level": "N3",
    "term": "忄",
+   "reading": "りっしんべん",
    "meaning": "heart (on the left)",
    "skill": "kanji",
    "tags": [
@@ -1097,6 +1196,7 @@
    "type": "radical",
    "jlpt_level": "N3",
    "term": "戸",
+   "reading": "と",
    "meaning": "door",
    "skill": "kanji",
    "tags": [
@@ -1108,6 +1208,7 @@
    "type": "radical",
    "jlpt_level": "N3",
    "term": "甘",
+   "reading": "あまい",
    "meaning": "sweet",
    "skill": "kanji",
    "tags": [
@@ -1119,6 +1220,7 @@
    "type": "radical",
    "jlpt_level": "N3",
    "term": "黄",
+   "reading": "き",
    "meaning": "yellow",
    "skill": "kanji",
    "tags": [
@@ -1130,6 +1232,7 @@
    "type": "radical",
    "jlpt_level": "N3",
    "term": "毛",
+   "reading": "け",
    "meaning": "fur",
    "skill": "kanji",
    "tags": [
@@ -1141,6 +1244,7 @@
    "type": "radical",
    "jlpt_level": "N3",
    "term": "斉",
+   "reading": "せい",
    "meaning": "equal",
    "skill": "kanji",
    "tags": [
@@ -1152,6 +1256,7 @@
    "type": "radical",
    "jlpt_level": "N3",
    "term": "犭",
+   "reading": "けものへん",
    "meaning": "dog (on the left)",
    "skill": "kanji",
    "tags": [
@@ -1163,6 +1268,7 @@
    "type": "radical",
    "jlpt_level": "N3",
    "term": "釆",
+   "reading": "のごめ",
    "meaning": "distinguish",
    "skill": "kanji",
    "tags": [
@@ -1174,6 +1280,7 @@
    "type": "radical",
    "jlpt_level": "N3",
    "term": "比",
+   "reading": "くらべる",
    "meaning": "compare",
    "skill": "kanji",
    "tags": [
@@ -1185,6 +1292,7 @@
    "type": "radical",
    "jlpt_level": "N3",
    "term": "皿",
+   "reading": "さら",
    "meaning": "dish",
    "skill": "kanji",
    "tags": [
@@ -1196,6 +1304,7 @@
    "type": "radical",
    "jlpt_level": "N3",
    "term": "舛",
+   "reading": "まいあし",
    "meaning": "dance / opposite feet",
    "skill": "kanji",
    "tags": [
@@ -1207,6 +1316,7 @@
    "type": "radical",
    "jlpt_level": "N3",
    "term": "無",
+   "reading": "む",
    "meaning": "nothing",
    "skill": "kanji",
    "tags": [
@@ -1218,6 +1328,7 @@
    "type": "radical",
    "jlpt_level": "N3",
    "term": "舟",
+   "reading": "ふね",
    "meaning": "boat",
    "skill": "kanji",
    "tags": [
@@ -1229,6 +1340,7 @@
    "type": "radical",
    "jlpt_level": "N3",
    "term": "角",
+   "reading": "つの",
    "meaning": "horn",
    "skill": "kanji",
    "tags": [
@@ -1240,6 +1352,7 @@
    "type": "radical",
    "jlpt_level": "N3",
    "term": "冊",
+   "reading": "さつ",
    "meaning": "book / volume",
    "skill": "kanji",
    "tags": [
@@ -1251,6 +1364,7 @@
    "type": "radical",
    "jlpt_level": "N3",
    "term": "滴",
+   "reading": "てき",
    "meaning": "stem (啇)",
    "skill": "kanji",
    "tags": [
@@ -1262,6 +1376,7 @@
    "type": "radical",
    "jlpt_level": "N3",
    "term": "⻏",
+   "reading": "おおざと",
    "meaning": "town (on the right)",
    "skill": "kanji",
    "tags": [
@@ -1273,6 +1388,7 @@
    "type": "radical",
    "jlpt_level": "N3",
    "term": "酉",
+   "reading": "とりへん",
    "meaning": "sake jar",
    "skill": "kanji",
    "tags": [
@@ -1284,6 +1400,7 @@
    "type": "radical",
    "jlpt_level": "N3",
    "term": "革",
+   "reading": "かわ",
    "meaning": "leather",
    "skill": "kanji",
    "tags": [
@@ -1295,6 +1412,7 @@
    "type": "radical",
    "jlpt_level": "N3",
    "term": "髟",
+   "reading": "かみがしら",
    "meaning": "long hair",
    "skill": "kanji",
    "tags": [
@@ -1306,6 +1424,7 @@
    "type": "radical",
    "jlpt_level": "N2",
    "term": "虍",
+   "reading": "とらかんむり",
    "meaning": "tiger stripes",
    "skill": "kanji",
    "tags": [
@@ -1317,6 +1436,7 @@
    "type": "radical",
    "jlpt_level": "N2",
    "term": "麻",
+   "reading": "あさ",
    "meaning": "hemp",
    "skill": "kanji",
    "tags": [
@@ -1328,6 +1448,7 @@
    "type": "radical",
    "jlpt_level": "N2",
    "term": "尢",
+   "reading": "だいのまげあし",
    "meaning": "lame leg",
    "skill": "kanji",
    "tags": [
@@ -1339,6 +1460,7 @@
    "type": "radical",
    "jlpt_level": "N2",
    "term": "辰",
+   "reading": "しんのたつ",
    "meaning": "dragon (zodiac)",
    "skill": "kanji",
    "tags": [
@@ -1350,6 +1472,7 @@
    "type": "radical",
    "jlpt_level": "N2",
    "term": "瓦",
+   "reading": "かわら",
    "meaning": "tile",
    "skill": "kanji",
    "tags": [
@@ -1361,6 +1484,7 @@
    "type": "radical",
    "jlpt_level": "N2",
    "term": "玄",
+   "reading": "げん",
    "meaning": "dark / mysterious",
    "skill": "kanji",
    "tags": [
@@ -1372,6 +1496,7 @@
    "type": "radical",
    "jlpt_level": "N2",
    "term": "屯",
+   "reading": "とん",
    "meaning": "sprout / camp",
    "skill": "kanji",
    "tags": [
@@ -1383,6 +1508,7 @@
    "type": "radical",
    "jlpt_level": "N2",
    "term": "隶",
+   "reading": "れいづくり",
    "meaning": "seize",
    "skill": "kanji",
    "tags": [
@@ -1394,6 +1520,7 @@
    "type": "radical",
    "jlpt_level": "N2",
    "term": "屮",
+   "reading": "てつ",
    "meaning": "sprout",
    "skill": "kanji",
    "tags": [

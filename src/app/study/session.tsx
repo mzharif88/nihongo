@@ -63,7 +63,7 @@ export function StudySession({
     setCorrect(isCorrect);
     if (choice !== undefined) setPicked(choice);
     setPhase("answered");
-    speak(card.reveal.term, card.reveal.audioUrl);
+    speak(spoken(card), card.reveal.audioUrl);
   }
 
   function startQuestion() {
@@ -204,7 +204,7 @@ function Intro({ card, onDone }: { card: StudyCard; onDone: () => void }) {
     <section className="flex flex-1 flex-col">
       <p className="mt-8 text-center text-sm font-medium text-accent">New item</p>
       <button
-        onClick={() => speak(r.term, r.audioUrl)}
+        onClick={() => speak(spoken(card), r.audioUrl)}
         className="my-4 text-center text-6xl font-bold"
         lang="ja"
         aria-label={`Play ${r.term}`}
@@ -212,11 +212,22 @@ function Intro({ card, onDone }: { card: StudyCard; onDone: () => void }) {
         <Ruby text={r.term} reading={r.reading} />
       </button>
       <dl className="space-y-3 rounded-xl border border-border bg-card p-4">
-        {(plainReading(r.reading) || r.romaji) && (
+        {kanjiReadings(r) ? (
           <div>
-            <dt className="text-xs text-muted">Reading</dt>
-            <dd lang="ja">{[plainReading(r.reading), r.romaji].filter(Boolean).join(" · ")}</dd>
+            <dt className="text-xs text-muted">Readings</dt>
+            <dd className="text-lg" lang="ja">
+              {kanjiReadings(r)}
+            </dd>
           </div>
+        ) : (
+          (plainReading(r.reading) || r.romaji) && (
+            <div>
+              <dt className="text-xs text-muted">{card.itemType === "radical" ? "Name" : "Reading"}</dt>
+              <dd className="text-lg" lang="ja">
+                {[plainReading(r.reading), r.romaji].filter(Boolean).join(" · ")}
+              </dd>
+            </div>
+          )
         )}
         <div>
           <dt className="text-xs text-muted">Meaning</dt>
@@ -305,16 +316,30 @@ function Feedback({ card, correct }: { card: StudyCard; correct: boolean }) {
     >
       <p className="font-medium">{correct ? "Correct!" : "Not quite"}</p>
       <p className="mt-1" lang="ja">
-        <button onClick={() => speak(r.term, r.audioUrl)} className="font-bold underline decoration-dotted">
+        <button onClick={() => speak(spoken(card), r.audioUrl)} className="font-bold underline decoration-dotted">
           <Ruby text={r.term} reading={r.reading} />
         </button>
-        {[plainReading(r.reading), r.romaji].filter(Boolean).length > 0 &&
-          ` · ${[plainReading(r.reading), r.romaji].filter(Boolean).join(" · ")}`}
+        {kanjiReadings(r)
+          ? ` · ${kanjiReadings(r)}`
+          : [plainReading(r.reading), r.romaji].filter(Boolean).length > 0 && ` · ${[plainReading(r.reading), r.romaji].filter(Boolean).join(" · ")}`}
       </p>
       <p className="text-sm">{r.meaning}</p>
       {r.mnemonic && !correct && <p className="mt-2 text-sm text-muted">💡 {r.mnemonic}</p>}
     </div>
   );
+}
+
+/** A kanji's readings on one line: 音 (on) and 訓 (kun). */
+function kanjiReadings(r: StudyCard["reveal"]): string | null {
+  if (!r.readings) return null;
+  return [r.readings.on.length ? `音 ${r.readings.on.join("・")}` : "", r.readings.kun.length ? `訓 ${r.readings.kun.join("・")}` : ""]
+    .filter(Boolean)
+    .join("　");
+}
+
+/** What to say aloud: a radical's name (the character alone has no sound), otherwise the term. */
+function spoken(card: StudyCard): string {
+  return card.itemType === "radical" && card.reveal.reading ? card.reveal.reading.split("・")[0] : card.reveal.term;
 }
 
 /** A reading worth printing on its own line: plain kana, not the ruby markup that sentences carry. */

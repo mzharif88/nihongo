@@ -25,6 +25,7 @@ const load = (f: string) => JSON.parse(readFileSync(join(CONTENT, f), "utf8")).r
 
 const parts = JSON.parse(readFileSync(join(CONTENT, "kanji-parts", "kradfile.json"), "utf8")).parts as Record<string, string[]>;
 const meanings = JSON.parse(readFileSync(join(CONTENT, "radicals", "meanings.json"), "utf8")).meanings as Record<string, string>;
+const names = JSON.parse(readFileSync(join(CONTENT, "radicals", "names.json"), "utf8")).names as Record<string, string>;
 
 const bySlug = new Map<string, Rec>();
 for (const f of ["legacy/01-items.json", "opendata/00-legacy-level-fixes.json", "opendata/01-kanji-n5.json", "opendata/03-kanji-n4.json", "opendata/05-kanji-n3.json", "opendata/07-kanji-n2.json"])
@@ -70,6 +71,8 @@ const radicals = [...newRadicals].map(([p, { level }]) => ({
   type: "radical",
   jlpt_level: LEVELS[level],
   term: p,
+  // Kana: the part's reading when it is a kanji, else its radical name (部首名).
+  reading: names[p],
   meaning: meanings[p],
   skill: "kanji",
   tags: ["radical"],

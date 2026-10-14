@@ -17,6 +17,8 @@ export interface StudyItem {
   topic: string | null;
   prerequisites: string[];
   audio_url: string | null;
+  /** Kanji: on and kun readings (KANJIDIC). */
+  data?: { on?: string[]; kun?: string[]; freq?: number | null } | null;
 }
 
 export interface StudyCard {
@@ -46,6 +48,8 @@ export interface StudyCard {
     romaji: string | null;
     meaning: string;
     mnemonic: string | null;
+    /** Kanji: every on (音) and kun (訓) reading. */
+    readings: { on: string[]; kun: string[] } | null;
     /** `reading` is ruby markup for the example sentence, when generated. */
     example: { jp: string; en: string; reading?: string } | null;
     audioUrl: string | null;
@@ -155,6 +159,7 @@ export function buildCard(
       romaji: item.romaji,
       meaning: item.meaning,
       mnemonic: item.mnemonic,
+      readings: item.type === "kanji" && (item.data?.on?.length || item.data?.kun?.length) ? { on: item.data?.on ?? [], kun: item.data?.kun ?? [] } : null,
       example,
       audioUrl: item.audio_url,
     },
