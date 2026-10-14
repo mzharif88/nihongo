@@ -1,0 +1,1404 @@
+{
+ "version": 1,
+ "kind": "items",
+ "source": "radicals-kradfile",
+ "records": [
+  {
+   "slug": "radical-u5315",
+   "type": "radical",
+   "jlpt_level": "N5",
+   "term": "匕",
+   "meaning": "spoon",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u535c",
+   "type": "radical",
+   "jlpt_level": "N5",
+   "term": "卜",
+   "meaning": "divining rod",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u201a2",
+   "type": "radical",
+   "jlpt_level": "N5",
+   "term": "𠆢",
+   "meaning": "person (on top)",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u2e85",
+   "type": "radical",
+   "jlpt_level": "N5",
+   "term": "⺅",
+   "meaning": "person (on the left)",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u30cf",
+   "type": "radical",
+   "jlpt_level": "N5",
+   "term": "ハ",
+   "meaning": "eight / split apart",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u4ea0",
+   "type": "radical",
+   "jlpt_level": "N5",
+   "term": "亠",
+   "meaning": "lid",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u5182",
+   "type": "radical",
+   "jlpt_level": "N5",
+   "term": "冂",
+   "meaning": "upside-down box",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u5200",
+   "type": "radical",
+   "jlpt_level": "N5",
+   "term": "刀",
+   "meaning": "sword",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u5202",
+   "type": "radical",
+   "jlpt_level": "N5",
+   "term": "刂",
+   "meaning": "knife (on the right)",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u5e76",
+   "type": "radical",
+   "jlpt_level": "N5",
+   "term": "并",
+   "meaning": "horns",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u723f",
+   "type": "radical",
+   "jlpt_level": "N5",
+   "term": "爿",
+   "meaning": "split wood",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u5e72",
+   "type": "radical",
+   "jlpt_level": "N5",
+   "term": "干",
+   "meaning": "dry / shield",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u53c8",
+   "type": "radical",
+   "jlpt_level": "N5",
+   "term": "又",
+   "meaning": "right hand / again",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u5915",
+   "type": "radical",
+   "jlpt_level": "N5",
+   "term": "夕",
+   "meaning": "evening",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u56d7",
+   "type": "radical",
+   "jlpt_level": "N5",
+   "term": "囗",
+   "meaning": "enclosure",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u738b",
+   "type": "radical",
+   "jlpt_level": "N5",
+   "term": "王",
+   "meaning": "king",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u2e8c",
+   "type": "radical",
+   "jlpt_level": "N5",
+   "term": "⺌",
+   "meaning": "small (on top)",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u5196",
+   "type": "radical",
+   "jlpt_level": "N5",
+   "term": "冖",
+   "meaning": "cover",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u5902",
+   "type": "radical",
+   "jlpt_level": "N5",
+   "term": "夂",
+   "meaning": "winter / walking slowly",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u5e7a",
+   "type": "radical",
+   "jlpt_level": "N5",
+   "term": "幺",
+   "meaning": "short thread",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u5f73",
+   "type": "radical",
+   "jlpt_level": "N5",
+   "term": "彳",
+   "meaning": "step / going",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u5bf8",
+   "type": "radical",
+   "jlpt_level": "N5",
+   "term": "寸",
+   "meaning": "inch / measure",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u807f",
+   "type": "radical",
+   "jlpt_level": "N5",
+   "term": "聿",
+   "meaning": "brush",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u6bcb",
+   "type": "radical",
+   "jlpt_level": "N5",
+   "term": "毋",
+   "meaning": "mother / do not",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u9580",
+   "type": "radical",
+   "jlpt_level": "N5",
+   "term": "門",
+   "meaning": "gate",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u820c",
+   "type": "radical",
+   "jlpt_level": "N5",
+   "term": "舌",
+   "meaning": "tongue",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u58eb",
+   "type": "radical",
+   "jlpt_level": "N5",
+   "term": "士",
+   "meaning": "samurai / scholar",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u30e8",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "ヨ",
+   "meaning": "hand holding a broom",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u5f0b",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "弋",
+   "meaning": "stake / ceremony",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u53b6",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "厶",
+   "meaning": "private / nose",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u52f9",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "勹",
+   "meaning": "wrap",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u6535",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "攵",
+   "meaning": "strike / tap",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u514d",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "免",
+   "meaning": "escape (rabbit without its tail)",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u91cc",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "里",
+   "meaning": "village",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u77e2",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "矢",
+   "meaning": "arrow",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u531a",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "匚",
+   "meaning": "box open on the right",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u8c9d",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "貝",
+   "meaning": "shell / money",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u6597",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "斗",
+   "meaning": "dipper",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u4e5f",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "也",
+   "meaning": "also",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u52ff",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "勿",
+   "meaning": "do not / banner",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u5dfe",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "巾",
+   "meaning": "cloth",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u5b80",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "宀",
+   "meaning": "roof",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u81f3",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "至",
+   "meaning": "arrive",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u8c55",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "豕",
+   "meaning": "pig",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u5c38",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "尸",
+   "meaning": "corpse / flag",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u5e7f",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "广",
+   "meaning": "building on a cliff",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u51f5",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "凵",
+   "meaning": "open box",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u5ef4",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "廴",
+   "meaning": "long stride",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u5f13",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "弓",
+   "meaning": "bow",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u866b",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "虫",
+   "meaning": "insect",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u624c",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "扌",
+   "meaning": "hand (on the left)",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u2eb9",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "⺹",
+   "meaning": "old (on top)",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u8f9b",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "辛",
+   "meaning": "bitter / needle",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u96b9",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "隹",
+   "meaning": "short-tailed bird",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u5369",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "卩",
+   "meaning": "seal / kneeling person",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u7f8a",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "羊",
+   "meaning": "sheep",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u8012",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "耒",
+   "meaning": "plough",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u51ab",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "冫",
+   "meaning": "ice",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u6b79",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "歹",
+   "meaning": "bones / death",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u2ebe",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "⺾",
+   "meaning": "grass (on top)",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u7592",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "疒",
+   "meaning": "sickness",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u7676",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "癶",
+   "meaning": "footsteps",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u77f3",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "石",
+   "meaning": "stone",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u5efe",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "廾",
+   "meaning": "two hands",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u793b",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "礻",
+   "meaning": "altar / spirit",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u79be",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "禾",
+   "meaning": "grain",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u7af9",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "竹",
+   "meaning": "bamboo",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u6c0f",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "氏",
+   "meaning": "clan",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u7cf8",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "糸",
+   "meaning": "thread",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u7fbd",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "羽",
+   "meaning": "feathers",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u5df4",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "巴",
+   "meaning": "coiled snake",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u7f52",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "罒",
+   "meaning": "net",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u5df2",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "已",
+   "meaning": "already",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-ufa66",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "辶",
+   "meaning": "road / movement",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u30de",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "マ",
+   "meaning": "ma shape",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u9996",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "首",
+   "meaning": "neck / head",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u77db",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "矛",
+   "meaning": "halberd",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u826e",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "艮",
+   "meaning": "stopping",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u2ed6",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "⻖",
+   "meaning": "hill (on the left)",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u758b",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "疋",
+   "meaning": "bolt of cloth / foot",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u9801",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "頁",
+   "meaning": "page / head",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u5382",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "厂",
+   "meaning": "cliff",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u99ac",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "馬",
+   "meaning": "horse",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u706c",
+   "type": "radical",
+   "jlpt_level": "N4",
+   "term": "灬",
+   "meaning": "fire (at the bottom)",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u5f51",
+   "type": "radical",
+   "jlpt_level": "N3",
+   "term": "彑",
+   "meaning": "pig's snout",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u97cb",
+   "type": "radical",
+   "jlpt_level": "N3",
+   "term": "韋",
+   "meaning": "tanned leather",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u79b8",
+   "type": "radical",
+   "jlpt_level": "N3",
+   "term": "禸",
+   "meaning": "track",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u51e0",
+   "type": "radical",
+   "jlpt_level": "N3",
+   "term": "几",
+   "meaning": "table",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u8864",
+   "type": "radical",
+   "jlpt_level": "N3",
+   "term": "衤",
+   "meaning": "clothing (on the left)",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u5f61",
+   "type": "radical",
+   "jlpt_level": "N3",
+   "term": "彡",
+   "meaning": "hair / pattern",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u722a",
+   "type": "radical",
+   "jlpt_level": "N3",
+   "term": "爪",
+   "meaning": "claw",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u53ca",
+   "type": "radical",
+   "jlpt_level": "N3",
+   "term": "及",
+   "meaning": "reach",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u8c46",
+   "type": "radical",
+   "jlpt_level": "N3",
+   "term": "豆",
+   "meaning": "bean",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u8863",
+   "type": "radical",
+   "jlpt_level": "N3",
+   "term": "衣",
+   "meaning": "clothing",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u8c37",
+   "type": "radical",
+   "jlpt_level": "N3",
+   "term": "谷",
+   "meaning": "valley",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u6208",
+   "type": "radical",
+   "jlpt_level": "N3",
+   "term": "戈",
+   "meaning": "halberd",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u6bb3",
+   "type": "radical",
+   "jlpt_level": "N3",
+   "term": "殳",
+   "meaning": "club / weapon",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u76ae",
+   "type": "radical",
+   "jlpt_level": "N3",
+   "term": "皮",
+   "meaning": "skin",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u5fc4",
+   "type": "radical",
+   "jlpt_level": "N3",
+   "term": "忄",
+   "meaning": "heart (on the left)",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u6238",
+   "type": "radical",
+   "jlpt_level": "N3",
+   "term": "戸",
+   "meaning": "door",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u7518",
+   "type": "radical",
+   "jlpt_level": "N3",
+   "term": "甘",
+   "meaning": "sweet",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u9ec4",
+   "type": "radical",
+   "jlpt_level": "N3",
+   "term": "黄",
+   "meaning": "yellow",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u6bdb",
+   "type": "radical",
+   "jlpt_level": "N3",
+   "term": "毛",
+   "meaning": "fur",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u6589",
+   "type": "radical",
+   "jlpt_level": "N3",
+   "term": "斉",
+   "meaning": "equal",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u72ad",
+   "type": "radical",
+   "jlpt_level": "N3",
+   "term": "犭",
+   "meaning": "dog (on the left)",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u91c6",
+   "type": "radical",
+   "jlpt_level": "N3",
+   "term": "釆",
+   "meaning": "distinguish",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u6bd4",
+   "type": "radical",
+   "jlpt_level": "N3",
+   "term": "比",
+   "meaning": "compare",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u76bf",
+   "type": "radical",
+   "jlpt_level": "N3",
+   "term": "皿",
+   "meaning": "dish",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u821b",
+   "type": "radical",
+   "jlpt_level": "N3",
+   "term": "舛",
+   "meaning": "dance / opposite feet",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u7121",
+   "type": "radical",
+   "jlpt_level": "N3",
+   "term": "無",
+   "meaning": "nothing",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u821f",
+   "type": "radical",
+   "jlpt_level": "N3",
+   "term": "舟",
+   "meaning": "boat",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u89d2",
+   "type": "radical",
+   "jlpt_level": "N3",
+   "term": "角",
+   "meaning": "horn",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u518a",
+   "type": "radical",
+   "jlpt_level": "N3",
+   "term": "冊",
+   "meaning": "book / volume",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u6ef4",
+   "type": "radical",
+   "jlpt_level": "N3",
+   "term": "滴",
+   "meaning": "stem (啇)",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u2ecf",
+   "type": "radical",
+   "jlpt_level": "N3",
+   "term": "⻏",
+   "meaning": "town (on the right)",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u9149",
+   "type": "radical",
+   "jlpt_level": "N3",
+   "term": "酉",
+   "meaning": "sake jar",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u9769",
+   "type": "radical",
+   "jlpt_level": "N3",
+   "term": "革",
+   "meaning": "leather",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u9adf",
+   "type": "radical",
+   "jlpt_level": "N3",
+   "term": "髟",
+   "meaning": "long hair",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u864d",
+   "type": "radical",
+   "jlpt_level": "N2",
+   "term": "虍",
+   "meaning": "tiger stripes",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u9ebb",
+   "type": "radical",
+   "jlpt_level": "N2",
+   "term": "麻",
+   "meaning": "hemp",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u5c22",
+   "type": "radical",
+   "jlpt_level": "N2",
+   "term": "尢",
+   "meaning": "lame leg",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u8fb0",
+   "type": "radical",
+   "jlpt_level": "N2",
+   "term": "辰",
+   "meaning": "dragon (zodiac)",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u74e6",
+   "type": "radical",
+   "jlpt_level": "N2",
+   "term": "瓦",
+   "meaning": "tile",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u7384",
+   "type": "radical",
+   "jlpt_level": "N2",
+   "term": "玄",
+   "meaning": "dark / mysterious",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u5c6f",
+   "type": "radical",
+   "jlpt_level": "N2",
+   "term": "屯",
+   "meaning": "sprout / camp",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u96b6",
+   "type": "radical",
+   "jlpt_level": "N2",
+   "term": "隶",
+   "meaning": "seize",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  },
+  {
+   "slug": "radical-u5c6e",
+   "type": "radical",
+   "jlpt_level": "N2",
+   "term": "屮",
+   "meaning": "sprout",
+   "skill": "kanji",
+   "tags": [
+    "radical"
+   ]
+  }
+ ]
+}

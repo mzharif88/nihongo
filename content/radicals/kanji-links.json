@@ -1,0 +1,7783 @@
+{
+ "note": "Kanji item → part slugs (prerequisites).",
+ "records": [
+  {
+   "slug": "kanji-one",
+   "prerequisites": []
+  },
+  {
+   "slug": "kanji-seven",
+   "prerequisites": [
+    "radical-u5315"
+   ]
+  },
+  {
+   "slug": "kanji-u4e07",
+   "prerequisites": [
+    "kanji-one"
+   ]
+  },
+  {
+   "slug": "kanji-three",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-two"
+   ]
+  },
+  {
+   "slug": "kanji-above",
+   "prerequisites": [
+    "radical-above",
+    "kanji-one",
+    "radical-u535c"
+   ]
+  },
+  {
+   "slug": "kanji-below",
+   "prerequisites": [
+    "radical-below",
+    "kanji-one",
+    "radical-u535c"
+   ]
+  },
+  {
+   "slug": "kanji-middle",
+   "prerequisites": [
+    "radical-middle",
+    "radical-mouth"
+   ]
+  },
+  {
+   "slug": "kanji-nine",
+   "prerequisites": []
+  },
+  {
+   "slug": "kanji-two",
+   "prerequisites": []
+  },
+  {
+   "slug": "kanji-five",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-two"
+   ]
+  },
+  {
+   "slug": "kanji-person",
+   "prerequisites": [
+    "radical-person"
+   ]
+  },
+  {
+   "slug": "kanji-now",
+   "prerequisites": [
+    "radical-u201a2",
+    "kanji-one"
+   ]
+  },
+  {
+   "slug": "kanji-u4f11",
+   "prerequisites": [
+    "radical-u2e85",
+    "kanji-tree"
+   ]
+  },
+  {
+   "slug": "kanji-what",
+   "prerequisites": [
+    "radical-u2e85",
+    "radical-mouth"
+   ]
+  },
+  {
+   "slug": "kanji-ahead",
+   "prerequisites": [
+    "radical-walking",
+    "radical-legs",
+    "kanji-earth"
+   ]
+  },
+  {
+   "slug": "kanji-enter",
+   "prerequisites": []
+  },
+  {
+   "slug": "kanji-eight",
+   "prerequisites": [
+    "radical-u30cf"
+   ]
+  },
+  {
+   "slug": "kanji-six",
+   "prerequisites": [
+    "radical-u30cf",
+    "radical-u4ea0"
+   ]
+  },
+  {
+   "slug": "kanji-yen",
+   "prerequisites": [
+    "radical-u5182",
+    "radical-u4ea0",
+    "kanji-one"
+   ]
+  },
+  {
+   "slug": "kanji-exit",
+   "prerequisites": [
+    "kanji-mountain"
+   ]
+  },
+  {
+   "slug": "kanji-minute",
+   "prerequisites": [
+    "radical-u5200",
+    "radical-u30cf"
+   ]
+  },
+  {
+   "slug": "kanji-front",
+   "prerequisites": [
+    "kanji-one",
+    "radical-u5202",
+    "kanji-moon",
+    "radical-u5e76"
+   ]
+  },
+  {
+   "slug": "kanji-u5317",
+   "prerequisites": [
+    "radical-u5315",
+    "radical-u723f"
+   ]
+  },
+  {
+   "slug": "kanji-ten",
+   "prerequisites": []
+  },
+  {
+   "slug": "kanji-thousand",
+   "prerequisites": [
+    "kanji-ten"
+   ]
+  },
+  {
+   "slug": "kanji-u5348",
+   "prerequisites": [
+    "radical-u5e72",
+    "kanji-ten"
+   ]
+  },
+  {
+   "slug": "kanji-half",
+   "prerequisites": [
+    "kanji-two",
+    "radical-u5e76",
+    "kanji-ten"
+   ]
+  },
+  {
+   "slug": "kanji-u5357",
+   "prerequisites": [
+    "radical-u5e72",
+    "kanji-ten",
+    "radical-u5e76",
+    "radical-u5182"
+   ]
+  },
+  {
+   "slug": "kanji-u53cb",
+   "prerequisites": [
+    "kanji-one",
+    "radical-u53c8"
+   ]
+  },
+  {
+   "slug": "kanji-right",
+   "prerequisites": [
+    "kanji-one",
+    "radical-mouth"
+   ]
+  },
+  {
+   "slug": "kanji-u540d",
+   "prerequisites": [
+    "radical-mouth",
+    "radical-u5915"
+   ]
+  },
+  {
+   "slug": "kanji-four",
+   "prerequisites": [
+    "radical-legs",
+    "radical-u56d7"
+   ]
+  },
+  {
+   "slug": "kanji-country",
+   "prerequisites": [
+    "radical-u738b",
+    "radical-u56d7"
+   ]
+  },
+  {
+   "slug": "kanji-earth",
+   "prerequisites": [
+    "radical-earth"
+   ]
+  },
+  {
+   "slug": "kanji-outside",
+   "prerequisites": [
+    "radical-u535c",
+    "radical-u5915"
+   ]
+  },
+  {
+   "slug": "kanji-big",
+   "prerequisites": [
+    "radical-big"
+   ]
+  },
+  {
+   "slug": "kanji-u5929",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-big"
+   ]
+  },
+  {
+   "slug": "kanji-woman",
+   "prerequisites": [
+    "radical-woman-kneeling"
+   ]
+  },
+  {
+   "slug": "kanji-child",
+   "prerequisites": [
+    "radical-child"
+   ]
+  },
+  {
+   "slug": "kanji-study",
+   "prerequisites": [
+    "radical-child",
+    "radical-hands",
+    "radical-u2e8c",
+    "radical-u5196"
+   ]
+  },
+  {
+   "slug": "kanji-small",
+   "prerequisites": [
+    "radical-small"
+   ]
+  },
+  {
+   "slug": "kanji-mountain",
+   "prerequisites": [
+    "radical-three-peaks"
+   ]
+  },
+  {
+   "slug": "kanji-river",
+   "prerequisites": [
+    "radical-river"
+   ]
+  },
+  {
+   "slug": "kanji-left",
+   "prerequisites": [
+    "kanji-one",
+    "radical-craft"
+   ]
+  },
+  {
+   "slug": "kanji-year",
+   "prerequisites": [
+    "kanji-one",
+    "radical-u5e72"
+   ]
+  },
+  {
+   "slug": "kanji-behind",
+   "prerequisites": [
+    "radical-u5902",
+    "radical-u5e7a",
+    "radical-u5f73"
+   ]
+  },
+  {
+   "slug": "kanji-sun",
+   "prerequisites": [
+    "radical-sun"
+   ]
+  },
+  {
+   "slug": "kanji-time",
+   "prerequisites": [
+    "radical-u5bf8",
+    "kanji-earth",
+    "kanji-sun"
+   ]
+  },
+  {
+   "slug": "kanji-write",
+   "prerequisites": [
+    "kanji-sun",
+    "radical-u807f"
+   ]
+  },
+  {
+   "slug": "kanji-moon",
+   "prerequisites": [
+    "radical-moon"
+   ]
+  },
+  {
+   "slug": "kanji-tree",
+   "prerequisites": [
+    "radical-tree"
+   ]
+  },
+  {
+   "slug": "kanji-book",
+   "prerequisites": [
+    "radical-tree",
+    "radical-root-line"
+   ]
+  },
+  {
+   "slug": "kanji-come",
+   "prerequisites": [
+    "kanji-two",
+    "radical-rice",
+    "radical-u4ea0",
+    "kanji-tree"
+   ]
+  },
+  {
+   "slug": "kanji-u6771",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-sun",
+    "kanji-tree",
+    "radical-rice-field"
+   ]
+  },
+  {
+   "slug": "kanji-school",
+   "prerequisites": [
+    "radical-tree",
+    "radical-intersect",
+    "kanji-father",
+    "radical-u4ea0"
+   ]
+  },
+  {
+   "slug": "kanji-mother",
+   "prerequisites": [
+    "radical-nurturing-woman",
+    "radical-u6bcb"
+   ]
+  },
+  {
+   "slug": "kanji-every",
+   "prerequisites": [
+    "kanji-mother",
+    "radical-u6bcb"
+   ]
+  },
+  {
+   "slug": "kanji-spirit",
+   "prerequisites": [
+    "radical-steam",
+    "radical-rice"
+   ]
+  },
+  {
+   "slug": "kanji-water",
+   "prerequisites": [
+    "radical-water"
+   ]
+  },
+  {
+   "slug": "kanji-fire",
+   "prerequisites": [
+    "radical-fire"
+   ]
+  },
+  {
+   "slug": "kanji-father",
+   "prerequisites": [
+    "radical-father-holding-a-stick"
+   ]
+  },
+  {
+   "slug": "kanji-life",
+   "prerequisites": [
+    "radical-earth",
+    "radical-walking"
+   ]
+  },
+  {
+   "slug": "kanji-man",
+   "prerequisites": [
+    "radical-rice-field",
+    "radical-strength"
+   ]
+  },
+  {
+   "slug": "kanji-white",
+   "prerequisites": [
+    "radical-sun-ray-white-light"
+   ]
+  },
+  {
+   "slug": "kanji-hundred",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-white"
+   ]
+  },
+  {
+   "slug": "kanji-hear",
+   "prerequisites": [
+    "radical-ear",
+    "radical-u9580"
+   ]
+  },
+  {
+   "slug": "kanji-go",
+   "prerequisites": [
+    "radical-u5f73"
+   ]
+  },
+  {
+   "slug": "kanji-u897f",
+   "prerequisites": []
+  },
+  {
+   "slug": "kanji-see",
+   "prerequisites": [
+    "radical-eye",
+    "radical-legs"
+   ]
+  },
+  {
+   "slug": "kanji-talk",
+   "prerequisites": [
+    "radical-speech",
+    "radical-mouth",
+    "radical-u820c"
+   ]
+  },
+  {
+   "slug": "kanji-language",
+   "prerequisites": [
+    "radical-speech",
+    "radical-i",
+    "kanji-one",
+    "radical-mouth",
+    "kanji-five"
+   ]
+  },
+  {
+   "slug": "kanji-read",
+   "prerequisites": [
+    "radical-speech",
+    "radical-u58eb",
+    "radical-legs",
+    "radical-u5196"
+   ]
+  },
+  {
+   "slug": "kanji-car",
+   "prerequisites": [
+    "radical-wheel"
+   ]
+  },
+  {
+   "slug": "kanji-gold",
+   "prerequisites": [
+    "radical-gold"
+   ]
+  },
+  {
+   "slug": "kanji-long",
+   "prerequisites": []
+  },
+  {
+   "slug": "kanji-between",
+   "prerequisites": [
+    "kanji-sun",
+    "radical-u9580"
+   ]
+  },
+  {
+   "slug": "kanji-rain",
+   "prerequisites": [
+    "radical-rain"
+   ]
+  },
+  {
+   "slug": "kanji-electricity",
+   "prerequisites": [
+    "radical-rain",
+    "radical-lightning",
+    "radical-rice-field"
+   ]
+  },
+  {
+   "slug": "kanji-eat",
+   "prerequisites": [
+    "radical-person",
+    "radical-good"
+   ]
+  },
+  {
+   "slug": "kanji-high",
+   "prerequisites": [
+    "radical-tall-building",
+    "radical-mouth",
+    "radical-u4ea0",
+    "radical-u5182"
+   ]
+  },
+  {
+   "slug": "kanji-u4e0d",
+   "prerequisites": [
+    "kanji-one"
+   ]
+  },
+  {
+   "slug": "kanji-u4e16",
+   "prerequisites": [
+    "kanji-one"
+   ]
+  },
+  {
+   "slug": "kanji-u4e3b",
+   "prerequisites": [
+    "radical-u738b"
+   ]
+  },
+  {
+   "slug": "kanji-u4e8b",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-mouth",
+    "radical-u30e8"
+   ]
+  },
+  {
+   "slug": "kanji-u4eac",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-small",
+    "radical-u4ea0"
+   ]
+  },
+  {
+   "slug": "kanji-u4ed5",
+   "prerequisites": [
+    "radical-u2e85",
+    "radical-u58eb"
+   ]
+  },
+  {
+   "slug": "kanji-u4ee3",
+   "prerequisites": [
+    "radical-u2e85",
+    "radical-u5f0b"
+   ]
+  },
+  {
+   "slug": "kanji-u4ee5",
+   "prerequisites": [
+    "kanji-person"
+   ]
+  },
+  {
+   "slug": "kanji-u4f1a",
+   "prerequisites": [
+    "kanji-two",
+    "radical-u201a2",
+    "radical-u53b6"
+   ]
+  },
+  {
+   "slug": "kanji-u4f4f",
+   "prerequisites": [
+    "radical-u738b",
+    "radical-u2e85"
+   ]
+  },
+  {
+   "slug": "kanji-u4f53",
+   "prerequisites": [
+    "kanji-tree",
+    "kanji-one",
+    "radical-u2e85"
+   ]
+  },
+  {
+   "slug": "kanji-u4f5c",
+   "prerequisites": [
+    "radical-u2e85"
+   ]
+  },
+  {
+   "slug": "kanji-u4f7f",
+   "prerequisites": [
+    "kanji-one",
+    "radical-u2e85",
+    "kanji-mouth"
+   ]
+  },
+  {
+   "slug": "kanji-u501f",
+   "prerequisites": [
+    "radical-u2e85",
+    "kanji-sun"
+   ]
+  },
+  {
+   "slug": "kanji-u5143",
+   "prerequisites": [
+    "kanji-two",
+    "radical-legs"
+   ]
+  },
+  {
+   "slug": "kanji-u5144",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-legs"
+   ]
+  },
+  {
+   "slug": "kanji-u516c",
+   "prerequisites": [
+    "radical-u30cf",
+    "radical-u53b6"
+   ]
+  },
+  {
+   "slug": "kanji-u5199",
+   "prerequisites": [
+    "kanji-one",
+    "radical-u5196",
+    "radical-u52f9"
+   ]
+  },
+  {
+   "slug": "kanji-winter",
+   "prerequisites": [
+    "radical-u5902",
+    "radical-u6535"
+   ]
+  },
+  {
+   "slug": "kanji-u5207",
+   "prerequisites": [
+    "radical-u5200",
+    "radical-u5315"
+   ]
+  },
+  {
+   "slug": "kanji-u5225",
+   "prerequisites": [
+    "radical-u5202",
+    "kanji-mouth",
+    "kanji-u529b"
+   ]
+  },
+  {
+   "slug": "kanji-u529b",
+   "prerequisites": []
+  },
+  {
+   "slug": "kanji-u52c9",
+   "prerequisites": [
+    "kanji-u529b",
+    "radical-u514d",
+    "radical-legs"
+   ]
+  },
+  {
+   "slug": "kanji-u52d5",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-sun",
+    "kanji-u529b",
+    "radical-u91cc"
+   ]
+  },
+  {
+   "slug": "kanji-u533b",
+   "prerequisites": [
+    "radical-u77e2",
+    "radical-u531a"
+   ]
+  },
+  {
+   "slug": "kanji-u53bb",
+   "prerequisites": [
+    "kanji-earth",
+    "radical-u53b6"
+   ]
+  },
+  {
+   "slug": "kanji-mouth",
+   "prerequisites": [
+    "radical-mouth",
+    "radical-u56d7"
+   ]
+  },
+  {
+   "slug": "kanji-u53e4",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-ten"
+   ]
+  },
+  {
+   "slug": "kanji-u53f0",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-u53b6"
+   ]
+  },
+  {
+   "slug": "kanji-u540c",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-u5182",
+    "kanji-one"
+   ]
+  },
+  {
+   "slug": "kanji-u5473",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-two",
+    "radical-u30cf",
+    "kanji-tree",
+    "radical-u4ea0"
+   ]
+  },
+  {
+   "slug": "kanji-u54c1",
+   "prerequisites": [
+    "kanji-mouth"
+   ]
+  },
+  {
+   "slug": "kanji-u54e1",
+   "prerequisites": [
+    "radical-u8c9d",
+    "kanji-eye",
+    "radical-u30cf",
+    "kanji-mouth"
+   ]
+  },
+  {
+   "slug": "kanji-u554f",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-u9580"
+   ]
+  },
+  {
+   "slug": "kanji-u56f3",
+   "prerequisites": [
+    "radical-u6597",
+    "radical-u56d7"
+   ]
+  },
+  {
+   "slug": "kanji-u5730",
+   "prerequisites": [
+    "kanji-earth",
+    "radical-u4e5f"
+   ]
+  },
+  {
+   "slug": "kanji-u5802",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-u2e8c",
+    "kanji-earth",
+    "radical-u5196"
+   ]
+  },
+  {
+   "slug": "kanji-u5834",
+   "prerequisites": [
+    "kanji-earth",
+    "kanji-sun",
+    "radical-u52ff"
+   ]
+  },
+  {
+   "slug": "kanji-u58f2",
+   "prerequisites": [
+    "radical-u58eb",
+    "radical-legs",
+    "radical-u5196"
+   ]
+  },
+  {
+   "slug": "kanji-summer",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-u81ea",
+    "radical-u5902"
+   ]
+  },
+  {
+   "slug": "kanji-u5915",
+   "prerequisites": []
+  },
+  {
+   "slug": "kanji-u591a",
+   "prerequisites": [
+    "kanji-u5915"
+   ]
+  },
+  {
+   "slug": "kanji-u591c",
+   "prerequisites": [
+    "radical-u2e85",
+    "kanji-u5915",
+    "radical-u4ea0"
+   ]
+  },
+  {
+   "slug": "kanji-u59b9",
+   "prerequisites": [
+    "kanji-woman",
+    "kanji-two",
+    "radical-u30cf",
+    "kanji-tree",
+    "radical-u4ea0"
+   ]
+  },
+  {
+   "slug": "kanji-u59c9",
+   "prerequisites": [
+    "radical-u5dfe",
+    "kanji-woman",
+    "radical-u4ea0"
+   ]
+  },
+  {
+   "slug": "kanji-u59cb",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-woman",
+    "radical-u53b6"
+   ]
+  },
+  {
+   "slug": "kanji-u5b57",
+   "prerequisites": [
+    "kanji-child",
+    "radical-u5b80"
+   ]
+  },
+  {
+   "slug": "kanji-u5b89",
+   "prerequisites": [
+    "kanji-woman",
+    "radical-u5b80"
+   ]
+  },
+  {
+   "slug": "kanji-u5ba4",
+   "prerequisites": [
+    "radical-u81f3",
+    "kanji-earth",
+    "radical-u53b6",
+    "radical-u5b80"
+   ]
+  },
+  {
+   "slug": "kanji-u5bb6",
+   "prerequisites": [
+    "radical-u5b80",
+    "radical-u8c55"
+   ]
+  },
+  {
+   "slug": "kanji-u5c11",
+   "prerequisites": [
+    "kanji-small"
+   ]
+  },
+  {
+   "slug": "kanji-u5c4b",
+   "prerequisites": [
+    "radical-u81f3",
+    "kanji-earth",
+    "radical-u53b6",
+    "radical-u5c38"
+   ]
+  },
+  {
+   "slug": "kanji-u5de5",
+   "prerequisites": []
+  },
+  {
+   "slug": "kanji-u5e30",
+   "prerequisites": [
+    "radical-u30e8",
+    "radical-u5202",
+    "radical-u5dfe",
+    "radical-u5196"
+   ]
+  },
+  {
+   "slug": "kanji-u5e83",
+   "prerequisites": [
+    "radical-u53b6",
+    "radical-u5e7f"
+   ]
+  },
+  {
+   "slug": "kanji-u5e97",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-u535c",
+    "radical-u5e7f"
+   ]
+  },
+  {
+   "slug": "kanji-u5ea6",
+   "prerequisites": [
+    "radical-u53c8",
+    "radical-u5e7f",
+    "kanji-one",
+    "radical-u51f5"
+   ]
+  },
+  {
+   "slug": "kanji-u5efa",
+   "prerequisites": [
+    "radical-u5ef4",
+    "radical-u807f"
+   ]
+  },
+  {
+   "slug": "kanji-u5f1f",
+   "prerequisites": [
+    "radical-u5f13",
+    "radical-u5e76"
+   ]
+  },
+  {
+   "slug": "kanji-u5f37",
+   "prerequisites": [
+    "radical-u5f13",
+    "radical-u866b",
+    "radical-u53b6"
+   ]
+  },
+  {
+   "slug": "kanji-u5f85",
+   "prerequisites": [
+    "radical-u5bf8",
+    "kanji-earth",
+    "radical-u5f73"
+   ]
+  },
+  {
+   "slug": "kanji-u5fc3",
+   "prerequisites": []
+  },
+  {
+   "slug": "kanji-u601d",
+   "prerequisites": [
+    "kanji-u5fc3",
+    "kanji-u7530"
+   ]
+  },
+  {
+   "slug": "kanji-u6025",
+   "prerequisites": [
+    "radical-u30e8",
+    "kanji-u5fc3",
+    "radical-u52f9"
+   ]
+  },
+  {
+   "slug": "kanji-u60aa",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-mouth",
+    "kanji-u5fc3"
+   ]
+  },
+  {
+   "slug": "kanji-u610f",
+   "prerequisites": [
+    "kanji-u97f3",
+    "kanji-u5fc3",
+    "kanji-sun",
+    "kanji-stand"
+   ]
+  },
+  {
+   "slug": "kanji-hand",
+   "prerequisites": [
+    "radical-hand"
+   ]
+  },
+  {
+   "slug": "kanji-u6301",
+   "prerequisites": [
+    "radical-u5bf8",
+    "kanji-earth",
+    "radical-u624c"
+   ]
+  },
+  {
+   "slug": "kanji-u6559",
+   "prerequisites": [
+    "kanji-child",
+    "radical-u2eb9",
+    "radical-u6535"
+   ]
+  },
+  {
+   "slug": "kanji-u6587",
+   "prerequisites": []
+  },
+  {
+   "slug": "kanji-u6599",
+   "prerequisites": [
+    "radical-u6597",
+    "radical-rice"
+   ]
+  },
+  {
+   "slug": "kanji-new",
+   "prerequisites": [
+    "radical-stand",
+    "radical-tree",
+    "radical-axe-cutting-fresh-wood",
+    "kanji-ten",
+    "radical-u8f9b",
+    "radical-u5e76",
+    "radical-u4ea0"
+   ]
+  },
+  {
+   "slug": "kanji-u65b9",
+   "prerequisites": []
+  },
+  {
+   "slug": "kanji-u65c5",
+   "prerequisites": [
+    "kanji-u65b9"
+   ]
+  },
+  {
+   "slug": "kanji-u65cf",
+   "prerequisites": [
+    "kanji-u65b9",
+    "radical-u77e2"
+   ]
+  },
+  {
+   "slug": "kanji-u65e9",
+   "prerequisites": [
+    "kanji-ten",
+    "kanji-sun"
+   ]
+  },
+  {
+   "slug": "kanji-u660e",
+   "prerequisites": [
+    "kanji-moon",
+    "kanji-sun"
+   ]
+  },
+  {
+   "slug": "kanji-u6620",
+   "prerequisites": [
+    "kanji-sun",
+    "kanji-big"
+   ]
+  },
+  {
+   "slug": "kanji-spring",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-two",
+    "kanji-sun",
+    "kanji-person"
+   ]
+  },
+  {
+   "slug": "kanji-u663c",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-sun",
+    "radical-u5c38"
+   ]
+  },
+  {
+   "slug": "kanji-day-of-week",
+   "prerequisites": [
+    "radical-u30e8",
+    "kanji-sun",
+    "radical-u96b9"
+   ]
+  },
+  {
+   "slug": "kanji-u6709",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-moon"
+   ]
+  },
+  {
+   "slug": "kanji-u670d",
+   "prerequisites": [
+    "kanji-moon",
+    "radical-u53c8",
+    "radical-u5369"
+   ]
+  },
+  {
+   "slug": "kanji-u671d",
+   "prerequisites": [
+    "kanji-moon",
+    "kanji-ten",
+    "kanji-sun"
+   ]
+  },
+  {
+   "slug": "kanji-u696d",
+   "prerequisites": [
+    "kanji-one",
+    "radical-u738b",
+    "radical-u5e76",
+    "kanji-tree",
+    "radical-u7f8a",
+    "radical-u8012"
+   ]
+  },
+  {
+   "slug": "kanji-u697d",
+   "prerequisites": [
+    "kanji-white",
+    "kanji-tree",
+    "radical-u51ab"
+   ]
+  },
+  {
+   "slug": "kanji-u6b4c",
+   "prerequisites": [
+    "radical-yawn",
+    "kanji-mouth"
+   ]
+  },
+  {
+   "slug": "kanji-u6b62",
+   "prerequisites": []
+  },
+  {
+   "slug": "kanji-u6b63",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-u6b62"
+   ]
+  },
+  {
+   "slug": "kanji-u6b69",
+   "prerequisites": [
+    "kanji-u6b62",
+    "kanji-small"
+   ]
+  },
+  {
+   "slug": "kanji-u6b7b",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-u5915",
+    "radical-u5315",
+    "radical-u6b79"
+   ]
+  },
+  {
+   "slug": "kanji-u6ce8",
+   "prerequisites": [
+    "radical-u738b",
+    "radical-water"
+   ]
+  },
+  {
+   "slug": "kanji-u6d0b",
+   "prerequisites": [
+    "radical-u738b",
+    "radical-water",
+    "radical-u5e76",
+    "radical-u7f8a"
+   ]
+  },
+  {
+   "slug": "kanji-sea",
+   "prerequisites": [
+    "radical-water",
+    "radical-every",
+    "kanji-mother",
+    "radical-u6bcb"
+   ]
+  },
+  {
+   "slug": "kanji-u6f22",
+   "prerequisites": [
+    "radical-water",
+    "radical-u2ebe",
+    "kanji-mouth",
+    "kanji-one",
+    "kanji-big"
+   ]
+  },
+  {
+   "slug": "kanji-u725b",
+   "prerequisites": []
+  },
+  {
+   "slug": "kanji-u7269",
+   "prerequisites": [
+    "radical-u52ff",
+    "kanji-u725b",
+    "radical-u52f9"
+   ]
+  },
+  {
+   "slug": "kanji-u7279",
+   "prerequisites": [
+    "kanji-u725b",
+    "radical-u5bf8",
+    "kanji-earth"
+   ]
+  },
+  {
+   "slug": "kanji-u72ac",
+   "prerequisites": [
+    "kanji-big"
+   ]
+  },
+  {
+   "slug": "kanji-u7406",
+   "prerequisites": [
+    "radical-u738b",
+    "radical-u91cc"
+   ]
+  },
+  {
+   "slug": "kanji-u7528",
+   "prerequisites": []
+  },
+  {
+   "slug": "kanji-u7530",
+   "prerequisites": []
+  },
+  {
+   "slug": "kanji-u753a",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-u7530"
+   ]
+  },
+  {
+   "slug": "kanji-u753b",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-u7530",
+    "radical-u51f5"
+   ]
+  },
+  {
+   "slug": "kanji-u754c",
+   "prerequisites": [
+    "kanji-u7530",
+    "radical-u201a2",
+    "radical-legs"
+   ]
+  },
+  {
+   "slug": "kanji-u75c5",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-person",
+    "radical-u5182",
+    "radical-u7592"
+   ]
+  },
+  {
+   "slug": "kanji-u767a",
+   "prerequisites": [
+    "kanji-two",
+    "radical-legs",
+    "radical-u7676"
+   ]
+  },
+  {
+   "slug": "kanji-eye",
+   "prerequisites": [
+    "radical-eye"
+   ]
+  },
+  {
+   "slug": "kanji-u771f",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-ten",
+    "radical-u30cf",
+    "kanji-eye"
+   ]
+  },
+  {
+   "slug": "kanji-u7740",
+   "prerequisites": [
+    "radical-u738b",
+    "radical-u5e76",
+    "kanji-eye",
+    "radical-u7f8a"
+   ]
+  },
+  {
+   "slug": "kanji-u77e5",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-u77e2"
+   ]
+  },
+  {
+   "slug": "kanji-u7814",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-u77f3",
+    "radical-u5efe"
+   ]
+  },
+  {
+   "slug": "kanji-u793e",
+   "prerequisites": [
+    "kanji-earth",
+    "radical-u793b"
+   ]
+  },
+  {
+   "slug": "kanji-u79c1",
+   "prerequisites": [
+    "radical-u79be",
+    "radical-u53b6"
+   ]
+  },
+  {
+   "slug": "kanji-autumn",
+   "prerequisites": [
+    "kanji-fire",
+    "radical-u79be"
+   ]
+  },
+  {
+   "slug": "kanji-u7a76",
+   "prerequisites": [
+    "radical-cave",
+    "kanji-nine",
+    "radical-legs",
+    "radical-u5b80"
+   ]
+  },
+  {
+   "slug": "kanji-sky",
+   "prerequisites": [
+    "radical-cave",
+    "radical-craft",
+    "radical-legs",
+    "radical-u5b80"
+   ]
+  },
+  {
+   "slug": "kanji-stand",
+   "prerequisites": []
+  },
+  {
+   "slug": "kanji-u7b54",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-u7af9",
+    "radical-u201a2"
+   ]
+  },
+  {
+   "slug": "kanji-u7d19",
+   "prerequisites": [
+    "radical-u6c0f",
+    "radical-u7cf8",
+    "radical-u5e7a",
+    "kanji-small"
+   ]
+  },
+  {
+   "slug": "kanji-u7d42",
+   "prerequisites": [
+    "radical-u7cf8",
+    "radical-u5e7a",
+    "kanji-small",
+    "radical-u5902"
+   ]
+  },
+  {
+   "slug": "kanji-u7fd2",
+   "prerequisites": [
+    "radical-u7fbd",
+    "kanji-white",
+    "radical-u51ab"
+   ]
+  },
+  {
+   "slug": "kanji-u8003",
+   "prerequisites": [
+    "radical-u2eb9",
+    "radical-u52f9"
+   ]
+  },
+  {
+   "slug": "kanji-u8005",
+   "prerequisites": [
+    "kanji-sun",
+    "radical-u2eb9"
+   ]
+  },
+  {
+   "slug": "kanji-u8089",
+   "prerequisites": [
+    "radical-u5182",
+    "kanji-person"
+   ]
+  },
+  {
+   "slug": "kanji-u81ea",
+   "prerequisites": []
+  },
+  {
+   "slug": "kanji-u8272",
+   "prerequisites": [
+    "radical-u5df4",
+    "radical-u52f9"
+   ]
+  },
+  {
+   "slug": "kanji-flower",
+   "prerequisites": [
+    "radical-plant",
+    "radical-change",
+    "radical-u2e85",
+    "radical-u5315",
+    "radical-u2ebe"
+   ]
+  },
+  {
+   "slug": "kanji-u82f1",
+   "prerequisites": [
+    "radical-u2ebe",
+    "kanji-big"
+   ]
+  },
+  {
+   "slug": "kanji-u8336",
+   "prerequisites": [
+    "radical-u201a2",
+    "radical-u2ebe",
+    "kanji-tree"
+   ]
+  },
+  {
+   "slug": "kanji-u89aa",
+   "prerequisites": [
+    "kanji-see",
+    "kanji-ten",
+    "radical-u8f9b",
+    "radical-u5e76",
+    "kanji-tree",
+    "kanji-stand",
+    "radical-u4ea0"
+   ]
+  },
+  {
+   "slug": "kanji-u8a00",
+   "prerequisites": []
+  },
+  {
+   "slug": "kanji-u8a08",
+   "prerequisites": [
+    "kanji-u8a00",
+    "kanji-ten"
+   ]
+  },
+  {
+   "slug": "kanji-u8a66",
+   "prerequisites": [
+    "kanji-u8a00",
+    "kanji-u5de5",
+    "radical-u5f0b"
+   ]
+  },
+  {
+   "slug": "kanji-u8cb7",
+   "prerequisites": [
+    "radical-u8c9d",
+    "kanji-eye",
+    "radical-u30cf",
+    "radical-u7f52"
+   ]
+  },
+  {
+   "slug": "kanji-u8cb8",
+   "prerequisites": [
+    "radical-u2e85",
+    "radical-u8c9d",
+    "kanji-eye",
+    "radical-u30cf",
+    "radical-u5f0b"
+   ]
+  },
+  {
+   "slug": "kanji-u8cea",
+   "prerequisites": [
+    "radical-u8c9d",
+    "kanji-eye",
+    "radical-u30cf",
+    "radical-axe-cutting-fresh-wood"
+   ]
+  },
+  {
+   "slug": "kanji-red",
+   "prerequisites": [
+    "radical-big",
+    "radical-fire",
+    "kanji-earth"
+   ]
+  },
+  {
+   "slug": "kanji-u8d70",
+   "prerequisites": [
+    "kanji-earth"
+   ]
+  },
+  {
+   "slug": "kanji-u8d77",
+   "prerequisites": [
+    "kanji-u8d70",
+    "kanji-earth",
+    "radical-u5df2"
+   ]
+  },
+  {
+   "slug": "kanji-foot",
+   "prerequisites": [
+    "radical-foot",
+    "kanji-mouth"
+   ]
+  },
+  {
+   "slug": "kanji-u8ee2",
+   "prerequisites": [
+    "kanji-car",
+    "kanji-two",
+    "radical-u53b6"
+   ]
+  },
+  {
+   "slug": "kanji-u8fd1",
+   "prerequisites": [
+    "radical-axe-cutting-fresh-wood",
+    "radical-ufa66"
+   ]
+  },
+  {
+   "slug": "kanji-u9001",
+   "prerequisites": [
+    "radical-ufa66",
+    "radical-u5e76",
+    "kanji-big",
+    "kanji-one"
+   ]
+  },
+  {
+   "slug": "kanji-u901a",
+   "prerequisites": [
+    "radical-ufa66",
+    "kanji-u7528",
+    "radical-u30de"
+   ]
+  },
+  {
+   "slug": "kanji-week",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-ufa66",
+    "kanji-earth",
+    "radical-u5182"
+   ]
+  },
+  {
+   "slug": "kanji-u904b",
+   "prerequisites": [
+    "radical-ufa66",
+    "kanji-car",
+    "radical-u5196"
+   ]
+  },
+  {
+   "slug": "kanji-u9053",
+   "prerequisites": [
+    "radical-ufa66",
+    "kanji-u81ea",
+    "radical-u5e76",
+    "radical-u9996"
+   ]
+  },
+  {
+   "slug": "kanji-u91cd",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-sun",
+    "radical-u91cc"
+   ]
+  },
+  {
+   "slug": "kanji-u91ce",
+   "prerequisites": [
+    "radical-u77db",
+    "radical-u91cc"
+   ]
+  },
+  {
+   "slug": "kanji-u9280",
+   "prerequisites": [
+    "kanji-gold",
+    "radical-u826e"
+   ]
+  },
+  {
+   "slug": "kanji-u958b",
+   "prerequisites": [
+    "kanji-one",
+    "radical-u9580",
+    "radical-u5efe"
+   ]
+  },
+  {
+   "slug": "kanji-u9662",
+   "prerequisites": [
+    "kanji-two",
+    "radical-legs",
+    "radical-u5b80",
+    "radical-u2ed6",
+    "kanji-u5143"
+   ]
+  },
+  {
+   "slug": "kanji-u96c6",
+   "prerequisites": [
+    "kanji-tree",
+    "radical-u96b9"
+   ]
+  },
+  {
+   "slug": "kanji-blue",
+   "prerequisites": [
+    "radical-growth",
+    "radical-well",
+    "kanji-moon",
+    "kanji-earth",
+    "kanji-two",
+    "radical-u4ea0"
+   ]
+  },
+  {
+   "slug": "kanji-u97f3",
+   "prerequisites": [
+    "kanji-sun",
+    "kanji-stand"
+   ]
+  },
+  {
+   "slug": "kanji-u984c",
+   "prerequisites": [
+    "radical-u8c9d",
+    "kanji-eye",
+    "radical-u30cf",
+    "kanji-sun",
+    "radical-u758b",
+    "radical-u9801"
+   ]
+  },
+  {
+   "slug": "kanji-u98a8",
+   "prerequisites": [
+    "radical-u5182",
+    "radical-u866b"
+   ]
+  },
+  {
+   "slug": "kanji-u98ef",
+   "prerequisites": [
+    "kanji-eat",
+    "radical-u53c8",
+    "radical-u5382"
+   ]
+  },
+  {
+   "slug": "kanji-drink",
+   "prerequisites": [
+    "radical-eat",
+    "radical-yawn"
+   ]
+  },
+  {
+   "slug": "kanji-u9928",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-eat",
+    "radical-u5b80"
+   ]
+  },
+  {
+   "slug": "kanji-station",
+   "prerequisites": [
+    "radical-u99ac",
+    "radical-u5c38"
+   ]
+  },
+  {
+   "slug": "kanji-u9a13",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-person",
+    "radical-u99ac",
+    "radical-u201a2"
+   ]
+  },
+  {
+   "slug": "kanji-u9b5a",
+   "prerequisites": [
+    "kanji-u7530",
+    "radical-u706c"
+   ]
+  },
+  {
+   "slug": "kanji-u9ce5",
+   "prerequisites": [
+    "radical-u706c"
+   ]
+  },
+  {
+   "slug": "kanji-u9ed2",
+   "prerequisites": [
+    "radical-u91cc",
+    "radical-u706c"
+   ]
+  },
+  {
+   "slug": "kanji-u4e0e",
+   "prerequisites": [
+    "radical-u52f9",
+    "kanji-one",
+    "radical-u535c"
+   ]
+  },
+  {
+   "slug": "kanji-u4e21",
+   "prerequisites": [
+    "kanji-one",
+    "radical-u5182",
+    "kanji-mountain"
+   ]
+  },
+  {
+   "slug": "kanji-u4e57",
+   "prerequisites": [
+    "kanji-one",
+    "radical-u79be",
+    "radical-u30cf"
+   ]
+  },
+  {
+   "slug": "kanji-u4e88",
+   "prerequisites": [
+    "radical-u30de",
+    "kanji-one"
+   ]
+  },
+  {
+   "slug": "kanji-u4e89",
+   "prerequisites": [
+    "radical-u30e8",
+    "kanji-one",
+    "radical-u52f9"
+   ]
+  },
+  {
+   "slug": "kanji-u4e92",
+   "prerequisites": [
+    "radical-u30e8",
+    "kanji-one",
+    "radical-u5f51"
+   ]
+  },
+  {
+   "slug": "kanji-u4ea1",
+   "prerequisites": [
+    "radical-u4ea0"
+   ]
+  },
+  {
+   "slug": "kanji-u4ea4",
+   "prerequisites": [
+    "kanji-father",
+    "radical-u4ea0"
+   ]
+  },
+  {
+   "slug": "kanji-u4ed6",
+   "prerequisites": [
+    "radical-u2e85",
+    "radical-u4e5f"
+   ]
+  },
+  {
+   "slug": "kanji-u4ed8",
+   "prerequisites": [
+    "radical-u2e85",
+    "radical-u5bf8"
+   ]
+  },
+  {
+   "slug": "kanji-u4ef6",
+   "prerequisites": [
+    "radical-u2e85",
+    "kanji-u725b"
+   ]
+  },
+  {
+   "slug": "kanji-u4efb",
+   "prerequisites": [
+    "kanji-u738b",
+    "radical-u2e85",
+    "radical-u58eb"
+   ]
+  },
+  {
+   "slug": "kanji-u4f1d",
+   "prerequisites": [
+    "radical-u2e85",
+    "kanji-two",
+    "radical-u53b6"
+   ]
+  },
+  {
+   "slug": "kanji-u4f3c",
+   "prerequisites": [
+    "radical-u2e85",
+    "kanji-person"
+   ]
+  },
+  {
+   "slug": "kanji-u4f4d",
+   "prerequisites": [
+    "radical-u2e85",
+    "kanji-stand"
+   ]
+  },
+  {
+   "slug": "kanji-u4f59",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-two",
+    "radical-u30cf",
+    "radical-u201a2",
+    "kanji-u793a",
+    "kanji-small"
+   ]
+  },
+  {
+   "slug": "kanji-u4f8b",
+   "prerequisites": [
+    "radical-u2e85",
+    "radical-u5202",
+    "radical-u6b79"
+   ]
+  },
+  {
+   "slug": "kanji-u4f9b",
+   "prerequisites": [
+    "kanji-one",
+    "radical-u2e85",
+    "kanji-two",
+    "radical-u30cf"
+   ]
+  },
+  {
+   "slug": "kanji-u4fbf",
+   "prerequisites": [
+    "kanji-one",
+    "radical-u2e85",
+    "kanji-sun",
+    "kanji-u7530"
+   ]
+  },
+  {
+   "slug": "kanji-u4fc2",
+   "prerequisites": [
+    "radical-u2e85",
+    "radical-u7cf8",
+    "radical-u5e7a",
+    "kanji-small"
+   ]
+  },
+  {
+   "slug": "kanji-u4fe1",
+   "prerequisites": [
+    "radical-u2e85",
+    "kanji-u8a00"
+   ]
+  },
+  {
+   "slug": "kanji-u5012",
+   "prerequisites": [
+    "radical-u2e85",
+    "radical-u5202",
+    "radical-u81f3",
+    "kanji-earth",
+    "radical-u53b6"
+   ]
+  },
+  {
+   "slug": "kanji-u5019",
+   "prerequisites": [
+    "radical-u2e85",
+    "radical-u77e2"
+   ]
+  },
+  {
+   "slug": "kanji-u5024",
+   "prerequisites": [
+    "radical-u2e85",
+    "kanji-ten",
+    "kanji-eye",
+    "kanji-one"
+   ]
+  },
+  {
+   "slug": "kanji-u5049",
+   "prerequisites": [
+    "radical-u2e85",
+    "kanji-mouth",
+    "radical-u97cb"
+   ]
+  },
+  {
+   "slug": "kanji-u5074",
+   "prerequisites": [
+    "radical-u2e85",
+    "radical-u8c9d",
+    "kanji-eye",
+    "radical-u30cf",
+    "radical-u5202"
+   ]
+  },
+  {
+   "slug": "kanji-u5076",
+   "prerequisites": [
+    "radical-u2e85",
+    "kanji-u7530",
+    "radical-u5182",
+    "radical-u53b6",
+    "radical-u79b8"
+   ]
+  },
+  {
+   "slug": "kanji-u5099",
+   "prerequisites": [
+    "radical-u2e85",
+    "kanji-u7528",
+    "radical-u5382",
+    "radical-u2ebe"
+   ]
+  },
+  {
+   "slug": "kanji-u50cd",
+   "prerequisites": [
+    "kanji-one",
+    "radical-u2e85",
+    "kanji-u529b",
+    "kanji-sun"
+   ]
+  },
+  {
+   "slug": "kanji-u512a",
+   "prerequisites": [
+    "kanji-one",
+    "radical-u2e85",
+    "kanji-u5fc3",
+    "kanji-white",
+    "radical-u5196",
+    "radical-u5902",
+    "kanji-u81ea"
+   ]
+  },
+  {
+   "slug": "kanji-u5149",
+   "prerequisites": [
+    "kanji-one",
+    "radical-u2e8c",
+    "radical-legs"
+   ]
+  },
+  {
+   "slug": "kanji-u5168",
+   "prerequisites": [
+    "kanji-u738b",
+    "radical-u30cf",
+    "radical-u201a2"
+   ]
+  },
+  {
+   "slug": "kanji-u5171",
+   "prerequisites": [
+    "radical-u30cf",
+    "kanji-one",
+    "kanji-two"
+   ]
+  },
+  {
+   "slug": "kanji-u5177",
+   "prerequisites": [
+    "kanji-one",
+    "radical-u30cf",
+    "kanji-eye"
+   ]
+  },
+  {
+   "slug": "kanji-u5185",
+   "prerequisites": [
+    "kanji-person",
+    "radical-u5182"
+   ]
+  },
+  {
+   "slug": "kanji-u51b7",
+   "prerequisites": [
+    "radical-u201a2",
+    "radical-u51ab",
+    "radical-u5369",
+    "kanji-one"
+   ]
+  },
+  {
+   "slug": "kanji-u51e6",
+   "prerequisites": [
+    "radical-u51e0",
+    "radical-u5902",
+    "radical-u6535"
+   ]
+  },
+  {
+   "slug": "kanji-u5217",
+   "prerequisites": [
+    "radical-u5202",
+    "radical-u6b79"
+   ]
+  },
+  {
+   "slug": "kanji-u521d",
+   "prerequisites": [
+    "radical-u8864",
+    "radical-u5200"
+   ]
+  },
+  {
+   "slug": "kanji-u5224",
+   "prerequisites": [
+    "radical-u5202",
+    "kanji-two",
+    "radical-u5e76",
+    "kanji-ten"
+   ]
+  },
+  {
+   "slug": "kanji-u5229",
+   "prerequisites": [
+    "radical-u79be",
+    "radical-u5202"
+   ]
+  },
+  {
+   "slug": "kanji-u5230",
+   "prerequisites": [
+    "radical-u5202",
+    "radical-u81f3",
+    "kanji-earth",
+    "radical-u53b6"
+   ]
+  },
+  {
+   "slug": "kanji-u5236",
+   "prerequisites": [
+    "radical-u5202",
+    "kanji-u725b",
+    "radical-u5dfe",
+    "kanji-two"
+   ]
+  },
+  {
+   "slug": "kanji-u523b",
+   "prerequisites": [
+    "radical-u5202",
+    "radical-u4ea0"
+   ]
+  },
+  {
+   "slug": "kanji-u5272",
+   "prerequisites": [
+    "radical-u5202",
+    "kanji-mouth",
+    "kanji-earth",
+    "radical-u5b80",
+    "radical-u4ea0"
+   ]
+  },
+  {
+   "slug": "kanji-u52a0",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-u529b"
+   ]
+  },
+  {
+   "slug": "kanji-u52a9",
+   "prerequisites": [
+    "kanji-eye",
+    "kanji-u529b"
+   ]
+  },
+  {
+   "slug": "kanji-u52aa",
+   "prerequisites": [
+    "kanji-woman",
+    "radical-u53c8",
+    "kanji-u529b"
+   ]
+  },
+  {
+   "slug": "kanji-u52b4",
+   "prerequisites": [
+    "radical-u2e8c",
+    "kanji-u529b",
+    "radical-u5196"
+   ]
+  },
+  {
+   "slug": "kanji-u52d9",
+   "prerequisites": [
+    "radical-u77db",
+    "kanji-u529b",
+    "radical-u5902"
+   ]
+  },
+  {
+   "slug": "kanji-u52dd",
+   "prerequisites": [
+    "kanji-moon",
+    "kanji-person",
+    "kanji-big",
+    "kanji-two",
+    "radical-u5e76",
+    "kanji-u529b"
+   ]
+  },
+  {
+   "slug": "kanji-u52e4",
+   "prerequisites": [
+    "kanji-earth",
+    "kanji-u529b",
+    "radical-u2ebe",
+    "kanji-mouth"
+   ]
+  },
+  {
+   "slug": "kanji-u5316",
+   "prerequisites": [
+    "radical-u2e85",
+    "radical-u5315"
+   ]
+  },
+  {
+   "slug": "kanji-u5358",
+   "prerequisites": [
+    "kanji-ten",
+    "radical-u2e8c",
+    "kanji-u7530"
+   ]
+  },
+  {
+   "slug": "kanji-u5371",
+   "prerequisites": [
+    "radical-u52f9",
+    "radical-u5382",
+    "radical-u5369"
+   ]
+  },
+  {
+   "slug": "kanji-u539f",
+   "prerequisites": [
+    "kanji-small",
+    "kanji-white",
+    "radical-u5382"
+   ]
+  },
+  {
+   "slug": "kanji-u53c2",
+   "prerequisites": [
+    "kanji-one",
+    "radical-u53b6",
+    "radical-u5f61"
+   ]
+  },
+  {
+   "slug": "kanji-u53cd",
+   "prerequisites": [
+    "radical-u53c8",
+    "radical-u5382"
+   ]
+  },
+  {
+   "slug": "kanji-u53ce",
+   "prerequisites": [
+    "radical-u53c8"
+   ]
+  },
+  {
+   "slug": "kanji-u53d6",
+   "prerequisites": [
+    "kanji-ear",
+    "radical-u53c8"
+   ]
+  },
+  {
+   "slug": "kanji-u53d7",
+   "prerequisites": [
+    "radical-u722a",
+    "radical-u53c8",
+    "radical-u5196"
+   ]
+  },
+  {
+   "slug": "kanji-u53f7",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-mouth",
+    "radical-u52f9"
+   ]
+  },
+  {
+   "slug": "kanji-u5408",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-u201a2",
+    "kanji-one"
+   ]
+  },
+  {
+   "slug": "kanji-u5411",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-u5182"
+   ]
+  },
+  {
+   "slug": "kanji-u541b",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-mouth"
+   ]
+  },
+  {
+   "slug": "kanji-u5426",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-mouth"
+   ]
+  },
+  {
+   "slug": "kanji-u5438",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-u53ca"
+   ]
+  },
+  {
+   "slug": "kanji-u5439",
+   "prerequisites": [
+    "kanji-u6b20",
+    "kanji-mouth"
+   ]
+  },
+  {
+   "slug": "kanji-u544a",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-earth"
+   ]
+  },
+  {
+   "slug": "kanji-u547c",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-u5e76"
+   ]
+  },
+  {
+   "slug": "kanji-u547d",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-u201a2",
+    "radical-u5369",
+    "kanji-one"
+   ]
+  },
+  {
+   "slug": "kanji-u548c",
+   "prerequisites": [
+    "radical-u79be",
+    "kanji-mouth"
+   ]
+  },
+  {
+   "slug": "kanji-u5546",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-u5e76",
+    "kanji-stand",
+    "radical-u4ea0",
+    "radical-legs",
+    "radical-u5182"
+   ]
+  },
+  {
+   "slug": "kanji-u559c",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-u58eb",
+    "radical-u8c46",
+    "radical-u5e76"
+   ]
+  },
+  {
+   "slug": "kanji-u56de",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-u56d7"
+   ]
+  },
+  {
+   "slug": "kanji-u56e0",
+   "prerequisites": [
+    "kanji-big",
+    "radical-u56d7"
+   ]
+  },
+  {
+   "slug": "kanji-u56f0",
+   "prerequisites": [
+    "kanji-tree",
+    "radical-u56d7"
+   ]
+  },
+  {
+   "slug": "kanji-u5712",
+   "prerequisites": [
+    "radical-u8863",
+    "kanji-mouth",
+    "kanji-earth",
+    "radical-u56d7"
+   ]
+  },
+  {
+   "slug": "kanji-u5728",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-earth"
+   ]
+  },
+  {
+   "slug": "kanji-u5831",
+   "prerequisites": [
+    "kanji-ten",
+    "radical-u8f9b",
+    "kanji-earth",
+    "radical-u53c8",
+    "kanji-stand",
+    "radical-u4ea0",
+    "radical-u5369"
+   ]
+  },
+  {
+   "slug": "kanji-u5897",
+   "prerequisites": [
+    "kanji-u7530",
+    "kanji-earth",
+    "kanji-sun",
+    "radical-u5e76"
+   ]
+  },
+  {
+   "slug": "kanji-u58f0",
+   "prerequisites": [
+    "radical-u58eb",
+    "radical-u5c38"
+   ]
+  },
+  {
+   "slug": "kanji-u5909",
+   "prerequisites": [
+    "radical-u4ea0",
+    "radical-u5902"
+   ]
+  },
+  {
+   "slug": "kanji-u5922",
+   "prerequisites": [
+    "radical-u7f52",
+    "kanji-u5915",
+    "radical-u5196",
+    "radical-u2ebe"
+   ]
+  },
+  {
+   "slug": "kanji-u592a",
+   "prerequisites": [
+    "kanji-big"
+   ]
+  },
+  {
+   "slug": "kanji-u592b",
+   "prerequisites": [
+    "kanji-person",
+    "kanji-two",
+    "kanji-big"
+   ]
+  },
+  {
+   "slug": "kanji-u5931",
+   "prerequisites": [
+    "kanji-person",
+    "kanji-two",
+    "kanji-big"
+   ]
+  },
+  {
+   "slug": "kanji-u597d",
+   "prerequisites": [
+    "kanji-child",
+    "kanji-woman"
+   ]
+  },
+  {
+   "slug": "kanji-u59bb",
+   "prerequisites": [
+    "radical-u30e8",
+    "kanji-one",
+    "kanji-woman"
+   ]
+  },
+  {
+   "slug": "kanji-u5a18",
+   "prerequisites": [
+    "radical-u826e",
+    "kanji-woman"
+   ]
+  },
+  {
+   "slug": "kanji-u5a5a",
+   "prerequisites": [
+    "radical-u6c0f",
+    "kanji-woman",
+    "kanji-sun"
+   ]
+  },
+  {
+   "slug": "kanji-u5a66",
+   "prerequisites": [
+    "radical-u30e8",
+    "radical-u5dfe",
+    "kanji-woman",
+    "radical-u5196"
+   ]
+  },
+  {
+   "slug": "kanji-u5b58",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-child"
+   ]
+  },
+  {
+   "slug": "kanji-u5b85",
+   "prerequisites": [
+    "kanji-one",
+    "radical-u5b80"
+   ]
+  },
+  {
+   "slug": "kanji-u5b88",
+   "prerequisites": [
+    "radical-u5bf8",
+    "radical-u5b80"
+   ]
+  },
+  {
+   "slug": "kanji-u5b8c",
+   "prerequisites": [
+    "kanji-two",
+    "radical-legs",
+    "radical-u5b80",
+    "kanji-u5143"
+   ]
+  },
+  {
+   "slug": "kanji-u5b98",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-u5b80"
+   ]
+  },
+  {
+   "slug": "kanji-u5b9a",
+   "prerequisites": [
+    "radical-u758b",
+    "radical-u5b80"
+   ]
+  },
+  {
+   "slug": "kanji-u5b9f",
+   "prerequisites": [
+    "radical-u58eb",
+    "kanji-big",
+    "radical-u5b80"
+   ]
+  },
+  {
+   "slug": "kanji-u5ba2",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-u5902",
+    "radical-u5b80"
+   ]
+  },
+  {
+   "slug": "kanji-u5bb3",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-earth",
+    "radical-u4ea0",
+    "radical-u5b80"
+   ]
+  },
+  {
+   "slug": "kanji-u5bb9",
+   "prerequisites": [
+    "radical-cave",
+    "kanji-mouth",
+    "radical-u8c37",
+    "radical-u30cf",
+    "radical-u201a2",
+    "radical-u5b80"
+   ]
+  },
+  {
+   "slug": "kanji-u5bbf",
+   "prerequisites": [
+    "radical-u2e85",
+    "kanji-white",
+    "radical-u5b80"
+   ]
+  },
+  {
+   "slug": "kanji-u5bc4",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-mouth",
+    "kanji-big",
+    "radical-u5b80"
+   ]
+  },
+  {
+   "slug": "kanji-u5bcc",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-u7530",
+    "radical-u5b80"
+   ]
+  },
+  {
+   "slug": "kanji-u5bd2",
+   "prerequisites": [
+    "kanji-one",
+    "radical-u30cf",
+    "radical-u5b80",
+    "radical-well"
+   ]
+  },
+  {
+   "slug": "kanji-u5bdd",
+   "prerequisites": [
+    "radical-u30e8",
+    "radical-u53c8",
+    "radical-u5196",
+    "radical-u5b80",
+    "radical-u723f"
+   ]
+  },
+  {
+   "slug": "kanji-u5bdf",
+   "prerequisites": [
+    "kanji-u793a",
+    "kanji-two",
+    "kanji-small",
+    "radical-u5b80",
+    "radical-u7676"
+   ]
+  },
+  {
+   "slug": "kanji-u5bfe",
+   "prerequisites": [
+    "radical-u5bf8",
+    "kanji-u6587"
+   ]
+  },
+  {
+   "slug": "kanji-u5c40",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-u5c38"
+   ]
+  },
+  {
+   "slug": "kanji-u5c45",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-ten",
+    "radical-u5c38"
+   ]
+  },
+  {
+   "slug": "kanji-u5dee",
+   "prerequisites": [
+    "kanji-u738b",
+    "kanji-u5de5",
+    "radical-u5e76",
+    "radical-u7f8a"
+   ]
+  },
+  {
+   "slug": "kanji-u5e02",
+   "prerequisites": [
+    "radical-u5dfe",
+    "radical-u4ea0"
+   ]
+  },
+  {
+   "slug": "kanji-u5e2b",
+   "prerequisites": [
+    "kanji-one",
+    "radical-u5dfe",
+    "kanji-mouth"
+   ]
+  },
+  {
+   "slug": "kanji-u5e2d",
+   "prerequisites": [
+    "radical-u5dfe",
+    "radical-u5e7f"
+   ]
+  },
+  {
+   "slug": "kanji-u5e38",
+   "prerequisites": [
+    "radical-u5dfe",
+    "kanji-mouth",
+    "radical-u2e8c",
+    "radical-u5196"
+   ]
+  },
+  {
+   "slug": "kanji-u5e73",
+   "prerequisites": [
+    "radical-u5e72",
+    "radical-u5e76"
+   ]
+  },
+  {
+   "slug": "kanji-u5e78",
+   "prerequisites": [
+    "kanji-ten",
+    "radical-u8f9b",
+    "kanji-stand",
+    "radical-u4ea0"
+   ]
+  },
+  {
+   "slug": "kanji-u5e7e",
+   "prerequisites": [
+    "radical-u5e7a",
+    "radical-u6208"
+   ]
+  },
+  {
+   "slug": "kanji-u5ea7",
+   "prerequisites": [
+    "kanji-earth",
+    "kanji-person",
+    "radical-u5e7f"
+   ]
+  },
+  {
+   "slug": "kanji-u5ead",
+   "prerequisites": [
+    "kanji-u738b",
+    "radical-u5e7f",
+    "radical-u5ef4"
+   ]
+  },
+  {
+   "slug": "kanji-u5f0f",
+   "prerequisites": [
+    "kanji-u5de5",
+    "radical-u5f0b"
+   ]
+  },
+  {
+   "slug": "kanji-u5f15",
+   "prerequisites": [
+    "radical-u5f13"
+   ]
+  },
+  {
+   "slug": "kanji-u5f53",
+   "prerequisites": [
+    "radical-u30e8",
+    "radical-u2e8c"
+   ]
+  },
+  {
+   "slug": "kanji-u5f62",
+   "prerequisites": [
+    "radical-u5efe",
+    "radical-u5f61"
+   ]
+  },
+  {
+   "slug": "kanji-u5f79",
+   "prerequisites": [
+    "radical-u5f73",
+    "radical-u6bb3",
+    "radical-u51e0",
+    "radical-u53c8"
+   ]
+  },
+  {
+   "slug": "kanji-u5f7c",
+   "prerequisites": [
+    "radical-u76ae",
+    "radical-u53c8",
+    "radical-u5f73"
+   ]
+  },
+  {
+   "slug": "kanji-u5f92",
+   "prerequisites": [
+    "kanji-u8d70",
+    "kanji-earth",
+    "radical-u5f73"
+   ]
+  },
+  {
+   "slug": "kanji-u5f97",
+   "prerequisites": [
+    "radical-u5bf8",
+    "kanji-sun",
+    "radical-u5f73",
+    "kanji-one"
+   ]
+  },
+  {
+   "slug": "kanji-u5fa1",
+   "prerequisites": [
+    "kanji-u6b62",
+    "radical-u5369",
+    "radical-u5f73"
+   ]
+  },
+  {
+   "slug": "kanji-u5fc5",
+   "prerequisites": [
+    "kanji-u5fc3"
+   ]
+  },
+  {
+   "slug": "kanji-u5fd8",
+   "prerequisites": [
+    "kanji-u5fc3",
+    "kanji-u4ea1",
+    "radical-u4ea0"
+   ]
+  },
+  {
+   "slug": "kanji-u5fd9",
+   "prerequisites": [
+    "kanji-u4ea1",
+    "radical-u5fc4",
+    "radical-u4ea0"
+   ]
+  },
+  {
+   "slug": "kanji-u5ff5",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-u5fc3",
+    "radical-u201a2"
+   ]
+  },
+  {
+   "slug": "kanji-u6012",
+   "prerequisites": [
+    "kanji-woman",
+    "kanji-u5fc3",
+    "radical-u53c8"
+   ]
+  },
+  {
+   "slug": "kanji-u6016",
+   "prerequisites": [
+    "kanji-one",
+    "radical-u5dfe",
+    "radical-u5fc4"
+   ]
+  },
+  {
+   "slug": "kanji-u6027",
+   "prerequisites": [
+    "kanji-life",
+    "radical-u5fc4"
+   ]
+  },
+  {
+   "slug": "kanji-u6050",
+   "prerequisites": [
+    "kanji-u5de5",
+    "kanji-u5fc3",
+    "radical-u51e0"
+   ]
+  },
+  {
+   "slug": "kanji-u6065",
+   "prerequisites": [
+    "kanji-ear",
+    "kanji-u5fc3"
+   ]
+  },
+  {
+   "slug": "kanji-u606f",
+   "prerequisites": [
+    "kanji-u81ea",
+    "kanji-u5fc3"
+   ]
+  },
+  {
+   "slug": "kanji-u60b2",
+   "prerequisites": [
+    "kanji-u5fc3",
+    "kanji-u975e"
+   ]
+  },
+  {
+   "slug": "kanji-u60c5",
+   "prerequisites": [
+    "kanji-moon",
+    "kanji-blue",
+    "kanji-earth",
+    "kanji-two",
+    "radical-u5fc4",
+    "radical-u4ea0"
+   ]
+  },
+  {
+   "slug": "kanji-u60f3",
+   "prerequisites": [
+    "kanji-u5fc3",
+    "kanji-tree",
+    "kanji-eye"
+   ]
+  },
+  {
+   "slug": "kanji-u611b",
+   "prerequisites": [
+    "kanji-u5fc3",
+    "radical-u722a",
+    "radical-u5196",
+    "radical-u5902"
+   ]
+  },
+  {
+   "slug": "kanji-u611f",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-u5fc3",
+    "radical-u6208"
+   ]
+  },
+  {
+   "slug": "kanji-u6163",
+   "prerequisites": [
+    "radical-u8c9d",
+    "kanji-eye",
+    "radical-u30cf",
+    "kanji-mother",
+    "radical-u5fc4",
+    "radical-u6bcb"
+   ]
+  },
+  {
+   "slug": "kanji-u6210",
+   "prerequisites": [
+    "radical-u6208"
+   ]
+  },
+  {
+   "slug": "kanji-u6226",
+   "prerequisites": [
+    "kanji-ten",
+    "radical-u2e8c",
+    "kanji-u7530",
+    "radical-u6208"
+   ]
+  },
+  {
+   "slug": "kanji-u623b",
+   "prerequisites": [
+    "radical-u6238",
+    "kanji-big",
+    "kanji-one",
+    "radical-u5c38"
+   ]
+  },
+  {
+   "slug": "kanji-u6240",
+   "prerequisites": [
+    "radical-axe-cutting-fresh-wood",
+    "radical-u6238",
+    "kanji-one",
+    "radical-u5c38"
+   ]
+  },
+  {
+   "slug": "kanji-u624d",
+   "prerequisites": [
+    "kanji-one"
+   ]
+  },
+  {
+   "slug": "kanji-u6253",
+   "prerequisites": [
+    "radical-u624c"
+   ]
+  },
+  {
+   "slug": "kanji-u6255",
+   "prerequisites": [
+    "radical-u53b6",
+    "radical-u624c"
+   ]
+  },
+  {
+   "slug": "kanji-u6295",
+   "prerequisites": [
+    "radical-u624c",
+    "radical-u6bb3",
+    "radical-u51e0",
+    "radical-u53c8"
+   ]
+  },
+  {
+   "slug": "kanji-u6298",
+   "prerequisites": [
+    "radical-axe-cutting-fresh-wood",
+    "radical-u624c"
+   ]
+  },
+  {
+   "slug": "kanji-u629c",
+   "prerequisites": [
+    "radical-u5902",
+    "radical-u4ea0",
+    "radical-u624c",
+    "radical-u53c8"
+   ]
+  },
+  {
+   "slug": "kanji-u62b1",
+   "prerequisites": [
+    "radical-u52f9",
+    "radical-u5df2",
+    "radical-u624c"
+   ]
+  },
+  {
+   "slug": "kanji-u62bc",
+   "prerequisites": [
+    "kanji-sun",
+    "radical-u624c",
+    "kanji-u7530"
+   ]
+  },
+  {
+   "slug": "kanji-u62db",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-u5200",
+    "radical-u624c"
+   ]
+  },
+  {
+   "slug": "kanji-u6307",
+   "prerequisites": [
+    "kanji-sun",
+    "radical-u5315",
+    "radical-u624c"
+   ]
+  },
+  {
+   "slug": "kanji-u6355",
+   "prerequisites": [
+    "kanji-ten",
+    "kanji-u7528",
+    "radical-u624c"
+   ]
+  },
+  {
+   "slug": "kanji-u639b",
+   "prerequisites": [
+    "kanji-earth",
+    "radical-u535c",
+    "radical-u624c"
+   ]
+  },
+  {
+   "slug": "kanji-u63a2",
+   "prerequisites": [
+    "kanji-tree",
+    "radical-legs",
+    "radical-u5196",
+    "radical-u624c"
+   ]
+  },
+  {
+   "slug": "kanji-u652f",
+   "prerequisites": [
+    "kanji-ten",
+    "radical-u53c8"
+   ]
+  },
+  {
+   "slug": "kanji-u653e",
+   "prerequisites": [
+    "kanji-u65b9",
+    "radical-u6535"
+   ]
+  },
+  {
+   "slug": "kanji-u653f",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-u6b62",
+    "radical-u6535"
+   ]
+  },
+  {
+   "slug": "kanji-u6557",
+   "prerequisites": [
+    "radical-u8c9d",
+    "kanji-eye",
+    "radical-u30cf",
+    "radical-u6535"
+   ]
+  },
+  {
+   "slug": "kanji-u6563",
+   "prerequisites": [
+    "kanji-moon",
+    "radical-u6535"
+   ]
+  },
+  {
+   "slug": "kanji-u6570",
+   "prerequisites": [
+    "kanji-woman",
+    "kanji-u7c73",
+    "radical-u6535",
+    "radical-u5902"
+   ]
+  },
+  {
+   "slug": "kanji-u65ad",
+   "prerequisites": [
+    "radical-axe-cutting-fresh-wood",
+    "kanji-u7c73",
+    "kanji-one"
+   ]
+  },
+  {
+   "slug": "kanji-u6613",
+   "prerequisites": [
+    "kanji-sun",
+    "radical-u52ff",
+    "radical-u52f9"
+   ]
+  },
+  {
+   "slug": "kanji-u6614",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-two",
+    "kanji-sun"
+   ]
+  },
+  {
+   "slug": "kanji-u6628",
+   "prerequisites": [
+    "kanji-sun"
+   ]
+  },
+  {
+   "slug": "kanji-u6669",
+   "prerequisites": [
+    "radical-u514d",
+    "kanji-sun",
+    "radical-legs"
+   ]
+  },
+  {
+   "slug": "kanji-u666f",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-small",
+    "kanji-sun",
+    "radical-u4ea0"
+   ]
+  },
+  {
+   "slug": "kanji-u6674",
+   "prerequisites": [
+    "kanji-moon",
+    "kanji-blue",
+    "kanji-earth",
+    "kanji-two",
+    "kanji-sun",
+    "radical-u4ea0"
+   ]
+  },
+  {
+   "slug": "kanji-u6697",
+   "prerequisites": [
+    "kanji-u97f3",
+    "kanji-sun",
+    "kanji-stand"
+   ]
+  },
+  {
+   "slug": "kanji-u66ae",
+   "prerequisites": [
+    "kanji-big",
+    "kanji-sun",
+    "radical-u2ebe"
+   ]
+  },
+  {
+   "slug": "kanji-u66f2",
+   "prerequisites": [
+    "kanji-sun"
+   ]
+  },
+  {
+   "slug": "kanji-u66f4",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-sun"
+   ]
+  },
+  {
+   "slug": "kanji-u6700",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-ear",
+    "kanji-sun",
+    "radical-u53c8"
+   ]
+  },
+  {
+   "slug": "kanji-u671b",
+   "prerequisites": [
+    "kanji-u738b",
+    "kanji-u4ea1",
+    "kanji-moon"
+   ]
+  },
+  {
+   "slug": "kanji-u671f",
+   "prerequisites": [
+    "radical-u7518",
+    "kanji-moon",
+    "radical-u30cf"
+   ]
+  },
+  {
+   "slug": "kanji-u672a",
+   "prerequisites": [
+    "kanji-two",
+    "radical-u30cf",
+    "kanji-tree",
+    "radical-u4ea0"
+   ]
+  },
+  {
+   "slug": "kanji-u672b",
+   "prerequisites": [
+    "kanji-one",
+    "radical-u30cf",
+    "kanji-tree",
+    "radical-u4ea0"
+   ]
+  },
+  {
+   "slug": "kanji-u675f",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-mouth",
+    "radical-u30cf",
+    "kanji-tree"
+   ]
+  },
+  {
+   "slug": "kanji-u676f",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-tree",
+    "radical-u793b"
+   ]
+  },
+  {
+   "slug": "kanji-u679c",
+   "prerequisites": [
+    "kanji-u7530",
+    "kanji-tree"
+   ]
+  },
+  {
+   "slug": "kanji-u683c",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-tree",
+    "radical-u5902"
+   ]
+  },
+  {
+   "slug": "kanji-u69cb",
+   "prerequisites": [
+    "kanji-tree",
+    "radical-u5182",
+    "kanji-one",
+    "kanji-ten"
+   ]
+  },
+  {
+   "slug": "kanji-u69d8",
+   "prerequisites": [
+    "kanji-u738b",
+    "kanji-water",
+    "radical-u5e76",
+    "kanji-tree",
+    "radical-u7f8a"
+   ]
+  },
+  {
+   "slug": "kanji-u6a29",
+   "prerequisites": [
+    "radical-u77e2",
+    "kanji-tree",
+    "radical-u96b9"
+   ]
+  },
+  {
+   "slug": "kanji-u6a2a",
+   "prerequisites": [
+    "radical-u9ec4",
+    "kanji-u7530",
+    "kanji-two",
+    "kanji-sun",
+    "radical-u30cf",
+    "kanji-tree",
+    "radical-u5efe"
+   ]
+  },
+  {
+   "slug": "kanji-u6a5f",
+   "prerequisites": [
+    "kanji-tree",
+    "radical-u5e7a",
+    "radical-u6208"
+   ]
+  },
+  {
+   "slug": "kanji-u6b20",
+   "prerequisites": [
+    "radical-u52f9",
+    "kanji-person"
+   ]
+  },
+  {
+   "slug": "kanji-u6b21",
+   "prerequisites": [
+    "kanji-u6b20",
+    "radical-u51ab"
+   ]
+  },
+  {
+   "slug": "kanji-u6b32",
+   "prerequisites": [
+    "kanji-u6b20",
+    "kanji-mouth",
+    "radical-u8c37",
+    "radical-u30cf",
+    "radical-u201a2"
+   ]
+  },
+  {
+   "slug": "kanji-u6b6f",
+   "prerequisites": [
+    "kanji-u6b62",
+    "kanji-u7c73",
+    "radical-u51f5"
+   ]
+  },
+  {
+   "slug": "kanji-u6b73",
+   "prerequisites": [
+    "kanji-u6b62",
+    "kanji-small",
+    "radical-u6208"
+   ]
+  },
+  {
+   "slug": "kanji-u6b8b",
+   "prerequisites": [
+    "radical-u6bdb",
+    "radical-u6b79"
+   ]
+  },
+  {
+   "slug": "kanji-u6bb5",
+   "prerequisites": [
+    "radical-u6bb3",
+    "radical-u51e0",
+    "radical-u53c8"
+   ]
+  },
+  {
+   "slug": "kanji-u6bba",
+   "prerequisites": [
+    "kanji-tree",
+    "radical-u6bb3",
+    "radical-u51e0",
+    "radical-u53c8"
+   ]
+  },
+  {
+   "slug": "kanji-u6c11",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-u6c0f"
+   ]
+  },
+  {
+   "slug": "kanji-u6c42",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-water"
+   ]
+  },
+  {
+   "slug": "kanji-u6c7a",
+   "prerequisites": [
+    "radical-water",
+    "kanji-person",
+    "kanji-big",
+    "kanji-two"
+   ]
+  },
+  {
+   "slug": "kanji-u6cbb",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-water",
+    "radical-u53b6"
+   ]
+  },
+  {
+   "slug": "kanji-u6cd5",
+   "prerequisites": [
+    "radical-water",
+    "kanji-earth",
+    "radical-u53b6"
+   ]
+  },
+  {
+   "slug": "kanji-u6cf3",
+   "prerequisites": [
+    "radical-water",
+    "kanji-water"
+   ]
+  },
+  {
+   "slug": "kanji-u6d17",
+   "prerequisites": [
+    "radical-water",
+    "kanji-earth",
+    "radical-legs"
+   ]
+  },
+  {
+   "slug": "kanji-u6d3b",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-ten",
+    "radical-water",
+    "radical-u820c"
+   ]
+  },
+  {
+   "slug": "kanji-u6d41",
+   "prerequisites": [
+    "radical-water",
+    "kanji-river",
+    "radical-u4ea0",
+    "radical-u53b6"
+   ]
+  },
+  {
+   "slug": "kanji-u6d6e",
+   "prerequisites": [
+    "kanji-child",
+    "radical-water",
+    "radical-u722a"
+   ]
+  },
+  {
+   "slug": "kanji-u6d88",
+   "prerequisites": [
+    "kanji-moon",
+    "radical-water",
+    "radical-u2e8c"
+   ]
+  },
+  {
+   "slug": "kanji-u6df1",
+   "prerequisites": [
+    "radical-water",
+    "kanji-tree",
+    "radical-legs",
+    "radical-u5196"
+   ]
+  },
+  {
+   "slug": "kanji-u6e08",
+   "prerequisites": [
+    "radical-water",
+    "kanji-u6587",
+    "radical-u5efe",
+    "radical-u6589"
+   ]
+  },
+  {
+   "slug": "kanji-u6e21",
+   "prerequisites": [
+    "radical-water",
+    "radical-u53c8",
+    "radical-u5e7f"
+   ]
+  },
+  {
+   "slug": "kanji-u6e2f",
+   "prerequisites": [
+    "radical-water",
+    "radical-u30cf",
+    "radical-u5df2",
+    "radical-well"
+   ]
+  },
+  {
+   "slug": "kanji-u6e80",
+   "prerequisites": [
+    "kanji-one",
+    "radical-water",
+    "kanji-two",
+    "radical-u5182",
+    "kanji-mountain"
+   ]
+  },
+  {
+   "slug": "kanji-u6f14",
+   "prerequisites": [
+    "radical-water",
+    "kanji-u7530",
+    "radical-u30cf",
+    "radical-u5b80"
+   ]
+  },
+  {
+   "slug": "kanji-u70b9",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-u535c",
+    "radical-u706c"
+   ]
+  },
+  {
+   "slug": "kanji-u7136",
+   "prerequisites": [
+    "kanji-u72ac",
+    "kanji-u5915",
+    "radical-u706c"
+   ]
+  },
+  {
+   "slug": "kanji-u7159",
+   "prerequisites": [
+    "kanji-fire",
+    "kanji-u897f",
+    "kanji-earth"
+   ]
+  },
+  {
+   "slug": "kanji-u71b1",
+   "prerequisites": [
+    "kanji-earth",
+    "kanji-nine",
+    "radical-legs",
+    "radical-u706c"
+   ]
+  },
+  {
+   "slug": "kanji-u72af",
+   "prerequisites": [
+    "radical-u72ad",
+    "radical-u5369"
+   ]
+  },
+  {
+   "slug": "kanji-u72b6",
+   "prerequisites": [
+    "kanji-u72ac",
+    "radical-u723f"
+   ]
+  },
+  {
+   "slug": "kanji-u732b",
+   "prerequisites": [
+    "kanji-u7530",
+    "radical-u72ad",
+    "radical-u2ebe"
+   ]
+  },
+  {
+   "slug": "kanji-u738b",
+   "prerequisites": []
+  },
+  {
+   "slug": "kanji-u73fe",
+   "prerequisites": [
+    "kanji-u738b",
+    "kanji-see"
+   ]
+  },
+  {
+   "slug": "kanji-u7403",
+   "prerequisites": [
+    "kanji-u738b",
+    "kanji-water"
+   ]
+  },
+  {
+   "slug": "kanji-u7523",
+   "prerequisites": [
+    "kanji-life",
+    "radical-u5e76",
+    "kanji-stand",
+    "radical-u4ea0",
+    "radical-u5382"
+   ]
+  },
+  {
+   "slug": "kanji-u7531",
+   "prerequisites": [
+    "kanji-sun",
+    "kanji-u7530"
+   ]
+  },
+  {
+   "slug": "kanji-u7533",
+   "prerequisites": [
+    "kanji-sun",
+    "kanji-u7530"
+   ]
+  },
+  {
+   "slug": "kanji-u7559",
+   "prerequisites": [
+    "kanji-u7530",
+    "radical-u5200",
+    "radical-u53b6"
+   ]
+  },
+  {
+   "slug": "kanji-u756a",
+   "prerequisites": [
+    "kanji-u7530",
+    "radical-u91c6",
+    "kanji-u7c73"
+   ]
+  },
+  {
+   "slug": "kanji-u7591",
+   "prerequisites": [
+    "radical-u758b",
+    "radical-u77e2",
+    "radical-u5315",
+    "radical-u30de"
+   ]
+  },
+  {
+   "slug": "kanji-u75b2",
+   "prerequisites": [
+    "radical-u76ae",
+    "radical-u53c8",
+    "radical-u7592"
+   ]
+  },
+  {
+   "slug": "kanji-u75db",
+   "prerequisites": [
+    "kanji-u7528",
+    "radical-u7592",
+    "radical-u30de"
+   ]
+  },
+  {
+   "slug": "kanji-u767b",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-u8c46",
+    "radical-u5e76",
+    "radical-u7676"
+   ]
+  },
+  {
+   "slug": "kanji-u7686",
+   "prerequisites": [
+    "kanji-white",
+    "radical-u6bd4"
+   ]
+  },
+  {
+   "slug": "kanji-u76d7",
+   "prerequisites": [
+    "kanji-u6b20",
+    "radical-u76bf",
+    "radical-u51ab"
+   ]
+  },
+  {
+   "slug": "kanji-u76f4",
+   "prerequisites": [
+    "kanji-ten",
+    "kanji-eye",
+    "kanji-one"
+   ]
+  },
+  {
+   "slug": "kanji-u76f8",
+   "prerequisites": [
+    "kanji-tree",
+    "kanji-eye"
+   ]
+  },
+  {
+   "slug": "kanji-u7720",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-u6c0f",
+    "kanji-eye"
+   ]
+  },
+  {
+   "slug": "kanji-u77f3",
+   "prerequisites": [
+    "kanji-mouth"
+   ]
+  },
+  {
+   "slug": "kanji-u7834",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-u77f3",
+    "radical-u76ae",
+    "radical-u53c8"
+   ]
+  },
+  {
+   "slug": "kanji-u78ba",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-u77f3",
+    "radical-u5b80",
+    "radical-u96b9"
+   ]
+  },
+  {
+   "slug": "kanji-u793a",
+   "prerequisites": [
+    "kanji-two",
+    "kanji-small"
+   ]
+  },
+  {
+   "slug": "kanji-u793c",
+   "prerequisites": [
+    "radical-u793b"
+   ]
+  },
+  {
+   "slug": "kanji-u7956",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-eye",
+    "radical-u793b"
+   ]
+  },
+  {
+   "slug": "kanji-u795e",
+   "prerequisites": [
+    "kanji-sun",
+    "radical-u793b",
+    "kanji-u7530"
+   ]
+  },
+  {
+   "slug": "kanji-u798f",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-mouth",
+    "kanji-u7530",
+    "radical-u793b"
+   ]
+  },
+  {
+   "slug": "kanji-u79d1",
+   "prerequisites": [
+    "radical-u79be",
+    "radical-u6597"
+   ]
+  },
+  {
+   "slug": "kanji-u7a0b",
+   "prerequisites": [
+    "kanji-u738b",
+    "radical-u79be",
+    "kanji-mouth"
+   ]
+  },
+  {
+   "slug": "kanji-u7a2e",
+   "prerequisites": [
+    "radical-u79be",
+    "kanji-sun",
+    "radical-u91cc"
+   ]
+  },
+  {
+   "slug": "kanji-u7a4d",
+   "prerequisites": [
+    "radical-u79be",
+    "radical-u8c9d",
+    "kanji-eye",
+    "radical-u30cf",
+    "kanji-earth",
+    "radical-u4ea0"
+   ]
+  },
+  {
+   "slug": "kanji-u7a81",
+   "prerequisites": [
+    "radical-cave",
+    "kanji-big",
+    "radical-legs",
+    "radical-u5b80"
+   ]
+  },
+  {
+   "slug": "kanji-u7a93",
+   "prerequisites": [
+    "radical-cave",
+    "kanji-u5fc3",
+    "radical-legs",
+    "radical-u53b6",
+    "radical-u5b80"
+   ]
+  },
+  {
+   "slug": "kanji-u7b11",
+   "prerequisites": [
+    "radical-u79be",
+    "radical-u7af9",
+    "kanji-big"
+   ]
+  },
+  {
+   "slug": "kanji-u7b49",
+   "prerequisites": [
+    "radical-u5bf8",
+    "radical-u7af9",
+    "kanji-earth"
+   ]
+  },
+  {
+   "slug": "kanji-u7bb1",
+   "prerequisites": [
+    "radical-u7af9",
+    "kanji-tree",
+    "kanji-eye"
+   ]
+  },
+  {
+   "slug": "kanji-u7c73",
+   "prerequisites": []
+  },
+  {
+   "slug": "kanji-u7cbe",
+   "prerequisites": [
+    "kanji-moon",
+    "kanji-blue",
+    "kanji-earth",
+    "kanji-two",
+    "kanji-u7c73",
+    "radical-u4ea0"
+   ]
+  },
+  {
+   "slug": "kanji-u7d04",
+   "prerequisites": [
+    "radical-u7cf8",
+    "radical-u5e7a",
+    "kanji-small",
+    "radical-u52f9"
+   ]
+  },
+  {
+   "slug": "kanji-u7d44",
+   "prerequisites": [
+    "kanji-one",
+    "radical-u7cf8",
+    "radical-u5e7a",
+    "kanji-small",
+    "kanji-eye"
+   ]
+  },
+  {
+   "slug": "kanji-u7d4c",
+   "prerequisites": [
+    "radical-u7cf8",
+    "radical-u5e7a",
+    "kanji-small",
+    "kanji-earth",
+    "radical-u53c8"
+   ]
+  },
+  {
+   "slug": "kanji-u7d66",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-u7cf8",
+    "radical-u5e7a",
+    "kanji-small",
+    "radical-u201a2"
+   ]
+  },
+  {
+   "slug": "kanji-u7d75",
+   "prerequisites": [
+    "radical-u7cf8",
+    "radical-u5e7a",
+    "kanji-small",
+    "kanji-two",
+    "radical-u201a2",
+    "radical-u53b6"
+   ]
+  },
+  {
+   "slug": "kanji-u7d76",
+   "prerequisites": [
+    "radical-u7cf8",
+    "radical-u5e7a",
+    "kanji-small",
+    "kanji-u8272"
+   ]
+  },
+  {
+   "slug": "kanji-u7d9a",
+   "prerequisites": [
+    "radical-u58eb",
+    "radical-u7cf8",
+    "radical-u5e7a",
+    "kanji-small",
+    "radical-legs",
+    "radical-u5196"
+   ]
+  },
+  {
+   "slug": "kanji-u7dd2",
+   "prerequisites": [
+    "radical-u7cf8",
+    "radical-u5e7a",
+    "kanji-small",
+    "kanji-sun",
+    "radical-u2eb9"
+   ]
+  },
+  {
+   "slug": "kanji-u7f6a",
+   "prerequisites": [
+    "radical-u7f52",
+    "kanji-u975e"
+   ]
+  },
+  {
+   "slug": "kanji-u7f6e",
+   "prerequisites": [
+    "kanji-ten",
+    "radical-u7f52",
+    "kanji-eye",
+    "kanji-one"
+   ]
+  },
+  {
+   "slug": "kanji-u7f8e",
+   "prerequisites": [
+    "kanji-u738b",
+    "kanji-big",
+    "radical-u5e76",
+    "radical-u7f8a"
+   ]
+  },
+  {
+   "slug": "kanji-u8001",
+   "prerequisites": [
+    "radical-u2eb9"
+   ]
+  },
+  {
+   "slug": "kanji-ear",
+   "prerequisites": [
+    "radical-ear"
+   ]
+  },
+  {
+   "slug": "kanji-u8077",
+   "prerequisites": [
+    "kanji-u97f3",
+    "kanji-ear",
+    "kanji-sun",
+    "kanji-stand",
+    "radical-u6208"
+   ]
+  },
+  {
+   "slug": "kanji-u80b2",
+   "prerequisites": [
+    "kanji-moon",
+    "radical-u4ea0",
+    "radical-u53b6"
+   ]
+  },
+  {
+   "slug": "kanji-u80cc",
+   "prerequisites": [
+    "kanji-moon",
+    "radical-u5315",
+    "radical-u723f"
+   ]
+  },
+  {
+   "slug": "kanji-u80fd",
+   "prerequisites": [
+    "kanji-moon",
+    "radical-u5315",
+    "radical-u53b6"
+   ]
+  },
+  {
+   "slug": "kanji-u8179",
+   "prerequisites": [
+    "kanji-moon",
+    "kanji-sun",
+    "radical-u5902"
+   ]
+  },
+  {
+   "slug": "kanji-u821e",
+   "prerequisites": [
+    "kanji-one",
+    "radical-u821b",
+    "kanji-two",
+    "kanji-u5915",
+    "radical-u7121"
+   ]
+  },
+  {
+   "slug": "kanji-u8239",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-u821f",
+    "radical-u30cf"
+   ]
+  },
+  {
+   "slug": "kanji-u826f",
+   "prerequisites": [
+    "radical-u826e"
+   ]
+  },
+  {
+   "slug": "kanji-u82e5",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-mouth",
+    "radical-u2ebe"
+   ]
+  },
+  {
+   "slug": "kanji-u82e6",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-ten",
+    "radical-u2ebe"
+   ]
+  },
+  {
+   "slug": "kanji-u8349",
+   "prerequisites": [
+    "kanji-ten",
+    "kanji-sun",
+    "radical-u2ebe"
+   ]
+  },
+  {
+   "slug": "kanji-u843d",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-water",
+    "radical-u5902",
+    "radical-u2ebe"
+   ]
+  },
+  {
+   "slug": "kanji-u8449",
+   "prerequisites": [
+    "kanji-tree",
+    "kanji-u4e16",
+    "radical-u2ebe"
+   ]
+  },
+  {
+   "slug": "kanji-u85ac",
+   "prerequisites": [
+    "kanji-sun",
+    "kanji-tree",
+    "radical-u51ab",
+    "radical-u2ebe"
+   ]
+  },
+  {
+   "slug": "kanji-u8853",
+   "prerequisites": [
+    "kanji-go",
+    "kanji-ten",
+    "radical-u5f73",
+    "kanji-tree"
+   ]
+  },
+  {
+   "slug": "kanji-u8868",
+   "prerequisites": [
+    "radical-u8863",
+    "radical-u58eb"
+   ]
+  },
+  {
+   "slug": "kanji-u8981",
+   "prerequisites": [
+    "kanji-woman",
+    "kanji-u897f"
+   ]
+  },
+  {
+   "slug": "kanji-u898f",
+   "prerequisites": [
+    "kanji-see",
+    "kanji-earth",
+    "kanji-big"
+   ]
+  },
+  {
+   "slug": "kanji-u899a",
+   "prerequisites": [
+    "kanji-see",
+    "radical-u2e8c",
+    "radical-u5196"
+   ]
+  },
+  {
+   "slug": "kanji-u89b3",
+   "prerequisites": [
+    "kanji-see",
+    "radical-u96b9",
+    "radical-u77e2"
+   ]
+  },
+  {
+   "slug": "kanji-u89e3",
+   "prerequisites": [
+    "radical-u89d2",
+    "kanji-u725b",
+    "radical-u5200"
+   ]
+  },
+  {
+   "slug": "kanji-u8a18",
+   "prerequisites": [
+    "kanji-u8a00",
+    "radical-u5df2"
+   ]
+  },
+  {
+   "slug": "kanji-u8a2a",
+   "prerequisites": [
+    "kanji-u8a00",
+    "kanji-u65b9"
+   ]
+  },
+  {
+   "slug": "kanji-u8a31",
+   "prerequisites": [
+    "radical-u5e72",
+    "kanji-u8a00",
+    "kanji-ten"
+   ]
+  },
+  {
+   "slug": "kanji-u8a8d",
+   "prerequisites": [
+    "kanji-u8a00",
+    "kanji-u5fc3",
+    "radical-u5200"
+   ]
+  },
+  {
+   "slug": "kanji-u8aa4",
+   "prerequisites": [
+    "kanji-u8a00",
+    "kanji-mouth",
+    "radical-u30cf"
+   ]
+  },
+  {
+   "slug": "kanji-u8aac",
+   "prerequisites": [
+    "kanji-u8a00",
+    "kanji-mouth",
+    "radical-u5e76",
+    "radical-legs"
+   ]
+  },
+  {
+   "slug": "kanji-u8abf",
+   "prerequisites": [
+    "kanji-u8a00",
+    "kanji-mouth",
+    "kanji-earth",
+    "radical-u5182"
+   ]
+  },
+  {
+   "slug": "kanji-u8ac7",
+   "prerequisites": [
+    "kanji-fire",
+    "kanji-u8a00"
+   ]
+  },
+  {
+   "slug": "kanji-u8ad6",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-u8a00",
+    "radical-u201a2",
+    "radical-u518a"
+   ]
+  },
+  {
+   "slug": "kanji-u8b58",
+   "prerequisites": [
+    "kanji-u97f3",
+    "kanji-u8a00",
+    "kanji-sun",
+    "kanji-stand",
+    "radical-u6208"
+   ]
+  },
+  {
+   "slug": "kanji-u8b66",
+   "prerequisites": [
+    "kanji-u8a00",
+    "kanji-mouth",
+    "radical-u52f9",
+    "radical-u5902",
+    "radical-u2ebe",
+    "radical-u6535"
+   ]
+  },
+  {
+   "slug": "kanji-u8b70",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-u738b",
+    "kanji-u8a00",
+    "radical-u5e76",
+    "radical-u7f8a",
+    "radical-u6208",
+    "kanji-hand"
+   ]
+  },
+  {
+   "slug": "kanji-u8ca0",
+   "prerequisites": [
+    "radical-u8c9d",
+    "kanji-eye",
+    "radical-u30cf",
+    "radical-u52f9"
+   ]
+  },
+  {
+   "slug": "kanji-u8ca1",
+   "prerequisites": [
+    "kanji-one",
+    "radical-u8c9d",
+    "kanji-eye",
+    "radical-u30cf"
+   ]
+  },
+  {
+   "slug": "kanji-u8ca7",
+   "prerequisites": [
+    "radical-u8c9d",
+    "kanji-eye",
+    "radical-u5200",
+    "radical-u30cf"
+   ]
+  },
+  {
+   "slug": "kanji-u8cac",
+   "prerequisites": [
+    "radical-u8c9d",
+    "kanji-eye",
+    "radical-u30cf",
+    "kanji-earth",
+    "radical-u4ea0"
+   ]
+  },
+  {
+   "slug": "kanji-u8cbb",
+   "prerequisites": [
+    "radical-u8c9d",
+    "kanji-eye",
+    "radical-u30cf",
+    "radical-u5f13"
+   ]
+  },
+  {
+   "slug": "kanji-u8cc7",
+   "prerequisites": [
+    "radical-u8c9d",
+    "kanji-eye",
+    "radical-u30cf",
+    "kanji-u6b20",
+    "radical-u51ab"
+   ]
+  },
+  {
+   "slug": "kanji-u8cdb",
+   "prerequisites": [
+    "radical-u8c9d",
+    "kanji-eye",
+    "radical-u30cf",
+    "kanji-person",
+    "kanji-big",
+    "kanji-two",
+    "radical-u4ea0"
+   ]
+  },
+  {
+   "slug": "kanji-u8d8a",
+   "prerequisites": [
+    "kanji-u8d70",
+    "kanji-earth",
+    "radical-u6208"
+   ]
+  },
+  {
+   "slug": "kanji-u8def",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-foot",
+    "radical-u5902"
+   ]
+  },
+  {
+   "slug": "kanji-u8f9e",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-ten",
+    "radical-u8f9b",
+    "radical-u820c",
+    "kanji-stand"
+   ]
+  },
+  {
+   "slug": "kanji-u8fbc",
+   "prerequisites": [
+    "radical-ufa66",
+    "kanji-enter"
+   ]
+  },
+  {
+   "slug": "kanji-u8fce",
+   "prerequisites": [
+    "radical-ufa66",
+    "radical-u5369"
+   ]
+  },
+  {
+   "slug": "kanji-u8fd4",
+   "prerequisites": [
+    "radical-ufa66",
+    "radical-u53c8",
+    "radical-u5382"
+   ]
+  },
+  {
+   "slug": "kanji-u8ff7",
+   "prerequisites": [
+    "radical-ufa66",
+    "kanji-u7c73"
+   ]
+  },
+  {
+   "slug": "kanji-u8ffd",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-ufa66"
+   ]
+  },
+  {
+   "slug": "kanji-u9000",
+   "prerequisites": [
+    "radical-ufa66",
+    "radical-u826e"
+   ]
+  },
+  {
+   "slug": "kanji-u9003",
+   "prerequisites": [
+    "radical-ufa66",
+    "radical-legs",
+    "radical-u51ab"
+   ]
+  },
+  {
+   "slug": "kanji-u9014",
+   "prerequisites": [
+    "radical-ufa66",
+    "radical-u30cf",
+    "radical-u201a2",
+    "kanji-tree"
+   ]
+  },
+  {
+   "slug": "kanji-u901f",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-mouth",
+    "radical-ufa66",
+    "radical-u30cf",
+    "kanji-tree"
+   ]
+  },
+  {
+   "slug": "kanji-u9023",
+   "prerequisites": [
+    "radical-ufa66",
+    "kanji-car"
+   ]
+  },
+  {
+   "slug": "kanji-u9032",
+   "prerequisites": [
+    "radical-ufa66",
+    "radical-u96b9"
+   ]
+  },
+  {
+   "slug": "kanji-u9045",
+   "prerequisites": [
+    "kanji-u738b",
+    "radical-ufa66",
+    "radical-u5e76",
+    "radical-u7f8a",
+    "radical-u5c38"
+   ]
+  },
+  {
+   "slug": "kanji-u904a",
+   "prerequisites": [
+    "radical-ufa66",
+    "kanji-child",
+    "kanji-u65b9"
+   ]
+  },
+  {
+   "slug": "kanji-u904e",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-ufa66",
+    "radical-u5182"
+   ]
+  },
+  {
+   "slug": "kanji-u9054",
+   "prerequisites": [
+    "kanji-u738b",
+    "radical-ufa66",
+    "kanji-earth",
+    "radical-u5e76",
+    "radical-u7f8a"
+   ]
+  },
+  {
+   "slug": "kanji-u9055",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-ufa66",
+    "radical-u97cb"
+   ]
+  },
+  {
+   "slug": "kanji-u9060",
+   "prerequisites": [
+    "radical-u8863",
+    "kanji-mouth",
+    "radical-ufa66",
+    "kanji-earth"
+   ]
+  },
+  {
+   "slug": "kanji-u9069",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-ufa66",
+    "kanji-ten",
+    "radical-u5e76",
+    "kanji-stand",
+    "radical-u4ea0",
+    "radical-u5182",
+    "radical-u6ef4"
+   ]
+  },
+  {
+   "slug": "kanji-u9078",
+   "prerequisites": [
+    "radical-ufa66",
+    "kanji-two",
+    "radical-u30cf",
+    "radical-u5df2"
+   ]
+  },
+  {
+   "slug": "kanji-u90e8",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-u2ecf",
+    "kanji-stand"
+   ]
+  },
+  {
+   "slug": "kanji-u90fd",
+   "prerequisites": [
+    "kanji-sun",
+    "radical-u2ecf",
+    "radical-u2eb9"
+   ]
+  },
+  {
+   "slug": "kanji-u914d",
+   "prerequisites": [
+    "radical-u9149",
+    "radical-u5df2"
+   ]
+  },
+  {
+   "slug": "kanji-u9152",
+   "prerequisites": [
+    "radical-water",
+    "radical-u9149"
+   ]
+  },
+  {
+   "slug": "kanji-u9589",
+   "prerequisites": [
+    "kanji-one",
+    "radical-u9580"
+   ]
+  },
+  {
+   "slug": "kanji-u95a2",
+   "prerequisites": [
+    "kanji-person",
+    "kanji-big",
+    "kanji-two",
+    "radical-u30cf",
+    "radical-u9580",
+    "radical-u5e76"
+   ]
+  },
+  {
+   "slug": "kanji-u964d",
+   "prerequisites": [
+    "radical-u5902",
+    "radical-u2ed6",
+    "kanji-ten"
+   ]
+  },
+  {
+   "slug": "kanji-u9650",
+   "prerequisites": [
+    "radical-u826e",
+    "radical-u2ed6"
+   ]
+  },
+  {
+   "slug": "kanji-u9664",
+   "prerequisites": [
+    "radical-u79be",
+    "radical-u201a2",
+    "radical-u2ed6"
+   ]
+  },
+  {
+   "slug": "kanji-u967a",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-person",
+    "radical-u201a2",
+    "radical-u2ed6"
+   ]
+  },
+  {
+   "slug": "kanji-u967d",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-sun",
+    "radical-u52ff",
+    "radical-u2ed6"
+   ]
+  },
+  {
+   "slug": "kanji-u969b",
+   "prerequisites": [
+    "kanji-u793a",
+    "kanji-two",
+    "kanji-small",
+    "radical-u7676",
+    "radical-u2ed6"
+   ]
+  },
+  {
+   "slug": "kanji-u96d1",
+   "prerequisites": [
+    "kanji-tree",
+    "radical-u96b9",
+    "kanji-nine"
+   ]
+  },
+  {
+   "slug": "kanji-u96e3",
+   "prerequisites": [
+    "radical-u2ebe",
+    "radical-u96b9",
+    "kanji-big",
+    "kanji-mouth",
+    "radical-u4ea0"
+   ]
+  },
+  {
+   "slug": "kanji-u96ea",
+   "prerequisites": [
+    "radical-u30e8",
+    "kanji-rain"
+   ]
+  },
+  {
+   "slug": "kanji-u9759",
+   "prerequisites": [
+    "kanji-moon",
+    "kanji-blue",
+    "kanji-earth",
+    "radical-u4ea0",
+    "radical-u52f9",
+    "radical-u30e8"
+   ]
+  },
+  {
+   "slug": "kanji-u975e",
+   "prerequisites": []
+  },
+  {
+   "slug": "kanji-u9762",
+   "prerequisites": []
+  },
+  {
+   "slug": "kanji-u9774",
+   "prerequisites": [
+    "radical-u2e85",
+    "radical-u9769",
+    "radical-u5315"
+   ]
+  },
+  {
+   "slug": "kanji-u9802",
+   "prerequisites": [
+    "kanji-one",
+    "radical-u8c9d",
+    "kanji-eye",
+    "radical-u30cf",
+    "radical-u9801"
+   ]
+  },
+  {
+   "slug": "kanji-u982d",
+   "prerequisites": [
+    "radical-u8c9d",
+    "kanji-eye",
+    "radical-u30cf",
+    "kanji-mouth",
+    "radical-u8c46",
+    "radical-u5e76",
+    "radical-u9801"
+   ]
+  },
+  {
+   "slug": "kanji-u983c",
+   "prerequisites": [
+    "radical-u8c9d",
+    "kanji-eye",
+    "kanji-mouth",
+    "radical-u30cf",
+    "radical-u9801",
+    "kanji-tree"
+   ]
+  },
+  {
+   "slug": "kanji-u9854",
+   "prerequisites": [
+    "radical-u8c9d",
+    "kanji-eye",
+    "radical-u30cf",
+    "radical-u9801",
+    "kanji-stand",
+    "radical-u4ea0",
+    "radical-u5382",
+    "radical-u5f61"
+   ]
+  },
+  {
+   "slug": "kanji-u9858",
+   "prerequisites": [
+    "radical-u8c9d",
+    "kanji-eye",
+    "radical-u30cf",
+    "kanji-small",
+    "kanji-white",
+    "radical-u9801",
+    "radical-u5382"
+   ]
+  },
+  {
+   "slug": "kanji-u985e",
+   "prerequisites": [
+    "radical-u8c9d",
+    "kanji-eye",
+    "radical-u30cf",
+    "kanji-big",
+    "kanji-u7c73",
+    "radical-u9801"
+   ]
+  },
+  {
+   "slug": "kanji-u98db",
+   "prerequisites": []
+  },
+  {
+   "slug": "kanji-u9996",
+   "prerequisites": [
+    "kanji-u81ea",
+    "radical-u5e76",
+    "kanji-eye"
+   ]
+  },
+  {
+   "slug": "kanji-u99ac",
+   "prerequisites": []
+  },
+  {
+   "slug": "kanji-u9aea",
+   "prerequisites": [
+    "radical-u5902",
+    "kanji-one",
+    "kanji-long",
+    "radical-u5f61",
+    "radical-u9adf"
+   ]
+  },
+  {
+   "slug": "kanji-u9cf4",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-u9ce5",
+    "radical-u706c"
+   ]
+  },
+  {
+   "slug": "kanji-u4e26",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-two",
+    "radical-u5e76"
+   ]
+  },
+  {
+   "slug": "kanji-u4e38",
+   "prerequisites": [
+    "kanji-nine"
+   ]
+  },
+  {
+   "slug": "kanji-u4e45",
+   "prerequisites": [
+    "kanji-enter"
+   ]
+  },
+  {
+   "slug": "kanji-u4e71",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-u820c"
+   ]
+  },
+  {
+   "slug": "kanji-u4e73",
+   "prerequisites": [
+    "kanji-child",
+    "radical-u722a"
+   ]
+  },
+  {
+   "slug": "kanji-u4e7e",
+   "prerequisites": [
+    "kanji-ten",
+    "kanji-sun"
+   ]
+  },
+  {
+   "slug": "kanji-u4e86",
+   "prerequisites": [
+    "kanji-one"
+   ]
+  },
+  {
+   "slug": "kanji-u4ecb",
+   "prerequisites": [
+    "radical-u30cf",
+    "radical-u201a2"
+   ]
+  },
+  {
+   "slug": "kanji-u4ecf",
+   "prerequisites": [
+    "radical-u2e85",
+    "radical-u53b6"
+   ]
+  },
+  {
+   "slug": "kanji-u4ee4",
+   "prerequisites": [
+    "radical-u201a2",
+    "radical-u5369",
+    "kanji-one"
+   ]
+  },
+  {
+   "slug": "kanji-u4ef2",
+   "prerequisites": [
+    "radical-u2e85",
+    "kanji-mouth"
+   ]
+  },
+  {
+   "slug": "kanji-u4f38",
+   "prerequisites": [
+    "radical-u2e85",
+    "kanji-sun",
+    "kanji-u7530"
+   ]
+  },
+  {
+   "slug": "kanji-u4f3a",
+   "prerequisites": [
+    "radical-u2e85",
+    "kanji-mouth",
+    "kanji-one"
+   ]
+  },
+  {
+   "slug": "kanji-u4f4e",
+   "prerequisites": [
+    "radical-u2e85",
+    "radical-u6c0f"
+   ]
+  },
+  {
+   "slug": "kanji-u4f9d",
+   "prerequisites": [
+    "kanji-u8863",
+    "radical-u2e85",
+    "radical-u4ea0"
+   ]
+  },
+  {
+   "slug": "kanji-u500b",
+   "prerequisites": [
+    "radical-u2e85",
+    "kanji-mouth",
+    "kanji-ten",
+    "radical-u56d7"
+   ]
+  },
+  {
+   "slug": "kanji-u500d",
+   "prerequisites": [
+    "radical-u2e85",
+    "kanji-mouth",
+    "kanji-stand"
+   ]
+  },
+  {
+   "slug": "kanji-u505c",
+   "prerequisites": [
+    "radical-u2e85",
+    "kanji-mouth",
+    "radical-u4ea0",
+    "radical-u5196"
+   ]
+  },
+  {
+   "slug": "kanji-u50be",
+   "prerequisites": [
+    "radical-u2e85",
+    "kanji-u8c9d",
+    "kanji-eye",
+    "radical-u30cf",
+    "radical-u9801",
+    "radical-u5315"
+   ]
+  },
+  {
+   "slug": "kanji-u50cf",
+   "prerequisites": [
+    "radical-u2e85",
+    "radical-u52f9",
+    "radical-u8c55",
+    "kanji-mouth",
+    "kanji-one"
+   ]
+  },
+  {
+   "slug": "kanji-u5104",
+   "prerequisites": [
+    "kanji-u97f3",
+    "radical-u2e85",
+    "kanji-u5fc3",
+    "kanji-sun",
+    "kanji-stand"
+   ]
+  },
+  {
+   "slug": "kanji-u5146",
+   "prerequisites": [
+    "radical-legs",
+    "radical-u51ab"
+   ]
+  },
+  {
+   "slug": "kanji-u5150",
+   "prerequisites": [
+    "kanji-sun",
+    "radical-legs"
+   ]
+  },
+  {
+   "slug": "kanji-u515a",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-u2e8c",
+    "radical-legs",
+    "radical-u5196"
+   ]
+  },
+  {
+   "slug": "kanji-u5175",
+   "prerequisites": [
+    "kanji-one",
+    "radical-axe-cutting-fresh-wood",
+    "radical-u30cf"
+   ]
+  },
+  {
+   "slug": "kanji-u518a",
+   "prerequisites": [
+    "kanji-one",
+    "radical-u5182",
+    "radical-u5efe"
+   ]
+  },
+  {
+   "slug": "kanji-u518d",
+   "prerequisites": [
+    "kanji-one",
+    "radical-u5182",
+    "kanji-u738b"
+   ]
+  },
+  {
+   "slug": "kanji-u51cd",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-sun",
+    "kanji-tree",
+    "radical-u51ab",
+    "kanji-u7530"
+   ]
+  },
+  {
+   "slug": "kanji-u520a",
+   "prerequisites": [
+    "radical-u5202",
+    "kanji-u5e72"
+   ]
+  },
+  {
+   "slug": "kanji-u5237",
+   "prerequisites": [
+    "radical-u5202",
+    "radical-u5dfe",
+    "radical-u5c38"
+   ]
+  },
+  {
+   "slug": "kanji-u5238",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-person",
+    "kanji-big",
+    "radical-u5200",
+    "kanji-two",
+    "radical-u5e76"
+   ]
+  },
+  {
+   "slug": "kanji-u523a",
+   "prerequisites": [
+    "radical-u5202",
+    "radical-u5dfe",
+    "radical-u30cf",
+    "kanji-tree",
+    "radical-u5182"
+   ]
+  },
+  {
+   "slug": "kanji-u5247",
+   "prerequisites": [
+    "kanji-u8c9d",
+    "kanji-eye",
+    "radical-u30cf",
+    "radical-u5202"
+   ]
+  },
+  {
+   "slug": "kanji-u526f",
+   "prerequisites": [
+    "kanji-one",
+    "radical-u5202",
+    "kanji-mouth",
+    "kanji-u7530"
+   ]
+  },
+  {
+   "slug": "kanji-u5287",
+   "prerequisites": [
+    "radical-u5202",
+    "radical-u535c",
+    "radical-u5315",
+    "radical-u5382",
+    "radical-u864d",
+    "radical-u8c55"
+   ]
+  },
+  {
+   "slug": "kanji-u52b9",
+   "prerequisites": [
+    "kanji-father",
+    "kanji-u529b",
+    "radical-u4ea0"
+   ]
+  },
+  {
+   "slug": "kanji-u52c7",
+   "prerequisites": [
+    "kanji-u7530",
+    "kanji-u529b",
+    "radical-u30de"
+   ]
+  },
+  {
+   "slug": "kanji-u52df",
+   "prerequisites": [
+    "kanji-big",
+    "kanji-sun",
+    "kanji-u529b",
+    "radical-u2ebe"
+   ]
+  },
+  {
+   "slug": "kanji-u52e2",
+   "prerequisites": [
+    "kanji-earth",
+    "kanji-u529b",
+    "radical-legs",
+    "kanji-nine"
+   ]
+  },
+  {
+   "slug": "kanji-u5305",
+   "prerequisites": [
+    "radical-u52f9",
+    "radical-u5df2"
+   ]
+  },
+  {
+   "slug": "kanji-u5339",
+   "prerequisites": [
+    "radical-legs",
+    "radical-u531a"
+   ]
+  },
+  {
+   "slug": "kanji-u533a",
+   "prerequisites": [
+    "radical-u531a"
+   ]
+  },
+  {
+   "slug": "kanji-u5352",
+   "prerequisites": [
+    "kanji-ten",
+    "kanji-person",
+    "radical-u4ea0"
+   ]
+  },
+  {
+   "slug": "kanji-u5354",
+   "prerequisites": [
+    "kanji-ten",
+    "kanji-u529b"
+   ]
+  },
+  {
+   "slug": "kanji-u5360",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-u535c"
+   ]
+  },
+  {
+   "slug": "kanji-u5370",
+   "prerequisites": [
+    "radical-u5369"
+   ]
+  },
+  {
+   "slug": "kanji-u5375",
+   "prerequisites": [
+    "radical-u535c",
+    "radical-u5369"
+   ]
+  },
+  {
+   "slug": "kanji-u539a",
+   "prerequisites": [
+    "kanji-child",
+    "kanji-sun",
+    "radical-u5382"
+   ]
+  },
+  {
+   "slug": "kanji-u53cc",
+   "prerequisites": [
+    "radical-u53c8"
+   ]
+  },
+  {
+   "slug": "kanji-u53eb",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-ten"
+   ]
+  },
+  {
+   "slug": "kanji-u53ec",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-u5200"
+   ]
+  },
+  {
+   "slug": "kanji-u53f2",
+   "prerequisites": [
+    "kanji-mouth"
+   ]
+  },
+  {
+   "slug": "kanji-u5404",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-u5902",
+    "radical-u6535"
+   ]
+  },
+  {
+   "slug": "kanji-u542b",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-u201a2"
+   ]
+  },
+  {
+   "slug": "kanji-u5468",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-earth",
+    "radical-u5182"
+   ]
+  },
+  {
+   "slug": "kanji-u54b2",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-person",
+    "kanji-big",
+    "kanji-two",
+    "radical-u5e76"
+   ]
+  },
+  {
+   "slug": "kanji-u55ab",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-big",
+    "kanji-earth",
+    "radical-u5200",
+    "radical-u4ea0"
+   ]
+  },
+  {
+   "slug": "kanji-u55b6",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-u2e8c",
+    "radical-u5196"
+   ]
+  },
+  {
+   "slug": "kanji-u56e3",
+   "prerequisites": [
+    "radical-u5bf8",
+    "radical-u56d7"
+   ]
+  },
+  {
+   "slug": "kanji-u56f2",
+   "prerequisites": [
+    "radical-u56d7",
+    "radical-well"
+   ]
+  },
+  {
+   "slug": "kanji-u56fa",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-ten",
+    "radical-u56d7"
+   ]
+  },
+  {
+   "slug": "kanji-u5727",
+   "prerequisites": [
+    "kanji-earth",
+    "radical-u5382"
+   ]
+  },
+  {
+   "slug": "kanji-u5742",
+   "prerequisites": [
+    "kanji-earth",
+    "radical-u53c8",
+    "radical-u5382"
+   ]
+  },
+  {
+   "slug": "kanji-u5747",
+   "prerequisites": [
+    "kanji-earth",
+    "radical-u51ab",
+    "radical-u52f9",
+    "kanji-two"
+   ]
+  },
+  {
+   "slug": "kanji-u578b",
+   "prerequisites": [
+    "radical-u5202",
+    "kanji-earth",
+    "radical-u5efe"
+   ]
+  },
+  {
+   "slug": "kanji-u57cb",
+   "prerequisites": [
+    "kanji-earth",
+    "radical-u91cc"
+   ]
+  },
+  {
+   "slug": "kanji-u57ce",
+   "prerequisites": [
+    "kanji-earth",
+    "radical-u6208"
+   ]
+  },
+  {
+   "slug": "kanji-u57df",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-earth",
+    "radical-u6208"
+   ]
+  },
+  {
+   "slug": "kanji-u5854",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-earth",
+    "radical-u201a2",
+    "radical-u2ebe"
+   ]
+  },
+  {
+   "slug": "kanji-u5857",
+   "prerequisites": [
+    "radical-water",
+    "kanji-earth",
+    "radical-u30cf",
+    "radical-u201a2",
+    "kanji-tree"
+   ]
+  },
+  {
+   "slug": "kanji-u5869",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-u76bf",
+    "kanji-earth"
+   ]
+  },
+  {
+   "slug": "kanji-u5883",
+   "prerequisites": [
+    "kanji-u97f3",
+    "kanji-earth",
+    "kanji-sun",
+    "kanji-stand",
+    "radical-legs"
+   ]
+  },
+  {
+   "slug": "kanji-u592e",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-big",
+    "radical-u5196"
+   ]
+  },
+  {
+   "slug": "kanji-u5965",
+   "prerequisites": [
+    "kanji-big",
+    "kanji-u7c73",
+    "radical-u5182"
+   ]
+  },
+  {
+   "slug": "kanji-u59d3",
+   "prerequisites": [
+    "kanji-woman",
+    "kanji-life"
+   ]
+  },
+  {
+   "slug": "kanji-u59d4",
+   "prerequisites": [
+    "radical-u79be",
+    "kanji-woman"
+   ]
+  },
+  {
+   "slug": "kanji-u5b63",
+   "prerequisites": [
+    "radical-u79be",
+    "kanji-child"
+   ]
+  },
+  {
+   "slug": "kanji-u5b6b",
+   "prerequisites": [
+    "kanji-child",
+    "kanji-u7cf8",
+    "radical-u5e7a",
+    "kanji-small"
+   ]
+  },
+  {
+   "slug": "kanji-u5b87",
+   "prerequisites": [
+    "kanji-u5e72",
+    "radical-u5b80"
+   ]
+  },
+  {
+   "slug": "kanji-u5b9d",
+   "prerequisites": [
+    "kanji-u738b",
+    "radical-u5b80"
+   ]
+  },
+  {
+   "slug": "kanji-u5bfa",
+   "prerequisites": [
+    "radical-u5bf8",
+    "kanji-earth"
+   ]
+  },
+  {
+   "slug": "kanji-u5c01",
+   "prerequisites": [
+    "radical-u5bf8",
+    "kanji-earth"
+   ]
+  },
+  {
+   "slug": "kanji-u5c02",
+   "prerequisites": [
+    "kanji-ten",
+    "radical-u5bf8",
+    "kanji-u7530"
+   ]
+  },
+  {
+   "slug": "kanji-u5c06",
+   "prerequisites": [
+    "radical-u5bf8",
+    "radical-u722a",
+    "radical-u723f"
+   ]
+  },
+  {
+   "slug": "kanji-u5c0a",
+   "prerequisites": [
+    "radical-u5bf8",
+    "radical-u9149",
+    "radical-u5e76"
+   ]
+  },
+  {
+   "slug": "kanji-u5c0e",
+   "prerequisites": [
+    "radical-ufa66",
+    "kanji-u81ea",
+    "radical-u5bf8",
+    "radical-u5e76"
+   ]
+  },
+  {
+   "slug": "kanji-u5c4a",
+   "prerequisites": [
+    "kanji-sun",
+    "radical-u5c38",
+    "kanji-u7530"
+   ]
+  },
+  {
+   "slug": "kanji-u5c64",
+   "prerequisites": [
+    "kanji-u7530",
+    "kanji-sun",
+    "radical-u5e76",
+    "radical-u5c38"
+   ]
+  },
+  {
+   "slug": "kanji-u5ca9",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-mountain",
+    "kanji-u77f3"
+   ]
+  },
+  {
+   "slug": "kanji-u5cb8",
+   "prerequisites": [
+    "kanji-u5e72",
+    "kanji-mountain",
+    "radical-u5382"
+   ]
+  },
+  {
+   "slug": "kanji-u5cf6",
+   "prerequisites": [
+    "kanji-mountain",
+    "kanji-u9ce5",
+    "kanji-white"
+   ]
+  },
+  {
+   "slug": "kanji-u5dde",
+   "prerequisites": [
+    "kanji-river"
+   ]
+  },
+  {
+   "slug": "kanji-u5de8",
+   "prerequisites": [
+    "radical-u531a"
+   ]
+  },
+  {
+   "slug": "kanji-u5dfb",
+   "prerequisites": [
+    "kanji-big",
+    "kanji-two",
+    "radical-u5e76",
+    "radical-u5df2"
+   ]
+  },
+  {
+   "slug": "kanji-u5e03",
+   "prerequisites": [
+    "kanji-one",
+    "radical-u5dfe"
+   ]
+  },
+  {
+   "slug": "kanji-u5e0c",
+   "prerequisites": [
+    "kanji-one",
+    "radical-u5dfe"
+   ]
+  },
+  {
+   "slug": "kanji-u5e2f",
+   "prerequisites": [
+    "kanji-one",
+    "radical-u5dfe",
+    "radical-u5196"
+   ]
+  },
+  {
+   "slug": "kanji-u5e3d",
+   "prerequisites": [
+    "radical-u5dfe",
+    "kanji-sun",
+    "kanji-eye"
+   ]
+  },
+  {
+   "slug": "kanji-u5e45",
+   "prerequisites": [
+    "kanji-one",
+    "radical-u5dfe",
+    "kanji-mouth",
+    "kanji-u7530"
+   ]
+  },
+  {
+   "slug": "kanji-u5e72",
+   "prerequisites": [
+    "kanji-ten",
+    "kanji-one"
+   ]
+  },
+  {
+   "slug": "kanji-u5e7c",
+   "prerequisites": [
+    "kanji-u529b",
+    "radical-u5e7a"
+   ]
+  },
+  {
+   "slug": "kanji-u5e81",
+   "prerequisites": [
+    "kanji-one",
+    "radical-u5e7f"
+   ]
+  },
+  {
+   "slug": "kanji-u5e8a",
+   "prerequisites": [
+    "kanji-tree",
+    "radical-u5e7f"
+   ]
+  },
+  {
+   "slug": "kanji-u5e95",
+   "prerequisites": [
+    "radical-u6c0f",
+    "radical-u5e7f"
+   ]
+  },
+  {
+   "slug": "kanji-u5e9c",
+   "prerequisites": [
+    "radical-u2e85",
+    "radical-u5bf8",
+    "radical-u5e7f"
+   ]
+  },
+  {
+   "slug": "kanji-u5eab",
+   "prerequisites": [
+    "kanji-car",
+    "radical-u5e7f"
+   ]
+  },
+  {
+   "slug": "kanji-u5ef6",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-u6b62",
+    "radical-u5ef4"
+   ]
+  },
+  {
+   "slug": "kanji-u5f31",
+   "prerequisites": [
+    "radical-u5f13",
+    "radical-u51ab"
+   ]
+  },
+  {
+   "slug": "kanji-u5f8b",
+   "prerequisites": [
+    "radical-u5f73",
+    "radical-u807f"
+   ]
+  },
+  {
+   "slug": "kanji-u5fa9",
+   "prerequisites": [
+    "kanji-sun",
+    "radical-u5902",
+    "radical-u5f73"
+   ]
+  },
+  {
+   "slug": "kanji-u5feb",
+   "prerequisites": [
+    "kanji-person",
+    "kanji-big",
+    "kanji-two",
+    "radical-u5fc4"
+   ]
+  },
+  {
+   "slug": "kanji-u604b",
+   "prerequisites": [
+    "kanji-u5fc3",
+    "radical-u30cf",
+    "radical-u4ea0"
+   ]
+  },
+  {
+   "slug": "kanji-u60a3",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-u5fc3"
+   ]
+  },
+  {
+   "slug": "kanji-u60a9",
+   "prerequisites": [
+    "radical-u2e8c",
+    "radical-u5fc4",
+    "radical-u51f5"
+   ]
+  },
+  {
+   "slug": "kanji-u618e",
+   "prerequisites": [
+    "kanji-u7530",
+    "kanji-sun",
+    "radical-u5e76",
+    "radical-u5fc4"
+   ]
+  },
+  {
+   "slug": "kanji-u6238",
+   "prerequisites": [
+    "kanji-one",
+    "radical-u5c38"
+   ]
+  },
+  {
+   "slug": "kanji-u627f",
+   "prerequisites": [
+    "kanji-two",
+    "kanji-hand"
+   ]
+  },
+  {
+   "slug": "kanji-u6280",
+   "prerequisites": [
+    "kanji-u652f",
+    "radical-u624c",
+    "radical-u53c8",
+    "kanji-ten"
+   ]
+  },
+  {
+   "slug": "kanji-u62c5",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-sun",
+    "radical-u624c"
+   ]
+  },
+  {
+   "slug": "kanji-u62dd",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-u5e72",
+    "radical-u624c"
+   ]
+  },
+  {
+   "slug": "kanji-u62fe",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-u201a2",
+    "radical-u624c"
+   ]
+  },
+  {
+   "slug": "kanji-u631f",
+   "prerequisites": [
+    "kanji-person",
+    "kanji-big",
+    "kanji-two",
+    "radical-u5e76",
+    "radical-u4ea0",
+    "radical-u624c"
+   ]
+  },
+  {
+   "slug": "kanji-u635c",
+   "prerequisites": [
+    "kanji-sun",
+    "radical-u53c8",
+    "radical-u624c",
+    "kanji-u7530"
+   ]
+  },
+  {
+   "slug": "kanji-u6368",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-earth",
+    "radical-u201a2",
+    "radical-u624c"
+   ]
+  },
+  {
+   "slug": "kanji-u6383",
+   "prerequisites": [
+    "radical-u30e8",
+    "radical-u5dfe",
+    "radical-u5196",
+    "radical-u624c"
+   ]
+  },
+  {
+   "slug": "kanji-u6398",
+   "prerequisites": [
+    "kanji-mountain",
+    "radical-u5c38",
+    "radical-u624c"
+   ]
+  },
+  {
+   "slug": "kanji-u63a1",
+   "prerequisites": [
+    "radical-u722a",
+    "kanji-tree",
+    "radical-u624c"
+   ]
+  },
+  {
+   "slug": "kanji-u63a5",
+   "prerequisites": [
+    "kanji-woman",
+    "kanji-stand",
+    "radical-u624c"
+   ]
+  },
+  {
+   "slug": "kanji-u63db",
+   "prerequisites": [
+    "kanji-big",
+    "radical-legs",
+    "radical-u5182",
+    "radical-u52f9",
+    "radical-u624c"
+   ]
+  },
+  {
+   "slug": "kanji-u640d",
+   "prerequisites": [
+    "kanji-u8c9d",
+    "kanji-eye",
+    "radical-u30cf",
+    "kanji-mouth",
+    "radical-u624c"
+   ]
+  },
+  {
+   "slug": "kanji-u6539",
+   "prerequisites": [
+    "radical-u5df2",
+    "radical-u6535"
+   ]
+  },
+  {
+   "slug": "kanji-u656c",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-u52f9",
+    "radical-u6535",
+    "radical-u2ebe"
+   ]
+  },
+  {
+   "slug": "kanji-u65e7",
+   "prerequisites": [
+    "kanji-sun"
+   ]
+  },
+  {
+   "slug": "kanji-u6607",
+   "prerequisites": [
+    "kanji-sun",
+    "radical-u5efe",
+    "kanji-ten"
+   ]
+  },
+  {
+   "slug": "kanji-u661f",
+   "prerequisites": [
+    "kanji-life",
+    "kanji-sun"
+   ]
+  },
+  {
+   "slug": "kanji-u666e",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-two",
+    "kanji-sun",
+    "radical-u5e76"
+   ]
+  },
+  {
+   "slug": "kanji-u66b4",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-water",
+    "kanji-two",
+    "kanji-sun",
+    "radical-u30cf",
+    "radical-well"
+   ]
+  },
+  {
+   "slug": "kanji-u66c7",
+   "prerequisites": [
+    "kanji-rain",
+    "kanji-two",
+    "kanji-sun",
+    "radical-u53b6"
+   ]
+  },
+  {
+   "slug": "kanji-u66ff",
+   "prerequisites": [
+    "kanji-person",
+    "kanji-big",
+    "kanji-two",
+    "kanji-sun",
+    "radical-u4ea0"
+   ]
+  },
+  {
+   "slug": "kanji-u672d",
+   "prerequisites": [
+    "kanji-tree"
+   ]
+  },
+  {
+   "slug": "kanji-u673a",
+   "prerequisites": [
+    "kanji-tree",
+    "radical-u51e0"
+   ]
+  },
+  {
+   "slug": "kanji-u6750",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-tree"
+   ]
+  },
+  {
+   "slug": "kanji-u6751",
+   "prerequisites": [
+    "radical-u5bf8",
+    "kanji-tree"
+   ]
+  },
+  {
+   "slug": "kanji-u677f",
+   "prerequisites": [
+    "radical-u53c8",
+    "kanji-tree",
+    "radical-u5382"
+   ]
+  },
+  {
+   "slug": "kanji-u6797",
+   "prerequisites": [
+    "kanji-tree"
+   ]
+  },
+  {
+   "slug": "kanji-u679a",
+   "prerequisites": [
+    "kanji-tree",
+    "radical-u6535"
+   ]
+  },
+  {
+   "slug": "kanji-u679d",
+   "prerequisites": [
+    "kanji-u652f",
+    "kanji-tree",
+    "kanji-ten",
+    "radical-u53c8"
+   ]
+  },
+  {
+   "slug": "kanji-u67af",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-ten",
+    "kanji-tree"
+   ]
+  },
+  {
+   "slug": "kanji-u67d4",
+   "prerequisites": [
+    "radical-u77db",
+    "kanji-tree",
+    "radical-u30de"
+   ]
+  },
+  {
+   "slug": "kanji-u67f1",
+   "prerequisites": [
+    "kanji-u738b",
+    "kanji-tree"
+   ]
+  },
+  {
+   "slug": "kanji-u67fb",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-tree",
+    "kanji-eye"
+   ]
+  },
+  {
+   "slug": "kanji-u6804",
+   "prerequisites": [
+    "radical-u2e8c",
+    "kanji-tree",
+    "radical-u5196"
+   ]
+  },
+  {
+   "slug": "kanji-u6839",
+   "prerequisites": [
+    "radical-u826e",
+    "kanji-tree"
+   ]
+  },
+  {
+   "slug": "kanji-u68b0",
+   "prerequisites": [
+    "kanji-tree",
+    "radical-u5efe",
+    "radical-u6208"
+   ]
+  },
+  {
+   "slug": "kanji-u68d2",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-person",
+    "kanji-tree",
+    "kanji-two",
+    "kanji-big"
+   ]
+  },
+  {
+   "slug": "kanji-u68ee",
+   "prerequisites": [
+    "kanji-tree"
+   ]
+  },
+  {
+   "slug": "kanji-u690d",
+   "prerequisites": [
+    "kanji-ten",
+    "kanji-tree",
+    "kanji-eye"
+   ]
+  },
+  {
+   "slug": "kanji-u6975",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-u53c8",
+    "kanji-tree",
+    "kanji-one"
+   ]
+  },
+  {
+   "slug": "kanji-u6a4b",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-tree",
+    "radical-u5182"
+   ]
+  },
+  {
+   "slug": "kanji-u6b27",
+   "prerequisites": [
+    "kanji-u6b20",
+    "radical-u531a"
+   ]
+  },
+  {
+   "slug": "kanji-u6b66",
+   "prerequisites": [
+    "kanji-u6b62",
+    "radical-u5f0b"
+   ]
+  },
+  {
+   "slug": "kanji-u6b74",
+   "prerequisites": [
+    "kanji-u6b62",
+    "radical-u9ebb",
+    "kanji-tree",
+    "radical-u5382",
+    "radical-u5e7f"
+   ]
+  },
+  {
+   "slug": "kanji-u6bbf",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-two",
+    "radical-u30cf",
+    "radical-u5c38",
+    "radical-u6bb3",
+    "radical-u51e0",
+    "radical-u53c8"
+   ]
+  },
+  {
+   "slug": "kanji-u6bd2",
+   "prerequisites": [
+    "kanji-earth",
+    "kanji-mother",
+    "radical-u4ea0",
+    "radical-u6bcb"
+   ]
+  },
+  {
+   "slug": "kanji-u6bd4",
+   "prerequisites": []
+  },
+  {
+   "slug": "kanji-u6bdb",
+   "prerequisites": []
+  },
+  {
+   "slug": "kanji-u6c37",
+   "prerequisites": [
+    "kanji-water"
+   ]
+  },
+  {
+   "slug": "kanji-u6c38",
+   "prerequisites": [
+    "kanji-water"
+   ]
+  },
+  {
+   "slug": "kanji-u6c57",
+   "prerequisites": [
+    "kanji-u5e72",
+    "radical-water"
+   ]
+  },
+  {
+   "slug": "kanji-u6c5a",
+   "prerequisites": [
+    "kanji-one",
+    "radical-water"
+   ]
+  },
+  {
+   "slug": "kanji-u6c60",
+   "prerequisites": [
+    "radical-water",
+    "radical-u4e5f"
+   ]
+  },
+  {
+   "slug": "kanji-u6c88",
+   "prerequisites": [
+    "radical-water",
+    "radical-u5c22"
+   ]
+  },
+  {
+   "slug": "kanji-u6cb3",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-water",
+    "kanji-one"
+   ]
+  },
+  {
+   "slug": "kanji-u6cb8",
+   "prerequisites": [
+    "radical-u5f13",
+    "radical-water"
+   ]
+  },
+  {
+   "slug": "kanji-u6cb9",
+   "prerequisites": [
+    "radical-water",
+    "kanji-sun",
+    "kanji-u7530"
+   ]
+  },
+  {
+   "slug": "kanji-u6cc1",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-water",
+    "radical-legs"
+   ]
+  },
+  {
+   "slug": "kanji-u6cc9",
+   "prerequisites": [
+    "kanji-water",
+    "kanji-white"
+   ]
+  },
+  {
+   "slug": "kanji-u6cca",
+   "prerequisites": [
+    "radical-water",
+    "kanji-white"
+   ]
+  },
+  {
+   "slug": "kanji-u6ce2",
+   "prerequisites": [
+    "radical-water",
+    "kanji-u76ae",
+    "radical-u53c8"
+   ]
+  },
+  {
+   "slug": "kanji-u6ce5",
+   "prerequisites": [
+    "radical-water",
+    "radical-u5315",
+    "radical-u5c38"
+   ]
+  },
+  {
+   "slug": "kanji-u6d45",
+   "prerequisites": [
+    "radical-water",
+    "kanji-u6bdb"
+   ]
+  },
+  {
+   "slug": "kanji-u6d74",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-water",
+    "kanji-u8c37",
+    "radical-u30cf",
+    "radical-u201a2"
+   ]
+  },
+  {
+   "slug": "kanji-u6d99",
+   "prerequisites": [
+    "kanji-u6238",
+    "radical-water",
+    "kanji-big",
+    "kanji-one",
+    "radical-u5c38"
+   ]
+  },
+  {
+   "slug": "kanji-u6db2",
+   "prerequisites": [
+    "radical-u2e85",
+    "radical-water",
+    "radical-u4ea0",
+    "radical-u6535",
+    "kanji-u5915"
+   ]
+  },
+  {
+   "slug": "kanji-u6dbc",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-water",
+    "kanji-small",
+    "radical-u4ea0"
+   ]
+  },
+  {
+   "slug": "kanji-u6df7",
+   "prerequisites": [
+    "radical-water",
+    "kanji-sun",
+    "kanji-u6bd4"
+   ]
+  },
+  {
+   "slug": "kanji-u6e05",
+   "prerequisites": [
+    "kanji-moon",
+    "radical-water",
+    "kanji-blue",
+    "kanji-earth",
+    "kanji-two",
+    "radical-u4ea0"
+   ]
+  },
+  {
+   "slug": "kanji-u6e1b",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-water",
+    "radical-u6208"
+   ]
+  },
+  {
+   "slug": "kanji-u6e29",
+   "prerequisites": [
+    "kanji-u76bf",
+    "radical-water",
+    "kanji-sun"
+   ]
+  },
+  {
+   "slug": "kanji-u6e2c",
+   "prerequisites": [
+    "kanji-u8c9d",
+    "kanji-eye",
+    "radical-u30cf",
+    "radical-u5202",
+    "radical-water"
+   ]
+  },
+  {
+   "slug": "kanji-u6e56",
+   "prerequisites": [
+    "kanji-moon",
+    "kanji-mouth",
+    "kanji-ten",
+    "radical-water"
+   ]
+  },
+  {
+   "slug": "kanji-u6e6f",
+   "prerequisites": [
+    "kanji-one",
+    "radical-water",
+    "kanji-sun",
+    "radical-u52ff"
+   ]
+  },
+  {
+   "slug": "kanji-u6e7e",
+   "prerequisites": [
+    "radical-u5f13",
+    "radical-water",
+    "radical-u4ea0"
+   ]
+  },
+  {
+   "slug": "kanji-u6e7f",
+   "prerequisites": [
+    "radical-water",
+    "kanji-sun"
+   ]
+  },
+  {
+   "slug": "kanji-u6e96",
+   "prerequisites": [
+    "kanji-ten",
+    "radical-water",
+    "radical-u96b9"
+   ]
+  },
+  {
+   "slug": "kanji-u6eb6",
+   "prerequisites": [
+    "radical-cave",
+    "kanji-mouth",
+    "radical-water",
+    "kanji-u8c37",
+    "radical-u30cf",
+    "radical-u201a2",
+    "radical-u5b80"
+   ]
+  },
+  {
+   "slug": "kanji-u6ef4",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-ten",
+    "radical-water",
+    "radical-u5e76",
+    "kanji-stand",
+    "radical-u4ea0",
+    "radical-u5182"
+   ]
+  },
+  {
+   "slug": "kanji-u6f01",
+   "prerequisites": [
+    "kanji-u9b5a",
+    "radical-water",
+    "kanji-u7530",
+    "radical-u706c"
+   ]
+  },
+  {
+   "slug": "kanji-u6fc3",
+   "prerequisites": [
+    "kanji-u8863",
+    "kanji-one",
+    "radical-water",
+    "radical-u8fb0",
+    "kanji-sun",
+    "radical-u5382"
+   ]
+  },
+  {
+   "slug": "kanji-u6fef",
+   "prerequisites": [
+    "radical-u30e8",
+    "radical-water",
+    "radical-u96b9"
+   ]
+  },
+  {
+   "slug": "kanji-u706f",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-fire"
+   ]
+  },
+  {
+   "slug": "kanji-u7070",
+   "prerequisites": [
+    "kanji-fire",
+    "radical-u5382"
+   ]
+  },
+  {
+   "slug": "kanji-u70ad",
+   "prerequisites": [
+    "kanji-fire",
+    "kanji-mountain",
+    "radical-u5382"
+   ]
+  },
+  {
+   "slug": "kanji-u713c",
+   "prerequisites": [
+    "kanji-fire",
+    "kanji-ten",
+    "radical-legs"
+   ]
+  },
+  {
+   "slug": "kanji-u7167",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-u5200",
+    "kanji-sun",
+    "radical-u706c"
+   ]
+  },
+  {
+   "slug": "kanji-u71c3",
+   "prerequisites": [
+    "kanji-fire",
+    "kanji-u72ac",
+    "kanji-u5915",
+    "radical-u706c"
+   ]
+  },
+  {
+   "slug": "kanji-u71e5",
+   "prerequisites": [
+    "kanji-fire",
+    "kanji-mouth",
+    "kanji-tree",
+    "kanji-u54c1"
+   ]
+  },
+  {
+   "slug": "kanji-u7206",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-fire",
+    "kanji-water",
+    "kanji-sun",
+    "radical-u30cf",
+    "radical-well"
+   ]
+  },
+  {
+   "slug": "kanji-u7247",
+   "prerequisites": []
+  },
+  {
+   "slug": "kanji-u7248",
+   "prerequisites": [
+    "kanji-u7247",
+    "radical-u53c8",
+    "radical-u5382"
+   ]
+  },
+  {
+   "slug": "kanji-u7389",
+   "prerequisites": [
+    "kanji-u738b"
+   ]
+  },
+  {
+   "slug": "kanji-u73cd",
+   "prerequisites": [
+    "kanji-u738b",
+    "radical-u201a2",
+    "radical-u5f61"
+   ]
+  },
+  {
+   "slug": "kanji-u74f6",
+   "prerequisites": [
+    "radical-u74e6",
+    "radical-u5e76"
+   ]
+  },
+  {
+   "slug": "kanji-u7518",
+   "prerequisites": []
+  },
+  {
+   "slug": "kanji-u755c",
+   "prerequisites": [
+    "radical-u7384",
+    "kanji-u7530",
+    "radical-u4ea0",
+    "radical-u5e7a"
+   ]
+  },
+  {
+   "slug": "kanji-u7565",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-u7530",
+    "radical-u5902"
+   ]
+  },
+  {
+   "slug": "kanji-u7573",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-u7530",
+    "radical-u5196"
+   ]
+  },
+  {
+   "slug": "kanji-u7642",
+   "prerequisites": [
+    "kanji-small",
+    "kanji-sun",
+    "radical-u5e76",
+    "radical-u201a2",
+    "radical-u7592"
+   ]
+  },
+  {
+   "slug": "kanji-u76ae",
+   "prerequisites": [
+    "radical-u53c8"
+   ]
+  },
+  {
+   "slug": "kanji-u76bf",
+   "prerequisites": []
+  },
+  {
+   "slug": "kanji-u7701",
+   "prerequisites": [
+    "kanji-small",
+    "kanji-eye"
+   ]
+  },
+  {
+   "slug": "kanji-u770c",
+   "prerequisites": [
+    "kanji-small",
+    "kanji-eye"
+   ]
+  },
+  {
+   "slug": "kanji-u77ed",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-u8c46",
+    "radical-u5e76",
+    "radical-u77e2"
+   ]
+  },
+  {
+   "slug": "kanji-u7802",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-small",
+    "kanji-u77f3"
+   ]
+  },
+  {
+   "slug": "kanji-u786c",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-mouth",
+    "kanji-u77f3",
+    "kanji-sun"
+   ]
+  },
+  {
+   "slug": "kanji-u78e8",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-u77f3",
+    "kanji-tree",
+    "radical-u5e7f",
+    "radical-u9ebb"
+   ]
+  },
+  {
+   "slug": "kanji-u7948",
+   "prerequisites": [
+    "radical-axe-cutting-fresh-wood",
+    "radical-u793b"
+   ]
+  },
+  {
+   "slug": "kanji-u795d",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-u793b",
+    "radical-legs"
+   ]
+  },
+  {
+   "slug": "kanji-u796d",
+   "prerequisites": [
+    "kanji-u793a",
+    "kanji-two",
+    "kanji-small",
+    "radical-u201a2",
+    "radical-u7676"
+   ]
+  },
+  {
+   "slug": "kanji-u7981",
+   "prerequisites": [
+    "kanji-u793a",
+    "kanji-two",
+    "kanji-small",
+    "kanji-tree"
+   ]
+  },
+  {
+   "slug": "kanji-u79d2",
+   "prerequisites": [
+    "radical-u79be",
+    "kanji-small"
+   ]
+  },
+  {
+   "slug": "kanji-u79fb",
+   "prerequisites": [
+    "radical-u79be",
+    "kanji-u5915"
+   ]
+  },
+  {
+   "slug": "kanji-u7a0e",
+   "prerequisites": [
+    "radical-u79be",
+    "kanji-mouth",
+    "radical-u5e76",
+    "radical-legs"
+   ]
+  },
+  {
+   "slug": "kanji-u7ae0",
+   "prerequisites": [
+    "kanji-u97f3",
+    "kanji-ten",
+    "kanji-sun",
+    "kanji-stand"
+   ]
+  },
+  {
+   "slug": "kanji-u7ae5",
+   "prerequisites": [
+    "radical-u91cc",
+    "kanji-stand"
+   ]
+  },
+  {
+   "slug": "kanji-u7af6",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-stand",
+    "radical-legs"
+   ]
+  },
+  {
+   "slug": "kanji-u7af9",
+   "prerequisites": []
+  },
+  {
+   "slug": "kanji-u7b26",
+   "prerequisites": [
+    "radical-u2e85",
+    "radical-u5bf8",
+    "kanji-u7af9"
+   ]
+  },
+  {
+   "slug": "kanji-u7b46",
+   "prerequisites": [
+    "kanji-u7af9",
+    "radical-u807f"
+   ]
+  },
+  {
+   "slug": "kanji-u7b52",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-u7af9",
+    "radical-u5182"
+   ]
+  },
+  {
+   "slug": "kanji-u7b97",
+   "prerequisites": [
+    "kanji-u7af9",
+    "kanji-eye",
+    "radical-u5efe"
+   ]
+  },
+  {
+   "slug": "kanji-u7ba1",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-u7af9",
+    "radical-u5b80"
+   ]
+  },
+  {
+   "slug": "kanji-u7bc9",
+   "prerequisites": [
+    "kanji-u5de5",
+    "kanji-u7af9",
+    "kanji-tree",
+    "radical-u51e0"
+   ]
+  },
+  {
+   "slug": "kanji-u7c21",
+   "prerequisites": [
+    "kanji-u7af9",
+    "kanji-sun",
+    "kanji-u9580"
+   ]
+  },
+  {
+   "slug": "kanji-u7c4d",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-u7af9",
+    "kanji-earth",
+    "kanji-sun",
+    "radical-u30cf",
+    "kanji-tree",
+    "radical-u4ea0",
+    "radical-u8012"
+   ]
+  },
+  {
+   "slug": "kanji-u7c89",
+   "prerequisites": [
+    "radical-u5200",
+    "radical-u5e76",
+    "kanji-u7c73",
+    "radical-u30cf"
+   ]
+  },
+  {
+   "slug": "kanji-u7c92",
+   "prerequisites": [
+    "kanji-u7c73",
+    "kanji-stand"
+   ]
+  },
+  {
+   "slug": "kanji-u7cf8",
+   "prerequisites": [
+    "radical-u5e7a",
+    "kanji-small"
+   ]
+  },
+  {
+   "slug": "kanji-u7d05",
+   "prerequisites": [
+    "kanji-u5de5",
+    "kanji-u7cf8",
+    "radical-u5e7a",
+    "kanji-small"
+   ]
+  },
+  {
+   "slug": "kanji-u7d14",
+   "prerequisites": [
+    "kanji-u7cf8",
+    "radical-u5e7a",
+    "kanji-small",
+    "radical-u5c6f"
+   ]
+  },
+  {
+   "slug": "kanji-u7d30",
+   "prerequisites": [
+    "kanji-u7cf8",
+    "radical-u5e7a",
+    "kanji-small",
+    "kanji-u7530"
+   ]
+  },
+  {
+   "slug": "kanji-u7d39",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-u7cf8",
+    "radical-u5e7a",
+    "kanji-small",
+    "radical-u5200"
+   ]
+  },
+  {
+   "slug": "kanji-u7d61",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-u7cf8",
+    "radical-u5e7a",
+    "kanji-small",
+    "radical-u5902"
+   ]
+  },
+  {
+   "slug": "kanji-u7dbf",
+   "prerequisites": [
+    "radical-u5dfe",
+    "kanji-u7cf8",
+    "radical-u5e7a",
+    "kanji-small",
+    "kanji-white"
+   ]
+  },
+  {
+   "slug": "kanji-u7dcf",
+   "prerequisites": [
+    "kanji-u7cf8",
+    "radical-u5e7a",
+    "kanji-small",
+    "kanji-u5fc3",
+    "radical-u30cf",
+    "radical-u53b6"
+   ]
+  },
+  {
+   "slug": "kanji-u7dd1",
+   "prerequisites": [
+    "radical-u30e8",
+    "kanji-u7cf8",
+    "radical-u5e7a",
+    "kanji-small",
+    "kanji-water",
+    "radical-u96b6"
+   ]
+  },
+  {
+   "slug": "kanji-u7dda",
+   "prerequisites": [
+    "kanji-u7cf8",
+    "radical-u5e7a",
+    "kanji-small",
+    "kanji-water",
+    "kanji-white"
+   ]
+  },
+  {
+   "slug": "kanji-u7de8",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-u6238",
+    "kanji-u7cf8",
+    "radical-u5e7a",
+    "kanji-small",
+    "radical-u5182",
+    "kanji-u518a",
+    "radical-u5c38"
+   ]
+  },
+  {
+   "slug": "kanji-u7df4",
+   "prerequisites": [
+    "kanji-u7cf8",
+    "radical-u5e7a",
+    "kanji-small",
+    "kanji-sun",
+    "radical-u30cf",
+    "kanji-tree",
+    "kanji-u7530"
+   ]
+  },
+  {
+   "slug": "kanji-u7e3e",
+   "prerequisites": [
+    "kanji-u8c9d",
+    "kanji-eye",
+    "radical-u30cf",
+    "kanji-u7cf8",
+    "radical-u5e7a",
+    "kanji-small",
+    "kanji-earth",
+    "radical-u4ea0"
+   ]
+  },
+  {
+   "slug": "kanji-u7f36",
+   "prerequisites": [
+    "radical-u51f5",
+    "kanji-mountain"
+   ]
+  },
+  {
+   "slug": "kanji-u7f72",
+   "prerequisites": [
+    "kanji-sun",
+    "radical-u7f52",
+    "radical-u2eb9"
+   ]
+  },
+  {
+   "slug": "kanji-u7fa4",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-u738b",
+    "kanji-mouth",
+    "radical-u5e76",
+    "radical-u7f8a"
+   ]
+  },
+  {
+   "slug": "kanji-u7fbd",
+   "prerequisites": [
+    "radical-u51ab"
+   ]
+  },
+  {
+   "slug": "kanji-u7fcc",
+   "prerequisites": [
+    "kanji-u7fbd",
+    "kanji-stand",
+    "radical-u51ab"
+   ]
+  },
+  {
+   "slug": "kanji-u8015",
+   "prerequisites": [
+    "kanji-earth",
+    "radical-u30cf",
+    "kanji-tree",
+    "radical-u8012",
+    "radical-well"
+   ]
+  },
+  {
+   "slug": "kanji-u808c",
+   "prerequisites": [
+    "kanji-moon",
+    "radical-u51e0"
+   ]
+  },
+  {
+   "slug": "kanji-u80a9",
+   "prerequisites": [
+    "kanji-moon",
+    "kanji-u6238",
+    "kanji-one",
+    "radical-u5c38"
+   ]
+  },
+  {
+   "slug": "kanji-u80af",
+   "prerequisites": [
+    "kanji-moon",
+    "kanji-u6b62"
+   ]
+  },
+  {
+   "slug": "kanji-u80c3",
+   "prerequisites": [
+    "kanji-moon",
+    "kanji-u7530"
+   ]
+  },
+  {
+   "slug": "kanji-u80f8",
+   "prerequisites": [
+    "kanji-moon",
+    "radical-u51f5",
+    "radical-u52f9"
+   ]
+  },
+  {
+   "slug": "kanji-u8102",
+   "prerequisites": [
+    "kanji-moon",
+    "kanji-sun",
+    "radical-u5315"
+   ]
+  },
+  {
+   "slug": "kanji-u8133",
+   "prerequisites": [
+    "kanji-moon",
+    "radical-u2e8c",
+    "radical-u51f5"
+   ]
+  },
+  {
+   "slug": "kanji-u8155",
+   "prerequisites": [
+    "kanji-moon",
+    "kanji-u5915",
+    "radical-u5369",
+    "radical-u5b80"
+   ]
+  },
+  {
+   "slug": "kanji-u8170",
+   "prerequisites": [
+    "kanji-moon",
+    "kanji-woman",
+    "kanji-u897f"
+   ]
+  },
+  {
+   "slug": "kanji-u819a",
+   "prerequisites": [
+    "kanji-moon",
+    "kanji-u7530",
+    "radical-u535c",
+    "radical-u5315",
+    "radical-u5382",
+    "radical-u864d"
+   ]
+  },
+  {
+   "slug": "kanji-u81d3",
+   "prerequisites": [
+    "kanji-moon",
+    "kanji-u81e3",
+    "radical-u6208",
+    "radical-u2ebe"
+   ]
+  },
+  {
+   "slug": "kanji-u81e3",
+   "prerequisites": [
+    "radical-u531a"
+   ]
+  },
+  {
+   "slug": "kanji-u821f",
+   "prerequisites": []
+  },
+  {
+   "slug": "kanji-u822a",
+   "prerequisites": [
+    "kanji-u821f",
+    "radical-u4ea0",
+    "radical-u51e0"
+   ]
+  },
+  {
+   "slug": "kanji-u822c",
+   "prerequisites": [
+    "kanji-u821f",
+    "radical-u6bb3",
+    "radical-u51e0",
+    "radical-u53c8"
+   ]
+  },
+  {
+   "slug": "kanji-u82b8",
+   "prerequisites": [
+    "kanji-two",
+    "radical-u53b6",
+    "radical-u2ebe"
+   ]
+  },
+  {
+   "slug": "kanji-u8352",
+   "prerequisites": [
+    "kanji-river",
+    "radical-u2ebe",
+    "kanji-u4ea1"
+   ]
+  },
+  {
+   "slug": "kanji-u8377",
+   "prerequisites": [
+    "radical-u2e85",
+    "kanji-mouth",
+    "radical-u2ebe",
+    "kanji-one"
+   ]
+  },
+  {
+   "slug": "kanji-u83d3",
+   "prerequisites": [
+    "kanji-u7530",
+    "kanji-tree",
+    "radical-u2ebe"
+   ]
+  },
+  {
+   "slug": "kanji-u83dc",
+   "prerequisites": [
+    "radical-u722a",
+    "kanji-tree",
+    "radical-u2ebe"
+   ]
+  },
+  {
+   "slug": "kanji-u8457",
+   "prerequisites": [
+    "kanji-sun",
+    "radical-u2eb9",
+    "radical-u2ebe"
+   ]
+  },
+  {
+   "slug": "kanji-u84b8",
+   "prerequisites": [
+    "kanji-one",
+    "radical-u706c",
+    "radical-u2ebe"
+   ]
+  },
+  {
+   "slug": "kanji-u8535",
+   "prerequisites": [
+    "kanji-u81e3",
+    "radical-u6208",
+    "radical-u2ebe"
+   ]
+  },
+  {
+   "slug": "kanji-u8584",
+   "prerequisites": [
+    "kanji-ten",
+    "radical-water",
+    "radical-u5bf8",
+    "kanji-u7530",
+    "radical-u2ebe"
+   ]
+  },
+  {
+   "slug": "kanji-u866b",
+   "prerequisites": []
+  },
+  {
+   "slug": "kanji-u8840",
+   "prerequisites": [
+    "kanji-u76bf"
+   ]
+  },
+  {
+   "slug": "kanji-u8863",
+   "prerequisites": [
+    "radical-u4ea0"
+   ]
+  },
+  {
+   "slug": "kanji-u888b",
+   "prerequisites": [
+    "kanji-u8863",
+    "radical-u2e85",
+    "radical-u5f0b"
+   ]
+  },
+  {
+   "slug": "kanji-u88ab",
+   "prerequisites": [
+    "radical-u8864",
+    "kanji-u76ae",
+    "radical-u53c8"
+   ]
+  },
+  {
+   "slug": "kanji-u88c5",
+   "prerequisites": [
+    "kanji-u8863",
+    "radical-u58eb",
+    "radical-u723f"
+   ]
+  },
+  {
+   "slug": "kanji-u88cf",
+   "prerequisites": [
+    "kanji-u8863",
+    "radical-u91cc",
+    "radical-u4ea0"
+   ]
+  },
+  {
+   "slug": "kanji-u88dc",
+   "prerequisites": [
+    "kanji-ten",
+    "radical-u8864",
+    "kanji-u7528"
+   ]
+  },
+  {
+   "slug": "kanji-u8907",
+   "prerequisites": [
+    "radical-u8864",
+    "kanji-sun",
+    "radical-u5902"
+   ]
+  },
+  {
+   "slug": "kanji-u89d2",
+   "prerequisites": [
+    "radical-u52f9",
+    "kanji-moon"
+   ]
+  },
+  {
+   "slug": "kanji-u89e6",
+   "prerequisites": [
+    "kanji-u89d2",
+    "kanji-u866b"
+   ]
+  },
+  {
+   "slug": "kanji-u8a13",
+   "prerequisites": [
+    "kanji-u8a00",
+    "kanji-river"
+   ]
+  },
+  {
+   "slug": "kanji-u8a2d",
+   "prerequisites": [
+    "kanji-u8a00",
+    "radical-u6bb3",
+    "radical-u51e0",
+    "radical-u53c8"
+   ]
+  },
+  {
+   "slug": "kanji-u8a5e",
+   "prerequisites": [
+    "kanji-u8a00",
+    "kanji-mouth",
+    "kanji-one"
+   ]
+  },
+  {
+   "slug": "kanji-u8a70",
+   "prerequisites": [
+    "kanji-u8a00",
+    "kanji-mouth",
+    "radical-u58eb"
+   ]
+  },
+  {
+   "slug": "kanji-u8a8c",
+   "prerequisites": [
+    "kanji-u8a00",
+    "radical-u58eb",
+    "kanji-u5fc3"
+   ]
+  },
+  {
+   "slug": "kanji-u8ab2",
+   "prerequisites": [
+    "kanji-u8a00",
+    "kanji-u7530",
+    "kanji-tree"
+   ]
+  },
+  {
+   "slug": "kanji-u8af8",
+   "prerequisites": [
+    "kanji-u8a00",
+    "kanji-sun",
+    "radical-u2eb9"
+   ]
+  },
+  {
+   "slug": "kanji-u8b1b",
+   "prerequisites": [
+    "kanji-u8a00",
+    "radical-u5182",
+    "kanji-one",
+    "kanji-ten"
+   ]
+  },
+  {
+   "slug": "kanji-u8c37",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-u30cf",
+    "radical-u201a2"
+   ]
+  },
+  {
+   "slug": "kanji-u8c4a",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-mouth",
+    "radical-u8c46",
+    "kanji-sun",
+    "radical-u5e76"
+   ]
+  },
+  {
+   "slug": "kanji-u8c61",
+   "prerequisites": [
+    "radical-u52f9",
+    "radical-u8c55",
+    "kanji-mouth",
+    "kanji-one"
+   ]
+  },
+  {
+   "slug": "kanji-u8c9d",
+   "prerequisites": [
+    "kanji-eye",
+    "radical-u30cf"
+   ]
+  },
+  {
+   "slug": "kanji-u8ca8",
+   "prerequisites": [
+    "radical-u2e85",
+    "kanji-u8c9d",
+    "kanji-eye",
+    "radical-u30cf",
+    "radical-u5315"
+   ]
+  },
+  {
+   "slug": "kanji-u8ca9",
+   "prerequisites": [
+    "kanji-u8c9d",
+    "kanji-eye",
+    "radical-u30cf",
+    "radical-u53c8",
+    "radical-u5382"
+   ]
+  },
+  {
+   "slug": "kanji-u8caf",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-u8c9d",
+    "kanji-eye",
+    "radical-u30cf",
+    "radical-u5b80"
+   ]
+  },
+  {
+   "slug": "kanji-u8cbf",
+   "prerequisites": [
+    "kanji-u8c9d",
+    "kanji-eye",
+    "radical-u30cf",
+    "radical-u5200",
+    "radical-u53b6"
+   ]
+  },
+  {
+   "slug": "kanji-u8cde",
+   "prerequisites": [
+    "kanji-u8c9d",
+    "kanji-eye",
+    "radical-u30cf",
+    "kanji-mouth",
+    "radical-u2e8c",
+    "radical-u5196"
+   ]
+  },
+  {
+   "slug": "kanji-u8ce2",
+   "prerequisites": [
+    "kanji-u8c9d",
+    "kanji-eye",
+    "radical-u30cf",
+    "kanji-u81e3",
+    "radical-u53c8"
+   ]
+  },
+  {
+   "slug": "kanji-u8d08",
+   "prerequisites": [
+    "kanji-u8c9d",
+    "kanji-eye",
+    "radical-u30cf",
+    "kanji-u7530",
+    "kanji-sun",
+    "radical-u5e76"
+   ]
+  },
+  {
+   "slug": "kanji-u8d85",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-u8d70",
+    "kanji-earth",
+    "radical-u5200"
+   ]
+  },
+  {
+   "slug": "kanji-u8de1",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-u6b62",
+    "kanji-red",
+    "kanji-foot",
+    "radical-u4ea0"
+   ]
+  },
+  {
+   "slug": "kanji-u8e0a",
+   "prerequisites": [
+    "kanji-mouth",
+    "kanji-foot",
+    "kanji-u7528",
+    "radical-u30de"
+   ]
+  },
+  {
+   "slug": "kanji-u8ecd",
+   "prerequisites": [
+    "kanji-car",
+    "radical-u5196"
+   ]
+  },
+  {
+   "slug": "kanji-u8ed2",
+   "prerequisites": [
+    "kanji-u5e72",
+    "kanji-car"
+   ]
+  },
+  {
+   "slug": "kanji-u8edf",
+   "prerequisites": [
+    "kanji-u6b20",
+    "kanji-car"
+   ]
+  },
+  {
+   "slug": "kanji-u8efd",
+   "prerequisites": [
+    "kanji-car",
+    "kanji-earth",
+    "radical-u53c8"
+   ]
+  },
+  {
+   "slug": "kanji-u8f2a",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-car",
+    "radical-u201a2",
+    "kanji-u518a"
+   ]
+  },
+  {
+   "slug": "kanji-u8f38",
+   "prerequisites": [
+    "radical-u5202",
+    "kanji-moon",
+    "kanji-car",
+    "radical-u201a2"
+   ]
+  },
+  {
+   "slug": "kanji-u8f9b",
+   "prerequisites": [
+    "kanji-ten",
+    "kanji-stand"
+   ]
+  },
+  {
+   "slug": "kanji-u8fb2",
+   "prerequisites": [
+    "kanji-u8863",
+    "kanji-one",
+    "radical-u8fb0",
+    "kanji-sun",
+    "radical-u5382"
+   ]
+  },
+  {
+   "slug": "kanji-u8fba",
+   "prerequisites": [
+    "radical-ufa66",
+    "radical-u5200"
+   ]
+  },
+  {
+   "slug": "kanji-u8ff0",
+   "prerequisites": [
+    "radical-ufa66",
+    "kanji-ten",
+    "kanji-tree"
+   ]
+  },
+  {
+   "slug": "kanji-u9006",
+   "prerequisites": [
+    "radical-ufa66",
+    "radical-u5e76",
+    "radical-u5c6e"
+   ]
+  },
+  {
+   "slug": "kanji-u9020",
+   "prerequisites": [
+    "kanji-mouth",
+    "radical-ufa66",
+    "kanji-earth"
+   ]
+  },
+  {
+   "slug": "kanji-u90ca",
+   "prerequisites": [
+    "kanji-father",
+    "radical-u2ecf",
+    "radical-u4ea0"
+   ]
+  },
+  {
+   "slug": "kanji-u90f5",
+   "prerequisites": [
+    "kanji-one",
+    "radical-u2ecf"
+   ]
+  },
+  {
+   "slug": "kanji-u91cf",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-sun",
+    "radical-u91cc"
+   ]
+  },
+  {
+   "slug": "kanji-u91dd",
+   "prerequisites": [
+    "kanji-gold",
+    "kanji-ten"
+   ]
+  },
+  {
+   "slug": "kanji-u920d",
+   "prerequisites": [
+    "kanji-gold",
+    "radical-u5c6f"
+   ]
+  },
+  {
+   "slug": "kanji-u9244",
+   "prerequisites": [
+    "kanji-gold",
+    "kanji-two",
+    "radical-u77e2",
+    "kanji-big"
+   ]
+  },
+  {
+   "slug": "kanji-u9271",
+   "prerequisites": [
+    "kanji-gold",
+    "radical-u53b6",
+    "radical-u5e7f"
+   ]
+  },
+  {
+   "slug": "kanji-u9285",
+   "prerequisites": [
+    "kanji-gold",
+    "kanji-mouth",
+    "radical-u5182",
+    "kanji-one"
+   ]
+  },
+  {
+   "slug": "kanji-u92ed",
+   "prerequisites": [
+    "kanji-gold",
+    "kanji-mouth",
+    "radical-u5e76",
+    "radical-u201a2",
+    "radical-legs"
+   ]
+  },
+  {
+   "slug": "kanji-u9332",
+   "prerequisites": [
+    "radical-u30e8",
+    "kanji-gold",
+    "kanji-water",
+    "radical-u96b6"
+   ]
+  },
+  {
+   "slug": "kanji-u9580",
+   "prerequisites": []
+  },
+  {
+   "slug": "kanji-u9632",
+   "prerequisites": [
+    "kanji-u65b9",
+    "radical-u2ed6"
+   ]
+  },
+  {
+   "slug": "kanji-u9678",
+   "prerequisites": [
+    "kanji-earth",
+    "radical-legs",
+    "radical-u2ed6"
+   ]
+  },
+  {
+   "slug": "kanji-u9685",
+   "prerequisites": [
+    "kanji-u7530",
+    "kanji-sun",
+    "radical-u5182",
+    "radical-u53b6",
+    "radical-u79b8",
+    "radical-u2ed6"
+   ]
+  },
+  {
+   "slug": "kanji-u968e",
+   "prerequisites": [
+    "kanji-white",
+    "kanji-u6bd4",
+    "radical-u2ed6"
+   ]
+  },
+  {
+   "slug": "kanji-u96bb",
+   "prerequisites": [
+    "radical-u53c8",
+    "radical-u96b9"
+   ]
+  },
+  {
+   "slug": "kanji-u96c7",
+   "prerequisites": [
+    "kanji-u6238",
+    "radical-u96b9",
+    "kanji-one",
+    "radical-u5c38"
+   ]
+  },
+  {
+   "slug": "kanji-u96f2",
+   "prerequisites": [
+    "kanji-one",
+    "kanji-rain",
+    "kanji-two",
+    "radical-u53b6"
+   ]
+  },
+  {
+   "slug": "kanji-u96f6",
+   "prerequisites": [
+    "kanji-rain",
+    "radical-u201a2",
+    "radical-u5369",
+    "kanji-one"
+   ]
+  },
+  {
+   "slug": "kanji-u9707",
+   "prerequisites": [
+    "kanji-u8863",
+    "kanji-rain",
+    "radical-u8fb0",
+    "radical-u5382"
+   ]
+  },
+  {
+   "slug": "kanji-u9769",
+   "prerequisites": [
+    "radical-u5efe",
+    "kanji-mouth",
+    "kanji-ten"
+   ]
+  },
+  {
+   "slug": "kanji-u9806",
+   "prerequisites": [
+    "kanji-u8c9d",
+    "kanji-eye",
+    "radical-u30cf",
+    "kanji-river",
+    "radical-u9801"
+   ]
+  },
+  {
+   "slug": "kanji-u9810",
+   "prerequisites": [
+    "kanji-u8c9d",
+    "kanji-eye",
+    "radical-u30cf",
+    "kanji-u6b20",
+    "radical-u30de",
+    "kanji-one",
+    "radical-u9801"
+   ]
+  },
+  {
+   "slug": "kanji-u9818",
+   "prerequisites": [
+    "kanji-u8c9d",
+    "kanji-eye",
+    "radical-u30cf",
+    "radical-u9801",
+    "radical-u201a2",
+    "radical-u5369"
+   ]
+  },
+  {
+   "slug": "kanji-u984d",
+   "prerequisites": [
+    "kanji-u8c9d",
+    "kanji-eye",
+    "radical-u30cf",
+    "kanji-mouth",
+    "radical-u9801",
+    "radical-u5902",
+    "radical-u5b80"
+   ]
+  },
+  {
+   "slug": "kanji-u9999",
+   "prerequisites": [
+    "radical-u79be",
+    "kanji-sun"
+   ]
+  },
+  {
+   "slug": "kanji-u99d0",
+   "prerequisites": [
+    "kanji-u738b",
+    "kanji-u99ac"
+   ]
+  },
+  {
+   "slug": "kanji-u9aa8",
+   "prerequisites": [
+    "kanji-moon",
+    "radical-u5196",
+    "radical-u5182"
+   ]
+  },
+  {
+   "slug": "kanji-u9ea6",
+   "prerequisites": [
+    "radical-u5902"
+   ]
+  },
+  {
+   "slug": "kanji-u9ec4",
+   "prerequisites": [
+    "kanji-u7530",
+    "radical-u30cf"
+   ]
+  },
+  {
+   "slug": "kanji-u9f3b",
+   "prerequisites": [
+    "kanji-u81ea",
+    "kanji-u7530",
+    "radical-u5efe"
+   ]
+  },
+  {
+   "slug": "kanji-u9f62",
+   "prerequisites": [
+    "kanji-u6b62",
+    "kanji-u6b6f",
+    "kanji-u7c73",
+    "radical-u201a2",
+    "radical-u51f5",
+    "radical-u5369"
+   ]
+  }
+ ]
+}

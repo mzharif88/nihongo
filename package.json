@@ -17,7 +17,8 @@
     "build:practice": "tsx scripts/build-practice.ts",
     "build:roles": "tsx scripts/grammar-roles.ts",
     "build:kanji-levels": "tsx scripts/build-kanji-levels.ts",
-    "audit:kanji": "tsx scripts/audit-kanji.ts"
+    "audit:kanji": "tsx scripts/audit-kanji.ts",
+    "build:radicals": "tsx scripts/build-radicals.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.133.0",
