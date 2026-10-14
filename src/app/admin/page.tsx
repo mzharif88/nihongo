@@ -56,6 +56,10 @@ export default async function AdminOverview() {
         </table>
       </div>
       <div className="mt-6 grid gap-3 sm:grid-cols-2">
+        <Link href="/admin/ai" className="rounded-xl border border-border bg-card p-4 hover:border-accent">
+          <div className="font-medium">AI engine</div>
+          <div className="text-sm text-muted">Spend, words and sentences produced, review queue, and run it.</div>
+        </Link>
         <a href="/admin/export" className="rounded-xl border border-border bg-card p-4 hover:border-accent">
           <div className="font-medium">Download weekly export</div>
           <div className="text-sm text-muted">Your review history, SRS state and all content as JSON.</div>
