@@ -63,6 +63,7 @@ export const SITUATION_GROUPS = [
   { id: "restaurant", title: "Restaurants", jp: "レストラン", blurb: "Get a table, read the menu, order, and pay the bill." },
   { id: "shopping", title: "Shopping", jp: "[買|か]い[物|もの]", blurb: "Ask prices, try things on, compare, and pay." },
   { id: "konbini", title: "Convenience store", jp: "コンビニ", blurb: "Heat-up, bags, point cards, payment, and asking staff for help." },
+  { id: "services", title: "Hotel, doctor and services", jp: "ホテル・[病院|びょういん]・[役所|やくしょ]", blurb: "Check in, see a doctor, post a parcel, the bank, and the city office." },
 ] as const;
 
 export type SituationGroupId = (typeof SITUATION_GROUPS)[number]["id"];

@@ -59,7 +59,7 @@ export const PACK_GROUPS: PackGroup[] = [
       { file: "n4.json", label: "N4 lessons 1–6" },
       { file: "n3.json", label: "N3 lessons 1–6" },
       { file: "n2.json", label: "N2 lessons 1–6" },
-      { file: "situations.json", label: "Everyday situations: 12 lessons (transport, restaurant, shopping, convenience store)" },
+      { file: "situations.json", label: "Everyday situations: 17 lessons (transport, restaurant, shopping, convenience store, services)" },
     ],
   },
   {

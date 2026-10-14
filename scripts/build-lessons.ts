@@ -117,6 +117,7 @@ const LESSON_READINGS: Record<string, string> = {
   三千: "さんぜん",
   八百: "はっぴゃく",
   六百: "ろっぴゃく",
+  番号札: "ばんごうふだ",
 };
 
 /** Markup for text with kanji; text without kanji (or already marked up) stays as it is. */

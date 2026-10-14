@@ -1571,6 +1571,646 @@
     }
    ],
    "notes": "Asking for things:\n〜はどこにありますか = where is ~?\n〜はありますか = do you have ~ / is there ~?\n〜をお[借|か]りしてもいいですか = may I use ~? (トイレ, ペン)\n\nPlaces: [棚|たな] (shelf) ・ [一番|いちばん][上|うえ]/[下|した] (top/bottom) ・ [入口|いりぐち] (entrance) ・ [右側|みぎがわ]/[左側|ひだりがわ] (right/left side) ・ [奥|おく] (the back).\n\nStaff speak politely: ございます = あります, あちら = over there, こちら = here."
+  },
+  {
+   "slug": "situation-services-01-hotel",
+   "jlpt_level": "N4",
+   "position": 141,
+   "title": "ホテル — Checking in at a hotel",
+   "situation": "You arrive at your hotel in Kyoto with a reservation and a big suitcase.",
+   "item_slugs": [
+    "vocab-n4-yoyaku",
+    "vocab-n5-namae",
+    "vocab-n5-heya",
+    "word-kagi",
+    "vocab-n5-nimotsu",
+    "vocab-n3-azukeru"
+   ],
+   "dialogue": [
+    {
+     "speaker": "フロント",
+     "jp": "いらっしゃいませ。ご予約のお名前をお願いします。",
+     "en": "Welcome. May I have the name on the reservation?",
+     "reading": "⟨v⟩いらっしゃいませ⟨/⟩。⟨o⟩ご[予約|よやく]⟨/⟩⟨p⟩の⟨/⟩⟨o⟩お[名前|なまえ]⟨/⟩⟨p⟩を⟨/⟩⟨v⟩お[願|ねが]いします⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "ザリフです。今日から二泊の予約をしています。",
+     "en": "Zarif. I have a reservation for two nights from today.",
+     "reading": "ザリフ⟨v⟩です⟨/⟩。[今日|きょう]⟨p⟩から⟨/⟩⟨o⟩[二|に][泊|はく]⟨/⟩⟨p⟩の⟨/⟩⟨o⟩[予約|よやく]⟨/⟩⟨p⟩を⟨/⟩⟨v⟩しています⟨/⟩。"
+    },
+    {
+     "speaker": "フロント",
+     "jp": "ザリフ様ですね。お部屋は五階の503号室です。こちらがカードキーです。",
+     "en": "Mr Zarif. Your room is 503 on the fifth floor. Here is your key card.",
+     "reading": "ザリフ[様|さま]⟨v⟩です⟨/⟩⟨p⟩ね⟨/⟩。⟨s⟩お[部屋|へや]⟨/⟩⟨p⟩は⟨/⟩[五|ご][階|かい]⟨p⟩の⟨/⟩503[号室|ごうしつ]⟨v⟩です⟨/⟩。⟨s⟩こちら⟨/⟩⟨p⟩が⟨/⟩カードキー⟨v⟩です⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "朝ご飯は何時からですか。",
+     "en": "What time does breakfast start?",
+     "reading": "[朝|あさ]⟨s⟩ご[飯|はん]⟨/⟩⟨p⟩は⟨/⟩[何|なん][時|じ]⟨p⟩から⟨/⟩⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "フロント",
+     "jp": "朝六時半から九時半まで、一階のレストランでございます。",
+     "en": "From 6:30 to 9:30 in the morning, in the restaurant on the first floor.",
+     "reading": "[朝|あさ][六|ろく][時半|じはん]⟨p⟩から⟨/⟩[九|きゅう][時半|じはん]⟨p⟩まで⟨/⟩、[一|いち][階|かい]⟨p⟩の⟨/⟩レストラン⟨v⟩でございます⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "チェックアウトの後、荷物を預かってもらえますか。",
+     "en": "After checking out, could you keep my luggage?",
+     "reading": "チェックアウト⟨p⟩の⟨/⟩[後|あと]、⟨o⟩[荷物|にもつ]⟨/⟩⟨p⟩を⟨/⟩⟨v⟩[預|あず]かってもらえます⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "フロント",
+     "jp": "はい、夕方までお預かりできます。",
+     "en": "Yes, we can keep it until the evening.",
+     "reading": "はい、[夕方|ゆうがた]⟨p⟩まで⟨/⟩お⟨v⟩[預|あず]かりできます⟨/⟩。"
+    }
+   ],
+   "checks": [
+    {
+     "prompt": "「ご[予約|よやく]のお[名前|なまえ]をお[願|ねが]いします」. What does the staff want?",
+     "options": [
+      "Your passport",
+      "The name on the reservation",
+      "Your room number",
+      "Payment"
+     ],
+     "answer": 1,
+     "explanation": "[予約|よやく] = reservation, お[名前|なまえ] = (your) name."
+    },
+    {
+     "prompt": "Which floor is the room on?",
+     "options": [
+      "3rd",
+      "5th",
+      "1st",
+      "10th"
+     ],
+     "answer": 1,
+     "explanation": "「[五|ご][階|かい]の503[号|ごう][室|しつ]」: [五|ご][階|かい] = 5th floor; [号|ごう][室|しつ] = room number."
+    },
+    {
+     "prompt": "When is breakfast?",
+     "options": [
+      "6:00–9:00",
+      "6:30–9:30",
+      "7:00–10:00",
+      "Not served"
+     ],
+     "answer": 1,
+     "explanation": "「[朝|あさ][六|ろく][時半|じはん]から[九|きゅう][時半|じはん]まで」."
+    },
+    {
+     "prompt": "How do you ask the hotel to keep your bags after check-out?",
+     "options": [
+      "[荷物|にもつ]を[預|あず]かってもらえますか。",
+      "[荷物|にもつ]を[買|か]ってもいいですか。",
+      "[荷物|にもつ]はいくらですか。",
+      "[荷物|にもつ]を[送|おく]りました。"
+     ],
+     "answer": 0,
+     "explanation": "[預|あず]かる = keep (for someone); 〜てもらえますか = could you…?"
+    },
+    {
+     "prompt": "You see 「[二|に][泊|はく]」 on your booking. What does it mean?",
+     "options": [
+      "Two people",
+      "Two nights",
+      "Two rooms",
+      "Two meals"
+     ],
+     "answer": 1,
+     "explanation": "[泊|とまり] (はく/ぱく) counts nights: [一泊|いっぱく], [二|に][泊|はく], [三|さん][泊|はく]."
+    },
+    {
+     "prompt": "A sign at the lift says 「[非常口|ひじょうぐち]」. What is it?",
+     "options": [
+      "Emergency exit",
+      "Staff only",
+      "Breakfast room",
+      "Lift out of order"
+     ],
+     "answer": 0,
+     "explanation": "[非常口|ひじょうぐち] (ひじょうぐち) = emergency exit."
+    }
+   ],
+   "notes": "Check-in: [予約|よやく]しています = I have a reservation. 〜[泊|とまり] = ~ nights ([一泊|いっぱく], [二|に][泊|はく], [三|さん][泊|はく]).\nRooms: 〜[階|かい] = floor, 〜[号|ごう][室|しつ] = room number.\nAsking: [朝|あさ]ご[飯|はん]は[何|なん][時|じ]からですか ・ [荷物|にもつ]を[預|あず]かってもらえますか ・ Wi-Fiのパスワードは[何|なん]ですか.\n\nStaff speak keigo: ございます = あります, お[預|あず]かりします = I'll keep it for you."
+  },
+  {
+   "slug": "situation-services-02-byouin",
+   "jlpt_level": "N4",
+   "position": 142,
+   "title": "[病院|びょういん] — Seeing a doctor",
+   "situation": "You have a fever and a sore throat, so you visit a clinic.",
+   "item_slugs": [
+    "word-byouin",
+    "vocab-n4-uketsuke",
+    "word-netsu",
+    "word-itai",
+    "word-kusuri",
+    "vocab-n5-kaze"
+   ],
+   "dialogue": [
+    {
+     "speaker": "[受付|うけつけ]",
+     "jp": "初めてですか。では、この紙に名前と住所を書いてください。",
+     "en": "Is this your first visit? Then please write your name and address on this form.",
+     "reading": "[初|はじ]めて⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。では、この[紙|かみ]⟨p⟩に⟨/⟩[名前|なまえ]⟨p⟩と⟨/⟩⟨o⟩[住所|じゅうしょ]⟨/⟩⟨p⟩を⟨/⟩⟨v⟩[書|か]いてください⟨/⟩。"
+    },
+    {
+     "speaker": "[医者|いしゃ]",
+     "jp": "今日はどうしましたか。",
+     "en": "What seems to be the problem today?",
+     "reading": "[今日|きょう]⟨p⟩は⟨/⟩どう⟨v⟩しました⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "昨日の夜から熱があって、喉が痛いです。",
+     "en": "I've had a fever since last night, and my throat hurts.",
+     "reading": "[昨日|きのう]⟨p⟩の⟨/⟩[夜|よる]⟨p⟩から⟨/⟩⟨s⟩[熱|ねつ]⟨/⟩⟨p⟩が⟨/⟩⟨v⟩あって⟨/⟩、⟨s⟩[喉|のど]⟨/⟩⟨p⟩が⟨/⟩[痛|いた]い⟨v⟩です⟨/⟩。"
+    },
+    {
+     "speaker": "[医者|いしゃ]",
+     "jp": "咳も出ますか。",
+     "en": "Do you have a cough too?",
+     "reading": "[咳|せき]⟨p⟩も⟨/⟩⟨v⟩[出|で]ます⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "少し出ます。",
+     "en": "A little.",
+     "reading": "[少|すこ]し⟨v⟩[出|で]ます⟨/⟩。"
+    },
+    {
+     "speaker": "[医者|いしゃ]",
+     "jp": "風邪ですね。薬を三日分出しますから、ゆっくり休んでください。",
+     "en": "It's a cold. I'll give you three days of medicine, so get plenty of rest.",
+     "reading": "[風邪|かぜ]⟨v⟩です⟨/⟩⟨p⟩ね⟨/⟩。⟨o⟩[薬|くすり]⟨/⟩⟨p⟩を⟨/⟩[三日分|みっかぶん]⟨v⟩[出|だ]します⟨/⟩⟨p⟩から⟨/⟩、ゆっくり⟨v⟩[休|やす]んでください⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "お風呂に入ってもいいですか。",
+     "en": "Is it OK to take a bath?",
+     "reading": "お[風呂|ふろ]⟨p⟩に⟨/⟩⟨v⟩[入|はい]って⟨/⟩⟨p⟩も⟨/⟩いい⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "[医者|いしゃ]",
+     "jp": "熱が下がるまでは、シャワーだけにしてください。",
+     "en": "Until the fever goes down, please just shower.",
+     "reading": "⟨s⟩[熱|ねつ]⟨/⟩⟨p⟩が⟨/⟩⟨v⟩[下|さ]がる⟨/⟩⟨p⟩までは⟨/⟩、シャワー⟨p⟩だけに⟨/⟩⟨v⟩してください⟨/⟩。"
+    }
+   ],
+   "checks": [
+    {
+     "prompt": "「[今日|きょう]はどうしましたか」. What is the doctor asking?",
+     "options": [
+      "How did you get here?",
+      "What's the problem today?",
+      "What did you do today?",
+      "Do you have insurance?"
+     ],
+     "answer": 1,
+     "explanation": "The standard opening question at a clinic."
+    },
+    {
+     "prompt": "How do you say you have a fever?",
+     "options": [
+      "[熱|ねつ]があります。",
+      "[熱|あつ]いです。",
+      "[熱|ねつ]をします。",
+      "[熱|ねつ]になります。"
+     ],
+     "answer": 0,
+     "explanation": "[熱|ねつ]がある = have a fever. [熱|あつ]い means hot (to touch)."
+    },
+    {
+     "prompt": "How do you say your throat hurts?",
+     "options": [
+      "[喉|のど]が[痛|いた]いです。",
+      "[喉|のど]を[痛|いた]いです。",
+      "[喉|のど]が[悪|わる]いです。",
+      "[喉|のど]は[痛|いた]くないです。"
+     ],
+     "answer": 0,
+     "explanation": "Body part + が[痛|いた]い = ~ hurts: [頭|あたま]が[痛|いた]い, お[腹|なか]が[痛|いた]い."
+    },
+    {
+     "prompt": "What does the doctor say it is?",
+     "options": [
+      "Flu",
+      "A cold",
+      "An allergy",
+      "Food poisoning"
+     ],
+     "answer": 1,
+     "explanation": "「[風邪|かぜ]ですね」."
+    },
+    {
+     "prompt": "How much medicine is given?",
+     "options": [
+      "One day's worth",
+      "Three days' worth",
+      "A week's worth",
+      "None"
+     ],
+     "answer": 1,
+     "explanation": "「[薬|くすり]を[三日分|みっかぶん][出|だ]します」: 〜[分|ふん] (ぶん) = ~'s worth."
+    },
+    {
+     "prompt": "Can you take a bath?",
+     "options": [
+      "Yes, any time",
+      "Only a shower until the fever goes down",
+      "No washing at all",
+      "Only in the morning"
+     ],
+     "answer": 1,
+     "explanation": "「[熱|ねつ]が[下|さ]がるまでは、シャワーだけにしてください」."
+    }
+   ],
+   "notes": "Describing symptoms:\n[熱|ねつ]がある (fever) ・ [咳|せき]が[出|で]る (cough) ・ [鼻水|はなみず]が[出|で]る (runny nose) ・ 〜が[痛|いた]い (~ hurts) ・ [気分|きぶん]が[悪|わる]い (feel sick).\n〜から = since ~: [昨日|きのう]の[夜|よる]から.\n\nBring your health insurance card ([保険|ほけん][証|しょう]) to every clinic visit. [初|はじ]めてですか = is it your first visit?"
+  },
+  {
+   "slug": "situation-services-03-yuubinkyoku",
+   "jlpt_level": "N4",
+   "position": 143,
+   "title": "[郵便局|ゆうびんきょく] — Sending a parcel",
+   "situation": "You want to send a parcel of gifts to your family in Malaysia.",
+   "item_slugs": [
+    "word-yuubinkyoku",
+    "vocab-n4-okuru",
+    "vocab-n3-todoku",
+    "vocab-n4-juusho",
+    "vocab-n5-kitte",
+    "vocab-n5-fuutou"
+   ],
+   "dialogue": [
+    {
+     "speaker": "あなた",
+     "jp": "すみません、この荷物をマレーシアに送りたいんですが。",
+     "en": "Excuse me, I'd like to send this parcel to Malaysia.",
+     "reading": "すみません、⟨o⟩この[荷物|にもつ]⟨/⟩⟨p⟩を⟨/⟩マレーシア⟨p⟩に⟨/⟩⟨v⟩[送|おく]りたい⟨/⟩ん⟨v⟩です⟨/⟩⟨p⟩が⟨/⟩。"
+    },
+    {
+     "speaker": "[局員|きょくいん]",
+     "jp": "航空便と船便がありますが、どちらにしますか。",
+     "en": "There's airmail and sea mail. Which would you like?",
+     "reading": "[航空|こうくう][便|びん]⟨p⟩と⟨/⟩⟨s⟩[船便|ふなびん]⟨/⟩⟨p⟩が⟨/⟩⟨v⟩あります⟨/⟩⟨p⟩が⟨/⟩、どちら⟨p⟩に⟨/⟩⟨v⟩します⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "航空便だと、何日ぐらいで届きますか。",
+     "en": "If I send it by air, about how many days does it take?",
+     "reading": "[航空|こうくう][便|びん]⟨v⟩だ⟨/⟩⟨p⟩と⟨/⟩、[何日|なんにち]⟨p⟩ぐらいで⟨/⟩⟨v⟩[届|とど]きます⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "[局員|きょくいん]",
+     "jp": "一週間ぐらいです。船便だと一か月以上かかります。",
+     "en": "About a week. Sea mail takes more than a month.",
+     "reading": "[一|いち][週間|しゅうかん]⟨p⟩ぐらい⟨/⟩⟨v⟩です⟨/⟩。[船便|ふなびん]⟨v⟩だ⟨/⟩⟨p⟩と⟨/⟩[一|いっ]か[月|げつ][以上|いじょう]⟨v⟩かかります⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "じゃあ、航空便でお願いします。",
+     "en": "Then airmail, please.",
+     "reading": "じゃあ、[航空|こうくう][便|びん]⟨p⟩で⟨/⟩⟨v⟩お[願|ねが]いします⟨/⟩。"
+    },
+    {
+     "speaker": "[局員|きょくいん]",
+     "jp": "では、こちらの用紙に送り先の住所と中身を書いてください。",
+     "en": "Then please write the destination address and the contents on this form.",
+     "reading": "では、こちら⟨p⟩の⟨/⟩[用紙|ようし]⟨p⟩に⟨/⟩[送|おく]り[先|さき]⟨p⟩の⟨/⟩[住所|じゅうしょ]⟨p⟩と⟨/⟩⟨o⟩[中身|なかみ]⟨/⟩⟨p⟩を⟨/⟩⟨v⟩[書|か]いてください⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "それから、この手紙に切手もください。",
+     "en": "Also, stamps for this letter, please.",
+     "reading": "それから、この[手紙|てがみ]⟨p⟩に⟨/⟩[切手|きって]⟨p⟩も⟨/⟩⟨v⟩ください⟨/⟩。"
+    }
+   ],
+   "checks": [
+    {
+     "prompt": "「[航空|こうくう][便|びん]と[船便|ふなびん]、どちらにしますか」. What are you being asked?",
+     "options": [
+      "Air or sea mail?",
+      "Large or small box?",
+      "Today or tomorrow?",
+      "Cash or card?"
+     ],
+     "answer": 0,
+     "explanation": "[航空|こうくう][便|びん] (こうくうびん) = airmail, [船便|ふなびん] (ふなびん) = sea mail."
+    },
+    {
+     "prompt": "How long does airmail take?",
+     "options": [
+      "About 3 days",
+      "About a week",
+      "About a month",
+      "Over a month"
+     ],
+     "answer": 1,
+     "explanation": "「[一|いち][週間|しゅうかん]ぐらいです」."
+    },
+    {
+     "prompt": "How do you ask how many days delivery takes?",
+     "options": [
+      "[何日|なんにち]ぐらいで[届|とど]きますか。",
+      "[何日|なんにち]に[送|おく]りましたか。",
+      "[何日|なんにち]ですか。",
+      "いつ[来|き]ましたか。"
+     ],
+     "answer": 0,
+     "explanation": "[届|とど]く = arrive (be delivered); 〜で = within ~."
+    },
+    {
+     "prompt": "What must you write on the form?",
+     "options": [
+      "Your passport number",
+      "The destination address and the contents",
+      "Your phone number only",
+      "Nothing"
+     ],
+     "answer": 1,
+     "explanation": "「[送|おく]り[先|さき]の[住所|じゅうしょ]と[中身|なかみ]を[書|か]いてください」: [送|おく]り[先|さき] = destination, [中身|なかみ] = contents."
+    },
+    {
+     "prompt": "How do you ask for stamps?",
+     "options": [
+      "[切手|きって]をください。",
+      "[切手|きって]を[送|おく]ります。",
+      "[切手|きって]はどこですか。",
+      "[切手|きって]を[書|か]いてください。"
+     ],
+     "answer": 0,
+     "explanation": "[切手|きって] (きって) = stamp."
+    },
+    {
+     "prompt": "A sign says 「ゆうパック」 at the counter. What is it for?",
+     "options": [
+      "Sending parcels",
+      "Cashing money",
+      "Buying stamps only",
+      "Picking up mail"
+     ],
+     "answer": 0,
+     "explanation": "ゆうパック is Japan Post's domestic parcel service."
+    }
+   ],
+   "notes": "At the post office:\n〜に[送|おく]りたいんですが = I'd like to send it to ~.\n[航空|こうくう][便|びん] (air) ・ [船便|ふなびん] (sea) ・ [速達|そくたつ] (express) ・ [書留|かきとめ] (registered).\n[何日|なんにち]ぐらいで[届|とど]きますか = how many days does it take to arrive?\n\nForms ask for [送|おく]り[先|さき] (destination), [差出人|さしだしにん] (sender) and [中身|なかみ] (contents)."
+  },
+  {
+   "slug": "situation-services-04-ginkou",
+   "jlpt_level": "N4",
+   "position": 144,
+   "title": "[銀行|ぎんこう] — At the bank",
+   "situation": "You go to the bank to change money and ask about sending money home.",
+   "item_slugs": [
+    "word-ginkou",
+    "vocab-n2-madoguchi",
+    "vocab-n5-bangou",
+    "word-matsu",
+    "word-genkin",
+    "vocab-n3-ryougae"
+   ],
+   "dialogue": [
+    {
+     "speaker": "[行員|こういん]",
+     "jp": "いらっしゃいませ。番号札をお取りになって、お待ちください。",
+     "en": "Welcome. Please take a number ticket and wait.",
+     "reading": "⟨v⟩いらっしゃいませ⟨/⟩。⟨o⟩[番号札|ばんごうふだ]⟨/⟩⟨p⟩を⟨/⟩お[取|と]り⟨p⟩に⟨/⟩⟨v⟩なって⟨/⟩、お[待|ま]ち⟨v⟩ください⟨/⟩。"
+    },
+    {
+     "speaker": "アナウンス",
+     "jp": "番号札三十五番のお客様、三番の窓口へどうぞ。",
+     "en": "Customer number 35, please come to window 3.",
+     "reading": "[番号札|ばんごうふだ][三|さん][十|じゅう][五|ご][番|ばん]⟨p⟩の⟨/⟩お[客様|きゃくさま]、[三|さん][番|ばん]⟨p⟩の⟨/⟩[窓口|まどぐち]⟨p⟩へ⟨/⟩どうぞ。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "すみません、マレーシアのリンギットを円に両替したいんですが。",
+     "en": "Excuse me, I'd like to change Malaysian ringgit into yen.",
+     "reading": "すみません、⟨o⟩マレーシア⟨/⟩⟨p⟩の⟨/⟩⟨o⟩リンギット⟨/⟩⟨p⟩を⟨/⟩[円|えん]⟨p⟩に⟨/⟩⟨v⟩[両替|りょうがえ]したい⟨/⟩ん⟨v⟩です⟨/⟩⟨p⟩が⟨/⟩。"
+    },
+    {
+     "speaker": "[行員|こういん]",
+     "jp": "申し訳ございません、当行ではリンギットの両替はしておりません。",
+     "en": "I'm very sorry, this bank doesn't exchange ringgit.",
+     "reading": "[申|もう]し[訳|わけ]⟨v⟩ございません⟨/⟩、[当行|とうこう]⟨p⟩では⟨/⟩⟨s⟩リンギット⟨/⟩⟨p⟩の⟨/⟩⟨s⟩[両替|りょうがえ]⟨/⟩⟨p⟩は⟨/⟩⟨v⟩しておりません⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "そうですか。じゃあ、海外に送金することはできますか。",
+     "en": "I see. Then can I send money abroad?",
+     "reading": "そう⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。じゃあ、[海外|かいがい]⟨p⟩に⟨/⟩⟨v⟩[送金|そうきん]する⟨/⟩⟨s⟩こと⟨/⟩⟨p⟩は⟨/⟩⟨v⟩できます⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "[行員|こういん]",
+     "jp": "はい、できます。手数料がかかりますが、よろしいですか。",
+     "en": "Yes, you can. There's a fee. Is that all right?",
+     "reading": "はい、⟨v⟩できます⟨/⟩。⟨s⟩[手数料|てすうりょう]⟨/⟩⟨p⟩が⟨/⟩⟨v⟩かかります⟨/⟩⟨p⟩が⟨/⟩、よろしい⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "はい。いくらかかりますか。",
+     "en": "Yes. How much is it?",
+     "reading": "はい。いくら⟨v⟩かかります⟨/⟩⟨p⟩か⟨/⟩。"
+    }
+   ],
+   "checks": [
+    {
+     "prompt": "「[番号札|ばんごうふだ]をお[取|と]りになって、お[待|ま]ちください」. What should you do?",
+     "options": [
+      "Fill in a form",
+      "Take a number ticket and wait",
+      "Go to window 3",
+      "Show your passport"
+     ],
+     "answer": 1,
+     "explanation": "[番号札|ばんごうふだ] (ばんごうふだ) = number ticket."
+    },
+    {
+     "prompt": "「[三|さん][十|じゅう][五|ご][番|ばん]のお[客様|きゃくさま]、[三|さん][番|ばん]の[窓口|まどぐち]へどうぞ」. Where do you go?",
+     "options": [
+      "Window 35",
+      "Window 3",
+      "The ATM",
+      "Floor 3"
+     ],
+     "answer": 1,
+     "explanation": "[窓口|まどぐち] = service window. Customer 35 goes to window 3."
+    },
+    {
+     "prompt": "How do you say you want to change money into yen?",
+     "options": [
+      "[円|えん]に[両替|りょうがえ]したいんですが。",
+      "[円|えん]を[送|おく]りたいんですが。",
+      "[円|えん]を[借|か]りたいんですが。",
+      "[円|えん]は[高|たか]いですか。"
+     ],
+     "answer": 0,
+     "explanation": "[両替|りょうがえ] (りょうがえ) = currency exchange; A を B に[両替|りょうがえ]する."
+    },
+    {
+     "prompt": "Can this bank change ringgit?",
+     "options": [
+      "Yes",
+      "No",
+      "Only on weekdays",
+      "Only small amounts"
+     ],
+     "answer": 1,
+     "explanation": "「リンギットの[両替|りょうがえ]はしておりません」 = we don't do it."
+    },
+    {
+     "prompt": "「[手数料|てすうりょう]がかかります」 means…",
+     "options": [
+      "There's a fee",
+      "It takes a long time",
+      "It's free",
+      "You need a stamp"
+     ],
+     "answer": 0,
+     "explanation": "[手数料|てすうりょう] (てすうりょう) = handling fee; かかる = cost / take."
+    },
+    {
+     "prompt": "An ATM screen shows 「お[引|ひ]き[出|だ]し」. What does it do?",
+     "options": [
+      "Withdraw cash",
+      "Deposit cash",
+      "Transfer money",
+      "Check balance"
+     ],
+     "answer": 0,
+     "explanation": "[引|ひ]き[出|だ]す = withdraw. お[預|あづ]け[入|い]れ = deposit, お[振|ふ]り[込|こ]み = transfer, [残高|ざんだか][照会|しょうかい] = balance."
+    }
+   ],
+   "notes": "At the bank:\n[番号札|ばんごうふだ] (number ticket) ・ [窓口|まどぐち] (window) ・ 〜[番|ばん]の[窓口|まどぐち]へどうぞ = please go to window ~.\n[両替|りょうがえ] (exchange) ・ [送金|そうきん] (remittance) ・ [手数料|てすうりょう] (fee).\nATM: お[引|ひ]き[出|だ]し (withdraw) ・ お[預|あづ]け[入|い]れ (deposit) ・ お[振|ふ]り[込|こ]み (transfer) ・ [残高|ざんだか][照会|しょうかい] (balance).\n\n[当行|とうこう] = this bank (formal). 〜しております = humble 〜しています."
+  },
+  {
+   "slug": "situation-services-05-shiyakusho",
+   "jlpt_level": "N4",
+   "position": 145,
+   "title": "[市役所|しやくしょ] — Registering at the city office",
+   "situation": "You've just moved, and you go to the city office to register your new address.",
+   "item_slugs": [
+    "vocab-n2-tetsuzuki",
+    "vocab-n4-juusho",
+    "word-shorui",
+    "vocab-n3-kinyuu",
+    "vocab-n4-hikkosu",
+    "word-kaado"
+   ],
+   "dialogue": [
+    {
+     "speaker": "あなた",
+     "jp": "すみません、引っ越してきたので、住所の手続きをしたいんですが。",
+     "en": "Excuse me, I've just moved here, so I'd like to register my address.",
+     "reading": "すみません、⟨v⟩[引|ひ]っ[越|こ]してきた⟨/⟩⟨p⟩ので⟨/⟩、⟨o⟩[住所|じゅうしょ]⟨/⟩⟨p⟩の⟨/⟩⟨o⟩[手続|てつづ]き⟨/⟩⟨p⟩を⟨/⟩⟨v⟩したい⟨/⟩ん⟨v⟩です⟨/⟩⟨p⟩が⟨/⟩。"
+    },
+    {
+     "speaker": "[職員|しょくいん]",
+     "jp": "転入の手続きですね。二番の窓口で、この用紙に記入してください。",
+     "en": "A move-in registration. Please fill in this form at window 2.",
+     "reading": "[転入|てんにゅう]⟨p⟩の⟨/⟩[手続|てつづ]き⟨v⟩です⟨/⟩⟨p⟩ね⟨/⟩。[二|に][番|ばん]⟨p⟩の⟨/⟩[窓口|まどぐち]⟨p⟩で⟨/⟩、この[用紙|ようし]⟨p⟩に⟨/⟩⟨v⟩[記入|きにゅう]してください⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "何を持ってくればよかったですか。",
+     "en": "What should I have brought?",
+     "reading": "⟨o⟩[何|なに]⟨/⟩⟨p⟩を⟨/⟩⟨v⟩[持|も]ってくれば⟨/⟩よかった⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "[職員|しょくいん]",
+     "jp": "在留カードと、前の市でもらった転出証明書が必要です。",
+     "en": "Your residence card and the move-out certificate from your previous city.",
+     "reading": "[在留|ざいりゅう]カード⟨p⟩と⟨/⟩、[前|まえ]⟨p⟩の⟨/⟩[市|し]⟨p⟩で⟨/⟩⟨v⟩もらった⟨/⟩⟨s⟩[転出|てんしゅつ][証明|しょうめい][書|しょ]⟨/⟩⟨p⟩が⟨/⟩[必要|ひつよう]⟨v⟩です⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "両方あります。どのくらいかかりますか。",
+     "en": "I have both. How long will it take?",
+     "reading": "[両方|りょうほう]⟨v⟩あります⟨/⟩。どの⟨p⟩くらい⟨/⟩⟨v⟩かかります⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "[職員|しょくいん]",
+     "jp": "三十分ぐらいです。終わったら、カードの裏に新しい住所を書きます。",
+     "en": "About thirty minutes. When it's done, we'll write your new address on the back of the card.",
+     "reading": "[三十分|さんじゅっぷん]⟨p⟩ぐらい⟨/⟩⟨v⟩です⟨/⟩。⟨v⟩[終|お]わったら⟨/⟩、カード⟨p⟩の⟨/⟩[裏|うら]⟨p⟩に⟨/⟩⟨o⟩[新|あたら]しい[住所|じゅうしょ]⟨/⟩⟨p⟩を⟨/⟩⟨v⟩[書|か]きます⟨/⟩。"
+    }
+   ],
+   "checks": [
+    {
+     "prompt": "What does the person want to do?",
+     "options": [
+      "Get a driver's licence",
+      "Register a new address",
+      "Open a bank account",
+      "Pay tax"
+     ],
+     "answer": 1,
+     "explanation": "「[住所|じゅうしょ]の[手続|てつづ]きをしたいんですが」: [手続|てつづ]き = procedure, paperwork."
+    },
+    {
+     "prompt": "「この[用紙|ようし]に[記入|きにゅう]してください」 means…",
+     "options": [
+      "Please sign here",
+      "Please fill in this form",
+      "Please take this form home",
+      "Please read this"
+     ],
+     "answer": 1,
+     "explanation": "[記入|きにゅう] (きにゅう) = fill in; [用紙|ようし] (ようし) = form."
+    },
+    {
+     "prompt": "What two documents are needed?",
+     "options": [
+      "Passport and photo",
+      "Residence card and move-out certificate",
+      "Bank card and seal",
+      "Rental contract and passport"
+     ],
+     "answer": 1,
+     "explanation": "「[在留|ざいりゅう]カードと…[転出|てんしゅつ][証明|しょうめい][書|しょ]が[必要|ひつよう]です」."
+    },
+    {
+     "prompt": "How long will it take?",
+     "options": [
+      "About 10 minutes",
+      "About 30 minutes",
+      "About an hour",
+      "Three days"
+     ],
+     "answer": 1,
+     "explanation": "「[三十分|さんじゅっぷん]ぐらいです」."
+    },
+    {
+     "prompt": "How do you ask how long something takes?",
+     "options": [
+      "どのくらいかかりますか。",
+      "いくらですか。",
+      "どこですか。",
+      "いつですか。"
+     ],
+     "answer": 0,
+     "explanation": "どのくらい = how long / how much; かかる = take (time)."
+    },
+    {
+     "prompt": "Where will the new address be written?",
+     "options": [
+      "On a new card",
+      "On the back of the residence card",
+      "In the passport",
+      "On a letter"
+     ],
+     "answer": 1,
+     "explanation": "「カードの[裏|うら]に[新|あたら]しい[住所|じゅうしょ]を[書|か]きます」: [裏|うら] = back side."
+    }
+   ],
+   "notes": "At the city office ([市役所|しやくしょ] / [区役所|くやくしょ]):\n[転入|てんにゅう] (moving in) ・ [転出|てんしゅつ] (moving out) ・ [転出|てんしゅつ][証明|しょうめい][書|しょ] (move-out certificate).\n[用紙|ようし]に[記入|きにゅう]する = fill in a form ・ [在留|ざいりゅう]カード = residence card ・ [手続|てつづ]き = procedure.\n\nWithin 14 days of moving to a new city, register your address there; your residence card is updated on the back."
   }
  ]
 }
