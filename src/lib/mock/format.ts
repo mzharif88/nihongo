@@ -1,6 +1,8 @@
 // JLPT exam format: how each level splits into timed papers, how sections
 // are scored, and the pass lines. Times are the official minutes per
-// question, so a shorter mock gets proportionally less time.
+// question, so a shorter mock gets proportionally less time. Question counts
+// are the official 目安: N4/N5 from the December 2020 revision (jlpt.jp
+// topics/202008171597200631), N3/N2 from the official guidebook.
 
 export type Section = "vocabulary" | "grammar" | "reading" | "listening";
 type Level = "N5" | "N4" | "N3" | "N2" | "N1";
@@ -22,13 +24,13 @@ const P = (id: string, title: string, sections: Section[], minutes: number, ques
 
 export const PAPERS: Record<Level, Paper[]> = {
   N5: [
-    P("vocab", "言語知識（文字・語彙） · Vocabulary", ["vocabulary"], 20, 33),
-    P("grammar-reading", "言語知識（文法）・読解 · Grammar & reading", ["grammar", "reading"], 40, 32),
+    P("vocab", "言語知識（文字・語彙） · Vocabulary", ["vocabulary"], 20, 21),
+    P("grammar-reading", "言語知識（文法）・読解 · Grammar & reading", ["grammar", "reading"], 40, 22),
     P("listening", "聴解 · Listening", ["listening"], 30, 24),
   ],
   N4: [
-    P("vocab", "言語知識（文字・語彙） · Vocabulary", ["vocabulary"], 25, 35),
-    P("grammar-reading", "言語知識（文法）・読解 · Grammar & reading", ["grammar", "reading"], 55, 35),
+    P("vocab", "言語知識（文字・語彙） · Vocabulary", ["vocabulary"], 25, 28),
+    P("grammar-reading", "言語知識（文法）・読解 · Grammar & reading", ["grammar", "reading"], 55, 29),
     P("listening", "聴解 · Listening", ["listening"], 35, 28),
   ],
   N3: [
@@ -37,7 +39,7 @@ export const PAPERS: Record<Level, Paper[]> = {
     P("listening", "聴解 · Listening", ["listening"], 40, 28),
   ],
   N2: [
-    P("language-reading", "言語知識・読解 · Language & reading", ["vocabulary", "grammar", "reading"], 105, 77),
+    P("language-reading", "言語知識・読解 · Language & reading", ["vocabulary", "grammar", "reading"], 105, 75),
     P("listening", "聴解 · Listening", ["listening"], 50, 32),
   ],
   N1: [

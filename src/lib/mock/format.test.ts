@@ -3,16 +3,17 @@ import { mockPapers, predictScore } from "./format";
 
 describe("mockPapers", () => {
   it("splits N5 into three papers timed at the official rate", () => {
-    const papers = mockPapers("N5", { vocabulary: 33, grammar: 20, reading: 12, listening: 24 });
+    // The official N5 目安 since December 2020: 21 / 22 / 24 questions.
+    const papers = mockPapers("N5", { vocabulary: 21, grammar: 17, reading: 5, listening: 24 });
     expect(papers.map((p) => [p.id, p.questions, p.minutes])).toEqual([
-      ["vocab", 33, 20],
-      ["grammar-reading", 32, 40],
+      ["vocab", 21, 20],
+      ["grammar-reading", 22, 40],
       ["listening", 24, 30],
     ]);
   });
 
   it("scales time down for a shorter mock and skips empty papers", () => {
-    expect(mockPapers("N5", { vocabulary: 21, grammar: 13, reading: 5 }).map((p) => p.minutes)).toEqual([13, 23]);
+    expect(mockPapers("N5", { vocabulary: 14, grammar: 8, reading: 3 }).map((p) => p.minutes)).toEqual([13, 20]);
     expect(mockPapers("N2", { vocabulary: 4, grammar: 3, reading: 2, listening: 1 }).map((p) => p.id)).toEqual([
       "language-reading",
       "listening",
