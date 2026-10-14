@@ -1,0 +1,312 @@
+{
+ "note": "Original N4 listening drills in JLPT format. Each question's passage is the script, read aloud by the app; lines start with a speaker label like 男： which is not spoken.",
+ "texts": [
+  {
+   "slug": "listening-n4-01-kadai",
+   "jlpt_level": "N4",
+   "title": "課題理解 — Task",
+   "body": "Listen to the conversation and choose what the person will do or choose.",
+   "questions": [
+    {
+     "part": "問題1 課題理解 · Task",
+     "passage": "会社で女の人と男の人が話しています。男の人はこのあとまず何をしますか。\n女：田中さん、午後のお客さんのことだけど、もう部屋は予約した？\n男：はい、三階の会議室を取りました。\n女：ありがとう。じゃあ、お客さんにメールで地図を送っておいてくれる？\n男：わかりました。お茶の準備もしましょうか。\n女：それはお客さんが来る前に私がやるから大丈夫。\n男の人はこのあとまず何をしますか。",
+     "prompt": "男の人はこのあとまず何をしますか。",
+     "options": [
+      "お客さんにメールを送る",
+      "会議室を予約する",
+      "お茶の準備をする",
+      "地図をコピーする"
+     ],
+     "answer": 0,
+     "explanation": "The room is already booked; she asks メールで地図を送っておいてくれる？ and will make the tea herself.",
+     "items": []
+    },
+    {
+     "part": "問題1 課題理解 · Task",
+     "passage": "病院で医者と男の人が話しています。男の人は薬をいつ飲みますか。\n医者：この薬は一日に二回飲んでください。\n男：朝ご飯の前ですか。\n医者：いいえ、朝ご飯と晩ご飯の後に飲んでください。寝る前は飲まないでください。\n男：わかりました。\n男の人は薬をいつ飲みますか。",
+     "prompt": "男の人は薬をいつ飲みますか。",
+     "options": [
+      "朝ご飯の前と晩ご飯の前",
+      "朝ご飯の後と晩ご飯の後",
+      "朝ご飯の後と寝る前",
+      "晩ご飯の後と寝る前"
+     ],
+     "answer": 1,
+     "explanation": "朝ご飯と晩ご飯の後に飲んでください; not before bed.",
+     "items": []
+    },
+    {
+     "part": "問題1 課題理解 · Task",
+     "passage": "女の人と男の人が電話で話しています。男の人は何を買って帰りますか。\n女：もしもし、帰りにスーパーで牛乳を買って来てくれない？\n男：いいよ。卵は？\n女：卵はまだあるから、いらない。あ、それからパンもお願い。\n男：パンは昨日買ったよ。\n女：あ、そうだった。じゃあ、牛乳だけでいいよ。\n男の人は何を買って帰りますか。",
+     "prompt": "男の人は何を買って帰りますか。",
+     "options": [
+      "牛乳とパン",
+      "牛乳と卵",
+      "牛乳だけ",
+      "卵とパン"
+     ],
+     "answer": 2,
+     "explanation": "There are still eggs and he bought bread yesterday: 牛乳だけでいいよ.",
+     "items": []
+    },
+    {
+     "part": "問題1 課題理解 · Task",
+     "passage": "駅で男の人と女の人が話しています。二人は[何時|なんじ]の電車に乗りますか。\n男：次の電車は[十時|じゅうじ][五分|ごふん]だね。\n女：でも、それはどの駅にも止まるから、時間がかかるよ。[十時|じゅうじ][十五分|じゅうごふん]の急行に乗ろう。\n男：急行は込んでいるから、座れないかもしれないよ。\n女：じゃあ、[十時半|じゅうじはん]の特急は？少し高いけど、必ず座れるよ。\n男：そうしよう。\n二人は[何時|なんじ]の電車に乗りますか。",
+     "prompt": "二人は[何時|なんじ]の電車に乗りますか。",
+     "options": [
+      "[十時|じゅうじ][五分|ごふん]",
+      "[十時|じゅうじ][十五分|じゅうごふん]",
+      "[十時|じゅうじ][二十分|にじゅっぷん]",
+      "[十時半|じゅうじはん]"
+     ],
+     "answer": 3,
+     "explanation": "The local is slow and the express is crowded: [十時半|じゅうじはん]の特急は？— そうしよう.",
+     "items": []
+    },
+    {
+     "part": "問題1 課題理解 · Task",
+     "passage": "日本語学校で先生が話しています。学生は明日、教室に入る前に何をしなければなりませんか。\n先生：明日は九時から試験です。教室には辞書や携帯電話を持って入らないでください。かばんは教室の外のロッカーに入れてください。名前は試験が始まってから書いてください。\n学生は明日、教室に入る前に何をしなければなりませんか。",
+     "prompt": "学生は明日、教室に入る前に何をしなければなりませんか。",
+     "options": [
+      "名前を書く",
+      "かばんをロッカーに入れる",
+      "辞書を準備する",
+      "携帯電話を先生に渡す"
+     ],
+     "answer": 1,
+     "explanation": "かばんは教室の外のロッカーに入れてください. Names are written after the test starts.",
+     "items": []
+    }
+   ]
+  },
+  {
+   "slug": "listening-n4-02-point",
+   "jlpt_level": "N4",
+   "title": "ポイント理解 — Key point",
+   "body": "Listen for the key point: the reason, the detail or the final decision.",
+   "questions": [
+    {
+     "part": "問題2 ポイント理解 · Key point",
+     "passage": "男の人と女の人が話しています。女の人はどうして昨日のパーティーに行きませんでしたか。\n男：昨日のパーティー、来なかったね。体の調子が悪かったの？\n女：ううん、元気だったよ。行くつもりだったんだけど、急に母が田舎から来ることになって。\n男：そうだったんだ。\n女：うん、駅まで迎えに行かなければならなかったの。\n女の人はどうして昨日のパーティーに行きませんでしたか。",
+     "prompt": "女の人はどうして昨日のパーティーに行きませんでしたか。",
+     "options": [
+      "体の調子が悪かったから",
+      "仕事が忙しかったから",
+      "母を迎えに行ったから",
+      "パーティーの場所がわからなかったから"
+     ],
+     "answer": 2,
+     "explanation": "She was fine; her mother came suddenly and 駅まで迎えに行かなければならなかった.",
+     "items": []
+    },
+    {
+     "part": "問題2 ポイント理解 · Key point",
+     "passage": "女の人と男の人が新しいアパートについて話しています。女の人はアパートの何がいちばんいいと言っていますか。\n男：新しいアパートはどう？\n女：駅からちょっと遠いし、部屋もあまり広くないんだ。家賃も前と同じぐらい。\n男：そうなんだ。\n女：でも、窓から見える景色がすばらしいの。毎朝、山が見えるんだよ。それがいちばんいいところかな。\n女の人はアパートの何がいちばんいいと言っていますか。",
+     "prompt": "女の人はアパートの何がいちばんいいと言っていますか。",
+     "options": [
+      "窓からの景色",
+      "駅から近いこと",
+      "部屋が広いこと",
+      "家賃が安いこと"
+     ],
+     "answer": 0,
+     "explanation": "窓から見える景色がすばらしい… それがいちばんいいところ. The station is far and the room small.",
+     "items": []
+    },
+    {
+     "part": "問題2 ポイント理解 · Key point",
+     "passage": "男の学生と女の学生が話しています。女の学生は日本語を全部で[何年|なんねん]勉強していますか。\n男：日本語、上手ですね。日本に来て、どのぐらいですか。\n女：[二年|にねん]です。\n男：じゃあ、日本語の勉強も[二年|にねん]ですか。\n女：いいえ、国の大学でも[二年|にねん]勉強しましたから、もっと長いですよ。\n女の学生は日本語を全部で[何年|なんねん]勉強していますか。",
+     "prompt": "女の学生は日本語を全部で[何年|なんねん]勉強していますか。",
+     "options": [
+      "[二年|にねん]",
+      "三年",
+      "一年",
+      "[四年|よねん]"
+     ],
+     "answer": 3,
+     "explanation": "Two years in Japan plus 国の大学でも[二年|にねん] = four years.",
+     "items": []
+    },
+    {
+     "part": "問題2 ポイント理解 · Key point",
+     "passage": "女の人と男の人が話しています。男の人の財布はどこにありましたか。\n女：財布、見つかった？\n男：うん。かばんの中も机の引き出しも見たんだけど、なかったんだ。\n女：じゃあ、どこにあったの？\n男：コートのポケットに入っていたよ。昨日、コートを着て出かけたから。\n男の人の財布はどこにありましたか。",
+     "prompt": "男の人の財布はどこにありましたか。",
+     "options": [
+      "かばんの中",
+      "コートのポケット",
+      "机の引き出し",
+      "車の中"
+     ],
+     "answer": 1,
+     "explanation": "コートのポケットに入っていたよ. It wasn't in the bag or the drawer.",
+     "items": []
+    },
+    {
+     "part": "問題2 ポイント理解 · Key point",
+     "passage": "男の人と女の人が話しています。男の人は週末何をしますか。\n女：週末は何をするの？また釣り？\n男：釣りに行きたいけど、天気予報では雨なんだ。\n女：じゃあ、家でゆっくりするの？\n男：ううん、友達の引っ越しを手伝うことになったんだ。\n女：大変だね。\n男の人は週末何をしますか。",
+     "prompt": "男の人は週末何をしますか。",
+     "options": [
+      "釣りに行く",
+      "家でゆっくりする",
+      "友達の引っ越しを手伝う",
+      "自分の引っ越しをする"
+     ],
+     "answer": 2,
+     "explanation": "Rain stops fishing: 友達の引っ越しを手伝うことになった.",
+     "items": []
+    }
+   ]
+  },
+  {
+   "slug": "listening-n4-03-hatsuwa",
+   "jlpt_level": "N4",
+   "title": "発話表現 — What do you say?",
+   "body": "Read the situation and choose what you would say.",
+   "questions": [
+    {
+     "part": "問題3 発話表現 · What do you say?",
+     "passage": "部屋が暑いです。窓を開けたいです。隣の人に何と言いますか。",
+     "prompt": "何と言いますか。",
+     "options": [
+      "窓を開けておきました。",
+      "窓が[開|あ]いていますよ。",
+      "窓を開けなくてもいいですか。",
+      "窓を開けてもいいですか。"
+     ],
+     "answer": 3,
+     "explanation": "Asking permission: 〜てもいいですか.",
+     "items": []
+    },
+    {
+     "part": "問題3 発話表現 · What do you say?",
+     "passage": "友達がかぜをひいて、学校から早く帰ります。何と言いますか。",
+     "prompt": "何と言いますか。",
+     "options": [
+      "お大事に。",
+      "おかげさまで。",
+      "お待たせしました。",
+      "失礼しました。"
+     ],
+     "answer": 0,
+     "explanation": "To someone who is ill: お大事に.",
+     "items": []
+    },
+    {
+     "part": "問題3 発話表現 · What do you say?",
+     "passage": "友達との約束の時間に[十分|じゅっぷん]遅れて着きました。何と言いますか。",
+     "prompt": "何と言いますか。",
+     "options": [
+      "お待ちください。",
+      "遅くなってすみません。",
+      "お先に失礼します。",
+      "おかえりなさい。"
+     ],
+     "answer": 1,
+     "explanation": "Arriving late: 遅くなってすみません.",
+     "items": []
+    },
+    {
+     "part": "問題3 発話表現 · What do you say?",
+     "passage": "おばあさんが重い荷物を持って、階段を上っています。何と言いますか。",
+     "prompt": "何と言いますか。",
+     "options": [
+      "荷物を持ってください。",
+      "荷物を持ってもらえませんか。",
+      "荷物、持ちましょうか。",
+      "荷物を持ったことがありますか。"
+     ],
+     "answer": 2,
+     "explanation": "Offering help: 〜ましょうか. The others ask her to carry something.",
+     "items": []
+    },
+    {
+     "part": "問題3 発話表現 · What do you say?",
+     "passage": "新しいコピー機の使い方がわかりません。会社の先輩に何と言いますか。",
+     "prompt": "何と言いますか。",
+     "options": [
+      "使い方を教えてあげましょうか。",
+      "使い方を教えてもいいですか。",
+      "使い方はわかりますよ。",
+      "すみません、使い方を教えていただけませんか。"
+     ],
+     "answer": 3,
+     "explanation": "A polite request to a senior: 教えていただけませんか.",
+     "items": []
+    }
+   ]
+  },
+  {
+   "slug": "listening-n4-04-sokuji",
+   "jlpt_level": "N4",
+   "title": "即時応答 — Quick response",
+   "body": "Listen to the line and choose the best reply.",
+   "questions": [
+    {
+     "part": "問題4 即時応答 · Quick response",
+     "passage": "女：すみません、このペン、ちょっと借りてもいいですか。",
+     "prompt": "何と答えますか。",
+     "options": [
+      "ええ、どうぞ。",
+      "いいえ、借りません。",
+      "はい、貸してください。"
+     ],
+     "answer": 0,
+     "explanation": "Asked to borrow something: ええ、どうぞ.",
+     "items": []
+    },
+    {
+     "part": "問題4 即時応答 · Quick response",
+     "passage": "男：週末、どこかへ出かけましたか。",
+     "prompt": "何と答えますか。",
+     "options": [
+      "はい、出かけてください。",
+      "いいえ、ずっと家にいました。",
+      "ええ、出かけましょう。"
+     ],
+     "answer": 1,
+     "explanation": "A past question: いいえ、ずっと家にいました.",
+     "items": []
+    },
+    {
+     "part": "問題4 即時応答 · Quick response",
+     "passage": "女：あれ、顔色が悪いですね。どうしたんですか。",
+     "prompt": "何と答えますか。",
+     "options": [
+      "ええ、元気ですよ。",
+      "いいえ、どういたしまして。",
+      "ちょっと頭が痛いんです。"
+     ],
+     "answer": 2,
+     "explanation": "どうしたんですか asks what's wrong: ちょっと頭が痛いんです.",
+     "items": []
+    },
+    {
+     "part": "問題4 即時応答 · Quick response",
+     "passage": "男：この資料、明日までにまとめておいてもらえる？",
+     "prompt": "何と答えますか。",
+     "options": [
+      "はい、わかりました。",
+      "はい、まとめてあげました。",
+      "いいえ、明日です。"
+     ],
+     "answer": 0,
+     "explanation": "A request from a colleague: はい、わかりました.",
+     "items": []
+    },
+    {
+     "part": "問題4 即時応答 · Quick response",
+     "passage": "女：ここから駅までどのぐらいかかりますか。",
+     "prompt": "何と答えますか。",
+     "options": [
+      "電車で行きます。",
+      "三百円です。",
+      "歩いて[十分|じゅっぷん]ぐらいです。"
+     ],
+     "answer": 2,
+     "explanation": "どのぐらいかかりますか asks how long: 歩いて[十分|じゅっぷん]ぐらいです.",
+     "items": []
+    }
+   ]
+  }
+ ]
+}

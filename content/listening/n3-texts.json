@@ -1,0 +1,42 @@
+{
+ "version": 1,
+ "kind": "texts",
+ "source": "original-listening",
+ "records": [
+  {
+   "slug": "listening-n3-01-kadai",
+   "jlpt_level": "N3",
+   "kind": "listening",
+   "title": "[課題|かだい][理解|りかい] — Task",
+   "body": "Listen to the conversation and decide what the person has to do next."
+  },
+  {
+   "slug": "listening-n3-02-point",
+   "jlpt_level": "N3",
+   "kind": "listening",
+   "title": "ポイント[理解|りかい] — Key point",
+   "body": "Hear the question first, then listen for the one detail that answers it."
+  },
+  {
+   "slug": "listening-n3-03-gaiyou",
+   "jlpt_level": "N3",
+   "kind": "listening",
+   "title": "[概要|がいよう][理解|りかい] — Gist",
+   "body": "Listen to the whole talk; the question comes at the end. Choose what it is mainly about."
+  },
+  {
+   "slug": "listening-n3-04-hatsuwa",
+   "jlpt_level": "N3",
+   "kind": "listening",
+   "title": "[発話|はつわ][表現|ひょうげん] — What do you say?",
+   "body": "Read the situation and choose what you would say."
+  },
+  {
+   "slug": "listening-n3-05-sokuji",
+   "jlpt_level": "N3",
+   "kind": "listening",
+   "title": "[即時|そくじ][応答|おうとう] — Quick response",
+   "body": "Listen to the short line and choose the best reply."
+  }
+ ]
+}

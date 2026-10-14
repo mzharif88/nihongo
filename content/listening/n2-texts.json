@@ -1,0 +1,42 @@
+{
+ "version": 1,
+ "kind": "texts",
+ "source": "original-listening",
+ "records": [
+  {
+   "slug": "listening-n2-01-kadai",
+   "jlpt_level": "N2",
+   "kind": "listening",
+   "title": "[課題|かだい][理解|りかい] — Task",
+   "body": "Listen to the conversation and decide what the person has to do next."
+  },
+  {
+   "slug": "listening-n2-02-point",
+   "jlpt_level": "N2",
+   "kind": "listening",
+   "title": "ポイント[理解|りかい] — Key point",
+   "body": "Hear the question first, then listen past the distractors for the real reason or detail."
+  },
+  {
+   "slug": "listening-n2-03-gaiyou",
+   "jlpt_level": "N2",
+   "kind": "listening",
+   "title": "[概要|がいよう][理解|りかい] — Gist",
+   "body": "Listen to the whole talk; the question comes at the end. Choose the speaker's main point."
+  },
+  {
+   "slug": "listening-n2-04-sokuji",
+   "jlpt_level": "N2",
+   "kind": "listening",
+   "title": "[即時|そくじ][応答|おうとう] — Quick response",
+   "body": "Listen to the short line and choose the best reply."
+  },
+  {
+   "slug": "listening-n2-05-tougou",
+   "jlpt_level": "N2",
+   "kind": "listening",
+   "title": "[統合|とうごう][理解|りかい] — Integrated listening",
+   "body": "Several speakers weigh options. Track what is ruled out and what everyone agrees on."
+  }
+ ]
+}
