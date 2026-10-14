@@ -5,7 +5,7 @@ import { useState, useTransition } from "react";
 import { RoleLegend } from "@/components/role-colours";
 import { Ruby } from "@/components/ruby";
 import { isMarkup, stripMarkup } from "@/lib/furigana";
-import type { LessonRow } from "@/lib/lessons/lessons";
+import { isSituation, type LessonRow } from "@/lib/lessons/lessons";
 import { readSaved, useHydrated, writeSaved } from "@/lib/saved-progress";
 import type { StudyItem } from "@/lib/study/cards";
 import { speak } from "@/app/study/speak";
@@ -38,6 +38,9 @@ const storageKey = (slug: string) => `lesson:${slug}`;
  * Server render and hydration start at step 1; once hydrated, the player
  * remounts with whatever this browser saved, so markup always matches.
  */
+/** Situation lessons live on their own page. */
+const backHref = (slug: string) => (isSituation(slug) ? "/situations" : "/lessons");
+
 export function LessonPlayer(props: Props) {
   const hydrated = useHydrated();
   return <Player key={hydrated ? "client" : "server"} {...props} resume={hydrated} />;
@@ -97,7 +100,7 @@ function Player({ lesson, items, grammar, replay, resume }: Props & { resume: bo
   return (
     <main className="mx-auto flex min-h-dvh max-w-md flex-col px-4 py-4">
       <header className="flex items-center justify-between gap-2 text-sm text-muted">
-        <Link href="/lessons" aria-label="Leave lesson (progress is kept)">
+        <Link href={backHref(lesson.slug)} aria-label="Leave lesson (progress is kept)">
           ✕
         </Link>
         <span className="truncate">
@@ -403,7 +406,7 @@ function Finished({ lesson, result, replay }: { lesson: LessonRow; result: Lesso
       </p>
       {result.nextSlug && (
         <a href={`/lessons/${result.nextSlug}`} className="mt-8 rounded-lg bg-accent px-4 py-2.5 font-medium text-white">
-          Next lesson
+          {isSituation(lesson.slug) ? "Next situation" : "Next lesson"}
         </a>
       )}
       {result.added > 0 && (
@@ -411,8 +414,8 @@ function Finished({ lesson, result, replay }: { lesson: LessonRow; result: Lesso
           Review the new words now
         </Link>
       )}
-      <Link href="/lessons" className="mt-3 rounded-lg border border-border px-4 py-2.5 font-medium">
-        All lessons
+      <Link href={backHref(lesson.slug)} className="mt-3 rounded-lg border border-border px-4 py-2.5 font-medium">
+        {isSituation(lesson.slug) ? "All situations" : "All lessons"}
       </Link>
     </main>
   );

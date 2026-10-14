@@ -4,6 +4,7 @@ import { describe, expect, it } from "vitest";
 import { PACK_GROUPS } from "@/lib/content/packs";
 import { parseImport } from "@/lib/content/schema";
 import { stripMarkup } from "@/lib/furigana";
+import { isSituation, situationGroup } from "@/lib/lessons/lessons";
 
 const CONTENT = join(__dirname, "..", "content");
 const loadFrom = (group: string, file: string) =>
@@ -105,10 +106,14 @@ describe("lesson packs", () => {
     }
   });
 
-  it("have unique positions per level and three checks each", () => {
+  it("have unique positions per level, three checks each and six per situation", () => {
     const keys = lessons.map((l) => `${l.jlpt_level}:${l.position}`);
     expect(new Set(keys).size).toBe(keys.length);
-    for (const l of lessons) expect((l.checks as unknown[]).length, l.slug as string).toBe(3);
+    for (const l of lessons) {
+      const situation = isSituation(l.slug as string);
+      expect((l.checks as unknown[]).length, l.slug as string).toBe(situation ? 6 : 3);
+      if (situation) expect(situationGroup(l.slug as string), l.slug as string).not.toBeNull();
+    }
   });
 
   it("carry furigana for every dialogue line with kanji", () => {

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Ruby } from "@/components/ruby";
 import { requireUser } from "@/lib/auth";
+import { isSituation } from "@/lib/lessons/lessons";
 import { loadLessonList } from "@/lib/lessons/lessons.server";
 import type { Pace } from "@/lib/study/pace";
 import { loadStudySession } from "@/lib/study/session.server";
@@ -9,11 +10,14 @@ import { signOut } from "./login/actions";
 
 export default async function HomePage() {
   const { supabase, profile } = await requireUser();
-  const [session, { data: game }, lessons] = await Promise.all([
+  const [session, { data: game }, allLessons] = await Promise.all([
     loadStudySession(supabase, profile),
     supabase.from("gamification").select("xp, streak").eq("user_id", profile.id).maybeSingle(),
     loadLessonList(supabase, profile.id),
   ]);
+  const situations = allLessons.filter((l) => isSituation(l.slug));
+  const lessons = allLessons.filter((l) => !isSituation(l.slug));
+  const situationsDone = situations.filter((l) => l.state === "done").length;
   const nextLesson = lessons.find((l) => l.state === "next") ?? null;
   const lessonsDone = lessons.filter((l) => l.state === "done").length;
   const { pace } = session;
@@ -96,6 +100,18 @@ export default async function HomePage() {
           <div className="text-lg font-bold">Reading</div>
           <div className="mt-1 text-xs text-muted">Graded passages with furigana</div>
         </Link>
+        {situations.length > 0 && (
+          <Link href="/situations" className="col-span-2 rounded-xl border border-border bg-card p-4 hover:border-accent">
+            <div className="flex items-baseline justify-between text-xs text-muted">
+              <span>Real life</span>
+              <span>
+                {situationsDone}/{situations.length} done
+              </span>
+            </div>
+            <div className="text-lg font-bold">Everyday situations</div>
+            <div className="mt-1 text-xs text-muted">Trains, restaurants, shopping and the convenience store: understand and respond</div>
+          </Link>
+        )}
       </section>
 
       <TopicGrid topics={session.topics} href={studyHref} />

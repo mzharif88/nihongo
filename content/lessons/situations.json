@@ -1,0 +1,1570 @@
+{
+ "version": 1,
+ "kind": "lessons",
+ "source": "original-situations",
+ "records": [
+  {
+   "slug": "situation-transport-01-kippu",
+   "jlpt_level": "N4",
+   "position": 101,
+   "title": "[切符|きっぷ]を[買|か]う — Buying a train ticket",
+   "situation": "You're at the ticket counter (窓口) of a station and want to go to Shinjuku.",
+   "item_slugs": [
+    "word-kippu",
+    "vocab-n2-katamichi",
+    "vocab-n2-oufuku",
+    "word-eki",
+    "word-deguchi",
+    "word-noru"
+   ],
+   "dialogue": [
+    {
+     "speaker": "[駅員|えきいん]",
+     "jp": "いらっしゃいませ。",
+     "en": "Hello, how can I help?"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "すみません、新宿までの切符を一枚ください。",
+     "en": "Excuse me, one ticket to Shinjuku, please.",
+     "reading": "すみません、[新宿|しんじゅく]⟨p⟩までの⟨/⟩⟨o⟩[切符|きっぷ]⟨/⟩⟨p⟩を⟨/⟩[一|いち][枚|まい]⟨v⟩ください⟨/⟩。"
+    },
+    {
+     "speaker": "[駅員|えきいん]",
+     "jp": "片道ですか、往復ですか。",
+     "en": "One-way or return?",
+     "reading": "[片道|かたみち]⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩、[往復|おうふく]⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "片道でお願いします。",
+     "en": "One-way, please.",
+     "reading": "[片道|かたみち]⟨p⟩で⟨/⟩⟨v⟩お[願|ねが]いします⟨/⟩。"
+    },
+    {
+     "speaker": "[駅員|えきいん]",
+     "jp": "二百二十円です。",
+     "en": "That's 220 yen.",
+     "reading": "[二|に][百|ひゃく][二|に][十|じゅう][円|えん]⟨v⟩です⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "何番線から乗ればいいですか。",
+     "en": "Which platform should I board from?",
+     "reading": "[何|なん][番線|ばんせん]⟨p⟩から⟨/⟩⟨v⟩[乗|の]れば⟨/⟩いい⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "[駅員|えきいん]",
+     "jp": "三番線です。次の電車は十時五分に出ます。",
+     "en": "Platform 3. The next train leaves at 10:05.",
+     "reading": "[三|さん][番線|ばんせん]⟨v⟩です⟨/⟩。⟨s⟩[次|つぎ]⟨/⟩⟨p⟩の⟨/⟩⟨s⟩[電車|でんしゃ]⟨/⟩⟨p⟩は⟨/⟩[十|じゅう][時|じ][五|ご][分|ふん]⟨p⟩に⟨/⟩⟨v⟩[出|で]ます⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "ありがとうございます。",
+     "en": "Thank you."
+    }
+   ],
+   "checks": [
+    {
+     "prompt": "The clerk asks 「[片道|かたみち]ですか、[往復|おうふく]ですか。」 What are they asking?",
+     "options": [
+      "One-way or return?",
+      "Window or aisle?",
+      "Cash or card?",
+      "Today or tomorrow?"
+     ],
+     "answer": 0,
+     "explanation": "[片道|かたみち] = one-way, [往復|おうふく] = return (there and back)."
+    },
+    {
+     "prompt": "You want a return ticket. What do you say?",
+     "options": [
+      "[片道|かたみち]でお[願|ねが]いします。",
+      "[往復|おうふく]でお[願|ねが]いします。",
+      "[乗|の]り[換|か]えでお[願|ねが]いします。",
+      "[出口|でぐち]でお[願|ねが]いします。"
+     ],
+     "answer": 1,
+     "explanation": "[往復|おうふく] = return. 〜でお[願|ねが]いします = ~, please."
+    },
+    {
+     "prompt": "How do you ask which platform to board from?",
+     "options": [
+      "[何|なん][時|じ]に[着|つ]きますか。",
+      "いくらですか。",
+      "[何|なん][番線|ばんせん]から[乗|の]ればいいですか。",
+      "[切符|きっぷ]はどこですか。"
+     ],
+     "answer": 2,
+     "explanation": "[何|なん][番線|ばんせん] = which platform number. 〜ればいいですか = should I ~?"
+    },
+    {
+     "prompt": "Which platform does the train leave from?",
+     "options": [
+      "Platform 1",
+      "Platform 2",
+      "Platform 3",
+      "Platform 10"
+     ],
+     "answer": 2,
+     "explanation": "「[三|さん][番線|ばんせん]です」."
+    },
+    {
+     "prompt": "You see this sign: 「[出口|でぐち]」. What does it mean?",
+     "options": [
+      "Entrance",
+      "Exit",
+      "Ticket gate",
+      "Transfer"
+     ],
+     "answer": 1,
+     "explanation": "[出口|でぐち] (でぐち) = exit. [入口|いりぐち] (いりぐち) = entrance."
+    },
+    {
+     "prompt": "You see this sign: 「きっぷうりば」. What is it?",
+     "options": [
+      "Ticket office / ticket machines",
+      "Lost and found",
+      "Waiting room",
+      "Toilets"
+     ],
+     "answer": 0,
+     "explanation": "きっぷうりば = [切符|きっぷ][売|う]り[場|ば], where tickets are sold."
+    }
+   ],
+   "notes": "Useful phrases:\n〜までの[切符|きっぷ]を[一|いち][枚|まい]ください = One ticket to ~, please.\n[片道|かたみち] (one-way) ・ [往復|おうふく] (return)\n[何|なん][番線|ばんせん] = which platform? [三|さん][番線|ばんせん] = platform 3.\n\nSigns: [出口|でぐち] exit ・ [入口|いりぐち] entrance ・ [改札|かいさつ] ticket gate ・ きっぷうりば ticket sales.\n\nTip: most people use an IC card (Suica, PASMO) and just tap at the gate. A paper ticket goes into the gate and comes back out; take it with you."
+  },
+  {
+   "slug": "situation-transport-02-norikae",
+   "jlpt_level": "N4",
+   "position": 102,
+   "title": "[乗|の]り[換|か]え — Announcements and changing trains",
+   "situation": "On the platform you hear an announcement, then ask a station attendant how to get to Asakusa.",
+   "item_slugs": [
+    "word-norikae",
+    "vocab-n4-kyuukou",
+    "word-tomaru",
+    "vocab-n4-sen",
+    "vocab-n2-houmen"
+   ],
+   "dialogue": [
+    {
+     "speaker": "アナウンス",
+     "jp": "まもなく、二番線に電車がまいります。危ないですから、黄色い線の内側までお下がりください。",
+     "en": "A train will soon arrive at platform 2. For your safety, please stand behind the yellow line.",
+     "reading": "まもなく、[二|に][番線|ばんせん]⟨p⟩に⟨/⟩⟨s⟩[電車|でんしゃ]⟨/⟩⟨p⟩が⟨/⟩⟨v⟩まいります⟨/⟩。[危|あぶ]ない⟨v⟩です⟨/⟩⟨p⟩から⟨/⟩、[黄色|きいろ]い[線|せん]⟨p⟩の⟨/⟩[内側|うちがわ]⟨p⟩まで⟨/⟩お⟨v⟩[下|さ]がりください⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "すみません、浅草に行きたいんですが、乗り換えはありますか。",
+     "en": "Excuse me, I want to go to Asakusa. Do I need to change trains?",
+     "reading": "すみません、[浅草|あさくさ]⟨p⟩に⟨/⟩⟨v⟩[行|い]きたい⟨/⟩ん⟨v⟩です⟨/⟩⟨p⟩が⟨/⟩、⟨s⟩[乗|の]り[換|か]え⟨/⟩⟨p⟩は⟨/⟩⟨v⟩あります⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "[駅員|えきいん]",
+     "jp": "はい、上野で銀座線に乗り換えてください。",
+     "en": "Yes, change to the Ginza Line at Ueno.",
+     "reading": "はい、[上野|うえの]⟨p⟩で⟨/⟩[銀座|ぎんざ][線|せん]⟨p⟩に⟨/⟩⟨v⟩[乗|の]り[換|か]えてください⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "上野まで何駅ですか。",
+     "en": "How many stops to Ueno?",
+     "reading": "[上野|うえの]⟨p⟩まで⟨/⟩[何|なん][駅|えき]⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "[駅員|えきいん]",
+     "jp": "四つ目です。でも、急行には乗らないでください。上野には止まりません。",
+     "en": "It's the fourth. But don't take the express. It doesn't stop at Ueno.",
+     "reading": "[四|よっ]つ[目|め]⟨v⟩です⟨/⟩。でも、[急行|きゅうこう]⟨p⟩には⟨/⟩⟨v⟩[乗|の]らないでください⟨/⟩。[上野|うえの]⟨p⟩には⟨/⟩⟨v⟩[止|と]まりません⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "わかりました。各駅停車に乗ればいいんですね。",
+     "en": "I see. So I should take the local train.",
+     "reading": "⟨v⟩わかりました⟨/⟩。[各駅|かくえき][停車|ていしゃ]⟨p⟩に⟨/⟩⟨v⟩[乗|の]れば⟨/⟩いいん⟨v⟩です⟨/⟩⟨p⟩ね⟨/⟩。"
+    },
+    {
+     "speaker": "[駅員|えきいん]",
+     "jp": "そうです。銀座線は浅草方面のホームに行ってください。",
+     "en": "That's right. For the Ginza Line, go to the platform for trains towards Asakusa.",
+     "reading": "そう⟨v⟩です⟨/⟩。⟨s⟩[銀座|ぎんざ][線|せん]⟨/⟩⟨p⟩は⟨/⟩[浅草|あさくさ][方面|ほうめん]⟨p⟩の⟨/⟩ホーム⟨p⟩に⟨/⟩⟨v⟩[行|い]ってください⟨/⟩。"
+    }
+   ],
+   "checks": [
+    {
+     "prompt": "The announcement says 「まもなく、[二|に][番線|ばんせん]に[電車|でんしゃ]がまいります。」 What does it mean?",
+     "options": [
+      "The train to platform 2 is cancelled.",
+      "A train will soon arrive at platform 2.",
+      "The train on platform 2 is leaving now.",
+      "Please change at platform 2."
+     ],
+     "answer": 1,
+     "explanation": "まもなく = shortly. まいります = humble くる (comes)."
+    },
+    {
+     "prompt": "「[黄色|きいろ]い[線|せん]の[内側|うちがわ]までお[下|さ]がりください」. What should you do?",
+     "options": [
+      "Stand behind the yellow line",
+      "Board the yellow train",
+      "Walk along the yellow line",
+      "Wait at the yellow sign"
+     ],
+     "answer": 0,
+     "explanation": "[内側|うちがわ] = the inner side (away from the tracks). お[下|さ]がりください = please step back."
+    },
+    {
+     "prompt": "Where do you change trains?",
+     "options": [
+      "Asakusa",
+      "Ginza",
+      "Ueno",
+      "Shinjuku"
+     ],
+     "answer": 2,
+     "explanation": "「[上野|うえの]で[銀座|ぎんざ][線|せん]に[乗|の]り[換|か]えてください」."
+    },
+    {
+     "prompt": "Why shouldn't you take the express ([急行|きゅうこう])?",
+     "options": [
+      "It's too crowded",
+      "It doesn't stop at Ueno",
+      "It costs extra",
+      "It goes the other way"
+     ],
+     "answer": 1,
+     "explanation": "「[上野|うえの]には[止|と]まりません」."
+    },
+    {
+     "prompt": "You see this sign: 「のりかえ」. What does it mean?",
+     "options": [
+      "Exit",
+      "Transfer / change trains",
+      "Reserved seats",
+      "Last train"
+     ],
+     "answer": 1,
+     "explanation": "のりかえ = [乗|の]り[換|か]え, changing to another line."
+    },
+    {
+     "prompt": "A platform sign says 「[浅草|あさくさ][方面|ほうめん]」. What does it mean?",
+     "options": [
+      "Asakusa exit",
+      "Trains towards Asakusa",
+      "Asakusa is closed",
+      "Asakusa ticket office"
+     ],
+     "answer": 1,
+     "explanation": "〜[方面|ほうめん] (ほうめん) = in the direction of ~."
+    }
+   ],
+   "notes": "Useful phrases:\n〜に[行|い]きたいんですが、[乗|の]り[換|か]えはありますか = I want to go to ~. Do I change trains?\n〜で〜[線|せん]に[乗|の]り[換|か]えてください = change to the ~ line at ~.\n[何|なに][駅|えき]ですか = how many stops?\n\nTrain types: [各駅|かくえき][停車|ていしゃ] / [普通|ふつう] (local, every stop) ・ [快速|かいそく] (rapid) ・ [急行|きゅうこう] (express) ・ [特急|とっきゅう] (limited express, often extra fare). Faster trains skip stations, so check before you board.\n\n〜[方面|ほうめん] = towards ~. まいります is the humble form of くる that announcements use."
+  },
+  {
+   "slug": "situation-transport-03-michi",
+   "jlpt_level": "N4",
+   "position": 103,
+   "title": "[道|みち]を[聞|き]く — Asking for directions",
+   "situation": "You're lost and ask a passer-by how to get to the nearest station.",
+   "item_slugs": [
+    "word-michi",
+    "vocab-n5-massugu",
+    "word-shingou",
+    "word-magaru",
+    "vocab-n5-chikaku"
+   ],
+   "dialogue": [
+    {
+     "speaker": "あなた",
+     "jp": "すみません、この近くに駅はありますか。",
+     "en": "Excuse me, is there a station near here?",
+     "reading": "すみません、この[近|ちか]く⟨p⟩に⟨/⟩⟨s⟩[駅|えき]⟨/⟩⟨p⟩は⟨/⟩⟨v⟩あります⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "[通行人|つうこうにん]",
+     "jp": "ええ、ありますよ。この道をまっすぐ行って、二つ目の信号を右に曲がってください。",
+     "en": "Yes, there is. Go straight along this road and turn right at the second traffic light.",
+     "reading": "ええ、⟨v⟩あります⟨/⟩⟨p⟩よ⟨/⟩。⟨o⟩この[道|みち]⟨/⟩⟨p⟩を⟨/⟩まっすぐ⟨v⟩[行|い]って⟨/⟩、⟨o⟩[二|ふた]つ[目|め]⟨/⟩⟨p⟩の⟨/⟩⟨o⟩[信号|しんごう]⟨/⟩⟨p⟩を⟨/⟩[右|みぎ]⟨p⟩に⟨/⟩⟨v⟩[曲|ま]がってください⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "二つ目の信号を右ですね。",
+     "en": "Right at the second light.",
+     "reading": "⟨o⟩[二|ふた]つ[目|め]⟨/⟩⟨p⟩の⟨/⟩⟨o⟩[信号|しんごう]⟨/⟩⟨p⟩を⟨/⟩[右|みぎ]⟨v⟩です⟨/⟩⟨p⟩ね⟨/⟩。"
+    },
+    {
+     "speaker": "[通行人|つうこうにん]",
+     "jp": "はい。そうすると、左に駅が見えます。",
+     "en": "Yes. Then you'll see the station on your left.",
+     "reading": "はい。そうすると、[左|ひだり]⟨p⟩に⟨/⟩⟨s⟩[駅|えき]⟨/⟩⟨p⟩が⟨/⟩⟨v⟩[見|み]えます⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "歩いて何分ぐらいかかりますか。",
+     "en": "About how many minutes on foot?",
+     "reading": "⟨v⟩[歩|ある]いて⟨/⟩[何分|なんぷん]⟨p⟩ぐらい⟨/⟩⟨v⟩かかります⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "[通行人|つうこうにん]",
+     "jp": "五分ぐらいです。",
+     "en": "About five minutes.",
+     "reading": "[五|ご][分|ふん]⟨p⟩ぐらい⟨/⟩⟨v⟩です⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "ご親切にありがとうございました。",
+     "en": "Thank you, that's very kind.",
+     "reading": "ご[親切|しんせつ]⟨p⟩に⟨/⟩ありがとう⟨v⟩ございました⟨/⟩。"
+    }
+   ],
+   "checks": [
+    {
+     "prompt": "Where do you turn?",
+     "options": [
+      "Left at the first light",
+      "Right at the first light",
+      "Right at the second light",
+      "Left at the second light"
+     ],
+     "answer": 2,
+     "explanation": "「[二|ふた]つ[目|め]の[信号|しんごう]を[右|みぎ]に[曲|ま]がってください」."
+    },
+    {
+     "prompt": "Which side will the station be on?",
+     "options": [
+      "Left",
+      "Right",
+      "Straight ahead",
+      "Behind you"
+     ],
+     "answer": 0,
+     "explanation": "「[左|ひだり]に[駅|えき]が[見|み]えます」."
+    },
+    {
+     "prompt": "How long is the walk?",
+     "options": [
+      "About 2 minutes",
+      "About 5 minutes",
+      "About 10 minutes",
+      "About 20 minutes"
+     ],
+     "answer": 1,
+     "explanation": "「[五|ご][分|ふん]ぐらいです」."
+    },
+    {
+     "prompt": "How do you ask if there's a station nearby?",
+     "options": [
+      "[駅|えき]はどれですか。",
+      "この[近|ちか]くに[駅|えき]はありますか。",
+      "[駅|えき]に[行|い]きましたか。",
+      "[駅|えき]はいくらですか。"
+     ],
+     "answer": 1,
+     "explanation": "この[近|ちか]くに〜はありますか = Is there a ~ near here?"
+    },
+    {
+     "prompt": "You didn't catch the directions. What do you say?",
+     "options": [
+      "すみません、もう[一度|いちど]お[願|ねが]いします。",
+      "いただきます。",
+      "お[疲|つか]れさまでした。",
+      "どういたしまして。"
+     ],
+     "answer": 0,
+     "explanation": "もう[一度|いちど]お[願|ねが]いします = once more, please. Add ゆっくり (slowly) if needed."
+    },
+    {
+     "prompt": "You see this sign at a bus stop: 「バスのりば」. What does it mean?",
+     "options": [
+      "Bus timetable",
+      "Where to board the bus",
+      "Bus company office",
+      "No buses today"
+     ],
+     "answer": 1,
+     "explanation": "のりば = [乗|の]り[場|ば], the place to get on."
+    }
+   ],
+   "notes": "Directions:\nまっすぐ[行|い]く = go straight ・ [右|みぎ]/[左|ひだり]に[曲|ま]がる = turn right/left\n〜つ[目|め]の[信号|しんごう]/[角|かど] = the ~th traffic light/corner ・ [交差点|こうさてん] = crossroads\nそうすると = then (when you do that)\n\nAsking: この[近|ちか]くに〜はありますか ・ 〜はどこですか ・ [歩|ある]いて[何分|なんぷん]ぐらいかかりますか.\nIf you're lost: もう[一度|いちど]お[願|ねが]いします, ゆっくりお[願|ねが]いします, [地図|ちず]で[教|おし]えてもらえますか (could you show me on the map?)."
+  },
+  {
+   "slug": "situation-restaurant-01-nyuuten",
+   "jlpt_level": "N4",
+   "position": 111,
+   "title": "[店|みせ]に[入|はい]る — Getting a table",
+   "situation": "You walk into a restaurant with a friend. The waiter seats you and brings the menu.",
+   "item_slugs": [
+    "vocab-n4-seki",
+    "vocab-n2-menyuu",
+    "vocab-n5-eigo",
+    "word-matsu",
+    "vocab-n5-futari"
+   ],
+   "dialogue": [
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "いらっしゃいませ。何名様ですか。",
+     "en": "Welcome. How many people?",
+     "reading": "⟨v⟩いらっしゃいませ⟨/⟩。[何名様|なんめいさま]⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "二人です。",
+     "en": "Two.",
+     "reading": "[二人|ふたり]⟨v⟩です⟨/⟩。"
+    },
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "テーブル席とカウンター席、どちらがよろしいですか。",
+     "en": "Would you like a table or the counter?",
+     "reading": "テーブル[席|せき]⟨p⟩と⟨/⟩カウンター[席|せき]、⟨s⟩どちら⟨/⟩⟨p⟩が⟨/⟩よろしい⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "テーブル席でお願いします。",
+     "en": "A table, please.",
+     "reading": "テーブル[席|せき]⟨p⟩で⟨/⟩⟨v⟩お[願|ねが]いします⟨/⟩。"
+    },
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "こちらへどうぞ。メニューでございます。お決まりになりましたら、お呼びください。",
+     "en": "This way, please. Here's the menu. Please call me when you've decided.",
+     "reading": "こちら⟨p⟩へ⟨/⟩どうぞ。メニュー⟨v⟩でございます⟨/⟩。お[決|き]まり⟨p⟩に⟨/⟩⟨v⟩なりましたら⟨/⟩、お[呼|よ]び⟨v⟩ください⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "すみません、英語のメニューはありますか。",
+     "en": "Excuse me, do you have an English menu?",
+     "reading": "すみません、⟨s⟩[英語|えいご]⟨/⟩⟨p⟩の⟨/⟩⟨s⟩メニュー⟨/⟩⟨p⟩は⟨/⟩⟨v⟩あります⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "はい、少々お待ちください。",
+     "en": "Yes, one moment please.",
+     "reading": "はい、[少々|しょうしょう]お[待|ま]ち⟨v⟩ください⟨/⟩。"
+    }
+   ],
+   "checks": [
+    {
+     "prompt": "The waiter asks 「[何名様|なんめいさま]ですか。」 What are they asking?",
+     "options": [
+      "What's your name?",
+      "How many people?",
+      "What would you like?",
+      "Do you have a reservation?"
+     ],
+     "answer": 1,
+     "explanation": "[何名様|なんめいさま] = how many people (polite). Answer with [一人|ひとり], [二人|ふたり], [三人|さんにん]…"
+    },
+    {
+     "prompt": "You're with one friend. How do you answer?",
+     "options": [
+      "[一|ひと]つです。",
+      "[二人|ふたり]です。",
+      "[二|に][枚|まい]です。",
+      "[二|に][回|かい]です。"
+     ],
+     "answer": 1,
+     "explanation": "People are counted [一人|ひとり], [二人|ふたり], [三人|さんにん]."
+    },
+    {
+     "prompt": "「お[決|き]まりになりましたら、お[呼|よ]びください」. What does the waiter mean?",
+     "options": [
+      "Please order now.",
+      "Call me when you've decided.",
+      "The kitchen is closed.",
+      "Please pay first."
+     ],
+     "answer": 1,
+     "explanation": "[決|き]まる = be decided; [呼|よ]ぶ = call. Then say すみません or press the call button."
+    },
+    {
+     "prompt": "The menu says 「[本日|ほんじつ]のおすすめ」. What is it?",
+     "options": [
+      "Today's special",
+      "Sold out today",
+      "Drinks menu",
+      "Dessert"
+     ],
+     "answer": 0,
+     "explanation": "[本日|ほんじつ] = today (formal), おすすめ = recommendation."
+    },
+    {
+     "prompt": "Prices on the menu say 「[税込|ぜいこみ]」. What does it mean?",
+     "options": [
+      "Tax not included",
+      "Tax included",
+      "Service charge",
+      "Cash only"
+     ],
+     "answer": 1,
+     "explanation": "[税込|ぜいこみ] (ぜいこみ) = tax included. [税別|ぜいべつ] / [税|ぜい]抜 = before tax."
+    },
+    {
+     "prompt": "How do you ask for an English menu?",
+     "options": [
+      "[英語|えいご]のメニューはありますか。",
+      "[英語|えいご]を[話|はな]しますか。",
+      "メニューをください、[英語|えいご]。",
+      "[英語|えいご]はどこですか。"
+     ],
+     "answer": 0,
+     "explanation": "〜はありますか = do you have ~?"
+    }
+   ],
+   "notes": "Useful phrases:\n[何名様|なんめいさま]ですか → [一人|ひとり]/[二人|ふたり]/[三人|さんにん]です.\nテーブル[席|せき] (table) ・ カウンター[席|せき] (counter) ・ [個室|こしつ] (private room)\n〜はありますか = do you have ~? ([英語|えいご]のメニュー, [子|こ]ども[用|よう]の[椅子|いす])\n\nMenu words: [本日|ほんじつ]のおすすめ (today's special) ・ [税込|ぜいこみ] (tax included) ・ [定食|ていしょく] (set meal with rice and soup) ・ [飲|の]み[放題|ほうだい] (all you can drink).\n\nTip: water and tea are usually free. To call staff, say すみません or press the button on the table."
+  },
+  {
+   "slug": "situation-restaurant-02-chuumon",
+   "jlpt_level": "N4",
+   "position": 112,
+   "title": "[注文|ちゅうもん]する — Ordering food and drinks",
+   "situation": "You're ready to order and have a question about spicy food.",
+   "item_slugs": [
+    "vocab-n3-chuumon",
+    "word-tsurai",
+    "vocab-n4-futsuu",
+    "word-ryouri",
+    "vocab-n2-urikire"
+   ],
+   "dialogue": [
+    {
+     "speaker": "あなた",
+     "jp": "すみません、注文をお願いします。",
+     "en": "Excuse me, we'd like to order.",
+     "reading": "すみません、⟨o⟩[注文|ちゅうもん]⟨/⟩⟨p⟩を⟨/⟩⟨v⟩お[願|ねが]いします⟨/⟩。"
+    },
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "はい、どうぞ。",
+     "en": "Yes, go ahead."
+    },
+    {
+     "speaker": "あなた",
+     "jp": "この唐揚げ定食を一つと、ビールを一つください。",
+     "en": "One fried chicken set meal and one beer, please.",
+     "reading": "⟨o⟩この[唐揚|からあ]げ[定食|ていしょく]⟨/⟩⟨p⟩を⟨/⟩[一|ひと]つ⟨p⟩と⟨/⟩、⟨o⟩ビール⟨/⟩⟨p⟩を⟨/⟩[一|ひと]つ⟨v⟩ください⟨/⟩。"
+    },
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "唐揚げ定食とビールですね。ご飯は大盛りにもできますが、いかがなさいますか。",
+     "en": "Fried chicken set and a beer. We can make the rice a large portion. What would you like?",
+     "reading": "[唐揚|からあ]げ[定食|ていしょく]⟨p⟩と⟨/⟩ビール⟨v⟩です⟨/⟩⟨p⟩ね⟨/⟩。⟨s⟩ご[飯|はん]⟨/⟩⟨p⟩は⟨/⟩[大盛|おおも]り⟨p⟩にも⟨/⟩⟨v⟩できます⟨/⟩⟨p⟩が⟨/⟩、⟨s⟩いか⟨/⟩⟨p⟩が⟨/⟩⟨v⟩なさいます⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "普通でいいです。それから、辛くない料理はどれですか。",
+     "en": "Regular is fine. Also, which dishes aren't spicy?",
+     "reading": "[普通|ふつう]⟨v⟩で⟨/⟩いい⟨v⟩です⟨/⟩。それから、⟨s⟩[辛|から]くない[料理|りょうり]⟨/⟩⟨p⟩は⟨/⟩どれ⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "こちらの親子丼は辛くありませんよ。",
+     "en": "This chicken and egg rice bowl isn't spicy.",
+     "reading": "⟨s⟩こちら⟨/⟩⟨p⟩の⟨/⟩⟨s⟩[親子丼|おやこどん]⟨/⟩⟨p⟩は⟨/⟩[辛|から]く⟨v⟩ありません⟨/⟩⟨p⟩よ⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "じゃあ、それも一つお願いします。",
+     "en": "Then one of those too, please.",
+     "reading": "じゃあ、それ⟨p⟩も⟨/⟩[一|ひと]つ⟨v⟩お[願|ねが]いします⟨/⟩。"
+    },
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "かしこまりました。少々お待ちください。",
+     "en": "Certainly. Please wait a moment.",
+     "reading": "⟨v⟩かしこまりました⟨/⟩。[少々|しょうしょう]お[待|ま]ち⟨v⟩ください⟨/⟩。"
+    }
+   ],
+   "checks": [
+    {
+     "prompt": "How do you tell the waiter you're ready to order?",
+     "options": [
+      "すみません、[注文|ちゅうもん]をお[願|ねが]いします。",
+      "すみません、お[会計|かいけい]をお[願|ねが]いします。",
+      "いただきます。",
+      "ごちそうさまでした。"
+     ],
+     "answer": 0,
+     "explanation": "[注文|ちゅうもん] = order. お[会計|かいけい] is for paying."
+    },
+    {
+     "prompt": "「ご[飯|はん]は[大盛|おおも]りにもできますが」. What is the waiter offering?",
+     "options": [
+      "Free refills of drinks",
+      "A large portion of rice",
+      "A smaller portion",
+      "Bread instead of rice"
+     ],
+     "answer": 1,
+     "explanation": "[大盛|おおも]り (おおもり) = large serving. [普通|ふつう] = regular."
+    },
+    {
+     "prompt": "You want the normal size. What do you say?",
+     "options": [
+      "[大盛|おおも]りでいいです。",
+      "[普通|ふつう]でいいです。",
+      "[少|すこ]しでいいです。",
+      "いりません。"
+     ],
+     "answer": 1,
+     "explanation": "〜でいいです = ~ is fine."
+    },
+    {
+     "prompt": "How do you ask which dishes aren't spicy?",
+     "options": [
+      "[辛|から]い[料理|りょうり]はどれですか。",
+      "[辛|から]くない[料理|りょうり]はどれですか。",
+      "[料理|りょうり]は[辛|から]いですか、[甘|あま]いですか。",
+      "[辛|から]いのが[好|す]きです。"
+     ],
+     "answer": 1,
+     "explanation": "[辛|から]くない = not spicy. どれですか = which one?"
+    },
+    {
+     "prompt": "The waiter says 「かしこまりました」. What does it mean?",
+     "options": [
+      "Sorry, we don't have it.",
+      "Certainly / understood.",
+      "Please repeat that.",
+      "Enjoy your meal."
+     ],
+     "answer": 1,
+     "explanation": "かしこまりました is the very polite わかりました staff use."
+    },
+    {
+     "prompt": "A dish on the menu is marked 「[売|う]り[切|き]れ」. What does it mean?",
+     "options": [
+      "New",
+      "Spicy",
+      "Sold out",
+      "Popular"
+     ],
+     "answer": 2,
+     "explanation": "[売|う]り[切|き]れ (うりきれ) = sold out."
+    }
+   ],
+   "notes": "Ordering: 〜を[一|ひと]つ/[二|ふた]つください or 〜をお[願|ねが]いします. Point at the menu and say これを[一|ひと]つ.\n\nAsking: [辛|から]くない[料理|りょうり]はどれですか ・ 〜は[入|はい]っていますか (does it contain ~?) ・ [肉|にく]なしにできますか (can you make it without meat?)\n\nWaiter phrases: かしこまりました (certainly) ・ [少々|しょうしょう]お[待|ま]ちください (one moment) ・ [大盛|おおも]り (large serving) ・ [売|う]り[切|き]れ (sold out).\n\nThe counter つ works for most food and drinks: [一|ひと]つ, [二|ふた]つ, [三|みっ]つ."
+  },
+  {
+   "slug": "situation-restaurant-03-kaikei",
+   "jlpt_level": "N4",
+   "position": 113,
+   "title": "お[会計|かいけい] — Paying the bill",
+   "situation": "You've finished eating and want to pay separately.",
+   "item_slugs": [
+    "vocab-n3-kaikei",
+    "vocab-n2-betsubetsu",
+    "vocab-n5-issho",
+    "word-genkin",
+    "word-kaado"
+   ],
+   "dialogue": [
+    {
+     "speaker": "あなた",
+     "jp": "すみません、お会計をお願いします。",
+     "en": "Excuse me, the bill please.",
+     "reading": "すみません、⟨o⟩お[会計|かいけい]⟨/⟩⟨p⟩を⟨/⟩⟨v⟩お[願|ねが]いします⟨/⟩。"
+    },
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "はい。お会計はレジでお願いいたします。",
+     "en": "Yes. Please pay at the register.",
+     "reading": "はい。⟨s⟩お[会計|かいけい]⟨/⟩⟨p⟩は⟨/⟩レジ⟨p⟩で⟨/⟩お[願|ねが]い⟨v⟩いたします⟨/⟩。"
+    },
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "ご一緒でよろしいですか。",
+     "en": "Is it all together?",
+     "reading": "ご[一緒|いっしょ]⟨p⟩で⟨/⟩よろしい⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "いいえ、別々でお願いします。",
+     "en": "No, separately, please.",
+     "reading": "いいえ、[別々|べつべつ]⟨p⟩で⟨/⟩⟨v⟩お[願|ねが]いします⟨/⟩。"
+    },
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "かしこまりました。お一人様千二百円です。",
+     "en": "Certainly. That's 1,200 yen each.",
+     "reading": "⟨v⟩かしこまりました⟨/⟩。お[一人様|ひとりさま][千|せん][二|に][百|ひゃく][円|えん]⟨v⟩です⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "カードは使えますか。",
+     "en": "Can I use a card?",
+     "reading": "⟨s⟩カード⟨/⟩⟨p⟩は⟨/⟩⟨v⟩[使|つか]えます⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "申し訳ございません、現金のみとなっております。",
+     "en": "I'm very sorry, we only take cash.",
+     "reading": "[申|もう]し[訳|わけ]⟨v⟩ございません⟨/⟩、[現金|げんきん]⟨p⟩のみと⟨/⟩⟨v⟩なっております⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "わかりました。じゃあ、現金で。ごちそうさまでした。",
+     "en": "All right, cash then. Thank you for the meal.",
+     "reading": "⟨v⟩わかりました⟨/⟩。じゃあ、[現金|げんきん]⟨p⟩で⟨/⟩。ごちそうさま⟨v⟩でした⟨/⟩。"
+    }
+   ],
+   "checks": [
+    {
+     "prompt": "「お[会計|かいけい]はレジでお[願|ねが]いいたします」. Where do you pay?",
+     "options": [
+      "At the table",
+      "At the register",
+      "Online",
+      "To the chef"
+     ],
+     "answer": 1,
+     "explanation": "レジ = the cash register, usually by the door."
+    },
+    {
+     "prompt": "「ご[一緒|いっしょ]でよろしいですか」. What is the staff asking?",
+     "options": [
+      "Are you together?",
+      "Will you pay together (one bill)?",
+      "Would you like to sit together?",
+      "Is the food all right?"
+     ],
+     "answer": 1,
+     "explanation": "[一緒|いっしょ] = together, here one bill for everyone."
+    },
+    {
+     "prompt": "You want to pay separately. What do you say?",
+     "options": [
+      "[一緒|いっしょ]でお[願|ねが]いします。",
+      "[別々|べつべつ]でお[願|ねが]いします。",
+      "[半分|はんぶん]でお[願|ねが]いします。",
+      "カードでお[願|ねが]いします。"
+     ],
+     "answer": 1,
+     "explanation": "[別々|べつべつ] (べつべつ) = separately."
+    },
+    {
+     "prompt": "「[現金|げんきん]のみとなっております」. What does it mean?",
+     "options": [
+      "Card only",
+      "Cash only",
+      "Tax included",
+      "Tip included"
+     ],
+     "answer": 1,
+     "explanation": "[現金|げんきん] = cash, のみ = only."
+    },
+    {
+     "prompt": "What do you say to the staff as you leave?",
+     "options": [
+      "いただきます。",
+      "ごちそうさまでした。",
+      "いらっしゃいませ。",
+      "おやすみなさい。"
+     ],
+     "answer": 1,
+     "explanation": "ごちそうさまでした = thank you for the meal (after eating). いただきます is before."
+    },
+    {
+     "prompt": "How much does each person pay?",
+     "options": [
+      "200 yen",
+      "1,000 yen",
+      "1,200 yen",
+      "2,400 yen"
+     ],
+     "answer": 2,
+     "explanation": "「お[一人様|ひとりさま][千|せん][二|に][百|ひゃく][円|えん]です」."
+    }
+   ],
+   "notes": "Paying: お[会計|かいけい]をお[願|ねが]いします (or cross your index fingers in an X).\nご[一緒|いっしょ]ですか → [一緒|いっしょ]で / [別々|べつべつ]でお[願|ねが]いします.\nカードは[使|つか]えますか ・ [現金|げんきん]のみ = cash only ・ 〜[円|えん]になります = that'll be ~ yen.\n\nCulture: there's no tipping in Japan. Many restaurants have you pay at the register by the door, not at the table. Say ごちそうさまでした on the way out."
+  },
+  {
+   "slug": "situation-shopping-01-nedan",
+   "jlpt_level": "N4",
+   "position": 121,
+   "title": "[値段|ねだん]を[聞|き]く — Looking around and asking prices",
+   "situation": "You're in a department store looking for a present for your mother.",
+   "item_slugs": [
+    "vocab-n4-sagasu",
+    "vocab-n3-ninki",
+    "word-waribiki",
+    "vocab-n4-purezento",
+    "word-nedan"
+   ],
+   "dialogue": [
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "いらっしゃいませ。何かお探しですか。",
+     "en": "Welcome. Are you looking for something?",
+     "reading": "⟨v⟩いらっしゃいませ⟨/⟩。[何|なに]⟨p⟩か⟨/⟩お⟨v⟩[探|さが]しです⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "はい、母へのプレゼントを探しているんですが。",
+     "en": "Yes, I'm looking for a present for my mother.",
+     "reading": "はい、[母|はは]⟨p⟩への⟨/⟩⟨o⟩プレゼント⟨/⟩⟨p⟩を⟨/⟩⟨v⟩[探|さが]している⟨/⟩ん⟨v⟩です⟨/⟩⟨p⟩が⟨/⟩。"
+    },
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "こちらのスカーフはいかがですか。人気がありますよ。",
+     "en": "How about this scarf? It's popular.",
+     "reading": "⟨s⟩こちら⟨/⟩⟨p⟩の⟨/⟩⟨s⟩スカーフ⟨/⟩⟨p⟩は⟨/⟩いかが⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。⟨s⟩[人気|にんき]⟨/⟩⟨p⟩が⟨/⟩⟨v⟩あります⟨/⟩⟨p⟩よ⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "きれいですね。これはいくらですか。",
+     "en": "It's pretty. How much is it?"
+    },
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "三千八百円です。今週は二割引きになっております。",
+     "en": "It's 3,800 yen. This week it's 20% off.",
+     "reading": "[三千|さんぜん][八百|はっぴゃく][円|えん]⟨v⟩です⟨/⟩。[今週|こんしゅう]⟨p⟩は⟨/⟩[二|に][割|わり][引|び]き⟨p⟩に⟨/⟩⟨v⟩なっております⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "そうですか。もう少しほかのも見てもいいですか。",
+     "en": "I see. May I look at some others too?",
+     "reading": "そう⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。もう[少|すこ]しほかの⟨p⟩も⟨/⟩⟨v⟩[見|み]て⟨/⟩⟨p⟩も⟨/⟩いい⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "どうぞ、ごゆっくりご覧ください。",
+     "en": "Of course, take your time.",
+     "reading": "どうぞ、ごゆっくりご[覧|らん]⟨v⟩ください⟨/⟩。"
+    }
+   ],
+   "checks": [
+    {
+     "prompt": "The staff says 「[何|なに]かお[探|さが]しですか。」 What are they asking?",
+     "options": [
+      "Did you lose something?",
+      "Are you looking for something?",
+      "Are you paying now?",
+      "Would you like a bag?"
+     ],
+     "answer": 1,
+     "explanation": "[探|さが]す = look for. お[探|さが]しですか is the polite form."
+    },
+    {
+     "prompt": "How do you ask the price of the item in your hand?",
+     "options": [
+      "これはいくらですか。",
+      "これは[何|なん]ですか。",
+      "これはどこですか。",
+      "これはいつですか。"
+     ],
+     "answer": 0,
+     "explanation": "いくら = how much."
+    },
+    {
+     "prompt": "「[二|に][割|わり][引|び]き」 on a price tag means…",
+     "options": [
+      "2% off",
+      "20% off",
+      "Half price",
+      "Two for one"
+     ],
+     "answer": 1,
+     "explanation": "[割|わり] = 10%, so [二|に][割|わり][引|び]き = 20% off. [半額|はんがく] = half price."
+    },
+    {
+     "prompt": "You're only browsing. What do you say when staff approach?",
+     "options": [
+      "[見|み]ているだけです。",
+      "これをください。",
+      "[袋|ふくろ]はいりません。",
+      "お[会計|かいけい]をお[願|ねが]いします。"
+     ],
+     "answer": 0,
+     "explanation": "[見|み]ているだけです = I'm just looking."
+    },
+    {
+     "prompt": "「ごゆっくりご[覧|らん]ください」. What does the staff mean?",
+     "options": [
+      "Please hurry.",
+      "Take your time looking.",
+      "We're closing soon.",
+      "Please don't touch."
+     ],
+     "answer": 1,
+     "explanation": "ゆっくり = slowly, at ease. ご[覧|らん]ください = please look (honorific)."
+    },
+    {
+     "prompt": "A sign says 「[半額|はんがく]」. What does it mean?",
+     "options": [
+      "Half price",
+      "Sold out",
+      "New arrival",
+      "Tax free"
+     ],
+     "answer": 0,
+     "explanation": "[半額|はんがく] (はんがく) = half price."
+    }
+   ],
+   "notes": "Useful phrases:\nこれはいくらですか = how much is this?\n〜を[探|さが]しているんですが = I'm looking for ~.\n[見|み]ているだけです = I'm just looking.\n\nPrice tags: 〜[割引|わりび]き (10% steps off: [三|さん][割|わり][引|び]き = 30% off) ・ [半額|はんがく] (half price) ・ セール (sale) ・ [税込|ぜいこみ] / [税|ぜい]抜 (with / without tax).\n\n〜へのプレゼント = a present for ~."
+  },
+  {
+   "slug": "situation-shopping-02-shichaku",
+   "jlpt_level": "N4",
+   "position": 122,
+   "title": "[試着|しちゃく]と[比較|ひかく] — Trying on and comparing",
+   "situation": "In a clothes shop you try on a shirt and choose between sizes and colours.",
+   "item_slugs": [
+    "word-shichaku",
+    "word-saizu",
+    "word-iro",
+    "word-chiisai",
+    "word-ookii"
+   ],
+   "dialogue": [
+    {
+     "speaker": "あなた",
+     "jp": "すみません、このシャツ、試着してもいいですか。",
+     "en": "Excuse me, may I try on this shirt?",
+     "reading": "すみません、このシャツ、[試着|しちゃく]⟨v⟩して⟨/⟩⟨p⟩も⟨/⟩いい⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "はい、試着室はあちらです。",
+     "en": "Yes, the fitting room is over there.",
+     "reading": "はい、⟨s⟩[試着室|しちゃくしつ]⟨/⟩⟨p⟩は⟨/⟩あちら⟨v⟩です⟨/⟩。"
+    },
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "いかがですか。",
+     "en": "How is it?"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "ちょっと小さいです。もう少し大きいサイズはありますか。",
+     "en": "It's a bit small. Do you have a slightly bigger size?",
+     "reading": "ちょっと[小|ちい]さい⟨v⟩です⟨/⟩。もう[少|すこ]し⟨s⟩[大|おお]きいサイズ⟨/⟩⟨p⟩は⟨/⟩⟨v⟩あります⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "はい、Lサイズがございます。色も白と青がありますよ。",
+     "en": "Yes, we have a large. It comes in white and blue too.",
+     "reading": "はい、⟨s⟩Lサイズ⟨/⟩⟨p⟩が⟨/⟩⟨v⟩ございます⟨/⟩。[色|いろ]⟨p⟩も⟨/⟩[白|しろ]⟨p⟩と⟨/⟩⟨s⟩[青|あお]⟨/⟩⟨p⟩が⟨/⟩⟨v⟩あります⟨/⟩⟨p⟩よ⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "白と青、どちらが人気ですか。",
+     "en": "Which is more popular, white or blue?",
+     "reading": "[白|しろ]⟨p⟩と⟨/⟩[青|あお]、⟨s⟩どちら⟨/⟩⟨p⟩が⟨/⟩[人気|にんき]⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "青のほうが人気です。",
+     "en": "Blue is more popular.",
+     "reading": "⟨s⟩[青|あお]⟨/⟩⟨p⟩の⟨/⟩⟨s⟩ほう⟨/⟩⟨p⟩が⟨/⟩[人気|にんき]⟨v⟩です⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "じゃあ、青のLサイズにします。",
+     "en": "Then I'll take the blue one in large.",
+     "reading": "じゃあ、[青|あお]⟨p⟩の⟨/⟩Lサイズ⟨p⟩に⟨/⟩⟨v⟩します⟨/⟩。"
+    }
+   ],
+   "checks": [
+    {
+     "prompt": "How do you ask if you can try something on?",
+     "options": [
+      "[試着|しちゃく]してもいいですか。",
+      "[試着|しちゃく]しなければなりませんか。",
+      "[試着|しちゃく]はいくらですか。",
+      "[試着|しちゃく]しました。"
+     ],
+     "answer": 0,
+     "explanation": "〜てもいいですか = may I ~?"
+    },
+    {
+     "prompt": "「[試着室|しちゃくしつ]」 is…",
+     "options": [
+      "The cash register",
+      "The fitting room",
+      "The stock room",
+      "The toilet"
+     ],
+     "answer": 1,
+     "explanation": "[試着|しちゃく] = trying on, [室|しつ] = room."
+    },
+    {
+     "prompt": "The shirt is too small. What do you ask?",
+     "options": [
+      "もう[少|すこ]し[小|ちい]さいサイズはありますか。",
+      "もう[少|すこ]し[大|おお]きいサイズはありますか。",
+      "ほかの[色|いろ]はありますか。",
+      "もう[少|すこ]し[安|やす]いのはありますか。"
+     ],
+     "answer": 1,
+     "explanation": "もう[少|すこ]し + adjective = a little more ~."
+    },
+    {
+     "prompt": "Which colour is more popular?",
+     "options": [
+      "White",
+      "Blue",
+      "Both the same",
+      "Black"
+     ],
+     "answer": 1,
+     "explanation": "「[青|あお]のほうが[人気|にんき]です」: AのほうがB = A is more B."
+    },
+    {
+     "prompt": "How do you ask which of two is cheaper?",
+     "options": [
+      "どちらが[安|やす]いですか。",
+      "どれも[安|やす]いですか。",
+      "[安|やす]いのはいつですか。",
+      "[安|やす]くしてください。"
+     ],
+     "answer": 0,
+     "explanation": "AとB、どちらが〜ですか = which is more ~, A or B?"
+    },
+    {
+     "prompt": "「[青|あお]のLサイズにします」. What does it mean?",
+     "options": [
+      "I'll take the blue large one.",
+      "I'll try the blue large one.",
+      "I don't want the blue one.",
+      "Is there a blue large one?"
+     ],
+     "answer": 0,
+     "explanation": "〜にします = I'll go with ~ (decide)."
+    }
+   ],
+   "notes": "Comparing:\nAとB、どちらが〜ですか = which is more ~, A or B?\nAのほうが〜です = A is more ~.\nもう[少|すこ]し[大|おお]きい/[小|ちい]さい/[安|やす]いのはありますか = do you have a slightly bigger/smaller/cheaper one?\n\nDeciding: 〜にします = I'll take ~. ちょっと[考|かんが]えます = I'll think about it (a polite way to leave without buying).\n\nほかの[色|いろ]はありますか = do you have other colours?"
+  },
+  {
+   "slug": "situation-shopping-03-shiharai",
+   "jlpt_level": "N4",
+   "position": 123,
+   "title": "お[支払|しはら]い — Paying at the till",
+   "situation": "You pay for your shopping by card and ask about tax-free shopping.",
+   "item_slugs": [
+    "word-shiharai",
+    "word-genkin",
+    "word-fukuro",
+    "vocab-n4-riyou",
+    "vocab-n5-daijoubu"
+   ],
+   "dialogue": [
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "お支払いは現金ですか、カードですか。",
+     "en": "Will you pay by cash or card?",
+     "reading": "⟨s⟩お[支払|しはら]い⟨/⟩⟨p⟩は⟨/⟩[現金|げんきん]⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩、カード⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "カードでお願いします。",
+     "en": "By card, please.",
+     "reading": "カード⟨p⟩で⟨/⟩⟨v⟩お[願|ねが]いします⟨/⟩。"
+    },
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "お支払い回数は一回でよろしいですか。",
+     "en": "In a single payment?",
+     "reading": "⟨s⟩お[支払|しはら]い[回数|かいすう]⟨/⟩⟨p⟩は⟨/⟩[一回|いっかい]⟨v⟩で⟨/⟩よろしい⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "はい。",
+     "en": "Yes."
+    },
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "こちらに暗証番号を入力してください。",
+     "en": "Please enter your PIN here.",
+     "reading": "こちら⟨p⟩に⟨/⟩⟨o⟩[暗証|あんしょう][番号|ばんごう]⟨/⟩⟨p⟩を⟨/⟩⟨v⟩[入力|にゅうりょく]してください⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "すみません、免税はできますか。",
+     "en": "Excuse me, can I shop tax-free?",
+     "reading": "すみません、⟨s⟩[免税|めんぜい]⟨/⟩⟨p⟩は⟨/⟩⟨v⟩できます⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "はい、パスポートを見せていただけますか。",
+     "en": "Yes, may I see your passport?",
+     "reading": "はい、⟨o⟩パスポート⟨/⟩⟨p⟩を⟨/⟩⟨v⟩[見|み]せていただけます⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "袋はご利用になりますか。有料で三円です。",
+     "en": "Would you like a bag? It's 3 yen.",
+     "reading": "⟨s⟩[袋|ふくろ]⟨/⟩⟨p⟩は⟨/⟩ご[利用|りよう]⟨p⟩に⟨/⟩⟨v⟩なります⟨/⟩⟨p⟩か⟨/⟩。[有料|ゆうりょう]⟨p⟩で⟨/⟩[三|さん][円|えん]⟨v⟩です⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "いいえ、大丈夫です。",
+     "en": "No, I'm fine.",
+     "reading": "いいえ、[大丈夫|だいじょうぶ]⟨v⟩です⟨/⟩。"
+    }
+   ],
+   "checks": [
+    {
+     "prompt": "「お[支払|しはら]いは[現金|げんきん]ですか、カードですか」. What is the staff asking?",
+     "options": [
+      "Cash or card?",
+      "Do you have a point card?",
+      "Is this a present?",
+      "Do you need a receipt?"
+     ],
+     "answer": 0,
+     "explanation": "[支払|しはら]い = payment."
+    },
+    {
+     "prompt": "「お[支払|しはら]い[回数|かいすう]は[一回|いっかい]でよろしいですか」. What do they want to know?",
+     "options": [
+      "If you've been here before",
+      "If you'll pay in one go (no instalments)",
+      "If you want one bag",
+      "If you want one receipt"
+     ],
+     "answer": 1,
+     "explanation": "[回数|かいすう] = number of times. Japanese credit cards can split payments; just say はい."
+    },
+    {
+     "prompt": "「[暗証|あんしょう][番号|ばんごう]を[入力|にゅうりょく]してください」. What should you do?",
+     "options": [
+      "Sign the slip",
+      "Enter your PIN",
+      "Show your passport",
+      "Write your phone number"
+     ],
+     "answer": 1,
+     "explanation": "[暗証|あんしょう][番号|ばんごう] (あんしょうばんごう) = PIN. [入力|にゅうりょく] = input."
+    },
+    {
+     "prompt": "「[袋|ふくろ]はご[利用|りよう]になりますか」 means…",
+     "options": [
+      "Do you need a bag?",
+      "Is the bag too heavy?",
+      "Shall I wrap it?",
+      "Do you have your own bag?"
+     ],
+     "answer": 0,
+     "explanation": "[袋|ふくろ] = bag. Shop bags usually cost a few yen ([有料|ゆうりょう])."
+    },
+    {
+     "prompt": "You don't need a bag. What's the natural reply?",
+     "options": [
+      "いいえ、[大丈夫|だいじょうぶ]です。",
+      "はい、[大丈夫|だいじょうぶ]です。",
+      "いいえ、ください。",
+      "[袋|ふくろ]がほしいです。"
+     ],
+     "answer": 0,
+     "explanation": "いいえ、[大丈夫|だいじょうぶ]です = no thanks, I'm fine."
+    },
+    {
+     "prompt": "How do you ask about tax-free shopping?",
+     "options": [
+      "[免税|めんぜい]はできますか。",
+      "[税金|ぜいきん]はいくらですか。",
+      "[税込|ぜいこ]みですか。",
+      "パスポートはどこですか。"
+     ],
+     "answer": 0,
+     "explanation": "[免税|めんぜい] (めんぜい) = tax exemption, for visitors with a passport."
+    }
+   ],
+   "notes": "At the till:\nお[支払|しはら]いは? → [現金|げんきん]で / カードで / 〜Pay でお[願|ねが]いします.\n[袋|ふくろ]はご[利用|りよう]になりますか → はい、お[願|ねが]いします / いいえ、[大丈夫|だいじょうぶ]です.\nレシートはご[利用|りよう]ですか = do you want the receipt?\n\n[暗証|あんしょう][番号|ばんごう] = PIN ・ サイン = signature ・ [有料|ゆうりょう] = costs money ・ [免税|めんぜい] = tax-free (show your passport; usually over 5,000 yen)."
+  },
+  {
+   "slug": "situation-konbini-01-bentou",
+   "jlpt_level": "N4",
+   "position": 131,
+   "title": "お[弁当|べんとう]を[温|あたた]める — Heating up a bento",
+   "situation": "At a convenience store you buy a bento and a drink. The staff ask several quick questions.",
+   "item_slugs": [
+    "vocab-n3-bentou",
+    "vocab-n3-atatameru-2",
+    "word-hashi",
+    "word-fukuro",
+    "vocab-n5-ireru"
+   ],
+   "dialogue": [
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "いらっしゃいませ。",
+     "en": "Welcome."
+    },
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "お弁当、温めますか。",
+     "en": "Shall I heat up the bento?",
+     "reading": "お[弁当|べんとう]、⟨v⟩[温|あたた]めます⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "はい、お願いします。",
+     "en": "Yes, please.",
+     "reading": "はい、⟨v⟩お[願|ねが]いします⟨/⟩。"
+    },
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "お箸はおつけしますか。",
+     "en": "Would you like chopsticks?",
+     "reading": "⟨s⟩お[箸|はし]⟨/⟩⟨p⟩は⟨/⟩おつけ⟨v⟩します⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "はい、一つお願いします。",
+     "en": "Yes, one pair please.",
+     "reading": "はい、[一|ひと]つ⟨v⟩お[願|ねが]いします⟨/⟩。"
+    },
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "温かいものと冷たいもの、袋を分けますか。",
+     "en": "Shall I bag the hot and cold things separately?",
+     "reading": "[温|あたた]かいもの⟨p⟩と⟨/⟩[冷|つめ]たいもの、⟨o⟩[袋|ふくろ]⟨/⟩⟨p⟩を⟨/⟩⟨v⟩[分|わ]けます⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "いいえ、一緒でいいです。",
+     "en": "No, together is fine.",
+     "reading": "いいえ、[一緒|いっしょ]⟨v⟩で⟨/⟩いい⟨v⟩です⟨/⟩。"
+    },
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "六百四十円になります。",
+     "en": "That'll be 640 yen.",
+     "reading": "[六百|ろっぴゃく][四十|よんじゅう][円|えん]⟨p⟩に⟨/⟩⟨v⟩なります⟨/⟩。"
+    }
+   ],
+   "checks": [
+    {
+     "prompt": "The staff asks 「お[弁当|べんとう]、[温|あたた]めますか。」 What are they asking?",
+     "options": [
+      "Shall I heat up the bento?",
+      "Is the bento for here?",
+      "Do you want a bigger bento?",
+      "Shall I wrap the bento?"
+     ],
+     "answer": 0,
+     "explanation": "[温|あたた]める (あたためる) = to heat up."
+    },
+    {
+     "prompt": "You want to eat it cold. What do you say?",
+     "options": [
+      "はい、お[願|ねが]いします。",
+      "いいえ、そのままで[大丈夫|だいじょうぶ]です。",
+      "もっと[温|あたた]めてください。",
+      "お[箸|はし]をください。"
+     ],
+     "answer": 1,
+     "explanation": "そのままで = as it is."
+    },
+    {
+     "prompt": "「お[箸|はし]はおつけしますか」 means…",
+     "options": [
+      "Would you like chopsticks?",
+      "Would you like a spoon?",
+      "Do you have chopsticks?",
+      "Shall I put it in a bag?"
+     ],
+     "answer": 0,
+     "explanation": "お[箸|はし] (おはし) = chopsticks. つける = add, include."
+    },
+    {
+     "prompt": "「[温|あたた]かいものと[冷|つめ]たいもの、[袋|ふくろ]を[分|わ]けますか」. What is the staff offering?",
+     "options": [
+      "Two bags: hot items and cold items",
+      "A discount on cold drinks",
+      "To heat the drink too",
+      "A free bag"
+     ],
+     "answer": 0,
+     "explanation": "[分|わ]ける = separate."
+    },
+    {
+     "prompt": "「[六百|ろっぴゃく][四十|よんじゅう][円|えん]になります」. How much do you pay?",
+     "options": [
+      "460 yen",
+      "640 yen",
+      "604 yen",
+      "6,040 yen"
+     ],
+     "answer": 1,
+     "explanation": "〜[円|えん]になります = that comes to ~ yen (shop style)."
+    },
+    {
+     "prompt": "You'd like a spoon instead. What do you ask?",
+     "options": [
+      "スプーンをお[願|ねが]いします。",
+      "スプーンはいくらですか。",
+      "スプーンを[温|あたた]めてください。",
+      "スプーンがあります。"
+     ],
+     "answer": 0,
+     "explanation": "〜をお[願|ねが]いします works for anything you want added."
+    }
+   ],
+   "notes": "Convenience-store questions (often fast!):\n[温|あたた]めますか → はい、お[願|ねが]いします / いいえ、そのままで[大丈夫|だいじょうぶ]です\nお[箸|はし] / スプーンはおつけしますか → はい、[一|ひと]つ / いいえ、いりません\n[袋|ふくろ]に[入|い]れますか / [袋|ふくろ]はご[利用|りよう]ですか → はい / いいえ、[大丈夫|だいじょうぶ]です\n[袋|ふくろ]を[分|わ]けますか → [分|わ]けてください / [一緒|いっしょ]でいいです\n\n〜[円|えん]になります = that'll be ~ yen. Put money in the tray (トレー), not in the staff's hand."
+  },
+  {
+   "slug": "situation-konbini-02-reji",
+   "jlpt_level": "N4",
+   "position": 132,
+   "title": "レジで — Point cards, payment and age checks",
+   "situation": "You buy a drink and a can of beer at the convenience store till.",
+   "item_slugs": [
+    "vocab-n5-motsu",
+    "vocab-n4-harau",
+    "vocab-n5-botan",
+    "word-osu",
+    "vocab-n3-houhou",
+    "vocab-n5-osake"
+   ],
+   "dialogue": [
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "ポイントカードはお持ちですか。",
+     "en": "Do you have a point card?",
+     "reading": "⟨s⟩ポイントカード⟨/⟩⟨p⟩は⟨/⟩お⟨v⟩[持|も]ちです⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "いいえ、持っていません。",
+     "en": "No, I don't.",
+     "reading": "いいえ、⟨v⟩[持|も]っていません⟨/⟩。"
+    },
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "お酒をお買い求めのお客様は、画面のボタンを押してください。",
+     "en": "Customers buying alcohol, please press the button on the screen.",
+     "reading": "⟨o⟩お[酒|さけ]⟨/⟩⟨p⟩を⟨/⟩お⟨v⟩[買|か]い[求|もと]め⟨/⟩⟨p⟩の⟨/⟩⟨s⟩お[客様|きゃくさま]⟨/⟩⟨p⟩は⟨/⟩、⟨o⟩[画面|がめん]⟨/⟩⟨p⟩の⟨/⟩⟨o⟩ボタン⟨/⟩⟨p⟩を⟨/⟩⟨v⟩[押|お]してください⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "これですか。",
+     "en": "This one?"
+    },
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "はい、ありがとうございます。お支払い方法はいかがなさいますか。",
+     "en": "Yes, thank you. How would you like to pay?",
+     "reading": "はい、ありがとう⟨v⟩ございます⟨/⟩。⟨s⟩お[支払|しはら]い[方法|ほうほう]⟨/⟩⟨p⟩は⟨/⟩⟨s⟩いか⟨/⟩⟨p⟩が⟨/⟩⟨v⟩なさいます⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "このカードで払えますか。",
+     "en": "Can I pay with this card?",
+     "reading": "このカード⟨p⟩で⟨/⟩⟨v⟩[払|はら]えます⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "はい、こちらにタッチしてください。",
+     "en": "Yes, please tap it here."
+    },
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "レシートはご利用ですか。",
+     "en": "Do you need the receipt?",
+     "reading": "⟨s⟩レシート⟨/⟩⟨p⟩は⟨/⟩ご[利用|りよう]⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "いいえ、いりません。",
+     "en": "No, I don't need it."
+    }
+   ],
+   "checks": [
+    {
+     "prompt": "「ポイントカードはお[持|も]ちですか」. What is the staff asking?",
+     "options": [
+      "Do you have a point card?",
+      "Would you like to make a point card?",
+      "Do you have cash?",
+      "Is this your card?"
+     ],
+     "answer": 0,
+     "explanation": "お[持|も]ちですか = do you have (polite [持|も]っていますか)."
+    },
+    {
+     "prompt": "You don't have one. How do you answer?",
+     "options": [
+      "いいえ、[持|も]っていません。",
+      "はい、[持|も]っています。",
+      "いいえ、ください。",
+      "カードで[払|はら]います。"
+     ],
+     "answer": 0,
+     "explanation": "[持|も]っていません = I don't have one."
+    },
+    {
+     "prompt": "You're buying beer and the staff points at the screen. What should you do?",
+     "options": [
+      "Sign your name",
+      "Press the button to confirm you're over 20",
+      "Enter your PIN",
+      "Scan your passport"
+     ],
+     "answer": 1,
+     "explanation": "「[画面|がめん]のボタンを[押|お]してください」: an age check for alcohol and tobacco."
+    },
+    {
+     "prompt": "「こちらにタッチしてください」. What do you do?",
+     "options": [
+      "Tap your card on the reader",
+      "Touch the bento",
+      "Press the call button",
+      "Sign the screen"
+     ],
+     "answer": 0,
+     "explanation": "タッチ = tap (an IC card or phone)."
+    },
+    {
+     "prompt": "「レシートはご[利用|りよう]ですか」 means…",
+     "options": [
+      "Do you need the receipt?",
+      "Do you need a bag?",
+      "Do you have a coupon?",
+      "Shall I heat it up?"
+     ],
+     "answer": 0,
+     "explanation": "[利用|りよう] = use. レシート = receipt."
+    },
+    {
+     "prompt": "How do you ask if you can pay by card?",
+     "options": [
+      "カードで[払|はら]えますか。",
+      "カードはいくらですか。",
+      "カードを[買|か]いますか。",
+      "カードがありません。"
+     ],
+     "answer": 0,
+     "explanation": "[払|はら]える = can pay (potential of [払|はら]う)."
+    }
+   ],
+   "notes": "At the till:\nポイントカードはお[持|も]ちですか → いいえ、[持|も]っていません / はい.\nお[支払|しはら]い[方法|ほうほう]は? → [現金|げんきん]で / カードで / 〜Pay で.\nこちらにタッチしてください = tap here ・ レシートはご[利用|りよう]ですか → いりません / ください.\n\nAge check: for alcohol and tobacco you press 「はい」 on the screen to confirm you're 20 or older ([年齢|ねんれい][確認|かくにん])."
+  },
+  {
+   "slug": "situation-konbini-03-sagasu",
+   "jlpt_level": "N4",
+   "position": 133,
+   "title": "[店員|てんいん]に[聞|き]く — Finding things and asking for help",
+   "situation": "You need batteries, an ATM and the toilet, and ask the convenience store staff.",
+   "item_slugs": [
+    "vocab-n2-denchi",
+    "word-tana",
+    "word-iriguchi",
+    "vocab-n5-kariru",
+    "vocab-n3-oku"
+   ],
+   "dialogue": [
+    {
+     "speaker": "あなた",
+     "jp": "すみません、電池はどこにありますか。",
+     "en": "Excuse me, where are the batteries?",
+     "reading": "すみません、⟨s⟩[電池|でんち]⟨/⟩⟨p⟩は⟨/⟩どこ⟨p⟩に⟨/⟩⟨v⟩あります⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "電池はあちらの棚の一番下にございます。",
+     "en": "The batteries are on the bottom shelf over there.",
+     "reading": "⟨s⟩[電池|でんち]⟨/⟩⟨p⟩は⟨/⟩あちら⟨p⟩の⟨/⟩[棚|たな]⟨p⟩の⟨/⟩[一番|いちばん][下|した]⟨p⟩に⟨/⟩⟨v⟩ございます⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "ありがとうございます。それから、ATMはありますか。",
+     "en": "Thank you. Also, is there an ATM?"
+    },
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "はい、入口の右側にございます。",
+     "en": "Yes, it's on the right side of the entrance.",
+     "reading": "はい、[入口|いりぐち]⟨p⟩の⟨/⟩[右側|みぎがわ]⟨p⟩に⟨/⟩⟨v⟩ございます⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "あと、トイレをお借りしてもいいですか。",
+     "en": "And may I use the toilet?",
+     "reading": "あと、⟨o⟩トイレ⟨/⟩⟨p⟩を⟨/⟩お⟨v⟩[借|か]りして⟨/⟩⟨p⟩も⟨/⟩いい⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "どうぞ、お店の奥にございます。",
+     "en": "Go ahead, it's at the back of the shop.",
+     "reading": "どうぞ、お[店|みせ]⟨p⟩の⟨/⟩[奥|おく]⟨p⟩に⟨/⟩⟨v⟩ございます⟨/⟩。"
+    }
+   ],
+   "checks": [
+    {
+     "prompt": "Where are the batteries?",
+     "options": [
+      "At the till",
+      "On the bottom shelf over there",
+      "By the entrance",
+      "At the back"
+     ],
+     "answer": 1,
+     "explanation": "「あちらの[棚|たな]の[一番|いちばん][下|した]にございます」. [一番|いちばん][下|した] = the very bottom."
+    },
+    {
+     "prompt": "How do you ask where something is?",
+     "options": [
+      "〜はどこにありますか。",
+      "〜はいくらですか。",
+      "〜は[何|なん]ですか。",
+      "〜はいつですか。"
+     ],
+     "answer": 0,
+     "explanation": "〜はどこにありますか = where is ~?"
+    },
+    {
+     "prompt": "Where is the ATM?",
+     "options": [
+      "Left of the entrance",
+      "Right of the entrance",
+      "At the back",
+      "Outside"
+     ],
+     "answer": 1,
+     "explanation": "「[入口|いりぐち]の[右側|みぎがわ]にございます」. [右側|みぎがわ] = right side."
+    },
+    {
+     "prompt": "How do you politely ask to use the toilet?",
+     "options": [
+      "トイレをお[借|か]りしてもいいですか。",
+      "トイレを[貸|か]します。",
+      "トイレはいくらですか。",
+      "トイレに[行|い]きました。"
+     ],
+     "answer": 0,
+     "explanation": "[借|か]りる = borrow. You 'borrow' a toilet in Japanese."
+    },
+    {
+     "prompt": "「お[店|みせ]の[奥|おく]にございます」. Where is it?",
+     "options": [
+      "At the front",
+      "At the back of the shop",
+      "Upstairs",
+      "Next door"
+     ],
+     "answer": 1,
+     "explanation": "[奥|おく] (おく) = the back, the inner part."
+    },
+    {
+     "prompt": "Staff say 「ございます」. What is it the polite form of?",
+     "options": [
+      "あります",
+      "います",
+      "します",
+      "[行|い]きます"
+     ],
+     "answer": 0,
+     "explanation": "ございます = polite あります (exists, is located)."
+    }
+   ],
+   "notes": "Asking for things:\n〜はどこにありますか = where is ~?\n〜はありますか = do you have ~ / is there ~?\n〜をお[借|か]りしてもいいですか = may I use ~? (トイレ, ペン)\n\nPlaces: [棚|たな] (shelf) ・ [一番|いちばん][上|うえ]/[下|した] (top/bottom) ・ [入口|いりぐち] (entrance) ・ [右側|みぎがわ]/[左側|ひだりがわ] (right/left side) ・ [奥|おく] (the back).\n\nStaff speak politely: ございます = あります, あちら = over there, こちら = here."
+  }
+ ]
+}

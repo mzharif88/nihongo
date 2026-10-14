@@ -2,7 +2,7 @@
 
 import { revalidatePath } from "next/cache";
 import { requireUser } from "@/lib/auth";
-import { lessonXp, scoreChecks, type CheckResult } from "@/lib/lessons/lessons";
+import { lessonXp, nextLessonSlug, scoreChecks, type CheckResult } from "@/lib/lessons/lessons";
 import { loadLesson, loadLessonList } from "@/lib/lessons/lessons.server";
 import { newCard } from "@/lib/srs/fsrs";
 import { awardXp } from "@/lib/study/award.server";
@@ -73,7 +73,8 @@ export async function completeLesson(slug: string, answers: (number | null)[]): 
 
   revalidatePath("/");
   revalidatePath("/lessons");
+  revalidatePath("/situations");
   const list = await loadLessonList(supabase, user.id);
-  const nextSlug = list.find((l) => l.state === "next")?.slug ?? null;
+  const nextSlug = nextLessonSlug(list, slug);
   return { ...result, xpGained, streak, added, nextSlug };
 }

@@ -107,6 +107,16 @@ const LESSON_READINGS: Record<string, string> = {
   工事中: "こうじちゅう",
   期間中: "きかんちゅう",
   この前行っ: "このまえいっ",
+  唐揚げ: "からあげ",
+  辛く: "からく",
+  親子丼: "おやこどん",
+  一人様: "ひとりさま",
+  試着: "しちゃく",
+  試着室: "しちゃくしつ",
+  四十: "よんじゅう",
+  三千: "さんぜん",
+  八百: "はっぴゃく",
+  六百: "ろっぴゃく",
 };
 
 /** Markup for text with kanji; text without kanji (or already marked up) stays as it is. */

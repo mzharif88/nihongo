@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { LESSON_BONUS_XP, lessonXp, scoreChecks, summarizeLessons } from "./lessons";
+import { LESSON_BONUS_XP, lessonXp, nextLessonSlug, scoreChecks, situationGroup, summarizeLessons } from "./lessons";
 
 const lesson = (id: string, jlpt_level: string, position: number) => ({
   id,
@@ -28,6 +28,37 @@ describe("summarizeLessons", () => {
     expect(s.map((l) => l.state)).toEqual(["done", "next", "locked"]);
     expect(s[0].progress?.score).toBe(3);
     expect(s[0].itemCount).toBe(2);
+  });
+});
+
+describe("situation lessons", () => {
+  const situation = (id: string, position: number) => ({ ...lesson(id, "N4", position), slug: `situation-${id}` });
+  const lessons = [
+    lesson("n5-1", "N5", 1),
+    lesson("n5-2", "N5", 2),
+    situation("transport-01", 101),
+    situation("transport-02", 102),
+    situation("transport-03", 103),
+    situation("konbini-01", 131),
+  ];
+
+  it("are always open and stay out of the lesson chain", () => {
+    const s = summarizeLessons(lessons, []);
+    expect(s.map((l) => l.state)).toEqual(["next", "locked", "open", "open", "open", "open"]);
+  });
+
+  it("know their group", () => {
+    expect(situationGroup("situation-transport-01")).toBe("transport");
+    expect(situationGroup("situation-konbini-01")).toBe("konbini");
+    expect(situationGroup("lesson-n5-1")).toBeNull();
+  });
+
+  it("lead on to the next unfinished situation in the same group", () => {
+    const s = summarizeLessons(lessons, [done("transport-01"), done("transport-02")]);
+    expect(nextLessonSlug(s, "situation-transport-02")).toBe("situation-transport-03");
+    const all = summarizeLessons(lessons, ["transport-01", "transport-02", "transport-03"].map(done));
+    expect(nextLessonSlug(all, "situation-transport-03")).toBeNull();
+    expect(nextLessonSlug(s, "lesson-n5-1")).toBe("lesson-n5-1");
   });
 });
 
