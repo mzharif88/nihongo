@@ -199,8 +199,8 @@ export function StudySession({
 
 function Intro({ card, onDone }: { card: StudyCard; onDone: () => void }) {
   const r = card.reveal;
-  // Shown in kana for now (its kanji are above this stage): name the kanji spelling, skip the kanji-parts hint.
-  const inKana = !kanjiAllowed(stripMarkup(r.term), useKanjiAllowance());
+  // Kanji above this stage: say so (the exam prints these with furigana).
+  const aboveStage = !kanjiAllowed(stripMarkup(r.term), useKanjiAllowance());
   return (
     <section className="flex flex-1 flex-col">
       <p className="mt-8 text-center text-sm font-medium text-accent">New item</p>
@@ -234,15 +234,10 @@ function Intro({ card, onDone }: { card: StudyCard; onDone: () => void }) {
           <dt className="text-xs text-muted">Meaning</dt>
           <dd className="text-lg">{r.meaning}</dd>
         </div>
-        {inKana && (
-          <div>
-            <dt className="text-xs text-muted">In kanji</dt>
-            <dd lang="ja">
-              {stripMarkup(r.term)} <span className="text-sm text-muted">· the exam prints this in kana until you reach its kanji</span>
-            </dd>
-          </div>
+        {aboveStage && (
+          <p className="text-sm text-muted">Its kanji come later: at this level the exam prints them with furigana, so learn the word by its reading for now.</p>
         )}
-        {r.mnemonic && !inKana && (
+        {r.mnemonic && (
           <div>
             <dt className="text-xs text-muted">Memory hint</dt>
             <dd>{r.mnemonic}</dd>

@@ -11,9 +11,10 @@ import { useKanjiAllowance } from "./kanji-scope";
  * Set `hide` where the reading is the answer being tested. Sentences that
  * carry grammar roles are colour-coded (see .role-* in globals.css).
  *
- * Inside a <KanjiScope>, a word whose kanji are above the scope's level is
- * shown in kana, the way the JLPT prints it; `keepKanji` opts out (kanji
- * cards and kanji questions, where the kanji is the point).
+ * Inside a <KanjiScope>, a word whose kanji are above the scope's level
+ * always shows its furigana, even where furigana is hidden (exam mode), the
+ * way the JLPT prints it (official sample questions, N5–N2). `keepKanji`
+ * opts out: kanji cards and kanji questions, where the reading is tested.
  */
 export function Ruby({ text, reading, hide = false, keepKanji = false }: { text: string; reading?: string | null; hide?: boolean; keepKanji?: boolean }) {
   const allowance = useKanjiAllowance();
@@ -21,10 +22,9 @@ export function Ruby({ text, reading, hide = false, keepKanji = false }: { text:
   return (
     <span lang={/[぀-ヿ㐀-鿿]/.test(text) ? "ja" : undefined}>
       {segments.map((s, i) => {
-        const asKana = !keepKanji && s.ruby && hasKanji(s.text) && !kanjiAllowed(s.text, allowance);
-        const inner = asKana ? (
-          s.ruby
-        ) : s.ruby && !hide ? (
+        // Above the level: furigana stays on whatever `hide` says, as on the real exam paper.
+        const aboveLevel = !keepKanji && !!s.ruby && hasKanji(s.text) && !kanjiAllowed(s.text, allowance);
+        const inner = s.ruby && (!hide || aboveLevel) ? (
           <ruby>
             {s.text}
             <rp>(</rp>

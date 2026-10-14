@@ -3,8 +3,8 @@
 import { createContext, useContext, type ReactNode } from "react";
 import { allowanceFor, type KanjiAllowance } from "@/lib/kanji-levels";
 
-// Which kanji the text below may show. Like the JLPT, a kanji above the
-// level is printed in kana (its furigana) instead. No scope = no limit.
+// Which kanji the text below counts as known. Like the JLPT, a kanji above
+// the level keeps its furigana even where furigana is hidden. No scope = no limit.
 
 const Scope = createContext<KanjiAllowance | null>(null);
 
