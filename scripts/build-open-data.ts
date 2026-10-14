@@ -23,6 +23,7 @@ import { IMPORT_FORMAT_VERSION, parseImport } from "../src/lib/content/schema";
 import { annotateItems, createAnnotator, knownWordsFrom, type Annotate } from "./furigana-build";
 import { applyMnemonics, loadMnemonics } from "./mnemonics";
 import { applyMergeTopics, loadMerges } from "./merges";
+import { applyKanjiHints, loadHintData } from "./kanji-hints";
 
 const LEVELS = ["N5", "N4", "N3", "N2"] as const;
 type Level = (typeof LEVELS)[number];
@@ -81,7 +82,10 @@ const MNEMONICS = loadMnemonics();
 const MERGES = loadMerges();
 
 function writePack(file: string, items: Item[], source: string, annotate: Annotate) {
-  const records = applyMergeTopics(annotateItems(applyMnemonics(items, MNEMONICS), annotate), MERGES);
+  const records = applyKanjiHints(
+    applyMergeTopics(annotateItems(applyMnemonics(items, MNEMONICS), annotate), MERGES),
+    loadHintData(items),
+  );
   const doc = { version: IMPORT_FORMAT_VERSION, kind: "items", source, records };
   const parsed = parseImport(doc);
   if (parsed.issues.length) {

@@ -12,6 +12,14 @@ const SOURCES = [
     use: "Kanji meanings, on/kun readings, stroke counts, school grades and frequency ranks.",
   },
   {
+    name: "KRADFILE",
+    by: "Michael Raine, Jim Breen, Jim Rose and the Electronic Dictionary Research and Development Group",
+    url: "https://www.edrdg.org/krad/kradinf.html",
+    license: "CC BY-SA 4.0",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/",
+    use: "Kanji component breakdowns behind the memory hints.",
+  },
+  {
     name: "JLPT kanji and vocabulary lists",
     by: "Jonathan Waller, tanos.co.uk",
     url: "http://www.tanos.co.uk/jlpt/",

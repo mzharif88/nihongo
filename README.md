@@ -71,6 +71,7 @@ npm run dev
 | `npm run port:legacy` | Regenerate `content/legacy/*.json` from the `legacy` branch |
 | `npm run build:lessons` | Regenerate `content/lessons/*.json` (adds furigana) from the hand-written `*.source.json` files |
 | `npm run build:builder` | Regenerate `content/builder/*.json` (tiles + furigana) from `*.source.json` |
+| `npm run build:kanji-parts -- <kradfile-u>` | Re-vendor KRADFILE kanji components (`content/kanji-parts`) used for memory hints |
 | `npm run build:open-data -- <dir>` | Regenerate `content/opendata/*.json` from downloaded `kanji.json` (kanji-data) and `n5–n2.csv` (open-anki-jlpt-decks) |
 
 New migrations go in `supabase/migrations/` with a timestamp prefix. New
@@ -78,6 +79,8 @@ content tables need RLS enabled and policies in the same migration; extend
 `tests/db/rls.test.ts` to cover them.
 
 ## Content
+
+Memory hints for words and kanji are built only from kanji parts (男 = 田 rice field + 力 power; 学生 = 学 study + 生 life), never English sound-alikes. `scripts/kanji-hints.ts` generates them from KRADFILE when the packs are built; words written only in kana get no hint.
 
 Drafted in Claude chat with the templates in `docs/prompts/`, saved as JSON in
 the format in `docs/import-format.md`, imported as drafts, and reviewed before

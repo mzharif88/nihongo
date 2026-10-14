@@ -12,7 +12,8 @@
     "port:legacy": "tsx scripts/port-legacy.ts",
     "build:open-data": "tsx scripts/build-open-data.ts",
     "build:lessons": "tsx scripts/build-lessons.ts",
-    "build:builder": "tsx scripts/build-builder.ts"
+    "build:builder": "tsx scripts/build-builder.ts",
+    "build:kanji-parts": "tsx scripts/build-kanji-parts.ts"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.7",

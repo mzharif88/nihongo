@@ -75,7 +75,8 @@
     "strokes": 5,
     "grade": 1,
     "freq": 342
-   }
+   },
+   "mnemonic": "口 mouth"
   },
   {
    "slug": "kanji-u5185",
@@ -101,7 +102,8 @@
     "strokes": 4,
     "grade": 2,
     "freq": 44
-   }
+   },
+   "mnemonic": "人 person + 冂 frame"
   },
   {
    "slug": "kanji-u592a",
@@ -128,7 +130,8 @@
     "strokes": 4,
     "grade": 2,
     "freq": 552
-   }
+   },
+   "mnemonic": "大 big"
   },
   {
    "slug": "kanji-u5f15",
@@ -157,7 +160,8 @@
     "strokes": 4,
     "grade": 2,
     "freq": 218
-   }
+   },
+   "mnemonic": "弓 bow"
   },
   {
    "slug": "kanji-u5e02",
@@ -182,7 +186,8 @@
     "strokes": 5,
     "grade": 2,
     "freq": 42
-   }
+   },
+   "mnemonic": "巾 cloth + 亠 lid"
   },
   {
    "slug": "kanji-u4ed6",
@@ -207,7 +212,8 @@
     "strokes": 5,
     "grade": 3,
     "freq": 543
-   }
+   },
+   "mnemonic": "⺅ person + 也 also"
   },
   {
    "slug": "kanji-u53f7",
@@ -233,7 +239,8 @@
     "strokes": 5,
     "grade": 3,
     "freq": 585
-   }
+   },
+   "mnemonic": "口 mouth + 勹 wrap"
   },
   {
    "slug": "kanji-u5e73",
@@ -263,7 +270,8 @@
     "strokes": 5,
     "grade": 3,
     "freq": 128
-   }
+   },
+   "mnemonic": "并 horns"
   },
   {
    "slug": "kanji-u6253",
@@ -291,7 +299,8 @@
     "strokes": 5,
     "grade": 3,
     "freq": 239
-   }
+   },
+   "mnemonic": "扌 hand"
   },
   {
    "slug": "kanji-u7533",
@@ -318,7 +327,8 @@
     "strokes": 5,
     "grade": 3,
     "freq": 492
-   }
+   },
+   "mnemonic": "日 sun + 田 rice field"
   },
   {
    "slug": "kanji-u793c",
@@ -342,7 +352,8 @@
     "strokes": 5,
     "grade": 3,
     "freq": 1185
-   }
+   },
+   "mnemonic": "礻 altar"
   },
   {
    "slug": "kanji-u4ea4",
@@ -376,7 +387,8 @@
     "strokes": 6,
     "grade": 2,
     "freq": 178
-   }
+   },
+   "mnemonic": "父 father + 亠 lid"
   },
   {
    "slug": "kanji-u5149",
@@ -402,7 +414,8 @@
     "strokes": 6,
     "grade": 2,
     "freq": 527
-   }
+   },
+   "mnemonic": "⺌ small + 儿 legs"
   },
   {
    "slug": "kanji-u56de",
@@ -466,7 +479,8 @@
     "strokes": 6,
     "grade": 2,
     "freq": 91
-   }
+   },
+   "mnemonic": "ヨ hand + ⺌ small"
   },
   {
    "slug": "kanji-u7c73",
@@ -521,7 +535,8 @@
     "strokes": 7,
     "grade": 2,
     "freq": 388
-   }
+   },
+   "mnemonic": "士 samurai + 尸 body"
   },
   {
    "slug": "kanji-u5f62",
@@ -550,7 +565,8 @@
     "strokes": 7,
     "grade": 2,
     "freq": 418
-   }
+   },
+   "mnemonic": "廾 two hands + 彡 hair"
   },
   {
    "slug": "kanji-u8349",
@@ -577,7 +593,8 @@
     "strokes": 9,
     "grade": 1,
     "freq": 967
-   }
+   },
+   "mnemonic": "十 ten + 日 sun + ⺾ grass"
   },
   {
    "slug": "kanji-u5316",
@@ -606,7 +623,8 @@
     "strokes": 4,
     "grade": 3,
     "freq": 89
-   }
+   },
+   "mnemonic": "⺅ person + 匕 spoon"
   },
   {
    "slug": "kanji-u4e21",
@@ -632,7 +650,8 @@
     "strokes": 6,
     "grade": 3,
     "freq": 247
-   }
+   },
+   "mnemonic": "冂 frame + 山 mountain"
   },
   {
    "slug": "kanji-u5168",
@@ -658,7 +677,8 @@
     "strokes": 6,
     "grade": 3,
     "freq": 75
-   }
+   },
+   "mnemonic": "王 king + ハ eight + 𠆢 person"
   },
   {
    "slug": "kanji-u5411",
@@ -693,7 +713,8 @@
     "strokes": 6,
     "grade": 3,
     "freq": 182
-   }
+   },
+   "mnemonic": "口 mouth + 冂 frame"
   },
   {
    "slug": "kanji-u66f2",
@@ -720,7 +741,8 @@
     "strokes": 6,
     "grade": 3,
     "freq": 810
-   }
+   },
+   "mnemonic": "日 sun"
   },
   {
    "slug": "kanji-u6b21",
@@ -747,7 +769,8 @@
     "strokes": 6,
     "grade": 3,
     "freq": 222
-   }
+   },
+   "mnemonic": "欠 lack + 冫 ice"
   },
   {
    "slug": "kanji-u76f4",
@@ -779,7 +802,8 @@
     "strokes": 8,
     "grade": 2,
     "freq": 246
-   }
+   },
+   "mnemonic": "十 ten + 目 eye"
   },
   {
    "slug": "kanji-u6d3b",
@@ -806,7 +830,8 @@
     "strokes": 9,
     "grade": 2,
     "freq": 171
-   }
+   },
+   "mnemonic": "十 ten + 氵 water + 舌 tongue"
   },
   {
    "slug": "kanji-u70b9",
@@ -837,7 +862,8 @@
     "strokes": 9,
     "grade": 2,
     "freq": 165
-   }
+   },
+   "mnemonic": "口 mouth + 卜 divination + 灬 fire"
   },
   {
    "slug": "kanji-u79d1",
@@ -860,7 +886,8 @@
     "strokes": 9,
     "grade": 2,
     "freq": 531
-   }
+   },
+   "mnemonic": "禾 grain + 斗 dipper"
   },
   {
    "slug": "kanji-u9996",
@@ -885,7 +912,8 @@
     "strokes": 9,
     "grade": 2,
     "freq": 98
-   }
+   },
+   "mnemonic": "自 oneself + 并 horns + 目 eye"
   },
   {
    "slug": "kanji-u6b20",
@@ -912,7 +940,8 @@
     "strokes": 4,
     "grade": 4,
     "freq": 860
-   }
+   },
+   "mnemonic": "勹 wrap + 人 person"
   },
   {
    "slug": "kanji-u7531",
@@ -940,7 +969,8 @@
     "strokes": 5,
     "grade": 3,
     "freq": 325
-   }
+   },
+   "mnemonic": "日 sun + 田 rice field"
   },
   {
    "slug": "kanji-u6c11",
@@ -965,7 +995,8 @@
     "strokes": 5,
     "grade": 4,
     "freq": 28
-   }
+   },
+   "mnemonic": "口 mouth + 氏 clan"
   },
   {
    "slug": "kanji-u4ed8",
@@ -1004,7 +1035,8 @@
     "strokes": 5,
     "grade": 4,
     "freq": 322
-   }
+   },
+   "mnemonic": "⺅ person + 寸 inch"
   },
   {
    "slug": "kanji-u5931",
@@ -1030,7 +1062,8 @@
     "strokes": 5,
     "grade": 4,
     "freq": 447
-   }
+   },
+   "mnemonic": "人 person + 二 two + 大 big"
   },
   {
    "slug": "kanji-u5fc5",
@@ -1055,7 +1088,8 @@
     "strokes": 5,
     "grade": 4,
     "freq": 265
-   }
+   },
+   "mnemonic": "心 heart"
   },
   {
    "slug": "kanji-u672a",
@@ -1083,7 +1117,8 @@
     "strokes": 5,
     "grade": 4,
     "freq": 650
-   }
+   },
+   "mnemonic": "二 two + ハ eight + 木 tree + 亠 lid"
   },
   {
    "slug": "kanji-u672b",
@@ -1109,7 +1144,8 @@
     "strokes": 5,
     "grade": 4,
     "freq": 456
-   }
+   },
+   "mnemonic": "ハ eight + 木 tree + 亠 lid"
   },
   {
    "slug": "kanji-u8a18",
@@ -1134,7 +1170,8 @@
     "strokes": 10,
     "grade": 2,
     "freq": 149
-   }
+   },
+   "mnemonic": "言 say + 已 snake"
   },
   {
    "slug": "kanji-u7d44",
@@ -1161,7 +1198,8 @@
     "strokes": 11,
     "grade": 2,
     "freq": 204
-   }
+   },
+   "mnemonic": "糸 thread + 目 eye"
   },
   {
    "slug": "kanji-u8239",
@@ -1187,7 +1225,8 @@
     "strokes": 11,
     "grade": 2,
     "freq": 713
-   }
+   },
+   "mnemonic": "口 mouth + 舟 boat + ハ eight"
   },
   {
    "slug": "kanji-u96ea",
@@ -1212,7 +1251,8 @@
     "strokes": 11,
     "grade": 2,
     "freq": 1131
-   }
+   },
+   "mnemonic": "ヨ hand + 雨 rain"
   },
   {
    "slug": "kanji-u652f",
@@ -1239,7 +1279,8 @@
     "strokes": 4,
     "grade": 5,
     "freq": 159
-   }
+   },
+   "mnemonic": "十 ten + 又 hand"
   },
   {
    "slug": "kanji-u52a9",
@@ -1267,7 +1308,8 @@
     "strokes": 7,
     "grade": 3,
     "freq": 397
-   }
+   },
+   "mnemonic": "目 eye + 力 power"
   },
   {
    "slug": "kanji-u541b",
@@ -1293,7 +1335,8 @@
     "strokes": 7,
     "grade": 3,
     "freq": 947
-   }
+   },
+   "mnemonic": "口 mouth"
   },
   {
    "slug": "kanji-u5bfe",
@@ -1324,7 +1367,8 @@
     "strokes": 7,
     "grade": 3,
     "freq": 34
-   }
+   },
+   "mnemonic": "寸 inch + 文 sentence"
   },
   {
    "slug": "kanji-u5c40",
@@ -1349,7 +1393,8 @@
     "strokes": 7,
     "grade": 3,
     "freq": 286
-   }
+   },
+   "mnemonic": "口 mouth + 尸 body"
   },
   {
    "slug": "kanji-u5f79",
@@ -1373,7 +1418,8 @@
     "strokes": 7,
     "grade": 3,
     "freq": 315
-   }
+   },
+   "mnemonic": "彳 step + 殳 weapon"
   },
   {
    "slug": "kanji-u6295",
@@ -1399,7 +1445,8 @@
     "strokes": 7,
     "grade": 3,
     "freq": 236
-   }
+   },
+   "mnemonic": "扌 hand + 殳 weapon"
   },
   {
    "slug": "kanji-u6c7a",
@@ -1427,7 +1474,8 @@
     "strokes": 7,
     "grade": 3,
     "freq": 71
-   }
+   },
+   "mnemonic": "氵 water + 人 person + 大 big + 二 two"
   },
   {
    "slug": "kanji-u99ac",
@@ -1479,7 +1527,8 @@
     "strokes": 12,
     "grade": 2,
     "freq": 348
-   }
+   },
+   "mnemonic": "田 rice field + 釆 sort"
   },
   {
    "slug": "kanji-u7d75",
@@ -1503,7 +1552,8 @@
     "strokes": 12,
     "grade": 2,
     "freq": 895
-   }
+   },
+   "mnemonic": "糸 thread + 二 two + 𠆢 person + 厶 private"
   },
   {
    "slug": "kanji-u6570",
@@ -1536,7 +1586,8 @@
     "strokes": 13,
     "grade": 2,
     "freq": 148
-   }
+   },
+   "mnemonic": "女 woman + 米 rice + 夂 walk"
   },
   {
    "slug": "kanji-u6240",
@@ -1564,7 +1615,8 @@
     "strokes": 8,
     "grade": 3,
     "freq": 221
-   }
+   },
+   "mnemonic": "斤 axe + 戸 door"
   },
   {
    "slug": "kanji-u5177",
@@ -1590,7 +1642,8 @@
     "strokes": 8,
     "grade": 3,
     "freq": 629
-   }
+   },
+   "mnemonic": "ハ eight + 目 eye"
   },
   {
    "slug": "kanji-u53d7",
@@ -1617,7 +1670,8 @@
     "strokes": 8,
     "grade": 3,
     "freq": 136
-   }
+   },
+   "mnemonic": "爪 claw + 又 hand + 冖 cover"
   },
   {
    "slug": "kanji-u548c",
@@ -1648,7 +1702,8 @@
     "strokes": 8,
     "grade": 3,
     "freq": 124
-   }
+   },
+   "mnemonic": "禾 grain + 口 mouth"
   },
   {
    "slug": "kanji-u5b9a",
@@ -1676,7 +1731,8 @@
     "strokes": 8,
     "grade": 3,
     "freq": 48
-   }
+   },
+   "mnemonic": "疋 foot + 宀 roof"
   },
   {
    "slug": "kanji-u5b9f",
@@ -1706,7 +1762,8 @@
     "strokes": 8,
     "grade": 3,
     "freq": 68
-   }
+   },
+   "mnemonic": "士 samurai + 大 big + 宀 roof"
   },
   {
    "slug": "kanji-u6cf3",
@@ -1731,7 +1788,8 @@
     "strokes": 8,
     "grade": 3,
     "freq": 1223
-   }
+   },
+   "mnemonic": "氵 water + 水 water"
   },
   {
    "slug": "kanji-u82e6",
@@ -1761,7 +1819,8 @@
     "strokes": 8,
     "grade": 3,
     "freq": 623
-   }
+   },
+   "mnemonic": "口 mouth + 十 ten + ⺾ grass"
   },
   {
    "slug": "kanji-u8868",
@@ -1790,7 +1849,8 @@
     "strokes": 8,
     "grade": 3,
     "freq": 77
-   }
+   },
+   "mnemonic": "衣 garment + 士 samurai"
   },
   {
    "slug": "kanji-u90e8",
@@ -1815,7 +1875,8 @@
     "strokes": 11,
     "grade": 3,
     "freq": 36
-   }
+   },
+   "mnemonic": "口 mouth + ⻏ village + 立 stand"
   },
   {
    "slug": "kanji-u4e57",
@@ -1843,7 +1904,8 @@
     "strokes": 9,
     "grade": 3,
     "freq": 377
-   }
+   },
+   "mnemonic": "禾 grain + ハ eight"
   },
   {
    "slug": "kanji-u5ba2",
@@ -1867,7 +1929,8 @@
     "strokes": 9,
     "grade": 3,
     "freq": 557
-   }
+   },
+   "mnemonic": "口 mouth + 夂 walk + 宀 roof"
   },
   {
    "slug": "kanji-u76f8",
@@ -1893,7 +1956,8 @@
     "strokes": 9,
     "grade": 3,
     "freq": 45
-   }
+   },
+   "mnemonic": "木 tree + 目 eye"
   },
   {
    "slug": "kanji-u7f8e",
@@ -1919,7 +1983,8 @@
     "strokes": 9,
     "grade": 3,
     "freq": 462
-   }
+   },
+   "mnemonic": "大 big + 羊 sheep"
   },
   {
    "slug": "kanji-u8ca0",
@@ -1946,7 +2011,8 @@
     "strokes": 9,
     "grade": 3,
     "freq": 443
-   }
+   },
+   "mnemonic": "貝 shellfish + 勹 wrap"
   },
   {
    "slug": "kanji-u8ac7",
@@ -1969,7 +2035,8 @@
     "strokes": 15,
     "grade": 3,
     "freq": 272
-   }
+   },
+   "mnemonic": "火 fire + 言 say"
   },
   {
    "slug": "kanji-u8981",
@@ -1995,7 +2062,8 @@
     "strokes": 9,
     "grade": 4,
     "freq": 106
-   }
+   },
+   "mnemonic": "女 woman + 西 west"
   },
   {
    "slug": "kanji-u52dd",
@@ -2024,7 +2092,8 @@
     "strokes": 12,
     "grade": 3,
     "freq": 185
-   }
+   },
+   "mnemonic": "月 moon + 人 person + 大 big + 并 horns + 力 power"
   },
   {
    "slug": "kanji-u901f",
@@ -2052,7 +2121,8 @@
     "strokes": 10,
     "grade": 3,
     "freq": 576
-   }
+   },
+   "mnemonic": "口 mouth + 辶 + ハ eight + 木 tree"
   },
   {
    "slug": "kanji-u914d",
@@ -2077,7 +2147,8 @@
     "strokes": 10,
     "grade": 3,
     "freq": 359
-   }
+   },
+   "mnemonic": "酉 wine jar + 已 snake"
   },
   {
    "slug": "kanji-u9152",
@@ -2103,7 +2174,8 @@
     "strokes": 10,
     "grade": 3,
     "freq": 1006
-   }
+   },
+   "mnemonic": "氵 water + 酉 wine jar"
   },
   {
    "slug": "kanji-u9032",
@@ -2129,7 +2201,8 @@
     "strokes": 11,
     "grade": 3,
     "freq": 142
-   }
+   },
+   "mnemonic": "辶 + 隹 bird"
   },
   {
    "slug": "kanji-u843d",
@@ -2156,7 +2229,8 @@
     "strokes": 12,
     "grade": 3,
     "freq": 420
-   }
+   },
+   "mnemonic": "口 mouth + 氵 water + 夂 walk + ⺾ grass"
   },
   {
    "slug": "kanji-u8449",
@@ -2181,7 +2255,8 @@
     "strokes": 12,
     "grade": 3,
     "freq": 414
-   }
+   },
+   "mnemonic": "木 tree + 世 generation + ⺾ grass"
   },
   {
    "slug": "kanji-u8def",
@@ -2208,7 +2283,8 @@
     "strokes": 13,
     "grade": 3,
     "freq": 529
-   }
+   },
+   "mnemonic": "足 foot + 夂 walk"
   },
   {
    "slug": "kanji-u9cf4",
@@ -2235,7 +2311,8 @@
     "strokes": 14,
     "grade": 2,
     "freq": 1279
-   }
+   },
+   "mnemonic": "口 mouth + 鳥 bird"
   },
   {
    "slug": "kanji-u6a2a",
@@ -2260,7 +2337,8 @@
     "strokes": 15,
     "grade": 3,
     "freq": 480
-   }
+   },
+   "mnemonic": "黄 yellow + 二 two + 日 sun + 木 tree + 廾 two hands"
   },
   {
    "slug": "kanji-u8abf",
@@ -2288,7 +2366,8 @@
     "strokes": 15,
     "grade": 3,
     "freq": 87
-   }
+   },
+   "mnemonic": "言 say + 口 mouth + 土 earth + 冂 frame"
   },
   {
    "slug": "kanji-u982d",
@@ -2318,7 +2397,8 @@
     "strokes": 16,
     "grade": 2,
     "freq": 433
-   }
+   },
+   "mnemonic": "豆 bean + 頁 head"
   },
   {
    "slug": "kanji-u9854",
@@ -2343,7 +2423,8 @@
     "strokes": 18,
     "grade": 2,
     "freq": 676
-   }
+   },
+   "mnemonic": "頁 head + 立 stand + 亠 lid + 厂 cliff + 彡 hair"
   },
   {
    "slug": "kanji-u6700",
@@ -2370,7 +2451,8 @@
     "strokes": 12,
     "grade": 4,
     "freq": 82
-   }
+   },
+   "mnemonic": "耳 ear + 日 sun + 又 hand"
   },
   {
    "slug": "kanji-u4e89",
@@ -2396,7 +2478,8 @@
     "strokes": 6,
     "grade": 4,
     "freq": 271
-   }
+   },
+   "mnemonic": "ヨ hand + 勹 wrap"
   },
   {
    "slug": "kanji-u4f1d",
@@ -2427,7 +2510,8 @@
     "strokes": 6,
     "grade": 4,
     "freq": 416
-   }
+   },
+   "mnemonic": "⺅ person + 二 two + 厶 private"
   },
   {
    "slug": "kanji-u5171",
@@ -2454,7 +2538,8 @@
     "strokes": 6,
     "grade": 4,
     "freq": 174
-   }
+   },
+   "mnemonic": "ハ eight + 二 two"
   },
   {
    "slug": "kanji-u597d",
@@ -2482,7 +2567,8 @@
     "strokes": 6,
     "grade": 4,
     "freq": 423
-   }
+   },
+   "mnemonic": "子 child + 女 woman"
   },
   {
    "slug": "kanji-u6210",
@@ -2510,7 +2596,8 @@
     "strokes": 6,
     "grade": 4,
     "freq": 116
-   }
+   },
+   "mnemonic": "戈 halberd"
   },
   {
    "slug": "kanji-u8001",
@@ -2536,7 +2623,8 @@
     "strokes": 6,
     "grade": 4,
     "freq": 803
-   }
+   },
+   "mnemonic": "⺹ old"
   },
   {
    "slug": "kanji-u4f4d",
@@ -2562,7 +2650,8 @@
     "strokes": 7,
     "grade": 4,
     "freq": 276
-   }
+   },
+   "mnemonic": "⺅ person + 立 stand"
   },
   {
    "slug": "kanji-u521d",
@@ -2593,7 +2682,8 @@
     "strokes": 7,
     "grade": 4,
     "freq": 152
-   }
+   },
+   "mnemonic": "衤 clothes + 刀 sword"
   },
   {
    "slug": "kanji-u5229",
@@ -2618,7 +2708,8 @@
     "strokes": 7,
     "grade": 4,
     "freq": 203
-   }
+   },
+   "mnemonic": "禾 grain + 刂 knife"
   },
   {
    "slug": "kanji-u52aa",
@@ -2643,7 +2734,8 @@
     "strokes": 7,
     "grade": 4,
     "freq": 749
-   }
+   },
+   "mnemonic": "女 woman + 又 hand + 力 power"
   },
   {
    "slug": "kanji-u52b4",
@@ -2673,7 +2765,8 @@
     "strokes": 7,
     "grade": 4,
     "freq": 398
-   }
+   },
+   "mnemonic": "⺌ small + 力 power + 冖 cover"
   },
   {
    "slug": "kanji-u547d",
@@ -2699,7 +2792,8 @@
     "strokes": 8,
     "grade": 3,
     "freq": 465
-   }
+   },
+   "mnemonic": "口 mouth + 𠆢 person + 卩 seal"
   },
   {
    "slug": "kanji-u653e",
@@ -2729,7 +2823,8 @@
     "strokes": 8,
     "grade": 3,
     "freq": 288
-   }
+   },
+   "mnemonic": "方 direction + 攵 strike"
   },
   {
    "slug": "kanji-u6614",
@@ -2755,7 +2850,8 @@
     "strokes": 8,
     "grade": 3,
     "freq": 1197
-   }
+   },
+   "mnemonic": "二 two + 日 sun"
   },
   {
    "slug": "kanji-u80b2",
@@ -2783,7 +2879,8 @@
     "strokes": 8,
     "grade": 3,
     "freq": 369
-   }
+   },
+   "mnemonic": "月 moon + 亠 lid + 厶 private"
   },
   {
    "slug": "kanji-u6307",
@@ -2810,7 +2907,8 @@
     "strokes": 9,
     "grade": 3,
     "freq": 155
-   }
+   },
+   "mnemonic": "日 sun + 匕 spoon + 扌 hand"
   },
   {
    "slug": "kanji-u795e",
@@ -2838,7 +2936,8 @@
     "strokes": 9,
     "grade": 3,
     "freq": 347
-   }
+   },
+   "mnemonic": "日 sun + 礻 altar + 田 rice field"
   },
   {
    "slug": "kanji-u8ffd",
@@ -2863,7 +2962,8 @@
     "strokes": 9,
     "grade": 3,
     "freq": 411
-   }
+   },
+   "mnemonic": "口 mouth + 辶"
   },
   {
    "slug": "kanji-u6226",
@@ -2892,7 +2992,8 @@
     "strokes": 13,
     "grade": 4,
     "freq": 78
-   }
+   },
+   "mnemonic": "十 ten + ⺌ small + 田 rice field + 戈 halberd"
   },
   {
    "slug": "kanji-u826f",
@@ -2920,7 +3021,8 @@
     "strokes": 7,
     "grade": 4,
     "freq": 501
-   }
+   },
+   "mnemonic": "艮 stopping"
   },
   {
    "slug": "kanji-u4fbf",
@@ -2946,7 +3048,8 @@
     "strokes": 9,
     "grade": 4,
     "freq": 729
-   }
+   },
+   "mnemonic": "⺅ person + 日 sun + 田 rice field"
   },
   {
    "slug": "kanji-u50cd",
@@ -2971,7 +3074,8 @@
     "strokes": 13,
     "grade": 4,
     "freq": 417
-   }
+   },
+   "mnemonic": "⺅ person + 力 power + 日 sun"
   },
   {
    "slug": "kanji-u5ead",
@@ -2996,7 +3100,8 @@
     "strokes": 10,
     "grade": 3,
     "freq": 816
-   }
+   },
+   "mnemonic": "王 king + 广 shelter + 廴 stride"
   },
   {
    "slug": "kanji-u606f",
@@ -3021,7 +3126,8 @@
     "strokes": 10,
     "grade": 3,
     "freq": 882
-   }
+   },
+   "mnemonic": "自 oneself + 心 heart"
   },
   {
    "slug": "kanji-u6d41",
@@ -3050,7 +3156,8 @@
     "strokes": 10,
     "grade": 3,
     "freq": 280
-   }
+   },
+   "mnemonic": "氵 water + 川 river + 亠 lid + 厶 private"
   },
   {
    "slug": "kanji-u6d88",
@@ -3076,7 +3183,8 @@
     "strokes": 10,
     "grade": 3,
     "freq": 345
-   }
+   },
+   "mnemonic": "月 moon + 氵 water + ⺌ small"
   },
   {
    "slug": "kanji-u90fd",
@@ -3102,7 +3210,8 @@
     "strokes": 11,
     "grade": 3,
     "freq": 123
-   }
+   },
+   "mnemonic": "日 sun + ⻏ village + ⺹ old"
   },
   {
    "slug": "kanji-u5546",
@@ -3127,7 +3236,8 @@
     "strokes": 11,
     "grade": 3,
     "freq": 413
-   }
+   },
+   "mnemonic": "口 mouth + 并 horns + 立 stand + 亠 lid + 儿 legs + 冂 frame"
   },
   {
    "slug": "kanji-u6df1",
@@ -3156,7 +3266,8 @@
     "strokes": 11,
     "grade": 3,
     "freq": 484
-   }
+   },
+   "mnemonic": "氵 water + 木 tree + 儿 legs + 冖 cover"
   },
   {
    "slug": "kanji-u7403",
@@ -3181,7 +3292,8 @@
     "strokes": 11,
     "grade": 3,
     "freq": 302
-   }
+   },
+   "mnemonic": "王 king + 水 water"
   },
   {
    "slug": "kanji-u967d",
@@ -3206,7 +3318,8 @@
     "strokes": 12,
     "grade": 3,
     "freq": 1071
-   }
+   },
+   "mnemonic": "日 sun + 勿 not + ⻖ hill"
   },
   {
    "slug": "kanji-u5bd2",
@@ -3231,7 +3344,8 @@
     "strokes": 12,
     "grade": 3,
     "freq": 1456
-   }
+   },
+   "mnemonic": "ハ eight + 宀 roof + 井 well"
   },
   {
    "slug": "kanji-u60b2",
@@ -3257,7 +3371,8 @@
     "strokes": 12,
     "grade": 3,
     "freq": 1014
-   }
+   },
+   "mnemonic": "心 heart + 非 un-"
   },
   {
    "slug": "kanji-u671f",
@@ -3281,7 +3396,8 @@
     "strokes": 12,
     "grade": 3,
     "freq": 117
-   }
+   },
+   "mnemonic": "甘 sweet + 月 moon + ハ eight"
   },
   {
    "slug": "kanji-u6b6f",
@@ -3309,7 +3425,8 @@
     "strokes": 12,
     "grade": 3,
     "freq": 1106
-   }
+   },
+   "mnemonic": "止 stop + 米 rice + 凵 container"
   },
   {
    "slug": "kanji-u6e2f",
@@ -3334,7 +3451,8 @@
     "strokes": 12,
     "grade": 3,
     "freq": 495
-   }
+   },
+   "mnemonic": "氵 water + ハ eight + 已 snake + 井 well"
   },
   {
    "slug": "kanji-u767b",
@@ -3364,7 +3482,8 @@
     "strokes": 12,
     "grade": 3,
     "freq": 566
-   }
+   },
+   "mnemonic": "豆 bean + 癶 footsteps"
   },
   {
    "slug": "kanji-u4ea1",
@@ -3394,7 +3513,8 @@
     "strokes": 3,
     "grade": 6,
     "freq": 661
-   }
+   },
+   "mnemonic": "亠 lid"
   },
   {
    "slug": "kanji-u5408",
@@ -3429,7 +3549,8 @@
     "strokes": 6,
     "grade": 2,
     "freq": 41
-   }
+   },
+   "mnemonic": "口 mouth + 𠆢 person"
   },
   {
    "slug": "kanji-u4e88",
@@ -3487,7 +3608,8 @@
     "strokes": 4,
     "grade": 3,
     "freq": 191
-   }
+   },
+   "mnemonic": "又 hand + 厂 cliff"
   },
   {
    "slug": "kanji-u8fd4",
@@ -3515,7 +3637,8 @@
     "strokes": 7,
     "grade": 3,
     "freq": 685
-   }
+   },
+   "mnemonic": "辶 + 又 hand + 厂 cliff"
   },
   {
    "slug": "kanji-u5bbf",
@@ -3542,7 +3665,8 @@
     "strokes": 11,
     "grade": 3,
     "freq": 701
-   }
+   },
+   "mnemonic": "⺅ person + 白 white + 宀 roof"
   },
   {
    "slug": "kanji-u60f3",
@@ -3568,7 +3692,8 @@
     "strokes": 13,
     "grade": 3,
     "freq": 381
-   }
+   },
+   "mnemonic": "心 heart + 木 tree + 目 eye"
   },
   {
    "slug": "kanji-u611f",
@@ -3591,7 +3716,8 @@
     "strokes": 13,
     "grade": 3,
     "freq": 233
-   }
+   },
+   "mnemonic": "口 mouth + 心 heart + 戈 halberd"
   },
   {
    "slug": "kanji-u6697",
@@ -3618,7 +3744,8 @@
     "strokes": 13,
     "grade": 3,
     "freq": 1040
-   }
+   },
+   "mnemonic": "音 sound"
   },
   {
    "slug": "kanji-u69d8",
@@ -3645,7 +3772,8 @@
     "strokes": 14,
     "grade": 3,
     "freq": 493
-   }
+   },
+   "mnemonic": "水 water + 木 tree + 羊 sheep"
   },
   {
    "slug": "kanji-u798f",
@@ -3668,7 +3796,8 @@
     "strokes": 13,
     "grade": 3,
     "freq": 467
-   }
+   },
+   "mnemonic": "口 mouth + 田 rice field + 礻 altar"
   },
   {
    "slug": "kanji-u6bba",
@@ -3697,7 +3826,8 @@
     "strokes": 10,
     "grade": 4,
     "freq": 581
-   }
+   },
+   "mnemonic": "木 tree + 殳 weapon"
   },
   {
    "slug": "kanji-u7136",
@@ -3726,7 +3856,8 @@
     "strokes": 12,
     "grade": 4,
     "freq": 401
-   }
+   },
+   "mnemonic": "犬 dog + 夕 evening + 灬 fire"
   },
   {
    "slug": "kanji-u71b1",
@@ -3751,7 +3882,8 @@
     "strokes": 15,
     "grade": 4,
     "freq": 700
-   }
+   },
+   "mnemonic": "土 earth + 九 nine + 儿 legs + 灬 fire"
   },
   {
    "slug": "kanji-u9078",
@@ -3776,7 +3908,8 @@
     "strokes": 15,
     "grade": 4,
     "freq": 57
-   }
+   },
+   "mnemonic": "辶 + 二 two + ハ eight + 已 snake"
   },
   {
    "slug": "kanji-u9858",
@@ -3802,7 +3935,8 @@
     "strokes": 19,
     "grade": 4,
     "freq": 894
-   }
+   },
+   "mnemonic": "小 small + 白 white + 頁 head + 厂 cliff"
   },
   {
    "slug": "kanji-u60c5",
@@ -3828,7 +3962,8 @@
     "strokes": 11,
     "grade": 5,
     "freq": 235
-   }
+   },
+   "mnemonic": "青 blue + 忄 heart"
   },
   {
    "slug": "kanji-u7591",
@@ -3853,7 +3988,8 @@
     "strokes": 14,
     "grade": 6,
     "freq": 283
-   }
+   },
+   "mnemonic": "疋 foot + 矢 arrow + 匕 spoon"
   },
   {
    "slug": "kanji-u7686",
@@ -3879,7 +4015,8 @@
     "strokes": 9,
     "grade": 8,
     "freq": 1267
-   }
+   },
+   "mnemonic": "白 white + 比 compare"
   },
   {
    "slug": "kanji-u4f8b",
@@ -3904,7 +4041,8 @@
     "strokes": 8,
     "grade": 4,
     "freq": 399
-   }
+   },
+   "mnemonic": "⺅ person + 刂 knife + 歹 death"
   },
   {
    "slug": "kanji-u53c2",
@@ -3933,7 +4071,8 @@
     "strokes": 8,
     "grade": 4,
     "freq": 201
-   }
+   },
+   "mnemonic": "厶 private + 彡 hair"
   },
   {
    "slug": "kanji-u5b8c",
@@ -3956,7 +4095,8 @@
     "strokes": 7,
     "grade": 4,
     "freq": 595
-   }
+   },
+   "mnemonic": "宀 roof + 元 beginning"
   },
   {
    "slug": "kanji-u5ff5",
@@ -3979,7 +4119,8 @@
     "strokes": 8,
     "grade": 4,
     "freq": 390
-   }
+   },
+   "mnemonic": "心 heart + 𠆢 person"
   },
   {
    "slug": "kanji-u6298",
@@ -4009,7 +4150,8 @@
     "strokes": 7,
     "grade": 4,
     "freq": 962
-   }
+   },
+   "mnemonic": "斤 axe + 扌 hand"
   },
   {
    "slug": "kanji-u671b",
@@ -4036,7 +4178,8 @@
     "strokes": 11,
     "grade": 4,
     "freq": 470
-   }
+   },
+   "mnemonic": "王 king + 亡 deceased + 月 moon"
   },
   {
    "slug": "kanji-u675f",
@@ -4064,7 +4207,8 @@
     "strokes": 7,
     "grade": 4,
     "freq": 918
-   }
+   },
+   "mnemonic": "口 mouth + ハ eight + 木 tree"
   },
   {
    "slug": "kanji-u6b8b",
@@ -4093,7 +4237,8 @@
     "strokes": 10,
     "grade": 4,
     "freq": 380
-   }
+   },
+   "mnemonic": "毛 fur + 歹 death"
   },
   {
    "slug": "kanji-u6c42",
@@ -4119,7 +4264,8 @@
     "strokes": 7,
     "grade": 4,
     "freq": 220
-   }
+   },
+   "mnemonic": "水 water"
   },
   {
    "slug": "kanji-u7d04",
@@ -4146,7 +4292,8 @@
     "strokes": 9,
     "grade": 4,
     "freq": 94
-   }
+   },
+   "mnemonic": "糸 thread + 勹 wrap"
   },
   {
    "slug": "kanji-u6027",
@@ -4172,7 +4319,8 @@
     "strokes": 8,
     "grade": 5,
     "freq": 104
-   }
+   },
+   "mnemonic": "生 life + 忄 heart"
   },
   {
    "slug": "kanji-u683c",
@@ -4198,7 +4346,8 @@
     "strokes": 10,
     "grade": 5,
     "freq": 281
-   }
+   },
+   "mnemonic": "口 mouth + 木 tree + 夂 walk"
   },
   {
    "slug": "kanji-u80fd",
@@ -4223,7 +4372,8 @@
     "strokes": 10,
     "grade": 5,
     "freq": 273
-   }
+   },
+   "mnemonic": "月 moon + 匕 spoon + 厶 private"
   },
   {
    "slug": "kanji-u8853",
@@ -4248,7 +4398,8 @@
     "strokes": 11,
     "grade": 5,
     "freq": 350
-   }
+   },
+   "mnemonic": "行 go + 十 ten + 木 tree"
   },
   {
    "slug": "kanji-u6674",
@@ -4277,7 +4428,8 @@
     "strokes": 12,
     "grade": 2,
     "freq": 1022
-   }
+   },
+   "mnemonic": "青 blue + 日 sun"
   },
   {
    "slug": "kanji-u5217",
@@ -4301,7 +4453,8 @@
     "strokes": 6,
     "grade": 3,
     "freq": 927
-   }
+   },
+   "mnemonic": "刂 knife + 歹 death"
   },
   {
    "slug": "kanji-u5f0f",
@@ -4324,7 +4477,8 @@
     "strokes": 6,
     "grade": 3,
     "freq": 251
-   }
+   },
+   "mnemonic": "工 craft + 弋 stake"
   },
   {
    "slug": "kanji-u4fe1",
@@ -4347,7 +4501,8 @@
     "strokes": 9,
     "grade": 4,
     "freq": 208
-   }
+   },
+   "mnemonic": "⺅ person + 言 say"
   },
   {
    "slug": "kanji-u5358",
@@ -4372,7 +4527,8 @@
     "strokes": 9,
     "grade": 4,
     "freq": 586
-   }
+   },
+   "mnemonic": "十 ten + ⺌ small + 田 rice field"
   },
   {
    "slug": "kanji-u5909",
@@ -4399,7 +4555,8 @@
     "strokes": 9,
     "grade": 4,
     "freq": 238
-   }
+   },
+   "mnemonic": "亠 lid + 夂 walk"
   },
   {
    "slug": "kanji-u592b",
@@ -4427,7 +4584,8 @@
     "strokes": 4,
     "grade": 4,
     "freq": 335
-   }
+   },
+   "mnemonic": "人 person + 二 two + 大 big"
   },
   {
    "slug": "kanji-u6628",
@@ -4450,7 +4608,8 @@
     "strokes": 9,
     "grade": 4,
     "freq": 226
-   }
+   },
+   "mnemonic": "日 sun"
   },
   {
    "slug": "kanji-u6cd5",
@@ -4478,7 +4637,8 @@
     "strokes": 8,
     "grade": 4,
     "freq": 100
-   }
+   },
+   "mnemonic": "氵 water + 土 earth + 厶 private"
   },
   {
    "slug": "kanji-u6669",
@@ -4501,7 +4661,8 @@
     "strokes": 12,
     "grade": 6,
     "freq": 1424
-   }
+   },
+   "mnemonic": "免 excuse + 日 sun"
   },
   {
    "slug": "kanji-u732b",
@@ -4526,7 +4687,8 @@
     "strokes": 11,
     "grade": 8,
     "freq": 1702
-   }
+   },
+   "mnemonic": "田 rice field + 犭 dog + ⺾ grass"
   },
   {
    "slug": "kanji-u5712",
@@ -4551,7 +4713,8 @@
     "strokes": 13,
     "grade": 2,
     "freq": 628
-   }
+   },
+   "mnemonic": "衣 garment + 土 earth"
   },
   {
    "slug": "kanji-u9060",
@@ -4577,7 +4740,8 @@
     "strokes": 13,
     "grade": 2,
     "freq": 887
-   }
+   },
+   "mnemonic": "衣 garment + 口 mouth + 辶 + 土 earth"
   },
   {
    "slug": "kanji-u4fc2",
@@ -4605,7 +4769,8 @@
     "strokes": 9,
     "grade": 3,
     "freq": 232
-   }
+   },
+   "mnemonic": "⺅ person + 糸 thread"
   },
   {
    "slug": "kanji-u53d6",
@@ -4634,7 +4799,8 @@
     "strokes": 8,
     "grade": 3,
     "freq": 122
-   }
+   },
+   "mnemonic": "耳 ear + 又 hand"
   },
   {
    "slug": "kanji-u5b88",
@@ -4664,7 +4830,8 @@
     "strokes": 6,
     "grade": 3,
     "freq": 457
-   }
+   },
+   "mnemonic": "寸 inch + 宀 roof"
   },
   {
    "slug": "kanji-u5e78",
@@ -4691,7 +4858,8 @@
     "strokes": 8,
     "grade": 3,
     "freq": 786
-   }
+   },
+   "mnemonic": "辛 spicy + 亠 lid"
   },
   {
    "slug": "kanji-u7bb1",
@@ -4716,7 +4884,8 @@
     "strokes": 15,
     "grade": 3,
     "freq": 1357
-   }
+   },
+   "mnemonic": "竹 bamboo + 木 tree + 目 eye"
   },
   {
    "slug": "kanji-u9762",
@@ -4770,7 +4939,8 @@
     "strokes": 12,
     "grade": 4,
     "freq": 769
-   }
+   },
+   "mnemonic": "士 samurai + 豆 bean"
   },
   {
    "slug": "kanji-u6cbb",
@@ -4799,7 +4969,8 @@
     "strokes": 8,
     "grade": 4,
     "freq": 109
-   }
+   },
+   "mnemonic": "口 mouth + 氵 water + 厶 private"
   },
   {
    "slug": "kanji-u7b11",
@@ -4825,7 +4996,8 @@
     "strokes": 10,
     "grade": 4,
     "freq": 913
-   }
+   },
+   "mnemonic": "禾 grain + 竹 bamboo + 大 big"
   },
   {
    "slug": "kanji-u8f9e",
@@ -4851,7 +5023,8 @@
     "strokes": 13,
     "grade": 4,
     "freq": 633
-   }
+   },
+   "mnemonic": "辛 spicy + 舌 tongue"
   },
   {
    "slug": "kanji-u95a2",
@@ -4880,7 +5053,8 @@
     "strokes": 14,
     "grade": 4,
     "freq": 70
-   }
+   },
+   "mnemonic": "人 person + 大 big + ハ eight + 門 gate + 并 horns"
   },
   {
    "slug": "kanji-u653f",
@@ -4907,7 +5081,8 @@
     "strokes": 9,
     "grade": 5,
     "freq": 17
-   }
+   },
+   "mnemonic": "止 stop + 攵 strike"
   },
   {
    "slug": "kanji-u7559",
@@ -4937,7 +5112,8 @@
     "strokes": 10,
     "grade": 5,
     "freq": 731
-   }
+   },
+   "mnemonic": "田 rice field + 刀 sword + 厶 private"
   },
   {
    "slug": "kanji-u967a",
@@ -4962,7 +5138,8 @@
     "strokes": 11,
     "grade": 5,
     "freq": 707
-   }
+   },
+   "mnemonic": "口 mouth + 人 person + 𠆢 person + ⻖ hill"
   },
   {
    "slug": "kanji-u5371",
@@ -4989,7 +5166,8 @@
     "strokes": 6,
     "grade": 6,
     "freq": 606
-   }
+   },
+   "mnemonic": "勹 wrap + 厂 cliff + 卩 seal"
   },
   {
    "slug": "kanji-u5b58",
@@ -5018,7 +5196,8 @@
     "strokes": 6,
     "grade": 6,
     "freq": 577
-   }
+   },
+   "mnemonic": "子 child"
   },
   {
    "slug": "kanji-u539f",
@@ -5043,7 +5222,8 @@
     "strokes": 10,
     "grade": 2,
     "freq": 172
-   }
+   },
+   "mnemonic": "小 small + 白 white + 厂 cliff"
   },
   {
    "slug": "kanji-u85ac",
@@ -5068,7 +5248,8 @@
     "strokes": 16,
     "grade": 3,
     "freq": 702
-   }
+   },
+   "mnemonic": "日 sun + 木 tree + 冫 ice + ⺾ grass"
   },
   {
    "slug": "kanji-u5074",
@@ -5095,7 +5276,8 @@
     "strokes": 11,
     "grade": 4,
     "freq": 216
-   }
+   },
+   "mnemonic": "⺅ person + 貝 shellfish + 刂 knife"
   },
   {
    "slug": "kanji-u5e2d",
@@ -5120,7 +5302,8 @@
     "strokes": 10,
     "grade": 4,
     "freq": 370
-   }
+   },
+   "mnemonic": "巾 cloth + 广 shelter"
   },
   {
    "slug": "kanji-u6557",
@@ -5145,7 +5328,8 @@
     "strokes": 11,
     "grade": 4,
     "freq": 516
-   }
+   },
+   "mnemonic": "貝 shellfish + 攵 strike"
   },
   {
    "slug": "kanji-u679c",
@@ -5175,7 +5359,8 @@
     "strokes": 8,
     "grade": 4,
     "freq": 258
-   }
+   },
+   "mnemonic": "田 rice field + 木 tree"
   },
   {
    "slug": "kanji-u56e0",
@@ -5201,7 +5386,8 @@
     "strokes": 6,
     "grade": 5,
     "freq": 636
-   }
+   },
+   "mnemonic": "大 big + 囗 enclosure"
   },
   {
    "slug": "kanji-u5e38",
@@ -5227,7 +5413,8 @@
     "strokes": 11,
     "grade": 5,
     "freq": 293
-   }
+   },
+   "mnemonic": "巾 cloth + 口 mouth + ⺌ small + 冖 cover"
   },
   {
    "slug": "kanji-u8b58",
@@ -5253,7 +5440,8 @@
     "strokes": 19,
     "grade": 5,
     "freq": 496
-   }
+   },
+   "mnemonic": "音 sound + 言 say + 戈 halberd"
   },
   {
    "slug": "kanji-u975e",
@@ -5301,7 +5489,8 @@
     "strokes": 8,
     "grade": 4,
     "freq": 230
-   }
+   },
+   "mnemonic": "口 mouth + 宀 roof"
   },
   {
    "slug": "kanji-u5bdf",
@@ -5324,7 +5513,8 @@
     "strokes": 14,
     "grade": 4,
     "freq": 477
-   }
+   },
+   "mnemonic": "示 show + 宀 roof + 癶 footsteps"
   },
   {
    "slug": "kanji-u611b",
@@ -5353,7 +5543,8 @@
     "strokes": 13,
     "grade": 4,
     "freq": 640
-   }
+   },
+   "mnemonic": "心 heart + 爪 claw + 冖 cover + 夂 walk"
   },
   {
    "slug": "kanji-u8b66",
@@ -5378,7 +5569,8 @@
     "strokes": 19,
     "grade": 6,
     "freq": 366
-   }
+   },
+   "mnemonic": "言 say + 口 mouth + 勹 wrap + 夂 walk + ⺾ grass"
   },
   {
    "slug": "kanji-u899a",
@@ -5406,7 +5598,8 @@
     "strokes": 12,
     "grade": 4,
     "freq": 710
-   }
+   },
+   "mnemonic": "見 see + ⺌ small + 冖 cover"
   },
   {
    "slug": "kanji-u8aac",
@@ -5432,7 +5625,8 @@
     "strokes": 14,
     "grade": 4,
     "freq": 326
-   }
+   },
+   "mnemonic": "言 say + 口 mouth + 并 horns + 儿 legs"
   },
   {
    "slug": "kanji-u544a",
@@ -5457,7 +5651,8 @@
     "strokes": 7,
     "grade": 4,
     "freq": 188
-   }
+   },
+   "mnemonic": "口 mouth + 土 earth"
   },
   {
    "slug": "kanji-u7a2e",
@@ -5483,7 +5678,8 @@
     "strokes": 14,
     "grade": 4,
     "freq": 461
-   }
+   },
+   "mnemonic": "禾 grain + 日 sun + 里 village"
   },
   {
    "slug": "kanji-u9054",
@@ -5509,7 +5705,8 @@
     "strokes": 12,
     "grade": 4,
     "freq": 500
-   }
+   },
+   "mnemonic": "辶 + 土 earth + 羊 sheep"
   },
   {
    "slug": "kanji-u985e",
@@ -5534,7 +5731,8 @@
     "strokes": 18,
     "grade": 4,
     "freq": 678
-   }
+   },
+   "mnemonic": "大 big + 米 rice + 頁 head"
   },
   {
    "slug": "kanji-u5831",
@@ -5559,7 +5757,8 @@
     "strokes": 12,
     "grade": 5,
     "freq": 167
-   }
+   },
+   "mnemonic": "辛 spicy + 土 earth + 又 hand + 亠 lid + 卩 seal"
   },
   {
    "slug": "kanji-u7b49",
@@ -5586,7 +5785,8 @@
     "strokes": 12,
     "grade": 3,
     "freq": 798
-   }
+   },
+   "mnemonic": "寸 inch + 竹 bamboo + 土 earth"
   },
   {
    "slug": "kanji-u5ea7",
@@ -5611,7 +5811,8 @@
     "strokes": 10,
     "grade": 6,
     "freq": 588
-   }
+   },
+   "mnemonic": "土 earth + 人 person + 广 shelter"
   },
   {
    "slug": "kanji-u5fd8",
@@ -5636,7 +5837,8 @@
     "strokes": 7,
     "grade": 6,
     "freq": 1129
-   }
+   },
+   "mnemonic": "心 heart + 亡 deceased"
   },
   {
    "slug": "kanji-u6d17",
@@ -5661,7 +5863,8 @@
     "strokes": 9,
     "grade": 6,
     "freq": 1168
-   }
+   },
+   "mnemonic": "氵 water + 土 earth + 儿 legs"
   },
   {
    "slug": "kanji-u8a31",
@@ -5687,7 +5890,8 @@
     "strokes": 11,
     "grade": 5,
     "freq": 720
-   }
+   },
+   "mnemonic": "干 dry + 言 say"
   },
   {
    "slug": "kanji-u9759",
@@ -5716,7 +5920,8 @@
     "strokes": 14,
     "grade": 4,
     "freq": 764
-   }
+   },
+   "mnemonic": "青 blue + 勹 wrap + ヨ hand"
   },
   {
    "slug": "kanji-u7159",
@@ -5743,7 +5948,8 @@
     "strokes": 13,
     "grade": 8,
     "freq": 1290
-   }
+   },
+   "mnemonic": "火 fire + 西 west + 土 earth"
   },
   {
    "slug": "kanji-u52a0",
@@ -5769,7 +5975,8 @@
     "strokes": 5,
     "grade": 4,
     "freq": 130
-   }
+   },
+   "mnemonic": "口 mouth + 力 power"
   },
   {
    "slug": "kanji-u5bb9",
@@ -5794,7 +6001,8 @@
     "strokes": 10,
     "grade": 5,
     "freq": 264
-   }
+   },
+   "mnemonic": "穴 hole + 谷 valley"
   },
   {
    "slug": "kanji-u6613",
@@ -5821,7 +6029,8 @@
     "strokes": 8,
     "grade": 5,
     "freq": 571
-   }
+   },
+   "mnemonic": "日 sun + 勿 not"
   },
   {
    "slug": "kanji-u8ca1",
@@ -5848,7 +6057,8 @@
     "strokes": 10,
     "grade": 5,
     "freq": 494
-   }
+   },
+   "mnemonic": "貝 shellfish"
   },
   {
    "slug": "kanji-u82e5",
@@ -5880,7 +6090,8 @@
     "strokes": 8,
     "grade": 6,
     "freq": 458
-   }
+   },
+   "mnemonic": "口 mouth + ⺾ grass"
   },
   {
    "slug": "kanji-u5fd9",
@@ -5909,7 +6120,8 @@
     "strokes": 6,
     "grade": 8,
     "freq": 1475
-   }
+   },
+   "mnemonic": "亡 deceased + 忄 heart"
   },
   {
    "slug": "kanji-u5f92",
@@ -5935,7 +6147,8 @@
     "strokes": 10,
     "grade": 4,
     "freq": 817
-   }
+   },
+   "mnemonic": "走 run + 彳 step"
   },
   {
    "slug": "kanji-u5f97",
@@ -5961,7 +6174,8 @@
     "strokes": 11,
     "grade": 4,
     "freq": 175
-   }
+   },
+   "mnemonic": "寸 inch + 日 sun + 彳 step"
   },
   {
    "slug": "kanji-u7d9a",
@@ -5991,7 +6205,8 @@
     "strokes": 13,
     "grade": 4,
     "freq": 141
-   }
+   },
+   "mnemonic": "士 samurai + 糸 thread + 儿 legs + 冖 cover"
   },
   {
    "slug": "kanji-u9023",
@@ -6019,7 +6234,8 @@
     "strokes": 10,
     "grade": 4,
     "freq": 30
-   }
+   },
+   "mnemonic": "辶 + 車 car"
   },
   {
    "slug": "kanji-u56f0",
@@ -6044,7 +6260,8 @@
     "strokes": 7,
     "grade": 6,
     "freq": 843
-   }
+   },
+   "mnemonic": "木 tree + 囗 enclosure"
   },
   {
    "slug": "kanji-u6a5f",
@@ -6069,7 +6286,8 @@
     "strokes": 16,
     "grade": 4,
     "freq": 127
-   }
+   },
+   "mnemonic": "木 tree + 幺 thread + 戈 halberd"
   },
   {
    "slug": "kanji-u98db",
@@ -6119,7 +6337,8 @@
     "strokes": 10,
     "grade": 4,
     "freq": 358
-   }
+   },
+   "mnemonic": "口 mouth + 土 earth + 亠 lid + 宀 roof"
   },
   {
    "slug": "kanji-u4f59",
@@ -6147,7 +6366,8 @@
     "strokes": 7,
     "grade": 5,
     "freq": 680
-   }
+   },
+   "mnemonic": "ハ eight + 𠆢 person + 示 show"
   },
   {
    "slug": "kanji-u96e3",
@@ -6177,7 +6397,8 @@
     "strokes": 18,
     "grade": 6,
     "freq": 330
-   }
+   },
+   "mnemonic": "⺾ grass + 隹 bird + 大 big + 口 mouth + 亠 lid"
   },
   {
    "slug": "kanji-u78ba",
@@ -6204,7 +6425,8 @@
     "strokes": 15,
     "grade": 5,
     "freq": 252
-   }
+   },
+   "mnemonic": "石 stone + 宀 roof + 隹 bird"
   },
   {
    "slug": "kanji-u5728",
@@ -6229,7 +6451,8 @@
     "strokes": 6,
     "grade": 5,
     "freq": 211
-   }
+   },
+   "mnemonic": "土 earth"
   },
   {
    "slug": "kanji-u5922",
@@ -6257,7 +6480,8 @@
     "strokes": 13,
     "grade": 5,
     "freq": 943
-   }
+   },
+   "mnemonic": "罒 net + 夕 evening + 冖 cover + ⺾ grass"
   },
   {
    "slug": "kanji-u7523",
@@ -6285,7 +6509,8 @@
     "strokes": 11,
     "grade": 4,
     "freq": 161
-   }
+   },
+   "mnemonic": "生 life + 并 horns + 立 stand + 亠 lid + 厂 cliff"
   },
   {
    "slug": "kanji-u5012",
@@ -6315,7 +6540,8 @@
     "strokes": 10,
     "grade": 8,
     "freq": 791
-   }
+   },
+   "mnemonic": "⺅ person + 刂 knife + 至 arrive"
   },
   {
    "slug": "kanji-u59bb",
@@ -6340,7 +6566,8 @@
     "strokes": 8,
     "grade": 5,
     "freq": 691
-   }
+   },
+   "mnemonic": "ヨ hand + 女 woman"
   },
   {
    "slug": "kanji-u8b70",
@@ -6363,7 +6590,8 @@
     "strokes": 20,
     "grade": 4,
     "freq": 25
-   }
+   },
+   "mnemonic": "言 say + 羊 sheep + 戈 halberd + 手 hand"
   },
   {
    "slug": "kanji-u72af",
@@ -6389,7 +6617,8 @@
     "strokes": 5,
     "grade": 5,
     "freq": 874
-   }
+   },
+   "mnemonic": "犭 dog + 卩 seal"
   },
   {
    "slug": "kanji-u7f6a",
@@ -6414,7 +6643,8 @@
     "strokes": 13,
     "grade": 5,
     "freq": 732
-   }
+   },
+   "mnemonic": "罒 net + 非 un-"
   },
   {
    "slug": "kanji-u8ad6",
@@ -6437,7 +6667,8 @@
     "strokes": 15,
     "grade": 6,
     "freq": 227
-   }
+   },
+   "mnemonic": "言 say + 𠆢 person + 冊 tome"
   },
   {
    "slug": "kanji-u7d4c",
@@ -6468,7 +6699,8 @@
     "strokes": 11,
     "grade": 5,
     "freq": 79
-   }
+   },
+   "mnemonic": "糸 thread + 土 earth + 又 hand"
   },
   {
    "slug": "kanji-u6e08",
@@ -6503,7 +6735,8 @@
     "strokes": 11,
     "grade": 6,
     "freq": 168
-   }
+   },
+   "mnemonic": "氵 water + 斉 even"
   },
   {
    "slug": "kanji-u5224",
@@ -6529,7 +6762,8 @@
     "strokes": 7,
     "grade": 5,
     "freq": 197
-   }
+   },
+   "mnemonic": "刂 knife + 并 horns"
   },
   {
    "slug": "kanji-u5236",
@@ -6552,7 +6786,8 @@
     "strokes": 8,
     "grade": 5,
     "freq": 108
-   }
+   },
+   "mnemonic": "刂 knife + 牛 cow + 巾 cloth + 二 two"
   },
   {
    "slug": "kanji-u52d9",
@@ -6577,7 +6812,8 @@
     "strokes": 11,
     "grade": 5,
     "freq": 111
-   }
+   },
+   "mnemonic": "矛 spear + 力 power + 夂 walk"
   },
   {
    "slug": "kanji-u8cc7",
@@ -6600,7 +6836,8 @@
     "strokes": 13,
     "grade": 5,
     "freq": 179
-   }
+   },
+   "mnemonic": "貝 shellfish + 欠 lack + 冫 ice"
   },
   {
    "slug": "kanji-u6a29",
@@ -6628,7 +6865,8 @@
     "strokes": 15,
     "grade": 6,
     "freq": 156
-   }
+   },
+   "mnemonic": "矢 arrow + 木 tree + 隹 bird"
   },
   {
    "slug": "kanji-u4ef6",
@@ -6653,7 +6891,8 @@
     "strokes": 6,
     "grade": 5,
     "freq": 212
-   }
+   },
+   "mnemonic": "⺅ person + 牛 cow"
   },
   {
    "slug": "kanji-u65ad",
@@ -6680,7 +6919,8 @@
     "strokes": 11,
     "grade": 5,
     "freq": 338
-   }
+   },
+   "mnemonic": "斤 axe + 米 rice"
   },
   {
    "slug": "kanji-u4efb",
@@ -6706,7 +6946,8 @@
     "strokes": 6,
     "grade": 5,
     "freq": 217
-   }
+   },
+   "mnemonic": "王 king + ⺅ person + 士 samurai"
   },
   {
    "slug": "kanji-u8cac",
@@ -6731,7 +6972,8 @@
     "strokes": 11,
     "grade": 5,
     "freq": 598
-   }
+   },
+   "mnemonic": "貝 shellfish + 土 earth + 亠 lid"
   },
   {
    "slug": "kanji-u5897",
@@ -6759,7 +7001,8 @@
     "strokes": 14,
     "grade": 5,
     "freq": 231
-   }
+   },
+   "mnemonic": "田 rice field + 土 earth + 日 sun + 并 horns"
   },
   {
    "slug": "kanji-u89e3",
@@ -6791,7 +7034,8 @@
     "strokes": 13,
     "grade": 5,
     "freq": 176
-   }
+   },
+   "mnemonic": "角 angle + 牛 cow + 刀 sword"
   },
   {
    "slug": "kanji-u969b",
@@ -6817,7 +7061,8 @@
     "strokes": 14,
     "grade": 5,
     "freq": 183
-   }
+   },
+   "mnemonic": "示 show + 癶 footsteps + ⻖ hill"
   },
   {
    "slug": "kanji-u8a8d",
@@ -6843,7 +7088,8 @@
     "strokes": 14,
     "grade": 6,
     "freq": 198
-   }
+   },
+   "mnemonic": "言 say + 心 heart + 刀 sword"
   },
   {
    "slug": "kanji-u904e",
@@ -6874,7 +7120,8 @@
     "strokes": 12,
     "grade": 5,
     "freq": 285
-   }
+   },
+   "mnemonic": "口 mouth + 辶 + 冂 frame"
   },
   {
    "slug": "kanji-u5bdd",
@@ -6903,7 +7150,8 @@
     "strokes": 13,
     "grade": 8,
     "freq": 1034
-   }
+   },
+   "mnemonic": "ヨ hand + 又 hand + 冖 cover + 宀 roof + 爿 bed"
   },
   {
    "slug": "kanji-u7f6e",
@@ -6929,7 +7177,8 @@
     "strokes": 13,
     "grade": 4,
     "freq": 277
-   }
+   },
+   "mnemonic": "十 ten + 罒 net + 目 eye"
   },
   {
    "slug": "kanji-u8cbb",
@@ -6955,7 +7204,8 @@
     "strokes": 12,
     "grade": 4,
     "freq": 321
-   }
+   },
+   "mnemonic": "貝 shellfish + 弓 bow"
   },
   {
    "slug": "kanji-u793a",
@@ -6981,7 +7231,8 @@
     "strokes": 5,
     "grade": 5,
     "freq": 237
-   }
+   },
+   "mnemonic": "二 two + 小 small"
   },
   {
    "slug": "kanji-u89b3",
@@ -7007,7 +7258,8 @@
     "strokes": 18,
     "grade": 4,
     "freq": 476
-   }
+   },
+   "mnemonic": "見 see + 隹 bird + 矢 arrow"
   },
   {
    "slug": "kanji-u5024",
@@ -7033,7 +7285,8 @@
     "strokes": 10,
     "grade": 6,
     "freq": 518
-   }
+   },
+   "mnemonic": "⺅ person + 十 ten + 目 eye"
   },
   {
    "slug": "kanji-u5438",
@@ -7058,7 +7311,8 @@
     "strokes": 6,
     "grade": 6,
     "freq": 1054
-   }
+   },
+   "mnemonic": "口 mouth + 及 reach"
   },
   {
    "slug": "kanji-u72b6",
@@ -7081,7 +7335,8 @@
     "strokes": 7,
     "grade": 5,
     "freq": 298
-   }
+   },
+   "mnemonic": "犬 dog + 爿 bed"
   },
   {
    "slug": "kanji-u53ce",
@@ -7107,7 +7362,8 @@
     "strokes": 4,
     "grade": 6,
     "freq": 337
-   }
+   },
+   "mnemonic": "又 hand"
   },
   {
    "slug": "kanji-u8077",
@@ -7131,7 +7387,8 @@
     "strokes": 18,
     "grade": 5,
     "freq": 305
-   }
+   },
+   "mnemonic": "音 sound + 耳 ear + 戈 halberd"
   },
   {
    "slug": "kanji-u898f",
@@ -7154,7 +7411,8 @@
     "strokes": 11,
     "grade": 5,
     "freq": 349
-   }
+   },
+   "mnemonic": "見 see + 土 earth + 大 big"
   },
   {
    "slug": "kanji-u5272",
@@ -7183,7 +7441,8 @@
     "strokes": 12,
     "grade": 6,
     "freq": 318
-   }
+   },
+   "mnemonic": "刂 knife + 口 mouth + 土 earth + 宀 roof + 亠 lid"
   },
   {
    "slug": "kanji-u6f14",
@@ -7206,7 +7465,8 @@
     "strokes": 14,
     "grade": 5,
     "freq": 267
-   }
+   },
+   "mnemonic": "氵 water + 田 rice field + ハ eight + 宀 roof"
   },
   {
    "slug": "kanji-u5e2b",
@@ -7231,7 +7491,8 @@
     "strokes": 10,
     "grade": 5,
     "freq": 563
-   }
+   },
+   "mnemonic": "巾 cloth + 口 mouth"
   },
   {
    "slug": "kanji-u5099",
@@ -7258,7 +7519,8 @@
     "strokes": 12,
     "grade": 5,
     "freq": 356
-   }
+   },
+   "mnemonic": "⺅ person + 用 utilize + 厂 cliff + ⺾ grass"
   },
   {
    "slug": "kanji-u512a",
@@ -7286,7 +7548,8 @@
     "strokes": 17,
     "grade": 6,
     "freq": 334
-   }
+   },
+   "mnemonic": "⺅ person + 心 heart + 白 white + 冖 cover + 夂 walk + 自 oneself"
   },
   {
    "slug": "kanji-u5b85",
@@ -7309,7 +7572,8 @@
     "strokes": 6,
     "grade": 6,
     "freq": 357
-   }
+   },
+   "mnemonic": "宀 roof"
   },
   {
    "slug": "kanji-u73fe",
@@ -7337,7 +7601,8 @@
     "strokes": 11,
     "grade": 5,
     "freq": 85
-   }
+   },
+   "mnemonic": "王 king + 見 see"
   },
   {
    "slug": "kanji-u547c",
@@ -7362,7 +7627,8 @@
     "strokes": 8,
     "grade": 6,
     "freq": 498
-   }
+   },
+   "mnemonic": "口 mouth + 并 horns"
   },
   {
    "slug": "kanji-u9055",
@@ -7392,7 +7658,8 @@
     "strokes": 13,
     "grade": 8,
     "freq": 344
-   }
+   },
+   "mnemonic": "辶 + 韋 leather"
   },
   {
    "slug": "kanji-u5dee",
@@ -7418,7 +7685,8 @@
     "strokes": 10,
     "grade": 4,
     "freq": 449
-   }
+   },
+   "mnemonic": "工 craft + 羊 sheep"
   },
   {
    "slug": "kanji-u4f9b",
@@ -7448,7 +7716,8 @@
     "strokes": 8,
     "grade": 6,
     "freq": 313
-   }
+   },
+   "mnemonic": "⺅ person + 二 two + ハ eight"
   },
   {
    "slug": "kanji-u9650",
@@ -7475,7 +7744,8 @@
     "strokes": 9,
     "grade": 5,
     "freq": 405
-   }
+   },
+   "mnemonic": "艮 stopping + ⻖ hill"
   },
   {
    "slug": "kanji-u4e0e",
@@ -7503,7 +7773,8 @@
     "strokes": 3,
     "grade": 8,
     "freq": 308
-   }
+   },
+   "mnemonic": "勹 wrap + 卜 divination"
   },
   {
    "slug": "kanji-u6e21",
@@ -7530,7 +7801,8 @@
     "strokes": 12,
     "grade": 8,
     "freq": 446
-   }
+   },
+   "mnemonic": "氵 water + 又 hand + 广 shelter"
   },
   {
    "slug": "kanji-u666f",
@@ -7553,7 +7825,8 @@
     "strokes": 12,
     "grade": 4,
     "freq": 419
-   }
+   },
+   "mnemonic": "口 mouth + 小 small + 日 sun + 亠 lid"
   },
   {
    "slug": "kanji-u629c",
@@ -7585,7 +7858,8 @@
     "strokes": 7,
     "grade": 8,
     "freq": 726
-   }
+   },
+   "mnemonic": "夂 walk + 亠 lid + 扌 hand + 又 hand"
   },
   {
    "slug": "kanji-u5019",
@@ -7610,7 +7884,8 @@
     "strokes": 10,
     "grade": 4,
     "freq": 510
-   }
+   },
+   "mnemonic": "⺅ person + 矢 arrow"
   },
   {
    "slug": "kanji-u69cb",
@@ -7636,7 +7911,8 @@
     "strokes": 14,
     "grade": 5,
     "freq": 316
-   }
+   },
+   "mnemonic": "木 tree + 冂 frame + 十 ten"
   },
   {
    "slug": "kanji-u6355",
@@ -7667,7 +7943,8 @@
     "strokes": 10,
     "grade": 8,
     "freq": 604
-   }
+   },
+   "mnemonic": "十 ten + 用 utilize + 扌 hand"
   },
   {
    "slug": "kanji-u6163",
@@ -7693,7 +7970,8 @@
     "strokes": 14,
     "grade": 5,
     "freq": 1177
-   }
+   },
+   "mnemonic": "貝 shellfish + 忄 heart"
   },
   {
    "slug": "kanji-u6e80",
@@ -7721,7 +7999,8 @@
     "strokes": 12,
     "grade": 4,
     "freq": 515
-   }
+   },
+   "mnemonic": "氵 water + 二 two + 冂 frame + 山 mountain"
   },
   {
    "slug": "kanji-u639b",
@@ -7758,7 +8037,8 @@
     "strokes": 11,
     "grade": 8,
     "freq": 1027
-   }
+   },
+   "mnemonic": "土 earth + 卜 divination + 扌 hand"
   },
   {
    "slug": "kanji-u5c45",
@@ -7786,7 +8066,8 @@
     "strokes": 8,
     "grade": 5,
     "freq": 836
-   }
+   },
+   "mnemonic": "口 mouth + 十 ten + 尸 body"
   },
   {
    "slug": "kanji-u7a81",
@@ -7812,7 +8093,8 @@
     "strokes": 8,
     "grade": 8,
     "freq": 521
-   }
+   },
+   "mnemonic": "穴 hole + 大 big + 儿 legs"
   },
   {
    "slug": "kanji-u62db",
@@ -7837,7 +8119,8 @@
     "strokes": 8,
     "grade": 5,
     "freq": 840
-   }
+   },
+   "mnemonic": "口 mouth + 刀 sword + 扌 hand"
   },
   {
    "slug": "kanji-u6bb5",
@@ -7861,7 +8144,8 @@
     "strokes": 9,
     "grade": 6,
     "freq": 479
-   }
+   },
+   "mnemonic": "殳 weapon"
   },
   {
    "slug": "kanji-u8179",
@@ -7886,7 +8170,8 @@
     "strokes": 13,
     "grade": 6,
     "freq": 1286
-   }
+   },
+   "mnemonic": "月 moon + 日 sun + 夂 walk"
   },
   {
    "slug": "kanji-u75db",
@@ -7914,7 +8199,8 @@
     "strokes": 12,
     "grade": 6,
     "freq": 903
-   }
+   },
+   "mnemonic": "用 utilize + 疒 sickness"
   },
   {
    "slug": "kanji-u9000",
@@ -7944,7 +8230,8 @@
     "strokes": 9,
     "grade": 5,
     "freq": 424
-   }
+   },
+   "mnemonic": "辶 + 艮 stopping"
   },
   {
    "slug": "kanji-u8ff7",
@@ -7969,7 +8256,8 @@
     "strokes": 9,
     "grade": 5,
     "freq": 942
-   }
+   },
+   "mnemonic": "辶 + 米 rice"
   },
   {
    "slug": "kanji-u8a2a",
@@ -7996,7 +8284,8 @@
     "strokes": 11,
     "grade": 6,
     "freq": 372
-   }
+   },
+   "mnemonic": "言 say + 方 direction"
   },
   {
    "slug": "kanji-u6012",
@@ -8023,7 +8312,8 @@
     "strokes": 9,
     "grade": 8,
     "freq": 1221
-   }
+   },
+   "mnemonic": "女 woman + 心 heart + 又 hand"
   },
   {
    "slug": "kanji-u7720",
@@ -8049,7 +8339,8 @@
     "strokes": 10,
     "grade": 8,
     "freq": 1315
-   }
+   },
+   "mnemonic": "口 mouth + 氏 clan + 目 eye"
   },
   {
    "slug": "kanji-u9774",
@@ -8074,7 +8365,8 @@
     "strokes": 13,
     "grade": 8,
     "freq": 1561
-   }
+   },
+   "mnemonic": "⺅ person + 革 leather + 匕 spoon"
   },
   {
    "slug": "kanji-u9014",
@@ -8099,7 +8391,8 @@
     "strokes": 10,
     "grade": 8,
     "freq": 717
-   }
+   },
+   "mnemonic": "辶 + ハ eight + 𠆢 person + 木 tree"
   },
   {
    "slug": "kanji-u7d66",
@@ -8126,7 +8419,8 @@
     "strokes": 12,
     "grade": 4,
     "freq": 615
-   }
+   },
+   "mnemonic": "口 mouth + 糸 thread + 𠆢 person"
   },
   {
    "slug": "kanji-u51b7",
@@ -8158,7 +8452,8 @@
     "strokes": 7,
     "grade": 4,
     "freq": 667
-   }
+   },
+   "mnemonic": "𠆢 person + 冫 ice + 卩 seal"
   },
   {
    "slug": "kanji-u51e6",
@@ -8185,7 +8480,8 @@
     "strokes": 5,
     "grade": 6,
     "freq": 547
-   }
+   },
+   "mnemonic": "几 table + 夂 walk"
   },
   {
    "slug": "kanji-u5a66",
@@ -8210,7 +8506,8 @@
     "strokes": 11,
     "grade": 5,
     "freq": 671
-   }
+   },
+   "mnemonic": "ヨ hand + 巾 cloth + 女 woman + 冖 cover"
   },
   {
    "slug": "kanji-u7a0b",
@@ -8236,7 +8533,8 @@
     "strokes": 12,
     "grade": 5,
     "freq": 514
-   }
+   },
+   "mnemonic": "王 king + 禾 grain + 口 mouth"
   },
   {
    "slug": "kanji-u7cbe",
@@ -8263,7 +8561,8 @@
     "strokes": 14,
     "grade": 5,
     "freq": 752
-   }
+   },
+   "mnemonic": "青 blue + 米 rice"
   },
   {
    "slug": "kanji-u7d76",
@@ -8290,7 +8589,8 @@
     "strokes": 12,
     "grade": 5,
     "freq": 784
-   }
+   },
+   "mnemonic": "糸 thread + 色 color"
   },
   {
    "slug": "kanji-u676f",
@@ -8315,7 +8615,8 @@
     "strokes": 8,
     "grade": 8,
     "freq": 1235
-   }
+   },
+   "mnemonic": "木 tree + 礻 altar"
   },
   {
    "slug": "kanji-u7a4d",
@@ -8343,7 +8644,8 @@
     "strokes": 16,
     "grade": 4,
     "freq": 541
-   }
+   },
+   "mnemonic": "禾 grain + 貝 shellfish + 土 earth + 亠 lid"
   },
   {
    "slug": "kanji-u5bc4",
@@ -8370,7 +8672,8 @@
     "strokes": 11,
     "grade": 5,
     "freq": 673
-   }
+   },
+   "mnemonic": "口 mouth + 大 big + 宀 roof"
   },
   {
    "slug": "kanji-u5a18",
@@ -8396,7 +8699,8 @@
     "strokes": 10,
     "grade": 8,
     "freq": 1145
-   }
+   },
+   "mnemonic": "艮 stopping + 女 woman"
   },
   {
    "slug": "kanji-u6016",
@@ -8425,7 +8729,8 @@
     "strokes": 8,
     "grade": 8,
     "freq": 1325
-   }
+   },
+   "mnemonic": "巾 cloth + 忄 heart"
   },
   {
    "slug": "kanji-u6050",
@@ -8454,7 +8759,8 @@
     "strokes": 10,
     "grade": 8,
     "freq": 878
-   }
+   },
+   "mnemonic": "工 craft + 心 heart + 几 table"
   },
   {
    "slug": "kanji-u5a5a",
@@ -8477,7 +8783,8 @@
     "strokes": 11,
     "grade": 8,
     "freq": 767
-   }
+   },
+   "mnemonic": "氏 clan + 女 woman + 日 sun"
   },
   {
    "slug": "kanji-u904a",
@@ -8504,7 +8811,8 @@
     "strokes": 12,
     "grade": 3,
     "freq": 941
-   }
+   },
+   "mnemonic": "辶 + 子 child + 方 direction"
   },
   {
    "slug": "kanji-u8ca7",
@@ -8530,7 +8838,8 @@
     "strokes": 11,
     "grade": 5,
     "freq": 1211
-   }
+   },
+   "mnemonic": "貝 shellfish + 刀 sword"
   },
   {
    "slug": "kanji-u9069",
@@ -8555,7 +8864,8 @@
     "strokes": 14,
     "grade": 5,
     "freq": 670
-   }
+   },
+   "mnemonic": "辶 + 滴 drip"
   },
   {
    "slug": "kanji-u62bc",
@@ -8584,7 +8894,8 @@
     "strokes": 8,
     "grade": 8,
     "freq": 789
-   }
+   },
+   "mnemonic": "日 sun + 扌 hand + 田 rice field"
   },
   {
    "slug": "kanji-u66f4",
@@ -8612,7 +8923,8 @@
     "strokes": 7,
     "grade": 8,
     "freq": 861
-   }
+   },
+   "mnemonic": "日 sun"
   },
   {
    "slug": "kanji-u6d6e",
@@ -8641,7 +8953,8 @@
     "strokes": 10,
     "grade": 8,
     "freq": 776
-   }
+   },
+   "mnemonic": "子 child + 氵 water + 爪 claw"
   },
   {
    "slug": "kanji-u8d8a",
@@ -8671,7 +8984,8 @@
     "strokes": 12,
     "grade": 8,
     "freq": 897
-   }
+   },
+   "mnemonic": "走 run + 戈 halberd"
   },
   {
    "slug": "kanji-u80cc",
@@ -8699,7 +9013,8 @@
     "strokes": 9,
     "grade": 6,
     "freq": 696
-   }
+   },
+   "mnemonic": "月 moon + 匕 spoon + 爿 bed"
   },
   {
    "slug": "kanji-u76d7",
@@ -8725,7 +9040,8 @@
     "strokes": 11,
     "grade": 8,
     "freq": 1051
-   }
+   },
+   "mnemonic": "欠 lack + 皿 dish + 冫 ice"
   },
   {
    "slug": "kanji-u9664",
@@ -8752,7 +9068,8 @@
     "strokes": 10,
     "grade": 6,
     "freq": 594
-   }
+   },
+   "mnemonic": "禾 grain + 𠆢 person + ⻖ hill"
   },
   {
    "slug": "kanji-u5e7e",
@@ -8779,7 +9096,8 @@
     "strokes": 12,
     "grade": 8,
     "freq": 1725
-   }
+   },
+   "mnemonic": "幺 thread + 戈 halberd"
   },
   {
    "slug": "kanji-u6563",
@@ -8811,7 +9129,8 @@
     "strokes": 12,
     "grade": 4,
     "freq": 758
-   }
+   },
+   "mnemonic": "月 moon + 攵 strike"
   },
   {
    "slug": "kanji-u4f3c",
@@ -8837,7 +9156,8 @@
     "strokes": 7,
     "grade": 5,
     "freq": 923
-   }
+   },
+   "mnemonic": "⺅ person + 人 person"
   },
   {
    "slug": "kanji-u5bcc",
@@ -8864,7 +9184,8 @@
     "strokes": 12,
     "grade": 5,
     "freq": 644
-   }
+   },
+   "mnemonic": "口 mouth + 田 rice field + 宀 roof"
   },
   {
    "slug": "kanji-u63a2",
@@ -8890,7 +9211,8 @@
     "strokes": 11,
     "grade": 6,
     "freq": 930
-   }
+   },
+   "mnemonic": "木 tree + 儿 legs + 冖 cover + 扌 hand"
   },
   {
    "slug": "kanji-u8fce",
@@ -8915,7 +9237,8 @@
     "strokes": 7,
     "grade": 8,
     "freq": 625
-   }
+   },
+   "mnemonic": "辶 + 卩 seal"
   },
   {
    "slug": "kanji-u7956",
@@ -8938,7 +9261,8 @@
     "strokes": 9,
     "grade": 5,
     "freq": 1226
-   }
+   },
+   "mnemonic": "目 eye + 礻 altar"
   },
   {
    "slug": "kanji-u96d1",
@@ -8965,7 +9289,8 @@
     "strokes": 14,
     "grade": 5,
     "freq": 839
-   }
+   },
+   "mnemonic": "木 tree + 隹 bird + 九 nine"
   },
   {
    "slug": "kanji-u8cdb",
@@ -8991,7 +9316,8 @@
     "strokes": 15,
     "grade": 5,
     "freq": 868
-   }
+   },
+   "mnemonic": "貝 shellfish + 人 person + 大 big + 二 two + 亠 lid"
   },
   {
    "slug": "kanji-u8fbc",
@@ -9018,7 +9344,8 @@
     "strokes": 5,
     "grade": 8,
     "freq": 675
-   }
+   },
+   "mnemonic": "辶 + 入 enter"
   },
   {
    "slug": "kanji-u6b32",
@@ -9044,7 +9371,8 @@
     "strokes": 11,
     "grade": 6,
     "freq": 902
-   }
+   },
+   "mnemonic": "欠 lack + 谷 valley"
   },
   {
    "slug": "kanji-u9589",
@@ -9073,7 +9401,8 @@
     "strokes": 11,
     "grade": 6,
     "freq": 951
-   }
+   },
+   "mnemonic": "門 gate"
   },
   {
    "slug": "kanji-u7a93",
@@ -9101,7 +9430,8 @@
     "strokes": 11,
     "grade": 6,
     "freq": 1186
-   }
+   },
+   "mnemonic": "穴 hole + 心 heart + 儿 legs + 厶 private"
   },
   {
    "slug": "kanji-u5426",
@@ -9127,7 +9457,8 @@
     "strokes": 7,
     "grade": 6,
     "freq": 561
-   }
+   },
+   "mnemonic": "口 mouth"
   },
   {
    "slug": "kanji-u66ae",
@@ -9153,7 +9484,8 @@
     "strokes": 14,
     "grade": 6,
     "freq": 978
-   }
+   },
+   "mnemonic": "大 big + 日 sun + ⺾ grass"
   },
   {
    "slug": "kanji-u8aa4",
@@ -9179,7 +9511,8 @@
     "strokes": 14,
     "grade": 6,
     "freq": 1150
-   }
+   },
+   "mnemonic": "言 say + 口 mouth + ハ eight"
   },
   {
    "slug": "kanji-u964d",
@@ -9210,7 +9543,8 @@
     "strokes": 10,
     "grade": 6,
     "freq": 596
-   }
+   },
+   "mnemonic": "夂 walk + ⻖ hill + 十 ten"
   },
   {
    "slug": "kanji-u52e4",
@@ -9239,7 +9573,8 @@
     "strokes": 12,
     "grade": 6,
     "freq": 830
-   }
+   },
+   "mnemonic": "土 earth + 力 power + ⺾ grass + 口 mouth"
   },
   {
    "slug": "kanji-u523b",
@@ -9265,7 +9600,8 @@
     "strokes": 8,
     "grade": 6,
     "freq": 866
-   }
+   },
+   "mnemonic": "刂 knife + 亠 lid"
   },
   {
    "slug": "kanji-u9045",
@@ -9292,7 +9628,8 @@
     "strokes": 12,
     "grade": 8,
     "freq": 833
-   }
+   },
+   "mnemonic": "辶 + 羊 sheep + 尸 body"
   },
   {
    "slug": "kanji-u7834",
@@ -9319,7 +9656,8 @@
     "strokes": 10,
     "grade": 5,
     "freq": 590
-   }
+   },
+   "mnemonic": "石 stone + 皮 pelt"
   },
   {
    "slug": "kanji-u4e92",
@@ -9345,7 +9683,8 @@
     "strokes": 4,
     "grade": 8,
     "freq": 914
-   }
+   },
+   "mnemonic": "彑 snout"
   },
   {
    "slug": "kanji-u5f7c",
@@ -9372,7 +9711,8 @@
     "strokes": 8,
     "grade": 8,
     "freq": 648
-   }
+   },
+   "mnemonic": "皮 pelt + 彳 step"
   },
   {
    "slug": "kanji-u6065",
@@ -9400,7 +9740,8 @@
     "strokes": 10,
     "grade": 8,
     "freq": 1575
-   }
+   },
+   "mnemonic": "耳 ear + 心 heart"
   },
   {
    "slug": "kanji-u6255",
@@ -9429,7 +9770,8 @@
     "strokes": 5,
     "grade": 8,
     "freq": 813
-   }
+   },
+   "mnemonic": "厶 private + 扌 hand"
   },
   {
    "slug": "kanji-u821e",
@@ -9456,7 +9798,8 @@
     "strokes": 15,
     "grade": 8,
     "freq": 655
-   }
+   },
+   "mnemonic": "舛 opposite + 二 two + 無 nothing"
   },
   {
    "slug": "kanji-u983c",
@@ -9483,7 +9826,8 @@
     "strokes": 16,
     "grade": 8,
     "freq": 708
-   }
+   },
+   "mnemonic": "口 mouth + 頁 head + 木 tree"
   },
   {
    "slug": "kanji-u623b",
@@ -9509,7 +9853,8 @@
     "strokes": 7,
     "grade": 8,
     "freq": 890
-   }
+   },
+   "mnemonic": "戸 door + 大 big"
   },
   {
    "slug": "kanji-u62b1",
@@ -9536,7 +9881,8 @@
     "strokes": 8,
     "grade": 8,
     "freq": 871
-   }
+   },
+   "mnemonic": "勹 wrap + 已 snake + 扌 hand"
   },
   {
    "slug": "kanji-u7dd2",
@@ -9563,7 +9909,8 @@
     "strokes": 14,
     "grade": 8,
     "freq": 952
-   }
+   },
+   "mnemonic": "糸 thread + 日 sun + ⺹ old"
   },
   {
    "slug": "kanji-u9003",
@@ -9591,7 +9938,8 @@
     "strokes": 9,
     "grade": 8,
     "freq": 931
-   }
+   },
+   "mnemonic": "辶 + 儿 legs + 冫 ice"
   },
   {
    "slug": "kanji-u5fa1",
@@ -9619,7 +9967,8 @@
     "strokes": 12,
     "grade": 8,
     "freq": 1087
-   }
+   },
+   "mnemonic": "止 stop + 卩 seal + 彳 step"
   },
   {
    "slug": "kanji-u5439",
@@ -9644,7 +9993,8 @@
     "strokes": 7,
     "grade": 8,
     "freq": 1133
-   }
+   },
+   "mnemonic": "欠 lack + 口 mouth"
   },
   {
    "slug": "kanji-u5230",
@@ -9669,7 +10019,8 @@
     "strokes": 8,
     "grade": 8,
     "freq": 1032
-   }
+   },
+   "mnemonic": "刂 knife + 至 arrive"
   },
   {
    "slug": "kanji-u9aea",
@@ -9694,7 +10045,8 @@
     "strokes": 14,
     "grade": 8,
     "freq": 1474
-   }
+   },
+   "mnemonic": "夂 walk + 髟 long hair"
   },
   {
    "slug": "kanji-u75b2",
@@ -9721,7 +10073,8 @@
     "strokes": 10,
     "grade": 8,
     "freq": 1263
-   }
+   },
+   "mnemonic": "皮 pelt + 疒 sickness"
   },
   {
    "slug": "kanji-u6b73",
@@ -9749,7 +10102,8 @@
     "strokes": 13,
     "grade": 8,
     "freq": 269
-   }
+   },
+   "mnemonic": "止 stop + 小 small + 戈 halberd"
   },
   {
    "slug": "kanji-u5076",
@@ -9774,7 +10128,8 @@
     "strokes": 11,
     "grade": 8,
     "freq": 1602
-   }
+   },
+   "mnemonic": "⺅ person + 田 rice field + 禸 track"
   },
   {
    "slug": "kanji-u5049",
@@ -9799,7 +10154,8 @@
     "strokes": 12,
     "grade": 8,
     "freq": 1639
-   }
+   },
+   "mnemonic": "⺅ person + 韋 leather"
   },
   {
    "slug": "kanji-u9802",
@@ -9825,7 +10181,8 @@
     "strokes": 11,
     "grade": 6,
     "freq": 1350
-   }
+   },
+   "mnemonic": "頁 head"
   }
  ]
 }

@@ -10,7 +10,6 @@
    "term": "一",
    "romaji": "hito/hitotsu/ichi/itsu",
    "meaning": "One",
-   "mnemonic": "One single horizontal line",
    "examples": [
     {
      "jp": "一つ (hitotsu)",
@@ -37,7 +36,8 @@
     "strokes": 1,
     "grade": 1,
     "freq": 2
-   }
+   },
+   "mnemonic": "One single horizontal line"
   },
   {
    "slug": "kanji-two",
@@ -46,7 +46,6 @@
    "term": "二",
    "romaji": "futa/futatsu/futatabi/ni/ji",
    "meaning": "Two",
-   "mnemonic": "Two horizontal lines",
    "examples": [
     {
      "jp": "二つ (futatsu)",
@@ -74,7 +73,8 @@
     "strokes": 2,
     "grade": 1,
     "freq": 9
-   }
+   },
+   "mnemonic": "Two horizontal lines"
   },
   {
    "slug": "kanji-nine",
@@ -83,7 +83,6 @@
    "term": "九",
    "romaji": "kokono/kokonotsu/kyuu/ku",
    "meaning": "Nine",
-   "mnemonic": "Like the number 9",
    "examples": [
     {
      "jp": "九つ (kokonotsu)",
@@ -110,7 +109,8 @@
     "strokes": 2,
     "grade": 1,
     "freq": 55
-   }
+   },
+   "mnemonic": "Like the number 9"
   },
   {
    "slug": "kanji-seven",
@@ -119,7 +119,6 @@
    "term": "七",
    "romaji": "nana/nanatsu/nano/shichi",
    "meaning": "Seven",
-   "mnemonic": "Looks like the number 7",
    "examples": [
     {
      "jp": "七つ (nanatsu)",
@@ -146,7 +145,8 @@
     "strokes": 2,
     "grade": 1,
     "freq": 115
-   }
+   },
+   "mnemonic": "匕 spoon"
   },
   {
    "slug": "kanji-person",
@@ -155,7 +155,6 @@
    "term": "人",
    "romaji": "hito/ri/to/jin/nin",
    "meaning": "Person",
-   "mnemonic": "A person walking",
    "examples": [
     {
      "jp": "日本人 (nihonjin)",
@@ -185,7 +184,8 @@
     "strokes": 2,
     "grade": 1,
     "freq": 5
-   }
+   },
+   "mnemonic": "A person walking"
   },
   {
    "slug": "kanji-enter",
@@ -194,7 +194,6 @@
    "term": "入",
    "romaji": "iru/iri/ireru/ire/hairu/nyuu/ju",
    "meaning": "Enter",
-   "mnemonic": "An arrow going in",
    "examples": [
     {
      "jp": "入る (hairu)",
@@ -225,7 +224,8 @@
     "strokes": 2,
     "grade": 1,
     "freq": 56
-   }
+   },
+   "mnemonic": "An arrow going in"
   },
   {
    "slug": "kanji-eight",
@@ -234,7 +234,6 @@
    "term": "八",
    "romaji": "ya/yatsu/yattsu/you/hachi",
    "meaning": "Eight",
-   "mnemonic": "Two strokes spreading out",
    "examples": [
     {
      "jp": "八つ (yattsu)",
@@ -262,7 +261,8 @@
     "strokes": 2,
     "grade": 1,
     "freq": 92
-   }
+   },
+   "mnemonic": "ハ eight"
   },
   {
    "slug": "kanji-ten",
@@ -271,7 +271,6 @@
    "term": "十",
    "romaji": "too/to/juu/ji/ju",
    "meaning": "Ten",
-   "mnemonic": "A cross — perfect ten",
    "examples": [
     {
      "jp": "十 (juu)",
@@ -299,7 +298,8 @@
     "strokes": 2,
     "grade": 1,
     "freq": 8
-   }
+   },
+   "mnemonic": "A cross — perfect ten"
   },
   {
    "slug": "kanji-three",
@@ -308,7 +308,6 @@
    "term": "三",
    "romaji": "mi/mitsu/mittsu/san/zou",
    "meaning": "Three",
-   "mnemonic": "Three horizontal lines",
    "examples": [
     {
      "jp": "三つ (mittsu)",
@@ -336,7 +335,8 @@
     "strokes": 3,
     "grade": 1,
     "freq": 14
-   }
+   },
+   "mnemonic": "二 two"
   },
   {
    "slug": "kanji-above",
@@ -345,7 +345,6 @@
    "term": "上",
    "romaji": "ue/uwa/kami/ageru/agaru/agari/noboru/nobori/noboseru/nobosu/tatematsuru/jou/shou/shan",
    "meaning": "Above / Up",
-   "mnemonic": "An arrow pointing up",
    "examples": [
     {
      "jp": "上 (ue)",
@@ -388,7 +387,8 @@
     "strokes": 3,
     "grade": 1,
     "freq": 35
-   }
+   },
+   "mnemonic": "卜 divination"
   },
   {
    "slug": "kanji-below",
@@ -397,7 +397,6 @@
    "term": "下",
    "romaji": "shita/shimo/moto/sageru/sagaru/kudaru/kudari/kudasu/kudasaru/orosu/oriru/ka/ge",
    "meaning": "Below / Down",
-   "mnemonic": "An arrow pointing down",
    "examples": [
     {
      "jp": "下 (shita)",
@@ -436,7 +435,8 @@
     "strokes": 3,
     "grade": 1,
     "freq": 97
-   }
+   },
+   "mnemonic": "卜 divination"
   },
   {
    "slug": "kanji-mouth",
@@ -445,7 +445,6 @@
    "term": "口",
    "romaji": "kuchi/kou/ku",
    "meaning": "Mouth",
-   "mnemonic": "An open mouth shape",
    "examples": [
     {
      "jp": "入口 (iriguchi)",
@@ -473,7 +472,8 @@
     "strokes": 3,
     "grade": 1,
     "freq": 284
-   }
+   },
+   "mnemonic": "囗 enclosure"
   },
   {
    "slug": "kanji-big",
@@ -482,7 +482,6 @@
    "term": "大",
    "romaji": "oo/ookii/ooini/dai/tai",
    "meaning": "Big / Large",
-   "mnemonic": "A person with arms spread wide",
    "examples": [
     {
      "jp": "大きい (ookii)",
@@ -512,7 +511,8 @@
     "strokes": 3,
     "grade": 1,
     "freq": 7
-   }
+   },
+   "mnemonic": "A person with arms spread wide"
   },
   {
    "slug": "kanji-woman",
@@ -521,7 +521,6 @@
    "term": "女",
    "romaji": "onna/me/jo/nyo/nyou",
    "meaning": "Woman / Female",
-   "mnemonic": "A woman kneeling",
    "examples": [
     {
      "jp": "女の人 (onna no hito)",
@@ -551,7 +550,8 @@
     "strokes": 3,
     "grade": 1,
     "freq": 151
-   }
+   },
+   "mnemonic": "A woman kneeling"
   },
   {
    "slug": "kanji-mountain",
@@ -560,7 +560,6 @@
    "term": "山",
    "romaji": "yama/san/sen",
    "meaning": "Mountain",
-   "mnemonic": "Three mountain peaks",
    "examples": [
     {
      "jp": "富士山 (fujisan)",
@@ -588,7 +587,8 @@
     "strokes": 3,
     "grade": 1,
     "freq": 131
-   }
+   },
+   "mnemonic": "Three mountain peaks"
   },
   {
    "slug": "kanji-river",
@@ -597,7 +597,6 @@
    "term": "川",
    "romaji": "kawa/sen",
    "meaning": "River",
-   "mnemonic": "Three flowing streams",
    "examples": [
     {
      "jp": "川 (kawa)",
@@ -624,7 +623,8 @@
     "strokes": 3,
     "grade": 1,
     "freq": 181
-   }
+   },
+   "mnemonic": "Three flowing streams"
   },
   {
    "slug": "kanji-earth",
@@ -633,7 +633,6 @@
    "term": "土",
    "romaji": "tsuchi/do/to",
    "meaning": "Earth / Soil",
-   "mnemonic": "A cross on the ground",
    "examples": [
     {
      "jp": "土曜日 (doyoubi)",
@@ -661,7 +660,8 @@
     "strokes": 3,
     "grade": 1,
     "freq": 307
-   }
+   },
+   "mnemonic": "A cross on the ground"
   },
   {
    "slug": "kanji-thousand",
@@ -670,7 +670,6 @@
    "term": "千",
    "romaji": "chi/sen",
    "meaning": "Thousand",
-   "mnemonic": "A person with a line through",
    "examples": [
     {
      "jp": "千円 (senen)",
@@ -695,7 +694,8 @@
     "strokes": 3,
     "grade": 1,
     "freq": 195
-   }
+   },
+   "mnemonic": "十 ten"
   },
   {
    "slug": "kanji-child",
@@ -704,7 +704,6 @@
    "term": "子",
    "romaji": "ko/ne/shi/su/tsu",
    "meaning": "Child",
-   "mnemonic": "A child with outstretched arms",
    "examples": [
     {
      "jp": "子供 (kodomo)",
@@ -735,7 +734,8 @@
     "strokes": 3,
     "grade": 1,
     "freq": 72
-   }
+   },
+   "mnemonic": "A child with outstretched arms"
   },
   {
    "slug": "kanji-small",
@@ -744,7 +744,6 @@
    "term": "小",
    "romaji": "chiisai/ko/o/sa/shou",
    "meaning": "Small / Little",
-   "mnemonic": "A small cross shape",
    "examples": [
     {
      "jp": "小さい (chiisai)",
@@ -774,7 +773,8 @@
     "strokes": 3,
     "grade": 1,
     "freq": 114
-   }
+   },
+   "mnemonic": "A small cross shape"
   },
   {
    "slug": "kanji-middle",
@@ -783,7 +783,6 @@
    "term": "中",
    "romaji": "naka/uchi/ataru/chuu",
    "meaning": "Middle / Inside",
-   "mnemonic": "A line through the middle of a box",
    "examples": [
     {
      "jp": "中国 (chuugoku)",
@@ -812,7 +811,8 @@
     "strokes": 4,
     "grade": 1,
     "freq": 11
-   }
+   },
+   "mnemonic": "口 mouth"
   },
   {
    "slug": "kanji-five",
@@ -821,7 +821,6 @@
    "term": "五",
    "romaji": "itsu/itsutsu/go",
    "meaning": "Five",
-   "mnemonic": "Five strokes like fingers",
    "examples": [
     {
      "jp": "五つ (itsutsu)",
@@ -847,7 +846,8 @@
     "strokes": 4,
     "grade": 1,
     "freq": 31
-   }
+   },
+   "mnemonic": "二 two"
   },
   {
    "slug": "kanji-six",
@@ -856,7 +856,6 @@
    "term": "六",
    "romaji": "mu/mutsu/muttsu/mui/roku/riku",
    "meaning": "Six",
-   "mnemonic": "A roof with two legs",
    "examples": [
     {
      "jp": "六つ (muttsu)",
@@ -885,7 +884,8 @@
     "strokes": 4,
     "grade": 1,
     "freq": 93
-   }
+   },
+   "mnemonic": "ハ eight + 亠 lid"
   },
   {
    "slug": "kanji-yen",
@@ -894,7 +894,6 @@
    "term": "円",
    "romaji": "marui/maru/mado/madoka/maroyaka/en",
    "meaning": "Yen / Circle",
-   "mnemonic": "A round coin",
    "examples": [
     {
      "jp": "百円 (hyakuen)",
@@ -923,7 +922,8 @@
     "strokes": 4,
     "grade": 1,
     "freq": 69
-   }
+   },
+   "mnemonic": "冂 frame + 亠 lid"
   },
   {
    "slug": "kanji-hand",
@@ -932,7 +932,6 @@
    "term": "手",
    "romaji": "te/ta/shu/zu",
    "meaning": "Hand",
-   "mnemonic": "Fingers spread out",
    "examples": [
     {
      "jp": "手 (te)",
@@ -963,7 +962,8 @@
     "strokes": 4,
     "grade": 1,
     "freq": 60
-   }
+   },
+   "mnemonic": "Fingers spread out"
   },
   {
    "slug": "kanji-sun",
@@ -972,7 +972,6 @@
    "term": "日",
    "romaji": "hi/bi/ka/nichi/jitsu",
    "meaning": "Sun / Day",
-   "mnemonic": "A rectangle with a line — the sun",
    "examples": [
     {
      "jp": "今日 (kyou)",
@@ -1002,7 +1001,8 @@
     "strokes": 4,
     "grade": 1,
     "freq": 1
-   }
+   },
+   "mnemonic": "A rectangle with a line — the sun"
   },
   {
    "slug": "kanji-moon",
@@ -1011,7 +1011,6 @@
    "term": "月",
    "romaji": "tsuki/getsu/gatsu",
    "meaning": "Moon / Month",
-   "mnemonic": "Crescent moon shape",
    "examples": [
     {
      "jp": "今月 (kongetsu)",
@@ -1039,7 +1038,8 @@
     "strokes": 4,
     "grade": 1,
     "freq": 23
-   }
+   },
+   "mnemonic": "Crescent moon shape"
   },
   {
    "slug": "kanji-tree",
@@ -1048,7 +1048,6 @@
    "term": "木",
    "romaji": "ki/ko/boku/moku",
    "meaning": "Tree / Wood",
-   "mnemonic": "A tree with roots and branches",
    "examples": [
     {
      "jp": "木曜日 (mokuyoubi)",
@@ -1077,7 +1076,8 @@
     "strokes": 4,
     "grade": 1,
     "freq": 317
-   }
+   },
+   "mnemonic": "A tree with roots and branches"
   },
   {
    "slug": "kanji-water",
@@ -1086,7 +1086,6 @@
    "term": "水",
    "romaji": "mizu/sui",
    "meaning": "Water",
-   "mnemonic": "Flowing water streams",
    "examples": [
     {
      "jp": "水曜日 (suiyoubi)",
@@ -1114,7 +1113,8 @@
     "strokes": 4,
     "grade": 1,
     "freq": 223
-   }
+   },
+   "mnemonic": "Flowing water streams"
   },
   {
    "slug": "kanji-fire",
@@ -1123,7 +1123,6 @@
    "term": "火",
    "romaji": "hi/bi/ho/ka",
    "meaning": "Fire",
-   "mnemonic": "Flames shooting up",
    "examples": [
     {
      "jp": "火曜日 (kayoubi)",
@@ -1152,7 +1151,8 @@
     "strokes": 4,
     "grade": 1,
     "freq": 574
-   }
+   },
+   "mnemonic": "Flames shooting up"
   },
   {
    "slug": "kanji-exit",
@@ -1161,7 +1161,6 @@
    "term": "出",
    "romaji": "deru/de/dasu/ideru/idasu/shutsu/sui",
    "meaning": "Exit / Go out",
-   "mnemonic": "Mountains coming out of the ground",
    "examples": [
     {
      "jp": "出る (deru)",
@@ -1192,7 +1191,8 @@
     "strokes": 5,
     "grade": 1,
     "freq": 13
-   }
+   },
+   "mnemonic": "山 mountain"
   },
   {
    "slug": "kanji-right",
@@ -1201,7 +1201,6 @@
    "term": "右",
    "romaji": "migi/u/yuu",
    "meaning": "Right",
-   "mnemonic": "A hand pointing right",
    "examples": [
     {
      "jp": "右に曲がる (migi ni magaru)",
@@ -1227,7 +1226,8 @@
     "strokes": 5,
     "grade": 1,
     "freq": 602
-   }
+   },
+   "mnemonic": "口 mouth"
   },
   {
    "slug": "kanji-four",
@@ -1236,7 +1236,6 @@
    "term": "四",
    "romaji": "yo/yotsu/yottsu/yon/shi",
    "meaning": "Four",
-   "mnemonic": "A box divided into four",
    "examples": [
     {
      "jp": "四つ (yottsu)",
@@ -1264,7 +1263,8 @@
     "strokes": 5,
     "grade": 1,
     "freq": 47
-   }
+   },
+   "mnemonic": "儿 legs + 囗 enclosure"
   },
   {
    "slug": "kanji-left",
@@ -1273,7 +1273,6 @@
    "term": "左",
    "romaji": "hidari/sa/sha",
    "meaning": "Left",
-   "mnemonic": "A hand going left",
    "examples": [
     {
      "jp": "左側 (hidarigawa)",
@@ -1299,7 +1298,8 @@
     "strokes": 5,
     "grade": 1,
     "freq": 630
-   }
+   },
+   "mnemonic": "工 craft"
   },
   {
    "slug": "kanji-book",
@@ -1308,7 +1308,6 @@
    "term": "本",
    "romaji": "moto/hon",
    "meaning": "Book / Origin",
-   "mnemonic": "A tree with a root mark",
    "examples": [
     {
      "jp": "にほん (nihon)",
@@ -1335,7 +1334,8 @@
     "strokes": 5,
     "grade": 1,
     "freq": 10
-   }
+   },
+   "mnemonic": "木 tree"
   },
   {
    "slug": "kanji-white",
@@ -1344,7 +1344,6 @@
    "term": "白",
    "romaji": "shiro/shira/shiroi/haku/byaku",
    "meaning": "White",
-   "mnemonic": "The sun = whiteness",
    "examples": [
     {
      "jp": "白い (shiroi)",
@@ -1374,7 +1373,8 @@
     "strokes": 5,
     "grade": 1,
     "freq": 483
-   }
+   },
+   "mnemonic": "The sun = whiteness"
   },
   {
    "slug": "kanji-eye",
@@ -1383,7 +1383,6 @@
    "term": "目",
    "romaji": "me/ma/moku/boku",
    "meaning": "Eye",
-   "mnemonic": "An eye shape rotated",
    "examples": [
     {
      "jp": "目 (me)",
@@ -1413,7 +1412,8 @@
     "strokes": 5,
     "grade": 1,
     "freq": 76
-   }
+   },
+   "mnemonic": "An eye shape rotated"
   },
   {
    "slug": "kanji-stand",
@@ -1422,7 +1422,6 @@
    "term": "立",
    "romaji": "tatsu/tachi/tateru/tate/date/dateru/ritsu/ryuu/rittoru",
    "meaning": "Stand",
-   "mnemonic": "A person standing upright",
    "examples": [
     {
      "jp": "立つ (tatsu)",
@@ -1458,7 +1457,8 @@
     "strokes": 5,
     "grade": 1,
     "freq": 58
-   }
+   },
+   "mnemonic": "A person standing upright"
   },
   {
    "slug": "kanji-now",
@@ -1467,7 +1467,6 @@
    "term": "今",
    "romaji": "ima/kon/kin",
    "meaning": "Now / This",
-   "mnemonic": "A figure pointing down = now",
    "examples": [
     {
      "jp": "今日 (kyou)",
@@ -1493,7 +1492,8 @@
     "strokes": 4,
     "grade": 2,
     "freq": 49
-   }
+   },
+   "mnemonic": "𠆢 person"
   },
   {
    "slug": "kanji-father",
@@ -1502,7 +1502,6 @@
    "term": "父",
    "romaji": "chichi/fu",
    "meaning": "Father",
-   "mnemonic": "A man holding a stick",
    "examples": [
     {
      "jp": "お父さん (otousan)",
@@ -1529,7 +1528,8 @@
     "strokes": 4,
     "grade": 2,
     "freq": 646
-   }
+   },
+   "mnemonic": "A man holding a stick"
   },
   {
    "slug": "kanji-winter",
@@ -1538,7 +1538,6 @@
    "term": "冬",
    "romaji": "fuyu/tou",
    "meaning": "Winter",
-   "mnemonic": "Ice with cold strokes",
    "examples": [
     {
      "jp": "冬は寒い (fuyu wa samui)",
@@ -1563,7 +1562,8 @@
     "strokes": 5,
     "grade": 2,
     "freq": 1090
-   }
+   },
+   "mnemonic": "夂 walk"
   },
   {
    "slug": "kanji-half",
@@ -1572,7 +1572,6 @@
    "term": "半",
    "romaji": "nakaba/han",
    "meaning": "Half",
-   "mnemonic": "A cow cut in half",
    "examples": [
     {
      "jp": "三時半 (sanji han)",
@@ -1597,7 +1596,8 @@
     "strokes": 5,
     "grade": 2,
     "freq": 224
-   }
+   },
+   "mnemonic": "并 horns"
   },
   {
    "slug": "kanji-outside",
@@ -1606,7 +1606,6 @@
    "term": "外",
    "romaji": "soto/hoka/hazusu/hazureru/to/gai/ge",
    "meaning": "Outside",
-   "mnemonic": "Moon seen in the evening (outside time)",
    "examples": [
     {
      "jp": "外国語 (gaikokugo)",
@@ -1636,7 +1635,8 @@
     "strokes": 5,
     "grade": 2,
     "freq": 81
-   }
+   },
+   "mnemonic": "卜 divination + 夕 evening"
   },
   {
    "slug": "kanji-mother",
@@ -1645,7 +1645,6 @@
    "term": "母",
    "romaji": "haha/mo/bo",
    "meaning": "Mother",
-   "mnemonic": "A woman nurturing",
    "examples": [
     {
      "jp": "お母さん (okaasan)",
@@ -1673,7 +1672,8 @@
     "strokes": 5,
     "grade": 2,
     "freq": 570
-   }
+   },
+   "mnemonic": "毋 mother"
   },
   {
    "slug": "kanji-ahead",
@@ -1682,7 +1682,6 @@
    "term": "先",
    "romaji": "saki/mazu/sen",
    "meaning": "Ahead / Previous",
-   "mnemonic": "Going ahead with legs",
    "examples": [
     {
      "jp": "先生 (sensei)",
@@ -1711,7 +1710,8 @@
     "strokes": 6,
     "grade": 1,
     "freq": 173
-   }
+   },
+   "mnemonic": "土 earth + 儿 legs"
   },
   {
    "slug": "kanji-year",
@@ -1720,7 +1720,6 @@
    "term": "年",
    "romaji": "toshi/nen",
    "meaning": "Year",
-   "mnemonic": "Grain being harvested yearly",
    "examples": [
     {
      "jp": "今年 (kotoshi)",
@@ -1745,7 +1744,8 @@
     "strokes": 6,
     "grade": 1,
     "freq": 6
-   }
+   },
+   "mnemonic": "干 dry"
   },
   {
    "slug": "kanji-spirit",
@@ -1754,7 +1754,6 @@
    "term": "気",
    "romaji": "iki/ki/ke",
    "meaning": "Spirit / Energy",
-   "mnemonic": "Steam rising from rice",
    "examples": [
     {
      "jp": "元気 (genki)",
@@ -1783,7 +1782,8 @@
     "strokes": 6,
     "grade": 1,
     "freq": 113
-   }
+   },
+   "mnemonic": "气 steam"
   },
   {
    "slug": "kanji-hundred",
@@ -1792,7 +1792,6 @@
    "term": "百",
    "romaji": "momo/hyaku/byaku",
    "meaning": "Hundred",
-   "mnemonic": "One on top of a white shape",
    "examples": [
     {
      "jp": "百円 (hyakuen)",
@@ -1818,7 +1817,8 @@
     "strokes": 6,
     "grade": 1,
     "freq": 163
-   }
+   },
+   "mnemonic": "白 white"
   },
   {
    "slug": "kanji-ear",
@@ -1827,7 +1827,6 @@
    "term": "耳",
    "romaji": "mimi/ji",
    "meaning": "Ear",
-   "mnemonic": "An ear-like shape",
    "examples": [
     {
      "jp": "耳 (mimi)",
@@ -1854,7 +1853,8 @@
     "strokes": 6,
     "grade": 1,
     "freq": 1328
-   }
+   },
+   "mnemonic": "An ear-like shape"
   },
   {
    "slug": "kanji-man",
@@ -1863,7 +1863,6 @@
    "term": "男",
    "romaji": "otoko/o/dan/nan",
    "meaning": "Man / Male",
-   "mnemonic": "A field with strength",
    "examples": [
     {
      "jp": "男の子 (otoko no ko)",
@@ -1893,7 +1892,8 @@
     "strokes": 7,
     "grade": 1,
     "freq": 240
-   }
+   },
+   "mnemonic": "田 rice field + 力 power"
   },
   {
    "slug": "kanji-flower",
@@ -1902,7 +1902,6 @@
    "term": "花",
    "romaji": "hana/ka/ke",
    "meaning": "Flower",
-   "mnemonic": "Plants changing beautifully",
    "examples": [
     {
      "jp": "花が咲く (hana ga saku)",
@@ -1931,7 +1930,8 @@
     "strokes": 7,
     "grade": 1,
     "freq": 578
-   }
+   },
+   "mnemonic": "⺅ person + 匕 spoon + ⺾ grass"
   },
   {
    "slug": "kanji-see",
@@ -1940,7 +1940,6 @@
    "term": "見",
    "romaji": "miru/mieru/miseru/ken",
    "meaning": "See / Look",
-   "mnemonic": "An eye on two legs walking",
    "examples": [
     {
      "jp": "見る (miru)",
@@ -1970,7 +1969,8 @@
     "strokes": 7,
     "grade": 1,
     "freq": 22
-   }
+   },
+   "mnemonic": "目 eye + 儿 legs"
   },
   {
    "slug": "kanji-red",
@@ -1979,7 +1979,6 @@
    "term": "赤",
    "romaji": "aka/akai/akaramu/akarameru/seki/shaku",
    "meaning": "Red",
-   "mnemonic": "A person on fire",
    "examples": [
     {
      "jp": "赤い (akai)",
@@ -2012,7 +2011,8 @@
     "strokes": 7,
     "grade": 1,
     "freq": 584
-   }
+   },
+   "mnemonic": "土 earth"
   },
   {
    "slug": "kanji-foot",
@@ -2021,7 +2021,6 @@
    "term": "足",
    "romaji": "ashi/tariru/taru/tasu/soku",
    "meaning": "Foot / Leg",
-   "mnemonic": "A leg with a foot",
    "examples": [
     {
      "jp": "足 (ashi)",
@@ -2051,7 +2050,8 @@
     "strokes": 7,
     "grade": 1,
     "freq": 343
-   }
+   },
+   "mnemonic": "口 mouth"
   },
   {
    "slug": "kanji-car",
@@ -2060,7 +2060,6 @@
    "term": "車",
    "romaji": "kuruma/sha",
    "meaning": "Car / Vehicle",
-   "mnemonic": "A wheel axle shape",
    "examples": [
     {
      "jp": "電車 (densha)",
@@ -2087,7 +2086,8 @@
     "strokes": 7,
     "grade": 1,
     "freq": 333
-   }
+   },
+   "mnemonic": "A wheel axle shape"
   },
   {
    "slug": "kanji-every",
@@ -2096,7 +2096,6 @@
    "term": "毎",
    "romaji": "goto/gotoni/mai",
    "meaning": "Every",
-   "mnemonic": "A mother = recurring care",
    "examples": [
     {
      "jp": "毎日 (mainichi)",
@@ -2122,7 +2121,8 @@
     "strokes": 6,
     "grade": 2,
     "freq": 436
-   }
+   },
+   "mnemonic": "A mother = recurring care"
   },
   {
    "slug": "kanji-go",
@@ -2131,7 +2131,6 @@
    "term": "行",
    "romaji": "iku/yuku/yuki/iki/okonau/kou/gyou/an",
    "meaning": "Go",
-   "mnemonic": "Steps going forward",
    "examples": [
     {
      "jp": "行く (iku)",
@@ -2165,7 +2164,8 @@
     "strokes": 6,
     "grade": 2,
     "freq": 20
-   }
+   },
+   "mnemonic": "彳 step"
   },
   {
    "slug": "kanji-what",
@@ -2174,7 +2174,6 @@
    "term": "何",
    "romaji": "nani/nan/ka",
    "meaning": "What",
-   "mnemonic": "A person asking",
    "examples": [
     {
      "jp": "何ですか (nan desu ka)",
@@ -2202,7 +2201,8 @@
     "strokes": 7,
     "grade": 2,
     "freq": 340
-   }
+   },
+   "mnemonic": "⺅ person + 口 mouth"
   },
   {
    "slug": "kanji-come",
@@ -2211,7 +2211,6 @@
    "term": "来",
    "romaji": "kuru/kitaru/kitasu/ki/ko/rai/tai",
    "meaning": "Come",
-   "mnemonic": "A person coming toward you",
    "examples": [
     {
      "jp": "来る (kuru)",
@@ -2243,7 +2242,8 @@
     "strokes": 7,
     "grade": 2,
     "freq": 102
-   }
+   },
+   "mnemonic": "二 two + 米 rice + 亠 lid + 木 tree"
   },
   {
    "slug": "kanji-study",
@@ -2252,7 +2252,6 @@
    "term": "学",
    "romaji": "manabu/gaku",
    "meaning": "Study / Learn",
-   "mnemonic": "A child learning under a roof",
    "examples": [
     {
      "jp": "勉強 (benkyou)",
@@ -2280,7 +2279,8 @@
     "strokes": 8,
     "grade": 1,
     "freq": 63
-   }
+   },
+   "mnemonic": "子 child + ⺌ small + 冖 cover"
   },
   {
    "slug": "kanji-sky",
@@ -2289,7 +2289,6 @@
    "term": "空",
    "romaji": "sora/aku/aki/akeru/kara/suku/sukasu/munashii/kuu",
    "meaning": "Sky / Empty",
-   "mnemonic": "A cave with emptiness above",
    "examples": [
     {
      "jp": "青い空 (aoi sora)",
@@ -2324,7 +2323,8 @@
     "strokes": 8,
     "grade": 1,
     "freq": 304
-   }
+   },
+   "mnemonic": "穴 hole + 工 craft + 儿 legs"
   },
   {
    "slug": "kanji-gold",
@@ -2333,7 +2333,6 @@
    "term": "金",
    "romaji": "kane/kana/gane/kin/kon/gon",
    "meaning": "Gold / Money",
-   "mnemonic": "Gold nuggets in a mine",
    "examples": [
     {
      "jp": "お金 (okane)",
@@ -2364,7 +2363,8 @@
     "strokes": 8,
     "grade": 1,
     "freq": 53
-   }
+   },
+   "mnemonic": "Gold nuggets in a mine"
   },
   {
    "slug": "kanji-rain",
@@ -2373,7 +2373,6 @@
    "term": "雨",
    "romaji": "ame/ama/same/u",
    "meaning": "Rain",
-   "mnemonic": "Clouds with rain drops",
    "examples": [
     {
      "jp": "雨が降る (ame ga furu)",
@@ -2402,7 +2401,8 @@
     "strokes": 8,
     "grade": 1,
     "freq": 950
-   }
+   },
+   "mnemonic": "Clouds with rain drops"
   },
   {
    "slug": "kanji-blue",
@@ -2411,7 +2411,6 @@
    "term": "青",
    "romaji": "ao/aoi/sei/shou",
    "meaning": "Blue / Green",
-   "mnemonic": "Plants + moon = cool blue",
    "examples": [
     {
      "jp": "青い (aoi)",
@@ -2442,7 +2441,8 @@
     "strokes": 8,
     "grade": 1,
     "freq": 589
-   }
+   },
+   "mnemonic": "月 moon + 土 earth + 二 two + 亠 lid"
   },
   {
    "slug": "kanji-country",
@@ -2451,7 +2451,6 @@
    "term": "国",
    "romaji": "kuni/koku",
    "meaning": "Country",
-   "mnemonic": "A person inside a border",
    "examples": [
     {
      "jp": "外国 (gaikoku)",
@@ -2476,7 +2475,8 @@
     "strokes": 8,
     "grade": 2,
     "freq": 3
-   }
+   },
+   "mnemonic": "王 king + 囗 enclosure"
   },
   {
    "slug": "kanji-long",
@@ -2485,7 +2485,6 @@
    "term": "長",
    "romaji": "nagai/osa/chou",
    "meaning": "Long / Chief",
-   "mnemonic": "A person with long hair",
    "examples": [
     {
      "jp": "長い (nagai)",
@@ -2511,7 +2510,8 @@
     "strokes": 8,
     "grade": 2,
     "freq": 12
-   }
+   },
+   "mnemonic": "A person with long hair"
   },
   {
    "slug": "kanji-front",
@@ -2520,7 +2520,6 @@
    "term": "前",
    "romaji": "mae/zen",
    "meaning": "Front / Before",
-   "mnemonic": "A boat going forward",
    "examples": [
     {
      "jp": "前に進む (mae ni susumu)",
@@ -2546,7 +2545,8 @@
     "strokes": 9,
     "grade": 2,
     "freq": 27
-   }
+   },
+   "mnemonic": "刂 knife + 月 moon + 并 horns"
   },
   {
    "slug": "kanji-behind",
@@ -2555,7 +2555,6 @@
    "term": "後",
    "romaji": "nochi/ushiro/ato/okureru/go/kou",
    "meaning": "Behind / After",
-   "mnemonic": "Steps going back",
    "examples": [
     {
      "jp": "後で (ato de)",
@@ -2585,7 +2584,8 @@
     "strokes": 9,
     "grade": 2,
     "freq": 26
-   }
+   },
+   "mnemonic": "夂 walk + 幺 thread + 彳 step"
   },
   {
    "slug": "kanji-sea",
@@ -2594,7 +2594,6 @@
    "term": "海",
    "romaji": "umi/kai",
    "meaning": "Sea / Ocean",
-   "mnemonic": "Water + mother = endless water",
    "examples": [
     {
      "jp": "海で泳ぐ (umi de oyogu)",
@@ -2622,7 +2621,8 @@
     "strokes": 9,
     "grade": 2,
     "freq": 200
-   }
+   },
+   "mnemonic": "氵 water"
   },
   {
    "slug": "kanji-eat",
@@ -2631,7 +2631,6 @@
    "term": "食",
    "romaji": "kuu/kurau/taberu/hamu/shoku/jiki",
    "meaning": "Eat / Food",
-   "mnemonic": "A bowl with chopsticks above",
    "examples": [
     {
      "jp": "食べる (taberu)",
@@ -2663,7 +2662,8 @@
     "strokes": 9,
     "grade": 2,
     "freq": 328
-   }
+   },
+   "mnemonic": "A bowl with chopsticks above"
   },
   {
    "slug": "kanji-school",
@@ -2672,7 +2672,6 @@
    "term": "校",
    "romaji": "kou/kyou",
    "meaning": "School",
-   "mnemonic": "A tree + a place",
    "examples": [
     {
      "jp": "学校 (gakkou)",
@@ -2699,7 +2698,8 @@
     "strokes": 10,
     "grade": 1,
     "freq": 294
-   }
+   },
+   "mnemonic": "父 father + 木 tree + 亠 lid"
   },
   {
    "slug": "kanji-summer",
@@ -2708,7 +2708,6 @@
    "term": "夏",
    "romaji": "natsu/ka/ga/ge",
    "meaning": "Summer",
-   "mnemonic": "The sun blazing",
    "examples": [
     {
      "jp": "夏休み (natsuyasumi)",
@@ -2735,7 +2734,8 @@
     "strokes": 10,
     "grade": 2,
     "freq": 659
-   }
+   },
+   "mnemonic": "自 oneself + 夂 walk"
   },
   {
    "slug": "kanji-time",
@@ -2744,7 +2744,6 @@
    "term": "時",
    "romaji": "toki/doki/ji",
    "meaning": "Time / Hour",
-   "mnemonic": "Sun + temple = measured time",
    "examples": [
     {
      "jp": "何時 (nanji)",
@@ -2770,7 +2769,8 @@
     "strokes": 10,
     "grade": 2,
     "freq": 16
-   }
+   },
+   "mnemonic": "寸 inch + 土 earth + 日 sun"
   },
   {
    "slug": "kanji-high",
@@ -2779,7 +2779,6 @@
    "term": "高",
    "romaji": "takai/taka/daka/takamaru/takameru/kou",
    "meaning": "High / Expensive",
-   "mnemonic": "A tall building",
    "examples": [
     {
      "jp": "高い (takai)",
@@ -2810,7 +2809,8 @@
     "strokes": 10,
     "grade": 2,
     "freq": 65
-   }
+   },
+   "mnemonic": "口 mouth + 亠 lid + 冂 frame"
   },
   {
    "slug": "kanji-week",
@@ -2819,7 +2819,6 @@
    "term": "週",
    "romaji": "shuu",
    "meaning": "Week",
-   "mnemonic": "A path going around",
    "examples": [
     {
      "jp": "来週 (raishuu)",
@@ -2842,7 +2841,8 @@
     "strokes": 11,
     "grade": 2,
     "freq": 540
-   }
+   },
+   "mnemonic": "口 mouth + 辶 + 土 earth + 冂 frame"
   },
   {
    "slug": "kanji-between",
@@ -2851,7 +2851,6 @@
    "term": "間",
    "romaji": "aida/ma/ai/kan/ken",
    "meaning": "Between / Space",
-   "mnemonic": "Sun shining through a gate",
    "examples": [
     {
      "jp": "時間 (jikan)",
@@ -2879,7 +2878,8 @@
     "strokes": 12,
     "grade": 2,
     "freq": 33
-   }
+   },
+   "mnemonic": "日 sun + 門 gate"
   },
   {
    "slug": "kanji-talk",
@@ -2888,7 +2888,6 @@
    "term": "話",
    "romaji": "hanasu/hanashi/wa",
    "meaning": "Talk / Speak",
-   "mnemonic": "Words + tongue",
    "examples": [
     {
      "jp": "話す (hanasu)",
@@ -2914,7 +2913,8 @@
     "strokes": 13,
     "grade": 2,
     "freq": 134
-   }
+   },
+   "mnemonic": "言 say + 舌 tongue"
   },
   {
    "slug": "kanji-electricity",
@@ -2923,7 +2923,6 @@
    "term": "電",
    "romaji": "den",
    "meaning": "Electricity",
-   "mnemonic": "Rain + lightning = electric",
    "examples": [
     {
      "jp": "電車 (densha)",
@@ -2949,7 +2948,8 @@
     "strokes": 13,
     "grade": 2,
     "freq": 268
-   }
+   },
+   "mnemonic": "雨 rain + 田 rice field"
   },
   {
    "slug": "kanji-drink",
@@ -2958,7 +2958,6 @@
    "term": "飲",
    "romaji": "nomu/nomi/in/on",
    "meaning": "Drink",
-   "mnemonic": "Food radical + yawn",
    "examples": [
     {
      "jp": "飲む (nomu)",
@@ -2988,7 +2987,8 @@
     "strokes": 12,
     "grade": 3,
     "freq": 969
-   }
+   },
+   "mnemonic": "欠 lack + 食 eat"
   },
   {
    "slug": "kanji-hear",
@@ -2997,7 +2997,6 @@
    "term": "聞",
    "romaji": "kiku/kikoeru/bun/mon",
    "meaning": "Hear / Listen",
-   "mnemonic": "An ear inside a gate",
    "examples": [
     {
      "jp": "聞く (kiku)",
@@ -3024,7 +3023,8 @@
     "strokes": 14,
     "grade": 2,
     "freq": 319
-   }
+   },
+   "mnemonic": "耳 ear + 門 gate"
   },
   {
    "slug": "kanji-language",
@@ -3033,7 +3033,6 @@
    "term": "語",
    "romaji": "kataru/katarau/go",
    "meaning": "Language / Word",
-   "mnemonic": "Words from the mouth",
    "examples": [
     {
      "jp": "日本語 (nihongo)",
@@ -3062,7 +3061,8 @@
     "strokes": 14,
     "grade": 2,
     "freq": 301
-   }
+   },
+   "mnemonic": "言 say + 口 mouth + 五 five"
   },
   {
    "slug": "kanji-read",
@@ -3071,7 +3071,6 @@
    "term": "読",
    "romaji": "yomu/yomi/doku/toku/tou",
    "meaning": "Read",
-   "mnemonic": "Words being sold",
    "examples": [
     {
      "jp": "読む (yomu)",
@@ -3099,7 +3098,8 @@
     "strokes": 14,
     "grade": 2,
     "freq": 618
-   }
+   },
+   "mnemonic": "言 say + 士 samurai + 儿 legs + 冖 cover"
   },
   {
    "slug": "kanji-life",
@@ -3108,7 +3108,6 @@
    "term": "生",
    "romaji": "ikiru/ikasu/ikeru/umareru/umare/umu/ou/haeru/hayasu/ki/nama/naru/nasu/musu/u/sei/shou",
    "meaning": "Life / Birth",
-   "mnemonic": "A plant growing",
    "examples": [
     {
      "jp": "学生 (gakusei)",
@@ -3154,7 +3153,8 @@
     "strokes": 5,
     "grade": 1,
     "freq": 29
-   }
+   },
+   "mnemonic": "A plant growing"
   },
   {
    "slug": "kanji-new",
@@ -3163,7 +3163,6 @@
    "term": "新",
    "romaji": "atarashii/arata/ara/nii/shin",
    "meaning": "New",
-   "mnemonic": "An axe cutting a fresh tree",
    "examples": [
     {
      "jp": "新しい (atarashii)",
@@ -3195,7 +3194,8 @@
     "strokes": 13,
     "grade": 2,
     "freq": 51
-   }
+   },
+   "mnemonic": "斤 axe + 辛 spicy + 并 horns + 木 tree + 亠 lid"
   },
   {
    "slug": "kanji-station",
@@ -3204,7 +3204,6 @@
    "term": "駅",
    "romaji": "eki",
    "meaning": "Station",
-   "mnemonic": "A horse stop",
    "examples": [
     {
      "jp": "駅で待つ (eki de matsu)",
@@ -3227,7 +3226,8 @@
     "strokes": 14,
     "grade": 3,
     "freq": 724
-   }
+   },
+   "mnemonic": "馬 horse + 尸 body"
   },
   {
    "slug": "kanji-spring",
@@ -3236,7 +3236,6 @@
    "term": "春",
    "romaji": "haru/shun",
    "meaning": "Spring",
-   "mnemonic": "Sun warming the earth",
    "examples": [
     {
      "jp": "春が来た (haru ga kita)",
@@ -3261,7 +3260,8 @@
     "strokes": 9,
     "grade": 2,
     "freq": 579
-   }
+   },
+   "mnemonic": "二 two + 日 sun + 人 person"
   },
   {
    "slug": "kanji-autumn",
@@ -3270,7 +3270,6 @@
    "term": "秋",
    "romaji": "aki/toki/shuu",
    "meaning": "Autumn",
-   "mnemonic": "Grain + fire = harvest fire",
    "examples": [
     {
      "jp": "秋の葉 (aki no ha)",
@@ -3296,7 +3295,8 @@
     "strokes": 9,
     "grade": 2,
     "freq": 635
-   }
+   },
+   "mnemonic": "火 fire + 禾 grain"
   },
   {
    "slug": "kanji-day-of-week",
@@ -3305,7 +3305,6 @@
    "term": "曜",
    "romaji": "you",
    "meaning": "Day of week",
-   "mnemonic": "The sun for each weekday",
    "examples": [
     {
      "jp": "月曜日 (getsuyoubi)",
@@ -3328,7 +3327,8 @@
     "strokes": 18,
     "grade": 2,
     "freq": 940
-   }
+   },
+   "mnemonic": "ヨ hand + 日 sun + 隹 bird"
   },
   {
    "slug": "kanji-write",
@@ -3337,7 +3337,6 @@
    "term": "書",
    "romaji": "kaku/gaki/sho",
    "meaning": "Write",
-   "mnemonic": "A brush writing",
    "examples": [
     {
      "jp": "書く (kaku)",
@@ -3364,7 +3363,8 @@
     "strokes": 10,
     "grade": 2,
     "freq": 169
-   }
+   },
+   "mnemonic": "日 sun + 聿 brush"
   },
   {
    "slug": "word-ao",
@@ -3373,7 +3373,6 @@
    "term": "青",
    "romaji": "ao",
    "meaning": "Blue",
-   "mnemonic": "Sky/sea blue",
    "examples": [
     {
      "jp": "青い空",
@@ -3386,7 +3385,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "あお"
+   "reading": "あお",
+   "mnemonic": "青 blue: 月 moon + 土 earth + 二 two + 亠 lid"
   },
   {
    "slug": "word-aka",
@@ -3395,7 +3395,6 @@
    "term": "赤",
    "romaji": "aka",
    "meaning": "Red",
-   "mnemonic": "Fire red",
    "examples": [
     {
      "jp": "赤いバラ",
@@ -3408,7 +3407,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "あか"
+   "reading": "あか",
+   "mnemonic": "赤 red: 土 earth"
   },
   {
    "slug": "word-asa",
@@ -3417,7 +3417,6 @@
    "term": "朝",
    "romaji": "asa",
    "meaning": "Morning",
-   "mnemonic": "Start of the day",
    "examples": [
     {
      "jp": "朝ごはん (asagohan)",
@@ -3430,7 +3429,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "あさ"
+   "reading": "あさ",
+   "mnemonic": "朝 morning: 月 moon + 十 ten + 日 sun"
   },
   {
    "slug": "word-ashita",
@@ -3439,7 +3439,6 @@
    "term": "明日",
    "romaji": "ashita",
    "meaning": "Tomorrow",
-   "mnemonic": "Bright + day = next day",
    "examples": [
     {
      "jp": "明日会いましょう",
@@ -3452,7 +3451,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "あした"
+   "reading": "あした",
+   "mnemonic": "明 bright + 日 sun"
   },
   {
    "slug": "word-asobu",
@@ -3461,7 +3461,6 @@
    "term": "遊ぶ",
    "romaji": "asobu",
    "meaning": "To play",
-   "mnemonic": "Have fun",
    "examples": [
     {
      "jp": "公園で遊ぶ",
@@ -3474,7 +3473,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "あそぶ"
+   "reading": "あそぶ",
+   "mnemonic": "遊 play: 辶 + 子 child + 方 direction"
   },
   {
    "slug": "word-atama",
@@ -3483,7 +3483,6 @@
    "term": "頭",
    "romaji": "atama",
    "meaning": "Head",
-   "mnemonic": "Top of body",
    "examples": [
     {
      "jp": "頭が痛い",
@@ -3496,7 +3495,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "あたま"
+   "reading": "あたま",
+   "mnemonic": "頭 head: 豆 bean + 頁 head"
   },
   {
    "slug": "word-atarashii",
@@ -3505,7 +3505,6 @@
    "term": "新しい",
    "romaji": "atarashii",
    "meaning": "New",
-   "mnemonic": "Fresh, recent",
    "examples": [
     {
      "jp": "新しい車 (atarashii kuruma)",
@@ -3518,7 +3517,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "あたらしい"
+   "reading": "あたらしい",
+   "mnemonic": "新 new: 斤 axe + 辛 spicy + 并 horns + 木 tree + 亠 lid"
   },
   {
    "slug": "word-atsui",
@@ -3527,7 +3527,6 @@
    "term": "暑い",
    "romaji": "atsui",
    "meaning": "Hot",
-   "mnemonic": "Summer heat",
    "examples": [
     {
      "jp": "今日は暑い",
@@ -3540,7 +3539,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "あつい"
+   "reading": "あつい",
+   "mnemonic": "暑: 日 sun + ⺹ old"
   },
   {
    "slug": "word-ani",
@@ -3549,7 +3549,6 @@
    "term": "兄",
    "romaji": "ani",
    "meaning": "Older brother",
-   "mnemonic": "Elder male sibling",
    "examples": [
     {
      "jp": "兄は東京にいます",
@@ -3562,7 +3561,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "あに"
+   "reading": "あに",
+   "mnemonic": "兄 elder brother: 口 mouth + 儿 legs"
   },
   {
    "slug": "word-ane",
@@ -3571,7 +3571,6 @@
    "term": "姉",
    "romaji": "ane",
    "meaning": "Older sister",
-   "mnemonic": "Elder female sibling",
    "examples": [
     {
      "jp": "姉と買い物する",
@@ -3584,7 +3583,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "あね"
+   "reading": "あね",
+   "mnemonic": "姉 elder sister: 巾 cloth + 女 woman + 亠 lid"
   },
   {
    "slug": "word-ame",
@@ -3593,7 +3593,6 @@
    "term": "雨",
    "romaji": "ame",
    "meaning": "Rain",
-   "mnemonic": "Water falling",
    "examples": [
     {
      "jp": "雨が降る",
@@ -3606,7 +3605,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "あめ"
+   "reading": "あめ",
+   "mnemonic": "雨 rain"
   },
   {
    "slug": "word-arau",
@@ -3615,7 +3615,6 @@
    "term": "洗う",
    "romaji": "arau",
    "meaning": "To wash",
-   "mnemonic": "Clean with water",
    "examples": [
     {
      "jp": "手を洗う",
@@ -3628,7 +3627,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "あらう"
+   "reading": "あらう",
+   "mnemonic": "洗 wash: 氵 water + 土 earth + 儿 legs"
   },
   {
    "slug": "word-aruku",
@@ -3637,7 +3637,6 @@
    "term": "歩く",
    "romaji": "aruku",
    "meaning": "To walk",
-   "mnemonic": "Steady movement",
    "examples": [
     {
      "jp": "駅まで歩く",
@@ -3650,7 +3649,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "あるく"
+   "reading": "あるく",
+   "mnemonic": "歩 walk: 止 stop + 小 small"
   },
   {
    "slug": "word-iie",
@@ -3659,7 +3659,6 @@
    "term": "いいえ",
    "romaji": "iie",
    "meaning": "No",
-   "mnemonic": "Polite negative",
    "examples": [
     {
      "jp": "いいえ、違います",
@@ -3681,7 +3680,6 @@
    "term": "言う",
    "romaji": "iu",
    "meaning": "To say",
-   "mnemonic": "Express words",
    "examples": [
     {
      "jp": "何を言いましたか",
@@ -3694,7 +3692,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "いう"
+   "reading": "いう",
+   "mnemonic": "言 say"
   },
   {
    "slug": "word-ie",
@@ -3703,7 +3702,6 @@
    "term": "家",
    "romaji": "ie",
    "meaning": "House/Home",
-   "mnemonic": "Roof over pig — home",
    "examples": [
     {
      "jp": "家に帰る (ie ni kaeru)",
@@ -3716,7 +3714,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "いえ"
+   "reading": "いえ",
+   "mnemonic": "家 house: 宀 roof + 豕 pig"
   },
   {
    "slug": "word-iku",
@@ -3725,7 +3724,6 @@
    "term": "行く",
    "romaji": "iku;yuku",
    "meaning": "To go",
-   "mnemonic": "Move away from here",
    "examples": [
     {
      "jp": "学校に行く",
@@ -3738,7 +3736,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "いく; ゆく"
+   "reading": "いく; ゆく",
+   "mnemonic": "行 go: 彳 step"
   },
   {
    "slug": "word-ikura",
@@ -3747,7 +3746,6 @@
    "term": "いくら",
    "romaji": "ikura",
    "meaning": "How much",
-   "mnemonic": "Price question",
    "examples": [
     {
      "jp": "いくらですか",
@@ -3768,7 +3766,6 @@
    "term": "医者",
    "romaji": "isha",
    "meaning": "Doctor",
-   "mnemonic": "Medical expert",
    "examples": [
     {
      "jp": "医者に行く",
@@ -3781,7 +3778,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "いしゃ"
+   "reading": "いしゃ",
+   "mnemonic": "医 doctor + 者 someone"
   },
   {
    "slug": "word-isu",
@@ -3790,7 +3788,6 @@
    "term": "椅子",
    "romaji": "isu",
    "meaning": "Chair",
-   "mnemonic": "Sitting thing",
    "examples": [
     {
      "jp": "椅子に座る",
@@ -3803,7 +3800,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "いす"
+   "reading": "いす",
+   "mnemonic": "椅 + 子 child"
   },
   {
    "slug": "word-isogashii",
@@ -3812,7 +3810,6 @@
    "term": "忙しい",
    "romaji": "isogashii",
    "meaning": "Busy",
-   "mnemonic": "No spare time",
    "examples": [
     {
      "jp": "今日は忙しい (kyou wa isogashii)",
@@ -3825,7 +3822,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "いそがしい"
+   "reading": "いそがしい",
+   "mnemonic": "忙 busy: 亡 deceased + 忄 heart"
   },
   {
    "slug": "word-itai",
@@ -3834,7 +3832,6 @@
    "term": "痛い",
    "romaji": "itai",
    "meaning": "Painful / Ouch",
-   "mnemonic": "Ouch!",
    "examples": [
     {
      "jp": "頭が痛い",
@@ -3847,7 +3844,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "いたい"
+   "reading": "いたい",
+   "mnemonic": "痛 pain: 用 utilize + 疒 sickness"
   },
   {
    "slug": "word-inu",
@@ -3856,7 +3854,6 @@
    "term": "犬",
    "romaji": "inu",
    "meaning": "Dog",
-   "mnemonic": "Best friend",
    "examples": [
     {
      "jp": "犬が走る",
@@ -3869,7 +3866,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "いぬ"
+   "reading": "いぬ",
+   "mnemonic": "犬 dog: 大 big"
   },
   {
    "slug": "word-ima",
@@ -3878,7 +3876,6 @@
    "term": "今",
    "romaji": "ima",
    "meaning": "Now",
-   "mnemonic": "Present moment",
    "examples": [
     {
      "jp": "今どこにいる",
@@ -3891,7 +3888,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "いま"
+   "reading": "いま",
+   "mnemonic": "今 now: 𠆢 person"
   },
   {
    "slug": "word-imouto",
@@ -3900,7 +3898,6 @@
    "term": "妹",
    "romaji": "imouto",
    "meaning": "Younger sister",
-   "mnemonic": "Little sister",
    "examples": [
     {
      "jp": "妹が生まれた",
@@ -3913,7 +3910,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "いもうと"
+   "reading": "いもうと",
+   "mnemonic": "妹 younger sister: 女 woman + 二 two + ハ eight + 木 tree + 亠 lid"
   },
   {
    "slug": "word-iriguchi",
@@ -3922,7 +3920,6 @@
    "term": "入口",
    "romaji": "iriguchi",
    "meaning": "Entrance",
-   "mnemonic": "Going in opening",
    "examples": [
     {
      "jp": "入口から入る",
@@ -3935,7 +3932,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "いりぐち"
+   "reading": "いりぐち",
+   "mnemonic": "入 enter + 口 mouth"
   },
   {
    "slug": "word-iro",
@@ -3944,7 +3942,6 @@
    "term": "色",
    "romaji": "iro",
    "meaning": "Color",
-   "mnemonic": "Hue/shade",
    "examples": [
     {
      "jp": "好きな色は何ですか",
@@ -3957,7 +3954,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "いろ"
+   "reading": "いろ",
+   "mnemonic": "色 color: 巴 snake + 勹 wrap"
   },
   {
    "slug": "word-utau",
@@ -3966,7 +3964,6 @@
    "term": "歌う",
    "romaji": "utau",
    "meaning": "To sing",
-   "mnemonic": "Voice music",
    "examples": [
     {
      "jp": "歌を歌う",
@@ -3979,7 +3976,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "うたう"
+   "reading": "うたう",
+   "mnemonic": "歌 song: 欠 lack + 口 mouth"
   },
   {
    "slug": "word-umi",
@@ -3988,7 +3986,6 @@
    "term": "海",
    "romaji": "umi",
    "meaning": "Sea",
-   "mnemonic": "Vast water",
    "examples": [
     {
      "jp": "海で遊ぶ",
@@ -4001,7 +3998,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "うみ"
+   "reading": "うみ",
+   "mnemonic": "海 sea: 氵 water"
   },
   {
    "slug": "word-eiga",
@@ -4010,7 +4008,6 @@
    "term": "映画",
    "romaji": "eiga",
    "meaning": "Movie/Film",
-   "mnemonic": "Projected image",
    "examples": [
     {
      "jp": "映画を見る (eiga wo miru)",
@@ -4023,7 +4020,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "えいが"
+   "reading": "えいが",
+   "mnemonic": "映 reflect + 画 brush-stroke"
   },
   {
    "slug": "word-eki",
@@ -4032,7 +4030,6 @@
    "term": "駅",
    "romaji": "eki",
    "meaning": "Station",
-   "mnemonic": "Train stop",
    "examples": [
     {
      "jp": "駅で待つ",
@@ -4045,7 +4042,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "えき"
+   "reading": "えき",
+   "mnemonic": "駅 station: 馬 horse + 尸 body"
   },
   {
    "slug": "word-enpitsu",
@@ -4054,7 +4052,6 @@
    "term": "鉛筆",
    "romaji": "enpitsu",
    "meaning": "Pencil",
-   "mnemonic": "Erasable writer",
    "examples": [
     {
      "jp": "鉛筆で書く",
@@ -4067,7 +4064,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "えんぴつ"
+   "reading": "えんぴつ",
+   "mnemonic": "鉛 + 筆 writing brush"
   },
   {
    "slug": "word-ooi",
@@ -4076,7 +4074,6 @@
    "term": "多い",
    "romaji": "ooi",
    "meaning": "Many / Much",
-   "mnemonic": "Large quantity",
    "examples": [
     {
      "jp": "人が多い",
@@ -4089,7 +4086,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "おおい"
+   "reading": "おおい",
+   "mnemonic": "多 many: 夕 evening"
   },
   {
    "slug": "word-ookii",
@@ -4098,7 +4096,6 @@
    "term": "大きい",
    "romaji": "ookii",
    "meaning": "Big / Large",
-   "mnemonic": "Spacious",
    "examples": [
     {
      "jp": "大きい家",
@@ -4111,7 +4108,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "おおきい"
+   "reading": "おおきい",
+   "mnemonic": "大 big"
   },
   {
    "slug": "word-okaasan",
@@ -4120,7 +4118,6 @@
    "term": "お母さん",
    "romaji": "okaasan",
    "meaning": "Mother (polite)",
-   "mnemonic": "Polite mother address",
    "examples": [
     {
      "jp": "お母さんに電話する",
@@ -4133,7 +4130,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "おかあさん"
+   "reading": "おかあさん",
+   "mnemonic": "母 mother: 毋 mother"
   },
   {
    "slug": "word-okane",
@@ -4142,7 +4140,6 @@
    "term": "お金",
    "romaji": "okane",
    "meaning": "Money",
-   "mnemonic": "Currency",
    "examples": [
     {
      "jp": "お金がない",
@@ -4155,7 +4152,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "おかね"
+   "reading": "おかね",
+   "mnemonic": "金 gold"
   },
   {
    "slug": "word-okiru",
@@ -4164,7 +4162,6 @@
    "term": "起きる",
    "romaji": "okiru",
    "meaning": "To wake up",
-   "mnemonic": "Rise from sleep",
    "examples": [
     {
      "jp": "六時に起きる",
@@ -4177,7 +4174,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "おきる"
+   "reading": "おきる",
+   "mnemonic": "起 rouse: 走 run + 已 snake"
   },
   {
    "slug": "word-osara",
@@ -4186,7 +4184,6 @@
    "term": "お皿",
    "romaji": "osara",
    "meaning": "Plate / Dish",
-   "mnemonic": "Food holder",
    "examples": [
     {
      "jp": "お皿に盛る",
@@ -4199,7 +4196,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "おさら"
+   "reading": "おさら",
+   "mnemonic": "皿 dish"
   },
   {
    "slug": "word-oshieru",
@@ -4208,7 +4206,6 @@
    "term": "教える",
    "romaji": "oshieru",
    "meaning": "To teach",
-   "mnemonic": "Pass knowledge",
    "examples": [
     {
      "jp": "日本語を教える",
@@ -4221,7 +4218,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "おしえる"
+   "reading": "おしえる",
+   "mnemonic": "教 teach: 子 child + ⺹ old + 攵 strike"
   },
   {
    "slug": "word-osu",
@@ -4230,7 +4228,6 @@
    "term": "押す",
    "romaji": "osu",
    "meaning": "To push",
-   "mnemonic": "Force forward",
    "examples": [
     {
      "jp": "ドアを押す",
@@ -4243,7 +4240,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "おす"
+   "reading": "おす",
+   "mnemonic": "押 push: 日 sun + 扌 hand + 田 rice field"
   },
   {
    "slug": "word-osoi",
@@ -4252,7 +4250,6 @@
    "term": "遅い",
    "romaji": "osoi",
    "meaning": "Slow / Late",
-   "mnemonic": "Not on time",
    "examples": [
     {
      "jp": "遅い返事",
@@ -4265,7 +4262,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "おそい"
+   "reading": "おそい",
+   "mnemonic": "遅 slow: 辶 + 羊 sheep + 尸 body"
   },
   {
    "slug": "word-ocha",
@@ -4274,7 +4272,6 @@
    "term": "お茶",
    "romaji": "ocha",
    "meaning": "Tea",
-   "mnemonic": "Polite \"o\" + tea",
    "examples": [
     {
      "jp": "お茶を飲む (ocha wo nomu)",
@@ -4287,7 +4284,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "おちゃ"
+   "reading": "おちゃ",
+   "mnemonic": "茶 tea: 𠆢 person + ⺾ grass + 木 tree"
   },
   {
    "slug": "word-otousan",
@@ -4296,7 +4294,6 @@
    "term": "お父さん",
    "romaji": "otousan",
    "meaning": "Father (polite)",
-   "mnemonic": "Polite father address",
    "examples": [
     {
      "jp": "お父さんはどこですか",
@@ -4309,7 +4306,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "おとうさん"
+   "reading": "おとうさん",
+   "mnemonic": "父 father"
   },
   {
    "slug": "word-otouto",
@@ -4318,7 +4316,6 @@
    "term": "弟",
    "romaji": "otouto",
    "meaning": "Younger brother",
-   "mnemonic": "Little brother",
    "examples": [
     {
      "jp": "弟は学生です",
@@ -4331,7 +4328,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "おとうと"
+   "reading": "おとうと",
+   "mnemonic": "弟 younger brother: 弓 bow + 并 horns"
   },
   {
    "slug": "word-onaka",
@@ -4340,7 +4338,6 @@
    "term": "お腹",
    "romaji": "onaka",
    "meaning": "Stomach",
-   "mnemonic": "Belly is empty",
    "examples": [
     {
      "jp": "お腹が空いた",
@@ -4353,7 +4350,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "おなか"
+   "reading": "おなか",
+   "mnemonic": "腹 abdomen: 月 moon + 日 sun + 夂 walk"
   },
   {
    "slug": "word-oboeru",
@@ -4362,7 +4360,6 @@
    "term": "覚える",
    "romaji": "oboeru",
    "meaning": "To memorize",
-   "mnemonic": "Store in memory",
    "examples": [
     {
      "jp": "単語を覚える",
@@ -4375,7 +4372,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "おぼえる"
+   "reading": "おぼえる",
+   "mnemonic": "覚 memorize: 見 see + ⺌ small + 冖 cover"
   },
   {
    "slug": "word-omoi",
@@ -4384,7 +4382,6 @@
    "term": "重い",
    "romaji": "omoi",
    "meaning": "Heavy",
-   "mnemonic": "Hard to lift",
    "examples": [
     {
      "jp": "重い荷物",
@@ -4397,7 +4394,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "おもい"
+   "reading": "おもい",
+   "mnemonic": "重 heavy: 日 sun + 里 village"
   },
   {
    "slug": "word-omoshiroi",
@@ -4406,7 +4404,6 @@
    "term": "面白い",
    "romaji": "omoshiroi",
    "meaning": "Interesting",
-   "mnemonic": "Engaging",
    "examples": [
     {
      "jp": "面白い話",
@@ -4419,7 +4416,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "おもしろい"
+   "reading": "おもしろい",
+   "mnemonic": "面 mask + 白 white"
   },
   {
    "slug": "word-oyogu",
@@ -4428,7 +4426,6 @@
    "term": "泳ぐ",
    "romaji": "oyogu",
    "meaning": "To swim",
-   "mnemonic": "Water movement",
    "examples": [
     {
      "jp": "海で泳ぐ",
@@ -4441,7 +4438,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "およぐ"
+   "reading": "およぐ",
+   "mnemonic": "泳 swim: 氵 water + 水 water"
   },
   {
    "slug": "word-oriru",
@@ -4450,7 +4448,6 @@
    "term": "降りる",
    "romaji": "oriru",
    "meaning": "To get off",
-   "mnemonic": "Exit a vehicle",
    "examples": [
     {
      "jp": "バスから降りる",
@@ -4463,7 +4460,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "おりる"
+   "reading": "おりる",
+   "mnemonic": "降 descend: 夂 walk + ⻖ hill + 十 ten"
   },
   {
    "slug": "word-ongaku",
@@ -4472,7 +4470,6 @@
    "term": "音楽",
    "romaji": "ongaku",
    "meaning": "Music",
-   "mnemonic": "Sound enjoyment",
    "examples": [
     {
      "jp": "音楽を聴く (ongaku wo kiku)",
@@ -4485,7 +4482,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "おんがく"
+   "reading": "おんがく",
+   "mnemonic": "音 sound + 楽 music"
   },
   {
    "slug": "word-kaisha",
@@ -4494,7 +4492,6 @@
    "term": "会社",
    "romaji": "kaisha",
    "meaning": "Company/Office",
-   "mnemonic": "Meeting + society",
    "examples": [
     {
      "jp": "会社で働く (kaisha de hataraku)",
@@ -4507,7 +4504,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "かいしゃ"
+   "reading": "かいしゃ",
+   "mnemonic": "会 meeting + 社 company"
   },
   {
    "slug": "word-kaimono",
@@ -4516,7 +4514,6 @@
    "term": "買い物",
    "romaji": "kaimono",
    "meaning": "Shopping",
-   "mnemonic": "Buying things",
    "examples": [
     {
      "jp": "買い物に行く",
@@ -4529,7 +4526,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "かいもの"
+   "reading": "かいもの",
+   "mnemonic": "買 buy + 物 thing"
   },
   {
    "slug": "word-kau",
@@ -4538,7 +4536,6 @@
    "term": "買う",
    "romaji": "kau",
    "meaning": "To buy",
-   "mnemonic": "Exchange money",
    "examples": [
     {
      "jp": "パンを買う (pan wo kau)",
@@ -4551,7 +4548,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "かう"
+   "reading": "かう",
+   "mnemonic": "買 buy: 貝 shellfish + 罒 net"
   },
   {
    "slug": "word-kaeru",
@@ -4560,7 +4558,6 @@
    "term": "帰る",
    "romaji": "kaeru",
    "meaning": "To return/go home",
-   "mnemonic": "Go back",
    "examples": [
     {
      "jp": "家に帰る",
@@ -4573,7 +4570,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "かえる"
+   "reading": "かえる",
+   "mnemonic": "帰 homecoming: ヨ hand + 刂 knife + 巾 cloth + 冖 cover"
   },
   {
    "slug": "word-kao",
@@ -4582,7 +4580,6 @@
    "term": "顔",
    "romaji": "kao",
    "meaning": "Face",
-   "mnemonic": "What people see first",
    "examples": [
     {
      "jp": "顔を洗う",
@@ -4595,7 +4592,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "かお"
+   "reading": "かお",
+   "mnemonic": "顔 face: 頁 head + 立 stand + 亠 lid + 厂 cliff + 彡 hair"
   },
   {
    "slug": "word-kagi",
@@ -4604,7 +4602,6 @@
    "term": "鍵",
    "romaji": "kagi",
    "meaning": "Key",
-   "mnemonic": "Opener/locker",
    "examples": [
     {
      "jp": "鍵をかける",
@@ -4617,7 +4614,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "かぎ"
+   "reading": "かぎ",
+   "mnemonic": "鍵: 金 gold + 廴 stride + 聿 brush"
   },
   {
    "slug": "word-kaku",
@@ -4626,7 +4624,6 @@
    "term": "書く",
    "romaji": "kaku",
    "meaning": "To write",
-   "mnemonic": "Put words on paper",
    "examples": [
     {
      "jp": "手紙を書く",
@@ -4639,7 +4636,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "かく"
+   "reading": "かく",
+   "mnemonic": "書 write: 日 sun + 聿 brush"
   },
   {
    "slug": "word-kasa",
@@ -4648,7 +4646,6 @@
    "term": "傘",
    "romaji": "kasa",
    "meaning": "Umbrella",
-   "mnemonic": "Rain protection",
    "examples": [
     {
      "jp": "傘を持つ",
@@ -4661,7 +4658,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "かさ"
+   "reading": "かさ",
+   "mnemonic": "傘: 十 ten + 人 person + 𠆢 person"
   },
   {
    "slug": "word-kaze",
@@ -4670,7 +4668,6 @@
    "term": "風",
    "romaji": "kaze",
    "meaning": "Wind",
-   "mnemonic": "Moving air",
    "examples": [
     {
      "jp": "風が強い",
@@ -4683,7 +4680,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "かぜ"
+   "reading": "かぜ",
+   "mnemonic": "風 wind: 冂 frame + 虫 insect"
   },
   {
    "slug": "word-kazoku",
@@ -4692,7 +4690,6 @@
    "term": "家族",
    "romaji": "kazoku",
    "meaning": "Family",
-   "mnemonic": "House + tribe",
    "examples": [
     {
      "jp": "家族と旅行する",
@@ -4705,7 +4702,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "かぞく"
+   "reading": "かぞく",
+   "mnemonic": "家 house + 族 tribe"
   },
   {
    "slug": "word-gakkou",
@@ -4714,7 +4712,6 @@
    "term": "学校",
    "romaji": "gakkou",
    "meaning": "School",
-   "mnemonic": "Learning + building",
    "examples": [
     {
      "jp": "学校へ行く (gakkou e iku)",
@@ -4727,7 +4724,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "がっこう"
+   "reading": "がっこう",
+   "mnemonic": "学 study + 校 school"
   },
   {
    "slug": "word-kayoubi",
@@ -4736,7 +4734,6 @@
    "term": "火曜日",
    "romaji": "kayoubi",
    "meaning": "Tuesday",
-   "mnemonic": "か (fire)",
    "examples": [
     {
      "jp": "火曜日の授業",
@@ -4749,7 +4746,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "かようび"
+   "reading": "かようび",
+   "mnemonic": "火 fire + 曜 day of week + 日 sun"
   },
   {
    "slug": "word-tsurai",
@@ -4758,7 +4756,6 @@
    "term": "辛い",
    "romaji": "karai",
    "meaning": "Hard / Painful",
-   "mnemonic": "Emotionally difficult",
    "examples": [
     {
      "jp": "辛い経験",
@@ -4771,7 +4768,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "からい"
+   "reading": "からい",
+   "mnemonic": "辛 spicy: 十 ten + 立 stand"
   },
   {
    "slug": "word-karui",
@@ -4780,7 +4778,6 @@
    "term": "軽い",
    "romaji": "karui",
    "meaning": "Light (weight)",
-   "mnemonic": "Easy to carry",
    "examples": [
     {
      "jp": "軽いカバン",
@@ -4793,7 +4790,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "かるい"
+   "reading": "かるい",
+   "mnemonic": "軽 lightly: 車 car + 土 earth + 又 hand"
   },
   {
    "slug": "word-kiiro",
@@ -4802,7 +4800,6 @@
    "term": "黄色",
    "romaji": "kiiro",
    "meaning": "Yellow",
-   "mnemonic": "Sun yellow",
    "examples": [
     {
      "jp": "黄色いバナナ",
@@ -4815,7 +4812,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "きいろ"
+   "reading": "きいろ",
+   "mnemonic": "黄 yellow + 色 color"
   },
   {
    "slug": "word-kiku",
@@ -4824,7 +4822,6 @@
    "term": "聞く",
    "romaji": "kiku",
    "meaning": "To listen / ask",
-   "mnemonic": "Use ears",
    "examples": [
     {
      "jp": "質問を聞く",
@@ -4837,7 +4834,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "きく"
+   "reading": "きく",
+   "mnemonic": "聞 hear: 耳 ear + 門 gate"
   },
   {
    "slug": "word-kippu",
@@ -4846,7 +4844,6 @@
    "term": "切符",
    "romaji": "kippu",
    "meaning": "Ticket",
-   "mnemonic": "Entry pass",
    "examples": [
     {
      "jp": "切符を買う",
@@ -4859,7 +4856,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "きっぷ"
+   "reading": "きっぷ",
+   "mnemonic": "切 cut + 符 token"
   },
   {
    "slug": "word-kinou",
@@ -4868,7 +4866,6 @@
    "term": "昨日",
    "romaji": "kinou",
    "meaning": "Yesterday",
-   "mnemonic": "The day before",
    "examples": [
     {
      "jp": "昨日雨だった (kinou ame datta)",
@@ -4881,7 +4878,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "きのう"
+   "reading": "きのう",
+   "mnemonic": "昨 yesterday + 日 sun"
   },
   {
    "slug": "word-gyuunyuu",
@@ -4890,7 +4888,6 @@
    "term": "牛乳",
    "romaji": "gyuunyuu",
    "meaning": "Milk",
-   "mnemonic": "Cow + liquid",
    "examples": [
     {
      "jp": "牛乳を飲む",
@@ -4903,7 +4900,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ぎゅうにゅう"
+   "reading": "ぎゅうにゅう",
+   "mnemonic": "牛 cow + 乳 milk"
   },
   {
    "slug": "word-kyou",
@@ -4912,7 +4910,6 @@
    "term": "今日",
    "romaji": "kyou",
    "meaning": "Today",
-   "mnemonic": "This + day",
    "examples": [
     {
      "jp": "今日は暑い (kyou wa atsui)",
@@ -4925,7 +4922,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "きょう"
+   "reading": "きょう",
+   "mnemonic": "今 now + 日 sun"
   },
   {
    "slug": "word-kyonen",
@@ -4934,7 +4932,6 @@
    "term": "去年",
    "romaji": "kyonen",
    "meaning": "Last year",
-   "mnemonic": "Previous year",
    "examples": [
     {
      "jp": "去年の話",
@@ -4947,7 +4944,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "きょねん"
+   "reading": "きょねん",
+   "mnemonic": "去 gone + 年 year"
   },
   {
    "slug": "word-kirai",
@@ -4956,7 +4954,6 @@
    "term": "嫌い",
    "romaji": "kirai",
    "meaning": "Dislike / Hate",
-   "mnemonic": "Negative feeling",
    "examples": [
     {
      "jp": "嫌いな食べ物",
@@ -4969,7 +4966,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "きらい"
+   "reading": "きらい",
+   "mnemonic": "嫌: ヨ hand + 女 woman + ハ eight + 并 horns"
   },
   {
    "slug": "word-kiru",
@@ -4978,7 +4976,6 @@
    "term": "着る",
    "romaji": "kiru",
    "meaning": "To wear / put on",
-   "mnemonic": "Dress up",
    "examples": [
     {
      "jp": "服を着る",
@@ -4991,7 +4988,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "きる"
+   "reading": "きる",
+   "mnemonic": "着 don: 目 eye + 羊 sheep"
   },
   {
    "slug": "word-ginkou",
@@ -5000,7 +4998,6 @@
    "term": "銀行",
    "romaji": "ginkou",
    "meaning": "Bank",
-   "mnemonic": "Silver + business",
    "examples": [
     {
      "jp": "銀行でお金を出す",
@@ -5013,7 +5010,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ぎんこう"
+   "reading": "ぎんこう",
+   "mnemonic": "銀 silver + 行 go"
   },
   {
    "slug": "word-kin-youbi",
@@ -5022,7 +5020,6 @@
    "term": "金曜日",
    "romaji": "kin'youbi",
    "meaning": "Friday",
-   "mnemonic": "きん (gold/money)",
    "examples": [
     {
      "jp": "花金 (hanakin)",
@@ -5035,7 +5032,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "きんようび"
+   "reading": "きんようび",
+   "mnemonic": "金 gold + 曜 day of week + 日 sun"
   },
   {
    "slug": "word-kusuri",
@@ -5044,7 +5042,6 @@
    "term": "薬",
    "romaji": "kusuri",
    "meaning": "Medicine",
-   "mnemonic": "Healing substance",
    "examples": [
     {
      "jp": "薬を飲む",
@@ -5057,7 +5054,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "くすり"
+   "reading": "くすり",
+   "mnemonic": "薬 medicine: 日 sun + 木 tree + 冫 ice + ⺾ grass"
   },
   {
    "slug": "word-kudamono",
@@ -5066,7 +5064,6 @@
    "term": "果物",
    "romaji": "kudamono",
    "meaning": "Fruit",
-   "mnemonic": "Tree harvest",
    "examples": [
     {
      "jp": "果物が甘い (kudamono ga amai)",
@@ -5079,7 +5076,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "くだもの"
+   "reading": "くだもの",
+   "mnemonic": "果 fruit + 物 thing"
   },
   {
    "slug": "word-kuchi",
@@ -5088,7 +5086,6 @@
    "term": "口",
    "romaji": "kuchi",
    "meaning": "Mouth",
-   "mnemonic": "Opening shape",
    "examples": [
     {
      "jp": "口を開ける",
@@ -5101,7 +5098,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "くち"
+   "reading": "くち",
+   "mnemonic": "口 mouth: 囗 enclosure"
   },
   {
    "slug": "word-kutsu",
@@ -5110,7 +5108,6 @@
    "term": "靴",
    "romaji": "kutsu",
    "meaning": "Shoes",
-   "mnemonic": "Foot covering",
    "examples": [
     {
      "jp": "靴を履く",
@@ -5123,7 +5120,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "くつ"
+   "reading": "くつ",
+   "mnemonic": "靴 shoes: ⺅ person + 革 leather + 匕 spoon"
   },
   {
    "slug": "word-kutsushita",
@@ -5132,7 +5130,6 @@
    "term": "靴下",
    "romaji": "kutsushita",
    "meaning": "Socks",
-   "mnemonic": "Foot covering",
    "examples": [
     {
      "jp": "靴下を履く",
@@ -5145,7 +5142,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "くつした"
+   "reading": "くつした",
+   "mnemonic": "靴 shoes + 下 below"
   },
   {
    "slug": "word-kumori",
@@ -5154,7 +5152,6 @@
    "term": "曇り",
    "romaji": "kumori",
    "meaning": "Cloudy",
-   "mnemonic": "Clouds overhead",
    "examples": [
     {
      "jp": "曇りの日",
@@ -5167,7 +5164,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "くもり"
+   "reading": "くもり",
+   "mnemonic": "曇 cloudy weather: 雨 rain + 二 two + 日 sun + 厶 private"
   },
   {
    "slug": "word-kuru",
@@ -5176,7 +5174,6 @@
    "term": "来る",
    "romaji": "kuru",
    "meaning": "To come",
-   "mnemonic": "Move toward here",
    "examples": [
     {
      "jp": "こちらに来る",
@@ -5189,7 +5186,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "くる"
+   "reading": "くる",
+   "mnemonic": "来 come: 二 two + 米 rice + 亠 lid + 木 tree"
   },
   {
    "slug": "word-kuruma",
@@ -5198,7 +5196,6 @@
    "term": "車",
    "romaji": "kuruma",
    "meaning": "Car",
-   "mnemonic": "Wheels rolling",
    "examples": [
     {
      "jp": "車で行く (kuruma de iku)",
@@ -5211,7 +5208,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "くるま"
+   "reading": "くるま",
+   "mnemonic": "車 car"
   },
   {
    "slug": "word-kuro",
@@ -5220,7 +5218,6 @@
    "term": "黒",
    "romaji": "kuro",
    "meaning": "Black",
-   "mnemonic": "Dark as night",
    "examples": [
     {
      "jp": "黒い猫",
@@ -5233,7 +5230,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "くろ"
+   "reading": "くろ",
+   "mnemonic": "黒 black: 里 village + 灬 fire"
   },
   {
    "slug": "word-getsuyoubi",
@@ -5242,7 +5240,6 @@
    "term": "月曜日",
    "romaji": "getsuyoubi",
    "meaning": "Monday",
-   "mnemonic": "げつ (moon/month)",
    "examples": [
     {
      "jp": "月曜日に始まる",
@@ -5255,7 +5252,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "げつようび"
+   "reading": "げつようび",
+   "mnemonic": "月 moon + 曜 day of week + 日 sun"
   },
   {
    "slug": "word-genki",
@@ -5264,7 +5262,6 @@
    "term": "元気",
    "romaji": "genki",
    "meaning": "Healthy / Fine",
-   "mnemonic": "Full of energy",
    "examples": [
     {
      "jp": "元気ですか",
@@ -5277,7 +5274,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "げんき"
+   "reading": "げんき",
+   "mnemonic": "元 beginning + 気 spirit"
   },
   {
    "slug": "word-kouen",
@@ -5286,7 +5284,6 @@
    "term": "公園",
    "romaji": "kouen",
    "meaning": "Park",
-   "mnemonic": "Green public space",
    "examples": [
     {
      "jp": "公園を散歩する",
@@ -5299,7 +5296,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "こうえん"
+   "reading": "こうえん",
+   "mnemonic": "公 public + 園 park"
   },
   {
    "slug": "word-kouban",
@@ -5308,7 +5306,6 @@
    "term": "交番",
    "romaji": "kouban",
    "meaning": "Police box",
-   "mnemonic": "Local police post",
    "examples": [
     {
      "jp": "交番で聞く",
@@ -5321,7 +5318,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "こうばん"
+   "reading": "こうばん",
+   "mnemonic": "交 mingle + 番 turn"
   },
   {
    "slug": "word-kooto",
@@ -5330,7 +5328,6 @@
    "term": "コート",
    "romaji": "kooto",
    "meaning": "Coat",
-   "mnemonic": "Outer layer",
    "examples": [
     {
      "jp": "コートを着る",
@@ -5352,7 +5349,6 @@
    "term": "コーヒー",
    "romaji": "koohii",
    "meaning": "Coffee",
-   "mnemonic": "Borrowed from English",
    "examples": [
     {
      "jp": "コーヒーを頼む",
@@ -5374,7 +5370,6 @@
    "term": "午後",
    "romaji": "gogo",
    "meaning": "PM (after noon)",
-   "mnemonic": "ごご = after noon",
    "examples": [
     {
      "jp": "午後三時",
@@ -5387,7 +5382,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ごご"
+   "reading": "ごご",
+   "mnemonic": "午 noon + 後 behind"
   },
   {
    "slug": "word-gozen",
@@ -5396,7 +5392,6 @@
    "term": "午前",
    "romaji": "gozen",
    "meaning": "AM (before noon)",
-   "mnemonic": "ごぜん = before noon",
    "examples": [
     {
      "jp": "午前六時",
@@ -5409,7 +5404,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ごぜん"
+   "reading": "ごぜん",
+   "mnemonic": "午 noon + 前 front"
   },
   {
    "slug": "word-koppu",
@@ -5418,7 +5414,6 @@
    "term": "コップ",
    "romaji": "koppu",
    "meaning": "Cup / Glass",
-   "mnemonic": "Drinking vessel",
    "examples": [
     {
      "jp": "コップに水を入れる",
@@ -5440,7 +5435,6 @@
    "term": "今年",
    "romaji": "kotoshi",
    "meaning": "This year",
-   "mnemonic": "Current year",
    "examples": [
     {
      "jp": "今年の目標",
@@ -5453,7 +5447,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ことし"
+   "reading": "ことし",
+   "mnemonic": "今 now + 年 year"
   },
   {
    "slug": "word-kotoba",
@@ -5462,7 +5457,6 @@
    "term": "言葉",
    "romaji": "kotoba",
    "meaning": "Word/Language",
-   "mnemonic": "Spoken leaf",
    "examples": [
     {
      "jp": "言葉を学ぶ (kotoba wo manabu)",
@@ -5475,7 +5469,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ことば"
+   "reading": "ことば",
+   "mnemonic": "言 say + 葉 leaf"
   },
   {
    "slug": "word-kodomo",
@@ -5484,7 +5479,6 @@
    "term": "子供",
    "romaji": "kodomo",
    "meaning": "Child",
-   "mnemonic": "Child + small",
    "examples": [
     {
      "jp": "子供が遊んでいる",
@@ -5497,7 +5491,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "こども"
+   "reading": "こども",
+   "mnemonic": "子 child + 供 submit"
   },
   {
    "slug": "word-konshuu",
@@ -5506,7 +5501,6 @@
    "term": "今週",
    "romaji": "konshuu",
    "meaning": "This week",
-   "mnemonic": "Current week",
    "examples": [
     {
      "jp": "今週の予定",
@@ -5519,7 +5513,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "こんしゅう"
+   "reading": "こんしゅう",
+   "mnemonic": "今 now + 週 week"
   },
   {
    "slug": "word-saifu",
@@ -5528,7 +5523,6 @@
    "term": "財布",
    "romaji": "saifu",
    "meaning": "Wallet",
-   "mnemonic": "Money holder",
    "examples": [
     {
      "jp": "財布をなくした",
@@ -5541,7 +5535,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "さいふ"
+   "reading": "さいふ",
+   "mnemonic": "財 property + 布 linen"
   },
   {
    "slug": "word-sakana",
@@ -5550,7 +5545,6 @@
    "term": "魚",
    "romaji": "sakana",
    "meaning": "Fish",
-   "mnemonic": "Water creature",
    "examples": [
     {
      "jp": "魚を食べる",
@@ -5563,7 +5557,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "さかな"
+   "reading": "さかな",
+   "mnemonic": "魚 fish: 田 rice field + 灬 fire"
   },
   {
    "slug": "word-satou",
@@ -5572,7 +5567,6 @@
    "term": "砂糖",
    "romaji": "satou",
    "meaning": "Sugar",
-   "mnemonic": "Sweet crystals",
    "examples": [
     {
      "jp": "砂糖を入れる",
@@ -5585,7 +5579,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "さとう"
+   "reading": "さとう",
+   "mnemonic": "砂 sand + 糖"
   },
   {
    "slug": "word-samui",
@@ -5594,7 +5589,6 @@
    "term": "寒い",
    "romaji": "samui",
    "meaning": "Cold",
-   "mnemonic": "Shivering cold",
    "examples": [
     {
      "jp": "冬は寒い",
@@ -5607,7 +5601,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "さむい"
+   "reading": "さむい",
+   "mnemonic": "寒 cold: ハ eight + 宀 roof + 井 well"
   },
   {
    "slug": "word-shio",
@@ -5616,7 +5611,6 @@
    "term": "塩",
    "romaji": "shio",
    "meaning": "Salt",
-   "mnemonic": "Savory mineral",
    "examples": [
     {
      "jp": "塩をかける",
@@ -5629,7 +5623,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "しお"
+   "reading": "しお",
+   "mnemonic": "塩 salt: 口 mouth + 皿 dish + 土 earth"
   },
   {
    "slug": "word-jikan",
@@ -5638,7 +5633,6 @@
    "term": "時間",
    "romaji": "jikan",
    "meaning": "Time (duration)",
-   "mnemonic": "Time amount",
    "examples": [
     {
      "jp": "時間がない",
@@ -5651,7 +5645,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "じかん"
+   "reading": "じかん",
+   "mnemonic": "時 time + 間 between"
   },
   {
    "slug": "word-shigoto",
@@ -5660,7 +5655,6 @@
    "term": "仕事",
    "romaji": "shigoto",
    "meaning": "Work / Job",
-   "mnemonic": "Thing you do",
    "examples": [
     {
      "jp": "仕事が忙しい",
@@ -5673,7 +5667,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "しごと"
+   "reading": "しごと",
+   "mnemonic": "仕 attend + 事 matter"
   },
   {
    "slug": "word-jisho",
@@ -5682,7 +5677,6 @@
    "term": "辞書",
    "romaji": "jisho",
    "meaning": "Dictionary",
-   "mnemonic": "Word reference",
    "examples": [
     {
      "jp": "辞書で調べる",
@@ -5695,7 +5689,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "じしょ"
+   "reading": "じしょ",
+   "mnemonic": "辞 resign + 書 write"
   },
   {
    "slug": "word-jitensha",
@@ -5704,7 +5699,6 @@
    "term": "自転車",
    "romaji": "jitensha",
    "meaning": "Bicycle",
-   "mnemonic": "Self-turning vehicle",
    "examples": [
     {
      "jp": "自転車で通う",
@@ -5717,7 +5711,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "じてんしゃ"
+   "reading": "じてんしゃ",
+   "mnemonic": "自 oneself + 転 revolve + 車 car"
   },
   {
    "slug": "word-shashin",
@@ -5726,7 +5721,6 @@
    "term": "写真",
    "romaji": "shashin",
    "meaning": "Photo",
-   "mnemonic": "Captured image",
    "examples": [
     {
      "jp": "写真を撮る",
@@ -5739,7 +5733,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "しゃしん"
+   "reading": "しゃしん",
+   "mnemonic": "写 copy + 真 true"
   },
   {
    "slug": "word-shatsu",
@@ -5748,7 +5743,6 @@
    "term": "シャツ",
    "romaji": "shatsu",
    "meaning": "Shirt",
-   "mnemonic": "Top garment",
    "examples": [
     {
      "jp": "シャツを着る",
@@ -5770,7 +5764,6 @@
    "term": "授業",
    "romaji": "jugyou",
    "meaning": "Class / Lesson",
-   "mnemonic": "Learning session",
    "examples": [
     {
      "jp": "授業が始まる",
@@ -5783,7 +5776,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "じゅぎょう"
+   "reading": "じゅぎょう",
+   "mnemonic": "授 + 業 business"
   },
   {
    "slug": "word-shukudai",
@@ -5792,7 +5786,6 @@
    "term": "宿題",
    "romaji": "shukudai",
    "meaning": "Homework",
-   "mnemonic": "Home + subject",
    "examples": [
     {
      "jp": "宿題をする",
@@ -5805,7 +5798,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "しゅくだい"
+   "reading": "しゅくだい",
+   "mnemonic": "宿 inn + 題 topic"
   },
   {
    "slug": "word-shouyu",
@@ -5814,7 +5808,6 @@
    "term": "醤油",
    "romaji": "shouyu",
    "meaning": "Soy sauce",
-   "mnemonic": "Japan's key condiment",
    "examples": [
     {
      "jp": "醤油をつける",
@@ -5827,7 +5820,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "しょうゆ"
+   "reading": "しょうゆ",
+   "mnemonic": "醤 + 油 oil"
   },
   {
    "slug": "word-shiru",
@@ -5836,7 +5830,6 @@
    "term": "知る",
    "romaji": "shiru",
    "meaning": "To know",
-   "mnemonic": "Have knowledge of",
    "examples": [
     {
      "jp": "彼を知っていますか",
@@ -5849,7 +5842,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "しる"
+   "reading": "しる",
+   "mnemonic": "知 know: 口 mouth + 矢 arrow"
   },
   {
    "slug": "word-shiro",
@@ -5858,7 +5852,6 @@
    "term": "白",
    "romaji": "shiro",
    "meaning": "White",
-   "mnemonic": "Snow white",
    "examples": [
     {
      "jp": "白いシャツ",
@@ -5871,7 +5864,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "しろ"
+   "reading": "しろ",
+   "mnemonic": "白 white"
   },
   {
    "slug": "word-suiyoubi",
@@ -5880,7 +5874,6 @@
    "term": "水曜日",
    "romaji": "suiyoubi",
    "meaning": "Wednesday",
-   "mnemonic": "すい (water)",
    "examples": [
     {
      "jp": "水曜日に会議",
@@ -5893,7 +5886,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "すいようび"
+   "reading": "すいようび",
+   "mnemonic": "水 water + 曜 day of week + 日 sun"
   },
   {
    "slug": "word-sukaato",
@@ -5902,7 +5896,6 @@
    "term": "スカート",
    "romaji": "sukaato",
    "meaning": "Skirt",
-   "mnemonic": "Lower garment",
    "examples": [
     {
      "jp": "スカートをはく",
@@ -5923,7 +5916,6 @@
    "term": "好き",
    "romaji": "suki",
    "meaning": "Like / Love",
-   "mnemonic": "Positive preference",
    "examples": [
     {
      "jp": "日本語が好き",
@@ -5936,7 +5928,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "すき"
+   "reading": "すき",
+   "mnemonic": "好 fond: 子 child + 女 woman"
   },
   {
    "slug": "word-sukunai",
@@ -5945,7 +5938,6 @@
    "term": "少ない",
    "romaji": "sukunai",
    "meaning": "Few / Little",
-   "mnemonic": "Small quantity",
    "examples": [
     {
      "jp": "時間が少ない",
@@ -5958,7 +5950,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "すくない"
+   "reading": "すくない",
+   "mnemonic": "少 few: 小 small"
   },
   {
    "slug": "word-suzushii",
@@ -5967,7 +5960,6 @@
    "term": "涼しい",
    "romaji": "suzushii",
    "meaning": "Cool / Refreshing",
-   "mnemonic": "Pleasant temperature",
    "examples": [
     {
      "jp": "涼しい風",
@@ -5980,7 +5972,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "すずしい"
+   "reading": "すずしい",
+   "mnemonic": "涼 refreshing: 口 mouth + 氵 water + 小 small + 亠 lid"
   },
   {
    "slug": "word-supuun",
@@ -5989,7 +5982,6 @@
    "term": "スプーン",
    "romaji": "supuun",
    "meaning": "Spoon",
-   "mnemonic": "Scooping utensil",
    "examples": [
     {
      "jp": "スプーンで食べる",
@@ -6011,7 +6003,6 @@
    "term": "ズボン",
    "romaji": "zubon",
    "meaning": "Trousers",
-   "mnemonic": "Leg covering",
    "examples": [
     {
      "jp": "ズボンを履く",
@@ -6033,7 +6024,6 @@
    "term": "セーター",
    "romaji": "seetaa",
    "meaning": "Sweater",
-   "mnemonic": "Warm knit",
    "examples": [
     {
      "jp": "セーターを着る",
@@ -6055,7 +6045,6 @@
    "term": "石鹸",
    "romaji": "sekken",
    "meaning": "Soap",
-   "mnemonic": "Cleaning bar",
    "examples": [
     {
      "jp": "石鹸で洗う",
@@ -6068,7 +6057,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "せっけん"
+   "reading": "せっけん",
+   "mnemonic": "石 stone + 鹸"
   },
   {
    "slug": "word-senshuu",
@@ -6077,7 +6067,6 @@
    "term": "先週",
    "romaji": "senshuu",
    "meaning": "Last week",
-   "mnemonic": "Previous week",
    "examples": [
     {
      "jp": "先週どこへ行った",
@@ -6090,7 +6079,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "せんしゅう"
+   "reading": "せんしゅう",
+   "mnemonic": "先 ahead + 週 week"
   },
   {
    "slug": "word-daisuki",
@@ -6099,7 +6089,6 @@
    "term": "大好き",
    "romaji": "daisuki",
    "meaning": "Love / Really like",
-   "mnemonic": "Intensely like",
    "examples": [
     {
      "jp": "寿司が大好き",
@@ -6112,7 +6101,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "だいすき"
+   "reading": "だいすき",
+   "mnemonic": "大 big + 好 fond"
   },
   {
    "slug": "word-takai",
@@ -6121,7 +6111,6 @@
    "term": "高い",
    "romaji": "takai",
    "meaning": "Expensive / Tall",
-   "mnemonic": "Up in price or height",
    "examples": [
     {
      "jp": "値段が高い",
@@ -6134,7 +6123,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "たかい"
+   "reading": "たかい",
+   "mnemonic": "高 high: 口 mouth + 亠 lid + 冂 frame"
   },
   {
    "slug": "word-takushii",
@@ -6143,7 +6133,6 @@
    "term": "タクシー",
    "romaji": "takushii",
    "meaning": "Taxi",
-   "mnemonic": "From English",
    "examples": [
     {
      "jp": "タクシーを呼ぶ",
@@ -6165,7 +6154,6 @@
    "term": "楽しい",
    "romaji": "tanoshii",
    "meaning": "Fun/Enjoyable",
-   "mnemonic": "Brings joy",
    "examples": [
     {
      "jp": "パーティーは楽しい",
@@ -6178,7 +6166,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "たのしい"
+   "reading": "たのしい",
+   "mnemonic": "楽 music: 白 white + 木 tree + 冫 ice"
   },
   {
    "slug": "word-taberu",
@@ -6187,7 +6176,6 @@
    "term": "食べる",
    "romaji": "taberu",
    "meaning": "To eat",
-   "mnemonic": "Take in food",
    "examples": [
     {
      "jp": "朝ごはんを食べる",
@@ -6200,7 +6188,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "たべる"
+   "reading": "たべる",
+   "mnemonic": "食 eat"
   },
   {
    "slug": "word-chiisai",
@@ -6209,7 +6198,6 @@
    "term": "小さい",
    "romaji": "chiisai",
    "meaning": "Small / Little",
-   "mnemonic": "Tiny",
    "examples": [
     {
      "jp": "小さい犬",
@@ -6222,7 +6210,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ちいさい"
+   "reading": "ちいさい",
+   "mnemonic": "小 small"
   },
   {
    "slug": "word-chikatetsu",
@@ -6231,7 +6220,6 @@
    "term": "地下鉄",
    "romaji": "chikatetsu",
    "meaning": "Subway",
-   "mnemonic": "Underground rail",
    "examples": [
     {
      "jp": "地下鉄で移動する",
@@ -6244,7 +6232,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ちかてつ"
+   "reading": "ちかてつ",
+   "mnemonic": "地 ground + 下 below + 鉄 iron"
   },
   {
    "slug": "word-chichi",
@@ -6253,7 +6242,6 @@
    "term": "父",
    "romaji": "chichi",
    "meaning": "Father (my)",
-   "mnemonic": "Humble for own father",
    "examples": [
     {
      "jp": "父は医者です",
@@ -6266,7 +6254,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ちち"
+   "reading": "ちち",
+   "mnemonic": "父 father"
   },
   {
    "slug": "word-chairo",
@@ -6275,7 +6264,6 @@
    "term": "茶色",
    "romaji": "chairo",
    "meaning": "Brown",
-   "mnemonic": "Tea brown color",
    "examples": [
     {
      "jp": "茶色の犬",
@@ -6288,7 +6276,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ちゃいろ"
+   "reading": "ちゃいろ",
+   "mnemonic": "茶 tea + 色 color"
   },
   {
    "slug": "word-tsukue",
@@ -6297,7 +6286,6 @@
    "term": "机",
    "romaji": "tsukue",
    "meaning": "Desk",
-   "mnemonic": "Work surface",
    "examples": [
     {
      "jp": "机で勉強する",
@@ -6310,7 +6298,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "つくえ"
+   "reading": "つくえ",
+   "mnemonic": "机 desk: 木 tree + 几 table"
   },
   {
    "slug": "word-tsumaranai",
@@ -6319,7 +6308,6 @@
    "term": "つまらない",
    "romaji": "tsumaranai",
    "meaning": "Boring",
-   "mnemonic": "Not interesting",
    "examples": [
     {
      "jp": "つまらない映画",
@@ -6341,7 +6329,6 @@
    "term": "手",
    "romaji": "te",
    "meaning": "Hand",
-   "mnemonic": "Five fingers",
    "examples": [
     {
      "jp": "手を洗う",
@@ -6354,7 +6341,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "て"
+   "reading": "て",
+   "mnemonic": "手 hand"
   },
   {
    "slug": "word-deguchi",
@@ -6363,7 +6351,6 @@
    "term": "出口",
    "romaji": "deguchi",
    "meaning": "Exit",
-   "mnemonic": "Going out opening",
    "examples": [
     {
      "jp": "出口はどこですか",
@@ -6376,7 +6363,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "でぐち"
+   "reading": "でぐち",
+   "mnemonic": "出 exit + 口 mouth"
   },
   {
    "slug": "word-deru",
@@ -6385,7 +6373,6 @@
    "term": "出る",
    "romaji": "deru",
    "meaning": "To exit / leave",
-   "mnemonic": "Leave a place",
    "examples": [
     {
      "jp": "外に出る",
@@ -6398,7 +6385,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "でる"
+   "reading": "でる",
+   "mnemonic": "出 exit: 山 mountain"
   },
   {
    "slug": "word-tenki",
@@ -6407,7 +6395,6 @@
    "term": "天気",
    "romaji": "tenki",
    "meaning": "Weather",
-   "mnemonic": "Sky condition",
    "examples": [
     {
      "jp": "今日の天気は？",
@@ -6420,7 +6407,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "てんき"
+   "reading": "てんき",
+   "mnemonic": "天 heavens + 気 spirit"
   },
   {
    "slug": "word-densha",
@@ -6429,7 +6417,6 @@
    "term": "電車",
    "romaji": "densha",
    "meaning": "Train",
-   "mnemonic": "Electric vehicle",
    "examples": [
     {
      "jp": "電車に乗る",
@@ -6442,7 +6429,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "でんしゃ"
+   "reading": "でんしゃ",
+   "mnemonic": "電 electricity + 車 car"
   },
   {
    "slug": "word-denwa",
@@ -6451,7 +6439,6 @@
    "term": "電話",
    "romaji": "denwa",
    "meaning": "Phone call",
-   "mnemonic": "Electric speech",
    "examples": [
     {
      "jp": "電話をかける",
@@ -6464,7 +6451,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "でんわ"
+   "reading": "でんわ",
+   "mnemonic": "電 electricity + 話 talk"
   },
   {
    "slug": "word-douzo",
@@ -6473,7 +6461,6 @@
    "term": "どうぞ",
    "romaji": "douzo",
    "meaning": "Please / Go ahead",
-   "mnemonic": "Offering / inviting",
    "examples": [
     {
      "jp": "どうぞ、入ってください",
@@ -6495,7 +6482,6 @@
    "term": "どうも",
    "romaji": "doumo",
    "meaning": "Thanks / Hey",
-   "mnemonic": "Casual thanks",
    "examples": [
     {
      "jp": "どうもありがとう",
@@ -6516,7 +6502,6 @@
    "term": "時計",
    "romaji": "tokei",
    "meaning": "Clock / Watch",
-   "mnemonic": "Time measurer",
    "examples": [
     {
      "jp": "時計を見る",
@@ -6529,7 +6514,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "とけい"
+   "reading": "とけい",
+   "mnemonic": "時 time + 計 plot"
   },
   {
    "slug": "word-toshokan",
@@ -6538,7 +6524,6 @@
    "term": "図書館",
    "romaji": "toshokan",
    "meaning": "Library",
-   "mnemonic": "Book collection place",
    "examples": [
     {
      "jp": "図書館で勉強する",
@@ -6551,7 +6536,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "としょかん"
+   "reading": "としょかん",
+   "mnemonic": "図 map + 書 write + 館 building"
   },
   {
    "slug": "word-tomaru",
@@ -6560,7 +6546,6 @@
    "term": "止まる",
    "romaji": "tomaru",
    "meaning": "To stop",
-   "mnemonic": "Cease movement",
    "examples": [
     {
      "jp": "駅で止まる",
@@ -6573,7 +6558,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "とまる"
+   "reading": "とまる",
+   "mnemonic": "止 stop"
   },
   {
    "slug": "word-tomodachi",
@@ -6582,7 +6568,6 @@
    "term": "友達",
    "romaji": "tomodachi",
    "meaning": "Friend",
-   "mnemonic": "Friend + stand together",
    "examples": [
     {
      "jp": "友達と遊ぶ",
@@ -6595,7 +6580,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ともだち"
+   "reading": "ともだち",
+   "mnemonic": "友 friend + 達 accomplished"
   },
   {
    "slug": "word-doyoubi",
@@ -6604,7 +6590,6 @@
    "term": "土曜日",
    "romaji": "doyoubi",
    "meaning": "Saturday",
-   "mnemonic": "ど (earth)",
    "examples": [
     {
      "jp": "土曜日はゆっくりする",
@@ -6617,7 +6602,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "どようび"
+   "reading": "どようび",
+   "mnemonic": "土 earth + 曜 day of week + 日 sun"
   },
   {
    "slug": "word-tori",
@@ -6626,7 +6612,6 @@
    "term": "鳥",
    "romaji": "tori",
    "meaning": "Bird",
-   "mnemonic": "Wings and beak",
    "examples": [
     {
      "jp": "鳥が飛ぶ",
@@ -6639,7 +6624,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "とり"
+   "reading": "とり",
+   "mnemonic": "鳥 bird: 灬 fire"
   },
   {
    "slug": "word-naifu",
@@ -6648,7 +6634,6 @@
    "term": "ナイフ",
    "romaji": "naifu",
    "meaning": "Knife",
-   "mnemonic": "Cutting tool",
    "examples": [
     {
      "jp": "ナイフで切る",
@@ -6670,7 +6655,6 @@
    "term": "長い",
    "romaji": "nagai",
    "meaning": "Long",
-   "mnemonic": "Extended length",
    "examples": [
     {
      "jp": "長い道",
@@ -6683,7 +6667,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ながい"
+   "reading": "ながい",
+   "mnemonic": "長 long"
   },
   {
    "slug": "word-narau",
@@ -6692,7 +6677,6 @@
    "term": "習う",
    "romaji": "narau",
    "meaning": "To learn",
-   "mnemonic": "Receive knowledge",
    "examples": [
     {
      "jp": "新しいことを習う",
@@ -6705,7 +6689,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ならう"
+   "reading": "ならう",
+   "mnemonic": "習 learn: 羽 feathers + 白 white"
   },
   {
    "slug": "word-niku",
@@ -6714,7 +6699,6 @@
    "term": "肉",
    "romaji": "niku",
    "meaning": "Meat",
-   "mnemonic": "Flesh",
    "examples": [
     {
      "jp": "肉が好き (niku ga suki)",
@@ -6727,7 +6711,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "にく"
+   "reading": "にく",
+   "mnemonic": "肉 meat: 冂 frame + 人 person"
   },
   {
    "slug": "word-nichiyoubi",
@@ -6736,7 +6721,6 @@
    "term": "日曜日",
    "romaji": "nichiyoubi",
    "meaning": "Sunday",
-   "mnemonic": "にち (sun/day) + ようび",
    "examples": [
     {
      "jp": "日曜日は休み",
@@ -6749,7 +6733,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "にちようび"
+   "reading": "にちようび",
+   "mnemonic": "日 sun + 曜 day of week"
   },
   {
    "slug": "word-nugu",
@@ -6758,7 +6743,6 @@
    "term": "脱ぐ",
    "romaji": "nugu",
    "meaning": "To take off (clothes)",
-   "mnemonic": "Undress",
    "examples": [
     {
      "jp": "靴を脱ぐ",
@@ -6771,7 +6755,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ぬぐ"
+   "reading": "ぬぐ",
+   "mnemonic": "脱: 月 moon + 口 mouth + 并 horns + 儿 legs"
   },
   {
    "slug": "word-nekutai",
@@ -6780,7 +6765,6 @@
    "term": "ネクタイ",
    "romaji": "nekutai",
    "meaning": "Necktie",
-   "mnemonic": "Formal neck wear",
    "examples": [
     {
      "jp": "ネクタイを締める",
@@ -6802,7 +6786,6 @@
    "term": "猫",
    "romaji": "neko",
    "meaning": "Cat",
-   "mnemonic": "Cat with whiskers",
    "examples": [
     {
      "jp": "猫がいます",
@@ -6815,7 +6798,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ねこ"
+   "reading": "ねこ",
+   "mnemonic": "猫 cat: 田 rice field + 犭 dog + ⺾ grass"
   },
   {
    "slug": "word-neru",
@@ -6824,7 +6808,6 @@
    "term": "寝る",
    "romaji": "neru",
    "meaning": "To sleep",
-   "mnemonic": "Lie down to rest",
    "examples": [
     {
      "jp": "早く寝る",
@@ -6837,7 +6820,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ねる"
+   "reading": "ねる",
+   "mnemonic": "寝 lie down: ヨ hand + 又 hand + 冖 cover + 宀 roof + 爿 bed"
   },
   {
    "slug": "word-nooto",
@@ -6846,7 +6830,6 @@
    "term": "ノート",
    "romaji": "nooto",
    "meaning": "Notebook",
-   "mnemonic": "Paper collection",
    "examples": [
     {
      "jp": "ノートに書く",
@@ -6868,7 +6851,6 @@
    "term": "飲む",
    "romaji": "nomu",
    "meaning": "To drink",
-   "mnemonic": "Take in liquid",
    "examples": [
     {
      "jp": "水を飲む",
@@ -6881,7 +6863,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "のむ"
+   "reading": "のむ",
+   "mnemonic": "飲 drink: 欠 lack + 食 eat"
   },
   {
    "slug": "word-noru",
@@ -6890,7 +6873,6 @@
    "term": "乗る",
    "romaji": "noru",
    "meaning": "To ride / get on",
-   "mnemonic": "Board a vehicle",
    "examples": [
     {
      "jp": "電車に乗る",
@@ -6903,7 +6885,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "のる"
+   "reading": "のる",
+   "mnemonic": "乗 ride: 禾 grain + ハ eight"
   },
   {
    "slug": "word-ha",
@@ -6912,7 +6895,6 @@
    "term": "歯",
    "romaji": "ha",
    "meaning": "Tooth",
-   "mnemonic": "In your mouth",
    "examples": [
     {
      "jp": "歯を磨く",
@@ -6925,7 +6907,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "は"
+   "reading": "は",
+   "mnemonic": "歯 tooth: 止 stop + 米 rice + 凵 container"
   },
   {
    "slug": "word-hai",
@@ -6934,7 +6917,6 @@
    "term": "はい",
    "romaji": "hai",
    "meaning": "Yes",
-   "mnemonic": "Quick yes",
    "examples": [
     {
      "jp": "はい、そうです",
@@ -6955,7 +6937,6 @@
    "term": "入る",
    "romaji": "hairu",
    "meaning": "To enter",
-   "mnemonic": "Go inside",
    "examples": [
     {
      "jp": "部屋に入る",
@@ -6968,7 +6949,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "はいる"
+   "reading": "はいる",
+   "mnemonic": "入 enter"
   },
   {
    "slug": "word-hashi",
@@ -6977,7 +6959,6 @@
    "term": "箸",
    "romaji": "hashi",
    "meaning": "Chopsticks",
-   "mnemonic": "Japanese utensil",
    "examples": [
     {
      "jp": "箸で食べる",
@@ -6990,7 +6971,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "はし"
+   "reading": "はし",
+   "mnemonic": "箸: 竹 bamboo + 日 sun + ⺹ old"
   },
   {
    "slug": "word-hashiru",
@@ -6999,7 +6981,6 @@
    "term": "走る",
    "romaji": "hashiru",
    "meaning": "To run",
-   "mnemonic": "Fast movement",
    "examples": [
     {
      "jp": "毎朝走る",
@@ -7012,7 +6993,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "はしる"
+   "reading": "はしる",
+   "mnemonic": "走 run: 土 earth"
   },
   {
    "slug": "word-basu",
@@ -7021,7 +7003,6 @@
    "term": "バス",
    "romaji": "basu",
    "meaning": "Bus",
-   "mnemonic": "From English",
    "examples": [
     {
      "jp": "バスで行く",
@@ -7043,7 +7024,6 @@
    "term": "働く",
    "romaji": "hataraku",
    "meaning": "To work",
-   "mnemonic": "Person + move = labor",
    "examples": [
     {
      "jp": "毎日働く (mainichi hataraku)",
@@ -7056,7 +7036,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "はたらく"
+   "reading": "はたらく",
+   "mnemonic": "働 work: ⺅ person + 力 power + 日 sun"
   },
   {
    "slug": "word-hana",
@@ -7065,7 +7046,6 @@
    "term": "鼻",
    "romaji": "hana",
    "meaning": "Nose",
-   "mnemonic": "Center of face",
    "examples": [
     {
      "jp": "鼻が高い",
@@ -7078,7 +7058,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "はな"
+   "reading": "はな",
+   "mnemonic": "鼻 nose: 自 oneself + 田 rice field + 廾 two hands"
   },
   {
    "slug": "word-hanasu",
@@ -7087,7 +7068,6 @@
    "term": "話す",
    "romaji": "hanasu",
    "meaning": "To speak",
-   "mnemonic": "Use voice",
    "examples": [
     {
      "jp": "日本語で話す",
@@ -7100,7 +7080,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "はなす"
+   "reading": "はなす",
+   "mnemonic": "話 talk: 言 say + 舌 tongue"
   },
   {
    "slug": "word-haha",
@@ -7109,7 +7090,6 @@
    "term": "母",
    "romaji": "haha",
    "meaning": "Mother (my)",
-   "mnemonic": "Humble for own mother",
    "examples": [
     {
      "jp": "母が作った料理",
@@ -7122,7 +7102,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "はは"
+   "reading": "はは",
+   "mnemonic": "母 mother: 毋 mother"
   },
   {
    "slug": "word-hayai",
@@ -7131,7 +7112,6 @@
    "term": "速い",
    "romaji": "hayai",
    "meaning": "Fast / Quick",
-   "mnemonic": "Rapid movement",
    "examples": [
     {
      "jp": "速い電車",
@@ -7144,7 +7124,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "はやい"
+   "reading": "はやい",
+   "mnemonic": "速 quick: 口 mouth + 辶 + ハ eight + 木 tree"
   },
   {
    "slug": "word-hare",
@@ -7153,7 +7134,6 @@
    "term": "晴れ",
    "romaji": "hare",
    "meaning": "Sunny / Clear",
-   "mnemonic": "No clouds",
    "examples": [
     {
      "jp": "今日は晴れです",
@@ -7166,7 +7146,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "はれ"
+   "reading": "はれ",
+   "mnemonic": "晴 clear up: 青 blue + 日 sun"
   },
   {
    "slug": "word-han",
@@ -7175,7 +7156,6 @@
    "term": "半",
    "romaji": "han",
    "meaning": "Half past",
-   "mnemonic": "はん = half",
    "examples": [
     {
      "jp": "三時半",
@@ -7188,7 +7168,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "はん"
+   "reading": "はん",
+   "mnemonic": "半 half: 并 horns"
   },
   {
    "slug": "word-pan",
@@ -7197,7 +7178,6 @@
    "term": "パン",
    "romaji": "pan",
    "meaning": "Bread",
-   "mnemonic": "From Portuguese pão",
    "examples": [
     {
      "jp": "パンを買う",
@@ -7219,7 +7199,6 @@
    "term": "引く",
    "romaji": "hiku",
    "meaning": "To pull",
-   "mnemonic": "Draw toward you",
    "examples": [
     {
      "jp": "ドアを引く",
@@ -7232,7 +7211,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ひく"
+   "reading": "ひく",
+   "mnemonic": "引 pull: 弓 bow"
   },
   {
    "slug": "word-hikouki",
@@ -7241,7 +7221,6 @@
    "term": "飛行機",
    "romaji": "hikouki",
    "meaning": "Airplane",
-   "mnemonic": "Flying machine",
    "examples": [
     {
      "jp": "飛行機で旅行する",
@@ -7254,7 +7233,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ひこうき"
+   "reading": "ひこうき",
+   "mnemonic": "飛 fly + 行 go + 機 loom"
   },
   {
    "slug": "word-ichigatsu",
@@ -7263,7 +7243,6 @@
    "term": "一月",
    "romaji": "hitotsuki",
    "meaning": "January",
-   "mnemonic": "いち (1) + がつ",
    "examples": [
     {
      "jp": "一月は寒い",
@@ -7276,7 +7255,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ひとつき"
+   "reading": "ひとつき",
+   "mnemonic": "一 one + 月 moon"
   },
   {
    "slug": "word-byouin",
@@ -7285,7 +7265,6 @@
    "term": "病院",
    "romaji": "byouin",
    "meaning": "Hospital",
-   "mnemonic": "Sickness + institution",
    "examples": [
     {
      "jp": "病院に行く (byouin ni iku)",
@@ -7298,7 +7277,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "びょういん"
+   "reading": "びょういん",
+   "mnemonic": "病 ill + 院 inst."
   },
   {
    "slug": "word-byouki",
@@ -7307,7 +7287,6 @@
    "term": "病気",
    "romaji": "byouki",
    "meaning": "Illness / Sick",
-   "mnemonic": "Sick condition",
    "examples": [
     {
      "jp": "病気になった",
@@ -7320,7 +7299,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "びょうき"
+   "reading": "びょうき",
+   "mnemonic": "病 ill + 気 spirit"
   },
   {
    "slug": "word-hiru",
@@ -7329,7 +7309,6 @@
    "term": "昼",
    "romaji": "hiru",
    "meaning": "Noon/Daytime",
-   "mnemonic": "Middle of the day",
    "examples": [
     {
      "jp": "昼ごはん (hirugohan)",
@@ -7342,7 +7321,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ひる"
+   "reading": "ひる",
+   "mnemonic": "昼 daytime: 日 sun + 尸 body"
   },
   {
    "slug": "word-fooku",
@@ -7351,7 +7331,6 @@
    "term": "フォーク",
    "romaji": "fuooku",
    "meaning": "Fork",
-   "mnemonic": "Western utensil",
    "examples": [
     {
      "jp": "フォークを使う",
@@ -7373,7 +7352,6 @@
    "term": "服",
    "romaji": "fuku",
    "meaning": "Clothes",
-   "mnemonic": "Body covering",
    "examples": [
     {
      "jp": "服を着る",
@@ -7386,7 +7364,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ふく"
+   "reading": "ふく",
+   "mnemonic": "服 clothing: 月 moon + 又 hand + 卩 seal"
   },
   {
    "slug": "word-furui",
@@ -7395,7 +7374,6 @@
    "term": "古い",
    "romaji": "furui",
    "meaning": "Old",
-   "mnemonic": "Aged, worn",
    "examples": [
     {
      "jp": "古い本 (furui hon)",
@@ -7408,7 +7386,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ふるい"
+   "reading": "ふるい",
+   "mnemonic": "古 old: 口 mouth + 十 ten"
   },
   {
    "slug": "word-beddo",
@@ -7417,7 +7396,6 @@
    "term": "ベッド",
    "romaji": "beddo",
    "meaning": "Bed",
-   "mnemonic": "Sleeping surface",
    "examples": [
     {
      "jp": "ベッドで寝る",
@@ -7439,7 +7417,6 @@
    "term": "ペン",
    "romaji": "pen",
    "meaning": "Pen",
-   "mnemonic": "Writing tool",
    "examples": [
     {
      "jp": "ペンで書く",
@@ -7461,7 +7438,6 @@
    "term": "勉強",
    "romaji": "benkyou(suru)",
    "meaning": "Study",
-   "mnemonic": "Effort + strong",
    "examples": [
     {
      "jp": "日本語を勉強する",
@@ -7474,7 +7450,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "べんきょう (する)"
+   "reading": "べんきょう (する)",
+   "mnemonic": "勉 exertion + 強 strong"
   },
   {
    "slug": "word-boushi",
@@ -7483,7 +7460,6 @@
    "term": "帽子",
    "romaji": "boushi",
    "meaning": "Hat",
-   "mnemonic": "Head covering",
    "examples": [
     {
      "jp": "帽子をかぶる",
@@ -7496,7 +7472,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ぼうし"
+   "reading": "ぼうし",
+   "mnemonic": "帽 cap + 子 child"
   },
   {
    "slug": "word-hoteru",
@@ -7505,7 +7482,6 @@
    "term": "ホテル",
    "romaji": "hoteru",
    "meaning": "Hotel",
-   "mnemonic": "Accommodation",
    "examples": [
     {
      "jp": "ホテルに泊まる",
@@ -7527,7 +7503,6 @@
    "term": "本",
    "romaji": "hon",
    "meaning": "Book",
-   "mnemonic": "Tree + root = origin of knowledge",
    "examples": [
     {
      "jp": "本を読む",
@@ -7540,7 +7515,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ほん"
+   "reading": "ほん",
+   "mnemonic": "本 book: 木 tree"
   },
   {
    "slug": "word-maiasa",
@@ -7549,7 +7525,6 @@
    "term": "毎朝",
    "romaji": "maiasa",
    "meaning": "Every morning",
-   "mnemonic": "Daily morning habit",
    "examples": [
     {
      "jp": "毎朝コーヒーを飲む",
@@ -7562,7 +7537,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "まいあさ"
+   "reading": "まいあさ",
+   "mnemonic": "毎 every + 朝 morning"
   },
   {
    "slug": "word-mainichi",
@@ -7571,7 +7547,6 @@
    "term": "毎日",
    "romaji": "mainichi",
    "meaning": "Every day",
-   "mnemonic": "Each + day",
    "examples": [
     {
      "jp": "毎日運動する",
@@ -7584,7 +7559,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "まいにち"
+   "reading": "まいにち",
+   "mnemonic": "毎 every + 日 sun"
   },
   {
    "slug": "word-mada",
@@ -7593,7 +7569,6 @@
    "term": "まだ",
    "romaji": "mada",
    "meaning": "Still / Not yet",
-   "mnemonic": "Continuing state",
    "examples": [
     {
      "jp": "まだ終わってない",
@@ -7615,7 +7590,6 @@
    "term": "待つ",
    "romaji": "matsu",
    "meaning": "To wait",
-   "mnemonic": "Stand by patiently",
    "examples": [
     {
      "jp": "ちょっと待って (chotto matte)",
@@ -7628,7 +7602,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "まつ"
+   "reading": "まつ",
+   "mnemonic": "待 wait: 寸 inch + 土 earth + 彳 step"
   },
   {
    "slug": "word-mado",
@@ -7637,7 +7612,6 @@
    "term": "窓",
    "romaji": "mado",
    "meaning": "Window",
-   "mnemonic": "Light opening",
    "examples": [
     {
      "jp": "窓を開ける",
@@ -7650,7 +7624,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "まど"
+   "reading": "まど",
+   "mnemonic": "窓 window: 穴 hole + 心 heart + 儿 legs + 厶 private"
   },
   {
    "slug": "word-mijikai",
@@ -7659,7 +7634,6 @@
    "term": "短い",
    "romaji": "mijikai",
    "meaning": "Short",
-   "mnemonic": "Brief length",
    "examples": [
     {
      "jp": "短い話",
@@ -7672,7 +7646,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "みじかい"
+   "reading": "みじかい",
+   "mnemonic": "短 short: 豆 bean + 矢 arrow"
   },
   {
    "slug": "word-mizu",
@@ -7681,7 +7656,6 @@
    "term": "水",
    "romaji": "mizu",
    "meaning": "Water",
-   "mnemonic": "Flowing streams",
    "examples": [
     {
      "jp": "水をください (mizu wo kudasai)",
@@ -7694,7 +7668,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "みず"
+   "reading": "みず",
+   "mnemonic": "水 water"
   },
   {
    "slug": "word-mise",
@@ -7703,7 +7678,6 @@
    "term": "店",
    "romaji": "mise",
    "meaning": "Shop/Store",
-   "mnemonic": "A place to buy",
    "examples": [
     {
      "jp": "店が開く (mise ga aku)",
@@ -7716,7 +7690,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "みせ"
+   "reading": "みせ",
+   "mnemonic": "店 store: 口 mouth + 卜 divination + 广 shelter"
   },
   {
    "slug": "word-michi",
@@ -7725,7 +7700,6 @@
    "term": "道",
    "romaji": "michi",
    "meaning": "Road / Path",
-   "mnemonic": "Way to go",
    "examples": [
     {
      "jp": "道を歩く",
@@ -7738,7 +7712,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "みち"
+   "reading": "みち",
+   "mnemonic": "道 road-way: 辶 + 首 neck"
   },
   {
    "slug": "word-midori",
@@ -7747,7 +7722,6 @@
    "term": "緑",
    "romaji": "midori",
    "meaning": "Green",
-   "mnemonic": "Nature green",
    "examples": [
     {
      "jp": "緑の木",
@@ -7760,7 +7734,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "みどり"
+   "reading": "みどり",
+   "mnemonic": "緑 green: 糸 thread + 隶 reach"
   },
   {
    "slug": "word-mimi",
@@ -7769,7 +7744,6 @@
    "term": "耳",
    "romaji": "mimi",
    "meaning": "Ear",
-   "mnemonic": "Ear shape",
    "examples": [
     {
      "jp": "耳が聞こえない",
@@ -7782,7 +7756,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "みみ"
+   "reading": "みみ",
+   "mnemonic": "耳 ear"
   },
   {
    "slug": "word-miru",
@@ -7791,7 +7766,6 @@
    "term": "見る",
    "romaji": "miru",
    "meaning": "To see/watch",
-   "mnemonic": "Use your eyes",
    "examples": [
     {
      "jp": "テレビを見る (terebi wo miru)",
@@ -7804,7 +7778,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "みる"
+   "reading": "みる",
+   "mnemonic": "見 see: 目 eye + 儿 legs"
   },
   {
    "slug": "word-muzukashii",
@@ -7813,7 +7788,6 @@
    "term": "難しい",
    "romaji": "muzukashii",
    "meaning": "Difficult",
-   "mnemonic": "Hard to understand",
    "examples": [
     {
      "jp": "難しい問題",
@@ -7826,7 +7800,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "むずかしい"
+   "reading": "むずかしい",
+   "mnemonic": "難 difficult: ⺾ grass + 隹 bird + 大 big + 口 mouth + 亠 lid"
   },
   {
    "slug": "word-me",
@@ -7835,7 +7810,6 @@
    "term": "目",
    "romaji": "me",
    "meaning": "Eye",
-   "mnemonic": "Eye shape",
    "examples": [
     {
      "jp": "目が大きい",
@@ -7848,7 +7822,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "め"
+   "reading": "め",
+   "mnemonic": "目 eye"
   },
   {
    "slug": "word-megane",
@@ -7857,7 +7832,6 @@
    "term": "眼鏡",
    "romaji": "megane",
    "meaning": "Glasses",
-   "mnemonic": "Eye helpers",
    "examples": [
     {
      "jp": "眼鏡をかける",
@@ -7870,7 +7844,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "めがね"
+   "reading": "めがね",
+   "mnemonic": "眼 + 鏡"
   },
   {
    "slug": "word-mou",
@@ -7879,7 +7854,6 @@
    "term": "もう",
    "romaji": "mou",
    "meaning": "Already / Soon",
-   "mnemonic": "Done or about to",
    "examples": [
     {
      "jp": "もう食べた",
@@ -7901,7 +7875,6 @@
    "term": "木曜日",
    "romaji": "mokuyoubi",
    "meaning": "Thursday",
-   "mnemonic": "もく (wood/tree)",
    "examples": [
     {
      "jp": "木曜日に出かける",
@@ -7914,7 +7887,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "もくようび"
+   "reading": "もくようび",
+   "mnemonic": "木 tree + 曜 day of week + 日 sun"
   },
   {
    "slug": "word-yasai",
@@ -7923,7 +7897,6 @@
    "term": "野菜",
    "romaji": "yasai",
    "meaning": "Vegetables",
-   "mnemonic": "Field produce",
    "examples": [
     {
      "jp": "野菜を食べる (yasai wo taberu)",
@@ -7936,7 +7909,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "やさい"
+   "reading": "やさい",
+   "mnemonic": "野 plains + 菜 vegetable"
   },
   {
    "slug": "word-yasui",
@@ -7945,7 +7919,6 @@
    "term": "安い",
    "romaji": "yasui",
    "meaning": "Cheap",
-   "mnemonic": "Low price",
    "examples": [
     {
      "jp": "安い店",
@@ -7958,7 +7931,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "やすい"
+   "reading": "やすい",
+   "mnemonic": "安 relax: 女 woman + 宀 roof"
   },
   {
    "slug": "word-yasumu",
@@ -7967,7 +7941,6 @@
    "term": "休む",
    "romaji": "yasumu",
    "meaning": "To rest",
-   "mnemonic": "Person leaning on a tree",
    "examples": [
     {
      "jp": "週末は休む",
@@ -7980,7 +7953,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "やすむ"
+   "reading": "やすむ",
+   "mnemonic": "休 rest: ⺅ person + 木 tree"
   },
   {
    "slug": "word-yama",
@@ -7989,7 +7963,6 @@
    "term": "山",
    "romaji": "yama",
    "meaning": "Mountain",
-   "mnemonic": "Three peaks",
    "examples": [
     {
      "jp": "山に登る",
@@ -8002,7 +7975,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "やま"
+   "reading": "やま",
+   "mnemonic": "山 mountain"
   },
   {
    "slug": "word-yuubinkyoku",
@@ -8011,7 +7985,6 @@
    "term": "郵便局",
    "romaji": "yuubinkyoku",
    "meaning": "Post office",
-   "mnemonic": "Mail center",
    "examples": [
     {
      "jp": "郵便局で送る",
@@ -8024,7 +7997,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ゆうびんきょく"
+   "reading": "ゆうびんきょく",
+   "mnemonic": "郵 mail + 便 convenience + 局 bureau"
   },
   {
    "slug": "word-yuki",
@@ -8033,7 +8007,6 @@
    "term": "雪",
    "romaji": "yuki",
    "meaning": "Snow",
-   "mnemonic": "White flakes",
    "examples": [
     {
      "jp": "雪が降った",
@@ -8046,7 +8019,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ゆき"
+   "reading": "ゆき",
+   "mnemonic": "雪 snow: ヨ hand + 雨 rain"
   },
   {
    "slug": "word-yomu",
@@ -8055,7 +8029,6 @@
    "term": "読む",
    "romaji": "yomu",
    "meaning": "To read",
-   "mnemonic": "Take in written words",
    "examples": [
     {
      "jp": "本を読む",
@@ -8068,7 +8041,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "よむ"
+   "reading": "よむ",
+   "mnemonic": "読 read: 言 say + 士 samurai + 儿 legs + 冖 cover"
   },
   {
    "slug": "word-yoru",
@@ -8077,7 +8051,6 @@
    "term": "夜",
    "romaji": "yoru",
    "meaning": "Night",
-   "mnemonic": "Dark hours",
    "examples": [
     {
      "jp": "夜が来る (yoru ga kuru)",
@@ -8090,7 +8063,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "よる"
+   "reading": "よる",
+   "mnemonic": "夜 night: ⺅ person + 夕 evening + 亠 lid"
   },
   {
    "slug": "word-raishuu",
@@ -8099,7 +8073,6 @@
    "term": "来週",
    "romaji": "raishuu",
    "meaning": "Next week",
-   "mnemonic": "Week ahead",
    "examples": [
     {
      "jp": "来週会いましょう",
@@ -8112,7 +8085,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "らいしゅう"
+   "reading": "らいしゅう",
+   "mnemonic": "来 come + 週 week"
   },
   {
    "slug": "word-rainen",
@@ -8121,7 +8095,6 @@
    "term": "来年",
    "romaji": "rainen",
    "meaning": "Next year",
-   "mnemonic": "Upcoming year",
    "examples": [
     {
      "jp": "来年また来る",
@@ -8134,7 +8107,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "らいねん"
+   "reading": "らいねん",
+   "mnemonic": "来 come + 年 year"
   },
   {
    "slug": "word-ryouri",
@@ -8143,7 +8117,6 @@
    "term": "料理",
    "romaji": "ryouri",
    "meaning": "Cooking/Food",
-   "mnemonic": "Prepare and process food",
    "examples": [
     {
      "jp": "料理が上手 (ryouri ga jouzu)",
@@ -8156,7 +8129,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "りょうり"
+   "reading": "りょうり",
+   "mnemonic": "料 fee + 理 logic"
   },
   {
    "slug": "word-ryokou",
@@ -8165,7 +8139,6 @@
    "term": "旅行",
    "romaji": "ryokou",
    "meaning": "Travel",
-   "mnemonic": "Journey go",
    "examples": [
     {
      "jp": "旅行が好き (ryokou ga suki)",
@@ -8178,7 +8151,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "りょこう"
+   "reading": "りょこう",
+   "mnemonic": "旅 trip + 行 go"
   },
   {
    "slug": "word-reizouko",
@@ -8187,7 +8161,6 @@
    "term": "冷蔵庫",
    "romaji": "reizouko",
    "meaning": "Refrigerator",
-   "mnemonic": "Cold storage",
    "examples": [
     {
      "jp": "冷蔵庫に入れる",
@@ -8200,7 +8173,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "れいぞうこ"
+   "reading": "れいぞうこ",
+   "mnemonic": "冷 cool + 蔵 storehouse + 庫 warehouse"
   },
   {
    "slug": "word-resutoran",
@@ -8209,7 +8183,6 @@
    "term": "レストラン",
    "romaji": "resutoran",
    "meaning": "Restaurant",
-   "mnemonic": "Dining place",
    "examples": [
     {
      "jp": "レストランで食べる",
@@ -8231,7 +8204,6 @@
    "term": "分かる",
    "romaji": "wakaru",
    "meaning": "To understand",
-   "mnemonic": "Comprehend",
    "examples": [
     {
      "jp": "分かりました",
@@ -8244,7 +8216,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "わかる"
+   "reading": "わかる",
+   "mnemonic": "分 minute: 刀 sword + ハ eight"
   },
   {
    "slug": "word-wasureru",
@@ -8253,7 +8226,6 @@
    "term": "忘れる",
    "romaji": "wasureru",
    "meaning": "To forget",
-   "mnemonic": "Memory gone",
    "examples": [
     {
      "jp": "名前を忘れた",
@@ -8266,7 +8238,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "わすれる"
+   "reading": "わすれる",
+   "mnemonic": "忘 forget: 心 heart + 亡 deceased"
   },
   {
    "slug": "word-wataru",
@@ -8275,7 +8248,6 @@
    "term": "渡る",
    "romaji": "wataru",
    "meaning": "To cross",
-   "mnemonic": "Go across",
    "examples": [
     {
      "jp": "橋を渡る",
@@ -8288,7 +8260,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "わたる"
+   "reading": "わたる",
+   "mnemonic": "渡 transit: 氵 water + 又 hand + 广 shelter"
   },
   {
    "slug": "word-warui",
@@ -8297,7 +8270,6 @@
    "term": "悪い",
    "romaji": "warui",
    "meaning": "Bad",
-   "mnemonic": "Negative quality",
    "examples": [
     {
      "jp": "気分が悪い (kibun ga warui)",
@@ -8310,7 +8282,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "わるい"
+   "reading": "わるい",
+   "mnemonic": "悪 bad: 口 mouth + 心 heart"
   },
   {
    "slug": "word-okoru",
@@ -8319,7 +8292,6 @@
    "term": "怒る",
    "romaji": "okoru",
    "meaning": "To get angry",
-   "mnemonic": "Rage building up",
    "examples": [
     {
      "jp": "父が怒った",
@@ -8332,7 +8304,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "おこる"
+   "reading": "おこる",
+   "mnemonic": "怒 angry: 女 woman + 心 heart + 又 hand"
   },
   {
    "slug": "word-undou",
@@ -8341,7 +8314,6 @@
    "term": "運動",
    "romaji": "undousuru",
    "meaning": "Exercise",
-   "mnemonic": "Body movement",
    "examples": [
     {
      "jp": "毎日運動する",
@@ -8354,7 +8326,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "うんどうする"
+   "reading": "うんどうする",
+   "mnemonic": "運 carry + 動 move"
   },
   {
    "slug": "word-shinpai",
@@ -8363,7 +8336,6 @@
    "term": "心配",
    "romaji": "shinpaisuru",
    "meaning": "Worry",
-   "mnemonic": "Heart troubled",
    "examples": [
     {
      "jp": "心配しないで",
@@ -8376,7 +8348,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "しんぱいする"
+   "reading": "しんぱいする",
+   "mnemonic": "心 heart + 配 distribute"
   },
   {
    "slug": "word-hirou",
@@ -8385,7 +8358,6 @@
    "term": "拾う",
    "romaji": "hirou",
    "meaning": "To pick up",
-   "mnemonic": "Take from ground",
    "examples": [
     {
      "jp": "ゴミを拾う",
@@ -8398,7 +8370,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ひろう"
+   "reading": "ひろう",
+   "mnemonic": "拾 pick up: 口 mouth + 𠆢 person + 扌 hand"
   },
   {
    "slug": "word-futon",
@@ -8407,7 +8380,6 @@
    "term": "布団",
    "romaji": "futon",
    "meaning": "Futon / Comforter",
-   "mnemonic": "Japanese bedding",
    "examples": [
     {
      "jp": "布団をかぶる",
@@ -8420,7 +8392,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ふとん"
+   "reading": "ふとん",
+   "mnemonic": "布 linen + 団 group"
   },
   {
    "slug": "word-kanashii",
@@ -8429,7 +8402,6 @@
    "term": "悲しい",
    "romaji": "kanashii",
    "meaning": "Sad",
-   "mnemonic": "Tearful feeling",
    "examples": [
     {
      "jp": "悲しい映画",
@@ -8442,7 +8414,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "かなしい"
+   "reading": "かなしい",
+   "mnemonic": "悲 grieve: 心 heart + 非 un-"
   },
   {
    "slug": "word-sakki",
@@ -8451,7 +8424,6 @@
    "term": "さっき",
    "romaji": "sakki",
    "meaning": "Just now / A moment ago",
-   "mnemonic": "Very recent past",
    "examples": [
     {
      "jp": "さっき来た",
@@ -8473,7 +8445,6 @@
    "term": "怖い",
    "romaji": "kowai",
    "meaning": "Scary / Afraid",
-   "mnemonic": "Fear response",
    "examples": [
     {
      "jp": "怖い話",
@@ -8486,7 +8457,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "こわい"
+   "reading": "こわい",
+   "mnemonic": "怖 dreadful: 巾 cloth + 忄 heart"
   },
   {
    "slug": "word-hazukashii",
@@ -8495,7 +8467,6 @@
    "term": "恥ずかしい",
    "romaji": "hazukashii",
    "meaning": "Embarrassed",
-   "mnemonic": "Face going red",
    "examples": [
     {
      "jp": "恥ずかしい！",
@@ -8508,7 +8479,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "はずかしい"
+   "reading": "はずかしい",
+   "mnemonic": "恥 shame: 耳 ear + 心 heart"
   },
   {
    "slug": "word-chikara",
@@ -8517,7 +8489,6 @@
    "term": "力",
    "romaji": "chikara",
    "meaning": "Power/Strength",
-   "mnemonic": "Flexed muscle",
    "examples": [
     {
      "jp": "力がある (chikara ga aru)",
@@ -8530,7 +8501,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ちから"
+   "reading": "ちから",
+   "mnemonic": "力 power"
   },
   {
    "slug": "word-hoshi",
@@ -8539,7 +8511,6 @@
    "term": "星",
    "romaji": "hoshi",
    "meaning": "Star",
-   "mnemonic": "Night sky dot",
    "examples": [
     {
      "jp": "星が輝く",
@@ -8552,7 +8523,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ほし"
+   "reading": "ほし",
+   "mnemonic": "星 star: 生 life + 日 sun"
   },
   {
    "slug": "word-budou",
@@ -8561,7 +8533,6 @@
    "term": "ぶどう",
    "romaji": "budou",
    "meaning": "Grapes",
-   "mnemonic": "Bunch of berries",
    "examples": [
     {
      "jp": "ぶどうを食べる",
@@ -8583,7 +8554,6 @@
    "term": "決める",
    "romaji": "kimeru",
    "meaning": "To decide",
-   "mnemonic": "Make a choice",
    "examples": [
     {
      "jp": "何にするか決める",
@@ -8596,7 +8566,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "きめる"
+   "reading": "きめる",
+   "mnemonic": "決 decide: 氵 water + 人 person + 大 big + 二 two"
   },
   {
    "slug": "word-otto",
@@ -8605,7 +8576,6 @@
    "term": "夫",
    "romaji": "otto",
    "meaning": "Husband",
-   "mnemonic": "My husband",
    "examples": [
     {
      "jp": "夫と出かける",
@@ -8618,7 +8588,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "おっと"
+   "reading": "おっと",
+   "mnemonic": "夫 husband: 人 person + 二 two + 大 big"
   },
   {
    "slug": "word-subarashii",
@@ -8627,7 +8598,6 @@
    "term": "素晴らしい",
    "romaji": "subarashii",
    "meaning": "Wonderful",
-   "mnemonic": "Magnificent",
    "examples": [
     {
      "jp": "素晴らしい景色",
@@ -8640,7 +8610,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "すばらしい"
+   "reading": "すばらしい",
+   "mnemonic": "素 + 晴 clear up"
   },
   {
    "slug": "word-bijutsukan",
@@ -8649,7 +8620,6 @@
    "term": "美術館",
    "romaji": "bijutsukan",
    "meaning": "Art museum",
-   "mnemonic": "Art + building",
    "examples": [
     {
      "jp": "美術館を見学する",
@@ -8662,7 +8632,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "びじゅつかん"
+   "reading": "びじゅつかん",
+   "mnemonic": "美 beauty + 術 art + 館 building"
   },
   {
    "slug": "word-netsu",
@@ -8671,7 +8642,6 @@
    "term": "熱",
    "romaji": "netsu",
    "meaning": "Fever / Heat",
-   "mnemonic": "Body temperature up",
    "examples": [
     {
      "jp": "熱があります",
@@ -8684,7 +8654,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ねつ"
+   "reading": "ねつ",
+   "mnemonic": "熱 heat: 土 earth + 九 nine + 儿 legs + 灬 fire"
   },
   {
    "slug": "word-odoroku",
@@ -8693,7 +8664,6 @@
    "term": "驚く",
    "romaji": "odoroku",
    "meaning": "To be surprised",
-   "mnemonic": "Shock reaction",
    "examples": [
     {
      "jp": "驚いた！",
@@ -8706,7 +8676,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "おどろく"
+   "reading": "おどろく",
+   "mnemonic": "驚: 口 mouth + 馬 horse + 勹 wrap + 夂 walk + ⺾ grass"
   },
   {
    "slug": "word-sobo",
@@ -8715,7 +8686,6 @@
    "term": "祖母",
    "romaji": "sobo",
    "meaning": "Grandmother",
-   "mnemonic": "Grand + mother",
    "examples": [
     {
      "jp": "祖母に会いに行く",
@@ -8728,7 +8698,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "そぼ"
+   "reading": "そぼ",
+   "mnemonic": "祖 ancestor + 母 mother"
   },
   {
    "slug": "word-basho",
@@ -8737,7 +8708,6 @@
    "term": "場所",
    "romaji": "basho",
    "meaning": "Place",
-   "mnemonic": "Location spot",
    "examples": [
     {
      "jp": "いい場所 (ii basho)",
@@ -8750,7 +8720,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ばしょ"
+   "reading": "ばしょ",
+   "mnemonic": "場 location + 所 place"
   },
   {
    "slug": "word-aisatsu",
@@ -8759,7 +8730,6 @@
    "term": "挨拶",
    "romaji": "aisatsusuru",
    "meaning": "Greeting",
-   "mnemonic": "Social opening",
    "examples": [
     {
      "jp": "挨拶をする",
@@ -8772,7 +8742,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "あいさつする"
+   "reading": "あいさつする",
+   "mnemonic": "挨 + 拶"
   },
   {
    "slug": "word-mori",
@@ -8781,7 +8752,6 @@
    "term": "森",
    "romaji": "mori",
    "meaning": "Forest",
-   "mnemonic": "Many trees together",
    "examples": [
     {
      "jp": "森を歩く",
@@ -8794,7 +8764,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "もり"
+   "reading": "もり",
+   "mnemonic": "森 forest: 木 tree"
   },
   {
    "slug": "word-odoru",
@@ -8803,7 +8774,6 @@
    "term": "踊る",
    "romaji": "odoru",
    "meaning": "To dance",
-   "mnemonic": "Body rhythm",
    "examples": [
     {
      "jp": "音楽に合わせて踊る",
@@ -8816,7 +8786,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "おどる"
+   "reading": "おどる",
+   "mnemonic": "踊 jump: 足 foot + 用 utilize"
   },
   {
    "slug": "word-omiyage",
@@ -8825,7 +8796,6 @@
    "term": "お土産",
    "romaji": "omiyage",
    "meaning": "Souvenir",
-   "mnemonic": "Gift from trip",
    "examples": [
     {
      "jp": "お土産を買う",
@@ -8838,7 +8808,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "おみやげ"
+   "reading": "おみやげ",
+   "mnemonic": "土 earth + 産 products"
   },
   {
    "slug": "word-keshigomu",
@@ -8847,7 +8818,6 @@
    "term": "消しゴム",
    "romaji": "keshigomu",
    "meaning": "Eraser",
-   "mnemonic": "Mistake remover",
    "examples": [
     {
      "jp": "消しゴムで消す",
@@ -8860,7 +8830,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "けしゴム"
+   "reading": "けしゴム",
+   "mnemonic": "消 extinguish: 月 moon + 氵 water + ⺌ small"
   },
   {
    "slug": "word-sabishii",
@@ -8869,7 +8840,6 @@
    "term": "寂しい",
    "romaji": "sabishii",
    "meaning": "Lonely",
-   "mnemonic": "Missing company",
    "examples": [
     {
      "jp": "一人は寂しい",
@@ -8882,7 +8852,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "さびしい"
+   "reading": "さびしい",
+   "mnemonic": "寂: 小 small + 卜 divination + 又 hand + 宀 roof"
   },
   {
    "slug": "word-miso",
@@ -8891,7 +8862,6 @@
    "term": "味噌",
    "romaji": "miso",
    "meaning": "Miso paste",
-   "mnemonic": "Fermented soybean paste",
    "examples": [
     {
      "jp": "味噌で作る",
@@ -8904,7 +8874,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "みそ"
+   "reading": "みそ",
+   "mnemonic": "味 flavor + 噌"
   },
   {
    "slug": "word-kagami",
@@ -8913,7 +8884,6 @@
    "term": "鏡",
    "romaji": "kagami",
    "meaning": "Mirror",
-   "mnemonic": "Reflection surface",
    "examples": [
     {
      "jp": "鏡を見る",
@@ -8926,7 +8896,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "かがみ"
+   "reading": "かがみ",
+   "mnemonic": "鏡: 音 sound + 金 gold + 儿 legs"
   },
   {
    "slug": "word-shiken",
@@ -8935,7 +8906,6 @@
    "term": "試験",
    "romaji": "shiken",
    "meaning": "Exam / Test",
-   "mnemonic": "Testing knowledge",
    "examples": [
     {
      "jp": "試験に合格する",
@@ -8948,7 +8918,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "しけん"
+   "reading": "しけん",
+   "mnemonic": "試 test + 験 verification"
   },
   {
    "slug": "word-kuukou",
@@ -8957,7 +8928,6 @@
    "term": "空港",
    "romaji": "kuukou",
    "meaning": "Airport",
-   "mnemonic": "Sky + port",
    "examples": [
     {
      "jp": "空港に行く",
@@ -8970,7 +8940,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "くうこう"
+   "reading": "くうこう",
+   "mnemonic": "空 sky + 港 harbor"
   },
   {
    "slug": "word-tebukuro",
@@ -8979,7 +8950,6 @@
    "term": "手袋",
    "romaji": "tebukuro",
    "meaning": "Gloves",
-   "mnemonic": "Hand cover",
    "examples": [
     {
      "jp": "手袋をはめる",
@@ -8992,7 +8962,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "てぶくろ"
+   "reading": "てぶくろ",
+   "mnemonic": "手 hand + 袋 sack"
   },
   {
    "slug": "word-kimochi",
@@ -9001,7 +8972,6 @@
    "term": "気持ち",
    "romaji": "kimochi",
    "meaning": "Feeling",
-   "mnemonic": "Internal sensation",
    "examples": [
     {
      "jp": "気持ちがいい",
@@ -9014,7 +8984,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "きもち"
+   "reading": "きもち",
+   "mnemonic": "気 spirit + 持 hold"
   },
   {
    "slug": "word-sofu",
@@ -9023,7 +8994,6 @@
    "term": "祖父",
    "romaji": "sofu",
    "meaning": "Grandfather",
-   "mnemonic": "Grand + father",
    "examples": [
     {
      "jp": "祖父は元気です",
@@ -9036,7 +9006,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "そふ"
+   "reading": "そふ",
+   "mnemonic": "祖 ancestor + 父 father"
   },
   {
    "slug": "word-pasokon",
@@ -9045,7 +9016,6 @@
    "term": "パソコン",
    "romaji": "pasokon",
    "meaning": "Computer",
-   "mnemonic": "Personal computer",
    "examples": [
     {
      "jp": "パソコンで仕事",
@@ -9067,7 +9037,6 @@
    "term": "着物",
    "romaji": "kimono",
    "meaning": "Kimono",
-   "mnemonic": "Thing to wear",
    "examples": [
     {
      "jp": "着物を着る",
@@ -9080,7 +9049,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "きもの"
+   "reading": "きもの",
+   "mnemonic": "着 don + 物 thing"
   },
   {
    "slug": "word-yume",
@@ -9089,7 +9059,6 @@
    "term": "夢",
    "romaji": "yume",
    "meaning": "Dream",
-   "mnemonic": "Night vision or goal",
    "examples": [
     {
      "jp": "夢を見た",
@@ -9102,7 +9071,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ゆめ"
+   "reading": "ゆめ",
+   "mnemonic": "夢 dream: 罒 net + 夕 evening + 冖 cover + ⺾ grass"
   },
   {
    "slug": "word-chi",
@@ -9111,7 +9081,6 @@
    "term": "血",
    "romaji": "chi",
    "meaning": "Blood",
-   "mnemonic": "Life fluid",
    "examples": [
     {
      "jp": "血が出た",
@@ -9124,7 +9093,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ち"
+   "reading": "ち",
+   "mnemonic": "血 blood: 皿 dish"
   },
   {
    "slug": "word-dentou",
@@ -9133,7 +9103,6 @@
    "term": "電灯",
    "romaji": "dentou",
    "meaning": "Electric light",
-   "mnemonic": "Light fixture",
    "examples": [
     {
      "jp": "電灯をつける",
@@ -9146,7 +9115,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "でんとう"
+   "reading": "でんとう",
+   "mnemonic": "電 electricity + 灯 lamp"
   },
   {
    "slug": "word-reji",
@@ -9155,7 +9125,6 @@
    "term": "レジ",
    "romaji": "reji",
    "meaning": "Cash register / Checkout",
-   "mnemonic": "Payment counter",
    "examples": [
     {
      "jp": "レジで払う",
@@ -9177,7 +9146,6 @@
    "term": "下着",
    "romaji": "shitagi",
    "meaning": "Underwear",
-   "mnemonic": "Under layer",
    "examples": [
     {
      "jp": "下着を替える",
@@ -9190,7 +9158,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "したぎ"
+   "reading": "したぎ",
+   "mnemonic": "下 below + 着 don"
   },
   {
    "slug": "word-tsuma",
@@ -9199,7 +9168,6 @@
    "term": "妻",
    "romaji": "tsuma",
    "meaning": "Wife",
-   "mnemonic": "My wife",
    "examples": [
     {
      "jp": "妻は料理が上手",
@@ -9212,7 +9180,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "つま"
+   "reading": "つま",
+   "mnemonic": "妻 wife: ヨ hand + 女 woman"
   },
   {
    "slug": "word-chuushajou",
@@ -9221,7 +9190,6 @@
    "term": "駐車場",
    "romaji": "chuushajou",
    "meaning": "Parking lot",
-   "mnemonic": "Vehicle + stop + place",
    "examples": [
     {
      "jp": "駐車場に止める",
@@ -9234,7 +9202,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ちゅうしゃじょう"
+   "reading": "ちゅうしゃじょう",
+   "mnemonic": "駐 stop-over + 車 car + 場 location"
   },
   {
    "slug": "word-yubiwa",
@@ -9243,7 +9212,6 @@
    "term": "指輪",
    "romaji": "yubiwa",
    "meaning": "Ring",
-   "mnemonic": "Finger jewelry",
    "examples": [
     {
      "jp": "指輪をはめる",
@@ -9256,7 +9224,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ゆびわ"
+   "reading": "ゆびわ",
+   "mnemonic": "指 finger + 輪 wheel"
   },
   {
    "slug": "word-nedan",
@@ -9265,7 +9234,6 @@
    "term": "値段",
    "romaji": "nedan",
    "meaning": "Price",
-   "mnemonic": "Cost amount",
    "examples": [
     {
      "jp": "値段を確認する",
@@ -9278,7 +9246,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ねだん"
+   "reading": "ねだん",
+   "mnemonic": "値 price + 段 grade"
   },
   {
    "slug": "word-kaaten",
@@ -9287,7 +9256,6 @@
    "term": "カーテン",
    "romaji": "kaaten",
    "meaning": "Curtain",
-   "mnemonic": "Window covering",
    "examples": [
     {
      "jp": "カーテンを閉める",
@@ -9309,7 +9277,6 @@
    "term": "文化",
    "romaji": "bunka",
    "meaning": "Culture",
-   "mnemonic": "Shared customs",
    "examples": [
     {
      "jp": "日本文化を学ぶ",
@@ -9322,7 +9289,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ぶんか"
+   "reading": "ぶんか",
+   "mnemonic": "文 sentence + 化 change"
   },
   {
    "slug": "word-shuukan",
@@ -9331,7 +9299,6 @@
    "term": "習慣",
    "romaji": "shuukan",
    "meaning": "Custom / Habit",
-   "mnemonic": "Established practice",
    "examples": [
     {
      "jp": "日本の習慣",
@@ -9344,7 +9311,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "しゅうかん"
+   "reading": "しゅうかん",
+   "mnemonic": "習 learn + 慣 accustomed"
   },
   {
    "slug": "word-senaka",
@@ -9353,7 +9321,6 @@
    "term": "背中",
    "romaji": "senaka",
    "meaning": "Back",
-   "mnemonic": "Behind body",
    "examples": [
     {
      "jp": "背中が痛い",
@@ -9366,7 +9333,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "せなか"
+   "reading": "せなか",
+   "mnemonic": "背 stature + 中 middle"
   },
   {
    "slug": "word-nemui",
@@ -9375,7 +9343,6 @@
    "term": "眠い",
    "romaji": "nemui",
    "meaning": "Sleepy",
-   "mnemonic": "Eyes closing",
    "examples": [
     {
      "jp": "とても眠い",
@@ -9388,7 +9355,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ねむい"
+   "reading": "ねむい",
+   "mnemonic": "眠 sleep: 口 mouth + 氏 clan + 目 eye"
   },
   {
    "slug": "word-kangaeru",
@@ -9397,7 +9365,6 @@
    "term": "考える",
    "romaji": "kangaeru",
    "meaning": "To think",
-   "mnemonic": "Mental process",
    "examples": [
     {
      "jp": "よく考える",
@@ -9410,7 +9377,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "かんがえる"
+   "reading": "かんがえる",
+   "mnemonic": "考 consider: ⺹ old + 勹 wrap"
   },
   {
    "slug": "word-kantan",
@@ -9419,7 +9387,6 @@
    "term": "簡単",
    "romaji": "kantan",
    "meaning": "Easy / Simple",
-   "mnemonic": "No effort needed",
    "examples": [
     {
      "jp": "簡単な問題",
@@ -9432,7 +9399,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "かんたん"
+   "reading": "かんたん",
+   "mnemonic": "簡 simplicity + 単 simple"
   },
   {
    "slug": "word-modoru",
@@ -9441,7 +9409,6 @@
    "term": "戻る",
    "romaji": "modoru",
    "meaning": "To go back",
-   "mnemonic": "Reverse direction",
    "examples": [
     {
      "jp": "元の場所に戻る",
@@ -9454,7 +9421,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "もどる"
+   "reading": "もどる",
+   "mnemonic": "戻 re-: 戸 door + 大 big"
   },
   {
    "slug": "word-hanami",
@@ -9463,7 +9431,6 @@
    "term": "花見",
    "romaji": "hanami",
    "meaning": "Cherry blossom viewing",
-   "mnemonic": "Flower + watch",
    "examples": [
     {
      "jp": "花見をする",
@@ -9476,7 +9443,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "はなみ"
+   "reading": "はなみ",
+   "mnemonic": "花 flower + 見 see"
   },
   {
    "slug": "word-kaigi",
@@ -9485,7 +9453,6 @@
    "term": "会議",
    "romaji": "kaigi",
    "meaning": "Meeting",
-   "mnemonic": "People gathering",
    "examples": [
     {
      "jp": "会議に出る",
@@ -9498,7 +9465,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "かいぎ"
+   "reading": "かいぎ",
+   "mnemonic": "会 meeting + 議 deliberation"
   },
   {
    "slug": "word-tana",
@@ -9507,7 +9475,6 @@
    "term": "棚",
    "romaji": "tana",
    "meaning": "Shelf",
-   "mnemonic": "Storage surface",
    "examples": [
     {
      "jp": "棚に置く",
@@ -9520,7 +9487,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "たな"
+   "reading": "たな",
+   "mnemonic": "棚: 月 moon + 木 tree"
   },
   {
    "slug": "word-ureshii",
@@ -9529,7 +9497,6 @@
    "term": "嬉しい",
    "romaji": "ureshii",
    "meaning": "Happy / Glad",
-   "mnemonic": "Joy feeling",
    "examples": [
     {
      "jp": "嬉しいニュース",
@@ -9542,7 +9509,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "うれしい"
+   "reading": "うれしい",
+   "mnemonic": "嬉: 士 samurai + 女 woman + 豆 bean"
   },
   {
    "slug": "word-jinja",
@@ -9551,7 +9519,6 @@
    "term": "神社",
    "romaji": "jinja",
    "meaning": "Shinto shrine",
-   "mnemonic": "Japanese holy place",
    "examples": [
     {
      "jp": "神社にお参りする",
@@ -9564,7 +9531,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "じんじゃ"
+   "reading": "じんじゃ",
+   "mnemonic": "神 gods + 社 company"
   },
   {
    "slug": "word-tanoshimi",
@@ -9573,7 +9541,6 @@
    "term": "楽しみ",
    "romaji": "tanoshimi",
    "meaning": "Looking forward to",
-   "mnemonic": "Anticipating joy",
    "examples": [
     {
      "jp": "とても楽しみ",
@@ -9586,7 +9553,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "たのしみ"
+   "reading": "たのしみ",
+   "mnemonic": "楽 music: 白 white + 木 tree + 冫 ice"
   },
   {
    "slug": "word-korekara",
@@ -9595,7 +9563,6 @@
    "term": "これから",
    "romaji": "korekara",
    "meaning": "From now on",
-   "mnemonic": "Starting now",
    "examples": [
     {
      "jp": "これから行きます",
@@ -9617,7 +9584,6 @@
    "term": "猿",
    "romaji": "saru",
    "meaning": "Monkey",
-   "mnemonic": "Primate",
    "examples": [
     {
      "jp": "猿が木に登る",
@@ -9630,7 +9596,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "さる"
+   "reading": "さる",
+   "mnemonic": "猿: 衣 garment + 口 mouth + 土 earth + 犭 dog"
   },
   {
    "slug": "word-shujutsu",
@@ -9639,7 +9606,6 @@
    "term": "手術",
    "romaji": "shujutsu",
    "meaning": "Surgery",
-   "mnemonic": "Medical operation",
    "examples": [
     {
      "jp": "手術が必要だ",
@@ -9652,7 +9618,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "しゅじゅつ"
+   "reading": "しゅじゅつ",
+   "mnemonic": "手 hand + 術 art"
   },
   {
    "slug": "word-shorui",
@@ -9661,7 +9628,6 @@
    "term": "書類",
    "romaji": "shorui",
    "meaning": "Document",
-   "mnemonic": "Written materials",
    "examples": [
     {
      "jp": "書類にサインする",
@@ -9674,7 +9640,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "しょるい"
+   "reading": "しょるい",
+   "mnemonic": "書 write + 類 sort"
   },
   {
    "slug": "word-shingou",
@@ -9683,7 +9650,6 @@
    "term": "信号",
    "romaji": "shingou",
    "meaning": "Traffic light",
-   "mnemonic": "Stop/go signal",
    "examples": [
     {
      "jp": "信号が赤だ",
@@ -9696,7 +9662,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "しんごう"
+   "reading": "しんごう",
+   "mnemonic": "信 faith + 号 nickname"
   },
   {
    "slug": "word-shinjiru",
@@ -9705,7 +9672,6 @@
    "term": "信じる",
    "romaji": "shinjiru",
    "meaning": "To believe",
-   "mnemonic": "Have faith in",
    "examples": [
     {
      "jp": "自分を信じる",
@@ -9718,7 +9684,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "しんじる"
+   "reading": "しんじる",
+   "mnemonic": "信 faith: ⺅ person + 言 say"
   },
   {
    "slug": "word-shinzou",
@@ -9727,7 +9694,6 @@
    "term": "心臓",
    "romaji": "shinzou",
    "meaning": "Heart",
-   "mnemonic": "Pumping organ",
    "examples": [
     {
      "jp": "心臓がドキドキ",
@@ -9740,7 +9706,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "しんぞう"
+   "reading": "しんぞう",
+   "mnemonic": "心 heart + 臓 entrails"
   },
   {
    "slug": "word-ai",
@@ -9749,7 +9716,6 @@
    "term": "愛",
    "romaji": "ai",
    "meaning": "Love",
-   "mnemonic": "Heart feeling",
    "examples": [
     {
      "jp": "愛してる (ai shiteru)",
@@ -9762,7 +9728,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "あい"
+   "reading": "あい",
+   "mnemonic": "愛 love: 心 heart + 爪 claw + 冖 cover + 夂 walk"
   },
   {
    "slug": "word-akirameru",
@@ -9771,7 +9738,6 @@
    "term": "諦める",
    "romaji": "akirameru",
    "meaning": "To give up",
-   "mnemonic": "Stop trying",
    "examples": [
     {
      "jp": "諦めないで",
@@ -9784,7 +9750,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "あきらめる"
+   "reading": "あきらめる",
+   "mnemonic": "諦: 巾 cloth + 言 say + 并 horns + 立 stand + 亠 lid + 冖 cover"
   },
   {
    "slug": "word-atatakai",
@@ -9793,7 +9760,6 @@
    "term": "温かい",
    "romaji": "atatakai",
    "meaning": "Warm",
-   "mnemonic": "Cozy warmth",
    "examples": [
     {
      "jp": "温かいスープ",
@@ -9806,7 +9772,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "あたたかい"
+   "reading": "あたたかい",
+   "mnemonic": "温 warm: 皿 dish + 氵 water + 日 sun"
   },
   {
    "slug": "word-arigatou",
@@ -9815,7 +9782,6 @@
    "term": "ありがとう",
    "romaji": "arigatou",
    "meaning": "Thank you",
-   "mnemonic": "Most useful word",
    "examples": [
     {
      "jp": "ありがとうございます",
@@ -9836,7 +9802,6 @@
    "term": "いただきます",
    "romaji": "itadakimasu",
    "meaning": "Let's eat / Thank you for the food",
-   "mnemonic": "Gratitude before meals",
    "examples": [
     {
      "jp": "いただきます！",
@@ -9857,7 +9822,6 @@
    "term": "一時",
    "romaji": "ichiji",
    "meaning": "1 o'clock",
-   "mnemonic": "いち (1) + じ (o'clock)",
    "examples": [
     {
      "jp": "一時に起きる",
@@ -9870,7 +9834,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "いちじ"
+   "reading": "いちじ",
+   "mnemonic": "一 one + 時 time"
   },
   {
    "slug": "word-usagi",
@@ -9879,7 +9844,6 @@
    "term": "兎",
    "romaji": "usagi",
    "meaning": "Rabbit",
-   "mnemonic": "Long ears",
    "examples": [
     {
      "jp": "兎が走る",
@@ -9892,7 +9856,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "うさぎ"
+   "reading": "うさぎ",
+   "mnemonic": "兎: 儿 legs + 口 mouth"
   },
   {
    "slug": "word-ushi",
@@ -9901,7 +9866,6 @@
    "term": "牛",
    "romaji": "ushi",
    "meaning": "Cow",
-   "mnemonic": "Gives milk",
    "examples": [
     {
      "jp": "牛の乳",
@@ -9914,7 +9878,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "うし"
+   "reading": "うし",
+   "mnemonic": "牛 cow"
   },
   {
    "slug": "word-uma",
@@ -9923,7 +9888,6 @@
    "term": "馬",
    "romaji": "uma",
    "meaning": "Horse",
-   "mnemonic": "Fast animal",
    "examples": [
     {
      "jp": "馬に乗る",
@@ -9936,7 +9900,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "うま"
+   "reading": "うま",
+   "mnemonic": "馬 horse"
   },
   {
    "slug": "word-kaado",
@@ -9945,7 +9910,6 @@
    "term": "カード",
    "romaji": "kaado",
    "meaning": "Card payment",
-   "mnemonic": "クレジットカード",
    "examples": [
     {
      "jp": "カードで払えますか",
@@ -9967,7 +9931,6 @@
    "term": "休暇",
    "romaji": "kyuuka",
    "meaning": "Vacation / Leave",
-   "mnemonic": "Rest period",
    "examples": [
     {
      "jp": "休暇を取る",
@@ -9980,7 +9943,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "きゅうか"
+   "reading": "きゅうか",
+   "mnemonic": "休 rest + 暇"
   },
   {
    "slug": "word-kyuukei",
@@ -9989,7 +9953,6 @@
    "term": "休憩",
    "romaji": "kyuukei",
    "meaning": "Break / Rest",
-   "mnemonic": "Stop and rest",
    "examples": [
     {
      "jp": "休憩しましょう",
@@ -10002,7 +9965,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "きゅうけい"
+   "reading": "きゅうけい",
+   "mnemonic": "休 rest + 憩"
   },
   {
    "slug": "word-kyuuryou",
@@ -10011,7 +9975,6 @@
    "term": "給料",
    "romaji": "kyuuryou",
    "meaning": "Salary",
-   "mnemonic": "Pay received",
    "examples": [
     {
      "jp": "給料をもらう",
@@ -10024,7 +9987,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "きゅうりょう"
+   "reading": "きゅうりょう",
+   "mnemonic": "給 salary + 料 fee"
   },
   {
    "slug": "word-kyoukasho",
@@ -10033,7 +9997,6 @@
    "term": "教科書",
    "romaji": "kyoukasho",
    "meaning": "Textbook",
-   "mnemonic": "Learning book",
    "examples": [
     {
      "jp": "教科書を開く",
@@ -10046,7 +10009,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "きょうかしょ"
+   "reading": "きょうかしょ",
+   "mnemonic": "教 teach + 科 department + 書 write"
   },
   {
    "slug": "word-geemu",
@@ -10055,7 +10019,6 @@
    "term": "ゲーム",
    "romaji": "geemu",
    "meaning": "Game",
-   "mnemonic": "Digital entertainment",
    "examples": [
     {
      "jp": "ゲームをする",
@@ -10076,7 +10039,6 @@
    "term": "現金",
    "romaji": "genkin",
    "meaning": "Cash",
-   "mnemonic": "げんきん — physical money",
    "examples": [
     {
      "jp": "現金で払う",
@@ -10089,7 +10051,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "げんきん"
+   "reading": "げんきん",
+   "mnemonic": "現 present + 金 gold"
   },
   {
    "slug": "word-goukei",
@@ -10098,7 +10061,6 @@
    "term": "合計",
    "romaji": "goukei",
    "meaning": "Total",
-   "mnemonic": "ごうけい — sum total",
    "examples": [
     {
      "jp": "合計はいくらですか",
@@ -10111,7 +10073,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ごうけい"
+   "reading": "ごうけい",
+   "mnemonic": "合 fit + 計 plot"
   },
   {
    "slug": "word-gomennasai",
@@ -10120,7 +10083,6 @@
    "term": "ごめんなさい",
    "romaji": "gomennasai",
    "meaning": "I'm sorry",
-   "mnemonic": "Sincere apology",
    "examples": [
     {
      "jp": "遅れてごめんなさい",
@@ -10142,7 +10104,6 @@
    "term": "こんにちは",
    "romaji": "konnichiha",
    "meaning": "Hello",
-   "mnemonic": "Daytime greeting",
    "examples": [
     {
      "jp": "こんにちは、田中さん",
@@ -10164,7 +10125,6 @@
    "term": "礼儀",
    "romaji": "reigi",
    "meaning": "Manners / Etiquette",
-   "mnemonic": "Proper behavior",
    "examples": [
     {
      "jp": "礼儀を知る",
@@ -10177,7 +10137,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "れいぎ"
+   "reading": "れいぎ",
+   "mnemonic": "礼 salute + 儀"
   },
   {
    "slug": "word-senzai",
@@ -10186,7 +10147,6 @@
    "term": "洗剤",
    "romaji": "senzai",
    "meaning": "Detergent",
-   "mnemonic": "Cleaning agent",
    "examples": [
     {
      "jp": "洗剤で洗う",
@@ -10199,7 +10159,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "せんざい"
+   "reading": "せんざい",
+   "mnemonic": "洗 wash + 剤"
   },
   {
    "slug": "word-zou",
@@ -10208,7 +10169,6 @@
    "term": "象",
    "romaji": "zou",
    "meaning": "Elephant",
-   "mnemonic": "Long trunk",
    "examples": [
     {
      "jp": "象は大きい",
@@ -10221,7 +10181,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ぞう"
+   "reading": "ぞう",
+   "mnemonic": "象 elephant: 勹 wrap + 豕 pig + 口 mouth"
   },
   {
    "slug": "word-taoru",
@@ -10230,7 +10191,6 @@
    "term": "タオル",
    "romaji": "taoru",
    "meaning": "Towel",
-   "mnemonic": "Drying cloth",
    "examples": [
     {
      "jp": "タオルで拭く",
@@ -10252,7 +10212,6 @@
    "term": "道徳",
    "romaji": "doutoku",
    "meaning": "Morality",
-   "mnemonic": "Ethical principle",
    "examples": [
     {
      "jp": "道徳を守る",
@@ -10265,7 +10224,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "どうとく"
+   "reading": "どうとく",
+   "mnemonic": "道 road-way + 徳"
   },
   {
    "slug": "word-douryou",
@@ -10274,7 +10234,6 @@
    "term": "同僚",
    "romaji": "douryou",
    "meaning": "Colleague",
-   "mnemonic": "Same work group",
    "examples": [
     {
      "jp": "同僚と飲む",
@@ -10287,7 +10246,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "どうりょう"
+   "reading": "どうりょう",
+   "mnemonic": "同 same + 僚"
   },
   {
    "slug": "word-tora",
@@ -10296,7 +10256,6 @@
    "term": "虎",
    "romaji": "tora",
    "meaning": "Tiger",
-   "mnemonic": "Striped hunter",
    "examples": [
     {
      "jp": "虎は速い",
@@ -10309,7 +10268,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "とら"
+   "reading": "とら",
+   "mnemonic": "虎: 儿 legs + 虍 tiger"
   },
   {
    "slug": "word-nezumi",
@@ -10318,7 +10278,6 @@
    "term": "鼠",
    "romaji": "nezumi",
    "meaning": "Mouse / Rat",
-   "mnemonic": "Small rodent",
    "examples": [
     {
      "jp": "鼠が走る",
@@ -10331,7 +10290,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ねずみ"
+   "reading": "ねずみ",
+   "mnemonic": "鼠: 臼 mortar"
   },
   {
    "slug": "word-hasami",
@@ -10340,7 +10300,6 @@
    "term": "はさみ",
    "romaji": "hasami",
    "meaning": "Scissors",
-   "mnemonic": "Two blade cutter",
    "examples": [
     {
      "jp": "はさみで切る",
@@ -10362,7 +10321,6 @@
    "term": "バッグ",
    "romaji": "baggu",
    "meaning": "Bag / Purse",
-   "mnemonic": "Carrying accessory",
    "examples": [
     {
      "jp": "バッグを持つ",
@@ -10384,7 +10342,6 @@
    "term": "袋",
    "romaji": "fukuro",
    "meaning": "Bag",
-   "mnemonic": "Carrying container",
    "examples": [
     {
      "jp": "袋をください",
@@ -10397,7 +10354,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ふくろ"
+   "reading": "ふくろ",
+   "mnemonic": "袋 sack: 衣 garment + ⺅ person + 弋 stake"
   },
   {
    "slug": "word-beruto",
@@ -10406,7 +10364,6 @@
    "term": "ベルト",
    "romaji": "beruto",
    "meaning": "Belt",
-   "mnemonic": "Waist strap",
    "examples": [
     {
      "jp": "ベルトをする",
@@ -10427,7 +10384,6 @@
    "term": "骨",
    "romaji": "hone",
    "meaning": "Bone",
-   "mnemonic": "Skeleton part",
    "examples": [
     {
      "jp": "骨が折れた",
@@ -10440,7 +10396,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ほね"
+   "reading": "ほね",
+   "mnemonic": "骨 skeleton: 月 moon + 冖 cover + 冂 frame"
   },
   {
    "slug": "word-joushi",
@@ -10449,7 +10406,6 @@
    "term": "上司",
    "romaji": "joushi",
    "meaning": "Boss / Superior",
-   "mnemonic": "Above position",
    "examples": [
     {
      "jp": "上司に報告する",
@@ -10462,7 +10418,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "じょうし"
+   "reading": "じょうし",
+   "mnemonic": "上 above + 司"
   },
   {
    "slug": "word-dezaato",
@@ -10471,7 +10428,6 @@
    "term": "デザート",
    "romaji": "dezaato",
    "meaning": "Dessert",
-   "mnemonic": "Sweet ending",
    "examples": [
     {
      "jp": "デザートを食べる",
@@ -10493,7 +10449,6 @@
    "term": "良い",
    "romaji": "yoi",
    "meaning": "Good",
-   "mnemonic": "Positive quality",
    "examples": [
     {
      "jp": "いい天気 (ii tenki)",
@@ -10506,7 +10461,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "よい"
+   "reading": "よい",
+   "mnemonic": "良 good: 艮 stopping"
   },
   {
    "slug": "word-epuron",
@@ -10515,7 +10471,6 @@
    "term": "エプロン",
    "romaji": "epuron",
    "meaning": "Apron",
-   "mnemonic": "Cooking protector",
    "examples": [
     {
      "jp": "エプロンをつける",
@@ -10536,7 +10491,6 @@
    "term": "お邪魔します",
    "romaji": "ojamashimasu",
    "meaning": "Sorry to disturb / Excuse me for coming in",
-   "mnemonic": "Polite entering phrase",
    "examples": [
     {
      "jp": "お邪魔します！",
@@ -10549,7 +10503,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "おじゃまします"
+   "reading": "おじゃまします",
+   "mnemonic": "邪 + 魔"
   },
   {
    "slug": "word-odaiji-ni",
@@ -10558,7 +10513,6 @@
    "term": "お大事に",
    "romaji": "odaijini",
    "meaning": "Take care / Get well soon",
-   "mnemonic": "Said to sick person",
    "examples": [
     {
      "jp": "風邪ですか？お大事に！",
@@ -10571,7 +10525,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "おだいじに"
+   "reading": "おだいじに",
+   "mnemonic": "大 big + 事 matter"
   },
   {
    "slug": "word-onegaishimasu",
@@ -10580,7 +10535,6 @@
    "term": "お願いします",
    "romaji": "onegaishimasu",
    "meaning": "Please",
-   "mnemonic": "Requesting politely",
    "examples": [
     {
      "jp": "これをお願いします",
@@ -10593,7 +10547,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "おねがいします"
+   "reading": "おねがいします",
+   "mnemonic": "願 petition: 小 small + 白 white + 頁 head + 厂 cliff"
   },
   {
    "slug": "word-ohayou",
@@ -10602,7 +10557,6 @@
    "term": "おはよう",
    "romaji": "ohayou",
    "meaning": "Good morning",
-   "mnemonic": "Said early in the day",
    "examples": [
     {
      "jp": "おはようございます",
@@ -10623,7 +10577,6 @@
    "term": "温泉",
    "romaji": "onsen",
    "meaning": "Hot spring",
-   "mnemonic": "Natural hot bath",
    "examples": [
     {
      "jp": "温泉に入る",
@@ -10636,7 +10589,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "おんせん"
+   "reading": "おんせん",
+   "mnemonic": "温 warm + 泉 spring"
   },
   {
    "slug": "word-kingyo",
@@ -10645,7 +10599,6 @@
    "term": "金魚",
    "romaji": "kingyo",
    "meaning": "Goldfish",
-   "mnemonic": "Gold fish in bowl",
    "examples": [
     {
      "jp": "金魚を育てる",
@@ -10658,7 +10611,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "きんぎょ"
+   "reading": "きんぎょ",
+   "mnemonic": "金 gold + 魚 fish"
   },
   {
    "slug": "word-keigo",
@@ -10667,7 +10621,6 @@
    "term": "敬語",
    "romaji": "keigo",
    "meaning": "Honorific language",
-   "mnemonic": "Formal speech level",
    "examples": [
     {
      "jp": "敬語を使う",
@@ -10680,7 +10633,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "けいご"
+   "reading": "けいご",
+   "mnemonic": "敬 awe + 語 language"
   },
   {
    "slug": "word-gochisousama",
@@ -10689,7 +10643,6 @@
    "term": "ごちそうさま",
    "romaji": "gochisousama",
    "meaning": "Thank you for the meal",
-   "mnemonic": "Gratitude after meals",
    "examples": [
     {
      "jp": "ごちそうさまでした",
@@ -10710,7 +10663,6 @@
    "term": "言葉遣い",
    "romaji": "kotobazukai",
    "meaning": "Word usage / Speech",
-   "mnemonic": "How you use words",
    "examples": [
     {
      "jp": "丁寧な言葉遣い",
@@ -10723,7 +10675,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ことばづかい"
+   "reading": "ことばづかい",
+   "mnemonic": "言 say + 葉 leaf + 遣"
   },
   {
    "slug": "word-konbanwa",
@@ -10732,7 +10685,6 @@
    "term": "こんばんは",
    "romaji": "konbanha",
    "meaning": "Good evening",
-   "mnemonic": "Evening greeting",
    "examples": [
     {
      "jp": "こんばんは！",
@@ -10753,7 +10705,6 @@
    "term": "刺身",
    "romaji": "sashimi",
    "meaning": "Sashimi",
-   "mnemonic": "Raw sliced fish",
    "examples": [
     {
      "jp": "刺身を頼む",
@@ -10766,7 +10717,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "さしみ"
+   "reading": "さしみ",
+   "mnemonic": "刺 thorn + 身 body"
   },
   {
    "slug": "word-sayounara",
@@ -10775,7 +10727,6 @@
    "term": "さようなら",
    "romaji": "sayounara",
    "meaning": "Goodbye",
-   "mnemonic": "Formal farewell",
    "examples": [
     {
      "jp": "さようなら、また明日",
@@ -10797,7 +10748,6 @@
    "term": "締め切り",
    "romaji": "shimekiri",
    "meaning": "Deadline",
-   "mnemonic": "Cut-off point",
    "examples": [
     {
      "jp": "締め切りがある",
@@ -10810,7 +10760,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "しめきり"
+   "reading": "しめきり",
+   "mnemonic": "締 + 切 cut"
   },
   {
    "slug": "word-jougi",
@@ -10819,7 +10770,6 @@
    "term": "定規",
    "romaji": "jougi",
    "meaning": "Ruler",
-   "mnemonic": "Straight edge",
    "examples": [
     {
      "jp": "定規で線を引く",
@@ -10832,7 +10782,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "じょうぎ"
+   "reading": "じょうぎ",
+   "mnemonic": "定 determine + 規 standard"
   },
   {
    "slug": "word-shinkansen",
@@ -10841,7 +10792,6 @@
    "term": "新幹線",
    "romaji": "shinkansen",
    "meaning": "Bullet train",
-   "mnemonic": "Japan's fast train",
    "examples": [
     {
      "jp": "新幹線に乗る",
@@ -10854,7 +10804,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "しんかんせん"
+   "reading": "しんかんせん",
+   "mnemonic": "新 new + 幹 + 線 line"
   },
   {
    "slug": "word-sukaafu",
@@ -10863,7 +10814,6 @@
    "term": "スカーフ",
    "romaji": "sukaafu",
    "meaning": "Scarf",
-   "mnemonic": "Neck warmer",
    "examples": [
     {
      "jp": "スカーフを巻く",
@@ -10885,7 +10835,6 @@
    "term": "送料",
    "romaji": "souryou",
    "meaning": "Shipping fee",
-   "mnemonic": "そうりょう — delivery cost",
    "examples": [
     {
      "jp": "送料無料",
@@ -10898,7 +10847,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "そうりょう"
+   "reading": "そうりょう",
+   "mnemonic": "送 escort + 料 fee"
   },
   {
    "slug": "word-tsuuchi",
@@ -10907,7 +10857,6 @@
    "term": "通知",
    "romaji": "tsuuchi",
    "meaning": "Notification",
-   "mnemonic": "Alert message",
    "examples": [
     {
      "jp": "通知が来た",
@@ -10920,7 +10869,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "つうち"
+   "reading": "つうち",
+   "mnemonic": "通 traffic + 知 know"
   },
   {
    "slug": "word-norikae",
@@ -10929,7 +10879,6 @@
    "term": "乗り換え",
    "romaji": "norikae",
    "meaning": "Transfer",
-   "mnemonic": "Switch vehicles",
    "examples": [
     {
      "jp": "乗り換えが必要だ",
@@ -10942,7 +10891,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "のりかえ"
+   "reading": "のりかえ",
+   "mnemonic": "乗 ride + 換 interchange"
   },
   {
    "slug": "word-hajimemashite",
@@ -10951,7 +10901,6 @@
    "term": "はじめまして",
    "romaji": "hajimemashite",
    "meaning": "Nice to meet you",
-   "mnemonic": "First meeting",
    "examples": [
     {
      "jp": "はじめまして、田中です",
@@ -10973,7 +10922,6 @@
    "term": "皮膚",
    "romaji": "hifu",
    "meaning": "Skin",
-   "mnemonic": "Outer layer",
    "examples": [
     {
      "jp": "皮膚が乾燥する",
@@ -10986,7 +10934,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "ひふ"
+   "reading": "ひふ",
+   "mnemonic": "皮 pelt + 膚 skin"
   },
   {
    "slug": "word-pinku",
@@ -10995,7 +10944,6 @@
    "term": "ピンク",
    "romaji": "pinku",
    "meaning": "Pink",
-   "mnemonic": "Cherry blossom pink",
    "examples": [
     {
      "jp": "ピンクの花",
@@ -11017,7 +10965,6 @@
    "term": "フライパン",
    "romaji": "furaipan",
    "meaning": "Frying pan",
-   "mnemonic": "Cooking vessel",
    "examples": [
     {
      "jp": "フライパンで焼く",
@@ -11039,7 +10986,6 @@
    "term": "枕",
    "romaji": "makura",
    "meaning": "Pillow",
-   "mnemonic": "Head rest",
    "examples": [
     {
      "jp": "枕で寝る",
@@ -11052,7 +10998,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "まくら"
+   "reading": "まくら",
+   "mnemonic": "枕: 木 tree + 冖 cover + 尢 lame"
   },
   {
    "slug": "word-murasaki",
@@ -11061,7 +11008,6 @@
    "term": "紫",
    "romaji": "murasaki",
    "meaning": "Purple",
-   "mnemonic": "Royal purple",
    "examples": [
     {
      "jp": "紫のドレス",
@@ -11074,7 +11020,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "むらさき"
+   "reading": "むらさき",
+   "mnemonic": "紫: 止 stop + 糸 thread + 匕 spoon"
   },
   {
    "slug": "word-yakan",
@@ -11083,7 +11030,6 @@
    "term": "やかん",
    "romaji": "yakan",
    "meaning": "Kettle",
-   "mnemonic": "Water boiler",
    "examples": [
     {
      "jp": "やかんでお湯を沸かす",
@@ -11105,7 +11051,6 @@
    "term": "割引",
    "romaji": "waribiki",
    "meaning": "Discount",
-   "mnemonic": "Price reduction",
    "examples": [
     {
      "jp": "割引がある",
@@ -11118,7 +11063,8 @@
    "tags": [
     "jlpt-verified"
    ],
-   "reading": "わりびき"
+   "reading": "わりびき",
+   "mnemonic": "割 proportion + 引 pull"
   }
  ]
 }

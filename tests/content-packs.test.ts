@@ -59,14 +59,30 @@ describe("legacy packs", () => {
   });
 });
 
-describe("mnemonics overlay", () => {
-  const mnemonics = JSON.parse(readFileSync(join(CONTENT, "mnemonics", "n5.json"), "utf8")) as Record<string, string>;
+describe("memory hints", () => {
+  const mnemonics = JSON.parse(readFileSync(join(CONTENT, "mnemonics", "radicals.json"), "utf8")) as Record<string, string>;
   const bySlug = new Map(allPacks.flatMap(([g, f]) => loadFrom(g, f).records).map((r) => [r.slug as string, r]));
 
   it("only names items that exist, and every one made it into its pack", () => {
     for (const [slug, text] of Object.entries(mnemonics)) {
       expect(text.trim(), slug).not.toBe("");
       expect(bySlug.get(slug)?.mnemonic, slug).toBe(text);
+    }
+  });
+
+  it("never use English sound-alikes for words or kanji", () => {
+    for (const r of bySlug.values()) {
+      if ((r.type === "word" || r.type === "kanji") && typeof r.mnemonic === "string") {
+        expect(r.mnemonic, `${r.slug}: ${r.mnemonic}`).not.toMatch(/"[^"]+"/);
+      }
+    }
+  });
+
+  it("start word hints from the word's own kanji", () => {
+    for (const r of bySlug.values()) {
+      if (r.type !== "word" || !/[\u3400-\u9fff]/.test(r.term as string)) continue;
+      const first = [...(r.term as string)].find((c) => /[\u3400-\u9fff]/.test(c))!;
+      if (r.mnemonic) expect(r.mnemonic, r.slug as string).toContain(first);
     }
   });
 });
