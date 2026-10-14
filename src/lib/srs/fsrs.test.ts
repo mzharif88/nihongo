@@ -41,6 +41,28 @@ describe("scheduling", () => {
     expect(intervals.at(-1)!).toBeGreaterThan(7 * DAY);
   });
 
+  it("graduates a new card answered right straight to review, days away", () => {
+    for (const g of [Rating.Good, Rating.Hard] as Grade[]) {
+      const row = review(newCard(T0), g, T0);
+      if (g === Rating.Good) {
+        expect(row.fsrs_state).toBe(2);
+        expect(new Date(row.due).getTime() - T0.getTime()).toBeGreaterThanOrEqual(DAY);
+      } else {
+        // Slow but right: one more look later in the session, not three.
+        expect(new Date(row.due).getTime() - T0.getTime()).toBeLessThanOrEqual(30 * 60_000);
+      }
+    }
+  });
+
+  it("brings a missed new card back once after ten minutes, then not until tomorrow", () => {
+    const missed = review(newCard(T0), Rating.Again, T0);
+    expect(new Date(missed.due).getTime() - T0.getTime()).toBe(10 * 60_000);
+    const later = new Date(missed.due);
+    const fixed = review(missed, Rating.Good, later);
+    expect(fixed.fsrs_state).toBe(2);
+    expect(new Date(fixed.due).getTime() - later.getTime()).toBeGreaterThanOrEqual(DAY);
+  });
+
   it("counts a lapse and moves to Relearning when a review card is forgotten", () => {
     let row = newCard(T0);
     let now = T0;

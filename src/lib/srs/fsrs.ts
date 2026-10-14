@@ -3,7 +3,22 @@ import { createEmptyCard, fsrs, generatorParameters, Rating, type Card, type Gra
 /** FSRS target retention; the plan's 85–90% review-accuracy band. */
 export const DESIRED_RETENTION = 0.9;
 
-const scheduler = fsrs(generatorParameters({ request_retention: DESIRED_RETENTION, enable_fuzz: false }));
+/**
+ * One short learning step. New cards are introduced before the quiz, so a
+ * right first answer graduates straight to review (days away); a wrong one
+ * comes back once after ten minutes. The default (1m, 10m) showed every new
+ * card three times in one sitting.
+ */
+export const LEARNING_STEPS = ["10m"] as const;
+
+const scheduler = fsrs(
+  generatorParameters({
+    request_retention: DESIRED_RETENTION,
+    enable_fuzz: false,
+    learning_steps: [...LEARNING_STEPS],
+    relearning_steps: ["10m"],
+  }),
+);
 
 export { Rating };
 export type { Grade };

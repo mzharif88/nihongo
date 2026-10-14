@@ -11,7 +11,8 @@ import { speak } from "./speak";
 
 /** Cards that come due again within this window (FSRS learning steps) are repeated in the same session. */
 const REQUEUE_WINDOW_MS = 15 * 60 * 1000;
-const MAX_REPEATS = 3;
+/** A card missed again and again comes back at most this often in one session; the rest waits for tomorrow. */
+const MAX_REPEATS = 2;
 
 type Phase = "intro" | "question" | "answered";
 

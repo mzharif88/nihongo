@@ -22,6 +22,9 @@ export interface AnswerResult {
   streak: number;
 }
 
+/** How long after recognition is learned the recall card first comes due. */
+const RECALL_DELAY_MS = 24 * 60 * 60 * 1000;
+
 const FSRS_COLUMNS =
   "due, stability, difficulty, elapsed_days, scheduled_days, learning_steps, reps, lapses, fsrs_state, last_review";
 
@@ -82,7 +85,8 @@ export async function recordAnswer(input: AnswerInput): Promise<AnswerResult> {
       supabase
         .from("user_items")
         .upsert(
-          { user_id: user.id, item_id: input.itemId, card_type: "recall", ...newCard(now) },
+          // Start the reverse card tomorrow, not straight after: same-day repeats of a word just learned add little.
+          { user_id: user.id, item_id: input.itemId, card_type: "recall", ...newCard(new Date(now.getTime() + RECALL_DELAY_MS)) },
           { ignoreDuplicates: true },
         ),
     );
