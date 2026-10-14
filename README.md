@@ -20,7 +20,8 @@ This is a fresh build. The old NihonGo! app (React + Vite) lives on the
 | Home | Study everything, Continue (last topic), and a topic grid (scripts, kanji and words by level, word topics) with progress and due counts; pace card shows the exam-date target as a guide only; `/settings` for level, exam date, goal and timezone |
 | Lessons | `/lessons`: 5 original N5 situation lessons (introductions, konbini, station, time, restaurant). Each runs situation → new words → grammar → dialogue (tap to hear, English toggle) → 3 quick checks; checks are scored on the server, finishing adds the words to SRS, logs wrong checks as mistakes and unlocks the next lesson. Leaving halfway resumes at the same step. Furigana throughout |
 | Sentence builder | `/builder`: the 12 N5 sentence patterns, 5 sentences each. Tap tiles into order (with decoy tiles; furigana on every tile), check, hear it read; other natural word orders count. Runs are scored on the server; best score per pattern is kept, wrong sentences are logged as mistakes, XP and streak count. Leaving halfway resumes |
-| Next | N5 mock test and reading passages |
+| JLPT Center | `/mock`: original N5 mock test 1 (51 questions) in real JLPT order — vocabulary, grammar & reading, listening — with a timer per paper at the official minutes per question. Exam conditions (timed, no furigana, counts towards the pass record) or practice mode (untimed, furigana except on the answer, listening scripts). Listening is read aloud by the device voice. Results show a predicted score per scoring section against the real pass lines and sectional minimums, accuracy by part, and a full review; every miss is logged and its words go into reviews |
+| Reading | `/reading`: 5 original N5 passages with a furigana toggle, tap-a-sentence audio and 3 comprehension questions each; best score kept |
 
 ## Stack
 
@@ -72,6 +73,7 @@ npm run dev
 | `npm run build:lessons` | Regenerate `content/lessons/*.json` (adds furigana) from the hand-written `*.source.json` files |
 | `npm run build:builder` | Regenerate `content/builder/*.json` (tiles + furigana) from `*.source.json` |
 | `npm run build:kanji-parts -- <kradfile-u>` | Re-vendor KRADFILE kanji components (`content/kanji-parts`) used for memory hints |
+| `npm run build:practice` | Regenerate the mock and reading packs (`content/mock`, `content/reading`) from `*.source.json` |
 | `npm run build:open-data -- <dir>` | Regenerate `content/opendata/*.json` from downloaded `kanji.json` (kanji-data) and `n5–n2.csv` (open-anki-jlpt-decks) |
 
 New migrations go in `supabase/migrations/` with a timestamp prefix. New

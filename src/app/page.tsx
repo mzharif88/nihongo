@@ -85,6 +85,19 @@ export default async function HomePage() {
         </Link>
       </div>
 
+      <section className="mt-4 grid grid-cols-2 gap-3">
+        <Link href="/mock" className="rounded-xl border border-border bg-card p-4 hover:border-accent">
+          <div className="text-xs text-muted">JLPT Center</div>
+          <div className="text-lg font-bold">Mock tests</div>
+          <div className="mt-1 text-xs text-muted">Timed, real format, predicted score</div>
+        </Link>
+        <Link href="/reading" className="rounded-xl border border-border bg-card p-4 hover:border-accent">
+          <div className="text-xs text-muted">Practice</div>
+          <div className="text-lg font-bold">Reading</div>
+          <div className="mt-1 text-xs text-muted">Graded passages with furigana</div>
+        </Link>
+      </section>
+
       <TopicGrid topics={session.topics} href={studyHref} />
 
       <PaceCard

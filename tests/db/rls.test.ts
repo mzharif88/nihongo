@@ -151,6 +151,34 @@ describe("learner tables", () => {
     await expect(as(db, null, () => db.query(`select * from public.builder_progress`))).rejects.toThrow(/permission denied/);
   });
 
+  it("keeps mock attempts and reading progress owner-only", async () => {
+    const mock = await db.query<{ id: string }>(
+      `insert into public.mock_tests (slug, jlpt_level, title, time_limit_min, status) values ('mock-x', 'N5', 'X', 60, 'live') returning id`,
+    );
+    const text = await db.query<{ id: string }>(
+      `insert into public.texts (slug, jlpt_level, kind, title, body, status) values ('text-x', 'N5', 'reading', 'X', 'x', 'live') returning id`,
+    );
+    await as(db, ALICE, () =>
+      db.query(`insert into public.mock_attempts (mock_test_id, correct, total, passed) values ($1, 30, 50, true)`, [mock.rows[0].id]),
+    );
+    await as(db, ALICE, () =>
+      db.query(`insert into public.text_progress (text_id, best_score, max_score) values ($1, 3, 3)`, [text.rows[0].id]),
+    );
+    for (const table of ["mock_attempts", "text_progress"]) {
+      expect((await as(db, ALICE, () => db.query(`select * from public.${table}`))).rows).toHaveLength(1);
+      expect((await as(db, BOB, () => db.query(`select * from public.${table}`))).rows).toHaveLength(0);
+      await expect(as(db, null, () => db.query(`select * from public.${table}`))).rejects.toThrow(/permission denied/);
+    }
+    await expect(
+      as(db, BOB, () =>
+        db.query(`insert into public.mock_attempts (user_id, mock_test_id, correct, total, passed) values ($1, $2, 50, 50, true)`, [
+          ALICE,
+          mock.rows[0].id,
+        ]),
+      ),
+    ).rejects.toThrow(/row-level security/);
+  });
+
   it("keeps user_items owner-only", async () => {
     await as(db, ALICE, () =>
       db.query(`insert into public.user_items (user_id, item_id) values ($1, $2)`, [ALICE, liveItemId]),

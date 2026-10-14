@@ -92,7 +92,9 @@ export const questionSchema = z
   .object({
     slug,
     mock_test_slug: slug.optional(),
+    text_slug: slug.optional(),
     position: z.number().int().min(0).optional(),
+    part: optionalText,
     jlpt_level: level,
     section: z.enum(SECTIONS),
     passage: optionalText,

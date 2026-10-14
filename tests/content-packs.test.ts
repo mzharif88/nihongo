@@ -173,3 +173,36 @@ describe("kana duplicate merges", () => {
     for (const r of all) for (const p of r.prerequisites as string[]) expect(gone.has(p), `${r.slug} → ${p}`).toBe(false);
   });
 });
+
+describe("mock and reading packs", () => {
+  const items = new Set(
+    PACK_GROUPS.filter((g) => g.id === "legacy" || g.id === "opendata").flatMap((g) =>
+      g.packs.map((p) => loadFrom(g.id, p.file)).filter((p) => p.kind === "items").flatMap((p) => p.records.map((r) => r.slug as string)),
+    ),
+  );
+  const mocks = new Set(loadFrom("mock", "n5-1-test.json").records.map((r) => r.slug as string));
+  const texts = new Set(loadFrom("reading", "n5-texts.json").records.map((r) => r.slug as string));
+  const questions = [...loadFrom("mock", "n5-1-questions.json").records, ...loadFrom("reading", "n5-questions.json").records];
+
+  it("point at real tests, texts and items", () => {
+    for (const q of questions) {
+      if (q.mock_test_slug) expect(mocks).toContain(q.mock_test_slug);
+      if (q.text_slug) expect(texts).toContain(q.text_slug);
+      expect(q.mock_test_slug || q.text_slug, q.slug as string).toBeTruthy();
+      for (const s of q.item_slugs as string[]) expect(items, `${q.slug} → ${s}`).toContain(s);
+    }
+  });
+
+  it("give listening questions a script and reading questions a passage or text", () => {
+    for (const q of questions) {
+      if (q.section === "listening") expect(q.passage, q.slug as string).toBeTruthy();
+      if (q.section === "reading" && q.mock_test_slug) expect(q.passage, q.slug as string).toBeTruthy();
+    }
+  });
+
+  it("underline exactly one target in kanji-reading and writing questions", () => {
+    for (const q of questions) {
+      if (/漢字読み|表記/.test(String(q.part))) expect(String(q.prompt).match(/\{\{/g), q.slug as string).toHaveLength(1);
+    }
+  });
+});

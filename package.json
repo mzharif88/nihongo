@@ -13,7 +13,8 @@
     "build:open-data": "tsx scripts/build-open-data.ts",
     "build:lessons": "tsx scripts/build-lessons.ts",
     "build:builder": "tsx scripts/build-builder.ts",
-    "build:kanji-parts": "tsx scripts/build-kanji-parts.ts"
+    "build:kanji-parts": "tsx scripts/build-kanji-parts.ts",
+    "build:practice": "tsx scripts/build-practice.ts"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.7",
