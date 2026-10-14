@@ -1,0 +1,607 @@
+{
+ "version": 1,
+ "kind": "items",
+ "source": "original-grammar",
+ "records": [
+  {
+   "slug": "grammar-n3-you-ni-suru",
+   "term": "〜ようにする (make a point of)",
+   "meaning": "Dictionary or ない-form + ようにする = try to make a habit of (not) doing.",
+   "examples": [
+    {
+     "jp": "毎日野菜を食べるようにしています。",
+     "en": "I make a point of eating vegetables every day.",
+     "reading": "[毎日|まいにち][野菜|やさい]を[食|た]べるようにしています。"
+    },
+    {
+     "jp": "夜遅くまでスマホを見ないようにしています。",
+     "en": "I try not to look at my phone late at night.",
+     "reading": "[夜|よる][遅|おそ]くまでスマホを[見|み]ないようにしています。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N3",
+   "skill": "grammar",
+   "grammar_point": "grammar-n3-you-ni-suru",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n3-koto-ni-suru",
+   "term": "〜ことにする (decide to)",
+   "meaning": "Dictionary or ない-form + ことにする = I decide to (my own decision). ことにしている = a rule I keep.",
+   "examples": [
+    {
+     "jp": "来月から英語を習うことにしました。",
+     "en": "I've decided to take English lessons from next month.",
+     "reading": "[来月|らいげつ]から[英語|えいご]を[習|なら]うことにしました。"
+    },
+    {
+     "jp": "寝る前にお酒を飲まないことにしています。",
+     "en": "I make it a rule not to drink before bed.",
+     "reading": "[寝|ね]る[前|まえ]にお[酒|さけ]を[飲|の]まないことにしています。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N3",
+   "skill": "grammar",
+   "grammar_point": "grammar-n3-koto-ni-suru",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n3-koto-ni-naru",
+   "term": "〜ことになる (it has been decided)",
+   "meaning": "Dictionary form + ことになる = it's been decided (by others or circumstances). ことになっている = it's the rule.",
+   "examples": [
+    {
+     "jp": "四月から大阪に転勤することになりました。",
+     "en": "It's been decided that I'll transfer to Osaka in April.",
+     "reading": "[四月|しがつ]から[大阪|おおさか]に[転勤|てんきん]することになりました。"
+    },
+    {
+     "jp": "ここでは靴を脱ぐことになっています。",
+     "en": "The rule here is to take your shoes off.",
+     "reading": "ここでは[靴|くつ]を[脱|ぬ]ぐことになっています。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N3",
+   "skill": "grammar",
+   "grammar_point": "grammar-n3-koto-ni-naru",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n3-bakari",
+   "term": "〜ばかり (nothing but; just did)",
+   "meaning": "Noun / て-form + ばかり = nothing but…; た-form + ばかり = have just done.",
+   "examples": [
+    {
+     "jp": "弟はゲームばかりしています。",
+     "en": "My younger brother does nothing but play games.",
+     "reading": "[弟|おとうと]はゲームばかりしています。"
+    },
+    {
+     "jp": "日本に来たばかりなので、まだ何もわかりません。",
+     "en": "I've only just arrived in Japan, so I don't know anything yet.",
+     "reading": "[日本|にほん]に[来|き]たばかりなので、まだ[何|なに]もわかりません。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N3",
+   "skill": "grammar",
+   "grammar_point": "grammar-n3-bakari",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n3-tokoro",
+   "term": "〜ところだ (about to / in the middle of / just did)",
+   "meaning": "Dictionary form + ところ = about to; ている + ところ = in the middle of; た-form + ところ = just did.",
+   "examples": [
+    {
+     "jp": "今から出かけるところです。",
+     "en": "I'm just about to go out.",
+     "reading": "[今|いま]から[出|で]かけるところです。"
+    },
+    {
+     "jp": "今、晩ご飯を作っているところです。",
+     "en": "I'm in the middle of making dinner.",
+     "reading": "[今|いま]、[晩|ばん]ご[飯|はん]を[作|つく]っているところです。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N3",
+   "skill": "grammar",
+   "grammar_point": "grammar-n3-tokoro",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n3-hazu",
+   "term": "〜はずだ (should be, expected)",
+   "meaning": "Plain form + はずだ = it should be so (a reasoned expectation). はずがない = can't possibly be.",
+   "examples": [
+    {
+     "jp": "田中さんはもう駅に着いているはずです。",
+     "en": "Mr. Tanaka should already be at the station.",
+     "reading": "[田中|たなか]さんはもう[駅|えき]に[着|つ]いているはずです。"
+    },
+    {
+     "jp": "あんなに練習したのだから、負けるはずがない。",
+     "en": "We practised so hard, there's no way we'll lose.",
+     "reading": "あんなに[練習|れんしゅう]したのだから、[負|ま]けるはずがない。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N3",
+   "skill": "grammar",
+   "grammar_point": "grammar-n3-hazu",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n3-wake",
+   "term": "〜わけだ / 〜わけではない (that's why / it's not that)",
+   "meaning": "Plain form + わけだ = no wonder, that's why; わけではない = it's not (necessarily) that…",
+   "examples": [
+    {
+     "jp": "十年もアメリカに住んでいたから、英語が上手なわけだ。",
+     "en": "He lived in America for ten years, so no wonder his English is good.",
+     "reading": "[十年|じゅうねん]もアメリカに[住|す]んでいたから、[英語|えいご]が[上手|じょうず]なわけだ。"
+    },
+    {
+     "jp": "肉が嫌いなわけではありませんが、あまり食べません。",
+     "en": "It's not that I dislike meat, but I don't eat much of it.",
+     "reading": "[肉|にく]が[嫌|きら]いなわけではありませんが、あまり[食|た]べません。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N3",
+   "skill": "grammar",
+   "grammar_point": "grammar-n3-wake",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n3-beki",
+   "term": "〜べきだ (should)",
+   "meaning": "Dictionary form + べきだ = should (a moral or strong opinion). する → すべき. Negative: べきではない.",
+   "examples": [
+    {
+     "jp": "約束は守るべきです。",
+     "en": "You should keep your promises.",
+     "reading": "[約束|やくそく]は[守|まも]るべきです。"
+    },
+    {
+     "jp": "人の悪口を言うべきではない。",
+     "en": "You shouldn't speak ill of others.",
+     "reading": "[人|ひと]の[悪口|わるくち]を[言|い]うべきではない。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N3",
+   "skill": "grammar",
+   "grammar_point": "grammar-n3-beki",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n3-rashii",
+   "term": "〜らしい (apparently; typical of)",
+   "meaning": "Plain form + らしい = apparently (heard or inferred). Noun + らしい = typical of, like a real…",
+   "examples": [
+    {
+     "jp": "来週、新しい先生が来るらしいです。",
+     "en": "Apparently a new teacher is coming next week.",
+     "reading": "[来週|らいしゅう]、[新|あたら]しい[先生|せんせい]が[来|く]るらしいです。"
+    },
+    {
+     "jp": "今日は春らしい暖かい日ですね。",
+     "en": "It's a warm, spring-like day today.",
+     "reading": "[今日|きょう]は[春|はる]らしい[暖|あたた]かい[日|ひ]ですね。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N3",
+   "skill": "grammar",
+   "grammar_point": "grammar-n3-rashii",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n3-you-da",
+   "term": "〜ようだ / 〜みたいだ (seems; like)",
+   "meaning": "Plain form + ようだ (casual: みたいだ) = it seems (from what I see). Noun + のようだ / みたいだ = like a…",
+   "examples": [
+    {
+     "jp": "誰もいないようです。",
+     "en": "It seems nobody is here.",
+     "reading": "[誰|だれ]もいないようです。"
+    },
+    {
+     "jp": "まるで夢みたいだ。",
+     "en": "It's just like a dream.",
+     "reading": "まるで[夢|ゆめ]みたいだ。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N3",
+   "skill": "grammar",
+   "grammar_point": "grammar-n3-you-da",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n3-ni-yoru-to",
+   "term": "〜によると / 〜そうだ (according to; I hear)",
+   "meaning": "Source + によると … plain form + そうだ = according to…, I hear that…",
+   "examples": [
+    {
+     "jp": "天気予報によると、明日は雪が降るそうです。",
+     "en": "According to the forecast, it will snow tomorrow.",
+     "reading": "[天気予報|てんきよほう]によると、[明日|あした]は[雪|ゆき]が[降|ふ]るそうです。"
+    },
+    {
+     "jp": "ニュースによると、駅前に新しい店ができるそうです。",
+     "en": "According to the news, a new shop is opening in front of the station.",
+     "reading": "ニュースによると、[駅前|えきまえ]に[新|あたら]しい[店|みせ]ができるそうです。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N3",
+   "skill": "grammar",
+   "grammar_point": "grammar-n3-ni-yoru-to",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n3-okage-sei",
+   "term": "〜おかげで / 〜せいで (thanks to / because of)",
+   "meaning": "Plain form or noun + の + おかげで = thanks to (good result); せいで = because of (bad result).",
+   "examples": [
+    {
+     "jp": "先生のおかげで、試験に合格できました。",
+     "en": "Thanks to my teacher, I passed the exam.",
+     "reading": "[先生|せんせい]のおかげで、[試験|しけん]に[合格|ごうかく]できました。"
+    },
+    {
+     "jp": "雨のせいで、試合が中止になりました。",
+     "en": "Because of the rain, the match was called off.",
+     "reading": "[雨|あめ]のせいで、[試合|しあい]が[中止|ちゅうし]になりました。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N3",
+   "skill": "grammar",
+   "grammar_point": "grammar-n3-okage-sei",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n3-toori",
+   "term": "〜とおり (just as)",
+   "meaning": "Dictionary / た-form or noun + の + とおり (also noun + どおり) = exactly as…",
+   "examples": [
+    {
+     "jp": "説明書に書いてあるとおりに組み立ててください。",
+     "en": "Please assemble it exactly as the manual says.",
+     "reading": "[説明|せつめい][書|しょ]に[書|か]いてあるとおりに[組|く]み[立|た]ててください。"
+    },
+    {
+     "jp": "予定どおり、会議は三時に始まります。",
+     "en": "As scheduled, the meeting starts at three.",
+     "reading": "[予定|よてい]どおり、[会議|かいぎ]は[三|さん][時|じ]に[始|はじ]まります。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N3",
+   "skill": "grammar",
+   "grammar_point": "grammar-n3-toori",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n3-zu-ni",
+   "term": "〜ずに (without doing)",
+   "meaning": "ない-form minus ない + ずに = without doing (written/formal 〜ないで). する → せずに.",
+   "examples": [
+    {
+     "jp": "朝ご飯を食べずに家を出ました。",
+     "en": "I left home without eating breakfast.",
+     "reading": "[朝|あさ]ご[飯|はん]を[食|た]べずに[家|いえ]を[出|で]ました。"
+    },
+    {
+     "jp": "辞書を使わずに読めるようになりたい。",
+     "en": "I want to be able to read without a dictionary.",
+     "reading": "[辞書|じしょ]を[使|つか]わずに[読|よ]めるようになりたい。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N3",
+   "skill": "grammar",
+   "grammar_point": "grammar-n3-zu-ni",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n3-causative",
+   "term": "使役 〜させる (make / let someone do)",
+   "meaning": "Causative: 行く → 行かせる, 食べる → 食べさせる, する → させる. The person made/allowed to act takes に or を.",
+   "examples": [
+    {
+     "jp": "母は弟に野菜を食べさせました。",
+     "en": "Mum made my younger brother eat his vegetables.",
+     "reading": "[母|はは]は[弟|おとうと]に[野菜|やさい]を[食|た]べさせました。"
+    },
+    {
+     "jp": "少し考えさせてください。",
+     "en": "Please let me think about it a little.",
+     "reading": "[少|すこ]し[考|かんが]えさせてください。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N3",
+   "skill": "grammar",
+   "grammar_point": "grammar-n3-causative",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n3-causative-passive",
+   "term": "使役受身 〜させられる (be made to)",
+   "meaning": "Causative-passive: 行く → 行かされる / 行かせられる, 食べる → 食べさせられる. Being made to do something you didn't want to.",
+   "examples": [
+    {
+     "jp": "昨日は部長に遅くまで残業させられました。",
+     "en": "Yesterday the manager made me work overtime until late.",
+     "reading": "[昨日|きのう]は[部長|ぶちょう]に[遅|おそ]くまで[残業|ざんぎょう]させられました。"
+    },
+    {
+     "jp": "子どもの時、嫌いな野菜を食べさせられました。",
+     "en": "As a child I was made to eat vegetables I hated.",
+     "reading": "[子|こ]どもの[時|とき]、[嫌|きら]いな[野菜|やさい]を[食|た]べさせられました。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N3",
+   "skill": "grammar",
+   "grammar_point": "grammar-n3-causative-passive",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n3-uchi-ni",
+   "term": "〜うちに (while still)",
+   "meaning": "Dictionary / ない / い-adj / noun + の + うちに = while it's still…, before it changes.",
+   "examples": [
+    {
+     "jp": "温かいうちに食べてください。",
+     "en": "Please eat it while it's still warm.",
+     "reading": "[温|あたた]かいうちに[食|た]べてください。"
+    },
+    {
+     "jp": "若いうちに、いろいろな国へ行きたい。",
+     "en": "I want to visit lots of countries while I'm young.",
+     "reading": "[若|わか]いうちに、いろいろな[国|くに]へ[行|い]きたい。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N3",
+   "skill": "grammar",
+   "grammar_point": "grammar-n3-uchi-ni",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n3-tabi-ni",
+   "term": "〜たびに (every time)",
+   "meaning": "Dictionary form or noun + の + たびに = every time…",
+   "examples": [
+    {
+     "jp": "この歌を聞くたびに、学生時代を思い出します。",
+     "en": "Every time I hear this song, I remember my student days.",
+     "reading": "この[歌|うた]を[聞|き]くたびに、[学生|がくせい][時代|じだい]を[思|おも]い[出|だ]します。"
+    },
+    {
+     "jp": "旅行のたびに、写真をたくさん撮ります。",
+     "en": "Every time I travel, I take lots of photos.",
+     "reading": "[旅行|りょこう]のたびに、[写真|しゃしん]をたくさん[撮|と]ります。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N3",
+   "skill": "grammar",
+   "grammar_point": "grammar-n3-tabi-ni",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n3-ba-hodo",
+   "term": "〜ば〜ほど (the more… the more)",
+   "meaning": "ば-form + the same word + ほど = the more…, the more…",
+   "examples": [
+    {
+     "jp": "練習すればするほど、上手になります。",
+     "en": "The more you practise, the better you get.",
+     "reading": "[練習|れんしゅう]すればするほど、[上手|じょうず]になります。"
+    },
+    {
+     "jp": "考えれば考えるほど、わからなくなる。",
+     "en": "The more I think about it, the less I understand.",
+     "reading": "[考|かんが]えれば[考|かんが]えるほど、わからなくなる。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N3",
+   "skill": "grammar",
+   "grammar_point": "grammar-n3-ba-hodo",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n3-ni-taishite",
+   "term": "〜に対して (towards; in contrast to)",
+   "meaning": "Noun + に対して = towards / against; also 'whereas' when contrasting two things.",
+   "examples": [
+    {
+     "jp": "お客様に対して失礼なことを言ってはいけません。",
+     "en": "You mustn't say anything rude to customers.",
+     "reading": "お[客様|きゃくさま]に[対|たい]して[失礼|しつれい]なことを[言|い]ってはいけません。"
+    },
+    {
+     "jp": "兄は外で遊ぶのが好きなのに対して、弟は本が好きだ。",
+     "en": "Whereas my older brother likes playing outside, my younger brother likes books.",
+     "reading": "[兄|あに]は[外|そと]で[遊|あそ]ぶのが[好|す]きなのに[対|たい]して、[弟|おとうと]は[本|ほん]が[好|す]きだ。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N3",
+   "skill": "grammar",
+   "grammar_point": "grammar-n3-ni-taishite",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n3-ni-tsuite",
+   "term": "〜について / 〜に関して (about, regarding)",
+   "meaning": "Noun + について = about; に関して is the more formal version.",
+   "examples": [
+    {
+     "jp": "日本の歴史について調べています。",
+     "en": "I'm researching Japanese history.",
+     "reading": "[日本|にほん]の[歴史|れきし]について[調|しら]べています。"
+    },
+    {
+     "jp": "この件に関して、何か質問はありますか。",
+     "en": "Are there any questions regarding this matter?",
+     "reading": "この[件|けん]に[関|かん]して、[何|なに]か[質問|しつもん]はありますか。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N3",
+   "skill": "grammar",
+   "grammar_point": "grammar-n3-ni-tsuite",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n3-to-shite",
+   "term": "〜として (as)",
+   "meaning": "Noun + として = in the role or capacity of…",
+   "examples": [
+    {
+     "jp": "留学生として日本に来ました。",
+     "en": "I came to Japan as an international student.",
+     "reading": "[留学生|りゅうがくせい]として[日本|にほん]に[来|き]ました。"
+    },
+    {
+     "jp": "趣味として料理を習っています。",
+     "en": "I'm learning to cook as a hobby.",
+     "reading": "[趣味|しゅみ]として[料理|りょうり]を[習|なら]っています。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N3",
+   "skill": "grammar",
+   "grammar_point": "grammar-n3-to-shite",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n3-shika-nai",
+   "term": "〜しかない (have no choice but)",
+   "meaning": "Dictionary form + しかない = there's nothing to do but…",
+   "examples": [
+    {
+     "jp": "電車が止まっているから、歩いて帰るしかない。",
+     "en": "The trains have stopped, so there's nothing for it but to walk home.",
+     "reading": "[電車|でんしゃ]が[止|と]まっているから、[歩|ある]いて[帰|かえ]るしかない。"
+    },
+    {
+     "jp": "自分で決めるしかありません。",
+     "en": "You have no choice but to decide for yourself.",
+     "reading": "[自分|じぶん]で[決|き]めるしかありません。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N3",
+   "skill": "grammar",
+   "grammar_point": "grammar-n3-shika-nai",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n3-koto-wa-nai",
+   "term": "〜ことはない (no need to)",
+   "meaning": "Dictionary form + ことはない = there's no need to…",
+   "examples": [
+    {
+     "jp": "そんなに心配することはないよ。",
+     "en": "There's no need to worry so much.",
+     "reading": "そんなに[心配|しんぱい]することはないよ。"
+    },
+    {
+     "jp": "わざわざ来ることはありませんよ。メールで十分です。",
+     "en": "There's no need to come all the way here. An email is enough.",
+     "reading": "わざわざ[来|く]ることはありませんよ。メールで[十分|じゅうぶん]です。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N3",
+   "skill": "grammar",
+   "grammar_point": "grammar-n3-koto-wa-nai",
+   "tags": [
+    "grammar"
+   ]
+  },
+  {
+   "slug": "grammar-n3-keigo",
+   "term": "敬語 (honorific and humble speech)",
+   "meaning": "Honorific raises the other person: いらっしゃる (be/come/go), おっしゃる (say), 召し上がる (eat). Humble lowers yourself: 参る (go/come), 申す (say), いたす (do), お〜する.",
+   "examples": [
+    {
+     "jp": "社長はもうお帰りになりました。",
+     "en": "The president has already gone home.",
+     "reading": "[社長|しゃちょう]はもうお[帰|かえ]りになりました。"
+    },
+    {
+     "jp": "明日、こちらからお電話いたします。",
+     "en": "We will call you tomorrow.",
+     "reading": "[明日|あした]、こちらからお[電話|でんわ]いたします。"
+    }
+   ],
+   "type": "grammar",
+   "jlpt_level": "N3",
+   "skill": "grammar",
+   "grammar_point": "grammar-n3-keigo",
+   "tags": [
+    "grammar"
+   ]
+  }
+ ]
+}

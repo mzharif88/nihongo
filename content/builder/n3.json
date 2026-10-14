@@ -1,0 +1,929 @@
+{
+ "version": 1,
+ "kind": "sentence_patterns",
+ "source": "original-n3-builder",
+ "records": [
+  {
+   "slug": "pattern-n3-you-ni-suru",
+   "jlpt_level": "N3",
+   "position": 201,
+   "grammar_slug": "grammar-n3-you-ni-suru",
+   "title": "Make a point of — 〜ようにする",
+   "english": "I make a point of eating vegetables every day.",
+   "template": [
+    {
+     "slot": "verb-dict",
+     "label": "Dictionary or ない-form"
+    },
+    {
+     "text": "ようにしています",
+     "label": "make a habit of"
+    }
+   ],
+   "notes": "Dictionary form (or ない-form) + ようにしている = I try to make a habit of (not) doing.",
+   "examples": [
+    {
+     "jp": "毎日野菜を食べるようにしています。",
+     "en": "I make a point of eating vegetables every day.",
+     "reading": "[毎日|まいにち][野菜|やさい]を[食|た]べるようにしています。",
+     "tiles": [
+      "[毎日|まいにち]",
+      "[野菜|やさい]",
+      "を",
+      "[食|た]べる",
+      "ように",
+      "して",
+      "います"
+     ],
+     "distractors": [
+      "ことに"
+     ],
+     "also": [
+      "野菜を毎日食べるようにしています"
+     ]
+    },
+    {
+     "jp": "夜は甘い物を食べないようにしています。",
+     "en": "I try not to eat sweet things at night.",
+     "reading": "[夜|よる]は[甘|あま]い[物|もの]を[食|た]べないようにしています。",
+     "tiles": [
+      "[夜|よる]",
+      "は",
+      "[甘|あま]い",
+      "[物|もの]",
+      "を",
+      "[食|た]べない",
+      "ように",
+      "して",
+      "います"
+     ],
+     "distractors": [
+      "ために"
+     ],
+     "also": []
+    },
+    {
+     "jp": "毎朝日本語のニュースを聞くようにしています。",
+     "en": "I make a point of listening to the news in Japanese every morning.",
+     "reading": "[毎朝|まいあさ][日本語|にほんご]のニュースを[聞|き]くようにしています。",
+     "tiles": [
+      "[毎朝|まいあさ]",
+      "[日本語|にほんご]",
+      "の",
+      "ニュース",
+      "を",
+      "[聞|き]く",
+      "ように",
+      "して",
+      "います"
+     ],
+     "distractors": [
+      "ことに"
+     ],
+     "also": [
+      "日本語のニュースを毎朝聞くようにしています"
+     ]
+    },
+    {
+     "jp": "約束に遅れないようにしています。",
+     "en": "I make sure not to be late for appointments.",
+     "reading": "[約束|やくそく]に[遅|おく]れないようにしています。",
+     "tiles": [
+      "[約束|やくそく]",
+      "に",
+      "[遅|おく]れない",
+      "ように",
+      "して",
+      "います"
+     ],
+     "distractors": [
+      "ために"
+     ],
+     "also": []
+    },
+    {
+     "jp": "できるだけ階段を使うようにしています。",
+     "en": "I try to use the stairs as much as possible.",
+     "reading": "できるだけ[階段|かいだん]を[使|つか]うようにしています。",
+     "tiles": [
+      "できる",
+      "だけ",
+      "[階段|かいだん]",
+      "を",
+      "[使|つか]う",
+      "ように",
+      "して",
+      "います"
+     ],
+     "distractors": [
+      "ことに"
+     ],
+     "also": []
+    }
+   ]
+  },
+  {
+   "slug": "pattern-n3-koto-ni-suru",
+   "jlpt_level": "N3",
+   "position": 202,
+   "grammar_slug": "grammar-n3-koto-ni-suru",
+   "title": "Decide to — 〜ことにする",
+   "english": "I've decided to take English lessons from next month.",
+   "template": [
+    {
+     "slot": "verb-dict",
+     "label": "Dictionary or ない-form"
+    },
+    {
+     "text": "ことにしました",
+     "label": "decided"
+    }
+   ],
+   "notes": "〜ことにする = my own decision. 〜ことにしている = a rule I keep.",
+   "examples": [
+    {
+     "jp": "来月から英語を習うことにしました。",
+     "en": "I've decided to take English lessons from next month.",
+     "reading": "[来月|らいげつ]から[英語|えいご]を[習|なら]うことにしました。",
+     "tiles": [
+      "[来月|らいげつ]",
+      "から",
+      "[英語|えいご]",
+      "を",
+      "[習|なら]う",
+      "こと",
+      "に",
+      "しました"
+     ],
+     "distractors": [
+      "よう"
+     ],
+     "also": [
+      "英語を来月から習うことにしました"
+     ]
+    },
+    {
+     "jp": "今年はタバコをやめることにしました。",
+     "en": "I've decided to quit smoking this year.",
+     "reading": "[今年|ことし]はタバコをやめることにしました。",
+     "tiles": [
+      "[今年|ことし]",
+      "は",
+      "タバコ",
+      "を",
+      "やめる",
+      "こと",
+      "に",
+      "しました"
+     ],
+     "distractors": [
+      "よう"
+     ],
+     "also": []
+    },
+    {
+     "jp": "週末は家でゆっくりすることにしました。",
+     "en": "I've decided to take it easy at home this weekend.",
+     "reading": "[週末|しゅうまつ]は[家|いえ]でゆっくりすることにしました。",
+     "tiles": [
+      "[週末|しゅうまつ]",
+      "は",
+      "[家|いえ]",
+      "で",
+      "ゆっくり",
+      "する",
+      "こと",
+      "に",
+      "しました"
+     ],
+     "distractors": [
+      "ため"
+     ],
+     "also": []
+    },
+    {
+     "jp": "毎晩日記を書くことにしています。",
+     "en": "I make it a rule to write a diary every night.",
+     "reading": "[毎晩|まいばん][日記|にっき]を[書|か]くことにしています。",
+     "tiles": [
+      "[毎晩|まいばん]",
+      "[日記|にっき]",
+      "を",
+      "[書|か]く",
+      "こと",
+      "に",
+      "して",
+      "います"
+     ],
+     "distractors": [
+      "よう"
+     ],
+     "also": [
+      "日記を毎晩書くことにしています"
+     ]
+    },
+    {
+     "jp": "平日はお酒を飲まないことにしています。",
+     "en": "I make it a rule not to drink on weekdays.",
+     "reading": "[平日|へいじつ]はお[酒|さけ]を[飲|の]まないことにしています。",
+     "tiles": [
+      "[平日|へいじつ]",
+      "は",
+      "お[酒|さけ]",
+      "を",
+      "[飲|の]まない",
+      "こと",
+      "に",
+      "して",
+      "います"
+     ],
+     "distractors": [
+      "よう"
+     ],
+     "also": [
+      "お酒を平日は飲まないことにしています"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "pattern-n3-hazu",
+   "jlpt_level": "N3",
+   "position": 203,
+   "grammar_slug": "grammar-n3-hazu",
+   "title": "Should be — 〜はずだ",
+   "english": "Mr. Tanaka should already be at the station.",
+   "template": [
+    {
+     "slot": "verb-dict",
+     "label": "Plain form"
+    },
+    {
+     "text": "はずです",
+     "label": "should be"
+    }
+   ],
+   "notes": "Plain form + はずです = it should be so (an expectation with a reason).",
+   "examples": [
+    {
+     "jp": "田中さんはもう駅に着いているはずです。",
+     "en": "Mr. Tanaka should already be at the station.",
+     "reading": "[田中|たなか]さんはもう[駅|えき]に[着|つ]いているはずです。",
+     "tiles": [
+      "[田中|たなか]さん",
+      "は",
+      "もう",
+      "[駅|えき]",
+      "に",
+      "[着|つ]いて",
+      "いる",
+      "はず",
+      "です"
+     ],
+     "distractors": [
+      "べき"
+     ],
+     "also": []
+    },
+    {
+     "jp": "荷物は明日届くはずです。",
+     "en": "The parcel should arrive tomorrow.",
+     "reading": "[荷物|にもつ]は[明日|あした][届|とど]くはずです。",
+     "tiles": [
+      "[荷物|にもつ]",
+      "は",
+      "[明日|あした]",
+      "[届|とど]く",
+      "はず",
+      "です"
+     ],
+     "distractors": [
+      "べき"
+     ],
+     "also": []
+    },
+    {
+     "jp": "彼はパーティーに来るはずです。",
+     "en": "He should be coming to the party.",
+     "reading": "[彼|かれ]はパーティーに[来|く]るはずです。",
+     "tiles": [
+      "[彼|かれ]",
+      "は",
+      "パーティー",
+      "に",
+      "[来|く]る",
+      "はず",
+      "です"
+     ],
+     "distractors": [
+      "ため"
+     ],
+     "also": []
+    },
+    {
+     "jp": "この店は日曜日も開いているはずです。",
+     "en": "This shop should be open on Sundays too.",
+     "reading": "この[店|みせ]は[日曜日|にちようび]も[開|あ]いているはずです。",
+     "tiles": [
+      "この",
+      "[店|みせ]",
+      "は",
+      "[日曜日|にちようび]",
+      "も",
+      "[開|あ]いて",
+      "いる",
+      "はず",
+      "です"
+     ],
+     "distractors": [
+      "べき"
+     ],
+     "also": []
+    },
+    {
+     "jp": "鍵はかばんの中にあるはずです。",
+     "en": "The key should be in my bag.",
+     "reading": "[鍵|かぎ]はかばんの[中|なか]にあるはずです。",
+     "tiles": [
+      "[鍵|かぎ]",
+      "は",
+      "かばん",
+      "の",
+      "[中|なか]",
+      "に",
+      "ある",
+      "はず",
+      "です"
+     ],
+     "distractors": [
+      "べき"
+     ],
+     "also": []
+    }
+   ]
+  },
+  {
+   "slug": "pattern-n3-okage-sei",
+   "jlpt_level": "N3",
+   "position": 204,
+   "grammar_slug": "grammar-n3-okage-sei",
+   "title": "Thanks to / because of — おかげで・せいで",
+   "english": "Thanks to my teacher, I passed the exam.",
+   "template": [
+    {
+     "slot": "noun",
+     "label": "Cause (noun + の, or plain form)"
+    },
+    {
+     "text": "おかげで / せいで",
+     "label": "good / bad result"
+    },
+    {
+     "slot": "verb-masu",
+     "label": "Result"
+    }
+   ],
+   "notes": "おかげで = thanks to (a good result). せいで = because of (a bad result).",
+   "examples": [
+    {
+     "jp": "先生のおかげで試験に合格しました。",
+     "en": "Thanks to my teacher, I passed the exam.",
+     "reading": "[先生|せんせい]のおかげで[試験|しけん]に[合格|ごうかく]しました。",
+     "tiles": [
+      "[先生|せんせい]",
+      "の",
+      "おかげで",
+      "[試験|しけん]",
+      "に",
+      "[合格|ごうかく]",
+      "しました"
+     ],
+     "distractors": [
+      "せいで"
+     ],
+     "also": []
+    },
+    {
+     "jp": "雨のせいで試合が中止になりました。",
+     "en": "Because of the rain, the match was called off.",
+     "reading": "[雨|あめ]のせいで[試合|しあい]が[中止|ちゅうし]になりました。",
+     "tiles": [
+      "[雨|あめ]",
+      "の",
+      "せいで",
+      "[試合|しあい]",
+      "が",
+      "[中止|ちゅうし]",
+      "に",
+      "なりました"
+     ],
+     "distractors": [
+      "おかげで"
+     ],
+     "also": []
+    },
+    {
+     "jp": "友達が手伝ってくれたおかげで早く終わりました。",
+     "en": "Thanks to my friend helping, it finished early.",
+     "reading": "[友達|ともだち]が[手伝|てつだ]ってくれたおかげで[早|はや]く[終|お]わりました。",
+     "tiles": [
+      "[友達|ともだち]",
+      "が",
+      "[手伝|てつだ]って",
+      "くれた",
+      "おかげで",
+      "[早|はや]く",
+      "[終|お]わりました"
+     ],
+     "distractors": [
+      "せいで"
+     ],
+     "also": []
+    },
+    {
+     "jp": "寝坊したせいで会議に遅れました。",
+     "en": "Because I overslept, I was late for the meeting.",
+     "reading": "[寝坊|ねぼう]したせいで[会議|かいぎ]に[遅|おく]れました。",
+     "tiles": [
+      "[寝坊|ねぼう]",
+      "した",
+      "せいで",
+      "[会議|かいぎ]",
+      "に",
+      "[遅|おく]れました"
+     ],
+     "distractors": [
+      "おかげで"
+     ],
+     "also": []
+    },
+    {
+     "jp": "薬のおかげで熱が下がりました。",
+     "en": "Thanks to the medicine, my fever went down.",
+     "reading": "[薬|くすり]のおかげで[熱|ねつ]が[下|さ]がりました。",
+     "tiles": [
+      "[薬|くすり]",
+      "の",
+      "おかげで",
+      "[熱|ねつ]",
+      "が",
+      "[下|さ]がりました"
+     ],
+     "distractors": [
+      "せいで"
+     ],
+     "also": []
+    }
+   ]
+  },
+  {
+   "slug": "pattern-n3-causative",
+   "jlpt_level": "N3",
+   "position": 205,
+   "grammar_slug": "grammar-n3-causative",
+   "title": "Make / let someone — 〜させる",
+   "english": "Mum made my younger brother eat vegetables.",
+   "template": [
+    {
+     "slot": "person",
+     "label": "Who makes/lets"
+    },
+    {
+     "slot": "person",
+     "label": "Who does it + に"
+    },
+    {
+     "slot": "verb-masu",
+     "label": "Causative verb"
+    }
+   ],
+   "notes": "Causative: 書く → 書かせる, 食べる → 食べさせる, する → させる. 〜させてください = please let me.",
+   "examples": [
+    {
+     "jp": "母は弟に野菜を食べさせました。",
+     "en": "Mum made my younger brother eat his vegetables.",
+     "reading": "[母|はは]は[弟|おとうと]に[野菜|やさい]を[食|た]べさせました。",
+     "tiles": [
+      "[母|はは]",
+      "は",
+      "[弟|おとうと]",
+      "に",
+      "[野菜|やさい]",
+      "を",
+      "[食|た]べさせました"
+     ],
+     "distractors": [
+      "[食|た]べられました"
+     ],
+     "also": []
+    },
+    {
+     "jp": "先生は学生に作文を書かせました。",
+     "en": "The teacher made the students write an essay.",
+     "reading": "[先生|せんせい]は[学生|がくせい]に[作文|さくぶん]を[書|か]かせました。",
+     "tiles": [
+      "[先生|せんせい]",
+      "は",
+      "[学生|がくせい]",
+      "に",
+      "[作文|さくぶん]",
+      "を",
+      "[書|か]かせました"
+     ],
+     "distractors": [
+      "[書|か]かれました"
+     ],
+     "also": []
+    },
+    {
+     "jp": "部長は私に資料をコピーさせました。",
+     "en": "The manager had me copy the documents.",
+     "reading": "[部長|ぶちょう]は[私|わたし]に[資料|しりょう]をコピーさせました。",
+     "tiles": [
+      "[部長|ぶちょう]",
+      "は",
+      "[私|わたし]",
+      "に",
+      "[資料|しりょう]",
+      "を",
+      "コピーさせました"
+     ],
+     "distractors": [
+      "コピーされました"
+     ],
+     "also": []
+    },
+    {
+     "jp": "子どもを公園で遊ばせました。",
+     "en": "I let the children play in the park.",
+     "reading": "[子|こ]どもを[公園|こうえん]で[遊|あそ]ばせました。",
+     "tiles": [
+      "[子|こ]ども",
+      "を",
+      "[公園|こうえん]",
+      "で",
+      "[遊|あそ]ばせました"
+     ],
+     "distractors": [
+      "[遊|あそ]ばれました"
+     ],
+     "also": []
+    },
+    {
+     "jp": "少し考えさせてください。",
+     "en": "Please let me think about it a little.",
+     "reading": "[少|すこ]し[考|かんが]えさせてください。",
+     "tiles": [
+      "[少|すこ]し",
+      "[考|かんが]えさせて",
+      "ください"
+     ],
+     "distractors": [
+      "[考|かんが]えられて"
+     ],
+     "also": []
+    }
+   ]
+  },
+  {
+   "slug": "pattern-n3-ba-hodo",
+   "jlpt_level": "N3",
+   "position": 206,
+   "grammar_slug": "grammar-n3-ba-hodo",
+   "title": "The more… — 〜ば〜ほど",
+   "english": "The more you practise, the better you get.",
+   "template": [
+    {
+     "slot": "verb-dict",
+     "label": "ば-form"
+    },
+    {
+     "slot": "verb-dict",
+     "label": "Same word, plain"
+    },
+    {
+     "text": "ほど",
+     "label": "the more"
+    }
+   ],
+   "notes": "ば-form + the same word again + ほど = the more…, the more…",
+   "examples": [
+    {
+     "jp": "練習すればするほど上手になります。",
+     "en": "The more you practise, the better you get.",
+     "reading": "[練習|れんしゅう]すればするほど[上手|じょうず]になります。",
+     "tiles": [
+      "[練習|れんしゅう]",
+      "すれば",
+      "する",
+      "ほど",
+      "[上手|じょうず]",
+      "に",
+      "なります"
+     ],
+     "distractors": [
+      "したら"
+     ],
+     "also": []
+    },
+    {
+     "jp": "考えれば考えるほどわからなくなります。",
+     "en": "The more I think about it, the less I understand.",
+     "reading": "[考|かんが]えれば[考|かんが]えるほどわからなくなります。",
+     "tiles": [
+      "[考|かんが]えれば",
+      "[考|かんが]える",
+      "ほど",
+      "わからなく",
+      "なります"
+     ],
+     "distractors": [
+      "[考|かんが]えたら"
+     ],
+     "also": []
+    },
+    {
+     "jp": "日本語は勉強すればするほど面白くなります。",
+     "en": "The more you study Japanese, the more interesting it gets.",
+     "reading": "[日本語|にほんご]は[勉強|べんきょう]すればするほど[面白|おもしろ]くなります。",
+     "tiles": [
+      "[日本語|にほんご]",
+      "は",
+      "[勉強|べんきょう]",
+      "すれば",
+      "する",
+      "ほど",
+      "[面白|おもしろ]く",
+      "なります"
+     ],
+     "distractors": [
+      "したら"
+     ],
+     "also": []
+    },
+    {
+     "jp": "野菜は新しければ新しいほどおいしいです。",
+     "en": "The fresher vegetables are, the better they taste.",
+     "reading": "[野菜|やさい]は[新|あたら]しければ[新|あたら]しいほどおいしいです。",
+     "tiles": [
+      "[野菜|やさい]",
+      "は",
+      "[新|あたら]しければ",
+      "[新|あたら]しい",
+      "ほど",
+      "おいしい",
+      "です"
+     ],
+     "distractors": [
+      "[新|あたら]しくて"
+     ],
+     "also": []
+    },
+    {
+     "jp": "部屋は広ければ広いほどいいです。",
+     "en": "The bigger the room, the better.",
+     "reading": "[部屋|へや]は[広|ひろ]ければ[広|ひろ]いほどいいです。",
+     "tiles": [
+      "[部屋|へや]",
+      "は",
+      "[広|ひろ]ければ",
+      "[広|ひろ]い",
+      "ほど",
+      "いい",
+      "です"
+     ],
+     "distractors": [
+      "[広|ひろ]くて"
+     ],
+     "also": []
+    }
+   ]
+  },
+  {
+   "slug": "pattern-n3-uchi-ni",
+   "jlpt_level": "N3",
+   "position": 207,
+   "grammar_slug": "grammar-n3-uchi-ni",
+   "title": "While still — 〜うちに",
+   "english": "Please eat it while it's still warm.",
+   "template": [
+    {
+     "slot": "i-adj",
+     "label": "State (adjective, ない-form, noun + の)"
+    },
+    {
+     "text": "うちに",
+     "label": "while still"
+    },
+    {
+     "slot": "verb-masu",
+     "label": "Do it before it changes"
+    }
+   ],
+   "notes": "〜うちに = while the state lasts, before it changes: 温かいうちに, 忘れないうちに.",
+   "examples": [
+    {
+     "jp": "温かいうちに食べてください。",
+     "en": "Please eat it while it's still warm.",
+     "reading": "[温|あたた]かいうちに[食|た]べてください。",
+     "tiles": [
+      "[温|あたた]かい",
+      "うちに",
+      "[食|た]べて",
+      "ください"
+     ],
+     "distractors": [
+      "[前|まえ]に"
+     ],
+     "also": []
+    },
+    {
+     "jp": "若いうちにいろいろな国へ行きたいです。",
+     "en": "I want to visit lots of countries while I'm young.",
+     "reading": "[若|わか]いうちにいろいろな[国|くに]へ[行|い]きたいです。",
+     "tiles": [
+      "[若|わか]い",
+      "うちに",
+      "いろいろな",
+      "[国|くに]",
+      "へ",
+      "[行|い]きたい",
+      "です"
+     ],
+     "distractors": [
+      "[前|まえ]に"
+     ],
+     "also": []
+    },
+    {
+     "jp": "雨が降らないうちに帰りましょう。",
+     "en": "Let's go home before it starts raining.",
+     "reading": "[雨|あめ]が[降|ふ]らないうちに[帰|かえ]りましょう。",
+     "tiles": [
+      "[雨|あめ]",
+      "が",
+      "[降|ふ]らない",
+      "うちに",
+      "[帰|かえ]りましょう"
+     ],
+     "distractors": [
+      "[前|まえ]に"
+     ],
+     "also": []
+    },
+    {
+     "jp": "明るいうちに仕事を終わらせたいです。",
+     "en": "I want to finish work while it's still light.",
+     "reading": "[明|あか]るいうちに[仕事|しごと]を[終|お]わらせたいです。",
+     "tiles": [
+      "[明|あか]るい",
+      "うちに",
+      "[仕事|しごと]",
+      "を",
+      "[終|お]わらせたい",
+      "です"
+     ],
+     "distractors": [
+      "[前|まえ]に"
+     ],
+     "also": []
+    },
+    {
+     "jp": "忘れないうちにメモしておきます。",
+     "en": "I'll make a note before I forget.",
+     "reading": "[忘|わす]れないうちにメモしておきます。",
+     "tiles": [
+      "[忘|わす]れない",
+      "うちに",
+      "メモ",
+      "して",
+      "おきます"
+     ],
+     "distractors": [
+      "[前|まえ]に"
+     ],
+     "also": []
+    }
+   ]
+  },
+  {
+   "slug": "pattern-n3-shika-nai",
+   "jlpt_level": "N3",
+   "position": 208,
+   "grammar_slug": "grammar-n3-shika-nai",
+   "title": "No choice but — 〜しかない",
+   "english": "The trains have stopped, so I have no choice but to walk home.",
+   "template": [
+    {
+     "slot": "verb-dict",
+     "label": "Dictionary form"
+    },
+    {
+     "text": "しかない",
+     "label": "no choice but"
+    }
+   ],
+   "notes": "Dictionary form + しかない (polite しかありません) = there's nothing for it but to…",
+   "examples": [
+    {
+     "jp": "電車が止まっているから歩いて帰るしかない。",
+     "en": "The trains have stopped, so there's nothing for it but to walk home.",
+     "reading": "[電車|でんしゃ]が[止|と]まっているから[歩|ある]いて[帰|かえ]るしかない。",
+     "tiles": [
+      "[電車|でんしゃ]",
+      "が",
+      "[止|と]まって",
+      "いる",
+      "から",
+      "[歩|ある]いて",
+      "[帰|かえ]る",
+      "しか",
+      "ない"
+     ],
+     "distractors": [
+      "だけ"
+     ],
+     "also": []
+    },
+    {
+     "jp": "もう時間がないからタクシーで行くしかありません。",
+     "en": "There's no time left, so we have no choice but to take a taxi.",
+     "reading": "もう[時間|じかん]がないからタクシーで[行|い]くしかありません。",
+     "tiles": [
+      "もう",
+      "[時間|じかん]",
+      "が",
+      "ない",
+      "から",
+      "タクシー",
+      "で",
+      "[行|い]く",
+      "しか",
+      "ありません"
+     ],
+     "distractors": [
+      "だけ"
+     ],
+     "also": []
+    },
+    {
+     "jp": "自分で決めるしかありません。",
+     "en": "You have no choice but to decide for yourself.",
+     "reading": "[自分|じぶん]で[決|き]めるしかありません。",
+     "tiles": [
+      "[自分|じぶん]",
+      "で",
+      "[決|き]める",
+      "しか",
+      "ありません"
+     ],
+     "distractors": [
+      "だけ"
+     ],
+     "also": []
+    },
+    {
+     "jp": "店が閉まっていたからコンビニで買うしかなかった。",
+     "en": "The shop was closed, so I had to buy it at a convenience store.",
+     "reading": "[店|みせ]が[閉|し]まっていたからコンビニで[買|か]うしかなかった。",
+     "tiles": [
+      "[店|みせ]",
+      "が",
+      "[閉|し]まって",
+      "いた",
+      "から",
+      "コンビニ",
+      "で",
+      "[買|か]う",
+      "しか",
+      "なかった"
+     ],
+     "distractors": [
+      "だけ"
+     ],
+     "also": []
+    },
+    {
+     "jp": "誰もいないから自分でやるしかない。",
+     "en": "There's nobody here, so I'll just have to do it myself.",
+     "reading": "[誰|だれ]もいないから[自分|じぶん]でやるしかない。",
+     "tiles": [
+      "[誰|だれ]",
+      "も",
+      "いない",
+      "から",
+      "[自分|じぶん]",
+      "で",
+      "やる",
+      "しか",
+      "ない"
+     ],
+     "distractors": [
+      "だけ"
+     ],
+     "also": []
+    }
+   ]
+  }
+ ]
+}

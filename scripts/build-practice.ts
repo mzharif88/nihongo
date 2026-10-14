@@ -57,7 +57,8 @@ function question(q: SourceQuestion, m: (s: string) => string, resolve: (r: stri
     ...(q.part ? { part: q.part } : {}),
     ...(q.passage ? { passage: m(q.passage) } : {}),
     prompt: m(q.prompt),
-    options: q.options.map(m),
+    // 表記 options are kanji look-alikes; furigana would give the answer away and misread the fakes.
+    options: /表記/.test(q.part ?? "") ? q.options : q.options.map(m),
     answer: q.answer,
     ...(q.explanation ? { explanation: m(q.explanation) } : {}),
     item_slugs: [...new Set((q.items ?? []).map((r) => resolve(r, where)))],

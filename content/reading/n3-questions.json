@@ -1,0 +1,262 @@
+{
+ "version": 1,
+ "kind": "questions",
+ "source": "original-reading",
+ "records": [
+  {
+   "slug": "reading-n3-01-sumaho-q1",
+   "text_slug": "reading-n3-01-sumaho",
+   "position": 1,
+   "jlpt_level": "N3",
+   "section": "reading",
+   "prompt": "[筆者|ひっしゃ]は[先月|せんげつ]から[何|なに]をしていますか。",
+   "options": [
+    "スマホを[使|つか]わないことにした",
+    "[寝|ね]る[一|いち][時間|じかん][前|まえ]にはスマホを[見|み]ないようにしている",
+    "[電車|でんしゃ]の[中|なか]でスマホを[見|み]ないようにしている",
+    "[一日|いちにち][五|ご][時間|じかん]スマホを[使|つか]っている"
+   ],
+   "answer": 1,
+   "explanation": "[先月|せんげつ]から[寝|ね]る[一|いち][時間|じかん][前|まえ]にはスマホを[見|み]ないようにしている.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n3-01-sumaho-q2",
+   "text_slug": "reading-n3-01-sumaho",
+   "position": 2,
+   "jlpt_level": "N3",
+   "section": "reading",
+   "prompt": "スマホを[見|み]る[代|か]わりに[何|なに]をするようになりましたか。",
+   "options": [
+    "[音楽|おんがく]を[聞|き]く",
+    "[本|ほん]を[読|よ]む",
+    "[早|はや]く[寝|ね]る",
+    "[運動|うんどう]する"
+   ],
+   "answer": 1,
+   "explanation": "[代|か]わりに[本|ほん]を[読|よ]むようになってから…",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n3-01-sumaho-q3",
+   "text_slug": "reading-n3-01-sumaho",
+   "position": 3,
+   "jlpt_level": "N3",
+   "section": "reading",
+   "prompt": "[筆者|ひっしゃ]の[考|かんが]えに[合|あ]うものはどれか。",
+   "options": [
+    "スマホは[使|つか]わないほうがいい",
+    "スマホを[上手|じょうず]に[使|つか]うことが[大切|たいせつ]だ",
+    "スマホがあればよく[眠|ねむ]れる",
+    "[電車|でんしゃ]ではスマホを[見|み]るべきだ"
+   ],
+   "answer": 1,
+   "explanation": "[使|つか]われるのではなく、[上手|じょうず]に[使|つか]うことが[大切|たいせつ]だと[思|おも]う.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n3-02-shinkansen-q1",
+   "text_slug": "reading-n3-02-shinkansen",
+   "position": 1,
+   "jlpt_level": "N3",
+   "section": "reading",
+   "prompt": "[清掃|せいそう]スタッフは[一|いち][両|りょう]の[掃除|そうじ]をどのくらいの[時間|じかん]で[終|お]わらせますか。",
+   "options": [
+    "[約|やく][七分|ななふん]",
+    "[十|じゅう][数|すう][分|ふん]",
+    "[約|やく][三十分|さんじゅっぷん]",
+    "[一|いち][時間|じかん]"
+   ],
+   "answer": 0,
+   "explanation": "すべてをたった[七分|ななふん]ほどで[終|お]わらせるそうだ.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n3-02-shinkansen-q2",
+   "text_slug": "reading-n3-02-shinkansen",
+   "position": 2,
+   "jlpt_level": "N3",
+   "section": "reading",
+   "prompt": "[清掃|せいそう]スタッフの[仕事|しごと]に[入|はい]っていないものはどれか。",
+   "options": [
+    "[座席|ざせき]の[向|む]きを[変|か]える",
+    "ごみを[集|あつ]める",
+    "[切符|きっぷ]を[確認|かくにん]する",
+    "[窓|まど]をふく"
+   ],
+   "answer": 2,
+   "explanation": "Turning seats, collecting rubbish and wiping windows and tables are listed; checking tickets is not.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n3-02-shinkansen-q3",
+   "text_slug": "reading-n3-02-shinkansen",
+   "position": 3,
+   "jlpt_level": "N3",
+   "section": "reading",
+   "prompt": "[海外|かいがい]からの[観光|かんこう][客|きゃく]が[写真|しゃしん]を[撮|と]るのはどうしてか。",
+   "options": [
+    "[新幹線|しんかんせん]が[速|はや]いから",
+    "[仕事|しごと]の[速|はや]さと[丁寧|ていねい]さに[驚|おどろ]くから",
+    "[駅|えき]がきれいだから",
+    "スタッフに[頼|たの]まれたから"
+   ],
+   "answer": 1,
+   "explanation": "その[速|はや]さと[丁寧|ていねい]さに[驚|おどろ]いて、[写真|しゃしん]を[撮|と]る[人|ひと]も[多|おお]い.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n3-03-otoshimono-q1",
+   "text_slug": "reading-n3-03-otoshimono",
+   "position": 1,
+   "jlpt_level": "N3",
+   "section": "reading",
+   "prompt": "[財布|さいふ]はどこで[見|み]つかりましたか。",
+   "options": [
+    "[電車|でんしゃ]の[中|なか]",
+    "[駅|えき]の[窓口|まどぐち]",
+    "[終点|しゅうてん]の[駅|えき]",
+    "[家|いえ]の[近|ちか]く"
+   ],
+   "answer": 2,
+   "explanation": "[終点|しゅうてん]の[駅|えき]に[届|とど]いていることがわかった.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n3-03-otoshimono-q2",
+   "text_slug": "reading-n3-03-otoshimono",
+   "position": 2,
+   "jlpt_level": "N3",
+   "section": "reading",
+   "prompt": "[財布|さいふ]の[中身|なかみ]はどうでしたか。",
+   "options": [
+    "[現金|げんきん]がなくなっていた",
+    "カードだけなくなっていた",
+    "[何|なに]もなくなっていなかった",
+    "[空|そら]だった"
+   ],
+   "answer": 2,
+   "explanation": "[中身|なかみ]は[一|いち][円|えん]も[減|へ]っていなかった.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n3-03-otoshimono-q3",
+   "text_slug": "reading-n3-03-otoshimono",
+   "position": 3,
+   "jlpt_level": "N3",
+   "section": "reading",
+   "prompt": "[筆者|ひっしゃ]が[残念|ざんねん]だと[思|おも]っているのは[何|なに]か。",
+   "options": [
+    "[財布|さいふ]をなくしたこと",
+    "[拾|ひろ]ってくれた[人|ひと]にお[礼|れい]が[言|い]えないこと",
+    "[駅員|えきいん]が[親切|しんせつ]ではなかったこと",
+    "[財布|さいふ]が[戻|もど]らなかったこと"
+   ],
+   "answer": 1,
+   "explanation": "[拾|ひろ]ってくれた[人|ひと]に[直接|ちょくせつ]お[礼|れい]が[言|い]えないのが[残念|ざんねん]だ.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n3-04-kyouiku-q1",
+   "text_slug": "reading-n3-04-kyouiku",
+   "position": 1,
+   "jlpt_level": "N3",
+   "section": "reading",
+   "prompt": "[調査|ちょうさ]によると、[小学生|しょうがくせい]の[何|なん][割|わり]が[習|なら]い[事|ごと]をしていますか。",
+   "options": [
+    "[約|やく][二|に][割|わり]",
+    "[約|やく][五|ご][割|わり]",
+    "[約|やく][八|はち][割|わり]",
+    "ほとんど[全員|ぜんいん]"
+   ],
+   "answer": 2,
+   "explanation": "[小学生|しょうがくせい]の[約|やく][八|はち][割|わり]が[何|なに]かの[習|なら]い[事|ごと]をしていて…",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n3-04-kyouiku-q2",
+   "text_slug": "reading-n3-04-kyouiku",
+   "position": 2,
+   "jlpt_level": "N3",
+   "section": "reading",
+   "prompt": "[習|なら]い[事|ごと]が[多|おお]すぎると、どんな[問題|もんだい]があると[言|い]っていますか。",
+   "options": [
+    "お[金|かね]がかかる",
+    "[友達|ともだち]と[自由|じゆう]に[遊|あそ]ぶ[時間|じかん]がなくなる",
+    "[成績|せいせき]が[悪|わる]くなる",
+    "[親|おや]が[疲|つか]れる"
+   ],
+   "answer": 1,
+   "explanation": "[友達|ともだち]と[自由|じゆう]に[遊|あそ]ぶ[時間|じかん]がなくなってしまう.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n3-04-kyouiku-q3",
+   "text_slug": "reading-n3-04-kyouiku",
+   "position": 3,
+   "jlpt_level": "N3",
+   "section": "reading",
+   "prompt": "[筆者|ひっしゃ]が[一番|いちばん][大切|たいせつ]だと[考|かんが]えているのは[何|なに]か。",
+   "options": [
+    "[習|なら]い[事|ごと]の[数|すう]",
+    "[親|おや]の[希望|きぼう]",
+    "[子|こ]ども[自身|じしん]が[楽|たの]しんでいるかどうか",
+    "[人気|にんき]がある[習|なら]い[事|ごと]を[選|えら]ぶこと"
+   ],
+   "answer": 2,
+   "explanation": "[大切|たいせつ]なのは、[子|こ]ども[自身|じしん]が[楽|たの]しんでいるかどうかではないだろうか.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n3-05-mail-q1",
+   "text_slug": "reading-n3-05-mail",
+   "position": 1,
+   "jlpt_level": "N3",
+   "section": "reading",
+   "prompt": "[会議|かいぎ]はいつになりましたか。",
+   "options": [
+    "[水曜日|すいようび]の[午後|ごご][二|に][時|じ]",
+    "[木曜日|もくようび]の[午後|ごご][二|に][時|じ]",
+    "[火曜日|かようび]の[午後|ごご][二|に][時|じ]",
+    "[木曜日|もくようび]の[午前中|ごぜんちゅう]"
+   ],
+   "answer": 1,
+   "explanation": "[木曜日|もくようび]の[午後|ごご][二|に][時|じ]からに[変更|へんこう]になりました.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n3-05-mail-q2",
+   "text_slug": "reading-n3-05-mail",
+   "position": 2,
+   "jlpt_level": "N3",
+   "section": "reading",
+   "prompt": "[会議|かいぎ]の[資料|しりょう]はどうなりますか。",
+   "options": [
+    "[会議|かいぎ]の[日|ひ]に[配|くば]られる",
+    "[事前|じぜん]にメールで[送|おく]られる",
+    "[会議室|かいぎしつ]Bに[置|お]いてある",
+    "[各自|かくじ]で[印刷|いんさつ]する"
+   ],
+   "answer": 1,
+   "explanation": "[資料|しりょう]は[印刷|いんさつ]せず、[事前|じぜん]にメールでお[送|おく]りすることになりました.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n3-05-mail-q3",
+   "text_slug": "reading-n3-05-mail",
+   "position": 3,
+   "jlpt_level": "N3",
+   "section": "reading",
+   "prompt": "[会議|かいぎ]に[出席|しゅっせき]できない[人|ひと]はどうしなければなりませんか。",
+   "options": [
+    "[水曜日|すいようび]までに[佐藤|さとう]さんに[連絡|れんらく]する",
+    "[火曜日|かようび]までに[佐藤|さとう]さんに[連絡|れんらく]する",
+    "[会議|かいぎ]の[前日|ぜんじつ]に[資料|しりょう]を[送|おく]る",
+    "[何|なに]もしなくていい"
+   ],
+   "answer": 1,
+   "explanation": "[出席|しゅっせき]できない[方|かた]は、[火曜日|かようび]までに[私|わたし]までご[連絡|れんらく]をお[願|ねが]いいたします.",
+   "item_slugs": []
+  }
+ ]
+}

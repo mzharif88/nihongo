@@ -26,7 +26,7 @@
     { "section": "vocabulary", "part": "問題4 言いかえ類義 · Same meaning", "prompt": "スミスさんは日本語が上手になりました。", "options": ["スミスさんは前から日本語が上手です。", "スミスさんは日本語を習い始めました。", "スミスさんは前より日本語が上手です。", "スミスさんは日本語が下手です。"], "answer": 2, "explanation": "上手になった = got better than before (前より上手).", "items": ["上手"] },
 
     { "section": "vocabulary", "part": "問題5 用法 · Correct usage", "prompt": "しんせつ", "options": ["このりんごはとてもしんせつです。", "今日はしんせつな天気です。", "この店の人はとてもしんせつです。", "この部屋はとてもしんせつです。"], "answer": 2, "explanation": "しんせつ (kind) describes people.", "items": ["親切"] },
-    { "section": "vocabulary", "part": "問題5 用法 · Correct usage", "prompt": "おくれる", "options": ["時計をおくれてください。", "バスが十分おくれて来ました。", "この本はおくれて面白いです。", "宿題を先生におくれました。"], "answer": 1, "explanation": "おくれる = be late: バスが十分おくれた.", "items": ["遅れる"] },
+    { "section": "vocabulary", "part": "問題5 用法 · Correct usage", "prompt": "おくれる", "options": ["時計をおくれてください。", "バスが[十分|じゅっぷん]おくれて来ました。", "この本はおくれて面白いです。", "宿題を先生におくれました。"], "answer": 1, "explanation": "おくれる = be late: バスが[十分|じゅっぷん]おくれた.", "items": ["遅れる"] },
 
     { "section": "grammar", "part": "問題1 文の文法 · Sentence grammar", "prompt": "日本語が少し話せる（　）なりました。", "options": ["ように", "ために", "ことに", "そうに"], "answer": 0, "explanation": "Potential + ようになる = have become able to.", "items": ["grammar-n4-you-ni-naru"] },
     { "section": "grammar", "part": "問題1 文の文法 · Sentence grammar", "prompt": "雨が降り（　）ですね。傘を持って行きましょう。", "options": ["よう", "そう", "らしい", "みたい"], "answer": 1, "explanation": "ます-stem + そう = looks about to: 降りそう.", "items": ["grammar-n4-sou"] },

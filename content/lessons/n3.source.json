@@ -1,0 +1,141 @@
+{
+  "version": 1,
+  "kind": "lessons",
+  "source": "original-n3-lessons",
+  "records": [
+    {
+      "slug": "lesson-n3-01-mensetsu", "jlpt_level": "N3", "position": 1,
+      "title": "面接 — A job interview",
+      "situation": "You're interviewing for a job at a Japanese trading company. Everyone speaks politely, with keigo.",
+      "item_slugs": ["面接", "営業", "経験", "担当", "希望", "得意", "将来", "貿易"],
+      "grammar_slug": "grammar-n3-keigo",
+      "dialogue": [
+        { "speaker": "面接官", "jp": "どうぞ、おかけください。", "en": "Please, have a seat." },
+        { "speaker": "あなた", "jp": "失礼いたします。本日はどうぞよろしくお願いいたします。", "en": "Thank you. I appreciate your time today." },
+        { "speaker": "面接官", "jp": "では、まず自己紹介をお願いします。", "en": "First, please introduce yourself." },
+        { "speaker": "あなた", "jp": "ザリフと申します。大学では経済を勉強し、卒業後は三年間、貿易会社で営業を担当しておりました。", "en": "My name is Zarif. I studied economics at university and worked in sales at a trading company for three years after graduating." },
+        { "speaker": "面接官", "jp": "どうして弊社に応募なさったのですか。", "en": "Why did you apply to our company?" },
+        { "speaker": "あなた", "jp": "御社はアジアとの貿易に力を入れていらっしゃるので、私の経験を生かせると思いました。", "en": "Your company focuses on trade with Asia, so I thought I could make use of my experience." },
+        { "speaker": "面接官", "jp": "得意なことは何ですか。", "en": "What are you good at?" },
+        { "speaker": "あなた", "jp": "英語とマレー語が話せますので、海外のお客様との交渉が得意です。将来は海外支店で働くことを希望しております。", "en": "I speak English and Malay, so I'm good at negotiating with overseas clients. In future I hope to work at an overseas branch." },
+        { "speaker": "面接官", "jp": "わかりました。結果は来週、こちらからご連絡いたします。", "en": "Understood. We'll contact you with the result next week." }
+      ],
+      "checks": [
+        { "prompt": "Which is the humble way to say your own name?", "options": ["ザリフとおっしゃいます", "ザリフと申します", "ザリフといらっしゃいます", "ザリフと召し上がります"], "answer": 1, "explanation": "申す is humble 言う, for yourself. おっしゃる is honorific, for others." },
+        { "prompt": "Why did the candidate apply?", "options": ["The salary is high", "The office is near home", "The company focuses on trade with Asia", "A friend works there"], "answer": 2, "explanation": "「アジアとの貿易に力を入れていらっしゃるので、私の経験を生かせると思いました」." },
+        { "prompt": "Fill in the blank: 結果は来週、こちらからご連絡（　）。", "options": ["いたします", "なさいます", "いらっしゃいます", "くださいます"], "answer": 0, "explanation": "ご + noun + いたします is humble: the company is doing the action for you." }
+      ],
+      "notes": "Honorific (尊敬語) raises the other person: いらっしゃる (be/go/come), おっしゃる (say), なさる (do), ご覧になる (see), お + ます-stem + になる.\nHumble (謙譲語) lowers yourself: 申す (say), 参る (go/come), いたす (do), おる (be), お/ご + ます-stem/noun + する/いたす.\n\n御社 (おんしゃ) = your company, when speaking; 弊社 (へいしゃ) = our company.\n\nCulture: wait to be invited to sit (どうぞ、おかけください), and say 失礼いたします when entering, sitting and leaving."
+    },
+    {
+      "slug": "lesson-n3-02-kenkou", "jlpt_level": "N3", "position": 2,
+      "title": "健康のために — Healthy habits",
+      "situation": "A colleague notices you look tired and you talk about health.",
+      "item_slugs": ["健康", "睡眠", "習慣", "体重", "続ける", "我慢", "最近", "運動"],
+      "grammar_slug": "grammar-n3-you-ni-suru",
+      "dialogue": [
+        { "speaker": "山本", "jp": "最近、疲れているみたいですね。大丈夫ですか。", "en": "You seem tired lately. Are you OK?" },
+        { "speaker": "あなた", "jp": "ええ、仕事が忙しくて、睡眠が足りないんです。", "en": "Yes, work is busy and I'm not getting enough sleep." },
+        { "speaker": "山本", "jp": "私も前はそうでした。でも、去年から夜十二時までに寝るようにしているんです。", "en": "I used to be the same. But since last year I make a point of going to bed by midnight." },
+        { "speaker": "あなた", "jp": "それはいい習慣ですね。ほかに何かしていますか。", "en": "That's a good habit. Do you do anything else?" },
+        { "speaker": "山本", "jp": "会社まで一駅歩くことにしました。おかげで、体重も三キロ減りましたよ。", "en": "I decided to walk one station's distance to work. Thanks to that, I've lost three kilos too." },
+        { "speaker": "あなた", "jp": "すごいですね。私も甘い物を我慢するようにしているんですが、なかなか続かなくて。", "en": "Impressive. I'm trying to cut out sweets too, but I can't keep it up." },
+        { "speaker": "山本", "jp": "無理をしすぎると続きませんよ。少しずつ変えればいいと思います。", "en": "If you push too hard, you won't keep it up. I think you just need to change things little by little." }
+      ],
+      "checks": [
+        { "prompt": "Fill in the blank: 毎日野菜を食べる（　）しています。", "options": ["ように", "ことに", "ために", "そうに"], "answer": 0, "explanation": "〜ようにしている = make a habit of / try to." },
+        { "prompt": "What did Yamamoto decide to do?", "options": ["Stop eating sweets", "Walk one station's distance to work", "Join a gym", "Sleep at 10 p.m."], "answer": 1, "explanation": "「会社まで一駅歩くことにしました」 (ことにする = decide to)." },
+        { "prompt": "Which shows a decision you made yourself?", "options": ["転勤することになりました", "歩くことにしました", "雨が降るそうです", "寝るはずです"], "answer": 1, "explanation": "ことにする = my own decision; ことになる = decided by others or circumstances." }
+      ],
+      "notes": "〜ようにする: work at making something a habit (毎日歩くようにしている). Negative: 〜ないようにする (食べすぎないようにしている).\n〜ことにする: decide to do (my own choice). 〜ことにしている = a personal rule.\n\nおかげで = thanks to (a good result): 歩いたおかげで、体重が減った."
+    },
+    {
+      "slug": "lesson-n3-03-nyuusu", "jlpt_level": "N3", "position": 3,
+      "title": "天気とニュース — Weather and news",
+      "situation": "Friends talk about tomorrow's weather and a news story over coffee.",
+      "item_slugs": ["予報", "台風", "影響", "交通", "記事", "噂", "中止", "延期"],
+      "grammar_slug": "grammar-n3-ni-yoru-to",
+      "dialogue": [
+        { "speaker": "マイ", "jp": "明日のバーベキュー、大丈夫かな。", "en": "I wonder if tomorrow's barbecue will be OK." },
+        { "speaker": "あなた", "jp": "天気予報によると、台風が近づいているそうだよ。", "en": "According to the forecast, a typhoon is approaching." },
+        { "speaker": "マイ", "jp": "えっ、本当？じゃあ、中止かな。", "en": "What, really? Then maybe it's cancelled." },
+        { "speaker": "あなた", "jp": "電車も止まるかもしれないから、来週に延期したほうがいいと思う。", "en": "The trains might stop too, so I think we'd better postpone to next week." },
+        { "speaker": "マイ", "jp": "そうだね。そういえば、駅前に大きいスーパーができるらしいよ。", "en": "Yeah. By the way, apparently a big supermarket is opening in front of the station." },
+        { "speaker": "あなた", "jp": "それ、ただの噂じゃない？", "en": "Isn't that just a rumour?" },
+        { "speaker": "マイ", "jp": "ううん、今朝のネットの記事に書いてあったよ。来年の春にオープンするんだって。", "en": "No, it was in an online article this morning. It opens next spring, they say." }
+      ],
+      "checks": [
+        { "prompt": "Fill in the blank: 天気予報（　）、明日は雨が降るそうです。", "options": ["によると", "について", "として", "に対して"], "answer": 0, "explanation": "〜によると = according to (the source of what you heard)." },
+        { "prompt": "What do they decide about the barbecue?", "options": ["Go ahead as planned", "Move it indoors", "Postpone it to next week", "Cancel it for good"], "answer": 2, "explanation": "「来週に延期したほうがいいと思う」 and マイ agrees." },
+        { "prompt": "How does マイ know about the supermarket?", "options": ["A friend told her", "From an online article", "She saw the building", "From the TV news"], "answer": 1, "explanation": "「今朝のネットの記事に書いてあった」." }
+      ],
+      "notes": "Hearsay: source + によると … plain form + そうだ = according to… I hear that… (台風が近づいているそうだ).\n〜らしい = apparently (less certain, from what you've heard or seen): スーパーができるらしい.\n〜んだって is casual hearsay: オープンするんだって = they say it's opening.\n\nDon't mix this そうだ with the looks-like そう: 降りそうだ (looks like rain) vs 降るそうだ (I hear it will rain)."
+    },
+    {
+      "slug": "lesson-n3-04-zangyou", "jlpt_level": "N3", "position": 4,
+      "title": "残業の愚痴 — Venting about overtime",
+      "situation": "After work, you complain to a friend about your boss and the overtime you were made to do.",
+      "item_slugs": ["厳しい", "部長", "書類", "締め切り", "壊す", "我慢", "文句", "給料"],
+      "grammar_slug": "grammar-n3-causative-passive",
+      "dialogue": [
+        { "speaker": "あなた", "jp": "はあ、疲れた。昨日も部長に十一時まで残業させられたんだ。", "en": "Phew, I'm exhausted. Yesterday my manager made me do overtime until eleven again." },
+        { "speaker": "ケン", "jp": "またか。毎日だね。", "en": "Again? That's every day." },
+        { "speaker": "あなた", "jp": "締め切りが近いから、書類を全部作り直させられて。", "en": "The deadline's close, so I was made to redo all the documents." },
+        { "speaker": "ケン", "jp": "それはひどいね。文句を言ったほうがいいんじゃない？", "en": "That's awful. Shouldn't you complain?" },
+        { "speaker": "あなた", "jp": "でも、新人だから我慢するしかないよ。給料は悪くないし。", "en": "But I'm new, so I have no choice but to put up with it. The pay isn't bad, either." },
+        { "speaker": "ケン", "jp": "体を壊したら意味ないよ。今日は愚痴を全部聞いてあげるから、飲みに行こう。", "en": "It's pointless if you wreck your health. I'll listen to all your complaints tonight, so let's go for a drink." },
+        { "speaker": "あなた", "jp": "ありがとう。助かるよ。", "en": "Thanks. That helps." }
+      ],
+      "checks": [
+        { "prompt": "What is the causative-passive of 作る?", "options": ["作られる", "作らせる", "作らされる / 作らせられる", "作れる"], "answer": 2, "explanation": "Causative 作らせる + passive → 作らせられる (short form 作らされる): be made to make." },
+        { "prompt": "Why does the speaker put up with the overtime?", "options": ["The pay is very high", "They are new, so there's no choice", "They like the manager", "The deadline has passed"], "answer": 1, "explanation": "「新人だから我慢するしかない」 (しかない = no choice but)." },
+        { "prompt": "Fill in the blank: 部長（　）残業させられました。", "options": ["に", "を", "が", "で"], "answer": 0, "explanation": "The person who makes you do it takes に in the causative-passive." }
+      ],
+      "notes": "Causative-passive = being made to do something you didn't want to. う-verbs: 行く → 行かされる (or 行かせられる); る-verbs: 食べる → 食べさせられる; する → させられる; 来る → 来させられる. The one who makes you takes に.\n\n〜しかない = have no choice but: 我慢するしかない.\n〜んじゃない？ is a casual suggestion: 言ったほうがいいんじゃない？ = shouldn't you say something?"
+    },
+    {
+      "slug": "lesson-n3-05-chikoku", "jlpt_level": "N3", "position": 5,
+      "title": "遅れてすみません — Running late",
+      "situation": "You arrive late to meet a friend because of a train delay.",
+      "item_slugs": ["遅刻", "事故", "連絡", "約束", "到着", "謝る", "原因", "予定"],
+      "grammar_slug": "grammar-n3-okage-sei",
+      "dialogue": [
+        { "speaker": "あなた", "jp": "ごめん！三十分も遅れちゃった。", "en": "Sorry! I'm thirty minutes late." },
+        { "speaker": "サキ", "jp": "どうしたの？連絡がないから心配したよ。", "en": "What happened? I was worried since you didn't get in touch." },
+        { "speaker": "あなた", "jp": "電車の事故のせいで、駅で一時間も待たされたんだ。携帯の電池も切れちゃって。", "en": "Because of an accident on the line, I was kept waiting at the station for an hour. And my phone battery died." },
+        { "speaker": "サキ", "jp": "そうだったんだ。それなら仕方ないね。", "en": "Oh, I see. Then it couldn't be helped." },
+        { "speaker": "あなた", "jp": "本当にごめん。映画、もう始まってるはずだよね。", "en": "I'm really sorry. The film must have started by now." },
+        { "speaker": "サキ", "jp": "大丈夫。次の回は六時からだから、まだ間に合うよ。", "en": "It's fine. The next showing is at six, so we can still make it." },
+        { "speaker": "あなた", "jp": "サキが調べてくれたおかげで、助かった。お礼にポップコーンおごるね。", "en": "Thanks to you checking, I'm saved. I'll buy the popcorn to say thanks." }
+      ],
+      "checks": [
+        { "prompt": "Fill in the blank: 事故の（　）、電車が遅れました。", "options": ["せいで", "おかげで", "ために", "とおりに"], "answer": 0, "explanation": "せいで = because of (a bad result). おかげで is for good results." },
+        { "prompt": "Why couldn't the speaker get in touch?", "options": ["They forgot their phone", "The phone battery died", "There was no signal", "They didn't have Saki's number"], "answer": 1, "explanation": "「携帯の電池も切れちゃって」." },
+        { "prompt": "What does 「始まってるはずだ」 mean?", "options": ["It might start", "It should have started by now", "It won't start", "It started a long time ago for sure"], "answer": 1, "explanation": "はずだ = it should be so (a reasoned expectation)." }
+      ],
+      "notes": "Plain form or noun + の + せいで = because of (bad result): 事故のせいで遅れた. おかげで = thanks to (good result): サキのおかげで助かった.\n\n〜はずだ = should be (reasoned expectation): もう始まってるはずだ.\n〜ちゃう is casual 〜てしまう: 遅れちゃった = I ended up late."
+    },
+    {
+      "slug": "lesson-n3-06-tenkin", "jlpt_level": "N3", "position": 6,
+      "title": "転勤が決まりました — A transfer",
+      "situation": "You tell your team that you're being transferred to another branch.",
+      "item_slugs": ["急", "支店", "決定", "寂しい", "引っ越す", "世話", "挨拶", "準備"],
+      "grammar_slug": "grammar-n3-koto-ni-naru",
+      "dialogue": [
+        { "speaker": "あなた", "jp": "皆さん、ちょっとよろしいでしょうか。実は、来月から福岡支店に転勤することになりました。", "en": "Everyone, may I have a moment? Actually, it's been decided that I'll transfer to the Fukuoka branch from next month." },
+        { "speaker": "佐藤", "jp": "えっ、そうなんですか。急ですね。", "en": "Oh, really? That's sudden." },
+        { "speaker": "あなた", "jp": "はい、先週決定したばかりなんです。三年間、本当にお世話になりました。", "en": "Yes, it was only decided last week. Thank you so much for everything these three years." },
+        { "speaker": "佐藤", "jp": "寂しくなりますね。でも、福岡は食べ物がおいしいらしいですよ。", "en": "We'll miss you. But apparently the food in Fukuoka is great." },
+        { "speaker": "あなた", "jp": "それが楽しみです。引っ越しの準備があるので、来週は少し早く帰ることにします。", "en": "I'm looking forward to that. I have to prepare for the move, so I'll leave a bit early next week." },
+        { "speaker": "佐藤", "jp": "わかりました。最後の日に送別会をしましょう。", "en": "Understood. Let's hold a farewell party on your last day." },
+        { "speaker": "あなた", "jp": "ありがとうございます。福岡に来るときは、ぜひ連絡してください。", "en": "Thank you. If you come to Fukuoka, be sure to get in touch." }
+      ],
+      "checks": [
+        { "prompt": "Fill in the blank: 来月から転勤する（　）になりました。", "options": ["こと", "よう", "はず", "ところ"], "answer": 0, "explanation": "〜ことになる = it has been decided (by the company, not by you)." },
+        { "prompt": "What does 「決定したばかり」 mean?", "options": ["Only just decided", "Decided long ago", "About to be decided", "Not decided yet"], "answer": 0, "explanation": "た-form + ばかり = have only just done." },
+        { "prompt": "What does Sato suggest?", "options": ["Visiting Fukuoka together", "A farewell party on the last day", "Helping with the move", "Eating out tonight"], "answer": 1, "explanation": "「最後の日に送別会をしましょう」." }
+      ],
+      "notes": "〜ことになる: it's been decided (by the company, by circumstances): 転勤することになりました. Compare 〜ことにする = I decide myself: 早く帰ることにします.\n\nた-form + ばかり = have just done: 決定したばかりです.\n\nCulture: お世話になりました is the standard thank-you when leaving a workplace, and a 送別会 (farewell party) is common."
+    }
+  ]
+}

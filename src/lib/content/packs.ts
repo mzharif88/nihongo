@@ -44,7 +44,10 @@ export const PACK_GROUPS: PackGroup[] = [
     id: "grammar",
     title: "Grammar points",
     description: "Original grammar points beyond the old app's set. Import before lessons, the builder and mocks, which link to them.",
-    packs: [{ file: "n4.json", label: "N4 grammar: 24 points" }],
+    packs: [
+      { file: "n4.json", label: "N4 grammar: 24 points" },
+      { file: "n3.json", label: "N3 grammar: 25 points" },
+    ],
   },
   {
     id: "lessons",
@@ -53,15 +56,17 @@ export const PACK_GROUPS: PackGroup[] = [
     packs: [
       { file: "n5.json", label: "N5 lessons 1–5" },
       { file: "n4.json", label: "N4 lessons 1–6" },
+      { file: "n3.json", label: "N3 lessons 1–6" },
     ],
   },
   {
     id: "builder",
     title: "Sentence builder",
-    description: "N5 sentence patterns with tap-to-arrange exercises. Replaces the old patterns' single example.",
+    description: "Sentence patterns with tap-to-arrange exercises. Replaces the old patterns' single example.",
     packs: [
       { file: "n5.json", label: "N5 patterns: 12 patterns, 60 sentences" },
       { file: "n4.json", label: "N4 patterns: 8 patterns, 40 sentences" },
+      { file: "n3.json", label: "N3 patterns: 8 patterns, 40 sentences" },
     ],
   },
   {
@@ -73,6 +78,8 @@ export const PACK_GROUPS: PackGroup[] = [
       { file: "n5-1-questions.json", label: "N5 mock test 1: 51 questions" },
       { file: "n4-1-test.json", label: "N4 mock test 1" },
       { file: "n4-1-questions.json", label: "N4 mock test 1: 50 questions" },
+      { file: "n3-1-test.json", label: "N3 mock test 1" },
+      { file: "n3-1-questions.json", label: "N3 mock test 1: 52 questions" },
     ],
   },
   {
@@ -84,6 +91,8 @@ export const PACK_GROUPS: PackGroup[] = [
       { file: "n5-questions.json", label: "N5 reading questions" },
       { file: "n4-texts.json", label: "N4 readings: 5 passages" },
       { file: "n4-questions.json", label: "N4 reading questions" },
+      { file: "n3-texts.json", label: "N3 readings: 5 passages" },
+      { file: "n3-questions.json", label: "N3 reading questions" },
     ],
   },
 ];

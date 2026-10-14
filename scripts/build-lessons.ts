@@ -10,7 +10,7 @@
  */
 import { readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
-import { hasKanji } from "../src/lib/furigana";
+import { hasKanji, stripMarkup } from "../src/lib/furigana";
 import { parseImport } from "../src/lib/content/schema";
 import { annotateMixed, createAnnotator, knownWordsFrom, type Annotate } from "./furigana-build";
 import { itemResolver, loadItems } from "./content-items";
@@ -53,7 +53,14 @@ const LESSON_READINGS: Record<string, string> = {
   何名様: "なんめいさま",
   何日: "なんにち",
   何分: "なんぷん",
-  十分: "じゅっぷん",
+  三十分: "さんじゅっぷん",
+  十年: "じゅうねん",
+  卒業後: "そつぎょうご",
+  一駅: "ひとえき",
+  開いている: "あいている",
+  何度: "なんど",
+  午前中: "ごぜんちゅう",
+  一日中: "いちにちじゅう",
   五十分: "ごじゅっぷん",
   仕事中: "しごとちゅう",
   の時: "のとき",
@@ -71,6 +78,10 @@ const LESSON_READINGS: Record<string, string> = {
   管理人: "かんりにん",
   その時: "そのとき",
   た時: "たとき",
+  その間: "そのあいだ",
+  数人: "すうにん",
+  他の: "ほかの",
+  二人分: "ふたりぶん",
 };
 
 /** Markup for text with kanji; text without kanji (or already marked up) stays as it is. */
@@ -87,8 +98,10 @@ export function annotateLesson(lesson: Lesson, annotate: Annotate): Lesson {
     title: m(lesson.title),
     dialogue: lesson.dialogue.map((l) => ({
       ...l,
+      // jp may pin a reading inline ([十分|じゅっぷん]); keep jp plain for audio, the pin goes to reading.
+      jp: stripMarkup(l.jp),
       speaker: m(l.speaker),
-      ...(l.reading || !hasKanji(l.jp) ? {} : { reading: annotate(l.jp) }),
+      ...(l.reading || !hasKanji(l.jp) ? {} : { reading: annotateMixed(l.jp, annotate) }),
     })),
     checks: lesson.checks.map((c) => ({
       ...c,

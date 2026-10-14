@@ -122,7 +122,10 @@ describe("lesson packs", () => {
 describe("builder packs", () => {
   const patterns = PACK_GROUPS.find((g) => g.id === "builder")!.packs.flatMap((p) => loadFrom("builder", p.file).records);
   const grammar = new Set(
-    [...load("01-items.json").records, ...loadFrom("grammar", "n4.json").records]
+    [
+      ...load("01-items.json").records,
+      ...PACK_GROUPS.find((g) => g.id === "grammar")!.packs.flatMap((p) => loadFrom("grammar", p.file).records),
+    ]
       .filter((r) => r.type === "grammar")
       .map((r) => r.slug as string),
   );
