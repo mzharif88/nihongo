@@ -1,0 +1,1260 @@
+{
+  "note": "Hand-written groups of look-alike kanji (N5–N2).",
+  "groups": [
+    {
+      "slug": "mi-matsu",
+      "kanji": [
+        "未",
+        "末"
+      ],
+      "title": "未 vs 末",
+      "difference": "Both are 木 (tree) with an extra line on top. In 未 the lower line is longer; in 末 the top line is longer.",
+      "hints": {
+        "未": "short top line: the tree has not yet grown - 'not yet'",
+        "末": "long top line: the tip at the very end of the tree - 'end'"
+      }
+    },
+    {
+      "slug": "dai-ken-tai",
+      "kanji": [
+        "大",
+        "犬",
+        "太"
+      ],
+      "title": "大 vs 犬 vs 太",
+      "difference": "All three are 大 (big). 犬 adds a dot at the upper right; 太 adds a dot at the bottom between the legs.",
+      "hints": {
+        "大": "a person with arms spread wide - 'big'",
+        "犬": "dot up at the shoulder: a big animal at your side - 'dog'",
+        "太": "dot down between the legs: extra weight below - 'thick, plump'"
+      }
+    },
+    {
+      "slug": "jin-nyuu-hachi",
+      "kanji": [
+        "人",
+        "入",
+        "八"
+      ],
+      "title": "人 vs 入 vs 八",
+      "difference": "人 and 入 are two strokes that touch: in 人 the left stroke is the long one, in 入 the right stroke is the long one. In 八 the two strokes do not touch at all.",
+      "hints": {
+        "人": "long left stroke: a person standing - 'person'",
+        "入": "long right stroke: stepping in through an opening - 'enter'",
+        "八": "two strokes split apart - 'eight'"
+      }
+    },
+    {
+      "slug": "u-sa-seki",
+      "kanji": [
+        "右",
+        "左",
+        "石"
+      ],
+      "title": "右 vs 左 vs 石",
+      "difference": "右 and 左 both start with ナ (a hand); 右 has 口 (mouth) under it, 左 has 工 (craft). In 石 the top line is a cliff-like 一 with the slanting stroke hanging below it, not crossing it, over 口.",
+      "hints": {
+        "右": "hand + mouth: the hand you eat with - 'right'",
+        "左": "hand + 工 craft tool: the hand holding the tool - 'left'",
+        "石": "a rock 口 under a cliff - 'stone'"
+      }
+    },
+    {
+      "slug": "tai-ji-toku",
+      "kanji": [
+        "待",
+        "持",
+        "特"
+      ],
+      "title": "待 vs 持 vs 特",
+      "difference": "All share 寺 (temple) on the right. 待 has 彳 (step/going) on the left, 持 has 扌 (hand), and 特 has 牛 (cow).",
+      "hints": {
+        "待": "彳 step + 寺: stand at the temple - 'wait'",
+        "持": "扌 hand + 寺: hold in the hand - 'hold, have'",
+        "特": "牛 cow + 寺: the bull chosen for the temple - 'special'"
+      }
+    },
+    {
+      "slug": "ken-ken",
+      "kanji": [
+        "険",
+        "験"
+      ],
+      "title": "険 vs 験",
+      "difference": "Both share the same right part (𠆢 roof over 口 and little legs). 険 has ⻖ (hill) on the left; 験 has 馬 (horse).",
+      "hints": {
+        "険": "⻖ hill on the left: a steep slope - 'steep, danger'",
+        "験": "馬 horse on the left: testing a horse - 'test, verify'"
+      }
+    },
+    {
+      "slug": "sai-sai-satsu",
+      "kanji": [
+        "祭",
+        "際",
+        "察"
+      ],
+      "title": "祭 vs 際 vs 察",
+      "difference": "All contain 祭 (festival: a hand offering meat over 示 the altar). 際 adds ⻖ (hill/wall) on the left; 察 adds 宀 (roof) on top.",
+      "hints": {
+        "祭": "hand and meat over 示 altar: an offering - 'festival'",
+        "際": "⻖ wall beside the festival: the very edge - 'occasion, edge'",
+        "察": "宀 roof over the ritual: looking closely inside - 'inspect, guess'"
+      }
+    },
+    {
+      "slug": "do-do",
+      "kanji": [
+        "怒",
+        "努"
+      ],
+      "title": "怒 vs 努",
+      "difference": "Both have 奴 (女 woman + 又 hand) on top. 怒 has 心 (heart) underneath; 努 has 力 (power).",
+      "hints": {
+        "怒": "奴 over 心 heart: feelings boil over - 'angry'",
+        "努": "奴 over 力 power: putting in strength - 'effort, strive'"
+      }
+    },
+    {
+      "slug": "go-gyuu",
+      "kanji": [
+        "午",
+        "牛"
+      ],
+      "title": "午 vs 牛",
+      "difference": "Same strokes, but in 牛 the vertical line pokes up through the top stroke; in 午 it stops at the top.",
+      "hints": {
+        "午": "vertical stays inside: the sun at its peak - 'noon'",
+        "牛": "vertical sticks out like a horn - 'cow'"
+      }
+    },
+    {
+      "slug": "ten-fu-shitsu",
+      "kanji": [
+        "天",
+        "夫",
+        "失"
+      ],
+      "title": "天 vs 夫 vs 失",
+      "difference": "天 is 大 (big) with a short line on top and nothing sticking out. In 夫 the vertical pokes above the top line. 失 is like 夫 with an extra slanting stroke at the upper left.",
+      "hints": {
+        "天": "a line above 大: what is above a person - 'heaven, sky'",
+        "夫": "head poking above: a grown man with a hairpin - 'husband'",
+        "失": "a stroke slipping off the left: something falls away - 'lose'"
+      }
+    },
+    {
+      "slug": "ken-kai",
+      "kanji": [
+        "見",
+        "貝"
+      ],
+      "title": "見 vs 貝",
+      "difference": "Both are 目 (eye) on top. 見 has 儿 (legs) with a long hooked right leg; 貝 has two short splayed ハ strokes.",
+      "hints": {
+        "見": "目 eye on 儿 legs: an eye walking around - 'see'",
+        "貝": "目 with two short feet: a shell - 'shellfish'"
+      }
+    },
+    {
+      "slug": "moku-ji-haku-hyaku",
+      "kanji": [
+        "目",
+        "自",
+        "白",
+        "百"
+      ],
+      "title": "目 vs 自 vs 白 vs 百",
+      "difference": "目 is a box with two inside lines. 自 is 目 with a short slanting stroke on top. 白 has only one inside line plus the slanting stroke on top, and 百 is 白 with 一 (one) above it.",
+      "hints": {
+        "目": "box with two lines: an eye - 'eye'",
+        "自": "目 with a mark on top: the nose, pointing to yourself - 'oneself'",
+        "白": "one inner line and a ray on top: bright light - 'white'",
+        "百": "一 over 白: one hundred - 'hundred'"
+      }
+    },
+    {
+      "slug": "mon-kan-bun",
+      "kanji": [
+        "問",
+        "間",
+        "聞"
+      ],
+      "title": "問 vs 間 vs 聞",
+      "difference": "All are 門 (gate) with something inside: 問 has 口 (mouth), 間 has 日 (sun), 聞 has 耳 (ear).",
+      "hints": {
+        "問": "口 mouth at the gate: asking - 'question'",
+        "間": "日 sun through the gate gap - 'interval, between'",
+        "聞": "耳 ear at the gate: listening - 'hear'"
+      }
+    },
+    {
+      "slug": "kai-hei-kan",
+      "kanji": [
+        "開",
+        "閉",
+        "関"
+      ],
+      "title": "開 vs 閉 vs 関",
+      "difference": "All are 門 (gate). 開 has 开 (two hands lifting a bar), 閉 has 才 (a bar wedged in place), 関 has 关 (并 horns over 天).",
+      "hints": {
+        "開": "two hands lift the bar: 'open'",
+        "閉": "a bar blocks the gate: 'close, shut'",
+        "関": "a gate with a bolt: a checkpoint - 'barrier, related'"
+      }
+    },
+    {
+      "slug": "tai-kyuu",
+      "kanji": [
+        "体",
+        "休"
+      ],
+      "title": "体 vs 休",
+      "difference": "Both have ⺅ (person) on the left. 体 has 本 (origin: 木 with a line near the bottom); 休 has a plain 木 (tree).",
+      "hints": {
+        "体": "person + 本 origin: the core of a person - 'body'",
+        "休": "person leaning on a 木 tree - 'rest'"
+      }
+    },
+    {
+      "slug": "yu-rin-ron",
+      "kanji": [
+        "輸",
+        "輪",
+        "論"
+      ],
+      "title": "輸 vs 輪 vs 論",
+      "difference": "輪 and 論 share 侖 (𠆢 roof over 冊 neat bamboo slips); 輪 has 車 (vehicle), 論 has 言 (words). 輸 also has 車 but its right side is 兪 (𠆢 over 月 and 刂 knife).",
+      "hints": {
+        "輸": "車 + 兪: carrying goods by cart - 'transport'",
+        "輪": "車 + 侖 orderly spokes - 'wheel, ring'",
+        "論": "言 words + 侖 in order - 'argument, theory'"
+      }
+    },
+    {
+      "slug": "ei-ei",
+      "kanji": [
+        "栄",
+        "営"
+      ],
+      "title": "栄 vs 営",
+      "difference": "Both have ⺌ and 冖 (cover) on top. 栄 has 木 (tree) underneath; 営 has two 口 (stacked boxes).",
+      "hints": {
+        "栄": "a tree in full bloom under the cover - 'flourish'",
+        "営": "rooms stacked under a roof: a camp, a business - 'manage'"
+      }
+    },
+    {
+      "slug": "fuku-fuku-fuku",
+      "kanji": [
+        "復",
+        "複",
+        "腹"
+      ],
+      "title": "復 vs 複 vs 腹",
+      "difference": "All share 复 (a person walking back: 𠂉, 日 and 夂). 復 has 彳 (step/going), 複 has 衤 (clothing), 腹 has 月 (flesh/body).",
+      "hints": {
+        "復": "彳 going + 复: going back again - 'restore, return'",
+        "複": "衤 clothing + 复: layers of clothes - 'duplicate, multiple'",
+        "腹": "月 body + 复: the round body part - 'belly'"
+      }
+    },
+    {
+      "slug": "seki-seki-seki",
+      "kanji": [
+        "績",
+        "積",
+        "責"
+      ],
+      "title": "績 vs 積 vs 責",
+      "difference": "責 (blame) is the base. 績 adds 糸 (thread) on the left; 積 adds 禾 (grain).",
+      "hints": {
+        "績": "糸 thread + 責: spinning finished thread - 'achievement'",
+        "積": "禾 grain + 責: stacking up grain - 'pile up, volume'",
+        "責": "a debt of 貝 money - 'blame, responsibility'"
+      }
+    },
+    {
+      "slug": "shiki-shoku",
+      "kanji": [
+        "識",
+        "職"
+      ],
+      "title": "識 vs 職",
+      "difference": "Both share 戠 (音 sound + 戈 halberd) on the right. 識 has 言 (words) on the left; 職 has 耳 (ear).",
+      "hints": {
+        "識": "言 words + 戠: knowing by words - 'know, discern'",
+        "職": "耳 ear + 戠: listening to orders at work - 'job, post'"
+      }
+    },
+    {
+      "slug": "chou-tou-ba",
+      "kanji": [
+        "鳥",
+        "島",
+        "馬"
+      ],
+      "title": "鳥 vs 島 vs 馬",
+      "difference": "鳥 and 島 both have a bird head with a slanting stroke on top; 鳥 ends in 灬 (four dots), 島 replaces them with 山 (mountain). 馬 also ends in 灬 but has no slanting stroke or box on top - just mane lines.",
+      "hints": {
+        "鳥": "bird head with 灬 tail feathers - 'bird'",
+        "島": "a bird resting on 山 mountain - 'island'",
+        "馬": "mane lines and 灬 four legs - 'horse'"
+      }
+    },
+    {
+      "slug": "sen-kan",
+      "kanji": [
+        "千",
+        "干"
+      ],
+      "title": "千 vs 干",
+      "difference": "In 千 the top stroke slants (ノ); in 干 the top stroke is a flat horizontal line.",
+      "hints": {
+        "千": "slanting top over 十 ten - 'thousand'",
+        "干": "flat lines on a pole: a drying rack - 'dry'"
+      }
+    },
+    {
+      "slug": "man-hou",
+      "kanji": [
+        "万",
+        "方"
+      ],
+      "title": "万 vs 方",
+      "difference": "Both have a flat top line and a hooked stroke. 方 has a 亠 dot on top; 万 has no dot.",
+      "hints": {
+        "万": "no dot: ten thousand - 'ten thousand'",
+        "方": "dot on top - 'direction, person'"
+      }
+    },
+    {
+      "slug": "kyuu-gan",
+      "kanji": [
+        "九",
+        "丸"
+      ],
+      "title": "九 vs 丸",
+      "difference": "丸 is 九 (nine) with an extra dot 丶.",
+      "hints": {
+        "九": "no dot: 'nine'",
+        "丸": "a dot rolled into the curve - 'round, circle'"
+      }
+    },
+    {
+      "slug": "ou-gyoku-shu",
+      "kanji": [
+        "王",
+        "玉",
+        "主"
+      ],
+      "title": "王 vs 玉 vs 主",
+      "difference": "All are 王 (king). 玉 adds a dot at the lower right; 主 adds a dot on top.",
+      "hints": {
+        "王": "three lines joined by a vertical - 'king'",
+        "玉": "a dot of jewel at the side - 'jewel, ball'",
+        "主": "a dot of flame on top: the lamp of the household - 'master, main'"
+      }
+    },
+    {
+      "slug": "moku-hon",
+      "kanji": [
+        "木",
+        "本"
+      ],
+      "title": "木 vs 本",
+      "difference": "本 is 木 (tree) with a short line across the trunk near the bottom.",
+      "hints": {
+        "木": "a trunk with branches - 'tree'",
+        "本": "a mark at the base of the tree - 'root, origin, book'"
+      }
+    },
+    {
+      "slug": "bo-mai",
+      "kanji": [
+        "母",
+        "毎"
+      ],
+      "title": "母 vs 毎",
+      "difference": "毎 is 母 (mother) with 𠂉 (a person) added on top.",
+      "hints": {
+        "母": "a woman's shape with two dots - 'mother'",
+        "毎": "a person over a mother: every generation - 'every'"
+      }
+    },
+    {
+      "slug": "mei-kaku",
+      "kanji": [
+        "名",
+        "各"
+      ],
+      "title": "名 vs 各",
+      "difference": "Both have 口 (mouth) at the bottom. 名 has 夕 (evening) on top; 各 has 夂 (walking slowly).",
+      "hints": {
+        "名": "夕 evening + 口: calling out your name in the dark - 'name'",
+        "各": "夂 feet arriving at each door 口 - 'each'"
+      }
+    },
+    {
+      "slug": "ko-sen",
+      "kanji": [
+        "古",
+        "占"
+      ],
+      "title": "古 vs 占",
+      "difference": "Both have 口 (mouth) at the bottom. 古 has 十 (ten) on top; 占 has 卜 (divining rod).",
+      "hints": {
+        "古": "十 ten generations of mouths - 'old'",
+        "占": "卜 divining rod over 口: telling fortunes - 'fortune-telling, occupy'"
+      }
+    },
+    {
+      "slug": "han-yuu",
+      "kanji": [
+        "反",
+        "友"
+      ],
+      "title": "反 vs 友",
+      "difference": "Both end in 又 (hand). 反 has 厂 (cliff) on top; 友 has ナ (another hand), so the strokes cross.",
+      "hints": {
+        "反": "a hand pushing against a 厂 cliff - 'anti, against'",
+        "友": "two hands together - 'friend'"
+      }
+    },
+    {
+      "slug": "in-kon",
+      "kanji": [
+        "因",
+        "困"
+      ],
+      "title": "因 vs 困",
+      "difference": "Both are 囗 (enclosure). 因 has 大 (big) inside; 困 has 木 (tree) inside.",
+      "hints": {
+        "因": "a person 大 resting on a mat - 'cause'",
+        "困": "a 木 tree boxed in, unable to grow - 'troubled'"
+      }
+    },
+    {
+      "slug": "tou-soku",
+      "kanji": [
+        "東",
+        "束"
+      ],
+      "title": "東 vs 束",
+      "difference": "Both are 木 (tree) with a box across the trunk. In 東 the box is 日 (sun), with a line inside; in 束 it is a plain 口 with no inside line.",
+      "hints": {
+        "東": "日 sun rising behind a 木 tree - 'east'",
+        "束": "口 band tied round sticks - 'bundle'"
+      }
+    },
+    {
+      "slug": "den-yu-shin",
+      "kanji": [
+        "田",
+        "由",
+        "申"
+      ],
+      "title": "田 vs 由 vs 申",
+      "difference": "All are a box with a cross. In 田 the vertical stays inside; in 由 it pokes out the top; in 申 it pokes out both top and bottom.",
+      "hints": {
+        "田": "a divided field - 'rice field'",
+        "由": "a sprout coming out the top: where it comes from - 'reason, cause'",
+        "申": "a line stretched through both ends - 'say (humble), monkey sign'"
+      }
+    },
+    {
+      "slug": "ryou-u",
+      "kanji": [
+        "両",
+        "雨"
+      ],
+      "title": "両 vs 雨",
+      "difference": "Both are 一 over 冂 (box). 雨 has four raindrop dots inside; 両 has a 山-like shape crossed by a centre line.",
+      "hints": {
+        "両": "four drops falling under the sky - 'rain'",
+        "雨": "a balance with two pans - 'both'"
+      }
+    },
+    {
+      "slug": "nai-niku",
+      "kanji": [
+        "内",
+        "肉"
+      ],
+      "title": "内 vs 肉",
+      "difference": "Both are 冂 (box). 内 has one 人 (person) inside; 肉 has two 人.",
+      "hints": {
+        "内": "one person going inside - 'inside'",
+        "肉": "two marks for the lines in meat - 'meat'"
+      }
+    },
+    {
+      "slug": "hoku-hi",
+      "kanji": [
+        "北",
+        "比"
+      ],
+      "title": "北 vs 比",
+      "difference": "北 is two figures back to back, the left with 爿 (split wood) shape; 比 is two 匕 (spoon) shapes facing the same way.",
+      "hints": {
+        "北": "two people turning their backs to the cold - 'north'",
+        "比": "two people lined up side by side - 'compare'"
+      }
+    },
+    {
+      "slug": "ji-u",
+      "kanji": [
+        "字",
+        "宇"
+      ],
+      "title": "字 vs 宇",
+      "difference": "Both have 宀 (roof). 字 has 子 (child) under it; 宇 has 于 (a vertical with a hook to the left, under two lines).",
+      "hints": {
+        "字": "a child learning under the roof - 'character, letter'",
+        "宇": "eaves stretching out under the roof - 'eaves, universe'"
+      }
+    },
+    {
+      "slug": "kyaku-you",
+      "kanji": [
+        "客",
+        "容"
+      ],
+      "title": "客 vs 容",
+      "difference": "Both have 宀 (roof). 客 has 各 (each) under it; 容 has 谷 (valley).",
+      "hints": {
+        "客": "各 each person arriving under your roof - 'guest'",
+        "容": "a 谷 valley under a roof: room to hold things - 'contain, appearance'"
+      }
+    },
+    {
+      "slug": "en-en",
+      "kanji": [
+        "遠",
+        "園"
+      ],
+      "title": "遠 vs 園",
+      "difference": "Both contain 袁 (long robe). 遠 wraps it with 辶 (road); 園 encloses it in 囗 (enclosure).",
+      "hints": {
+        "遠": "辶 road with a long robe: a long way - 'far'",
+        "園": "囗 fence around it - 'garden, park'"
+      }
+    },
+    {
+      "slug": "teki-teki",
+      "kanji": [
+        "適",
+        "滴"
+      ],
+      "title": "適 vs 滴",
+      "difference": "Both have 啇 on the right. 適 has 辶 (road/movement); 滴 has 氵 (water).",
+      "hints": {
+        "適": "辶 road + 啇: going just the right way - 'suitable'",
+        "滴": "氵 water + 啇: a single drop - 'drip, drop'"
+      }
+    },
+    {
+      "slug": "i-i",
+      "kanji": [
+        "違",
+        "偉"
+      ],
+      "title": "違 vs 偉",
+      "difference": "Both have 韋 (leather/opposing feet) on the right. 違 has 辶 (road); 偉 has 亻 (person).",
+      "hints": {
+        "違": "辶 road + 韋: walking a different way - 'differ'",
+        "偉": "亻 person + 韋: an outstanding person - 'great'"
+      }
+    },
+    {
+      "slug": "soku-soku-soku",
+      "kanji": [
+        "側",
+        "測",
+        "則"
+      ],
+      "title": "側 vs 測 vs 則",
+      "difference": "則 (rule: 貝 money + 刂 knife) is the base. 側 adds 亻 (person); 測 adds 氵 (water).",
+      "hints": {
+        "側": "亻 person beside the rule - 'side'",
+        "測": "氵 water + 則: measuring water depth - 'measure'",
+        "則": "貝 and 刂 knife: a fixed rule - 'rule, law'"
+      }
+    },
+    {
+      "slug": "you-jou-tou",
+      "kanji": [
+        "陽",
+        "場",
+        "湯"
+      ],
+      "title": "陽 vs 場 vs 湯",
+      "difference": "All share 昜 (the sun rising over rays). 陽 has ⻖ (hill), 場 has 土 (earth), 湯 has 氵 (water).",
+      "hints": {
+        "陽": "⻖ hill in the sun - 'sunshine, positive'",
+        "場": "土 ground in the sun - 'place'",
+        "湯": "氵 water warmed by the sun - 'hot water'"
+      }
+    },
+    {
+      "slug": "gin-kon-gen",
+      "kanji": [
+        "銀",
+        "根",
+        "限"
+      ],
+      "title": "銀 vs 根 vs 限",
+      "difference": "All share 艮 (stopping) on the right. 銀 has 金 (metal), 根 has 木 (tree), 限 has ⻖ (hill).",
+      "hints": {
+        "銀": "金 metal + 艮 - 'silver'",
+        "根": "木 tree + 艮: where the tree stays put - 'root'",
+        "限": "⻖ hill + 艮: a hill you cannot pass - 'limit'"
+      }
+    },
+    {
+      "slug": "zou-zou-zou",
+      "kanji": [
+        "増",
+        "憎",
+        "贈"
+      ],
+      "title": "増 vs 憎 vs 贈",
+      "difference": "All share 曽 on the right. 増 has 土 (earth), 憎 has 忄 (heart), 贈 has 貝 (shell/money).",
+      "hints": {
+        "増": "土 earth piling up - 'increase'",
+        "憎": "忄 heart + 曽 - 'hate'",
+        "贈": "貝 money + 曽: giving valuables - 'give a gift'"
+      }
+    },
+    {
+      "slug": "zei-setsu-ei",
+      "kanji": [
+        "税",
+        "説",
+        "鋭"
+      ],
+      "title": "税 vs 説 vs 鋭",
+      "difference": "All share 兑 on the right. 税 has 禾 (grain), 説 has 言 (words), 鋭 has 金 (metal).",
+      "hints": {
+        "税": "禾 grain paid to the lord - 'tax'",
+        "説": "言 words + 兑 - 'explain, theory'",
+        "鋭": "金 metal + 兑: a honed blade - 'sharp'"
+      }
+    },
+    {
+      "slug": "gu-shin-choku",
+      "kanji": [
+        "具",
+        "真",
+        "直"
+      ],
+      "title": "具 vs 真 vs 直",
+      "difference": "All have 目 (eye) in the middle. 具 has a line and ハ under it; 真 adds 十 (ten) on top of that; 直 has 十 on top but an L-shaped stroke wrapping the bottom left instead of ハ.",
+      "hints": {
+        "具": "目 on a stand with legs - 'tool'",
+        "真": "十 + 目 on a stand - 'true'",
+        "直": "十 + 目 with a straight L corner - 'straight, fix'"
+      }
+    },
+    {
+      "slug": "kou-shin",
+      "kanji": [
+        "幸",
+        "辛"
+      ],
+      "title": "幸 vs 辛",
+      "difference": "辛 starts with 立 (stand: a dot on top) over 十. 幸 starts with 土 (earth: a cross on top), then two dots and 干.",
+      "hints": {
+        "幸": "土 earth on top - 'happiness, fortune'",
+        "辛": "立 on top: a needle - 'spicy, painful'"
+      }
+    },
+    {
+      "slug": "sui-hyou-ei",
+      "kanji": [
+        "水",
+        "氷",
+        "永"
+      ],
+      "title": "水 vs 氷 vs 永",
+      "difference": "氷 is 水 (water) with an extra dot at the upper left; 永 has the dot on top, centred.",
+      "hints": {
+        "水": "flowing streams - 'water'",
+        "氷": "a dot freezing the water - 'ice'",
+        "永": "a dot at the source of a long river - 'eternal'"
+      }
+    },
+    {
+      "slug": "sha-cho-sho",
+      "kanji": [
+        "者",
+        "著",
+        "署"
+      ],
+      "title": "者 vs 著 vs 署",
+      "difference": "者 (person) is the base. 著 adds 艹 (grass) on top; 署 adds 罒 (net).",
+      "hints": {
+        "者": "an old person - 'someone, person'",
+        "著": "艹 + 者: one who stands out - 'author, remarkable'",
+        "署": "罒 net + 者: an office that catches cases - 'government office, sign'"
+      }
+    },
+    {
+      "slug": "doku-zoku",
+      "kanji": [
+        "読",
+        "続"
+      ],
+      "title": "読 vs 続",
+      "difference": "Both share 売 (sell) on the right. 読 has 言 (words); 続 has 糸 (thread).",
+      "hints": {
+        "読": "言 words + 売: reading words aloud - 'read'",
+        "続": "糸 thread + 売: thread that keeps going - 'continue'"
+      }
+    },
+    {
+      "slug": "ka-ka-ni",
+      "kanji": [
+        "何",
+        "河",
+        "荷"
+      ],
+      "title": "何 vs 河 vs 荷",
+      "difference": "何 is 亻 (person) + 可. 河 swaps the person for 氵 (water). 荷 is 何 with 艹 (grass) on top.",
+      "hints": {
+        "何": "亻 person asking - 'what'",
+        "河": "氵 water + 可 - 'river'",
+        "荷": "艹 + 何: a person carrying a bundle - 'luggage, load'"
+      }
+    },
+    {
+      "slug": "shin-shin",
+      "kanji": [
+        "新",
+        "親"
+      ],
+      "title": "新 vs 親",
+      "difference": "Both start with 立 (stand) over 木 (tree). 新 has 斤 (axe) on the right; 親 has 見 (see).",
+      "hints": {
+        "新": "斤 axe cutting fresh wood - 'new'",
+        "親": "見 watching from the tree: a parent - 'parent, intimate'"
+      }
+    },
+    {
+      "slug": "kan-ken",
+      "kanji": [
+        "観",
+        "権"
+      ],
+      "title": "観 vs 権",
+      "difference": "Both have 隹 (short-tailed bird) under a 艹-like top. 観 has it on the left with 見 (see) on the right; 権 has 木 (tree) on the left.",
+      "hints": {
+        "観": "見 see + the bird: watching closely - 'view'",
+        "権": "木 tree + the bird - 'authority, rights'"
+      }
+    },
+    {
+      "slug": "bou-bou",
+      "kanji": [
+        "忘",
+        "忙"
+      ],
+      "title": "忘 vs 忙",
+      "difference": "Both are 亡 (lost) + heart. In 忘 the 心 (heart) sits underneath; in 忙 the 忄 (heart) stands on the left.",
+      "hints": {
+        "忘": "亡 over 心: the mind has lost it - 'forget'",
+        "忙": "忄 beside 亡: no heart left - 'busy'"
+      }
+    },
+    {
+      "slug": "jou-sei-sei-sei",
+      "kanji": [
+        "情",
+        "清",
+        "晴",
+        "精"
+      ],
+      "title": "情 vs 清 vs 晴 vs 精",
+      "difference": "All share 青 (blue) on the right. 情 has 忄 (heart), 清 has 氵 (water), 晴 has 日 (sun), 精 has 米 (rice).",
+      "hints": {
+        "情": "忄 heart: 'feelings'",
+        "清": "氵 water: 'pure, clean'",
+        "晴": "日 sun: 'clear weather'",
+        "精": "米 polished rice: 'spirit, refined'"
+      }
+    },
+    {
+      "slug": "mou-shu",
+      "kanji": [
+        "毛",
+        "手"
+      ],
+      "title": "毛 vs 手",
+      "difference": "Same four strokes, but the long vertical of 毛 curves to the right at the bottom; in 手 it hooks to the left.",
+      "hints": {
+        "毛": "the stroke curls right like a hair - 'fur, hair'",
+        "手": "the stroke hooks left like a wrist - 'hand'"
+      }
+    },
+    {
+      "slug": "sara-ketsu",
+      "kanji": [
+        "皿",
+        "血"
+      ],
+      "title": "皿 vs 血",
+      "difference": "血 is 皿 (dish) with a slanting stroke on top.",
+      "hints": {
+        "皿": "an empty dish - 'plate'",
+        "血": "a drop in the dish - 'blood'"
+      }
+    },
+    {
+      "slug": "ha-ha-hi",
+      "kanji": [
+        "波",
+        "破",
+        "被"
+      ],
+      "title": "波 vs 破 vs 被",
+      "difference": "All share 皮 (skin) on the right. 波 has 氵 (water), 破 has 石 (stone), 被 has 衤 (clothing).",
+      "hints": {
+        "波": "氵 water skin - 'wave'",
+        "破": "石 stone cracking - 'break, tear'",
+        "被": "衤 clothing over skin - 'suffer, wear'"
+      }
+    },
+    {
+      "slug": "tan-gan",
+      "kanji": [
+        "炭",
+        "岸"
+      ],
+      "title": "炭 vs 岸",
+      "difference": "Both have 山 (mountain) over 厂 (cliff). 炭 has 火 (fire) at the bottom; 岸 has 干 (dry).",
+      "hints": {
+        "炭": "火 fire in the mountain - 'charcoal'",
+        "岸": "干 dry land under the cliff - 'shore, bank'"
+      }
+    },
+    {
+      "slug": "kaku-raku-ryaku-ro",
+      "kanji": [
+        "格",
+        "絡",
+        "略",
+        "路"
+      ],
+      "title": "格 vs 絡 vs 略 vs 路",
+      "difference": "All share 各 (each) on the right. 格 has 木 (tree), 絡 has 糸 (thread), 略 has 田 (field), 路 has ⻊ (foot).",
+      "hints": {
+        "格": "木 + 各: 'status, rule'",
+        "絡": "糸 thread + 各: threads twining - 'entwine, connect'",
+        "略": "田 field + 各: shortened plots - 'abbreviate'",
+        "路": "⻊ foot + 各 - 'road'"
+      }
+    },
+    {
+      "slug": "sa-byou",
+      "kanji": [
+        "砂",
+        "秒"
+      ],
+      "title": "砂 vs 秒",
+      "difference": "Both share 少 (few, little) on the right. 砂 has 石 (stone); 秒 has 禾 (grain).",
+      "hints": {
+        "砂": "石 stone made small - 'sand'",
+        "秒": "禾 grain tip: a tiny unit - 'second'"
+      }
+    },
+    {
+      "slug": "shi-ben-kou",
+      "kanji": [
+        "使",
+        "便",
+        "硬"
+      ],
+      "title": "使 vs 便 vs 硬",
+      "difference": "使 has 吏 (an official) on the right; 便 and 硬 have 更 (anew), which has a 日-like box with an extra inner line. 使 and 便 have 亻 (person); 硬 has 石 (stone).",
+      "hints": {
+        "使": "亻 + 吏 official: send on an errand - 'use'",
+        "便": "亻 + 更 - 'convenience, mail'",
+        "硬": "石 stone + 更 - 'hard'"
+      }
+    },
+    {
+      "slug": "fu-fu-fu",
+      "kanji": [
+        "符",
+        "府",
+        "付"
+      ],
+      "title": "符 vs 府 vs 付",
+      "difference": "付 (attach: 亻 person + 寸 hand) is the base. 符 adds 竹 (bamboo) on top; 府 adds 广 (building).",
+      "hints": {
+        "符": "竹 bamboo tally - 'sign, mark'",
+        "府": "广 building + 付: where records go - 'government office, prefecture'",
+        "付": "亻 + 寸 hand: handing over - 'attach'"
+      }
+    },
+    {
+      "slug": "nou-nou",
+      "kanji": [
+        "脳",
+        "悩"
+      ],
+      "title": "脳 vs 悩",
+      "difference": "Both share the same right part (ツ-like top over 凶). 脳 has 月 (flesh/body); 悩 has 忄 (heart).",
+      "hints": {
+        "脳": "月 body part - 'brain'",
+        "悩": "忄 heart - 'worry'"
+      }
+    },
+    {
+      "slug": "han-han-han-han",
+      "kanji": [
+        "坂",
+        "板",
+        "版",
+        "販"
+      ],
+      "title": "坂 vs 板 vs 版 vs 販",
+      "difference": "All share 反 (against) on the right. 坂 has 土 (earth), 板 has 木 (wood), 版 has 片 (a piece of wood), 販 has 貝 (money).",
+      "hints": {
+        "坂": "土 earth: 'slope'",
+        "板": "木 wood: 'board'",
+        "版": "片 slab: printing block - 'edition'",
+        "販": "貝 money: 'sell'"
+      }
+    },
+    {
+      "slug": "bou-ryuu",
+      "kanji": [
+        "貿",
+        "留"
+      ],
+      "title": "貿 vs 留",
+      "difference": "Both share the same top (a 刀-like part with 厶). 貿 has 貝 (money) underneath; 留 has 田 (field).",
+      "hints": {
+        "貿": "貝 money exchanged - 'trade'",
+        "留": "田 field: staying in place - 'stay, detain'"
+      }
+    },
+    {
+      "slug": "dou-jou-shou-tou",
+      "kanji": [
+        "堂",
+        "常",
+        "賞",
+        "党"
+      ],
+      "title": "堂 vs 常 vs 賞 vs 党",
+      "difference": "All have ⺌ over 冖 (cover). Under it, 堂 has 口 + 土 (earth), 常 has 口 + 巾 (cloth), 賞 has 口 + 貝 (money), and 党 has 口 + 儿 (legs).",
+      "hints": {
+        "堂": "土 ground: 'hall'",
+        "常": "巾 cloth always worn - 'usual'",
+        "賞": "貝 money given - 'prize'",
+        "党": "儿 people gathered - 'political party'"
+      }
+    },
+    {
+      "slug": "chou-ki",
+      "kanji": [
+        "超",
+        "起"
+      ],
+      "title": "超 vs 起",
+      "difference": "Both have 走 (run) wrapping the left and bottom. 超 has 召 (summon) inside; 起 has 己 (self).",
+      "hints": {
+        "超": "走 run + 召: running beyond - 'exceed, super'",
+        "起": "走 + 己 self: getting yourself up - 'wake up, rise'"
+      }
+    },
+    {
+      "slug": "tsuu-tsuu-you",
+      "kanji": [
+        "通",
+        "痛",
+        "踊"
+      ],
+      "title": "通 vs 痛 vs 踊",
+      "difference": "All share 甬 on the right. 通 has 辶 (road), 痛 has 疒 (sickness), 踊 has ⻊ (foot).",
+      "hints": {
+        "通": "辶 road - 'pass through, commute'",
+        "痛": "疒 sickness - 'pain'",
+        "踊": "⻊ foot - 'dance'"
+      }
+    },
+    {
+      "slug": "hen-komu",
+      "kanji": [
+        "辺",
+        "込"
+      ],
+      "title": "辺 vs 込",
+      "difference": "Both have 辶 (road). 辺 has 刀 (sword) inside; 込 has 入 (enter).",
+      "hints": {
+        "辺": "刀 + 辶: the edge cut off - 'area, edge'",
+        "込": "入 enter + 辶: going inside - 'crowded, include'"
+      }
+    },
+    {
+      "slug": "jutsu-jutsu-mei",
+      "kanji": [
+        "述",
+        "術",
+        "迷"
+      ],
+      "title": "述 vs 術 vs 迷",
+      "difference": "述 and 術 share 朮 (木 with one dot); 述 has 辶 (road), 術 has 行 (go) around it. 迷 has 辶 with 米 (rice), which has two dots on top.",
+      "hints": {
+        "述": "辶 + 朮 - 'state, mention'",
+        "術": "行 + 朮: the way of doing - 'technique, art'",
+        "迷": "辶 + 米: roads branching every way - 'lost'"
+      }
+    },
+    {
+      "slug": "kou-kou-kou",
+      "kanji": [
+        "校",
+        "郊",
+        "効"
+      ],
+      "title": "校 vs 郊 vs 効",
+      "difference": "All share 交 (mix) on the left. 校 has 木 (tree) before it, 郊 has 阝 (village) after it, 効 has 力 (power) after it.",
+      "hints": {
+        "校": "木 + 交 - 'school'",
+        "郊": "交 + 阝 village: 'suburbs'",
+        "効": "交 + 力 power: 'effect'"
+      }
+    },
+    {
+      "slug": "hou-hou-bou",
+      "kanji": [
+        "訪",
+        "放",
+        "防"
+      ],
+      "title": "訪 vs 放 vs 防",
+      "difference": "All share 方 (direction). 訪 has 言 (words) on the left, 放 has 攵 (strike) on the right, 防 has ⻖ (hill) on the left.",
+      "hints": {
+        "訪": "言 words + 方: calling on someone - 'visit'",
+        "放": "方 + 攵: let it go - 'release'",
+        "防": "⻖ wall + 方 - 'defend, prevent'"
+      }
+    },
+    {
+      "slug": "setsu-un-den",
+      "kanji": [
+        "雪",
+        "雲",
+        "電"
+      ],
+      "title": "雪 vs 雲 vs 電",
+      "difference": "All have 雨 (rain) on top. 雪 has ヨ (a hand/broom) underneath, 雲 has 云 (say/cloud), 電 has a 申-like lightning bolt.",
+      "hints": {
+        "雪": "a broom sweeping rain - 'snow'",
+        "雲": "云 rising vapour - 'cloud'",
+        "電": "lightning bolt - 'electricity'"
+      }
+    },
+    {
+      "slug": "juu-chuu-chuu-chuu",
+      "kanji": [
+        "住",
+        "注",
+        "柱",
+        "駐"
+      ],
+      "title": "住 vs 注 vs 柱 vs 駐",
+      "difference": "All share 主 (master) on the right. 住 has 亻 (person), 注 has 氵 (water), 柱 has 木 (wood), 駐 has 馬 (horse).",
+      "hints": {
+        "住": "亻: a person staying - 'live'",
+        "注": "氵: 'pour'",
+        "柱": "木: 'pillar'",
+        "駐": "馬: stopping the horse - 'park, station'"
+      }
+    },
+    {
+      "slug": "gi-shi-batsu",
+      "kanji": [
+        "技",
+        "枝",
+        "抜"
+      ],
+      "title": "技 vs 枝 vs 抜",
+      "difference": "技 and 枝 share 支 (branch/support); 技 has 扌 (hand), 枝 has 木 (tree). 抜 also has 扌 but its right is 犮, with a dot.",
+      "hints": {
+        "技": "扌 hand + 支 - 'skill'",
+        "枝": "木 tree + 支 - 'branch'",
+        "抜": "扌 hand + 犮: pulling out - 'pull out'"
+      }
+    },
+    {
+      "slug": "tou-eki-setsu",
+      "kanji": [
+        "投",
+        "役",
+        "設"
+      ],
+      "title": "投 vs 役 vs 設",
+      "difference": "All share 殳 (weapon/strike) on the right. 投 has 扌 (hand), 役 has 彳 (step), 設 has 言 (words).",
+      "hints": {
+        "投": "扌 hand: 'throw'",
+        "役": "彳 going: duty - 'role, service'",
+        "設": "言 words: 'establish, set up'"
+      }
+    },
+    {
+      "slug": "ryo-zoku",
+      "kanji": [
+        "旅",
+        "族"
+      ],
+      "title": "旅 vs 族",
+      "difference": "Both have 方 on the left and a flag (𠂉) on the top right. Under the flag, 旅 has two small people; 族 has 矢 (arrow).",
+      "hints": {
+        "旅": "people marching under a flag - 'travel'",
+        "族": "矢 arrow under a flag - 'tribe, family'"
+      }
+    },
+    {
+      "slug": "so-so-jo",
+      "kanji": [
+        "祖",
+        "組",
+        "助"
+      ],
+      "title": "祖 vs 組 vs 助",
+      "difference": "All contain 且. 祖 has 礻 (altar) on the left, 組 has 糸 (thread) on the left, 助 has 力 (power) on the right.",
+      "hints": {
+        "祖": "礻 altar - 'ancestor'",
+        "組": "糸 thread - 'group, assemble'",
+        "助": "力 power - 'help'"
+      }
+    },
+    {
+      "slug": "rei-satsu",
+      "kanji": [
+        "礼",
+        "札"
+      ],
+      "title": "礼 vs 札",
+      "difference": "Both have 乚 (a hook) on the right. 礼 has 礻 (altar); 札 has 木 (wood).",
+      "hints": {
+        "礼": "礻 altar: bowing - 'courtesy, thanks'",
+        "札": "木 wooden board - 'tag, bill'"
+      }
+    },
+    {
+      "slug": "ka-ryou",
+      "kanji": [
+        "科",
+        "料"
+      ],
+      "title": "科 vs 料",
+      "difference": "Both have 斗 (measuring dipper) on the right. 科 has 禾 (grain stalk); 料 has 米 (rice).",
+      "hints": {
+        "科": "禾 + 斗: sorting grain - 'department, course'",
+        "料": "米 rice + 斗: measuring materials - 'fee, ingredients'"
+      }
+    },
+    {
+      "slug": "ki-i",
+      "kanji": [
+        "季",
+        "委"
+      ],
+      "title": "季 vs 委",
+      "difference": "Both have 禾 (grain) on top. 季 has 子 (child) underneath; 委 has 女 (woman).",
+      "hints": {
+        "季": "禾 + 子: young crops - 'season'",
+        "委": "禾 + 女: leaving it to someone - 'entrust, committee'"
+      }
+    },
+    {
+      "slug": "shi-fu",
+      "kanji": [
+        "市",
+        "布"
+      ],
+      "title": "市 vs 布",
+      "difference": "Both end in 巾 (cloth). 市 has 亠 (lid with a dot) on top; 布 has ナ (a hand) crossing it.",
+      "hints": {
+        "市": "亠 + 巾: banner over a stall - 'market, city'",
+        "布": "hand + 巾 - 'cloth'"
+      }
+    },
+    {
+      "slug": "kon-rei-rei",
+      "kanji": [
+        "今",
+        "令",
+        "冷"
+      ],
+      "title": "今 vs 令 vs 冷",
+      "difference": "今 and 令 both have 𠆢 (roof) and a line; 今 ends in a フ-like stroke, 令 ends in 卩 (kneeling person). 冷 is 令 with 冫 (ice) on the left.",
+      "hints": {
+        "今": "𠆢 over a stroke - 'now'",
+        "令": "𠆢 over a kneeling person - 'orders'",
+        "冷": "冫 ice + 令 - 'cold'"
+      }
+    },
+    {
+      "slug": "tai-tsui",
+      "kanji": [
+        "退",
+        "追"
+      ],
+      "title": "退 vs 追",
+      "difference": "Both have 辶 (road). 退 has 艮 (stopping); 追 has 𠂤 (a column of two boxes).",
+      "hints": {
+        "退": "艮 stopping + road: stepping back - 'retreat'",
+        "追": "𠂤 + road: going after - 'chase'"
+      }
+    },
+    {
+      "slug": "tai-ka-shi",
+      "kanji": [
+        "貸",
+        "貨",
+        "資"
+      ],
+      "title": "貸 vs 貨 vs 資",
+      "difference": "All have 貝 (money) at the bottom. 貸 has 代 (substitute) on top, 貨 has 化 (change), 資 has 次 (next).",
+      "hints": {
+        "貸": "代 + 貝 - 'lend'",
+        "貨": "化 + 貝 - 'goods, freight'",
+        "資": "次 + 貝 - 'resources, capital'"
+      }
+    },
+    {
+      "slug": "shi-tei-tei",
+      "kanji": [
+        "紙",
+        "低",
+        "底"
+      ],
+      "title": "紙 vs 低 vs 底",
+      "difference": "紙 has 氏 (clan) on the right with 糸 (thread). 低 and 底 have 氐, which is 氏 with an extra dot at the bottom; 低 has 亻 (person), 底 has 广 (building).",
+      "hints": {
+        "紙": "糸 thread + 氏: fibre sheets - 'paper'",
+        "低": "亻 person + 氐 - 'low'",
+        "底": "广 building + 氐 - 'bottom'"
+      }
+    },
+    {
+      "slug": "ryoku-roku",
+      "kanji": [
+        "緑",
+        "録"
+      ],
+      "title": "緑 vs 録",
+      "difference": "Both share 彔 on the right. 緑 has 糸 (thread); 録 has 金 (metal).",
+      "hints": {
+        "緑": "糸 dyed thread - 'green'",
+        "録": "金 metal engraving - 'record'"
+      }
+    }
+  ]
+}

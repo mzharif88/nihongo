@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useState, useTransition } from "react";
 import { KanjiScope, useKanjiAllowance } from "@/components/kanji-scope";
 import { Ruby } from "@/components/ruby";
+import { groupsWith } from "@/lib/kanji/groups";
 import { higherLevel, kanjiAllowed } from "@/lib/kanji-levels";
 import { isMarkup, stripMarkup } from "@/lib/furigana";
 import type { StudyCard } from "@/lib/study/cards";
@@ -245,6 +246,18 @@ function Intro({ card, onDone }: { card: StudyCard; onDone: () => void }) {
           <div>
             <dt className="text-xs text-muted">Memory hint</dt>
             <dd>{r.mnemonic}</dd>
+          </div>
+        )}
+        {card.itemType === "kanji" && groupsWith(r.term).length > 0 && (
+          <div>
+            <dt className="text-xs text-muted">Compare with</dt>
+            <dd className="flex flex-wrap gap-2">
+              {groupsWith(r.term).map((g) => (
+                <Link key={g.slug} href={`/kanji/${g.slug}`} className="text-accent underline" lang="ja">
+                  {g.kanji.join(" ")}
+                </Link>
+              ))}
+            </dd>
           </div>
         )}
         {r.example && (

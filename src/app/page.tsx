@@ -131,6 +131,11 @@ export default async function HomePage() {
           <div className="text-lg font-bold">Reading</div>
           <div className="mt-1 text-xs text-muted">Graded passages with furigana</div>
         </Link>
+        <Link href="/kanji" className="col-span-2 rounded-xl border border-border bg-card p-4 hover:border-accent">
+          <div className="text-xs text-muted">Kanji</div>
+          <div className="text-lg font-bold">Kanji side by side</div>
+          <div className="mt-1 text-xs text-muted">Look-alikes and sound families: compare, then quiz the difference</div>
+        </Link>
         <Link href="/listening" className="col-span-2 rounded-xl border border-border bg-card p-4 hover:border-accent">
           <div className="text-xs text-muted">Practice</div>
           <div className="text-lg font-bold">Listening</div>
