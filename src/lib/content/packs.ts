@@ -86,6 +86,10 @@ export const PACK_GROUPS: PackGroup[] = [
       { file: "n3-1-questions.json", label: "N3 mock test 1: 52 questions" },
       { file: "n2-1-test.json", label: "N2 mock test 1" },
       { file: "n2-1-questions.json", label: "N2 mock test 1: 56 questions" },
+      { file: "n3-2-test.json", label: "N3 mock test 2" },
+      { file: "n3-2-questions.json", label: "N3 mock test 2: 52 questions" },
+      { file: "n2-2-test.json", label: "N2 mock test 2" },
+      { file: "n2-2-questions.json", label: "N2 mock test 2: 58 questions, with 問題13" },
     ],
   },
   {
@@ -101,6 +105,21 @@ export const PACK_GROUPS: PackGroup[] = [
       { file: "n3-questions.json", label: "N3 reading questions" },
       { file: "n2-texts.json", label: "N2 readings: 5 passages" },
       { file: "n2-questions.json", label: "N2 reading questions" },
+    ],
+  },
+  {
+    id: "listening",
+    title: "Listening drills",
+    description: "Original listening sets in JLPT format, one part per set; each question carries its script. Import the sets before their questions.",
+    packs: [
+      { file: "n5-texts.json", label: "N5 listening: 4 sets" },
+      { file: "n5-questions.json", label: "N5 listening questions: 20" },
+      { file: "n4-texts.json", label: "N4 listening: 4 sets" },
+      { file: "n4-questions.json", label: "N4 listening questions: 20" },
+      { file: "n3-texts.json", label: "N3 listening: 5 sets" },
+      { file: "n3-questions.json", label: "N3 listening questions: 25" },
+      { file: "n2-texts.json", label: "N2 listening: 5 sets" },
+      { file: "n2-questions.json", label: "N2 listening questions: 25" },
     ],
   },
 ];
