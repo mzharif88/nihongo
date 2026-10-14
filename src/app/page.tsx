@@ -13,10 +13,11 @@ import { signOut } from "./login/actions";
 
 export default async function HomePage() {
   const { supabase, profile } = await requireUser();
-  const [session, { data: game }, allLessons] = await Promise.all([
+  const [session, { data: game }, allLessons, { count: listeningSets }] = await Promise.all([
     loadStudySession(supabase, profile),
     supabase.from("gamification").select("xp, streak").eq("user_id", profile.id).maybeSingle(),
     loadLessonList(supabase, profile.id),
+    supabase.from("texts").select("id", { count: "exact", head: true }).eq("kind", "listening").eq("status", "live"),
   ]);
   const situations = allLessons.filter((l) => isSituation(l.slug));
   const lessons = allLessons.filter((l) => !isSituation(l.slug));
@@ -28,7 +29,7 @@ export default async function HomePage() {
   const studyHref = (t: Topic) => `/study?topic=${encodeURIComponent(t.id)}`;
 
   const done = await loadTodayDone(supabase, profile, allLessons);
-  const available = new Set<PracticeKind>(["reading", "builder", "mock", ...(situations.length ? (["situation"] as const) : [])]);
+  const available = new Set<PracticeKind>(["reading", "builder", "mock", ...(situations.length ? (["situation"] as const) : []), ...(listeningSets ? (["listening"] as const) : [])]);
   const plan = dailyPlan({
     pace,
     totalDue: session.totalDue,
@@ -128,6 +129,11 @@ export default async function HomePage() {
           <div className="text-xs text-muted">Practice</div>
           <div className="text-lg font-bold">Reading</div>
           <div className="mt-1 text-xs text-muted">Graded passages with furigana</div>
+        </Link>
+        <Link href="/listening" className="col-span-2 rounded-xl border border-border bg-card p-4 hover:border-accent">
+          <div className="text-xs text-muted">Practice</div>
+          <div className="text-lg font-bold">Listening</div>
+          <div className="mt-1 text-xs text-muted">Drills in the JLPT listening format, N5 to N2</div>
         </Link>
         {situations.length > 0 && (
           <Link href="/situations" className="col-span-2 rounded-xl border border-border bg-card p-4 hover:border-accent">

@@ -11,7 +11,7 @@
  * slugs so a wrong answer can send them to SRS, and sets the mock's time
  * limit from the official minutes per question.
  */
-import { readdirSync, readFileSync, writeFileSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { hasKanji } from "../src/lib/furigana";
 import { IMPORT_FORMAT_VERSION, parseImport, type ContentKind } from "../src/lib/content/schema";
@@ -115,32 +115,36 @@ async function main() {
     );
   }
 
-  for (const file of readdirSync(join(CONTENT, "reading")).filter((f) => f.endsWith(".source.json"))) {
-    const name = file.replace(".source.json", "");
-    const src = JSON.parse(readFileSync(join(CONTENT, "reading", file), "utf8"));
-    const texts = src.texts as { slug: string; jlpt_level: string; title: string; body: string; questions: SourceQuestion[] }[];
-    write(
-      "reading",
-      `${name}-texts.json`,
-      "texts",
-      "original-reading",
-      texts.map((t) => ({ slug: t.slug, jlpt_level: t.jlpt_level, kind: "reading", title: m(t.title), body: m(t.body) })),
-    );
-    write(
-      "reading",
-      `${name}-questions.json`,
-      "questions",
-      "original-reading",
-      texts.flatMap((t) =>
-        t.questions.map((q, i) => ({
-          slug: `${t.slug}-q${i + 1}`,
-          text_slug: t.slug,
-          position: i + 1,
-          jlpt_level: t.jlpt_level,
-          ...question({ ...q, section: "reading" }, m, resolve, `${t.slug} q${i + 1}`),
-        })),
-      ),
-    );
+  // Reading passages, and listening drills (the "text" is the set; each question carries its own script).
+  for (const kind of ["reading", "listening"] as const) {
+    if (!existsSync(join(CONTENT, kind))) continue;
+    for (const file of readdirSync(join(CONTENT, kind)).filter((f) => f.endsWith(".source.json"))) {
+      const name = file.replace(".source.json", "");
+      const src = JSON.parse(readFileSync(join(CONTENT, kind, file), "utf8"));
+      const texts = src.texts as { slug: string; jlpt_level: string; title: string; body: string; questions: SourceQuestion[] }[];
+      write(
+        kind,
+        `${name}-texts.json`,
+        "texts",
+        `original-${kind}`,
+        texts.map((t) => ({ slug: t.slug, jlpt_level: t.jlpt_level, kind, title: m(t.title), body: m(t.body) })),
+      );
+      write(
+        kind,
+        `${name}-questions.json`,
+        "questions",
+        `original-${kind}`,
+        texts.flatMap((t) =>
+          t.questions.map((q, i) => ({
+            slug: `${t.slug}-q${i + 1}`,
+            text_slug: t.slug,
+            position: i + 1,
+            jlpt_level: t.jlpt_level,
+            ...question({ ...q, section: kind }, m, resolve, `${t.slug} q${i + 1}`),
+          })),
+        ),
+      );
+    }
   }
 }
 

@@ -23,19 +23,28 @@ export async function loadTodayDone(
     if (error) throw new Error(error.message);
     return count ?? 0;
   };
-  const [reviews, reading, builder, mock] = await Promise.all([
+  const [reviews, texts, builder, mock] = await Promise.all([
     count("reviews", "reviewed_at"),
-    count("text_progress", "completed_at"),
+    // Reading passages and listening sets share text_progress; split them by the text's kind.
+    supabase
+      .from("text_progress")
+      .select("texts!inner(kind)")
+      .eq("user_id", profile.id)
+      .gte("completed_at", sinceIso)
+      .then(({ data, error }) => {
+        if (error) throw new Error(error.message);
+        return (data as unknown as { texts: { kind: string } }[]).map((r) => r.texts.kind);
+      }),
     count("builder_progress", "completed_at"),
     count("mock_attempts", "finished_at"),
   ]);
   const today = lessons.filter((l) => l.progress && Date.parse(l.progress.completed_at) >= since.getTime());
   return {
     reviews,
-    reading,
+    reading: texts.filter((k) => k === "reading").length,
+    listening: texts.filter((k) => k === "listening").length,
     builder,
     mock,
-    listening: 0,
     lessons: today.filter((l) => !isSituation(l.slug)).length,
     situations: today.filter((l) => isSituation(l.slug)).length,
   };

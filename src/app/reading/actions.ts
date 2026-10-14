@@ -3,7 +3,7 @@
 import { revalidatePath } from "next/cache";
 import { requireUser } from "@/lib/auth";
 import { queueForReview } from "@/lib/mock/mock.server";
-import { loadReading } from "@/lib/reading/reading.server";
+import { loadReading, type TextKind } from "@/lib/reading/reading.server";
 import { awardXp } from "@/lib/study/award.server";
 import { XP_CORRECT, XP_WRONG } from "@/lib/study/streak";
 
@@ -15,10 +15,11 @@ export interface ReadingResult {
   streak: number;
 }
 
-/** Finish a reading passage: score its questions on the server, keep the best score, log misses, award XP. */
-export async function completeReading(slug: string, answers: (number | null)[]): Promise<ReadingResult> {
+/** Finish a reading passage or listening set: score its questions on the server, keep the best score, log misses, award XP. */
+export async function completeReading(slug: string, answers: (number | null)[], kind: TextKind = "reading"): Promise<ReadingResult> {
   const { supabase, user, profile } = await requireUser();
-  const loaded = await loadReading(supabase, user.id, slug);
+  if (kind !== "reading" && kind !== "listening") throw new Error("Unknown kind.");
+  const loaded = await loadReading(supabase, user.id, slug, kind);
   if (!loaded) throw new Error("Passage not found.");
   const { text, questions, progress } = loaded;
   const now = new Date();
@@ -50,6 +51,6 @@ export async function completeReading(slug: string, answers: (number | null)[]):
   const xpGained = score * XP_CORRECT + (questions.length - score) * XP_WRONG;
   const { streak } = await awardXp(supabase, user.id, profile.timezone, xpGained, now);
   revalidatePath("/");
-  revalidatePath("/reading");
+  revalidatePath(`/${kind}`);
   return { score, max: questions.length, correct, xpGained, streak };
 }

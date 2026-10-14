@@ -17,10 +17,13 @@ export interface TextSummary extends Omit<TextRow, "body"> {
 
 const rank = ["preN5", "N5", "N4", "N3", "N2", "N1"];
 
-/** Live reading passages in level order with the learner's best score. */
-export async function loadReadingList(supabase: SupabaseClient, userId: string): Promise<TextSummary[]> {
+/** Reading passages, or listening drill sets (same tables: each listening question carries its own script). */
+export type TextKind = "reading" | "listening";
+
+/** Live reading passages (or listening sets) in level order with the learner's best score. */
+export async function loadReadingList(supabase: SupabaseClient, userId: string, kind: TextKind = "reading"): Promise<TextSummary[]> {
   const [{ data: texts, error }, { data: questions, error: qError }, { data: progress, error: pError }] = await Promise.all([
-    supabase.from("texts").select("id, slug, jlpt_level, title").eq("kind", "reading").eq("status", "live"),
+    supabase.from("texts").select("id, slug, jlpt_level, title").eq("kind", kind).eq("status", "live"),
     supabase.from("questions").select("text_slug").eq("status", "live").not("text_slug", "is", null),
     supabase.from("text_progress").select("text_id, best_score, max_score, attempts").eq("user_id", userId),
   ]);
@@ -35,12 +38,12 @@ export async function loadReadingList(supabase: SupabaseClient, userId: string):
     .sort((a, b) => rank.indexOf(a.jlpt_level) - rank.indexOf(b.jlpt_level) || a.slug.localeCompare(b.slug));
 }
 
-export async function loadReading(supabase: SupabaseClient, userId: string, slug: string) {
+export async function loadReading(supabase: SupabaseClient, userId: string, slug: string, kind: TextKind = "reading") {
   const { data: text, error } = await supabase
     .from("texts")
     .select("id, slug, jlpt_level, title, body")
     .eq("slug", slug)
-    .eq("kind", "reading")
+    .eq("kind", kind)
     .eq("status", "live")
     .maybeSingle<TextRow>();
   if (error) throw new Error(error.message);
