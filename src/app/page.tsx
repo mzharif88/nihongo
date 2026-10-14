@@ -110,6 +110,9 @@ export default async function HomePage() {
         <Link href="/builder" className="font-medium text-accent underline">
           Sentence builder →
         </Link>
+        <Link href="/placement" className="text-muted underline">
+          Placement test
+        </Link>
         <Link href="/lessons" className="text-muted underline">
           All lessons
         </Link>

@@ -26,6 +26,13 @@ export default async function CoursePage() {
         {profile.target_level === "N1" ? "; the course covers up to N2 for now" : ""}). Each unit teaches a kanji, its parts and
         the words that use it, so new words are readable with kanji you&apos;ve just met. It re-plans after every unit.
       </p>
+      <p className="mt-2 text-sm">
+        Already know some words?{" "}
+        <Link href="/placement" className="font-medium text-accent underline">
+          Take the placement test
+        </Link>{" "}
+        to skip them.
+      </p>
 
       <section className="mt-6 space-y-3">
         {course.levels.map((l) => (
