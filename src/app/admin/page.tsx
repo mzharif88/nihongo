@@ -56,10 +56,6 @@ export default async function AdminOverview() {
         </table>
       </div>
       <div className="mt-6 grid gap-3 sm:grid-cols-2">
-        <Link href="/admin/import" className="rounded-xl border border-border bg-card p-4 hover:border-accent">
-          <div className="font-medium">Import JSON</div>
-          <div className="text-sm text-muted">Drafts from Claude chat, or the old NihonGo! content packs.</div>
-        </Link>
         <a href="/admin/export" className="rounded-xl border border-border bg-card p-4 hover:border-accent">
           <div className="font-medium">Download weekly export</div>
           <div className="text-sm text-muted">Your review history, SRS state and all content as JSON.</div>

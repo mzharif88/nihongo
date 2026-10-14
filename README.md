@@ -14,7 +14,7 @@ This is a fresh build. The old NihonGo! app (React + Vite) lives on the
 | --- | --- |
 | Auth | Supabase Auth email + password; public sign-up off; every page needs a session |
 | Database | Full schema with RLS on every table (`supabase/migrations`) |
-| Admin console | `/admin`: content counts, browse/filter, JSON editor, bulk review queue (draft → reviewed → live), JSON import, full JSON export |
+| Admin console | `/admin`: content counts, browse/filter, JSON editor, bulk review queue (draft → reviewed → live), full JSON export |
 | Content | Old NihonGo! content (`content/legacy`) plus N5–N2 kanji and vocabulary from open data (`content/opendata`, ~6,300 items); `/attributions` credits the sources |
 | SRS | `/study`: every due review (no cap) then the next 10 new items, with "Keep going" for more and no daily limit; `/study?topic=…` studies one topic (resumes where you left off, since every answer is saved); all cards multiple choice; furigana over kanji everywhere (hidden only when the reading is the answer); XP and streaks |
 | Home | Study everything, Continue (last topic), and a topic grid (scripts, kanji and words by level, word topics) with progress and due counts; pace card shows the exam-date target as a guide only; `/settings` for level, exam date, goal and timezone |
@@ -22,6 +22,7 @@ This is a fresh build. The old NihonGo! app (React + Vite) lives on the
 | N3 | 25 original N3 grammar points, 6 N3 lessons (job interview, health habits, news, overtime, lateness, transfer), 8 N3 builder patterns (40 sentences), N3 mock test 1 (52 questions in three scored sections) and 5 N3 reading passages |
 | N2 | 25 original N2 grammar points, 6 N2 lessons (budget meeting, signing a lease, environment seminar, complaint handling, career advice, disaster drill), 8 N2 builder patterns (40 sentences), N2 mock test 1 (56 questions in the N2 paper layout: one language-and-reading paper, then listening) and 5 N2 reading passages |
 | Situations | 12 everyday-situation lessons in 4 groups (public transport, restaurants, shopping, convenience store): key phrases, a scene dialogue and 6 understand-and-respond checks each, on their own page and open in any order |
+| Adaptive course | `/course`: plans units from the words and kanji you haven't started, N5 up to your target (capped at N2 for now). Each unit teaches a kanji (its parts first if new) with the words that use it, then fill-in-the-blank practice in sentences that combine the unit's words, then refreshers for words you keep missing. Unit size adapts to recent review accuracy and the review backlog. Rule-based (`src/lib/course/engine.ts`); AI-written sentences can plug in later as another sentence source in `src/lib/course/unit.ts` |
 | Lessons | `/lessons`: 5 original N5 situation lessons (introductions, konbini, station, time, restaurant). Each runs situation → new words → grammar → dialogue (tap to hear, English toggle) → 3 quick checks; checks are scored on the server, finishing adds the words to SRS, logs wrong checks as mistakes and unlocks the next lesson. Leaving halfway resumes at the same step. Furigana throughout |
 | Sentence builder | `/builder`: the 12 N5 sentence patterns, 5 sentences each. Tap tiles into order (with decoy tiles; furigana on every tile), check, hear it read; other natural word orders count. Runs are scored on the server; best score per pattern is kept, wrong sentences are logged as mistakes, XP and streak count. Leaving halfway resumes |
 | JLPT Center | `/mock`: original N5 mock test 1 (51 questions) in real JLPT order — vocabulary, grammar & reading, listening — with a timer per paper at the official minutes per question. Exam conditions (timed, no furigana, counts towards the pass record) or practice mode (untimed, furigana except on the answer, listening scripts). Listening is read aloud by the device voice. Results show a predicted score per scoring section against the real pass lines and sectional minimums, accuracy by part, and a full review; every miss is logged and its words go into reviews |
@@ -57,8 +58,11 @@ under row-level security.
 
 ### 3. Load the old content
 
-Sign in, open **Admin → Import**, and import the four "Old NihonGo!" packs top
-to bottom. They land as drafts; review and publish them from **Admin → Content**.
+Content packs live in `content/` (listed in `src/lib/content/packs.ts`, in
+import order) and are loaded into the database with SQL: fetch each pack from
+the repo at a commit (`extensions.http_get`) and upsert its records by slug as
+live. The admin console no longer imports; use **Admin → Content** to browse,
+edit and change status.
 
 ## Development
 
@@ -92,7 +96,7 @@ Hand-written sources can name words by spelling (`"友達"`) instead of slug; `s
 Memory hints for words and kanji are built only from kanji parts (男 = 田 rice field + 力 power; 学生 = 学 study + 生 life), never English sound-alikes. `scripts/kanji-hints.ts` generates them from KRADFILE when the packs are built; words written only in kana get no hint.
 
 Drafted in Claude chat with the templates in `docs/prompts/`, saved as JSON in
-the format in `docs/import-format.md`, imported as drafts, and reviewed before
+the format in `docs/import-format.md`, built into packs, and reviewed before
 going live. Only original content and open-licensed data (JMdict, KANJIDIC2,
 KanjiVG, Tatoeba) with attribution. Never copy content from other apps or
 textbooks.

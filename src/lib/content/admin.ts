@@ -1,6 +1,6 @@
 import "server-only";
 import type { SupabaseClient } from "@supabase/supabase-js";
-import { CONTENT_STATUSES, JLPT_LEVELS, type ContentKind, type ContentStatus, type ParsedImport } from "./schema";
+import { CONTENT_STATUSES, JLPT_LEVELS, type ContentKind, type ContentStatus } from "./schema";
 
 export const KIND_LABELS: Record<ContentKind, string> = {
   items: "Items",
@@ -24,40 +24,8 @@ export const TITLE_COLUMN: Record<ContentKind, string> = {
 /** Columns managed by the database or the review queue, never edited as content. */
 export const SYSTEM_COLUMNS = ["id", "status", "source", "created_at", "updated_at"];
 
+/** Rows per write when changing statuses in bulk. */
 const CHUNK = 250;
-
-export interface ImportResult {
-  upserted: number;
-  failed: { slugs: string[]; message: string }[];
-}
-
-/**
- * Upsert validated records by slug in chunks and log each one in
- * content_reviews as (re)entering draft. Runs as the signed-in admin, so RLS
- * still decides whether the write is allowed.
- */
-export async function importRecords(supabase: SupabaseClient, parsed: ParsedImport): Promise<ImportResult> {
-  const result: ImportResult = { upserted: 0, failed: [] };
-  for (let i = 0; i < parsed.records.length; i += CHUNK) {
-    const chunk = parsed.records.slice(i, i + CHUNK);
-    const { data, error } = await supabase.from(parsed.kind).upsert(chunk, { onConflict: "slug" }).select("id");
-    if (error) {
-      result.failed.push({ slugs: chunk.map((r) => String(r.slug)), message: error.message });
-      continue;
-    }
-    result.upserted += data.length;
-    const { error: logError } = await supabase.from("content_reviews").insert(
-      data.map((row) => ({
-        content_table: parsed.kind,
-        content_id: row.id,
-        to_status: "draft",
-        notes: `imported from ${parsed.source}`,
-      })),
-    );
-    if (logError) result.failed.push({ slugs: [], message: `saved, but review log failed: ${logError.message}` });
-  }
-  return result;
-}
 
 /** Move rows that are currently in `from` to `to`, logging each transition. */
 export async function changeStatus(

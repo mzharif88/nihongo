@@ -25,6 +25,8 @@ export interface StudyCard {
   itemId: string;
   cardType: CardType;
   isNew: boolean;
+  /** Practice only (course context cards): answered and shown, never sent to the scheduler. */
+  practice?: boolean;
   /** Every card is multiple choice; the app grades the answer. */
   mode: "choice";
   question: string;

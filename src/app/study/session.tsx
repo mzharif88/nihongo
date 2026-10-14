@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useState, useTransition } from "react";
 import { Ruby } from "@/components/ruby";
-import { isMarkup } from "@/lib/furigana";
+import { isMarkup, stripMarkup } from "@/lib/furigana";
 import type { StudyCard } from "@/lib/study/cards";
 import { XP_CORRECT, XP_WRONG } from "@/lib/study/streak";
 import { recordAnswer } from "./actions";
@@ -22,9 +22,13 @@ interface Props {
   cards: StudyCard[];
   /** Where "Keep going" loads the next batch, or null when nothing is left. */
   keepGoingHref: string | null;
+  /** Logged with each answer; course units say "course". */
+  source?: "srs" | "course";
+  /** The finish screen's way out. */
+  doneLink?: { href: string; label: string };
 }
 
-export function StudySession({ title, cards: initial, keepGoingHref }: Props) {
+export function StudySession({ title, cards: initial, keepGoingHref, source = "srs", doneLink = { href: "/", label: "Pick another topic" } }: Props) {
   const [queue, setQueue] = useState(initial);
   const [repeats, setRepeats] = useState<Record<string, number>>({});
   const [phase, setPhase] = useState<Phase>(initial[0]?.isNew ? "intro" : "question");
@@ -58,22 +62,26 @@ export function StudySession({ title, cards: initial, keepGoingHref }: Props) {
     const wasCorrect = correct;
     startSaving(async () => {
       try {
-        const result = await recordAnswer({
-          itemId: current.itemId,
-          cardType: current.cardType,
-          correct: wasCorrect,
-          msTaken: answerMs,
-          given: current.options?.[picked ?? -1],
-        });
+        // Practice cards are shown and scored here only; they never reach the scheduler.
+        const result = current.practice
+          ? { streak: stats.streak, due: "" }
+          : await recordAnswer({
+              itemId: current.itemId,
+              cardType: current.cardType,
+              correct: wasCorrect,
+              msTaken: answerMs,
+              given: current.options?.[picked ?? -1],
+              source,
+            });
         setError(null);
         setStats((s) => ({
           done: s.done + 1,
           right: s.right + (wasCorrect ? 1 : 0),
-          xp: s.xp + (wasCorrect ? XP_CORRECT : XP_WRONG),
+          xp: s.xp + (current.practice ? 0 : wasCorrect ? XP_CORRECT : XP_WRONG),
           streak: result.streak,
         }));
         const count = repeats[current.key] ?? 0;
-        const again = new Date(result.due).getTime() - Date.now() < REQUEUE_WINDOW_MS && count < MAX_REPEATS;
+        const again = !current.practice && new Date(result.due).getTime() - Date.now() < REQUEUE_WINDOW_MS && count < MAX_REPEATS;
         const rest = queue.slice(1);
         const nextQueue = again ? [...rest, { ...current, isNew: false }] : rest;
         if (again) setRepeats((r) => ({ ...r, [current.key]: count + 1 }));
@@ -102,8 +110,8 @@ export function StudySession({ title, cards: initial, keepGoingHref }: Props) {
             Keep going
           </a>
         )}
-        <Link href="/" className="mt-3 rounded-lg border border-border px-4 py-2.5 font-medium">
-          Pick another topic
+        <Link href={doneLink.href} className="mt-3 rounded-lg border border-border px-4 py-2.5 font-medium">
+          {doneLink.label}
         </Link>
       </main>
     );
@@ -136,7 +144,9 @@ export function StudySession({ title, cards: initial, keepGoingHref }: Props) {
             {card.question}
           </p>
           <div
-            className={`my-6 text-center font-bold ${card.promptIsJapanese ? "text-6xl" : "text-3xl"} break-words`}
+            className={`my-6 text-center font-bold ${
+              !card.promptIsJapanese ? "text-3xl" : stripMarkup(card.prompt).length > 8 ? "text-2xl leading-loose" : "text-6xl"
+            } break-words`}
             lang={card.promptIsJapanese ? "ja" : "en"}
           >
             {card.promptIsJapanese ? <Ruby text={card.prompt} reading={card.promptReading} /> : card.prompt}

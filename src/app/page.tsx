@@ -48,6 +48,15 @@ export default async function HomePage() {
         </div>
       </Link>
 
+      <Link href="/course" className="mt-3 flex items-center justify-between rounded-xl border border-border bg-card p-4 hover:border-accent">
+        <div>
+          <div className="text-xs text-muted">Adaptive course · up to {profile.target_level === "N1" ? "N2" : profile.target_level}</div>
+          <div className="text-lg font-bold">Your next unit</div>
+          <div className="text-xs text-muted">New kanji with the words that use them, sized to how you&apos;re doing</div>
+        </div>
+        <span className="text-2xl text-accent">→</span>
+      </Link>
+
       {lastTopic && (lastTopic.due > 0 || lastTopic.remaining > 0) && (
         <Link
           href={studyHref(lastTopic)}

@@ -1,79 +1,10 @@
 "use server";
 
-import { readFile } from "node:fs/promises";
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import { requireAdmin } from "@/lib/auth";
-import { changeStatus, changeStatusWhere, importRecords, parseFilters, SYSTEM_COLUMNS } from "@/lib/content/admin";
-import { PACK_GROUPS, packPath } from "@/lib/content/packs";
-import {
-  CONTENT_KINDS,
-  CONTENT_STATUSES,
-  isContentKind,
-  nextStatuses,
-  parseImport,
-  type ContentStatus,
-  type ImportIssue,
-} from "@/lib/content/schema";
-
-export interface ImportState {
-  message?: string;
-  error?: string;
-  issues?: ImportIssue[];
-}
-
-async function runImport(raw: string): Promise<ImportState> {
-  const { supabase } = await requireAdmin();
-  let json: unknown;
-  try {
-    json = JSON.parse(raw);
-  } catch {
-    return { error: "That isn't valid JSON." };
-  }
-  let parsed;
-  try {
-    parsed = parseImport(json);
-  } catch (e) {
-    return { error: (e as Error).message };
-  }
-  const result = await importRecords(supabase, parsed);
-  revalidatePath("/admin", "layout");
-  const failed = result.failed.reduce((n, f) => n + f.slugs.length, 0);
-  return {
-    message: `Imported ${result.upserted} ${parsed.kind} as drafts.${failed ? ` ${failed} failed to save.` : ""}${
-      parsed.issues.length ? ` ${parsed.issues.length} skipped as invalid.` : ""
-    }`,
-    error: result.failed.length ? result.failed.map((f) => f.message).join("; ") : undefined,
-    issues: parsed.issues,
-  };
-}
-
-export async function importJson(_prev: ImportState, formData: FormData): Promise<ImportState> {
-  const file = formData.get("file");
-  const pasted = String(formData.get("json") ?? "").trim();
-  if (file instanceof File && file.size > 0) return runImport(await file.text());
-  if (pasted) return runImport(pasted);
-  return { error: "Paste JSON or choose a file." };
-}
-
-export async function importBundled(_prev: ImportState, formData: FormData): Promise<ImportState> {
-  const path = packPath(String(formData.get("group") ?? ""), String(formData.get("pack") ?? ""));
-  if (!path) return { error: "Unknown pack." };
-  return runImport(await readFile(path, "utf8"));
-}
-
-/** Import every pack in a group, in order, stopping at the first pack that fails outright. */
-export async function importGroup(_prev: ImportState, formData: FormData): Promise<ImportState> {
-  const group = PACK_GROUPS.find((g) => g.id === formData.get("group"));
-  if (!group) return { error: "Unknown pack group." };
-  const messages: string[] = [];
-  for (const pack of group.packs) {
-    const result = await runImport(await readFile(packPath(group.id, pack.file)!, "utf8"));
-    messages.push(`${pack.label}: ${result.message ?? result.error}`);
-    if (!result.message) return { error: messages.join("\n") };
-  }
-  return { message: messages.join("\n") };
-}
+import { changeStatus, changeStatusWhere, parseFilters, SYSTEM_COLUMNS } from "@/lib/content/admin";
+import { CONTENT_KINDS, CONTENT_STATUSES, isContentKind, nextStatuses, type ContentStatus } from "@/lib/content/schema";
 
 export async function updateStatus(formData: FormData) {
   const { supabase } = await requireAdmin();
