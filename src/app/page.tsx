@@ -4,6 +4,9 @@ import { requireUser } from "@/lib/auth";
 import { isSituation } from "@/lib/lessons/lessons";
 import { loadLessonList } from "@/lib/lessons/lessons.server";
 import type { Pace } from "@/lib/study/pace";
+import { dailyPlan, type DailyPlan, type PracticeKind } from "@/lib/study/plan";
+import { loadTodayDone } from "@/lib/study/plan.server";
+import { localDate } from "@/lib/study/streak";
 import { loadStudySession } from "@/lib/study/session.server";
 import type { Topic } from "@/lib/study/topics";
 import { signOut } from "./login/actions";
@@ -24,6 +27,18 @@ export default async function HomePage() {
   const lastTopic = session.topics.find((t) => t.id === profile.study_topic) ?? null;
   const studyHref = (t: Topic) => `/study?topic=${encodeURIComponent(t.id)}`;
 
+  const done = await loadTodayDone(supabase, profile, allLessons);
+  const available = new Set<PracticeKind>(["reading", "builder", "mock", ...(situations.length ? (["situation"] as const) : [])]);
+  const plan = dailyPlan({
+    pace,
+    totalDue: session.totalDue,
+    introducedToday: session.introducedToday,
+    done,
+    weekday: new Date(`${localDate(new Date(), profile.timezone)}T00:00:00Z`).getUTCDay(),
+    nextLessonHref: nextLesson ? `/lessons/${nextLesson.slug}` : null,
+    available,
+  });
+
   return (
     <main className="mx-auto max-w-xl px-4 py-8">
       <header className="flex items-center justify-between">
@@ -34,6 +49,8 @@ export default async function HomePage() {
           <button className="text-sm text-muted underline">Sign out</button>
         </form>
       </header>
+
+      <TodayPlan plan={plan} targetLevel={profile.target_level} examDate={profile.exam_date} />
 
       <section className="mt-6 grid grid-cols-3 gap-3 text-center">
         <Stat label="Due now" value={session.totalDue} />
@@ -152,6 +169,60 @@ export default async function HomePage() {
   );
 }
 
+const formatDate = (d: string) =>
+  new Date(`${d}T00:00:00`).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" });
+
+/** The countdown and today's checklist; each task ticks itself off from what was done today. */
+function TodayPlan({ plan, targetLevel, examDate }: { plan: DailyPlan; targetLevel: string; examDate: string | null }) {
+  const all = plan.doneCount === plan.tasks.length;
+  return (
+    <section className="mt-6 rounded-xl border-2 border-accent bg-card p-4">
+      <div className="flex items-baseline justify-between gap-2">
+        <h2 className="font-bold">Today&apos;s plan</h2>
+        <span className="text-sm tabular-nums text-muted">
+          {plan.doneCount}/{plan.tasks.length} done
+        </span>
+      </div>
+      {plan.daysLeft !== null && examDate ? (
+        <p className="mt-1 text-sm">
+          <span className="text-2xl font-bold tabular-nums">{plan.daysLeft}</span> days to {targetLevel} · {formatDate(examDate)}
+          {plan.phase === "review" && <span className="text-muted"> · final weeks: reviews and mocks</span>}
+        </p>
+      ) : (
+        <p className="mt-1 text-sm text-muted">
+          <Link href="/settings" className="underline">
+            Set your exam date
+          </Link>{" "}
+          for a countdown.
+        </p>
+      )}
+      <ul className="mt-3 space-y-2">
+        {plan.tasks.map((t) => (
+          <li key={t.id}>
+            <Link href={t.href} className="flex items-center gap-3 rounded-lg border border-border p-3 hover:border-accent">
+              <span
+                aria-hidden
+                className={`flex h-6 w-6 shrink-0 items-center justify-center rounded-full border-2 text-sm font-bold ${
+                  t.done ? "border-accent bg-accent text-white" : "border-border"
+                }`}
+              >
+                {t.done ? "✓" : ""}
+              </span>
+              <span className="min-w-0 flex-1">
+                <span className={`block font-medium ${t.done ? "text-muted line-through" : ""}`}>{t.label}</span>
+                <span className="block text-xs text-muted">{t.detail}</span>
+              </span>
+              <span className="sr-only">{t.done ? "done" : "to do"}</span>
+              {!t.done && <span className="text-accent">→</span>}
+            </Link>
+          </li>
+        ))}
+      </ul>
+      {all && <p className="mt-3 text-sm font-medium text-accent">All done for today. Extra study still counts.</p>}
+    </section>
+  );
+}
+
 const INTENSITY_NOTE: Record<Pace["intensity"], string> = {
   "no-date": "Set an exam date to get a daily pace.",
   past: "Your exam date has passed. Set the next one.",
@@ -182,7 +253,7 @@ function PaceCard({
       <div className="flex items-baseline justify-between">
         <h2 className="font-medium">
           {targetLevel}
-          {examDate ? ` · ${new Date(`${examDate}T00:00:00`).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" })}` : ""}
+          {examDate ? ` · ${formatDate(examDate)}` : ""}
         </h2>
         <Link href="/settings" className="text-sm text-muted underline">
           Settings

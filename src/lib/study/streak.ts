@@ -40,3 +40,24 @@ export function advanceStreak(state: StreakState, today: string): StreakState {
   }
   return { streak, freezes, longest_streak: Math.max(state.longest_streak, streak), last_study_date: today };
 }
+
+/** The instant local midnight began on `now`'s date in the learner's timezone. */
+export function startOfLocalDay(now: Date, timeZone: string = DEFAULT_TIMEZONE): Date {
+  const guess = Date.parse(`${localDate(now, timeZone)}T00:00:00Z`);
+  const parts = Object.fromEntries(
+    new Intl.DateTimeFormat("en-US", {
+      timeZone,
+      hourCycle: "h23",
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit",
+      second: "2-digit",
+    })
+      .formatToParts(new Date(guess))
+      .map((p) => [p.type, p.value]),
+  );
+  const wall = Date.UTC(+parts.year, +parts.month - 1, +parts.day, +parts.hour, +parts.minute, +parts.second);
+  return new Date(guess - (wall - guess));
+}
