@@ -14,7 +14,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "ああ",
-   "romaji": "aa"
+   "romaji": "aa",
+   "topic": "Greetings & Basics"
   },
   {
    "slug": "vocab-n5-au",
@@ -28,7 +29,8 @@
    "jlpt_level": "N5",
    "reading": "あう",
    "romaji": "au",
-   "mnemonic": "会 meeting: 二 two + 𠆢 person + 厶 private"
+   "mnemonic": "会 meeting: 二 two + 𠆢 person + 厶 private",
+   "topic": "People & Relationships"
   },
   {
    "slug": "vocab-n5-aoi",
@@ -42,7 +44,8 @@
    "jlpt_level": "N5",
    "reading": "あおい",
    "romaji": "aoi",
-   "mnemonic": "青 blue: 月 moon + 土 earth + 二 two + 亠 lid"
+   "mnemonic": "青 blue: 月 moon + 土 earth + 二 two + 亠 lid",
+   "topic": "Colors, Shapes & Appearance"
   },
   {
    "slug": "vocab-n5-akai",
@@ -56,7 +59,8 @@
    "jlpt_level": "N5",
    "reading": "あかい",
    "romaji": "akai",
-   "mnemonic": "赤 red: 土 earth"
+   "mnemonic": "赤 red: 土 earth",
+   "topic": "Colors, Shapes & Appearance"
   },
   {
    "slug": "vocab-n5-akarui",
@@ -70,7 +74,8 @@
    "jlpt_level": "N5",
    "reading": "あかるい",
    "romaji": "akarui",
-   "mnemonic": "明 bright: 月 moon + 日 sun"
+   "mnemonic": "明 bright: 月 moon + 日 sun",
+   "topic": "Colors, Shapes & Appearance"
   },
   {
    "slug": "vocab-n5-aki",
@@ -84,7 +89,8 @@
    "jlpt_level": "N5",
    "reading": "あき",
    "romaji": "aki",
-   "mnemonic": "秋 autumn: 火 fire + 禾 grain"
+   "mnemonic": "秋 autumn: 火 fire + 禾 grain",
+   "topic": "Weather & Seasons"
   },
   {
    "slug": "vocab-n5-aku",
@@ -98,7 +104,8 @@
    "jlpt_level": "N5",
    "reading": "あく",
    "romaji": "aku",
-   "mnemonic": "開 open: 門 gate + 廾 two hands"
+   "mnemonic": "開 open: 門 gate + 廾 two hands",
+   "topic": "Daily Life & Routine"
   },
   {
    "slug": "vocab-n5-akeru",
@@ -112,7 +119,8 @@
    "jlpt_level": "N5",
    "reading": "あける",
    "romaji": "akeru",
-   "mnemonic": "開 open: 門 gate + 廾 two hands"
+   "mnemonic": "開 open: 門 gate + 廾 two hands",
+   "topic": "Daily Life & Routine"
   },
   {
    "slug": "vocab-n5-ageru",
@@ -126,7 +134,8 @@
    "jlpt_level": "N5",
    "reading": "あげる",
    "romaji": "ageru",
-   "mnemonic": "上 above: 卜 divination"
+   "mnemonic": "上 above: 卜 divination",
+   "topic": "Movement & Motion"
   },
   {
    "slug": "vocab-n5-asagohan",
@@ -140,7 +149,8 @@
    "jlpt_level": "N5",
    "reading": "あさごはん",
    "romaji": "asagohan",
-   "mnemonic": "朝 morning + 御 honorable + 飯 meal"
+   "mnemonic": "朝 morning + 御 honorable + 飯 meal",
+   "topic": "Food & Drink"
   },
   {
    "slug": "vocab-n5-asatte",
@@ -154,7 +164,8 @@
    "jlpt_level": "N5",
    "reading": "あさって",
    "romaji": "asatte",
-   "mnemonic": "明 bright + 後 behind + 日 sun"
+   "mnemonic": "明 bright + 後 behind + 日 sun",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-ashi",
@@ -168,7 +179,8 @@
    "jlpt_level": "N5",
    "reading": "あし",
    "romaji": "ashi",
-   "mnemonic": "足 foot + 脚"
+   "mnemonic": "足 foot + 脚",
+   "topic": "Body"
   },
   {
    "slug": "vocab-n5-asoko",
@@ -181,7 +193,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "あそこ",
-   "romaji": "asoko"
+   "romaji": "asoko",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-atatakai",
@@ -195,7 +208,8 @@
    "jlpt_level": "N5",
    "reading": "あたたかい",
    "romaji": "atatakai",
-   "mnemonic": "暖: 爪 claw + 日 sun + 又 hand"
+   "mnemonic": "暖: 爪 claw + 日 sun + 又 hand",
+   "topic": "Weather & Seasons"
   },
   {
    "slug": "vocab-n5-achira",
@@ -208,7 +222,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "あちら",
-   "romaji": "achira"
+   "romaji": "achira",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-atsui",
@@ -222,7 +237,8 @@
    "jlpt_level": "N5",
    "reading": "あつい",
    "romaji": "atsui",
-   "mnemonic": "熱 heat: 土 earth + 九 nine + 儿 legs + 灬 fire"
+   "mnemonic": "熱 heat: 土 earth + 九 nine + 儿 legs + 灬 fire",
+   "topic": "Qualities & Conditions"
   },
   {
    "slug": "vocab-n5-atsui-2",
@@ -236,7 +252,8 @@
    "jlpt_level": "N5",
    "reading": "あつい",
    "romaji": "atsui",
-   "mnemonic": "厚 thick: 子 child + 日 sun + 厂 cliff"
+   "mnemonic": "厚 thick: 子 child + 日 sun + 厂 cliff",
+   "topic": "Size, Amount & Degree"
   },
   {
    "slug": "vocab-n5-atchi",
@@ -249,7 +266,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "あっち",
-   "romaji": "atchi"
+   "romaji": "atchi",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-ato",
@@ -263,7 +281,8 @@
    "jlpt_level": "N5",
    "reading": "あと",
    "romaji": "ato",
-   "mnemonic": "後 behind: 夂 walk + 幺 thread + 彳 step"
+   "mnemonic": "後 behind: 夂 walk + 幺 thread + 彳 step",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-anata",
@@ -276,7 +295,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "あなた",
-   "romaji": "anata"
+   "romaji": "anata",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-apaato",
@@ -289,7 +309,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "アパート",
-   "romaji": "apaato"
+   "romaji": "apaato",
+   "topic": "Home & Household"
   },
   {
    "slug": "vocab-n5-ano",
@@ -302,7 +323,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "あの",
-   "romaji": "ano"
+   "romaji": "ano",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-abiru",
@@ -316,7 +338,8 @@
    "jlpt_level": "N5",
    "reading": "あびる",
    "romaji": "abiru",
-   "mnemonic": "浴 bathe: 氵 water + 谷 valley"
+   "mnemonic": "浴 bathe: 氵 water + 谷 valley",
+   "topic": "Daily Life & Routine"
   },
   {
    "slug": "vocab-n5-abunai",
@@ -330,7 +353,8 @@
    "jlpt_level": "N5",
    "reading": "あぶない",
    "romaji": "abunai",
-   "mnemonic": "危 dangerous: 勹 wrap + 厂 cliff + 卩 seal"
+   "mnemonic": "危 dangerous: 勹 wrap + 厂 cliff + 卩 seal",
+   "topic": "Qualities & Conditions"
   },
   {
    "slug": "vocab-n5-amai",
@@ -344,7 +368,8 @@
    "jlpt_level": "N5",
    "reading": "あまい",
    "romaji": "amai",
-   "mnemonic": "甘 sweet"
+   "mnemonic": "甘 sweet",
+   "topic": "Food & Drink"
   },
   {
    "slug": "vocab-n5-amari",
@@ -358,7 +383,8 @@
    "jlpt_level": "N5",
    "reading": "あまり",
    "romaji": "amari",
-   "mnemonic": "余 too much: ハ eight + 𠆢 person + 示 show"
+   "mnemonic": "余 too much: ハ eight + 𠆢 person + 示 show",
+   "topic": "Adverbs & Manner"
   },
   {
    "slug": "vocab-n5-ame",
@@ -372,7 +398,8 @@
    "jlpt_level": "N5",
    "reading": "あめ",
    "romaji": "ame",
-   "mnemonic": "飴: 口 mouth + 食 eat + 厶 private"
+   "mnemonic": "飴: 口 mouth + 食 eat + 厶 private",
+   "topic": "Food & Drink"
   },
   {
    "slug": "vocab-n5-aru",
@@ -386,7 +413,8 @@
    "jlpt_level": "N5",
    "reading": "ある",
    "romaji": "aru",
-   "mnemonic": "在 exist: 土 earth"
+   "mnemonic": "在 exist: 土 earth",
+   "topic": "Qualities & Conditions"
   },
   {
    "slug": "vocab-n5-aru-2",
@@ -400,7 +428,8 @@
    "jlpt_level": "N5",
    "reading": "ある",
    "romaji": "aru",
-   "mnemonic": "有 possess: 月 moon"
+   "mnemonic": "有 possess: 月 moon",
+   "topic": "Qualities & Conditions"
   },
   {
    "slug": "vocab-n5-are",
@@ -413,7 +442,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "あれ",
-   "romaji": "are"
+   "romaji": "are",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-ii-yoi",
@@ -426,7 +456,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "いい; よい",
-   "romaji": "ii;yoi"
+   "romaji": "ii;yoi",
+   "topic": "Qualities & Conditions"
   },
   {
    "slug": "vocab-n5-ikaga",
@@ -439,7 +470,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "いかが",
-   "romaji": "ikaga"
+   "romaji": "ikaga",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-ikutsu",
@@ -452,7 +484,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "いくつ",
-   "romaji": "ikutsu"
+   "romaji": "ikutsu",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-ike",
@@ -466,7 +499,8 @@
    "jlpt_level": "N5",
    "reading": "いけ",
    "romaji": "ike",
-   "mnemonic": "池 pond: 氵 water + 也 also"
+   "mnemonic": "池 pond: 氵 water + 也 also",
+   "topic": "Nature & Environment"
   },
   {
    "slug": "vocab-n5-ichi",
@@ -495,7 +529,8 @@
    "jlpt_level": "N5",
    "reading": "いちにち",
    "romaji": "ichinichi",
-   "mnemonic": "一 one + 日 sun"
+   "mnemonic": "一 one + 日 sun",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-ichiban",
@@ -509,7 +544,8 @@
    "jlpt_level": "N5",
    "reading": "いちばん",
    "romaji": "ichiban",
-   "mnemonic": "一 one + 番 turn"
+   "mnemonic": "一 one + 番 turn",
+   "topic": "Numbers"
   },
   {
    "slug": "vocab-n5-itsu",
@@ -522,7 +558,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "いつ",
-   "romaji": "itsu"
+   "romaji": "itsu",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-itsuka",
@@ -536,7 +573,8 @@
    "jlpt_level": "N5",
    "reading": "いつか",
    "romaji": "itsuka",
-   "mnemonic": "五 five + 日 sun"
+   "mnemonic": "五 five + 日 sun",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-issho",
@@ -550,7 +588,8 @@
    "jlpt_level": "N5",
    "reading": "いっしょ",
    "romaji": "issho",
-   "mnemonic": "一 one + 緒 thong"
+   "mnemonic": "一 one + 緒 thong",
+   "topic": "Adverbs & Manner"
   },
   {
    "slug": "vocab-n5-itsutsu",
@@ -578,7 +617,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "いつも",
-   "romaji": "itsumo"
+   "romaji": "itsumo",
+   "topic": "Adverbs & Manner"
   },
   {
    "slug": "vocab-n5-imi",
@@ -592,7 +632,8 @@
    "jlpt_level": "N5",
    "reading": "いみ",
    "romaji": "imi",
-   "mnemonic": "意 idea + 味 flavor"
+   "mnemonic": "意 idea + 味 flavor",
+   "topic": "Language & Communication"
   },
   {
    "slug": "vocab-n5-iya",
@@ -606,7 +647,8 @@
    "jlpt_level": "N5",
    "reading": "いや",
    "romaji": "iya",
-   "mnemonic": "嫌: ヨ hand + 女 woman + ハ eight + 并 horns"
+   "mnemonic": "嫌: ヨ hand + 女 woman + ハ eight + 并 horns",
+   "topic": "Emotions & Feelings"
   },
   {
    "slug": "vocab-n5-iru",
@@ -620,7 +662,8 @@
    "jlpt_level": "N5",
    "reading": "いる",
    "romaji": "iru",
-   "mnemonic": "居 reside: 口 mouth + 十 ten + 尸 body"
+   "mnemonic": "居 reside: 口 mouth + 十 ten + 尸 body",
+   "topic": "Qualities & Conditions"
   },
   {
    "slug": "vocab-n5-iru-2",
@@ -634,7 +677,8 @@
    "jlpt_level": "N5",
    "reading": "いる",
    "romaji": "iru",
-   "mnemonic": "要 need: 女 woman + 西 west"
+   "mnemonic": "要 need: 女 woman + 西 west",
+   "topic": "Qualities & Conditions"
   },
   {
    "slug": "vocab-n5-ireru",
@@ -648,7 +692,8 @@
    "jlpt_level": "N5",
    "reading": "いれる",
    "romaji": "ireru",
-   "mnemonic": "入 enter"
+   "mnemonic": "入 enter",
+   "topic": "Daily Life & Routine"
   },
   {
    "slug": "vocab-n5-iroiro",
@@ -662,7 +707,8 @@
    "jlpt_level": "N5",
    "reading": "いろいろ",
    "romaji": "iroiro",
-   "mnemonic": "色 color: 巴 snake + 勹 wrap"
+   "mnemonic": "色 color: 巴 snake + 勹 wrap",
+   "topic": "Qualities & Conditions"
   },
   {
    "slug": "vocab-n5-ue",
@@ -676,7 +722,8 @@
    "jlpt_level": "N5",
    "reading": "うえ",
    "romaji": "ue",
-   "mnemonic": "上 above: 卜 divination"
+   "mnemonic": "上 above: 卜 divination",
+   "topic": "Position & Direction"
   },
   {
    "slug": "vocab-n5-ushiro",
@@ -690,7 +737,8 @@
    "jlpt_level": "N5",
    "reading": "うしろ",
    "romaji": "ushiro",
-   "mnemonic": "後 behind: 夂 walk + 幺 thread + 彳 step"
+   "mnemonic": "後 behind: 夂 walk + 幺 thread + 彳 step",
+   "topic": "Position & Direction"
   },
   {
    "slug": "vocab-n5-usui",
@@ -704,7 +752,8 @@
    "jlpt_level": "N5",
    "reading": "うすい",
    "romaji": "usui",
-   "mnemonic": "薄 dilute: 十 ten + 氵 water + 寸 inch + 田 rice field + ⺾ grass"
+   "mnemonic": "薄 dilute: 十 ten + 氵 water + 寸 inch + 田 rice field + ⺾ grass",
+   "topic": "Size, Amount & Degree"
   },
   {
    "slug": "vocab-n5-uta",
@@ -718,7 +767,8 @@
    "jlpt_level": "N5",
    "reading": "うた",
    "romaji": "uta",
-   "mnemonic": "歌 song: 欠 lack + 口 mouth"
+   "mnemonic": "歌 song: 欠 lack + 口 mouth",
+   "topic": "Hobbies, Sports & Entertainment"
   },
   {
    "slug": "vocab-n5-uchi",
@@ -731,7 +781,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "うち",
-   "romaji": "uchi"
+   "romaji": "uchi",
+   "topic": "Home & Household"
   },
   {
    "slug": "vocab-n5-umareru",
@@ -745,7 +796,8 @@
    "jlpt_level": "N5",
    "reading": "うまれる",
    "romaji": "umareru",
-   "mnemonic": "生 life"
+   "mnemonic": "生 life",
+   "topic": "Health & Medicine"
   },
   {
    "slug": "vocab-n5-uru",
@@ -759,7 +811,8 @@
    "jlpt_level": "N5",
    "reading": "うる",
    "romaji": "uru",
-   "mnemonic": "売 sell: 士 samurai + 儿 legs + 冖 cover"
+   "mnemonic": "売 sell: 士 samurai + 儿 legs + 冖 cover",
+   "topic": "Shopping"
   },
   {
    "slug": "vocab-n5-urusai",
@@ -772,7 +825,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "うるさい",
-   "romaji": "urusai"
+   "romaji": "urusai",
+   "topic": "Qualities & Conditions"
   },
   {
    "slug": "vocab-n5-uwagi",
@@ -786,7 +840,8 @@
    "jlpt_level": "N5",
    "reading": "うわぎ",
    "romaji": "uwagi",
-   "mnemonic": "上 above + 着 don"
+   "mnemonic": "上 above + 着 don",
+   "topic": "Clothes & Fashion"
   },
   {
    "slug": "vocab-n5-e",
@@ -800,7 +855,8 @@
    "jlpt_level": "N5",
    "reading": "え",
    "romaji": "e",
-   "mnemonic": "絵 picture: 糸 thread + 二 two + 𠆢 person + 厶 private"
+   "mnemonic": "絵 picture: 糸 thread + 二 two + 𠆢 person + 厶 private",
+   "topic": "Hobbies, Sports & Entertainment"
   },
   {
    "slug": "vocab-n5-eigakan",
@@ -814,7 +870,8 @@
    "jlpt_level": "N5",
    "reading": "えいがかん",
    "romaji": "eigakan",
-   "mnemonic": "映 reflect + 画 brush-stroke + 館 building"
+   "mnemonic": "映 reflect + 画 brush-stroke + 館 building",
+   "topic": "Hobbies, Sports & Entertainment"
   },
   {
    "slug": "vocab-n5-eigo",
@@ -828,7 +885,8 @@
    "jlpt_level": "N5",
    "reading": "えいご",
    "romaji": "eigo",
-   "mnemonic": "英 england + 語 language"
+   "mnemonic": "英 england + 語 language",
+   "topic": "Language & Communication"
   },
   {
    "slug": "vocab-n5-ee",
@@ -841,7 +899,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "ええ",
-   "romaji": "ee"
+   "romaji": "ee",
+   "topic": "Greetings & Basics"
   },
   {
    "slug": "vocab-n5-erebeetaa",
@@ -854,7 +913,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "エレベーター",
-   "romaji": "erebeetaa"
+   "romaji": "erebeetaa",
+   "topic": "Home & Household"
   },
   {
    "slug": "vocab-n5-en",
@@ -868,7 +928,8 @@
    "jlpt_level": "N5",
    "reading": "～えん",
    "romaji": "～en",
-   "mnemonic": "円 yen: 冂 frame + 亠 lid"
+   "mnemonic": "円 yen: 冂 frame + 亠 lid",
+   "topic": "Money & Economy"
   },
   {
    "slug": "vocab-n5-o",
@@ -881,7 +942,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "お～",
-   "romaji": "o～"
+   "romaji": "o～",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-oishii",
@@ -895,7 +957,7 @@
    "jlpt_level": "N5",
    "reading": "おいしい",
    "romaji": "oishii",
-   "topic": "Words",
+   "topic": "Food & Drink",
    "mnemonic": "美 beauty + 味 flavor"
   },
   {
@@ -910,7 +972,8 @@
    "jlpt_level": "N5",
    "reading": "おおきな",
    "romaji": "ookina",
-   "mnemonic": "大 big"
+   "mnemonic": "大 big",
+   "topic": "Size, Amount & Degree"
   },
   {
    "slug": "vocab-n5-oozei",
@@ -924,7 +987,8 @@
    "jlpt_level": "N5",
    "reading": "おおぜい",
    "romaji": "oozei",
-   "mnemonic": "大 big + 勢 forces"
+   "mnemonic": "大 big + 勢 forces",
+   "topic": "Size, Amount & Degree"
   },
   {
    "slug": "vocab-n5-okashi",
@@ -938,7 +1002,8 @@
    "jlpt_level": "N5",
    "reading": "おかし",
    "romaji": "okashi",
-   "mnemonic": "菓 candy + 子 child"
+   "mnemonic": "菓 candy + 子 child",
+   "topic": "Food & Drink"
   },
   {
    "slug": "vocab-n5-oku",
@@ -952,7 +1017,8 @@
    "jlpt_level": "N5",
    "reading": "おく",
    "romaji": "oku",
-   "mnemonic": "置 placement: 十 ten + 罒 net + 目 eye"
+   "mnemonic": "置 placement: 十 ten + 罒 net + 目 eye",
+   "topic": "Daily Life & Routine"
   },
   {
    "slug": "vocab-n5-okusan",
@@ -966,7 +1032,8 @@
    "jlpt_level": "N5",
    "reading": "おくさん",
    "romaji": "okusan",
-   "mnemonic": "奥 heart: 大 big + 米 rice + 冂 frame"
+   "mnemonic": "奥 heart: 大 big + 米 rice + 冂 frame",
+   "topic": "Family"
   },
   {
    "slug": "vocab-n5-osake",
@@ -980,7 +1047,8 @@
    "jlpt_level": "N5",
    "reading": "おさけ",
    "romaji": "osake",
-   "mnemonic": "酒 sake: 氵 water + 酉 wine jar"
+   "mnemonic": "酒 sake: 氵 water + 酉 wine jar",
+   "topic": "Food & Drink"
   },
   {
    "slug": "vocab-n5-ojisan",
@@ -994,7 +1062,8 @@
    "jlpt_level": "N5",
    "reading": "おじさん",
    "romaji": "ojisan",
-   "mnemonic": "伯 + 父 father + 叔"
+   "mnemonic": "伯 + 父 father + 叔",
+   "topic": "Family"
   },
   {
    "slug": "vocab-n5-ojiisan",
@@ -1007,7 +1076,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "おじいさん",
-   "romaji": "ojiisan"
+   "romaji": "ojiisan",
+   "topic": "Family"
   },
   {
    "slug": "vocab-n5-otearai",
@@ -1021,7 +1091,8 @@
    "jlpt_level": "N5",
    "reading": "おてあらい",
    "romaji": "otearai",
-   "mnemonic": "手 hand + 洗 wash"
+   "mnemonic": "手 hand + 洗 wash",
+   "topic": "Home & Household"
   },
   {
    "slug": "vocab-n5-otoko",
@@ -1035,7 +1106,8 @@
    "jlpt_level": "N5",
    "reading": "おとこ",
    "romaji": "otoko",
-   "mnemonic": "男 man: 田 rice field + 力 power"
+   "mnemonic": "男 man: 田 rice field + 力 power",
+   "topic": "People & Relationships"
   },
   {
    "slug": "vocab-n5-otokonoko",
@@ -1049,7 +1121,8 @@
    "jlpt_level": "N5",
    "reading": "おとこのこ",
    "romaji": "otokonoko",
-   "mnemonic": "男 man + 子 child"
+   "mnemonic": "男 man + 子 child",
+   "topic": "People & Relationships"
   },
   {
    "slug": "vocab-n5-ototoi",
@@ -1063,7 +1136,8 @@
    "jlpt_level": "N5",
    "reading": "おととい",
    "romaji": "ototoi",
-   "mnemonic": "一 one + 昨 yesterday + 日 sun"
+   "mnemonic": "一 one + 昨 yesterday + 日 sun",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-ototoshi",
@@ -1076,7 +1150,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "おととし",
-   "romaji": "ototoshi"
+   "romaji": "ototoshi",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-otona",
@@ -1090,7 +1165,8 @@
    "jlpt_level": "N5",
    "reading": "おとな",
    "romaji": "otona",
-   "mnemonic": "大 big + 人 person"
+   "mnemonic": "大 big + 人 person",
+   "topic": "People & Relationships"
   },
   {
    "slug": "vocab-n5-onaji",
@@ -1104,7 +1180,8 @@
    "jlpt_level": "N5",
    "reading": "おなじ",
    "romaji": "onaji",
-   "mnemonic": "同 same: 口 mouth + 冂 frame"
+   "mnemonic": "同 same: 口 mouth + 冂 frame",
+   "topic": "Qualities & Conditions"
   },
   {
    "slug": "vocab-n5-oniisan",
@@ -1118,7 +1195,8 @@
    "jlpt_level": "N5",
    "reading": "おにいさん",
    "romaji": "oniisan",
-   "mnemonic": "兄 elder brother: 口 mouth + 儿 legs"
+   "mnemonic": "兄 elder brother: 口 mouth + 儿 legs",
+   "topic": "Family"
   },
   {
    "slug": "vocab-n5-oneesan",
@@ -1132,7 +1210,8 @@
    "jlpt_level": "N5",
    "reading": "おねえさん",
    "romaji": "oneesan",
-   "mnemonic": "姉 elder sister: 巾 cloth + 女 woman + 亠 lid"
+   "mnemonic": "姉 elder sister: 巾 cloth + 女 woman + 亠 lid",
+   "topic": "Family"
   },
   {
    "slug": "vocab-n5-obasan",
@@ -1146,7 +1225,8 @@
    "jlpt_level": "N5",
    "reading": "おばさん",
    "romaji": "obasan",
-   "mnemonic": "伯 + 母 mother + 叔"
+   "mnemonic": "伯 + 母 mother + 叔",
+   "topic": "Family"
   },
   {
    "slug": "vocab-n5-obaasan",
@@ -1159,7 +1239,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "おばあさん",
-   "romaji": "obaasan"
+   "romaji": "obaasan",
+   "topic": "Family"
   },
   {
    "slug": "vocab-n5-ofuro",
@@ -1173,7 +1254,8 @@
    "jlpt_level": "N5",
    "reading": "おふろ",
    "romaji": "ofuro",
-   "mnemonic": "風 wind + 呂"
+   "mnemonic": "風 wind + 呂",
+   "topic": "Home & Household"
   },
   {
    "slug": "vocab-n5-obentou",
@@ -1187,7 +1269,8 @@
    "jlpt_level": "N5",
    "reading": "おべんとう",
    "romaji": "obentou",
-   "mnemonic": "弁 + 当 hit"
+   "mnemonic": "弁 + 当 hit",
+   "topic": "Food & Drink"
   },
   {
    "slug": "vocab-n5-omawarisan",
@@ -1200,7 +1283,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "おまわりさん",
-   "romaji": "omawarisan"
+   "romaji": "omawarisan",
+   "topic": "Society & Government"
   },
   {
    "slug": "vocab-n5-owaru",
@@ -1214,7 +1298,8 @@
    "jlpt_level": "N5",
    "reading": "おわる",
    "romaji": "owaru",
-   "mnemonic": "終 end: 糸 thread + 夂 walk"
+   "mnemonic": "終 end: 糸 thread + 夂 walk",
+   "topic": "Change, Cause & Result"
   },
   {
    "slug": "vocab-n5-onna",
@@ -1228,7 +1313,8 @@
    "jlpt_level": "N5",
    "reading": "おんな",
    "romaji": "onna",
-   "mnemonic": "女 woman"
+   "mnemonic": "女 woman",
+   "topic": "People & Relationships"
   },
   {
    "slug": "vocab-n5-onnanoko",
@@ -1242,7 +1328,8 @@
    "jlpt_level": "N5",
    "reading": "おんなのこ",
    "romaji": "onnanoko",
-   "mnemonic": "女 woman + 子 child"
+   "mnemonic": "女 woman + 子 child",
+   "topic": "People & Relationships"
   },
   {
    "slug": "vocab-n5-kai",
@@ -1256,7 +1343,8 @@
    "jlpt_level": "N5",
    "reading": "～かい",
    "romaji": "～kai",
-   "mnemonic": "回 -times"
+   "mnemonic": "回 -times",
+   "topic": "Counters"
   },
   {
    "slug": "vocab-n5-kai-2",
@@ -1270,7 +1358,8 @@
    "jlpt_level": "N5",
    "reading": "～かい",
    "romaji": "～kai",
-   "mnemonic": "階 storey: 白 white + 比 compare + ⻖ hill"
+   "mnemonic": "階 storey: 白 white + 比 compare + ⻖ hill",
+   "topic": "Counters"
   },
   {
    "slug": "vocab-n5-gaikoku",
@@ -1284,7 +1373,8 @@
    "jlpt_level": "N5",
    "reading": "がいこく",
    "romaji": "gaikoku",
-   "mnemonic": "外 outside + 国 country"
+   "mnemonic": "外 outside + 国 country",
+   "topic": "Society & Government"
   },
   {
    "slug": "vocab-n5-gaikokujin",
@@ -1298,7 +1388,8 @@
    "jlpt_level": "N5",
    "reading": "がいこくじん",
    "romaji": "gaikokujin",
-   "mnemonic": "外 outside + 国 country + 人 person"
+   "mnemonic": "外 outside + 国 country + 人 person",
+   "topic": "People & Relationships"
   },
   {
    "slug": "vocab-n5-kaidan",
@@ -1312,7 +1403,8 @@
    "jlpt_level": "N5",
    "reading": "かいだん",
    "romaji": "kaidan",
-   "mnemonic": "階 storey + 段 grade"
+   "mnemonic": "階 storey + 段 grade",
+   "topic": "Home & Household"
   },
   {
    "slug": "vocab-n5-kaesu",
@@ -1326,7 +1418,8 @@
    "jlpt_level": "N5",
    "reading": "かえす",
    "romaji": "kaesu",
-   "mnemonic": "返 return: 辶 + 又 hand + 厂 cliff"
+   "mnemonic": "返 return: 辶 + 又 hand + 厂 cliff",
+   "topic": "Daily Life & Routine"
   },
   {
    "slug": "vocab-n5-kakaru",
@@ -1339,7 +1432,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "かかる",
-   "romaji": "kakaru"
+   "romaji": "kakaru",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-gakusei",
@@ -1353,7 +1447,8 @@
    "jlpt_level": "N5",
    "reading": "がくせい",
    "romaji": "gakusei",
-   "mnemonic": "学 study + 生 life"
+   "mnemonic": "学 study + 生 life",
+   "topic": "School & Study"
   },
   {
    "slug": "vocab-n5-kagetsu",
@@ -1367,7 +1462,8 @@
    "jlpt_level": "N5",
    "reading": "～かげつ",
    "romaji": "～kagetsu",
-   "mnemonic": "月 moon"
+   "mnemonic": "月 moon",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-kakeru",
@@ -1381,7 +1477,8 @@
    "jlpt_level": "N5",
    "reading": "かける",
    "romaji": "kakeru",
-   "mnemonic": "掛 hang: 土 earth + 卜 divination + 扌 hand"
+   "mnemonic": "掛 hang: 土 earth + 卜 divination + 扌 hand",
+   "topic": "Daily Life & Routine"
   },
   {
    "slug": "vocab-n5-kakeru-2",
@@ -1394,7 +1491,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "かける",
-   "romaji": "kakeru"
+   "romaji": "kakeru",
+   "topic": "Language & Communication"
   },
   {
    "slug": "vocab-n5-kasu",
@@ -1408,7 +1506,8 @@
    "jlpt_level": "N5",
    "reading": "かす",
    "romaji": "kasu",
-   "mnemonic": "貸 lend: ⺅ person + 貝 shellfish + 弋 stake"
+   "mnemonic": "貸 lend: ⺅ person + 貝 shellfish + 弋 stake",
+   "topic": "Daily Life & Routine"
   },
   {
    "slug": "vocab-n5-kaze",
@@ -1422,7 +1521,8 @@
    "jlpt_level": "N5",
    "reading": "かぜ",
    "romaji": "kaze",
-   "mnemonic": "風 wind + 邪"
+   "mnemonic": "風 wind + 邪",
+   "topic": "Health & Medicine"
   },
   {
    "slug": "vocab-n5-kata",
@@ -1436,7 +1536,8 @@
    "jlpt_level": "N5",
    "reading": "かた",
    "romaji": "kata",
-   "mnemonic": "方 direction"
+   "mnemonic": "方 direction",
+   "topic": "People & Relationships"
   },
   {
    "slug": "vocab-n5-katakana",
@@ -1450,7 +1551,8 @@
    "jlpt_level": "N5",
    "reading": "かたかな",
    "romaji": "katakana",
-   "mnemonic": "片 one-sided + 仮 + 名 name"
+   "mnemonic": "片 one-sided + 仮 + 名 name",
+   "topic": "Language & Communication"
   },
   {
    "slug": "vocab-n5-gatsu",
@@ -1464,7 +1566,8 @@
    "jlpt_level": "N5",
    "reading": "～がつ",
    "romaji": "～gatsu",
-   "mnemonic": "月 moon"
+   "mnemonic": "月 moon",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-kappu",
@@ -1477,7 +1580,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "カップ",
-   "romaji": "kappu"
+   "romaji": "kappu",
+   "topic": "Kitchen & Cooking"
   },
   {
    "slug": "vocab-n5-katei",
@@ -1491,7 +1595,8 @@
    "jlpt_level": "N5",
    "reading": "かてい",
    "romaji": "katei",
-   "mnemonic": "家 house + 庭 courtyard"
+   "mnemonic": "家 house + 庭 courtyard",
+   "topic": "Family"
   },
   {
    "slug": "vocab-n5-kado",
@@ -1505,7 +1610,8 @@
    "jlpt_level": "N5",
    "reading": "かど",
    "romaji": "kado",
-   "mnemonic": "角 angle: 勹 wrap + 月 moon"
+   "mnemonic": "角 angle: 勹 wrap + 月 moon",
+   "topic": "Position & Direction"
   },
   {
    "slug": "vocab-n5-kaban",
@@ -1518,7 +1624,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "かばん",
-   "romaji": "kaban"
+   "romaji": "kaban",
+   "topic": "Objects & Materials"
   },
   {
    "slug": "vocab-n5-kabin",
@@ -1532,7 +1639,8 @@
    "jlpt_level": "N5",
    "reading": "かびん",
    "romaji": "kabin",
-   "mnemonic": "花 flower + 瓶 bottle"
+   "mnemonic": "花 flower + 瓶 bottle",
+   "topic": "Home & Household"
   },
   {
    "slug": "vocab-n5-kaburu",
@@ -1545,7 +1653,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "かぶる",
-   "romaji": "kaburu"
+   "romaji": "kaburu",
+   "topic": "Clothes & Fashion"
   },
   {
    "slug": "vocab-n5-kami",
@@ -1559,7 +1668,8 @@
    "jlpt_level": "N5",
    "reading": "かみ",
    "romaji": "kami",
-   "mnemonic": "紙 paper: 氏 clan + 糸 thread"
+   "mnemonic": "紙 paper: 氏 clan + 糸 thread",
+   "topic": "Objects & Materials"
   },
   {
    "slug": "vocab-n5-kamera",
@@ -1572,7 +1682,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "カメラ",
-   "romaji": "kamera"
+   "romaji": "kamera",
+   "topic": "Technology & Media"
   },
   {
    "slug": "vocab-n5-karada",
@@ -1586,7 +1697,8 @@
    "jlpt_level": "N5",
    "reading": "からだ",
    "romaji": "karada",
-   "mnemonic": "体 body: 木 tree + ⺅ person"
+   "mnemonic": "体 body: 木 tree + ⺅ person",
+   "topic": "Body"
   },
   {
    "slug": "vocab-n5-kariru",
@@ -1600,7 +1712,8 @@
    "jlpt_level": "N5",
    "reading": "かりる",
    "romaji": "kariru",
-   "mnemonic": "借 borrow: ⺅ person + 日 sun"
+   "mnemonic": "借 borrow: ⺅ person + 日 sun",
+   "topic": "Daily Life & Routine"
   },
   {
    "slug": "vocab-n5-garu",
@@ -1613,7 +1726,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "～がる",
-   "romaji": "～garu"
+   "romaji": "～garu",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-karee",
@@ -1626,7 +1740,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "カレー",
-   "romaji": "karee"
+   "romaji": "karee",
+   "topic": "Food & Drink"
   },
   {
    "slug": "vocab-n5-karendaa",
@@ -1639,7 +1754,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "カレンダー",
-   "romaji": "karendaa"
+   "romaji": "karendaa",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-kawa",
@@ -1653,7 +1769,8 @@
    "jlpt_level": "N5",
    "reading": "かわ",
    "romaji": "kawa",
-   "mnemonic": "川 river + 河 river"
+   "mnemonic": "川 river + 河 river",
+   "topic": "Nature & Environment"
   },
   {
    "slug": "vocab-n5-gawa",
@@ -1667,7 +1784,8 @@
    "jlpt_level": "N5",
    "reading": "～がわ",
    "romaji": "～gawa",
-   "mnemonic": "側 side: ⺅ person + 貝 shellfish + 刂 knife"
+   "mnemonic": "側 side: ⺅ person + 貝 shellfish + 刂 knife",
+   "topic": "Position & Direction"
   },
   {
    "slug": "vocab-n5-kawaii",
@@ -1681,7 +1799,7 @@
    "jlpt_level": "N5",
    "reading": "かわいい",
    "romaji": "kawaii",
-   "topic": "Colors & Appearance",
+   "topic": "Colors, Shapes & Appearance",
    "mnemonic": "可 + 愛 love"
   },
   {
@@ -1696,7 +1814,8 @@
    "jlpt_level": "N5",
    "reading": "かんじ",
    "romaji": "kanji",
-   "mnemonic": "漢 sino- + 字 character"
+   "mnemonic": "漢 sino- + 字 character",
+   "topic": "Language & Communication"
   },
   {
    "slug": "vocab-n5-ki",
@@ -1710,7 +1829,8 @@
    "jlpt_level": "N5",
    "reading": "き",
    "romaji": "ki",
-   "mnemonic": "木 tree"
+   "mnemonic": "木 tree",
+   "topic": "Nature & Environment"
   },
   {
    "slug": "vocab-n5-kiiroi",
@@ -1724,7 +1844,8 @@
    "jlpt_level": "N5",
    "reading": "きいろい",
    "romaji": "kiiroi",
-   "mnemonic": "黄 yellow + 色 color"
+   "mnemonic": "黄 yellow + 色 color",
+   "topic": "Colors, Shapes & Appearance"
   },
   {
    "slug": "vocab-n5-kieru",
@@ -1738,7 +1859,8 @@
    "jlpt_level": "N5",
    "reading": "きえる",
    "romaji": "kieru",
-   "mnemonic": "消 extinguish: 月 moon + 氵 water + ⺌ small"
+   "mnemonic": "消 extinguish: 月 moon + 氵 water + ⺌ small",
+   "topic": "Change, Cause & Result"
   },
   {
    "slug": "vocab-n5-kita",
@@ -1752,7 +1874,8 @@
    "jlpt_level": "N5",
    "reading": "きた",
    "romaji": "kita",
-   "mnemonic": "北 north: 匕 spoon + 爿 bed"
+   "mnemonic": "北 north: 匕 spoon + 爿 bed",
+   "topic": "Position & Direction"
   },
   {
    "slug": "vocab-n5-gitaa",
@@ -1765,7 +1888,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "ギター",
-   "romaji": "gitaa"
+   "romaji": "gitaa",
+   "topic": "Hobbies, Sports & Entertainment"
   },
   {
    "slug": "vocab-n5-kitanai",
@@ -1779,7 +1903,8 @@
    "jlpt_level": "N5",
    "reading": "きたない",
    "romaji": "kitanai",
-   "mnemonic": "汚 dirty: 氵 water"
+   "mnemonic": "汚 dirty: 氵 water",
+   "topic": "Qualities & Conditions"
   },
   {
    "slug": "vocab-n5-kissaten",
@@ -1793,7 +1918,8 @@
    "jlpt_level": "N5",
    "reading": "きっさてん",
    "romaji": "kissaten",
-   "mnemonic": "喫 consume + 茶 tea + 店 store"
+   "mnemonic": "喫 consume + 茶 tea + 店 store",
+   "topic": "Places Around Town"
   },
   {
    "slug": "vocab-n5-kitte",
@@ -1807,7 +1933,8 @@
    "jlpt_level": "N5",
    "reading": "きって",
    "romaji": "kitte",
-   "mnemonic": "切 cut + 手 hand"
+   "mnemonic": "切 cut + 手 hand",
+   "topic": "Language & Communication"
   },
   {
    "slug": "vocab-n5-kyuu",
@@ -1821,7 +1948,8 @@
    "jlpt_level": "N5",
    "reading": "きゅう",
    "romaji": "kyuu",
-   "mnemonic": "九 nine"
+   "mnemonic": "九 nine",
+   "topic": "Numbers"
   },
   {
    "slug": "vocab-n5-gyuuniku",
@@ -1835,7 +1963,8 @@
    "jlpt_level": "N5",
    "reading": "ぎゅうにく",
    "romaji": "gyuuniku",
-   "mnemonic": "牛 cow + 肉 meat"
+   "mnemonic": "牛 cow + 肉 meat",
+   "topic": "Food & Drink"
   },
   {
    "slug": "vocab-n5-kyoushitsu",
@@ -1849,7 +1978,8 @@
    "jlpt_level": "N5",
    "reading": "きょうしつ",
    "romaji": "kyoushitsu",
-   "mnemonic": "教 teach + 室 room"
+   "mnemonic": "教 teach + 室 room",
+   "topic": "School & Study"
   },
   {
    "slug": "vocab-n5-kyoudai",
@@ -1863,7 +1993,8 @@
    "jlpt_level": "N5",
    "reading": "きょうだい",
    "romaji": "kyoudai",
-   "mnemonic": "兄 elder brother + 弟 younger brother"
+   "mnemonic": "兄 elder brother + 弟 younger brother",
+   "topic": "Family"
   },
   {
    "slug": "vocab-n5-kiru",
@@ -1877,7 +2008,8 @@
    "jlpt_level": "N5",
    "reading": "きる",
    "romaji": "kiru",
-   "mnemonic": "切 cut: 刀 sword + 匕 spoon"
+   "mnemonic": "切 cut: 刀 sword + 匕 spoon",
+   "topic": "Kitchen & Cooking"
   },
   {
    "slug": "vocab-n5-kirei",
@@ -1891,7 +2023,8 @@
    "jlpt_level": "N5",
    "reading": "きれい",
    "romaji": "kirei",
-   "mnemonic": "綺 + 麗"
+   "mnemonic": "綺 + 麗",
+   "topic": "Colors, Shapes & Appearance"
   },
   {
    "slug": "vocab-n5-kiro-kiroguramu",
@@ -1904,7 +2037,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "キロ; キログラム",
-   "romaji": "kiro;kiroguramu"
+   "romaji": "kiro;kiroguramu",
+   "topic": "Size, Amount & Degree"
   },
   {
    "slug": "vocab-n5-kiro-kiromeetoru",
@@ -1917,7 +2051,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "キロ; キロメートル",
-   "romaji": "kiro;kiromeetoru"
+   "romaji": "kiro;kiromeetoru",
+   "topic": "Size, Amount & Degree"
   },
   {
    "slug": "vocab-n5-ku",
@@ -1931,7 +2066,8 @@
    "jlpt_level": "N5",
    "reading": "く",
    "romaji": "ku",
-   "mnemonic": "九 nine"
+   "mnemonic": "九 nine",
+   "topic": "Numbers"
   },
   {
    "slug": "vocab-n5-kudasai",
@@ -1945,7 +2081,8 @@
    "jlpt_level": "N5",
    "reading": "ください",
    "romaji": "kudasai",
-   "mnemonic": "下 below: 卜 divination"
+   "mnemonic": "下 below: 卜 divination",
+   "topic": "Greetings & Basics"
   },
   {
    "slug": "vocab-n5-kuni",
@@ -1959,7 +2096,8 @@
    "jlpt_level": "N5",
    "reading": "くに",
    "romaji": "kuni",
-   "mnemonic": "国 country: 王 king + 囗 enclosure"
+   "mnemonic": "国 country: 王 king + 囗 enclosure",
+   "topic": "Society & Government"
   },
   {
    "slug": "vocab-n5-kumoru",
@@ -1973,7 +2111,8 @@
    "jlpt_level": "N5",
    "reading": "くもる",
    "romaji": "kumoru",
-   "mnemonic": "曇 cloudy weather: 雨 rain + 二 two + 日 sun + 厶 private"
+   "mnemonic": "曇 cloudy weather: 雨 rain + 二 two + 日 sun + 厶 private",
+   "topic": "Weather & Seasons"
   },
   {
    "slug": "vocab-n5-kurai",
@@ -1987,7 +2126,8 @@
    "jlpt_level": "N5",
    "reading": "くらい",
    "romaji": "kurai",
-   "mnemonic": "暗 darkness: 音 sound"
+   "mnemonic": "暗 darkness: 音 sound",
+   "topic": "Colors, Shapes & Appearance"
   },
   {
    "slug": "vocab-n5-kurai-gurai",
@@ -2000,7 +2140,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "～くらい; ぐらい",
-   "romaji": "～kurai;gurai"
+   "romaji": "～kurai;gurai",
+   "topic": "Size, Amount & Degree"
   },
   {
    "slug": "vocab-n5-kurasu",
@@ -2013,7 +2154,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "クラス",
-   "romaji": "kurasu"
+   "romaji": "kurasu",
+   "topic": "School & Study"
   },
   {
    "slug": "vocab-n5-guramu",
@@ -2026,7 +2168,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "グラム",
-   "romaji": "guramu"
+   "romaji": "guramu",
+   "topic": "Size, Amount & Degree"
   },
   {
    "slug": "vocab-n5-kuroi",
@@ -2040,7 +2183,8 @@
    "jlpt_level": "N5",
    "reading": "くろい",
    "romaji": "kuroi",
-   "mnemonic": "黒 black: 里 village + 灬 fire"
+   "mnemonic": "黒 black: 里 village + 灬 fire",
+   "topic": "Colors, Shapes & Appearance"
   },
   {
    "slug": "vocab-n5-keikan",
@@ -2054,7 +2198,8 @@
    "jlpt_level": "N5",
    "reading": "けいかん",
    "romaji": "keikan",
-   "mnemonic": "警 admonish + 官 bureaucrat"
+   "mnemonic": "警 admonish + 官 bureaucrat",
+   "topic": "Society & Government"
   },
   {
    "slug": "vocab-n5-kesa",
@@ -2068,7 +2213,8 @@
    "jlpt_level": "N5",
    "reading": "けさ",
    "romaji": "kesa",
-   "mnemonic": "今 now + 朝 morning"
+   "mnemonic": "今 now + 朝 morning",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-kesu",
@@ -2082,7 +2228,8 @@
    "jlpt_level": "N5",
    "reading": "けす",
    "romaji": "kesu",
-   "mnemonic": "消 extinguish: 月 moon + 氵 water + ⺌ small"
+   "mnemonic": "消 extinguish: 月 moon + 氵 water + ⺌ small",
+   "topic": "Daily Life & Routine"
   },
   {
    "slug": "vocab-n5-kekkou",
@@ -2096,7 +2243,8 @@
    "jlpt_level": "N5",
    "reading": "けっこう",
    "romaji": "kekkou",
-   "mnemonic": "結 + 構 posture"
+   "mnemonic": "結 + 構 posture",
+   "topic": "Qualities & Conditions"
   },
   {
    "slug": "vocab-n5-kekkon-suru",
@@ -2110,7 +2258,8 @@
    "jlpt_level": "N5",
    "reading": "けっこん (する)",
    "romaji": "kekkon(suru)",
-   "mnemonic": "結 + 婚 marriage"
+   "mnemonic": "結 + 婚 marriage",
+   "topic": "People & Relationships"
   },
   {
    "slug": "vocab-n5-genkan",
@@ -2124,7 +2273,8 @@
    "jlpt_level": "N5",
    "reading": "げんかん",
    "romaji": "genkan",
-   "mnemonic": "玄 dark + 関 connection"
+   "mnemonic": "玄 dark + 関 connection",
+   "topic": "Home & Household"
   },
   {
    "slug": "vocab-n5-ko",
@@ -2138,7 +2288,8 @@
    "jlpt_level": "N5",
    "reading": "～こ",
    "romaji": "～ko",
-   "mnemonic": "個 individual: ⺅ person + 十 ten"
+   "mnemonic": "個 individual: ⺅ person + 十 ten",
+   "topic": "Counters"
   },
   {
    "slug": "vocab-n5-go",
@@ -2167,7 +2318,8 @@
    "jlpt_level": "N5",
    "reading": "～ご",
    "romaji": "～go",
-   "mnemonic": "語 language: 言 say + 口 mouth + 五 five"
+   "mnemonic": "語 language: 言 say + 口 mouth + 五 five",
+   "topic": "Language & Communication"
   },
   {
    "slug": "vocab-n5-kousaten",
@@ -2181,7 +2333,8 @@
    "jlpt_level": "N5",
    "reading": "こうさてん",
    "romaji": "kousaten",
-   "mnemonic": "交 mingle + 差 distinction + 点 spot"
+   "mnemonic": "交 mingle + 差 distinction + 点 spot",
+   "topic": "Places Around Town"
   },
   {
    "slug": "vocab-n5-koucha",
@@ -2195,7 +2348,8 @@
    "jlpt_level": "N5",
    "reading": "こうちゃ",
    "romaji": "koucha",
-   "mnemonic": "紅 crimson + 茶 tea"
+   "mnemonic": "紅 crimson + 茶 tea",
+   "topic": "Food & Drink"
   },
   {
    "slug": "vocab-n5-koe",
@@ -2209,7 +2363,8 @@
    "jlpt_level": "N5",
    "reading": "こえ",
    "romaji": "koe",
-   "mnemonic": "声 voice: 士 samurai + 尸 body"
+   "mnemonic": "声 voice: 士 samurai + 尸 body",
+   "topic": "Body"
   },
   {
    "slug": "vocab-n5-koko",
@@ -2222,7 +2377,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "ここ",
-   "romaji": "koko"
+   "romaji": "koko",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-kokonoka",
@@ -2236,7 +2392,8 @@
    "jlpt_level": "N5",
    "reading": "ここのか",
    "romaji": "kokonoka",
-   "mnemonic": "九 nine + 日 sun"
+   "mnemonic": "九 nine + 日 sun",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-kokonotsu",
@@ -2265,7 +2422,8 @@
    "jlpt_level": "N5",
    "reading": "こたえる",
    "romaji": "kotaeru",
-   "mnemonic": "答 solution: 口 mouth + 竹 bamboo + 𠆢 person"
+   "mnemonic": "答 solution: 口 mouth + 竹 bamboo + 𠆢 person",
+   "topic": "Language & Communication"
   },
   {
    "slug": "vocab-n5-kochira",
@@ -2278,7 +2436,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "こちら",
-   "romaji": "kochira"
+   "romaji": "kochira",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-kotchi",
@@ -2291,7 +2450,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "こっち",
-   "romaji": "kotchi"
+   "romaji": "kotchi",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-kono",
@@ -2304,7 +2464,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "この",
-   "romaji": "kono"
+   "romaji": "kono",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-gohan",
@@ -2332,7 +2493,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "コピーする",
-   "romaji": "kopiisuru"
+   "romaji": "kopiisuru",
+   "topic": "Technology & Media"
   },
   {
    "slug": "vocab-n5-komaru",
@@ -2346,7 +2508,8 @@
    "jlpt_level": "N5",
    "reading": "こまる",
    "romaji": "komaru",
-   "mnemonic": "困 quandary: 木 tree + 囗 enclosure"
+   "mnemonic": "困 quandary: 木 tree + 囗 enclosure",
+   "topic": "Emotions & Feelings"
   },
   {
    "slug": "vocab-n5-kore",
@@ -2359,7 +2522,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "これ",
-   "romaji": "kore"
+   "romaji": "kore",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-koro-goro",
@@ -2372,7 +2536,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "～ころ; ～ごろ",
-   "romaji": "～koro;～goro"
+   "romaji": "～koro;～goro",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-kongetsu",
@@ -2386,7 +2551,8 @@
    "jlpt_level": "N5",
    "reading": "こんげつ",
    "romaji": "kongetsu",
-   "mnemonic": "今 now + 月 moon"
+   "mnemonic": "今 now + 月 moon",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-konna",
@@ -2399,7 +2565,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "こんな",
-   "romaji": "konna"
+   "romaji": "konna",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-konban",
@@ -2413,7 +2580,8 @@
    "jlpt_level": "N5",
    "reading": "こんばん",
    "romaji": "konban",
-   "mnemonic": "今 now + 晩 nightfall"
+   "mnemonic": "今 now + 晩 nightfall",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-saa",
@@ -2426,7 +2594,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "さあ",
-   "romaji": "saa"
+   "romaji": "saa",
+   "topic": "Greetings & Basics"
   },
   {
    "slug": "vocab-n5-sai",
@@ -2440,7 +2609,8 @@
    "jlpt_level": "N5",
    "reading": "～さい",
    "romaji": "～sai",
-   "mnemonic": "歳 year-end: 止 stop + 小 small + 戈 halberd"
+   "mnemonic": "歳 year-end: 止 stop + 小 small + 戈 halberd",
+   "topic": "Counters"
   },
   {
    "slug": "vocab-n5-saki",
@@ -2454,7 +2624,8 @@
    "jlpt_level": "N5",
    "reading": "さき",
    "romaji": "saki",
-   "mnemonic": "先 ahead: 土 earth + 儿 legs"
+   "mnemonic": "先 ahead: 土 earth + 儿 legs",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-saku",
@@ -2468,7 +2639,8 @@
    "jlpt_level": "N5",
    "reading": "さく",
    "romaji": "saku",
-   "mnemonic": "咲 blossom: 口 mouth + 人 person + 大 big + 并 horns"
+   "mnemonic": "咲 blossom: 口 mouth + 人 person + 大 big + 并 horns",
+   "topic": "Nature & Environment"
   },
   {
    "slug": "vocab-n5-sakubun",
@@ -2482,7 +2654,8 @@
    "jlpt_level": "N5",
    "reading": "さくぶん",
    "romaji": "sakubun",
-   "mnemonic": "作 make + 文 sentence"
+   "mnemonic": "作 make + 文 sentence",
+   "topic": "School & Study"
   },
   {
    "slug": "vocab-n5-sasu",
@@ -2496,7 +2669,8 @@
    "jlpt_level": "N5",
    "reading": "さす",
    "romaji": "sasu",
-   "mnemonic": "差 distinction: 工 craft + 羊 sheep"
+   "mnemonic": "差 distinction: 工 craft + 羊 sheep",
+   "topic": "Daily Life & Routine"
   },
   {
    "slug": "vocab-n5-satsu",
@@ -2510,7 +2684,8 @@
    "jlpt_level": "N5",
    "reading": "～さつ",
    "romaji": "～satsu",
-   "mnemonic": "冊 tome: 冂 frame + 廾 two hands"
+   "mnemonic": "冊 tome: 冂 frame + 廾 two hands",
+   "topic": "Counters"
   },
   {
    "slug": "vocab-n5-zasshi",
@@ -2524,7 +2699,8 @@
    "jlpt_level": "N5",
    "reading": "ざっし",
    "romaji": "zasshi",
-   "mnemonic": "雑 miscellaneous + 誌 document"
+   "mnemonic": "雑 miscellaneous + 誌 document",
+   "topic": "Technology & Media"
   },
   {
    "slug": "vocab-n5-sarainen",
@@ -2538,7 +2714,8 @@
    "jlpt_level": "N5",
    "reading": "さらいねん",
    "romaji": "sarainen",
-   "mnemonic": "来 come + 年 year"
+   "mnemonic": "来 come + 年 year",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-san",
@@ -2551,7 +2728,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "～さん",
-   "romaji": "～san"
+   "romaji": "～san",
+   "topic": "People & Relationships"
   },
   {
    "slug": "vocab-n5-san-2",
@@ -2580,7 +2758,8 @@
    "jlpt_level": "N5",
    "reading": "さんぽ (する)",
    "romaji": "sanpo(suru)",
-   "mnemonic": "散 scatter + 歩 walk"
+   "mnemonic": "散 scatter + 歩 walk",
+   "topic": "Hobbies, Sports & Entertainment"
   },
   {
    "slug": "vocab-n5-shi",
@@ -2594,7 +2773,8 @@
    "jlpt_level": "N5",
    "reading": "し",
    "romaji": "shi",
-   "mnemonic": "四 four: 儿 legs + 囗 enclosure"
+   "mnemonic": "四 four: 儿 legs + 囗 enclosure",
+   "topic": "Numbers"
   },
   {
    "slug": "vocab-n5-ji",
@@ -2608,7 +2788,8 @@
    "jlpt_level": "N5",
    "reading": "～じ",
    "romaji": "～ji",
-   "mnemonic": "時 time: 寸 inch + 土 earth + 日 sun"
+   "mnemonic": "時 time: 寸 inch + 土 earth + 日 sun",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-shikashi",
@@ -2621,7 +2802,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "しかし",
-   "romaji": "shikashi"
+   "romaji": "shikashi",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-jikan",
@@ -2635,7 +2817,8 @@
    "jlpt_level": "N5",
    "reading": "～じかん",
    "romaji": "～jikan",
-   "mnemonic": "時 time + 間 between"
+   "mnemonic": "時 time + 間 between",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-shizuka",
@@ -2649,7 +2832,8 @@
    "jlpt_level": "N5",
    "reading": "しずか",
    "romaji": "shizuka",
-   "mnemonic": "静 quiet: 青 blue + 勹 wrap + ヨ hand"
+   "mnemonic": "静 quiet: 青 blue + 勹 wrap + ヨ hand",
+   "topic": "Qualities & Conditions"
   },
   {
    "slug": "vocab-n5-shita",
@@ -2663,7 +2847,8 @@
    "jlpt_level": "N5",
    "reading": "した",
    "romaji": "shita",
-   "mnemonic": "下 below: 卜 divination"
+   "mnemonic": "下 below: 卜 divination",
+   "topic": "Position & Direction"
   },
   {
    "slug": "vocab-n5-shichi",
@@ -2677,7 +2862,8 @@
    "jlpt_level": "N5",
    "reading": "しち",
    "romaji": "shichi",
-   "mnemonic": "七 seven: 匕 spoon"
+   "mnemonic": "七 seven: 匕 spoon",
+   "topic": "Numbers"
   },
   {
    "slug": "vocab-n5-shitsumon",
@@ -2691,7 +2877,8 @@
    "jlpt_level": "N5",
    "reading": "しつもん",
    "romaji": "shitsumon",
-   "mnemonic": "質 substance + 問 question"
+   "mnemonic": "質 substance + 問 question",
+   "topic": "Language & Communication"
   },
   {
    "slug": "vocab-n5-jidousha",
@@ -2705,7 +2892,8 @@
    "jlpt_level": "N5",
    "reading": "じどうしゃ",
    "romaji": "jidousha",
-   "mnemonic": "自 oneself + 動 move + 車 car"
+   "mnemonic": "自 oneself + 動 move + 車 car",
+   "topic": "Transportation & Travel"
   },
   {
    "slug": "vocab-n5-shinu",
@@ -2719,7 +2907,8 @@
    "jlpt_level": "N5",
    "reading": "しぬ",
    "romaji": "shinu",
-   "mnemonic": "死 death: 夕 evening + 匕 spoon + 歹 death"
+   "mnemonic": "死 death: 夕 evening + 匕 spoon + 歹 death",
+   "topic": "Health & Medicine"
   },
   {
    "slug": "vocab-n5-jibiki",
@@ -2733,7 +2922,8 @@
    "jlpt_level": "N5",
    "reading": "じびき",
    "romaji": "jibiki",
-   "mnemonic": "字 character + 引 pull"
+   "mnemonic": "字 character + 引 pull",
+   "topic": "Language & Communication"
   },
   {
    "slug": "vocab-n5-jibun",
@@ -2747,7 +2937,8 @@
    "jlpt_level": "N5",
    "reading": "じぶん",
    "romaji": "jibun",
-   "mnemonic": "自 oneself + 分 minute"
+   "mnemonic": "自 oneself + 分 minute",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-shimaru",
@@ -2761,7 +2952,8 @@
    "jlpt_level": "N5",
    "reading": "しまる",
    "romaji": "shimaru",
-   "mnemonic": "閉 closed: 門 gate"
+   "mnemonic": "閉 closed: 門 gate",
+   "topic": "Daily Life & Routine"
   },
   {
    "slug": "vocab-n5-shimeru",
@@ -2775,7 +2967,8 @@
    "jlpt_level": "N5",
    "reading": "しめる",
    "romaji": "shimeru",
-   "mnemonic": "閉 closed: 門 gate"
+   "mnemonic": "閉 closed: 門 gate",
+   "topic": "Daily Life & Routine"
   },
   {
    "slug": "vocab-n5-shimeru-2",
@@ -2789,7 +2982,8 @@
    "jlpt_level": "N5",
    "reading": "しめる",
    "romaji": "shimeru",
-   "mnemonic": "締: 巾 cloth + 糸 thread + 并 horns + 立 stand + 亠 lid + 冖 cover"
+   "mnemonic": "締: 巾 cloth + 糸 thread + 并 horns + 立 stand + 亠 lid + 冖 cover",
+   "topic": "Clothes & Fashion"
   },
   {
    "slug": "vocab-n5-ja-jaa",
@@ -2802,7 +2996,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "じゃ; じゃあ",
-   "romaji": "ja;jaa"
+   "romaji": "ja;jaa",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-shawaa",
@@ -2815,7 +3010,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "シャワー",
-   "romaji": "shawaa"
+   "romaji": "shawaa",
+   "topic": "Home & Household"
   },
   {
    "slug": "vocab-n5-juu",
@@ -2844,7 +3040,8 @@
    "jlpt_level": "N5",
    "reading": "～じゅう",
    "romaji": "～juu",
-   "mnemonic": "中 middle: 口 mouth"
+   "mnemonic": "中 middle: 口 mouth",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-shuukan",
@@ -2858,7 +3055,8 @@
    "jlpt_level": "N5",
    "reading": "～しゅうかん",
    "romaji": "～shuukan",
-   "mnemonic": "週 week + 間 between"
+   "mnemonic": "週 week + 間 between",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-jouzu",
@@ -2872,7 +3070,8 @@
    "jlpt_level": "N5",
    "reading": "じょうず",
    "romaji": "jouzu",
-   "mnemonic": "上 above + 手 hand"
+   "mnemonic": "上 above + 手 hand",
+   "topic": "Personality & Behaviour"
   },
   {
    "slug": "vocab-n5-joubu",
@@ -2886,7 +3085,8 @@
    "jlpt_level": "N5",
    "reading": "じょうぶ",
    "romaji": "joubu",
-   "mnemonic": "丈 + 夫 husband"
+   "mnemonic": "丈 + 夫 husband",
+   "topic": "Qualities & Conditions"
   },
   {
    "slug": "vocab-n5-shokudou",
@@ -2900,7 +3100,8 @@
    "jlpt_level": "N5",
    "reading": "しょくどう",
    "romaji": "shokudou",
-   "mnemonic": "食 eat + 堂 public chamber"
+   "mnemonic": "食 eat + 堂 public chamber",
+   "topic": "Places Around Town"
   },
   {
    "slug": "vocab-n5-shiroi",
@@ -2914,7 +3115,8 @@
    "jlpt_level": "N5",
    "reading": "しろい",
    "romaji": "shiroi",
-   "mnemonic": "白 white"
+   "mnemonic": "白 white",
+   "topic": "Colors, Shapes & Appearance"
   },
   {
    "slug": "vocab-n5-jin",
@@ -2928,7 +3130,8 @@
    "jlpt_level": "N5",
    "reading": "～じん",
    "romaji": "～jin",
-   "mnemonic": "人 person"
+   "mnemonic": "人 person",
+   "topic": "Counters"
   },
   {
    "slug": "vocab-n5-shinbun",
@@ -2942,7 +3145,8 @@
    "jlpt_level": "N5",
    "reading": "しんぶん",
    "romaji": "shinbun",
-   "mnemonic": "新 new + 聞 hear"
+   "mnemonic": "新 new + 聞 hear",
+   "topic": "Technology & Media"
   },
   {
    "slug": "vocab-n5-suu",
@@ -2956,7 +3160,8 @@
    "jlpt_level": "N5",
    "reading": "すう",
    "romaji": "suu",
-   "mnemonic": "吸 suck: 口 mouth + 及 reach"
+   "mnemonic": "吸 suck: 口 mouth + 及 reach",
+   "topic": "Body"
   },
   {
    "slug": "vocab-n5-sugi",
@@ -2969,7 +3174,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "～すぎ",
-   "romaji": "～sugi"
+   "romaji": "～sugi",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-suguni",
@@ -2982,7 +3188,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "すぐに",
-   "romaji": "suguni"
+   "romaji": "suguni",
+   "topic": "Adverbs & Manner"
   },
   {
    "slug": "vocab-n5-sukoshi",
@@ -2996,7 +3203,8 @@
    "jlpt_level": "N5",
    "reading": "すこし",
    "romaji": "sukoshi",
-   "mnemonic": "少 few: 小 small"
+   "mnemonic": "少 few: 小 small",
+   "topic": "Size, Amount & Degree"
   },
   {
    "slug": "vocab-n5-zutsu",
@@ -3009,7 +3217,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "～ずつ",
-   "romaji": "～zutsu"
+   "romaji": "～zutsu",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-sutoobu",
@@ -3022,7 +3231,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "ストーブ",
-   "romaji": "sutoobu"
+   "romaji": "sutoobu",
+   "topic": "Home & Household"
   },
   {
    "slug": "vocab-n5-supootsu",
@@ -3035,7 +3245,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "スポーツ",
-   "romaji": "supootsu"
+   "romaji": "supootsu",
+   "topic": "Hobbies, Sports & Entertainment"
   },
   {
    "slug": "vocab-n5-sumu",
@@ -3049,7 +3260,8 @@
    "jlpt_level": "N5",
    "reading": "すむ",
    "romaji": "sumu",
-   "mnemonic": "住 dwell: 王 king + ⺅ person"
+   "mnemonic": "住 dwell: 王 king + ⺅ person",
+   "topic": "Daily Life & Routine"
   },
   {
    "slug": "vocab-n5-suru",
@@ -3062,7 +3274,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "する",
-   "romaji": "suru"
+   "romaji": "suru",
+   "topic": "Daily Life & Routine"
   },
   {
    "slug": "vocab-n5-suwaru",
@@ -3076,7 +3289,8 @@
    "jlpt_level": "N5",
    "reading": "すわる",
    "romaji": "suwaru",
-   "mnemonic": "座 squat: 土 earth + 人 person + 广 shelter"
+   "mnemonic": "座 squat: 土 earth + 人 person + 广 shelter",
+   "topic": "Movement & Motion"
   },
   {
    "slug": "vocab-n5-sei",
@@ -3090,7 +3304,8 @@
    "jlpt_level": "N5",
    "reading": "せい",
    "romaji": "sei",
-   "mnemonic": "背 stature: 月 moon + 匕 spoon + 爿 bed"
+   "mnemonic": "背 stature: 月 moon + 匕 spoon + 爿 bed",
+   "topic": "Body"
   },
   {
    "slug": "vocab-n5-seito",
@@ -3104,7 +3319,8 @@
    "jlpt_level": "N5",
    "reading": "せいと",
    "romaji": "seito",
-   "mnemonic": "生 life + 徒 on foot"
+   "mnemonic": "生 life + 徒 on foot",
+   "topic": "School & Study"
   },
   {
    "slug": "vocab-n5-sebiro",
@@ -3118,7 +3334,8 @@
    "jlpt_level": "N5",
    "reading": "せびろ",
    "romaji": "sebiro",
-   "mnemonic": "背 stature + 広 wide"
+   "mnemonic": "背 stature + 広 wide",
+   "topic": "Clothes & Fashion"
   },
   {
    "slug": "vocab-n5-semai",
@@ -3132,7 +3349,8 @@
    "jlpt_level": "N5",
    "reading": "せまい",
    "romaji": "semai",
-   "mnemonic": "狭: 人 person + 大 big + 并 horns + 犭 dog + 亠 lid"
+   "mnemonic": "狭: 人 person + 大 big + 并 horns + 犭 dog + 亠 lid",
+   "topic": "Size, Amount & Degree"
   },
   {
    "slug": "vocab-n5-zero",
@@ -3145,7 +3363,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "ゼロ",
-   "romaji": "zero"
+   "romaji": "zero",
+   "topic": "Numbers"
   },
   {
    "slug": "vocab-n5-sen",
@@ -3174,7 +3393,8 @@
    "jlpt_level": "N5",
    "reading": "せんげつ",
    "romaji": "sengetsu",
-   "mnemonic": "先 ahead + 月 moon"
+   "mnemonic": "先 ahead + 月 moon",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-sensei",
@@ -3188,7 +3408,8 @@
    "jlpt_level": "N5",
    "reading": "せんせい",
    "romaji": "sensei",
-   "mnemonic": "先 ahead + 生 life"
+   "mnemonic": "先 ahead + 生 life",
+   "topic": "School & Study"
   },
   {
    "slug": "vocab-n5-sentaku",
@@ -3202,7 +3423,8 @@
    "jlpt_level": "N5",
    "reading": "せんたく",
    "romaji": "sentaku",
-   "mnemonic": "洗 wash + 濯 laundry"
+   "mnemonic": "洗 wash + 濯 laundry",
+   "topic": "Home & Household"
   },
   {
    "slug": "vocab-n5-zenbu",
@@ -3216,7 +3438,8 @@
    "jlpt_level": "N5",
    "reading": "ぜんぶ",
    "romaji": "zenbu",
-   "mnemonic": "全 whole + 部 section"
+   "mnemonic": "全 whole + 部 section",
+   "topic": "Size, Amount & Degree"
   },
   {
    "slug": "vocab-n5-sou-soudesu",
@@ -3229,7 +3452,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "そう; そうです",
-   "romaji": "sou;soudesu"
+   "romaji": "sou;soudesu",
+   "topic": "Greetings & Basics"
   },
   {
    "slug": "vocab-n5-souji-suru",
@@ -3243,7 +3467,8 @@
    "jlpt_level": "N5",
    "reading": "そうじ (する)",
    "romaji": "souji(suru)",
-   "mnemonic": "掃 sweep + 除 exclude"
+   "mnemonic": "掃 sweep + 除 exclude",
+   "topic": "Home & Household"
   },
   {
    "slug": "vocab-n5-soushite-soshite",
@@ -3256,7 +3481,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "そうして; そして",
-   "romaji": "soushite;soshite"
+   "romaji": "soushite;soshite",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-soko",
@@ -3269,7 +3495,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "そこ",
-   "romaji": "soko"
+   "romaji": "soko",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-sochira",
@@ -3282,7 +3509,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "そちら",
-   "romaji": "sochira"
+   "romaji": "sochira",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-sotchi",
@@ -3295,7 +3523,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "そっち",
-   "romaji": "sotchi"
+   "romaji": "sotchi",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-soto",
@@ -3309,7 +3538,8 @@
    "jlpt_level": "N5",
    "reading": "そと",
    "romaji": "soto",
-   "mnemonic": "外 outside: 卜 divination + 夕 evening"
+   "mnemonic": "外 outside: 卜 divination + 夕 evening",
+   "topic": "Position & Direction"
   },
   {
    "slug": "vocab-n5-sono",
@@ -3322,7 +3552,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "その",
-   "romaji": "sono"
+   "romaji": "sono",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-soba",
@@ -3335,7 +3566,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "そば",
-   "romaji": "soba"
+   "romaji": "soba",
+   "topic": "Position & Direction"
   },
   {
    "slug": "vocab-n5-sora",
@@ -3349,7 +3581,8 @@
    "jlpt_level": "N5",
    "reading": "そら",
    "romaji": "sora",
-   "mnemonic": "空 sky: 穴 hole + 工 craft + 儿 legs"
+   "mnemonic": "空 sky: 穴 hole + 工 craft + 儿 legs",
+   "topic": "Nature & Environment"
   },
   {
    "slug": "vocab-n5-sore",
@@ -3362,7 +3595,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "それ",
-   "romaji": "sore"
+   "romaji": "sore",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-sorekara",
@@ -3375,7 +3609,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "それから",
-   "romaji": "sorekara"
+   "romaji": "sorekara",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-soredeha",
@@ -3388,7 +3623,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "それでは",
-   "romaji": "soredeha"
+   "romaji": "soredeha",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-dai",
@@ -3402,7 +3638,8 @@
    "jlpt_level": "N5",
    "reading": "～だい",
    "romaji": "～dai",
-   "mnemonic": "台 pedestal: 口 mouth + 厶 private"
+   "mnemonic": "台 pedestal: 口 mouth + 厶 private",
+   "topic": "Counters"
   },
   {
    "slug": "vocab-n5-daigaku",
@@ -3416,7 +3653,8 @@
    "jlpt_level": "N5",
    "reading": "だいがく",
    "romaji": "daigaku",
-   "mnemonic": "大 big + 学 study"
+   "mnemonic": "大 big + 学 study",
+   "topic": "School & Study"
   },
   {
    "slug": "vocab-n5-taishikan",
@@ -3430,7 +3668,8 @@
    "jlpt_level": "N5",
    "reading": "たいしかん",
    "romaji": "taishikan",
-   "mnemonic": "大 big + 使 use + 館 building"
+   "mnemonic": "大 big + 使 use + 館 building",
+   "topic": "Society & Government"
   },
   {
    "slug": "vocab-n5-daijoubu",
@@ -3444,7 +3683,8 @@
    "jlpt_level": "N5",
    "reading": "だいじょうぶ",
    "romaji": "daijoubu",
-   "mnemonic": "大 big + 丈 + 夫 husband"
+   "mnemonic": "大 big + 丈 + 夫 husband",
+   "topic": "Greetings & Basics"
   },
   {
    "slug": "vocab-n5-taisetsu",
@@ -3458,7 +3698,8 @@
    "jlpt_level": "N5",
    "reading": "たいせつ",
    "romaji": "taisetsu",
-   "mnemonic": "大 big + 切 cut"
+   "mnemonic": "大 big + 切 cut",
+   "topic": "Qualities & Conditions"
   },
   {
    "slug": "vocab-n5-daidokoro",
@@ -3472,7 +3713,8 @@
    "jlpt_level": "N5",
    "reading": "だいどころ",
    "romaji": "daidokoro",
-   "mnemonic": "台 pedestal + 所 place"
+   "mnemonic": "台 pedestal + 所 place",
+   "topic": "Home & Household"
   },
   {
    "slug": "vocab-n5-taihen",
@@ -3486,7 +3728,8 @@
    "jlpt_level": "N5",
    "reading": "たいへん",
    "romaji": "taihen",
-   "mnemonic": "大 big + 変 unusual"
+   "mnemonic": "大 big + 変 unusual",
+   "topic": "Qualities & Conditions"
   },
   {
    "slug": "vocab-n5-dake",
@@ -3499,7 +3742,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "～だけ",
-   "romaji": "～dake"
+   "romaji": "～dake",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-takusan",
@@ -3513,7 +3757,8 @@
    "jlpt_level": "N5",
    "reading": "たくさん",
    "romaji": "takusan",
-   "mnemonic": "沢 + 山 mountain"
+   "mnemonic": "沢 + 山 mountain",
+   "topic": "Size, Amount & Degree"
   },
   {
    "slug": "vocab-n5-dasu",
@@ -3527,7 +3772,8 @@
    "jlpt_level": "N5",
    "reading": "だす",
    "romaji": "dasu",
-   "mnemonic": "出 exit: 山 mountain"
+   "mnemonic": "出 exit: 山 mountain",
+   "topic": "Daily Life & Routine"
   },
   {
    "slug": "vocab-n5-tachi",
@@ -3540,7 +3786,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "～たち",
-   "romaji": "～tachi"
+   "romaji": "～tachi",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-tatsu",
@@ -3554,7 +3801,8 @@
    "jlpt_level": "N5",
    "reading": "たつ",
    "romaji": "tatsu",
-   "mnemonic": "立 stand"
+   "mnemonic": "立 stand",
+   "topic": "Movement & Motion"
   },
   {
    "slug": "vocab-n5-tate",
@@ -3567,7 +3815,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "たて",
-   "romaji": "tate"
+   "romaji": "tate",
+   "topic": "Size, Amount & Degree"
   },
   {
    "slug": "vocab-n5-tatemono",
@@ -3581,7 +3830,8 @@
    "jlpt_level": "N5",
    "reading": "たてもの",
    "romaji": "tatemono",
-   "mnemonic": "建 build + 物 thing"
+   "mnemonic": "建 build + 物 thing",
+   "topic": "Places Around Town"
   },
   {
    "slug": "vocab-n5-tanomu",
@@ -3595,7 +3845,8 @@
    "jlpt_level": "N5",
    "reading": "たのむ",
    "romaji": "tanomu",
-   "mnemonic": "頼 trust: 口 mouth + 頁 head + 木 tree"
+   "mnemonic": "頼 trust: 口 mouth + 頁 head + 木 tree",
+   "topic": "Language & Communication"
   },
   {
    "slug": "vocab-n5-tabako",
@@ -3608,7 +3859,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "たばこ",
-   "romaji": "tabako"
+   "romaji": "tabako",
+   "topic": "Objects & Materials"
   },
   {
    "slug": "vocab-n5-tabun",
@@ -3622,7 +3874,8 @@
    "jlpt_level": "N5",
    "reading": "たぶん",
    "romaji": "tabun",
-   "mnemonic": "多 many + 分 minute"
+   "mnemonic": "多 many + 分 minute",
+   "topic": "Adverbs & Manner"
   },
   {
    "slug": "vocab-n5-tabemono",
@@ -3636,7 +3889,8 @@
    "jlpt_level": "N5",
    "reading": "たべもの",
    "romaji": "tabemono",
-   "mnemonic": "食 eat + 物 thing"
+   "mnemonic": "食 eat + 物 thing",
+   "topic": "Food & Drink"
   },
   {
    "slug": "vocab-n5-tamago",
@@ -3665,7 +3919,8 @@
    "jlpt_level": "N5",
    "reading": "だれ",
    "romaji": "dare",
-   "mnemonic": "誰: 言 say + 隹 bird"
+   "mnemonic": "誰: 言 say + 隹 bird",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-dareka",
@@ -3679,7 +3934,8 @@
    "jlpt_level": "N5",
    "reading": "だれか",
    "romaji": "dareka",
-   "mnemonic": "誰: 言 say + 隹 bird"
+   "mnemonic": "誰: 言 say + 隹 bird",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-tanjoubi",
@@ -3693,7 +3949,8 @@
    "jlpt_level": "N5",
    "reading": "たんじょうび",
    "romaji": "tanjoubi",
-   "mnemonic": "誕 + 生 life + 日 sun"
+   "mnemonic": "誕 + 生 life + 日 sun",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-dandan",
@@ -3707,7 +3964,8 @@
    "jlpt_level": "N5",
    "reading": "だんだん",
    "romaji": "dandan",
-   "mnemonic": "段 grade: 殳 weapon"
+   "mnemonic": "段 grade: 殳 weapon",
+   "topic": "Adverbs & Manner"
   },
   {
    "slug": "vocab-n5-chiisana",
@@ -3721,7 +3979,8 @@
    "jlpt_level": "N5",
    "reading": "ちいさな",
    "romaji": "chiisana",
-   "mnemonic": "小 small"
+   "mnemonic": "小 small",
+   "topic": "Size, Amount & Degree"
   },
   {
    "slug": "vocab-n5-chikai",
@@ -3735,7 +3994,8 @@
    "jlpt_level": "N5",
    "reading": "ちかい",
    "romaji": "chikai",
-   "mnemonic": "近 near: 斤 axe + 辶"
+   "mnemonic": "近 near: 斤 axe + 辶",
+   "topic": "Position & Direction"
   },
   {
    "slug": "vocab-n5-chigau",
@@ -3749,7 +4009,8 @@
    "jlpt_level": "N5",
    "reading": "ちがう",
    "romaji": "chigau",
-   "mnemonic": "違 difference: 辶 + 韋 leather"
+   "mnemonic": "違 difference: 辶 + 韋 leather",
+   "topic": "Qualities & Conditions"
   },
   {
    "slug": "vocab-n5-chikaku",
@@ -3763,7 +4024,8 @@
    "jlpt_level": "N5",
    "reading": "ちかく",
    "romaji": "chikaku",
-   "mnemonic": "近 near: 斤 axe + 辶"
+   "mnemonic": "近 near: 斤 axe + 辶",
+   "topic": "Position & Direction"
   },
   {
    "slug": "vocab-n5-chizu",
@@ -3777,7 +4039,8 @@
    "jlpt_level": "N5",
    "reading": "ちず",
    "romaji": "chizu",
-   "mnemonic": "地 ground + 図 map"
+   "mnemonic": "地 ground + 図 map",
+   "topic": "Transportation & Travel"
   },
   {
    "slug": "vocab-n5-chawan",
@@ -3791,7 +4054,8 @@
    "jlpt_level": "N5",
    "reading": "ちゃわん",
    "romaji": "chawan",
-   "mnemonic": "茶 tea + 碗"
+   "mnemonic": "茶 tea + 碗",
+   "topic": "Kitchen & Cooking"
   },
   {
    "slug": "vocab-n5-chuu",
@@ -3805,7 +4069,8 @@
    "jlpt_level": "N5",
    "reading": "～ちゅう",
    "romaji": "～chuu",
-   "mnemonic": "中 middle: 口 mouth"
+   "mnemonic": "中 middle: 口 mouth",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-choudo",
@@ -3819,7 +4084,7 @@
    "jlpt_level": "N5",
    "reading": "ちょうど",
    "romaji": "choudo",
-   "topic": "Time & Calendar",
+   "topic": "Adverbs & Manner",
    "mnemonic": "丁 + 度 degrees"
   },
   {
@@ -3833,7 +4098,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "ちょっと",
-   "romaji": "chotto"
+   "romaji": "chotto",
+   "topic": "Adverbs & Manner"
   },
   {
    "slug": "vocab-n5-tsuitachi",
@@ -3847,7 +4113,8 @@
    "jlpt_level": "N5",
    "reading": "ついたち",
    "romaji": "tsuitachi",
-   "mnemonic": "一 one + 日 sun"
+   "mnemonic": "一 one + 日 sun",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-tsukau",
@@ -3861,7 +4128,8 @@
    "jlpt_level": "N5",
    "reading": "つかう",
    "romaji": "tsukau",
-   "mnemonic": "使 use: ⺅ person + 口 mouth"
+   "mnemonic": "使 use: ⺅ person + 口 mouth",
+   "topic": "Daily Life & Routine"
   },
   {
    "slug": "vocab-n5-tsukareru",
@@ -3875,7 +4143,8 @@
    "jlpt_level": "N5",
    "reading": "つかれる",
    "romaji": "tsukareru",
-   "mnemonic": "疲 exhausted: 皮 pelt + 疒 sickness"
+   "mnemonic": "疲 exhausted: 皮 pelt + 疒 sickness",
+   "topic": "Body"
   },
   {
    "slug": "vocab-n5-tsugi",
@@ -3889,7 +4158,8 @@
    "jlpt_level": "N5",
    "reading": "つぎ",
    "romaji": "tsugi",
-   "mnemonic": "次 next: 欠 lack + 冫 ice"
+   "mnemonic": "次 next: 欠 lack + 冫 ice",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-tsuku",
@@ -3903,7 +4173,8 @@
    "jlpt_level": "N5",
    "reading": "つく",
    "romaji": "tsuku",
-   "mnemonic": "着 don: 目 eye + 羊 sheep"
+   "mnemonic": "着 don: 目 eye + 羊 sheep",
+   "topic": "Movement & Motion"
   },
   {
    "slug": "vocab-n5-tsukuru",
@@ -3917,7 +4188,8 @@
    "jlpt_level": "N5",
    "reading": "つくる",
    "romaji": "tsukuru",
-   "mnemonic": "作 make: ⺅ person"
+   "mnemonic": "作 make: ⺅ person",
+   "topic": "Daily Life & Routine"
   },
   {
    "slug": "vocab-n5-tsukeru",
@@ -3930,7 +4202,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "つける",
-   "romaji": "tsukeru"
+   "romaji": "tsukeru",
+   "topic": "Daily Life & Routine"
   },
   {
    "slug": "vocab-n5-tsutomeru",
@@ -3944,7 +4217,8 @@
    "jlpt_level": "N5",
    "reading": "つとめる",
    "romaji": "tsutomeru",
-   "mnemonic": "勤 diligence: 土 earth + 力 power + ⺾ grass + 口 mouth"
+   "mnemonic": "勤 diligence: 土 earth + 力 power + ⺾ grass + 口 mouth",
+   "topic": "Work & Business"
   },
   {
    "slug": "vocab-n5-tsumetai",
@@ -3958,7 +4232,8 @@
    "jlpt_level": "N5",
    "reading": "つめたい",
    "romaji": "tsumetai",
-   "mnemonic": "冷 cool: 𠆢 person + 冫 ice + 卩 seal"
+   "mnemonic": "冷 cool: 𠆢 person + 冫 ice + 卩 seal",
+   "topic": "Qualities & Conditions"
   },
   {
    "slug": "vocab-n5-tsuyoi",
@@ -3972,7 +4247,8 @@
    "jlpt_level": "N5",
    "reading": "つよい",
    "romaji": "tsuyoi",
-   "mnemonic": "強 strong: 弓 bow + 虫 insect + 厶 private"
+   "mnemonic": "強 strong: 弓 bow + 虫 insect + 厶 private",
+   "topic": "Qualities & Conditions"
   },
   {
    "slug": "vocab-n5-teepu",
@@ -3985,7 +4261,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "テープ",
-   "romaji": "teepu"
+   "romaji": "teepu",
+   "topic": "Objects & Materials"
   },
   {
    "slug": "vocab-n5-teepurekoodaa",
@@ -3998,7 +4275,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "テープレコーダー",
-   "romaji": "teepurekoodaa"
+   "romaji": "teepurekoodaa",
+   "topic": "Technology & Media"
   },
   {
    "slug": "vocab-n5-teeburu",
@@ -4011,7 +4289,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "テーブル",
-   "romaji": "teeburu"
+   "romaji": "teeburu",
+   "topic": "Home & Household"
   },
   {
    "slug": "vocab-n5-dekakeru",
@@ -4025,7 +4304,8 @@
    "jlpt_level": "N5",
    "reading": "でかける",
    "romaji": "dekakeru",
-   "mnemonic": "出 exit: 山 mountain"
+   "mnemonic": "出 exit: 山 mountain",
+   "topic": "Movement & Motion"
   },
   {
    "slug": "vocab-n5-tegami",
@@ -4039,7 +4319,8 @@
    "jlpt_level": "N5",
    "reading": "てがみ",
    "romaji": "tegami",
-   "mnemonic": "手 hand + 紙 paper"
+   "mnemonic": "手 hand + 紙 paper",
+   "topic": "Language & Communication"
   },
   {
    "slug": "vocab-n5-dekiru",
@@ -4052,7 +4333,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "できる",
-   "romaji": "dekiru"
+   "romaji": "dekiru",
+   "topic": "Qualities & Conditions"
   },
   {
    "slug": "vocab-n5-tesuto",
@@ -4065,7 +4347,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "テスト",
-   "romaji": "tesuto"
+   "romaji": "tesuto",
+   "topic": "School & Study"
   },
   {
    "slug": "vocab-n5-deha",
@@ -4078,7 +4361,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "では",
-   "romaji": "deha"
+   "romaji": "deha",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-depaato",
@@ -4091,7 +4375,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "デパート",
-   "romaji": "depaato"
+   "romaji": "depaato",
+   "topic": "Shopping"
   },
   {
    "slug": "vocab-n5-demo",
@@ -4104,7 +4389,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "でも",
-   "romaji": "demo"
+   "romaji": "demo",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-terebi",
@@ -4117,7 +4403,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "テレビ",
-   "romaji": "terebi"
+   "romaji": "terebi",
+   "topic": "Technology & Media"
   },
   {
    "slug": "vocab-n5-denki",
@@ -4131,7 +4418,8 @@
    "jlpt_level": "N5",
    "reading": "でんき",
    "romaji": "denki",
-   "mnemonic": "電 electricity + 気 spirit"
+   "mnemonic": "電 electricity + 気 spirit",
+   "topic": "Technology & Media"
   },
   {
    "slug": "vocab-n5-to",
@@ -4145,7 +4433,8 @@
    "jlpt_level": "N5",
    "reading": "と",
    "romaji": "to",
-   "mnemonic": "戸 door: 尸 body"
+   "mnemonic": "戸 door: 尸 body",
+   "topic": "Home & Household"
   },
   {
    "slug": "vocab-n5-do",
@@ -4159,7 +4448,8 @@
    "jlpt_level": "N5",
    "reading": "～ど",
    "romaji": "～do",
-   "mnemonic": "度 degrees: 又 hand + 广 shelter + 凵 container"
+   "mnemonic": "度 degrees: 又 hand + 广 shelter + 凵 container",
+   "topic": "Counters"
   },
   {
    "slug": "vocab-n5-doa",
@@ -4172,7 +4462,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "ドア",
-   "romaji": "doa"
+   "romaji": "doa",
+   "topic": "Home & Household"
   },
   {
    "slug": "vocab-n5-toire",
@@ -4185,7 +4476,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "トイレ",
-   "romaji": "toire"
+   "romaji": "toire",
+   "topic": "Home & Household"
   },
   {
    "slug": "vocab-n5-dou",
@@ -4198,7 +4490,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "どう",
-   "romaji": "dou"
+   "romaji": "dou",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-doushite",
@@ -4211,7 +4504,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "どうして",
-   "romaji": "doushite"
+   "romaji": "doushite",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-doubutsu",
@@ -4225,7 +4519,8 @@
    "jlpt_level": "N5",
    "reading": "どうぶつ",
    "romaji": "doubutsu",
-   "mnemonic": "動 move + 物 thing"
+   "mnemonic": "動 move + 物 thing",
+   "topic": "Animals"
   },
   {
    "slug": "vocab-n5-wo-too",
@@ -4239,7 +4534,8 @@
    "jlpt_level": "N5",
    "reading": "(〜を) とお",
    "romaji": "(~wo)too",
-   "mnemonic": "十 ten"
+   "mnemonic": "十 ten",
+   "topic": "Numbers"
   },
   {
    "slug": "vocab-n5-tooi",
@@ -4253,7 +4549,8 @@
    "jlpt_level": "N5",
    "reading": "とおい",
    "romaji": "tooi",
-   "mnemonic": "遠 distant: 衣 garment + 口 mouth + 辶 + 土 earth"
+   "mnemonic": "遠 distant: 衣 garment + 口 mouth + 辶 + 土 earth",
+   "topic": "Position & Direction"
   },
   {
    "slug": "vocab-n5-tooka",
@@ -4267,7 +4564,8 @@
    "jlpt_level": "N5",
    "reading": "とおか",
    "romaji": "tooka",
-   "mnemonic": "十 ten + 日 sun"
+   "mnemonic": "十 ten + 日 sun",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-toki",
@@ -4281,7 +4579,8 @@
    "jlpt_level": "N5",
    "reading": "～とき",
    "romaji": "～toki",
-   "mnemonic": "時 time: 寸 inch + 土 earth + 日 sun"
+   "mnemonic": "時 time: 寸 inch + 土 earth + 日 sun",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-tokidoki",
@@ -4295,7 +4594,8 @@
    "jlpt_level": "N5",
    "reading": "ときどき",
    "romaji": "tokidoki",
-   "mnemonic": "時 time: 寸 inch + 土 earth + 日 sun"
+   "mnemonic": "時 time: 寸 inch + 土 earth + 日 sun",
+   "topic": "Adverbs & Manner"
   },
   {
    "slug": "vocab-n5-doko",
@@ -4308,7 +4608,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "どこ",
-   "romaji": "doko"
+   "romaji": "doko",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-tokoro",
@@ -4322,7 +4623,8 @@
    "jlpt_level": "N5",
    "reading": "ところ",
    "romaji": "tokoro",
-   "mnemonic": "所 place: 斤 axe + 戸 door"
+   "mnemonic": "所 place: 斤 axe + 戸 door",
+   "topic": "Position & Direction"
   },
   {
    "slug": "vocab-n5-toshi",
@@ -4336,7 +4638,8 @@
    "jlpt_level": "N5",
    "reading": "とし",
    "romaji": "toshi",
-   "mnemonic": "年 year: 干 dry"
+   "mnemonic": "年 year: 干 dry",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-dochira",
@@ -4349,7 +4652,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "どちら",
-   "romaji": "dochira"
+   "romaji": "dochira",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-dotchi",
@@ -4362,7 +4666,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "どっち",
-   "romaji": "dotchi"
+   "romaji": "dotchi",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-totemo",
@@ -4375,7 +4680,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "とても",
-   "romaji": "totemo"
+   "romaji": "totemo",
+   "topic": "Adverbs & Manner"
   },
   {
    "slug": "vocab-n5-donata",
@@ -4388,7 +4694,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "どなた",
-   "romaji": "donata"
+   "romaji": "donata",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-tonari",
@@ -4402,7 +4709,8 @@
    "jlpt_level": "N5",
    "reading": "となり",
    "romaji": "tonari",
-   "mnemonic": "隣: 舛 opposite + 米 rice + ⻖ hill"
+   "mnemonic": "隣: 舛 opposite + 米 rice + ⻖ hill",
+   "topic": "Position & Direction"
   },
   {
    "slug": "vocab-n5-dono",
@@ -4415,7 +4723,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "どの",
-   "romaji": "dono"
+   "romaji": "dono",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-tobu",
@@ -4429,7 +4738,8 @@
    "jlpt_level": "N5",
    "reading": "とぶ",
    "romaji": "tobu",
-   "mnemonic": "飛 fly"
+   "mnemonic": "飛 fly",
+   "topic": "Movement & Motion"
   },
   {
    "slug": "vocab-n5-toriniku",
@@ -4443,7 +4753,8 @@
    "jlpt_level": "N5",
    "reading": "とりにく",
    "romaji": "toriniku",
-   "mnemonic": "鶏 + 肉 meat"
+   "mnemonic": "鶏 + 肉 meat",
+   "topic": "Food & Drink"
   },
   {
    "slug": "vocab-n5-toru",
@@ -4457,7 +4768,8 @@
    "jlpt_level": "N5",
    "reading": "とる",
    "romaji": "toru",
-   "mnemonic": "取 take: 耳 ear + 又 hand"
+   "mnemonic": "取 take: 耳 ear + 又 hand",
+   "topic": "Daily Life & Routine"
   },
   {
    "slug": "vocab-n5-toru-2",
@@ -4471,7 +4783,8 @@
    "jlpt_level": "N5",
    "reading": "とる",
    "romaji": "toru",
-   "mnemonic": "撮: 耳 ear + 日 sun + 又 hand + 扌 hand"
+   "mnemonic": "撮: 耳 ear + 日 sun + 又 hand + 扌 hand",
+   "topic": "Hobbies, Sports & Entertainment"
   },
   {
    "slug": "vocab-n5-dore",
@@ -4484,7 +4797,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "どれ",
-   "romaji": "dore"
+   "romaji": "dore",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-donna",
@@ -4497,7 +4811,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "どんな",
-   "romaji": "donna"
+   "romaji": "donna",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-nai",
@@ -4510,7 +4825,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "ない",
-   "romaji": "nai"
+   "romaji": "nai",
+   "topic": "Qualities & Conditions"
   },
   {
    "slug": "vocab-n5-naka",
@@ -4524,7 +4840,8 @@
    "jlpt_level": "N5",
    "reading": "なか",
    "romaji": "naka",
-   "mnemonic": "中 middle: 口 mouth"
+   "mnemonic": "中 middle: 口 mouth",
+   "topic": "Position & Direction"
   },
   {
    "slug": "vocab-n5-naku",
@@ -4538,7 +4855,8 @@
    "jlpt_level": "N5",
    "reading": "なく",
    "romaji": "naku",
-   "mnemonic": "鳴 chirp: 口 mouth + 鳥 bird"
+   "mnemonic": "鳴 chirp: 口 mouth + 鳥 bird",
+   "topic": "Animals"
   },
   {
    "slug": "vocab-n5-nakusu",
@@ -4552,7 +4870,8 @@
    "jlpt_level": "N5",
    "reading": "なくす",
    "romaji": "nakusu",
-   "mnemonic": "無: 灬 fire"
+   "mnemonic": "無: 灬 fire",
+   "topic": "Daily Life & Routine"
   },
   {
    "slug": "vocab-n5-naze",
@@ -4565,7 +4884,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "なぜ",
-   "romaji": "naze"
+   "romaji": "naze",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-natsu",
@@ -4579,7 +4899,8 @@
    "jlpt_level": "N5",
    "reading": "なつ",
    "romaji": "natsu",
-   "mnemonic": "夏 summer: 自 oneself + 夂 walk"
+   "mnemonic": "夏 summer: 自 oneself + 夂 walk",
+   "topic": "Weather & Seasons"
   },
   {
    "slug": "vocab-n5-natsuyasumi",
@@ -4593,7 +4914,8 @@
    "jlpt_level": "N5",
    "reading": "なつやすみ",
    "romaji": "natsuyasumi",
-   "mnemonic": "夏 summer + 休 rest"
+   "mnemonic": "夏 summer + 休 rest",
+   "topic": "School & Study"
   },
   {
    "slug": "vocab-n5-nado",
@@ -4606,7 +4928,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "～など",
-   "romaji": "～nado"
+   "romaji": "～nado",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-nanatsu",
@@ -4635,7 +4958,8 @@
    "jlpt_level": "N5",
    "reading": "なん; なに",
    "romaji": "nan;nani",
-   "mnemonic": "何 what: ⺅ person + 口 mouth"
+   "mnemonic": "何 what: ⺅ person + 口 mouth",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-nanoka",
@@ -4649,7 +4973,8 @@
    "jlpt_level": "N5",
    "reading": "なのか",
    "romaji": "nanoka",
-   "mnemonic": "七 seven + 日 sun"
+   "mnemonic": "七 seven + 日 sun",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-namae",
@@ -4663,7 +4988,8 @@
    "jlpt_level": "N5",
    "reading": "なまえ",
    "romaji": "namae",
-   "mnemonic": "名 name + 前 front"
+   "mnemonic": "名 name + 前 front",
+   "topic": "Language & Communication"
   },
   {
    "slug": "vocab-n5-narabu",
@@ -4677,7 +5003,8 @@
    "jlpt_level": "N5",
    "reading": "ならぶ",
    "romaji": "narabu",
-   "mnemonic": "並 row: 并 horns"
+   "mnemonic": "並 row: 并 horns",
+   "topic": "Movement & Motion"
   },
   {
    "slug": "vocab-n5-naraberu",
@@ -4691,7 +5018,8 @@
    "jlpt_level": "N5",
    "reading": "ならべる",
    "romaji": "naraberu",
-   "mnemonic": "並 row: 并 horns"
+   "mnemonic": "並 row: 并 horns",
+   "topic": "Daily Life & Routine"
   },
   {
    "slug": "vocab-n5-naru",
@@ -4704,7 +5032,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "なる",
-   "romaji": "naru"
+   "romaji": "naru",
+   "topic": "Change, Cause & Result"
   },
   {
    "slug": "vocab-n5-nan",
@@ -4718,7 +5047,8 @@
    "jlpt_level": "N5",
    "reading": "なん～",
    "romaji": "nan～",
-   "mnemonic": "何 what: ⺅ person + 口 mouth"
+   "mnemonic": "何 what: ⺅ person + 口 mouth",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-ni",
@@ -4746,7 +5076,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "にぎやか",
-   "romaji": "nigiyaka"
+   "romaji": "nigiyaka",
+   "topic": "Qualities & Conditions"
   },
   {
    "slug": "vocab-n5-nishi",
@@ -4760,7 +5091,8 @@
    "jlpt_level": "N5",
    "reading": "にし",
    "romaji": "nishi",
-   "mnemonic": "西 west"
+   "mnemonic": "西 west",
+   "topic": "Position & Direction"
   },
   {
    "slug": "vocab-n5-nichi",
@@ -4774,7 +5106,8 @@
    "jlpt_level": "N5",
    "reading": "～にち",
    "romaji": "～nichi",
-   "mnemonic": "日 sun"
+   "mnemonic": "日 sun",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-nimotsu",
@@ -4788,7 +5121,8 @@
    "jlpt_level": "N5",
    "reading": "にもつ",
    "romaji": "nimotsu",
-   "mnemonic": "荷 baggage + 物 thing"
+   "mnemonic": "荷 baggage + 物 thing",
+   "topic": "Transportation & Travel"
   },
   {
    "slug": "vocab-n5-nyuusu",
@@ -4801,7 +5135,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "ニュース",
-   "romaji": "nyuusu"
+   "romaji": "nyuusu",
+   "topic": "Technology & Media"
   },
   {
    "slug": "vocab-n5-niwa",
@@ -4815,7 +5150,8 @@
    "jlpt_level": "N5",
    "reading": "にわ",
    "romaji": "niwa",
-   "mnemonic": "庭 courtyard: 王 king + 广 shelter + 廴 stride"
+   "mnemonic": "庭 courtyard: 王 king + 广 shelter + 廴 stride",
+   "topic": "Home & Household"
   },
   {
    "slug": "vocab-n5-nin",
@@ -4829,7 +5165,8 @@
    "jlpt_level": "N5",
    "reading": "～にん",
    "romaji": "～nin",
-   "mnemonic": "人 person"
+   "mnemonic": "人 person",
+   "topic": "Counters"
   },
   {
    "slug": "vocab-n5-nurui",
@@ -4843,7 +5180,8 @@
    "jlpt_level": "N5",
    "reading": "ぬるい",
    "romaji": "nurui",
-   "mnemonic": "温 warm: 皿 dish + 氵 water + 日 sun"
+   "mnemonic": "温 warm: 皿 dish + 氵 water + 日 sun",
+   "topic": "Qualities & Conditions"
   },
   {
    "slug": "vocab-n5-nen",
@@ -4857,7 +5195,8 @@
    "jlpt_level": "N5",
    "reading": "～ねん",
    "romaji": "～nen",
-   "mnemonic": "年 year: 干 dry"
+   "mnemonic": "年 year: 干 dry",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-noboru",
@@ -4871,7 +5210,8 @@
    "jlpt_level": "N5",
    "reading": "のぼる",
    "romaji": "noboru",
-   "mnemonic": "登 ascend: 豆 bean + 癶 footsteps"
+   "mnemonic": "登 ascend: 豆 bean + 癶 footsteps",
+   "topic": "Movement & Motion"
   },
   {
    "slug": "vocab-n5-nomimono",
@@ -4885,7 +5225,8 @@
    "jlpt_level": "N5",
    "reading": "のみもの",
    "romaji": "nomimono",
-   "mnemonic": "飲 drink + 物 thing"
+   "mnemonic": "飲 drink + 物 thing",
+   "topic": "Food & Drink"
   },
   {
    "slug": "vocab-n5-paateii",
@@ -4898,7 +5239,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "パーティー",
-   "romaji": "paateii"
+   "romaji": "paateii",
+   "topic": "Hobbies, Sports & Entertainment"
   },
   {
    "slug": "vocab-n5-hai",
@@ -4912,7 +5254,8 @@
    "jlpt_level": "N5",
    "reading": "～はい",
    "romaji": "～hai",
-   "mnemonic": "杯 counter for cupfuls: 木 tree + 礻 altar"
+   "mnemonic": "杯 counter for cupfuls: 木 tree + 礻 altar",
+   "topic": "Counters"
   },
   {
    "slug": "vocab-n5-haizara",
@@ -4926,7 +5269,8 @@
    "jlpt_level": "N5",
    "reading": "はいざら",
    "romaji": "haizara",
-   "mnemonic": "灰 ashes + 皿 dish"
+   "mnemonic": "灰 ashes + 皿 dish",
+   "topic": "Home & Household"
   },
   {
    "slug": "vocab-n5-hagaki",
@@ -4940,7 +5284,8 @@
    "jlpt_level": "N5",
    "reading": "はがき",
    "romaji": "hagaki",
-   "mnemonic": "葉 leaf + 書 write"
+   "mnemonic": "葉 leaf + 書 write",
+   "topic": "Language & Communication"
   },
   {
    "slug": "vocab-n5-haku",
@@ -4953,7 +5298,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "はく",
-   "romaji": "haku"
+   "romaji": "haku",
+   "topic": "Clothes & Fashion"
   },
   {
    "slug": "vocab-n5-hako",
@@ -4967,7 +5313,8 @@
    "jlpt_level": "N5",
    "reading": "はこ",
    "romaji": "hako",
-   "mnemonic": "箱 box: 竹 bamboo + 木 tree + 目 eye"
+   "mnemonic": "箱 box: 竹 bamboo + 木 tree + 目 eye",
+   "topic": "Objects & Materials"
   },
   {
    "slug": "vocab-n5-hashi",
@@ -4981,7 +5328,8 @@
    "jlpt_level": "N5",
    "reading": "はし",
    "romaji": "hashi",
-   "mnemonic": "橋 bridge: 口 mouth + 木 tree + 冂 frame"
+   "mnemonic": "橋 bridge: 口 mouth + 木 tree + 冂 frame",
+   "topic": "Places Around Town"
   },
   {
    "slug": "vocab-n5-hajimaru",
@@ -4995,7 +5343,8 @@
    "jlpt_level": "N5",
    "reading": "はじまる",
    "romaji": "hajimaru",
-   "mnemonic": "始 commence: 口 mouth + 女 woman + 厶 private"
+   "mnemonic": "始 commence: 口 mouth + 女 woman + 厶 private",
+   "topic": "Change, Cause & Result"
   },
   {
    "slug": "vocab-n5-hajime",
@@ -5009,7 +5358,8 @@
    "jlpt_level": "N5",
    "reading": "はじめ",
    "romaji": "hajime",
-   "mnemonic": "初 first time + 始 commence"
+   "mnemonic": "初 first time + 始 commence",
+   "topic": "Change, Cause & Result"
   },
   {
    "slug": "vocab-n5-hajimete",
@@ -5023,7 +5373,8 @@
    "jlpt_level": "N5",
    "reading": "はじめて",
    "romaji": "hajimete",
-   "mnemonic": "初 first time: 衤 clothes + 刀 sword"
+   "mnemonic": "初 first time: 衤 clothes + 刀 sword",
+   "topic": "Adverbs & Manner"
   },
   {
    "slug": "vocab-n5-bataa",
@@ -5036,7 +5387,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "バター",
-   "romaji": "bataa"
+   "romaji": "bataa",
+   "topic": "Food & Drink"
   },
   {
    "slug": "vocab-n5-hatachi",
@@ -5050,7 +5402,8 @@
    "jlpt_level": "N5",
    "reading": "はたち",
    "romaji": "hatachi",
-   "mnemonic": "二 two + 十 ten + 歳 year-end"
+   "mnemonic": "二 two + 十 ten + 歳 year-end",
+   "topic": "People & Relationships"
   },
   {
    "slug": "vocab-n5-hachi",
@@ -5079,7 +5432,8 @@
    "jlpt_level": "N5",
    "reading": "はつか",
    "romaji": "hatsuka",
-   "mnemonic": "二 two + 十 ten + 日 sun"
+   "mnemonic": "二 two + 十 ten + 日 sun",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-hana",
@@ -5093,7 +5447,8 @@
    "jlpt_level": "N5",
    "reading": "はな",
    "romaji": "hana",
-   "mnemonic": "花 flower: ⺅ person + 匕 spoon + ⺾ grass"
+   "mnemonic": "花 flower: ⺅ person + 匕 spoon + ⺾ grass",
+   "topic": "Nature & Environment"
   },
   {
    "slug": "vocab-n5-hanashi",
@@ -5107,7 +5462,8 @@
    "jlpt_level": "N5",
    "reading": "はなし",
    "romaji": "hanashi",
-   "mnemonic": "話 talk: 言 say + 舌 tongue"
+   "mnemonic": "話 talk: 言 say + 舌 tongue",
+   "topic": "Language & Communication"
   },
   {
    "slug": "vocab-n5-hayai",
@@ -5121,7 +5477,8 @@
    "jlpt_level": "N5",
    "reading": "はやい",
    "romaji": "hayai",
-   "mnemonic": "早 early: 十 ten + 日 sun"
+   "mnemonic": "早 early: 十 ten + 日 sun",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-haru",
@@ -5135,7 +5492,8 @@
    "jlpt_level": "N5",
    "reading": "はる",
    "romaji": "haru",
-   "mnemonic": "春 spring: 二 two + 日 sun + 人 person"
+   "mnemonic": "春 spring: 二 two + 日 sun + 人 person",
+   "topic": "Weather & Seasons"
   },
   {
    "slug": "vocab-n5-haru-2",
@@ -5149,7 +5507,8 @@
    "jlpt_level": "N5",
    "reading": "はる",
    "romaji": "haru",
-   "mnemonic": "貼: 貝 shellfish + 口 mouth + 卜 divination"
+   "mnemonic": "貼: 貝 shellfish + 口 mouth + 卜 divination",
+   "topic": "Daily Life & Routine"
   },
   {
    "slug": "vocab-n5-hareru",
@@ -5163,7 +5522,8 @@
    "jlpt_level": "N5",
    "reading": "はれる",
    "romaji": "hareru",
-   "mnemonic": "晴 clear up: 青 blue + 日 sun"
+   "mnemonic": "晴 clear up: 青 blue + 日 sun",
+   "topic": "Weather & Seasons"
   },
   {
    "slug": "vocab-n5-ban",
@@ -5177,7 +5537,8 @@
    "jlpt_level": "N5",
    "reading": "ばん",
    "romaji": "ban",
-   "mnemonic": "晩 nightfall: 免 excuse + 日 sun"
+   "mnemonic": "晩 nightfall: 免 excuse + 日 sun",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-ban-2",
@@ -5191,7 +5552,8 @@
    "jlpt_level": "N5",
    "reading": "～ばん",
    "romaji": "～ban",
-   "mnemonic": "番 turn: 田 rice field + 釆 sort"
+   "mnemonic": "番 turn: 田 rice field + 釆 sort",
+   "topic": "Counters"
   },
   {
    "slug": "vocab-n5-hankachi",
@@ -5204,7 +5566,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "ハンカチ",
-   "romaji": "hankachi"
+   "romaji": "hankachi",
+   "topic": "Clothes & Fashion"
   },
   {
    "slug": "vocab-n5-bangou",
@@ -5218,7 +5581,8 @@
    "jlpt_level": "N5",
    "reading": "ばんごう",
    "romaji": "bangou",
-   "mnemonic": "番 turn + 号 nickname"
+   "mnemonic": "番 turn + 号 nickname",
+   "topic": "Numbers"
   },
   {
    "slug": "vocab-n5-bangohan",
@@ -5232,7 +5596,8 @@
    "jlpt_level": "N5",
    "reading": "ばんごはん",
    "romaji": "bangohan",
-   "mnemonic": "晩 nightfall + 御 honorable + 飯 meal"
+   "mnemonic": "晩 nightfall + 御 honorable + 飯 meal",
+   "topic": "Food & Drink"
   },
   {
    "slug": "vocab-n5-hanbun",
@@ -5246,7 +5611,8 @@
    "jlpt_level": "N5",
    "reading": "はんぶん",
    "romaji": "hanbun",
-   "mnemonic": "半 half + 分 minute"
+   "mnemonic": "半 half + 分 minute",
+   "topic": "Numbers"
   },
   {
    "slug": "vocab-n5-higashi",
@@ -5260,7 +5626,8 @@
    "jlpt_level": "N5",
    "reading": "ひがし",
    "romaji": "higashi",
-   "mnemonic": "東 east: 日 sun + 木 tree + 田 rice field"
+   "mnemonic": "東 east: 日 sun + 木 tree + 田 rice field",
+   "topic": "Position & Direction"
   },
   {
    "slug": "vocab-n5-hiki",
@@ -5274,7 +5641,8 @@
    "jlpt_level": "N5",
    "reading": "～ひき",
    "romaji": "～hiki",
-   "mnemonic": "匹 equal: 儿 legs + 匚 box"
+   "mnemonic": "匹 equal: 儿 legs + 匚 box",
+   "topic": "Counters"
   },
   {
    "slug": "vocab-n5-hiku",
@@ -5288,7 +5656,8 @@
    "jlpt_level": "N5",
    "reading": "ひく",
    "romaji": "hiku",
-   "mnemonic": "弾: 弓 bow + 十 ten + ⺌ small + 田 rice field"
+   "mnemonic": "弾: 弓 bow + 十 ten + ⺌ small + 田 rice field",
+   "topic": "Hobbies, Sports & Entertainment"
   },
   {
    "slug": "vocab-n5-hikui",
@@ -5302,7 +5671,8 @@
    "jlpt_level": "N5",
    "reading": "ひくい",
    "romaji": "hikui",
-   "mnemonic": "低 lower: ⺅ person + 氏 clan"
+   "mnemonic": "低 lower: ⺅ person + 氏 clan",
+   "topic": "Size, Amount & Degree"
   },
   {
    "slug": "vocab-n5-hidari",
@@ -5316,7 +5686,8 @@
    "jlpt_level": "N5",
    "reading": "ひだり",
    "romaji": "hidari",
-   "mnemonic": "左 left: 工 craft"
+   "mnemonic": "左 left: 工 craft",
+   "topic": "Position & Direction"
   },
   {
    "slug": "vocab-n5-hito",
@@ -5330,7 +5701,8 @@
    "jlpt_level": "N5",
    "reading": "ひと",
    "romaji": "hito",
-   "mnemonic": "人 person"
+   "mnemonic": "人 person",
+   "topic": "People & Relationships"
   },
   {
    "slug": "vocab-n5-hitotsu",
@@ -5374,7 +5746,8 @@
    "jlpt_level": "N5",
    "reading": "ひま",
    "romaji": "hima",
-   "mnemonic": "暇: 日 sun + 又 hand"
+   "mnemonic": "暇: 日 sun + 又 hand",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-hyaku",
@@ -5403,7 +5776,8 @@
    "jlpt_level": "N5",
    "reading": "ひらがな",
    "romaji": "hiragana",
-   "mnemonic": "平 even + 仮 + 名 name"
+   "mnemonic": "平 even + 仮 + 名 name",
+   "topic": "Language & Communication"
   },
   {
    "slug": "vocab-n5-hirugohan",
@@ -5417,7 +5791,8 @@
    "jlpt_level": "N5",
    "reading": "ひるごはん",
    "romaji": "hirugohan",
-   "mnemonic": "昼 daytime + 御 honorable + 飯 meal"
+   "mnemonic": "昼 daytime + 御 honorable + 飯 meal",
+   "topic": "Food & Drink"
   },
   {
    "slug": "vocab-n5-hiroi",
@@ -5431,7 +5806,8 @@
    "jlpt_level": "N5",
    "reading": "ひろい",
    "romaji": "hiroi",
-   "mnemonic": "広 wide: 厶 private + 广 shelter"
+   "mnemonic": "広 wide: 厶 private + 广 shelter",
+   "topic": "Size, Amount & Degree"
   },
   {
    "slug": "vocab-n5-fyirumu",
@@ -5444,7 +5820,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "フィルム",
-   "romaji": "fyirumu"
+   "romaji": "fyirumu",
+   "topic": "Technology & Media"
   },
   {
    "slug": "vocab-n5-fuutou",
@@ -5458,7 +5835,8 @@
    "jlpt_level": "N5",
    "reading": "ふうとう",
    "romaji": "fuutou",
-   "mnemonic": "封 seal + 筒 cylinder"
+   "mnemonic": "封 seal + 筒 cylinder",
+   "topic": "Language & Communication"
   },
   {
    "slug": "vocab-n5-puuru",
@@ -5471,7 +5849,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "プール",
-   "romaji": "puuru"
+   "romaji": "puuru",
+   "topic": "Hobbies, Sports & Entertainment"
   },
   {
    "slug": "vocab-n5-fuku",
@@ -5485,7 +5864,8 @@
    "jlpt_level": "N5",
    "reading": "ふく",
    "romaji": "fuku",
-   "mnemonic": "吹 blow: 欠 lack + 口 mouth"
+   "mnemonic": "吹 blow: 欠 lack + 口 mouth",
+   "topic": "Weather & Seasons"
   },
   {
    "slug": "vocab-n5-futatsu",
@@ -5514,7 +5894,8 @@
    "jlpt_level": "N5",
    "reading": "ぶたにく",
    "romaji": "butaniku",
-   "mnemonic": "豚 + 肉 meat"
+   "mnemonic": "豚 + 肉 meat",
+   "topic": "Food & Drink"
   },
   {
    "slug": "vocab-n5-futari",
@@ -5543,7 +5924,8 @@
    "jlpt_level": "N5",
    "reading": "ふつか",
    "romaji": "futsuka",
-   "mnemonic": "二 two + 日 sun"
+   "mnemonic": "二 two + 日 sun",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-futoi",
@@ -5557,7 +5939,8 @@
    "jlpt_level": "N5",
    "reading": "ふとい",
    "romaji": "futoi",
-   "mnemonic": "太 plump: 大 big"
+   "mnemonic": "太 plump: 大 big",
+   "topic": "Size, Amount & Degree"
   },
   {
    "slug": "vocab-n5-fuyu",
@@ -5571,7 +5954,8 @@
    "jlpt_level": "N5",
    "reading": "ふゆ",
    "romaji": "fuyu",
-   "mnemonic": "冬 winter: 夂 walk"
+   "mnemonic": "冬 winter: 夂 walk",
+   "topic": "Weather & Seasons"
   },
   {
    "slug": "vocab-n5-furu",
@@ -5585,7 +5969,8 @@
    "jlpt_level": "N5",
    "reading": "ふる",
    "romaji": "furu",
-   "mnemonic": "降 descend: 夂 walk + ⻖ hill + 十 ten"
+   "mnemonic": "降 descend: 夂 walk + ⻖ hill + 十 ten",
+   "topic": "Weather & Seasons"
   },
   {
    "slug": "vocab-n5-fun",
@@ -5599,7 +5984,8 @@
    "jlpt_level": "N5",
    "reading": "～ふん",
    "romaji": "～fun",
-   "mnemonic": "分 minute: 刀 sword + ハ eight"
+   "mnemonic": "分 minute: 刀 sword + ハ eight",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-bunshou",
@@ -5613,7 +5999,8 @@
    "jlpt_level": "N5",
    "reading": "ぶんしょう",
    "romaji": "bunshou",
-   "mnemonic": "文 sentence + 章 badge"
+   "mnemonic": "文 sentence + 章 badge",
+   "topic": "Language & Communication"
   },
   {
    "slug": "vocab-n5-peeji",
@@ -5626,7 +6013,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "ページ",
-   "romaji": "peeji"
+   "romaji": "peeji",
+   "topic": "Objects & Materials"
   },
   {
    "slug": "vocab-n5-heta",
@@ -5640,7 +6028,8 @@
    "jlpt_level": "N5",
    "reading": "へた",
    "romaji": "heta",
-   "mnemonic": "下 below + 手 hand"
+   "mnemonic": "下 below + 手 hand",
+   "topic": "Personality & Behaviour"
   },
   {
    "slug": "vocab-n5-petto",
@@ -5653,7 +6042,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "ペット",
-   "romaji": "petto"
+   "romaji": "petto",
+   "topic": "Animals"
   },
   {
    "slug": "vocab-n5-heya",
@@ -5667,7 +6057,8 @@
    "jlpt_level": "N5",
    "reading": "へや",
    "romaji": "heya",
-   "mnemonic": "部 section + 屋 roof"
+   "mnemonic": "部 section + 屋 roof",
+   "topic": "Home & Household"
   },
   {
    "slug": "vocab-n5-hen",
@@ -5681,7 +6072,8 @@
    "jlpt_level": "N5",
    "reading": "へん",
    "romaji": "hen",
-   "mnemonic": "辺 environs: 辶 + 刀 sword"
+   "mnemonic": "辺 environs: 辶 + 刀 sword",
+   "topic": "Position & Direction"
   },
   {
    "slug": "vocab-n5-benri",
@@ -5695,7 +6087,8 @@
    "jlpt_level": "N5",
    "reading": "べんり",
    "romaji": "benri",
-   "mnemonic": "便 convenience + 利 profit"
+   "mnemonic": "便 convenience + 利 profit",
+   "topic": "Qualities & Conditions"
   },
   {
    "slug": "vocab-n5-boorupen",
@@ -5708,7 +6101,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "ボールペン",
-   "romaji": "boorupen"
+   "romaji": "boorupen",
+   "topic": "Objects & Materials"
   },
   {
    "slug": "vocab-n5-hoka",
@@ -5722,7 +6116,8 @@
    "jlpt_level": "N5",
    "reading": "ほか",
    "romaji": "hoka",
-   "mnemonic": "外 outside: 卜 divination + 夕 evening"
+   "mnemonic": "外 outside: 卜 divination + 夕 evening",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-poketto",
@@ -5735,7 +6130,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "ポケット",
-   "romaji": "poketto"
+   "romaji": "poketto",
+   "topic": "Clothes & Fashion"
   },
   {
    "slug": "vocab-n5-hoshii",
@@ -5749,7 +6145,8 @@
    "jlpt_level": "N5",
    "reading": "ほしい",
    "romaji": "hoshii",
-   "mnemonic": "欲 longing: 欠 lack + 谷 valley"
+   "mnemonic": "欲 longing: 欠 lack + 谷 valley",
+   "topic": "Emotions & Feelings"
   },
   {
    "slug": "vocab-n5-posuto",
@@ -5762,7 +6159,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "ポスト",
-   "romaji": "posuto"
+   "romaji": "posuto",
+   "topic": "Language & Communication"
   },
   {
    "slug": "vocab-n5-hosoi",
@@ -5776,7 +6174,8 @@
    "jlpt_level": "N5",
    "reading": "ほそい",
    "romaji": "hosoi",
-   "mnemonic": "細 dainty: 糸 thread + 田 rice field"
+   "mnemonic": "細 dainty: 糸 thread + 田 rice field",
+   "topic": "Size, Amount & Degree"
   },
   {
    "slug": "vocab-n5-botan",
@@ -5789,7 +6188,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "ボタン",
-   "romaji": "botan"
+   "romaji": "botan",
+   "topic": "Clothes & Fashion"
   },
   {
    "slug": "vocab-n5-hon",
@@ -5803,7 +6203,8 @@
    "jlpt_level": "N5",
    "reading": "～ほん",
    "romaji": "～hon",
-   "mnemonic": "本 book: 木 tree"
+   "mnemonic": "本 book: 木 tree",
+   "topic": "Counters"
   },
   {
    "slug": "vocab-n5-hondana",
@@ -5817,7 +6218,8 @@
    "jlpt_level": "N5",
    "reading": "ほんだな",
    "romaji": "hondana",
-   "mnemonic": "本 book + 棚"
+   "mnemonic": "本 book + 棚",
+   "topic": "Home & Household"
   },
   {
    "slug": "vocab-n5-hontou",
@@ -5831,7 +6233,8 @@
    "jlpt_level": "N5",
    "reading": "ほんとう",
    "romaji": "hontou",
-   "mnemonic": "本 book + 当 hit"
+   "mnemonic": "本 book + 当 hit",
+   "topic": "Qualities & Conditions"
   },
   {
    "slug": "vocab-n5-mai",
@@ -5845,7 +6248,8 @@
    "jlpt_level": "N5",
    "reading": "～まい",
    "romaji": "～mai",
-   "mnemonic": "枚 sheet of...: 木 tree + 攵 strike"
+   "mnemonic": "枚 sheet of...: 木 tree + 攵 strike",
+   "topic": "Counters"
   },
   {
    "slug": "vocab-n5-maigetsu-maitsuki",
@@ -5859,7 +6263,8 @@
    "jlpt_level": "N5",
    "reading": "まいげつ; まいつき",
    "romaji": "maigetsu;maitsuki",
-   "mnemonic": "毎 every + 月 moon"
+   "mnemonic": "毎 every + 月 moon",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-maishuu",
@@ -5873,7 +6278,8 @@
    "jlpt_level": "N5",
    "reading": "まいしゅう",
    "romaji": "maishuu",
-   "mnemonic": "毎 every + 週 week"
+   "mnemonic": "毎 every + 週 week",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-mainen-maitoshi",
@@ -5887,7 +6293,8 @@
    "jlpt_level": "N5",
    "reading": "まいねん; まいとし",
    "romaji": "mainen;maitoshi",
-   "mnemonic": "毎 every + 年 year"
+   "mnemonic": "毎 every + 年 year",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-maiban",
@@ -5901,7 +6308,8 @@
    "jlpt_level": "N5",
    "reading": "まいばん",
    "romaji": "maiban",
-   "mnemonic": "毎 every + 晩 nightfall"
+   "mnemonic": "毎 every + 晩 nightfall",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-mae",
@@ -5915,7 +6323,8 @@
    "jlpt_level": "N5",
    "reading": "まえ",
    "romaji": "mae",
-   "mnemonic": "前 front: 刂 knife + 月 moon + 并 horns"
+   "mnemonic": "前 front: 刂 knife + 月 moon + 并 horns",
+   "topic": "Position & Direction"
   },
   {
    "slug": "vocab-n5-mae-2",
@@ -5929,7 +6338,8 @@
    "jlpt_level": "N5",
    "reading": "～まえ",
    "romaji": "～mae",
-   "mnemonic": "前 front: 刂 knife + 月 moon + 并 horns"
+   "mnemonic": "前 front: 刂 knife + 月 moon + 并 horns",
+   "topic": "Position & Direction"
   },
   {
    "slug": "vocab-n5-magaru",
@@ -5943,7 +6353,8 @@
    "jlpt_level": "N5",
    "reading": "まがる",
    "romaji": "magaru",
-   "mnemonic": "曲 bend: 日 sun"
+   "mnemonic": "曲 bend: 日 sun",
+   "topic": "Movement & Motion"
   },
   {
    "slug": "vocab-n5-mazui",
@@ -5956,7 +6367,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "まずい",
-   "romaji": "mazui"
+   "romaji": "mazui",
+   "topic": "Food & Drink"
   },
   {
    "slug": "vocab-n5-mata",
@@ -5969,7 +6381,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "また",
-   "romaji": "mata"
+   "romaji": "mata",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-machi",
@@ -5983,7 +6396,8 @@
    "jlpt_level": "N5",
    "reading": "まち",
    "romaji": "machi",
-   "mnemonic": "町 town: 田 rice field"
+   "mnemonic": "町 town: 田 rice field",
+   "topic": "Places Around Town"
   },
   {
    "slug": "vocab-n5-massugu",
@@ -5996,7 +6410,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "まっすぐ",
-   "romaji": "massugu"
+   "romaji": "massugu",
+   "topic": "Position & Direction"
   },
   {
    "slug": "vocab-n5-matchi",
@@ -6009,7 +6424,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "マッチ",
-   "romaji": "matchi"
+   "romaji": "matchi",
+   "topic": "Objects & Materials"
   },
   {
    "slug": "vocab-n5-marui",
@@ -6023,7 +6439,8 @@
    "jlpt_level": "N5",
    "reading": "まるい",
    "romaji": "marui",
-   "mnemonic": "丸 round + 円 yen"
+   "mnemonic": "丸 round + 円 yen",
+   "topic": "Colors, Shapes & Appearance"
   },
   {
    "slug": "vocab-n5-man",
@@ -6052,7 +6469,8 @@
    "jlpt_level": "N5",
    "reading": "まんねんひつ",
    "romaji": "mannenhitsu",
-   "mnemonic": "万 ten thousand + 年 year + 筆 writing brush"
+   "mnemonic": "万 ten thousand + 年 year + 筆 writing brush",
+   "topic": "Objects & Materials"
   },
   {
    "slug": "vocab-n5-migaku",
@@ -6066,7 +6484,8 @@
    "jlpt_level": "N5",
    "reading": "みがく",
    "romaji": "migaku",
-   "mnemonic": "磨 grind: 石 stone + 麻 hemp"
+   "mnemonic": "磨 grind: 石 stone + 麻 hemp",
+   "topic": "Daily Life & Routine"
   },
   {
    "slug": "vocab-n5-migi",
@@ -6080,7 +6499,8 @@
    "jlpt_level": "N5",
    "reading": "みぎ",
    "romaji": "migi",
-   "mnemonic": "右 right: 口 mouth"
+   "mnemonic": "右 right: 口 mouth",
+   "topic": "Position & Direction"
   },
   {
    "slug": "vocab-n5-miseru",
@@ -6094,7 +6514,8 @@
    "jlpt_level": "N5",
    "reading": "みせる",
    "romaji": "miseru",
-   "mnemonic": "見 see: 目 eye + 儿 legs"
+   "mnemonic": "見 see: 目 eye + 儿 legs",
+   "topic": "Language & Communication"
   },
   {
    "slug": "vocab-n5-mikka",
@@ -6108,7 +6529,8 @@
    "jlpt_level": "N5",
    "reading": "みっか",
    "romaji": "mikka",
-   "mnemonic": "三 three + 日 sun"
+   "mnemonic": "三 three + 日 sun",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-mittsu",
@@ -6137,7 +6559,8 @@
    "jlpt_level": "N5",
    "reading": "みなさん",
    "romaji": "minasan",
-   "mnemonic": "皆 all: 白 white + 比 compare"
+   "mnemonic": "皆 all: 白 white + 比 compare",
+   "topic": "People & Relationships"
   },
   {
    "slug": "vocab-n5-minami",
@@ -6151,7 +6574,8 @@
    "jlpt_level": "N5",
    "reading": "みなみ",
    "romaji": "minami",
-   "mnemonic": "南 south: 并 horns + 冂 frame"
+   "mnemonic": "南 south: 并 horns + 冂 frame",
+   "topic": "Position & Direction"
   },
   {
    "slug": "vocab-n5-minna",
@@ -6164,7 +6588,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "みんな",
-   "romaji": "minna"
+   "romaji": "minna",
+   "topic": "People & Relationships"
   },
   {
    "slug": "vocab-n5-muika",
@@ -6178,7 +6603,8 @@
    "jlpt_level": "N5",
    "reading": "むいか",
    "romaji": "muika",
-   "mnemonic": "六 six + 日 sun"
+   "mnemonic": "六 six + 日 sun",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-mukou",
@@ -6192,7 +6618,8 @@
    "jlpt_level": "N5",
    "reading": "むこう",
    "romaji": "mukou",
-   "mnemonic": "向 yonder: 口 mouth + 冂 frame"
+   "mnemonic": "向 yonder: 口 mouth + 冂 frame",
+   "topic": "Position & Direction"
   },
   {
    "slug": "vocab-n5-muttsu",
@@ -6221,7 +6648,8 @@
    "jlpt_level": "N5",
    "reading": "むら",
    "romaji": "mura",
-   "mnemonic": "村 village: 寸 inch + 木 tree"
+   "mnemonic": "村 village: 寸 inch + 木 tree",
+   "topic": "Places Around Town"
   },
   {
    "slug": "vocab-n5-meetoru",
@@ -6234,7 +6662,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "メートル",
-   "romaji": "meetoru"
+   "romaji": "meetoru",
+   "topic": "Size, Amount & Degree"
   },
   {
    "slug": "vocab-n5-moshimoshi",
@@ -6247,7 +6676,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "もしもし",
-   "romaji": "moshimoshi"
+   "romaji": "moshimoshi",
+   "topic": "Greetings & Basics"
   },
   {
    "slug": "vocab-n5-motsu",
@@ -6261,7 +6691,8 @@
    "jlpt_level": "N5",
    "reading": "もつ",
    "romaji": "motsu",
-   "mnemonic": "持 hold: 寸 inch + 土 earth + 扌 hand"
+   "mnemonic": "持 hold: 寸 inch + 土 earth + 扌 hand",
+   "topic": "Daily Life & Routine"
   },
   {
    "slug": "vocab-n5-motto",
@@ -6274,7 +6705,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "もっと",
-   "romaji": "motto"
+   "romaji": "motto",
+   "topic": "Size, Amount & Degree"
   },
   {
    "slug": "vocab-n5-mono",
@@ -6288,7 +6720,8 @@
    "jlpt_level": "N5",
    "reading": "もの",
    "romaji": "mono",
-   "mnemonic": "物 thing: 勿 not + 牛 cow"
+   "mnemonic": "物 thing: 勿 not + 牛 cow",
+   "topic": "Objects & Materials"
   },
   {
    "slug": "vocab-n5-mon",
@@ -6302,7 +6735,8 @@
    "jlpt_level": "N5",
    "reading": "もん",
    "romaji": "mon",
-   "mnemonic": "門 gate"
+   "mnemonic": "門 gate",
+   "topic": "Home & Household"
   },
   {
    "slug": "vocab-n5-mondai",
@@ -6316,7 +6750,8 @@
    "jlpt_level": "N5",
    "reading": "もんだい",
    "romaji": "mondai",
-   "mnemonic": "問 question + 題 topic"
+   "mnemonic": "問 question + 題 topic",
+   "topic": "Abstract Ideas"
   },
   {
    "slug": "vocab-n5-ya",
@@ -6330,7 +6765,8 @@
    "jlpt_level": "N5",
    "reading": "～や",
    "romaji": "～ya",
-   "mnemonic": "屋 roof: 至 arrive + 尸 body"
+   "mnemonic": "屋 roof: 至 arrive + 尸 body",
+   "topic": "Shopping"
   },
   {
    "slug": "vocab-n5-yaoya",
@@ -6344,7 +6780,8 @@
    "jlpt_level": "N5",
    "reading": "やおや",
    "romaji": "yaoya",
-   "mnemonic": "八 eight + 百 hundred + 屋 roof"
+   "mnemonic": "八 eight + 百 hundred + 屋 roof",
+   "topic": "Shopping"
   },
   {
    "slug": "vocab-n5-yasashii",
@@ -6358,7 +6795,8 @@
    "jlpt_level": "N5",
    "reading": "やさしい",
    "romaji": "yasashii",
-   "mnemonic": "易 easy: 日 sun + 勿 not"
+   "mnemonic": "易 easy: 日 sun + 勿 not",
+   "topic": "Qualities & Conditions"
   },
   {
    "slug": "vocab-n5-yasumi",
@@ -6372,7 +6810,8 @@
    "jlpt_level": "N5",
    "reading": "やすみ",
    "romaji": "yasumi",
-   "mnemonic": "休 rest: ⺅ person + 木 tree"
+   "mnemonic": "休 rest: ⺅ person + 木 tree",
+   "topic": "Daily Life & Routine"
   },
   {
    "slug": "vocab-n5-yattsu",
@@ -6400,7 +6839,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "やる",
-   "romaji": "yaru"
+   "romaji": "yaru",
+   "topic": "Daily Life & Routine"
   },
   {
    "slug": "vocab-n5-yuugata",
@@ -6414,7 +6854,8 @@
    "jlpt_level": "N5",
    "reading": "ゆうがた",
    "romaji": "yuugata",
-   "mnemonic": "夕 evening + 方 direction"
+   "mnemonic": "夕 evening + 方 direction",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-yuuhan",
@@ -6428,7 +6869,8 @@
    "jlpt_level": "N5",
    "reading": "ゆうはん",
    "romaji": "yuuhan",
-   "mnemonic": "夕 evening + 飯 meal"
+   "mnemonic": "夕 evening + 飯 meal",
+   "topic": "Food & Drink"
   },
   {
    "slug": "vocab-n5-yuube",
@@ -6442,7 +6884,8 @@
    "jlpt_level": "N5",
    "reading": "ゆうべ",
    "romaji": "yuube",
-   "mnemonic": "昨 yesterday + 夜 night"
+   "mnemonic": "昨 yesterday + 夜 night",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-yuumei",
@@ -6456,7 +6899,8 @@
    "jlpt_level": "N5",
    "reading": "ゆうめい",
    "romaji": "yuumei",
-   "mnemonic": "有 possess + 名 name"
+   "mnemonic": "有 possess + 名 name",
+   "topic": "Qualities & Conditions"
   },
   {
    "slug": "vocab-n5-yukkurito",
@@ -6469,7 +6913,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "ゆっくりと",
-   "romaji": "yukkurito"
+   "romaji": "yukkurito",
+   "topic": "Adverbs & Manner"
   },
   {
    "slug": "vocab-n5-youka",
@@ -6483,7 +6928,8 @@
    "jlpt_level": "N5",
    "reading": "ようか",
    "romaji": "youka",
-   "mnemonic": "八 eight + 日 sun"
+   "mnemonic": "八 eight + 日 sun",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-youfuku",
@@ -6497,7 +6943,8 @@
    "jlpt_level": "N5",
    "reading": "ようふく",
    "romaji": "youfuku",
-   "mnemonic": "洋 ocean + 服 clothing"
+   "mnemonic": "洋 ocean + 服 clothing",
+   "topic": "Clothes & Fashion"
   },
   {
    "slug": "vocab-n5-yoku",
@@ -6510,7 +6957,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "よく",
-   "romaji": "yoku"
+   "romaji": "yoku",
+   "topic": "Adverbs & Manner"
   },
   {
    "slug": "vocab-n5-yoko",
@@ -6524,7 +6972,8 @@
    "jlpt_level": "N5",
    "reading": "よこ",
    "romaji": "yoko",
-   "mnemonic": "横 sideways: 黄 yellow + 二 two + 日 sun + 木 tree + 廾 two hands"
+   "mnemonic": "横 sideways: 黄 yellow + 二 two + 日 sun + 木 tree + 廾 two hands",
+   "topic": "Position & Direction"
   },
   {
    "slug": "vocab-n5-yokka",
@@ -6538,7 +6987,8 @@
    "jlpt_level": "N5",
    "reading": "よっか",
    "romaji": "yokka",
-   "mnemonic": "四 four + 日 sun"
+   "mnemonic": "四 four + 日 sun",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-yottsu",
@@ -6567,7 +7017,8 @@
    "jlpt_level": "N5",
    "reading": "よぶ",
    "romaji": "yobu",
-   "mnemonic": "呼 call: 口 mouth + 并 horns"
+   "mnemonic": "呼 call: 口 mouth + 并 horns",
+   "topic": "Language & Communication"
   },
   {
    "slug": "vocab-n5-yowai",
@@ -6581,7 +7032,8 @@
    "jlpt_level": "N5",
    "reading": "よわい",
    "romaji": "yowai",
-   "mnemonic": "弱 weak: 弓 bow + 冫 ice"
+   "mnemonic": "弱 weak: 弓 bow + 冫 ice",
+   "topic": "Qualities & Conditions"
   },
   {
    "slug": "vocab-n5-raigetsu",
@@ -6595,7 +7047,8 @@
    "jlpt_level": "N5",
    "reading": "らいげつ",
    "romaji": "raigetsu",
-   "mnemonic": "来 come + 月 moon"
+   "mnemonic": "来 come + 月 moon",
+   "topic": "Time & Calendar"
   },
   {
    "slug": "vocab-n5-rajio",
@@ -6608,7 +7061,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "ラジオ",
-   "romaji": "rajio"
+   "romaji": "rajio",
+   "topic": "Technology & Media"
   },
   {
    "slug": "vocab-n5-rajiokase",
@@ -6621,7 +7075,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "ラジオカセ",
-   "romaji": "rajiokase"
+   "romaji": "rajiokase",
+   "topic": "Technology & Media"
   },
   {
    "slug": "vocab-n5-rippa",
@@ -6634,7 +7089,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "りっぱ",
-   "romaji": "rippa"
+   "romaji": "rippa",
+   "topic": "Qualities & Conditions"
   },
   {
    "slug": "vocab-n5-ryuugakusei",
@@ -6648,7 +7104,8 @@
    "jlpt_level": "N5",
    "reading": "りゅうがくせい",
    "romaji": "ryuugakusei",
-   "mnemonic": "留 detain + 学 study + 生 life"
+   "mnemonic": "留 detain + 学 study + 生 life",
+   "topic": "School & Study"
   },
   {
    "slug": "vocab-n5-ryoushin",
@@ -6662,7 +7119,8 @@
    "jlpt_level": "N5",
    "reading": "りょうしん",
    "romaji": "ryoushin",
-   "mnemonic": "両 both + 親 parent"
+   "mnemonic": "両 both + 親 parent",
+   "topic": "Family"
   },
   {
    "slug": "vocab-n5-rei",
@@ -6676,7 +7134,8 @@
    "jlpt_level": "N5",
    "reading": "れい",
    "romaji": "rei",
-   "mnemonic": "零 zero: 雨 rain + 𠆢 person + 卩 seal"
+   "mnemonic": "零 zero: 雨 rain + 𠆢 person + 卩 seal",
+   "topic": "Numbers"
   },
   {
    "slug": "vocab-n5-rekoodo",
@@ -6689,7 +7148,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "レコード",
-   "romaji": "rekoodo"
+   "romaji": "rekoodo",
+   "topic": "Hobbies, Sports & Entertainment"
   },
   {
    "slug": "vocab-n5-renshuu-suru",
@@ -6703,7 +7163,8 @@
    "jlpt_level": "N5",
    "reading": "れんしゅう (する)",
    "romaji": "renshuu(suru)",
-   "mnemonic": "練 practice + 習 learn"
+   "mnemonic": "練 practice + 習 learn",
+   "topic": "School & Study"
   },
   {
    "slug": "vocab-n5-rouka",
@@ -6717,7 +7178,8 @@
    "jlpt_level": "N5",
    "reading": "ろうか",
    "romaji": "rouka",
-   "mnemonic": "廊 + 下 below"
+   "mnemonic": "廊 + 下 below",
+   "topic": "Home & Household"
   },
   {
    "slug": "vocab-n5-roku",
@@ -6745,7 +7207,8 @@
    ],
    "jlpt_level": "N5",
    "reading": "ワイシャツ",
-   "romaji": "waishatsu"
+   "romaji": "waishatsu",
+   "topic": "Clothes & Fashion"
   },
   {
    "slug": "vocab-n5-wakai",
@@ -6759,7 +7222,8 @@
    "jlpt_level": "N5",
    "reading": "わかい",
    "romaji": "wakai",
-   "mnemonic": "若 young: 口 mouth + ⺾ grass"
+   "mnemonic": "若 young: 口 mouth + ⺾ grass",
+   "topic": "People & Relationships"
   },
   {
    "slug": "vocab-n5-watashi",
@@ -6773,7 +7237,8 @@
    "jlpt_level": "N5",
    "reading": "わたし",
    "romaji": "watashi",
-   "mnemonic": "私 private: 禾 grain + 厶 private"
+   "mnemonic": "私 private: 禾 grain + 厶 private",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-watakushi",
@@ -6787,7 +7252,8 @@
    "jlpt_level": "N5",
    "reading": "わたくし",
    "romaji": "watakushi",
-   "mnemonic": "私 private: 禾 grain + 厶 private"
+   "mnemonic": "私 private: 禾 grain + 厶 private",
+   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n5-watasu",
@@ -6801,7 +7267,8 @@
    "jlpt_level": "N5",
    "reading": "わたす",
    "romaji": "watasu",
-   "mnemonic": "渡 transit: 氵 water + 又 hand + 广 shelter"
+   "mnemonic": "渡 transit: 氵 water + 又 hand + 广 shelter",
+   "topic": "Daily Life & Routine"
   }
  ]
 }

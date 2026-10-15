@@ -172,10 +172,11 @@ describe("kana duplicate merges", () => {
   );
   const bySlug = new Map(all.map((r) => [r.slug as string, r]));
 
-  it("drop every kana copy and give its topic to the kanji word", () => {
+  it("drop every kana copy and keep the kanji word, which has a topic", () => {
     for (const m of merges) {
       expect(bySlug.has(m.from), m.from).toBe(false);
-      expect(bySlug.get(m.to)?.topic, m.to).toBe(m.topic);
+      // The word topic taxonomy (content/topics) now decides its topic.
+      expect(bySlug.get(m.to)?.topic, m.to).toBeTruthy();
     }
   });
 
@@ -234,5 +235,28 @@ describe("grammar colours", () => {
 
   it("never change the sentence itself", () => {
     for (const l of lines) if (l.reading) expect(stripMarkup(l.reading).replace(/\s/g, "")).toBe(l.jp.replace(/\s/g, ""));
+  });
+});
+
+describe("word topics", () => {
+  it("gives every word a topic from content/topics/topics.json", async () => {
+    const { readdirSync, readFileSync } = await import("node:fs");
+    const { join } = await import("node:path");
+    const names = new Set((JSON.parse(readFileSync(join(process.cwd(), "content/topics/topics.json"), "utf8")) as { topics: { name: string }[] }).topics.map((t) => t.name));
+    const bad: string[] = [];
+    let words = 0;
+    for (const dir of ["legacy", "opendata"]) {
+      for (const f of readdirSync(join(process.cwd(), "content", dir)).filter((f) => f.endsWith(".json") && !f.endsWith(".source.json"))) {
+        const doc = JSON.parse(readFileSync(join(process.cwd(), "content", dir, f), "utf8"));
+        if (doc.kind !== "items") continue;
+        for (const r of doc.records as { type: string; slug: string; topic?: string }[]) {
+          if (r.type !== "word") continue;
+          words++;
+          if (!r.topic || !names.has(r.topic)) bad.push(`${f}: ${r.slug} → ${r.topic}`);
+        }
+      }
+    }
+    expect(words).toBeGreaterThan(5000);
+    expect(bad.slice(0, 10)).toEqual([]);
   });
 });
