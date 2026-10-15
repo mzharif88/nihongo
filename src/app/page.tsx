@@ -117,6 +117,7 @@ export default async function HomePage() {
           <Section href="/builder" label="Sentence builder" detail="Put words in order" />
           <Section href="/reading" label="Reading" detail="Graded passages" />
           <Section href="/listening" label="Listening" detail="JLPT listening parts" />
+          <Section href="/kana" label="Kana chart" detail="Hiragana and katakana tables" />
           <Section href="/kanji" label="Kanji side by side" detail="Look-alikes and families" />
           <Section href="/placement" label="Placement test" detail="Skip words you know" />
         </div>
@@ -284,7 +285,8 @@ function TopicGrid({ topics, href }: { topics: Topic[]; href: (t: Topic) => stri
                 return (
                   <Link
                     key={t.id}
-                    href={href(t)}
+                    // Finished topics open a quick retake drill instead of an empty study session.
+                    href={done ? `/drill?topic=${encodeURIComponent(t.id)}` : href(t)}
                     className={`rounded-xl border border-border bg-card p-3 active:border-accent ${done ? "opacity-60" : ""}`}
                   >
                     <div className="flex items-start justify-between gap-2">
@@ -298,7 +300,7 @@ function TopicGrid({ topics, href }: { topics: Topic[]; href: (t: Topic) => stri
                     </div>
                     <div className="mt-1 text-xs text-muted">
                       {t.total - t.remaining}/{t.total}
-                      {done ? " · done" : ""}
+                      {done ? " · done · retake" : ""}
                     </div>
                   </Link>
                 );

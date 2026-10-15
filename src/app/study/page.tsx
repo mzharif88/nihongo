@@ -32,7 +32,15 @@ export default async function StudyPage({ searchParams }: { searchParams: Promis
             ? "You've started every item here. Reviews will come back as they fall due."
             : "Nothing is unlocked yet. Learn the radicals or earlier items first, then come back."}
         </p>
-        <Link href="/" className="mt-8 rounded-lg bg-accent px-4 py-2.5 font-medium text-white">
+        {session.topic && session.unstartedInScope === 0 && (
+          <Link
+            href={`/drill?topic=${encodeURIComponent(session.topic.id)}`}
+            className="mt-8 rounded-lg bg-accent px-4 py-2.5 font-medium text-white"
+          >
+            Retake as a quick drill
+          </Link>
+        )}
+        <Link href="/" className="mt-3 rounded-lg border border-border px-4 py-2.5 font-medium">
           Pick another topic
         </Link>
       </main>
