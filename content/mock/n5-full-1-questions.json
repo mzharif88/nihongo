@@ -1,0 +1,1310 @@
+{
+ "version": 1,
+ "kind": "questions",
+ "source": "original-mock",
+ "records": [
+  {
+   "slug": "mock-n5-full-1-01",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 1,
+   "jlpt_level": "N5",
+   "section": "vocabulary",
+   "part": "問題1 漢字読み · Kanji reading",
+   "prompt": "{{[毎日|まいにち]}} こうえんを はしります。",
+   "options": [
+    "まいび",
+    "まいにち",
+    "めいにち",
+    "まいじつ"
+   ],
+   "answer": 1,
+   "explanation": "[毎日|まいにち] = まいにち (every day).",
+   "item_slugs": [
+    "word-mainichi"
+   ]
+  },
+  {
+   "slug": "mock-n5-full-1-02",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 2,
+   "jlpt_level": "N5",
+   "section": "vocabulary",
+   "part": "問題1 漢字読み · Kanji reading",
+   "prompt": "あの みせの くだものは {{[安|やす]い}}です。",
+   "options": [
+    "やすい",
+    "たかい",
+    "ふるい",
+    "ひくい"
+   ],
+   "answer": 0,
+   "explanation": "[安|やす]い = やすい (cheap). [高|たか]い たかい = expensive.",
+   "item_slugs": [
+    "word-yasui"
+   ]
+  },
+  {
+   "slug": "mock-n5-full-1-03",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 3,
+   "jlpt_level": "N5",
+   "section": "vocabulary",
+   "part": "問題1 漢字読み · Kanji reading",
+   "prompt": "ぎんこうの {{[右|みぎ]}}に はなやが あります。",
+   "options": [
+    "ひだり",
+    "みぎ",
+    "うえ",
+    "まえ"
+   ],
+   "answer": 1,
+   "explanation": "[右|みぎ] = みぎ (right). [左|ひだり] ひだり = left.",
+   "item_slugs": [
+    "vocab-n5-migi"
+   ]
+  },
+  {
+   "slug": "mock-n5-full-1-04",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 4,
+   "jlpt_level": "N5",
+   "section": "vocabulary",
+   "part": "問題1 漢字読み · Kanji reading",
+   "prompt": "{{[母|はは]}}は だいどころに います。",
+   "options": [
+    "ちち",
+    "あに",
+    "あね",
+    "はは"
+   ],
+   "answer": 3,
+   "explanation": "[母|はは] = はは (my mother). [父|ちち] ちち = my father.",
+   "item_slugs": [
+    "word-haha"
+   ]
+  },
+  {
+   "slug": "mock-n5-full-1-05",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 5,
+   "jlpt_level": "N5",
+   "section": "vocabulary",
+   "part": "問題1 漢字読み · Kanji reading",
+   "prompt": "スーパーで {{[魚|さかな]}}を かいました。",
+   "options": [
+    "にく",
+    "やさい",
+    "さかな",
+    "たまご"
+   ],
+   "answer": 2,
+   "explanation": "[魚|さかな] = さかな (fish).",
+   "item_slugs": [
+    "word-sakana"
+   ]
+  },
+  {
+   "slug": "mock-n5-full-1-06",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 6,
+   "jlpt_level": "N5",
+   "section": "vocabulary",
+   "part": "問題1 漢字読み · Kanji reading",
+   "prompt": "{{[電車|でんしゃ]}}の なかで ほんを よみます。",
+   "options": [
+    "でんしゃ",
+    "てんしゃ",
+    "でんしや",
+    "でんじゃ"
+   ],
+   "answer": 0,
+   "explanation": "[電車|でんしゃ] = でんしゃ (train), with a small ゃ.",
+   "item_slugs": [
+    "word-densha"
+   ]
+  },
+  {
+   "slug": "mock-n5-full-1-07",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 7,
+   "jlpt_level": "N5",
+   "section": "vocabulary",
+   "part": "問題1 漢字読み · Kanji reading",
+   "prompt": "はこの なかに みかんが {{[三|みっ]つ}} あります。",
+   "options": [
+    "さんつ",
+    "みつ",
+    "よっつ",
+    "みっつ"
+   ],
+   "answer": 3,
+   "explanation": "[三|みっ]つ = みっつ (three things), with a small っ. よっつ = four.",
+   "item_slugs": [
+    "vocab-n5-mittsu"
+   ]
+  },
+  {
+   "slug": "mock-n5-full-1-08",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 8,
+   "jlpt_level": "N5",
+   "section": "vocabulary",
+   "part": "問題2 表記 · Writing in kanji",
+   "prompt": "あついですから、つめたい {{みず}}が ほしいです。",
+   "options": [
+    "木",
+    "氷",
+    "火",
+    "水"
+   ],
+   "answer": 3,
+   "explanation": "みず = [水|みず] (water). [木|き] き = tree, [火|ひ] ひ = fire.",
+   "item_slugs": [
+    "word-mizu"
+   ]
+  },
+  {
+   "slug": "mock-n5-full-1-09",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 9,
+   "jlpt_level": "N5",
+   "section": "vocabulary",
+   "part": "問題2 表記 · Writing in kanji",
+   "prompt": "よる、ともだちに {{でんわ}}を かけました。",
+   "options": [
+    "雷話",
+    "電話",
+    "電語",
+    "電活"
+   ],
+   "answer": 1,
+   "explanation": "でんわ = [電話|でんわ] (telephone).",
+   "item_slugs": [
+    "word-denwa"
+   ]
+  },
+  {
+   "slug": "mock-n5-full-1-10",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 10,
+   "jlpt_level": "N5",
+   "section": "vocabulary",
+   "part": "問題2 表記 · Writing in kanji",
+   "prompt": "あしたは がっこうが {{やすみ}}です。",
+   "options": [
+    "体み",
+    "木み",
+    "休み",
+    "本み"
+   ],
+   "answer": 2,
+   "explanation": "やすみ = [休|やす]み (holiday, day off). [体|からだ] is からだ (body).",
+   "item_slugs": [
+    "vocab-n5-yasumi"
+   ]
+  },
+  {
+   "slug": "mock-n5-full-1-11",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 11,
+   "jlpt_level": "N5",
+   "section": "vocabulary",
+   "part": "問題2 表記 · Writing in kanji",
+   "prompt": "にわに {{ちいさい}} いぬが います。",
+   "options": [
+    "少さい",
+    "小い",
+    "小さい",
+    "少い"
+   ],
+   "answer": 2,
+   "explanation": "ちいさい = [小|ちい]さい (small). [少|しょう] is the すく of [少|すく]ない.",
+   "item_slugs": [
+    "word-chiisai"
+   ]
+  },
+  {
+   "slug": "mock-n5-full-1-12",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 12,
+   "jlpt_level": "N5",
+   "section": "vocabulary",
+   "part": "問題2 表記 · Writing in kanji",
+   "prompt": "きのう {{あたらしい}} くつを かいました。",
+   "options": [
+    "親しい",
+    "新しい",
+    "新い",
+    "薪しい"
+   ],
+   "answer": 1,
+   "explanation": "あたらしい = [新|あたら]しい (new).",
+   "item_slugs": [
+    "word-atarashii"
+   ]
+  },
+  {
+   "slug": "mock-n5-full-1-13",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 13,
+   "jlpt_level": "N5",
+   "section": "vocabulary",
+   "part": "問題3 文脈規定 · Word in context",
+   "prompt": "てを （　） から、ごはんを たべましょう。",
+   "options": [
+    "あびて",
+    "はいって",
+    "みがいて",
+    "あらって"
+   ],
+   "answer": 3,
+   "explanation": "てを あらう = wash your hands. シャワーを あびる, はを みがく.",
+   "item_slugs": [
+    "word-arau"
+   ]
+  },
+  {
+   "slug": "mock-n5-full-1-14",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 14,
+   "jlpt_level": "N5",
+   "section": "vocabulary",
+   "part": "問題3 文脈規定 · Word in context",
+   "prompt": "わたしの へやは （　）ですから、ベッドと つくえしか ありません。",
+   "options": [
+    "せまい",
+    "ひろい",
+    "あかるい",
+    "たかい"
+   ],
+   "answer": 0,
+   "explanation": "Only a bed and a desk fit, so the room is せまい (small, cramped). ひろい = spacious.",
+   "item_slugs": [
+    "vocab-n5-semai"
+   ]
+  },
+  {
+   "slug": "mock-n5-full-1-15",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 15,
+   "jlpt_level": "N5",
+   "section": "vocabulary",
+   "part": "問題3 文脈規定 · Word in context",
+   "prompt": "ゆうびんきょくで （　）を かって、てがみに はりました。",
+   "options": [
+    "きって",
+    "しゃしん",
+    "ちず",
+    "くすり"
+   ],
+   "answer": 0,
+   "explanation": "You buy a stamp (きって) at the post office and stick it on a letter.",
+   "item_slugs": [
+    "vocab-n5-kitte"
+   ]
+  },
+  {
+   "slug": "mock-n5-full-1-16",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 16,
+   "jlpt_level": "N5",
+   "section": "vocabulary",
+   "part": "問題3 文脈規定 · Word in context",
+   "prompt": "けさ コーヒーを に（　） のみました。",
+   "options": [
+    "まい",
+    "はい",
+    "ほん",
+    "さつ"
+   ],
+   "answer": 1,
+   "explanation": "Cups of drink are counted with はい: にはい = two cups. まい = flat things, さつ = books.",
+   "item_slugs": [
+    "vocab-n5-hai"
+   ]
+  },
+  {
+   "slug": "mock-n5-full-1-17",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 17,
+   "jlpt_level": "N5",
+   "section": "vocabulary",
+   "part": "問題3 文脈規定 · Word in context",
+   "prompt": "あたまが いたいですから、（　）を のみます。",
+   "options": [
+    "かさ",
+    "ふく",
+    "きって",
+    "くすり"
+   ],
+   "answer": 3,
+   "explanation": "You have a headache, so you take (のむ) medicine (くすり).",
+   "item_slugs": [
+    "word-kusuri"
+   ]
+  },
+  {
+   "slug": "mock-n5-full-1-18",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 18,
+   "jlpt_level": "N5",
+   "section": "vocabulary",
+   "part": "問題3 文脈規定 · Word in context",
+   "prompt": "この ほんは （　）ですから、こどもも よむ ことが できます。",
+   "options": [
+    "やさしい",
+    "むずかしい",
+    "おもい",
+    "ながい"
+   ],
+   "answer": 0,
+   "explanation": "Even children can read it, so it is やさしい (easy). むずかしい = difficult.",
+   "item_slugs": [
+    "vocab-n5-yasashii"
+   ]
+  },
+  {
+   "slug": "mock-n5-full-1-19",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 19,
+   "jlpt_level": "N5",
+   "section": "vocabulary",
+   "part": "問題4 言いかえ類義 · Same meaning",
+   "prompt": "この へやは きれいじゃ ありません。",
+   "options": [
+    "この へやは しずかです。",
+    "この へやは きたないです。",
+    "この へやは あたらしいです。",
+    "この へやは ひろいです。"
+   ],
+   "answer": 1,
+   "explanation": "きれいじゃ ありません (not clean) = きたない (dirty).",
+   "item_slugs": [
+    "vocab-n5-kitanai"
+   ]
+  },
+  {
+   "slug": "mock-n5-full-1-20",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 20,
+   "jlpt_level": "N5",
+   "section": "vocabulary",
+   "part": "問題4 言いかえ類義 · Same meaning",
+   "prompt": "わたしの ちちの おかあさんは げんきです。",
+   "options": [
+    "わたしの おばさんは げんきです。",
+    "わたしの おねえさんは げんきです。",
+    "わたしの おばあさんは げんきです。",
+    "わたしの おかあさんは げんきです。"
+   ],
+   "answer": 2,
+   "explanation": "Your father's mother is your grandmother (おばあさん). おばさん = aunt.",
+   "item_slugs": [
+    "vocab-n5-obaasan"
+   ]
+  },
+  {
+   "slug": "mock-n5-full-1-21",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 21,
+   "jlpt_level": "N5",
+   "section": "vocabulary",
+   "part": "問題4 言いかえ類義 · Same meaning",
+   "prompt": "きのう しごとを やすみました。",
+   "options": [
+    "きのう かいしゃへ いきませんでした。",
+    "きのう かいしゃで ねました。",
+    "きのう かいしゃへ はやく いきました。",
+    "きのう おそく かえりました。"
+   ],
+   "answer": 0,
+   "explanation": "しごとを やすむ = take a day off work, so you did not go to the office.",
+   "item_slugs": [
+    "word-yasumu"
+   ]
+  },
+  {
+   "slug": "mock-n5-full-1-22",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 22,
+   "jlpt_level": "N5",
+   "section": "grammar",
+   "part": "問題1 文の文法 · Sentence grammar",
+   "prompt": "これは だれ（　） じしょですか。",
+   "options": [
+    "が",
+    "を",
+    "に",
+    "の"
+   ],
+   "answer": 3,
+   "explanation": "の links owner and thing: だれの じしょ = whose dictionary.",
+   "item_slugs": [
+    "grammar-no-possessive"
+   ]
+  },
+  {
+   "slug": "mock-n5-full-1-23",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 23,
+   "jlpt_level": "N5",
+   "section": "grammar",
+   "part": "問題1 文の文法 · Sentence grammar",
+   "prompt": "きのう ともだち（　） こうえんへ いきました。",
+   "options": [
+    "を",
+    "と",
+    "で",
+    "が"
+   ],
+   "answer": 1,
+   "explanation": "と = together with: ともだちと いきました = went with a friend.",
+   "item_slugs": [
+    "grammar-to-and-with"
+   ]
+  },
+  {
+   "slug": "mock-n5-full-1-24",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 24,
+   "jlpt_level": "N5",
+   "section": "grammar",
+   "part": "問題1 文の文法 · Sentence grammar",
+   "prompt": "へやに ねこ（　） います。",
+   "options": [
+    "を",
+    "へ",
+    "が",
+    "で"
+   ],
+   "answer": 2,
+   "explanation": "Place に + thing が います/あります: ねこが います = there is a cat.",
+   "item_slugs": [
+    "grammar-arimasu-vs-imasu"
+   ]
+  },
+  {
+   "slug": "mock-n5-full-1-25",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 25,
+   "jlpt_level": "N5",
+   "section": "grammar",
+   "part": "問題1 文の文法 · Sentence grammar",
+   "prompt": "A「たなかさんは どこですか。」\nB「いま、しょくどうで ひるごはんを （　）。」",
+   "options": [
+    "たべて ください",
+    "たべましょう",
+    "たべませんか",
+    "たべて います"
+   ],
+   "answer": 3,
+   "explanation": "いま + 〜て います describes what someone is doing right now.",
+   "item_slugs": [
+    "grammar-te-iru"
+   ]
+  },
+  {
+   "slug": "mock-n5-full-1-26",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 26,
+   "jlpt_level": "N5",
+   "section": "grammar",
+   "part": "問題1 文の文法 · Sentence grammar",
+   "prompt": "A「にほんごの べんきょうは （　）ですか。」\nB「むずかしいですが、おもしろいです。」",
+   "options": [
+    "どれ",
+    "どこ",
+    "どう",
+    "だれ"
+   ],
+   "answer": 2,
+   "explanation": "どうですか asks how something is; the answer describes it.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n5-full-1-27",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 27,
+   "jlpt_level": "N5",
+   "section": "grammar",
+   "part": "問題1 文の文法 · Sentence grammar",
+   "prompt": "この まちは （　）、きれいです。",
+   "options": [
+    "しずかで",
+    "しずかな",
+    "しずかに",
+    "しずかだ"
+   ],
+   "answer": 0,
+   "explanation": "A な-adjective joins the next adjective with で: しずかで きれいです = quiet and pretty.",
+   "item_slugs": [
+    "grammar-na-adj"
+   ]
+  },
+  {
+   "slug": "mock-n5-full-1-28",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 28,
+   "jlpt_level": "N5",
+   "section": "grammar",
+   "part": "問題1 文の文法 · Sentence grammar",
+   "prompt": "A「もう ひるごはんを たべましたか。」\nB「いいえ、（　） たべて いません。」",
+   "options": [
+    "まだ",
+    "もう",
+    "よく",
+    "すぐ"
+   ],
+   "answer": 0,
+   "explanation": "いいえ、まだ 〜て いません = no, not yet.",
+   "item_slugs": [
+    "grammar-mou-vs-mada"
+   ]
+  },
+  {
+   "slug": "mock-n5-full-1-29",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 29,
+   "jlpt_level": "N5",
+   "section": "grammar",
+   "part": "問題1 文の文法 · Sentence grammar",
+   "prompt": "うちから えき（　） あるいて じゅっぷんです。",
+   "options": [
+    "から",
+    "まで",
+    "や",
+    "より"
+   ],
+   "answer": 1,
+   "explanation": "から … まで = from … to: うちから えきまで.",
+   "item_slugs": [
+    "grammar-kara-made"
+   ]
+  },
+  {
+   "slug": "mock-n5-full-1-30",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 30,
+   "jlpt_level": "N5",
+   "section": "grammar",
+   "part": "問題1 文の文法 · Sentence grammar",
+   "prompt": "すみません、その しおを （　） ください。",
+   "options": [
+    "とり",
+    "とる",
+    "とった",
+    "とって"
+   ],
+   "answer": 3,
+   "explanation": "Requests use the て-form + ください: とって ください = please pass (it).",
+   "item_slugs": [
+    "grammar-te-kudasai"
+   ]
+  },
+  {
+   "slug": "mock-n5-full-1-31",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 31,
+   "jlpt_level": "N5",
+   "section": "grammar",
+   "part": "問題2 文の組み立て · Sentence order (★)",
+   "prompt": "あそこで ＿＿ ＿＿ ★ ＿＿ わたしの あにです。",
+   "options": [
+    "いる",
+    "ひとが",
+    "しんぶんを",
+    "よんで"
+   ],
+   "answer": 0,
+   "explanation": "あそこで しんぶんを よんで いる ひとが わたしの あにです (The person reading a newspaper over there is my older brother). ★ is the third word: いる.",
+   "item_slugs": [
+    "grammar-te-iru"
+   ]
+  },
+  {
+   "slug": "mock-n5-full-1-32",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 32,
+   "jlpt_level": "N5",
+   "section": "grammar",
+   "part": "問題2 文の組み立て · Sentence order (★)",
+   "prompt": "わたしは ＿＿ ★ ＿＿ ＿＿ ありません。",
+   "options": [
+    "たべた",
+    "を",
+    "ことが",
+    "すし"
+   ],
+   "answer": 1,
+   "explanation": "わたしは すし を たべた ことが ありません (I have never eaten sushi). ★ is the second word: を.",
+   "item_slugs": [
+    "grammar-ta-koto-ga-aru"
+   ]
+  },
+  {
+   "slug": "mock-n5-full-1-33",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 33,
+   "jlpt_level": "N5",
+   "section": "grammar",
+   "part": "問題2 文の組み立て · Sentence order (★)",
+   "prompt": "これは ＿＿ ＿＿ ＿＿ ★ です。",
+   "options": [
+    "つくった",
+    "が",
+    "いす",
+    "ちち"
+   ],
+   "answer": 2,
+   "explanation": "これは ちち が つくった いす です (This is a chair my father made). ★ is the fourth word: いす.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n5-full-1-34",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 34,
+   "jlpt_level": "N5",
+   "section": "grammar",
+   "part": "問題2 文の組み立て · Sentence order (★)",
+   "prompt": "まいあさ ＿＿ ＿＿ ★ ＿＿ でかけます。",
+   "options": [
+    "のんで",
+    "うちを",
+    "コーヒーを",
+    "から"
+   ],
+   "answer": 3,
+   "explanation": "まいあさ コーヒーを のんで から うちを でかけます (Every morning I leave home after drinking coffee). ★ is the third word: から.",
+   "item_slugs": [
+    "grammar-te-kara"
+   ]
+  },
+  {
+   "slug": "mock-n5-full-1-35",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 35,
+   "jlpt_level": "N5",
+   "section": "grammar",
+   "part": "問題3 文章の文法 · Text grammar",
+   "passage": "ふゆやすみ\n\n　わたしは ふゆやすみに かぞくと ほっかいどうへ いきました。ほっかいどうは とても さむかったです。ゆきが たくさん 　1　から、まちは ぜんぶ しろかったです。\n　ほっかいどうで おいしい さかなを たべました。ちちは さかなが あまり すきじゃ ありません。　2　、ほっかいどうの さかなは 「おいしい」と いって、たくさん たべました。\n　つぎの ひは ゆきの なかで おとうと 　3　 あそびました。とても たのしかったです。らいねんの ふゆも また かぞくで 　4　。",
+   "prompt": "　1　に [何|なに]を [入|い]れますか。",
+   "options": [
+    "ふりました",
+    "ふりませんでした",
+    "ふりましょう",
+    "ふって ください"
+   ],
+   "answer": 0,
+   "explanation": "Lots of snow fell, so the whole town was white: past affirmative ふりました.",
+   "item_slugs": [
+    "grammar-mashita"
+   ]
+  },
+  {
+   "slug": "mock-n5-full-1-36",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 36,
+   "jlpt_level": "N5",
+   "section": "grammar",
+   "part": "問題3 文章の文法 · Text grammar",
+   "passage": "ふゆやすみ\n\n　わたしは ふゆやすみに かぞくと ほっかいどうへ いきました。ほっかいどうは とても さむかったです。ゆきが たくさん 　1　から、まちは ぜんぶ しろかったです。\n　ほっかいどうで おいしい さかなを たべました。ちちは さかなが あまり すきじゃ ありません。　2　、ほっかいどうの さかなは 「おいしい」と いって、たくさん たべました。\n　つぎの ひは ゆきの なかで おとうと 　3　 あそびました。とても たのしかったです。らいねんの ふゆも また かぞくで 　4　。",
+   "prompt": "　2　に [何|なに]を [入|い]れますか。",
+   "options": [
+    "だから",
+    "それから",
+    "でも",
+    "そして"
+   ],
+   "answer": 2,
+   "explanation": "Father doesn't like fish much, but (でも) he ate a lot of it in Hokkaido.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n5-full-1-37",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 37,
+   "jlpt_level": "N5",
+   "section": "grammar",
+   "part": "問題3 文章の文法 · Text grammar",
+   "passage": "ふゆやすみ\n\n　わたしは ふゆやすみに かぞくと ほっかいどうへ いきました。ほっかいどうは とても さむかったです。ゆきが たくさん 　1　から、まちは ぜんぶ しろかったです。\n　ほっかいどうで おいしい さかなを たべました。ちちは さかなが あまり すきじゃ ありません。　2　、ほっかいどうの さかなは 「おいしい」と いって、たくさん たべました。\n　つぎの ひは ゆきの なかで おとうと 　3　 あそびました。とても たのしかったです。らいねんの ふゆも また かぞくで 　4　。",
+   "prompt": "　3　に [何|なに]を [入|い]れますか。",
+   "options": [
+    "を",
+    "に",
+    "が",
+    "と"
+   ],
+   "answer": 3,
+   "explanation": "おとうとと あそびました = played with my younger brother.",
+   "item_slugs": [
+    "grammar-to-and-with"
+   ]
+  },
+  {
+   "slug": "mock-n5-full-1-38",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 38,
+   "jlpt_level": "N5",
+   "section": "grammar",
+   "part": "問題3 文章の文法 · Text grammar",
+   "passage": "ふゆやすみ\n\n　わたしは ふゆやすみに かぞくと ほっかいどうへ いきました。ほっかいどうは とても さむかったです。ゆきが たくさん 　1　から、まちは ぜんぶ しろかったです。\n　ほっかいどうで おいしい さかなを たべました。ちちは さかなが あまり すきじゃ ありません。　2　、ほっかいどうの さかなは 「おいしい」と いって、たくさん たべました。\n　つぎの ひは ゆきの なかで おとうと 　3　 あそびました。とても たのしかったです。らいねんの ふゆも また かぞくで 　4　。",
+   "prompt": "　4　に [何|なに]を [入|い]れますか。",
+   "options": [
+    "いきました",
+    "いきませんでした",
+    "いきたいです",
+    "いって います"
+   ],
+   "answer": 2,
+   "explanation": "らいねん (next year) points to the future: また いきたいです = I want to go again.",
+   "item_slugs": [
+    "grammar-tai"
+   ]
+  },
+  {
+   "slug": "mock-n5-full-1-39",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 39,
+   "jlpt_level": "N5",
+   "section": "reading",
+   "part": "問題4 内容理解（短文） · Short passage",
+   "passage": "けんさんへ\n\nおかあさんは いまから かいものに いきます。ろくじごろ かえります。テーブルの うえに ケーキが あります。しゅくだいを してから たべて ください。おふろの そうじも おねがいします。\n\nはは",
+   "prompt": "けんさんは [何|なに]を してから ケーキを たべますか。",
+   "options": [
+    "おふろの そうじを します",
+    "かいものに いきます",
+    "しゅくだいを します",
+    "ばんごはんを つくります"
+   ],
+   "answer": 2,
+   "explanation": "しゅくだいを してから たべて ください = eat it after doing your homework. Mother is the one going shopping.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n5-full-1-40",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 40,
+   "jlpt_level": "N5",
+   "section": "reading",
+   "part": "問題4 内容理解（短文） · Short passage",
+   "passage": "マリアさん\n\nあしたの ひるごはんは、がっこうの ちかくの そばやで たべませんか。じゅうにじに がっこうの もんの まえで まって います。わたしは ごご にじから じゅぎょうが ありますから、いちじはんには がっこうに かえります。\n\nゆき",
+   "prompt": "ゆきさんは あした [何時|なんじ]に マリアさんを まちますか。",
+   "options": [
+    "いちじ",
+    "いちじはん",
+    "にじ",
+    "じゅうにじ"
+   ],
+   "answer": 3,
+   "explanation": "じゅうにじに もんの まえで まって います. Yuki returns to school by 1:30 and has class at 2.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n5-full-1-41",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 41,
+   "jlpt_level": "N5",
+   "section": "reading",
+   "part": "問題5 内容理解（中文） · Mid-length passage",
+   "passage": "やおやの おじいさん\n\n　わたしの アパートの となりに ちいさい やおやが あります。やおやの おじいさんは とても げんきで、いつも おおきい こえで 「いらっしゃい」と いいます。\n　にほんへ きた とき、わたしは にほんごが あまり わかりませんでした。やさいの なまえも わかりませんでした。おじいさんは やさいを ひとつずつ みせて、ゆっくり なまえを おしえました。いまは やさいの なまえを たくさん しって います。\n　この みせの やさいは スーパーより すこし たかいです。でも、とても あたらしくて おいしいです。だから、わたしは まいしゅう どようびの あさ、この みせで やさいを かいます。そして、どようびの ごごは その やさいで サラダや スープを つくります。",
+   "prompt": "「わたし」は どうして この やおやで やさいを かいますか。",
+   "options": [
+    "スーパーより やすいですから",
+    "やさいが あたらしくて おいしいですから",
+    "みせが おおきいですから",
+    "あさ はやく あいて いますから"
+   ],
+   "answer": 1,
+   "explanation": "あたらしくて おいしいです。だから … かいます. The vegetables are actually a little more expensive than at the supermarket, and the shop is small.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n5-full-1-42",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 42,
+   "jlpt_level": "N5",
+   "section": "reading",
+   "part": "問題5 内容理解（中文） · Mid-length passage",
+   "passage": "やおやの おじいさん\n\n　わたしの アパートの となりに ちいさい やおやが あります。やおやの おじいさんは とても げんきで、いつも おおきい こえで 「いらっしゃい」と いいます。\n　にほんへ きた とき、わたしは にほんごが あまり わかりませんでした。やさいの なまえも わかりませんでした。おじいさんは やさいを ひとつずつ みせて、ゆっくり なまえを おしえました。いまは やさいの なまえを たくさん しって います。\n　この みせの やさいは スーパーより すこし たかいです。でも、とても あたらしくて おいしいです。だから、わたしは まいしゅう どようびの あさ、この みせで やさいを かいます。そして、どようびの ごごは その やさいで サラダや スープを つくります。",
+   "prompt": "「わたし」は どようびの ごご [何|なに]を しますか。",
+   "options": [
+    "やおやで やさいを かいます",
+    "にほんごを べんきょうします",
+    "サラダや スープを つくります",
+    "おじいさんと はなします"
+   ],
+   "answer": 2,
+   "explanation": "Saturday morning is shopping; どようびの ごごは … サラダや スープを つくります.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n5-full-1-43",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 43,
+   "jlpt_level": "N5",
+   "section": "reading",
+   "part": "問題6 情報検索 · Finding information",
+   "passage": "レストラン みどり　ランチ（ごぜん 11じ ～ ごご 2じ）\n\n・ハンバーグ　　　　　　850えん（コーヒーつき）\n・さかなの ていしょく　　900えん（コーヒーつき）\n・カレーライス　　　　　650えん\n・スパゲッティ　　　　　700えん\n\n＊ランチには サラダが つきます。\n＊カレーライスと スパゲッティの ひとは、コーヒーが 100えんです。\n＊すいようびは スパゲッティは ありません。\n＊にちようびは やすみです。",
+   "prompt": "リンさんは すいようびに ここで ランチを たべます。コーヒーも のみたいです。おかねは 800えんまでです。リンさんは どれを たべますか。",
+   "options": [
+    "ハンバーグ",
+    "さかなの ていしょく",
+    "カレーライス",
+    "スパゲッティ"
+   ],
+   "answer": 2,
+   "explanation": "Curry 650 + coffee 100 = 750 yen. Hamburg steak (850) and fish (900) cost too much, and there is no spaghetti on Wednesday.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n5-full-1-44",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 44,
+   "jlpt_level": "N5",
+   "section": "listening",
+   "part": "問題1 課題理解 · Task",
+   "passage": "おとこの ひとと おんなの ひとが はなして います。ふたりは ゆみさんの たんじょうびに [何|なに]を あげますか。\n[男|おとこ]：ゆみさんの たんじょうびに [何|なに]を あげましょうか。\n[女|おんな]：ほんは どうですか。\n[男|おとこ]：ゆみさんは ほんを たくさん もって いますよ。\n[女|おんな]：そうですね。じゃあ、ケーキは？\n[男|おとこ]：ケーキは パーティーで ゆみさんの おかあさんが つくります。\n[女|おんな]：じゃあ、はなは どうですか。\n[男|おとこ]：いいですね。そう しましょう。\nふたりは ゆみさんの たんじょうびに [何|なに]を あげますか。",
+   "prompt": "ふたりは ゆみさんの たんじょうびに [何|なに]を あげますか。",
+   "options": [
+    "ほん",
+    "ケーキ",
+    "はな",
+    "ほんと はな"
+   ],
+   "answer": 2,
+   "explanation": "Yumi already has many books and her mother makes the cake, so they give flowers.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n5-full-1-45",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 45,
+   "jlpt_level": "N5",
+   "section": "listening",
+   "part": "問題1 課題理解 · Task",
+   "passage": "おとこの ひとが バスのりばで おんなの ひとと はなして います。おとこの ひとは なんばんの バスに のりますか。\n[男|おとこ]：すみません、さくらこうえんへ いきたいです。なんばんの バスですか。\n[女|おんな]：いつもは さんばんの バスです。\n[男|おとこ]：さんばんですね。\n[女|おんな]：あ、でも きょうは にちようびですから、さんばんの バスは ありません。ごばんの バスに のって ください。\n[男|おとこ]：わかりました。ありがとうございます。\nおとこの ひとは なんばんの バスに のりますか。",
+   "prompt": "おとこの ひとは なんばんの バスに のりますか。",
+   "options": [
+    "ごばん",
+    "さんばん",
+    "にばん",
+    "はちばん"
+   ],
+   "answer": 0,
+   "explanation": "Usually bus 3, but it doesn't run on Sundays, so he takes bus 5 (ごばん).",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n5-full-1-46",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 46,
+   "jlpt_level": "N5",
+   "section": "listening",
+   "part": "問題1 課題理解 · Task",
+   "passage": "いしゃと おとこの ひとが はなして います。おとこの ひとは きょう うちへ かえってから [何|なに]を しますか。\n[女|おんな]：かぜですね。この くすりを のんで、きょうは はやく ねて ください。\n[男|おとこ]：おふろに はいっても いいですか。\n[女|おんな]：きょうは はいらないで ください。あしたは いいですよ。\n[男|おとこ]：しごとは？\n[女|おんな]：あしたまで やすんで ください。\nおとこの ひとは きょう うちへ かえってから [何|なに]を しますか。",
+   "prompt": "おとこの ひとは きょう うちへ かえってから [何|なに]を しますか。",
+   "options": [
+    "おふろに はいります",
+    "くすりを のんで、はやく ねます",
+    "かいしゃへ いきます",
+    "おふろに はいって、ねます"
+   ],
+   "answer": 1,
+   "explanation": "The doctor says take the medicine and go to bed early; no bath today and no work until tomorrow.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n5-full-1-47",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 47,
+   "jlpt_level": "N5",
+   "section": "listening",
+   "part": "問題1 課題理解 · Task",
+   "passage": "おんなの ひとが デパートで みせの ひとと はなして います。おんなの ひとは なんがいへ いきますか。\n[女|おんな]：すみません、くつは なんがいですか。\n[男|おとこ]：くつは さんがいです。\n[女|おんな]：こどもの くつも さんがいですか。\n[男|おとこ]：いいえ、こどもの くつは よんかいです。\n[女|おんな]：むすこの くつが ほしいです。ありがとうございます。\nおんなの ひとは なんがいへ いきますか。",
+   "prompt": "おんなの ひとは なんがいへ いきますか。",
+   "options": [
+    "よんかい",
+    "いっかい",
+    "にかい",
+    "さんがい"
+   ],
+   "answer": 0,
+   "explanation": "She wants shoes for her son, and children's shoes are on the 4th floor (よんかい). Adult shoes are on the 3rd.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n5-full-1-48",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 48,
+   "jlpt_level": "N5",
+   "section": "listening",
+   "part": "問題1 課題理解 · Task",
+   "passage": "おんなの ひとと おとこの ひとが うちで はなして います。おとこの ひとは コンビニで [何|なに]を かいますか。\n[女|おんな]：コンビニへ いきますか。じゃあ、たまごと ぎゅうにゅうを かって きて ください。\n[男|おとこ]：パンは？\n[女|おんな]：パンは まだ ありますから、いりません。あ、ぎゅうにゅうも まだ ありました。\n[男|おとこ]：じゃあ、たまごだけですね。\n[女|おんな]：ええ、おねがいします。\nおとこの ひとは コンビニで [何|なに]を かいますか。",
+   "prompt": "おとこの ひとは コンビニで [何|なに]を かいますか。",
+   "options": [
+    "たまごと ぎゅうにゅう",
+    "たまご",
+    "パン",
+    "ぎゅうにゅう"
+   ],
+   "answer": 1,
+   "explanation": "There is still bread and milk at home, so he buys only eggs (たまごだけ).",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n5-full-1-49",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 49,
+   "jlpt_level": "N5",
+   "section": "listening",
+   "part": "問題1 課題理解 · Task",
+   "passage": "おとこの ひとと おんなの ひとが はなして います。ふたりは いつ えいがを みに いきますか。\n[男|おとこ]：どようびに えいがを みに いきませんか。\n[女|おんな]：どようびは アルバイトが あります。にちようびは どうですか。\n[男|おとこ]：にちようびは ちょっと…。きんようびの よるは どうですか。\n[女|おんな]：きんようびですね。いいですよ。\nふたりは いつ えいがを みに いきますか。",
+   "prompt": "ふたりは いつ えいがを みに いきますか。",
+   "options": [
+    "どようびの よる",
+    "にちようびの ひる",
+    "どようびの ひる",
+    "きんようびの よる"
+   ],
+   "answer": 3,
+   "explanation": "She works on Saturday and he can't on Sunday, so they go on Friday night.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n5-full-1-50",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 50,
+   "jlpt_level": "N5",
+   "section": "listening",
+   "part": "問題1 課題理解 · Task",
+   "passage": "おとこの ひとと おんなの ひとが きょうしつで はなして います。おんなの ひとは どこに すわりますか。\n[男|おとこ]：まどの そばの せきが あいて いますよ。\n[女|おんな]：まどの そばは ちょっと さむいです。\n[男|おとこ]：じゃあ、ドアの ちかくは どうですか。\n[女|おんな]：ドアの ちかくは ひとが たくさん とおりますね。いちばん まえは？\n[男|おとこ]：いちばん まえは せんせいの せきです。まんなかも あいて いますよ。\n[女|おんな]：じゃあ、まんなかに すわります。\nおんなの ひとは どこに すわりますか。",
+   "prompt": "おんなの ひとは どこに すわりますか。",
+   "options": [
+    "まどの そば",
+    "ドアの ちかく",
+    "いちばん まえ",
+    "まんなか"
+   ],
+   "answer": 3,
+   "explanation": "The window is cold, the door is busy and the front is the teacher's seat, so she sits in the middle.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n5-full-1-51",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 51,
+   "jlpt_level": "N5",
+   "section": "listening",
+   "part": "問題2 ポイント理解 · Key point",
+   "passage": "おとこの ひとと おんなの ひとが はなして います。おとこの ひとは どうして にほんごを べんきょうして いますか。\n[女|おんな]：どうして にほんごを べんきょうして いますか。しごとで つかいますか。\n[男|おとこ]：いいえ、しごとでは つかいません。にほんの アニメが すきですから、にほんごで みたいです。\n[女|おんな]：そうですか。にほんへ いきますか。\n[男|おとこ]：いつか いきたいです。\nおとこの ひとは どうして にほんごを べんきょうして いますか。",
+   "prompt": "おとこの ひとは どうして にほんごを べんきょうして いますか。",
+   "options": [
+    "しごとで つかいますから",
+    "アニメが すきですから",
+    "らいねん にほんへ いきますから",
+    "にほんに ともだちが いますから"
+   ],
+   "answer": 1,
+   "explanation": "He doesn't use it at work; he likes Japanese anime and wants to watch it in Japanese.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n5-full-1-52",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 52,
+   "jlpt_level": "N5",
+   "section": "listening",
+   "part": "問題2 ポイント理解 · Key point",
+   "passage": "おんなの ひとと おとこの ひとが はなして います。おとこの ひとは きょう ひるごはんに [何|なに]を たべましたか。\n[女|おんな]：きょうの ひるごはんは えきの まえの ラーメンやでしたか。\n[男|おとこ]：いいえ、ラーメンやは やすみでした。それで、となりの みせで うどんを たべました。\n[女|おんな]：おいしかったですか。\n[男|おとこ]：ええ。こんどは すしやに いきたいです。\nおとこの ひとは きょう ひるごはんに [何|なに]を たべましたか。",
+   "prompt": "おとこの ひとは きょう ひるごはんに [何|なに]を たべましたか。",
+   "options": [
+    "うどん",
+    "ラーメン",
+    "すし",
+    "パン"
+   ],
+   "answer": 0,
+   "explanation": "The ramen shop was closed, so he ate udon next door. Sushi is for next time.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n5-full-1-53",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 53,
+   "jlpt_level": "N5",
+   "section": "listening",
+   "part": "問題2 ポイント理解 · Key point",
+   "passage": "おんなの ひとと おとこの ひとが はなして います。おとこの ひとの シャツは いくらでしたか。\n[女|おんな]：その シャツ、いいですね。\n[男|おとこ]：ありがとうございます。きのう かいました。\n[女|おんな]：たかかったですか。\n[男|おとこ]：いつもは ごせんえんですが、きのうは にせんえん やすかったです。\nおとこの ひとの シャツは いくらでしたか。",
+   "prompt": "おとこの ひとの シャツは いくらでしたか。",
+   "options": [
+    "ごせんえん",
+    "にせんえん",
+    "さんぜんえん",
+    "ななせんえん"
+   ],
+   "answer": 2,
+   "explanation": "Usually 5,000 yen, but 2,000 yen cheaper yesterday: 3,000 yen (さんぜんえん).",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n5-full-1-54",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 54,
+   "jlpt_level": "N5",
+   "section": "listening",
+   "part": "問題2 ポイント理解 · Key point",
+   "passage": "おんなの ひとと おとこの ひとが はなして います。きむらさんは どの ひとですか。\n[女|おんな]：きむらさんは どの ひとですか。\n[男|おとこ]：あそこの せが たかい ひとです。\n[女|おんな]：ぼうしを かぶって いる ひとですか。\n[男|おとこ]：いいえ、きむらさんは ぼうしを かぶって いません。めがねを かけて います。\nきむらさんは どの ひとですか。",
+   "prompt": "きむらさんは どの ひとですか。",
+   "options": [
+    "せが たかくて、ぼうしを かぶって いる ひと",
+    "せが ひくくて、めがねを かけて いる ひと",
+    "せが ひくくて、ぼうしを かぶって いる ひと",
+    "せが たかくて、めがねを かけて いる ひと"
+   ],
+   "answer": 3,
+   "explanation": "Kimura is tall, wears glasses and no hat.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n5-full-1-55",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 55,
+   "jlpt_level": "N5",
+   "section": "listening",
+   "part": "問題2 ポイント理解 · Key point",
+   "passage": "おとこの ひとが みせの ひとと はなして います。この みせは あした [何時|なんじ]から ですか。\n[男|おとこ]：すみません、この みせは [何時|なんじ]からですか。\n[女|おんな]：いつもは じゅうじからです。でも、どようびと にちようびは くじからです。よるは はちじまでです。\n[男|おとこ]：あしたは どようびですね。\n[女|おんな]：はい、そうです。\nこの みせは あした [何時|なんじ]から ですか。",
+   "prompt": "この みせは あした [何時|なんじ]から ですか。",
+   "options": [
+    "くじ",
+    "じゅうじ",
+    "はちじ",
+    "じゅういちじ"
+   ],
+   "answer": 0,
+   "explanation": "Tomorrow is Saturday, and on weekends the shop opens at 9 (くじ). It closes at 8 p.m.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n5-full-1-56",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 56,
+   "jlpt_level": "N5",
+   "section": "listening",
+   "part": "問題2 ポイント理解 · Key point",
+   "passage": "おとこの ひとと おんなの ひとが はなして います。おんなの ひとは なつやすみに どこへ いきましたか。\n[男|おとこ]：なつやすみは どこかへ いきましたか。\n[女|おんな]：はい、いなかの おばあさんの うちへ いきました。\n[男|おとこ]：いいですね。うみにも いきましたか。\n[女|おんな]：うみにも いきたかったですが、じかんが ありませんでした。あきに やまへ いきたいです。\nおんなの ひとは なつやすみに どこへ いきましたか。",
+   "prompt": "おんなの ひとは なつやすみに どこへ いきましたか。",
+   "options": [
+    "おばあさんの うち",
+    "うみ",
+    "やま",
+    "がいこく"
+   ],
+   "answer": 0,
+   "explanation": "She went to her grandmother's house. She wanted to go to the sea but had no time; the mountains are for autumn.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n5-full-1-57",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 57,
+   "jlpt_level": "N5",
+   "section": "listening",
+   "part": "問題3 発話表現 · What do you say?",
+   "passage": "じゅぎょうで せんせいの はなしが よく きこえませんでした。もう いちど ききたいです。[何|なん]と いいますか。",
+   "prompt": "[何|なん]と いいますか。",
+   "options": [
+    "どうも ありがとうございました。",
+    "すみません、もう いちど おねがいします。",
+    "はい、わかりました。",
+    "どうぞ よろしく。"
+   ],
+   "answer": 1,
+   "explanation": "To ask someone to repeat: もう いちど おねがいします.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n5-full-1-58",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 58,
+   "jlpt_level": "N5",
+   "section": "listening",
+   "part": "問題3 発話表現 · What do you say?",
+   "passage": "ともだちの うちで ばんごはんを たべました。たべた あとで [何|なん]と いいますか。",
+   "prompt": "[何|なん]と いいますか。",
+   "options": [
+    "いただきます。",
+    "おじゃまします。",
+    "いらっしゃい。",
+    "ごちそうさまでした。"
+   ],
+   "answer": 3,
+   "explanation": "After a meal: ごちそうさまでした. いただきます is said before eating.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n5-full-1-59",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 59,
+   "jlpt_level": "N5",
+   "section": "listening",
+   "part": "問題3 発話表現 · What do you say?",
+   "passage": "よる、これから ねます。かぞくに [何|なん]と いいますか。",
+   "prompt": "[何|なん]と いいますか。",
+   "options": [
+    "おやすみなさい。",
+    "こんばんは。",
+    "おはようございます。",
+    "いってきます。"
+   ],
+   "answer": 0,
+   "explanation": "Before going to bed: おやすみなさい.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n5-full-1-60",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 60,
+   "jlpt_level": "N5",
+   "section": "listening",
+   "part": "問題3 発話表現 · What do you say?",
+   "passage": "でんしゃの なかで ほかの ひとの あしを ふみました。[何|なん]と いいますか。",
+   "prompt": "[何|なん]と いいますか。",
+   "options": [
+    "どういたしまして。",
+    "あ、ごめんなさい。",
+    "ありがとう。",
+    "おめでとう。"
+   ],
+   "answer": 1,
+   "explanation": "You stepped on someone's foot, so you apologise: ごめんなさい.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n5-full-1-61",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 61,
+   "jlpt_level": "N5",
+   "section": "listening",
+   "part": "問題3 発話表現 · What do you say?",
+   "passage": "みちが わかりません。みちを あるいて いる ひとに えきの ばしょを ききたいです。[何|なん]と いいますか。",
+   "prompt": "[何|なん]と いいますか。",
+   "options": [
+    "えきへ いって ください。",
+    "えきは とおいですよ。",
+    "すみません、えきは どこですか。",
+    "えきで まって います。"
+   ],
+   "answer": 2,
+   "explanation": "To ask the way, say すみません and ask どこですか.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n5-full-1-62",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 62,
+   "jlpt_level": "N5",
+   "section": "listening",
+   "part": "問題4 即時応答 · Quick response",
+   "passage": "[男|おとこ]：おげんきですか。",
+   "prompt": "[何|なん]と こたえますか。",
+   "options": [
+    "はい、いただきます。",
+    "はい、げんきです。",
+    "いいえ、どういたしまして。"
+   ],
+   "answer": 1,
+   "explanation": "おげんきですか (How are you?) → はい、げんきです.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n5-full-1-63",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 63,
+   "jlpt_level": "N5",
+   "section": "listening",
+   "part": "問題4 即時応答 · Quick response",
+   "passage": "[女|おんな]：にほんごの じゅぎょうは なんようびですか。",
+   "prompt": "[何|なん]と こたえますか。",
+   "options": [
+    "ごご にじからです。",
+    "かようびと もくようびです。",
+    "にかいの きょうしつです。"
+   ],
+   "answer": 1,
+   "explanation": "なんようび asks the day of the week.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n5-full-1-64",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 64,
+   "jlpt_level": "N5",
+   "section": "listening",
+   "part": "問題4 即時応答 · Quick response",
+   "passage": "[男|おとこ]：この ペン、かりても いいですか。",
+   "prompt": "[何|なん]と こたえますか。",
+   "options": [
+    "ええ、どうぞ。",
+    "いいえ、かりません。",
+    "はい、かして ください。"
+   ],
+   "answer": 0,
+   "explanation": "〜ても いいですか asks permission; give it with ええ、どうぞ.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n5-full-1-65",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 65,
+   "jlpt_level": "N5",
+   "section": "listening",
+   "part": "問題4 即時応答 · Quick response",
+   "passage": "[女|おんな]：しゅくだいは もう おわりましたか。",
+   "prompt": "[何|なん]と こたえますか。",
+   "options": [
+    "はい、まだです。",
+    "いいえ、もう しました。",
+    "いいえ、まだです。"
+   ],
+   "answer": 2,
+   "explanation": "Not finished yet: いいえ、まだです. はい and いいえ must match the rest of the answer.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n5-full-1-66",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 66,
+   "jlpt_level": "N5",
+   "section": "listening",
+   "part": "問題4 即時応答 · Quick response",
+   "passage": "[男|おとこ]：おくには どちらですか。",
+   "prompt": "[何|なん]と こたえますか。",
+   "options": [
+    "タイです。",
+    "あちらです。",
+    "にさいです。"
+   ],
+   "answer": 0,
+   "explanation": "おくには どちらですか asks which country you are from.",
+   "item_slugs": []
+  },
+  {
+   "slug": "mock-n5-full-1-67",
+   "mock_test_slug": "mock-n5-full-1",
+   "position": 67,
+   "jlpt_level": "N5",
+   "section": "listening",
+   "part": "問題4 即時応答 · Quick response",
+   "passage": "[女|おんな]：きのうの テスト、どうでしたか。",
+   "prompt": "[何|なん]と こたえますか。",
+   "options": [
+    "あしたです。",
+    "はい、テストです。",
+    "ちょっと むずかしかったです。"
+   ],
+   "answer": 2,
+   "explanation": "どうでしたか asks how it was, in the past: むずかしかったです.",
+   "item_slugs": []
+  }
+ ]
+}

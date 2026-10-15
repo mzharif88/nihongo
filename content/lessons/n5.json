@@ -320,7 +320,7 @@
    "slug": "lesson-n5-04-nanji",
    "jlpt_level": "N5",
    "position": 4,
-   "title": "[何|なん][時|じ]ですか — What time is it?",
+   "title": "[何時|なんじ]ですか — What time is it?",
    "situation": "A classmate asks about your daily routine before class.",
    "item_slugs": [
     "word-ima",
@@ -340,7 +340,7 @@
      "speaker": "あなた",
      "jp": "すみません、今何時ですか。",
      "en": "Excuse me, what time is it now?",
-     "reading": "すみません、[今|いま][何|なん][時|じ]⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。"
+     "reading": "すみません、[今|いま][何時|なんじ]⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。"
     },
     {
      "speaker": "[田中|たなか]",
@@ -358,25 +358,25 @@
      "speaker": "[田中|たなか]",
      "jp": "はい。毎朝何時に起きますか。",
      "en": "Yes. What time do you get up every morning?",
-     "reading": "はい。[毎朝|まいあさ][何|なん][時|じ]⟨p⟩に⟨/⟩⟨v⟩[起|お]きます⟨/⟩⟨p⟩か⟨/⟩。"
+     "reading": "はい。[毎朝|まいあさ][何時|なんじ]⟨p⟩に⟨/⟩⟨v⟩[起|お]きます⟨/⟩⟨p⟩か⟨/⟩。"
     },
     {
      "speaker": "あなた",
      "jp": "六時に起きます。毎日午前九時に学校に行きます。",
      "en": "I get up at six. I go to school at 9 a.m. every day.",
-     "reading": "[六|ろく][時|じ]⟨p⟩に⟨/⟩⟨v⟩[起|お]きます⟨/⟩。[毎日|まいにち][午前|ごぜん][九時|くじ]⟨p⟩に⟨/⟩[学校|がっこう]⟨p⟩に⟨/⟩⟨v⟩[行|い]きます⟨/⟩。"
+     "reading": "[六時|ろくじ]⟨p⟩に⟨/⟩⟨v⟩[起|お]きます⟨/⟩。[毎日|まいにち][午前|ごぜん][九時|くじ]⟨p⟩に⟨/⟩[学校|がっこう]⟨p⟩に⟨/⟩⟨v⟩[行|い]きます⟨/⟩。"
     },
     {
      "speaker": "[田中|たなか]",
      "jp": "晩は何時に寝ますか。",
      "en": "What time do you go to bed at night?",
-     "reading": "[晩|ばん]⟨p⟩は⟨/⟩[何|なん][時|じ]⟨p⟩に⟨/⟩⟨v⟩[寝|ね]ます⟨/⟩⟨p⟩か⟨/⟩。"
+     "reading": "[晩|ばん]⟨p⟩は⟨/⟩[何時|なんじ]⟨p⟩に⟨/⟩⟨v⟩[寝|ね]ます⟨/⟩⟨p⟩か⟨/⟩。"
     },
     {
      "speaker": "あなた",
      "jp": "十一時ごろ寝ます。",
      "en": "Around eleven.",
-     "reading": "[十|じゅう][一時|いちじ]ごろ⟨v⟩[寝|ね]ます⟨/⟩。"
+     "reading": "[十一時|じゅういちじ]ごろ⟨v⟩[寝|ね]ます⟨/⟩。"
     },
     {
      "speaker": "[田中|たなか]",
@@ -417,10 +417,10 @@
       "11:00"
      ],
      "answer": 1,
-     "explanation": "「[六|ろく][時|じ]に[起|お]きます」 = I get up at six."
+     "explanation": "「[六時|ろくじ]に[起|お]きます」 = I get up at six."
     }
    ],
-   "notes": "ます makes a verb polite: [起|お]きる → [起|お]きます (get up), [寝|ね]る → [寝|ね]ます (go to bed), [行|い]く → [行|い]きます (go). Use に after a clock time: [六|ろく][時|じ]に[起|お]きます = \"I get up at six.\"\n\nTelling time: number + [時|じ] for the hour, + [分|ふん] (ふん/ぷん) for minutes, [半|はん] (はん) for half past. Careful with [四時|よじ] (よじ), [七時|しちじ] (しちじ) and [九時|くじ] (くじ)."
+   "notes": "ます makes a verb polite: [起|お]きる → [起|お]きます (get up), [寝|ね]る → [寝|ね]ます (go to bed), [行|い]く → [行|い]きます (go). Use に after a clock time: [六時|ろくじ]に[起|お]きます = \"I get up at six.\"\n\nTelling time: number + [時|じ] for the hour, + [分|ふん] (ふん/ぷん) for minutes, [半|はん] (はん) for half past. Careful with [四時|よじ] (よじ), [七時|しちじ] (しちじ) and [九時|くじ] (くじ)."
   },
   {
    "slug": "lesson-n5-05-resutoran",

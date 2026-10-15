@@ -1,0 +1,13 @@
+{
+ "version": 1,
+ "kind": "mock_tests",
+ "source": "original-mock",
+ "records": [
+  {
+   "slug": "mock-n4-full-1",
+   "jlpt_level": "N4",
+   "title": "N4 full mock 1",
+   "time_limit_min": 115
+  }
+ ]
+}
