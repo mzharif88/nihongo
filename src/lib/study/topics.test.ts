@@ -44,9 +44,12 @@ describe("pickTopicItems", () => {
     expect(pickTopicItems(all, "topic:Food & Drink", new Set(), new Set(), 10)).toEqual([water]);
   });
 
-  it("brings in a kanji's missing radical first, then the kanji once the radical is learned", () => {
-    expect(pickTopicItems(all, "kanji:N5", new Set(), new Set(), 10)).toEqual([sunRadical, moon]);
-    expect(pickTopicItems(all, "kanji:N5", new Set([sunRadical.id]), new Set(["radical-sun"]), 10)).toEqual([sun, moon]);
+  it("teaches kanji without pulling their radicals in; radicals have their own topic", () => {
+    expect(pickTopicItems(all, "kanji:N5", new Set(), new Set(), 10)).toEqual([sun, moon]);
+    expect(pickTopicItems(all, "radicals:all", new Set(), new Set(), 10)).toEqual([sunRadical]);
+    expect(listTopics(all, new Set()).find((t) => t.id === "kanji:N5")?.total).toBe(2);
+    expect(listTopics(all, new Set()).find((t) => t.id === "radicals:all")?.total).toBe(1);
+    expect(TOPIC_ID.test("radicals:all")).toBe(true);
   });
 
   it("respects the limit and skips started items", () => {

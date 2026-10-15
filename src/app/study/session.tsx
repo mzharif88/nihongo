@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useState, useTransition } from "react";
+import { useRef, useState, useTransition } from "react";
 import { KanjiScope, useKanjiAllowance } from "@/components/kanji-scope";
 import { Ruby } from "@/components/ruby";
 import { groupsWith } from "@/lib/kanji/groups";
@@ -16,6 +16,12 @@ import { speak } from "./speak";
 const REQUEUE_WINDOW_MS = 15 * 60 * 1000;
 /** A card missed again and again comes back at most this often in one session; the rest waits for tomorrow. */
 const MAX_REPEATS = 2;
+/**
+ * Taps this soon after a card or phase appears are ignored: on phones a quick
+ * double tap on "Next" (or a delayed ghost click) would otherwise land on the
+ * next card's button in the same spot and skip its intro or answer it.
+ */
+const TAP_GUARD_MS = 400;
 
 type Phase = "intro" | "question" | "answered";
 
@@ -55,11 +61,15 @@ export function StudySession({
   const [stats, setStats] = useState({ done: 0, right: 0, xp: 0, streak: 0 });
   const [error, setError] = useState<string | null>(null);
   const [saving, startSaving] = useTransition();
+  const readyAt = useRef(0);
+  const settled = () => Date.now() >= readyAt.current;
 
   const card = queue[0];
   const remaining = queue.length;
 
   function answer(isCorrect: boolean, choice?: number) {
+    if (phase !== "question" || !settled()) return;
+    readyAt.current = Date.now() + TAP_GUARD_MS;
     setAnswerMs(Date.now() - shownAt);
     setCorrect(isCorrect);
     if (choice !== undefined) setPicked(choice);
@@ -68,12 +78,15 @@ export function StudySession({
   }
 
   function startQuestion() {
+    if (!settled()) return;
+    readyAt.current = Date.now() + TAP_GUARD_MS;
     setPhase("question");
     setShownAt(Date.now());
   }
 
   /** Save the answer and move on to the next card. */
   function save() {
+    if (saving || !settled()) return;
     const current = card;
     const wasCorrect = correct;
     startSaving(async () => {
@@ -101,6 +114,7 @@ export function StudySession({
         const rest = queue.slice(1);
         const nextQueue = again ? [...rest, { ...current, isNew: false }] : rest;
         if (again) setRepeats((r) => ({ ...r, [current.key]: count + 1 }));
+        readyAt.current = Date.now() + TAP_GUARD_MS;
         setQueue(nextQueue);
         setPicked(null);
         setPhase(nextQueue[0]?.isNew ? "intro" : "question");

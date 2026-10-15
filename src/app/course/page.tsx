@@ -23,8 +23,8 @@ export default async function CoursePage() {
       </header>
       <p className="mt-2 text-sm text-muted">
         Built from the words and kanji you haven&apos;t learned yet, level by level up to your target ({profile.target_level}
-        {profile.target_level === "N1" ? "; the course covers up to N2 for now" : ""}). Each unit teaches a kanji, its parts and
-        the words that use it, so new words are readable with kanji you&apos;ve just met. It re-plans after every unit.
+        {profile.target_level === "N1" ? "; the course covers up to N2 for now" : ""}). Each unit teaches a kanji and the words
+        that use it, so new words are readable with kanji you&apos;ve just met. It re-plans after every unit.
       </p>
       <p className="mt-2 text-sm">
         Already know some words?{" "}
@@ -102,7 +102,7 @@ export default async function CoursePage() {
 }
 
 function UnitCard({ unit, highlight = false }: { unit: Unit; highlight?: boolean }) {
-  const kinds = { radical: "part", kanji: "kanji", word: "word", kana: "kana" } as Record<string, string>;
+  const kinds = { kanji: "kanji", word: "word", kana: "kana" } as Record<string, string>;
   return (
     <div className={`mt-2 rounded-xl border bg-card p-3 ${highlight ? "border-2 border-accent" : "border-border"}`}>
       <div className="font-bold" lang="ja">

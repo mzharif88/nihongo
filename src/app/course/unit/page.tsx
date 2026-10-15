@@ -34,7 +34,7 @@ export default async function UnitPage({ searchParams }: { searchParams: Promise
   }
 
   const corpus = await loadSentences(supabase, course.items);
-  const pool = course.items.filter((x) => x.type === "word" || x.type === "kanji" || x.type === "kana" || x.type === "radical");
+  const pool = course.items.filter((x) => x.type === "word" || x.type === "kanji" || x.type === "kana");
   const title = course.units.find((u) => u.items.some((x) => x.id === items[0]?.id))?.title ?? "Course unit";
   return (
     <StudySession

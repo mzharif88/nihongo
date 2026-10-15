@@ -1,5 +1,6 @@
 // Unlock order for new SRS items before lessons exist: kana first, then
-// radicals, kanji (once their radicals are learned), words, then sentences.
+// kanji, words, then sentences. Radicals are a deck of their own (the
+// "Radicals" topic): they never gate a kanji and never join another session.
 
 export interface CurriculumItem {
   id: string;
@@ -58,6 +59,9 @@ export function compareCurriculum(a: CurriculumItem, b: CurriculumItem): number 
 /** Items that can be studied in SRS now (grammar points arrive with lessons). */
 export const SRS_TYPES = ["kana", "radical", "kanji", "word", "sentence"];
 
+/** Prerequisites that must be learned first. A kanji's radicals are shown with it, not required before it. */
+export const gatingPrerequisites = (item: Pick<CurriculumItem, "prerequisites">) => item.prerequisites.filter((p) => !p.startsWith("radical-"));
+
 /**
  * Pick the next `limit` items to introduce: not started yet, every
  * prerequisite learned (its recognition card has reached Review), in
@@ -71,8 +75,9 @@ export function pickNewItems<T extends CurriculumItem>(
 ): T[] {
   if (limit <= 0) return [];
   return candidates
-    .filter((i) => SRS_TYPES.includes(i.type) && !started.has(i.id))
-    .filter((i) => i.prerequisites.every((p) => learnedSlugs.has(p)))
+    // Radicals only come through their own topic.
+    .filter((i) => SRS_TYPES.includes(i.type) && i.type !== "radical" && !started.has(i.id))
+    .filter((i) => gatingPrerequisites(i).every((p) => learnedSlugs.has(p)))
     .sort(compareCurriculum)
     .slice(0, limit);
 }

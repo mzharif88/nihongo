@@ -1,4 +1,4 @@
-import { compareCurriculum, SRS_TYPES, type CurriculumItem } from "./curriculum";
+import { compareCurriculum, gatingPrerequisites, SRS_TYPES, type CurriculumItem } from "./curriculum";
 
 // Topics: tap one on the home page to study just that topic (its due
 // reviews, then its next new items). There is no daily limit.
@@ -6,7 +6,7 @@ import { compareCurriculum, SRS_TYPES, type CurriculumItem } from "./curriculum"
 export interface Topic {
   id: string;
   label: string;
-  group: "Scripts" | "Kanji" | "Words by level" | "Words by topic";
+  group: "Scripts" | "Radicals" | "Kanji" | "Words by level" | "Words by topic";
   /** Items in this topic. */
   total: number;
   /** Unstarted items left in this topic. */
@@ -16,7 +16,7 @@ export interface Topic {
 }
 
 const LEVELS = ["N5", "N4", "N3", "N2", "N1"];
-export const TOPIC_ID = /^(kana:(hiragana|katakana)|kanji:N[1-5]|words:N[1-5]|topic:.{1,60})$/;
+export const TOPIC_ID = /^(kana:(hiragana|katakana)|radicals:all|kanji:N[1-5]|words:N[1-5]|topic:.{1,60})$/;
 
 /** Does an item belong to a topic id? */
 export function inTopic(item: CurriculumItem, topicId: string): boolean {
@@ -24,6 +24,8 @@ export function inTopic(item: CurriculumItem, topicId: string): boolean {
   switch (kind) {
     case "kana":
       return item.type === "kana" && item.tags.includes(value);
+    case "radicals":
+      return item.type === "radical";
     case "kanji":
       return item.type === "kanji" && item.jlpt_level === value;
     case "words":
@@ -40,6 +42,8 @@ export function listTopics(items: CurriculumItem[], started: Set<string>, dueIte
   const fixed: Pick<Topic, "id" | "label" | "group">[] = [
     { id: "kana:hiragana", label: "Hiragana", group: "Scripts" },
     { id: "kana:katakana", label: "Katakana", group: "Scripts" },
+    // Radicals are their own deck, never counted in a level's kanji.
+    { id: "radicals:all", label: "All radicals", group: "Radicals" },
     ...LEVELS.map((l) => ({ id: `kanji:${l}`, label: `${l} kanji`, group: "Kanji" as const })),
     ...LEVELS.map((l) => ({ id: `words:${l}`, label: `${l} words`, group: "Words by level" as const })),
   ];
@@ -61,8 +65,8 @@ export function listTopics(items: CurriculumItem[], started: Set<string>, dueIte
 
 /**
  * New items for a chosen topic, in curriculum order. A topic item whose
- * prerequisites aren't learned yet (a kanji's radicals) brings those
- * prerequisites in first, so picking "N5 kanji" works from day one.
+ * prerequisites aren't learned yet brings those in first. A kanji's radicals
+ * aren't prerequisites: they stay in the Radicals topic.
  */
 export function pickTopicItems<T extends CurriculumItem>(
   candidates: T[],
@@ -80,14 +84,14 @@ export function pickTopicItems<T extends CurriculumItem>(
 
   for (const item of topicItems) {
     if (picked.size >= limit) break;
-    const missing = item.prerequisites.filter((p) => !learnedSlugs.has(p));
+    const missing = gatingPrerequisites(item).filter((p) => !learnedSlugs.has(p));
     if (missing.length === 0) {
       picked.set(item.id, item);
       continue;
     }
     for (const slug of missing) {
       const prereq = bySlug.get(slug);
-      if (prereq && !started.has(prereq.id) && prereq.prerequisites.every((p) => learnedSlugs.has(p)) && picked.size < limit) {
+      if (prereq && !started.has(prereq.id) && gatingPrerequisites(prereq).every((p) => learnedSlugs.has(p)) && picked.size < limit) {
         picked.set(prereq.id, prereq);
       }
     }

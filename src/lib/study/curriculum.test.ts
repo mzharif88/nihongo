@@ -26,7 +26,7 @@ describe("pickNewItems", () => {
     expect(pickNewItems(items, new Set(), new Set(), 10).map((i) => i.term)).toEqual(["あ", "か", "が", "きゃ", "ア"]);
   });
 
-  it("puts kana before radicals, kanji, words and sentences", () => {
+  it("puts kana before kanji, words and sentences, and leaves radicals to their own topic", () => {
     const items = [
       item({ type: "sentence", jlpt_level: "N5", term: "s" }),
       item({ type: "word", jlpt_level: "N5", term: "w" }),
@@ -35,14 +35,13 @@ describe("pickNewItems", () => {
       item({ type: "kana", term: "あ", tags: ["hiragana", "basic"] }),
     ];
     expect(pickNewItems(items, new Set(), new Set(), 10).map((i) => i.type)).toEqual([
-      "kana", "radical", "kanji", "word", "sentence",
+      "kana", "kanji", "word", "sentence",
     ]);
   });
 
-  it("holds kanji back until their radicals are learned", () => {
+  it("doesn't hold kanji back for their radicals", () => {
     const sun = item({ type: "kanji", jlpt_level: "N5", term: "日", prerequisites: ["radical-sun"] });
-    expect(pickNewItems([sun], new Set(), new Set(), 5)).toEqual([]);
-    expect(pickNewItems([sun], new Set(), new Set(["radical-sun"]), 5)).toEqual([sun]);
+    expect(pickNewItems([sun], new Set(), new Set(), 5)).toEqual([sun]);
   });
 
   it("skips items already started and grammar items, and respects the limit", () => {

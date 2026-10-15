@@ -80,6 +80,14 @@ describe("planUnits", () => {
     expect(unit.title).toContain("日");
   });
 
+  it("never puts radicals in a unit, even when a kanji lists them as parts", () => {
+    const withRadical = [item("radical-sun", "radical", "日"), ...items.map((i) => (i.slug === "kanji-hi" ? { ...i, prerequisites: ["radical-sun"] } : i))];
+    const units = planUnits(withRadical, "N5", fresh(), { size: 8, count: 3 });
+    expect(units.flatMap((u) => u.items).some((i) => i.type === "radical")).toBe(false);
+    expect(units[0].items[0].slug).toBe("kanji-hi");
+    expect(levelProgress(withRadical, ["N5"], fresh())[0].total).toBe(9);
+  });
+
   it("stays within the target level and plans units that follow on from each other", () => {
     const units = planUnits(items, "N5", fresh(), { size: 4, count: 5 });
     const all = units.flatMap((u) => u.items.map((i) => i.jlpt_level));

@@ -30,7 +30,7 @@ export default async function StudyPage({ searchParams }: { searchParams: Promis
         <p className="mt-2 text-muted">
           {session.unstartedInScope === 0
             ? "You've started every item here. Reviews will come back as they fall due."
-            : "Nothing is unlocked yet. Learn the radicals or earlier items first, then come back."}
+            : "Nothing is unlocked yet. Learn the earlier items first, then come back."}
         </p>
         {session.topic && session.unstartedInScope === 0 && (
           <Link

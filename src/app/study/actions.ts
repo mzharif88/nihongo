@@ -1,6 +1,5 @@
 "use server";
 
-import { revalidatePath } from "next/cache";
 import { requireUser } from "@/lib/auth";
 import type { CardType } from "@/lib/study/cards";
 import { applyAnswer } from "@/lib/study/answer.server";
@@ -41,6 +40,8 @@ export async function recordAnswer(input: AnswerInput): Promise<AnswerResult> {
   );
   const { xp, streak } = await awardXp(supabase, user.id, profile.timezone, input.correct ? XP_CORRECT : XP_WRONG, now);
 
-  revalidatePath("/");
+  // No revalidatePath here: it would re-render the session page mid-session
+  // (and swap in "all done" while cards are still queued). Pages are dynamic,
+  // so home reads fresh progress on the next visit anyway.
   return { due: next.due, fsrsState: next.fsrs_state, xp, streak };
 }

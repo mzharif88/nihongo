@@ -4,8 +4,7 @@ import { compareCurriculum, type CurriculumItem } from "@/lib/study/curriculum";
 // that belong together, level by level up to the learner's target (N5–N2
 // for now).
 //
-// A unit is built around kanji: an unlearned kanji, its parts first if they
-// are new too, then the words that use it, so each new word is readable with
+// A unit is built around kanji: an unlearned kanji, then the words that use it, so each new word is readable with
 // kanji you've just met. When a level's kanji are done, the rest of its words
 // are grouped by a kanji or topic they share. Kana come first of all.
 //
@@ -16,8 +15,8 @@ import { compareCurriculum, type CurriculumItem } from "@/lib/study/curriculum";
 export const COURSE_LEVELS = ["N5", "N4", "N3", "N2"] as const;
 export type CourseLevel = (typeof COURSE_LEVELS)[number];
 
-/** Item types the course teaches. Grammar arrives through lessons. */
-export const COURSE_TYPES = ["kana", "radical", "kanji", "word"];
+/** Item types the course teaches. Grammar arrives through lessons; radicals have their own topic. */
+export const COURSE_TYPES = ["kana", "kanji", "word"];
 
 export interface CourseItem extends CurriculumItem {
   meaning: string;
@@ -41,7 +40,7 @@ export interface Unit {
   key: string;
   title: string;
   level: string;
-  /** New items, in teaching order (parts → kanji → words). */
+  /** New items, in teaching order (kanji → words). */
   items: CourseItem[];
   /** Already-started items that keep slipping, shown again. */
   refresh: CourseItem[];
@@ -118,7 +117,6 @@ const levelRank = (level: string) => {
 interface Pools {
   /** Unstarted, in curriculum order. */
   fresh: CourseItem[];
-  bySlug: Map<string, CourseItem>;
   kanjiByChar: Map<string, CourseItem>;
   /** Unstarted words by each kanji they contain. */
   wordsByKanji: Map<string, CourseItem[]>;
@@ -133,7 +131,7 @@ function pools(items: CourseItem[], levels: CourseLevel[], started: Set<string>)
   for (const w of fresh.filter((i) => i.type === "word")) {
     for (const k of kanjiOf(w.term)) wordsByKanji.set(k, [...(wordsByKanji.get(k) ?? []), w]);
   }
-  return { fresh, bySlug: new Map(items.map((i) => [i.slug, i])), kanjiByChar, wordsByKanji };
+  return { fresh, kanjiByChar, wordsByKanji };
 }
 
 /**
@@ -179,8 +177,7 @@ function pickRefresh(struggling: CourseItem[], unitItems: CourseItem[], used: Se
 }
 
 function nextUnit(p: Pools, size: number, started: Set<string>, learned: Set<string>): Unit | null {
-  // Radicals are taught as parts of the kanji that use them, never on their own.
-  const first = p.fresh.find((i) => i.type !== "radical");
+  const first = p.fresh[0];
   if (!first) return null;
   const unitKey = (items: CourseItem[]) => items.map((i) => i.slug).join("+");
 
@@ -206,14 +203,7 @@ function nextUnit(p: Pools, size: number, started: Set<string>, learned: Set<str
       .filter((w) => levelRank(w.jlpt_level) <= levelRank(level) && !has(w) && readable(w) && w.term !== k)
       // Counter words (七時, 三時…) go last unless the kanji is a number, so a unit isn't all counters.
       .sort((a, b) => counter(a, k) - counter(b, k) || a.term.length - b.term.length || compareCurriculum(a, b));
-  /** A kanji with its unlearned parts first. */
-  const teachKanji = (kanji: CourseItem) => {
-    for (const slug of kanji.prerequisites) {
-      const part = p.bySlug.get(slug);
-      if (part && !learned.has(slug)) add(part);
-    }
-    add(kanji);
-  };
+  const teachKanji = (kanji: CourseItem) => add(kanji);
 
   const kanjiLeft = p.fresh.filter((i) => i.type === "kanji" && i.jlpt_level === level);
   if (kanjiLeft.length) {
@@ -256,8 +246,8 @@ function nextUnit(p: Pools, size: number, started: Set<string>, learned: Set<str
   }
 
   if (!picked.length) return null;
-  // Parts, then kanji, then words.
-  const rank = (i: CourseItem) => (i.type === "radical" ? 0 : i.type === "kanji" ? 1 : 2);
+  // Kanji, then words.
+  const rank = (i: CourseItem) => (i.type === "kanji" ? 0 : 1);
   const items = [...picked].sort((a, b) => rank(a) - rank(b));
   const topic = items.find((i) => i.topic)?.topic;
   const single = anchors.length === 1 ? p.kanjiByChar.get(anchors[0])?.meaning.split(/[,;]/)[0] : undefined;

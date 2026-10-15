@@ -266,7 +266,7 @@ function PaceCard({
   );
 }
 
-const GROUP_ORDER: Topic["group"][] = ["Scripts", "Kanji", "Words by level", "Words by topic"];
+const GROUP_ORDER: Topic["group"][] = ["Scripts", "Radicals", "Kanji", "Words by level", "Words by topic"];
 
 /** Every topic as a tappable tile: tap to study it straight away. */
 function TopicGrid({ topics, href }: { topics: Topic[]; href: (t: Topic) => string }) {
