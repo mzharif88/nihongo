@@ -1,5 +1,5 @@
-import { answerText, buildCard, shuffle, type Rng, type StudyCard, type StudyItem } from "@/lib/study/cards";
-import { parseMarkup, stripMarkup, stripRoles, toMarkup, type Segment } from "@/lib/furigana";
+import { answerText, buildCard, pickOptions, shuffle, type Rng, type StudyCard, type StudyItem } from "@/lib/study/cards";
+import { parseMarkup, stripRoles, toMarkup, type Segment } from "@/lib/furigana";
 
 // A course unit as a study session: each new item is introduced and quizzed,
 // then "in context" fill-in-the-blank cards use sentences that contain the
@@ -69,18 +69,11 @@ export function contextCard(item: StudyItem, sentence: Sentence, siblings: Study
   const prompt = blankOut(sentence, item.term);
   if (!prompt) return null;
   const answer = answerText(item, "recall");
-  const seen = new Set([stripMarkup(answer)]);
-  const options = [answer];
   const candidates = [...shuffle(siblings, rng), ...shuffle(pool, rng)].filter(
     (p) => p.id !== item.id && p.type === "word" && !sentence.jp.includes(p.term),
   );
-  for (const p of candidates) {
-    const text = answerText(p, "recall");
-    if (seen.has(stripMarkup(text))) continue;
-    seen.add(stripMarkup(text));
-    options.push(text);
-    if (options.length === 4) break;
-  }
+  // Same script as the answer: a kana word gets kana options, a kanji word kanji ones.
+  const options = [answer, ...pickOptions(answer, candidates.map((p) => answerText(p, "recall")), 3)];
   if (options.length < 2) return null;
   const shuffled = shuffle(options, rng);
   const base = buildCard(item, "recognition", false, pool, rng);

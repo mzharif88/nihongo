@@ -8,6 +8,7 @@ import { groupsWith } from "@/lib/kanji/groups";
 import { higherLevel, kanjiAllowed } from "@/lib/kanji-levels";
 import { isMarkup, stripMarkup } from "@/lib/furigana";
 import type { StudyCard } from "@/lib/study/cards";
+import { introGroup, shuffleFront } from "@/lib/study/intro";
 import { XP_CORRECT, XP_WRONG } from "@/lib/study/streak";
 import { recordAnswer } from "./actions";
 import { speak } from "./speak";
@@ -53,6 +54,9 @@ export function StudySession({
 }: Props) {
   const [queue, setQueue] = useState(initial);
   const [repeats, setRepeats] = useState<Record<string, number>>({});
+  const [introduced, setIntroduced] = useState<ReadonlySet<string>>(() => new Set());
+  /** Which card of the current intro group is showing. */
+  const [introAt, setIntroAt] = useState(0);
   const [phase, setPhase] = useState<Phase>(initial[0]?.isNew ? "intro" : "question");
   const [picked, setPicked] = useState<number | null>(null);
   const [correct, setCorrect] = useState(false);
@@ -66,6 +70,9 @@ export function StudySession({
 
   const card = queue[0];
   const remaining = queue.length;
+  const group = phase === "intro" ? introGroup(queue, introduced) : [];
+  /** The card on screen: during an intro group, the one being introduced. */
+  const shown = group[introAt] ?? card;
 
   function answer(isCorrect: boolean, choice?: number) {
     if (phase !== "question" || !settled()) return;
@@ -77,9 +84,17 @@ export function StudySession({
     speak(spoken(card), card.reveal.audioUrl);
   }
 
-  function startQuestion() {
+  /** Next intro in the group, or (after the last) quiz the whole group. */
+  function nextIntro() {
     if (!settled()) return;
     readyAt.current = Date.now() + TAP_GUARD_MS;
+    if (introAt + 1 < group.length) {
+      setIntroAt(introAt + 1);
+      return;
+    }
+    setIntroduced((s) => new Set([...s, ...group.map((c) => c.key)]));
+    setQueue((q) => shuffleFront(q, group.length));
+    setIntroAt(0);
     setPhase("question");
     setShownAt(Date.now());
   }
@@ -117,7 +132,7 @@ export function StudySession({
         readyAt.current = Date.now() + TAP_GUARD_MS;
         setQueue(nextQueue);
         setPicked(null);
-        setPhase(nextQueue[0]?.isNew ? "intro" : "question");
+        setPhase(nextQueue[0]?.isNew && !introduced.has(nextQueue[0].key) ? "intro" : "question");
         setShownAt(Date.now());
       } catch {
         setError("Couldn't save that answer. Check your connection and try again.");
@@ -166,12 +181,12 @@ export function StudySession({
       </div>
 
       <KanjiScope
-        all={!kanji || card.itemType === "kanji" || card.itemType === "radical"}
-        level={kanji ? higherLevel(card.level, kanji.stage) : undefined}
+        all={!kanji || shown.itemType === "kanji" || shown.itemType === "radical"}
+        level={kanji ? higherLevel(shown.level, kanji.stage) : undefined}
         known={kanji?.known}
       >
-      {phase === "intro" ? (
-        <Intro card={card} onDone={startQuestion} />
+      {phase === "intro" && group.length > 0 ? (
+        <Intro card={shown} position={group.length > 1 ? { at: introAt + 1, of: group.length } : null} onDone={nextIntro} />
       ) : (
         <section className="flex flex-1 flex-col">
           <p className="mt-8 text-center text-sm text-muted">
@@ -211,13 +226,15 @@ export function StudySession({
   );
 }
 
-function Intro({ card, onDone }: { card: StudyCard; onDone: () => void }) {
+function Intro({ card, position, onDone }: { card: StudyCard; position: { at: number; of: number } | null; onDone: () => void }) {
   const r = card.reveal;
   // Kanji above this stage: say so (the exam prints these with furigana).
   const aboveStage = !kanjiAllowed(stripMarkup(r.term), useKanjiAllowance());
   return (
     <section className="flex flex-1 flex-col">
-      <p className="mt-8 text-center text-sm font-medium text-accent">New item</p>
+      <p className="mt-8 text-center text-sm font-medium text-accent">
+        New item{position ? ` ${position.at} of ${position.of}` : ""}
+      </p>
       <button
         onClick={() => speak(spoken(card), r.audioUrl)}
         className="my-4 text-center text-6xl font-bold"
@@ -282,7 +299,7 @@ function Intro({ card, onDone }: { card: StudyCard; onDone: () => void }) {
       <p className="mt-3 text-center text-xs text-muted">Tap the character to hear it.</p>
       <div className="action-bar mt-auto pt-6">
         <button onClick={onDone} className="w-full rounded-xl bg-accent px-4 py-3.5 text-lg font-medium text-white">
-          Got it, quiz me
+          {!position || position.at === position.of ? (position ? `Got them, quiz me on these ${position.of}` : "Got it, quiz me") : "Next new item"}
         </button>
       </div>
     </section>

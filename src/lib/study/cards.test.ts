@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { buildCard, shuffle, type StudyItem } from "./cards";
+import { buildCard, pickOptions, scriptOf, shuffle, type StudyItem } from "./cards";
 
 function seeded(seed = 1) {
   let s = seed;
@@ -100,5 +100,32 @@ describe("buildCard recall", () => {
 describe("shuffle", () => {
   it("keeps every element", () => {
     expect(shuffle([1, 2, 3, 4, 5], seeded(7)).sort()).toEqual([1, 2, 3, 4, 5]);
+  });
+});
+
+describe("options in the answer's script", () => {
+  it("tells hiragana, katakana and kanji apart, ignoring furigana", () => {
+    expect(scriptOf("たべる")).toBe("hiragana");
+    expect(scriptOf("テレビ")).toBe("katakana");
+    expect(scriptOf("コーヒー")).toBe("katakana");
+    expect(scriptOf("[食|た]べる")).toBe("kanji");
+    expect(scriptOf("to eat")).toBe("other");
+  });
+
+  it("picks wrong options in the same script, topping up only if short", () => {
+    expect(pickOptions("ひ", ["ニチ", "つき", "ジツ", "やま", "かわ"], 3)).toEqual(["つき", "やま", "かわ"]);
+    expect(pickOptions("テレビ", ["ラジオ", "[本|ほん]", "パン", "えき"], 2)).toEqual(["ラジオ", "パン"]);
+    expect(pickOptions("ひ", ["つき", "ニチ"], 3)).toEqual(["つき", "ニチ"]);
+    expect(pickOptions("ひ", ["ひ", "つき", "つき"], 3)).toEqual(["つき"]);
+  });
+
+  it("gives a kana word kana options and a katakana word katakana ones", () => {
+    const word = (term: string, reading: string) => item({ type: "word", jlpt_level: "N5", term, reading, romaji: null, meaning: term, tags: [] });
+    const pool = [word("テレビ", "てれび"), word("ラジオ", "らじお"), word("パン", "ぱん"), word("カメラ", "かめら"), word("ここ", "ここ"), word("そこ", "そこ"), word("あそこ", "あそこ"), word("どこ", "どこ"), word("本", "ほん"), word("駅", "えき"), word("山", "やま"), word("川", "かわ")];
+    for (const target of pool) {
+      const card = buildCard(target, "recall", false, pool, seeded(7));
+      const want = scriptOf(card.options![card.answerIndex!]);
+      expect(card.options!.map(scriptOf), target.term).toEqual(card.options!.map(() => want));
+    }
   });
 });

@@ -1,4 +1,4 @@
-import { alignReading, toMarkup } from "@/lib/furigana";
+import { alignReading, stripMarkup, toMarkup } from "@/lib/furigana";
 
 export type CardType = "recognition" | "recall";
 
@@ -32,6 +32,8 @@ export interface StudyCard {
   level: string;
   /** Practice only (course context cards): answered and shown, never sent to the scheduler. */
   practice?: boolean;
+  /** New hiragana letters are introduced and quizzed one at a time; everything else in small batches. */
+  introAlone?: boolean;
   /** Every card is multiple choice; the app grades the answer. */
   mode: "choice";
   question: string;
@@ -72,6 +74,31 @@ export function shuffle<T>(items: T[], rng: Rng = Math.random): T[] {
 
 const isKatakana = (item: StudyItem) => item.tags.includes("katakana");
 
+export type Script = "hiragana" | "katakana" | "kanji" | "other";
+
+/** The script an answer is written in (furigana ignored): any kanji makes it "kanji". */
+export function scriptOf(text: string): Script {
+  const plain = stripMarkup(text).replace(/[\s・ー〜～.。、]/g, "");
+  if (/[㐀-鿿々]/.test(plain)) return "kanji";
+  if (/^[ぁ-ゖ]+$/.test(plain)) return "hiragana";
+  if (/^[ァ-ヺ]+$/.test(plain)) return "katakana";
+  return "other";
+}
+
+/**
+ * Up to `count` wrong options from `candidates`, written in the same script as
+ * the answer (a hiragana answer gets hiragana options, a katakana one
+ * katakana), topped up from the rest only if there aren't enough.
+ */
+export function pickOptions(answer: string, candidates: string[], count: number): string[] {
+  const key = (t: string) => stripMarkup(t).toLowerCase();
+  const seen = new Set([key(answer)]);
+  const script = scriptOf(answer);
+  const unique = candidates.filter((t) => !seen.has(key(t)) && (seen.add(key(t)), true));
+  const same = unique.filter((t) => scriptOf(t) === script);
+  return [...same, ...unique.filter((t) => scriptOf(t) !== script)].slice(0, count);
+}
+
 /** A word as an answer option, as ruby markup so the option shows furigana over its kanji. */
 function wordWithReading(item: StudyItem): string {
   return item.reading ? toMarkup(alignReading(item.term, item.reading)) : item.term;
@@ -92,7 +119,6 @@ export function answerText(item: StudyItem, cardType: CardType): string {
 
 /** Wrong options from the same kind of item, so a kana card offers other kana and a word card other words. */
 function distractors(item: StudyItem, cardType: CardType, pool: StudyItem[], rng: Rng, count = 3): string[] {
-  const answer = answerText(item, cardType).toLowerCase();
   const sameKind = pool.filter(
     (p) =>
       p.id !== item.id &&
@@ -101,16 +127,7 @@ function distractors(item: StudyItem, cardType: CardType, pool: StudyItem[], rng
       // Homophones look identical when a word is shown in kana, so never offer one.
       (item.type !== "word" || !p.reading || p.reading !== item.reading),
   );
-  const seen = new Set([answer]);
-  const out: string[] = [];
-  for (const p of shuffle(sameKind, rng)) {
-    const text = answerText(p, cardType);
-    if (seen.has(text.toLowerCase())) continue;
-    seen.add(text.toLowerCase());
-    out.push(text);
-    if (out.length === count) break;
-  }
-  return out;
+  return pickOptions(answerText(item, cardType), shuffle(sameKind, rng).map((p) => answerText(p, cardType)), count);
 }
 
 const QUESTIONS: Record<CardType, (item: StudyItem) => string> = {
@@ -153,6 +170,7 @@ export function buildCard(
     isNew,
     itemType: item.type,
     level: item.jlpt_level,
+    introAlone: item.type === "kana" && !isKatakana(item),
     reveal: {
       term: item.term,
       reading: item.reading,
