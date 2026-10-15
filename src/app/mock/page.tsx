@@ -8,7 +8,10 @@ export default async function MockListPage() {
   const { supabase, user } = await requireUser();
   const all = await loadMockList(supabase, user.id);
   // Full mocks in exam format first; the old app's 10-question quizzes after.
-  const mocks = all.filter((m) => !m.slug.startsWith("mock-legacy-"));
+  // Full-length mocks (official question counts) first, then the shorter ones.
+  const mocks = all
+    .filter((m) => !m.slug.startsWith("mock-legacy-"))
+    .sort((a, b) => Number(b.slug.includes("-full-")) - Number(a.slug.includes("-full-")));
   const quizzes = all.filter((m) => m.slug.startsWith("mock-legacy-"));
 
   return (
@@ -53,7 +56,12 @@ function MockList({ mocks }: { mocks: Awaited<ReturnType<typeof loadMockList>> }
           return (
             <li key={m.id} className="rounded-xl border border-border bg-card p-4">
               <div className="flex items-baseline justify-between gap-2">
-                <h2 className="font-bold">{m.title}</h2>
+                <h2 className="font-bold">
+                  {m.title}
+                  {m.slug.includes("-full-") && (
+                    <span className="ml-2 rounded-full bg-accent px-2 py-0.5 align-middle text-xs font-medium text-white">Full length</span>
+                  )}
+                </h2>
                 <span className="text-xs text-muted">
                   {m.jlpt_level} · {m.questionCount} questions · {m.time_limit_min} min
                 </span>
