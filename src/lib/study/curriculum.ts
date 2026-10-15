@@ -1,3 +1,5 @@
+import topicList from "../../../content/topics/topics.json";
+
 // Unlock order for new SRS items before lessons exist: kana first, then
 // kanji, words, then sentences. Radicals are a deck of their own (the
 // "Radicals" topic): they never gate a kanji and never join another session.
@@ -17,15 +19,8 @@ export interface CurriculumItem {
 
 const LEVEL_RANK: Record<string, number> = { preN5: 0, N5: 1, N4: 2, N3: 3, N2: 4, N1: 5 };
 
-// Vocabulary topics in the order the old app taught them; unknown topics go last.
-const TOPIC_ORDER = [
-  "Greetings & Basics", "Numbers", "Family", "Food & Drink", "Time Expressions", "Daily Actions",
-  "Places Around Town", "Transportation", "Shopping", "Money & Prices", "Time & Calendar", "Counters",
-  "Colors & Appearance", "Adjectives", "Body Parts", "Weather & Nature", "Health", "Work & School",
-  "Emotions", "Communication Verbs", "Movement Verbs", "Expressions", "Pets & Common", "Household Items",
-  "Kitchen Items", "Clothes & Fashion", "Fruits & Veggies", "Home & Living", "Tech & Stationery",
-  "Japanese Culture", "Tech & Modern Life", "Wild Animals", "Sea & Insects", "Farm & Domestic", "Words",
-];
+// Word topics in teaching order (content/topics/topics.json); unknown topics go last.
+const TOPIC_ORDER: string[] = (topicList as { topics: { name: string }[] }).topics.map((t) => t.name);
 
 function stage(item: CurriculumItem): number {
   const has = (t: string) => item.tags.includes(t);
@@ -37,7 +32,7 @@ function stage(item: CurriculumItem): number {
   return typeStage[item.type] ?? 99;
 }
 
-function topicRank(topic: string | null): number {
+export function topicRank(topic: string | null): number {
   const i = topic ? TOPIC_ORDER.indexOf(topic) : -1;
   return i === -1 ? TOPIC_ORDER.length : i;
 }

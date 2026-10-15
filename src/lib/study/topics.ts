@@ -1,4 +1,4 @@
-import { compareCurriculum, gatingPrerequisites, SRS_TYPES, type CurriculumItem } from "./curriculum";
+import { compareCurriculum, gatingPrerequisites, SRS_TYPES, topicRank, type CurriculumItem } from "./curriculum";
 
 // Topics: tap one on the home page to study just that topic (its due
 // reviews, then its next new items). There is no daily limit.
@@ -48,7 +48,7 @@ export function listTopics(items: CurriculumItem[], started: Set<string>, dueIte
     ...LEVELS.map((l) => ({ id: `words:${l}`, label: `${l} words`, group: "Words by level" as const })),
   ];
   const named = [...new Set(items.filter((i) => i.type === "word" && i.topic).map((i) => i.topic!))]
-    .sort()
+    .sort((a, b) => topicRank(a) - topicRank(b) || a.localeCompare(b))
     .map((t) => ({ id: `topic:${t}`, label: t, group: "Words by topic" as const }));
   return [...fixed, ...named]
     .map((t) => {

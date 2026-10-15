@@ -16,6 +16,7 @@
  * Everything else gets a new slug namespace (kanji-u<codepoint>, vocab-…).
  */
 import { readFileSync, mkdirSync, writeFileSync } from "node:fs";
+import { applyWordTopics } from "./word-topics";
 import { join } from "node:path";
 import { parse } from "csv-parse/sync";
 import { toRomaji } from "wanakana";
@@ -82,9 +83,8 @@ const MNEMONICS = loadMnemonics();
 const MERGES = loadMerges();
 
 function writePack(file: string, items: Item[], source: string, annotate: Annotate) {
-  const records = applyKanjiHints(
-    applyMergeTopics(annotateItems(applyMnemonics(items, MNEMONICS), annotate), MERGES),
-    loadHintData(items),
+  const records = applyWordTopics(
+    applyKanjiHints(applyMergeTopics(annotateItems(applyMnemonics(items, MNEMONICS), annotate), MERGES), loadHintData(items)),
   );
   const doc = { version: IMPORT_FORMAT_VERSION, kind: "items", source, records };
   const parsed = parseImport(doc);

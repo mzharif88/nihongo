@@ -19,6 +19,7 @@ import { annotateItems, createAnnotator, knownWordsFrom } from "./furigana-build
 import { applyMnemonics, loadMnemonics } from "./mnemonics";
 import { dropMerged, loadMerges } from "./merges";
 import { applyKanjiHints, loadHintData } from "./kanji-hints";
+import { applyWordTopics } from "./word-topics";
 
 const LEGACY_REF = process.env.LEGACY_REF ?? "origin/legacy";
 const OUT_DIR = join(process.cwd(), "content", "legacy");
@@ -393,7 +394,7 @@ function buildPatterns(patterns: Pattern[]) {
 // ─── main ───────────────────────────────────────────────────────────────────
 
 function writeImport(file: string, kind: ContentKind, records: Record<string, unknown>[]) {
-  const doc = { version: IMPORT_FORMAT_VERSION, kind, source: SOURCE, records };
+  const doc = { version: IMPORT_FORMAT_VERSION, kind, source: SOURCE, records: applyWordTopics(records) };
   const parsed = parseImport(doc);
   if (parsed.issues.length) {
     for (const issue of parsed.issues) console.error(`${file} #${issue.index} ${issue.slug ?? ""}: ${issue.message}`);

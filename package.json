@@ -19,7 +19,8 @@
     "build:kanji-levels": "tsx scripts/build-kanji-levels.ts",
     "audit:kanji": "tsx scripts/audit-kanji.ts",
     "build:radicals": "tsx scripts/build-radicals.ts",
-    "build:kanji-families": "tsx scripts/build-kanji-families.ts"
+    "build:kanji-families": "tsx scripts/build-kanji-families.ts",
+    "build:topics": "tsx scripts/apply-topics.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.133.0",
