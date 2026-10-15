@@ -72,7 +72,7 @@ export function contextCard(item: StudyItem, sentence: Sentence, siblings: Study
   const candidates = [...shuffle(siblings, rng), ...shuffle(pool, rng)].filter(
     (p) => p.id !== item.id && p.type === "word" && !sentence.jp.includes(p.term),
   );
-  // Same script as the answer: a kana word gets kana options, a kanji word kanji ones.
+  // Answers are kana (a kanji word by its reading), options in the same script.
   const options = [answer, ...pickOptions(answer, candidates.map((p) => answerText(p, "recall")), 3)];
   if (options.length < 2) return null;
   const shuffled = shuffle(options, rng);

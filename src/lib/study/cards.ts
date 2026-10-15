@@ -1,4 +1,4 @@
-import { alignReading, stripMarkup, toMarkup } from "@/lib/furigana";
+import { stripMarkup } from "@/lib/furigana";
 
 export type CardType = "recognition" | "recall";
 
@@ -32,7 +32,7 @@ export interface StudyCard {
   level: string;
   /** Practice only (course context cards): answered and shown, never sent to the scheduler. */
   practice?: boolean;
-  /** New hiragana letters are introduced and quizzed one at a time; everything else in small batches. */
+  /** New kana letters are introduced and quizzed one at a time; everything else in small batches. */
   introAlone?: boolean;
   /** Every card is multiple choice; the app grades the answer. */
   mode: "choice";
@@ -99,22 +99,28 @@ export function pickOptions(answer: string, candidates: string[], count: number)
   return [...same, ...unique.filter((t) => scriptOf(t) !== script)].slice(0, count);
 }
 
-/** A word as an answer option, as ruby markup so the option shows furigana over its kanji. */
-function wordWithReading(item: StudyItem): string {
-  return item.reading ? toMarkup(alignReading(item.term, item.reading)) : item.term;
+/** The first plain form of a reading or term: "べんきょう (する)" → べんきょう, "いく; ゆく" → いく. */
+const firstForm = (text: string) => text.replace(/\s*[(（].*?[)）]\s*/g, "").split(/[;；]/)[0].trim();
+
+/**
+ * A word as an answer: always kana, never kanji. A word with kanji is
+ * answered by its reading (山 → やま); a kana word as written (テレビ, ここ).
+ */
+export function wordAnswer(item: StudyItem): string {
+  return /[㐀-鿿々]/.test(item.term) && item.reading ? firstForm(item.reading) : firstForm(item.term);
 }
 
 /**
  * The text the learner picks for each card. Recognition asks for the
  * sound (kana) or meaning (everything else); recall goes the other way and
- * asks for the Japanese: the kana for a sound, the word for a meaning, or a
+ * asks for the Japanese, always in kana: the kana for a sound, the word's reading for a meaning, or a
  * kanji's reading.
  */
 export function answerText(item: StudyItem, cardType: CardType): string {
   if (cardType === "recognition") return item.type === "kana" ? (item.romaji ?? item.meaning) : item.meaning;
   if (item.type === "kana") return item.term;
   if (item.type === "kanji") return item.reading ?? item.romaji?.split("/")[0] ?? item.term;
-  return wordWithReading(item);
+  return wordAnswer(item);
 }
 
 /** Wrong options from the same kind of item, so a kana card offers other kana and a word card other words. */
@@ -170,7 +176,7 @@ export function buildCard(
     isNew,
     itemType: item.type,
     level: item.jlpt_level,
-    introAlone: item.type === "kana" && !isKatakana(item),
+    introAlone: item.type === "kana",
     reveal: {
       term: item.term,
       reading: item.reading,

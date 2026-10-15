@@ -64,16 +64,18 @@ describe("buildCard recall", () => {
     expect(card.options).toHaveLength(4);
   });
 
-  it("asks for the word that means something, showing kana readings for kanji words", () => {
+  it("asks for the word that means something, answered in kana, never kanji", () => {
     const words = [
       item({ type: "word", term: "水", reading: "みず", meaning: "Water", tags: [] }),
       item({ type: "word", term: "火", reading: "ひ", meaning: "Fire", tags: [] }),
       item({ type: "word", term: "すし", reading: "すし", meaning: "Sushi", tags: [] }),
+      item({ type: "word", term: "勉強", reading: "べんきょう (する)", meaning: "Study", tags: [] }),
     ];
     const card = buildCard(words[0], "recall", false, words, seeded(2));
     expect(card.prompt).toBe("Water");
-    expect(card.options![card.answerIndex!]).toBe("[水|みず]");
-    expect(card.options).toContain("すし");
+    expect(card.options![card.answerIndex!]).toBe("みず");
+    expect(card.options).toEqual(expect.arrayContaining(["ひ", "すし", "べんきょう"]));
+    expect(card.options!.some((o) => /[㐀-鿿]/.test(o))).toBe(false);
   });
 
   it("shows furigana on prompts except where the reading is the answer", () => {
@@ -109,6 +111,7 @@ describe("options in the answer's script", () => {
     expect(scriptOf("テレビ")).toBe("katakana");
     expect(scriptOf("コーヒー")).toBe("katakana");
     expect(scriptOf("[食|た]べる")).toBe("kanji");
+    expect(scriptOf("〜ふん")).toBe("hiragana");
     expect(scriptOf("to eat")).toBe("other");
   });
 
