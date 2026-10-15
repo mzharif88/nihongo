@@ -37,7 +37,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "まる",
+   "reading": "まるめる",
    "romaji": "maru/marumeru/marui/gan",
    "data": {
     "on": [
@@ -195,7 +195,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "こおり",
+   "reading": "こおる",
    "romaji": "koori/hi/kooru/hyou",
    "data": {
     "on": [
@@ -429,7 +429,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "は",
+   "reading": "わ",
    "romaji": "ha/wa/hane/u",
    "data": {
     "on": [
@@ -457,7 +457,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "かど",
+   "reading": "かく",
    "romaji": "kado/tsuno/kaku",
    "data": {
     "on": [
@@ -563,7 +563,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "す",
+   "reading": "しゅう",
    "romaji": "su/shuu",
    "data": {
     "on": [
@@ -644,7 +644,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "ふだ",
+   "reading": "さつ",
    "romaji": "fuda/satsu",
    "data": {
     "on": [
@@ -670,7 +670,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "あたり",
+   "reading": "へん",
    "romaji": "atari/hotori/be/hen",
    "data": {
     "on": [
@@ -808,7 +808,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "かける",
+   "reading": "けん",
    "romaji": "kakeru/ken",
    "data": {
     "on": [
@@ -888,7 +888,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "くろがね",
+   "reading": "てつ",
    "romaji": "kurogane/tetsu",
    "data": {
     "on": [
@@ -914,7 +914,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "そろ",
+   "reading": "さん",
    "romaji": "soro/san",
    "data": {
     "on": [
@@ -940,7 +940,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "すじ",
+   "reading": "せん",
    "romaji": "suji/sen",
    "data": {
     "on": [
@@ -1123,7 +1123,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "きそう",
+   "reading": "きょう",
    "romaji": "kisou/seru/kuraberu/kyou/kei",
    "data": {
     "on": [
@@ -1305,7 +1305,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "わらべ",
+   "reading": "どう",
    "romaji": "warabe/dou",
    "data": {
     "on": [
@@ -1331,7 +1331,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "きざはし",
+   "reading": "かい",
    "romaji": "kizahashi/kai",
    "data": {
     "on": [
@@ -1384,7 +1384,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "あたたか",
+   "reading": "あたたかい",
    "romaji": "atataka/atatakai/atatamaru/atatameru/nuku/on",
    "data": {
     "on": [
@@ -1545,7 +1545,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "ねる",
+   "reading": "れん",
    "romaji": "neru/neri/ren",
    "data": {
     "on": [
@@ -1620,7 +1620,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "ほめる",
+   "reading": "しょう",
    "romaji": "homeru/shou",
    "data": {
     "on": [
@@ -1696,7 +1696,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "そっする",
+   "reading": "そつ",
    "romaji": "sossuru/oeru/owaru/tsuini/niwaka/sotsu/shutsu",
    "data": {
     "on": [
@@ -1805,7 +1805,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "かためる",
+   "reading": "かたまる",
    "romaji": "katameru/katamaru/katamari/katai/ko",
    "data": {
     "on": [
@@ -1858,7 +1858,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "まれ",
+   "reading": "き",
    "romaji": "mare/ki/ke",
    "data": {
     "on": [
@@ -1909,7 +1909,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "うえる",
+   "reading": "げい",
    "romaji": "ueru/nori/waza/gei/un",
    "data": {
     "on": [
@@ -1938,7 +1938,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "わざ",
+   "reading": "ぎ",
    "romaji": "waza/gi",
    "data": {
     "on": [
@@ -2094,7 +2094,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "いさむ",
+   "reading": "ゆう",
    "romaji": "isamu/yuu",
    "data": {
     "on": [
@@ -2170,7 +2170,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "いくさ",
+   "reading": "ぐん",
    "romaji": "ikusa/gun",
    "data": {
     "on": [
@@ -2249,7 +2249,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "かど",
+   "reading": "もん",
    "romaji": "kado/to/mon",
    "data": {
     "on": [
@@ -2352,7 +2352,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "もっぱら",
+   "reading": "せん",
    "romaji": "moppara/sen",
    "data": {
     "on": [
@@ -2433,7 +2433,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "つわもの",
+   "reading": "へい",
    "romaji": "tsuwamono/hei/hyou",
    "data": {
     "on": [
@@ -2486,7 +2486,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "さかえる",
+   "reading": "えい",
    "romaji": "sakaeru/hae/bae/haeru/e/ei/you",
    "data": {
     "on": [
@@ -2596,7 +2596,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "こう",
+   "reading": "こいしい",
    "romaji": "kou/koi/koishii/ren",
    "data": {
     "on": [
@@ -2624,7 +2624,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "おしえる",
+   "reading": "くん",
    "romaji": "oshieru/yomu/kunzuru/kun/kin",
    "data": {
     "on": [
@@ -2736,7 +2736,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "のうずる",
+   "reading": "のう",
    "romaji": "nouzuru/nou/dou",
    "data": {
     "on": [
@@ -2812,7 +2812,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "のむ",
+   "reading": "きつ",
    "romaji": "nomu/kitsu",
    "data": {
     "on": [
@@ -2838,7 +2838,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "へる",
+   "reading": "へらす",
    "romaji": "heru/herasu/gen",
    "data": {
     "on": [
@@ -2889,7 +2889,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "ぬの",
+   "reading": "ふ",
    "romaji": "nuno/fu",
    "data": {
     "on": [
@@ -2915,7 +2915,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "ことば",
+   "reading": "し",
    "romaji": "kotoba/shi",
    "data": {
     "on": [
@@ -2966,7 +2966,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "ふみ",
+   "reading": "さつ",
    "romaji": "fumi/satsu/saku",
    "data": {
     "on": [
@@ -3017,7 +3017,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "かたまり",
+   "reading": "だん",
    "romaji": "katamari/marui/dan/ton",
    "data": {
     "on": [
@@ -3045,7 +3045,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "あばく",
+   "reading": "あばれる",
    "romaji": "abaku/abareru/bou/baku",
    "data": {
     "on": [
@@ -3073,7 +3073,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "まじる",
+   "reading": "まざる",
    "romaji": "majiru/majiri/mazaru/mazeru/komu/kon",
    "data": {
     "on": [
@@ -3103,7 +3103,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "みだれる",
+   "reading": "らん",
    "romaji": "midareru/midaru/midasu/mida/osameru/wataru/ran/ron",
    "data": {
     "on": [
@@ -3162,7 +3162,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "からむ",
+   "reading": "らく",
    "romaji": "karamu/karamaru/raku",
    "data": {
     "on": [
@@ -3214,7 +3214,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "こうむる",
+   "reading": "かぶる",
    "romaji": "koumuru/oou/kaburu/kabuseru/hi",
    "data": {
     "on": [
@@ -3243,7 +3243,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "ふるう",
+   "reading": "ふるえる",
    "romaji": "furuu/furueru/shin",
    "data": {
     "on": [
@@ -3270,7 +3270,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "かせ",
+   "reading": "かい",
    "romaji": "kase/kai",
    "data": {
     "on": [
@@ -3321,7 +3321,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "おす",
+   "reading": "あつ",
    "romaji": "osu/hesu/osaeru/atsu/en/ou",
    "data": {
     "on": [
@@ -3379,7 +3379,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "ふせぐ",
+   "reading": "ぼう",
    "romaji": "fusegu/bou",
    "data": {
     "on": [
@@ -3429,7 +3429,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "ゆだねる",
+   "reading": "い",
    "romaji": "yudaneru/i",
    "data": {
     "on": [
@@ -3479,7 +3479,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "すべて",
+   "reading": "そう",
    "romaji": "subete/fusa/sou",
    "data": {
     "on": [
@@ -3507,7 +3507,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "もうける",
+   "reading": "せつ",
    "romaji": "moukeru/setsu",
    "data": {
     "on": [
@@ -3533,7 +3533,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "かえりみる",
+   "reading": "しょう",
    "romaji": "kaerimiru/habuku/sei/shou",
    "data": {
     "on": [
@@ -3585,7 +3585,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "おのおの",
+   "reading": "かく",
    "romaji": "onoono/kaku",
    "data": {
     "on": [
@@ -3611,7 +3611,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "いきおい",
+   "reading": "せい",
    "romaji": "ikioi/hazumi/sei/zei",
    "data": {
     "on": [
@@ -3639,7 +3639,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "いとなむ",
+   "reading": "えい",
    "romaji": "itonamu/itonami/ei",
    "data": {
     "on": [
@@ -3666,7 +3666,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "えり",
+   "reading": "りょう",
    "romaji": "eri/ryou",
    "data": {
     "on": [
@@ -3740,7 +3740,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "とめる",
+   "reading": "てい",
    "romaji": "tomeru/tomaru/tei",
    "data": {
     "on": [
@@ -3819,7 +3819,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "じゅんじる",
+   "reading": "じゅん",
    "romaji": "junjiru/junzuru/nazoraeru/nori/hitoshii/mizumori/jun",
    "data": {
     "on": [
@@ -3850,7 +3850,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "のっとる",
+   "reading": "そく",
    "romaji": "nottoru/soku",
    "data": {
     "on": [
@@ -3876,7 +3876,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "みちびく",
+   "reading": "どう",
    "romaji": "michibiku/dou",
    "data": {
     "on": [
@@ -3902,7 +3902,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "ちち",
+   "reading": "にゅう",
    "romaji": "chichi/chi/nyuu",
    "data": {
     "on": [
@@ -3956,7 +3956,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "かつぐ",
+   "reading": "たん",
    "romaji": "katsugu/ninau/tan",
    "data": {
     "on": [
@@ -3983,7 +3983,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "ひたい",
+   "reading": "がく",
    "romaji": "hitai/gaku",
    "data": {
     "on": [
@@ -4195,7 +4195,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "ふれる",
+   "reading": "さわる",
    "romaji": "fureru/sawaru/sawa/shoku",
    "data": {
     "on": [
@@ -4274,7 +4274,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "やくしょ",
+   "reading": "ちょう",
    "romaji": "yakusho/chou/tei",
    "data": {
     "on": [
@@ -4301,7 +4301,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "くだ",
+   "reading": "かん",
    "romaji": "kuda/kan",
    "data": {
     "on": [
@@ -4327,7 +4327,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "かたどる",
+   "reading": "しょう",
    "romaji": "katadoru/shou/zou",
    "data": {
     "on": [
@@ -4354,7 +4354,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "はかる",
+   "reading": "りょう",
    "romaji": "hakaru/ryou",
    "data": {
     "on": [
@@ -4407,7 +4407,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "たけ",
+   "reading": "ぶ",
    "romaji": "take/takeshi/bu/mu",
    "data": {
     "on": [
@@ -4512,7 +4512,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "まして",
+   "reading": "きょう",
    "romaji": "mashite/iwan'ya/omomuki/kyou",
    "data": {
     "on": [
@@ -4540,7 +4540,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "おぎなう",
+   "reading": "ほ",
    "romaji": "oginau/ho",
    "data": {
     "on": [
@@ -4566,7 +4566,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "きく",
+   "reading": "こう",
    "romaji": "kiku/kikime/narau/kou",
    "data": {
     "on": [
@@ -4651,7 +4651,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "さがす",
+   "reading": "そう",
    "romaji": "sagasu/sou/shu/shuu",
    "data": {
     "on": [
@@ -4707,7 +4707,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "つくる",
+   "reading": "ぞう",
    "romaji": "tsukuru/tsukuri/zukuri/zou",
    "data": {
     "on": [
@@ -4735,7 +4735,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "しるし",
+   "reading": "しるす",
    "romaji": "shirushi/jirushi/shirusu/in",
    "data": {
     "on": [
@@ -4763,7 +4763,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "また",
+   "reading": "ふく",
    "romaji": "mata/fuku",
    "data": {
     "on": [
@@ -4789,7 +4789,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "ふで",
+   "reading": "ひつ",
    "romaji": "fude/hitsu",
    "data": {
     "on": [
@@ -4815,7 +4815,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "ためる",
+   "reading": "ちょ",
    "romaji": "tameru/takuwaeru/cho",
    "data": {
     "on": [
@@ -4842,7 +4842,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "さす",
+   "reading": "ささる",
    "romaji": "sasu/sasaru/sashi/toge/shi",
    "data": {
     "on": [
@@ -4998,7 +4998,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "ふたたび",
+   "reading": "さ",
    "romaji": "futatabi/sai/sa",
    "data": {
     "on": [
@@ -5025,7 +5025,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "つぐ",
+   "reading": "せつ",
    "romaji": "tsugu/setsu/shou",
    "data": {
     "on": [
@@ -5184,7 +5184,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "きわめる",
+   "reading": "ごく",
    "romaji": "kiwameru/kiwamaru/kiwamari/kiwami/kimeru/gime/kimaru/kyoku/goku",
    "data": {
     "on": [
@@ -5217,7 +5217,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "さか",
+   "reading": "さからう",
    "romaji": "saka/sakasa/sakarau/gyaku/geki",
    "data": {
     "on": [
@@ -5270,7 +5270,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "くら",
+   "reading": "こ",
    "romaji": "kura/ko/ku",
    "data": {
     "on": [
@@ -5297,7 +5297,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "こ",
+   "reading": "じ",
    "romaji": "ko/kko/ji/ni/gei",
    "data": {
     "on": [
@@ -5413,7 +5413,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "しるす",
+   "reading": "ろく",
    "romaji": "shirusu/toru/roku",
    "data": {
     "on": [
@@ -5491,7 +5491,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "なみ",
+   "reading": "ならぶ",
    "romaji": "nami/naraberu/narabu/narabini/hei/hou",
    "data": {
     "on": [
@@ -5553,7 +5553,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "うたう",
+   "reading": "おう",
    "romaji": "utau/haku/ou",
    "data": {
     "on": [
@@ -5605,7 +5605,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "ほぼ",
+   "reading": "りゃく",
    "romaji": "hobo/habuku/okasu/osameru/hakarigoto/hakaru/ryaku",
    "data": {
     "on": [
@@ -5718,7 +5718,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "てる",
+   "reading": "しょう",
    "romaji": "teru/terasu/tereru/shou",
    "data": {
     "on": [
@@ -5746,7 +5746,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "こころよい",
+   "reading": "かい",
    "romaji": "kokoroyoi/kai",
    "data": {
     "on": [
@@ -5796,7 +5796,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "あずける",
+   "reading": "あずかる",
    "romaji": "azukeru/azukaru/yo",
    "data": {
     "on": [
@@ -5823,7 +5823,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "のびる",
+   "reading": "のばす",
    "romaji": "nobiru/noberu/nobe/nobasu/en",
    "data": {
     "on": [
@@ -5927,7 +5927,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "あまねく",
+   "reading": "ふ",
    "romaji": "amaneku/amaneshi/fu",
    "data": {
     "on": [
@@ -5954,7 +5954,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "はく",
+   "reading": "そう",
    "romaji": "haku/sou/shu",
    "data": {
     "on": [
@@ -6061,7 +6061,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "おびる",
+   "reading": "たい",
    "romaji": "obiru/obi/tai",
    "data": {
     "on": [
@@ -6088,7 +6088,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "デシメートル",
+   "reading": "こな",
    "romaji": "deshimeetoru/ko/kona/fun",
    "data": {
     "on": [
@@ -6116,7 +6116,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "な",
+   "reading": "さい",
    "romaji": "na/sai",
    "data": {
     "on": [
@@ -6142,7 +6142,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "たから",
+   "reading": "か",
    "romaji": "takara/ka",
    "data": {
     "on": [
@@ -6168,7 +6168,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "おか",
+   "reading": "りく",
    "romaji": "oka/riku/roku",
    "data": {
     "on": [
@@ -6195,7 +6195,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "ならす",
+   "reading": "きん",
    "romaji": "narasu/kin",
    "data": {
     "on": [
@@ -6221,7 +6221,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "とる",
+   "reading": "さい",
    "romaji": "toru/sai",
    "data": {
     "on": [
@@ -6247,7 +6247,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "ながい",
+   "reading": "えい",
    "romaji": "nagai/ei",
    "data": {
     "on": [
@@ -6345,7 +6345,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "なかま",
+   "reading": "とう",
    "romaji": "nakama/mura/tou",
    "data": {
     "on": [
@@ -6424,7 +6424,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "けがす",
+   "reading": "よごれる",
    "romaji": "kegasu/kegareru/kegarawashii/yogosu/yogoreru/kitanai/o",
    "data": {
     "on": [
@@ -6481,7 +6481,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "えらぶ",
+   "reading": "かん",
    "romaji": "erabu/fuda/kan/ken",
    "data": {
     "on": [
@@ -6559,7 +6559,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "たっとい",
+   "reading": "そん",
    "romaji": "tattoi/toutoi/tattobu/toutobu/son",
    "data": {
     "on": [
@@ -6588,7 +6588,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "うやまう",
+   "reading": "けい",
    "romaji": "uyamau/kei/kyou",
    "data": {
     "on": [
@@ -6725,7 +6725,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "くら",
+   "reading": "ぞう",
    "romaji": "kura/osameru/kakureru/zou/sou",
    "data": {
     "on": [
@@ -6754,7 +6754,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "よそおう",
+   "reading": "そう",
    "romaji": "yosoou/yosooi/sou/shou",
    "data": {
     "on": [
@@ -6808,7 +6808,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "もろ",
+   "reading": "しょ",
    "romaji": "moro/sho",
    "data": {
     "on": [
@@ -6834,7 +6834,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "はらわた",
+   "reading": "ぞう",
    "romaji": "harawata/zou",
    "data": {
     "on": [
@@ -6884,7 +6884,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "べに",
+   "reading": "こう",
    "romaji": "beni/kurenai/akai/kou/ku",
    "data": {
     "on": [
@@ -6913,7 +6913,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "おがむ",
+   "reading": "はい",
    "romaji": "ogamu/orogamu/hai",
    "data": {
     "on": [
@@ -6964,7 +6964,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "うけたまわる",
+   "reading": "しょう",
    "romaji": "uketamawaru/ukeru/shou/jou",
    "data": {
     "on": [
@@ -6992,7 +6992,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "そこなう",
+   "reading": "そん",
    "romaji": "sokonau/sokoneru/son",
    "data": {
     "on": [
@@ -7048,7 +7048,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "はかる",
+   "reading": "そく",
    "romaji": "hakaru/soku",
    "data": {
     "on": [
@@ -7172,7 +7172,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "あかがね",
+   "reading": "どう",
    "romaji": "akagane/dou",
    "data": {
     "on": [
@@ -7198,7 +7198,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "あぶら",
+   "reading": "ゆ",
    "romaji": "abura/yu/yuu",
    "data": {
     "on": [
@@ -7225,7 +7225,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "ふるい",
+   "reading": "きゅう",
    "romaji": "furui/moto/kyuu",
    "data": {
     "on": [
@@ -7301,7 +7301,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "まさに",
+   "reading": "しょう",
    "romaji": "masani/hata/masa/hikiiru/motte/shou/sou",
    "data": {
     "on": [
@@ -7332,7 +7332,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "のびる",
+   "reading": "のばす",
    "romaji": "nobiru/nobasu/noberu/nosu/shin",
    "data": {
     "on": [
@@ -7491,7 +7491,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "よる",
+   "reading": "い",
    "romaji": "yoru/i/e",
    "data": {
     "on": [
@@ -7518,7 +7518,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "あさる",
+   "reading": "ぎょ",
    "romaji": "asaru/gyo/ryou",
    "data": {
     "on": [
@@ -7545,7 +7545,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "つのる",
+   "reading": "ぼ",
    "romaji": "tsunoru/bo",
    "data": {
     "on": [
@@ -7571,7 +7571,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "わずらう",
+   "reading": "かん",
    "romaji": "wazurau/kan",
    "data": {
     "on": [
@@ -7597,7 +7597,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "いりえ",
+   "reading": "わん",
    "romaji": "irie/wan",
    "data": {
     "on": [
@@ -7623,7 +7623,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "はぜる",
+   "reading": "ばく",
    "romaji": "hazeru/baku",
    "data": {
     "on": [
@@ -7675,7 +7675,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "か",
+   "reading": "かおる",
    "romaji": "ka/kaori/kaoru/kou/kyou",
    "data": {
     "on": [
@@ -7704,7 +7704,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "きざす",
+   "reading": "ちょう",
    "romaji": "kizasu/kizashi/chou",
    "data": {
     "on": [
@@ -7731,7 +7731,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "よわい",
+   "reading": "れい",
    "romaji": "yowai/toshi/rei",
    "data": {
     "on": [
@@ -7782,7 +7782,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "かたむく",
+   "reading": "けい",
    "romaji": "katamuku/katamukeru/katabuku/katageru/kashigeru/kei",
    "data": {
     "on": [
@@ -7812,7 +7812,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "おく",
+   "reading": "おくまる",
    "romaji": "oku/okumaru/kuma/ou",
    "data": {
     "on": [
@@ -7946,7 +7946,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "むれる",
+   "reading": "ぐん",
    "romaji": "mureru/mure/mura/muragaru/gun",
    "data": {
     "on": [
@@ -8030,7 +8030,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "はしら",
+   "reading": "ちゅう",
    "romaji": "hashira/chuu",
    "data": {
     "on": [
@@ -8170,7 +8170,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "すみ",
+   "reading": "たん",
    "romaji": "sumi/tan",
    "data": {
     "on": [
@@ -8223,7 +8223,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "ころも",
+   "reading": "い",
    "romaji": "koromo/kinu/gi/i/e",
    "data": {
     "on": [
@@ -8252,7 +8252,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "あらがね",
+   "reading": "こう",
    "romaji": "aragane/kou",
    "data": {
     "on": [
@@ -8278,7 +8278,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "ふた",
+   "reading": "ふたつ",
    "romaji": "futa/tagui/narabu/futatsu/sou",
    "data": {
     "on": [
@@ -8550,7 +8550,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "つつ",
+   "reading": "とう",
    "romaji": "tsutsu/tou",
    "data": {
     "on": [
@@ -8576,7 +8576,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "やわらか",
+   "reading": "やわらかい",
    "romaji": "yawaraka/yawarakai/yawa/yawara/juu/nyuu",
    "data": {
     "on": [
@@ -8742,7 +8742,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "かま",
+   "reading": "かん",
    "romaji": "kama/kan",
    "data": {
     "on": [
@@ -8924,7 +8924,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "しめる",
+   "reading": "しつ",
    "romaji": "shimeru/shimesu/uruou/uruosu/shitsu/shuu",
    "data": {
     "on": [
@@ -9041,7 +9041,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "ぜろ",
+   "reading": "れい",
    "romaji": "zero/kobosu/koboreru/rei",
    "data": {
     "on": [
@@ -9069,7 +9069,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "わた",
+   "reading": "めん",
    "romaji": "wata/men",
    "data": {
     "on": [
@@ -9095,7 +9095,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "ずきん",
+   "reading": "ぼう",
    "romaji": "zukin/oou/bou/mou",
    "data": {
     "on": [
@@ -9123,7 +9123,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "にくむ",
+   "reading": "にくい",
    "romaji": "nikumu/nikui/nikurashii/nikushimi/zou",
    "data": {
     "on": [
@@ -9152,7 +9152,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "しずく",
+   "reading": "てき",
    "romaji": "shizuku/shitataru/teki",
    "data": {
     "on": [
@@ -9312,7 +9312,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "ひ",
+   "reading": "とう",
    "romaji": "hi/ho/tomoshibi/tomosu/akari/tou",
    "data": {
     "on": [
@@ -9423,7 +9423,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "はさむ",
+   "reading": "はさまる",
    "romaji": "hasamu/hasamaru/wakibasamu/sashihasamu/kyou/shou",
    "data": {
     "on": [
@@ -9507,7 +9507,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "すすぐ",
+   "reading": "たく",
    "romaji": "susugu/yusugu/taku",
    "data": {
     "on": [
@@ -9534,7 +9534,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "はしゃぐ",
+   "reading": "そう",
    "romaji": "hashagu/sou",
    "data": {
     "on": [
@@ -9560,7 +9560,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "かめ",
+   "reading": "びん",
    "romaji": "kame/bin",
    "data": {
     "on": [
@@ -9612,7 +9612,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "がえんじる",
+   "reading": "こう",
    "romaji": "gaenjiru/kou",
    "data": {
     "on": [
@@ -9664,7 +9664,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "はだ",
+   "reading": "ふ",
    "romaji": "hada/fu",
    "data": {
     "on": [
@@ -9690,7 +9690,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "のき",
+   "reading": "けん",
    "romaji": "noki/ken",
    "data": {
     "on": [
@@ -9716,7 +9716,7 @@
     "jlpt-verified"
    ],
    "jlpt_level": "N2",
-   "reading": "やわらか",
+   "reading": "やわらかい",
    "romaji": "yawaraka/yawarakai/nan",
    "data": {
     "on": [

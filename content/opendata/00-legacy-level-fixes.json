@@ -23,7 +23,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "ひと",
+   "reading": "いち",
    "data": {
     "on": [
      "いち",
@@ -59,7 +59,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "ふた",
+   "reading": "に",
    "data": {
     "on": [
      "に",
@@ -96,7 +96,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "ここの",
+   "reading": "く",
    "data": {
     "on": [
      "きゅう",
@@ -132,7 +132,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "なな",
+   "reading": "しち",
    "data": {
     "on": [
      "しち"
@@ -170,7 +170,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "ひと",
+   "reading": "じん",
    "data": {
     "on": [
      "じん",
@@ -207,7 +207,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "いる",
+   "reading": "いれる",
    "data": {
     "on": [
      "にゅう",
@@ -247,7 +247,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "や",
+   "reading": "はち",
    "data": {
     "on": [
      "はち"
@@ -284,7 +284,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "とお",
+   "reading": "じゅう",
    "data": {
     "on": [
      "じゅう",
@@ -321,7 +321,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "み",
+   "reading": "さん",
    "data": {
     "on": [
      "さん",
@@ -360,7 +360,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "うえ",
+   "reading": "あげる",
    "data": {
     "on": [
      "じょう",
@@ -497,7 +497,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "おお",
+   "reading": "だい",
    "data": {
     "on": [
      "だい",
@@ -536,7 +536,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "おんな",
+   "reading": "じょ",
    "data": {
     "on": [
      "じょ",
@@ -648,7 +648,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "つち",
+   "reading": "ど",
    "data": {
     "on": [
      "ど",
@@ -683,7 +683,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "ち",
+   "reading": "せん",
    "data": {
     "on": [
      "せん"
@@ -798,7 +798,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "なか",
+   "reading": "ちゅう",
    "data": {
     "on": [
      "ちゅう"
@@ -834,7 +834,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "いつ",
+   "reading": "ご",
    "data": {
     "on": [
      "ご"
@@ -869,7 +869,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "む",
+   "reading": "ろく",
    "data": {
     "on": [
      "ろく",
@@ -907,7 +907,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "まるい",
+   "reading": "えん",
    "data": {
     "on": [
      "えん"
@@ -1026,7 +1026,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "つき",
+   "reading": "げつ",
    "data": {
     "on": [
      "げつ",
@@ -1101,7 +1101,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "みず",
+   "reading": "すい",
    "data": {
     "on": [
      "すい"
@@ -1138,7 +1138,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "ひ",
+   "reading": "か",
    "data": {
     "on": [
      "か"
@@ -1249,7 +1249,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "よ",
+   "reading": "し",
    "data": {
     "on": [
      "し"
@@ -1323,7 +1323,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "もと",
+   "reading": "ほん",
    "data": {
     "on": [
      "ほん"
@@ -1359,7 +1359,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "しろ",
+   "reading": "しろい",
    "data": {
     "on": [
      "はく",
@@ -1480,7 +1480,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "いま",
+   "reading": "こん",
    "data": {
     "on": [
      "こん",
@@ -1585,7 +1585,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "なかば",
+   "reading": "はん",
    "data": {
     "on": [
      "はん"
@@ -1619,7 +1619,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "そと",
+   "reading": "がい",
    "data": {
     "on": [
      "がい",
@@ -1698,7 +1698,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "さき",
+   "reading": "せん",
    "data": {
     "on": [
      "せん"
@@ -1733,7 +1733,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "とし",
+   "reading": "ねん",
    "data": {
     "on": [
      "ねん"
@@ -1770,7 +1770,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "いき",
+   "reading": "き",
    "data": {
     "on": [
      "き",
@@ -1805,7 +1805,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "もも",
+   "reading": "ひゃく",
    "data": {
     "on": [
      "ひゃく",
@@ -1995,7 +1995,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "あか",
+   "reading": "あかい",
    "data": {
     "on": [
      "せき",
@@ -2075,7 +2075,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "くるま",
+   "reading": "しゃ",
    "data": {
     "on": [
      "しゃ"
@@ -2109,7 +2109,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "ごと",
+   "reading": "まい",
    "data": {
     "on": [
      "まい"
@@ -2144,7 +2144,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "いく",
+   "reading": "こう",
    "data": {
     "on": [
      "こう",
@@ -2187,7 +2187,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "なに",
+   "reading": "なん",
    "data": {
     "on": [
      "か"
@@ -2224,7 +2224,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "くる",
+   "reading": "らい",
    "data": {
     "on": [
      "らい",
@@ -2268,7 +2268,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "まなぶ",
+   "reading": "がく",
    "data": {
     "on": [
      "がく"
@@ -2305,7 +2305,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "そら",
+   "reading": "くう",
    "data": {
     "on": [
      "くう"
@@ -2348,7 +2348,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "かね",
+   "reading": "きん",
    "data": {
     "on": [
      "きん",
@@ -2427,7 +2427,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "あお",
+   "reading": "あおい",
    "data": {
     "on": [
      "せい",
@@ -2464,7 +2464,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "くに",
+   "reading": "こく",
    "data": {
     "on": [
      "こく"
@@ -2498,7 +2498,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "ながい",
+   "reading": "ちょう",
    "data": {
     "on": [
      "ちょう"
@@ -2568,7 +2568,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "のち",
+   "reading": "ご",
    "data": {
     "on": [
      "ご",
@@ -2610,7 +2610,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "うみ",
+   "reading": "かい",
    "data": {
     "on": [
      "かい"
@@ -2647,7 +2647,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "くう",
+   "reading": "しょく",
    "data": {
     "on": [
      "しょく",
@@ -2757,7 +2757,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "とき",
+   "reading": "じ",
    "data": {
     "on": [
      "じ"
@@ -2864,7 +2864,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "あいだ",
+   "reading": "かん",
    "data": {
     "on": [
      "かん",
@@ -2901,7 +2901,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "はなす",
+   "reading": "わ",
    "data": {
     "on": [
      "わ"
@@ -3049,7 +3049,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "かたる",
+   "reading": "ご",
    "data": {
     "on": [
      "ご"
@@ -3124,7 +3124,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "いきる",
+   "reading": "せい",
    "data": {
     "on": [
      "せい",
@@ -3180,7 +3180,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "あたらしい",
+   "reading": "しん",
    "data": {
     "on": [
      "しん"
@@ -3350,7 +3350,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "かく",
+   "reading": "しょ",
    "data": {
     "on": [
      "しょ"
