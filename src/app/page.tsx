@@ -118,6 +118,7 @@ export default async function HomePage() {
           <Section href="/reading" label="Reading" detail="Graded passages" />
           <Section href="/listening" label="Listening" detail="JLPT listening parts" />
           <Section href="/kana" label="Kana chart" detail="Hiragana and katakana tables" />
+          <Section href="/particles" label="Particles" detail="Which particle goes with which word" />
           <Section href="/kanji" label="Kanji side by side" detail="Look-alikes and families" />
           <Section href="/placement" label="Placement test" detail="Skip words you know" />
         </div>

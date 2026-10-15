@@ -1,0 +1,2759 @@
+{
+ "note": "Hand-written particle practice: word + particle collocations, grouped by particle.",
+ "groups": [
+  {
+   "slug": "wa",
+   "particle": "は",
+   "romaji": "wa",
+   "level": "N5",
+   "title": "Topic of the sentence; contrast",
+   "uses": [
+    {
+     "label": "Topic",
+     "note": "Marks what the sentence is about.",
+     "example": "[私|わたし]は[学生|がくせい]です。"
+    },
+    {
+     "label": "Contrast",
+     "note": "Sets one thing against another, often with negatives.",
+     "example": "[肉|にく]は[食|た]べますが、[魚|さかな]は[食|た]べません。"
+    },
+    {
+     "label": "XはYが",
+     "note": "Topic + a feature of it marked by が.",
+     "example": "[象|ぞう]は[鼻|はな]が[長|なが]いです。"
+    },
+    {
+     "label": "After other particles",
+     "note": "には / では add a topic or contrast to a place or target.",
+     "example": "[学校|がっこう]では[日本語|にほんご]を[話|はな]します。"
+    }
+   ],
+   "cards": [
+    {
+     "before": "[私|わたし]",
+     "after": "[学生|がくせい]です。",
+     "answer": "は",
+     "options": [
+      "を",
+      "へ",
+      "は",
+      "で"
+     ],
+     "en": "I am a student.",
+     "why": "私 is the topic you are describing: topic → は."
+    },
+    {
+     "before": "[田中|たなか]さん",
+     "after": "[会社員|かいしゃいん]です。",
+     "answer": "は",
+     "options": [
+      "に",
+      "を",
+      "へ",
+      "は"
+     ],
+     "en": "Mr. Tanaka is an office worker.",
+     "why": "The person being introduced is the topic of an AはBです sentence."
+    },
+    {
+     "before": "[今日|きょう]",
+     "after": "[暑|あつ]いですね。",
+     "answer": "は",
+     "options": [
+      "は",
+      "を",
+      "へ",
+      "に"
+     ],
+     "en": "It's hot today, isn't it?",
+     "why": "今日 is the topic being commented on; time words take は, not に, here."
+    },
+    {
+     "before": "この[本|ほん]",
+     "after": "[面白|おもしろ]いです。",
+     "answer": "は",
+     "options": [
+      "で",
+      "は",
+      "を",
+      "に"
+     ],
+     "en": "This book is interesting.",
+     "why": "The thing you describe with an adjective is the topic: は."
+    },
+    {
+     "before": "[日曜日|にちようび]",
+     "after": "[休|やす]みです。",
+     "answer": "は",
+     "options": [
+      "を",
+      "へ",
+      "は",
+      "で"
+     ],
+     "en": "Sunday is a day off.",
+     "why": "日曜日 is what the sentence is about: AはBです."
+    },
+    {
+     "before": "トイレ",
+     "after": "どこですか。",
+     "answer": "は",
+     "options": [
+      "を",
+      "に",
+      "で",
+      "は"
+     ],
+     "en": "Where is the toilet?",
+     "why": "In 〜はどこですか the thing you are looking for is the topic."
+    },
+    {
+     "before": "[私|わたし]の[趣味|しゅみ]",
+     "after": "[読書|どくしょ]です。",
+     "answer": "は",
+     "options": [
+      "は",
+      "に",
+      "を",
+      "へ"
+     ],
+     "en": "My hobby is reading.",
+     "why": "趣味 is the topic being defined: AはBです."
+    },
+    {
+     "before": "[父|ちち]",
+     "after": "[医者|いしゃ]です。",
+     "answer": "は",
+     "options": [
+      "を",
+      "は",
+      "で",
+      "に"
+     ],
+     "en": "My father is a doctor.",
+     "why": "The family member you talk about is the topic: は."
+    },
+    {
+     "before": "[象|ぞう]",
+     "after": "[鼻|はな]が[長|なが]いです。",
+     "answer": "は",
+     "options": [
+      "を",
+      "に",
+      "は",
+      "で"
+     ],
+     "en": "Elephants have long trunks.",
+     "why": "In XはYが, X (象) is the topic and Y (鼻) is the feature."
+    },
+    {
+     "before": "[肉|にく]は[食|た]べますが、[魚|さかな]",
+     "after": "[食|た]べません。",
+     "answer": "は",
+     "options": [
+      "に",
+      "で",
+      "へ",
+      "は"
+     ],
+     "en": "I eat meat, but I don't eat fish.",
+     "why": "Two things are contrasted, so both take は."
+    },
+    {
+     "before": "[東京|とうきょう]には[行|い]きましたが、[大阪|おおさか]に",
+     "after": "[行|い]きませんでした。",
+     "answer": "は",
+     "options": [
+      "は",
+      "を",
+      "が",
+      "で"
+     ],
+     "en": "I went to Tokyo, but I didn't go to Osaka.",
+     "why": "は attaches after に to contrast 大阪 with 東京 (には)."
+    },
+    {
+     "before": "[兄|あに]は[背|せ]が[高|たか]いですが、[私|わたし]",
+     "after": "[低|ひく]いです。",
+     "answer": "は",
+     "options": [
+      "を",
+      "は",
+      "に",
+      "へ"
+     ],
+     "en": "My older brother is tall, but I am short.",
+     "why": "私 is contrasted with 兄, so it takes contrastive は."
+    },
+    {
+     "before": "[学校|がっこう]で",
+     "after": "[日本語|にほんご]を[話|はな]します。",
+     "answer": "は",
+     "options": [
+      "を",
+      "が",
+      "は",
+      "に"
+     ],
+     "en": "At school, I speak Japanese.",
+     "why": "は can follow で to make the place a topic (では)."
+    }
+   ]
+  },
+  {
+   "slug": "ga",
+   "particle": "が",
+   "romaji": "ga",
+   "level": "N5",
+   "title": "Subject; object of likes, skills and wants; existence",
+   "uses": [
+    {
+     "label": "Subject of events",
+     "note": "Marks who or what does or is something, especially natural events.",
+     "example": "[雨|あめ]が[降|ふ]っています。"
+    },
+    {
+     "label": "Likes, skills, understanding",
+     "note": "好き・上手・分かる・できる・ほしい take が for their object.",
+     "example": "[私|わたし]は[犬|いぬ]が[好|す]きです。"
+    },
+    {
+     "label": "Existence and having",
+     "note": "What exists or what you have with ある / いる.",
+     "example": "[時間|じかん]がありません。"
+    },
+    {
+     "label": "Question-word subject",
+     "note": "だれ・何 as subject always take が, never は.",
+     "example": "だれが[来|き]ましたか。"
+    }
+   ],
+   "cards": [
+    {
+     "before": "[雨|あめ]",
+     "after": "[降|ふ]っています。",
+     "answer": "が",
+     "options": [
+      "を",
+      "に",
+      "が",
+      "で"
+     ],
+     "en": "It is raining.",
+     "why": "雨 is the subject of the natural event 降る: が."
+    },
+    {
+     "before": "[私|わたし]は[日本語|にほんご]",
+     "after": "[分|わ]かります。",
+     "answer": "が",
+     "options": [
+      "を",
+      "へ",
+      "と",
+      "が"
+     ],
+     "en": "I understand Japanese.",
+     "why": "分かる takes its object with が, not を."
+    },
+    {
+     "before": "[私|わたし]は[犬|いぬ]",
+     "after": "[好|す]きです。",
+     "answer": "が",
+     "options": [
+      "が",
+      "で",
+      "へ",
+      "に"
+     ],
+     "en": "I like dogs.",
+     "why": "好き is an adjective, so the thing liked is marked with が."
+    },
+    {
+     "before": "[今日|きょう]は[時間|じかん]",
+     "after": "ありません。",
+     "answer": "が",
+     "options": [
+      "を",
+      "が",
+      "に",
+      "で"
+     ],
+     "en": "I don't have time today.",
+     "why": "With ある / ない, the thing that exists (or doesn't) takes が."
+    },
+    {
+     "before": "[机|つくえ]の[上|うえ]に[猫|ねこ]",
+     "after": "います。",
+     "answer": "が",
+     "options": [
+      "を",
+      "で",
+      "が",
+      "へ"
+     ],
+     "en": "There is a cat on the desk.",
+     "why": "The living thing that exists with いる takes が."
+    },
+    {
+     "before": "[新|あたら]しいパソコン",
+     "after": "ほしいです。",
+     "answer": "が",
+     "options": [
+      "に",
+      "で",
+      "へ",
+      "が"
+     ],
+     "en": "I want a new computer.",
+     "why": "ほしい is an adjective, so the thing wanted takes が."
+    },
+    {
+     "before": "[姉|あね]は[料理|りょうり]",
+     "after": "[上手|じょうず]です。",
+     "answer": "が",
+     "options": [
+      "が",
+      "で",
+      "を",
+      "へ"
+     ],
+     "en": "My older sister is good at cooking.",
+     "why": "上手 / 下手 mark the skill with が."
+    },
+    {
+     "before": "[私|わたし]は[車|くるま]の[運転|うんてん]",
+     "after": "できます。",
+     "answer": "が",
+     "options": [
+      "に",
+      "が",
+      "へ",
+      "と"
+     ],
+     "en": "I can drive a car.",
+     "why": "できる marks the ability with が."
+    },
+    {
+     "before": "だれ",
+     "after": "[来|き]ましたか。",
+     "answer": "が",
+     "options": [
+      "は",
+      "を",
+      "が",
+      "で"
+     ],
+     "en": "Who came?",
+     "why": "A question word as subject takes が; だれは is not possible."
+    },
+    {
+     "before": "[頭|あたま]",
+     "after": "[痛|いた]いです。",
+     "answer": "が",
+     "options": [
+      "を",
+      "に",
+      "で",
+      "が"
+     ],
+     "en": "I have a headache.",
+     "why": "The body part that hurts is the subject of 痛い: が."
+    },
+    {
+     "before": "[今日|きょう]は[風|かぜ]",
+     "after": "[強|つよ]いです。",
+     "answer": "が",
+     "options": [
+      "が",
+      "を",
+      "で",
+      "へ"
+     ],
+     "en": "The wind is strong today.",
+     "why": "風 is the subject described by 強い: が."
+    },
+    {
+     "before": "[駅|えき]の[近|ちか]くに[銀行|ぎんこう]",
+     "after": "あります。",
+     "answer": "が",
+     "options": [
+      "を",
+      "が",
+      "で",
+      "へ"
+     ],
+     "en": "There is a bank near the station.",
+     "why": "A non-living thing that exists with ある takes が."
+    },
+    {
+     "before": "[私|わたし]は[兄弟|きょうだい]",
+     "after": "[二人|ふたり]います。",
+     "answer": "が",
+     "options": [
+      "を",
+      "で",
+      "が",
+      "へ"
+     ],
+     "en": "I have two siblings.",
+     "why": "Having family uses いる, and the people take が."
+    },
+    {
+     "before": "[急|きゅう]に[電気|でんき]",
+     "after": "[消|き]えました。",
+     "answer": "が",
+     "options": [
+      "を",
+      "に",
+      "で",
+      "が"
+     ],
+     "en": "The lights suddenly went out.",
+     "why": "消える is intransitive, so its subject takes が (消す would take を)."
+    }
+   ]
+  },
+  {
+   "slug": "wo",
+   "particle": "を",
+   "romaji": "o",
+   "level": "N5",
+   "title": "Object of an action; path you move through; place you leave",
+   "uses": [
+    {
+     "label": "Direct object",
+     "note": "Marks what the verb acts on.",
+     "example": "[水|みず]を[飲|の]みます。"
+    },
+    {
+     "label": "Path / route",
+     "note": "The place you move through or along.",
+     "example": "[道|みち]を[渡|わた]ります。"
+    },
+    {
+     "label": "Place you leave",
+     "note": "The place or vehicle you get out of or leave.",
+     "example": "[部屋|へや]を[出|で]ます。"
+    }
+   ],
+   "cards": [
+    {
+     "before": "[毎朝|まいあさ]、[新聞|しんぶん]",
+     "after": "[読|よ]みます。",
+     "answer": "を",
+     "options": [
+      "が",
+      "に",
+      "を",
+      "で"
+     ],
+     "en": "I read the newspaper every morning.",
+     "why": "新聞 is what you read: object → を."
+    },
+    {
+     "before": "[公園|こうえん]で[写真|しゃしん]",
+     "after": "[撮|と]りました。",
+     "answer": "を",
+     "options": [
+      "が",
+      "に",
+      "へ",
+      "を"
+     ],
+     "en": "I took photos in the park.",
+     "why": "写真 is the object of 撮る: 写真を撮る."
+    },
+    {
+     "before": "[昨日|きのう]、[風邪|かぜ]",
+     "after": "ひきました。",
+     "answer": "を",
+     "options": [
+      "を",
+      "が",
+      "に",
+      "で"
+     ],
+     "en": "I caught a cold yesterday.",
+     "why": "The set phrase is 風邪をひく: the cold is the object."
+    },
+    {
+     "before": "[気|き]をつけて[道|みち]",
+     "after": "[渡|わた]ってください。",
+     "answer": "を",
+     "options": [
+      "に",
+      "を",
+      "で",
+      "が"
+     ],
+     "en": "Please be careful crossing the road.",
+     "why": "渡る marks what you cross with を."
+    },
+    {
+     "before": "[八時|はちじ]に[部屋|へや]",
+     "after": "[出|で]ました。",
+     "answer": "を",
+     "options": [
+      "が",
+      "で",
+      "を",
+      "と"
+     ],
+     "en": "I left the room at eight.",
+     "why": "出る marks the place you leave with を."
+    },
+    {
+     "before": "[次|つぎ]の[駅|えき]でバス",
+     "after": "[降|お]ります。",
+     "answer": "を",
+     "options": [
+      "に",
+      "が",
+      "と",
+      "を"
+     ],
+     "en": "I get off the bus at the next station.",
+     "why": "降りる marks the vehicle you get off with を (乗る uses に)."
+    },
+    {
+     "before": "[毎朝|まいあさ]、[公園|こうえん]",
+     "after": "[散歩|さんぽ]します。",
+     "answer": "を",
+     "options": [
+      "を",
+      "に",
+      "が",
+      "へ"
+     ],
+     "en": "I take a walk through the park every morning.",
+     "why": "散歩する marks the area you walk through with を."
+    },
+    {
+     "before": "[次|つぎ]の[角|かど]",
+     "after": "[右|みぎ]に[曲|ま]がってください。",
+     "answer": "を",
+     "options": [
+      "が",
+      "を",
+      "へ",
+      "と"
+     ],
+     "en": "Please turn right at the next corner.",
+     "why": "曲がる marks the corner you go around with を."
+    },
+    {
+     "before": "[去年|きょねん]、[大学|だいがく]",
+     "after": "[卒業|そつぎょう]しました。",
+     "answer": "を",
+     "options": [
+      "に",
+      "が",
+      "を",
+      "へ"
+     ],
+     "en": "I graduated from university last year.",
+     "why": "卒業する marks the school you leave with を."
+    },
+    {
+     "before": "[母|はは]に[電話|でんわ]",
+     "after": "かけました。",
+     "answer": "を",
+     "options": [
+      "が",
+      "で",
+      "へ",
+      "を"
+     ],
+     "en": "I called my mother.",
+     "why": "The phrase is 電話をかける; the person gets に."
+    },
+    {
+     "before": "[宿題|しゅくだい]",
+     "after": "[忘|わす]れました。",
+     "answer": "を",
+     "options": [
+      "を",
+      "が",
+      "に",
+      "で"
+     ],
+     "en": "I forgot my homework.",
+     "why": "忘れる is transitive: the thing forgotten takes を."
+    },
+    {
+     "before": "[鳥|とり]が[空|そら]",
+     "after": "[飛|と]んでいます。",
+     "answer": "を",
+     "options": [
+      "が",
+      "を",
+      "と",
+      "の"
+     ],
+     "en": "Birds are flying in the sky.",
+     "why": "飛ぶ marks the space moved through with を."
+    },
+    {
+     "before": "[朝|あさ]、シャワー",
+     "after": "[浴|あ]びます。",
+     "answer": "を",
+     "options": [
+      "が",
+      "に",
+      "を",
+      "で"
+     ],
+     "en": "I take a shower in the morning.",
+     "why": "The set phrase is シャワーを浴びる."
+    },
+    {
+     "before": "[熱|ねつ]があったので、[会社|かいしゃ]",
+     "after": "[休|やす]みました。",
+     "answer": "を",
+     "options": [
+      "に",
+      "が",
+      "へ",
+      "を"
+     ],
+     "en": "I had a fever, so I took the day off work.",
+     "why": "休む marks the work or school you skip with を."
+    }
+   ]
+  },
+  {
+   "slug": "ni",
+   "particle": "に",
+   "romaji": "ni",
+   "level": "N5",
+   "title": "Target of an action; time; where something is; destination and result",
+   "uses": [
+    {
+     "label": "Target",
+     "note": "The person or thing an action is aimed at: 乗る・会う・聞く・あげる.",
+     "example": "[友達|ともだち]に[会|あ]います。"
+    },
+    {
+     "label": "Time point",
+     "note": "A specific time, day or date.",
+     "example": "[七時|しちじ]に[起|お]きます。"
+    },
+    {
+     "label": "Where something is",
+     "note": "Location of existence with ある・いる・住む.",
+     "example": "[大阪|おおさか]に[住|す]んでいます。"
+    },
+    {
+     "label": "Destination, result, purpose",
+     "note": "Where you go in, what you become, why you go.",
+     "example": "[医者|いしゃ]になりたいです。"
+    }
+   ],
+   "cards": [
+    {
+     "before": "[駅|えき]で[電車|でんしゃ]",
+     "after": "[乗|の]ります。",
+     "answer": "に",
+     "options": [
+      "を",
+      "が",
+      "に",
+      "で"
+     ],
+     "en": "I get on the train at the station.",
+     "why": "乗る marks the vehicle you board with に (降りる uses を)."
+    },
+    {
+     "before": "[明日|あした]、[私|わたし]は[友達|ともだち]",
+     "after": "[会|あ]います。",
+     "answer": "に",
+     "options": [
+      "を",
+      "で",
+      "が",
+      "に"
+     ],
+     "en": "I'm meeting a friend tomorrow.",
+     "why": "会う marks the person you meet with に, not を."
+    },
+    {
+     "before": "[分|わ]からないことは[先生|せんせい]",
+     "after": "[聞|き]きます。",
+     "answer": "に",
+     "options": [
+      "に",
+      "を",
+      "で",
+      "の"
+     ],
+     "en": "I ask the teacher about things I don't understand.",
+     "why": "聞く (ask) marks the person asked with に."
+    },
+    {
+     "before": "[毎朝|まいあさ][七時|しちじ]",
+     "after": "[起|お]きます。",
+     "answer": "に",
+     "options": [
+      "で",
+      "に",
+      "を",
+      "が"
+     ],
+     "en": "I get up at seven every morning.",
+     "why": "A clock time takes に."
+    },
+    {
+     "before": "[六時|ろくじ]に[家|いえ]",
+     "after": "[帰|かえ]ります。",
+     "answer": "に",
+     "options": [
+      "を",
+      "で",
+      "に",
+      "が"
+     ],
+     "en": "I go home at six.",
+     "why": "帰る marks the place you return to with に."
+    },
+    {
+     "before": "[兄|あに]は[大阪|おおさか]",
+     "after": "[住|す]んでいます。",
+     "answer": "に",
+     "options": [
+      "で",
+      "を",
+      "が",
+      "に"
+     ],
+     "en": "My older brother lives in Osaka.",
+     "why": "住む marks where you live with に, not で."
+    },
+    {
+     "before": "[将来|しょうらい]、[医者|いしゃ]",
+     "after": "なりたいです。",
+     "answer": "に",
+     "options": [
+      "に",
+      "が",
+      "を",
+      "で"
+     ],
+     "en": "I want to become a doctor in the future.",
+     "why": "なる marks the result with に: 医者になる."
+    },
+    {
+     "before": "ノックしてから、[部屋|へや]",
+     "after": "[入|はい]ってください。",
+     "answer": "に",
+     "options": [
+      "を",
+      "に",
+      "で",
+      "が"
+     ],
+     "en": "Please knock before you enter the room.",
+     "why": "入る marks the place you go into with に (出る uses を)."
+    },
+    {
+     "before": "[冷蔵庫|れいぞうこ]",
+     "after": "[牛乳|ぎゅうにゅう]があります。",
+     "answer": "に",
+     "options": [
+      "を",
+      "で",
+      "に",
+      "へ"
+     ],
+     "en": "There is milk in the fridge.",
+     "why": "Where something exists with ある takes に, not で."
+    },
+    {
+     "before": "[私|わたし]は[弟|おとうと]",
+     "after": "[本|ほん]をあげました。",
+     "answer": "に",
+     "options": [
+      "を",
+      "で",
+      "が",
+      "に"
+     ],
+     "en": "I gave my little brother a book.",
+     "why": "The receiver of あげる takes に."
+    },
+    {
+     "before": "[毎朝|まいあさ][電車|でんしゃ]で[会社|かいしゃ]",
+     "after": "[通|かよ]っています。",
+     "answer": "に",
+     "options": [
+      "に",
+      "を",
+      "が",
+      "と"
+     ],
+     "en": "I commute to the office by train every morning.",
+     "why": "通う marks the place you regularly go to with に."
+    },
+    {
+     "before": "[夏休|なつやす]み",
+     "after": "[国|くに]へ[帰|かえ]ります。",
+     "answer": "に",
+     "options": [
+      "を",
+      "に",
+      "が",
+      "と"
+     ],
+     "en": "I'm going back to my country during summer vacation.",
+     "why": "A named period like 夏休み takes に as a time point."
+    },
+    {
+     "before": "どうぞ、[椅子|いす]",
+     "after": "[座|すわ]ってください。",
+     "answer": "に",
+     "options": [
+      "を",
+      "で",
+      "に",
+      "が"
+     ],
+     "en": "Please have a seat.",
+     "why": "座る marks the seat with に."
+    },
+    {
+     "before": "デパートへ[買|か]い[物|もの]",
+     "after": "[行|い]きます。",
+     "answer": "に",
+     "options": [
+      "で",
+      "を",
+      "が",
+      "に"
+     ],
+     "en": "I'm going to the department store to shop.",
+     "why": "Purpose of going: activity noun + に + 行く."
+    }
+   ]
+  },
+  {
+   "slug": "he",
+   "particle": "へ",
+   "romaji": "e",
+   "level": "N5",
+   "title": "Direction of movement; へ + の before a noun",
+   "uses": [
+    {
+     "label": "Direction",
+     "note": "The direction or place you head toward.",
+     "example": "[来年|らいねん]、[日本|にほん]へ[行|い]きます。"
+    },
+    {
+     "label": "へ + の + noun",
+     "note": "〜への makes a 'to X' phrase before a noun; には cannot do this.",
+     "example": "[母|はは]への[手紙|てがみ]を[書|か]きました。"
+    },
+    {
+     "label": "へ + は",
+     "note": "へは makes the destination a topic or contrast.",
+     "example": "[空港|くうこう]へはバスで[行|い]きます。"
+    }
+   ],
+   "cards": [
+    {
+     "before": "[来年|らいねん]、[日本|にほん]",
+     "after": "[行|い]きます。",
+     "answer": "へ",
+     "options": [
+      "を",
+      "で",
+      "へ",
+      "が"
+     ],
+     "en": "I'm going to Japan next year.",
+     "why": "へ marks the direction you travel toward with 行く."
+    },
+    {
+     "before": "[来月|らいげつ]、[国|くに]",
+     "after": "[帰|かえ]ります。",
+     "answer": "へ",
+     "options": [
+      "を",
+      "で",
+      "と",
+      "へ"
+     ],
+     "en": "I'm going back to my country next month.",
+     "why": "帰る takes the direction of return with へ."
+    },
+    {
+     "before": "[皆|みな]さん、こちら",
+     "after": "[来|き]てください。",
+     "answer": "へ",
+     "options": [
+      "へ",
+      "を",
+      "が",
+      "と"
+     ],
+     "en": "Everyone, please come this way.",
+     "why": "こちら is the direction of movement: こちらへ."
+    },
+    {
+     "before": "[母|はは]",
+     "after": "の[手紙|てがみ]を[書|か]きました。",
+     "answer": "へ",
+     "options": [
+      "に",
+      "へ",
+      "を",
+      "で"
+     ],
+     "en": "I wrote a letter to my mother.",
+     "why": "Before の you need への; にの is not possible."
+    },
+    {
+     "before": "[日本|にほん]",
+     "after": "の[旅行|りょこう]は[楽|たの]しかったです。",
+     "answer": "へ",
+     "options": [
+      "に",
+      "を",
+      "へ",
+      "が"
+     ],
+     "en": "The trip to Japan was fun.",
+     "why": "A 'trip to X' before a noun is Xへの旅行."
+    },
+    {
+     "before": "[船|ふね]は[東|ひがし]",
+     "after": "[進|すす]んでいます。",
+     "answer": "へ",
+     "options": [
+      "と",
+      "が",
+      "の",
+      "へ"
+     ],
+     "en": "The ship is heading east.",
+     "why": "A compass direction of movement takes へ."
+    },
+    {
+     "before": "[先生|せんせい]",
+     "after": "の[質問|しつもん]はありますか。",
+     "answer": "へ",
+     "options": [
+      "へ",
+      "に",
+      "を",
+      "で"
+     ],
+     "en": "Do you have any questions for the teacher?",
+     "why": "'Questions to X' before a noun is Xへの質問."
+    },
+    {
+     "before": "[空港|くうこう]",
+     "after": "はバスで[行|い]きます。",
+     "answer": "へ",
+     "options": [
+      "を",
+      "へ",
+      "が",
+      "と"
+     ],
+     "en": "To the airport, I go by bus.",
+     "why": "へは makes the destination the topic."
+    },
+    {
+     "before": "[今|いま]、[学校|がっこう]",
+     "after": "[向|む]かっています。",
+     "answer": "へ",
+     "options": [
+      "を",
+      "で",
+      "へ",
+      "が"
+     ],
+     "en": "I'm on my way to school now.",
+     "why": "向かう marks the place you head toward with へ."
+    },
+    {
+     "before": "[週末|しゅうまつ]はどこ",
+     "after": "[行|い]きますか。",
+     "answer": "へ",
+     "options": [
+      "と",
+      "が",
+      "で",
+      "へ"
+     ],
+     "en": "Where are you going this weekend?",
+     "why": "どこ as a destination of 行く takes へ."
+    },
+    {
+     "before": "[次|つぎ]の[角|かど]を[右|みぎ]",
+     "after": "[曲|ま]がってください。",
+     "answer": "へ",
+     "options": [
+      "へ",
+      "を",
+      "が",
+      "で"
+     ],
+     "en": "Please turn right at the next corner.",
+     "why": "The direction you turn (右・左) takes へ."
+    },
+    {
+     "before": "[家族|かぞく]",
+     "after": "のお[土産|みやげ]を[買|か]いました。",
+     "answer": "へ",
+     "options": [
+      "に",
+      "へ",
+      "を",
+      "で"
+     ],
+     "en": "I bought souvenirs for my family.",
+     "why": "'Souvenirs for X' before a noun is Xへのお土産."
+    },
+    {
+     "before": "[去年|きょねん]、[北海道|ほっかいどう]",
+     "after": "[引|ひ]っ[越|こ]しました。",
+     "answer": "へ",
+     "options": [
+      "を",
+      "と",
+      "へ",
+      "が"
+     ],
+     "en": "I moved to Hokkaido last year.",
+     "why": "引っ越す marks the new place you move toward with へ."
+    }
+   ]
+  },
+  {
+   "slug": "de",
+   "particle": "で",
+   "romaji": "de",
+   "level": "N5",
+   "title": "Place of an action; means and tools; cause; scope",
+   "uses": [
+    {
+     "label": "Place of action",
+     "note": "Where an action happens (not where something exists).",
+     "example": "[公園|こうえん]で[遊|あそ]びます。"
+    },
+    {
+     "label": "Means, tool, language, material",
+     "note": "How you do it: vehicle, tool, language, material.",
+     "example": "バスで[学校|がっこう]に[行|い]きます。"
+    },
+    {
+     "label": "Cause",
+     "note": "Reason with nouns like illness, accidents, weather.",
+     "example": "[病気|びょうき]で[学校|がっこう]を[休|やす]みました。"
+    },
+    {
+     "label": "Scope / total",
+     "note": "Range or total: 全部で, 日本で一番, 一人で.",
+     "example": "[全部|ぜんぶ]で[千円|せんえん]です。"
+    }
+   ],
+   "cards": [
+    {
+     "before": "[子供|こども]たちは[公園|こうえん]",
+     "after": "[遊|あそ]んでいます。",
+     "answer": "で",
+     "options": [
+      "を",
+      "に",
+      "で",
+      "が"
+     ],
+     "en": "The children are playing in the park.",
+     "why": "遊ぶ is an action, so its place takes で."
+    },
+    {
+     "before": "[駅|えき]",
+     "after": "[友達|ともだち]を[待|ま]っています。",
+     "answer": "で",
+     "options": [
+      "を",
+      "が",
+      "へ",
+      "で"
+     ],
+     "en": "I'm waiting for a friend at the station.",
+     "why": "待つ is an action, so where you wait takes で."
+    },
+    {
+     "before": "[図書館|としょかん]",
+     "after": "[勉強|べんきょう]します。",
+     "answer": "で",
+     "options": [
+      "で",
+      "に",
+      "を",
+      "が"
+     ],
+     "en": "I study at the library.",
+     "why": "The place where you study (an action) takes で."
+    },
+    {
+     "before": "[私|わたし]は[毎日|まいにち]バス",
+     "after": "[学校|がっこう]に[行|い]きます。",
+     "answer": "で",
+     "options": [
+      "を",
+      "で",
+      "に",
+      "が"
+     ],
+     "en": "I go to school by bus every day.",
+     "why": "A means of transport takes で."
+    },
+    {
+     "before": "[箸|はし]",
+     "after": "ご[飯|はん]を[食|た]べます。",
+     "answer": "で",
+     "options": [
+      "を",
+      "が",
+      "で",
+      "に"
+     ],
+     "en": "I eat rice with chopsticks.",
+     "why": "A tool you use takes で."
+    },
+    {
+     "before": "[日本語|にほんご]",
+     "after": "[手紙|てがみ]を[書|か]きます。",
+     "answer": "で",
+     "options": [
+      "を",
+      "が",
+      "へ",
+      "で"
+     ],
+     "en": "I write letters in Japanese.",
+     "why": "The language you use takes で."
+    },
+    {
+     "before": "[病気|びょうき]",
+     "after": "[学校|がっこう]を[休|やす]みました。",
+     "answer": "で",
+     "options": [
+      "で",
+      "を",
+      "に",
+      "が"
+     ],
+     "en": "I missed school because of illness.",
+     "why": "A noun giving the cause takes で."
+    },
+    {
+     "before": "[地震|じしん]",
+     "after": "[家|いえ]が[壊|こわ]れました。",
+     "answer": "で",
+     "options": [
+      "を",
+      "で",
+      "に",
+      "へ"
+     ],
+     "en": "The house was damaged in the earthquake.",
+     "why": "Disasters and accidents as causes take で."
+    },
+    {
+     "before": "[全部|ぜんぶ]",
+     "after": "[千円|せんえん]です。",
+     "answer": "で",
+     "options": [
+      "を",
+      "に",
+      "で",
+      "へ"
+     ],
+     "en": "It's 1,000 yen in total.",
+     "why": "全部で means 'in total'."
+    },
+    {
+     "before": "[木|き]",
+     "after": "[作|つく]った[机|つくえ]です。",
+     "answer": "で",
+     "options": [
+      "を",
+      "に",
+      "へ",
+      "で"
+     ],
+     "en": "It's a desk made of wood.",
+     "why": "A visible material something is made of takes で."
+    },
+    {
+     "before": "[日本|にほん]",
+     "after": "[一番|いちばん][高|たか]い[山|やま]は[富士山|ふじさん]です。",
+     "answer": "で",
+     "options": [
+      "で",
+      "を",
+      "が",
+      "へ"
+     ],
+     "en": "The highest mountain in Japan is Mt. Fuji.",
+     "why": "The range for 一番 takes で."
+    },
+    {
+     "before": "レストラン",
+     "after": "[晩|ばん]ご[飯|はん]を[食|た]べました。",
+     "answer": "で",
+     "options": [
+      "に",
+      "で",
+      "を",
+      "へ"
+     ],
+     "en": "I had dinner at a restaurant.",
+     "why": "Eating is an action, so the place takes で."
+    },
+    {
+     "before": "[一人|ひとり]",
+     "after": "[旅行|りょこう]に[行|い]きました。",
+     "answer": "で",
+     "options": [
+      "を",
+      "に",
+      "で",
+      "へ"
+     ],
+     "en": "I went on a trip by myself.",
+     "why": "一人で means 'alone, by oneself'."
+    }
+   ]
+  },
+  {
+   "slug": "to",
+   "particle": "と",
+   "romaji": "to",
+   "level": "N5",
+   "title": "And; together with; quotation; same / different",
+   "uses": [
+    {
+     "label": "And (full list)",
+     "note": "Joins nouns when the list is complete.",
+     "example": "パンと[卵|たまご]を[買|か]いました。"
+    },
+    {
+     "label": "Together with",
+     "note": "The partner in an action: 話す・結婚する・けんかする.",
+     "example": "[友達|ともだち]と[話|はな]します。"
+    },
+    {
+     "label": "Quotation",
+     "note": "What someone says or thinks: と言う・と思う.",
+     "example": "[明日|あした]は[雨|あめ]が[降|ふ]ると[思|おも]います。"
+    },
+    {
+     "label": "Same / different",
+     "note": "The thing compared with 同じ・違う.",
+     "example": "[私|わたし]のかばんと[同|おな]じです。"
+    }
+   ],
+   "cards": [
+    {
+     "before": "[昼休|ひるやす]みに[友達|ともだち]",
+     "after": "[話|はな]しました。",
+     "answer": "と",
+     "options": [
+      "を",
+      "で",
+      "と",
+      "へ"
+     ],
+     "en": "I talked with a friend at lunch break.",
+     "why": "The person you talk with takes と."
+    },
+    {
+     "before": "パン",
+     "after": "[卵|たまご]を[買|か]いました。",
+     "answer": "と",
+     "options": [
+      "を",
+      "に",
+      "で",
+      "と"
+     ],
+     "en": "I bought bread and eggs.",
+     "why": "と joins nouns into a complete list."
+    },
+    {
+     "before": "[兄|あに]は[去年|きょねん]、[同|おな]じ[会社|かいしゃ]の[人|ひと]",
+     "after": "[結婚|けっこん]しました。",
+     "answer": "と",
+     "options": [
+      "と",
+      "を",
+      "が",
+      "で"
+     ],
+     "en": "Last year my brother married someone from his company.",
+     "why": "結婚する marks the partner with と."
+    },
+    {
+     "before": "[母|はは]は「[気|き]をつけて」",
+     "after": "[言|い]いました。",
+     "answer": "と",
+     "options": [
+      "で",
+      "と",
+      "が",
+      "に"
+     ],
+     "en": "My mother said, \"Be careful.\"",
+     "why": "A quotation before 言う takes と."
+    },
+    {
+     "before": "[明日|あした]は[雨|あめ]が[降|ふ]る",
+     "after": "[思|おも]います。",
+     "answer": "と",
+     "options": [
+      "を",
+      "が",
+      "と",
+      "に"
+     ],
+     "en": "I think it will rain tomorrow.",
+     "why": "What you think comes before と思う."
+    },
+    {
+     "before": "[私|わたし]のかばんは[姉|あね]のかばん",
+     "after": "[同|おな]じです。",
+     "answer": "と",
+     "options": [
+      "を",
+      "で",
+      "へ",
+      "と"
+     ],
+     "en": "My bag is the same as my sister's.",
+     "why": "同じ marks what it is the same as with と."
+    },
+    {
+     "before": "[日本|にほん]の[文化|ぶんか]は[私|わたし]の[国|くに]",
+     "after": "[違|ちが]います。",
+     "answer": "と",
+     "options": [
+      "と",
+      "を",
+      "が",
+      "へ"
+     ],
+     "en": "Japanese culture is different from my country's.",
+     "why": "違う marks what it differs from with と."
+    },
+    {
+     "before": "[昨日|きのう]、[弟|おとうと]",
+     "after": "けんかしました。",
+     "answer": "と",
+     "options": [
+      "を",
+      "と",
+      "に",
+      "へ"
+     ],
+     "en": "I had a fight with my little brother yesterday.",
+     "why": "けんかする marks the other person with と."
+    },
+    {
+     "before": "[家|いえ]に[犬|いぬ]",
+     "after": "[猫|ねこ]がいます。",
+     "answer": "と",
+     "options": [
+      "を",
+      "で",
+      "と",
+      "へ"
+     ],
+     "en": "I have a dog and a cat at home.",
+     "why": "と lists exactly the animals there are."
+    },
+    {
+     "before": "[週末|しゅうまつ]、[私|わたし]は[彼女|かのじょ]",
+     "after": "[映画|えいが]を[見|み]に[行|い]きました。",
+     "answer": "と",
+     "options": [
+      "を",
+      "で",
+      "へ",
+      "と"
+     ],
+     "en": "I went to see a movie with my girlfriend this weekend.",
+     "why": "The person you do something with takes と."
+    },
+    {
+     "before": "これ",
+     "after": "[同|おな]じものをください。",
+     "answer": "と",
+     "options": [
+      "と",
+      "を",
+      "が",
+      "へ"
+     ],
+     "en": "I'd like the same thing as this, please.",
+     "why": "Xと同じ means 'the same as X'."
+    },
+    {
+     "before": "この[花|はな]は[日本語|にほんご]で「さくら」",
+     "after": "[言|い]います。",
+     "answer": "と",
+     "options": [
+      "に",
+      "と",
+      "が",
+      "へ"
+     ],
+     "en": "This flower is called \"sakura\" in Japanese.",
+     "why": "A name before 言う takes と: 〜と言います."
+    },
+    {
+     "before": "[家族|かぞく]",
+     "after": "[一緒|いっしょ]に[住|す]んでいます。",
+     "answer": "と",
+     "options": [
+      "を",
+      "に",
+      "と",
+      "へ"
+     ],
+     "en": "I live together with my family.",
+     "why": "と一緒に marks who you do something with."
+    }
+   ]
+  },
+  {
+   "slug": "mo",
+   "particle": "も",
+   "romaji": "mo",
+   "level": "N5",
+   "title": "Also; not … either; nothing / nobody; emphasis on amount",
+   "uses": [
+    {
+     "label": "Also / too",
+     "note": "Replaces は・が・を to add 'also'.",
+     "example": "[山田|やまだ]さんも[学生|がくせい]です。"
+    },
+    {
+     "label": "Not … either",
+     "note": "With a negative verb: 'not X either'.",
+     "example": "[魚|さかな]も[食|た]べません。"
+    },
+    {
+     "label": "Question word + も + negative",
+     "note": "何も・だれも・どこにも = nothing, nobody, nowhere.",
+     "example": "[教室|きょうしつ]にはだれもいません。"
+    },
+    {
+     "label": "Emphasis on amount",
+     "note": "Number + も stresses 'as much / many as'.",
+     "example": "[三時間|さんじかん]も[勉強|べんきょう]しました。"
+    }
+   ],
+   "cards": [
+    {
+     "before": "[田中|たなか]さんは[学生|がくせい]です。[山田|やまだ]さん",
+     "after": "[学生|がくせい]です。",
+     "answer": "も",
+     "options": [
+      "を",
+      "に",
+      "も",
+      "で"
+     ],
+     "en": "Mr. Tanaka is a student. Mr. Yamada is a student too.",
+     "why": "Same statement about a second person: も (also)."
+    },
+    {
+     "before": "[私|わたし]はコーヒーが[好|す]きです。[紅茶|こうちゃ]",
+     "after": "[好|す]きです。",
+     "answer": "も",
+     "options": [
+      "へ",
+      "に",
+      "で",
+      "も"
+     ],
+     "en": "I like coffee. I like tea too.",
+     "why": "も replaces が to add another liked thing."
+    },
+    {
+     "before": "[今朝|けさ]は[何|なに]",
+     "after": "[食|た]べませんでした。",
+     "answer": "も",
+     "options": [
+      "も",
+      "へ",
+      "が",
+      "と"
+     ],
+     "en": "I didn't eat anything this morning.",
+     "why": "何も + negative means 'nothing'."
+    },
+    {
+     "before": "[教室|きょうしつ]にはだれ",
+     "after": "いません。",
+     "answer": "も",
+     "options": [
+      "を",
+      "も",
+      "で",
+      "へ"
+     ],
+     "en": "There is nobody in the classroom.",
+     "why": "だれも + negative means 'nobody'."
+    },
+    {
+     "before": "[日曜日|にちようび]はどこに",
+     "after": "[行|い]きませんでした。",
+     "answer": "も",
+     "options": [
+      "を",
+      "が",
+      "も",
+      "で"
+     ],
+     "en": "I didn't go anywhere on Sunday.",
+     "why": "どこにも + negative means 'nowhere'; も follows に."
+    },
+    {
+     "before": "[昨日|きのう]は[三時間|さんじかん]",
+     "after": "[勉強|べんきょう]しました。",
+     "answer": "も",
+     "options": [
+      "を",
+      "に",
+      "が",
+      "も"
+     ],
+     "en": "I studied for as long as three hours yesterday.",
+     "why": "Number + も stresses that the amount is large."
+    },
+    {
+     "before": "[兄|あに]は[肉|にく]を[食|た]べません。[魚|さかな]",
+     "after": "[食|た]べません。",
+     "answer": "も",
+     "options": [
+      "も",
+      "に",
+      "で",
+      "へ"
+     ],
+     "en": "My brother doesn't eat meat. He doesn't eat fish either.",
+     "why": "With a negative, も means 'not … either'."
+    },
+    {
+     "before": "[父|ちち]は[英語|えいご]も[中国語|ちゅうごくご]",
+     "after": "[話|はな]せます。",
+     "answer": "も",
+     "options": [
+      "に",
+      "も",
+      "へ",
+      "と"
+     ],
+     "en": "My father can speak both English and Chinese.",
+     "why": "AもBも means 'both A and B'."
+    },
+    {
+     "before": "[冷蔵庫|れいぞうこ]に[何|なに]",
+     "after": "ありません。",
+     "answer": "も",
+     "options": [
+      "を",
+      "で",
+      "も",
+      "へ"
+     ],
+     "en": "There is nothing in the fridge.",
+     "why": "何も + ない means 'nothing'."
+    },
+    {
+     "before": "A：[明日|あした]、[海|うみ]に[行|い]きます。B：[私|わたし]",
+     "after": "[行|い]きたいです。",
+     "answer": "も",
+     "options": [
+      "を",
+      "で",
+      "へ",
+      "も"
+     ],
+     "en": "A: I'm going to the beach tomorrow. B: I want to go too.",
+     "why": "Adding yourself to what someone said: 私も."
+    },
+    {
+     "before": "この[本|ほん]は[二回|にかい]",
+     "after": "[読|よ]みました。",
+     "answer": "も",
+     "options": [
+      "も",
+      "を",
+      "が",
+      "へ"
+     ],
+     "en": "I read this book twice (no less).",
+     "why": "Number + も emphasizes how many times."
+    },
+    {
+     "before": "このことは[誰|だれ]に",
+     "after": "[言|い]わないでください。",
+     "answer": "も",
+     "options": [
+      "を",
+      "も",
+      "が",
+      "で"
+     ],
+     "en": "Please don't tell anyone about this.",
+     "why": "誰にも + negative means 'to nobody'."
+    }
+   ]
+  },
+  {
+   "slug": "no",
+   "particle": "の",
+   "romaji": "no",
+   "level": "N5",
+   "title": "Possession; noun + noun; subject in a modifying clause; nominalizer",
+   "uses": [
+    {
+     "label": "Possession",
+     "note": "Whose something is.",
+     "example": "これは[私|わたし]の[本|ほん]です。"
+    },
+    {
+     "label": "Noun + noun",
+     "note": "Type, origin, position: 日本語の先生, 机の上.",
+     "example": "[机|つくえ]の[上|うえ]に[本|ほん]があります。"
+    },
+    {
+     "label": "Subject in a modifying clause",
+     "note": "Inside a clause before a noun, が can become の.",
+     "example": "[母|はは]の[作|つく]ったケーキです。"
+    },
+    {
+     "label": "Nominalizer / 'one'",
+     "note": "Turns a verb into a noun (〜のが好き) or means 'one'.",
+     "example": "[絵|え]を[描|か]くのが[好|す]きです。"
+    }
+   ],
+   "cards": [
+    {
+     "before": "これは[私|わたし]",
+     "after": "[本|ほん]です。",
+     "answer": "の",
+     "options": [
+      "を",
+      "に",
+      "の",
+      "が"
+     ],
+     "en": "This is my book.",
+     "why": "Possession: person + の + thing."
+    },
+    {
+     "before": "[日本語|にほんご]",
+     "after": "[先生|せんせい]は[優|やさ]しいです。",
+     "answer": "の",
+     "options": [
+      "を",
+      "で",
+      "に",
+      "の"
+     ],
+     "en": "The Japanese teacher is kind.",
+     "why": "の links two nouns: teacher of Japanese."
+    },
+    {
+     "before": "[友達|ともだち]",
+     "after": "[家|いえ]に[行|い]きました。",
+     "answer": "の",
+     "options": [
+      "の",
+      "を",
+      "で",
+      "へ"
+     ],
+     "en": "I went to my friend's house.",
+     "why": "Whose house: 友達の家."
+    },
+    {
+     "before": "これは[母|はは]",
+     "after": "[作|つく]ったケーキです。",
+     "answer": "の",
+     "options": [
+      "を",
+      "の",
+      "で",
+      "に"
+     ],
+     "en": "This is a cake my mother made.",
+     "why": "In a clause before a noun, the subject can take の."
+    },
+    {
+     "before": "[私|わたし]は[絵|え]を[描|か]く",
+     "after": "が[好|す]きです。",
+     "answer": "の",
+     "options": [
+      "を",
+      "に",
+      "の",
+      "で"
+     ],
+     "en": "I like drawing pictures.",
+     "why": "の turns the verb 描く into a noun before が好き."
+    },
+    {
+     "before": "この[傘|かさ]はだれ",
+     "after": "ですか。",
+     "answer": "の",
+     "options": [
+      "を",
+      "が",
+      "に",
+      "の"
+     ],
+     "en": "Whose umbrella is this?",
+     "why": "だれの = whose; the noun after it is dropped."
+    },
+    {
+     "before": "この[靴|くつ]は[小|ちい]さいです。もっと[大|おお]きい",
+     "after": "はありますか。",
+     "answer": "の",
+     "options": [
+      "の",
+      "を",
+      "が",
+      "に"
+     ],
+     "en": "These shoes are small. Do you have bigger ones?",
+     "why": "の after an adjective means 'one'."
+    },
+    {
+     "before": "[机|つくえ]",
+     "after": "[上|うえ]に[本|ほん]があります。",
+     "answer": "の",
+     "options": [
+      "に",
+      "の",
+      "を",
+      "で"
+     ],
+     "en": "There is a book on the desk.",
+     "why": "Position words attach with の: 机の上."
+    },
+    {
+     "before": "[日本|にほん]",
+     "after": "[車|くるま]は[人気|にんき]があります。",
+     "answer": "の",
+     "options": [
+      "を",
+      "が",
+      "の",
+      "へ"
+     ],
+     "en": "Japanese cars are popular.",
+     "why": "Origin before a noun: 日本の車."
+    },
+    {
+     "before": "[東京|とうきょう]",
+     "after": "[大学|だいがく]で[勉強|べんきょう]しています。",
+     "answer": "の",
+     "options": [
+      "を",
+      "が",
+      "へ",
+      "の"
+     ],
+     "en": "I study at a university in Tokyo.",
+     "why": "Place + の + noun describes where it is."
+    },
+    {
+     "before": "[駅|えき]",
+     "after": "[前|まえ]で[待|ま]っています。",
+     "answer": "の",
+     "options": [
+      "の",
+      "を",
+      "に",
+      "へ"
+     ],
+     "en": "I'm waiting in front of the station.",
+     "why": "前・後ろ・近く attach to a noun with の."
+    },
+    {
+     "before": "[音楽|おんがく]を[聞|き]く",
+     "after": "は[楽|たの]しいです。",
+     "answer": "の",
+     "options": [
+      "を",
+      "の",
+      "が",
+      "に"
+     ],
+     "en": "Listening to music is fun.",
+     "why": "の makes 聞く into a noun that can take は."
+    },
+    {
+     "before": "[田中|たなか]さん",
+     "after": "お[兄|にい]さんは[医者|いしゃ]です。",
+     "answer": "の",
+     "options": [
+      "を",
+      "で",
+      "の",
+      "へ"
+     ],
+     "en": "Mr. Tanaka's older brother is a doctor.",
+     "why": "Family of someone: person + の."
+    }
+   ]
+  },
+  {
+   "slug": "kara",
+   "particle": "から",
+   "romaji": "kara",
+   "level": "N5",
+   "title": "From (start, source); because; after doing",
+   "uses": [
+    {
+     "label": "Starting point",
+     "note": "Where or when something starts.",
+     "example": "[家|いえ]から[駅|えき]まで[十分|じゅっぷん]です。"
+    },
+    {
+     "label": "Source",
+     "note": "Who or where something comes from; material.",
+     "example": "[友達|ともだち]から[手紙|てがみ]をもらいました。"
+    },
+    {
+     "label": "Reason",
+     "note": "Sentence + から = because.",
+     "example": "[暑|あつ]いから[窓|まど]を[開|あ]けます。"
+    },
+    {
+     "label": "After doing",
+     "note": "て-form + から = after doing.",
+     "example": "[手|て]を[洗|あら]ってから[食|た]べます。"
+    }
+   ],
+   "cards": [
+    {
+     "before": "[授業|じゅぎょう]は[月曜日|げつようび]",
+     "after": "[始|はじ]まります。",
+     "answer": "から",
+     "options": [
+      "から",
+      "を",
+      "が",
+      "へ"
+     ],
+     "en": "Classes start from Monday.",
+     "why": "The start of a period takes から."
+    },
+    {
+     "before": "[家|いえ]",
+     "after": "[駅|えき]まで[歩|ある]いて[十分|じゅっぷん]です。",
+     "answer": "から",
+     "options": [
+      "を",
+      "から",
+      "が",
+      "に"
+     ],
+     "en": "It's ten minutes on foot from my house to the station.",
+     "why": "A starting place pairs with まで: AからBまで."
+    },
+    {
+     "before": "[友達|ともだち]",
+     "after": "[手紙|てがみ]をもらいました。",
+     "answer": "から",
+     "options": [
+      "を",
+      "で",
+      "から",
+      "へ"
+     ],
+     "en": "I received a letter from a friend.",
+     "why": "The giver with もらう takes から."
+    },
+    {
+     "before": "[私|わたし]は[日本|にほん]",
+     "after": "[来|き]ました。",
+     "answer": "から",
+     "options": [
+      "を",
+      "が",
+      "で",
+      "から"
+     ],
+     "en": "I came from Japan.",
+     "why": "The place you come from takes から."
+    },
+    {
+     "before": "[暑|あつ]い",
+     "after": "[窓|まど]を[開|あ]けます。",
+     "answer": "から",
+     "options": [
+      "から",
+      "を",
+      "に",
+      "で"
+     ],
+     "en": "It's hot, so I'll open the window.",
+     "why": "から after a sentence gives the reason."
+    },
+    {
+     "before": "[明日|あした]は[休|やす]みです",
+     "after": "、[遅|おそ]くまで[寝|ね]ます。",
+     "answer": "から",
+     "options": [
+      "を",
+      "から",
+      "に",
+      "で"
+     ],
+     "en": "Tomorrow is a day off, so I'll sleep late.",
+     "why": "です + から gives the reason in polite speech."
+    },
+    {
+     "before": "[日本|にほん]のお[酒|さけ]は[米|こめ]",
+     "after": "[作|つく]られます。",
+     "answer": "から",
+     "options": [
+      "を",
+      "が",
+      "から",
+      "に"
+     ],
+     "en": "Japanese sake is made from rice.",
+     "why": "A raw material that changes form takes から."
+    },
+    {
+     "before": "[窓|まど]",
+     "after": "[富士山|ふじさん]が[見|み]えます。",
+     "answer": "から",
+     "options": [
+      "を",
+      "へ",
+      "が",
+      "から"
+     ],
+     "en": "You can see Mt. Fuji from the window.",
+     "why": "The point you look out from takes から."
+    },
+    {
+     "before": "[昨日|きのう]、[母|はは]",
+     "after": "[電話|でんわ]がありました。",
+     "answer": "から",
+     "options": [
+      "から",
+      "を",
+      "で",
+      "へ"
+     ],
+     "en": "I got a phone call from my mother yesterday.",
+     "why": "The person a call comes from takes から."
+    },
+    {
+     "before": "[手|て]を[洗|あら]って",
+     "after": "ご[飯|はん]を[食|た]べます。",
+     "answer": "から",
+     "options": [
+      "を",
+      "から",
+      "に",
+      "で"
+     ],
+     "en": "I eat after washing my hands.",
+     "why": "て-form + から means 'after doing'."
+    },
+    {
+     "before": "[来週|らいしゅう]",
+     "after": "[夏休|なつやす]みです。",
+     "answer": "から",
+     "options": [
+      "を",
+      "で",
+      "から",
+      "へ"
+     ],
+     "en": "Summer vacation starts next week.",
+     "why": "The start point of a period takes から."
+    },
+    {
+     "before": "[会議|かいぎ]は[二時|にじ]",
+     "after": "[四時|よじ]までです。",
+     "answer": "から",
+     "options": [
+      "を",
+      "が",
+      "で",
+      "から"
+     ],
+     "en": "The meeting is from two to four.",
+     "why": "AからBまで gives a time range."
+    }
+   ]
+  },
+  {
+   "slug": "made",
+   "particle": "まで",
+   "romaji": "made",
+   "level": "N5",
+   "title": "Until; as far as; by (までに); even",
+   "uses": [
+    {
+     "label": "Until (time)",
+     "note": "The time an action continues up to.",
+     "example": "[五時|ごじ]まで[働|はたら]きます。"
+    },
+    {
+     "label": "As far as (place)",
+     "note": "The end point of movement.",
+     "example": "[駅|えき]まで[歩|ある]きます。"
+    },
+    {
+     "label": "By (deadline)",
+     "note": "までに = no later than; for one-time actions.",
+     "example": "[金曜日|きんようび]までに[出|だ]してください。"
+    },
+    {
+     "label": "Even",
+     "note": "Adds a surprising extreme (N4).",
+     "example": "[子供|こども]まで[知|し]っています。"
+    }
+   ],
+   "cards": [
+    {
+     "before": "[毎日|まいにち][五時|ごじ]",
+     "after": "[働|はたら]きます。",
+     "answer": "まで",
+     "options": [
+      "まで",
+      "を",
+      "が",
+      "へ"
+     ],
+     "en": "I work until five every day.",
+     "why": "An action that continues up to a time takes まで."
+    },
+    {
+     "before": "[駅|えき]",
+     "after": "[歩|ある]いて[行|い]きます。",
+     "answer": "まで",
+     "options": [
+      "と",
+      "まで",
+      "が",
+      "で"
+     ],
+     "en": "I walk to the station.",
+     "why": "The end point of the route takes まで."
+    },
+    {
+     "before": "[東京|とうきょう]から[大阪|おおさか]",
+     "after": "[新幹線|しんかんせん]で[行|い]きます。",
+     "answer": "まで",
+     "options": [
+      "を",
+      "が",
+      "まで",
+      "で"
+     ],
+     "en": "I go from Tokyo to Osaka by Shinkansen.",
+     "why": "AからBまで: from A as far as B."
+    },
+    {
+     "before": "[金曜日|きんようび]",
+     "after": "レポートを[出|だ]してください。",
+     "answer": "までに",
+     "options": [
+      "まで",
+      "を",
+      "で",
+      "までに"
+     ],
+     "en": "Please submit the report by Friday.",
+     "why": "A one-time action with a deadline takes までに, not まで."
+    },
+    {
+     "before": "[夜|よる][遅|おそ]く",
+     "after": "[勉強|べんきょう]しました。",
+     "answer": "まで",
+     "options": [
+      "まで",
+      "を",
+      "が",
+      "へ"
+     ],
+     "en": "I studied until late at night.",
+     "why": "Studying continues up to a time: まで."
+    },
+    {
+     "before": "[雨|あめ]がやむ",
+     "after": "[待|ま]ちましょう。",
+     "answer": "まで",
+     "options": [
+      "を",
+      "まで",
+      "に",
+      "で"
+     ],
+     "en": "Let's wait until the rain stops.",
+     "why": "Waiting continues until an event: verb + まで."
+    },
+    {
+     "before": "[十時|じゅうじ]",
+     "after": "[帰|かえ]ってきてください。",
+     "answer": "までに",
+     "options": [
+      "まで",
+      "を",
+      "までに",
+      "が"
+     ],
+     "en": "Please come back by ten.",
+     "why": "Coming back happens once, so the deadline takes までに."
+    },
+    {
+     "before": "[最後|さいご]",
+     "after": "[頑張|がんば]ります。",
+     "answer": "まで",
+     "options": [
+      "を",
+      "が",
+      "へ",
+      "まで"
+     ],
+     "en": "I'll keep trying until the end.",
+     "why": "Effort that lasts to the end takes まで."
+    },
+    {
+     "before": "その[歌|うた]は[小|ちい]さい[子供|こども]",
+     "after": "[知|し]っています。",
+     "answer": "まで",
+     "options": [
+      "まで",
+      "で",
+      "に",
+      "へ"
+     ],
+     "en": "Even small children know that song.",
+     "why": "まで can mean 'even', adding an extreme case."
+    },
+    {
+     "before": "この[店|みせ]は[何時|なんじ]",
+     "after": "[開|あ]いていますか。",
+     "answer": "まで",
+     "options": [
+      "を",
+      "まで",
+      "が",
+      "で"
+     ],
+     "en": "Until what time is this shop open?",
+     "why": "Being open is a continuing state, so it takes まで."
+    },
+    {
+     "before": "[車|くるま]で[空港|くうこう]",
+     "after": "[送|おく]りますよ。",
+     "answer": "まで",
+     "options": [
+      "を",
+      "が",
+      "まで",
+      "と"
+     ],
+     "en": "I'll drive you to the airport.",
+     "why": "送る (take someone) marks how far you go with まで."
+    },
+    {
+     "before": "この[本|ほん]は[明日|あした]",
+     "after": "[返|かえ]します。",
+     "answer": "までに",
+     "options": [
+      "まで",
+      "を",
+      "が",
+      "までに"
+     ],
+     "en": "I'll return this book by tomorrow.",
+     "why": "Returning is a one-time action, so the deadline takes までに."
+    }
+   ]
+  },
+  {
+   "slug": "ya",
+   "particle": "や",
+   "romaji": "ya",
+   "level": "N5",
+   "title": "Partial list: A, B and so on",
+   "uses": [
+    {
+     "label": "Partial list",
+     "note": "Gives examples; there are other things too.",
+     "example": "[本|ほん]やノートがあります。"
+    },
+    {
+     "label": "や … など",
+     "note": "Often finished with など (etc.).",
+     "example": "りんごやみかんなどを[買|か]いました。"
+    }
+   ],
+   "cards": [
+    {
+     "before": "[机|つくえ]の[上|うえ]に[本|ほん]",
+     "after": "ノートがあります。",
+     "answer": "や",
+     "options": [
+      "を",
+      "で",
+      "や",
+      "へ"
+     ],
+     "en": "There are books, notebooks and so on on the desk.",
+     "why": "や lists examples, implying there are other things too."
+    },
+    {
+     "before": "[週末|しゅうまつ]は[掃除|そうじ]",
+     "after": "[洗濯|せんたく]をします。",
+     "answer": "や",
+     "options": [
+      "を",
+      "で",
+      "に",
+      "や"
+     ],
+     "en": "On weekends I do cleaning, laundry and such.",
+     "why": "や joins example activities in a list."
+    },
+    {
+     "before": "[夏休|なつやす]みに[京都|きょうと]",
+     "after": "[奈良|なら]に[行|い]きました。",
+     "answer": "や",
+     "options": [
+      "や",
+      "を",
+      "が",
+      "へ"
+     ],
+     "en": "During summer vacation I went to Kyoto, Nara and other places.",
+     "why": "や lists some of the places you visited."
+    },
+    {
+     "before": "りんご",
+     "after": "みかんなどを[買|か]いました。",
+     "answer": "や",
+     "options": [
+      "を",
+      "や",
+      "が",
+      "で"
+     ],
+     "en": "I bought apples, mandarins and so on.",
+     "why": "や often pairs with など at the end of the list."
+    },
+    {
+     "before": "[犬|いぬ]",
+     "after": "[猫|ねこ]などの[動物|どうぶつ]が[好|す]きです。",
+     "answer": "や",
+     "options": [
+      "を",
+      "に",
+      "や",
+      "へ"
+     ],
+     "en": "I like animals such as dogs and cats.",
+     "why": "AやBなどの + noun means 'nouns such as A and B'."
+    },
+    {
+     "before": "[鍋|なべ]に[肉|にく]",
+     "after": "[野菜|やさい]を[入|い]れます。",
+     "answer": "や",
+     "options": [
+      "を",
+      "が",
+      "で",
+      "や"
+     ],
+     "en": "I put meat, vegetables and so on into the pot.",
+     "why": "や joins nouns as examples of what goes in."
+    },
+    {
+     "before": "[日本語|にほんご]",
+     "after": "[英語|えいご]を[勉強|べんきょう]しています。",
+     "answer": "や",
+     "options": [
+      "や",
+      "を",
+      "が",
+      "へ"
+     ],
+     "en": "I'm studying Japanese, English and so on.",
+     "why": "や lists example subjects you study."
+    },
+    {
+     "before": "[駅|えき]の[近|ちか]くにはスーパー",
+     "after": "[銀行|ぎんこう]があります。",
+     "answer": "や",
+     "options": [
+      "を",
+      "や",
+      "で",
+      "へ"
+     ],
+     "en": "Near the station there are supermarkets, banks and so on.",
+     "why": "や lists some of what is there."
+    },
+    {
+     "before": "[休|やす]みの[日|ひ]は[映画|えいが]",
+     "after": "[買|か]い[物|もの]に[行|い]きます。",
+     "answer": "や",
+     "options": [
+      "を",
+      "が",
+      "や",
+      "へ"
+     ],
+     "en": "On days off I go to movies, shopping and so on.",
+     "why": "や joins example activities."
+    },
+    {
+     "before": "テーブルにコップ",
+     "after": "お[皿|さら]を[並|なら]べます。",
+     "answer": "や",
+     "options": [
+      "を",
+      "が",
+      "へ",
+      "や"
+     ],
+     "en": "I set out cups, plates and so on on the table.",
+     "why": "や lists example items being set out."
+    },
+    {
+     "before": "[雨|あめ]",
+     "after": "[雪|ゆき]の[日|ひ]は[電車|でんしゃ]で[行|い]きます。",
+     "answer": "や",
+     "options": [
+      "や",
+      "を",
+      "に",
+      "へ"
+     ],
+     "en": "On rainy or snowy days I go by train.",
+     "why": "や joins example kinds of weather before の."
+    },
+    {
+     "before": "[筆箱|ふでばこ]にペン",
+     "after": "[消|け]しゴムが[入|はい]っています。",
+     "answer": "や",
+     "options": [
+      "を",
+      "や",
+      "で",
+      "へ"
+     ],
+     "en": "There are pens, erasers and so on in the pencil case.",
+     "why": "や lists some of the things inside."
+    },
+    {
+     "before": "[朝|あさ]はパン",
+     "after": "[卵|たまご]などを[食|た]べます。",
+     "answer": "や",
+     "options": [
+      "を",
+      "が",
+      "や",
+      "へ"
+     ],
+     "en": "In the morning I eat bread, eggs and so on.",
+     "why": "や … など gives typical examples."
+    }
+   ]
+  },
+  {
+   "slug": "yori",
+   "particle": "より",
+   "romaji": "yori",
+   "level": "N4",
+   "title": "Comparison: than; formal 'from'",
+   "uses": [
+    {
+     "label": "A は B より",
+     "note": "B is the standard you compare against.",
+     "example": "[電車|でんしゃ]はバスより[速|はや]いです。"
+    },
+    {
+     "label": "B より A のほうが",
+     "note": "Says A is more … than B.",
+     "example": "[肉|にく]より[魚|さかな]のほうが[好|す]きです。"
+    },
+    {
+     "label": "Than expected / than anyone",
+     "note": "思ったより, 誰よりも (N3).",
+     "example": "[思|おも]ったより[簡単|かんたん]でした。"
+    },
+    {
+     "label": "Formal 'from'",
+     "note": "Written / announcement style for から (N3).",
+     "example": "[会議|かいぎ]は[三時|さんじ]より[始|はじ]めます。"
+    }
+   ],
+   "cards": [
+    {
+     "before": "[東京|とうきょう]は[大阪|おおさか]",
+     "after": "[大|おお]きいです。",
+     "answer": "より",
+     "options": [
+      "より",
+      "を",
+      "が",
+      "で"
+     ],
+     "en": "Tokyo is bigger than Osaka.",
+     "why": "The thing compared against takes より."
+    },
+    {
+     "before": "[電車|でんしゃ]はバス",
+     "after": "[速|はや]いです。",
+     "answer": "より",
+     "options": [
+      "を",
+      "より",
+      "で",
+      "に"
+     ],
+     "en": "Trains are faster than buses.",
+     "why": "AはBより + adjective: A is more … than B."
+    },
+    {
+     "before": "[肉|にく]",
+     "after": "[魚|さかな]のほうが[好|す]きです。",
+     "answer": "より",
+     "options": [
+      "を",
+      "が",
+      "より",
+      "で"
+     ],
+     "en": "I like fish more than meat.",
+     "why": "Bより Aのほうが: the less-preferred item takes より."
+    },
+    {
+     "before": "[今日|きょう]は[昨日|きのう]",
+     "after": "[寒|さむ]いです。",
+     "answer": "より",
+     "options": [
+      "を",
+      "に",
+      "で",
+      "より"
+     ],
+     "en": "Today is colder than yesterday.",
+     "why": "The standard of comparison takes より."
+    },
+    {
+     "before": "[兄|あに]は[私|わたし]",
+     "after": "[三|みっ]つ[年上|としうえ]です。",
+     "answer": "より",
+     "options": [
+      "より",
+      "を",
+      "が",
+      "へ"
+     ],
+     "en": "My brother is three years older than me.",
+     "why": "The person compared against takes より."
+    },
+    {
+     "before": "バス",
+     "after": "[電車|でんしゃ]のほうが[便利|べんり]です。",
+     "answer": "より",
+     "options": [
+      "を",
+      "より",
+      "に",
+      "へ"
+     ],
+     "en": "The train is more convenient than the bus.",
+     "why": "Bより Aのほうが: B takes より."
+    },
+    {
+     "before": "[思|おも]った",
+     "after": "[簡単|かんたん]でした。",
+     "answer": "より",
+     "options": [
+      "を",
+      "に",
+      "より",
+      "で"
+     ],
+     "en": "It was easier than I thought.",
+     "why": "思ったより compares with what you expected."
+    },
+    {
+     "before": "[会議|かいぎ]は[午後|ごご][三時|さんじ]",
+     "after": "[始|はじ]めます。",
+     "answer": "より",
+     "options": [
+      "を",
+      "が",
+      "へ",
+      "より"
+     ],
+     "en": "The meeting will begin from 3 p.m.",
+     "why": "In formal notices, より is used like から."
+    },
+    {
+     "before": "[日本|にほん]の[夏|なつ]は[私|わたし]の[国|くに]",
+     "after": "[暑|あつ]いです。",
+     "answer": "より",
+     "options": [
+      "より",
+      "を",
+      "に",
+      "へ"
+     ],
+     "en": "Summer in Japan is hotter than in my country.",
+     "why": "The standard of comparison takes より."
+    },
+    {
+     "before": "[彼|かれ]は[誰|だれ]",
+     "after": "も[早|はや]く[来|き]ます。",
+     "answer": "より",
+     "options": [
+      "を",
+      "より",
+      "が",
+      "に"
+     ],
+     "en": "He comes earlier than anyone.",
+     "why": "誰よりも means 'more than anyone'."
+    },
+    {
+     "before": "[去年|きょねん]",
+     "after": "[背|せ]が[高|たか]くなりました。",
+     "answer": "より",
+     "options": [
+      "を",
+      "が",
+      "より",
+      "へ"
+     ],
+     "en": "I've grown taller than last year.",
+     "why": "The earlier point you compare against takes より."
+    },
+    {
+     "before": "[自転車|じてんしゃ]は[歩|ある]く",
+     "after": "[速|はや]いです。",
+     "answer": "より",
+     "options": [
+      "を",
+      "が",
+      "で",
+      "より"
+     ],
+     "en": "Cycling is faster than walking.",
+     "why": "より can follow a verb as the standard of comparison."
+    }
+   ]
+  },
+  {
+   "slug": "ka",
+   "particle": "か",
+   "romaji": "ka",
+   "level": "N5",
+   "title": "Question marker; or; embedded questions; some-",
+   "uses": [
+    {
+     "label": "Question / invitation",
+     "note": "At the end of a sentence it makes a question or an offer.",
+     "example": "これは[何|なん]ですか。"
+    },
+    {
+     "label": "Or",
+     "note": "AかB = A or B.",
+     "example": "[土曜日|どようび]か[日曜日|にちようび]に[行|い]きます。"
+    },
+    {
+     "label": "Embedded question",
+     "note": "A question inside a sentence (N4).",
+     "example": "[彼|かれ]が[来|く]るかどうか[分|わ]かりません。"
+    },
+    {
+     "label": "Some- (indefinite)",
+     "note": "何か・だれか・どこか = something, someone, somewhere.",
+     "example": "[何|なに]か[食|た]べたいです。"
+    }
+   ],
+   "cards": [
+    {
+     "before": "これは[何|なん]です",
+     "after": "。",
+     "answer": "か",
+     "options": [
+      "を",
+      "が",
+      "か",
+      "で"
+     ],
+     "en": "What is this?",
+     "why": "か at the end of a polite sentence makes it a question."
+    },
+    {
+     "before": "A：[明日|あした]、[学校|がっこう]に[行|い]きます",
+     "after": "。B：はい、[行|い]きます。",
+     "answer": "か",
+     "options": [
+      "を",
+      "で",
+      "が",
+      "か"
+     ],
+     "en": "A: Are you going to school tomorrow? B: Yes, I am.",
+     "why": "A yes/no question ends in か."
+    },
+    {
+     "before": "ペン",
+     "after": "[鉛筆|えんぴつ]で[書|か]いてください。",
+     "answer": "か",
+     "options": [
+      "か",
+      "を",
+      "が",
+      "に"
+     ],
+     "en": "Please write in pen or pencil.",
+     "why": "AかB means 'A or B'."
+    },
+    {
+     "before": "[土曜日|どようび]",
+     "after": "[日曜日|にちようび]に[行|い]きます。",
+     "answer": "か",
+     "options": [
+      "を",
+      "か",
+      "が",
+      "へ"
+     ],
+     "en": "I'll go on Saturday or Sunday.",
+     "why": "か between two nouns gives a choice."
+    },
+    {
+     "before": "[何|なに]",
+     "after": "[食|た]べたいです。",
+     "answer": "か",
+     "options": [
+      "へ",
+      "に",
+      "か",
+      "と"
+     ],
+     "en": "I want to eat something.",
+     "why": "何か means 'something'."
+    },
+    {
+     "before": "[玄関|げんかん]にだれ",
+     "after": "[来|き]ましたよ。",
+     "answer": "か",
+     "options": [
+      "を",
+      "へ",
+      "で",
+      "か"
+     ],
+     "en": "Someone has come to the door.",
+     "why": "だれか means 'someone'."
+    },
+    {
+     "before": "どこ",
+     "after": "[静|しず]かな[所|ところ]へ[行|い]きたいです。",
+     "answer": "か",
+     "options": [
+      "か",
+      "を",
+      "が",
+      "で"
+     ],
+     "en": "I want to go somewhere quiet.",
+     "why": "どこか means 'somewhere'."
+    },
+    {
+     "before": "[彼|かれ]が[来|く]る",
+     "after": "どうか[分|わ]かりません。",
+     "answer": "か",
+     "options": [
+      "を",
+      "か",
+      "が",
+      "に"
+     ],
+     "en": "I don't know whether he will come.",
+     "why": "〜かどうか means 'whether or not'."
+    },
+    {
+     "before": "[会議|かいぎ]が[何時|なんじ]に[始|はじ]まる",
+     "after": "[知|し]っていますか。",
+     "answer": "か",
+     "options": [
+      "を",
+      "が",
+      "か",
+      "で"
+     ],
+     "en": "Do you know what time the meeting starts?",
+     "why": "A question word + か forms a question inside a sentence."
+    },
+    {
+     "before": "いっしょに[帰|かえ]りません",
+     "after": "。",
+     "answer": "か",
+     "options": [
+      "を",
+      "が",
+      "で",
+      "か"
+     ],
+     "en": "Won't you go home with me?",
+     "why": "〜ませんか is a polite invitation."
+    },
+    {
+     "before": "[大学|だいがく]に[行|い]く",
+     "after": "、[働|はたら]くか、まだ[決|き]めていません。",
+     "answer": "か",
+     "options": [
+      "か",
+      "を",
+      "が",
+      "に"
+     ],
+     "en": "I haven't decided yet whether to go to university or work.",
+     "why": "〜か〜か lists the choices you are deciding between."
+    },
+    {
+     "before": "すみません、[駅|えき]はどこです",
+     "after": "。",
+     "answer": "か",
+     "options": [
+      "を",
+      "か",
+      "が",
+      "に"
+     ],
+     "en": "Excuse me, where is the station?",
+     "why": "A question with どこ ends in か."
+    }
+   ]
+  }
+ ]
+}
