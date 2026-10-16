@@ -1,13 +1,12 @@
 "use client";
 
-import { useMemo, useState, useTransition } from "react";
+import { useMemo, useRef, useState, useTransition } from "react";
 import { mastery, PRIORITIES, type Priority } from "@/lib/newcomer/recall";
 import type { PhraseRow } from "@/lib/newcomer/newcomer.server";
 import type { Spend } from "@/lib/newcomer/translate.server";
-import { deletePhrase, editPhrase, restorePhrase, savePhrases, setPriority, translatePreview } from "../actions";
+import { deletePhrase, editPhrase, movePhrase, restorePhrase, savePhrases, setPriority, translatePreview } from "../actions";
 import { Japanese, MasteryBar, PhraseColourKey, PlayButton, ScriptToggle } from "../ui";
 
-const ORDER: Record<Priority, number> = { priority: 0, normal: 1, less: 2, paused: 3 };
 const SEARCH_FROM = 8;
 
 /** A small USD amount: $0.0042 below a cent, $0.12 above. */
@@ -29,9 +28,15 @@ export function PhrasesClient({ initial, canTranslate, spend: initialSpend }: { 
     const q = query.trim().toLowerCase();
     return phrases
       .filter((p) => !q || [p.meaning, p.source, p.jp, p.kana].some((s) => s.toLowerCase().includes(q)))
-      .sort((a, b) => ORDER[a.priority] - ORDER[b.priority] || b.created_at.localeCompare(a.created_at));
+      .sort((a, b) => a.position - b.position || b.created_at.localeCompare(a.created_at));
   }, [phrases, query]);
-  const active = shown.filter((p) => p.priority !== "paused");
+  // While dragging, the list follows the finger; the new order is saved on release.
+  const [drag, setDrag] = useState<{ id: string; order: string[] } | null>(null);
+  const listRef = useRef<HTMLUListElement>(null);
+  const byId = useMemo(() => new Map(phrases.map((p) => [p.id, p])), [phrases]);
+  const unpaused = shown.filter((p) => p.priority !== "paused");
+  const active = drag ? drag.order.map((id) => byId.get(id)!).filter(Boolean) : unpaused;
+  const canDrag = !query.trim() && unpaused.length > 1;
   const paused = shown.filter((p) => p.priority === "paused");
 
   const run = (fn: () => Promise<void>) =>
@@ -57,6 +62,42 @@ export function PhrasesClient({ initial, canTranslate, spend: initialSpend }: { 
       // Keep the lines that didn't translate in the box, so they can be reworded.
       setText(result.failed.join("\n"));
     });
+
+  const dragMove = (y: number) => {
+    if (!drag || !listRef.current) return;
+    if (y < 80) window.scrollBy(0, -12);
+    else if (y > window.innerHeight - 80) window.scrollBy(0, 12);
+    const rows = [...listRef.current.children] as HTMLElement[];
+    const others = drag.order.filter((id) => id !== drag.id);
+    let to = others.length;
+    for (let i = 0, j = 0; i < rows.length; i++) {
+      if (drag.order[i] === drag.id) continue;
+      const r = rows[i].getBoundingClientRect();
+      if (y < r.top + r.height / 2) {
+        to = j;
+        break;
+      }
+      j++;
+    }
+    const order = [...others.slice(0, to), drag.id, ...others.slice(to)];
+    if (order.join() !== drag.order.join()) setDrag({ ...drag, order });
+  };
+
+  const dragEnd = () => {
+    if (!drag) return;
+    const { id, order } = drag;
+    setDrag(null);
+    const i = order.indexOf(id);
+    const before = byId.get(order[i - 1]);
+    const after = byId.get(order[i + 1]);
+    const current = byId.get(id);
+    if (!current || order.join() === unpaused.map((x) => x.id).join()) return;
+    const position = before && after ? (before.position + after.position) / 2 : before ? before.position + 1 : after ? after.position - 1 : current.position;
+    run(async () => {
+      update(id, { position });
+      await movePhrase(id, position);
+    });
+  };
 
   const update = (id: string, patch: Partial<PhraseRow>) => {
     setPhrases((list) => list.map((p) => (p.id === id ? { ...p, ...patch } : p)));
@@ -121,9 +162,29 @@ export function PhrasesClient({ initial, canTranslate, spend: initialSpend }: { 
       )}
 
       {phrases.length === 0 && <p className="mt-6 text-sm text-muted">No phrases yet. Start with three things you say every day.</p>}
-      <ul className="mt-4 space-y-2">
+      {canDrag && <p className="mt-4 text-xs text-muted">Hold ⠿ and drag to put your phrases in your own order. Playlist plays them in this order.</p>}
+      <ul ref={listRef} className="mt-2 space-y-2">
         {active.map((p) => (
-          <PhraseItem key={p.id} p={p} onOpen={() => setOpen(p)} />
+          <PhraseItem
+            key={p.id}
+            p={p}
+            onOpen={() => setOpen(p)}
+            dragging={drag?.id === p.id}
+            handle={
+              canDrag
+                ? {
+                    onPointerDown: (e) => {
+                      e.preventDefault();
+                      e.currentTarget.setPointerCapture(e.pointerId);
+                      setDrag({ id: p.id, order: unpaused.map((x) => x.id) });
+                    },
+                    onPointerMove: (e) => dragMove(e.clientY),
+                    onPointerUp: dragEnd,
+                    onPointerCancel: dragEnd,
+                  }
+                : null
+            }
+          />
         ))}
       </ul>
       {paused.length > 0 && (
@@ -190,9 +251,16 @@ export function PhrasesClient({ initial, canTranslate, spend: initialSpend }: { 
   );
 }
 
-function PhraseItem({ p, onOpen }: { p: PhraseRow; onOpen: () => void }) {
+type Handle = Pick<React.DOMAttributes<HTMLButtonElement>, "onPointerDown" | "onPointerMove" | "onPointerUp" | "onPointerCancel">;
+
+function PhraseItem({ p, onOpen, handle = null, dragging = false }: { p: PhraseRow; onOpen: () => void; handle?: Handle | null; dragging?: boolean }) {
   return (
-    <li className="flex items-center gap-3 rounded-xl border border-border bg-card p-3">
+    <li className={`flex items-center gap-3 rounded-xl border bg-card p-3 ${dragging ? "relative z-10 border-accent shadow-lg" : "border-border"}`}>
+      {handle && (
+        <button type="button" aria-label="Drag to reorder" className="-ml-1 flex h-10 w-6 shrink-0 cursor-grab touch-none select-none items-center justify-center text-xl text-muted" {...handle}>
+          ⠿
+        </button>
+      )}
       <button type="button" onClick={onOpen} className="min-w-0 flex-1 text-left">
         <div className="flex items-center gap-2">
           {p.priority === "priority" && <span className="rounded bg-accent px-1.5 text-xs text-white">Priority</span>}

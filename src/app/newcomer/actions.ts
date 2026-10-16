@@ -64,6 +64,13 @@ export async function setPriority(id: string, priority: Priority) {
   if (error) throw new Error(error.message);
 }
 
+/** Move a phrase in the learner's order (a position between its new neighbours). */
+export async function movePhrase(id: string, position: number) {
+  const { supabase } = await requireUser();
+  const { error } = await supabase.from("newcomer_phrases").update({ position: z.number().finite().parse(position) }).eq("id", z.string().uuid().parse(id));
+  if (error) throw new Error(error.message);
+}
+
 /** Delete a phrase; returns the row so the page can offer Undo. */
 export async function deletePhrase(id: string) {
   const { supabase } = await requireUser();

@@ -25,9 +25,8 @@ export default async function PlaylistPage({ searchParams }: { searchParams: Pro
       lang: null,
     }));
   } else {
-    // Paused phrases stay out; priority ones lead.
+    // Paused phrases stay out; the rest play in the order set on My phrases.
     const mine = (await loadMyPhrases(supabase)).filter((p) => p.priority !== "paused");
-    mine.sort((a, b) => Number(b.priority === "priority") - Number(a.priority === "priority"));
     tracks = mine.map((p) => ({ jp: p.jp, kana: p.kana, reading: p.reading, meaning: p.meaning, meaningMs: null, lang: p.source_lang }));
   }
 
