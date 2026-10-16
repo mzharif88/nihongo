@@ -104,6 +104,9 @@ const CONTENT_POS = new Set(["名詞", "動詞", "形容詞", "副詞", "連体�
  * neighbouring tokens may spell a longer known word: がっ + こう = がっこう
  * means the word was split, so the tags would be wrong.
  */
+/** Below this share of kanji among a sentence's letters, it's treated as kana text. */
+const KANJI_SHARE = 0.3;
+
 /** Verbs safe to colour when written in kana. */
 const PLAIN_VERBS = new Set(["ある", "いる", "する", "なる", "くださる", "できる"]);
 
@@ -155,7 +158,10 @@ export async function createRoleTagger(knownKana: Set<string> = new Set()): Prom
     // Text spaced the JLPT way (N5 papers: 「れいぞうこに ケーキが あります」) is mostly kana words, so it's
     // checked as strictly as kana-only text; other text with kanji only for words the tokenizer doesn't know.
     const spaced = /\s/.test(plain);
-    if (!trustKana(tokens, knownKana, hasKanji(plain) && !spaced)) return markup;
+    // Mostly-kana sentences (N5 writes most words in kana) are checked as strictly as kana-only ones.
+    const letters = [...plain].filter((c) => /[ぁ-ヿ㐀-鿿]/.test(c));
+    const kanaHeavy = letters.filter((c) => hasKanji(c)).length < letters.length * KANJI_SHARE;
+    if (!trustKana(tokens, knownKana, hasKanji(plain) && !spaced && !kanaHeavy)) return markup;
     // In spaced text a verb in kana is often a noun misread (みせ 店 as 見せる, よる 夜 as 寄る): only the unmistakable ones pass.
     if (spaced && hasKanji(plain) && tokens.some((t) => t.pos === "動詞" && !hasKanji(t.surface_form) && !PLAIN_VERBS.has(t.basic_form))) return markup;
     const roles = tokenRoles(tokens);

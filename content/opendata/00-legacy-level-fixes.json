@@ -9678,7 +9678,7 @@
     {
      "jp": "彼を知っていますか",
      "en": "Do you know him?",
-     "reading": "⟨o⟩[彼|かれ]⟨/⟩⟨p⟩を⟨/⟩⟨v⟩[知|し]っています⟨/⟩⟨p⟩か⟨/⟩"
+     "reading": "[彼|かれ]を[知|し]っていますか"
     }
    ],
    "skill": "vocabulary",
@@ -10635,7 +10635,7 @@
     {
      "jp": "猫がいます",
      "en": "There is a cat",
-     "reading": "⟨s⟩[猫|ねこ]⟨/⟩⟨p⟩が⟨/⟩⟨v⟩います⟨/⟩"
+     "reading": "[猫|ねこ]がいます"
     }
    ],
    "skill": "vocabulary",
@@ -13543,7 +13543,7 @@
     {
      "jp": "心臓がドキドキ",
      "en": "Heart is racing",
-     "reading": "⟨s⟩[心臓|しんぞう]⟨/⟩⟨p⟩が⟨/⟩ドキドキ"
+     "reading": "[心臓|しんぞう]がドキドキ"
     }
    ],
    "skill": "vocabulary",

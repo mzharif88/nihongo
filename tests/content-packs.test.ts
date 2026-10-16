@@ -228,7 +228,12 @@ describe("grammar colours", () => {
   );
 
   it("are on lesson dialogue with kanji (rerun npm run build:roles after building packs)", () => {
-    const withKanji = lines.filter((l) => /[一-龯]/.test(l.jp));
+    // Mostly-kana lines (N5) stay plain unless every kana word checks out, so count the kanji-rich ones.
+    const kanjiRich = (jp: string) => {
+      const letters = [...jp].filter((c) => /[ぁ-ヿ㐀-鿿]/.test(c));
+      return letters.filter((c) => /[㐀-鿿]/.test(c)).length >= letters.length * 0.3;
+    };
+    const withKanji = lines.filter((l) => /[一-龯]/.test(l.jp) && kanjiRich(l.jp));
     const tagged = withKanji.filter((l) => roleMarks.test(l.reading ?? ""));
     expect(tagged.length / withKanji.length).toBeGreaterThan(0.9);
   });

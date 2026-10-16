@@ -7990,7 +7990,7 @@
         {
           "jp": "心臓がドキドキ",
           "en": "Heart is racing",
-          "reading": "⟨s⟩[心臓|しんぞう]⟨/⟩⟨p⟩が⟨/⟩ドキドキ"
+          "reading": "[心臓|しんぞう]がドキドキ"
         }
       ],
       "skill": "vocabulary",
@@ -8507,7 +8507,7 @@
         {
           "jp": "みそしるを作る",
           "en": "Make miso soup",
-          "reading": "⟨o⟩みそしる⟨/⟩⟨p⟩を⟨/⟩⟨v⟩[作|つく]る⟨/⟩"
+          "reading": "みそしるを[作|つく]る"
         }
       ],
       "skill": "vocabulary",
@@ -10640,7 +10640,7 @@
         {
           "jp": "あとで話そう",
           "en": "Let's talk later",
-          "reading": "あと⟨p⟩で⟨/⟩⟨v⟩[話|はな]そう⟨/⟩"
+          "reading": "あとで[話|はな]そう"
         }
       ],
       "skill": "vocabulary",
@@ -11669,7 +11669,7 @@
         {
           "jp": "彼を知っていますか",
           "en": "Do you know him?",
-          "reading": "⟨o⟩[彼|かれ]⟨/⟩⟨p⟩を⟨/⟩⟨v⟩[知|し]っています⟨/⟩⟨p⟩か⟨/⟩"
+          "reading": "[彼|かれ]を[知|し]っていますか"
         }
       ],
       "skill": "vocabulary",
@@ -12784,7 +12784,7 @@
         {
           "jp": "ネットで調べる",
           "en": "Search on the internet",
-          "reading": "ネット⟨p⟩で⟨/⟩⟨v⟩[調|しら]べる⟨/⟩"
+          "reading": "ネットで[調|しら]べる"
         }
       ],
       "skill": "vocabulary",
@@ -12989,7 +12989,7 @@
         {
           "jp": "ネットで検索する",
           "en": "Search online",
-          "reading": "ネット⟨p⟩で⟨/⟩⟨v⟩[検索|けんさく]する⟨/⟩"
+          "reading": "ネットで[検索|けんさく]する"
         }
       ],
       "skill": "vocabulary",
@@ -13054,7 +13054,7 @@
         {
           "jp": "猫がいます",
           "en": "There is a cat",
-          "reading": "⟨s⟩[猫|ねこ]⟨/⟩⟨p⟩が⟨/⟩⟨v⟩います⟨/⟩"
+          "reading": "[猫|ねこ]がいます"
         }
       ],
       "skill": "vocabulary",
@@ -15372,7 +15372,7 @@
         {
           "jp": "ホワイトボードに書く",
           "en": "Write on whiteboard",
-          "reading": "ホワイトボード⟨p⟩に⟨/⟩⟨v⟩[書|か]く⟨/⟩"
+          "reading": "ホワイトボードに[書|か]く"
         }
       ],
       "skill": "vocabulary",
@@ -15413,7 +15413,7 @@
         {
           "jp": "コピー機でコピーする",
           "en": "Copy with copier",
-          "reading": "コピー[機|き]⟨p⟩で⟨/⟩⟨v⟩コピーする⟨/⟩"
+          "reading": "コピー[機|き]でコピーする"
         }
       ],
       "skill": "vocabulary",
@@ -17016,7 +17016,7 @@
         {
           "jp": "支払いはどうしますか",
           "en": "How would you like to pay?",
-          "reading": "⟨s⟩[支払|しはら]い⟨/⟩⟨p⟩は⟨/⟩どう⟨v⟩します⟨/⟩⟨p⟩か⟨/⟩"
+          "reading": "[支払|しはら]いはどうしますか"
         }
       ],
       "skill": "vocabulary",
@@ -17472,7 +17472,7 @@
         {
           "jp": "そうですね、難しいですね",
           "en": "That's right, it's difficult",
-          "reading": "そうですね、[難|むずか]しい⟨v⟩です⟨/⟩⟨p⟩ね⟨/⟩"
+          "reading": "そうですね、[難|むずか]しいですね"
         }
       ],
       "skill": "vocabulary",
@@ -17492,7 +17492,7 @@
         {
           "jp": "本当にそうですか？",
           "en": "Is that really so?",
-          "reading": "[本当|ほんとう]にそう⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩？"
+          "reading": "[本当|ほんとう]にそうですか？"
         }
       ],
       "skill": "vocabulary",
@@ -17512,7 +17512,7 @@
         {
           "jp": "調子はどう？まあまあかな",
           "en": "How are you? So-so.",
-          "reading": "⟨s⟩[調子|ちょうし]⟨/⟩⟨p⟩は⟨/⟩どう？まあまあ⟨p⟩かな⟨/⟩"
+          "reading": "[調子|ちょうし]はどう？まあまあかな"
         }
       ],
       "skill": "vocabulary",
@@ -17532,7 +17532,7 @@
         {
           "jp": "やばい、遅刻した！",
           "en": "Oh no, I'm late!",
-          "reading": "やばい、⟨v⟩[遅刻|ちこく]した⟨/⟩！"
+          "reading": "やばい、[遅刻|ちこく]した！"
         }
       ],
       "skill": "vocabulary",
@@ -17612,7 +17612,7 @@
         {
           "jp": "えっと、何だったっけ",
           "en": "Um, what was it again...",
-          "reading": "えっ⟨p⟩と⟨/⟩、[何|なん]⟨v⟩だった⟨/⟩⟨p⟩っけ⟨/⟩"
+          "reading": "えっと、[何|なん]だったっけ"
         }
       ],
       "skill": "vocabulary",
@@ -18995,7 +18995,7 @@
         {
           "jp": "ゆっくり話してください",
           "en": "Please speak slowly",
-          "reading": "ゆっくり⟨v⟩[話|はな]してください⟨/⟩"
+          "reading": "ゆっくり[話|はな]してください"
         }
       ],
       "skill": "reading",
@@ -19252,7 +19252,7 @@
       "tags": [
         "jlpt"
       ],
-      "reading": "[明日|あした]⟨p⟩までに⟨/⟩⟨v⟩[終|お]わらせます⟨/⟩。"
+      "reading": "[明日|あした]までに[終|お]わらせます。"
     },
     {
       "slug": "sentence-if-you-have-time-please-come",
@@ -19637,7 +19637,7 @@
         {
           "jp": "ゆっくり話してください",
           "en": "Please speak slowly",
-          "reading": "ゆっくり⟨v⟩[話|はな]してください⟨/⟩"
+          "reading": "ゆっくり[話|はな]してください"
         }
       ],
       "skill": "reading",
@@ -19747,7 +19747,7 @@
         {
           "jp": "顔色が悪いですね。どうしましたか",
           "en": "You look pale. What's wrong?",
-          "reading": "⟨s⟩[顔色|かおいろ]⟨/⟩⟨p⟩が⟨/⟩[悪|わる]い⟨v⟩です⟨/⟩⟨p⟩ね⟨/⟩。どう⟨v⟩しました⟨/⟩⟨p⟩か⟨/⟩"
+          "reading": "[顔色|かおいろ]が[悪|わる]いですね。どうしましたか"
         }
       ],
       "skill": "reading",
@@ -19768,7 +19768,7 @@
         {
           "jp": "試験はいつですか",
           "en": "When is the exam?",
-          "reading": "⟨s⟩[試験|しけん]⟨/⟩⟨p⟩は⟨/⟩⟨v⟩いつです⟨/⟩⟨p⟩か⟨/⟩"
+          "reading": "[試験|しけん]はいつですか"
         }
       ],
       "skill": "reading",
@@ -19833,7 +19833,7 @@
         {
           "jp": "雨かもしれません",
           "en": "It might rain",
-          "reading": "[雨|あめ]⟨p⟩かも⟨/⟩⟨v⟩しれません⟨/⟩"
+          "reading": "[雨|あめ]かもしれません"
         }
       ],
       "skill": "reading",
