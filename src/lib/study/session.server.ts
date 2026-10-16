@@ -4,7 +4,7 @@ import type { Profile } from "@/lib/auth";
 import { fetchAll } from "@/lib/supabase/fetch-all";
 import { dueQueue } from "@/lib/srs/fsrs";
 import { buildCard, type CardType, type StudyCard, type StudyItem } from "./cards";
-import { pickNewItems, SRS_TYPES } from "./curriculum";
+import { phraseWordIds, pickNewItems, SRS_TYPES } from "./curriculum";
 import { studyPace, type Pace } from "./pace";
 import { inTopic, listTopics, pickTopicItems, type Topic } from "./topics";
 import { learnerStage, RECENT, withOptionCount, type Stage } from "./mastery";
@@ -58,7 +58,7 @@ export async function loadStudySession(
   profile: Profile,
   { now = new Date(), topicId = null }: { now?: Date; topicId?: string | null } = {},
 ): Promise<StudySession> {
-  const [items, cards, { data: reviews, error: reviewsError }] = await Promise.all([
+  const [items, cards, { data: reviews, error: reviewsError }, { data: phraseRows }] = await Promise.all([
     fetchAll<ItemRow>((from, to) =>
       supabase
         .from("items")
@@ -81,6 +81,8 @@ export async function loadStudySession(
         .returns<UserItemRow[]>(),
     ),
     supabase.from("reviews").select("grade").eq("user_id", profile.id).order("reviewed_at", { ascending: false }).limit(RECENT),
+    // Words the learner says in their own Newcomer phrases come first.
+    supabase.from("newcomer_phrases").select("words").neq("priority", "paused"),
   ]);
   if (reviewsError) throw new Error(reviewsError.message);
   const byId = new Map(items.map((i) => [i.id, i]));
@@ -111,7 +113,7 @@ export async function loadStudySession(
   const due = topic ? allDue.filter((c) => inTopic(byId.get(c.item_id)!, topic.id)) : allDue;
   const fresh = topic
     ? pickTopicItems(items, topic.id, started, learnedSlugs, NEW_BATCH)
-    : pickNewItems(items, started, learnedSlugs, NEW_BATCH);
+    : pickNewItems(items, started, learnedSlugs, NEW_BATCH, phraseWordIds(items, ((phraseRows ?? []) as { words: string[] }[]).flatMap((r) => r.words)));
 
   const stage = learnerStage(learnedSlugs.size, (reviews as { grade: number }[]).map((r) => r.grade));
   return {

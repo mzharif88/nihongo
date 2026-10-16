@@ -60,19 +60,54 @@ export const gatingPrerequisites = (item: Pick<CurriculumItem, "prerequisites">)
 /**
  * Pick the next `limit` items to introduce: not started yet, every
  * prerequisite learned (its recognition card has reached Review), in
- * curriculum order.
+ * curriculum order. Items in `first` (words from the learner's own
+ * Newcomer phrases) jump ahead of everything but kana, which every answer
+ * is written in.
  */
 export function pickNewItems<T extends CurriculumItem>(
   candidates: T[],
   started: Set<string>,
   learnedSlugs: Set<string>,
   limit: number,
+  first: Set<string> = new Set(),
 ): T[] {
   if (limit <= 0) return [];
+  const band = (i: T) => (i.type === "kana" ? 0 : first.has(i.id) ? 1 : 2);
   return candidates
     // Radicals only come through their own topic.
     .filter((i) => SRS_TYPES.includes(i.type) && i.type !== "radical" && !started.has(i.id))
     .filter((i) => gatingPrerequisites(i).every((p) => learnedSlugs.has(p)))
-    .sort(compareCurriculum)
+    .sort((a, b) => band(a) - band(b) || compareCurriculum(a, b))
     .slice(0, limit);
+}
+
+/** A word's spellings as written: "会う", "〜時間" → 時間, "いく; ゆく" → both. */
+const spellings = (term: string) =>
+  term
+    .replace(/\s*[(（].*?[)）]\s*/g, "")
+    .split(/[;；、,]/)
+    .map((t) => t.replace(/[〜～\s]/g, "").trim())
+    .filter(Boolean);
+const KANA_WORD = /^[ぁ-ゖァ-ヺー]+$/;
+
+/**
+ * Word items matching the dictionary forms a learner's phrases use. A
+ * spelling must match; a word given in kana also matches by reading, but
+ * only when that reading names a single word (はし could be 箸 or 橋).
+ */
+export function phraseWordIds(items: (CurriculumItem & { reading?: string | null })[], words: string[]): Set<string> {
+  const wordItems = items.filter((i) => i.type === "word");
+  const bySpelling = new Map<string, string[]>();
+  const byReading = new Map<string, string[]>();
+  for (const i of wordItems) {
+    for (const s of spellings(i.term)) bySpelling.set(s, [...(bySpelling.get(s) ?? []), i.id]);
+    for (const r of spellings(i.reading ?? "")) byReading.set(r, [...(byReading.get(r) ?? []), i.id]);
+  }
+  const ids = new Set<string>();
+  for (const w of words) {
+    const exact = bySpelling.get(w);
+    if (exact) exact.forEach((id) => ids.add(id));
+    else if (KANA_WORD.test(w) && byReading.get(w)?.length === 1) ids.add(byReading.get(w)![0]);
+  }
+  return ids;
 }

@@ -35,6 +35,7 @@ const SavePhrase = z.object({
   jp: z.string().min(1).max(200),
   reading: z.string().min(1).max(600),
   kana: z.string().min(1).max(300),
+  words: z.array(z.string().max(20)).max(15).default([]),
   cost: z.number().min(0).max(1),
 });
 
@@ -76,7 +77,7 @@ export async function editPhrase(id: string, source: string): Promise<Preview> {
   const p = kept[0];
   const { error } = await supabase
     .from("newcomer_phrases")
-    .update({ source: p.source, source_lang: p.source_lang, meaning: p.meaning, jp: p.jp, reading: p.reading, kana: p.kana })
+    .update({ source: p.source, source_lang: p.source_lang, meaning: p.meaning, jp: p.jp, reading: p.reading, kana: p.kana, words: p.words })
     .eq("id", z.string().uuid().parse(id));
   if (error) throw new Error(error.message);
   return { ...p, cost };

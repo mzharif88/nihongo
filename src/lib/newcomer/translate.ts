@@ -16,6 +16,7 @@ export const Translation = z.object({
       meaning: z.string(),
       jp: z.string(),
       reading: z.string(),
+      words: z.array(z.string()),
     }),
   ),
 });
@@ -28,6 +29,7 @@ The learner is a Malaysian adult beginner. Each input line is in English or Mala
 - "meaning": the line tidied up in that same language (fix typos and spelling; keep its meaning and tone). Don't translate it.
 - "jp": what a Japanese person would naturally say in that situation, in polite form (です/ます; requests with ください or お願いします). Natural word choice over word-for-word. Kanji where a native would write them. One or two sentences, ending with 。 or ？.
 - "reading": "jp" with every run of kanji written as [漢字|かな], for example [日本語|にほんご]を[勉強|べんきょう]しています。 Everything outside the brackets is copied exactly, so removing the readings gives back "jp" character for character. Use the reading that fits the context.
+- "words": the dictionary form of each content word in "jp" (nouns, verbs, adjectives, adverbs; not particles, です or ます), written as a dictionary writes them: 食べました → 食べる, 行きたい → 行く, 好き → 好き, コーヒー → コーヒー. Leave out names and numbers.
 - "index": the line's number as given.
 
 If a line isn't a sentence someone would say (a single English word, say), still give the most useful polite phrase for it.`;
@@ -48,6 +50,8 @@ export interface CheckedPhrase {
   jp: string;
   reading: string;
   kana: string;
+  /** Dictionary forms of the content words used (食べる, コーヒー), to match the word list. */
+  words: string[];
 }
 
 /** Keep translations that are well formed: furigana spell the sentence, the kana version has no kanji left. */
@@ -63,10 +67,16 @@ export function acceptTranslations(lines: string[], out: Translation): { kept: C
     const ok = jp && (!/[㐀-鿿]/.test(jp) || isMarkup(reading)) && stripMarkup(reading) === jp && !/[㐀-鿿A-Za-z]/.test(kana) && p.meaning.trim();
     if (!ok) continue;
     done.add(p.index);
-    kept.push({ source, source_lang: p.lang, meaning: p.meaning.trim(), jp, reading, kana });
+    kept.push({ source, source_lang: p.lang, meaning: p.meaning.trim(), jp, reading, kana, words: cleanWords(p.words) });
   }
   return { kept, failed: lines.filter((_, i) => !done.has(i)) };
 }
+
+const MAX_WORDS = 15;
+
+/** Japanese words only, trimmed, unique, at most MAX_WORDS. */
+export const cleanWords = (words: string[]) =>
+  [...new Set(words.map((w) => w.trim()).filter((w) => w.length > 0 && w.length <= 20 && /^[ぁ-ゖァ-ヺー々〆㐀-鿿]+$/.test(w)))].slice(0, MAX_WORDS);
 
 /** Lines from a box of text: one phrase per line, blanks dropped, at most MAX_LINES. */
 export const splitLines = (text: string) =>

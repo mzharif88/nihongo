@@ -96,14 +96,16 @@ describe("translations", () => {
     const lines = ["I like coffee.", "Saya nak balik.", "broken"];
     const { kept, failed } = acceptTranslations(lines, {
       phrases: [
-        { index: 0, lang: "en", meaning: "I like coffee.", jp: "コーヒーが好きです。", reading: "コーヒーが[好|す]きです。" },
-        { index: 1, lang: "ms", meaning: "Saya nak balik.", jp: "帰ります。", reading: "[帰|かえ]ります。" },
+        { index: 0, lang: "en", meaning: "I like coffee.", jp: "コーヒーが好きです。", reading: "コーヒーが[好|す]きです。", words: ["コーヒー", " 好き ", "coffee", "好き"] },
+        { index: 1, lang: "ms", meaning: "Saya nak balik.", jp: "帰ります。", reading: "[帰|かえ]ります。", words: ["帰る"] },
         // The reading doesn't spell the sentence: dropped.
-        { index: 2, lang: "en", meaning: "Broken.", jp: "壊れました。", reading: "[壊|こわ]れます。" },
+        { index: 2, lang: "en", meaning: "Broken.", jp: "壊れました。", reading: "[壊|こわ]れます。", words: [] },
       ],
     });
     expect(kept.map((k) => k.kana)).toEqual(["コーヒーがすきです。", "かえります。"]);
     expect(kept[1].source_lang).toBe("ms");
+    // Words are kept Japanese-only and unique, for matching the word list.
+    expect(kept[0].words).toEqual(["コーヒー", "好き"]);
     expect(failed).toEqual(["broken"]);
   });
 

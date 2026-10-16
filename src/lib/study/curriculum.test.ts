@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { pickNewItems, type CurriculumItem } from "./curriculum";
+import { phraseWordIds, pickNewItems, type CurriculumItem } from "./curriculum";
 
 let n = 0;
 const item = (p: Partial<CurriculumItem>): CurriculumItem => ({
@@ -65,5 +65,28 @@ describe("pickNewItems", () => {
     const greet = item({ type: "word", jlpt_level: "N5", term: "b", topic: "Greetings & Basics" });
     const odd = item({ type: "word", jlpt_level: "N5", term: "c", topic: "Something new" });
     expect(pickNewItems([odd, food, greet], new Set(), new Set(), 3)).toEqual([greet, food, odd]);
+  });
+});
+
+describe("words from the learner's own phrases", () => {
+  const words = [
+    item({ type: "word", jlpt_level: "N5", term: "会う", slug: "au" }),
+    item({ type: "word", jlpt_level: "N4", term: "届ける", slug: "todokeru" }),
+    item({ type: "word", jlpt_level: "N5", term: "コーヒー", slug: "coffee" }),
+    { ...item({ type: "word", jlpt_level: "N5", term: "箸", slug: "hashi-chopsticks" }), reading: "はし" },
+    { ...item({ type: "word", jlpt_level: "N5", term: "橋", slug: "hashi-bridge" }), reading: "はし" },
+    { ...item({ type: "word", jlpt_level: "N5", term: "大丈夫", slug: "daijoubu" }), reading: "だいじょうぶ" },
+  ];
+  const kana = item({ term: "あ", tags: ["hiragana", "basic"] });
+
+  it("match by spelling, or by a reading that names one word", () => {
+    const ids = phraseWordIds(words, ["届ける", "コーヒー", "はし", "だいじょうぶ"]);
+    expect(words.filter((w) => ids.has(w.id)).map((w) => w.slug)).toEqual(["todokeru", "coffee", "daijoubu"]);
+  });
+
+  it("jump ahead of other words and levels, but not ahead of kana", () => {
+    const first = phraseWordIds(words, ["届ける"]);
+    // 届ける is N4, yet it comes before every N5 word.
+    expect(pickNewItems([...words, kana], new Set(), new Set(), 2, first).map((i) => i.slug)).toEqual([kana.slug, "todokeru"]);
   });
 });

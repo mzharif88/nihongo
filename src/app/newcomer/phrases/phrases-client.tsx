@@ -169,7 +169,7 @@ export function PhrasesClient({ initial, canTranslate }: { initial: PhraseRow[];
           onEdit={(source) =>
             run(async () => {
               const p = await editPhrase(open.id, source);
-              update(open.id, { source: p.source, source_lang: p.source_lang, meaning: p.meaning, jp: p.jp, reading: p.reading, kana: p.kana });
+              update(open.id, { source: p.source, source_lang: p.source_lang, meaning: p.meaning, jp: p.jp, reading: p.reading, kana: p.kana, words: p.words });
             })
           }
           onDelete={() =>
@@ -266,6 +266,12 @@ function PhraseSheet({
             {p.last_reviewed_at ? ` · last recalled ${new Date(p.last_reviewed_at).toLocaleDateString()}` : ""}
           </p>
         </div>
+
+        {p.words.length > 0 && (
+          <p className="mt-4 text-xs text-muted">
+            Words from this phrase that are on the JLPT N5–N2 lists come first in Study everything.
+          </p>
+        )}
 
         <div className="mt-6 rounded-xl border border-border p-3">
           <div className="text-xs text-muted">You wrote ({p.source_lang === "ms" ? "Malay" : "English"})</div>
