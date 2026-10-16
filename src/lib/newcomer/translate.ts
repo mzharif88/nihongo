@@ -24,10 +24,10 @@ export type Translation = z.infer<typeof Translation>;
 
 export const SYSTEM_PROMPT = `You translate sentences from a learner's daily life into the Japanese they would actually say, so they can practise speaking it.
 
-The learner is a Malaysian adult beginner. Each input line is in English or Malay (possibly with typos or mixed). For each line:
+The learner is a Malaysian adult beginner. Each input line is in English or Malay (possibly with typos or mixed). A line may start with who they're talking to, or where or when, before a colon ("to my boss: can I leave early today?", "kat klinik: saya demam sejak semalam"). That part is context, not something to say: use it to choose the words, and don't translate it into "jp". For each line:
 - "lang": "en" or "ms", the language it is written in.
-- "meaning": the line tidied up in that same language (fix typos and spelling; keep its meaning and tone). Don't translate it.
-- "jp": what a Japanese person would naturally say in that situation, in polite form (です/ます; requests with ください or お願いします). Natural word choice over word-for-word. Kanji where a native would write them. One or two sentences, ending with 。 or ？.
+- "meaning": the line tidied up in that same language (fix typos and spelling; keep its meaning and tone). Don't translate it. Keep any context as a short lead-in in brackets: "(To my boss) Can I leave early today?".
+- "jp": what a Japanese person would naturally say in that situation, in polite form (です/ます; requests with ください or お願いします). Translate what they mean, not the words: "please make me coffee" is コーヒーをお願いします or コーヒーを入れてください, not コーヒーを作ってください. Kanji where a native would write them. One or two sentences, ending with 。 or ？.
 - "reading": "jp" with every run of kanji written as [漢字|かな], for example [日本語|にほんご]を[勉強|べんきょう]しています。 Everything outside the brackets is copied exactly, so removing the readings gives back "jp" character for character. Use the reading that fits the context.
 - "words": the dictionary form of each content word in "jp" (nouns, verbs, adjectives, adverbs; not particles, です or ます), written as a dictionary writes them: 食べました → 食べる, 行きたい → 行く, 好き → 好き, コーヒー → コーヒー. Leave out names and numbers.
 - "index": the line's number as given.

@@ -74,14 +74,14 @@ export function PhrasesClient({ initial, canTranslate, spend: initialSpend }: { 
         <label htmlFor="new-phrase" className="text-sm font-medium">
           Something you say in your day
         </label>
-        <p className="text-xs text-muted">English or Malay. Put each sentence on its own line to add several at once.</p>
+        <p className="text-xs text-muted">English or Malay. Put each sentence on its own line to add several at once. To set the scene, start with who or where and a colon.</p>
         <textarea
           id="new-phrase"
           value={text}
           onChange={(e) => setText(e.target.value)}
           rows={3}
           maxLength={6000}
-          placeholder={"I'm going to the office now.\nSaya nak minum kopi."}
+          placeholder={"I'm going to the office now.\nto my boss: can I leave early today?\nkat kedai: saya nak beli ini."}
           className="mt-2 w-full rounded-lg border border-border bg-background p-2 text-base"
         />
         {!canTranslate && <p className="mt-1 text-xs text-amber-600">Translation needs the Claude API key set in Vercel.</p>}
