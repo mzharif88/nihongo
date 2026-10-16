@@ -21,13 +21,15 @@ export type PhraseRow = {
   created_at: string;
   /** Dictionary words the phrase uses; they come first in Study everything. */
   words: string[];
+  /** What translating this phrase cost (USD; numeric comes back as a string). */
+  cost_usd: number | string;
 };
 type ProgressRow = { phrase_slug: string; right_count: number; wrong_count: number; streak: number; due_at: string; last_reviewed_at: string | null };
 
 /** A starter phrase as a recall item also carries its Malay meaning, so the page can show either. */
 export type StarterRecallPhrase = RecallPhrase & { meaningMs: string; stage: number };
 
-export const PHRASE_COLUMNS = "id, source, source_lang, meaning, jp, reading, kana, priority, right_count, wrong_count, streak, due_at, last_reviewed_at, created_at, words";
+export const PHRASE_COLUMNS = "id, source, source_lang, meaning, jp, reading, kana, priority, right_count, wrong_count, streak, due_at, last_reviewed_at, created_at, words, cost_usd";
 
 export async function loadMyPhrases(supabase: SupabaseClient): Promise<PhraseRow[]> {
   const { data, error } = await supabase

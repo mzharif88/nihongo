@@ -23,7 +23,7 @@ export interface Preview extends CheckedPhrase {
  * checks, then saves. Problems come back as `error` (a thrown message would
  * be hidden in production).
  */
-export async function translatePreview(text: string): Promise<{ phrases: Preview[]; failed: string[]; error?: string }> {
+export async function translatePreview(text: string): Promise<{ phrases: Preview[]; failed: string[]; cost?: number; error?: string }> {
   const { supabase } = await requireUser();
   const lines = splitLines(z.string().max(6000).parse(text));
   if (!lines.length) return { phrases: [], failed: [], error: "Type a sentence first." };
@@ -31,7 +31,7 @@ export async function translatePreview(text: string): Promise<{ phrases: Preview
   try {
     const { kept, failed, cost } = await translateLines(supabase, lines);
     const share = kept.length ? cost / kept.length : 0;
-    return { phrases: kept.map((p) => ({ ...p, cost: share })), failed };
+    return { phrases: kept.map((p) => ({ ...p, cost: share })), failed, cost };
   } catch (e) {
     console.error("translatePreview", e);
     return { phrases: [], failed: [], error: friendlyAiError(e) };
@@ -84,7 +84,7 @@ export async function editPhrase(id: string, source: string): Promise<Preview | 
   const line = z.string().min(1).max(300).parse(source.trim());
   let result: Awaited<ReturnType<typeof translateLines>>;
   try {
-    result = await translateLines(supabase, [line]);
+    result = await translateLines(supabase, [line], "edit");
   } catch (e) {
     console.error("editPhrase", e);
     return { error: friendlyAiError(e) };

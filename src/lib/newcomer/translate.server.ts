@@ -11,18 +11,34 @@ export function newcomerBudget(): number {
   return Number.isFinite(v) && v > 0 ? v : 5;
 }
 
-async function spentThisMonth(supabase: SupabaseClient, now = new Date()): Promise<number> {
+export interface Spend {
+  /** USD spent on translations this calendar month (UTC). */
+  month: number;
+  /** USD spent ever. */
+  total: number;
+  /** The monthly cap. */
+  budget: number;
+}
+
+/** What the learner has spent on Claude translations, from the spend log (kept when phrases are deleted). */
+export async function loadSpend(supabase: SupabaseClient, now = new Date()): Promise<Spend> {
   const start = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), 1)).toISOString();
-  const { data, error } = await supabase.from("newcomer_phrases").select("cost_usd").gte("created_at", start);
+  const { data, error } = await supabase.from("newcomer_ai_spend").select("cost_usd, created_at");
   if (error) throw new Error(error.message);
-  return (data as { cost_usd: number | string }[]).reduce((n, r) => n + Number(r.cost_usd), 0);
+  const rows = data as { cost_usd: number | string; created_at: string }[];
+  const sum = (r: typeof rows) => r.reduce((n, x) => n + Number(x.cost_usd), 0);
+  return { month: sum(rows.filter((r) => r.created_at >= start)), total: sum(rows), budget: newcomerBudget() };
 }
 
 /** Translate the learner's lines with Claude; returns the checked phrases, what failed, and the cost of the call. */
-export async function translateLines(supabase: SupabaseClient, lines: string[]): Promise<{ kept: CheckedPhrase[]; failed: string[]; cost: number }> {
+export async function translateLines(
+  supabase: SupabaseClient,
+  lines: string[],
+  kind: "add" | "edit" = "add",
+): Promise<{ kept: CheckedPhrase[]; failed: string[]; cost: number }> {
   if (!aiConfigured()) throw new Error("Translation isn't switched on yet: ANTHROPIC_API_KEY needs adding in Vercel.");
   const budget = newcomerBudget();
-  if ((await spentThisMonth(supabase)) >= budget) throw new Error(`This month's translation budget ($${budget.toFixed(2)}) is used up.`);
+  if ((await loadSpend(supabase)).month >= budget) throw new Error(`This month's translation budget ($${budget.toFixed(2)}) is used up.`);
 
   const client = anthropicClient();
   const response = await client.beta.messages.parse({
@@ -34,8 +50,11 @@ export async function translateLines(supabase: SupabaseClient, lines: string[]):
     system: SYSTEM_PROMPT,
     messages: [{ role: "user", content: userPrompt(lines) }],
   });
+  const cost = costUsd(response.model, response.usage.input_tokens, response.usage.output_tokens);
+  // Log the spend whether or not every line came back usable: the call was paid for.
+  const { error: spendError } = await supabase.from("newcomer_ai_spend").insert({ kind, lines: lines.length, cost_usd: cost });
+  if (spendError) console.error("newcomer_ai_spend", spendError.message);
   if (response.stop_reason === "refusal") throw new Error("The translation was declined. Try rewording the sentence.");
   if (!response.parsed_output) throw new Error(`No usable translation (stopped: ${response.stop_reason}).`);
-  const cost = costUsd(response.model, response.usage.input_tokens, response.usage.output_tokens);
   return { ...acceptTranslations(lines, response.parsed_output), cost };
 }

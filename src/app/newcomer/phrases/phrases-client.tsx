@@ -3,16 +3,22 @@
 import { useMemo, useState, useTransition } from "react";
 import { mastery, PRIORITIES, type Priority } from "@/lib/newcomer/recall";
 import type { PhraseRow } from "@/lib/newcomer/newcomer.server";
+import type { Spend } from "@/lib/newcomer/translate.server";
 import { deletePhrase, editPhrase, restorePhrase, savePhrases, setPriority, translatePreview } from "../actions";
 import { Japanese, MasteryBar, PlayButton, ScriptToggle } from "../ui";
 
 const ORDER: Record<Priority, number> = { priority: 0, normal: 1, less: 2, paused: 3 };
 const SEARCH_FROM = 8;
 
-export function PhrasesClient({ initial, canTranslate }: { initial: PhraseRow[]; canTranslate: boolean }) {
+/** A small USD amount: $0.0042 below a cent, $0.12 above. */
+export const usd = (n: number) => `$${n < 0.01 ? n.toFixed(4) : n.toFixed(2)}`;
+
+export function PhrasesClient({ initial, canTranslate, spend: initialSpend }: { initial: PhraseRow[]; canTranslate: boolean; spend: Spend }) {
   const [phrases, setPhrases] = useState(initial);
+  const [spend, setSpend] = useState(initialSpend);
+  const addSpend = (cost: number) => setSpend((s) => ({ ...s, month: s.month + cost, total: s.total + cost }));
   const [text, setText] = useState("");
-  const [added, setAdded] = useState<{ count: number; failed: string[] } | null>(null);
+  const [added, setAdded] = useState<{ count: number; failed: string[]; cost: number } | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [pending, start] = useTransition();
   const [query, setQuery] = useState("");
@@ -44,9 +50,10 @@ export function PhrasesClient({ initial, canTranslate }: { initial: PhraseRow[];
       setAdded(null);
       const result = await translatePreview(text);
       if (result.error) throw new Error(result.error);
+      addSpend(result.cost ?? 0);
       const saved = result.phrases.length ? await savePhrases(result.phrases) : [];
       setPhrases((list) => [...saved, ...list]);
-      setAdded({ count: saved.length, failed: result.failed });
+      setAdded({ count: saved.length, failed: result.failed, cost: result.cost ?? 0 });
       // Keep the lines that didn't translate in the box, so they can be reworded.
       setText(result.failed.join("\n"));
     });
@@ -88,13 +95,16 @@ export function PhrasesClient({ initial, canTranslate }: { initial: PhraseRow[];
         </button>
         {added && added.count > 0 && (
           <p className="mt-2 text-sm text-green-700 dark:text-green-400">
-            Added {added.count} {added.count === 1 ? "phrase" : "phrases"} in Japanese. Tap one below to hear it, edit it or delete it.
+            Added {added.count} {added.count === 1 ? "phrase" : "phrases"} in Japanese (AI cost {usd(added.cost)}). Tap one below to hear it, edit it or delete it.
           </p>
         )}
         {added && added.failed.length > 0 && (
           <p className="mt-1 text-xs text-amber-600">Couldn&apos;t translate {added.failed.length === 1 ? "this line" : "these lines"}, left in the box: reword and try again.</p>
         )}
         {error && <p className="mt-2 text-sm text-red-600">{error}</p>}
+        <p className="mt-3 border-t border-border pt-2 text-xs text-muted">
+          AI spend: {usd(spend.month)} this month of {usd(spend.budget)} · {usd(spend.total)} in total
+        </p>
       </section>
 
       {phrases.length >= SEARCH_FROM && (
@@ -139,6 +149,7 @@ export function PhrasesClient({ initial, canTranslate }: { initial: PhraseRow[];
             run(async () => {
               const p = await editPhrase(open.id, source);
               if ("error" in p) throw new Error(p.error);
+              addSpend(p.cost);
               update(open.id, { source: p.source, source_lang: p.source_lang, meaning: p.meaning, jp: p.jp, reading: p.reading, kana: p.kana, words: p.words });
             })
           }
@@ -186,8 +197,11 @@ function PhraseItem({ p, onOpen }: { p: PhraseRow; onOpen: () => void }) {
         </div>
         <Japanese kana={p.kana} jp={p.jp} reading={p.reading} className="block text-lg" />
         <div className="truncate text-sm text-muted">{p.meaning}</div>
-        <div className="mt-1">
-          <MasteryBar score={mastery(p.right_count, p.wrong_count)} />
+        <div className="mt-1 flex items-center gap-2">
+          <div className="flex-1">
+            <MasteryBar score={mastery(p.right_count, p.wrong_count)} />
+          </div>
+          {Number(p.cost_usd) > 0 && <span className="text-[10px] text-muted">{usd(Number(p.cost_usd))}</span>}
         </div>
       </button>
       <PlayButton text={p.jp} />
@@ -233,6 +247,7 @@ function PhraseSheet({
           <MasteryBar score={mastery(p.right_count, p.wrong_count)} />
           <p className="mt-1 text-xs text-muted">
             {p.right_count} right · {p.wrong_count} wrong
+            {Number(p.cost_usd) > 0 ? ` · AI cost ${usd(Number(p.cost_usd))}` : ""}
             {p.last_reviewed_at ? ` · last recalled ${new Date(p.last_reviewed_at).toLocaleDateString()}` : ""}
           </p>
         </div>
