@@ -104,6 +104,13 @@ function sentences(c: Content): { file: string; slug: string; level: string; tex
     }
   }
   for (const l of c.newcomer ?? []) out.push({ file: l.file, slug: l.slug, level: "", text: l.jp, reading: l.reading });
+  // Graded reading passages, sentence by sentence (their furigana is markup inside the body).
+  for (const { file, r } of records(c, "texts")) {
+    if (r.kind !== "reading") continue;
+    for (const sentence of String(r.body).split(/(?<=[。！？])|\n/)) {
+      if (stripMarkup(sentence).trim()) out.push({ file, slug: r.slug, level: String(r.jlpt_level ?? ""), text: stripMarkup(sentence).trim(), reading: isMarkup(sentence) ? sentence.trim() : undefined });
+    }
+  }
   return out;
 }
 
@@ -396,6 +403,22 @@ export const RULES: Rule[] = [
       }
       return out;
     },
+  },
+
+  {
+    id: "reading-text-length",
+    severity: "warning",
+    title: "Graded reading texts are within the level's official passage lengths",
+    why: "A practice text much shorter or longer than any passage on that level's paper trains the wrong reading stamina.",
+    check: (c) =>
+      records(c, "texts").flatMap(({ file, r }) => {
+        const targets = Object.values(PASSAGE[String(r.jlpt_level)] ?? {});
+        if (r.kind !== "reading" || !targets.length) return [];
+        const lo = Math.min(...targets.map(([a]) => a)) * (1 - PASSAGE_TOLERANCE);
+        const hi = Math.max(...targets.map(([, b]) => b)) * (1 + PASSAGE_TOLERANCE);
+        const n = plainLength(String(r.body));
+        return n < lo || n > hi ? [{ rule: "reading-text-length", file, slug: r.slug, message: `${r.jlpt_level}: ${n} characters, official ${Math.round(lo)}–${Math.round(hi)}` }] : [];
+      }),
   },
 
   // ── Beginner friendliness ──────────────────────────────────────────

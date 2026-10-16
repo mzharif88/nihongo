@@ -257,6 +257,516 @@
    "answer": 2,
    "explanation": "[来年|らいねん]は [日本|にほん]の [大学|だいがく]に [入|はい]りたいです.",
    "item_slugs": []
+  },
+  {
+   "slug": "reading-n5-06-memo-q1",
+   "text_slug": "reading-n5-06-memo",
+   "position": 1,
+   "jlpt_level": "N5",
+   "section": "reading",
+   "prompt": "マヤさんは [何時|なんじ]ごろ うちに かえりますか。",
+   "options": [
+    "[午後|ごご] [三時|さんじ]ごろ",
+    "よる [七時|しちじ]ごろ",
+    "よる [九時|くじ]ごろ",
+    "よる [十一時|じゅういちじ]ごろ"
+   ],
+   "answer": 2,
+   "explanation": "よる [九時|くじ]ごろ かえります = she'll be home around 9 p.m.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n5-06-memo-q2",
+   "text_slug": "reading-n5-06-memo",
+   "position": 2,
+   "jlpt_level": "N5",
+   "section": "reading",
+   "prompt": "リナさんは ケーキを いくつ [食|た]べますか。",
+   "options": [
+    "[一|ひと]つ",
+    "[二|ふた]つ",
+    "[三|みっ]つ",
+    "[食|た]べません。"
+   ],
+   "answer": 0,
+   "explanation": "ケーキが [二|ふた]つ あります。[一|ひと]つ [食|た]べて ください。= there are two; eat one.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n5-06-memo-q3",
+   "text_slug": "reading-n5-06-memo",
+   "position": 3,
+   "jlpt_level": "N5",
+   "section": "reading",
+   "prompt": "リナさんは [午後|ごご] [何|なに]を しますか。",
+   "options": [
+    "アルバイトに [行|い]きます。",
+    "ケーキを かいます。",
+    "せんたくものを [中|なか]に [入|い]れます。",
+    "かさを かいに [行|い]きます。"
+   ],
+   "answer": 2,
+   "explanation": "[午後|ごご]は [雨|あめ]が ふります。せんたくものを [中|なか]に [入|い]れて ください。= it will rain, so bring the washing in.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n5-07-mise-q1",
+   "text_slug": "reading-n5-07-mise",
+   "position": 1,
+   "jlpt_level": "N5",
+   "section": "reading",
+   "prompt": "こんしゅう、みせが [休|やす]みの [日|ひ]は いつですか。",
+   "options": [
+    "[火|か]よう[日|び]と [水|すい]よう[日|び]",
+    "[水|すい]よう[日|び]と [木|もく]よう[日|び]",
+    "[月|げつ]よう[日|び]と [木|もく]よう[日|び]",
+    "[月|げつ]よう[日|び]と [火|か]よう[日|び]"
+   ],
+   "answer": 3,
+   "explanation": "こんしゅうの [月|げつ]よう[日|び]と [火|か]よう[日|び]は [休|やす]みです。",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n5-07-mise-q2",
+   "text_slug": "reading-n5-07-mise",
+   "position": 2,
+   "jlpt_level": "N5",
+   "section": "reading",
+   "prompt": "[水|すい]よう[日|び]は [何時|なんじ]から みせが あきますか。",
+   "options": [
+    "あさ [七時|しちじ]",
+    "[午前|ごぜん] [十一時|じゅういちじ]",
+    "[午後|ごご] [七時|しちじ]",
+    "よる [十一時|じゅういちじ]"
+   ],
+   "answer": 1,
+   "explanation": "[水|すい]よう[日|び]は [午前|ごぜん] [十一時|じゅういちじ]から みせを あけます。",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n5-07-mise-q3",
+   "text_slug": "reading-n5-07-mise",
+   "position": 3,
+   "jlpt_level": "N5",
+   "section": "reading",
+   "prompt": "[木|もく]よう[日|び]、みせは [何時|なんじ]までですか。",
+   "options": [
+    "あさ [七時|しちじ]",
+    "[午前|ごぜん] [十一時|じゅういちじ]",
+    "よる [七時|しちじ]",
+    "よる [十一時|じゅういちじ]"
+   ],
+   "answer": 2,
+   "explanation": "[木|もく]よう[日|び]からは いつもと おなじです。あさ [七時|しちじ]から よる [七時|しちじ]までです。",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n5-08-osoku-q1",
+   "text_slug": "reading-n5-08-osoku",
+   "position": 1,
+   "jlpt_level": "N5",
+   "section": "reading",
+   "prompt": "ケンさんは [何時|なんじ]ごろ えきに つきますか。",
+   "options": [
+    "[九時半|くじはん]ごろ",
+    "[十時|じゅうじ]ごろ",
+    "[十|じゅう][時半|じはん]ごろ",
+    "[十一時|じゅういちじ]ごろ"
+   ],
+   "answer": 2,
+   "explanation": "えきには [十|じゅう][時半|じはん]ごろ つきます。",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n5-08-osoku-q2",
+   "text_slug": "reading-n5-08-osoku",
+   "position": 2,
+   "jlpt_level": "N5",
+   "section": "reading",
+   "prompt": "ケンさんは どうして おそく なりますか。",
+   "options": [
+    "けさ おそく おきましたから",
+    "[電車|でんしゃ]が [来|き]ませんから",
+    "[雨|あめ]が ふって いますから",
+    "きっさてんに [行|い]きましたから"
+   ],
+   "answer": 0,
+   "explanation": "けさ おそく おきました。= he got up late this morning.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n5-08-osoku-q3",
+   "text_slug": "reading-n5-08-osoku",
+   "position": 3,
+   "jlpt_level": "N5",
+   "section": "reading",
+   "prompt": "アミンさんは どこで ケンさんを まちますか。",
+   "options": [
+    "えきの [中|なか]",
+    "ケンさんの うち",
+    "[電車|でんしゃ]の [中|なか]",
+    "えきの [前|まえ]の きっさてん"
+   ],
+   "answer": 3,
+   "explanation": "えきの [前|まえ]の きっさてんに [入|はい]って、まって ください。",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n5-09-tesuto-q1",
+   "text_slug": "reading-n5-09-tesuto",
+   "position": 1,
+   "jlpt_level": "N5",
+   "section": "reading",
+   "prompt": "テストは [何時|なんじ]に おわりますか。",
+   "options": [
+    "[九時|くじ]",
+    "[十時|じゅうじ]",
+    "[十|じゅう][時半|じはん]",
+    "[十|じゅう][一|いち][時半|じはん]"
+   ],
+   "answer": 2,
+   "explanation": "[九時|くじ]から [十|じゅう][時半|じはん]までです。= it runs from 9:00 to 10:30.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n5-09-tesuto-q2",
+   "text_slug": "reading-n5-09-tesuto",
+   "position": 2,
+   "jlpt_level": "N5",
+   "section": "reading",
+   "prompt": "あした [学生|がくせい]は [何|なに]を もって [行|い]きますか。",
+   "options": [
+    "えんぴつと けしゴム",
+    "じしょ",
+    "えんぴつと じしょ",
+    "ひるごはん"
+   ],
+   "answer": 0,
+   "explanation": "えんぴつと けしゴムを もって [来|き]て ください。じしょは いりません。",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n5-09-tesuto-q3",
+   "text_slug": "reading-n5-09-tesuto",
+   "position": 3,
+   "jlpt_level": "N5",
+   "section": "reading",
+   "prompt": "テストの [後|あと]で [何|なに]を しますか。",
+   "options": [
+    "かんじを べんきょうします。",
+    "みんなで ひるごはんを [食|た]べます。",
+    "じしょを かいます。",
+    "うちへ かえります。"
+   ],
+   "answer": 1,
+   "explanation": "テストの [後|あと]で、みんなで ひるごはんを [食|た]べましょう。",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n5-10-yuki-q1",
+   "text_slug": "reading-n5-10-yuki",
+   "position": 1,
+   "jlpt_level": "N5",
+   "section": "reading",
+   "prompt": "[二人|ふたり]は [外|そと]で [何|なに]を しましたか。",
+   "options": [
+    "ココアを のみました。",
+    "ゆきだるまを つくりました。",
+    "コートを かいました。",
+    "まどを [見|み]ました。"
+   ],
+   "answer": 1,
+   "explanation": "[二人|ふたり]で [小|ちい]さい ゆきだるまを つくりました。The cocoa was inside the café.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n5-10-yuki-q2",
+   "text_slug": "reading-n5-10-yuki",
+   "position": 2,
+   "jlpt_level": "N5",
+   "section": "reading",
+   "prompt": "ゆかさんは [何|なん]と いいましたか。",
+   "options": [
+    "らいしゅうは もっと ふります。",
+    "ゆきは つめたいです。",
+    "ココアを のみましょう。",
+    "コートを かいましょう。"
+   ],
+   "answer": 0,
+   "explanation": "ゆかさんは 「らいしゅうは もっと ふりますよ。」と いいました。",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n5-10-yuki-q3",
+   "text_slug": "reading-n5-10-yuki",
+   "position": 3,
+   "jlpt_level": "N5",
+   "section": "reading",
+   "prompt": "この [人|ひと]は あした [何|なに]を しますか。",
+   "options": [
+    "ゆきで あそびます。",
+    "ゆかさんと きっさてんへ [行|い]きます。",
+    "マレーシアへ かえります。",
+    "デパートで コートを かいます。"
+   ],
+   "answer": 3,
+   "explanation": "あした デパートで あたたかい コートを かいます。",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n5-11-tegami-q1",
+   "text_slug": "reading-n5-11-tegami",
+   "position": 1,
+   "jlpt_level": "N5",
+   "section": "reading",
+   "prompt": "アイシャさんは [日|にち]よう[日|び]に どこへ [行|い]きましたか。",
+   "options": [
+    "マレーシア",
+    "[友|とも]だちの うち",
+    "ふるい まち",
+    "[大|おお]きい デパート"
+   ],
+   "answer": 2,
+   "explanation": "[先|せん]しゅうの [日|にち]よう[日|び]、クラスの [友|とも]だちと ふるい まちへ [行|い]きました。",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n5-11-tegami-q2",
+   "text_slug": "reading-n5-11-tegami",
+   "position": 2,
+   "jlpt_level": "N5",
+   "section": "reading",
+   "prompt": "にもつの [中|なか]に [何|なに]が [入|はい]って いますか。",
+   "options": [
+    "おかしと はし",
+    "そばと はし",
+    "おかしと [本|ほん]",
+    "はしだけ"
+   ],
+   "answer": 0,
+   "explanation": "[中|なか]に [日本|にほん]の おかしと きれいな はしが [入|はい]って います。",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n5-11-tegami-q3",
+   "text_slug": "reading-n5-11-tegami",
+   "position": 3,
+   "jlpt_level": "N5",
+   "section": "reading",
+   "prompt": "アイシャさんは いつ マレーシアへ かえりますか。",
+   "options": [
+    "[来|らい]しゅうの [日|にち]よう[日|び]",
+    "[来月|らいげつ]の [休|やす]み",
+    "きのう",
+    "[来年|らいねん]"
+   ],
+   "answer": 1,
+   "explanation": "[来月|らいげつ]の [休|やす]みに、マレーシアへ かえります。",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n5-12-tabemono-q1",
+   "text_slug": "reading-n5-12-tabemono",
+   "position": 1,
+   "jlpt_level": "N5",
+   "section": "reading",
+   "prompt": "ナシレマは マレーシアの [何|なん]ですか。",
+   "options": [
+    "ばんごはん",
+    "ひるごはん",
+    "おかし",
+    "あさごはん"
+   ],
+   "answer": 3,
+   "explanation": "ナシレマは マレーシアの あさごはんです。",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n5-12-tabemono-q2",
+   "text_slug": "reading-n5-12-tabemono",
+   "position": 2,
+   "jlpt_level": "N5",
+   "section": "reading",
+   "prompt": "ハリスさんは どうして ナシレマを つくりましたか。",
+   "options": [
+    "おおさかに ナシレマの みせが ありませんから",
+    "[友|とも]だちが [四人|よにん] [来|き]ましたから",
+    "[日本|にほん]の りょうりが きらいですから",
+    "[山本|やまもと]さんが からい ものが すきですから"
+   ],
+   "answer": 0,
+   "explanation": "おおさかには ナシレマの みせが ありません。ですから、[先月|せんげつ] わたしが つくりました。",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n5-12-tabemono-q3",
+   "text_slug": "reading-n5-12-tabemono",
+   "position": 3,
+   "jlpt_level": "N5",
+   "section": "reading",
+   "prompt": "[山本|やまもと]さんは ナシレマを [食|た]べて、どう しましたか。",
+   "options": [
+    "「おいしいです。」と いって、もう [一|ひと]つ [食|た]べました。",
+    "[何|なに]も いいませんでした。",
+    "「からいです。」と いって、[水|みず]を たくさん のみました。",
+    "たまごだけ [食|た]べました。"
+   ],
+   "answer": 2,
+   "explanation": "[山本|やまもと]さんは 「ちょっと からいです。」と いいました。そして、[水|みず]を たくさん のみました。",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n5-13-arubaito-q1",
+   "text_slug": "reading-n5-13-arubaito",
+   "position": 1,
+   "jlpt_level": "N5",
+   "section": "reading",
+   "prompt": "[土|ど]よう[日|び]の アルバイトは [何時|なんじ]から [何時|なんじ]までですか。",
+   "options": [
+    "[午後|ごご] [五時|ごじ]から [十時|じゅうじ]まで",
+    "あさ [八時|はちじ]から [十時|じゅうじ]まで",
+    "あさ [八時|はちじ]から [午後|ごご] [三時|さんじ]まで",
+    "[午後|ごご] [三時|さんじ]から [十時|じゅうじ]まで"
+   ],
+   "answer": 2,
+   "explanation": "[土|ど]よう[日|び]は あさ [八時|はちじ]から [午後|ごご] [三時|さんじ]までです。",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n5-13-arubaito-q2",
+   "text_slug": "reading-n5-13-arubaito",
+   "position": 2,
+   "jlpt_level": "N5",
+   "section": "reading",
+   "prompt": "よる、コンビニに おおい [人|ひと]は だれですか。",
+   "options": [
+    "[学生|がくせい]",
+    "かいしゃへ [行|い]く [人|ひと]",
+    "てんちょう",
+    "[子|こ]ども"
+   ],
+   "answer": 0,
+   "explanation": "よるは [学生|がくせい]が おおいです。",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n5-13-arubaito-q3",
+   "text_slug": "reading-n5-13-arubaito",
+   "position": 3,
+   "jlpt_level": "N5",
+   "section": "reading",
+   "prompt": "タンさんは アルバイトの お[金|かね]で [何|なに]を したいですか。",
+   "options": [
+    "マレーシアへ かえりたいです。",
+    "コーヒーと パンを かいたいです。",
+    "[日本語|にほんご]の [本|ほん]を かいたいです。",
+    "ほっかいどうへ りょこうに [行|い]きたいです。"
+   ],
+   "answer": 3,
+   "explanation": "アルバイトの お[金|かね]で、りょこうを したいです。[三月|さんがつ]に ほっかいどうへ [行|い]きます。",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n5-14-menyuu-q1",
+   "text_slug": "reading-n5-14-menyuu",
+   "position": 1,
+   "jlpt_level": "N5",
+   "section": "reading",
+   "prompt": "マリさんは [火|か]よう[日|び]の [十二時|じゅうにじ]に みせへ [行|い]きます。カレーライスと コーヒーを たのみたいです。いくらですか。",
+   "options": [
+    "700[円|えん]",
+    "900[円|えん]",
+    "1,050[円|えん]",
+    "1,100[円|えん]"
+   ],
+   "answer": 1,
+   "explanation": "At 12:00 the lunch set is on: Bセット：カレーライスと のみもの 900[円|えん], and コーヒー is a set drink (700[円|えん] + 350[円|えん] = 1,050[円|えん] is the price without the set).",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n5-14-menyuu-q2",
+   "text_slug": "reading-n5-14-menyuu",
+   "position": 2,
+   "jlpt_level": "N5",
+   "section": "reading",
+   "prompt": "トムさんは [午後|ごご] [三時|さんじ]に みせへ [行|い]きます。サンドイッチと こうちゃを たのみます。いくらですか。",
+   "options": [
+    "700[円|えん]",
+    "750[円|えん]",
+    "800[円|えん]",
+    "850[円|えん]"
+   ],
+   "answer": 2,
+   "explanation": "ランチセット is only [午前|ごぜん] 11[時|じ]～[午後|ごご] 2[時|じ], so at 3 p.m. it is サンドイッチ 500[円|えん] + こうちゃ 300[円|えん] = 800[円|えん].",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n5-14-menyuu-q3",
+   "text_slug": "reading-n5-14-menyuu",
+   "position": 3,
+   "jlpt_level": "N5",
+   "section": "reading",
+   "prompt": "ケーキが 350[円|えん]の [日|ひ]は [何|なん]よう[日|び]ですか。",
+   "options": [
+    "[月|げつ]よう[日|び]",
+    "[水|すい]よう[日|び]",
+    "[日|にち]よう[日|び]",
+    "[土|ど]よう[日|び]"
+   ],
+   "answer": 1,
+   "explanation": "[水|すい]よう[日|び]は ケーキが 100[円|えん] やすく なります。450[円|えん] − 100[円|えん] = 350[円|えん]. ([月|げつ]よう[日|び] the café is closed.)",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n5-15-kurasu-q1",
+   "text_slug": "reading-n5-15-kurasu",
+   "position": 1,
+   "jlpt_level": "N5",
+   "section": "reading",
+   "prompt": "ラフマンさんは [月|げつ]よう[日|び]から [金|きん]よう[日|び]まで はたらきます。[時間|じかん]は あさ [九時|くじ]から [午後|ごご] [六時|ろくじ]までです。かんじを べんきょうしたいです。どの クラスが いいですか。",
+   "options": [
+    "①",
+    "②",
+    "③",
+    "④"
+   ],
+   "answer": 3,
+   "explanation": "③ かんじ クラス A is [水|すい]よう[日|び] [午後|ごご] 2[時|じ]～4[時|じ], during his work. ④ かんじ クラス B is [土|ど]よう[日|び] [午前|ごぜん] 10[時|じ]～12[時|じ].",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n5-15-kurasu-q2",
+   "text_slug": "reading-n5-15-kurasu",
+   "position": 2,
+   "jlpt_level": "N5",
+   "section": "reading",
+   "prompt": "[話|はな]す クラスに [四月|しがつ]から [六月|ろくがつ]まで [行|い]きます。いくら はらいますか。",
+   "options": [
+    "1,000[円|えん]",
+    "1,500[円|えん]",
+    "3,000[円|えん]",
+    "4,500[円|えん]"
+   ],
+   "answer": 2,
+   "explanation": "⑤ [話|はな]す クラス [一|いっ]か[月|げつ] 1,000[円|えん]; [四月|しがつ]～[六月|ろくがつ] is three months, so 3,000[円|えん].",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n5-15-kurasu-q3",
+   "text_slug": "reading-n5-15-kurasu",
+   "position": 3,
+   "jlpt_level": "N5",
+   "section": "reading",
+   "prompt": "クラスに [入|はい]りたい [人|ひと]は [何|なに]を しますか。",
+   "options": [
+    "[四月|しがつ]に センターへ [電話|でんわ]を かけます。",
+    "[三月|さんがつ] [二十日|はつか]までに まどぐちで [名前|なまえ]を [書|か]きます。",
+    "[三月|さんがつ] [二十日|はつか]に お[金|かね]を はらいます。",
+    "はじめの クラスで [名前|なまえ]を [書|か]きます。"
+   ],
+   "answer": 1,
+   "explanation": "センターの まどぐちに [来|き]て ください。[三月|さんがつ] [二十日|はつか]までに [名前|なまえ]を [書|か]いて ください。[電話|でんわ]では できません。",
+   "item_slugs": []
   }
  ]
 }

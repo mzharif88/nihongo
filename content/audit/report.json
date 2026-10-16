@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-16T06:39:38.531Z",
+ "generatedAt": "2026-10-16T07:07:44.700Z",
  "totals": {
   "error": 0,
   "warning": 0,
@@ -298,6 +298,14 @@
    "severity": "warning",
    "title": "Reading passages are close to the official length",
    "why": "Passage length is a large part of what makes each level's reading hard.",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "id": "reading-text-length",
+   "severity": "warning",
+   "title": "Graded reading texts are within the level's official passage lengths",
+   "why": "A practice text much shorter or longer than any passage on that level's paper trains the wrong reading stamina.",
    "count": 0,
    "samples": []
   },
