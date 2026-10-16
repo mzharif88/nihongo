@@ -257,6 +257,516 @@
    "answer": 1,
    "explanation": "[英語|えいご]や[中国|ちゅうごく][語|ご]で[電話|でんわ]がかかってくることがある… [英語|えいご]が[少|すこ]ししか[話|はな]せないので.",
    "item_slugs": []
+  },
+  {
+   "slug": "reading-n4-06-reizouko-q1",
+   "text_slug": "reading-n4-06-reizouko",
+   "position": 1,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "[自分|じぶん]の[飲|の]み[物|もの]をれいぞうこに[入|い]れる[人|ひと]は、[何|なに]をしなければなりませんか。",
+   "options": [
+    "[金曜日|きんようび]の[午後|ごご][四時|よじ]までに[出|だ]す",
+    "[山口|やまぐち]さんに[言|い]う",
+    "[名前|なまえ]と[買|か]った[日|ひ]を[書|か]く",
+    "キッチンに[持|も]って[行|い]かない"
+   ],
+   "answer": 2,
+   "explanation": "[自分|じぶん]の[食|た]べ[物|もの]や[飲|の]み[物|もの]には、[名前|なまえ]と[買|か]った[日|ひ]を[書|か]いておいてください = write your name and the date you bought it on your own food and drinks.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n4-06-reizouko-q2",
+   "text_slug": "reading-n4-06-reizouko",
+   "position": 2,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "[名前|なまえ]が[書|か]いていない[物|もの]は、どうなりますか。",
+   "options": [
+    "[金曜日|きんようび]まで[使|つか]える",
+    "そうじの[時|とき]にすてられる",
+    "[山口|やまぐち]さんがあずかる",
+    "キッチンのテーブルの[上|うえ]に[出|だ]される"
+   ],
+   "answer": 1,
+   "explanation": "[名前|なまえ]が[書|か]いていない[物|もの]は、そうじの[時|とき]にすてます = anything without a name will be thrown away during the cleaning.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n4-06-reizouko-q3",
+   "text_slug": "reading-n4-06-reizouko",
+   "position": 3,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "[金曜日|きんようび]の[午後|ごご][四時|よじ]ごろ、れいぞうこはどうですか。",
+   "options": [
+    "[三十分|さんじゅっぷん]ぐらい[使|つか]えない",
+    "いつもと[同|おな]じように[使|つか]える",
+    "[一日中|いちにちじゅう][使|つか]えない",
+    "[新|あたら]しいれいぞうこになる"
+   ],
+   "answer": 0,
+   "explanation": "そうじの[間|あいだ]、[三十分|さんじゅっぷん]ぐらいれいぞうこは[使|つか]えません = the fridge can't be used for about thirty minutes while it is cleaned (from 4 p.m.).",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n4-07-sensei-meeru-q1",
+   "text_slug": "reading-n4-07-sensei-meeru",
+   "position": 1,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "[来週|らいしゅう]のクラスはどこで[勉強|べんきょう]しますか。",
+   "options": [
+    "いつもの[教室|きょうしつ]",
+    "[木下|きのした][先生|せんせい]の[家|いえ]",
+    "インターネットの[上|うえ]",
+    "[駅|えき]の[前|まえ]のビルのさくらルーム"
+   ],
+   "answer": 3,
+   "explanation": "いつもの[教室|きょうしつ]が[使|つか]えません。それで、[駅|えき]の[前|まえ]のビルの「さくらルーム」で[勉強|べんきょう]します = the usual classroom can't be used, so class is in Sakura Room in the building in front of the station.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n4-07-sensei-meeru-q2",
+   "text_slug": "reading-n4-07-sensei-meeru",
+   "position": 2,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "[作文|さくぶん]について、[正|ただ]しいのはどれですか。",
+   "options": [
+    "テーマは「[私|わたし]の[国|くに]」だ",
+    "[八百|はっぴゃく][字|じ]ぐらい[書|か]く",
+    "メールで[送|おく]ってはいけない",
+    "[今週|こんしゅう]の[水曜日|すいようび]までに[出|だ]す"
+   ],
+   "answer": 1,
+   "explanation": "テーマは「[私|わたし]の[町|まち]」で、[八百|はっぴゃく][字|じ]ぐらいです = the topic is \"My town\", about 800 characters. Sending it by email is allowed for anyone who can't come.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n4-07-sensei-meeru-q3",
+   "text_slug": "reading-n4-07-sensei-meeru",
+   "position": 3,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "クラスを[休|やす]む[時|とき]、アフマドさんは[何|なに]をしなければなりませんか。",
+   "options": [
+    "[前|まえ]の[日|ひ]までに[先生|せんせい]にメールを[送|おく]る",
+    "クラスの[日|ひ]に[先生|せんせい]に[電話|でんわ]する",
+    "[作文|さくぶん]を[友|とも]だちにわたす",
+    "さくらルームに[行|い]って[話|はな]す"
+   ],
+   "answer": 0,
+   "explanation": "[休|やす]む[時|とき]は、[前|まえ]の[日|ひ]までにメールをください = if you will be absent, email me by the day before.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n4-08-denwa-memo-q1",
+   "text_slug": "reading-n4-08-denwa-memo",
+   "position": 1,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "[明日|あした]のミーティングは、[何時|なんじ]からになりそうですか。",
+   "options": [
+    "[午前|ごぜん][十|じゅう][一|いち][時半|じはん]",
+    "[午後|ごご][二時|にじ]",
+    "[午後|ごご][三時|さんじ]",
+    "[午後|ごご][五時|ごじ]"
+   ],
+   "answer": 2,
+   "explanation": "[午後|ごご][二時|にじ]からでした。でも…[三時|さんじ]からにしてほしいそうです = it was going to be at 2 p.m., but Mr Aoki would like it moved to 3.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n4-08-denwa-memo-q2",
+   "text_slug": "reading-n4-08-denwa-memo",
+   "position": 2,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "どうしてミーティングの[時間|じかん]がかわりますか。",
+   "options": [
+    "[青木|あおき]さんに[急|きゅう]な[用事|ようじ]ができたから",
+    "ウェイさんがいそがしいから",
+    "[会社|かいしゃ]の[中|なか]でできないから",
+    "[中川|なかがわ]さんが[休|やす]むから"
+   ],
+   "answer": 0,
+   "explanation": "[青木|あおき]さんに[急|きゅう]な[用事|ようじ]ができたので = because something urgent came up for Mr Aoki. The place stays the same ([前|まえ]と[同|おな]じでこの[会社|かいしゃ]の[中|なか]です).",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n4-08-denwa-memo-q3",
+   "text_slug": "reading-n4-08-denwa-memo",
+   "position": 3,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "[三時|さんじ]がだめな[時|とき]、ウェイさんはどうしますか。",
+   "options": [
+    "[中川|なかがわ]さんにメールを[送|おく]る",
+    "[明日|あした]の[二時|にじ]に[東山|ひがしやま][工業|こうぎょう]へ[行|い]く",
+    "[明日|あした]の[朝|あさ]、[青木|あおき]さんに[会|あ]う",
+    "[今日|きょう]の[五時|ごじ]までに[青木|あおき]さんに[電話|でんわ]する"
+   ],
+   "answer": 3,
+   "explanation": "[三時|さんじ]がだめだったら、[今日|きょう]の[五時|ごじ]までに[青木|あおき]さんに[電話|でんわ]をしてください = if 3 o'clock is no good, phone Mr Aoki by five today.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n4-09-jitensha-q1",
+   "text_slug": "reading-n4-09-jitensha",
+   "position": 1,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "この[自転車|じてんしゃ]おき[場|ば]について、[正|ただ]しいのはどれですか。",
+   "options": [
+    "[二|に][十|じゅう][四時間|よじかん][使|つか]える",
+    "バイクも[止|と]められる",
+    "[一|いっ]か[月|げつ][千|せん][円|えん]で[使|つか]える",
+    "[一日|いちにち][百|ひゃく][円|えん]で[使|つか]える"
+   ],
+   "answer": 3,
+   "explanation": "[料金|りょうきん]は[一日|いちにち][百|ひゃく][円|えん]です = it costs 100 yen a day. A month is 1,500 yen, it closes from midnight to 5 a.m., and motorbikes are not allowed.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n4-09-jitensha-q2",
+   "text_slug": "reading-n4-09-jitensha",
+   "position": 2,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "[一|いっ]か[月|げつ][止|と]めたい[人|ひと]は、どこでもうしこみますか。",
+   "options": [
+    "[駅|えき]の[前|まえ]の[自転車|じてんしゃ][屋|や]",
+    "みどり[駅|えき]の[中|なか]",
+    "みどり[町|まち]のホームページ",
+    "[自転車|じてんしゃ]おき[場|ば]の[入|い]り[口|くち]"
+   ],
+   "answer": 0,
+   "explanation": "[一|いっ]か[月|げつ][止|と]めたい[人|ひと]は、[駅|えき]の[前|まえ]の[自転車|じてんしゃ][屋|や]でもうしこんでください = apply at the bicycle shop in front of the station.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n4-09-jitensha-q3",
+   "text_slug": "reading-n4-09-jitensha",
+   "position": 3,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "[十日|とおか][以上|いじょう][止|と]めたままの[自転車|じてんしゃ]は、どうなりますか。",
+   "options": [
+    "[料金|りょうきん]が[高|たか]くなる",
+    "[町|まち]が[持|も]って[行|い]く",
+    "[入|い]り[口|くち]の[前|まえ]に[出|だ]される",
+    "[自転車|じてんしゃ][屋|や]に[売|う]られる"
+   ],
+   "answer": 1,
+   "explanation": "[十日|とおか][以上|いじょう][止|と]めたままの[自転車|じてんしゃ]は、[町|まち]が[持|も]って[行|い]きます = the town takes away bicycles left for ten days or more.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n4-10-nihon-seikatsu-q1",
+   "text_slug": "reading-n4-10-nihon-seikatsu",
+   "position": 1,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "ハリスさんが[日本|にほん]に[来|き]たばかりの[時|とき]、いちばんこまったことは[何|なん]ですか。",
+   "options": [
+    "[仕事|しごと]の[時間|じかん]が[長|なが]いこと",
+    "[食|た]べ[物|もの]のこと",
+    "[冬|ふゆ]がさむいこと",
+    "[工場|こうじょう]の[人|ひと]が[親切|しんせつ]ではないこと"
+   ],
+   "answer": 1,
+   "explanation": "[日本|にほん]に[来|き]たばかりの[時|とき]、いちばんこまったのは[食|た]べ[物|もの]でした. The cold winter was もう[一|ひと]つたいへんだった — the second difficulty, not the biggest.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n4-10-nihon-seikatsu-q2",
+   "text_slug": "reading-n4-10-nihon-seikatsu",
+   "position": 2,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "ハリスさんは、どうして[毎日|まいにち][自分|じぶん]で[料理|りょうり]を[作|つく]るようになりましたか。",
+   "options": [
+    "[店|みせ]の[食|た]べ[物|もの]に[何|なに]が[入|はい]っているか、わからなかったから",
+    "[料理|りょうり]を[作|つく]るのがすきだったから",
+    "ハラールの[店|みせ]が[近|ちか]くになかったから",
+    "[工場|こうじょう]の[人|ひと]に[作|つく]り[方|かた]を[教|おし]えてもらったから"
+   ],
+   "answer": 0,
+   "explanation": "[店|みせ]のおべんとうやパンに[何|なに]が[入|はい]っているか、よくわかりませんでした。…それで、[毎日|まいにち][自分|じぶん]で[料理|りょうり]を[作|つく]るようになりました.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n4-10-nihon-seikatsu-q3",
+   "text_slug": "reading-n4-10-nihon-seikatsu",
+   "position": 3,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "ハリスさんがこれからしたいことは[何|なん]ですか。",
+   "options": [
+    "マレーシアに[帰|かえ]ること",
+    "ベトナムへ[旅行|りょこう]に[行|い]くこと",
+    "[工場|こうじょう]でリーダーの[仕事|しごと]をすること",
+    "おんせんの[近|ちか]くに[住|す]むこと"
+   ],
+   "answer": 2,
+   "explanation": "[日本語|にほんご]がもっと[上手|じょうず]になったら、[工場|こうじょう]でリーダーの[仕事|しごと]をしてみたいと[思|おも]っています = once his Japanese improves he wants to try a team-leader job at the factory.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n4-11-nikki-q1",
+   "text_slug": "reading-n4-11-nikki",
+   "position": 1,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "[病院|びょういん]のうけつけで、[何|なに]がありましたか。",
+   "options": [
+    "お[金|かね]が[足|た]りなかった",
+    "[医者|いしゃ]がいなかった",
+    "[名前|なまえ]を[書|か]くのをわすれた",
+    "ほけんしょうを[持|も]っていなかった"
+   ],
+   "answer": 3,
+   "explanation": "ほけんしょうを[持|も]って[行|い]くのをわすれてしまった = she had forgotten to bring her health-insurance card.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n4-11-nikki-q2",
+   "text_slug": "reading-n4-11-nikki",
+   "position": 2,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "[来週|らいしゅう]ほけんしょうを[持|も]って[行|い]くと、どうなりますか。",
+   "options": [
+    "くすりがもらえる",
+    "[多|おお]くはらったお[金|かね]がかえってくる",
+    "もう[一度|いちど][医者|いしゃ]に[会|あ]える",
+    "[会社|かいしゃ]をもう[一日|いちにち][休|やす]める"
+   ],
+   "answer": 1,
+   "explanation": "[来週|らいしゅう]ほけんしょうを[持|も]って[来|く]れば、[多|おお]くはらったお[金|かね]をかえします = bring the card next week and the extra money you paid will be refunded.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n4-11-nikki-q3",
+   "text_slug": "reading-n4-11-nikki",
+   "position": 3,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "この[人|ひと]は、[元気|げんき]になったら[何|なに]をしようと[思|おも]っていますか。",
+   "options": [
+    "タンさんにマレーシアの[料理|りょうり]を[作|つく]る",
+    "タンさんにおかゆを[作|つく]る",
+    "[中山|なかやま]さんにおれいの[電話|でんわ]をする",
+    "タンさんを[病院|びょういん]へつれて[行|い]く"
+   ],
+   "answer": 0,
+   "explanation": "[元気|げんき]になったら、タンさんにマレーシアの[料理|りょうり]を[作|つく]ってあげようと[思|おも]う. Tan brought the rice porridge; she plans to cook Malaysian food for him.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n4-12-daijoubu-q1",
+   "text_slug": "reading-n4-12-daijoubu",
+   "position": 1,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "「だいじょうぶです」と[言|い]った[時|とき]、この[人|ひと]はどうしてほしかったですか。",
+   "options": [
+    "おべんとうをあたためてほしかった",
+    "ふくろに[入|い]れないでほしかった",
+    "お[茶|ちゃ]をあたためてほしかった",
+    "おべんとうをかえてほしかった"
+   ],
+   "answer": 0,
+   "explanation": "「あたためても、だいじょうぶです」と[言|い]いたかったのです。つまり「あたためてください」という[意味|いみ]です = she meant \"please heat it up\".",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n4-12-daijoubu-q2",
+   "text_slug": "reading-n4-12-daijoubu",
+   "position": 2,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "[店員|てんいん]さんは「だいじょうぶです」をどんな[意味|いみ]だと[思|おも]いましたか。",
+   "options": [
+    "あたためてください",
+    "ふくろに[入|い]れてください",
+    "あたためなくてもいいです",
+    "もう[一度|いちど][言|い]ってください"
+   ],
+   "answer": 2,
+   "explanation": "[店員|てんいん]さんは、[私|わたし]があたためなくてもいいと[言|い]ったと[思|おも]ったのです = the clerk thought she was saying it didn't need heating.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n4-12-daijoubu-q3",
+   "text_slug": "reading-n4-12-daijoubu",
+   "position": 3,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "この[人|ひと]がその[時|とき]、[何|なに]も[言|い]えなかったのはどうしてですか。",
+   "options": [
+    "[日本語|にほんご]がぜんぜんわからなかったから",
+    "[店員|てんいん]さんがこわかったから",
+    "おべんとうがつめたくてもよかったから",
+    "[後|うし]ろにたくさん[人|ひと]が[待|ま]っていたから"
+   ],
+   "answer": 3,
+   "explanation": "[後|うし]ろにたくさん[人|ひと]が[待|ま]っていたので、[何|なに]も[言|い]えませんでした = many people were waiting behind her, so she couldn't say anything.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n4-13-nerumae-q1",
+   "text_slug": "reading-n4-13-nerumae",
+   "position": 1,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "この[人|ひと]は[去年|きょねん]まで、どんなことがよくありましたか。",
+   "options": [
+    "[夜|よる]、[紙|かみ]の[本|ほん]を[読|よ]んでいた",
+    "[医者|いしゃ]に[毎週|まいしゅう][行|い]っていた",
+    "[朝|あさ]なかなか[起|お]きられなくて、[会社|かいしゃ]におくれそうになった",
+    "[昼|ひる]ご[飯|はん]を[食|た]べなかった"
+   ],
+   "answer": 2,
+   "explanation": "[朝|あさ]なかなか[起|お]きられませんでした。[会社|かいしゃ]におくれそうになることも、よくありました = they often couldn't get up and nearly arrived late for work.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n4-13-nerumae-q2",
+   "text_slug": "reading-n4-13-nerumae",
+   "position": 2,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "この[人|ひと]は、スマートフォンのかわりに[何|なに]をするようにしましたか。",
+   "options": [
+    "[早|はや]くねる",
+    "[音楽|おんがく]を[聞|き]く",
+    "[何|なに]もしない",
+    "[紙|かみ]の[本|ほん]を[読|よ]む"
+   ],
+   "answer": 3,
+   "explanation": "スマートフォンのかわりに、[紙|かみ]の[本|ほん]を[読|よ]むようにしました = instead of the phone, they started reading paper books.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n4-13-nerumae-q3",
+   "text_slug": "reading-n4-13-nerumae",
+   "position": 3,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "この[人|ひと]がいちばん[言|い]いたいことは[何|なん]ですか。",
+   "options": [
+    "スマートフォンは[使|つか]わないほうがいい",
+    "ねる[前|まえ]の[一|いち][時間|じかん]は、スマートフォンを[使|つか]わないほうがいい",
+    "[毎日|まいにち][一|いち][時間|じかん]、[本|ほん]を[読|よ]まなければならない",
+    "ねむい[時|とき]は[医者|いしゃ]に[行|い]ったほうがいい"
+   ],
+   "answer": 1,
+   "explanation": "ねる[前|まえ]の[一|いち][時間|じかん]だけは、スマートフォンから[手|て]をはなしたほうがいいと[思|おも]います. They still use the phone a lot during the day, so not \"don't use it at all\".",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n4-14-ryouri-kyoushitsu-q1",
+   "text_slug": "reading-n4-14-ryouri-kyoushitsu",
+   "position": 1,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "さくら[町|まち]に[住|す]んでいるアリさんは、おくさんと[中学生|ちゅうがくせい]の[子|こ]どもと[三人|さんにん]で、マレーシアの[料理|りょうり]の[日|ひ]に[行|い]きます。ぜんぶでいくらはらいますか。",
+   "options": [
+    "[千|せん][二|に][百|ひゃく][円|えん]",
+    "[千|せん][六百|ろっぴゃく][円|えん]",
+    "[二|に][千|せん][円|えん]",
+    "[二|に][千|せん][四百|よんひゃく][円|えん]"
+   ],
+   "answer": 2,
+   "explanation": "[大人|おとな]（[高校生|こうこうせい]から）[八百|はっぴゃく][円|えん] × 2 + [中学生|ちゅうがくせい]・[小学生|しょうがくせい] [四百|よんひゃく][円|えん] = 2,000 yen.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n4-14-ryouri-kyoushitsu-q2",
+   "text_slug": "reading-n4-14-ryouri-kyoushitsu",
+   "position": 2,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "ゆいさんは、すしを[作|つく]る[日|ひ]に[行|い]きたいです。いつまでにもうしこまなければなりませんか。",
+   "options": [
+    "[十一月|じゅういちがつ][十四日|じゅうよっか]（[土|ど]）",
+    "[十一月|じゅういちがつ][十八日|じゅうはちにち]（[水|すい]）",
+    "[十一月|じゅういちがつ][二十一日|にじゅういちにち]（[土|ど]）",
+    "[十一月|じゅういちがつ][十一日|じゅういちにち]（[水|すい]）"
+   ],
+   "answer": 1,
+   "explanation": "Sushi is on [十一月|じゅういちがつ][二十一日|にじゅういちにち] (Saturday); もうしこみは、その[料理|りょうり][教室|きょうしつ]の[前|まえ]の[水曜日|すいようび]までに — the Wednesday before is the 18th.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n4-14-ryouri-kyoushitsu-q3",
+   "text_slug": "reading-n4-14-ryouri-kyoushitsu",
+   "position": 3,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "この[料理|りょうり][教室|きょうしつ]について、[正|ただ]しいのはどれですか。",
+   "options": [
+    "[日本人|にほんじん]は[来|こ]られない",
+    "[四日|よっか]ぜんぶ[来|こ]なければならない",
+    "エプロンはセンターで[借|か]りられる",
+    "[一日|いちにち]に[二十人|にじゅうにん]まで[来|こ]られる"
+   ],
+   "answer": 3,
+   "explanation": "どの[日|ひ]も、[二十人|にじゅうにん]までです = up to twenty people each day. Japanese residents are welcome, one session is fine, and you bring your own apron.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n4-15-supootsu-sentaa-q1",
+   "text_slug": "reading-n4-15-supootsu-sentaa",
+   "position": 1,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "みどり[町|まち]に[住|す]んでいるホセさんは、はじめてトレーニングルームを[使|つか]います。[仕事|しごと]は[午後|ごご][五時|ごじ]に[終|お]わります。[何時|なんじ]に[行|い]けばいいですか。",
+   "options": [
+    "[午前|ごぜん][十時|じゅうじ]",
+    "[午後|ごご][五時|ごじ]",
+    "[午後|ごご][六時|ろくじ]",
+    "[午後|ごご][八時|はちじ]"
+   ],
+   "answer": 2,
+   "explanation": "はじめてトレーニングルームを[使|つか]う[人|ひと]は、[先|さき]に[三十分|さんじゅっぷん]の[話|はなし]を[聞|き]いてください… [毎日|まいにち][午前|ごぜん][十時|じゅうじ]と[午後|ごご][六時|ろくじ]から. After work, the only time is 6 p.m.",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n4-15-supootsu-sentaa-q2",
+   "text_slug": "reading-n4-15-supootsu-sentaa",
+   "position": 2,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "ほかの[町|まち]に[住|す]んでいるアミナさんは、[小学生|しょうがくせい]の[子|こ]どもと[二人|ふたり]で、プールに[二|に][時間|じかん][行|い]きます。ぜんぶでいくらですか。",
+   "options": [
+    "[九|きゅう][百|ひゃく][円|えん]",
+    "[六百|ろっぴゃく][円|えん]",
+    "[八百|はっぴゃく][円|えん]",
+    "[千|せん][円|えん]"
+   ],
+   "answer": 0,
+   "explanation": "プール, ほかの[町|まち]の[人|ひと]: [大人|おとな] [六百|ろっぴゃく][円|えん] + [小学生|しょうがくせい] [三百円|さんびゃくえん] = 900 yen (two hours is within one visit).",
+   "item_slugs": []
+  },
+  {
+   "slug": "reading-n4-15-supootsu-sentaa-q3",
+   "text_slug": "reading-n4-15-supootsu-sentaa",
+   "position": 3,
+   "jlpt_level": "N4",
+   "section": "reading",
+   "prompt": "このスポーツセンターについて、[正|ただ]しいのはどれですか。",
+   "options": [
+    "[月曜日|げつようび]も[使|つか]える",
+    "[小学生|しょうがくせい]もトレーニングルームを[使|つか]える",
+    "[二|に][時間|じかん]をすぎても、お[金|かね]はいらない",
+    "プールのぼうしは、うけつけで[買|か]える"
+   ],
+   "answer": 3,
+   "explanation": "ぼうしは、[入|い]り[口|くち]のうけつけで[売|う]っています = swim caps are sold at the reception desk. It is closed on Mondays, the training room is from junior-high age, and extra time costs 100 yen an hour.",
+   "item_slugs": []
   }
  ]
 }
