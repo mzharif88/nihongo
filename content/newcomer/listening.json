@@ -2434,19 +2434,19 @@
     },
     {
      "speaker": "A",
-     "jp": "また明日。",
-     "en": "See you tomorrow.",
-     "ms": "Jumpa esok.",
-     "reading": "また[明日|あした]。",
-     "kana": "またあした。"
+     "jp": "明日もよろしくお願いします。",
+     "en": "I look forward to working with you again tomorrow.",
+     "ms": "Esok kita bekerja sama lagi, ya.",
+     "reading": "[明日|あした]もよろしくお[願|ねが]いします。",
+     "kana": "あしたもよろしくおねがいします。"
     },
     {
      "speaker": "B",
-     "jp": "はい、また明日。",
-     "en": "Yes, see you tomorrow.",
-     "ms": "Ya, jumpa esok.",
-     "reading": "はい、また[明日|あした]。",
-     "kana": "はい、またあした。"
+     "jp": "はい、よろしくお願いします。",
+     "en": "Yes, likewise.",
+     "ms": "Ya, sama-sama.",
+     "reading": "はい、よろしくお[願|ねが]いします。",
+     "kana": "はい、よろしくおねがいします。"
     }
    ],
    "question": {

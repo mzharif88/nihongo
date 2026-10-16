@@ -2060,15 +2060,15 @@
     },
     {
      "speaker": "A",
-     "jp": "また明日。",
-     "en": "See you tomorrow.",
-     "ms": "Jumpa esok."
+     "jp": "明日もよろしくお願いします。",
+     "en": "I look forward to working with you again tomorrow.",
+     "ms": "Esok kita bekerja sama lagi, ya."
     },
     {
      "speaker": "B",
-     "jp": "はい、また明日。",
-     "en": "Yes, see you tomorrow.",
-     "ms": "Ya, jumpa esok."
+     "jp": "はい、よろしくお願いします。",
+     "en": "Yes, likewise.",
+     "ms": "Ya, sama-sama."
     }
    ],
    "question": {
