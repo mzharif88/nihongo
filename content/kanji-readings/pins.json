@@ -1,0 +1,7 @@
+{
+  "note": "Hand-picked key readings that override the data-driven choice (scripts/kanji-readings.ts). The key reading is a label on the kanji card; reading quizzes use example words.",
+  "pins": {
+    "上": "うえ",
+    "使": "つかう"
+  }
+}

@@ -43,7 +43,7 @@ export default async function KanjiGroupPage({ params }: { params: Promise<{ slu
             <div className="mt-2 font-medium">{c.meaning}</div>
             {(c.on.length > 0 || c.kun.length > 0) && (
               <div className="mt-1 text-sm text-muted" lang="ja">
-                {[...c.on.slice(0, 2), ...c.kun.slice(0, 2)].join("・")}
+                {[c.on.length ? `音 ${c.on.slice(0, 2).join("・")}` : "", c.kun.length ? `訓 ${c.kun.slice(0, 2).join("・")}` : ""].filter(Boolean).join("　")}
               </div>
             )}
             {c.parts.length > 0 && (

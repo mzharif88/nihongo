@@ -27,7 +27,56 @@
     ],
     "strokes": 4,
     "grade": 1,
-    "freq": 512
+    "freq": 512,
+    "kun_marked": [
+     "あまつ",
+     "あめ",
+     "あま"
+    ],
+    "examples": [
+     {
+      "term": "天気",
+      "reading": "てんき",
+      "meaning": "Weather",
+      "level": "N5",
+      "uses": "てん",
+      "misreadings": [
+       "でんき",
+       "とんき",
+       "つんき",
+       "てんぎ"
+      ]
+     },
+     {
+      "term": "天気予報",
+      "reading": "てんきよほう",
+      "meaning": "weather forecast",
+      "level": "N4",
+      "uses": "てん",
+      "misreadings": [
+       "てんきよほ",
+       "てんきようほう",
+       "でんきよほう",
+       "とんきよほう",
+       "つんきよほう",
+       "てんぎよほう"
+      ]
+     },
+     {
+      "term": "天候",
+      "reading": "てんこう",
+      "meaning": "weather",
+      "level": "N3",
+      "uses": "てん",
+      "misreadings": [
+       "てんこ",
+       "でんこう",
+       "とんこう",
+       "つんこう",
+       "てんごう"
+      ]
+     }
+    ]
    },
    "mnemonic": "大 big"
   },
@@ -54,7 +103,48 @@
     ],
     "strokes": 3,
     "grade": 2,
-    "freq": 375
+    "freq": 375,
+    "kun_marked": [
+     "よろず"
+    ],
+    "examples": [
+     {
+      "term": "万",
+      "reading": "まん",
+      "meaning": "ten thousand",
+      "level": "N5",
+      "uses": "まん",
+      "misreadings": [
+       "ばん",
+       "みん"
+      ]
+     },
+     {
+      "term": "万歳",
+      "reading": "ばんざい",
+      "meaning": "banzai, Long live ~!",
+      "level": "N2",
+      "uses": "ばん",
+      "misreadings": [
+       "まんざい",
+       "はんざい",
+       "びんざい",
+       "ばんさい"
+      ]
+     },
+     {
+      "term": "一万円",
+      "reading": "いちまんえん",
+      "meaning": "10,000 yen",
+      "level": "N5",
+      "uses": "まん",
+      "misreadings": [
+       "いちばんえん",
+       "いっちまんえん",
+       "いちみんえん"
+      ]
+     }
+    ]
    },
    "mnemonic": "まん (man): one MAN holding up ten thousand coins on a hook."
   },
@@ -80,7 +170,53 @@
     ],
     "strokes": 4,
     "grade": 2,
-    "freq": 154
+    "freq": 154,
+    "kun_marked": [
+     "うま"
+    ],
+    "examples": [
+     {
+      "term": "午前",
+      "reading": "ごぜん",
+      "meaning": "AM (before noon)",
+      "level": "N5",
+      "uses": "ご",
+      "misreadings": [
+       "ごうぜん",
+       "こぜん",
+       "げぜん",
+       "ごせん"
+      ]
+     },
+     {
+      "term": "午後",
+      "reading": "ごご",
+      "meaning": "PM (after noon)",
+      "level": "N5",
+      "uses": "ご",
+      "misreadings": [
+       "ごうご",
+       "ごごう",
+       "こご",
+       "げご",
+       "ごこ"
+      ]
+     },
+     {
+      "term": "正午",
+      "reading": "しょうご",
+      "meaning": "noon, mid-day",
+      "level": "N3",
+      "uses": "ご",
+      "misreadings": [
+       "しょご",
+       "しょうごう",
+       "しょうこ",
+       "しょうげ",
+       "じょうご"
+      ]
+     }
+    ]
    },
    "mnemonic": "干 dry"
   },
@@ -106,7 +242,54 @@
     ],
     "strokes": 4,
     "grade": 2,
-    "freq": 622
+    "freq": 622,
+    "kun_marked": [
+     "とも"
+    ],
+    "examples": [
+     {
+      "term": "友達",
+      "reading": "ともだち",
+      "meaning": "Friend",
+      "level": "N5",
+      "uses": "とも",
+      "misreadings": [
+       "ゆうだち",
+       "とうもだち",
+       "ともうだち",
+       "ともだっち",
+       "どもだち",
+       "てもだち"
+      ]
+     },
+     {
+      "term": "友人",
+      "reading": "ゆうじん",
+      "meaning": "friend (formal)",
+      "level": "N3",
+      "uses": "ゆう",
+      "misreadings": [
+       "ともじん",
+       "ようじん",
+       "やうじん",
+       "ゆうしん"
+      ]
+     },
+     {
+      "term": "友",
+      "reading": "とも",
+      "meaning": "friend, companion",
+      "level": "N3",
+      "uses": "とも",
+      "misreadings": [
+       "ゆう",
+       "とうも",
+       "ともう",
+       "ども",
+       "ても"
+      ]
+     }
+    ]
    },
    "mnemonic": "又 hand"
   },
@@ -132,7 +315,55 @@
     ],
     "strokes": 5,
     "grade": 2,
-    "freq": 153
+    "freq": 153,
+    "kun_marked": [
+     "きた"
+    ],
+    "examples": [
+     {
+      "term": "北",
+      "reading": "きた",
+      "meaning": "north",
+      "level": "N5",
+      "uses": "きた",
+      "misreadings": [
+       "ほく",
+       "きった",
+       "ぎた",
+       "くた",
+       "かた"
+      ]
+     },
+     {
+      "term": "北極",
+      "reading": "ほっきょく",
+      "meaning": "North Pole",
+      "level": "N2",
+      "uses": "ほく",
+      "misreadings": [
+       "きたきょく",
+       "ほっきょうく",
+       "ほきょく",
+       "ぼっきょく",
+       "へっきょく",
+       "ほっぎょく"
+      ]
+     },
+     {
+      "term": "南北",
+      "reading": "なんぼく",
+      "meaning": "south and north",
+      "level": "N2",
+      "uses": "ほく",
+      "misreadings": [
+       "なんきた",
+       "なんぼうく",
+       "なんぼっく",
+       "なんほく",
+       "なんべく"
+      ]
+     }
+    ]
    },
    "mnemonic": "匕 spoon + 爿 bed"
   },
@@ -160,7 +391,51 @@
     ],
     "strokes": 6,
     "grade": 1,
-    "freq": 642
+    "freq": 642,
+    "kun_marked": [
+     "やす(む)",
+     "やすまる",
+     "やすめる"
+    ],
+    "examples": [
+     {
+      "term": "休み",
+      "reading": "やすみ",
+      "meaning": "holiday, day off",
+      "level": "N5",
+      "uses": "やすむ",
+      "misreadings": [
+       "やっすみ",
+       "ゆすみ"
+      ]
+     },
+     {
+      "term": "休息",
+      "reading": "きゅうそく",
+      "meaning": "rest, relief",
+      "level": "N3",
+      "uses": "きゅう",
+      "misreadings": [
+       "きゅそく",
+       "きゅうそうく",
+       "きゅうっそく",
+       "ぎゅうそく",
+       "くゅうそく",
+       "かゅうそく"
+      ]
+     },
+     {
+      "term": "休む",
+      "reading": "やすむ",
+      "meaning": "To rest",
+      "level": "N5",
+      "uses": "やすむ",
+      "misreadings": [
+       "やっすむ",
+       "ゆすむ"
+      ]
+     }
+    ]
    },
    "mnemonic": "⺅ person + 木 tree"
   },
@@ -188,7 +463,52 @@
     ],
     "strokes": 6,
     "grade": 1,
-    "freq": 177
+    "freq": 177,
+    "kun_marked": [
+     "な"
+    ],
+    "examples": [
+     {
+      "term": "有名",
+      "reading": "ゆうめい",
+      "meaning": "famous",
+      "level": "N5",
+      "uses": "めい",
+      "misreadings": [
+       "ゆうみょう",
+       "ゆうな",
+       "ゆうもい",
+       "ゆうむい"
+      ]
+     },
+     {
+      "term": "名前",
+      "reading": "なまえ",
+      "meaning": "name",
+      "level": "N5",
+      "uses": "な",
+      "misreadings": [
+       "めいまえ",
+       "みょうまえ",
+       "にまえ"
+      ]
+     },
+     {
+      "term": "名字",
+      "reading": "みょうじ",
+      "meaning": "surname, family name",
+      "level": "N2",
+      "uses": "みょう",
+      "misreadings": [
+       "めいじ",
+       "なじ",
+       "みょじ",
+       "むょうじ",
+       "まょうじ",
+       "みょうし"
+      ]
+     }
+    ]
    },
    "mnemonic": "口 mouth + 夕 evening"
   },
@@ -216,7 +536,56 @@
     ],
     "strokes": 6,
     "grade": 2,
-    "freq": 259
+    "freq": 259,
+    "kun_marked": [
+     "にし"
+    ],
+    "examples": [
+     {
+      "term": "西",
+      "reading": "にし",
+      "meaning": "west",
+      "level": "N5",
+      "uses": "にし",
+      "misreadings": [
+       "せい",
+       "さい",
+       "にっし",
+       "ぬし",
+       "なし"
+      ]
+     },
+     {
+      "term": "西洋",
+      "reading": "せいよう",
+      "meaning": "the West, Western countries",
+      "level": "N4",
+      "uses": "せい",
+      "misreadings": [
+       "さいよう",
+       "にしよう",
+       "せいよ",
+       "ぜいよう",
+       "そいよう",
+       "すいよう"
+      ]
+     },
+     {
+      "term": "東西",
+      "reading": "とうざい",
+      "meaning": "East and West, whole country",
+      "level": "N2",
+      "uses": "さい",
+      "misreadings": [
+       "とうせい",
+       "とうにし",
+       "とざい",
+       "とうさい",
+       "とうじい",
+       "どうざい"
+      ]
+     }
+    ]
    }
   },
   {
@@ -241,7 +610,54 @@
     ],
     "strokes": 8,
     "grade": 2,
-    "freq": 37
+    "freq": 37,
+    "kun_marked": [
+     "ひがし"
+    ],
+    "examples": [
+     {
+      "term": "東",
+      "reading": "ひがし",
+      "meaning": "east",
+      "level": "N5",
+      "uses": "ひがし",
+      "misreadings": [
+       "とう",
+       "ひがっし",
+       "びがし",
+       "ふがし",
+       "はがし"
+      ]
+     },
+     {
+      "term": "東洋",
+      "reading": "とうよう",
+      "meaning": "Orient",
+      "level": "N3",
+      "uses": "とう",
+      "misreadings": [
+       "ひがしよう",
+       "とよう",
+       "とうよ",
+       "どうよう",
+       "てうよう"
+      ]
+     },
+     {
+      "term": "東西",
+      "reading": "とうざい",
+      "meaning": "East and West, whole country",
+      "level": "N2",
+      "uses": "とう",
+      "misreadings": [
+       "ひがしざい",
+       "とざい",
+       "どうざい",
+       "てうざい",
+       "とうさい"
+      ]
+     }
+    ]
    },
    "mnemonic": "日 sun + 木 tree + 田 rice field"
   },
@@ -268,7 +684,51 @@
     ],
     "strokes": 9,
     "grade": 2,
-    "freq": 341
+    "freq": 341,
+    "kun_marked": [
+     "みなみ"
+    ],
+    "examples": [
+     {
+      "term": "南",
+      "reading": "みなみ",
+      "meaning": "South",
+      "level": "N5",
+      "uses": "みなみ",
+      "misreadings": [
+       "なん",
+       "むなみ",
+       "まなみ"
+      ]
+     },
+     {
+      "term": "南北",
+      "reading": "なんぼく",
+      "meaning": "south and north",
+      "level": "N2",
+      "uses": "なん",
+      "misreadings": [
+       "みなみぼく",
+       "なんぼうく",
+       "なんぼっく",
+       "にんぼく",
+       "なんほく"
+      ]
+     },
+     {
+      "term": "南極",
+      "reading": "なんきょく",
+      "meaning": "south pole, Antarctic",
+      "level": "N2",
+      "uses": "なん",
+      "misreadings": [
+       "みなみきょく",
+       "なんきょうく",
+       "にんきょく",
+       "なんぎょく"
+      ]
+     }
+    ]
    },
    "mnemonic": "并 horns + 冂 frame"
   }

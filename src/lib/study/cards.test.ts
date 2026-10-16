@@ -132,3 +132,24 @@ describe("options in the answer's script", () => {
     }
   });
 });
+
+describe("kanji reading quiz", () => {
+  const kanjiItem = (term: string, examples: unknown[] = []) =>
+    item({ type: "kanji", jlpt_level: "N5", term, reading: "うえ", romaji: null, meaning: "up", tags: [], data: { on: ["じょう"], kun: ["うえ"], kun_marked: ["うえ", "あ(げる)"], examples } as never });
+
+  it("asks how a word with the kanji is read, with its misreadings as options, all in hiragana", () => {
+    const up = kanjiItem("上", [{ term: "上手", reading: "じょうず", meaning: "skilful", level: "N5", uses: "じょう", misreadings: ["うえず", "じょず", "しょうず"] }]);
+    const card = buildCard(up, "recall", false, [up], seeded(3));
+    expect(card.question).toBe("How is this word read?");
+    expect(card.prompt).toBe("上手");
+    expect(card.promptReading).toBeNull();
+    expect(card.options![card.answerIndex!]).toBe("じょうず");
+    expect([...card.options!].sort()).toEqual(["うえず", "しょうず", "じょうず", "じょず"]);
+    expect(card.reveal.quizWord).toEqual({ term: "上手", reading: "じょうず", meaning: "skilful" });
+  });
+
+  it("shows 音 in katakana and 訓 with okurigana on the card", () => {
+    const up = kanjiItem("上");
+    expect(buildCard(up, "recognition", true, [up]).reveal.readings).toEqual({ on: ["ジョウ"], kun: ["うえ", "あ(げる)"] });
+  });
+});

@@ -35,7 +35,53 @@
     ],
     "strokes": 1,
     "grade": 1,
-    "freq": 2
+    "freq": 2,
+    "kun_marked": [
+     "ひと",
+     "ひと(つ)"
+    ],
+    "examples": [
+     {
+      "term": "一",
+      "reading": "いち",
+      "meaning": "one",
+      "level": "N5",
+      "uses": "いち",
+      "misreadings": [
+       "いつ",
+       "ひと",
+       "いっち"
+      ]
+     },
+     {
+      "term": "一つ",
+      "reading": "ひとつ",
+      "meaning": "one thing",
+      "level": "N5",
+      "uses": "ひとつ",
+      "misreadings": [
+       "ひとうつ",
+       "ひっとつ",
+       "びとつ",
+       "ふとつ",
+       "はとつ"
+      ]
+     },
+     {
+      "term": "同一",
+      "reading": "どういつ",
+      "meaning": "identity, sameness",
+      "level": "N3",
+      "uses": "いつ",
+      "misreadings": [
+       "どういち",
+       "どうひと",
+       "どいつ",
+       "どういっつ",
+       "とういつ"
+      ]
+     }
+    ]
    },
    "mnemonic": "One single horizontal line"
   },
@@ -72,7 +118,50 @@
     ],
     "strokes": 2,
     "grade": 1,
-    "freq": 9
+    "freq": 9,
+    "kun_marked": [
+     "ふた",
+     "ふた(つ)",
+     "ふたたび"
+    ],
+    "examples": [
+     {
+      "term": "二",
+      "reading": "に",
+      "meaning": "two",
+      "level": "N5",
+      "uses": "に",
+      "misreadings": [
+       "ふた"
+      ]
+     },
+     {
+      "term": "二つ",
+      "reading": "ふたつ",
+      "meaning": "two things",
+      "level": "N5",
+      "uses": "ふたつ",
+      "misreadings": [
+       "ふったつ",
+       "ぶたつ",
+       "へたつ",
+       "ひたつ"
+      ]
+     },
+     {
+      "term": "二時",
+      "reading": "にじ",
+      "meaning": "2 o'clock",
+      "level": "N5",
+      "uses": "に",
+      "misreadings": [
+       "ふたじ",
+       "ぬじ",
+       "なじ",
+       "にし"
+      ]
+     }
+    ]
    },
    "mnemonic": "Two horizontal lines"
   },
@@ -108,7 +197,53 @@
     ],
     "strokes": 2,
     "grade": 1,
-    "freq": 55
+    "freq": 55,
+    "kun_marked": [
+     "ここの",
+     "ここの(つ)"
+    ],
+    "examples": [
+     {
+      "term": "九",
+      "reading": "く",
+      "meaning": "nine",
+      "level": "N5",
+      "uses": "く",
+      "misreadings": [
+       "きゅう",
+       "ここの"
+      ]
+     },
+     {
+      "term": "九つ",
+      "reading": "ここのつ",
+      "meaning": "nine things",
+      "level": "N5",
+      "uses": "ここのつ",
+      "misreadings": [
+       "こうこのつ",
+       "ここうのつ",
+       "こっこのつ",
+       "ごこのつ",
+       "けこのつ"
+      ]
+     },
+     {
+      "term": "九日",
+      "reading": "ここのか",
+      "meaning": "nine days, ninth day of the month",
+      "level": "N5",
+      "uses": "ここのつ",
+      "misreadings": [
+       "きゅうか",
+       "くか",
+       "こうこのか",
+       "ここうのか",
+       "こっこのか",
+       "ごこのか"
+      ]
+     }
+    ]
    },
    "mnemonic": "Like the number 9"
   },
@@ -144,7 +279,56 @@
     ],
     "strokes": 2,
     "grade": 1,
-    "freq": 115
+    "freq": 115,
+    "kun_marked": [
+     "なな",
+     "なな(つ)",
+     "なの"
+    ],
+    "examples": [
+     {
+      "term": "七",
+      "reading": "しち",
+      "meaning": "seven",
+      "level": "N5",
+      "uses": "しち",
+      "misreadings": [
+       "なな",
+       "なの",
+       "しっち",
+       "じち",
+       "すち",
+       "さち"
+      ]
+     },
+     {
+      "term": "七つ",
+      "reading": "ななつ",
+      "meaning": "seven things",
+      "level": "N5",
+      "uses": "ななつ",
+      "misreadings": [
+       "なのつ",
+       "ななっつ",
+       "になつ"
+      ]
+     },
+     {
+      "term": "七日",
+      "reading": "なのか",
+      "meaning": "seven days, seventh day (of the month)",
+      "level": "N5",
+      "uses": "なの",
+      "misreadings": [
+       "しちか",
+       "ななか",
+       "なのうか",
+       "なのっか",
+       "にのか",
+       "なのが"
+      ]
+     }
+    ]
    },
    "mnemonic": "匕 spoon"
   },
@@ -183,7 +367,58 @@
     ],
     "strokes": 2,
     "grade": 1,
-    "freq": 5
+    "freq": 5,
+    "kun_marked": [
+     "ひと",
+     "り",
+     "と"
+    ],
+    "examples": [
+     {
+      "term": "人",
+      "reading": "じん",
+      "meaning": "counter for people",
+      "level": "N5",
+      "uses": "じん",
+      "misreadings": [
+       "にん",
+       "ひと",
+       "しん",
+       "ずん",
+       "ざん"
+      ]
+     },
+     {
+      "term": "一人",
+      "reading": "ひとり",
+      "meaning": "one person",
+      "level": "N5",
+      "uses": "り",
+      "misreadings": [
+       "ひとじん",
+       "ひとにん",
+       "ひとひと",
+       "ひとうり",
+       "ひっとり",
+       "ひとる"
+      ]
+     },
+     {
+      "term": "人形",
+      "reading": "にんぎょう",
+      "meaning": "doll, figure",
+      "level": "N4",
+      "uses": "にん",
+      "misreadings": [
+       "じんぎょう",
+       "ひとぎょう",
+       "りぎょう",
+       "にんぎょ",
+       "ぬんぎょう",
+       "なんぎょう"
+      ]
+     }
+    ]
    },
    "mnemonic": "A person walking"
   },
@@ -223,7 +458,52 @@
     ],
     "strokes": 2,
     "grade": 1,
-    "freq": 56
+    "freq": 56,
+    "kun_marked": [
+     "い(る)",
+     "いり",
+     "い(れる)",
+     "いれ",
+     "はい(る)"
+    ],
+    "examples": [
+     {
+      "term": "入れる",
+      "reading": "いれる",
+      "meaning": "to put in",
+      "level": "N5",
+      "uses": "いれる",
+      "misreadings": [
+       "いりれる",
+       "はいれる"
+      ]
+     },
+     {
+      "term": "入口",
+      "reading": "いりぐち",
+      "meaning": "Entrance",
+      "level": "N5",
+      "uses": "いる",
+      "misreadings": [
+       "にゅうぐち",
+       "いりぐっち",
+       "いりくち"
+      ]
+     },
+     {
+      "term": "入る",
+      "reading": "はいる",
+      "meaning": "To enter",
+      "level": "N5",
+      "uses": "はいる",
+      "misreadings": [
+       "いる",
+       "いりる",
+       "ばいる",
+       "ひいる"
+      ]
+     }
+    ]
    },
    "mnemonic": "An arrow going in"
   },
@@ -260,7 +540,52 @@
     ],
     "strokes": 2,
     "grade": 1,
-    "freq": 92
+    "freq": 92,
+    "kun_marked": [
+     "や",
+     "やつ",
+     "やっつ",
+     "よう"
+    ],
+    "examples": [
+     {
+      "term": "八",
+      "reading": "はち",
+      "meaning": "eight",
+      "level": "N5",
+      "uses": "はち",
+      "misreadings": [
+       "はっち",
+       "ばち",
+       "ひち"
+      ]
+     },
+     {
+      "term": "八つ",
+      "reading": "やっつ",
+      "meaning": "eight things",
+      "level": "N5",
+      "uses": "やつ",
+      "misreadings": [
+       "やつ",
+       "ゆっつ"
+      ]
+     },
+     {
+      "term": "八日",
+      "reading": "ようか",
+      "meaning": "eight days, eighth day of the month",
+      "level": "N5",
+      "uses": "よう",
+      "misreadings": [
+       "はちか",
+       "よか",
+       "ようっか",
+       "ゆうか",
+       "ようが"
+      ]
+     }
+    ]
    },
    "mnemonic": "ハ eight"
   },
@@ -297,7 +622,56 @@
     ],
     "strokes": 2,
     "grade": 1,
-    "freq": 8
+    "freq": 8,
+    "kun_marked": [
+     "とお",
+     "と"
+    ],
+    "examples": [
+     {
+      "term": "十",
+      "reading": "じゅう",
+      "meaning": "ten",
+      "level": "N5",
+      "uses": "じゅう",
+      "misreadings": [
+       "とお",
+       "じゅ",
+       "しゅう",
+       "ずゅう",
+       "ざゅう"
+      ]
+     },
+     {
+      "term": "十日",
+      "reading": "とおか",
+      "meaning": "ten days, tenth day of the month",
+      "level": "N5",
+      "uses": "とお",
+      "misreadings": [
+       "じゅうか",
+       "とうおか",
+       "とおっか",
+       "どおか",
+       "ておか",
+       "とおが"
+      ]
+     },
+     {
+      "term": "十円",
+      "reading": "じゅうえん",
+      "meaning": "10 yen",
+      "level": "N5",
+      "uses": "じゅう",
+      "misreadings": [
+       "とおえん",
+       "じゅえん",
+       "しゅうえん",
+       "ずゅうえん",
+       "ざゅうえん"
+      ]
+     }
+    ]
    },
    "mnemonic": "A cross — perfect ten"
   },
@@ -334,7 +708,50 @@
     ],
     "strokes": 3,
     "grade": 1,
-    "freq": 14
+    "freq": 14,
+    "kun_marked": [
+     "み",
+     "み(つ)",
+     "みっつ"
+    ],
+    "examples": [
+     {
+      "term": "三",
+      "reading": "さん",
+      "meaning": "three",
+      "level": "N5",
+      "uses": "さん",
+      "misreadings": [
+       "ざん",
+       "しん"
+      ]
+     },
+     {
+      "term": "三つ",
+      "reading": "みっつ",
+      "meaning": "three things",
+      "level": "N5",
+      "uses": "みつ",
+      "misreadings": [
+       "みつ",
+       "むっつ",
+       "まっつ"
+      ]
+     },
+     {
+      "term": "三時",
+      "reading": "さんじ",
+      "meaning": "3 o'clock",
+      "level": "N5",
+      "uses": "さん",
+      "misreadings": [
+       "みじ",
+       "ざんじ",
+       "しんじ",
+       "さんし"
+      ]
+     }
+    ]
    },
    "mnemonic": "二 two"
   },
@@ -360,7 +777,7 @@
     "kanji",
     "jlpt-verified"
    ],
-   "reading": "あげる",
+   "reading": "うえ",
    "data": {
     "on": [
      "じょう",
@@ -386,7 +803,62 @@
     ],
     "strokes": 3,
     "grade": 1,
-    "freq": 35
+    "freq": 35,
+    "kun_marked": [
+     "うえ",
+     "うわ",
+     "かみ",
+     "あ(げる)",
+     "あ(がる)",
+     "あがり",
+     "のぼ(る)",
+     "のぼり",
+     "のぼせる",
+     "のぼす",
+     "たてまつる"
+    ],
+    "examples": [
+     {
+      "term": "上手",
+      "reading": "じょうず",
+      "meaning": "be good at, skillful",
+      "level": "N5",
+      "uses": "じょう",
+      "misreadings": [
+       "うえず",
+       "うわず",
+       "かみず",
+       "じょず",
+       "しょうず",
+       "ずょうず"
+      ]
+     },
+     {
+      "term": "上げる",
+      "reading": "あげる",
+      "meaning": "to raise, to lift",
+      "level": "N5",
+      "uses": "あげる",
+      "misreadings": [
+       "うえげる",
+       "うわげる",
+       "かみげる",
+       "のぼげる"
+      ]
+     },
+     {
+      "term": "上",
+      "reading": "うえ",
+      "meaning": "above (up, top",
+      "level": "N5",
+      "uses": "うえ",
+      "misreadings": [
+       "じょう",
+       "うわ",
+       "かみ"
+      ]
+     }
+    ]
    },
    "mnemonic": "卜 divination"
   },
@@ -434,7 +906,66 @@
     ],
     "strokes": 3,
     "grade": 1,
-    "freq": 97
+    "freq": 97,
+    "kun_marked": [
+     "した",
+     "しも",
+     "もと",
+     "さ(げる)",
+     "さが(る)",
+     "くだ(る)",
+     "くだり",
+     "くだす",
+     "くださる",
+     "おろ(す)",
+     "お(りる)"
+    ],
+    "examples": [
+     {
+      "term": "下",
+      "reading": "した",
+      "meaning": "under, below",
+      "level": "N5",
+      "uses": "した",
+      "misreadings": [
+       "しも",
+       "しった",
+       "じた",
+       "すた",
+       "さた"
+      ]
+     },
+     {
+      "term": "下さい",
+      "reading": "ください",
+      "meaning": "(with te-form verb) please do for me",
+      "level": "N5",
+      "uses": "くだる",
+      "misreadings": [
+       "したさい",
+       "しもさい",
+       "さがさい",
+       "おろさい",
+       "くだっさい",
+       "ぐださい"
+      ]
+     },
+     {
+      "term": "地下鉄",
+      "reading": "ちかてつ",
+      "meaning": "Subway",
+      "level": "N5",
+      "uses": "か",
+      "misreadings": [
+       "ちげてつ",
+       "ちしたてつ",
+       "ちしもてつ",
+       "ちっかてつ",
+       "ちがてつ",
+       "ちきてつ"
+      ]
+     }
+    ]
    },
    "mnemonic": "卜 divination"
   },
@@ -471,7 +1002,54 @@
     ],
     "strokes": 3,
     "grade": 1,
-    "freq": 284
+    "freq": 284,
+    "kun_marked": [
+     "くち"
+    ],
+    "examples": [
+     {
+      "term": "口",
+      "reading": "くち",
+      "meaning": "Mouth",
+      "level": "N5",
+      "uses": "くち",
+      "misreadings": [
+       "こう",
+       "くっち",
+       "ぐち",
+       "けち",
+       "きち"
+      ]
+     },
+     {
+      "term": "人口",
+      "reading": "じんこう",
+      "meaning": "population",
+      "level": "N4",
+      "uses": "こう",
+      "misreadings": [
+       "じんくち",
+       "じんこ",
+       "じんごう",
+       "じんけう",
+       "しんこう"
+      ]
+     },
+     {
+      "term": "入口",
+      "reading": "いりぐち",
+      "meaning": "Entrance",
+      "level": "N5",
+      "uses": "くち",
+      "misreadings": [
+       "いりこう",
+       "いりぐっち",
+       "いりくち",
+       "いりげち",
+       "いりぎち"
+      ]
+     }
+    ]
    },
    "mnemonic": "囗 enclosure"
   },
@@ -510,7 +1088,54 @@
     ],
     "strokes": 3,
     "grade": 1,
-    "freq": 7
+    "freq": 7,
+    "kun_marked": [
+     "おお",
+     "おお(きい)",
+     "おおいに"
+    ],
+    "examples": [
+     {
+      "term": "大学",
+      "reading": "だいがく",
+      "meaning": "college, university",
+      "level": "N5",
+      "uses": "だい",
+      "misreadings": [
+       "たいがく",
+       "おおがく",
+       "だいがっく",
+       "ぢいがく",
+       "だいかく"
+      ]
+     },
+     {
+      "term": "大切",
+      "reading": "たいせつ",
+      "meaning": "important",
+      "level": "N5",
+      "uses": "たい",
+      "misreadings": [
+       "だいせつ",
+       "おおせつ",
+       "たいっせつ",
+       "ちいせつ",
+       "たいぜつ"
+      ]
+     },
+     {
+      "term": "大勢",
+      "reading": "おおぜい",
+      "meaning": "great number of people",
+      "level": "N5",
+      "uses": "おおきい",
+      "misreadings": [
+       "だいぜい",
+       "たいぜい",
+       "おおせい"
+      ]
+     }
+    ]
    },
    "mnemonic": "A person with arms spread wide"
   },
@@ -549,7 +1174,51 @@
     ],
     "strokes": 3,
     "grade": 1,
-    "freq": 151
+    "freq": 151,
+    "kun_marked": [
+     "おんな",
+     "め"
+    ],
+    "examples": [
+     {
+      "term": "女",
+      "reading": "おんな",
+      "meaning": "woman, female",
+      "level": "N5",
+      "uses": "おんな",
+      "misreadings": [
+       "じょ"
+      ]
+     },
+     {
+      "term": "女性",
+      "reading": "じょせい",
+      "meaning": "woman",
+      "level": "N4",
+      "uses": "じょ",
+      "misreadings": [
+       "おんなせい",
+       "じょうせい",
+       "しょせい",
+       "ずょせい",
+       "ざょせい",
+       "じょぜい"
+      ]
+     },
+     {
+      "term": "女の子",
+      "reading": "おんなのこ",
+      "meaning": "girl",
+      "level": "N5",
+      "uses": "おんな",
+      "misreadings": [
+       "おんなのうこ",
+       "おんなのこう",
+       "おんなのっこ",
+       "おんなのご"
+      ]
+     }
+    ]
    },
    "mnemonic": "A woman kneeling"
   },
@@ -586,7 +1255,49 @@
     ],
     "strokes": 3,
     "grade": 1,
-    "freq": 131
+    "freq": 131,
+    "kun_marked": [
+     "やま"
+    ],
+    "examples": [
+     {
+      "term": "山",
+      "reading": "やま",
+      "meaning": "Mountain",
+      "level": "N5",
+      "uses": "やま",
+      "misreadings": [
+       "さん",
+       "ゆま"
+      ]
+     },
+     {
+      "term": "登山",
+      "reading": "とざん",
+      "meaning": "mountain-climbing",
+      "level": "N3",
+      "uses": "さん",
+      "misreadings": [
+       "とやま",
+       "とうざん",
+       "とさん",
+       "とじん",
+       "どざん"
+      ]
+     },
+     {
+      "term": "山林",
+      "reading": "さんりん",
+      "meaning": "mountain forest",
+      "level": "N2",
+      "uses": "さん",
+      "misreadings": [
+       "やまりん",
+       "ざんりん",
+       "しんりん"
+      ]
+     }
+    ]
    },
    "mnemonic": "Three mountain peaks"
   },
@@ -622,7 +1333,23 @@
     ],
     "strokes": 3,
     "grade": 1,
-    "freq": 181
+    "freq": 181,
+    "kun_marked": [
+     "かわ"
+    ],
+    "examples": [
+     {
+      "term": "川",
+      "reading": "かわ",
+      "meaning": "River",
+      "level": "N5",
+      "uses": "かわ",
+      "misreadings": [
+       "がわ",
+       "きわ"
+      ]
+     }
+    ]
    },
    "mnemonic": "Three flowing streams"
   },
@@ -659,7 +1386,55 @@
     ],
     "strokes": 3,
     "grade": 1,
-    "freq": 307
+    "freq": 307,
+    "kun_marked": [
+     "つち"
+    ],
+    "examples": [
+     {
+      "term": "土曜日",
+      "reading": "どようび",
+      "meaning": "Saturday",
+      "level": "N5",
+      "uses": "ど",
+      "misreadings": [
+       "とようび",
+       "つちようび",
+       "どよび",
+       "どうようび",
+       "でようび",
+       "どようひ"
+      ]
+     },
+     {
+      "term": "土",
+      "reading": "つち",
+      "meaning": "earth, soil",
+      "level": "N3",
+      "uses": "つち",
+      "misreadings": [
+       "つっち",
+       "づち",
+       "てち",
+       "ちち"
+      ]
+     },
+     {
+      "term": "土地",
+      "reading": "とち",
+      "meaning": "plot of land, lot",
+      "level": "N3",
+      "uses": "と",
+      "misreadings": [
+       "どち",
+       "つちち",
+       "とうち",
+       "とっち",
+       "てち",
+       "とぢ"
+      ]
+     }
+    ]
    },
    "mnemonic": "A cross on the ground"
   },
@@ -693,7 +1468,51 @@
     ],
     "strokes": 3,
     "grade": 1,
-    "freq": 195
+    "freq": 195,
+    "kun_marked": [
+     "ち"
+    ],
+    "examples": [
+     {
+      "term": "千",
+      "reading": "せん",
+      "meaning": "thousand",
+      "level": "N5",
+      "uses": "せん",
+      "misreadings": [
+       "ぜん",
+       "そん",
+       "すん"
+      ]
+     },
+     {
+      "term": "千円",
+      "reading": "せんえん",
+      "meaning": "1,000 yen",
+      "level": "N5",
+      "uses": "せん",
+      "misreadings": [
+       "ぜんえん",
+       "そんえん",
+       "すんえん"
+      ]
+     },
+     {
+      "term": "五千円",
+      "reading": "ごせんえん",
+      "meaning": "5,000 yen",
+      "level": "N5",
+      "uses": "せん",
+      "misreadings": [
+       "ごうせんえん",
+       "ごっせんえん",
+       "ごぜんえん",
+       "ごそんえん",
+       "ごすんえん",
+       "こせんえん"
+      ]
+     }
+    ]
    },
    "mnemonic": "十 ten"
   },
@@ -733,7 +1552,58 @@
     ],
     "strokes": 3,
     "grade": 1,
-    "freq": 72
+    "freq": 72,
+    "kun_marked": [
+     "こ",
+     "ね"
+    ],
+    "examples": [
+     {
+      "term": "子供",
+      "reading": "こども",
+      "meaning": "Child",
+      "level": "N5",
+      "uses": "こ",
+      "misreadings": [
+       "しども",
+       "すども",
+       "こうども",
+       "こどうも",
+       "ごども",
+       "けども"
+      ]
+     },
+     {
+      "term": "帽子",
+      "reading": "ぼうし",
+      "meaning": "Hat",
+      "level": "N5",
+      "uses": "し",
+      "misreadings": [
+       "ぼうす",
+       "ぼうこ",
+       "ぼし",
+       "ぼうっし",
+       "ぼうじ",
+       "ぼうさ"
+      ]
+     },
+     {
+      "term": "様子",
+      "reading": "ようす",
+      "meaning": "aspect, state",
+      "level": "N3",
+      "uses": "す",
+      "misreadings": [
+       "ようし",
+       "ようこ",
+       "よす",
+       "ようっす",
+       "ようず",
+       "ようせ"
+      ]
+     }
+    ]
    },
    "mnemonic": "A child with outstretched arms"
   },
@@ -772,7 +1642,59 @@
     ],
     "strokes": 3,
     "grade": 1,
-    "freq": 114
+    "freq": 114,
+    "kun_marked": [
+     "ちい(さい)",
+     "こ",
+     "お",
+     "さ"
+    ],
+    "examples": [
+     {
+      "term": "小さい",
+      "reading": "ちいさい",
+      "meaning": "Small / Little",
+      "level": "N5",
+      "uses": "ちいさい",
+      "misreadings": [
+       "こさい",
+       "ちいっさい",
+       "ぢいさい",
+       "ついさい",
+       "たいさい"
+      ]
+     },
+     {
+      "term": "小説",
+      "reading": "しょうせつ",
+      "meaning": "novel",
+      "level": "N4",
+      "uses": "しょう",
+      "misreadings": [
+       "こせつ",
+       "しょせつ",
+       "しょうっせつ",
+       "じょうせつ",
+       "すょうせつ",
+       "さょうせつ"
+      ]
+     },
+     {
+      "term": "小鳥",
+      "reading": "ことり",
+      "meaning": "small bird",
+      "level": "N4",
+      "uses": "こ",
+      "misreadings": [
+       "しょうとり",
+       "こうとり",
+       "ことうり",
+       "こっとり",
+       "ごとり",
+       "けとり"
+      ]
+     }
+    ]
    },
    "mnemonic": "A small cross shape"
   },
@@ -810,7 +1732,55 @@
     ],
     "strokes": 4,
     "grade": 1,
-    "freq": 11
+    "freq": 11,
+    "kun_marked": [
+     "なか",
+     "うち",
+     "あたる"
+    ],
+    "examples": [
+     {
+      "term": "中",
+      "reading": "じゅう",
+      "meaning": "during, while",
+      "level": "N5",
+      "uses": "ちゅう",
+      "misreadings": [
+       "なか",
+       "じゅ",
+       "しゅう",
+       "ずゅう",
+       "ざゅう"
+      ]
+     },
+     {
+      "term": "中々",
+      "reading": "なかなか",
+      "meaning": "very, considerably",
+      "level": "N4",
+      "uses": "なか",
+      "misreadings": [
+       "ちゅうなか",
+       "なっかなか",
+       "にかなか"
+      ]
+     },
+     {
+      "term": "途中",
+      "reading": "とちゅう",
+      "meaning": "on the way, midway",
+      "level": "N4",
+      "uses": "ちゅう",
+      "misreadings": [
+       "となか",
+       "とちゅ",
+       "とうちゅう",
+       "とっちゅう",
+       "とぢゅう",
+       "とつゅう"
+      ]
+     }
+    ]
    },
    "mnemonic": "口 mouth"
   },
@@ -845,7 +1815,45 @@
     ],
     "strokes": 4,
     "grade": 1,
-    "freq": 31
+    "freq": 31,
+    "kun_marked": [
+     "いつ",
+     "いつ(つ)"
+    ],
+    "examples": [
+     {
+      "term": "五",
+      "reading": "ご",
+      "meaning": "five",
+      "level": "N5",
+      "uses": "ご",
+      "misreadings": [
+       "ごう"
+      ]
+     },
+     {
+      "term": "五つ",
+      "reading": "いつつ",
+      "meaning": "five things",
+      "level": "N5",
+      "uses": "いつつ",
+      "misreadings": [
+       "いっつつ"
+      ]
+     },
+     {
+      "term": "五円",
+      "reading": "ごえん",
+      "meaning": "5 yen",
+      "level": "N5",
+      "uses": "ご",
+      "misreadings": [
+       "ごうえん",
+       "こえん",
+       "げえん"
+      ]
+     }
+    ]
    },
    "mnemonic": "二 two"
   },
@@ -883,7 +1891,54 @@
     ],
     "strokes": 4,
     "grade": 1,
-    "freq": 93
+    "freq": 93,
+    "kun_marked": [
+     "む",
+     "むつ",
+     "むっつ",
+     "むい"
+    ],
+    "examples": [
+     {
+      "term": "六",
+      "reading": "ろく",
+      "meaning": "six",
+      "level": "N5",
+      "uses": "ろく",
+      "misreadings": [
+       "むい",
+       "ろうく",
+       "ろっく",
+       "れく"
+      ]
+     },
+     {
+      "term": "六つ",
+      "reading": "むっつ",
+      "meaning": "six things",
+      "level": "N5",
+      "uses": "むつ",
+      "misreadings": [
+       "むつ",
+       "めっつ",
+       "みっつ"
+      ]
+     },
+     {
+      "term": "六日",
+      "reading": "むいか",
+      "meaning": "six days, sixth day of month",
+      "level": "N5",
+      "uses": "むい",
+      "misreadings": [
+       "ろくか",
+       "むいっか",
+       "めいか",
+       "みいか",
+       "むいが"
+      ]
+     }
+    ]
    },
    "mnemonic": "ハ eight + 亠 lid"
   },
@@ -921,7 +1976,45 @@
     ],
     "strokes": 4,
     "grade": 1,
-    "freq": 69
+    "freq": 69,
+    "kun_marked": [
+     "まる(い)",
+     "まる",
+     "まど",
+     "まどか",
+     "まろやか"
+    ],
+    "examples": [
+     {
+      "term": "円",
+      "reading": "えん",
+      "meaning": "Yen",
+      "level": "N5",
+      "uses": "えん",
+      "misreadings": []
+     },
+     {
+      "term": "一円",
+      "reading": "いちえん",
+      "meaning": "1 yen",
+      "level": "N5",
+      "uses": "えん",
+      "misreadings": [
+       "いっちえん"
+      ]
+     },
+     {
+      "term": "五円",
+      "reading": "ごえん",
+      "meaning": "5 yen",
+      "level": "N5",
+      "uses": "えん",
+      "misreadings": [
+       "ごうえん",
+       "こえん"
+      ]
+     }
+    ]
    },
    "mnemonic": "冂 frame + 亠 lid"
   },
@@ -961,7 +2054,53 @@
     ],
     "strokes": 4,
     "grade": 1,
-    "freq": 60
+    "freq": 60,
+    "kun_marked": [
+     "て",
+     "た"
+    ],
+    "examples": [
+     {
+      "term": "手",
+      "reading": "て",
+      "meaning": "Hand",
+      "level": "N5",
+      "uses": "て",
+      "misreadings": [
+       "しゅ"
+      ]
+     },
+     {
+      "term": "運転手",
+      "reading": "うんてんしゅ",
+      "meaning": "driver (by occupation)",
+      "level": "N4",
+      "uses": "しゅ",
+      "misreadings": [
+       "うんてんず",
+       "うんてんて",
+       "うんてんしゅう",
+       "うんてんじゅ",
+       "うんてんすゅ",
+       "うんてんさゅ"
+      ]
+     },
+     {
+      "term": "上手",
+      "reading": "じょうず",
+      "meaning": "be good at, skillful",
+      "level": "N5",
+      "uses": "ず",
+      "misreadings": [
+       "じょうしゅ",
+       "じょうて",
+       "じょず",
+       "じょうす",
+       "じょうぜ",
+       "じょうじ"
+      ]
+     }
+    ]
    },
    "mnemonic": "Fingers spread out"
   },
@@ -1000,7 +2139,57 @@
     ],
     "strokes": 4,
     "grade": 1,
-    "freq": 1
+    "freq": 1,
+    "kun_marked": [
+     "ひ",
+     "び",
+     "か"
+    ],
+    "examples": [
+     {
+      "term": "土曜日",
+      "reading": "どようび",
+      "meaning": "Saturday",
+      "level": "N5",
+      "uses": "ひ",
+      "misreadings": [
+       "どようにち",
+       "どようじつ",
+       "どようか",
+       "どよび",
+       "どうようび",
+       "どようひ"
+      ]
+     },
+     {
+      "term": "日",
+      "reading": "にち",
+      "meaning": "~ day of the month, for ~ days",
+      "level": "N5",
+      "uses": "にち",
+      "misreadings": [
+       "じつ",
+       "にっち",
+       "ぬち",
+       "なち"
+      ]
+     },
+     {
+      "term": "七日",
+      "reading": "なのか",
+      "meaning": "seven days, seventh day (of the month)",
+      "level": "N5",
+      "uses": "か",
+      "misreadings": [
+       "なのにち",
+       "なのじつ",
+       "なのひ",
+       "なのうか",
+       "なのっか",
+       "なのが"
+      ]
+     }
+    ]
    },
    "mnemonic": "A rectangle with a line — the sun"
   },
@@ -1037,7 +2226,56 @@
     ],
     "strokes": 4,
     "grade": 1,
-    "freq": 23
+    "freq": 23,
+    "kun_marked": [
+     "つき"
+    ],
+    "examples": [
+     {
+      "term": "か月",
+      "reading": "かげつ",
+      "meaning": "(number of) months",
+      "level": "N5",
+      "uses": "げつ",
+      "misreadings": [
+       "かがつ",
+       "かつき",
+       "かげっつ",
+       "かけつ",
+       "かごつ",
+       "かぐつ"
+      ]
+     },
+     {
+      "term": "月",
+      "reading": "がつ",
+      "meaning": "month of year",
+      "level": "N5",
+      "uses": "がつ",
+      "misreadings": [
+       "げつ",
+       "つき",
+       "がっつ",
+       "かつ",
+       "ぎつ"
+      ]
+     },
+     {
+      "term": "一月",
+      "reading": "ひとつき",
+      "meaning": "January",
+      "level": "N5",
+      "uses": "つき",
+      "misreadings": [
+       "ひとげつ",
+       "ひとがつ",
+       "ひとうつき",
+       "ひっとつき",
+       "ひとづき",
+       "ひとてき"
+      ]
+     }
+    ]
    },
    "mnemonic": "Crescent moon shape"
   },
@@ -1075,7 +2313,54 @@
     ],
     "strokes": 4,
     "grade": 1,
-    "freq": 317
+    "freq": 317,
+    "kun_marked": [
+     "き",
+     "こ"
+    ],
+    "examples": [
+     {
+      "term": "木",
+      "reading": "き",
+      "meaning": "tree, wood",
+      "level": "N5",
+      "uses": "き",
+      "misreadings": [
+       "ぼく",
+       "もく"
+      ]
+     },
+     {
+      "term": "木曜日",
+      "reading": "もくようび",
+      "meaning": "Thursday",
+      "level": "N5",
+      "uses": "もく",
+      "misreadings": [
+       "ぼくようび",
+       "きようび",
+       "もくよび",
+       "もうくようび",
+       "もっくようび",
+       "めくようび"
+      ]
+     },
+     {
+      "term": "大木",
+      "reading": "たいぼく",
+      "meaning": "large tree",
+      "level": "N2",
+      "uses": "ぼく",
+      "misreadings": [
+       "たいもく",
+       "たいき",
+       "たいぼうく",
+       "たいぼっく",
+       "たいほく",
+       "たいべく"
+      ]
+     }
+    ]
    },
    "mnemonic": "A tree with roots and branches"
   },
@@ -1112,7 +2397,53 @@
     ],
     "strokes": 4,
     "grade": 1,
-    "freq": 223
+    "freq": 223,
+    "kun_marked": [
+     "みず"
+    ],
+    "examples": [
+     {
+      "term": "水曜日",
+      "reading": "すいようび",
+      "meaning": "Wednesday",
+      "level": "N5",
+      "uses": "すい",
+      "misreadings": [
+       "みずようび",
+       "すいよび",
+       "ずいようび",
+       "せいようび",
+       "しいようび",
+       "すいようひ"
+      ]
+     },
+     {
+      "term": "水",
+      "reading": "みず",
+      "meaning": "Water",
+      "level": "N5",
+      "uses": "みず",
+      "misreadings": [
+       "すい",
+       "むず",
+       "まず"
+      ]
+     },
+     {
+      "term": "水泳",
+      "reading": "すいえい",
+      "meaning": "swimming",
+      "level": "N4",
+      "uses": "すい",
+      "misreadings": [
+       "みずえい",
+       "すいえ",
+       "ずいえい",
+       "せいえい",
+       "しいえい"
+      ]
+     }
+    ]
    },
    "mnemonic": "Flowing water streams"
   },
@@ -1150,7 +2481,49 @@
     ],
     "strokes": 4,
     "grade": 1,
-    "freq": 574
+    "freq": 574,
+    "kun_marked": [
+     "ひ",
+     "び",
+     "ほ"
+    ],
+    "examples": [
+     {
+      "term": "火曜日",
+      "reading": "かようび",
+      "meaning": "Tuesday",
+      "level": "N5",
+      "uses": "か",
+      "misreadings": [
+       "ひようび",
+       "かよび",
+       "がようび",
+       "きようび",
+       "かようひ"
+      ]
+     },
+     {
+      "term": "火",
+      "reading": "ひ",
+      "meaning": "fire",
+      "level": "N4",
+      "uses": "ひ",
+      "misreadings": []
+     },
+     {
+      "term": "火事",
+      "reading": "かじ",
+      "meaning": "fire",
+      "level": "N4",
+      "uses": "か",
+      "misreadings": [
+       "ひじ",
+       "がじ",
+       "きじ",
+       "かし"
+      ]
+     }
+    ]
    },
    "mnemonic": "Flames shooting up"
   },
@@ -1190,7 +2563,57 @@
     ],
     "strokes": 5,
     "grade": 1,
-    "freq": 13
+    "freq": 13,
+    "kun_marked": [
+     "で(る)",
+     "で",
+     "だ(す)",
+     "いでる",
+     "いだす"
+    ],
+    "examples": [
+     {
+      "term": "出る",
+      "reading": "でる",
+      "meaning": "To exit / leave",
+      "level": "N5",
+      "uses": "でる",
+      "misreadings": [
+       "だる",
+       "てる",
+       "どる",
+       "づる"
+      ]
+     },
+     {
+      "term": "出す",
+      "reading": "だす",
+      "meaning": "to take (something) out, to hand in (something)",
+      "level": "N5",
+      "uses": "だす",
+      "misreadings": [
+       "です",
+       "だっす",
+       "たす",
+       "ぢす"
+      ]
+     },
+     {
+      "term": "出席",
+      "reading": "しゅっせき",
+      "meaning": "attendance",
+      "level": "N4",
+      "uses": "しゅつ",
+      "misreadings": [
+       "でせき",
+       "しゅうっせき",
+       "しゅせき",
+       "しゅっせっき",
+       "じゅっせき",
+       "すゅっせき"
+      ]
+     }
+    ]
    },
    "mnemonic": "山 mountain"
   },
@@ -1225,7 +2648,37 @@
     ],
     "strokes": 5,
     "grade": 1,
-    "freq": 602
+    "freq": 602,
+    "kun_marked": [
+     "みぎ"
+    ],
+    "examples": [
+     {
+      "term": "右",
+      "reading": "みぎ",
+      "meaning": "right hand side",
+      "level": "N5",
+      "uses": "みぎ",
+      "misreadings": [
+       "ゆう",
+       "むぎ",
+       "まぎ"
+      ]
+     },
+     {
+      "term": "左右",
+      "reading": "さゆう",
+      "meaning": "left and right, influence",
+      "level": "N3",
+      "uses": "ゆう",
+      "misreadings": [
+       "さみぎ",
+       "さよう",
+       "さやう",
+       "ざゆう"
+      ]
+     }
+    ]
    },
    "mnemonic": "口 mouth"
   },
@@ -1262,7 +2715,52 @@
     ],
     "strokes": 5,
     "grade": 1,
-    "freq": 47
+    "freq": 47,
+    "kun_marked": [
+     "よ",
+     "よ(つ)",
+     "よっつ",
+     "よん"
+    ],
+    "examples": [
+     {
+      "term": "四",
+      "reading": "し",
+      "meaning": "four",
+      "level": "N5",
+      "uses": "し",
+      "misreadings": [
+       "よん"
+      ]
+     },
+     {
+      "term": "四つ",
+      "reading": "よっつ",
+      "meaning": "four things",
+      "level": "N5",
+      "uses": "よつ",
+      "misreadings": [
+       "よつ",
+       "よんつ",
+       "ゆっつ"
+      ]
+     },
+     {
+      "term": "四月",
+      "reading": "しがつ",
+      "meaning": "April",
+      "level": "N5",
+      "uses": "し",
+      "misreadings": [
+       "よがつ",
+       "よんがつ",
+       "しがっつ",
+       "じがつ",
+       "すがつ",
+       "さがつ"
+      ]
+     }
+    ]
    },
    "mnemonic": "儿 legs + 囗 enclosure"
   },
@@ -1297,7 +2795,36 @@
     ],
     "strokes": 5,
     "grade": 1,
-    "freq": 630
+    "freq": 630,
+    "kun_marked": [
+     "ひだり"
+    ],
+    "examples": [
+     {
+      "term": "左",
+      "reading": "ひだり",
+      "meaning": "left hand side",
+      "level": "N5",
+      "uses": "ひだり",
+      "misreadings": [
+       "びだり",
+       "ふだり",
+       "はだり"
+      ]
+     },
+     {
+      "term": "左右",
+      "reading": "さゆう",
+      "meaning": "left and right, influence",
+      "level": "N3",
+      "uses": "さ",
+      "misreadings": [
+       "ひだりゆう",
+       "ざゆう",
+       "しゆう"
+      ]
+     }
+    ]
    },
    "mnemonic": "工 craft"
   },
@@ -1333,7 +2860,50 @@
     ],
     "strokes": 5,
     "grade": 1,
-    "freq": 10
+    "freq": 10,
+    "kun_marked": [
+     "もと"
+    ],
+    "examples": [
+     {
+      "term": "本",
+      "reading": "ほん",
+      "meaning": "Book",
+      "level": "N5",
+      "uses": "ほん",
+      "misreadings": [
+       "ほうん",
+       "ぼん",
+       "へん"
+      ]
+     },
+     {
+      "term": "一本",
+      "reading": "いっぽん",
+      "meaning": "One (long thing)",
+      "level": "N5",
+      "uses": "ほん",
+      "misreadings": [
+       "いっぽうん",
+       "いぽん",
+       "いっほん",
+       "いっぺん"
+      ]
+     },
+     {
+      "term": "三本",
+      "reading": "さんぼん",
+      "meaning": "Three (long things)",
+      "level": "N5",
+      "uses": "ほん",
+      "misreadings": [
+       "さんぼうん",
+       "さんほん",
+       "さんべん",
+       "ざんぼん"
+      ]
+     }
+    ]
    },
    "mnemonic": "木 tree"
   },
@@ -1372,7 +2942,55 @@
     ],
     "strokes": 5,
     "grade": 1,
-    "freq": 483
+    "freq": 483,
+    "kun_marked": [
+     "しろ",
+     "しら",
+     "しろ(い)"
+    ],
+    "examples": [
+     {
+      "term": "白",
+      "reading": "しろ",
+      "meaning": "White",
+      "level": "N5",
+      "uses": "しろい",
+      "misreadings": [
+       "しろう",
+       "じろ",
+       "すろ",
+       "さろ"
+      ]
+     },
+     {
+      "term": "白い",
+      "reading": "しろい",
+      "meaning": "white",
+      "level": "N5",
+      "uses": "しろい",
+      "misreadings": [
+       "しろうい",
+       "じろい",
+       "すろい",
+       "さろい"
+      ]
+     },
+     {
+      "term": "面白い",
+      "reading": "おもしろい",
+      "meaning": "Interesting",
+      "level": "N5",
+      "uses": "しろい",
+      "misreadings": [
+       "おもうしろい",
+       "おもしろうい",
+       "おもっしろい",
+       "おもじろい",
+       "おもすろい",
+       "おもさろい"
+      ]
+     }
+    ]
    },
    "mnemonic": "The sun = whiteness"
   },
@@ -1411,7 +3029,50 @@
     ],
     "strokes": 5,
     "grade": 1,
-    "freq": 76
+    "freq": 76,
+    "kun_marked": [
+     "め",
+     "ま"
+    ],
+    "examples": [
+     {
+      "term": "目",
+      "reading": "め",
+      "meaning": "Eye",
+      "level": "N5",
+      "uses": "め",
+      "misreadings": [
+       "もく"
+      ]
+     },
+     {
+      "term": "注目",
+      "reading": "ちゅうもく",
+      "meaning": "notice, attention",
+      "level": "N3",
+      "uses": "もく",
+      "misreadings": [
+       "ちゅうめ",
+       "ちゅもく",
+       "ちゅうもうく",
+       "ちゅうもっく",
+       "ちゅうめく",
+       "ぢゅうもく"
+      ]
+     },
+     {
+      "term": "目上",
+      "reading": "めうえ",
+      "meaning": "person of higher status, one's senior",
+      "level": "N3",
+      "uses": "め",
+      "misreadings": [
+       "もくうえ",
+       "もうえ",
+       "むうえ"
+      ]
+     }
+    ]
    },
    "mnemonic": "An eye shape rotated"
   },
@@ -1456,7 +3117,58 @@
     ],
     "strokes": 5,
     "grade": 1,
-    "freq": 58
+    "freq": 58,
+    "kun_marked": [
+     "た(つ)",
+     "たち",
+     "た(てる)",
+     "たて",
+     "だて",
+     "だてる"
+    ],
+    "examples": [
+     {
+      "term": "立つ",
+      "reading": "たつ",
+      "meaning": "to stand up",
+      "level": "N5",
+      "uses": "たつ",
+      "misreadings": [
+       "たちつ",
+       "たっつ",
+       "だつ",
+       "ちつ"
+      ]
+     },
+     {
+      "term": "立てる",
+      "reading": "たてる",
+      "meaning": "to stand (something) up, to erect (something)",
+      "level": "N4",
+      "uses": "たてる",
+      "misreadings": [
+       "たちてる",
+       "たってる",
+       "だてる",
+       "ちてる"
+      ]
+     },
+     {
+      "term": "国立",
+      "reading": "こくりつ",
+      "meaning": "national",
+      "level": "N2",
+      "uses": "りつ",
+      "misreadings": [
+       "こくたち",
+       "こうくりつ",
+       "こっくりつ",
+       "こくるつ",
+       "こくらつ",
+       "ごくりつ"
+      ]
+     }
+    ]
    },
    "mnemonic": "A person standing upright"
   },
@@ -1491,7 +3203,51 @@
     ],
     "strokes": 4,
     "grade": 2,
-    "freq": 49
+    "freq": 49,
+    "kun_marked": [
+     "いま"
+    ],
+    "examples": [
+     {
+      "term": "今晩",
+      "reading": "こんばん",
+      "meaning": "tonight, this evening",
+      "level": "N5",
+      "uses": "こん",
+      "misreadings": [
+       "いまばん",
+       "こうんばん",
+       "ごんばん",
+       "けんばん",
+       "こんはん"
+      ]
+     },
+     {
+      "term": "今",
+      "reading": "いま",
+      "meaning": "Now",
+      "level": "N5",
+      "uses": "いま",
+      "misreadings": [
+       "こん"
+      ]
+     },
+     {
+      "term": "今月",
+      "reading": "こんげつ",
+      "meaning": "this month",
+      "level": "N5",
+      "uses": "こん",
+      "misreadings": [
+       "いまげつ",
+       "こうんげつ",
+       "こんげっつ",
+       "ごんげつ",
+       "けんげつ",
+       "こんけつ"
+      ]
+     }
+    ]
    },
    "mnemonic": "𠆢 person"
   },
@@ -1527,7 +3283,54 @@
     ],
     "strokes": 4,
     "grade": 2,
-    "freq": 646
+    "freq": 646,
+    "kun_marked": [
+     "ちち"
+    ],
+    "examples": [
+     {
+      "term": "父",
+      "reading": "ちち",
+      "meaning": "Father (my)",
+      "level": "N5",
+      "uses": "ちち",
+      "misreadings": [
+       "ちっち",
+       "ぢち",
+       "つち",
+       "たち"
+      ]
+     },
+     {
+      "term": "祖父",
+      "reading": "そふ",
+      "meaning": "Grandfather",
+      "level": "N4",
+      "uses": "ふ",
+      "misreadings": [
+       "そちち",
+       "そうふ",
+       "そぶ",
+       "そへ",
+       "そひ",
+       "ぞふ"
+      ]
+     },
+     {
+      "term": "父親",
+      "reading": "ちちおや",
+      "meaning": "father",
+      "level": "N3",
+      "uses": "ちち",
+      "misreadings": [
+       "ふおや",
+       "ちっちおや",
+       "ぢちおや",
+       "つちおや",
+       "たちおや"
+      ]
+     }
+    ]
    },
    "mnemonic": "A man holding a stick"
   },
@@ -1561,7 +3364,24 @@
     ],
     "strokes": 5,
     "grade": 2,
-    "freq": 1090
+    "freq": 1090,
+    "kun_marked": [
+     "ふゆ"
+    ],
+    "examples": [
+     {
+      "term": "冬",
+      "reading": "ふゆ",
+      "meaning": "winter",
+      "level": "N5",
+      "uses": "ふゆ",
+      "misreadings": [
+       "ぶゆ",
+       "へゆ",
+       "ひゆ"
+      ]
+     }
+    ]
    },
    "mnemonic": "夂 walk"
   },
@@ -1595,7 +3415,46 @@
     ],
     "strokes": 5,
     "grade": 2,
-    "freq": 224
+    "freq": 224,
+    "kun_marked": [
+     "なか(ば)"
+    ],
+    "examples": [
+     {
+      "term": "半",
+      "reading": "はん",
+      "meaning": "Half past",
+      "level": "N5",
+      "uses": "はん",
+      "misreadings": [
+       "ばん",
+       "ひん"
+      ]
+     },
+     {
+      "term": "半ば",
+      "reading": "なかば",
+      "meaning": "middle, halfway",
+      "level": "N3",
+      "uses": "なかば",
+      "misreadings": [
+       "なっかば",
+       "にかば"
+      ]
+     },
+     {
+      "term": "大半",
+      "reading": "たいはん",
+      "meaning": "most of, majority",
+      "level": "N3",
+      "uses": "はん",
+      "misreadings": [
+       "たいばん",
+       "たいひん",
+       "だいはん"
+      ]
+     }
+    ]
    },
    "mnemonic": "并 horns"
   },
@@ -1634,7 +3493,60 @@
     ],
     "strokes": 5,
     "grade": 2,
-    "freq": 81
+    "freq": 81,
+    "kun_marked": [
+     "そと",
+     "ほか",
+     "はず(す)",
+     "はず(れる)",
+     "と"
+    ],
+    "examples": [
+     {
+      "term": "外国",
+      "reading": "がいこく",
+      "meaning": "foreign country, abroad",
+      "level": "N5",
+      "uses": "がい",
+      "misreadings": [
+       "げこく",
+       "そとこく",
+       "ほかこく",
+       "がいこうく",
+       "がいっこく",
+       "かいこく"
+      ]
+     },
+     {
+      "term": "外",
+      "reading": "そと",
+      "meaning": "outside, exterior",
+      "level": "N5",
+      "uses": "そと",
+      "misreadings": [
+       "がい",
+       "ほか",
+       "そうと",
+       "そとう",
+       "そっと",
+       "ぞと"
+      ]
+     },
+     {
+      "term": "外す",
+      "reading": "はずす",
+      "meaning": "to unfasten, to remove",
+      "level": "N3",
+      "uses": "はずす",
+      "misreadings": [
+       "そとす",
+       "ほかす",
+       "はずっす",
+       "ばずす",
+       "ひずす"
+      ]
+     }
+    ]
    },
    "mnemonic": "卜 divination + 夕 evening"
   },
@@ -1671,7 +3583,51 @@
     ],
     "strokes": 5,
     "grade": 2,
-    "freq": 570
+    "freq": 570,
+    "kun_marked": [
+     "はは",
+     "も"
+    ],
+    "examples": [
+     {
+      "term": "母",
+      "reading": "はは",
+      "meaning": "Mother (my)",
+      "level": "N5",
+      "uses": "はは",
+      "misreadings": [
+       "ばは",
+       "ひは"
+      ]
+     },
+     {
+      "term": "祖母",
+      "reading": "そぼ",
+      "meaning": "Grandmother",
+      "level": "N4",
+      "uses": "ぼ",
+      "misreadings": [
+       "そはは",
+       "そうぼ",
+       "そぼう",
+       "そほ",
+       "そべ",
+       "ぞぼ"
+      ]
+     },
+     {
+      "term": "母親",
+      "reading": "ははおや",
+      "meaning": "mother",
+      "level": "N3",
+      "uses": "はは",
+      "misreadings": [
+       "ぼおや",
+       "ばはおや",
+       "ひはおや"
+      ]
+     }
+    ]
    },
    "mnemonic": "毋 mother"
   },
@@ -1709,7 +3665,55 @@
     ],
     "strokes": 6,
     "grade": 1,
-    "freq": 173
+    "freq": 173,
+    "kun_marked": [
+     "さき",
+     "まず"
+    ],
+    "examples": [
+     {
+      "term": "先月",
+      "reading": "せんげつ",
+      "meaning": "last month",
+      "level": "N5",
+      "uses": "せん",
+      "misreadings": [
+       "さきげつ",
+       "せんげっつ",
+       "ぜんげつ",
+       "そんげつ",
+       "すんげつ",
+       "せんけつ"
+      ]
+     },
+     {
+      "term": "先",
+      "reading": "さき",
+      "meaning": "future, recent",
+      "level": "N5",
+      "uses": "さき",
+      "misreadings": [
+       "せん",
+       "さっき",
+       "ざき",
+       "しき"
+      ]
+     },
+     {
+      "term": "先生",
+      "reading": "せんせい",
+      "meaning": "teacher, professor",
+      "level": "N5",
+      "uses": "せん",
+      "misreadings": [
+       "さきせい",
+       "ぜんせい",
+       "そんせい",
+       "すんせい",
+       "せんぜい"
+      ]
+     }
+    ]
    },
    "mnemonic": "土 earth + 儿 legs"
   },
@@ -1743,7 +3747,53 @@
     ],
     "strokes": 6,
     "grade": 1,
-    "freq": 6
+    "freq": 6,
+    "kun_marked": [
+     "とし"
+    ],
+    "examples": [
+     {
+      "term": "年",
+      "reading": "ねん",
+      "meaning": "~ years",
+      "level": "N5",
+      "uses": "ねん",
+      "misreadings": [
+       "とし",
+       "のん",
+       "ぬん"
+      ]
+     },
+     {
+      "term": "年寄",
+      "reading": "としより",
+      "meaning": "old people, the aged",
+      "level": "N3",
+      "uses": "とし",
+      "misreadings": [
+       "ねんより",
+       "とうしより",
+       "としようり",
+       "とっしより",
+       "どしより",
+       "てしより"
+      ]
+     },
+     {
+      "term": "去年",
+      "reading": "きょねん",
+      "meaning": "Last year",
+      "level": "N5",
+      "uses": "ねん",
+      "misreadings": [
+       "きょとし",
+       "きょうねん",
+       "きょのん",
+       "きょぬん",
+       "ぎょねん"
+      ]
+     }
+    ]
    },
    "mnemonic": "干 dry"
   },
@@ -1781,7 +3831,55 @@
     ],
     "strokes": 6,
     "grade": 1,
-    "freq": 113
+    "freq": 113,
+    "kun_marked": [
+     "いき"
+    ],
+    "examples": [
+     {
+      "term": "元気",
+      "reading": "げんき",
+      "meaning": "Healthy / Fine",
+      "level": "N5",
+      "uses": "き",
+      "misreadings": [
+       "げんけ",
+       "げんぎ",
+       "げんく",
+       "げんか",
+       "けんき"
+      ]
+     },
+     {
+      "term": "湿気",
+      "reading": "しっけ",
+      "meaning": "moisture, humidity",
+      "level": "N3",
+      "uses": "け",
+      "misreadings": [
+       "しっき",
+       "しけ",
+       "しっげ",
+       "しっこ",
+       "しっく",
+       "じっけ"
+      ]
+     },
+     {
+      "term": "天気",
+      "reading": "てんき",
+      "meaning": "Weather",
+      "level": "N5",
+      "uses": "き",
+      "misreadings": [
+       "てんけ",
+       "てんぎ",
+       "てんく",
+       "てんか",
+       "でんき"
+      ]
+     }
+    ]
    },
    "mnemonic": "气 steam"
   },
@@ -1816,7 +3914,50 @@
     ],
     "strokes": 6,
     "grade": 1,
-    "freq": 163
+    "freq": 163,
+    "kun_marked": [
+     "もも"
+    ],
+    "examples": [
+     {
+      "term": "百",
+      "reading": "ひゃく",
+      "meaning": "hundred",
+      "level": "N5",
+      "uses": "ひゃく",
+      "misreadings": [
+       "びゃく",
+       "ふゃく",
+       "はゃく"
+      ]
+     },
+     {
+      "term": "百円",
+      "reading": "ひゃくえん",
+      "meaning": "100 yen",
+      "level": "N5",
+      "uses": "ひゃく",
+      "misreadings": [
+       "びゃくえん",
+       "ふゃくえん",
+       "はゃくえん"
+      ]
+     },
+     {
+      "term": "五百円",
+      "reading": "ごひゃくえん",
+      "meaning": "500 yen",
+      "level": "N5",
+      "uses": "ひゃく",
+      "misreadings": [
+       "ごうひゃくえん",
+       "ごびゃくえん",
+       "ごふゃくえん",
+       "ごはゃくえん",
+       "こひゃくえん"
+      ]
+     }
+    ]
    },
    "mnemonic": "白 white"
   },
@@ -1852,7 +3993,23 @@
     ],
     "strokes": 6,
     "grade": 1,
-    "freq": 1328
+    "freq": 1328,
+    "kun_marked": [
+     "みみ"
+    ],
+    "examples": [
+     {
+      "term": "耳",
+      "reading": "みみ",
+      "meaning": "Ear",
+      "level": "N5",
+      "uses": "みみ",
+      "misreadings": [
+       "むみ",
+       "まみ"
+      ]
+     }
+    ]
    },
    "mnemonic": "An ear-like shape"
   },
@@ -1891,7 +4048,55 @@
     ],
     "strokes": 7,
     "grade": 1,
-    "freq": 240
+    "freq": 240,
+    "kun_marked": [
+     "おとこ",
+     "お"
+    ],
+    "examples": [
+     {
+      "term": "男",
+      "reading": "おとこ",
+      "meaning": "man, male",
+      "level": "N5",
+      "uses": "おとこ",
+      "misreadings": [
+       "だん",
+       "なん",
+       "おとうこ",
+       "おとこう",
+       "おっとこ"
+      ]
+     },
+     {
+      "term": "男性",
+      "reading": "だんせい",
+      "meaning": "man, male",
+      "level": "N4",
+      "uses": "だん",
+      "misreadings": [
+       "なんせい",
+       "おとこせい",
+       "たんせい",
+       "ぢんせい",
+       "だんぜい"
+      ]
+     },
+     {
+      "term": "長男",
+      "reading": "ちょうなん",
+      "meaning": "eldest son",
+      "level": "N2",
+      "uses": "なん",
+      "misreadings": [
+       "ちょうだん",
+       "ちょうおとこ",
+       "ちょなん",
+       "ちょうにん",
+       "ぢょうなん"
+      ]
+     }
+    ]
    },
    "mnemonic": "田 rice field + 力 power"
   },
@@ -1929,7 +4134,48 @@
     ],
     "strokes": 7,
     "grade": 1,
-    "freq": 578
+    "freq": 578,
+    "kun_marked": [
+     "はな"
+    ],
+    "examples": [
+     {
+      "term": "花",
+      "reading": "はな",
+      "meaning": "flower",
+      "level": "N5",
+      "uses": "はな",
+      "misreadings": [
+       "ばな",
+       "ひな"
+      ]
+     },
+     {
+      "term": "花瓶",
+      "reading": "かびん",
+      "meaning": "(flower) vase",
+      "level": "N5",
+      "uses": "か",
+      "misreadings": [
+       "はなびん",
+       "がびん",
+       "きびん",
+       "かひん"
+      ]
+     },
+     {
+      "term": "花見",
+      "reading": "はなみ",
+      "meaning": "Cherry blossom viewing",
+      "level": "N4",
+      "uses": "はな",
+      "misreadings": [
+       "かみ",
+       "ばなみ",
+       "ひなみ"
+      ]
+     }
+    ]
    },
    "mnemonic": "⺅ person + 匕 spoon + ⺾ grass"
   },
@@ -1968,7 +4214,50 @@
     ],
     "strokes": 7,
     "grade": 1,
-    "freq": 22
+    "freq": 22,
+    "kun_marked": [
+     "み(る)",
+     "み(える)",
+     "み(せる)"
+    ],
+    "examples": [
+     {
+      "term": "見る",
+      "reading": "みる",
+      "meaning": "To see/watch",
+      "level": "N5",
+      "uses": "みる",
+      "misreadings": [
+       "むる",
+       "まる"
+      ]
+     },
+     {
+      "term": "見せる",
+      "reading": "みせる",
+      "meaning": "to show, to display",
+      "level": "N5",
+      "uses": "みせる",
+      "misreadings": [
+       "みっせる",
+       "むせる",
+       "ませる"
+      ]
+     },
+     {
+      "term": "意見",
+      "reading": "いけん",
+      "meaning": "opinion, view",
+      "level": "N4",
+      "uses": "けん",
+      "misreadings": [
+       "いっけん",
+       "いげん",
+       "いこん",
+       "いくん"
+      ]
+     }
+    ]
    },
    "mnemonic": "目 eye + 儿 legs"
   },
@@ -2010,7 +4299,51 @@
     ],
     "strokes": 7,
     "grade": 1,
-    "freq": 584
+    "freq": 584,
+    "kun_marked": [
+     "あか",
+     "あか(い)",
+     "あからむ",
+     "あからめる"
+    ],
+    "examples": [
+     {
+      "term": "赤",
+      "reading": "あか",
+      "meaning": "Red",
+      "level": "N5",
+      "uses": "あかい",
+      "misreadings": [
+       "せき",
+       "あっか"
+      ]
+     },
+     {
+      "term": "赤道",
+      "reading": "せきどう",
+      "meaning": "equator",
+      "level": "N2",
+      "uses": "せき",
+      "misreadings": [
+       "あかどう",
+       "せきど",
+       "せっきどう",
+       "ぜきどう",
+       "そきどう",
+       "すきどう"
+      ]
+     },
+     {
+      "term": "赤い",
+      "reading": "あかい",
+      "meaning": "red",
+      "level": "N5",
+      "uses": "あかい",
+      "misreadings": [
+       "あっかい"
+      ]
+     }
+    ]
    },
    "mnemonic": "土 earth"
   },
@@ -2049,7 +4382,51 @@
     ],
     "strokes": 7,
     "grade": 1,
-    "freq": 343
+    "freq": 343,
+    "kun_marked": [
+     "あし",
+     "た(りる)",
+     "た(る)",
+     "た(す)"
+    ],
+    "examples": [
+     {
+      "term": "足",
+      "reading": "あし",
+      "meaning": "Foot / Leg",
+      "level": "N5",
+      "uses": "あし",
+      "misreadings": [
+       "そく",
+       "あっし"
+      ]
+     },
+     {
+      "term": "足す",
+      "reading": "たす",
+      "meaning": "to add (numbers)",
+      "level": "N4",
+      "uses": "たす",
+      "misreadings": [
+       "あしす",
+       "たっす",
+       "だす",
+       "ちす"
+      ]
+     },
+     {
+      "term": "足りる",
+      "reading": "たりる",
+      "meaning": "to be sufficient, to be enough",
+      "level": "N4",
+      "uses": "たりる",
+      "misreadings": [
+       "あしりる",
+       "だりる",
+       "ちりる"
+      ]
+     }
+    ]
    },
    "mnemonic": "口 mouth"
   },
@@ -2085,7 +4462,54 @@
     ],
     "strokes": 7,
     "grade": 1,
-    "freq": 333
+    "freq": 333,
+    "kun_marked": [
+     "くるま"
+    ],
+    "examples": [
+     {
+      "term": "電車",
+      "reading": "でんしゃ",
+      "meaning": "Train",
+      "level": "N5",
+      "uses": "しゃ",
+      "misreadings": [
+       "でんくるま",
+       "でんじゃ",
+       "でんすゃ",
+       "でんさゃ",
+       "てんしゃ"
+      ]
+     },
+     {
+      "term": "車",
+      "reading": "くるま",
+      "meaning": "Car",
+      "level": "N5",
+      "uses": "くるま",
+      "misreadings": [
+       "しゃ",
+       "ぐるま",
+       "けるま",
+       "きるま"
+      ]
+     },
+     {
+      "term": "自動車",
+      "reading": "じどうしゃ",
+      "meaning": "automobile",
+      "level": "N5",
+      "uses": "しゃ",
+      "misreadings": [
+       "じどうくるま",
+       "じどしゃ",
+       "じどうっしゃ",
+       "じどうじゃ",
+       "じどうすゃ",
+       "じどうさゃ"
+      ]
+     }
+    ]
    },
    "mnemonic": "A wheel axle shape"
   },
@@ -2120,7 +4544,51 @@
     ],
     "strokes": 6,
     "grade": 2,
-    "freq": 436
+    "freq": 436,
+    "kun_marked": [
+     "ごと",
+     "ごとに"
+    ],
+    "examples": [
+     {
+      "term": "毎年",
+      "reading": "まいねん",
+      "meaning": "every year, yearly",
+      "level": "N5",
+      "uses": "まい",
+      "misreadings": [
+       "ごとねん",
+       "みいねん"
+      ]
+     },
+     {
+      "term": "毎",
+      "reading": "ごと",
+      "meaning": "every ~, each ~",
+      "level": "N2",
+      "uses": "ごと",
+      "misreadings": [
+       "まい",
+       "ごうと",
+       "ごとう",
+       "ごっと",
+       "こと",
+       "げと"
+      ]
+     },
+     {
+      "term": "毎日",
+      "reading": "まいにち",
+      "meaning": "Every day",
+      "level": "N5",
+      "uses": "まい",
+      "misreadings": [
+       "ごとにち",
+       "まいにっち",
+       "みいにち"
+      ]
+     }
+    ]
    },
    "mnemonic": "A mother = recurring care"
   },
@@ -2163,7 +4631,55 @@
     ],
     "strokes": 6,
     "grade": 2,
-    "freq": 20
+    "freq": 20,
+    "kun_marked": [
+     "い(く)",
+     "ゆ(く)",
+     "ゆき",
+     "いき",
+     "おこな(う)"
+    ],
+    "examples": [
+     {
+      "term": "旅行",
+      "reading": "りょこう",
+      "meaning": "Travel",
+      "level": "N5",
+      "uses": "こう",
+      "misreadings": [
+       "りょぎょう",
+       "りょうこう",
+       "りょこ",
+       "りょごう",
+       "りょけう"
+      ]
+     },
+     {
+      "term": "行く",
+      "reading": "いく",
+      "meaning": "To go",
+      "level": "N5",
+      "uses": "いく",
+      "misreadings": [
+       "ゆく",
+       "おこなく",
+       "いっく"
+      ]
+     },
+     {
+      "term": "行う",
+      "reading": "おこなう",
+      "meaning": "to carry out, to conduct (typically used in written language)",
+      "level": "N4",
+      "uses": "おこなう",
+      "misreadings": [
+       "いう",
+       "ゆう",
+       "おこうなう",
+       "おっこなう"
+      ]
+     }
+    ]
    },
    "mnemonic": "彳 step"
   },
@@ -2200,7 +4716,47 @@
     ],
     "strokes": 7,
     "grade": 2,
-    "freq": 340
+    "freq": 340,
+    "kun_marked": [
+     "なに",
+     "なん"
+    ],
+    "examples": [
+     {
+      "term": "何",
+      "reading": "なん",
+      "meaning": "what",
+      "level": "N5",
+      "uses": "なん",
+      "misreadings": [
+       "なに",
+       "にん"
+      ]
+     },
+     {
+      "term": "何か",
+      "reading": "なにか",
+      "meaning": "something",
+      "level": "N3",
+      "uses": "なに",
+      "misreadings": [
+       "なんか",
+       "なにっか",
+       "ににか"
+      ]
+     },
+     {
+      "term": "何で",
+      "reading": "なんで",
+      "meaning": "Why, What for",
+      "level": "N3",
+      "uses": "なん",
+      "misreadings": [
+       "なにで",
+       "にんで"
+      ]
+     }
+    ]
    },
    "mnemonic": "⺅ person + 口 mouth"
   },
@@ -2241,7 +4797,54 @@
     ],
     "strokes": 7,
     "grade": 2,
-    "freq": 102
+    "freq": 102,
+    "kun_marked": [
+     "く(る)",
+     "き(たる)",
+     "きたす",
+     "き",
+     "こ"
+    ],
+    "examples": [
+     {
+      "term": "来年",
+      "reading": "らいねん",
+      "meaning": "Next year",
+      "level": "N5",
+      "uses": "らい",
+      "misreadings": [
+       "きねん",
+       "りいねん"
+      ]
+     },
+     {
+      "term": "来る",
+      "reading": "くる",
+      "meaning": "To come",
+      "level": "N5",
+      "uses": "くる",
+      "misreadings": [
+       "きる",
+       "ぐる",
+       "ける"
+      ]
+     },
+     {
+      "term": "出来事",
+      "reading": "できごと",
+      "meaning": "incident happening, event",
+      "level": "N3",
+      "uses": "きたる",
+      "misreadings": [
+       "でらいごと",
+       "できごうと",
+       "できごとう",
+       "でっきごと",
+       "でぎごと",
+       "でくごと"
+      ]
+     }
+    ]
    },
    "mnemonic": "二 two + 米 rice + 亠 lid + 木 tree"
   },
@@ -2278,7 +4881,49 @@
     ],
     "strokes": 8,
     "grade": 1,
-    "freq": 63
+    "freq": 63,
+    "kun_marked": [
+     "まな(ぶ)"
+    ],
+    "examples": [
+     {
+      "term": "大学",
+      "reading": "だいがく",
+      "meaning": "college, university",
+      "level": "N5",
+      "uses": "がく",
+      "misreadings": [
+       "だいがっく",
+       "だいかく",
+       "だいぎく",
+       "たいがく"
+      ]
+     },
+     {
+      "term": "学ぶ",
+      "reading": "まなぶ",
+      "meaning": "to learn, to study",
+      "level": "N3",
+      "uses": "まなぶ",
+      "misreadings": [
+       "みなぶ"
+      ]
+     },
+     {
+      "term": "学校",
+      "reading": "がっこう",
+      "meaning": "School",
+      "level": "N5",
+      "uses": "がく",
+      "misreadings": [
+       "がっこ",
+       "がこう",
+       "かっこう",
+       "ぎっこう",
+       "がっごう"
+      ]
+     }
+    ]
    },
    "mnemonic": "子 child + ⺌ small + 冖 cover"
   },
@@ -2322,7 +4967,61 @@
     ],
     "strokes": 8,
     "grade": 1,
-    "freq": 304
+    "freq": 304,
+    "kun_marked": [
+     "そら",
+     "あ(く)",
+     "あき",
+     "あける",
+     "から",
+     "す(く)",
+     "すかす",
+     "むなしい"
+    ],
+    "examples": [
+     {
+      "term": "空気",
+      "reading": "くうき",
+      "meaning": "air, atmosphere",
+      "level": "N4",
+      "uses": "くう",
+      "misreadings": [
+       "そらき",
+       "からき",
+       "くうっき",
+       "ぐうき",
+       "けうき",
+       "きうき"
+      ]
+     },
+     {
+      "term": "空く",
+      "reading": "あく",
+      "meaning": "to open, to become empty (vacant)",
+      "level": "N4",
+      "uses": "あく",
+      "misreadings": [
+       "そらく",
+       "からく",
+       "すく",
+       "あっく"
+      ]
+     },
+     {
+      "term": "空",
+      "reading": "そら",
+      "meaning": "sky",
+      "level": "N5",
+      "uses": "そら",
+      "misreadings": [
+       "くう",
+       "から",
+       "そうら",
+       "ぞら",
+       "せら"
+      ]
+     }
+    ]
    },
    "mnemonic": "穴 hole + 工 craft + 儿 legs"
   },
@@ -2362,7 +5061,55 @@
     ],
     "strokes": 8,
     "grade": 1,
-    "freq": 53
+    "freq": 53,
+    "kun_marked": [
+     "かね",
+     "かな",
+     "がね"
+    ],
+    "examples": [
+     {
+      "term": "金曜日",
+      "reading": "きんようび",
+      "meaning": "Friday",
+      "level": "N5",
+      "uses": "きん",
+      "misreadings": [
+       "かねようび",
+       "きんよび",
+       "ぎんようび",
+       "くんようび",
+       "かんようび",
+       "きんようひ"
+      ]
+     },
+     {
+      "term": "お金",
+      "reading": "おかね",
+      "meaning": "Money",
+      "level": "N5",
+      "uses": "かね",
+      "misreadings": [
+       "おきん",
+       "おっかね",
+       "おがね",
+       "おきね"
+      ]
+     },
+     {
+      "term": "金",
+      "reading": "きん",
+      "meaning": "gold, metal",
+      "level": "N3",
+      "uses": "きん",
+      "misreadings": [
+       "かね",
+       "ぎん",
+       "くん",
+       "かん"
+      ]
+     }
+    ]
    },
    "mnemonic": "Gold nuggets in a mine"
   },
@@ -2400,7 +5147,36 @@
     ],
     "strokes": 8,
     "grade": 1,
-    "freq": 950
+    "freq": 950,
+    "kun_marked": [
+     "あめ",
+     "あま",
+     "さめ"
+    ],
+    "examples": [
+     {
+      "term": "雨",
+      "reading": "あめ",
+      "meaning": "Rain",
+      "level": "N5",
+      "uses": "あめ",
+      "misreadings": [
+       "あま"
+      ]
+     },
+     {
+      "term": "雨戸",
+      "reading": "あまど",
+      "meaning": "sliding storm door",
+      "level": "N2",
+      "uses": "あま",
+      "misreadings": [
+       "あめど",
+       "あまどう",
+       "あまと"
+      ]
+     }
+    ]
    },
    "mnemonic": "Clouds with rain drops"
   },
@@ -2440,7 +5216,44 @@
     ],
     "strokes": 8,
     "grade": 1,
-    "freq": 589
+    "freq": 589,
+    "kun_marked": [
+     "あお",
+     "あお(い)"
+    ],
+    "examples": [
+     {
+      "term": "青",
+      "reading": "あお",
+      "meaning": "Blue",
+      "level": "N5",
+      "uses": "あおい",
+      "misreadings": [
+       "せい"
+      ]
+     },
+     {
+      "term": "青年",
+      "reading": "せいねん",
+      "meaning": "youth, young man",
+      "level": "N3",
+      "uses": "せい",
+      "misreadings": [
+       "あおねん",
+       "ぜいねん",
+       "そいねん",
+       "すいねん"
+      ]
+     },
+     {
+      "term": "青い",
+      "reading": "あおい",
+      "meaning": "blue",
+      "level": "N5",
+      "uses": "あおい",
+      "misreadings": []
+     }
+    ]
    },
    "mnemonic": "月 moon + 土 earth + 二 two + 亠 lid"
   },
@@ -2474,7 +5287,55 @@
     ],
     "strokes": 8,
     "grade": 2,
-    "freq": 3
+    "freq": 3,
+    "kun_marked": [
+     "くに"
+    ],
+    "examples": [
+     {
+      "term": "外国",
+      "reading": "がいこく",
+      "meaning": "foreign country, abroad",
+      "level": "N5",
+      "uses": "こく",
+      "misreadings": [
+       "がいくに",
+       "がいこうく",
+       "がいっこく",
+       "がいごく",
+       "がいけく",
+       "かいこく"
+      ]
+     },
+     {
+      "term": "国",
+      "reading": "くに",
+      "meaning": "country, place of origin",
+      "level": "N5",
+      "uses": "くに",
+      "misreadings": [
+       "こく",
+       "ぐに",
+       "けに",
+       "きに"
+      ]
+     },
+     {
+      "term": "外国人",
+      "reading": "がいこくじん",
+      "meaning": "foreigner",
+      "level": "N5",
+      "uses": "こく",
+      "misreadings": [
+       "がいくにじん",
+       "がいこうくじん",
+       "がいっこくじん",
+       "がいごくじん",
+       "がいけくじん",
+       "かいこくじん"
+      ]
+     }
+    ]
    },
    "mnemonic": "王 king + 囗 enclosure"
   },
@@ -2509,7 +5370,52 @@
     ],
     "strokes": 8,
     "grade": 2,
-    "freq": 12
+    "freq": 12,
+    "kun_marked": [
+     "なが(い)",
+     "おさ"
+    ],
+    "examples": [
+     {
+      "term": "長い",
+      "reading": "ながい",
+      "meaning": "Long",
+      "level": "N5",
+      "uses": "ながい",
+      "misreadings": [
+       "にがい"
+      ]
+     },
+     {
+      "term": "校長",
+      "reading": "こうちょう",
+      "meaning": "principal, headmaster",
+      "level": "N4",
+      "uses": "ちょう",
+      "misreadings": [
+       "こうちょ",
+       "こちょう",
+       "こうっちょう",
+       "こうぢょう",
+       "こうつょう",
+       "こうたょう"
+      ]
+     },
+     {
+      "term": "社長",
+      "reading": "しゃちょう",
+      "meaning": "president of a company",
+      "level": "N4",
+      "uses": "ちょう",
+      "misreadings": [
+       "しゃちょ",
+       "しゃぢょう",
+       "しゃつょう",
+       "しゃたょう",
+       "じゃちょう"
+      ]
+     }
+    ]
    },
    "mnemonic": "A person with long hair"
   },
@@ -2544,7 +5450,49 @@
     ],
     "strokes": 9,
     "grade": 2,
-    "freq": 27
+    "freq": 27,
+    "kun_marked": [
+     "まえ"
+    ],
+    "examples": [
+     {
+      "term": "前",
+      "reading": "まえ",
+      "meaning": "before, in front",
+      "level": "N5",
+      "uses": "まえ",
+      "misreadings": [
+       "ぜん",
+       "みえ"
+      ]
+     },
+     {
+      "term": "午前",
+      "reading": "ごぜん",
+      "meaning": "AM (before noon)",
+      "level": "N5",
+      "uses": "ぜん",
+      "misreadings": [
+       "ごまえ",
+       "ごうぜん",
+       "ごせん",
+       "ごぞん",
+       "ごずん",
+       "こぜん"
+      ]
+     },
+     {
+      "term": "名前",
+      "reading": "なまえ",
+      "meaning": "name",
+      "level": "N5",
+      "uses": "まえ",
+      "misreadings": [
+       "なぜん",
+       "なみえ"
+      ]
+     }
+    ]
    },
    "mnemonic": "刂 knife + 月 moon + 并 horns"
   },
@@ -2583,7 +5531,56 @@
     ],
     "strokes": 9,
     "grade": 2,
-    "freq": 26
+    "freq": 26,
+    "kun_marked": [
+     "のち",
+     "うし(ろ)",
+     "あと",
+     "おくれる"
+    ],
+    "examples": [
+     {
+      "term": "午後",
+      "reading": "ごご",
+      "meaning": "PM (after noon)",
+      "level": "N5",
+      "uses": "ご",
+      "misreadings": [
+       "ごこう",
+       "ごのち",
+       "ごあと",
+       "ごうご",
+       "ごごう",
+       "ごこ"
+      ]
+     },
+     {
+      "term": "後",
+      "reading": "あと",
+      "meaning": "afterwards (later), in the future",
+      "level": "N5",
+      "uses": "あと",
+      "misreadings": [
+       "こう",
+       "のち",
+       "あとう",
+       "あっと"
+      ]
+     },
+     {
+      "term": "後ろ",
+      "reading": "うしろ",
+      "meaning": "back, behind",
+      "level": "N5",
+      "uses": "うしろ",
+      "misreadings": [
+       "のちろ",
+       "あとろ",
+       "うしろう",
+       "うっしろ"
+      ]
+     }
+    ]
    },
    "mnemonic": "夂 walk + 幺 thread + 彳 step"
   },
@@ -2620,7 +5617,48 @@
     ],
     "strokes": 9,
     "grade": 2,
-    "freq": 200
+    "freq": 200,
+    "kun_marked": [
+     "うみ"
+    ],
+    "examples": [
+     {
+      "term": "海岸",
+      "reading": "かいがん",
+      "meaning": "coast, seashore",
+      "level": "N4",
+      "uses": "かい",
+      "misreadings": [
+       "うみがん",
+       "がいがん",
+       "きいがん",
+       "かいかん"
+      ]
+     },
+     {
+      "term": "海",
+      "reading": "うみ",
+      "meaning": "Sea",
+      "level": "N5",
+      "uses": "うみ",
+      "misreadings": [
+       "かい"
+      ]
+     },
+     {
+      "term": "海外",
+      "reading": "かいがい",
+      "meaning": "foreign, abroad",
+      "level": "N3",
+      "uses": "かい",
+      "misreadings": [
+       "うみがい",
+       "がいがい",
+       "きいがい",
+       "かいかい"
+      ]
+     }
+    ]
    },
    "mnemonic": "氵 water"
   },
@@ -2661,7 +5699,54 @@
     ],
     "strokes": 9,
     "grade": 2,
-    "freq": 328
+    "freq": 328,
+    "kun_marked": [
+     "く(う)",
+     "くらう",
+     "た(べる)",
+     "はむ"
+    ],
+    "examples": [
+     {
+      "term": "食堂",
+      "reading": "しょくどう",
+      "meaning": "cafeteria, dining hall",
+      "level": "N5",
+      "uses": "しょく",
+      "misreadings": [
+       "しょうくどう",
+       "しょくど",
+       "じょくどう",
+       "すょくどう",
+       "さょくどう",
+       "しょくとう"
+      ]
+     },
+     {
+      "term": "食べる",
+      "reading": "たべる",
+      "meaning": "To eat",
+      "level": "N5",
+      "uses": "たべる",
+      "misreadings": [
+       "くべる",
+       "だべる",
+       "ちべる"
+      ]
+     },
+     {
+      "term": "食う",
+      "reading": "くう",
+      "meaning": "(male) (vulg.) to eat",
+      "level": "N3",
+      "uses": "くう",
+      "misreadings": [
+       "ぐう",
+       "けう",
+       "きう"
+      ]
+     }
+    ]
    },
    "mnemonic": "A bowl with chopsticks above"
   },
@@ -2697,7 +5782,54 @@
     "kun": [],
     "strokes": 10,
     "grade": 1,
-    "freq": 294
+    "freq": 294,
+    "kun_marked": [],
+    "examples": [
+     {
+      "term": "学校",
+      "reading": "がっこう",
+      "meaning": "School",
+      "level": "N5",
+      "uses": "こう",
+      "misreadings": [
+       "がっこ",
+       "がこう",
+       "がっごう",
+       "がっけう",
+       "かっこう"
+      ]
+     },
+     {
+      "term": "校長",
+      "reading": "こうちょう",
+      "meaning": "principal, headmaster",
+      "level": "N4",
+      "uses": "こう",
+      "misreadings": [
+       "こうちょ",
+       "こちょう",
+       "こうっちょう",
+       "ごうちょう",
+       "けうちょう",
+       "こうぢょう"
+      ]
+     },
+     {
+      "term": "高校",
+      "reading": "こうこう",
+      "meaning": "high school, senior high school",
+      "level": "N4",
+      "uses": "こう",
+      "misreadings": [
+       "ここう",
+       "こうこ",
+       "こうっこう",
+       "こうごう",
+       "こうけう",
+       "ごうこう"
+      ]
+     }
+    ]
    },
    "mnemonic": "父 father + 木 tree + 亠 lid"
   },
@@ -2733,7 +5865,34 @@
     ],
     "strokes": 10,
     "grade": 2,
-    "freq": 659
+    "freq": 659,
+    "kun_marked": [
+     "なつ"
+    ],
+    "examples": [
+     {
+      "term": "夏",
+      "reading": "なつ",
+      "meaning": "summer",
+      "level": "N5",
+      "uses": "なつ",
+      "misreadings": [
+       "なっつ",
+       "につ"
+      ]
+     },
+     {
+      "term": "夏休み",
+      "reading": "なつやすみ",
+      "meaning": "summer vacation",
+      "level": "N5",
+      "uses": "なつ",
+      "misreadings": [
+       "なっつやすみ",
+       "につやすみ"
+      ]
+     }
+    ]
    },
    "mnemonic": "自 oneself + 夂 walk"
   },
@@ -2768,7 +5927,53 @@
     ],
     "strokes": 10,
     "grade": 2,
-    "freq": 16
+    "freq": 16,
+    "kun_marked": [
+     "とき",
+     "どき"
+    ],
+    "examples": [
+     {
+      "term": "時",
+      "reading": "じ",
+      "meaning": "~ o'clock (time)",
+      "level": "N5",
+      "uses": "じ",
+      "misreadings": [
+       "とき"
+      ]
+     },
+     {
+      "term": "時々",
+      "reading": "ときどき",
+      "meaning": "sometimes",
+      "level": "N5",
+      "uses": "とき",
+      "misreadings": [
+       "じどき",
+       "とうきどき",
+       "ときどうき",
+       "とっきどき",
+       "どきどき",
+       "てきどき"
+      ]
+     },
+     {
+      "term": "七時",
+      "reading": "しちじ",
+      "meaning": "7 o'clock",
+      "level": "N5",
+      "uses": "じ",
+      "misreadings": [
+       "しちとき",
+       "しっちじ",
+       "しちし",
+       "しちず",
+       "しちざ",
+       "じちじ"
+      ]
+     }
+    ]
    },
    "mnemonic": "寸 inch + 土 earth + 日 sun"
   },
@@ -2808,7 +6013,56 @@
     ],
     "strokes": 10,
     "grade": 2,
-    "freq": 65
+    "freq": 65,
+    "kun_marked": [
+     "たか(い)",
+     "たか",
+     "だか",
+     "たかまる",
+     "たかめる"
+    ],
+    "examples": [
+     {
+      "term": "高い",
+      "reading": "たかい",
+      "meaning": "Expensive / Tall",
+      "level": "N5",
+      "uses": "たかい",
+      "misreadings": [
+       "たっかい",
+       "だかい",
+       "ちかい"
+      ]
+     },
+     {
+      "term": "高校",
+      "reading": "こうこう",
+      "meaning": "high school, senior high school",
+      "level": "N4",
+      "uses": "こう",
+      "misreadings": [
+       "たかこう",
+       "ここう",
+       "こうこ",
+       "こうっこう",
+       "ごうこう",
+       "けうこう"
+      ]
+     },
+     {
+      "term": "背が高い",
+      "reading": "せがたかい",
+      "meaning": "Tall",
+      "level": "N5",
+      "uses": "たかい",
+      "misreadings": [
+       "せがったかい",
+       "せがだかい",
+       "せがちかい",
+       "ぜがたかい"
+      ]
+     }
+    ]
    },
    "mnemonic": "口 mouth + 亠 lid + 冂 frame"
   },
@@ -2840,7 +6094,53 @@
     "kun": [],
     "strokes": 11,
     "grade": 2,
-    "freq": 540
+    "freq": 540,
+    "kun_marked": [],
+    "examples": [
+     {
+      "term": "今週",
+      "reading": "こんしゅう",
+      "meaning": "This week",
+      "level": "N5",
+      "uses": "しゅう",
+      "misreadings": [
+       "こんしゅ",
+       "こうんしゅう",
+       "こんじゅう",
+       "こんすゅう",
+       "こんさゅう",
+       "ごんしゅう"
+      ]
+     },
+     {
+      "term": "先週",
+      "reading": "せんしゅう",
+      "meaning": "Last week",
+      "level": "N5",
+      "uses": "しゅう",
+      "misreadings": [
+       "せんしゅ",
+       "せんじゅう",
+       "せんすゅう",
+       "せんさゅう",
+       "ぜんしゅう"
+      ]
+     },
+     {
+      "term": "来週",
+      "reading": "らいしゅう",
+      "meaning": "Next week",
+      "level": "N5",
+      "uses": "しゅう",
+      "misreadings": [
+       "らいしゅ",
+       "らいっしゅう",
+       "らいじゅう",
+       "らいすゅう",
+       "らいさゅう"
+      ]
+     }
+    ]
    },
    "mnemonic": "口 mouth + 辶 + 土 earth + 冂 frame"
   },
@@ -2877,7 +6177,54 @@
     ],
     "strokes": 12,
     "grade": 2,
-    "freq": 33
+    "freq": 33,
+    "kun_marked": [
+     "あいだ",
+     "ま",
+     "あい"
+    ],
+    "examples": [
+     {
+      "term": "時間",
+      "reading": "じかん",
+      "meaning": "Time (duration)",
+      "level": "N5",
+      "uses": "かん",
+      "misreadings": [
+       "じけん",
+       "じあいだ",
+       "じま",
+       "じっかん",
+       "じがん",
+       "じきん"
+      ]
+     },
+     {
+      "term": "昼間",
+      "reading": "ひるま",
+      "meaning": "daytime, during the day",
+      "level": "N4",
+      "uses": "ま",
+      "misreadings": [
+       "ひるかん",
+       "ひるけん",
+       "ひるあいだ",
+       "ひるみ",
+       "びるま"
+      ]
+     },
+     {
+      "term": "間",
+      "reading": "あいだ",
+      "meaning": "space, interval",
+      "level": "N4",
+      "uses": "あいだ",
+      "misreadings": [
+       "かん",
+       "けん"
+      ]
+     }
+    ]
    },
    "mnemonic": "日 sun + 門 gate"
   },
@@ -2912,7 +6259,50 @@
     ],
     "strokes": 13,
     "grade": 2,
-    "freq": 134
+    "freq": 134,
+    "kun_marked": [
+     "はな(す)",
+     "はなし"
+    ],
+    "examples": [
+     {
+      "term": "話",
+      "reading": "はなし",
+      "meaning": "talk (chat), story",
+      "level": "N5",
+      "uses": "はなす",
+      "misreadings": [
+       "はなっし",
+       "ばなし",
+       "ひなし"
+      ]
+     },
+     {
+      "term": "電話",
+      "reading": "でんわ",
+      "meaning": "Phone call",
+      "level": "N5",
+      "uses": "わ",
+      "misreadings": [
+       "でんはなし",
+       "でんを",
+       "てんわ"
+      ]
+     },
+     {
+      "term": "話す",
+      "reading": "はなす",
+      "meaning": "To speak",
+      "level": "N5",
+      "uses": "はなす",
+      "misreadings": [
+       "はなしす",
+       "はなっす",
+       "ばなす",
+       "ひなす"
+      ]
+     }
+    ]
    },
    "mnemonic": "言 say + 舌 tongue"
   },
@@ -2947,7 +6337,48 @@
     "kun": [],
     "strokes": 13,
     "grade": 2,
-    "freq": 268
+    "freq": 268,
+    "kun_marked": [],
+    "examples": [
+     {
+      "term": "電気",
+      "reading": "でんき",
+      "meaning": "electricity, (electric) light",
+      "level": "N5",
+      "uses": "でん",
+      "misreadings": [
+       "てんき",
+       "どんき",
+       "づんき",
+       "でんぎ"
+      ]
+     },
+     {
+      "term": "電話",
+      "reading": "でんわ",
+      "meaning": "Phone call",
+      "level": "N5",
+      "uses": "でん",
+      "misreadings": [
+       "てんわ",
+       "どんわ",
+       "づんわ"
+      ]
+     },
+     {
+      "term": "電車",
+      "reading": "でんしゃ",
+      "meaning": "Train",
+      "level": "N5",
+      "uses": "でん",
+      "misreadings": [
+       "てんしゃ",
+       "どんしゃ",
+       "づんしゃ",
+       "でんじゃ"
+      ]
+     }
+    ]
    },
    "mnemonic": "雨 rain + 田 rice field"
   },
@@ -2986,7 +6417,49 @@
     ],
     "strokes": 12,
     "grade": 3,
-    "freq": 969
+    "freq": 969,
+    "kun_marked": [
+     "の(む)",
+     "のみ"
+    ],
+    "examples": [
+     {
+      "term": "飲む",
+      "reading": "のむ",
+      "meaning": "To drink",
+      "level": "N5",
+      "uses": "のむ",
+      "misreadings": [
+       "のみむ",
+       "のうむ",
+       "ねむ"
+      ]
+     },
+     {
+      "term": "飲み物",
+      "reading": "のみもの",
+      "meaning": "drink, beverage",
+      "level": "N5",
+      "uses": "のむ",
+      "misreadings": [
+       "のみみもの",
+       "のうみもの",
+       "のみもうの",
+       "ねみもの"
+      ]
+     },
+     {
+      "term": "湯飲",
+      "reading": "ゆのみ",
+      "meaning": "teacup",
+      "level": "N2",
+      "uses": "のむ",
+      "misreadings": [
+       "ゆのうみ",
+       "ゆねみ"
+      ]
+     }
+    ]
    },
    "mnemonic": "欠 lack + 食 eat"
   },
@@ -3022,7 +6495,53 @@
     ],
     "strokes": 14,
     "grade": 2,
-    "freq": 319
+    "freq": 319,
+    "kun_marked": [
+     "き(く)",
+     "き(こえる)"
+    ],
+    "examples": [
+     {
+      "term": "聞く",
+      "reading": "きく",
+      "meaning": "To listen / ask",
+      "level": "N5",
+      "uses": "きく",
+      "misreadings": [
+       "きっく",
+       "ぎく",
+       "くく",
+       "かく"
+      ]
+     },
+     {
+      "term": "新聞",
+      "reading": "しんぶん",
+      "meaning": "newspaper",
+      "level": "N5",
+      "uses": "ぶん",
+      "misreadings": [
+       "しんふん",
+       "しんべん",
+       "しんびん",
+       "じんぶん"
+      ]
+     },
+     {
+      "term": "聞こえる",
+      "reading": "きこえる",
+      "meaning": "to be heard, to be audible",
+      "level": "N4",
+      "uses": "きこえる",
+      "misreadings": [
+       "きこうえる",
+       "きっこえる",
+       "ぎこえる",
+       "くこえる",
+       "かこえる"
+      ]
+     }
+    ]
    },
    "mnemonic": "耳 ear + 門 gate"
   },
@@ -3060,7 +6579,48 @@
     ],
     "strokes": 14,
     "grade": 2,
-    "freq": 301
+    "freq": 301,
+    "kun_marked": [
+     "かた(る)",
+     "かたらう"
+    ],
+    "examples": [
+     {
+      "term": "語",
+      "reading": "ご",
+      "meaning": "word, language",
+      "level": "N5",
+      "uses": "ご",
+      "misreadings": [
+       "ごう"
+      ]
+     },
+     {
+      "term": "語る",
+      "reading": "かたる",
+      "meaning": "to talk, to tell",
+      "level": "N3",
+      "uses": "かたる",
+      "misreadings": [
+       "かったる",
+       "がたる",
+       "きたる"
+      ]
+     },
+     {
+      "term": "英語",
+      "reading": "えいご",
+      "meaning": "English (language)",
+      "level": "N5",
+      "uses": "ご",
+      "misreadings": [
+       "えいごう",
+       "えご",
+       "えいこ",
+       "えいげ"
+      ]
+     }
+    ]
    },
    "mnemonic": "言 say + 口 mouth + 五 five"
   },
@@ -3097,7 +6657,50 @@
     ],
     "strokes": 14,
     "grade": 2,
-    "freq": 618
+    "freq": 618,
+    "kun_marked": [
+     "よ(む)",
+     "よみ"
+    ],
+    "examples": [
+     {
+      "term": "読む",
+      "reading": "よむ",
+      "meaning": "To read",
+      "level": "N5",
+      "uses": "よむ",
+      "misreadings": [
+       "ようむ",
+       "ゆむ"
+      ]
+     },
+     {
+      "term": "読書",
+      "reading": "どくしょ",
+      "meaning": "reading",
+      "level": "N3",
+      "uses": "どく",
+      "misreadings": [
+       "どくしょう",
+       "どうくしょ",
+       "どっくしょ",
+       "とくしょ",
+       "でくしょ",
+       "どくじょ"
+      ]
+     },
+     {
+      "term": "読み",
+      "reading": "よみ",
+      "meaning": "reading",
+      "level": "N3",
+      "uses": "よむ",
+      "misreadings": [
+       "ようみ",
+       "ゆみ"
+      ]
+     }
+    ]
    },
    "mnemonic": "言 say + 士 samurai + 儿 legs + 冖 cover"
   },
@@ -3152,7 +6755,67 @@
     ],
     "strokes": 5,
     "grade": 1,
-    "freq": 29
+    "freq": 29,
+    "kun_marked": [
+     "い(きる)",
+     "いかす",
+     "いける",
+     "う(まれる)",
+     "うまれ",
+     "うむ",
+     "おう",
+     "は(える)",
+     "は(やす)",
+     "き",
+     "なま",
+     "な(る)",
+     "なす",
+     "むす",
+     "う"
+    ],
+    "examples": [
+     {
+      "term": "先生",
+      "reading": "せんせい",
+      "meaning": "teacher, professor",
+      "level": "N5",
+      "uses": "せい",
+      "misreadings": [
+       "せんしょう",
+       "せんき",
+       "せんなま",
+       "せんぜい",
+       "せんそい",
+       "せんすい"
+      ]
+     },
+     {
+      "term": "生まれる",
+      "reading": "うまれる",
+      "meaning": "to be born",
+      "level": "N5",
+      "uses": "うまれる",
+      "misreadings": [
+       "きまれる",
+       "なままれる",
+       "なまれる"
+      ]
+     },
+     {
+      "term": "生きる",
+      "reading": "いきる",
+      "meaning": "to live",
+      "level": "N4",
+      "uses": "いきる",
+      "misreadings": [
+       "うきる",
+       "ききる",
+       "なまきる",
+       "なきる",
+       "いっきる"
+      ]
+     }
+    ]
    },
    "mnemonic": "A plant growing"
   },
@@ -3193,7 +6856,50 @@
     ],
     "strokes": 13,
     "grade": 2,
-    "freq": 51
+    "freq": 51,
+    "kun_marked": [
+     "あたら(しい)",
+     "あら(た)",
+     "あら",
+     "にい"
+    ],
+    "examples": [
+     {
+      "term": "新聞",
+      "reading": "しんぶん",
+      "meaning": "newspaper",
+      "level": "N5",
+      "uses": "しん",
+      "misreadings": [
+       "あらぶん",
+       "じんぶん",
+       "すんぶん",
+       "さんぶん",
+       "しんふん"
+      ]
+     },
+     {
+      "term": "新しい",
+      "reading": "あたらしい",
+      "meaning": "New",
+      "level": "N5",
+      "uses": "あたらしい",
+      "misreadings": [
+       "あらしい",
+       "あったらしい"
+      ]
+     },
+     {
+      "term": "新た",
+      "reading": "あらた",
+      "meaning": "new, fresh",
+      "level": "N3",
+      "uses": "あらた",
+      "misreadings": [
+       "あらった"
+      ]
+     }
+    ]
    },
    "mnemonic": "斤 axe + 辛 spicy + 并 horns + 木 tree + 亠 lid"
   },
@@ -3225,7 +6931,20 @@
     "kun": [],
     "strokes": 14,
     "grade": 3,
-    "freq": 724
+    "freq": 724,
+    "kun_marked": [],
+    "examples": [
+     {
+      "term": "駅",
+      "reading": "えき",
+      "meaning": "Station",
+      "level": "N5",
+      "uses": "えき",
+      "misreadings": [
+       "えっき"
+      ]
+     }
+    ]
    },
    "mnemonic": "馬 horse + 尸 body"
   },
@@ -3259,7 +6978,23 @@
     ],
     "strokes": 9,
     "grade": 2,
-    "freq": 579
+    "freq": 579,
+    "kun_marked": [
+     "はる"
+    ],
+    "examples": [
+     {
+      "term": "春",
+      "reading": "はる",
+      "meaning": "spring",
+      "level": "N5",
+      "uses": "はる",
+      "misreadings": [
+       "ばる",
+       "ひる"
+      ]
+     }
+    ]
    },
    "mnemonic": "二 two + 日 sun + 人 person"
   },
@@ -3294,7 +7029,23 @@
     ],
     "strokes": 9,
     "grade": 2,
-    "freq": 635
+    "freq": 635,
+    "kun_marked": [
+     "あき",
+     "とき"
+    ],
+    "examples": [
+     {
+      "term": "秋",
+      "reading": "あき",
+      "meaning": "fall (season)",
+      "level": "N5",
+      "uses": "あき",
+      "misreadings": [
+       "あっき"
+      ]
+     }
+    ]
    },
    "mnemonic": "火 fire + 禾 grain"
   },
@@ -3326,7 +7077,51 @@
     "kun": [],
     "strokes": 18,
     "grade": 2,
-    "freq": 940
+    "freq": 940,
+    "kun_marked": [],
+    "examples": [
+     {
+      "term": "土曜日",
+      "reading": "どようび",
+      "meaning": "Saturday",
+      "level": "N5",
+      "uses": "よう",
+      "misreadings": [
+       "どよび",
+       "どうようび",
+       "どゆうび",
+       "とようび",
+       "どようひ"
+      ]
+     },
+     {
+      "term": "日曜日",
+      "reading": "にちようび",
+      "meaning": "Sunday",
+      "level": "N5",
+      "uses": "よう",
+      "misreadings": [
+       "にちよび",
+       "にっちようび",
+       "にちゆうび",
+       "にちようひ"
+      ]
+     },
+     {
+      "term": "月曜日",
+      "reading": "げつようび",
+      "meaning": "Monday",
+      "level": "N5",
+      "uses": "よう",
+      "misreadings": [
+       "げつよび",
+       "げっつようび",
+       "げつゆうび",
+       "けつようび",
+       "げつようひ"
+      ]
+     }
+    ]
    },
    "mnemonic": "ヨ hand + 日 sun + 隹 bird"
   },
@@ -3362,7 +7157,55 @@
     ],
     "strokes": 10,
     "grade": 2,
-    "freq": 169
+    "freq": 169,
+    "kun_marked": [
+     "か(く)",
+     "が(き)"
+    ],
+    "examples": [
+     {
+      "term": "辞書",
+      "reading": "じしょ",
+      "meaning": "Dictionary",
+      "level": "N5",
+      "uses": "しょ",
+      "misreadings": [
+       "じがき",
+       "じしょう",
+       "じっしょ",
+       "じじょ",
+       "じすょ",
+       "じさょ"
+      ]
+     },
+     {
+      "term": "書く",
+      "reading": "かく",
+      "meaning": "To write",
+      "level": "N5",
+      "uses": "かく",
+      "misreadings": [
+       "がきく",
+       "かっく",
+       "がく",
+       "きく"
+      ]
+     },
+     {
+      "term": "葉書",
+      "reading": "はがき",
+      "meaning": "postcard",
+      "level": "N5",
+      "uses": "がき",
+      "misreadings": [
+       "はしょ",
+       "はがっき",
+       "はかき",
+       "はぎき",
+       "ばがき"
+      ]
+     }
+    ]
    },
    "mnemonic": "日 sun + 聿 brush"
   },

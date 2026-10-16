@@ -274,6 +274,21 @@ function Intro({ card, position, onDone }: { card: StudyCard; position: { at: nu
             <dd>{r.mnemonic}</dd>
           </div>
         )}
+        {r.words && (
+          <div>
+            <dt className="text-xs text-muted">Words</dt>
+            {r.words.map((w) => (
+              <dd key={w.term} className="flex items-baseline gap-2" lang="ja">
+                <span className="text-lg">
+                  <Ruby text={w.term} reading={w.reading} />
+                </span>
+                <span className="text-sm text-muted" lang="en">
+                  {w.meaning}
+                </span>
+              </dd>
+            ))}
+          </div>
+        )}
         {card.itemType === "kanji" && groupsWith(r.term).length > 0 && (
           <div>
             <dt className="text-xs text-muted">Compare with</dt>
@@ -354,6 +369,11 @@ function Feedback({ card, correct }: { card: StudyCard; correct: boolean }) {
       }`}
     >
       <p className="font-medium">{correct ? "Correct!" : "Not quite"}</p>
+      {r.quizWord && (
+        <p className="mt-1 text-lg" lang="ja">
+          <Ruby text={r.quizWord.term} reading={r.quizWord.reading} /> <span className="text-sm text-muted" lang="en">{r.quizWord.meaning}</span>
+        </p>
+      )}
       <p className="mt-1" lang="ja">
         <button onClick={() => speak(spoken(card), r.audioUrl)} className="font-bold underline decoration-dotted">
           <Ruby text={r.term} reading={r.reading} />
@@ -368,7 +388,7 @@ function Feedback({ card, correct }: { card: StudyCard; correct: boolean }) {
   );
 }
 
-/** A kanji's readings on one line: 音 (on) and 訓 (kun). */
+/** A kanji's readings on one line: 音 (on, katakana) and 訓 (kun, okurigana in brackets), as dictionaries write them. */
 function kanjiReadings(r: StudyCard["reveal"]): string | null {
   if (!r.readings) return null;
   return [r.readings.on.length ? `音 ${r.readings.on.join("・")}` : "", r.readings.kun.length ? `訓 ${r.readings.kun.join("・")}` : ""]

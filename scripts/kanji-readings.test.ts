@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { commonReadings, splitWord } from "./kanji-readings";
+import { commonReadings, markedKun, misreadings, segmentWord, splitWord } from "./kanji-readings";
 
 const kanji = new Map([
   ["天", { on: ["てん"], kun: ["あまつ", "あめ", "あま"] }],
@@ -33,5 +33,37 @@ describe("kanji readings from vocabulary", () => {
     expect(r.get("天")).toBe("てん");
     expect(r.get("見")).toBe("みる");
     expect(r.get("校")).toBe("こう"); // no word uses it: first on reading
+  });
+});
+
+describe("kanji card data", () => {
+  const k = new Map([
+    ...kanji,
+    ["上", { on: ["じょう", "しょう"], kun: ["うえ", "うわ", "かみ", "あげる", "あがる"] }],
+    ["手", { on: ["しゅ"], kun: ["て"] }],
+    ["下", { on: ["か", "げ"], kun: ["した"] }],
+  ]);
+
+  it("pins override the data-driven key reading", () => {
+    const words = [{ term: "上げる", reading: "あげる", level: "N5" }, { term: "差し上げる", reading: "さしあげる", level: "N4" }];
+    expect(commonReadings(k, words).get("上")).toBe("あげる");
+    expect(commonReadings(k, words, { 上: "うえ" }).get("上")).toBe("うえ");
+  });
+
+  it("marks okurigana on kun readings the words show", () => {
+    const words = [{ term: "上げる", reading: "あげる", level: "N5" }, { term: "上", reading: "うえ", level: "N5" }];
+    expect(markedKun("上", k.get("上")!, words, k)).toEqual(["うえ", "うわ", "かみ", "あ(げる)", "あがる"]);
+  });
+
+  it("offers JLPT-style misreadings: another reading, vowel length, っ, voicing", () => {
+    expect(segmentWord("上手", "じょうず", k)).toBeNull(); // irregular: quizzes use words that split
+    const seg = segmentWord("上下", "じょうげ", k)!;
+    const wrong = misreadings(seg, "上", k.get("上")!, new Set(["じょう", "うえ", "あ"]));
+    expect(wrong).toContain("うえげ");
+    expect(wrong).toContain("じょげ");
+    expect(wrong).not.toContain("じょうげ");
+    expect(wrong.every((w) => /^[ぁ-ゖ]+$/.test(w))).toBe(true);
+    // Before okurigana only kun readings are swapped in: no けんる for 見る.
+    expect(misreadings(segmentWord("見る", "みる", k)!, "見", k.get("見")!)).not.toContain("けんる");
   });
 });

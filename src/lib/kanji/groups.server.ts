@@ -15,7 +15,7 @@ export interface KanjiCard {
   word: { term: string; reading: string | null; meaning: string } | null;
 }
 
-type Row = { id: string; slug: string; term: string; jlpt_level: string; meaning: string; reading: string | null; data: { on?: string[]; kun?: string[] } | null; prerequisites: string[] };
+type Row = { id: string; slug: string; term: string; jlpt_level: string; meaning: string; reading: string | null; data: { on?: string[]; kun?: string[]; kun_marked?: string[] } | null; prerequisites: string[] };
 
 const RANK = ["N5", "N4", "N3", "N2", "N1"];
 
@@ -63,8 +63,9 @@ export async function loadGroupCards(supabase: SupabaseClient, userId: string, g
       slug: r?.slug ?? null,
       level: r?.jlpt_level ?? null,
       meaning: r?.meaning ?? "",
-      on: r?.data?.on ?? [],
-      kun: r?.data?.kun ?? (r?.reading ? [r.reading] : []),
+      // 音 in katakana, 訓 with okurigana in brackets, as dictionaries write them.
+      on: [...new Set((r?.data?.on ?? []).map((x) => x.replace(/[ぁ-ゖ]/g, (c) => String.fromCharCode(c.charCodeAt(0) + 0x60))))],
+      kun: [...new Set(r?.data?.kun_marked ?? r?.data?.kun ?? (r?.reading ? [r.reading] : []))],
       parts: (r?.prerequisites ?? []).flatMap((s) => {
         const p = partBySlug.get(s);
         return p ? [{ term: p.term, meaning: p.meaning.split(/[,;/]/)[0].trim() }] : [];

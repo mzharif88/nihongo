@@ -17,8 +17,22 @@ export interface StudyItem {
   topic: string | null;
   prerequisites: string[];
   audio_url: string | null;
-  /** Kanji: on and kun readings (KANJIDIC). */
-  data?: { on?: string[]; kun?: string[]; freq?: number | null } | null;
+  /**
+   * Kanji: on and kun readings (KANJIDIC), kun with okurigana marked (あ(げる)),
+   * and example words showing its readings, the first one quizzed with
+   * JLPT-style misreadings (scripts/kanji-readings.ts).
+   */
+  data?: { on?: string[]; kun?: string[]; kun_marked?: string[]; examples?: KanjiExample[]; freq?: number | null } | null;
+}
+
+export interface KanjiExample {
+  term: string;
+  reading: string;
+  meaning: string;
+  level: string;
+  /** The kanji's reading in this word. */
+  uses: string;
+  misreadings: string[];
 }
 
 export interface StudyCard {
@@ -50,8 +64,12 @@ export interface StudyCard {
     romaji: string | null;
     meaning: string;
     mnemonic: string | null;
-    /** Kanji: every on (音) and kun (訓) reading. */
+    /** Kanji: every on (音, katakana) and kun (訓, okurigana in brackets) reading. */
     readings: { on: string[]; kun: string[] } | null;
+    /** Kanji: words that show its readings. */
+    words: { term: string; reading: string; meaning: string }[] | null;
+    /** Kanji reading quiz: the word it asked about. */
+    quizWord?: { term: string; reading: string; meaning: string };
     /** `reading` is ruby markup for the example sentence, when generated. */
     example: { jp: string; en: string; reading?: string } | null;
     audioUrl: string | null;
@@ -73,6 +91,10 @@ export function shuffle<T>(items: T[], rng: Rng = Math.random): T[] {
 }
 
 const isKatakana = (item: StudyItem) => item.tags.includes("katakana");
+const toKatakana = (s: string) => s.replace(/[ぁ-ゖ]/g, (c) => String.fromCharCode(c.charCodeAt(0) + 0x60));
+
+/** The word a kanji's reading quiz asks about, as the JLPT does (上手 → じょうず), if it has one. */
+const quizWord = (item: StudyItem): KanjiExample | null => (item.type === "kanji" ? (item.data?.examples?.[0] ?? null) : null);
 
 export type Script = "hiragana" | "katakana" | "kanji" | "other";
 
@@ -119,7 +141,7 @@ export function wordAnswer(item: StudyItem): string {
 export function answerText(item: StudyItem, cardType: CardType): string {
   if (cardType === "recognition") return item.type === "kana" ? (item.romaji ?? item.meaning) : item.meaning;
   if (item.type === "kana") return item.term;
-  if (item.type === "kanji") return item.reading ?? item.romaji?.split("/")[0] ?? item.term;
+  if (item.type === "kanji") return quizWord(item)?.reading ?? item.reading ?? item.romaji?.split("/")[0] ?? item.term;
   return wordAnswer(item);
 }
 
@@ -142,7 +164,9 @@ const QUESTIONS: Record<CardType, (item: StudyItem) => string> = {
     item.type === "kana"
       ? "Which kana makes this sound?"
       : item.type === "kanji"
-        ? "How is this kanji read?"
+        ? quizWord(item)
+          ? "How is this word read?"
+          : "How is this kanji read?"
         : "Which word means this?",
 };
 
@@ -151,7 +175,9 @@ function promptFor(item: StudyItem, cardType: CardType): Pick<StudyCard, "prompt
   if (cardType === "recognition" || item.type === "kanji") {
     // Furigana everywhere except the kanji-reading card, where the reading is the answer.
     const hide = cardType === "recall" && item.type === "kanji";
-    return { prompt: item.term, promptIsJapanese: true, promptReading: hide ? null : item.reading };
+    // That card asks about a word using the kanji, the way the JLPT does.
+    const word = hide ? quizWord(item) : null;
+    return { prompt: word?.term ?? item.term, promptIsJapanese: true, promptReading: hide ? null : item.reading };
   }
   return {
     prompt: item.type === "kana" ? (item.romaji ?? item.meaning) : item.meaning,
@@ -183,16 +209,26 @@ export function buildCard(
       romaji: item.romaji,
       meaning: item.meaning,
       mnemonic: item.mnemonic,
-      readings: item.type === "kanji" && (item.data?.on?.length || item.data?.kun?.length) ? { on: item.data?.on ?? [], kun: item.data?.kun ?? [] } : null,
+      readings:
+        item.type === "kanji" && (item.data?.on?.length || item.data?.kun?.length)
+          ? { on: [...new Set((item.data?.on ?? []).map(toKatakana))], kun: [...new Set(item.data?.kun_marked ?? item.data?.kun ?? [])] }
+          : null,
+      words: item.type === "kanji" && item.data?.examples?.length ? item.data.examples.map(({ term, reading, meaning }) => ({ term, reading, meaning })) : null,
       example,
       audioUrl: item.audio_url,
     },
   };
 
   const answer = answerText(item, cardType);
-  const options = shuffle([answer, ...distractors(item, cardType, pool, rng)], rng);
+  const word = cardType === "recall" ? quizWord(item) : null;
+  // A kanji's reading quiz offers the word's likely misreadings, as the JLPT does, topped up from other words.
+  const wrong = word
+    ? pickOptions(answer, [...shuffle(word.misreadings.slice(0, 5), rng), ...distractors(item, cardType, pool, rng, 6)], 3)
+    : distractors(item, cardType, pool, rng);
+  const options = shuffle([answer, ...wrong], rng);
   return {
     ...base,
+    ...(word ? { reveal: { ...base.reveal, quizWord: { term: word.term, reading: word.reading, meaning: word.meaning } } } : {}),
     mode: "choice",
     question: QUESTIONS[cardType](item),
     ...promptFor(item, cardType),
