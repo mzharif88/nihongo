@@ -3,6 +3,7 @@ import { STARTER } from "./starter";
 import { openStage } from "./newcomer.server";
 import { dueCount, grade, mastery, nightRecallOpen, nightRecallStart, overallMastery, recallQueue, type RecallPhrase } from "./recall";
 import { acceptTranslations, kanaOf, splitLines } from "./translate";
+import { nextScene, sceneOpen, type Scene } from "./listening";
 
 const NOW = new Date("2026-10-16T12:00:00Z");
 const DAY = 86_400_000;
@@ -128,5 +129,23 @@ describe("starter library", () => {
     expect(openStage(topic, most)).toBeGreaterThan(2);
     const few = new Map(open.slice(0, 1).map((p) => [p.slug, { streak: 1 }]));
     expect(openStage(topic, few)).toBe(2);
+  });
+});
+
+describe("listening unlocks", () => {
+  const scenes = [1, 2, 3].map((level) => ({ slug: `konbini-${level}`, topic: "konbini", level })) as unknown as Scene[];
+
+  it("opens level 1 at once and each next level when the one below is done", () => {
+    expect(sceneOpen(scenes[0], new Map(), scenes)).toBe(true);
+    expect(sceneOpen(scenes[1], new Map(), scenes)).toBe(false);
+    expect(sceneOpen(scenes[1], new Map([["konbini-1", { plays: 1, gist_correct: true }]]), scenes)).toBe(true);
+    // Missing the gist still counts after three listens.
+    expect(sceneOpen(scenes[1], new Map([["konbini-1", { plays: 2, gist_correct: false }]]), scenes)).toBe(false);
+    expect(sceneOpen(scenes[1], new Map([["konbini-1", { plays: 3, gist_correct: false }]]), scenes)).toBe(true);
+  });
+
+  it("suggests the lowest open scene not yet done", () => {
+    expect(nextScene(new Map(), scenes)?.slug).toBe("konbini-1");
+    expect(nextScene(new Map([["konbini-1", { plays: 1, gist_correct: true }]]), scenes)?.slug).toBe("konbini-2");
   });
 });

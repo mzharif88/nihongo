@@ -7,6 +7,7 @@ import { grade, type Priority } from "@/lib/newcomer/recall";
 import { splitLines, type CheckedPhrase } from "@/lib/newcomer/translate";
 import { translateLines } from "@/lib/newcomer/translate.server";
 import { PHRASE_COLUMNS, type PhraseRow } from "@/lib/newcomer/newcomer.server";
+import { scene } from "@/lib/newcomer/listening";
 import { starterTopic } from "@/lib/newcomer/starter";
 
 const PRIORITY = z.enum(["priority", "normal", "less", "paused"]);
@@ -139,4 +140,22 @@ export async function resetFeedToken(): Promise<string> {
   const { error } = await supabase.from("newcomer_feeds").upsert({ user_id: user.id, token });
   if (error) throw new Error(error.message);
   return token;
+}
+
+const Listen = z.object({ slug: z.string().regex(/^[a-z-]+-\d$/), gistCorrect: z.boolean().optional() });
+
+/** Count one listen to a scene; with the gist answer, remember whether it was caught (a catch sticks). */
+export async function recordListen(input: { slug: string; gistCorrect?: boolean }) {
+  const { supabase, user } = await requireUser();
+  const { slug, gistCorrect } = Listen.parse(input);
+  if (!scene(slug)) throw new Error("Unknown scene.");
+  const { data } = await supabase.from("newcomer_listening").select("plays, gist_correct").eq("scene_slug", slug).maybeSingle();
+  const { error } = await supabase.from("newcomer_listening").upsert({
+    user_id: user.id,
+    scene_slug: slug,
+    plays: (data?.plays ?? 0) + (gistCorrect === undefined ? 1 : 0),
+    gist_correct: data?.gist_correct === true ? true : (gistCorrect ?? data?.gist_correct ?? null),
+    last_at: new Date().toISOString(),
+  });
+  if (error) throw new Error(error.message);
 }

@@ -1,6 +1,7 @@
 import "server-only";
 import type { SupabaseClient } from "@supabase/supabase-js";
 import type { Priority, RecallPhrase } from "./recall";
+import type { SceneProgress } from "./listening";
 import { STARTER, type StarterTopic } from "./starter";
 
 export type PhraseRow = {
@@ -100,3 +101,9 @@ export function starterRecall(topic: StarterTopic, progress: Map<string, Progres
 }
 
 export const starterTopics = () => STARTER;
+
+export async function loadListening(supabase: SupabaseClient): Promise<Map<string, SceneProgress>> {
+  const { data, error } = await supabase.from("newcomer_listening").select("scene_slug, plays, gist_correct");
+  if (error) throw new Error(error.message);
+  return new Map((data as (SceneProgress & { scene_slug: string })[]).map((r) => [r.scene_slug, { plays: r.plays, gist_correct: r.gist_correct }]));
+}

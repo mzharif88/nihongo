@@ -52,6 +52,13 @@ export function japaneseVoice(voices: SpeechSynthesisVoice[]): SpeechSynthesisVo
   );
 }
 
+/** A second Japanese voice for the other speaker in a scene (Kyoko with Otoya, and so on), if the phone has one. */
+export function otherJapaneseVoice(voices: SpeechSynthesisVoice[]): SpeechSynthesisVoice | undefined {
+  const main = japaneseVoice(voices);
+  const others = voicesFor(voices, "ja").filter((v) => v.name !== main?.name && !v.name.startsWith(main?.name.split(" ")[0] ?? "\u0000"));
+  return others.find((v) => /kyoko|otoya/i.test(v.name)) ?? others[0];
+}
+
 export const pickJapaneseVoice = (name: string) => storedSet(STORAGE.ja, name);
 
 /** Speaking rate for Japanese (0.6–1.1); a little slow by default, for shadowing. */
@@ -67,12 +74,12 @@ export const setShadowGap = (seconds: number) => storedSet(STORAGE.gap, String(s
  * the time so far) if stopped. A rough length is used if the browser never
  * reports the end, which some iOS versions occasionally skip.
  */
-export async function say(text: string, lang: VoiceLang, voices?: SpeechSynthesisVoice[]): Promise<number> {
+export async function say(text: string, lang: VoiceLang, voices?: SpeechSynthesisVoice[], voiceOverride?: SpeechSynthesisVoice): Promise<number> {
   if (typeof window === "undefined" || !("speechSynthesis" in window)) return 0;
   const list = voices ?? (await loadVoices());
   const u = new SpeechSynthesisUtterance(text);
   u.lang = lang === "ja" ? "ja-JP" : lang === "ms" ? "ms-MY" : "en-US";
-  const voice = lang === "ja" ? japaneseVoice(list) : voicesFor(list, lang)[0];
+  const voice = voiceOverride ?? (lang === "ja" ? japaneseVoice(list) : voicesFor(list, lang)[0]);
   if (voice) u.voice = voice;
   u.rate = lang === "ja" ? speechRate() : 1;
   window.speechSynthesis.cancel();

@@ -105,6 +105,7 @@ const TABS = [
   { href: "/newcomer/phrases", label: "My phrases" },
   { href: "/newcomer/recall", label: "Recall" },
   { href: "/newcomer/playlist", label: "Playlist" },
+  { href: "/newcomer/listening", label: "Listen" },
 ];
 
 export function NewcomerNav() {

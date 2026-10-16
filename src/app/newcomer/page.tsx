@@ -40,6 +40,10 @@ export default async function NewcomerPage() {
           <div className="font-medium">Playlist</div>
           <div className="text-xs text-muted">Listen, pause, say it back</div>
         </Link>
+        <Link href="/newcomer/listening" className="col-span-2 rounded-xl border border-border bg-card p-4 active:border-accent">
+          <div className="font-medium">Listen first</div>
+          <div className="text-xs text-muted">Graded scenes: hear them before you read them</div>
+        </Link>
       </section>
 
       <h2 className="mt-8 text-sm font-semibold text-muted">Starter topics</h2>
