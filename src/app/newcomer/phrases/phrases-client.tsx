@@ -3,7 +3,7 @@
 import { useMemo, useState, useTransition } from "react";
 import { mastery, PRIORITIES, type Priority } from "@/lib/newcomer/recall";
 import type { PhraseRow } from "@/lib/newcomer/newcomer.server";
-import { deletePhrase, editPhrase, restorePhrase, savePhrases, setPriority, translatePreview, type Preview } from "../actions";
+import { deletePhrase, editPhrase, restorePhrase, savePhrases, setPriority, translatePreview } from "../actions";
 import { Japanese, MasteryBar, PlayButton, ScriptToggle } from "../ui";
 
 const ORDER: Record<Priority, number> = { priority: 0, normal: 1, less: 2, paused: 3 };
@@ -12,8 +12,7 @@ const SEARCH_FROM = 8;
 export function PhrasesClient({ initial, canTranslate }: { initial: PhraseRow[]; canTranslate: boolean }) {
   const [phrases, setPhrases] = useState(initial);
   const [text, setText] = useState("");
-  const [preview, setPreview] = useState<(Preview & { keep: boolean })[] | null>(null);
-  const [failed, setFailed] = useState<string[]>([]);
+  const [added, setAdded] = useState<{ count: number; failed: string[] } | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [pending, start] = useTransition();
   const [query, setQuery] = useState("");
@@ -39,22 +38,17 @@ export function PhrasesClient({ initial, canTranslate }: { initial: PhraseRow[];
       }
     });
 
-  const translate = () =>
+  // One step: translate the lines and add them straight to the list (a wrong one can be deleted, with Undo).
+  const add = () =>
     run(async () => {
+      setAdded(null);
       const result = await translatePreview(text);
       if (result.error) throw new Error(result.error);
-      setPreview(result.phrases.map((p) => ({ ...p, keep: true })));
-      setFailed(result.failed);
-    });
-
-  const save = () =>
-    run(async () => {
-      const keep = (preview ?? []).filter((p) => p.keep).map(({ keep, ...p }) => (void keep, p));
-      const saved = keep.length ? await savePhrases(keep) : [];
+      const saved = result.phrases.length ? await savePhrases(result.phrases) : [];
       setPhrases((list) => [...saved, ...list]);
-      setPreview(null);
-      setFailed([]);
-      setText("");
+      setAdded({ count: saved.length, failed: result.failed });
+      // Keep the lines that didn't translate in the box, so they can be reworded.
+      setText(result.failed.join("\n"));
     });
 
   const update = (id: string, patch: Partial<PhraseRow>) => {
@@ -87,44 +81,18 @@ export function PhrasesClient({ initial, canTranslate }: { initial: PhraseRow[];
         <button
           type="button"
           disabled={pending || !text.trim() || !canTranslate}
-          onClick={translate}
+          onClick={add}
           className="mt-2 w-full rounded-lg bg-accent py-2 font-medium text-white disabled:opacity-50"
         >
-          {pending && !preview ? "Translating…" : "Translate"}
+          {pending ? "Adding…" : "Add to my list"}
         </button>
-
-        {preview && (
-          <div className="mt-4 space-y-2">
-            {preview.map((p, i) => (
-              <label key={i} className="flex items-start gap-3 rounded-lg border border-border p-3">
-                <input
-                  type="checkbox"
-                  checked={p.keep}
-                  onChange={(e) => setPreview((list) => list!.map((x, j) => (j === i ? { ...x, keep: e.target.checked } : x)))}
-                  className="mt-2 h-5 w-5"
-                />
-                <div className="min-w-0 flex-1">
-                  <Japanese kana={p.kana} jp={p.jp} reading={p.reading} className="text-lg" />
-                  <div className="text-sm text-muted">{p.meaning}</div>
-                </div>
-                <PlayButton text={p.jp} />
-              </label>
-            ))}
-            {failed.length > 0 && (
-              <p className="text-xs text-amber-600">Couldn&apos;t translate: {failed.join(" · ")}. Try rewording.</p>
-            )}
-            <div className="flex gap-2">
-              <button type="button" disabled={pending} onClick={save} className="flex-1 rounded-lg bg-accent py-2 font-medium text-white disabled:opacity-50">
-                Save {preview.filter((p) => p.keep).length}
-              </button>
-              <button type="button" disabled={pending} onClick={translate} className="rounded-lg border border-border px-4 py-2">
-                Retry
-              </button>
-              <button type="button" disabled={pending} onClick={() => setPreview(null)} className="rounded-lg border border-border px-4 py-2">
-                Cancel
-              </button>
-            </div>
-          </div>
+        {added && added.count > 0 && (
+          <p className="mt-2 text-sm text-green-700 dark:text-green-400">
+            Added {added.count} {added.count === 1 ? "phrase" : "phrases"} in Japanese. Tap one below to hear it, edit it or delete it.
+          </p>
+        )}
+        {added && added.failed.length > 0 && (
+          <p className="mt-1 text-xs text-amber-600">Couldn&apos;t translate {added.failed.length === 1 ? "this line" : "these lines"}, left in the box: reword and try again.</p>
         )}
         {error && <p className="mt-2 text-sm text-red-600">{error}</p>}
       </section>
