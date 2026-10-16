@@ -3,7 +3,7 @@ import { STARTER } from "./starter";
 import { openStage } from "./newcomer.server";
 import { dueCount, grade, mastery, nightRecallOpen, nightRecallStart, overallMastery, recallQueue, type RecallPhrase } from "./recall";
 import { acceptTranslations, kanaOf, splitLines } from "./translate";
-import { nextScene, sceneOpen, type Scene } from "./listening";
+import { nextScene, SCENES, sceneOpen, type Scene } from "./listening";
 
 const NOW = new Date("2026-10-16T12:00:00Z");
 const DAY = 86_400_000;
@@ -147,5 +147,15 @@ describe("listening unlocks", () => {
   it("suggests the lowest open scene not yet done", () => {
     expect(nextScene(new Map(), scenes)?.slug).toBe("konbini-1");
     expect(nextScene(new Map([["konbini-1", { plays: 1, gist_correct: true }]]), scenes)?.slug).toBe("konbini-2");
+  });
+});
+
+describe("listening scenes", () => {
+  it("has 42 scenes with kana for every line and a valid gist answer", () => {
+    expect(SCENES).toHaveLength(42);
+    for (const s of SCENES) {
+      for (const l of s.lines) expect(l.kana, s.slug).not.toMatch(/[㐀-鿿]/);
+      expect(s.question.options[s.question.answer], s.slug).toBeDefined();
+    }
   });
 });

@@ -1,0 +1,2666 @@
+{
+ "note": "Pre-input listening scenes for Newcomer: short graded scenes (level 1-4) by topic, heard with the device Japanese voice before the transcript is shown, each with one gist question in English and Malay. A line may pin its furigana with \"reading\" where the automatic reading is wrong.",
+ "scenes": [
+  {
+   "slug": "greetings-1",
+   "topic": "greetings",
+   "level": 1,
+   "title": "A hot morning",
+   "setting": "You meet a neighbour outside your building in the morning.",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "おはようございます。",
+     "en": "Good morning.",
+     "ms": "Selamat pagi."
+    },
+    {
+     "speaker": "B",
+     "jp": "あ、おはようございます。",
+     "en": "Oh, good morning.",
+     "ms": "Oh, selamat pagi."
+    },
+    {
+     "speaker": "A",
+     "jp": "今日は暑いですね。",
+     "en": "It's hot today, isn't it?",
+     "ms": "Panas hari ini, kan?"
+    },
+    {
+     "speaker": "B",
+     "jp": "そうですね。",
+     "en": "It sure is.",
+     "ms": "Betul tu."
+    }
+   ],
+   "question": {
+    "en": "What do they talk about?",
+    "ms": "Apa yang mereka bualkan?",
+    "options": [
+     {
+      "en": "The hot weather",
+      "ms": "Cuaca yang panas"
+     },
+     {
+      "en": "The train being late",
+      "ms": "Kereta api lewat"
+     },
+     {
+      "en": "Breakfast",
+      "ms": "Sarapan"
+     }
+    ],
+    "answer": 0
+   }
+  },
+  {
+   "slug": "greetings-2",
+   "topic": "greetings",
+   "level": 2,
+   "title": "A new neighbour",
+   "setting": "You've just moved into an apartment and meet a neighbour in the lift.",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "はじめまして。アイシャです。",
+     "en": "Nice to meet you. I'm Aisyah.",
+     "ms": "Selamat berkenalan. Saya Aisyah."
+    },
+    {
+     "speaker": "B",
+     "jp": "はじめまして。田中です。",
+     "en": "Nice to meet you. I'm Tanaka.",
+     "ms": "Selamat berkenalan. Saya Tanaka."
+    },
+    {
+     "speaker": "A",
+     "jp": "よろしくお願いします。",
+     "en": "I look forward to knowing you.",
+     "ms": "Gembira dapat berkenalan."
+    },
+    {
+     "speaker": "B",
+     "jp": "こちらこそ。何階ですか？",
+     "en": "Likewise. Which floor are you on?",
+     "ms": "Saya pun sama. Awak tinggal tingkat berapa?"
+    },
+    {
+     "speaker": "A",
+     "jp": "三階です。",
+     "en": "I'm on the third floor.",
+     "ms": "Tingkat tiga."
+    },
+    {
+     "speaker": "B",
+     "jp": "私は五階です。",
+     "en": "I'm on the fifth floor.",
+     "ms": "Saya tingkat lima."
+    }
+   ],
+   "question": {
+    "en": "Which floor does Mr Tanaka live on?",
+    "ms": "Encik Tanaka tinggal di tingkat berapa?",
+    "options": [
+     {
+      "en": "The third floor",
+      "ms": "Tingkat tiga"
+     },
+     {
+      "en": "The fifth floor",
+      "ms": "Tingkat lima"
+     },
+     {
+      "en": "The second floor",
+      "ms": "Tingkat dua"
+     }
+    ],
+    "answer": 1
+   }
+  },
+  {
+   "slug": "greetings-3",
+   "topic": "greetings",
+   "level": 3,
+   "title": "Back from Malaysia",
+   "setting": "You see a Japanese friend for the first time in a while.",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "山田さん、お久しぶりです。",
+     "en": "Yamada-san, it's been a while.",
+     "ms": "Yamada-san, lama tak jumpa."
+    },
+    {
+     "speaker": "B",
+     "jp": "あ、アイシャさん！お元気でしたか？",
+     "en": "Oh, Aisyah! Have you been well?",
+     "ms": "Eh, Aisyah! Sihat ke selama ni?"
+    },
+    {
+     "speaker": "A",
+     "jp": "はい。先月マレーシアに帰っていました。",
+     "en": "Yes. I was back in Malaysia last month.",
+     "ms": "Sihat. Bulan lepas saya balik Malaysia."
+    },
+    {
+     "speaker": "B",
+     "jp": "そうですか。ご家族は元気でしたか？",
+     "en": "I see. Was your family well?",
+     "ms": "Oh ya ke. Keluarga sihat?"
+    },
+    {
+     "speaker": "A",
+     "jp": "はい。みんなに会えて、うれしかったです。",
+     "en": "Yes. I was happy to see everyone.",
+     "ms": "Sihat. Seronok dapat jumpa semua orang."
+    },
+    {
+     "speaker": "B",
+     "jp": "それはよかったですね。",
+     "en": "That's great.",
+     "ms": "Baguslah tu."
+    },
+    {
+     "speaker": "A",
+     "jp": "これ、マレーシアのお菓子です。どうぞ。",
+     "en": "These are sweets from Malaysia. Please have some.",
+     "ms": "Ini kuih dari Malaysia. Ambillah."
+    },
+    {
+     "speaker": "B",
+     "jp": "わあ、ありがとうございます。",
+     "en": "Wow, thank you.",
+     "ms": "Wah, terima kasih."
+    }
+   ],
+   "question": {
+    "en": "Why haven't they seen each other for a while?",
+    "ms": "Kenapa mereka lama tidak berjumpa?",
+    "options": [
+     {
+      "en": "Aisyah was sick",
+      "ms": "Aisyah sakit"
+     },
+     {
+      "en": "Aisyah changed jobs",
+      "ms": "Aisyah tukar kerja"
+     },
+     {
+      "en": "Aisyah went back to Malaysia",
+      "ms": "Aisyah balik ke Malaysia"
+     }
+    ],
+    "answer": 2
+   }
+  },
+  {
+   "slug": "about-me-1",
+   "topic": "about-me",
+   "level": 1,
+   "title": "Where are you from?",
+   "setting": "Someone at a community event asks about you.",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "お名前は？",
+     "en": "What's your name?",
+     "ms": "Siapa nama awak?"
+    },
+    {
+     "speaker": "B",
+     "jp": "アミンです。",
+     "en": "I'm Amin.",
+     "ms": "Saya Amin."
+    },
+    {
+     "speaker": "A",
+     "jp": "お国は？",
+     "en": "Which country are you from?",
+     "ms": "Dari negara mana?"
+    },
+    {
+     "speaker": "B",
+     "jp": "マレーシアです。",
+     "en": "Malaysia.",
+     "ms": "Malaysia."
+    }
+   ],
+   "question": {
+    "en": "Where is Amin from?",
+    "ms": "Amin berasal dari mana?",
+    "options": [
+     {
+      "en": "Indonesia",
+      "ms": "Indonesia"
+     },
+     {
+      "en": "Malaysia",
+      "ms": "Malaysia"
+     },
+     {
+      "en": "Singapore",
+      "ms": "Singapura"
+     }
+    ],
+    "answer": 1
+   }
+  },
+  {
+   "slug": "about-me-2",
+   "topic": "about-me",
+   "level": 2,
+   "title": "New in Japan",
+   "setting": "A neighbour chats with you about your job.",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "お仕事は何ですか？",
+     "en": "What do you do for work?",
+     "ms": "Awak kerja apa?"
+    },
+    {
+     "speaker": "B",
+     "jp": "エンジニアです。",
+     "en": "I'm an engineer.",
+     "ms": "Saya jurutera."
+    },
+    {
+     "speaker": "A",
+     "jp": "日本は長いですか？",
+     "en": "Have you been in Japan long?",
+     "ms": "Dah lama ke duduk Jepun?"
+    },
+    {
+     "speaker": "B",
+     "jp": "いいえ、まだ二か月です。",
+     "en": "No, only two months so far.",
+     "ms": "Tak, baru dua bulan."
+    },
+    {
+     "speaker": "A",
+     "jp": "日本語、上手ですね。",
+     "en": "Your Japanese is good.",
+     "ms": "Pandai awak cakap Jepun."
+    },
+    {
+     "speaker": "B",
+     "jp": "いえいえ、まだまだです。",
+     "en": "Oh no, I've still got a long way to go.",
+     "ms": "Eh tak adalah, banyak lagi nak belajar."
+    }
+   ],
+   "question": {
+    "en": "How long has the engineer been in Japan?",
+    "ms": "Sudah berapa lama jurutera itu di Jepun?",
+    "options": [
+     {
+      "en": "Two weeks",
+      "ms": "Dua minggu"
+     },
+     {
+      "en": "Two years",
+      "ms": "Dua tahun"
+     },
+     {
+      "en": "Two months",
+      "ms": "Dua bulan"
+     }
+    ],
+    "answer": 2
+   }
+  },
+  {
+   "slug": "about-me-3",
+   "topic": "about-me",
+   "level": 3,
+   "title": "Why Japan?",
+   "setting": "A coworker asks you about yourself over lunch.",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "どうして日本に来ましたか？",
+     "en": "Why did you come to Japan?",
+     "ms": "Kenapa awak datang ke Jepun?"
+    },
+    {
+     "speaker": "B",
+     "jp": "日本の会社で働きたかったからです。",
+     "en": "Because I wanted to work at a Japanese company.",
+     "ms": "Sebab saya nak kerja di syarikat Jepun."
+    },
+    {
+     "speaker": "A",
+     "jp": "そうですか。趣味は何ですか？",
+     "en": "I see. What are your hobbies?",
+     "ms": "Oh begitu. Apa hobi awak?"
+    },
+    {
+     "speaker": "B",
+     "jp": "写真を撮ることです。",
+     "en": "Taking photos.",
+     "ms": "Ambil gambar."
+    },
+    {
+     "speaker": "A",
+     "jp": "週末は何をしましたか？",
+     "en": "What did you do at the weekend?",
+     "ms": "Hujung minggu lepas buat apa?"
+    },
+    {
+     "speaker": "B",
+     "jp": "鎌倉に行って、海の写真を撮りました。",
+     "en": "I went to Kamakura and took photos of the sea.",
+     "ms": "Saya pergi Kamakura dan ambil gambar laut."
+    },
+    {
+     "speaker": "A",
+     "jp": "いいですね。今度見せてください。",
+     "en": "Nice. Please show me sometime.",
+     "ms": "Bestnya. Nanti tunjuklah pada saya."
+    }
+   ],
+   "question": {
+    "en": "What did he do at the weekend?",
+    "ms": "Apa yang dia buat pada hujung minggu?",
+    "options": [
+     {
+      "en": "Took photos of the sea in Kamakura",
+      "ms": "Ambil gambar laut di Kamakura"
+     },
+     {
+      "en": "Worked overtime at the office",
+      "ms": "Kerja lebih masa di pejabat"
+     },
+     {
+      "en": "Cooked for his coworkers",
+      "ms": "Masak untuk rakan sekerja"
+     }
+    ],
+    "answer": 0
+   }
+  },
+  {
+   "slug": "daily-routine-1",
+   "topic": "daily-routine",
+   "level": 1,
+   "title": "Early riser",
+   "setting": "A coworker asks about your mornings.",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "何時に起きますか？",
+     "en": "What time do you get up?",
+     "ms": "Pukul berapa awak bangun?"
+    },
+    {
+     "speaker": "B",
+     "jp": "5時に起きます。",
+     "en": "I get up at five.",
+     "ms": "Saya bangun pukul lima."
+    },
+    {
+     "speaker": "A",
+     "jp": "早いですね！",
+     "en": "That's early!",
+     "ms": "Awalnya!"
+    },
+    {
+     "speaker": "B",
+     "jp": "はい、毎日です。",
+     "en": "Yes, every day.",
+     "ms": "Ya, setiap hari."
+    }
+   ],
+   "question": {
+    "en": "What time does she get up?",
+    "ms": "Pukul berapa dia bangun?",
+    "options": [
+     {
+      "en": "Seven o’clock",
+      "ms": "Pukul tujuh"
+     },
+     {
+      "en": "Five o’clock",
+      "ms": "Pukul lima"
+     },
+     {
+      "en": "Nine o’clock",
+      "ms": "Pukul sembilan"
+     }
+    ],
+    "answer": 1
+   }
+  },
+  {
+   "slug": "daily-routine-2",
+   "topic": "daily-routine",
+   "level": 2,
+   "title": "Getting to work",
+   "setting": "A neighbour asks about your weekday routine.",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "毎朝、何を食べますか？",
+     "en": "What do you eat every morning?",
+     "ms": "Setiap pagi awak makan apa?"
+    },
+    {
+     "speaker": "B",
+     "jp": "パンとコーヒーです。",
+     "en": "Bread and coffee.",
+     "ms": "Roti dengan kopi."
+    },
+    {
+     "speaker": "A",
+     "jp": "会社まで何分ですか？",
+     "en": "How many minutes is it to your office?",
+     "ms": "Berapa minit ke tempat kerja?"
+    },
+    {
+     "speaker": "B",
+     "jp": "バスで四十分です。",
+     "en": "Forty minutes by bus.",
+     "ms": "Empat puluh minit naik bas.",
+     "reading": "バスで[四十分|よんじゅっぷん]です。"
+    },
+    {
+     "speaker": "A",
+     "jp": "昼ごはんは？",
+     "en": "And lunch?",
+     "ms": "Makan tengah hari pula?"
+    },
+    {
+     "speaker": "B",
+     "jp": "会社の近くで食べます。",
+     "en": "I eat near the office.",
+     "ms": "Saya makan dekat pejabat."
+    }
+   ],
+   "question": {
+    "en": "How does he get to work?",
+    "ms": "Bagaimana dia pergi kerja?",
+    "options": [
+     {
+      "en": "Forty minutes by train",
+      "ms": "Empat puluh minit naik kereta api"
+     },
+     {
+      "en": "Fourteen minutes on foot",
+      "ms": "Empat belas minit berjalan kaki"
+     },
+     {
+      "en": "Forty minutes by bus",
+      "ms": "Empat puluh minit naik bas"
+     }
+    ],
+    "answer": 2
+   }
+  },
+  {
+   "slug": "daily-routine-3",
+   "topic": "daily-routine",
+   "level": 3,
+   "title": "Last night",
+   "setting": "A coworker asks what you did yesterday evening.",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "昨日の夜は何をしましたか？",
+     "en": "What did you do last night?",
+     "ms": "Semalam malam awak buat apa?"
+    },
+    {
+     "speaker": "B",
+     "jp": "家に帰って、晩ごはんを作りました。",
+     "en": "I went home and made dinner.",
+     "ms": "Saya balik rumah dan masak makan malam."
+    },
+    {
+     "speaker": "A",
+     "jp": "何を作りましたか？",
+     "en": "What did you make?",
+     "ms": "Masak apa?"
+    },
+    {
+     "speaker": "B",
+     "jp": "ナシゴレンです。簡単ですから。",
+     "en": "Nasi goreng. Because it's easy.",
+     "ms": "Nasi goreng. Sebab senang."
+    },
+    {
+     "speaker": "A",
+     "jp": "いいですね。そのあとは？",
+     "en": "Nice. And after that?",
+     "ms": "Sedapnya. Lepas tu?"
+    },
+    {
+     "speaker": "B",
+     "jp": "疲れていたので、早く寝ました。",
+     "en": "I was tired, so I went to bed early.",
+     "ms": "Saya penat, jadi saya tidur awal."
+    }
+   ],
+   "question": {
+    "en": "Why did he go to bed early?",
+    "ms": "Kenapa dia tidur awal?",
+    "options": [
+     {
+      "en": "He was tired",
+      "ms": "Dia penat"
+     },
+     {
+      "en": "He had to work early",
+      "ms": "Dia kena kerja awal"
+     },
+     {
+      "en": "He felt sick",
+      "ms": "Dia rasa tak sihat"
+     }
+    ],
+    "answer": 0
+   }
+  },
+  {
+   "slug": "daily-routine-4",
+   "topic": "daily-routine",
+   "level": 4,
+   "title": "My weekday",
+   "setting": "A Malaysian colleague describes her usual weekday.",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "私は毎朝6時に起きます。",
+     "en": "I get up at six every morning.",
+     "ms": "Saya bangun pukul enam setiap pagi."
+    },
+    {
+     "speaker": "A",
+     "jp": "起きたら、まずお祈りをします。",
+     "en": "When I get up, the first thing I do is pray.",
+     "ms": "Bila bangun, perkara pertama saya buat ialah solat."
+    },
+    {
+     "speaker": "A",
+     "jp": "それから、シャワーを浴びて朝ごはんを食べます。",
+     "en": "Then I take a shower and have breakfast.",
+     "ms": "Lepas tu, saya mandi dan makan sarapan."
+    },
+    {
+     "speaker": "A",
+     "jp": "7時半の電車に乗って、会社に行きます。",
+     "en": "I take the 7:30 train to work.",
+     "ms": "Saya naik kereta api pukul 7:30 ke tempat kerja."
+    },
+    {
+     "speaker": "A",
+     "jp": "電車はとても混んでいるので、ちょっと大変です。",
+     "en": "The train is really crowded, so it's a bit tough.",
+     "ms": "Kereta api sangat sesak, jadi agak susah sikit."
+    },
+    {
+     "speaker": "A",
+     "jp": "夜はたいてい8時ごろ家に帰ります。",
+     "en": "I usually get home around eight in the evening.",
+     "ms": "Biasanya saya sampai rumah lebih kurang pukul lapan malam."
+    },
+    {
+     "speaker": "A",
+     "jp": "週末に友達と料理をするのが楽しみです。",
+     "en": "I look forward to cooking with friends at the weekend.",
+     "ms": "Saya tak sabar nak masak dengan kawan-kawan pada hujung minggu."
+    }
+   ],
+   "question": {
+    "en": "What does she do first after getting up?",
+    "ms": "Apa yang dia buat dahulu selepas bangun?",
+    "options": [
+     {
+      "en": "Takes a shower",
+      "ms": "Mandi"
+     },
+     {
+      "en": "Prays",
+      "ms": "Solat"
+     },
+     {
+      "en": "Eats breakfast",
+      "ms": "Makan sarapan"
+     }
+    ],
+    "answer": 1
+   }
+  },
+  {
+   "slug": "home-family-1",
+   "topic": "home-family",
+   "level": 1,
+   "title": "Brothers and sisters",
+   "setting": "A coworker asks about your family.",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "兄弟はいますか？",
+     "en": "Do you have any brothers or sisters?",
+     "ms": "Awak ada adik-beradik?"
+    },
+    {
+     "speaker": "B",
+     "jp": "妹が一人います。",
+     "en": "I have one younger sister.",
+     "ms": "Saya ada seorang adik perempuan."
+    },
+    {
+     "speaker": "A",
+     "jp": "おいくつですか？",
+     "en": "How old is she?",
+     "ms": "Umur berapa?"
+    },
+    {
+     "speaker": "B",
+     "jp": "十八歳です。",
+     "en": "She's eighteen.",
+     "ms": "Lapan belas tahun."
+    }
+   ],
+   "question": {
+    "en": "Who is in her family?",
+    "ms": "Siapa ahli keluarganya?",
+    "options": [
+     {
+      "en": "An older brother aged eighteen",
+      "ms": "Abang berumur lapan belas tahun"
+     },
+     {
+      "en": "A younger sister aged eight",
+      "ms": "Adik perempuan berumur lapan tahun"
+     },
+     {
+      "en": "A younger sister aged eighteen",
+      "ms": "Adik perempuan berumur lapan belas tahun"
+     }
+    ],
+    "answer": 2
+   }
+  },
+  {
+   "slug": "home-family-2",
+   "topic": "home-family",
+   "level": 2,
+   "title": "Where do you live?",
+   "setting": "A coworker asks about your home.",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "どこに住んでいますか？",
+     "en": "Where do you live?",
+     "ms": "Awak tinggal di mana?"
+    },
+    {
+     "speaker": "B",
+     "jp": "川口です。駅から歩いて十分です。",
+     "en": "In Kawaguchi. It's a ten-minute walk from the station.",
+     "ms": "Di Kawaguchi. Sepuluh minit jalan kaki dari stesen.",
+     "reading": "[川口|かわぐち]です。[駅|えき]から[歩|ある]いて[十分|じゅっぷん]です。"
+    },
+    {
+     "speaker": "A",
+     "jp": "一人ですか？",
+     "en": "Do you live alone?",
+     "ms": "Tinggal seorang ke?"
+    },
+    {
+     "speaker": "B",
+     "jp": "いいえ、妻と子どもが二人います。",
+     "en": "No, I have my wife and two children.",
+     "ms": "Tak, saya tinggal dengan isteri dan dua orang anak."
+    },
+    {
+     "speaker": "A",
+     "jp": "お子さんは何歳ですか？",
+     "en": "How old are your children?",
+     "ms": "Anak-anak umur berapa?"
+    },
+    {
+     "speaker": "B",
+     "jp": "五歳と三歳です。",
+     "en": "Five and three.",
+     "ms": "Lima tahun dan tiga tahun."
+    }
+   ],
+   "question": {
+    "en": "Who does he live with?",
+    "ms": "Dia tinggal dengan siapa?",
+    "options": [
+     {
+      "en": "His wife and two children",
+      "ms": "Isteri dan dua orang anak"
+     },
+     {
+      "en": "Nobody, he lives alone",
+      "ms": "Tiada sesiapa, dia tinggal seorang"
+     },
+     {
+      "en": "His parents",
+      "ms": "Ibu bapanya"
+     }
+    ],
+    "answer": 0
+   }
+  },
+  {
+   "slug": "home-family-3",
+   "topic": "home-family",
+   "level": 3,
+   "title": "Mum is coming",
+   "setting": "You tell a Japanese friend about a family visit.",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "来月、母が日本に来ます。",
+     "en": "My mother is coming to Japan next month.",
+     "ms": "Bulan depan mak saya datang Jepun."
+    },
+    {
+     "speaker": "B",
+     "jp": "いいですね！何日ぐらいですか？",
+     "en": "How nice! For about how many days?",
+     "ms": "Bestnya! Berapa hari?"
+    },
+    {
+     "speaker": "A",
+     "jp": "一週間です。母は桜が見たいと言っていました。",
+     "en": "One week. She said she wants to see the cherry blossoms.",
+     "ms": "Seminggu. Mak kata dia nak tengok bunga sakura.",
+     "reading": "[一週間|いっしゅうかん]です。[母|はは]は[桜|さくら]が[見|み]たいと[言|い]っていました。"
+    },
+    {
+     "speaker": "B",
+     "jp": "四月ですから、ちょうどいいですね。",
+     "en": "It's April, so the timing is perfect.",
+     "ms": "Bulan April, jadi memang tepat masanya."
+    },
+    {
+     "speaker": "A",
+     "jp": "でも、母は寒いのが苦手なので、少し心配です。",
+     "en": "But she doesn't do well with cold, so I'm a little worried.",
+     "ms": "Tapi mak tak tahan sejuk, jadi saya risau sikit."
+    },
+    {
+     "speaker": "B",
+     "jp": "暖かい服を持ってきてもらってください。",
+     "en": "Ask her to bring warm clothes.",
+     "ms": "Suruhlah dia bawa baju tebal."
+    }
+   ],
+   "question": {
+    "en": "What is she worried about?",
+    "ms": "Apa yang dia risaukan?",
+    "options": [
+     {
+      "en": "The flight being long",
+      "ms": "Penerbangan yang lama"
+     },
+     {
+      "en": "Her mother finding it cold",
+      "ms": "Maknya akan rasa sejuk"
+     },
+     {
+      "en": "Finding food her mother likes",
+      "ms": "Cari makanan yang maknya suka"
+     }
+    ],
+    "answer": 1
+   }
+  },
+  {
+   "slug": "konbini-1",
+   "topic": "konbini",
+   "level": 1,
+   "title": "Paying for a bento",
+   "setting": "You're buying a bento at a convenience store.",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "いらっしゃいませ。",
+     "en": "Welcome.",
+     "ms": "Selamat datang."
+    },
+    {
+     "speaker": "B",
+     "jp": "これ、お願いします。",
+     "en": "This, please.",
+     "ms": "Yang ini, ya."
+    },
+    {
+     "speaker": "A",
+     "jp": "温めますか？",
+     "en": "Shall I heat it up?",
+     "ms": "Nak panaskan?"
+    },
+    {
+     "speaker": "B",
+     "jp": "はい、お願いします。",
+     "en": "Yes, please.",
+     "ms": "Ya, tolong."
+    }
+   ],
+   "question": {
+    "en": "What does the clerk offer to do?",
+    "ms": "Apa yang juruwang tawarkan?",
+    "options": [
+     {
+      "en": "Give a bag",
+      "ms": "Beri beg plastik"
+     },
+     {
+      "en": "Add chopsticks",
+      "ms": "Beri penyepit"
+     },
+     {
+      "en": "Heat up the bento",
+      "ms": "Panaskan bento"
+     }
+    ],
+    "answer": 2
+   }
+  },
+  {
+   "slug": "konbini-2",
+   "topic": "konbini",
+   "level": 2,
+   "title": "Bag and chopsticks",
+   "setting": "You're paying for lunch at a convenience store.",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "袋はご利用ですか？",
+     "en": "Would you like a bag?",
+     "ms": "Nak guna beg plastik?"
+    },
+    {
+     "speaker": "B",
+     "jp": "はい、お願いします。",
+     "en": "Yes, please.",
+     "ms": "Ya, tolong."
+    },
+    {
+     "speaker": "A",
+     "jp": "お箸はおつけしますか？",
+     "en": "Shall I put in chopsticks?",
+     "ms": "Nak saya letak penyepit?"
+    },
+    {
+     "speaker": "B",
+     "jp": "一つください。",
+     "en": "One pair, please.",
+     "ms": "Satu pasang, ya."
+    },
+    {
+     "speaker": "A",
+     "jp": "合計で558円です。",
+     "en": "That's 558 yen in total.",
+     "ms": "Semuanya 558 yen."
+    },
+    {
+     "speaker": "B",
+     "jp": "カードでお願いします。",
+     "en": "By card, please.",
+     "ms": "Saya bayar guna kad."
+    }
+   ],
+   "question": {
+    "en": "How much is the total?",
+    "ms": "Berapa jumlah semuanya?",
+    "options": [
+     {
+      "en": "558 yen",
+      "ms": "558 yen"
+     },
+     {
+      "en": "358 yen",
+      "ms": "358 yen"
+     },
+     {
+      "en": "585 yen",
+      "ms": "585 yen"
+     }
+    ],
+    "answer": 0
+   }
+  },
+  {
+   "slug": "konbini-3",
+   "topic": "konbini",
+   "level": 3,
+   "title": "Sold out",
+   "setting": "You ask about steamed buns at the convenience store counter.",
+   "lines": [
+    {
+     "speaker": "B",
+     "jp": "すみません、肉まんはありますか？",
+     "en": "Excuse me, do you have steamed meat buns?",
+     "ms": "Maaf, ada pau daging?"
+    },
+    {
+     "speaker": "A",
+     "jp": "申し訳ございません。さっき売り切れてしまいました。",
+     "en": "I'm very sorry. They just sold out.",
+     "ms": "Minta maaf. Baru tadi habis dijual."
+    },
+    {
+     "speaker": "B",
+     "jp": "そうですか。次はいつできますか？",
+     "en": "I see. When will the next ones be ready?",
+     "ms": "Oh ya ke. Bila yang baru siap?"
+    },
+    {
+     "speaker": "A",
+     "jp": "十分ぐらいでできますので、少々お待ちください。",
+     "en": "They'll be ready in about ten minutes, so please wait a moment.",
+     "ms": "Lebih kurang sepuluh minit lagi siap, jadi tunggu sekejap ya.",
+     "reading": "[十分|じゅっぷん]ぐらいでできますので、[少々|しょうしょう]お[待|ま]ちください。"
+    },
+    {
+     "speaker": "B",
+     "jp": "じゃあ、先にこのお茶を買います。",
+     "en": "Then I'll buy this tea first.",
+     "ms": "Kalau macam tu, saya beli teh ni dulu."
+    },
+    {
+     "speaker": "A",
+     "jp": "ありがとうございます。150円でございます。",
+     "en": "Thank you. That will be 150 yen.",
+     "ms": "Terima kasih. Semuanya 150 yen."
+    }
+   ],
+   "question": {
+    "en": "When will the meat buns be ready?",
+    "ms": "Bila pau daging akan siap?",
+    "options": [
+     {
+      "en": "Tomorrow morning",
+      "ms": "Esok pagi"
+     },
+     {
+      "en": "In about ten minutes",
+      "ms": "Dalam sepuluh minit"
+     },
+     {
+      "en": "In about an hour",
+      "ms": "Dalam sejam"
+     }
+    ],
+    "answer": 1
+   }
+  },
+  {
+   "slug": "konbini-4",
+   "topic": "konbini",
+   "level": 4,
+   "title": "Sending a parcel",
+   "setting": "You're sending a parcel to Osaka from a convenience store.",
+   "lines": [
+    {
+     "speaker": "B",
+     "jp": "すみません、この荷物を送りたいんですが。",
+     "en": "Excuse me, I'd like to send this parcel.",
+     "ms": "Maaf, saya nak hantar bungkusan ni."
+    },
+    {
+     "speaker": "A",
+     "jp": "はい、こちらの伝票にご記入をお願いします。",
+     "en": "Certainly. Please fill in this form.",
+     "ms": "Baik, sila isi borang ini."
+    },
+    {
+     "speaker": "B",
+     "jp": "書きました。明日までに着きますか？",
+     "en": "I've filled it in. Will it arrive by tomorrow?",
+     "ms": "Dah isi. Boleh sampai esok?"
+    },
+    {
+     "speaker": "A",
+     "jp": "大阪ですね。明日の午後には届くと思います。",
+     "en": "Osaka, I see. I think it will arrive tomorrow afternoon.",
+     "ms": "Osaka ya. Rasanya esok petang sampai."
+    },
+    {
+     "speaker": "B",
+     "jp": "午前中は無理ですか？",
+     "en": "Is the morning not possible?",
+     "ms": "Pagi tak boleh ke?"
+    },
+    {
+     "speaker": "A",
+     "jp": "申し訳ございません、今からですと午前中は難しいです。",
+     "en": "I'm sorry, if you send it now, the morning is difficult.",
+     "ms": "Minta maaf, kalau hantar sekarang, pagi memang susah."
+    },
+    {
+     "speaker": "B",
+     "jp": "わかりました。じゃあ、午後でお願いします。",
+     "en": "I see. Then the afternoon is fine.",
+     "ms": "Baiklah. Kalau macam tu, petang pun tak apa."
+    },
+    {
+     "speaker": "A",
+     "jp": "かしこまりました。料金は1200円になります。",
+     "en": "Certainly. The charge is 1,200 yen.",
+     "ms": "Baik. Bayarannya 1,200 yen."
+    }
+   ],
+   "question": {
+    "en": "When will the parcel arrive?",
+    "ms": "Bila bungkusan itu akan sampai?",
+    "options": [
+     {
+      "en": "Tomorrow morning",
+      "ms": "Esok pagi"
+     },
+     {
+      "en": "This evening",
+      "ms": "Petang ini"
+     },
+     {
+      "en": "Tomorrow afternoon",
+      "ms": "Esok petang"
+     }
+    ],
+    "answer": 2
+   }
+  },
+  {
+   "slug": "restaurant-1",
+   "topic": "restaurant",
+   "level": 1,
+   "title": "A table for two",
+   "setting": "You walk into a small restaurant with a friend.",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "何名様ですか？",
+     "en": "How many people?",
+     "ms": "Berapa orang?"
+    },
+    {
+     "speaker": "B",
+     "jp": "二人です。",
+     "en": "Two.",
+     "ms": "Dua orang."
+    },
+    {
+     "speaker": "A",
+     "jp": "こちらへどうぞ。",
+     "en": "This way, please.",
+     "ms": "Sila ke sini."
+    },
+    {
+     "speaker": "B",
+     "jp": "ありがとうございます。",
+     "en": "Thank you.",
+     "ms": "Terima kasih."
+    }
+   ],
+   "question": {
+    "en": "How many people are eating?",
+    "ms": "Berapa orang yang akan makan?",
+    "options": [
+     {
+      "en": "Two",
+      "ms": "Dua"
+     },
+     {
+      "en": "One",
+      "ms": "Satu"
+     },
+     {
+      "en": "Three",
+      "ms": "Tiga"
+     }
+    ],
+    "answer": 0
+   }
+  },
+  {
+   "slug": "restaurant-2",
+   "topic": "restaurant",
+   "level": 2,
+   "title": "Ordering a set meal",
+   "setting": "You're ordering at a Japanese set-meal restaurant.",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "ご注文はお決まりですか？",
+     "en": "Are you ready to order?",
+     "ms": "Dah sedia nak pesan?"
+    },
+    {
+     "speaker": "B",
+     "jp": "この魚の定食を一つください。",
+     "en": "One of this fish set meal, please.",
+     "ms": "Saya nak satu set ikan ni."
+    },
+    {
+     "speaker": "A",
+     "jp": "ご飯は大盛りにしますか？",
+     "en": "Would you like a large serving of rice?",
+     "ms": "Nak nasi tambah banyak?"
+    },
+    {
+     "speaker": "B",
+     "jp": "いいえ、普通でお願いします。",
+     "en": "No, a regular one, please.",
+     "ms": "Tak apa, biasa saja."
+    },
+    {
+     "speaker": "A",
+     "jp": "お飲み物はいかがですか？",
+     "en": "Would you like something to drink?",
+     "ms": "Nak minum apa-apa?"
+    },
+    {
+     "speaker": "B",
+     "jp": "お茶をお願いします。",
+     "en": "Tea, please.",
+     "ms": "Teh, ya."
+    }
+   ],
+   "question": {
+    "en": "What did he order?",
+    "ms": "Apa yang dia pesan?",
+    "options": [
+     {
+      "en": "Fish set with a large rice, and water",
+      "ms": "Set ikan dengan nasi banyak, dan air kosong"
+     },
+     {
+      "en": "Fish set with regular rice, and tea",
+      "ms": "Set ikan dengan nasi biasa, dan teh"
+     },
+     {
+      "en": "Chicken set with regular rice, and tea",
+      "ms": "Set ayam dengan nasi biasa, dan teh"
+     }
+    ],
+    "answer": 1
+   }
+  },
+  {
+   "slug": "restaurant-3",
+   "topic": "restaurant",
+   "level": 3,
+   "title": "Is there pork in it?",
+   "setting": "You're checking the ingredients before ordering curry.",
+   "lines": [
+    {
+     "speaker": "B",
+     "jp": "すみません、これは豚肉が入っていますか？",
+     "en": "Excuse me, does this have pork in it?",
+     "ms": "Maaf, yang ni ada daging babi tak?"
+    },
+    {
+     "speaker": "A",
+     "jp": "はい、このカレーには豚肉が入っています。",
+     "en": "Yes, this curry has pork in it.",
+     "ms": "Ya, kari ini ada daging babi."
+    },
+    {
+     "speaker": "B",
+     "jp": "豚肉が食べられないので、ほかのはありますか？",
+     "en": "I can't eat pork, so do you have anything else?",
+     "ms": "Saya tak boleh makan babi, ada yang lain?"
+    },
+    {
+     "speaker": "A",
+     "jp": "こちらの野菜カレーは肉を使っていません。",
+     "en": "This vegetable curry doesn't use any meat.",
+     "ms": "Kari sayur ini tak guna daging langsung."
+    },
+    {
+     "speaker": "B",
+     "jp": "お酒やみりんは使っていますか？",
+     "en": "Do you use alcohol or mirin in it?",
+     "ms": "Ada guna arak atau mirin?"
+    },
+    {
+     "speaker": "A",
+     "jp": "確認してまいりますので、少々お待ちください。",
+     "en": "I'll go and check, so please wait a moment.",
+     "ms": "Saya pergi tanya dulu, tunggu sekejap ya."
+    }
+   ],
+   "question": {
+    "en": "What does the staff member do at the end?",
+    "ms": "Apa yang pekerja itu buat pada akhirnya?",
+    "options": [
+     {
+      "en": "Brings the pork curry",
+      "ms": "Bawa kari babi"
+     },
+     {
+      "en": "Says there is no alcohol",
+      "ms": "Kata tiada arak"
+     },
+     {
+      "en": "Goes to check the ingredients",
+      "ms": "Pergi semak bahan-bahannya"
+     }
+    ],
+    "answer": 2
+   }
+  },
+  {
+   "slug": "restaurant-4",
+   "topic": "restaurant",
+   "level": 4,
+   "title": "Booking by phone",
+   "setting": "You're phoning a restaurant to book dinner for a group.",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "お電話ありがとうございます。さくら食堂でございます。",
+     "en": "Thank you for calling. This is Sakura Shokudo.",
+     "ms": "Terima kasih kerana menelefon. Ini Sakura Shokudo."
+    },
+    {
+     "speaker": "B",
+     "jp": "すみません、土曜日の夜に予約をしたいんですが。",
+     "en": "Hello, I'd like to make a booking for Saturday evening.",
+     "ms": "Hai, saya nak buat tempahan untuk malam Sabtu."
+    },
+    {
+     "speaker": "A",
+     "jp": "ありがとうございます。何名様でしょうか？",
+     "en": "Thank you. For how many people?",
+     "ms": "Terima kasih. Untuk berapa orang?"
+    },
+    {
+     "speaker": "B",
+     "jp": "六人です。7時からお願いできますか？",
+     "en": "Six. Could we come at seven?",
+     "ms": "Enam orang. Boleh pukul tujuh?"
+    },
+    {
+     "speaker": "A",
+     "jp": "申し訳ございません、7時は満席でございます。",
+     "en": "I'm very sorry, we're fully booked at seven.",
+     "ms": "Minta maaf, pukul tujuh dah penuh."
+    },
+    {
+     "speaker": "B",
+     "jp": "そうですか。何時なら大丈夫ですか？",
+     "en": "I see. What time would be OK?",
+     "ms": "Oh ya ke. Pukul berapa yang boleh?"
+    },
+    {
+     "speaker": "A",
+     "jp": "8時半でしたら、ご用意できます。",
+     "en": "We can have a table ready at 8:30.",
+     "ms": "Kalau pukul 8:30, kami boleh sediakan."
+    },
+    {
+     "speaker": "B",
+     "jp": "じゃあ、8時半でお願いします。名前はアミンです。",
+     "en": "Then 8:30, please. The name is Amin.",
+     "ms": "Kalau macam tu, pukul 8:30. Nama saya Amin."
+    },
+    {
+     "speaker": "A",
+     "jp": "土曜日の8時半、六名様ですね。お待ちしております。",
+     "en": "Saturday at 8:30 for six. We look forward to seeing you.",
+     "ms": "Sabtu pukul 8:30, enam orang. Kami menantikan kedatangan anda.",
+     "reading": "[土曜日|どようび]の8[時半|じはん]、[六名様|ろくめいさま]ですね。お[待|ま]ちしております。"
+    }
+   ],
+   "question": {
+    "en": "What time is the booking for?",
+    "ms": "Tempahan itu pukul berapa?",
+    "options": [
+     {
+      "en": "8:30",
+      "ms": "Pukul 8:30"
+     },
+     {
+      "en": "7:00",
+      "ms": "Pukul 7:00"
+     },
+     {
+      "en": "6:00",
+      "ms": "Pukul 6:00"
+     }
+    ],
+    "answer": 0
+   }
+  },
+  {
+   "slug": "shopping-1",
+   "topic": "shopping",
+   "level": 1,
+   "title": "How much is this?",
+   "setting": "You're looking at a small cup at a market stall.",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "これ、いくらですか？",
+     "en": "How much is this?",
+     "ms": "Ini berapa?"
+    },
+    {
+     "speaker": "B",
+     "jp": "500円です。",
+     "en": "It's 500 yen.",
+     "ms": "500 yen."
+    },
+    {
+     "speaker": "A",
+     "jp": "じゃあ、これください。",
+     "en": "Then I'll take this.",
+     "ms": "Kalau macam tu, saya ambil yang ni."
+    },
+    {
+     "speaker": "B",
+     "jp": "ありがとうございます。",
+     "en": "Thank you.",
+     "ms": "Terima kasih."
+    }
+   ],
+   "question": {
+    "en": "How much is the cup?",
+    "ms": "Berapa harga cawan itu?",
+    "options": [
+     {
+      "en": "50 yen",
+      "ms": "50 yen"
+     },
+     {
+      "en": "500 yen",
+      "ms": "500 yen"
+     },
+     {
+      "en": "5,000 yen",
+      "ms": "5,000 yen"
+     }
+    ],
+    "answer": 1
+   }
+  },
+  {
+   "slug": "shopping-2",
+   "topic": "shopping",
+   "level": 2,
+   "title": "A bigger size",
+   "setting": "You're trying on a shirt in a clothes shop.",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "大きいサイズはありますか？",
+     "en": "Do you have a bigger size?",
+     "ms": "Ada saiz besar?"
+    },
+    {
+     "speaker": "B",
+     "jp": "はい、こちらです。",
+     "en": "Yes, here you are.",
+     "ms": "Ada, ini dia."
+    },
+    {
+     "speaker": "A",
+     "jp": "試着してもいいですか？",
+     "en": "May I try it on?",
+     "ms": "Boleh saya cuba?"
+    },
+    {
+     "speaker": "B",
+     "jp": "どうぞ。試着室はあちらです。",
+     "en": "Go ahead. The fitting room is over there.",
+     "ms": "Silakan. Bilik persalinan di sana."
+    },
+    {
+     "speaker": "A",
+     "jp": "ちょうどいいです。これをください。",
+     "en": "It fits just right. I'll take it.",
+     "ms": "Muat-muat. Saya ambil yang ni."
+    },
+    {
+     "speaker": "B",
+     "jp": "3980円です。",
+     "en": "That's 3,980 yen.",
+     "ms": "3,980 yen."
+    }
+   ],
+   "question": {
+    "en": "What did the customer ask for first?",
+    "ms": "Apa yang pelanggan minta pada mulanya?",
+    "options": [
+     {
+      "en": "A different colour",
+      "ms": "Warna lain"
+     },
+     {
+      "en": "A cheaper shirt",
+      "ms": "Baju yang lebih murah"
+     },
+     {
+      "en": "A bigger size",
+      "ms": "Saiz yang lebih besar"
+     }
+    ],
+    "answer": 2
+   }
+  },
+  {
+   "slug": "shopping-3",
+   "topic": "shopping",
+   "level": 3,
+   "title": "Gifts for home",
+   "setting": "You're buying souvenirs to take back to Malaysia.",
+   "lines": [
+    {
+     "speaker": "B",
+     "jp": "何かお探しですか？",
+     "en": "Are you looking for something?",
+     "ms": "Cari apa-apa ke?"
+    },
+    {
+     "speaker": "A",
+     "jp": "マレーシアの家族にお土産を買いたいんです。",
+     "en": "I want to buy gifts for my family in Malaysia.",
+     "ms": "Saya nak beli buah tangan untuk keluarga di Malaysia."
+    },
+    {
+     "speaker": "B",
+     "jp": "それでしたら、このお菓子が人気ですよ。",
+     "en": "In that case, these sweets are popular.",
+     "ms": "Kalau begitu, manisan ni popular."
+    },
+    {
+     "speaker": "A",
+     "jp": "中にお酒は入っていますか？",
+     "en": "Is there any alcohol in them?",
+     "ms": "Ada arak dalamnya?"
+    },
+    {
+     "speaker": "B",
+     "jp": "いいえ、入っていません。抹茶とチョコレートです。",
+     "en": "No, there isn't. It's matcha and chocolate.",
+     "ms": "Tak ada. Ini matcha dengan coklat."
+    },
+    {
+     "speaker": "A",
+     "jp": "じゃあ、これを五つください。",
+     "en": "Then I'll take five of these.",
+     "ms": "Kalau macam tu, saya nak lima."
+    },
+    {
+     "speaker": "B",
+     "jp": "パスポートがあれば、免税になりますよ。",
+     "en": "If you have your passport, it can be tax-free.",
+     "ms": "Kalau ada pasport, boleh dapat bebas cukai."
+    },
+    {
+     "speaker": "A",
+     "jp": "あ、持ってきました。どうぞ。",
+     "en": "Oh, I brought it. Here you are.",
+     "ms": "Oh, saya ada bawa. Ini dia."
+    }
+   ],
+   "question": {
+    "en": "What does she check before buying the sweets?",
+    "ms": "Apa yang dia tanya sebelum membeli manisan itu?",
+    "options": [
+     {
+      "en": "Whether they contain alcohol",
+      "ms": "Sama ada ada arak di dalamnya"
+     },
+     {
+      "en": "Whether they are too sweet",
+      "ms": "Sama ada terlalu manis"
+     },
+     {
+      "en": "Whether they keep for a long time",
+      "ms": "Sama ada tahan lama"
+     }
+    ],
+    "answer": 0
+   }
+  },
+  {
+   "slug": "getting-around-1",
+   "topic": "getting-around",
+   "level": 1,
+   "title": "Where is the station?",
+   "setting": "You're lost on a street and stop a passer-by.",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "すみません、駅はどこですか？",
+     "en": "Excuse me, where is the station?",
+     "ms": "Maaf, stesen di mana?"
+    },
+    {
+     "speaker": "B",
+     "jp": "あそこです。",
+     "en": "It's over there.",
+     "ms": "Di sana."
+    },
+    {
+     "speaker": "A",
+     "jp": "ありがとうございます。",
+     "en": "Thank you.",
+     "ms": "Terima kasih."
+    },
+    {
+     "speaker": "B",
+     "jp": "いいえ。",
+     "en": "Not at all.",
+     "ms": "Sama-sama."
+    }
+   ],
+   "question": {
+    "en": "What is she looking for?",
+    "ms": "Apa yang dia cari?",
+    "options": [
+     {
+      "en": "A toilet",
+      "ms": "Tandas"
+     },
+     {
+      "en": "A bus stop",
+      "ms": "Perhentian bas"
+     },
+     {
+      "en": "The station",
+      "ms": "Stesen"
+     }
+    ],
+    "answer": 2
+   }
+  },
+  {
+   "slug": "getting-around-2",
+   "topic": "getting-around",
+   "level": 2,
+   "title": "A ticket to Shinjuku",
+   "setting": "You're asking a station attendant about the train.",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "すみません、新宿までいくらですか？",
+     "en": "Excuse me, how much is it to Shinjuku?",
+     "ms": "Maaf, ke Shinjuku berapa?"
+    },
+    {
+     "speaker": "B",
+     "jp": "210円です。",
+     "en": "It's 210 yen.",
+     "ms": "210 yen."
+    },
+    {
+     "speaker": "A",
+     "jp": "何番線ですか？",
+     "en": "Which platform is it?",
+     "ms": "Platform berapa?"
+    },
+    {
+     "speaker": "B",
+     "jp": "三番線です。",
+     "en": "Platform three.",
+     "ms": "Platform tiga."
+    },
+    {
+     "speaker": "A",
+     "jp": "何分ぐらいかかりますか？",
+     "en": "About how many minutes does it take?",
+     "ms": "Lebih kurang berapa minit?"
+    },
+    {
+     "speaker": "B",
+     "jp": "十五分ぐらいです。",
+     "en": "About fifteen minutes.",
+     "ms": "Lebih kurang lima belas minit."
+    }
+   ],
+   "question": {
+    "en": "Which platform does the train leave from?",
+    "ms": "Kereta api bertolak dari platform berapa?",
+    "options": [
+     {
+      "en": "Platform two",
+      "ms": "Platform dua"
+     },
+     {
+      "en": "Platform three",
+      "ms": "Platform tiga"
+     },
+     {
+      "en": "Platform five",
+      "ms": "Platform lima"
+     }
+    ],
+    "answer": 1
+   }
+  },
+  {
+   "slug": "getting-around-3",
+   "topic": "getting-around",
+   "level": 3,
+   "title": "To the city office",
+   "setting": "You need to register your address and ask for directions.",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "すみません、市役所に行きたいんですが。",
+     "en": "Excuse me, I'd like to go to the city office.",
+     "ms": "Maaf, saya nak pergi pejabat majlis bandaraya."
+    },
+    {
+     "speaker": "B",
+     "jp": "この道をまっすぐ行ってください。",
+     "en": "Go straight along this road.",
+     "ms": "Jalan terus ikut jalan ni."
+    },
+    {
+     "speaker": "A",
+     "jp": "はい、まっすぐですね。",
+     "en": "OK, straight on.",
+     "ms": "Baik, jalan terus ya."
+    },
+    {
+     "speaker": "B",
+     "jp": "二つ目の信号を右に曲がると、左にあります。",
+     "en": "Turn right at the second traffic light and it's on the left.",
+     "ms": "Belok kanan di lampu isyarat kedua, nanti ada di sebelah kiri."
+    },
+    {
+     "speaker": "A",
+     "jp": "歩いて何分ぐらいですか？",
+     "en": "About how many minutes on foot?",
+     "ms": "Jalan kaki berapa minit?"
+    },
+    {
+     "speaker": "B",
+     "jp": "五分ぐらいですよ。",
+     "en": "About five minutes.",
+     "ms": "Lebih kurang lima minit."
+    },
+    {
+     "speaker": "A",
+     "jp": "助かりました。ありがとうございます。",
+     "en": "That's a big help. Thank you.",
+     "ms": "Banyak membantu. Terima kasih."
+    }
+   ],
+   "question": {
+    "en": "Where should she turn?",
+    "ms": "Di mana dia patut membelok?",
+    "options": [
+     {
+      "en": "Right at the second traffic light",
+      "ms": "Kanan di lampu isyarat kedua"
+     },
+     {
+      "en": "Left at the first traffic light",
+      "ms": "Kiri di lampu isyarat pertama"
+     },
+     {
+      "en": "Right at the station",
+      "ms": "Kanan di stesen"
+     }
+    ],
+    "answer": 0
+   }
+  },
+  {
+   "slug": "getting-around-4",
+   "topic": "getting-around",
+   "level": 4,
+   "title": "Platform announcement",
+   "setting": "You're waiting on a station platform when an announcement starts.",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "ご案内いたします。",
+     "en": "Attention, please.",
+     "ms": "Perhatian."
+    },
+    {
+     "speaker": "A",
+     "jp": "ただいま、信号の故障のため、電車が二十分ほど遅れております。",
+     "en": "Due to a signal failure, trains are currently running about twenty minutes late.",
+     "ms": "Disebabkan kerosakan isyarat, kereta api kini lewat lebih kurang dua puluh minit."
+    },
+    {
+     "speaker": "A",
+     "jp": "まもなく、2番線に東京行きの電車が参ります。",
+     "en": "A train for Tokyo will soon arrive at platform 2.",
+     "ms": "Kereta api ke Tokyo akan tiba di platform 2 sebentar lagi."
+    },
+    {
+     "speaker": "A",
+     "jp": "危ないですから、黄色い線の内側までお下がりください。",
+     "en": "For your safety, please stand behind the yellow line.",
+     "ms": "Untuk keselamatan, sila berdiri di belakang garisan kuning."
+    },
+    {
+     "speaker": "A",
+     "jp": "電車が大変混み合っております。",
+     "en": "The trains are very crowded.",
+     "ms": "Kereta api sangat sesak."
+    },
+    {
+     "speaker": "A",
+     "jp": "お急ぎのところ、ご迷惑をおかけして申し訳ございません。",
+     "en": "We apologise for the inconvenience to passengers in a hurry.",
+     "ms": "Kami memohon maaf atas kesulitan kepada penumpang yang tergesa-gesa."
+    }
+   ],
+   "question": {
+    "en": "About how late are the trains?",
+    "ms": "Kereta api lewat lebih kurang berapa lama?",
+    "options": [
+     {
+      "en": "Ten minutes",
+      "ms": "Sepuluh minit"
+     },
+     {
+      "en": "Twenty minutes",
+      "ms": "Dua puluh minit"
+     },
+     {
+      "en": "An hour",
+      "ms": "Sejam"
+     }
+    ],
+    "answer": 1
+   }
+  },
+  {
+   "slug": "travel-hotel-1",
+   "topic": "travel-hotel",
+   "level": 1,
+   "title": "Checking in",
+   "setting": "You've just arrived at your hotel front desk.",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "いらっしゃいませ。",
+     "en": "Welcome.",
+     "ms": "Selamat datang."
+    },
+    {
+     "speaker": "B",
+     "jp": "チェックインお願いします。",
+     "en": "I'd like to check in, please.",
+     "ms": "Saya nak daftar masuk."
+    },
+    {
+     "speaker": "A",
+     "jp": "お名前をお願いします。",
+     "en": "Your name, please.",
+     "ms": "Boleh saya tahu nama?"
+    },
+    {
+     "speaker": "B",
+     "jp": "アミン・ハリスです。",
+     "en": "It's Amin Haris.",
+     "ms": "Amin Haris."
+    }
+   ],
+   "question": {
+    "en": "What does the guest want to do?",
+    "ms": "Apa yang tetamu itu mahu buat?",
+    "options": [
+     {
+      "en": "Check out",
+      "ms": "Daftar keluar"
+     },
+     {
+      "en": "Leave his luggage",
+      "ms": "Tinggalkan bagasi"
+     },
+     {
+      "en": "Check in",
+      "ms": "Daftar masuk"
+     }
+    ],
+    "answer": 2
+   }
+  },
+  {
+   "slug": "travel-hotel-2",
+   "topic": "travel-hotel",
+   "level": 2,
+   "title": "Breakfast time",
+   "setting": "You're asking the front desk about breakfast.",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "朝ごはんは何時からですか？",
+     "en": "What time does breakfast start?",
+     "ms": "Sarapan mula pukul berapa?"
+    },
+    {
+     "speaker": "B",
+     "jp": "6時半から9時までです。",
+     "en": "From 6:30 until nine.",
+     "ms": "Dari pukul 6:30 sampai pukul sembilan."
+    },
+    {
+     "speaker": "A",
+     "jp": "場所はどこですか？",
+     "en": "Where is it?",
+     "ms": "Di mana tempatnya?"
+    },
+    {
+     "speaker": "B",
+     "jp": "二階のレストランです。",
+     "en": "In the restaurant on the second floor.",
+     "ms": "Di restoran tingkat dua."
+    },
+    {
+     "speaker": "A",
+     "jp": "チェックアウトは何時ですか？",
+     "en": "What time is check-out?",
+     "ms": "Daftar keluar pukul berapa?"
+    },
+    {
+     "speaker": "B",
+     "jp": "11時です。",
+     "en": "Eleven o’clock.",
+     "ms": "Pukul sebelas."
+    }
+   ],
+   "question": {
+    "en": "Where is breakfast served?",
+    "ms": "Di mana sarapan dihidangkan?",
+    "options": [
+     {
+      "en": "In the second-floor restaurant",
+      "ms": "Di restoran tingkat dua"
+     },
+     {
+      "en": "In the lobby on the first floor",
+      "ms": "Di lobi tingkat satu"
+     },
+     {
+      "en": "In your room",
+      "ms": "Di dalam bilik"
+     }
+    ],
+    "answer": 0
+   }
+  },
+  {
+   "slug": "travel-hotel-3",
+   "topic": "travel-hotel",
+   "level": 3,
+   "title": "Air-con trouble",
+   "setting": "You call the front desk from your hotel room.",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "すみません、部屋のエアコンがつかないんですが。",
+     "en": "Excuse me, the air conditioner in my room won't turn on.",
+     "ms": "Maaf, penghawa dingin bilik saya tak boleh hidup."
+    },
+    {
+     "speaker": "B",
+     "jp": "申し訳ございません。すぐに係の者が参ります。",
+     "en": "I'm very sorry. Someone will come right away.",
+     "ms": "Minta maaf. Petugas kami akan datang segera."
+    },
+    {
+     "speaker": "A",
+     "jp": "お願いします。それから、明日荷物を預けてもいいですか？",
+     "en": "Thanks. Also, can I leave my luggage tomorrow?",
+     "ms": "Terima kasih. Lagi satu, esok boleh saya tinggalkan bagasi?",
+     "reading": "お[願|ねが]いします。それから、[明日|あした][荷物|にもつ]を[預|あず]けてもいいですか？"
+    },
+    {
+     "speaker": "B",
+     "jp": "はい、チェックアウトのあと、フロントでお預かりします。",
+     "en": "Yes, we'll keep it at the front desk after you check out.",
+     "ms": "Boleh, selepas daftar keluar kami simpan di kaunter depan."
+    },
+    {
+     "speaker": "A",
+     "jp": "何時まで大丈夫ですか？",
+     "en": "Until what time is that OK?",
+     "ms": "Boleh sampai pukul berapa?",
+     "reading": "[何時|なんじ]まで[大丈夫|だいじょうぶ]ですか？"
+    },
+    {
+     "speaker": "B",
+     "jp": "夜の8時までお預かりできます。",
+     "en": "We can keep it until eight in the evening.",
+     "ms": "Kami boleh simpan sampai pukul lapan malam."
+    }
+   ],
+   "question": {
+    "en": "What is wrong in the room?",
+    "ms": "Apa masalah di dalam bilik?",
+    "options": [
+     {
+      "en": "The TV is broken",
+      "ms": "TV rosak"
+     },
+     {
+      "en": "The air conditioner won’t turn on",
+      "ms": "Penghawa dingin tak boleh hidup"
+     },
+     {
+      "en": "There is no hot water",
+      "ms": "Tiada air panas"
+     }
+    ],
+    "answer": 1
+   }
+  },
+  {
+   "slug": "travel-hotel-4",
+   "topic": "travel-hotel",
+   "level": 4,
+   "title": "A place to pray",
+   "setting": "You ask the hotel front desk about a prayer room and halal food.",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "すみません、この近くにお祈りできる場所はありますか？",
+     "en": "Excuse me, is there a place nearby where I can pray?",
+     "ms": "Maaf, ada tempat untuk solat dekat sini?"
+    },
+    {
+     "speaker": "B",
+     "jp": "はい、駅の中に礼拝室がございます。",
+     "en": "Yes, there's a prayer room inside the station.",
+     "ms": "Ada, ada bilik solat di dalam stesen."
+    },
+    {
+     "speaker": "A",
+     "jp": "本当ですか。駅のどのあたりですか？",
+     "en": "Really? Whereabouts in the station?",
+     "ms": "Betul ke? Di bahagian mana stesen?"
+    },
+    {
+     "speaker": "B",
+     "jp": "東口の改札を出て、二階に上がったところでございます。",
+     "en": "Go out through the east exit gates and up to the second floor.",
+     "ms": "Keluar ikut pintu tiket timur, kemudian naik ke tingkat dua."
+    },
+    {
+     "speaker": "A",
+     "jp": "ありがとうございます。ハラールのレストランも知っていますか？",
+     "en": "Thank you. Do you also know any halal restaurants?",
+     "ms": "Terima kasih. Tahu tak restoran halal juga?"
+    },
+    {
+     "speaker": "B",
+     "jp": "ええ、ホテルの裏にトルコ料理のお店がございます。",
+     "en": "Yes, there's a Turkish restaurant behind the hotel.",
+     "ms": "Ya, ada restoran Turki di belakang hotel."
+    },
+    {
+     "speaker": "A",
+     "jp": "夜は何時まで開いていますか？",
+     "en": "Until what time is it open at night?",
+     "ms": "Malam buka sampai pukul berapa?",
+     "reading": "[夜|よる]は[何時|なんじ]まで[開|あ]いていますか？"
+    },
+    {
+     "speaker": "B",
+     "jp": "たしか10時までです。地図をお渡ししましょうか？",
+     "en": "Until ten, I believe. Shall I give you a map?",
+     "ms": "Rasanya sampai pukul sepuluh. Nak saya beri peta?"
+    },
+    {
+     "speaker": "A",
+     "jp": "はい、お願いします。助かります。",
+     "en": "Yes, please. That's very helpful.",
+     "ms": "Ya, tolong. Banyak membantu."
+    }
+   ],
+   "question": {
+    "en": "Where is the prayer room?",
+    "ms": "Di mana bilik solat itu?",
+    "options": [
+     {
+      "en": "Behind the hotel",
+      "ms": "Di belakang hotel"
+     },
+     {
+      "en": "On the hotel’s second floor",
+      "ms": "Di tingkat dua hotel"
+     },
+     {
+      "en": "In the station, past the east exit gates",
+      "ms": "Di dalam stesen, selepas pintu tiket timur"
+     }
+    ],
+    "answer": 2
+   }
+  },
+  {
+   "slug": "work-1",
+   "topic": "work",
+   "level": 1,
+   "title": "Leaving for the day",
+   "setting": "It's the end of the day at your office.",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "お先に失礼します。",
+     "en": "I'll be leaving before you.",
+     "ms": "Saya balik dulu, ya."
+    },
+    {
+     "speaker": "B",
+     "jp": "お疲れさまでした。",
+     "en": "Thanks for your hard work today.",
+     "ms": "Terima kasih atas kerja hari ini."
+    },
+    {
+     "speaker": "A",
+     "jp": "また明日。",
+     "en": "See you tomorrow.",
+     "ms": "Jumpa esok."
+    },
+    {
+     "speaker": "B",
+     "jp": "はい、また明日。",
+     "en": "Yes, see you tomorrow.",
+     "ms": "Ya, jumpa esok."
+    }
+   ],
+   "question": {
+    "en": "What is happening?",
+    "ms": "Apa yang sedang berlaku?",
+    "options": [
+     {
+      "en": "Someone is going home from work",
+      "ms": "Seseorang hendak balik dari kerja"
+     },
+     {
+      "en": "Someone is arriving at work",
+      "ms": "Seseorang baru sampai di tempat kerja"
+     },
+     {
+      "en": "They are going to lunch together",
+      "ms": "Mereka hendak makan tengah hari bersama"
+     }
+    ],
+    "answer": 0
+   }
+  },
+  {
+   "slug": "work-2",
+   "topic": "work",
+   "level": 2,
+   "title": "The meeting",
+   "setting": "Your manager asks you about this afternoon's meeting.",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "アミンさん、会議は何時からですか？",
+     "en": "Amin, what time does the meeting start?",
+     "ms": "Amin, mesyuarat mula pukul berapa?"
+    },
+    {
+     "speaker": "B",
+     "jp": "2時からです。",
+     "en": "From two.",
+     "ms": "Pukul dua."
+    },
+    {
+     "speaker": "A",
+     "jp": "どこの部屋ですか？",
+     "en": "Which room?",
+     "ms": "Bilik mana?"
+    },
+    {
+     "speaker": "B",
+     "jp": "三階の会議室です。",
+     "en": "The meeting room on the third floor.",
+     "ms": "Bilik mesyuarat tingkat tiga."
+    },
+    {
+     "speaker": "A",
+     "jp": "資料は何部いりますか？",
+     "en": "How many copies of the handout do we need?",
+     "ms": "Perlu berapa salinan dokumen?"
+    },
+    {
+     "speaker": "B",
+     "jp": "八部お願いします。",
+     "en": "Eight copies, please.",
+     "ms": "Lapan salinan, ya."
+    }
+   ],
+   "question": {
+    "en": "How many copies are needed?",
+    "ms": "Berapa salinan yang diperlukan?",
+    "options": [
+     {
+      "en": "Three",
+      "ms": "Tiga"
+     },
+     {
+      "en": "Eight",
+      "ms": "Lapan"
+     },
+     {
+      "en": "Two",
+      "ms": "Dua"
+     }
+    ],
+    "answer": 1
+   }
+  },
+  {
+   "slug": "work-3",
+   "topic": "work",
+   "level": 3,
+   "title": "A day off",
+   "setting": "You ask your manager for a day off.",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "部長、ちょっとよろしいですか？",
+     "en": "Excuse me, do you have a moment?",
+     "ms": "Encik, boleh saya ganggu sekejap?"
+    },
+    {
+     "speaker": "B",
+     "jp": "はい、どうしましたか？",
+     "en": "Yes, what is it?",
+     "ms": "Ya, ada apa?"
+    },
+    {
+     "speaker": "A",
+     "jp": "来週の金曜日に休みをいただきたいんですが。",
+     "en": "I'd like to take next Friday off.",
+     "ms": "Saya nak minta cuti hari Jumaat minggu depan."
+    },
+    {
+     "speaker": "B",
+     "jp": "金曜日ですか。何かあるんですか？",
+     "en": "Friday? Is something happening?",
+     "ms": "Hari Jumaat? Ada apa-apa ke?"
+    },
+    {
+     "speaker": "A",
+     "jp": "マレーシアの大切なお祭りの日なんです。",
+     "en": "It's an important festival day in Malaysia.",
+     "ms": "Itu hari perayaan penting di Malaysia."
+    },
+    {
+     "speaker": "B",
+     "jp": "そうですか。仕事は大丈夫ですか？",
+     "en": "I see. Will your work be OK?",
+     "ms": "Oh begitu. Kerja macam mana?"
+    },
+    {
+     "speaker": "A",
+     "jp": "はい、木曜日までに終わらせておきます。",
+     "en": "Yes, I'll have it finished by Thursday.",
+     "ms": "Tak apa, saya akan siapkan sebelum hari Khamis."
+    },
+    {
+     "speaker": "B",
+     "jp": "わかりました。いいですよ。",
+     "en": "All right. That's fine.",
+     "ms": "Baiklah. Boleh."
+    }
+   ],
+   "question": {
+    "en": "Why does he want Friday off?",
+    "ms": "Kenapa dia mahu cuti hari Jumaat?",
+    "options": [
+     {
+      "en": "He has to see a doctor",
+      "ms": "Dia perlu jumpa doktor"
+     },
+     {
+      "en": "He is moving house",
+      "ms": "Dia pindah rumah"
+     },
+     {
+      "en": "It is a festival day in Malaysia",
+      "ms": "Hari perayaan di Malaysia"
+     }
+    ],
+    "answer": 2
+   }
+  },
+  {
+   "slug": "work-4",
+   "topic": "work",
+   "level": 4,
+   "title": "Tomorrow's factory visit",
+   "setting": "A coworker explains the plan for tomorrow's trip.",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "明日の予定を説明しますね。",
+     "en": "Let me explain tomorrow's plan.",
+     "ms": "Saya terangkan rancangan esok, ya."
+    },
+    {
+     "speaker": "A",
+     "jp": "朝9時に会社に集まって、みんなで工場に行きます。",
+     "en": "We'll meet at the office at nine and all go to the factory together.",
+     "ms": "Kita berkumpul di pejabat pukul sembilan pagi dan pergi ke kilang bersama-sama."
+    },
+    {
+     "speaker": "A",
+     "jp": "工場までは車で一時間ぐらいかかります。",
+     "en": "It takes about an hour by car to the factory.",
+     "ms": "Ke kilang ambil masa lebih kurang sejam naik kereta."
+    },
+    {
+     "speaker": "A",
+     "jp": "午前中は工場の中を見学して、昼ごはんは向こうで食べます。",
+     "en": "In the morning we'll tour the factory, and we'll eat lunch there.",
+     "ms": "Waktu pagi kita lawat dalam kilang, dan makan tengah hari di sana."
+    },
+    {
+     "speaker": "A",
+     "jp": "午後は会議があるので、資料を忘れないでください。",
+     "en": "There's a meeting in the afternoon, so don't forget your documents.",
+     "ms": "Petang ada mesyuarat, jadi jangan lupa bawa dokumen."
+    },
+    {
+     "speaker": "A",
+     "jp": "帰りは5時ごろになると思います。",
+     "en": "I think we'll be back around five.",
+     "ms": "Rasanya kita balik lebih kurang pukul lima."
+    },
+    {
+     "speaker": "A",
+     "jp": "何か質問があったら、今日中に聞いてくださいね。",
+     "en": "If you have any questions, please ask me today.",
+     "ms": "Kalau ada soalan, tanyalah hari ini juga."
+    }
+   ],
+   "question": {
+    "en": "What must you remember to bring?",
+    "ms": "Apa yang anda mesti ingat bawa?",
+    "options": [
+     {
+      "en": "Your documents for the meeting",
+      "ms": "Dokumen untuk mesyuarat"
+     },
+     {
+      "en": "Your own lunch",
+      "ms": "Bekal makanan sendiri"
+     },
+     {
+      "en": "Your car keys",
+      "ms": "Kunci kereta"
+     }
+    ],
+    "answer": 0
+   }
+  },
+  {
+   "slug": "feelings-health-1",
+   "topic": "feelings-health",
+   "level": 1,
+   "title": "A headache",
+   "setting": "A coworker notices you don't look well.",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "大丈夫ですか？",
+     "en": "Are you all right?",
+     "ms": "Awak okey?"
+    },
+    {
+     "speaker": "B",
+     "jp": "ちょっと頭が痛いです。",
+     "en": "I have a bit of a headache.",
+     "ms": "Kepala saya sakit sikit."
+    },
+    {
+     "speaker": "A",
+     "jp": "薬はありますか？",
+     "en": "Do you have medicine?",
+     "ms": "Ada ubat?"
+    },
+    {
+     "speaker": "B",
+     "jp": "はい、あります。",
+     "en": "Yes, I do.",
+     "ms": "Ada."
+    }
+   ],
+   "question": {
+    "en": "What's wrong with him?",
+    "ms": "Apa masalah dia?",
+    "options": [
+     {
+      "en": "A stomachache",
+      "ms": "Sakit perut"
+     },
+     {
+      "en": "A headache",
+      "ms": "Sakit kepala"
+     },
+     {
+      "en": "A sore throat",
+      "ms": "Sakit tekak"
+     }
+    ],
+    "answer": 1
+   }
+  },
+  {
+   "slug": "feelings-health-2",
+   "topic": "feelings-health",
+   "level": 2,
+   "title": "At the clinic",
+   "setting": "You're seeing a doctor because you feel unwell.",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "どうしましたか？",
+     "en": "What's the matter?",
+     "ms": "Kenapa?"
+    },
+    {
+     "speaker": "B",
+     "jp": "昨日から熱があります。",
+     "en": "I've had a fever since yesterday.",
+     "ms": "Saya demam sejak semalam."
+    },
+    {
+     "speaker": "A",
+     "jp": "何度ですか？",
+     "en": "What is your temperature?",
+     "ms": "Suhu berapa?"
+    },
+    {
+     "speaker": "B",
+     "jp": "三十八度です。",
+     "en": "Thirty-eight degrees.",
+     "ms": "Tiga puluh lapan darjah.",
+     "reading": "[三十八度|さんじゅうはちど]です。"
+    },
+    {
+     "speaker": "A",
+     "jp": "この薬を一日三回飲んでください。",
+     "en": "Take this medicine three times a day.",
+     "ms": "Makan ubat ni tiga kali sehari."
+    },
+    {
+     "speaker": "B",
+     "jp": "わかりました。",
+     "en": "I understand.",
+     "ms": "Baiklah."
+    }
+   ],
+   "question": {
+    "en": "How often should she take the medicine?",
+    "ms": "Berapa kerap dia perlu makan ubat itu?",
+    "options": [
+     {
+      "en": "Once a day",
+      "ms": "Sekali sehari"
+     },
+     {
+      "en": "Twice a day",
+      "ms": "Dua kali sehari"
+     },
+     {
+      "en": "Three times a day",
+      "ms": "Tiga kali sehari"
+     }
+    ],
+    "answer": 2
+   }
+  },
+  {
+   "slug": "feelings-health-3",
+   "topic": "feelings-health",
+   "level": 3,
+   "title": "Back at work",
+   "setting": "You're back at work after a sick day.",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "昨日はお休みでしたね。大丈夫ですか？",
+     "en": "You were off yesterday. Are you OK?",
+     "ms": "Semalam awak cuti. Okey ke?"
+    },
+    {
+     "speaker": "B",
+     "jp": "はい、おなかを壊してしまって。",
+     "en": "Yes, I had an upset stomach.",
+     "ms": "Okey, perut saya meragam semalam."
+    },
+    {
+     "speaker": "A",
+     "jp": "それは大変でしたね。病院に行きましたか？",
+     "en": "That sounds rough. Did you go to the doctor?",
+     "ms": "Kesiannya. Ada pergi klinik?"
+    },
+    {
+     "speaker": "B",
+     "jp": "はい。悪い物を食べたからだと言われました。",
+     "en": "Yes. They said it was because I ate something bad.",
+     "ms": "Ada. Doktor kata sebab saya termakan benda tak elok."
+    },
+    {
+     "speaker": "A",
+     "jp": "今日は無理しないでくださいね。",
+     "en": "Don't push yourself today.",
+     "ms": "Hari ni jangan paksa diri sangat, ya."
+    },
+    {
+     "speaker": "B",
+     "jp": "ありがとうございます。もうだいぶ良くなりました。",
+     "en": "Thank you. I'm already much better.",
+     "ms": "Terima kasih. Dah rasa jauh lebih baik."
+    }
+   ],
+   "question": {
+    "en": "What did the doctor say caused it?",
+    "ms": "Apa kata doktor tentang puncanya?",
+    "options": [
+     {
+      "en": "Something bad he ate",
+      "ms": "Termakan sesuatu yang tak elok"
+     },
+     {
+      "en": "Catching a cold",
+      "ms": "Selesema"
+     },
+     {
+      "en": "Working too hard",
+      "ms": "Bekerja terlalu kuat"
+     }
+    ],
+    "answer": 0
+   }
+  },
+  {
+   "slug": "asking-help-1",
+   "topic": "asking-help",
+   "level": 1,
+   "title": "Where is the toilet?",
+   "setting": "You're in a department store and need help.",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "すみません。",
+     "en": "Excuse me.",
+     "ms": "Maaf."
+    },
+    {
+     "speaker": "B",
+     "jp": "はい。",
+     "en": "Yes?",
+     "ms": "Ya?"
+    },
+    {
+     "speaker": "A",
+     "jp": "トイレはどこですか？",
+     "en": "Where is the toilet?",
+     "ms": "Tandas di mana?"
+    },
+    {
+     "speaker": "B",
+     "jp": "あちらです。",
+     "en": "It's over there.",
+     "ms": "Di sana."
+    }
+   ],
+   "question": {
+    "en": "What is she looking for?",
+    "ms": "Apa yang dia cari?",
+    "options": [
+     {
+      "en": "The exit",
+      "ms": "Pintu keluar"
+     },
+     {
+      "en": "The lift",
+      "ms": "Lif"
+     },
+     {
+      "en": "The toilet",
+      "ms": "Tandas"
+     }
+    ],
+    "answer": 2
+   }
+  },
+  {
+   "slug": "asking-help-2",
+   "topic": "asking-help",
+   "level": 2,
+   "title": "Slowly, please",
+   "setting": "You're filling in a form at a counter.",
+   "lines": [
+    {
+     "speaker": "B",
+     "jp": "この紙に名前を書いてください。",
+     "en": "Please write your name on this paper.",
+     "ms": "Sila tulis nama di kertas ini."
+    },
+    {
+     "speaker": "A",
+     "jp": "すみません、もう一度お願いします。",
+     "en": "Sorry, once more, please.",
+     "ms": "Maaf, boleh ulang sekali lagi?"
+    },
+    {
+     "speaker": "B",
+     "jp": "ここに名前を書いてください。",
+     "en": "Here, write, your name, please.",
+     "ms": "Di sini, tulis, nama awak."
+    },
+    {
+     "speaker": "A",
+     "jp": "わかりました。ペンを借りてもいいですか？",
+     "en": "Got it. May I borrow a pen?",
+     "ms": "Faham. Boleh saya pinjam pen?"
+    },
+    {
+     "speaker": "B",
+     "jp": "はい、どうぞ。",
+     "en": "Yes, here you are.",
+     "ms": "Boleh, silakan."
+    }
+   ],
+   "question": {
+    "en": "What is she asked to do?",
+    "ms": "Apa yang dia diminta buat?",
+    "options": [
+     {
+      "en": "Show her passport",
+      "ms": "Tunjukkan pasport"
+     },
+     {
+      "en": "Write her name",
+      "ms": "Tulis nama"
+     },
+     {
+      "en": "Sit down and wait",
+      "ms": "Duduk dan tunggu"
+     }
+    ],
+    "answer": 1
+   }
+  },
+  {
+   "slug": "asking-help-3",
+   "topic": "asking-help",
+   "level": 3,
+   "title": "Lost wallet",
+   "setting": "You go to a police box after losing something.",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "すみません、財布をなくしてしまいました。",
+     "en": "Excuse me, I've lost my wallet.",
+     "ms": "Maaf, saya hilang dompet."
+    },
+    {
+     "speaker": "B",
+     "jp": "どこでなくしましたか？",
+     "en": "Where did you lose it?",
+     "ms": "Hilang di mana?"
+    },
+    {
+     "speaker": "A",
+     "jp": "たぶん駅のホームだと思います。",
+     "en": "Probably on the station platform, I think.",
+     "ms": "Rasanya di platform stesen."
+    },
+    {
+     "speaker": "B",
+     "jp": "どんな財布ですか？",
+     "en": "What kind of wallet is it?",
+     "ms": "Dompet macam mana?"
+    },
+    {
+     "speaker": "A",
+     "jp": "黒くて、小さい財布です。カードが入っています。",
+     "en": "It's small and black. My cards are in it.",
+     "ms": "Dompet hitam yang kecil. Ada kad di dalamnya."
+    },
+    {
+     "speaker": "B",
+     "jp": "じゃあ、駅に電話して聞いてみますね。",
+     "en": "Then I'll call the station and ask.",
+     "ms": "Kalau begitu, saya telefon stesen dan tanya, ya."
+    },
+    {
+     "speaker": "A",
+     "jp": "ありがとうございます。助かります。",
+     "en": "Thank you. That's a big help.",
+     "ms": "Terima kasih. Banyak membantu."
+    }
+   ],
+   "question": {
+    "en": "What will the police officer do?",
+    "ms": "Apa yang polis itu akan buat?",
+    "options": [
+     {
+      "en": "Phone the station",
+      "ms": "Telefon stesen"
+     },
+     {
+      "en": "Go to the platform with him",
+      "ms": "Pergi ke platform bersamanya"
+     },
+     {
+      "en": "Lend him some money",
+      "ms": "Pinjamkan dia duit"
+     }
+    ],
+    "answer": 0
+   }
+  }
+ ]
+}
