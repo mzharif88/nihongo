@@ -67,3 +67,12 @@ describe("kanji card data", () => {
     expect(misreadings(segmentWord("見る", "みる", k)!, "見", k.get("見")!)).not.toContain("けんる");
   });
 });
+
+describe("words with kanji outside the list", () => {
+  const k = new Map([["宇", { on: ["う"], kun: [] }]]);
+  it("only split when asked, so they never sway a key reading", () => {
+    expect(segmentWord("宇宙", "うちゅう", k)).toBeNull();
+    expect(segmentWord("宇宙", "うちゅう", k, true)?.map((s) => s.kana)).toEqual(["う", "ちゅう"]);
+    expect(commonReadings(k, [{ term: "宇宙", reading: "うちゅう", level: "N3" }]).get("宇")).toBe("う");
+  });
+});

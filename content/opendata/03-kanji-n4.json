@@ -2314,6 +2314,18 @@
       "misreadings": []
      },
      {
+      "term": "多分",
+      "reading": "たぶん",
+      "meaning": "perhaps, probably",
+      "level": "N5",
+      "uses": "た",
+      "misreadings": [
+       "だぶん",
+       "ちぶん",
+       "たふん"
+      ]
+     },
+     {
       "term": "多少",
       "reading": "たしょう",
       "meaning": "a little (same as 少し (すこし))",
@@ -2502,18 +2514,16 @@
     ],
     "examples": [
      {
-      "term": "自動車",
-      "reading": "じどうしゃ",
-      "meaning": "automobile",
+      "term": "自分",
+      "reading": "じぶん",
+      "meaning": "myself, oneself",
       "level": "N5",
       "uses": "じ",
       "misreadings": [
-       "しどうしゃ",
-       "じどしゃ",
-       "じどうっしゃ",
-       "ずどうしゃ",
-       "ざどうしゃ",
-       "じとうしゃ"
+       "しぶん",
+       "ずぶん",
+       "ざぶん",
+       "じふん"
       ]
      },
      {
@@ -8498,16 +8508,15 @@
       ]
      },
      {
-      "term": "悪口",
-      "reading": "わるくち",
-      "meaning": "abuse, insult",
-      "level": "N3",
+      "term": "気分が悪い",
+      "reading": "きぶんがわるい",
+      "meaning": "Feel sick",
+      "level": "N5",
       "uses": "わるい",
       "misreadings": [
-       "あくくち",
-       "わるっくち",
-       "をるくち",
-       "わるぐち"
+       "きぶんがをるい",
+       "ぎぶんがわるい",
+       "きふんがわるい"
       ]
      }
     ]
@@ -8691,17 +8700,15 @@
       ]
      },
      {
-      "term": "野党",
-      "reading": "やとう",
-      "meaning": "opposition party",
+      "term": "分野",
+      "reading": "ぶんや",
+      "meaning": "field, sphere",
       "level": "N3",
       "uses": "や",
       "misreadings": [
-       "のとう",
-       "やと",
-       "やっとう",
-       "ゆとう",
-       "やどう"
+       "ぶんの",
+       "ぶんゆ",
+       "ふんや"
       ]
      }
     ]

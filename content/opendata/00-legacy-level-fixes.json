@@ -3443,15 +3443,15 @@
       ]
      },
      {
-      "term": "大半",
-      "reading": "たいはん",
-      "meaning": "most of, majority",
-      "level": "N3",
+      "term": "半分",
+      "reading": "はんぶん",
+      "meaning": "half",
+      "level": "N5",
       "uses": "はん",
       "misreadings": [
-       "たいばん",
-       "たいひん",
-       "だいはん"
+       "ばんぶん",
+       "ひんぶん",
+       "はんふん"
       ]
      }
     ]
@@ -6185,18 +6185,18 @@
     ],
     "examples": [
      {
-      "term": "時間",
-      "reading": "じかん",
-      "meaning": "Time (duration)",
+      "term": "分間",
+      "reading": "ふんかん",
+      "meaning": "~ minutes (duration)",
       "level": "N5",
       "uses": "かん",
       "misreadings": [
-       "じけん",
-       "じあいだ",
-       "じま",
-       "じっかん",
-       "じがん",
-       "じきん"
+       "ふんけん",
+       "ふんあいだ",
+       "ふんま",
+       "ふんがん",
+       "ふんきん",
+       "ぶんかん"
       ]
      },
      {

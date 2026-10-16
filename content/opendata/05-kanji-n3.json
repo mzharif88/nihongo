@@ -15890,16 +15890,15 @@
       "misreadings": []
      },
      {
-      "term": "余計",
-      "reading": "よけい",
-      "meaning": "too much, unnecessary",
-      "level": "N2",
+      "term": "余分",
+      "reading": "よぶん",
+      "meaning": "extra, excess",
+      "level": "N3",
       "uses": "よ",
       "misreadings": [
-       "ようけい",
-       "よっけい",
-       "ゆけい",
-       "よげい"
+       "ようぶん",
+       "ゆぶん",
+       "よふん"
       ]
      },
      {
@@ -22590,6 +22589,17 @@
       "uses": "いくつ",
       "misreadings": [
        "いっく"
+      ]
+     },
+     {
+      "term": "幾分",
+      "reading": "いくぶん",
+      "meaning": "somewhat",
+      "level": "N2",
+      "uses": "いくつ",
+      "misreadings": [
+       "いっくぶん",
+       "いくふん"
       ]
      }
     ]

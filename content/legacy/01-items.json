@@ -6557,7 +6557,67 @@
       "tags": [
         "kanji"
       ],
-      "reading": "ふん"
+      "reading": "ぶん",
+      "data": {
+        "on": [
+          "ぶん",
+          "ふん",
+          "ぶ"
+        ],
+        "kun": [
+          "わける",
+          "わけ",
+          "わかれる",
+          "わかる",
+          "わかつ"
+        ],
+        "kun_marked": [
+          "わ(ける)",
+          "わけ",
+          "わ(かれる)",
+          "わ(かる)",
+          "わかつ"
+        ],
+        "examples": [
+          {
+            "term": "半分",
+            "reading": "はんぶん",
+            "meaning": "half",
+            "level": "N5",
+            "uses": "ぶん",
+            "misreadings": [
+              "はんふん",
+              "はんぶ",
+              "はんべん",
+              "はんびん",
+              "ばんぶん"
+            ]
+          },
+          {
+            "term": "分",
+            "reading": "ふん",
+            "meaning": "~ minutes",
+            "level": "N5",
+            "uses": "ふん",
+            "misreadings": [
+              "ぶん",
+              "へん",
+              "ひん"
+            ]
+          },
+          {
+            "term": "分かる",
+            "reading": "わかる",
+            "meaning": "To understand",
+            "level": "N5",
+            "uses": "わかる",
+            "misreadings": [
+              "わっかる",
+              "をかる"
+            ]
+          }
+        ]
+      }
     },
     {
       "slug": "kanji-time",

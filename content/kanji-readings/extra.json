@@ -1,0 +1,10 @@
+{
+  "note": "Hand-added data for scripts/kanji-readings.ts: readings (KANJIDIC) for kanji whose pack record has none, and words for kanji no N5-N2 word uses.",
+  "readings": {
+    "分": { "on": ["ぶん", "ふん", "ぶ"], "kun": ["わける", "わけ", "わかれる", "わかる", "わかつ"] }
+  },
+  "words": [
+    { "term": "一隻", "reading": "いっせき", "meaning": "one (ship, boat)", "level": "N2" },
+    { "term": "二隻", "reading": "にせき", "meaning": "two (ships, boats)", "level": "N2" }
+  ]
+}

@@ -5349,7 +5349,23 @@
     "kun_marked": [
      "つわもの"
     ],
-    "examples": []
+    "examples": [
+     {
+      "term": "兵隊",
+      "reading": "へいたい",
+      "meaning": "soldier",
+      "level": "N2",
+      "uses": "へい",
+      "misreadings": [
+       "ひょうたい",
+       "つわものたい",
+       "へいったい",
+       "べいたい",
+       "ほいたい",
+       "ふいたい"
+      ]
+     }
+    ]
    },
    "mnemonic": "斤 axe + ハ eight"
   },
@@ -5459,7 +5475,22 @@
      "はえる",
      "え"
     ],
-    "examples": []
+    "examples": [
+     {
+      "term": "栄養",
+      "reading": "えいよう",
+      "meaning": "nutrition, nourishment",
+      "level": "N3",
+      "uses": "えい",
+      "misreadings": [
+       "ようよう",
+       "はえよう",
+       "ばえよう",
+       "えよう",
+       "えいよ"
+      ]
+     }
+    ]
    },
    "mnemonic": "⺌ small + 木 tree + 冖 cover"
   },
@@ -6510,7 +6541,19 @@
     "grade": 6,
     "freq": 883,
     "kun_marked": [],
-    "examples": []
+    "examples": [
+     {
+      "term": "宇宙",
+      "reading": "うちゅう",
+      "meaning": "universe, cosmos",
+      "level": "N3",
+      "uses": "う",
+      "misreadings": [
+       "うちゅ",
+       "うっちゅう"
+      ]
+     }
+    ]
    },
    "mnemonic": "干 dry + 宀 roof"
   },
@@ -9581,18 +9624,16 @@
       ]
      },
      {
-      "term": "測量",
-      "reading": "そくりょう",
-      "meaning": "measurement, surveying",
+      "term": "分量",
+      "reading": "ぶんりょう",
+      "meaning": "amount, quantity",
       "level": "N2",
       "uses": "りょう",
       "misreadings": [
-       "そくりょ",
-       "そうくりょう",
-       "そっくりょう",
-       "そくるょう",
-       "そくらょう",
-       "ぞくりょう"
+       "ぶんりょ",
+       "ぶんるょう",
+       "ぶんらょう",
+       "ふんりょう"
       ]
      }
     ]
@@ -9703,7 +9744,38 @@
      "たけ",
      "たけし"
     ],
-    "examples": []
+    "examples": [
+     {
+      "term": "武器",
+      "reading": "ぶき",
+      "meaning": "weapon, arms",
+      "level": "N3",
+      "uses": "ぶ",
+      "misreadings": [
+       "むき",
+       "たけき",
+       "たけしき",
+       "ぶっき",
+       "ふき",
+       "べき"
+      ]
+     },
+     {
+      "term": "武士",
+      "reading": "ぶし",
+      "meaning": "warrior, samurai",
+      "level": "N2",
+      "uses": "ぶ",
+      "misreadings": [
+       "むし",
+       "たけし",
+       "たけしし",
+       "ぶっし",
+       "ふし",
+       "べし"
+      ]
+     }
+    ]
    },
    "mnemonic": "止 stop + 弋 stake"
   },
@@ -20035,7 +20107,22 @@
     "grade": 8,
     "freq": 1824,
     "kun_marked": [],
-    "examples": []
+    "examples": [
+     {
+      "term": "牧畜",
+      "reading": "ぼくちく",
+      "meaning": "stock-farming",
+      "level": "N2",
+      "uses": "ちく",
+      "misreadings": [
+       "ぼうくちく",
+       "ぼっくちく",
+       "ぼくぢく",
+       "ぼくつく",
+       "ぼくたく"
+      ]
+     }
+    ]
    },
    "mnemonic": "玄 dark + 田 rice field"
   },
@@ -21131,7 +21218,35 @@
     "grade": 8,
     "freq": 1546,
     "kun_marked": [],
-    "examples": []
+    "examples": [
+     {
+      "term": "一隻",
+      "reading": "いっせき",
+      "meaning": "one (ship, boat)",
+      "level": "N2",
+      "uses": "せき",
+      "misreadings": [
+       "いせき",
+       "いっせっき",
+       "いっぜき",
+       "いっそき",
+       "いっすき"
+      ]
+     },
+     {
+      "term": "二隻",
+      "reading": "にせき",
+      "meaning": "two (ships, boats)",
+      "level": "N2",
+      "uses": "せき",
+      "misreadings": [
+       "にっせき",
+       "にぜき",
+       "にそき",
+       "にすき"
+      ]
+     }
+    ]
    },
    "mnemonic": "又 hand + 隹 bird"
   }

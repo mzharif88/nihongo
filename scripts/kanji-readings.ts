@@ -50,7 +50,7 @@ export interface Segment {
 }
 
 /** The word split into kanji and kana pieces that spell its reading, or null if it can't be split. */
-export function segmentWord(term: string, reading: string, kanji: Map<string, Kanji>): Segment[] | null {
+export function segmentWord(term: string, reading: string, kanji: Map<string, Kanji>, allowUnknown = false): Segment[] | null {
   const chars = [...term];
   const walk = (i: number, pos: number, prev: string | null): Segment[] | null => {
     if (i === chars.length) return pos === reading.length ? [] : null;
@@ -62,7 +62,15 @@ export function segmentWord(term: string, reading: string, kanji: Map<string, Ka
       return rest && [{ text: chars[i], kana: k }, ...rest];
     }
     const info = kanji.get(c);
-    if (!info) return null;
+    if (!info) {
+      if (!allowUnknown) return null;
+      // A kanji outside the list (宙 in 宇宙): let it take whatever kana the rest leaves, shortest first.
+      for (let n = 1; n <= 4 && pos + n <= reading.length; n++) {
+        const rest = walk(i + 1, pos + n, c);
+        if (rest) return [{ text: chars[i], kana: reading.slice(pos, pos + n) }, ...rest];
+      }
+      return null;
+    }
     // Kana written after the kanji in the word (its okurigana, if any).
     let after = "";
     for (let j = i + 1; j < chars.length && !isKanji(chars[j]) && chars[j] !== "々"; j++) after += toHira(chars[j]);
@@ -264,13 +272,17 @@ export function examplesFor(k: string, kanjiLevel: string, kanji: Map<string, Ka
   const info = kanji.get(k)!;
   const formScore = new Map<string, number>();
   for (const e of score(scores, k)) for (const [form, n] of e.forms) formScore.set(form, (formScore.get(form) ?? 0) + n);
-  const usable = words
-    .filter((w) => w.term.includes(k) && w.meaning)
-    .flatMap((w) => {
-      const seg = segmentWord(w.term, w.reading, kanji);
-      const s = seg?.find((x) => x.text === k);
-      return seg && s?.form ? [{ w, seg, form: s.form }] : [];
-    })
+  const usableWith = (allowUnknown: boolean) =>
+    words
+      .filter((w) => w.term.includes(k) && w.meaning)
+      .flatMap((w) => {
+        const seg = segmentWord(w.term, w.reading, kanji, allowUnknown);
+        const s = seg?.find((x) => x.text === k);
+        return seg && s?.form ? [{ w, seg, form: s.form }] : [];
+      });
+  // Words whose other kanji are all known first; only a kanji with none (兵 in 兵隊) falls back to the rest.
+  const strict = usableWith(false);
+  const usable = (strict.length ? strict : usableWith(true))
     // Readable at the kanji's level first, then the most-used reading, easier and shorter words.
     .sort(
       (a, b) =>
@@ -299,6 +311,7 @@ const score = (scores: Scores, k: string) => [...(scores.get(k)?.values() ?? [])
 function main() {
   const root = join(process.cwd(), "content");
   const pins = (JSON.parse(readFileSync(join(root, "kanji-readings", "pins.json"), "utf8")) as { pins: Record<string, string> }).pins;
+  const extraData = JSON.parse(readFileSync(join(root, "kanji-readings", "extra.json"), "utf8")) as { readings: Record<string, Kanji>; words: Word[] };
   const files: { file: string; doc: { kind: string; records: Record<string, unknown>[] }; indent: number }[] = [];
   const merged = new Map<string, Record<string, unknown>>();
   for (const dir of ["legacy", "opendata"]) {
@@ -314,14 +327,16 @@ function main() {
   const kanji = new Map<string, Kanji>();
   const kanjiLevel = new Map<string, string>();
   for (const r of merged.values()) {
-    const data = r.data as { on?: string[]; kun?: string[] } | undefined;
-    if (r.type !== "kanji" || !data) continue;
+    if (r.type !== "kanji") continue;
+    const data = (r.data as { on?: string[]; kun?: string[] } | undefined) ?? extraData.readings[r.term as string];
+    if (!data) continue;
     kanji.set(r.term as string, { on: (data.on ?? []).map(toHira), kun: (data.kun ?? []).map(toHira) });
     kanjiLevel.set(r.term as string, r.jlpt_level as string);
   }
   const words: Word[] = [...merged.values()]
     .filter((r) => r.type === "word" && typeof r.reading === "string" && [...(r.term as string)].some(isKanji))
-    .map((r) => ({ term: firstForm(r.term as string), reading: firstForm(r.reading as string), level: r.jlpt_level as string, meaning: r.meaning as string }));
+    .map((r) => ({ term: firstForm(r.term as string), reading: firstForm(r.reading as string), level: r.jlpt_level as string, meaning: r.meaning as string }))
+    .concat(extraData.words as Required<Word>[]);
   const common = commonReadings(kanji, words, pins);
   const scores = scoreReadings(kanji, words);
   const extra = new Map<string, { kun_marked: string[]; examples: KanjiExample[] }>();
@@ -342,7 +357,9 @@ function main() {
           changed++;
         }
       }
-      if (r.data && extra.has(k)) r.data = { ...(r.data as object), ...extra.get(k) };
+      // Records with no readings of their own (the old app's 分) get the hand-added ones.
+      const own = r.data ?? (extraData.readings[k] && "reading" in r ? extraData.readings[k] : null);
+      if (own && extra.has(k)) r.data = { ...(own as object), ...extra.get(k) };
       touched = true;
     }
     if (touched) writeFileSync(file, JSON.stringify(doc, null, indent) + "\n");
