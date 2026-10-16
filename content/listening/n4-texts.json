@@ -30,6 +30,62 @@
    "kind": "listening",
    "title": "[即時|そくじ][応答|おうとう] — Quick response",
    "body": "Listen to the line and choose the best reply."
+  },
+  {
+   "slug": "listening-n4-05-kadai-2",
+   "jlpt_level": "N4",
+   "kind": "listening",
+   "title": "[課題|かだい][理解|りかい] — Task 2",
+   "body": "Listen to the conversation and choose what the person will do or choose."
+  },
+  {
+   "slug": "listening-n4-06-kadai-3",
+   "jlpt_level": "N4",
+   "kind": "listening",
+   "title": "[課題|かだい][理解|りかい] — Task 3",
+   "body": "Listen to the conversation and choose what the person will do or choose."
+  },
+  {
+   "slug": "listening-n4-07-point-2",
+   "jlpt_level": "N4",
+   "kind": "listening",
+   "title": "ポイント[理解|りかい] — Key point 2",
+   "body": "Listen for the key point: the reason, the detail or the final decision."
+  },
+  {
+   "slug": "listening-n4-08-point-3",
+   "jlpt_level": "N4",
+   "kind": "listening",
+   "title": "ポイント[理解|りかい] — Key point 3",
+   "body": "Listen for the key point: the reason, the detail or the final decision."
+  },
+  {
+   "slug": "listening-n4-09-hatsuwa-2",
+   "jlpt_level": "N4",
+   "kind": "listening",
+   "title": "[発話|はつわ][表現|ひょうげん] — What do you say? 2",
+   "body": "Read the situation and choose what you would say."
+  },
+  {
+   "slug": "listening-n4-10-hatsuwa-3",
+   "jlpt_level": "N4",
+   "kind": "listening",
+   "title": "[発話|はつわ][表現|ひょうげん] — What do you say? 3",
+   "body": "Read the situation and choose what you would say."
+  },
+  {
+   "slug": "listening-n4-11-sokuji-2",
+   "jlpt_level": "N4",
+   "kind": "listening",
+   "title": "[即時|そくじ][応答|おうとう] — Quick response 2",
+   "body": "Listen to the line and choose the best reply."
+  },
+  {
+   "slug": "listening-n4-12-sokuji-3",
+   "jlpt_level": "N4",
+   "kind": "listening",
+   "title": "[即時|そくじ][応答|おうとう] — Quick response 3",
+   "body": "Listen to the line and choose the best reply."
   }
  ]
 }
