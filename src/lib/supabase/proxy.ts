@@ -2,7 +2,8 @@ import { createServerClient } from "@supabase/ssr";
 import { NextResponse, type NextRequest } from "next/server";
 import { supabaseEnv } from "./env";
 
-const PUBLIC_PATHS = ["/login"];
+// The Shortcut feed has no login (its private token is the key); the service worker script is fetched by the browser.
+const PUBLIC_PATHS = ["/login", "/api/newcomer/feed", "/sw.js"];
 
 /** Refresh the auth session cookie on every request and send signed-out visitors to /login. */
 export async function updateSession(request: NextRequest) {

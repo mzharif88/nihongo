@@ -10,6 +10,8 @@ import { loadTodayDone } from "@/lib/study/plan.server";
 import { localDate } from "@/lib/study/streak";
 import { loadStudySession } from "@/lib/study/session.server";
 import type { Topic } from "@/lib/study/topics";
+import { dueCount, nightRecallOpen, nightRecallStart } from "@/lib/newcomer/recall";
+import { loadMyPhrases, mineAsRecall } from "@/lib/newcomer/newcomer.server";
 import { signOut } from "./login/actions";
 
 export default async function HomePage() {
@@ -41,6 +43,8 @@ export default async function HomePage() {
     available,
   });
 
+  const night = await loadNightRecall(supabase, profile.timezone);
+
   return (
     <main className="mx-auto max-w-xl px-4 py-8">
       <header className="flex items-center justify-between">
@@ -51,6 +55,8 @@ export default async function HomePage() {
           <button className="text-sm text-muted underline">Sign out</button>
         </form>
       </header>
+
+      {night && <NightRecall {...night} />}
 
       <TodayPlan plan={plan} targetLevel={profile.target_level} examDate={profile.exam_date} />
 
@@ -121,6 +127,7 @@ export default async function HomePage() {
         <h2 className="mb-2 text-lg font-bold">All sections</h2>
         <div className="grid grid-cols-2 gap-3">
           <Section href="/mock" label="JLPT mock tests" detail="Timed, real format, predicted score" highlight />
+          <Section href="/newcomer" label="Newcomer" detail="Speak from your own sentences" highlight />
           <Section href="/lessons" label="Lessons" detail={`${lessonsDone}/${lessons.length} done`} />
           <Section href="/situations" label="Everyday situations" detail={`${situationsDone}/${situations.length} done`} />
           <Section href="/builder" label="Sentence builder" detail="Put words in order" />
@@ -341,5 +348,54 @@ function Stat({ label, value }: { label: string; value: number }) {
       <div className="text-2xl font-bold">{value}</div>
       <div className="text-xs text-muted">{label}</div>
     </div>
+  );
+}
+
+type Supabase = Awaited<ReturnType<typeof requireUser>>["supabase"];
+
+/** Tonight's Night Recall (21:30–04:00 local), or null outside those hours. */
+async function loadNightRecall(supabase: Supabase, timeZone: string) {
+  const now = new Date();
+  if (!nightRecallOpen(now, timeZone)) return null;
+  const since = nightRecallStart(now, timeZone).toISOString();
+  const [mine, { count: starterTonight }] = await Promise.all([
+    loadMyPhrases(supabase),
+    supabase.from("newcomer_progress").select("phrase_slug", { count: "exact", head: true }).gte("last_reviewed_at", since),
+  ]);
+  const recall = mine.map(mineAsRecall);
+  const mineTonight = mine.filter((p) => p.last_reviewed_at && p.last_reviewed_at >= since).length;
+  return { phrases: mine.length, due: dueCount(recall, now), mineTonight, starterTonight: starterTonight ?? 0 };
+}
+
+function NightRecall({ phrases, due, mineTonight, starterTonight }: { phrases: number; due: number; mineTonight: number; starterTonight: number }) {
+  const items = [
+    {
+      done: phrases > 0 && due === 0 && mineTonight > 0,
+      label: phrases === 0 ? "Add three sentences from your day" : due ? `Recall your phrases (${due} waiting)` : "Recall your phrases",
+      href: phrases === 0 ? "/newcomer/phrases" : "/newcomer/recall",
+    },
+    { done: starterTonight > 0, label: "Recall one starter topic", href: "/newcomer" },
+    { done: false, label: "Play your playlist before sleep", href: "/newcomer/playlist" },
+  ];
+  const finished = items.slice(0, 2).every((i) => i.done);
+  return (
+    <section className="mt-4 rounded-xl bg-indigo-700 p-4 text-white">
+      <div className="flex items-baseline justify-between">
+        <h2 className="text-lg font-bold">🌙 Night Recall</h2>
+        <span className="text-xs opacity-80">{finished ? "Done for tonight" : "Before bed"}</span>
+      </div>
+      <ul className="mt-2 space-y-1">
+        {items.map((i) => (
+          <li key={i.label}>
+            <Link href={i.href} className="flex items-center gap-2 rounded-lg px-1 py-1.5 active:bg-indigo-600">
+              <span className={`flex h-5 w-5 items-center justify-center rounded border ${i.done ? "border-white bg-white text-indigo-700" : "border-white/70"}`}>
+                {i.done ? "✓" : ""}
+              </span>
+              <span className={i.done ? "line-through opacity-75" : ""}>{i.label}</span>
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </section>
   );
 }

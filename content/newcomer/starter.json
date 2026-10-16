@@ -1,0 +1,1790 @@
+{
+ "version": 1,
+ "topics": [
+  {
+   "slug": "greetings",
+   "title": "Greetings & first words",
+   "description": "Use these to say hello, thank people and be polite in your first conversations.",
+   "phrases": [
+    {
+     "slug": "greetings-01",
+     "stage": 1,
+     "en": "Good morning.",
+     "ms": "Selamat pagi.",
+     "jp": "おはようございます。",
+     "reading": "おはようございます。",
+     "kana": "おはようございます。"
+    },
+    {
+     "slug": "greetings-02",
+     "stage": 1,
+     "en": "Hello. / Good afternoon.",
+     "ms": "Helo. / Selamat tengah hari.",
+     "jp": "こんにちは。",
+     "reading": "こんにちは。",
+     "kana": "こんにちは。"
+    },
+    {
+     "slug": "greetings-03",
+     "stage": 1,
+     "en": "Good evening.",
+     "ms": "Selamat malam.",
+     "jp": "こんばんは。",
+     "reading": "こんばんは。",
+     "kana": "こんばんは。"
+    },
+    {
+     "slug": "greetings-04",
+     "stage": 1,
+     "en": "Thank you.",
+     "ms": "Terima kasih.",
+     "jp": "ありがとうございます。",
+     "reading": "ありがとうございます。",
+     "kana": "ありがとうございます。"
+    },
+    {
+     "slug": "greetings-05",
+     "stage": 1,
+     "en": "Excuse me. / Sorry.",
+     "ms": "Maaf. / Tumpang tanya.",
+     "jp": "すみません。",
+     "reading": "すみません。",
+     "kana": "すみません。"
+    },
+    {
+     "slug": "greetings-06",
+     "stage": 1,
+     "en": "You're welcome.",
+     "ms": "Sama-sama.",
+     "jp": "どういたしまして。",
+     "reading": "どういたしまして。",
+     "kana": "どういたしまして。"
+    },
+    {
+     "slug": "greetings-07",
+     "stage": 1,
+     "en": "Nice to meet you.",
+     "ms": "Selamat berkenalan.",
+     "jp": "はじめまして。",
+     "reading": "はじめまして。",
+     "kana": "はじめまして。"
+    },
+    {
+     "slug": "greetings-08",
+     "stage": 1,
+     "en": "I look forward to working with you. / Nice to meet you.",
+     "ms": "Mohon tunjuk ajar. / Selamat berkenalan.",
+     "jp": "よろしくお願いします。",
+     "reading": "よろしくお[願|ねが]いします。",
+     "kana": "よろしくおねがいします。"
+    },
+    {
+     "slug": "greetings-09",
+     "stage": 1,
+     "en": "Long time no see.",
+     "ms": "Lama tak jumpa.",
+     "jp": "お久しぶりです。",
+     "reading": "お[久|ひさ]しぶりです。",
+     "kana": "おひさしぶりです。"
+    },
+    {
+     "slug": "greetings-10",
+     "stage": 2,
+     "en": "How are you?",
+     "ms": "Apa khabar?",
+     "jp": "お元気ですか？",
+     "reading": "お[元気|げんき]ですか？",
+     "kana": "おげんきですか？"
+    },
+    {
+     "slug": "greetings-11",
+     "stage": 2,
+     "en": "Well then, goodbye.",
+     "ms": "Baiklah, saya minta diri dulu.",
+     "jp": "では、失礼します。",
+     "reading": "では、[失礼|しつれい]します。",
+     "kana": "では、しつれいします。"
+    },
+    {
+     "slug": "greetings-12",
+     "stage": 3,
+     "en": "I'm happy to meet you.",
+     "ms": "Saya gembira dapat berjumpa dengan anda.",
+     "jp": "お会いできてうれしいです。",
+     "reading": "お[会|あ]いできてうれしいです。",
+     "kana": "おあいできてうれしいです。"
+    },
+    {
+     "slug": "greetings-13",
+     "stage": 4,
+     "en": "How have you been lately?",
+     "ms": "Bagaimana keadaan anda kebelakangan ini?",
+     "jp": "最近どうですか？",
+     "reading": "[最近|さいきん]どうですか？",
+     "kana": "さいきんどうですか？"
+    },
+    {
+     "slug": "greetings-14",
+     "stage": 4,
+     "en": "I'm well, thank you.",
+     "ms": "Saya sihat, terima kasih.",
+     "jp": "おかげさまで、元気です。",
+     "reading": "おかげさまで、[元気|げんき]です。",
+     "kana": "おかげさまで、げんきです。"
+    },
+    {
+     "slug": "greetings-15",
+     "stage": 5,
+     "en": "Thank you for yesterday.",
+     "ms": "Terima kasih untuk semalam.",
+     "jp": "昨日はありがとうございました。",
+     "reading": "[昨日|きのう]はありがとうございました。",
+     "kana": "きのうはありがとうございました。"
+    },
+    {
+     "slug": "greetings-16",
+     "stage": 6,
+     "en": "Sorry I'm late.",
+     "ms": "Maaf, saya terlambat.",
+     "jp": "遅くなってすみません。",
+     "reading": "[遅|おそ]くなってすみません。",
+     "kana": "おそくなってすみません。"
+    }
+   ]
+  },
+  {
+   "slug": "about-me",
+   "title": "About me",
+   "description": "Use these to introduce yourself and talk about where you are from and what you do.",
+   "phrases": [
+    {
+     "slug": "about-me-01",
+     "stage": 1,
+     "en": "I'm Malaysian.",
+     "ms": "Saya orang Malaysia.",
+     "jp": "マレーシア人です。",
+     "reading": "マレーシア[人|じん]です。",
+     "kana": "マレーシアじんです。"
+    },
+    {
+     "slug": "about-me-02",
+     "stage": 1,
+     "en": "I'm an office worker.",
+     "ms": "Saya pekerja syarikat.",
+     "jp": "会社員です。",
+     "reading": "[会社|かいしゃ][員|いん]です。",
+     "kana": "かいしゃいんです。"
+    },
+    {
+     "slug": "about-me-03",
+     "stage": 2,
+     "en": "My name is Ali.",
+     "ms": "Nama saya Ali.",
+     "jp": "アリと申します。",
+     "reading": "アリと[申|もう]します。",
+     "kana": "アリともうします。"
+    },
+    {
+     "slug": "about-me-04",
+     "stage": 3,
+     "en": "I'm from Malaysia.",
+     "ms": "Saya dari Malaysia.",
+     "jp": "マレーシアから来ました。",
+     "reading": "マレーシアから[来|き]ました。",
+     "kana": "マレーシアからきました。"
+    },
+    {
+     "slug": "about-me-05",
+     "stage": 3,
+     "en": "I live in Kuala Lumpur.",
+     "ms": "Saya tinggal di Kuala Lumpur.",
+     "jp": "クアラルンプールに住んでいます。",
+     "reading": "クアラルンプールに[住|す]んでいます。",
+     "kana": "クアラルンプールにすんでいます。"
+    },
+    {
+     "slug": "about-me-06",
+     "stage": 3,
+     "en": "I'm studying Japanese.",
+     "ms": "Saya sedang belajar bahasa Jepun.",
+     "jp": "日本語を勉強しています。",
+     "reading": "[日本語|にほんご]を[勉強|べんきょう]しています。",
+     "kana": "にほんごをべんきょうしています。"
+    },
+    {
+     "slug": "about-me-07",
+     "stage": 3,
+     "en": "I can speak a little Japanese.",
+     "ms": "Saya boleh bercakap sedikit bahasa Jepun.",
+     "jp": "日本語は少し話せます。",
+     "reading": "[日本語|にほんご]は[少|すこ]し[話|はな]せます。",
+     "kana": "にほんごはすこしはなせます。"
+    },
+    {
+     "slug": "about-me-08",
+     "stage": 3,
+     "en": "My hobby is cooking.",
+     "ms": "Hobi saya memasak.",
+     "jp": "趣味は料理です。",
+     "reading": "[趣味|しゅみ]は[料理|りょうり]です。",
+     "kana": "しゅみはりょうりです。"
+    },
+    {
+     "slug": "about-me-09",
+     "stage": 4,
+     "en": "Where are you from?",
+     "ms": "Anda dari mana?",
+     "jp": "どちらから来ましたか？",
+     "reading": "どちらから[来|き]ましたか？",
+     "kana": "どちらからきましたか？"
+    },
+    {
+     "slug": "about-me-10",
+     "stage": 4,
+     "en": "What do you do for work?",
+     "ms": "Apakah pekerjaan anda?",
+     "jp": "お仕事は何をされていますか？",
+     "reading": "お[仕事|しごと]は[何|なに]をされていますか？",
+     "kana": "おしごとはなにをされていますか？"
+    },
+    {
+     "slug": "about-me-11",
+     "stage": 4,
+     "en": "How long have you been studying Japanese?",
+     "ms": "Sudah berapa lama anda belajar bahasa Jepun?",
+     "jp": "日本語はどのくらい勉強していますか？",
+     "reading": "[日本語|にほんご]はどのくらい[勉強|べんきょう]していますか？",
+     "kana": "にほんごはどのくらいべんきょうしていますか？"
+    },
+    {
+     "slug": "about-me-12",
+     "stage": 5,
+     "en": "Last year I went to Japan for the first time.",
+     "ms": "Tahun lepas saya pergi ke Jepun buat kali pertama.",
+     "jp": "去年、初めて日本に行きました。",
+     "reading": "[去年|きょねん]、[初|はじ]めて[日本|にほん]に[行|い]きました。",
+     "kana": "きょねん、はじめてにほんにいきました。"
+    },
+    {
+     "slug": "about-me-13",
+     "stage": 5,
+     "en": "Next year I will take the JLPT.",
+     "ms": "Tahun depan saya akan menduduki JLPT.",
+     "jp": "来年、日本語能力試験を受けます。",
+     "reading": "[来年|らいねん]、[日本語|にほんご][能力|のうりょく][試験|しけん]を[受|う]けます。",
+     "kana": "らいねん、にほんごのうりょくしけんをうけます。"
+    },
+    {
+     "slug": "about-me-14",
+     "stage": 6,
+     "en": "I like anime, so I started learning Japanese.",
+     "ms": "Saya suka anime, jadi saya mula belajar bahasa Jepun.",
+     "jp": "アニメが好きなので、日本語を始めました。",
+     "reading": "アニメが[好|す]きなので、[日本語|にほんご]を[始|はじ]めました。",
+     "kana": "アニメがすきなので、にほんごをはじめました。"
+    },
+    {
+     "slug": "about-me-15",
+     "stage": 6,
+     "en": "I can speak Malay and English, but my Japanese still has a long way to go.",
+     "ms": "Saya boleh bertutur bahasa Melayu dan Inggeris, tetapi bahasa Jepun saya masih lemah.",
+     "jp": "マレー語と英語は話せますが、日本語はまだまだです。",
+     "reading": "マレー[語|ご]と[英語|えいご]は[話|はな]せますが、[日本語|にほんご]はまだまだです。",
+     "kana": "マレーごとえいごははなせますが、にほんごはまだまだです。"
+    },
+    {
+     "slug": "about-me-16",
+     "stage": 7,
+     "en": "I work at a company in Malaysia. Someday I want to work in Japan.",
+     "ms": "Saya bekerja di sebuah syarikat di Malaysia. Suatu hari nanti saya mahu bekerja di Jepun.",
+     "jp": "マレーシアの会社で働いています。いつか日本で働きたいです。",
+     "reading": "マレーシアの[会社|かいしゃ]で[働|はたら]いています。いつか[日本|にほん]で[働|はたら]きたいです。",
+     "kana": "マレーシアのかいしゃではたらいています。いつかにほんではたらきたいです。"
+    }
+   ]
+  },
+  {
+   "slug": "daily-routine",
+   "title": "My day",
+   "description": "Use these for the everyday moments of your day, from waking up to going to bed.",
+   "phrases": [
+    {
+     "slug": "daily-routine-01",
+     "stage": 1,
+     "en": "I'm off. (said when leaving home)",
+     "ms": "Saya pergi dulu.",
+     "jp": "いってきます。",
+     "reading": "いってきます。",
+     "kana": "いってきます。"
+    },
+    {
+     "slug": "daily-routine-02",
+     "stage": 1,
+     "en": "I'm home.",
+     "ms": "Saya dah balik.",
+     "jp": "ただいま。",
+     "reading": "ただいま。",
+     "kana": "ただいま。"
+    },
+    {
+     "slug": "daily-routine-03",
+     "stage": 1,
+     "en": "Let's eat. (said before a meal)",
+     "ms": "Jom makan. (sebelum makan)",
+     "jp": "いただきます。",
+     "reading": "いただきます。",
+     "kana": "いただきます。"
+    },
+    {
+     "slug": "daily-routine-04",
+     "stage": 1,
+     "en": "Thank you for the meal.",
+     "ms": "Terima kasih atas hidangan ini.",
+     "jp": "ごちそうさまでした。",
+     "reading": "ごちそうさまでした。",
+     "kana": "ごちそうさまでした。"
+    },
+    {
+     "slug": "daily-routine-05",
+     "stage": 1,
+     "en": "Good night.",
+     "ms": "Selamat malam. (sebelum tidur)",
+     "jp": "おやすみなさい。",
+     "reading": "おやすみなさい。",
+     "kana": "おやすみなさい。"
+    },
+    {
+     "slug": "daily-routine-06",
+     "stage": 2,
+     "en": "It's hot today, isn't it?",
+     "ms": "Panas hari ini, kan?",
+     "jp": "今日は暑いですね。",
+     "reading": "[今日|きょう]は[暑|あつ]いですね。",
+     "kana": "きょうはあついですね。"
+    },
+    {
+     "slug": "daily-routine-07",
+     "stage": 3,
+     "en": "I get up at six every morning.",
+     "ms": "Saya bangun pukul enam setiap pagi.",
+     "jp": "毎朝六時に起きます。",
+     "reading": "[毎朝|まいあさ][六時|ろくじ]に[起|お]きます。",
+     "kana": "まいあさろくじにおきます。"
+    },
+    {
+     "slug": "daily-routine-08",
+     "stage": 3,
+     "en": "I go to work by train.",
+     "ms": "Saya pergi kerja dengan kereta api.",
+     "jp": "電車で会社に行きます。",
+     "reading": "[電車|でんしゃ]で[会社|かいしゃ]に[行|い]きます。",
+     "kana": "でんしゃでかいしゃにいきます。"
+    },
+    {
+     "slug": "daily-routine-09",
+     "stage": 3,
+     "en": "I get home around seven.",
+     "ms": "Saya sampai di rumah sekitar pukul tujuh.",
+     "jp": "七時ごろ家に帰ります。",
+     "reading": "[七時|しちじ]ごろ[家|いえ]に[帰|かえ]ります。",
+     "kana": "しちじごろいえにかえります。"
+    },
+    {
+     "slug": "daily-routine-10",
+     "stage": 4,
+     "en": "What time do you get up?",
+     "ms": "Pukul berapa anda bangun?",
+     "jp": "何時に起きますか？",
+     "reading": "[何時|なんじ]に[起|お]きますか？",
+     "kana": "なんじにおきますか？"
+    },
+    {
+     "slug": "daily-routine-11",
+     "stage": 4,
+     "en": "What do you eat for breakfast?",
+     "ms": "Apa yang anda makan untuk sarapan?",
+     "jp": "朝ごはんは何を食べますか？",
+     "reading": "[朝|あさ]ごはんは[何|なに]を[食|た]べますか？",
+     "kana": "あさごはんはなにをたべますか？"
+    },
+    {
+     "slug": "daily-routine-12",
+     "stage": 5,
+     "en": "I got up early today.",
+     "ms": "Hari ini saya bangun awal.",
+     "jp": "今日は早く起きました。",
+     "reading": "[今日|きょう]は[早|はや]く[起|お]きました。",
+     "kana": "きょうははやくおきました。"
+    },
+    {
+     "slug": "daily-routine-13",
+     "stage": 6,
+     "en": "After I eat, I brush my teeth.",
+     "ms": "Selepas makan, saya gosok gigi.",
+     "jp": "ご飯を食べてから、歯を磨きます。",
+     "reading": "ご[飯|はん]を[食|た]べてから、[歯|は]を[磨|みが]きます。",
+     "kana": "ごはんをたべてから、はをみがきます。"
+    },
+    {
+     "slug": "daily-routine-14",
+     "stage": 6,
+     "en": "I'm tired today, so I'll go to bed early.",
+     "ms": "Saya penat hari ini, jadi saya akan tidur awal.",
+     "jp": "今日は疲れたので、早く寝ます。",
+     "reading": "[今日|きょう]は[疲|つか]れたので、[早|はや]く[寝|ね]ます。",
+     "kana": "きょうはつかれたので、はやくねます。"
+    },
+    {
+     "slug": "daily-routine-15",
+     "stage": 7,
+     "en": "I leave home at seven in the morning. After work I go to the gym.",
+     "ms": "Saya keluar rumah pukul tujuh pagi. Selepas kerja saya pergi ke gim.",
+     "jp": "朝は七時に家を出ます。仕事の後はジムに行きます。",
+     "reading": "[朝|あさ]は[七時|しちじ]に[家|いえ]を[出|で]ます。[仕事|しごと]の[後|あと]はジムに[行|い]きます。",
+     "kana": "あさはしちじにいえをでます。しごとのあとはジムにいきます。"
+    }
+   ]
+  },
+  {
+   "slug": "home-family",
+   "title": "Home & family",
+   "description": "Use these to talk about your family and your home, and when visiting someone's house.",
+   "phrases": [
+    {
+     "slug": "home-family-01",
+     "stage": 1,
+     "en": "This is my family.",
+     "ms": "Ini keluarga saya.",
+     "jp": "家族です。",
+     "reading": "[家族|かぞく]です。",
+     "kana": "かぞくです。"
+    },
+    {
+     "slug": "home-family-02",
+     "stage": 1,
+     "en": "This is my older brother.",
+     "ms": "Ini abang saya.",
+     "jp": "兄です。",
+     "reading": "[兄|あに]です。",
+     "kana": "あにです。"
+    },
+    {
+     "slug": "home-family-03",
+     "stage": 1,
+     "en": "Excuse me for coming in. (said when entering someone's home)",
+     "ms": "Maaf mengganggu. (ketika masuk ke rumah orang)",
+     "jp": "お邪魔します。",
+     "reading": "お[邪魔|じゃま]します。",
+     "kana": "おじゃまします。"
+    },
+    {
+     "slug": "home-family-04",
+     "stage": 2,
+     "en": "Please come in.",
+     "ms": "Silakan masuk.",
+     "jp": "どうぞ、上がってください。",
+     "reading": "どうぞ、[上|あ]がってください。",
+     "kana": "どうぞ、あがってください。"
+    },
+    {
+     "slug": "home-family-05",
+     "stage": 2,
+     "en": "Please have some tea.",
+     "ms": "Silakan minum teh.",
+     "jp": "お茶をどうぞ。",
+     "reading": "お[茶|ちゃ]をどうぞ。",
+     "kana": "おちゃをどうぞ。"
+    },
+    {
+     "slug": "home-family-06",
+     "stage": 3,
+     "en": "There are four people in my family.",
+     "ms": "Keluarga saya ada empat orang.",
+     "jp": "家族は四人です。",
+     "reading": "[家族|かぞく]は[四人|よにん]です。",
+     "kana": "かぞくはよにんです。"
+    },
+    {
+     "slug": "home-family-07",
+     "stage": 3,
+     "en": "I have one older sister.",
+     "ms": "Saya ada seorang kakak.",
+     "jp": "姉が一人います。",
+     "reading": "[姉|あね]が[一人|ひとり]います。",
+     "kana": "あねがひとりいます。"
+    },
+    {
+     "slug": "home-family-08",
+     "stage": 3,
+     "en": "My parents live in Penang.",
+     "ms": "Ibu bapa saya tinggal di Pulau Pinang.",
+     "jp": "両親はペナンに住んでいます。",
+     "reading": "[両親|りょうしん]はペナンに[住|す]んでいます。",
+     "kana": "りょうしんはペナンにすんでいます。"
+    },
+    {
+     "slug": "home-family-09",
+     "stage": 3,
+     "en": "I live in an apartment.",
+     "ms": "Saya tinggal di sebuah apartmen.",
+     "jp": "アパートに住んでいます。",
+     "reading": "アパートに[住|す]んでいます。",
+     "kana": "アパートにすんでいます。"
+    },
+    {
+     "slug": "home-family-10",
+     "stage": 4,
+     "en": "Do you have any brothers or sisters?",
+     "ms": "Anda ada adik-beradik?",
+     "jp": "ご兄弟はいますか？",
+     "reading": "ご[兄弟|きょうだい]はいますか？",
+     "kana": "ごきょうだいはいますか？"
+    },
+    {
+     "slug": "home-family-11",
+     "stage": 4,
+     "en": "Yes, I have two younger brothers.",
+     "ms": "Ya, saya ada dua orang adik lelaki.",
+     "jp": "はい、弟が二人います。",
+     "reading": "はい、[弟|おとうと]が[二人|ふたり]います。",
+     "kana": "はい、おとうとがふたりいます。"
+    },
+    {
+     "slug": "home-family-12",
+     "stage": 5,
+     "en": "I went out with my family at the weekend.",
+     "ms": "Saya keluar bersama keluarga pada hujung minggu.",
+     "jp": "週末は家族と出かけました。",
+     "reading": "[週末|しゅうまつ]は[家族|かぞく]と[出|で]かけました。",
+     "kana": "しゅうまつはかぞくとでかけました。"
+    },
+    {
+     "slug": "home-family-13",
+     "stage": 5,
+     "en": "My mother is coming to Japan next month.",
+     "ms": "Ibu saya akan datang ke Jepun bulan depan.",
+     "jp": "来月、母が日本に来ます。",
+     "reading": "[来月|らいげつ]、[母|はは]が[日本|にほん]に[来|き]ます。",
+     "kana": "らいげつ、ははがにほんにきます。"
+    },
+    {
+     "slug": "home-family-14",
+     "stage": 6,
+     "en": "My room is small, but it's close to the station.",
+     "ms": "Bilik saya kecil, tetapi dekat dengan stesen.",
+     "jp": "部屋は狭いですが、駅から近いです。",
+     "reading": "[部屋|へや]は[狭|せま]いですが、[駅|えき]から[近|ちか]いです。",
+     "kana": "へやはせまいですが、えきからちかいです。"
+    },
+    {
+     "slug": "home-family-15",
+     "stage": 6,
+     "en": "My children are small, so I'm busy every day.",
+     "ms": "Anak-anak saya masih kecil, jadi saya sibuk setiap hari.",
+     "jp": "子どもが小さいので、毎日忙しいです。",
+     "reading": "[子|こ]どもが[小|ちい]さいので、[毎日|まいにち][忙|いそが]しいです。",
+     "kana": "こどもがちいさいので、まいにちいそがしいです。"
+    },
+    {
+     "slug": "home-family-16",
+     "stage": 7,
+     "en": "My father is an office worker and my mother is a teacher. My older sister is in Tokyo.",
+     "ms": "Ayah saya pekerja syarikat dan ibu saya seorang guru. Kakak saya berada di Tokyo.",
+     "jp": "父は会社員で、母は先生です。姉は東京にいます。",
+     "reading": "[父|ちち]は[会社|かいしゃ][員|いん]で、[母|はは]は[先生|せんせい]です。[姉|あね]は[東京|とうきょう]にいます。",
+     "kana": "ちちはかいしゃいんで、はははせんせいです。あねはとうきょうにいます。"
+    }
+   ]
+  },
+  {
+   "slug": "konbini",
+   "title": "At the convenience store",
+   "description": "Use these at the convenience store counter, where staff ask quick questions.",
+   "phrases": [
+    {
+     "slug": "konbini-01",
+     "stage": 1,
+     "en": "Welcome! (what staff say when you come in)",
+     "ms": "Selamat datang! (kata pekerja kedai)",
+     "jp": "いらっしゃいませ。",
+     "reading": "いらっしゃいませ。",
+     "kana": "いらっしゃいませ。"
+    },
+    {
+     "slug": "konbini-02",
+     "stage": 1,
+     "en": "No, thank you. / I'm fine.",
+     "ms": "Tak apa, terima kasih.",
+     "jp": "大丈夫です。",
+     "reading": "[大丈夫|だいじょうぶ]です。",
+     "kana": "だいじょうぶです。"
+    },
+    {
+     "slug": "konbini-03",
+     "stage": 1,
+     "en": "Yes, please.",
+     "ms": "Ya, tolong.",
+     "jp": "お願いします。",
+     "reading": "お[願|ねが]いします。",
+     "kana": "おねがいします。"
+    },
+    {
+     "slug": "konbini-04",
+     "stage": 2,
+     "en": "Please heat it up.",
+     "ms": "Tolong panaskan.",
+     "jp": "温めてください。",
+     "reading": "[温|あたた]めてください。",
+     "kana": "あたためてください。"
+    },
+    {
+     "slug": "konbini-05",
+     "stage": 2,
+     "en": "I don't need a plastic bag.",
+     "ms": "Saya tak perlukan beg plastik.",
+     "jp": "レジ袋はいりません。",
+     "reading": "レジ[袋|ふくろ]はいりません。",
+     "kana": "レジふくろはいりません。"
+    },
+    {
+     "slug": "konbini-06",
+     "stage": 2,
+     "en": "Chopsticks, please.",
+     "ms": "Minta penyepit.",
+     "jp": "お箸をください。",
+     "reading": "お[箸|はし]をください。",
+     "kana": "おはしをください。"
+    },
+    {
+     "slug": "konbini-07",
+     "stage": 2,
+     "en": "I don't have a point card.",
+     "ms": "Saya tiada kad mata ganjaran.",
+     "jp": "ポイントカードはありません。",
+     "reading": "ポイントカードはありません。",
+     "kana": "ポイントカードはありません。"
+    },
+    {
+     "slug": "konbini-08",
+     "stage": 2,
+     "en": "By card, please.",
+     "ms": "Saya bayar dengan kad.",
+     "jp": "カードでお願いします。",
+     "reading": "カードでお[願|ねが]いします。",
+     "kana": "カードでおねがいします。"
+    },
+    {
+     "slug": "konbini-09",
+     "stage": 3,
+     "en": "One of these, please.",
+     "ms": "Saya nak satu yang ini.",
+     "jp": "これを一つください。",
+     "reading": "これを[一|ひと]つください。",
+     "kana": "これをひとつください。"
+    },
+    {
+     "slug": "konbini-10",
+     "stage": 4,
+     "en": "Shall I heat it up for you?",
+     "ms": "Nak saya panaskan?",
+     "jp": "温めますか？",
+     "reading": "[温|あたた]めますか？",
+     "kana": "あたためますか？"
+    },
+    {
+     "slug": "konbini-11",
+     "stage": 4,
+     "en": "Would you like a bag?",
+     "ms": "Nak beg?",
+     "jp": "袋はおつけしますか？",
+     "reading": "[袋|ふくろ]はおつけしますか？",
+     "kana": "ふくろはおつけしますか？"
+    },
+    {
+     "slug": "konbini-12",
+     "stage": 4,
+     "en": "May I use the toilet?",
+     "ms": "Boleh saya guna tandas?",
+     "jp": "トイレを借りてもいいですか？",
+     "reading": "トイレを[借|か]りてもいいですか？",
+     "kana": "トイレをかりてもいいですか？"
+    },
+    {
+     "slug": "konbini-13",
+     "stage": 4,
+     "en": "Where are the batteries?",
+     "ms": "Bateri ada di mana?",
+     "jp": "電池はどこにありますか？",
+     "reading": "[電池|でんち]はどこにありますか？",
+     "kana": "でんちはどこにありますか？"
+    },
+    {
+     "slug": "konbini-14",
+     "stage": 5,
+     "en": "I'll come back for it later.",
+     "ms": "Saya akan datang ambil nanti.",
+     "jp": "あとで取りに来ます。",
+     "reading": "あとで[取|と]りに[来|き]ます。",
+     "kana": "あとでとりにきます。"
+    },
+    {
+     "slug": "konbini-15",
+     "stage": 6,
+     "en": "I don't have cash, so can I pay by card?",
+     "ms": "Saya tiada wang tunai, jadi boleh bayar dengan kad?",
+     "jp": "現金がないので、カードでもいいですか？",
+     "reading": "[現金|げんきん]がないので、カードでもいいですか？",
+     "kana": "げんきんがないので、カードでもいいですか？"
+    },
+    {
+     "slug": "konbini-16",
+     "stage": 6,
+     "en": "I don't need a bag, so it's fine as it is.",
+     "ms": "Saya tak perlukan beg, jadi begini pun tak apa.",
+     "jp": "袋はいらないので、そのままでいいです。",
+     "reading": "[袋|ふくろ]はいらないので、そのままでいいです。",
+     "kana": "ふくろはいらないので、そのままでいいです。"
+    }
+   ]
+  },
+  {
+   "slug": "restaurant",
+   "title": "Restaurant & café",
+   "description": "Use these to order food and drinks, ask about the menu and pay.",
+   "phrases": [
+    {
+     "slug": "restaurant-01",
+     "stage": 1,
+     "en": "Two people.",
+     "ms": "Dua orang.",
+     "jp": "二人です。",
+     "reading": "[二人|ふたり]です。",
+     "kana": "ふたりです。"
+    },
+    {
+     "slug": "restaurant-02",
+     "stage": 1,
+     "en": "Excuse me! (to call staff)",
+     "ms": "Maaf! (memanggil pelayan)",
+     "jp": "すみません。",
+     "reading": "すみません。",
+     "kana": "すみません。"
+    },
+    {
+     "slug": "restaurant-03",
+     "stage": 1,
+     "en": "It's delicious.",
+     "ms": "Sedap.",
+     "jp": "おいしいです。",
+     "reading": "おいしいです。",
+     "kana": "おいしいです。"
+    },
+    {
+     "slug": "restaurant-04",
+     "stage": 2,
+     "en": "Water, please.",
+     "ms": "Minta air kosong.",
+     "jp": "お水をください。",
+     "reading": "お[水|みず]をください。",
+     "kana": "おみずをください。"
+    },
+    {
+     "slug": "restaurant-05",
+     "stage": 2,
+     "en": "I'll have this, please.",
+     "ms": "Saya nak yang ini.",
+     "jp": "これをお願いします。",
+     "reading": "これをお[願|ねが]いします。",
+     "kana": "これをおねがいします。"
+    },
+    {
+     "slug": "restaurant-06",
+     "stage": 2,
+     "en": "The bill, please.",
+     "ms": "Minta bil.",
+     "jp": "お会計をお願いします。",
+     "reading": "お[会計|かいけい]をお[願|ねが]いします。",
+     "kana": "おかいけいをおねがいします。"
+    },
+    {
+     "slug": "restaurant-07",
+     "stage": 3,
+     "en": "I can't eat pork.",
+     "ms": "Saya tidak boleh makan daging babi.",
+     "jp": "豚肉は食べられません。",
+     "reading": "[豚肉|ぶたにく]は[食|た]べられません。",
+     "kana": "ぶたにくはたべられません。"
+    },
+    {
+     "slug": "restaurant-08",
+     "stage": 3,
+     "en": "No ice, please.",
+     "ms": "Tanpa ais, ya.",
+     "jp": "氷なしでお願いします。",
+     "reading": "[氷|こおり]なしでお[願|ねが]いします。",
+     "kana": "こおりなしでおねがいします。"
+    },
+    {
+     "slug": "restaurant-09",
+     "stage": 3,
+     "en": "Two coffees, please.",
+     "ms": "Minta dua kopi.",
+     "jp": "コーヒーを二つお願いします。",
+     "reading": "コーヒーを[二|ふた]つお[願|ねが]いします。",
+     "kana": "コーヒーをふたつおねがいします。"
+    },
+    {
+     "slug": "restaurant-10",
+     "stage": 4,
+     "en": "What do you recommend?",
+     "ms": "Apa yang anda cadangkan?",
+     "jp": "おすすめは何ですか？",
+     "reading": "おすすめは[何|なん]ですか？",
+     "kana": "おすすめはなんですか？"
+    },
+    {
+     "slug": "restaurant-11",
+     "stage": 4,
+     "en": "Do you have halal food?",
+     "ms": "Ada makanan halal?",
+     "jp": "ハラールの料理はありますか？",
+     "reading": "ハラールの[料理|りょうり]はありますか？",
+     "kana": "ハラールのりょうりはありますか？"
+    },
+    {
+     "slug": "restaurant-12",
+     "stage": 4,
+     "en": "Does this have pork in it?",
+     "ms": "Adakah ini mengandungi daging babi?",
+     "jp": "これに豚肉は入っていますか？",
+     "reading": "これに[豚肉|ぶたにく]は[入|はい]っていますか？",
+     "kana": "これにぶたにくははいっていますか？"
+    },
+    {
+     "slug": "restaurant-13",
+     "stage": 4,
+     "en": "Can I use a card?",
+     "ms": "Boleh guna kad?",
+     "jp": "カードは使えますか？",
+     "reading": "カードは[使|つか]えますか？",
+     "kana": "カードはつかえますか？"
+    },
+    {
+     "slug": "restaurant-14",
+     "stage": 5,
+     "en": "I'm Yamada. I booked for seven o'clock.",
+     "ms": "Saya Yamada, saya sudah buat tempahan untuk pukul tujuh.",
+     "jp": "七時に予約した山田です。",
+     "reading": "[七時|しちじ]に[予約|よやく]した[山田|やまだ]です。",
+     "kana": "しちじによやくしたやまだです。"
+    },
+    {
+     "slug": "restaurant-15",
+     "stage": 5,
+     "en": "It was very good. Thank you for the meal.",
+     "ms": "Sangat sedap. Terima kasih atas hidangan.",
+     "jp": "とてもおいしかったです。ごちそうさまでした。",
+     "reading": "とてもおいしかったです。ごちそうさまでした。",
+     "kana": "とてもおいしかったです。ごちそうさまでした。"
+    },
+    {
+     "slug": "restaurant-16",
+     "stage": 6,
+     "en": "I don't drink alcohol, so tea, please.",
+     "ms": "Saya tidak minum arak, jadi minta teh.",
+     "jp": "お酒は飲めないので、お茶をお願いします。",
+     "reading": "お[酒|さけ]は[飲|の]めないので、お[茶|ちゃ]をお[願|ねが]いします。",
+     "kana": "おさけはのめないので、おちゃをおねがいします。"
+    }
+   ]
+  },
+  {
+   "slug": "shopping",
+   "title": "Shopping",
+   "description": "Use these in shops to ask prices, try things on and pay.",
+   "phrases": [
+    {
+     "slug": "shopping-01",
+     "stage": 1,
+     "en": "How much is it?",
+     "ms": "Berapa harganya?",
+     "jp": "いくらですか？",
+     "reading": "いくらですか？",
+     "kana": "いくらですか？"
+    },
+    {
+     "slug": "shopping-02",
+     "stage": 1,
+     "en": "I'm just looking.",
+     "ms": "Saya tengok-tengok saja.",
+     "jp": "見ているだけです。",
+     "reading": "[見|み]ているだけです。",
+     "kana": "みているだけです。"
+    },
+    {
+     "slug": "shopping-03",
+     "stage": 2,
+     "en": "I'll take this, please.",
+     "ms": "Saya nak beli yang ini.",
+     "jp": "これをください。",
+     "reading": "これをください。",
+     "kana": "これをください。"
+    },
+    {
+     "slug": "shopping-04",
+     "stage": 2,
+     "en": "A bag, please.",
+     "ms": "Minta beg.",
+     "jp": "袋をお願いします。",
+     "reading": "[袋|ふくろ]をお[願|ねが]いします。",
+     "kana": "ふくろをおねがいします。"
+    },
+    {
+     "slug": "shopping-05",
+     "stage": 2,
+     "en": "Gift-wrapped, please.",
+     "ms": "Tolong balut sebagai hadiah.",
+     "jp": "プレゼント用にお願いします。",
+     "reading": "プレゼント[用|よう]にお[願|ねが]いします。",
+     "kana": "プレゼントようにおねがいします。"
+    },
+    {
+     "slug": "shopping-06",
+     "stage": 3,
+     "en": "I'm looking for souvenirs.",
+     "ms": "Saya sedang mencari cenderamata.",
+     "jp": "お土産を探しています。",
+     "reading": "お[土産|みやげ]を[探|さが]しています。",
+     "kana": "おみやげをさがしています。"
+    },
+    {
+     "slug": "shopping-07",
+     "stage": 3,
+     "en": "I'd like something a bit cheaper.",
+     "ms": "Saya nak yang lebih murah sedikit.",
+     "jp": "もう少し安いのがいいです。",
+     "reading": "もう[少|すこ]し[安|やす]いのがいいです。",
+     "kana": "もうすこしやすいのがいいです。"
+    },
+    {
+     "slug": "shopping-08",
+     "stage": 4,
+     "en": "May I try it on?",
+     "ms": "Boleh saya cuba pakai?",
+     "jp": "試着してもいいですか？",
+     "reading": "[試着|しちゃく]してもいいですか？",
+     "kana": "しちゃくしてもいいですか？"
+    },
+    {
+     "slug": "shopping-09",
+     "stage": 4,
+     "en": "Do you have a slightly bigger size?",
+     "ms": "Ada saiz yang besar sedikit?",
+     "jp": "もう少し大きいサイズはありますか？",
+     "reading": "もう[少|すこ]し[大|おお]きいサイズはありますか？",
+     "kana": "もうすこしおおきいサイズはありますか？"
+    },
+    {
+     "slug": "shopping-10",
+     "stage": 4,
+     "en": "Is this made in Japan?",
+     "ms": "Adakah ini buatan Jepun?",
+     "jp": "これは日本製ですか？",
+     "reading": "これは[日本|にほん][製|せい]ですか？",
+     "kana": "これはにほんせいですか？"
+    },
+    {
+     "slug": "shopping-11",
+     "stage": 4,
+     "en": "Can I buy it tax-free?",
+     "ms": "Boleh beli bebas cukai?",
+     "jp": "免税できますか？",
+     "reading": "[免税|めんぜい]できますか？",
+     "kana": "めんぜいできますか？"
+    },
+    {
+     "slug": "shopping-12",
+     "stage": 5,
+     "en": "I bought this here yesterday.",
+     "ms": "Saya beli ini di sini semalam.",
+     "jp": "昨日ここで買いました。",
+     "reading": "[昨日|きのう]ここで[買|か]いました。",
+     "kana": "きのうここでかいました。"
+    },
+    {
+     "slug": "shopping-13",
+     "stage": 5,
+     "en": "I'll come again.",
+     "ms": "Saya akan datang lagi.",
+     "jp": "また来ます。",
+     "reading": "また[来|き]ます。",
+     "kana": "またきます。"
+    },
+    {
+     "slug": "shopping-14",
+     "stage": 6,
+     "en": "It doesn't fit, so can I exchange it?",
+     "ms": "Saiznya tak muat, jadi boleh saya tukar?",
+     "jp": "サイズが合わないので、交換できますか？",
+     "reading": "サイズが[合|あ]わないので、[交換|こうかん]できますか？",
+     "kana": "サイズがあわないので、こうかんできますか？"
+    },
+    {
+     "slug": "shopping-15",
+     "stage": 6,
+     "en": "It's cute, but it's a bit expensive.",
+     "ms": "Comel, tapi agak mahal.",
+     "jp": "かわいいですけど、ちょっと高いですね。",
+     "reading": "かわいいですけど、ちょっと[高|たか]いですね。",
+     "kana": "かわいいですけど、ちょっとたかいですね。"
+    },
+    {
+     "slug": "shopping-16",
+     "stage": 7,
+     "en": "I'm looking for a souvenir for my mother. She likes sweet things.",
+     "ms": "Saya sedang mencari cenderamata untuk ibu saya. Dia suka makanan manis.",
+     "jp": "母へのお土産を探しています。甘いものが好きです。",
+     "reading": "[母|はは]へのお[土産|みやげ]を[探|さが]しています。[甘|あま]いものが[好|す]きです。",
+     "kana": "ははへのおみやげをさがしています。あまいものがすきです。"
+    }
+   ]
+  },
+  {
+   "slug": "getting-around",
+   "title": "Getting around: train, bus, taxi",
+   "description": "Use these on trains, buses and taxis to find the right line and get where you are going.",
+   "phrases": [
+    {
+     "slug": "getting-around-01",
+     "stage": 1,
+     "en": "Excuse me, I'm getting off.",
+     "ms": "Maaf, saya nak turun.",
+     "jp": "すみません、降ります。",
+     "reading": "すみません、[降|お]ります。",
+     "kana": "すみません、おります。"
+    },
+    {
+     "slug": "getting-around-02",
+     "stage": 2,
+     "en": "Please stop here.",
+     "ms": "Tolong berhenti di sini.",
+     "jp": "ここで止めてください。",
+     "reading": "ここで[止|と]めてください。",
+     "kana": "ここでとめてください。"
+    },
+    {
+     "slug": "getting-around-03",
+     "stage": 2,
+     "en": "To Tokyo Station, please.",
+     "ms": "Ke Stesen Tokyo, ya.",
+     "jp": "東京駅までお願いします。",
+     "reading": "[東京|とうきょう][駅|えき]までお[願|ねが]いします。",
+     "kana": "とうきょうえきまでおねがいします。"
+    },
+    {
+     "slug": "getting-around-04",
+     "stage": 2,
+     "en": "Two adult tickets, please.",
+     "ms": "Minta dua tiket dewasa.",
+     "jp": "大人二枚ください。",
+     "reading": "[大人|おとな][二|に][枚|まい]ください。",
+     "kana": "おとなにまいください。"
+    },
+    {
+     "slug": "getting-around-05",
+     "stage": 3,
+     "en": "I want to go to Shinjuku.",
+     "ms": "Saya nak pergi ke Shinjuku.",
+     "jp": "新宿に行きたいです。",
+     "reading": "[新宿|しんじゅく]に[行|い]きたいです。",
+     "kana": "しんじゅくにいきたいです。"
+    },
+    {
+     "slug": "getting-around-06",
+     "stage": 3,
+     "en": "I'd like to top up my card.",
+     "ms": "Saya nak tambah nilai kad saya.",
+     "jp": "カードにチャージしたいです。",
+     "reading": "カードにチャージしたいです。",
+     "kana": "カードにチャージしたいです。"
+    },
+    {
+     "slug": "getting-around-07",
+     "stage": 4,
+     "en": "Does this train go to Shinjuku?",
+     "ms": "Adakah kereta api ini pergi ke Shinjuku?",
+     "jp": "この電車は新宿に行きますか？",
+     "reading": "この[電車|でんしゃ]は[新宿|しんじゅく]に[行|い]きますか？",
+     "kana": "このでんしゃはしんじゅくにいきますか？"
+    },
+    {
+     "slug": "getting-around-08",
+     "stage": 4,
+     "en": "What time is the next train?",
+     "ms": "Pukul berapa kereta api seterusnya?",
+     "jp": "次の電車は何時ですか？",
+     "reading": "[次|つぎ]の[電車|でんしゃ]は[何時|なんじ]ですか？",
+     "kana": "つぎのでんしゃはなんじですか？"
+    },
+    {
+     "slug": "getting-around-09",
+     "stage": 4,
+     "en": "Which platform is it?",
+     "ms": "Platform nombor berapa?",
+     "jp": "何番線ですか？",
+     "reading": "[何|なん][番線|ばんせん]ですか？",
+     "kana": "なんばんせんですか？"
+    },
+    {
+     "slug": "getting-around-10",
+     "stage": 4,
+     "en": "Where do I change trains?",
+     "ms": "Di mana saya perlu tukar kereta api?",
+     "jp": "どこで乗り換えますか？",
+     "reading": "どこで[乗|の]り[換|か]えますか？",
+     "kana": "どこでのりかえますか？"
+    },
+    {
+     "slug": "getting-around-11",
+     "stage": 4,
+     "en": "Does this bus go to the airport?",
+     "ms": "Adakah bas ini pergi ke lapangan terbang?",
+     "jp": "このバスは空港に行きますか？",
+     "reading": "このバスは[空港|くうこう]に[行|い]きますか？",
+     "kana": "このバスはくうこうにいきますか？"
+    },
+    {
+     "slug": "getting-around-12",
+     "stage": 5,
+     "en": "I got on the wrong train.",
+     "ms": "Saya tersalah naik kereta api.",
+     "jp": "電車を間違えました。",
+     "reading": "[電車|でんしゃ]を[間違|まちが]えました。",
+     "kana": "でんしゃをまちがえました。"
+    },
+    {
+     "slug": "getting-around-13",
+     "stage": 5,
+     "en": "I went past my stop.",
+     "ms": "Saya terlepas stesen saya.",
+     "jp": "降りる駅を過ぎてしまいました。",
+     "reading": "[降|お]りる[駅|えき]を[過|す]ぎてしまいました。",
+     "kana": "おりるえきをすぎてしまいました。"
+    },
+    {
+     "slug": "getting-around-14",
+     "stage": 6,
+     "en": "The roads are busy, so I'll go by train.",
+     "ms": "Jalan sesak, jadi saya akan naik kereta api.",
+     "jp": "道が混んでいるので、電車で行きます。",
+     "reading": "[道|みち]が[混|こ]んでいるので、[電車|でんしゃ]で[行|い]きます。",
+     "kana": "みちがこんでいるので、でんしゃでいきます。"
+    },
+    {
+     "slug": "getting-around-15",
+     "stage": 6,
+     "en": "I lost my ticket. What should I do?",
+     "ms": "Saya kehilangan tiket. Apa yang patut saya buat?",
+     "jp": "切符をなくしてしまったんですが、どうすればいいですか？",
+     "reading": "[切符|きっぷ]をなくしてしまったんですが、どうすればいいですか？",
+     "kana": "きっぷをなくしてしまったんですが、どうすればいいですか？"
+    }
+   ]
+  },
+  {
+   "slug": "travel-hotel",
+   "title": "Travel & hotel",
+   "description": "Use these when checking in, asking hotel staff for things and talking about your trip.",
+   "phrases": [
+    {
+     "slug": "travel-hotel-01",
+     "stage": 1,
+     "en": "One night.",
+     "ms": "Satu malam.",
+     "jp": "一泊です。",
+     "reading": "[一泊|いっぱく]です。",
+     "kana": "いっぱくです。"
+    },
+    {
+     "slug": "travel-hotel-02",
+     "stage": 1,
+     "en": "Here is my passport.",
+     "ms": "Ini pasport saya.",
+     "jp": "パスポートです。",
+     "reading": "パスポートです。",
+     "kana": "パスポートです。"
+    },
+    {
+     "slug": "travel-hotel-03",
+     "stage": 2,
+     "en": "Check-in, please.",
+     "ms": "Saya nak daftar masuk.",
+     "jp": "チェックインをお願いします。",
+     "reading": "チェックインをお[願|ねが]いします。",
+     "kana": "チェックインをおねがいします。"
+    },
+    {
+     "slug": "travel-hotel-04",
+     "stage": 2,
+     "en": "One more towel, please.",
+     "ms": "Minta satu lagi tuala.",
+     "jp": "タオルをもう一枚ください。",
+     "reading": "タオルをもう[一|いち][枚|まい]ください。",
+     "kana": "タオルをもういちまいください。"
+    },
+    {
+     "slug": "travel-hotel-05",
+     "stage": 3,
+     "en": "I have a reservation under the name Ali.",
+     "ms": "Saya ada tempahan atas nama Ali.",
+     "jp": "アリの名前で予約しています。",
+     "reading": "アリの[名前|なまえ]で[予約|よやく]しています。",
+     "kana": "アリのなまえでよやくしています。"
+    },
+    {
+     "slug": "travel-hotel-06",
+     "stage": 3,
+     "en": "I'd like to stay one more night.",
+     "ms": "Saya nak tinggal satu malam lagi.",
+     "jp": "もう一泊したいです。",
+     "reading": "もう[一泊|いっぱく]したいです。",
+     "kana": "もういっぱくしたいです。"
+    },
+    {
+     "slug": "travel-hotel-07",
+     "stage": 4,
+     "en": "What time does breakfast start?",
+     "ms": "Sarapan bermula pukul berapa?",
+     "jp": "朝ごはんは何時からですか？",
+     "reading": "[朝|あさ]ごはんは[何時|なんじ]からですか？",
+     "kana": "あさごはんはなんじからですか？"
+    },
+    {
+     "slug": "travel-hotel-08",
+     "stage": 4,
+     "en": "What time is check-out?",
+     "ms": "Daftar keluar pukul berapa?",
+     "jp": "チェックアウトは何時ですか？",
+     "reading": "チェックアウトは[何時|なんじ]ですか？",
+     "kana": "チェックアウトはなんじですか？"
+    },
+    {
+     "slug": "travel-hotel-09",
+     "stage": 4,
+     "en": "Could you keep my luggage?",
+     "ms": "Boleh tolong simpan beg saya?",
+     "jp": "荷物を預かってもらえますか？",
+     "reading": "[荷物|にもつ]を[預|あず]かってもらえますか？",
+     "kana": "にもつをあずかってもらえますか？"
+    },
+    {
+     "slug": "travel-hotel-10",
+     "stage": 4,
+     "en": "Is there a convenience store nearby?",
+     "ms": "Ada kedai serbaneka berdekatan?",
+     "jp": "近くにコンビニはありますか？",
+     "reading": "[近|ちか]くにコンビニはありますか？",
+     "kana": "ちかくにコンビニはありますか？"
+    },
+    {
+     "slug": "travel-hotel-11",
+     "stage": 5,
+     "en": "I left my key in the room.",
+     "ms": "Kunci saya tertinggal di dalam bilik.",
+     "jp": "部屋に鍵を忘れました。",
+     "reading": "[部屋|へや]に[鍵|かぎ]を[忘|わす]れました。",
+     "kana": "へやにかぎをわすれました。"
+    },
+    {
+     "slug": "travel-hotel-12",
+     "stage": 5,
+     "en": "I'm planning to go to Kyoto tomorrow.",
+     "ms": "Saya merancang untuk pergi ke Kyoto esok.",
+     "jp": "明日は京都に行く予定です。",
+     "reading": "[明日|あした]は[京都|きょうと]に[行|い]く[予定|よてい]です。",
+     "kana": "あしたはきょうとにいくよていです。"
+    },
+    {
+     "slug": "travel-hotel-13",
+     "stage": 6,
+     "en": "The air conditioner isn't working. Could you take a look?",
+     "ms": "Penghawa dingin tidak berfungsi. Boleh tolong periksa?",
+     "jp": "エアコンが動かないので、見てもらえますか？",
+     "reading": "エアコンが[動|うご]かないので、[見|み]てもらえますか？",
+     "kana": "エアコンがうごかないので、みてもらえますか？"
+    },
+    {
+     "slug": "travel-hotel-14",
+     "stage": 6,
+     "en": "We'll arrive late at night. Is that all right?",
+     "ms": "Kami akan sampai lewat malam. Tidak apa-apa?",
+     "jp": "夜遅く着くんですが、大丈夫ですか？",
+     "reading": "[夜|よる][遅|おそ]く[着|つ]くんですが、[大丈夫|だいじょうぶ]ですか？",
+     "kana": "よるおそくつくんですが、だいじょうぶですか？"
+    },
+    {
+     "slug": "travel-hotel-15",
+     "stage": 7,
+     "en": "Last week I went to Osaka. I saw the castle and ate takoyaki.",
+     "ms": "Minggu lepas saya pergi ke Osaka. Saya melihat istana dan makan takoyaki.",
+     "jp": "先週、大阪に行きました。お城を見て、たこ焼きを食べました。",
+     "reading": "[先週|せんしゅう]、[大阪|おおさか]に[行|い]きました。お[城|しろ]を[見|み]て、たこ[焼|や]きを[食|た]べました。",
+     "kana": "せんしゅう、おおさかにいきました。おしろをみて、たこやきをたべました。"
+    }
+   ]
+  },
+  {
+   "slug": "work",
+   "title": "At work",
+   "description": "Use these with colleagues and in meetings at a Japanese workplace.",
+   "phrases": [
+    {
+     "slug": "work-01",
+     "stage": 1,
+     "en": "Hello. / Thanks for your hard work. (greeting colleagues)",
+     "ms": "Terima kasih atas usaha anda. (sapaan kepada rakan sekerja)",
+     "jp": "お疲れさまです。",
+     "reading": "お[疲|つか]れさまです。",
+     "kana": "おつかれさまです。"
+    },
+    {
+     "slug": "work-02",
+     "stage": 1,
+     "en": "Excuse me for leaving before you.",
+     "ms": "Saya balik dulu, ya.",
+     "jp": "お先に失礼します。",
+     "reading": "お[先|さき]に[失礼|しつれい]します。",
+     "kana": "おさきにしつれいします。"
+    },
+    {
+     "slug": "work-03",
+     "stage": 1,
+     "en": "Understood.",
+     "ms": "Baik, saya faham.",
+     "jp": "承知しました。",
+     "reading": "[承知|しょうち]しました。",
+     "kana": "しょうちしました。"
+    },
+    {
+     "slug": "work-04",
+     "stage": 1,
+     "en": "I'll check.",
+     "ms": "Saya akan semak.",
+     "jp": "確認します。",
+     "reading": "[確認|かくにん]します。",
+     "kana": "かくにんします。"
+    },
+    {
+     "slug": "work-05",
+     "stage": 2,
+     "en": "One moment, please.",
+     "ms": "Sila tunggu sebentar.",
+     "jp": "少々お待ちください。",
+     "reading": "[少々|しょうしょう]お[待|ま]ちください。",
+     "kana": "しょうしょうおまちください。"
+    },
+    {
+     "slug": "work-06",
+     "stage": 2,
+     "en": "After you.",
+     "ms": "Silakan dulu.",
+     "jp": "お先にどうぞ。",
+     "reading": "お[先|さき]にどうぞ。",
+     "kana": "おさきにどうぞ。"
+    },
+    {
+     "slug": "work-07",
+     "stage": 3,
+     "en": "The meeting starts at three.",
+     "ms": "Mesyuarat bermula pukul tiga.",
+     "jp": "会議は三時からです。",
+     "reading": "[会議|かいぎ]は[三時|さんじ]からです。",
+     "kana": "かいぎはさんじからです。"
+    },
+    {
+     "slug": "work-08",
+     "stage": 3,
+     "en": "I'm working from home today.",
+     "ms": "Hari ini saya bekerja dari rumah.",
+     "jp": "今日は在宅勤務です。",
+     "reading": "[今日|きょう]は[在宅|ざいたく][勤務|きんむ]です。",
+     "kana": "きょうはざいたくきんむです。"
+    },
+    {
+     "slug": "work-09",
+     "stage": 3,
+     "en": "I'll send the documents by email.",
+     "ms": "Saya akan hantar dokumen melalui e-mel.",
+     "jp": "資料をメールで送ります。",
+     "reading": "[資料|しりょう]をメールで[送|おく]ります。",
+     "kana": "しりょうをメールでおくります。"
+    },
+    {
+     "slug": "work-10",
+     "stage": 4,
+     "en": "Do you have a moment?",
+     "ms": "Ada masa sekejap?",
+     "jp": "今、ちょっといいですか？",
+     "reading": "[今|いま]、ちょっといいですか？",
+     "kana": "いま、ちょっといいですか？"
+    },
+    {
+     "slug": "work-11",
+     "stage": 4,
+     "en": "When is this due?",
+     "ms": "Bila tarikh akhir untuk ini?",
+     "jp": "これはいつまでですか？",
+     "reading": "これはいつまでですか？",
+     "kana": "これはいつまでですか？"
+    },
+    {
+     "slug": "work-12",
+     "stage": 4,
+     "en": "Shall I help with anything?",
+     "ms": "Ada apa-apa yang boleh saya bantu?",
+     "jp": "何か手伝いましょうか？",
+     "reading": "[何|なに]か[手伝|てつだ]いましょうか？",
+     "kana": "なにかてつだいましょうか？"
+    },
+    {
+     "slug": "work-13",
+     "stage": 5,
+     "en": "I already sent the report.",
+     "ms": "Saya sudah menghantar laporan itu.",
+     "jp": "報告書はもう送りました。",
+     "reading": "[報告|ほうこく][書|しょ]はもう[送|おく]りました。",
+     "kana": "ほうこくしょはもうおくりました。"
+    },
+    {
+     "slug": "work-14",
+     "stage": 5,
+     "en": "I'll be taking tomorrow off.",
+     "ms": "Saya akan bercuti esok.",
+     "jp": "明日、お休みをいただきます。",
+     "reading": "[明日|あした]、お[休|やす]みをいただきます。",
+     "kana": "あした、おやすみをいただきます。"
+    },
+    {
+     "slug": "work-15",
+     "stage": 6,
+     "en": "The train is delayed, so I'll be about ten minutes late.",
+     "ms": "Kereta api lewat, jadi saya akan terlambat kira-kira sepuluh minit.",
+     "jp": "電車が遅れているので、十分ほど遅れます。",
+     "reading": "[電車|でんしゃ]が[遅|おく]れているので、[十分|じゅっぷん]ほど[遅|おく]れます。",
+     "kana": "でんしゃがおくれているので、じゅっぷんほどおくれます。"
+    },
+    {
+     "slug": "work-16",
+     "stage": 6,
+     "en": "I'm sorry, but could you explain it once more?",
+     "ms": "Maaf, boleh terangkan sekali lagi?",
+     "jp": "申し訳ありませんが、もう一度説明していただけますか？",
+     "reading": "[申|もう]し[訳|わけ]ありませんが、もう[一度|いちど][説明|せつめい]していただけますか？",
+     "kana": "もうしわけありませんが、もういちどせつめいしていただけますか？"
+    }
+   ]
+  },
+  {
+   "slug": "feelings-health",
+   "title": "Feelings & health",
+   "description": "Use these to say how you feel and to get help when you are unwell.",
+   "phrases": [
+    {
+     "slug": "feelings-health-01",
+     "stage": 1,
+     "en": "I'm happy.",
+     "ms": "Saya gembira.",
+     "jp": "うれしいです。",
+     "reading": "うれしいです。",
+     "kana": "うれしいです。"
+    },
+    {
+     "slug": "feelings-health-02",
+     "stage": 1,
+     "en": "I'm tired.",
+     "ms": "Saya penat.",
+     "jp": "疲れました。",
+     "reading": "[疲|つか]れました。",
+     "kana": "つかれました。"
+    },
+    {
+     "slug": "feelings-health-03",
+     "stage": 1,
+     "en": "I'm OK.",
+     "ms": "Saya okey.",
+     "jp": "大丈夫です。",
+     "reading": "[大丈夫|だいじょうぶ]です。",
+     "kana": "だいじょうぶです。"
+    },
+    {
+     "slug": "feelings-health-04",
+     "stage": 2,
+     "en": "I have a headache.",
+     "ms": "Saya sakit kepala.",
+     "jp": "頭が痛いです。",
+     "reading": "[頭|あたま]が[痛|いた]いです。",
+     "kana": "あたまがいたいです。"
+    },
+    {
+     "slug": "feelings-health-05",
+     "stage": 2,
+     "en": "I have a stomach ache.",
+     "ms": "Saya sakit perut.",
+     "jp": "お腹が痛いです。",
+     "reading": "お[腹|なか]が[痛|いた]いです。",
+     "kana": "おなかがいたいです。"
+    },
+    {
+     "slug": "feelings-health-06",
+     "stage": 2,
+     "en": "I'm a bit cold.",
+     "ms": "Saya rasa sejuk sedikit.",
+     "jp": "ちょっと寒いです。",
+     "reading": "ちょっと[寒|さむ]いです。",
+     "kana": "ちょっとさむいです。"
+    },
+    {
+     "slug": "feelings-health-07",
+     "stage": 2,
+     "en": "I have a fever.",
+     "ms": "Saya demam.",
+     "jp": "熱があります。",
+     "reading": "[熱|ねつ]があります。",
+     "kana": "ねつがあります。"
+    },
+    {
+     "slug": "feelings-health-08",
+     "stage": 3,
+     "en": "I'd like some medicine.",
+     "ms": "Saya perlukan ubat.",
+     "jp": "薬がほしいです。",
+     "reading": "[薬|くすり]がほしいです。",
+     "kana": "くすりがほしいです。"
+    },
+    {
+     "slug": "feelings-health-09",
+     "stage": 3,
+     "en": "I want to go to a hospital.",
+     "ms": "Saya nak pergi ke hospital.",
+     "jp": "病院に行きたいです。",
+     "reading": "[病院|びょういん]に[行|い]きたいです。",
+     "kana": "びょういんにいきたいです。"
+    },
+    {
+     "slug": "feelings-health-10",
+     "stage": 4,
+     "en": "Are you all right?",
+     "ms": "Anda tidak apa-apa?",
+     "jp": "大丈夫ですか？",
+     "reading": "[大丈夫|だいじょうぶ]ですか？",
+     "kana": "だいじょうぶですか？"
+    },
+    {
+     "slug": "feelings-health-11",
+     "stage": 4,
+     "en": "Is there a hospital nearby?",
+     "ms": "Ada hospital berdekatan?",
+     "jp": "近くに病院はありますか？",
+     "reading": "[近|ちか]くに[病院|びょういん]はありますか？",
+     "kana": "ちかくにびょういんはありますか？"
+    },
+    {
+     "slug": "feelings-health-12",
+     "stage": 4,
+     "en": "How many times a day do I take this medicine?",
+     "ms": "Berapa kali sehari saya perlu makan ubat ini?",
+     "jp": "この薬は一日何回飲みますか？",
+     "reading": "この[薬|くすり]は[一日|いちにち][何回|なんかい][飲|の]みますか？",
+     "kana": "このくすりはいちにちなんかいのみますか？"
+    },
+    {
+     "slug": "feelings-health-13",
+     "stage": 5,
+     "en": "My throat has been sore since yesterday.",
+     "ms": "Tekak saya sakit sejak semalam.",
+     "jp": "昨日から喉が痛いです。",
+     "reading": "[昨日|きのう]から[喉|のど]が[痛|いた]いです。",
+     "kana": "きのうからのどがいたいです。"
+    },
+    {
+     "slug": "feelings-health-14",
+     "stage": 5,
+     "en": "I couldn't sleep well.",
+     "ms": "Saya tidak dapat tidur lena.",
+     "jp": "よく眠れませんでした。",
+     "reading": "よく[眠|ねむ]れませんでした。",
+     "kana": "よくねむれませんでした。"
+    },
+    {
+     "slug": "feelings-health-15",
+     "stage": 6,
+     "en": "I feel unwell. May I rest for a bit?",
+     "ms": "Saya rasa tidak sihat. Boleh saya berehat sekejap?",
+     "jp": "気分が悪いので、少し休んでもいいですか？",
+     "reading": "[気分|きぶん]が[悪|わる]いので、[少|すこ]し[休|やす]んでもいいですか？",
+     "kana": "きぶんがわるいので、すこしやすんでもいいですか？"
+    },
+    {
+     "slug": "feelings-health-16",
+     "stage": 6,
+     "en": "I'm allergic to eggs, so I can't eat it.",
+     "ms": "Saya alah kepada telur, jadi saya tidak boleh makannya.",
+     "jp": "卵のアレルギーがあるので、食べられません。",
+     "reading": "[卵|たまご]のアレルギーがあるので、[食|た]べられません。",
+     "kana": "たまごのアレルギーがあるので、たべられません。"
+    }
+   ]
+  },
+  {
+   "slug": "asking-help",
+   "title": "Asking for help & directions",
+   "description": "Use these when you don't understand, get lost or need someone's help.",
+   "phrases": [
+    {
+     "slug": "asking-help-01",
+     "stage": 1,
+     "en": "I don't understand.",
+     "ms": "Saya tidak faham.",
+     "jp": "わかりません。",
+     "reading": "わかりません。",
+     "kana": "わかりません。"
+    },
+    {
+     "slug": "asking-help-02",
+     "stage": 1,
+     "en": "I see. / Got it.",
+     "ms": "Baik, saya faham.",
+     "jp": "わかりました。",
+     "reading": "わかりました。",
+     "kana": "わかりました。"
+    },
+    {
+     "slug": "asking-help-03",
+     "stage": 2,
+     "en": "Please help me.",
+     "ms": "Tolong saya.",
+     "jp": "助けてください。",
+     "reading": "[助|たす]けてください。",
+     "kana": "たすけてください。"
+    },
+    {
+     "slug": "asking-help-04",
+     "stage": 2,
+     "en": "Once more, please.",
+     "ms": "Sekali lagi, boleh?",
+     "jp": "もう一度お願いします。",
+     "reading": "もう[一度|いちど]お[願|ねが]いします。",
+     "kana": "もういちどおねがいします。"
+    },
+    {
+     "slug": "asking-help-05",
+     "stage": 2,
+     "en": "Please speak slowly.",
+     "ms": "Tolong cakap perlahan-lahan.",
+     "jp": "ゆっくり話してください。",
+     "reading": "ゆっくり[話|はな]してください。",
+     "kana": "ゆっくりはなしてください。"
+    },
+    {
+     "slug": "asking-help-06",
+     "stage": 2,
+     "en": "Please write it down.",
+     "ms": "Tolong tuliskan.",
+     "jp": "書いてください。",
+     "reading": "[書|か]いてください。",
+     "kana": "かいてください。"
+    },
+    {
+     "slug": "asking-help-07",
+     "stage": 3,
+     "en": "I'm lost.",
+     "ms": "Saya sesat.",
+     "jp": "道に迷いました。",
+     "reading": "[道|みち]に[迷|まよ]いました。",
+     "kana": "みちにまよいました。"
+    },
+    {
+     "slug": "asking-help-08",
+     "stage": 4,
+     "en": "Excuse me, where is the toilet?",
+     "ms": "Maaf, tandas di mana?",
+     "jp": "すみません、トイレはどこですか？",
+     "reading": "すみません、トイレはどこですか？",
+     "kana": "すみません、トイレはどこですか？"
+    },
+    {
+     "slug": "asking-help-09",
+     "stage": 4,
+     "en": "Do you speak English?",
+     "ms": "Anda boleh bercakap bahasa Inggeris?",
+     "jp": "英語を話せますか？",
+     "reading": "[英語|えいご]を[話|はな]せますか？",
+     "kana": "えいごをはなせますか？"
+    },
+    {
+     "slug": "asking-help-10",
+     "stage": 4,
+     "en": "Where are we on this map?",
+     "ms": "Kita di mana dalam peta ini?",
+     "jp": "この地図で、ここはどこですか？",
+     "reading": "この[地図|ちず]で、ここはどこですか？",
+     "kana": "このちずで、ここはどこですか？"
+    },
+    {
+     "slug": "asking-help-11",
+     "stage": 4,
+     "en": "How do you say this in Japanese?",
+     "ms": "Apa ini dalam bahasa Jepun?",
+     "jp": "これは日本語で何と言いますか？",
+     "reading": "これは[日本語|にほんご]で[何|なん]と[言|い]いますか？",
+     "kana": "これはにほんごでなんといいますか？"
+    },
+    {
+     "slug": "asking-help-12",
+     "stage": 4,
+     "en": "Could you take a photo for us?",
+     "ms": "Boleh tolong ambil gambar kami?",
+     "jp": "写真を撮ってもらえますか？",
+     "reading": "[写真|しゃしん]を[撮|と]ってもらえますか？",
+     "kana": "しゃしんをとってもらえますか？"
+    },
+    {
+     "slug": "asking-help-13",
+     "stage": 5,
+     "en": "I lost my wallet.",
+     "ms": "Saya kehilangan dompet.",
+     "jp": "財布をなくしました。",
+     "reading": "[財布|さいふ]をなくしました。",
+     "kana": "さいふをなくしました。"
+    },
+    {
+     "slug": "asking-help-14",
+     "stage": 5,
+     "en": "I left my phone on the train.",
+     "ms": "Telefon saya tertinggal di dalam kereta api.",
+     "jp": "スマホを電車に忘れました。",
+     "reading": "スマホを[電車|でんしゃ]に[忘|わす]れました。",
+     "kana": "スマホをでんしゃにわすれました。"
+    },
+    {
+     "slug": "asking-help-15",
+     "stage": 6,
+     "en": "I don't know the way. Could you tell me?",
+     "ms": "Saya tak tahu jalan. Boleh tolong tunjukkan?",
+     "jp": "道がわからないので、教えてもらえますか？",
+     "reading": "[道|みち]がわからないので、[教|おし]えてもらえますか？",
+     "kana": "みちがわからないので、おしえてもらえますか？"
+    },
+    {
+     "slug": "asking-help-16",
+     "stage": 7,
+     "en": "Excuse me, I want to go to the station. Is this the right way?",
+     "ms": "Maaf, saya nak pergi ke stesen. Betulkah jalan ini?",
+     "jp": "すみません、駅に行きたいんですが、この道で合っていますか？",
+     "reading": "すみません、[駅|えき]に[行|い]きたいんですが、この[道|みち]で[合|あ]っていますか？",
+     "kana": "すみません、えきにいきたいんですが、このみちであっていますか？"
+    }
+   ]
+  }
+ ]
+}

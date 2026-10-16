@@ -1,0 +1,1414 @@
+{
+ "note": "Starter phrases for Newcomer, by topic. Stage 1-7 follows how children's speech grows: 1 single chunks and set phrases, 2 two-part phrases (X ください), 3 frames with a slot (〜に いきたいです), 4 questions and answers, 5 past and future, 6 two clauses joined (から, けど, て), 7 a short story or explanation. npm run build:newcomer adds furigana and kana. A phrase may pin its furigana with \"reading\" when the automatic reading is wrong.",
+ "topics": [
+  {
+   "slug": "greetings",
+   "title": "Greetings & first words",
+   "description": "Use these to say hello, thank people and be polite in your first conversations.",
+   "phrases": [
+    {
+     "slug": "greetings-01",
+     "stage": 1,
+     "en": "Good morning.",
+     "ms": "Selamat pagi.",
+     "jp": "おはようございます。"
+    },
+    {
+     "slug": "greetings-02",
+     "stage": 1,
+     "en": "Hello. / Good afternoon.",
+     "ms": "Helo. / Selamat tengah hari.",
+     "jp": "こんにちは。"
+    },
+    {
+     "slug": "greetings-03",
+     "stage": 1,
+     "en": "Good evening.",
+     "ms": "Selamat malam.",
+     "jp": "こんばんは。"
+    },
+    {
+     "slug": "greetings-04",
+     "stage": 1,
+     "en": "Thank you.",
+     "ms": "Terima kasih.",
+     "jp": "ありがとうございます。"
+    },
+    {
+     "slug": "greetings-05",
+     "stage": 1,
+     "en": "Excuse me. / Sorry.",
+     "ms": "Maaf. / Tumpang tanya.",
+     "jp": "すみません。"
+    },
+    {
+     "slug": "greetings-06",
+     "stage": 1,
+     "en": "You're welcome.",
+     "ms": "Sama-sama.",
+     "jp": "どういたしまして。"
+    },
+    {
+     "slug": "greetings-07",
+     "stage": 1,
+     "en": "Nice to meet you.",
+     "ms": "Selamat berkenalan.",
+     "jp": "はじめまして。"
+    },
+    {
+     "slug": "greetings-08",
+     "stage": 1,
+     "en": "I look forward to working with you. / Nice to meet you.",
+     "ms": "Mohon tunjuk ajar. / Selamat berkenalan.",
+     "jp": "よろしくお願いします。"
+    },
+    {
+     "slug": "greetings-09",
+     "stage": 1,
+     "en": "Long time no see.",
+     "ms": "Lama tak jumpa.",
+     "jp": "お久しぶりです。"
+    },
+    {
+     "slug": "greetings-10",
+     "stage": 2,
+     "en": "How are you?",
+     "ms": "Apa khabar?",
+     "jp": "お元気ですか？"
+    },
+    {
+     "slug": "greetings-11",
+     "stage": 2,
+     "en": "Well then, goodbye.",
+     "ms": "Baiklah, saya minta diri dulu.",
+     "jp": "では、失礼します。"
+    },
+    {
+     "slug": "greetings-12",
+     "stage": 3,
+     "en": "I'm happy to meet you.",
+     "ms": "Saya gembira dapat berjumpa dengan anda.",
+     "jp": "お会いできてうれしいです。"
+    },
+    {
+     "slug": "greetings-13",
+     "stage": 4,
+     "en": "How have you been lately?",
+     "ms": "Bagaimana keadaan anda kebelakangan ini?",
+     "jp": "最近どうですか？"
+    },
+    {
+     "slug": "greetings-14",
+     "stage": 4,
+     "en": "I'm well, thank you.",
+     "ms": "Saya sihat, terima kasih.",
+     "jp": "おかげさまで、元気です。"
+    },
+    {
+     "slug": "greetings-15",
+     "stage": 5,
+     "en": "Thank you for yesterday.",
+     "ms": "Terima kasih untuk semalam.",
+     "jp": "昨日はありがとうございました。"
+    },
+    {
+     "slug": "greetings-16",
+     "stage": 6,
+     "en": "Sorry I'm late.",
+     "ms": "Maaf, saya terlambat.",
+     "jp": "遅くなってすみません。"
+    }
+   ]
+  },
+  {
+   "slug": "about-me",
+   "title": "About me",
+   "description": "Use these to introduce yourself and talk about where you are from and what you do.",
+   "phrases": [
+    {
+     "slug": "about-me-01",
+     "stage": 1,
+     "en": "I'm Malaysian.",
+     "ms": "Saya orang Malaysia.",
+     "jp": "マレーシア人です。",
+     "reading": "マレーシア[人|じん]です。"
+    },
+    {
+     "slug": "about-me-02",
+     "stage": 1,
+     "en": "I'm an office worker.",
+     "ms": "Saya pekerja syarikat.",
+     "jp": "会社員です。"
+    },
+    {
+     "slug": "about-me-03",
+     "stage": 2,
+     "en": "My name is Ali.",
+     "ms": "Nama saya Ali.",
+     "jp": "アリと申します。"
+    },
+    {
+     "slug": "about-me-04",
+     "stage": 3,
+     "en": "I'm from Malaysia.",
+     "ms": "Saya dari Malaysia.",
+     "jp": "マレーシアから来ました。"
+    },
+    {
+     "slug": "about-me-05",
+     "stage": 3,
+     "en": "I live in Kuala Lumpur.",
+     "ms": "Saya tinggal di Kuala Lumpur.",
+     "jp": "クアラルンプールに住んでいます。"
+    },
+    {
+     "slug": "about-me-06",
+     "stage": 3,
+     "en": "I'm studying Japanese.",
+     "ms": "Saya sedang belajar bahasa Jepun.",
+     "jp": "日本語を勉強しています。"
+    },
+    {
+     "slug": "about-me-07",
+     "stage": 3,
+     "en": "I can speak a little Japanese.",
+     "ms": "Saya boleh bercakap sedikit bahasa Jepun.",
+     "jp": "日本語は少し話せます。"
+    },
+    {
+     "slug": "about-me-08",
+     "stage": 3,
+     "en": "My hobby is cooking.",
+     "ms": "Hobi saya memasak.",
+     "jp": "趣味は料理です。"
+    },
+    {
+     "slug": "about-me-09",
+     "stage": 4,
+     "en": "Where are you from?",
+     "ms": "Anda dari mana?",
+     "jp": "どちらから来ましたか？"
+    },
+    {
+     "slug": "about-me-10",
+     "stage": 4,
+     "en": "What do you do for work?",
+     "ms": "Apakah pekerjaan anda?",
+     "jp": "お仕事は何をされていますか？"
+    },
+    {
+     "slug": "about-me-11",
+     "stage": 4,
+     "en": "How long have you been studying Japanese?",
+     "ms": "Sudah berapa lama anda belajar bahasa Jepun?",
+     "jp": "日本語はどのくらい勉強していますか？"
+    },
+    {
+     "slug": "about-me-12",
+     "stage": 5,
+     "en": "Last year I went to Japan for the first time.",
+     "ms": "Tahun lepas saya pergi ke Jepun buat kali pertama.",
+     "jp": "去年、初めて日本に行きました。"
+    },
+    {
+     "slug": "about-me-13",
+     "stage": 5,
+     "en": "Next year I will take the JLPT.",
+     "ms": "Tahun depan saya akan menduduki JLPT.",
+     "jp": "来年、日本語能力試験を受けます。"
+    },
+    {
+     "slug": "about-me-14",
+     "stage": 6,
+     "en": "I like anime, so I started learning Japanese.",
+     "ms": "Saya suka anime, jadi saya mula belajar bahasa Jepun.",
+     "jp": "アニメが好きなので、日本語を始めました。"
+    },
+    {
+     "slug": "about-me-15",
+     "stage": 6,
+     "en": "I can speak Malay and English, but my Japanese still has a long way to go.",
+     "ms": "Saya boleh bertutur bahasa Melayu dan Inggeris, tetapi bahasa Jepun saya masih lemah.",
+     "jp": "マレー語と英語は話せますが、日本語はまだまだです。"
+    },
+    {
+     "slug": "about-me-16",
+     "stage": 7,
+     "en": "I work at a company in Malaysia. Someday I want to work in Japan.",
+     "ms": "Saya bekerja di sebuah syarikat di Malaysia. Suatu hari nanti saya mahu bekerja di Jepun.",
+     "jp": "マレーシアの会社で働いています。いつか日本で働きたいです。"
+    }
+   ]
+  },
+  {
+   "slug": "daily-routine",
+   "title": "My day",
+   "description": "Use these for the everyday moments of your day, from waking up to going to bed.",
+   "phrases": [
+    {
+     "slug": "daily-routine-01",
+     "stage": 1,
+     "en": "I'm off. (said when leaving home)",
+     "ms": "Saya pergi dulu.",
+     "jp": "いってきます。"
+    },
+    {
+     "slug": "daily-routine-02",
+     "stage": 1,
+     "en": "I'm home.",
+     "ms": "Saya dah balik.",
+     "jp": "ただいま。"
+    },
+    {
+     "slug": "daily-routine-03",
+     "stage": 1,
+     "en": "Let's eat. (said before a meal)",
+     "ms": "Jom makan. (sebelum makan)",
+     "jp": "いただきます。"
+    },
+    {
+     "slug": "daily-routine-04",
+     "stage": 1,
+     "en": "Thank you for the meal.",
+     "ms": "Terima kasih atas hidangan ini.",
+     "jp": "ごちそうさまでした。"
+    },
+    {
+     "slug": "daily-routine-05",
+     "stage": 1,
+     "en": "Good night.",
+     "ms": "Selamat malam. (sebelum tidur)",
+     "jp": "おやすみなさい。"
+    },
+    {
+     "slug": "daily-routine-06",
+     "stage": 2,
+     "en": "It's hot today, isn't it?",
+     "ms": "Panas hari ini, kan?",
+     "jp": "今日は暑いですね。"
+    },
+    {
+     "slug": "daily-routine-07",
+     "stage": 3,
+     "en": "I get up at six every morning.",
+     "ms": "Saya bangun pukul enam setiap pagi.",
+     "jp": "毎朝六時に起きます。"
+    },
+    {
+     "slug": "daily-routine-08",
+     "stage": 3,
+     "en": "I go to work by train.",
+     "ms": "Saya pergi kerja dengan kereta api.",
+     "jp": "電車で会社に行きます。"
+    },
+    {
+     "slug": "daily-routine-09",
+     "stage": 3,
+     "en": "I get home around seven.",
+     "ms": "Saya sampai di rumah sekitar pukul tujuh.",
+     "jp": "七時ごろ家に帰ります。"
+    },
+    {
+     "slug": "daily-routine-10",
+     "stage": 4,
+     "en": "What time do you get up?",
+     "ms": "Pukul berapa anda bangun?",
+     "jp": "何時に起きますか？"
+    },
+    {
+     "slug": "daily-routine-11",
+     "stage": 4,
+     "en": "What do you eat for breakfast?",
+     "ms": "Apa yang anda makan untuk sarapan?",
+     "jp": "朝ごはんは何を食べますか？"
+    },
+    {
+     "slug": "daily-routine-12",
+     "stage": 5,
+     "en": "I got up early today.",
+     "ms": "Hari ini saya bangun awal.",
+     "jp": "今日は早く起きました。"
+    },
+    {
+     "slug": "daily-routine-13",
+     "stage": 6,
+     "en": "After I eat, I brush my teeth.",
+     "ms": "Selepas makan, saya gosok gigi.",
+     "jp": "ご飯を食べてから、歯を磨きます。"
+    },
+    {
+     "slug": "daily-routine-14",
+     "stage": 6,
+     "en": "I'm tired today, so I'll go to bed early.",
+     "ms": "Saya penat hari ini, jadi saya akan tidur awal.",
+     "jp": "今日は疲れたので、早く寝ます。"
+    },
+    {
+     "slug": "daily-routine-15",
+     "stage": 7,
+     "en": "I leave home at seven in the morning. After work I go to the gym.",
+     "ms": "Saya keluar rumah pukul tujuh pagi. Selepas kerja saya pergi ke gim.",
+     "jp": "朝は七時に家を出ます。仕事の後はジムに行きます。"
+    }
+   ]
+  },
+  {
+   "slug": "home-family",
+   "title": "Home & family",
+   "description": "Use these to talk about your family and your home, and when visiting someone's house.",
+   "phrases": [
+    {
+     "slug": "home-family-01",
+     "stage": 1,
+     "en": "This is my family.",
+     "ms": "Ini keluarga saya.",
+     "jp": "家族です。"
+    },
+    {
+     "slug": "home-family-02",
+     "stage": 1,
+     "en": "This is my older brother.",
+     "ms": "Ini abang saya.",
+     "jp": "兄です。"
+    },
+    {
+     "slug": "home-family-03",
+     "stage": 1,
+     "en": "Excuse me for coming in. (said when entering someone's home)",
+     "ms": "Maaf mengganggu. (ketika masuk ke rumah orang)",
+     "jp": "お邪魔します。"
+    },
+    {
+     "slug": "home-family-04",
+     "stage": 2,
+     "en": "Please come in.",
+     "ms": "Silakan masuk.",
+     "jp": "どうぞ、上がってください。"
+    },
+    {
+     "slug": "home-family-05",
+     "stage": 2,
+     "en": "Please have some tea.",
+     "ms": "Silakan minum teh.",
+     "jp": "お茶をどうぞ。"
+    },
+    {
+     "slug": "home-family-06",
+     "stage": 3,
+     "en": "There are four people in my family.",
+     "ms": "Keluarga saya ada empat orang.",
+     "jp": "家族は四人です。"
+    },
+    {
+     "slug": "home-family-07",
+     "stage": 3,
+     "en": "I have one older sister.",
+     "ms": "Saya ada seorang kakak.",
+     "jp": "姉が一人います。"
+    },
+    {
+     "slug": "home-family-08",
+     "stage": 3,
+     "en": "My parents live in Penang.",
+     "ms": "Ibu bapa saya tinggal di Pulau Pinang.",
+     "jp": "両親はペナンに住んでいます。"
+    },
+    {
+     "slug": "home-family-09",
+     "stage": 3,
+     "en": "I live in an apartment.",
+     "ms": "Saya tinggal di sebuah apartmen.",
+     "jp": "アパートに住んでいます。"
+    },
+    {
+     "slug": "home-family-10",
+     "stage": 4,
+     "en": "Do you have any brothers or sisters?",
+     "ms": "Anda ada adik-beradik?",
+     "jp": "ご兄弟はいますか？"
+    },
+    {
+     "slug": "home-family-11",
+     "stage": 4,
+     "en": "Yes, I have two younger brothers.",
+     "ms": "Ya, saya ada dua orang adik lelaki.",
+     "jp": "はい、弟が二人います。"
+    },
+    {
+     "slug": "home-family-12",
+     "stage": 5,
+     "en": "I went out with my family at the weekend.",
+     "ms": "Saya keluar bersama keluarga pada hujung minggu.",
+     "jp": "週末は家族と出かけました。"
+    },
+    {
+     "slug": "home-family-13",
+     "stage": 5,
+     "en": "My mother is coming to Japan next month.",
+     "ms": "Ibu saya akan datang ke Jepun bulan depan.",
+     "jp": "来月、母が日本に来ます。"
+    },
+    {
+     "slug": "home-family-14",
+     "stage": 6,
+     "en": "My room is small, but it's close to the station.",
+     "ms": "Bilik saya kecil, tetapi dekat dengan stesen.",
+     "jp": "部屋は狭いですが、駅から近いです。"
+    },
+    {
+     "slug": "home-family-15",
+     "stage": 6,
+     "en": "My children are small, so I'm busy every day.",
+     "ms": "Anak-anak saya masih kecil, jadi saya sibuk setiap hari.",
+     "jp": "子どもが小さいので、毎日忙しいです。"
+    },
+    {
+     "slug": "home-family-16",
+     "stage": 7,
+     "en": "My father is an office worker and my mother is a teacher. My older sister is in Tokyo.",
+     "ms": "Ayah saya pekerja syarikat dan ibu saya seorang guru. Kakak saya berada di Tokyo.",
+     "jp": "父は会社員で、母は先生です。姉は東京にいます。"
+    }
+   ]
+  },
+  {
+   "slug": "konbini",
+   "title": "At the convenience store",
+   "description": "Use these at the convenience store counter, where staff ask quick questions.",
+   "phrases": [
+    {
+     "slug": "konbini-01",
+     "stage": 1,
+     "en": "Welcome! (what staff say when you come in)",
+     "ms": "Selamat datang! (kata pekerja kedai)",
+     "jp": "いらっしゃいませ。"
+    },
+    {
+     "slug": "konbini-02",
+     "stage": 1,
+     "en": "No, thank you. / I'm fine.",
+     "ms": "Tak apa, terima kasih.",
+     "jp": "大丈夫です。"
+    },
+    {
+     "slug": "konbini-03",
+     "stage": 1,
+     "en": "Yes, please.",
+     "ms": "Ya, tolong.",
+     "jp": "お願いします。"
+    },
+    {
+     "slug": "konbini-04",
+     "stage": 2,
+     "en": "Please heat it up.",
+     "ms": "Tolong panaskan.",
+     "jp": "温めてください。"
+    },
+    {
+     "slug": "konbini-05",
+     "stage": 2,
+     "en": "I don't need a plastic bag.",
+     "ms": "Saya tak perlukan beg plastik.",
+     "jp": "レジ袋はいりません。"
+    },
+    {
+     "slug": "konbini-06",
+     "stage": 2,
+     "en": "Chopsticks, please.",
+     "ms": "Minta penyepit.",
+     "jp": "お箸をください。"
+    },
+    {
+     "slug": "konbini-07",
+     "stage": 2,
+     "en": "I don't have a point card.",
+     "ms": "Saya tiada kad mata ganjaran.",
+     "jp": "ポイントカードはありません。"
+    },
+    {
+     "slug": "konbini-08",
+     "stage": 2,
+     "en": "By card, please.",
+     "ms": "Saya bayar dengan kad.",
+     "jp": "カードでお願いします。"
+    },
+    {
+     "slug": "konbini-09",
+     "stage": 3,
+     "en": "One of these, please.",
+     "ms": "Saya nak satu yang ini.",
+     "jp": "これを一つください。"
+    },
+    {
+     "slug": "konbini-10",
+     "stage": 4,
+     "en": "Shall I heat it up for you?",
+     "ms": "Nak saya panaskan?",
+     "jp": "温めますか？"
+    },
+    {
+     "slug": "konbini-11",
+     "stage": 4,
+     "en": "Would you like a bag?",
+     "ms": "Nak beg?",
+     "jp": "袋はおつけしますか？"
+    },
+    {
+     "slug": "konbini-12",
+     "stage": 4,
+     "en": "May I use the toilet?",
+     "ms": "Boleh saya guna tandas?",
+     "jp": "トイレを借りてもいいですか？"
+    },
+    {
+     "slug": "konbini-13",
+     "stage": 4,
+     "en": "Where are the batteries?",
+     "ms": "Bateri ada di mana?",
+     "jp": "電池はどこにありますか？"
+    },
+    {
+     "slug": "konbini-14",
+     "stage": 5,
+     "en": "I'll come back for it later.",
+     "ms": "Saya akan datang ambil nanti.",
+     "jp": "あとで取りに来ます。"
+    },
+    {
+     "slug": "konbini-15",
+     "stage": 6,
+     "en": "I don't have cash, so can I pay by card?",
+     "ms": "Saya tiada wang tunai, jadi boleh bayar dengan kad?",
+     "jp": "現金がないので、カードでもいいですか？"
+    },
+    {
+     "slug": "konbini-16",
+     "stage": 6,
+     "en": "I don't need a bag, so it's fine as it is.",
+     "ms": "Saya tak perlukan beg, jadi begini pun tak apa.",
+     "jp": "袋はいらないので、そのままでいいです。"
+    }
+   ]
+  },
+  {
+   "slug": "restaurant",
+   "title": "Restaurant & café",
+   "description": "Use these to order food and drinks, ask about the menu and pay.",
+   "phrases": [
+    {
+     "slug": "restaurant-01",
+     "stage": 1,
+     "en": "Two people.",
+     "ms": "Dua orang.",
+     "jp": "二人です。"
+    },
+    {
+     "slug": "restaurant-02",
+     "stage": 1,
+     "en": "Excuse me! (to call staff)",
+     "ms": "Maaf! (memanggil pelayan)",
+     "jp": "すみません。"
+    },
+    {
+     "slug": "restaurant-03",
+     "stage": 1,
+     "en": "It's delicious.",
+     "ms": "Sedap.",
+     "jp": "おいしいです。"
+    },
+    {
+     "slug": "restaurant-04",
+     "stage": 2,
+     "en": "Water, please.",
+     "ms": "Minta air kosong.",
+     "jp": "お水をください。"
+    },
+    {
+     "slug": "restaurant-05",
+     "stage": 2,
+     "en": "I'll have this, please.",
+     "ms": "Saya nak yang ini.",
+     "jp": "これをお願いします。"
+    },
+    {
+     "slug": "restaurant-06",
+     "stage": 2,
+     "en": "The bill, please.",
+     "ms": "Minta bil.",
+     "jp": "お会計をお願いします。"
+    },
+    {
+     "slug": "restaurant-07",
+     "stage": 3,
+     "en": "I can't eat pork.",
+     "ms": "Saya tidak boleh makan daging babi.",
+     "jp": "豚肉は食べられません。"
+    },
+    {
+     "slug": "restaurant-08",
+     "stage": 3,
+     "en": "No ice, please.",
+     "ms": "Tanpa ais, ya.",
+     "jp": "氷なしでお願いします。"
+    },
+    {
+     "slug": "restaurant-09",
+     "stage": 3,
+     "en": "Two coffees, please.",
+     "ms": "Minta dua kopi.",
+     "jp": "コーヒーを二つお願いします。"
+    },
+    {
+     "slug": "restaurant-10",
+     "stage": 4,
+     "en": "What do you recommend?",
+     "ms": "Apa yang anda cadangkan?",
+     "jp": "おすすめは何ですか？"
+    },
+    {
+     "slug": "restaurant-11",
+     "stage": 4,
+     "en": "Do you have halal food?",
+     "ms": "Ada makanan halal?",
+     "jp": "ハラールの料理はありますか？"
+    },
+    {
+     "slug": "restaurant-12",
+     "stage": 4,
+     "en": "Does this have pork in it?",
+     "ms": "Adakah ini mengandungi daging babi?",
+     "jp": "これに豚肉は入っていますか？"
+    },
+    {
+     "slug": "restaurant-13",
+     "stage": 4,
+     "en": "Can I use a card?",
+     "ms": "Boleh guna kad?",
+     "jp": "カードは使えますか？"
+    },
+    {
+     "slug": "restaurant-14",
+     "stage": 5,
+     "en": "I'm Yamada. I booked for seven o'clock.",
+     "ms": "Saya Yamada, saya sudah buat tempahan untuk pukul tujuh.",
+     "jp": "七時に予約した山田です。"
+    },
+    {
+     "slug": "restaurant-15",
+     "stage": 5,
+     "en": "It was very good. Thank you for the meal.",
+     "ms": "Sangat sedap. Terima kasih atas hidangan.",
+     "jp": "とてもおいしかったです。ごちそうさまでした。"
+    },
+    {
+     "slug": "restaurant-16",
+     "stage": 6,
+     "en": "I don't drink alcohol, so tea, please.",
+     "ms": "Saya tidak minum arak, jadi minta teh.",
+     "jp": "お酒は飲めないので、お茶をお願いします。"
+    }
+   ]
+  },
+  {
+   "slug": "shopping",
+   "title": "Shopping",
+   "description": "Use these in shops to ask prices, try things on and pay.",
+   "phrases": [
+    {
+     "slug": "shopping-01",
+     "stage": 1,
+     "en": "How much is it?",
+     "ms": "Berapa harganya?",
+     "jp": "いくらですか？"
+    },
+    {
+     "slug": "shopping-02",
+     "stage": 1,
+     "en": "I'm just looking.",
+     "ms": "Saya tengok-tengok saja.",
+     "jp": "見ているだけです。"
+    },
+    {
+     "slug": "shopping-03",
+     "stage": 2,
+     "en": "I'll take this, please.",
+     "ms": "Saya nak beli yang ini.",
+     "jp": "これをください。"
+    },
+    {
+     "slug": "shopping-04",
+     "stage": 2,
+     "en": "A bag, please.",
+     "ms": "Minta beg.",
+     "jp": "袋をお願いします。"
+    },
+    {
+     "slug": "shopping-05",
+     "stage": 2,
+     "en": "Gift-wrapped, please.",
+     "ms": "Tolong balut sebagai hadiah.",
+     "jp": "プレゼント用にお願いします。"
+    },
+    {
+     "slug": "shopping-06",
+     "stage": 3,
+     "en": "I'm looking for souvenirs.",
+     "ms": "Saya sedang mencari cenderamata.",
+     "jp": "お土産を探しています。"
+    },
+    {
+     "slug": "shopping-07",
+     "stage": 3,
+     "en": "I'd like something a bit cheaper.",
+     "ms": "Saya nak yang lebih murah sedikit.",
+     "jp": "もう少し安いのがいいです。"
+    },
+    {
+     "slug": "shopping-08",
+     "stage": 4,
+     "en": "May I try it on?",
+     "ms": "Boleh saya cuba pakai?",
+     "jp": "試着してもいいですか？"
+    },
+    {
+     "slug": "shopping-09",
+     "stage": 4,
+     "en": "Do you have a slightly bigger size?",
+     "ms": "Ada saiz yang besar sedikit?",
+     "jp": "もう少し大きいサイズはありますか？"
+    },
+    {
+     "slug": "shopping-10",
+     "stage": 4,
+     "en": "Is this made in Japan?",
+     "ms": "Adakah ini buatan Jepun?",
+     "jp": "これは日本製ですか？"
+    },
+    {
+     "slug": "shopping-11",
+     "stage": 4,
+     "en": "Can I buy it tax-free?",
+     "ms": "Boleh beli bebas cukai?",
+     "jp": "免税できますか？"
+    },
+    {
+     "slug": "shopping-12",
+     "stage": 5,
+     "en": "I bought this here yesterday.",
+     "ms": "Saya beli ini di sini semalam.",
+     "jp": "昨日ここで買いました。"
+    },
+    {
+     "slug": "shopping-13",
+     "stage": 5,
+     "en": "I'll come again.",
+     "ms": "Saya akan datang lagi.",
+     "jp": "また来ます。"
+    },
+    {
+     "slug": "shopping-14",
+     "stage": 6,
+     "en": "It doesn't fit, so can I exchange it?",
+     "ms": "Saiznya tak muat, jadi boleh saya tukar?",
+     "jp": "サイズが合わないので、交換できますか？"
+    },
+    {
+     "slug": "shopping-15",
+     "stage": 6,
+     "en": "It's cute, but it's a bit expensive.",
+     "ms": "Comel, tapi agak mahal.",
+     "jp": "かわいいですけど、ちょっと高いですね。"
+    },
+    {
+     "slug": "shopping-16",
+     "stage": 7,
+     "en": "I'm looking for a souvenir for my mother. She likes sweet things.",
+     "ms": "Saya sedang mencari cenderamata untuk ibu saya. Dia suka makanan manis.",
+     "jp": "母へのお土産を探しています。甘いものが好きです。"
+    }
+   ]
+  },
+  {
+   "slug": "getting-around",
+   "title": "Getting around: train, bus, taxi",
+   "description": "Use these on trains, buses and taxis to find the right line and get where you are going.",
+   "phrases": [
+    {
+     "slug": "getting-around-01",
+     "stage": 1,
+     "en": "Excuse me, I'm getting off.",
+     "ms": "Maaf, saya nak turun.",
+     "jp": "すみません、降ります。"
+    },
+    {
+     "slug": "getting-around-02",
+     "stage": 2,
+     "en": "Please stop here.",
+     "ms": "Tolong berhenti di sini.",
+     "jp": "ここで止めてください。"
+    },
+    {
+     "slug": "getting-around-03",
+     "stage": 2,
+     "en": "To Tokyo Station, please.",
+     "ms": "Ke Stesen Tokyo, ya.",
+     "jp": "東京駅までお願いします。"
+    },
+    {
+     "slug": "getting-around-04",
+     "stage": 2,
+     "en": "Two adult tickets, please.",
+     "ms": "Minta dua tiket dewasa.",
+     "jp": "大人二枚ください。"
+    },
+    {
+     "slug": "getting-around-05",
+     "stage": 3,
+     "en": "I want to go to Shinjuku.",
+     "ms": "Saya nak pergi ke Shinjuku.",
+     "jp": "新宿に行きたいです。"
+    },
+    {
+     "slug": "getting-around-06",
+     "stage": 3,
+     "en": "I'd like to top up my card.",
+     "ms": "Saya nak tambah nilai kad saya.",
+     "jp": "カードにチャージしたいです。"
+    },
+    {
+     "slug": "getting-around-07",
+     "stage": 4,
+     "en": "Does this train go to Shinjuku?",
+     "ms": "Adakah kereta api ini pergi ke Shinjuku?",
+     "jp": "この電車は新宿に行きますか？"
+    },
+    {
+     "slug": "getting-around-08",
+     "stage": 4,
+     "en": "What time is the next train?",
+     "ms": "Pukul berapa kereta api seterusnya?",
+     "jp": "次の電車は何時ですか？"
+    },
+    {
+     "slug": "getting-around-09",
+     "stage": 4,
+     "en": "Which platform is it?",
+     "ms": "Platform nombor berapa?",
+     "jp": "何番線ですか？"
+    },
+    {
+     "slug": "getting-around-10",
+     "stage": 4,
+     "en": "Where do I change trains?",
+     "ms": "Di mana saya perlu tukar kereta api?",
+     "jp": "どこで乗り換えますか？"
+    },
+    {
+     "slug": "getting-around-11",
+     "stage": 4,
+     "en": "Does this bus go to the airport?",
+     "ms": "Adakah bas ini pergi ke lapangan terbang?",
+     "jp": "このバスは空港に行きますか？"
+    },
+    {
+     "slug": "getting-around-12",
+     "stage": 5,
+     "en": "I got on the wrong train.",
+     "ms": "Saya tersalah naik kereta api.",
+     "jp": "電車を間違えました。"
+    },
+    {
+     "slug": "getting-around-13",
+     "stage": 5,
+     "en": "I went past my stop.",
+     "ms": "Saya terlepas stesen saya.",
+     "jp": "降りる駅を過ぎてしまいました。"
+    },
+    {
+     "slug": "getting-around-14",
+     "stage": 6,
+     "en": "The roads are busy, so I'll go by train.",
+     "ms": "Jalan sesak, jadi saya akan naik kereta api.",
+     "jp": "道が混んでいるので、電車で行きます。"
+    },
+    {
+     "slug": "getting-around-15",
+     "stage": 6,
+     "en": "I lost my ticket. What should I do?",
+     "ms": "Saya kehilangan tiket. Apa yang patut saya buat?",
+     "jp": "切符をなくしてしまったんですが、どうすればいいですか？"
+    }
+   ]
+  },
+  {
+   "slug": "travel-hotel",
+   "title": "Travel & hotel",
+   "description": "Use these when checking in, asking hotel staff for things and talking about your trip.",
+   "phrases": [
+    {
+     "slug": "travel-hotel-01",
+     "stage": 1,
+     "en": "One night.",
+     "ms": "Satu malam.",
+     "jp": "一泊です。"
+    },
+    {
+     "slug": "travel-hotel-02",
+     "stage": 1,
+     "en": "Here is my passport.",
+     "ms": "Ini pasport saya.",
+     "jp": "パスポートです。"
+    },
+    {
+     "slug": "travel-hotel-03",
+     "stage": 2,
+     "en": "Check-in, please.",
+     "ms": "Saya nak daftar masuk.",
+     "jp": "チェックインをお願いします。"
+    },
+    {
+     "slug": "travel-hotel-04",
+     "stage": 2,
+     "en": "One more towel, please.",
+     "ms": "Minta satu lagi tuala.",
+     "jp": "タオルをもう一枚ください。"
+    },
+    {
+     "slug": "travel-hotel-05",
+     "stage": 3,
+     "en": "I have a reservation under the name Ali.",
+     "ms": "Saya ada tempahan atas nama Ali.",
+     "jp": "アリの名前で予約しています。"
+    },
+    {
+     "slug": "travel-hotel-06",
+     "stage": 3,
+     "en": "I'd like to stay one more night.",
+     "ms": "Saya nak tinggal satu malam lagi.",
+     "jp": "もう一泊したいです。"
+    },
+    {
+     "slug": "travel-hotel-07",
+     "stage": 4,
+     "en": "What time does breakfast start?",
+     "ms": "Sarapan bermula pukul berapa?",
+     "jp": "朝ごはんは何時からですか？"
+    },
+    {
+     "slug": "travel-hotel-08",
+     "stage": 4,
+     "en": "What time is check-out?",
+     "ms": "Daftar keluar pukul berapa?",
+     "jp": "チェックアウトは何時ですか？"
+    },
+    {
+     "slug": "travel-hotel-09",
+     "stage": 4,
+     "en": "Could you keep my luggage?",
+     "ms": "Boleh tolong simpan beg saya?",
+     "jp": "荷物を預かってもらえますか？"
+    },
+    {
+     "slug": "travel-hotel-10",
+     "stage": 4,
+     "en": "Is there a convenience store nearby?",
+     "ms": "Ada kedai serbaneka berdekatan?",
+     "jp": "近くにコンビニはありますか？"
+    },
+    {
+     "slug": "travel-hotel-11",
+     "stage": 5,
+     "en": "I left my key in the room.",
+     "ms": "Kunci saya tertinggal di dalam bilik.",
+     "jp": "部屋に鍵を忘れました。"
+    },
+    {
+     "slug": "travel-hotel-12",
+     "stage": 5,
+     "en": "I'm planning to go to Kyoto tomorrow.",
+     "ms": "Saya merancang untuk pergi ke Kyoto esok.",
+     "jp": "明日は京都に行く予定です。"
+    },
+    {
+     "slug": "travel-hotel-13",
+     "stage": 6,
+     "en": "The air conditioner isn't working. Could you take a look?",
+     "ms": "Penghawa dingin tidak berfungsi. Boleh tolong periksa?",
+     "jp": "エアコンが動かないので、見てもらえますか？"
+    },
+    {
+     "slug": "travel-hotel-14",
+     "stage": 6,
+     "en": "We'll arrive late at night. Is that all right?",
+     "ms": "Kami akan sampai lewat malam. Tidak apa-apa?",
+     "jp": "夜遅く着くんですが、大丈夫ですか？"
+    },
+    {
+     "slug": "travel-hotel-15",
+     "stage": 7,
+     "en": "Last week I went to Osaka. I saw the castle and ate takoyaki.",
+     "ms": "Minggu lepas saya pergi ke Osaka. Saya melihat istana dan makan takoyaki.",
+     "jp": "先週、大阪に行きました。お城を見て、たこ焼きを食べました。"
+    }
+   ]
+  },
+  {
+   "slug": "work",
+   "title": "At work",
+   "description": "Use these with colleagues and in meetings at a Japanese workplace.",
+   "phrases": [
+    {
+     "slug": "work-01",
+     "stage": 1,
+     "en": "Hello. / Thanks for your hard work. (greeting colleagues)",
+     "ms": "Terima kasih atas usaha anda. (sapaan kepada rakan sekerja)",
+     "jp": "お疲れさまです。"
+    },
+    {
+     "slug": "work-02",
+     "stage": 1,
+     "en": "Excuse me for leaving before you.",
+     "ms": "Saya balik dulu, ya.",
+     "jp": "お先に失礼します。"
+    },
+    {
+     "slug": "work-03",
+     "stage": 1,
+     "en": "Understood.",
+     "ms": "Baik, saya faham.",
+     "jp": "承知しました。"
+    },
+    {
+     "slug": "work-04",
+     "stage": 1,
+     "en": "I'll check.",
+     "ms": "Saya akan semak.",
+     "jp": "確認します。"
+    },
+    {
+     "slug": "work-05",
+     "stage": 2,
+     "en": "One moment, please.",
+     "ms": "Sila tunggu sebentar.",
+     "jp": "少々お待ちください。"
+    },
+    {
+     "slug": "work-06",
+     "stage": 2,
+     "en": "After you.",
+     "ms": "Silakan dulu.",
+     "jp": "お先にどうぞ。"
+    },
+    {
+     "slug": "work-07",
+     "stage": 3,
+     "en": "The meeting starts at three.",
+     "ms": "Mesyuarat bermula pukul tiga.",
+     "jp": "会議は三時からです。"
+    },
+    {
+     "slug": "work-08",
+     "stage": 3,
+     "en": "I'm working from home today.",
+     "ms": "Hari ini saya bekerja dari rumah.",
+     "jp": "今日は在宅勤務です。"
+    },
+    {
+     "slug": "work-09",
+     "stage": 3,
+     "en": "I'll send the documents by email.",
+     "ms": "Saya akan hantar dokumen melalui e-mel.",
+     "jp": "資料をメールで送ります。"
+    },
+    {
+     "slug": "work-10",
+     "stage": 4,
+     "en": "Do you have a moment?",
+     "ms": "Ada masa sekejap?",
+     "jp": "今、ちょっといいですか？"
+    },
+    {
+     "slug": "work-11",
+     "stage": 4,
+     "en": "When is this due?",
+     "ms": "Bila tarikh akhir untuk ini?",
+     "jp": "これはいつまでですか？"
+    },
+    {
+     "slug": "work-12",
+     "stage": 4,
+     "en": "Shall I help with anything?",
+     "ms": "Ada apa-apa yang boleh saya bantu?",
+     "jp": "何か手伝いましょうか？"
+    },
+    {
+     "slug": "work-13",
+     "stage": 5,
+     "en": "I already sent the report.",
+     "ms": "Saya sudah menghantar laporan itu.",
+     "jp": "報告書はもう送りました。"
+    },
+    {
+     "slug": "work-14",
+     "stage": 5,
+     "en": "I'll be taking tomorrow off.",
+     "ms": "Saya akan bercuti esok.",
+     "jp": "明日、お休みをいただきます。"
+    },
+    {
+     "slug": "work-15",
+     "stage": 6,
+     "en": "The train is delayed, so I'll be about ten minutes late.",
+     "ms": "Kereta api lewat, jadi saya akan terlambat kira-kira sepuluh minit.",
+     "jp": "電車が遅れているので、十分ほど遅れます。",
+     "reading": "[電車|でんしゃ]が[遅|おく]れているので、[十分|じゅっぷん]ほど[遅|おく]れます。"
+    },
+    {
+     "slug": "work-16",
+     "stage": 6,
+     "en": "I'm sorry, but could you explain it once more?",
+     "ms": "Maaf, boleh terangkan sekali lagi?",
+     "jp": "申し訳ありませんが、もう一度説明していただけますか？"
+    }
+   ]
+  },
+  {
+   "slug": "feelings-health",
+   "title": "Feelings & health",
+   "description": "Use these to say how you feel and to get help when you are unwell.",
+   "phrases": [
+    {
+     "slug": "feelings-health-01",
+     "stage": 1,
+     "en": "I'm happy.",
+     "ms": "Saya gembira.",
+     "jp": "うれしいです。"
+    },
+    {
+     "slug": "feelings-health-02",
+     "stage": 1,
+     "en": "I'm tired.",
+     "ms": "Saya penat.",
+     "jp": "疲れました。"
+    },
+    {
+     "slug": "feelings-health-03",
+     "stage": 1,
+     "en": "I'm OK.",
+     "ms": "Saya okey.",
+     "jp": "大丈夫です。"
+    },
+    {
+     "slug": "feelings-health-04",
+     "stage": 2,
+     "en": "I have a headache.",
+     "ms": "Saya sakit kepala.",
+     "jp": "頭が痛いです。"
+    },
+    {
+     "slug": "feelings-health-05",
+     "stage": 2,
+     "en": "I have a stomach ache.",
+     "ms": "Saya sakit perut.",
+     "jp": "お腹が痛いです。"
+    },
+    {
+     "slug": "feelings-health-06",
+     "stage": 2,
+     "en": "I'm a bit cold.",
+     "ms": "Saya rasa sejuk sedikit.",
+     "jp": "ちょっと寒いです。"
+    },
+    {
+     "slug": "feelings-health-07",
+     "stage": 2,
+     "en": "I have a fever.",
+     "ms": "Saya demam.",
+     "jp": "熱があります。"
+    },
+    {
+     "slug": "feelings-health-08",
+     "stage": 3,
+     "en": "I'd like some medicine.",
+     "ms": "Saya perlukan ubat.",
+     "jp": "薬がほしいです。"
+    },
+    {
+     "slug": "feelings-health-09",
+     "stage": 3,
+     "en": "I want to go to a hospital.",
+     "ms": "Saya nak pergi ke hospital.",
+     "jp": "病院に行きたいです。"
+    },
+    {
+     "slug": "feelings-health-10",
+     "stage": 4,
+     "en": "Are you all right?",
+     "ms": "Anda tidak apa-apa?",
+     "jp": "大丈夫ですか？"
+    },
+    {
+     "slug": "feelings-health-11",
+     "stage": 4,
+     "en": "Is there a hospital nearby?",
+     "ms": "Ada hospital berdekatan?",
+     "jp": "近くに病院はありますか？"
+    },
+    {
+     "slug": "feelings-health-12",
+     "stage": 4,
+     "en": "How many times a day do I take this medicine?",
+     "ms": "Berapa kali sehari saya perlu makan ubat ini?",
+     "jp": "この薬は一日何回飲みますか？"
+    },
+    {
+     "slug": "feelings-health-13",
+     "stage": 5,
+     "en": "My throat has been sore since yesterday.",
+     "ms": "Tekak saya sakit sejak semalam.",
+     "jp": "昨日から喉が痛いです。"
+    },
+    {
+     "slug": "feelings-health-14",
+     "stage": 5,
+     "en": "I couldn't sleep well.",
+     "ms": "Saya tidak dapat tidur lena.",
+     "jp": "よく眠れませんでした。"
+    },
+    {
+     "slug": "feelings-health-15",
+     "stage": 6,
+     "en": "I feel unwell. May I rest for a bit?",
+     "ms": "Saya rasa tidak sihat. Boleh saya berehat sekejap?",
+     "jp": "気分が悪いので、少し休んでもいいですか？"
+    },
+    {
+     "slug": "feelings-health-16",
+     "stage": 6,
+     "en": "I'm allergic to eggs, so I can't eat it.",
+     "ms": "Saya alah kepada telur, jadi saya tidak boleh makannya.",
+     "jp": "卵のアレルギーがあるので、食べられません。"
+    }
+   ]
+  },
+  {
+   "slug": "asking-help",
+   "title": "Asking for help & directions",
+   "description": "Use these when you don't understand, get lost or need someone's help.",
+   "phrases": [
+    {
+     "slug": "asking-help-01",
+     "stage": 1,
+     "en": "I don't understand.",
+     "ms": "Saya tidak faham.",
+     "jp": "わかりません。"
+    },
+    {
+     "slug": "asking-help-02",
+     "stage": 1,
+     "en": "I see. / Got it.",
+     "ms": "Baik, saya faham.",
+     "jp": "わかりました。"
+    },
+    {
+     "slug": "asking-help-03",
+     "stage": 2,
+     "en": "Please help me.",
+     "ms": "Tolong saya.",
+     "jp": "助けてください。"
+    },
+    {
+     "slug": "asking-help-04",
+     "stage": 2,
+     "en": "Once more, please.",
+     "ms": "Sekali lagi, boleh?",
+     "jp": "もう一度お願いします。"
+    },
+    {
+     "slug": "asking-help-05",
+     "stage": 2,
+     "en": "Please speak slowly.",
+     "ms": "Tolong cakap perlahan-lahan.",
+     "jp": "ゆっくり話してください。"
+    },
+    {
+     "slug": "asking-help-06",
+     "stage": 2,
+     "en": "Please write it down.",
+     "ms": "Tolong tuliskan.",
+     "jp": "書いてください。"
+    },
+    {
+     "slug": "asking-help-07",
+     "stage": 3,
+     "en": "I'm lost.",
+     "ms": "Saya sesat.",
+     "jp": "道に迷いました。"
+    },
+    {
+     "slug": "asking-help-08",
+     "stage": 4,
+     "en": "Excuse me, where is the toilet?",
+     "ms": "Maaf, tandas di mana?",
+     "jp": "すみません、トイレはどこですか？"
+    },
+    {
+     "slug": "asking-help-09",
+     "stage": 4,
+     "en": "Do you speak English?",
+     "ms": "Anda boleh bercakap bahasa Inggeris?",
+     "jp": "英語を話せますか？"
+    },
+    {
+     "slug": "asking-help-10",
+     "stage": 4,
+     "en": "Where are we on this map?",
+     "ms": "Kita di mana dalam peta ini?",
+     "jp": "この地図で、ここはどこですか？"
+    },
+    {
+     "slug": "asking-help-11",
+     "stage": 4,
+     "en": "How do you say this in Japanese?",
+     "ms": "Apa ini dalam bahasa Jepun?",
+     "jp": "これは日本語で何と言いますか？"
+    },
+    {
+     "slug": "asking-help-12",
+     "stage": 4,
+     "en": "Could you take a photo for us?",
+     "ms": "Boleh tolong ambil gambar kami?",
+     "jp": "写真を撮ってもらえますか？"
+    },
+    {
+     "slug": "asking-help-13",
+     "stage": 5,
+     "en": "I lost my wallet.",
+     "ms": "Saya kehilangan dompet.",
+     "jp": "財布をなくしました。"
+    },
+    {
+     "slug": "asking-help-14",
+     "stage": 5,
+     "en": "I left my phone on the train.",
+     "ms": "Telefon saya tertinggal di dalam kereta api.",
+     "jp": "スマホを電車に忘れました。"
+    },
+    {
+     "slug": "asking-help-15",
+     "stage": 6,
+     "en": "I don't know the way. Could you tell me?",
+     "ms": "Saya tak tahu jalan. Boleh tolong tunjukkan?",
+     "jp": "道がわからないので、教えてもらえますか？"
+    },
+    {
+     "slug": "asking-help-16",
+     "stage": 7,
+     "en": "Excuse me, I want to go to the station. Is this the right way?",
+     "ms": "Maaf, saya nak pergi ke stesen. Betulkah jalan ini?",
+     "jp": "すみません、駅に行きたいんですが、この道で合っていますか？"
+    }
+   ]
+  }
+ ]
+}

@@ -25,7 +25,8 @@
     "build:kanji-readings": "tsx scripts/kanji-readings.ts",
     "audit": "tsx scripts/content-audit.ts",
     "build:legacy-grammar": "tsx scripts/legacy-grammar.ts",
-    "build:dedupe": "tsx scripts/dedupe.ts"
+    "build:dedupe": "tsx scripts/dedupe.ts",
+    "build:newcomer": "tsx scripts/build-newcomer.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.133.0",
