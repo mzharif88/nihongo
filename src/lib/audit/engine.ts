@@ -35,6 +35,8 @@ export interface Content {
   topics: Set<string>;
   /** Full-length mock sources (content/mock/*-full-*.source.json). */
   fullMocks: { file: string; level: string; questions: { section: string; part: string }[] }[];
+  /** Findings accepted by hand: rule → slug → reason (content/audit/allow.json). */
+  allow?: Record<string, Record<string, string>>;
 }
 
 export interface Rule {
@@ -67,7 +69,7 @@ const KANA_ONLY = /^[ぁ-ゖァ-ヺー・〜～\s]+$/;
 /** A reading's first plain form: "べんきょう (する)" → べんきょう, "いく; ゆく" → いく. */
 const firstForm = (s: string) => s.replace(/\s*[(（].*?[)）]\s*/g, "").split(/[;；、,]/)[0].replace(/[〜～\s]/g, "").trim();
 /** A spelling as the learner sees it, 〜 kept so the counter 〜時間 stays apart from the noun 時間. */
-const spelling = (s: string) => s.replace(/\s*[(（].*?[)）]\s*/g, "").split(/[;；、,]/)[0].trim();
+const spelling = (s: string) => s.replace(/\s*[(（].*?[)）]\s*/g, "").split(/[;；]/)[0].trim();
 const toHira = (s: string) => s.replace(/[ァ-ヶ]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 0x60));
 const plainLength = (s: string) => stripMarkup(s).replace(/[\s{}]/g, "").length;
 
@@ -404,7 +406,8 @@ const SAMPLES = 25;
 
 export function runAudit(content: Content, rules: Rule[] = RULES, now = new Date()): Report {
   const results = rules.map((rule) => {
-    const findings = rule.check(content);
+    const allowed = content.allow?.[rule.id] ?? {};
+    const findings = rule.check(content).filter((f) => !(f.slug && allowed[f.slug]));
     return { id: rule.id, severity: rule.severity, title: rule.title, why: rule.why, count: findings.length, samples: findings.slice(0, SAMPLES) };
   });
   const totals: Record<Severity, number> = { error: 0, warning: 0, info: 0 };

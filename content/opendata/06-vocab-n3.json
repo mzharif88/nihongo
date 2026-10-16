@@ -3565,20 +3565,6 @@
    "topic": "Objects & Materials"
   },
   {
-   "slug": "vocab-n3-sumimasen-kan",
-   "type": "word",
-   "term": "すみません (かん)",
-   "meaning": "sorry, excuse me",
-   "skill": "vocabulary",
-   "tags": [
-    "jlpt-verified"
-   ],
-   "jlpt_level": "N3",
-   "reading": "すみません (かん)",
-   "romaji": "sumimasen(kan)",
-   "topic": "Greetings & Basics"
-  },
-  {
    "slug": "vocab-n3-sumu",
    "type": "word",
    "term": "澄む",
@@ -5025,21 +5011,6 @@
    "romaji": "arawareru",
    "mnemonic": "現 present: 王 king + 見 see",
    "topic": "Movement & Motion"
-  },
-  {
-   "slug": "vocab-n3-aru",
-   "type": "word",
-   "term": "在る; 有る",
-   "meaning": "to live, to be, to exist",
-   "skill": "vocabulary",
-   "tags": [
-    "jlpt-verified"
-   ],
-   "jlpt_level": "N3",
-   "reading": "ある",
-   "romaji": "aru",
-   "mnemonic": "在 exist + 有 possess",
-   "topic": "Function Words & Pronouns"
   },
   {
    "slug": "vocab-n3-aru-2",
@@ -16757,20 +16728,6 @@
    "romaji": "yorokobi",
    "mnemonic": "喜 rejoice: 士 samurai + 豆 bean",
    "topic": "Emotions & Feelings"
-  },
-  {
-   "slug": "vocab-n3-yoroshiku-kan",
-   "type": "word",
-   "term": "よろしく (かん)",
-   "meaning": "best regards, please remember me",
-   "skill": "vocabulary",
-   "tags": [
-    "jlpt-verified"
-   ],
-   "jlpt_level": "N3",
-   "reading": "よろしく (かん)",
-   "romaji": "yoroshiku(kan)",
-   "topic": "Greetings & Basics"
   },
   {
    "slug": "vocab-n3-yon",

@@ -1,0 +1,355 @@
+{
+ "note": "Example sentences for the old app's grammar points, replacing its examples (which had a second example jammed into the English, e.g. \"I ate | いきました\"). Applied by port-legacy and by `npm run build:legacy-grammar`. Beginner sentences are in kana with spaces between phrases, as the JLPT N5 paper writes them; the content audit wants at least two per point.",
+ "examples": {
+  "grammar-wa-topic": [
+   {
+    "jp": "わたしは がくせいです。",
+    "en": "I am a student."
+   },
+   {
+    "jp": "きょうは にちようびです。",
+    "en": "Today is Sunday."
+   }
+  ],
+  "grammar-ga-subject": [
+   {
+    "jp": "ねこが います。",
+    "en": "There is a cat."
+   },
+   {
+    "jp": "あめが ふって います。",
+    "en": "Rain is falling."
+   }
+  ],
+  "grammar-wo-object": [
+   {
+    "jp": "りんごを たべます。",
+    "en": "I eat an apple."
+   },
+   {
+    "jp": "まいにち おちゃを のみます。",
+    "en": "I drink tea every day."
+   }
+  ],
+  "grammar-ni-destination": [
+   {
+    "jp": "がっこうに いきます。",
+    "en": "I go to school."
+   },
+   {
+    "jp": "ろくじに うちに かえります。",
+    "en": "I go home at six."
+   }
+  ],
+  "grammar-de-location": [
+   {
+    "jp": "としょかんで べんきょうします。",
+    "en": "I study at the library."
+   },
+   {
+    "jp": "レストランで ばんごはんを たべます。",
+    "en": "I eat dinner at a restaurant."
+   }
+  ],
+  "grammar-ni-vs-de": [
+   {
+    "jp": "こうえんで あそびます。",
+    "en": "I play at the park. (で: where an action happens)"
+   },
+   {
+    "jp": "こうえんに いぬが います。",
+    "en": "There is a dog in the park. (に: where something is)"
+   }
+  ],
+  "grammar-mo-also": [
+   {
+    "jp": "わたしも にほんごを はなします。",
+    "en": "I also speak Japanese."
+   },
+   {
+    "jp": "あしたも いそがしいです。",
+    "en": "I'm busy tomorrow too."
+   }
+  ],
+  "grammar-no-possessive": [
+   {
+    "jp": "これは わたしの ほんです。",
+    "en": "This is my book."
+   },
+   {
+    "jp": "にほんの たべものが すきです。",
+    "en": "I like Japanese food."
+   }
+  ],
+  "grammar-to-and-with": [
+   {
+    "jp": "ともだちと えいがを みます。",
+    "en": "I watch a movie with my friend."
+   },
+   {
+    "jp": "パンと たまごを かいました。",
+    "en": "I bought bread and eggs."
+   }
+  ],
+  "grammar-kara-made": [
+   {
+    "jp": "くじから ごじまで はたらきます。",
+    "en": "I work from nine to five."
+   },
+   {
+    "jp": "えきから がっこうまで あるきます。",
+    "en": "I walk from the station to school."
+   }
+  ],
+  "grammar-masu": [
+   {
+    "jp": "まいにち べんきょうします。",
+    "en": "I study every day."
+   },
+   {
+    "jp": "あした ともだちに あいます。",
+    "en": "I will meet a friend tomorrow."
+   }
+  ],
+  "grammar-mashita": [
+   {
+    "jp": "きのう すしを たべました。",
+    "en": "I ate sushi yesterday."
+   },
+   {
+    "jp": "せんしゅう きょうとに いきました。",
+    "en": "I went to Kyoto last week."
+   }
+  ],
+  "grammar-masen": [
+   {
+    "jp": "おさけを のみません。",
+    "en": "I don't drink alcohol."
+   },
+   {
+    "jp": "にちようびは がっこうに いきません。",
+    "en": "I don't go to school on Sundays."
+   }
+  ],
+  "grammar-masen-deshita": [
+   {
+    "jp": "きのうは がっこうに いきませんでした。",
+    "en": "I didn't go to school yesterday."
+   },
+   {
+    "jp": "けさは なにも たべませんでした。",
+    "en": "I didn't eat anything this morning."
+   }
+  ],
+  "grammar-te-kudasai": [
+   {
+    "jp": "ゆっくり はなして ください。",
+    "en": "Please speak slowly."
+   },
+   {
+    "jp": "この しゃしんを みて ください。",
+    "en": "Please look at this photo."
+   }
+  ],
+  "grammar-te-iru": [
+   {
+    "jp": "いま あめが ふって います。",
+    "en": "It is raining now."
+   },
+   {
+    "jp": "ははが ばんごはんを つくって います。",
+    "en": "My mother is making dinner."
+   }
+  ],
+  "grammar-tai": [
+   {
+    "jp": "にほんに いきたいです。",
+    "en": "I want to go to Japan."
+   },
+   {
+    "jp": "つめたい みずが のみたいです。",
+    "en": "I want to drink cold water."
+   }
+  ],
+  "grammar-i-adj-present": [
+   {
+    "jp": "きょうは てんきが いいです。",
+    "en": "The weather is good today."
+   },
+   {
+    "jp": "この かばんは たかいです。",
+    "en": "This bag is expensive."
+   }
+  ],
+  "grammar-i-adj-past": [
+   {
+    "jp": "きのうは さむかったです。",
+    "en": "It was cold yesterday."
+   },
+   {
+    "jp": "あの みせの ケーキは おいしかったです。",
+    "en": "That shop's cake was delicious."
+   }
+  ],
+  "grammar-i-adj-negative": [
+   {
+    "jp": "この くつは たかくないです。",
+    "en": "These shoes are not expensive."
+   },
+   {
+    "jp": "きょうは さむくないです。",
+    "en": "It isn't cold today."
+   }
+  ],
+  "grammar-na-adj": [
+   {
+    "jp": "たなかさんは じょうずな ひとです。",
+    "en": "Tanaka is a skilful person."
+   },
+   {
+    "jp": "きれいな はなが さいて います。",
+    "en": "Pretty flowers are blooming."
+   }
+  ],
+  "grammar-doko": [
+   {
+    "jp": "トイレは どこですか。",
+    "en": "Where is the toilet?"
+   },
+   {
+    "jp": "なつやすみに どこに いきますか。",
+    "en": "Where are you going in the summer holidays?"
+   }
+  ],
+  "grammar-nan-vs-nani": [
+   {
+    "jp": "これは なんですか。",
+    "en": "What is this? (なん before です)"
+   },
+   {
+    "jp": "あした なにを しますか。",
+    "en": "What will you do tomorrow? (なに before を)"
+   }
+  ],
+  "grammar-itsu": [
+   {
+    "jp": "たんじょうびは いつですか。",
+    "en": "When is your birthday?"
+   },
+   {
+    "jp": "いつ にほんに きましたか。",
+    "en": "When did you come to Japan?"
+   }
+  ],
+  "grammar-ja-nai-desu": [
+   {
+    "jp": "わたしは がくせいじゃ ないです。",
+    "en": "I'm not a student."
+   },
+   {
+    "jp": "あの ひとは にほんじんでは ありません。",
+    "en": "That person is not Japanese. (more formal)"
+   }
+  ],
+  "grammar-ne-vs-yo": [
+   {
+    "jp": "この ラーメン、おいしいですよ。",
+    "en": "This ramen is delicious, you know. (よ: telling them something new)"
+   },
+   {
+    "jp": "きょうは あついですね。",
+    "en": "It's hot today, isn't it? (ね: expecting agreement)"
+   }
+  ],
+  "grammar-mou-vs-mada": [
+   {
+    "jp": "もう ひるごはんを たべました。",
+    "en": "I've already eaten lunch."
+   },
+   {
+    "jp": "まだ しゅくだいを して いません。",
+    "en": "I haven't done my homework yet."
+   }
+  ],
+  "grammar-arimasu-vs-imasu": [
+   {
+    "jp": "にわに ねこが います。",
+    "en": "There is a cat in the garden. (living thing: います)"
+   },
+   {
+    "jp": "つくえの うえに ほんが あります。",
+    "en": "There is a book on the desk. (thing: あります)"
+   }
+  ],
+  "grammar-te-mo-ii": [
+   {
+    "jp": "しゃしんを とっても いいですか。",
+    "en": "May I take a photo?"
+   },
+   {
+    "jp": "ここに すわっても いいですか。",
+    "en": "May I sit here?"
+   }
+  ],
+  "grammar-kara-reason": [
+   {
+    "jp": "あついですから、まどを あけて ください。",
+    "en": "It's hot, so please open the window."
+   },
+   {
+    "jp": "つかれたから、はやく ねます。",
+    "en": "I'm tired, so I'll go to bed early."
+   }
+  ],
+  "grammar-koto-ga-dekiru": [
+   {
+    "jp": "にほんごを はなす ことが できます。",
+    "en": "I can speak Japanese."
+   },
+   {
+    "jp": "ここで しゃしんを とる ことが できません。",
+    "en": "You can't take photos here."
+   }
+  ],
+  "grammar-ta-koto-ga-aru": [
+   {
+    "jp": "すしを たべた ことが あります。",
+    "en": "I have eaten sushi before."
+   },
+   {
+    "jp": "ふじさんに のぼった ことが ありますか。",
+    "en": "Have you ever climbed Mount Fuji?"
+   }
+  ],
+  "grammar-nagara": [
+   {
+    "jp": "おんがくを ききながら べんきょうします。",
+    "en": "I study while listening to music."
+   },
+   {
+    "jp": "あるきながら でんわを しないで ください。",
+    "en": "Please don't talk on the phone while walking."
+   }
+  ],
+  "grammar-te-kara": [
+   {
+    "jp": "しゅくだいを してから あそびます。",
+    "en": "I'll play after doing my homework."
+   },
+   {
+    "jp": "てを あらってから たべて ください。",
+    "en": "Please wash your hands before you eat. (literally: after washing)"
+   }
+  ],
+  "grammar-tame-ni": [
+   {
+    "jp": "にほんごを まなぶ ために、にほんに きました。",
+    "en": "I came to Japan in order to learn Japanese."
+   },
+   {
+    "jp": "けんこうの ために、まいあさ あるいて います。",
+    "en": "I walk every morning for my health."
+   }
+  ]
+ }
+}

@@ -152,9 +152,15 @@
    "dialogue": [
     {
      "speaker": "アナウンス",
-     "jp": "まもなく、二番線に電車がまいります。危ないですから、黄色い線の内側までお下がりください。",
-     "en": "A train will soon arrive at platform 2. For your safety, please stand behind the yellow line.",
-     "reading": "まもなく、[二|に][番線|ばんせん]⟨p⟩に⟨/⟩⟨s⟩[電車|でんしゃ]⟨/⟩⟨p⟩が⟨/⟩⟨v⟩まいります⟨/⟩。[危|あぶ]ない⟨v⟩です⟨/⟩⟨p⟩から⟨/⟩、[黄色|きいろ]い[線|せん]⟨p⟩の⟨/⟩[内側|うちがわ]⟨p⟩まで⟨/⟩お⟨v⟩[下|さ]がりください⟨/⟩。"
+     "jp": "まもなく、二番線に電車がまいります。",
+     "en": "A train will soon arrive at platform 2.",
+     "reading": "まもなく、[二|に][番線|ばんせん]⟨p⟩に⟨/⟩⟨s⟩[電車|でんしゃ]⟨/⟩⟨p⟩が⟨/⟩⟨v⟩まいります⟨/⟩。"
+    },
+    {
+     "speaker": "アナウンス",
+     "jp": "危ないですから、黄色い線の内側までお下がりください。",
+     "en": "For your safety, please stand behind the yellow line.",
+     "reading": "[危|あぶ]ない⟨v⟩です⟨/⟩⟨p⟩から⟨/⟩、[黄色|きいろ]い[線|せん]⟨p⟩の⟨/⟩[内側|うちがわ]⟨p⟩まで⟨/⟩お⟨v⟩[下|さ]がりください⟨/⟩。"
     },
     {
      "speaker": "あなた",

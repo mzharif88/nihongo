@@ -129,7 +129,8 @@
         { "speaker": "あなた", "jp": "すみません、道に迷ってしまったんですが、さくら美術館はどこですか。", "en": "Excuse me, I'm lost. Where is the Sakura Art Museum?" },
         { "speaker": "通行人", "jp": "この道をまっすぐ行って、二つ目の信号を右に曲がってください。", "en": "Go straight along this road and turn right at the second traffic light." },
         { "speaker": "あなた", "jp": "二つ目の信号を右ですね。", "en": "Right at the second light." },
-        { "speaker": "通行人", "jp": "はい。右に曲がったら、橋が見えます。橋を渡ったら、左に大きい建物があります。それが美術館です。", "en": "Yes. When you turn right, you'll see a bridge. Once you cross it, there's a big building on the left. That's the museum." },
+        { "speaker": "通行人", "jp": "はい。右に曲がったら、橋が見えます。", "en": "Yes. When you turn right, you'll see a bridge." },
+        { "speaker": "通行人", "jp": "橋を渡ったら、左に大きい建物があります。それが美術館です。", "en": "Once you cross it, there's a big building on the left. That's the museum." },
         { "speaker": "あなた", "jp": "歩いて何分ぐらいかかりますか。", "en": "About how many minutes on foot?" },
         { "speaker": "通行人", "jp": "[十分|じゅっぷん]ぐらいですね。わからなかったら、また誰かに聞いてください。", "en": "About ten minutes. If you can't find it, ask someone again." },
         { "speaker": "あなた", "jp": "ありがとうございます。", "en": "Thank you." }

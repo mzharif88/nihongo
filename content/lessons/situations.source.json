@@ -145,8 +145,13 @@
       "dialogue": [
         {
           "speaker": "アナウンス",
-          "jp": "まもなく、二番線に電車がまいります。危ないですから、黄色い線の内側までお下がりください。",
-          "en": "A train will soon arrive at platform 2. For your safety, please stand behind the yellow line."
+          "jp": "まもなく、二番線に電車がまいります。",
+          "en": "A train will soon arrive at platform 2."
+        },
+        {
+          "speaker": "アナウンス",
+          "jp": "危ないですから、黄色い線の内側までお下がりください。",
+          "en": "For your safety, please stand behind the yellow line."
         },
         {
           "speaker": "あなた",

@@ -1051,20 +1051,6 @@
    "topic": "Counters"
   },
   {
-   "slug": "vocab-n4-sou",
-   "type": "word",
-   "term": "そう",
-   "meaning": "really, (is that) so; yes, right",
-   "skill": "vocabulary",
-   "tags": [
-    "jlpt-verified"
-   ],
-   "jlpt_level": "N4",
-   "reading": "そう",
-   "romaji": "sou",
-   "topic": "Greetings & Basics"
-  },
-  {
    "slug": "vocab-n4-tooru",
    "type": "word",
    "term": "通る",
@@ -7654,20 +7640,6 @@
    "romaji": "taoreru",
    "mnemonic": "倒 overthrow: ⺅ person + 刂 knife + 至 arrive",
    "topic": "Movement & Motion"
-  },
-  {
-   "slug": "vocab-n4-suupaa-maaketto",
-   "type": "word",
-   "term": "スーパー (マーケット)",
-   "meaning": "supermarket",
-   "skill": "vocabulary",
-   "tags": [
-    "jlpt-verified"
-   ],
-   "jlpt_level": "N4",
-   "reading": "スーパー (マーケット)",
-   "romaji": "suupaa(maaketto)",
-   "topic": "Places Around Town"
   },
   {
    "slug": "vocab-n4-akusesarii",

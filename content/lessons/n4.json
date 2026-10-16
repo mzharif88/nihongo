@@ -564,9 +564,15 @@
     },
     {
      "speaker": "[通行人|つうこうにん]",
-     "jp": "はい。右に曲がったら、橋が見えます。橋を渡ったら、左に大きい建物があります。それが美術館です。",
-     "en": "Yes. When you turn right, you'll see a bridge. Once you cross it, there's a big building on the left. That's the museum.",
-     "reading": "はい。[右|みぎ]⟨p⟩に⟨/⟩⟨v⟩[曲|ま]がったら⟨/⟩、⟨s⟩[橋|はし]⟨/⟩⟨p⟩が⟨/⟩⟨v⟩[見|み]えます⟨/⟩。⟨o⟩[橋|はし]⟨/⟩⟨p⟩を⟨/⟩⟨v⟩[渡|わた]ったら⟨/⟩、[左|ひだり]⟨p⟩に⟨/⟩⟨s⟩[大|おお]きい[建物|たてもの]⟨/⟩⟨p⟩が⟨/⟩⟨v⟩あります⟨/⟩。⟨s⟩それ⟨/⟩⟨p⟩が⟨/⟩[美術館|びじゅつかん]⟨v⟩です⟨/⟩。"
+     "jp": "はい。右に曲がったら、橋が見えます。",
+     "en": "Yes. When you turn right, you'll see a bridge.",
+     "reading": "はい。[右|みぎ]⟨p⟩に⟨/⟩⟨v⟩[曲|ま]がったら⟨/⟩、⟨s⟩[橋|はし]⟨/⟩⟨p⟩が⟨/⟩⟨v⟩[見|み]えます⟨/⟩。"
+    },
+    {
+     "speaker": "[通行人|つうこうにん]",
+     "jp": "橋を渡ったら、左に大きい建物があります。それが美術館です。",
+     "en": "Once you cross it, there's a big building on the left. That's the museum.",
+     "reading": "⟨o⟩[橋|はし]⟨/⟩⟨p⟩を⟨/⟩⟨v⟩[渡|わた]ったら⟨/⟩、[左|ひだり]⟨p⟩に⟨/⟩⟨s⟩[大|おお]きい[建物|たてもの]⟨/⟩⟨p⟩が⟨/⟩⟨v⟩あります⟨/⟩。⟨s⟩それ⟨/⟩⟨p⟩が⟨/⟩[美術館|びじゅつかん]⟨v⟩です⟨/⟩。"
     },
     {
      "speaker": "あなた",

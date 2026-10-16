@@ -8098,21 +8098,6 @@
    "topic": "Personality & Behaviour"
   },
   {
-   "slug": "vocab-n2-gehin-na",
-   "type": "word",
-   "term": "下品(な)",
-   "meaning": "vulgar",
-   "skill": "vocabulary",
-   "tags": [
-    "jlpt-verified"
-   ],
-   "jlpt_level": "N2",
-   "reading": "げひん(な)",
-   "romaji": "gehin(na)",
-   "mnemonic": "下 below + 品 goods",
-   "topic": "Personality & Behaviour"
-  },
-  {
    "slug": "vocab-n2-kemui",
    "type": "word",
    "term": "煙い",
@@ -17751,20 +17736,6 @@
    "topic": "Function Words & Pronouns"
   },
   {
-   "slug": "vocab-n2-douitashimashite-kan",
-   "type": "word",
-   "term": "どういたしまして (かん)",
-   "meaning": "you are welcome, don't mention it",
-   "skill": "vocabulary",
-   "tags": [
-    "jlpt-verified"
-   ],
-   "jlpt_level": "N2",
-   "reading": "どういたしまして (かん)",
-   "romaji": "douitashimashite(kan)",
-   "topic": "Greetings & Basics"
-  },
-  {
    "slug": "vocab-n2-touitsu",
    "type": "word",
    "term": "統一",
@@ -19518,20 +19489,6 @@
    "romaji": "nonki",
    "mnemonic": "呑 + 気 spirit",
    "topic": "Personality & Behaviour"
-  },
-  {
-   "slug": "vocab-n2-hai-kan",
-   "type": "word",
-   "term": "はい (かん)",
-   "meaning": "yes",
-   "skill": "vocabulary",
-   "tags": [
-    "jlpt-verified"
-   ],
-   "jlpt_level": "N2",
-   "reading": "はい (かん)",
-   "romaji": "hai(kan)",
-   "topic": "Greetings & Basics"
   },
   {
    "slug": "vocab-n2-haiiro",
@@ -22806,21 +22763,6 @@
    "jlpt_level": "N2",
    "reading": "ほがらか",
    "romaji": "hogaraka",
-   "mnemonic": "朗: 月 moon + 艮 stopping",
-   "topic": "Personality & Behaviour"
-  },
-  {
-   "slug": "vocab-n2-hogaraka-na",
-   "type": "word",
-   "term": "朗らか(な)",
-   "meaning": "cheerful, merry bright (sky, day, etc.), fine, clear",
-   "skill": "vocabulary",
-   "tags": [
-    "jlpt-verified"
-   ],
-   "jlpt_level": "N2",
-   "reading": "ほがらか(な)",
-   "romaji": "hogaraka(na)",
    "mnemonic": "朗: 月 moon + 艮 stopping",
    "topic": "Personality & Behaviour"
   },

@@ -20,6 +20,7 @@ import { applyMnemonics, loadMnemonics } from "./mnemonics";
 import { dropMerged, loadMerges } from "./merges";
 import { applyKanjiHints, loadHintData } from "./kanji-hints";
 import { applyWordTopics } from "./word-topics";
+import { applyGrammarExamples } from "./legacy-grammar";
 
 const LEGACY_REF = process.env.LEGACY_REF ?? "origin/legacy";
 const OUT_DIR = join(process.cwd(), "content", "legacy");
@@ -411,7 +412,7 @@ async function main() {
   const built = buildItems(data) as (Record<string, unknown> & { slug: string; type: string; term: string })[];
   const annotate = await createAnnotator(knownWordsFrom(built));
   const items = applyKanjiHints(
-    dropMerged(annotateItems(applyMnemonics(built, loadMnemonics()), annotate), loadMerges()),
+    dropMerged(annotateItems(applyGrammarExamples(applyMnemonics(built, loadMnemonics())), annotate), loadMerges()),
     loadHintData(built),
   );
   const practice = buildPracticeQuestions(data.grammar.ALL_GRAMMAR);

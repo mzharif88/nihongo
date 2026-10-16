@@ -1,0 +1,8 @@
+{
+ "note": "Findings checked by hand and accepted, by rule and slug, with the reason. The audit leaves them out.",
+ "allow": {
+  "word-duplicate": {
+   "vocab-n5-kiro-kiromeetoru": "キロ (kilometre) and キロ (kilogram) are different words that share the short form; the cards show the full spelling."
+  }
+ }
+}

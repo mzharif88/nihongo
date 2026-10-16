@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-16T00:57:57.392Z",
+ "generatedAt": "2026-10-16T01:09:28.902Z",
  "totals": {
   "error": 0,
-  "warning": 52,
+  "warning": 0,
   "info": 282
  },
  "rules": [
@@ -43,87 +43,8 @@
    "severity": "warning",
    "title": "No word appears twice with the same spelling and reading",
    "why": "Duplicates split a learner's progress and show twice in a session.",
-   "count": 13,
-   "samples": [
-    {
-     "rule": "word-duplicate",
-     "file": "items (merged)",
-     "slug": "vocab-n5-ashi",
-     "message": "足; 脚 (あし) duplicates word-ashi"
-    },
-    {
-     "rule": "word-duplicate",
-     "file": "items (merged)",
-     "slug": "vocab-n5-kawa",
-     "message": "川; 河 (かわ) duplicates word-kawa"
-    },
-    {
-     "rule": "word-duplicate",
-     "file": "items (merged)",
-     "slug": "vocab-n5-kiro-kiromeetoru",
-     "message": "キロ; キロメートル (キロ; キロメートル) duplicates vocab-n5-kiro-kiroguramu"
-    },
-    {
-     "rule": "word-duplicate",
-     "file": "items (merged)",
-     "slug": "vocab-n4-sou",
-     "message": "そう (そう) duplicates vocab-n5-sou-soudesu"
-    },
-    {
-     "rule": "word-duplicate",
-     "file": "items (merged)",
-     "slug": "vocab-n4-a",
-     "message": "あ (あ) duplicates word-a-sou-da"
-    },
-    {
-     "rule": "word-duplicate",
-     "file": "items (merged)",
-     "slug": "vocab-n4-suupaa-maaketto",
-     "message": "スーパー (マーケット) (スーパー (マーケット)) duplicates word-suupaa"
-    },
-    {
-     "rule": "word-duplicate",
-     "file": "items (merged)",
-     "slug": "vocab-n3-sumimasen-kan",
-     "message": "すみません (かん) (すみません (かん)) duplicates word-sumimasen"
-    },
-    {
-     "rule": "word-duplicate",
-     "file": "items (merged)",
-     "slug": "vocab-n3-aru",
-     "message": "在る; 有る (ある) duplicates vocab-n5-aru"
-    },
-    {
-     "rule": "word-duplicate",
-     "file": "items (merged)",
-     "slug": "vocab-n3-yoroshiku-kan",
-     "message": "よろしく (かん) (よろしく (かん)) duplicates word-yoroshiku"
-    },
-    {
-     "rule": "word-duplicate",
-     "file": "items (merged)",
-     "slug": "vocab-n2-gehin-na",
-     "message": "下品(な) (げひん(な)) duplicates vocab-n2-gehin"
-    },
-    {
-     "rule": "word-duplicate",
-     "file": "items (merged)",
-     "slug": "vocab-n2-douitashimashite-kan",
-     "message": "どういたしまして (かん) (どういたしまして (かん)) duplicates word-dou-itashimashite"
-    },
-    {
-     "rule": "word-duplicate",
-     "file": "items (merged)",
-     "slug": "vocab-n2-hai-kan",
-     "message": "はい (かん) (はい (かん)) duplicates word-hai"
-    },
-    {
-     "rule": "word-duplicate",
-     "file": "items (merged)",
-     "slug": "vocab-n2-hogaraka-na",
-     "message": "朗らか(な) (ほがらか(な)) duplicates vocab-n2-hogaraka"
-    }
-   ]
+   "count": 0,
+   "samples": []
   },
   {
    "id": "furigana-kana",
@@ -377,201 +298,24 @@
    "severity": "warning",
    "title": "Reading passages are close to the official length",
    "why": "Passage length is a large part of what makes each level's reading hard.",
-   "count": 2,
-   "samples": [
-    {
-     "rule": "passage-length",
-     "file": "mock/n5-full-1-questions.json",
-     "slug": "mock-n5-full-1-40",
-     "message": "問題4 内容理解（短文） · Short passage: 103 characters, official 80"
-    },
-    {
-     "rule": "passage-length",
-     "file": "mock/n5-full-1-questions.json",
-     "slug": "mock-n5-full-1-43",
-     "message": "問題6 情報検索 · Finding information: 170 characters, official 250"
-    }
-   ]
+   "count": 0,
+   "samples": []
   },
   {
    "id": "sentence-length",
    "severity": "warning",
    "title": "Example and lesson sentences suit their level's length",
    "why": "Beginners read short sentences first: up to 30 characters at N5, 40 at N4, 55 at N3, 70 at N2.",
-   "count": 2,
-   "samples": [
-    {
-     "rule": "sentence-length",
-     "file": "lessons/n4.json",
-     "slug": "lesson-n4-06-michi",
-     "message": "N4, 47 characters: はい。右に曲がったら、橋が見えます。橋を渡ったら、左に大きい建物があります。それが美術館です。"
-    },
-    {
-     "rule": "sentence-length",
-     "file": "lessons/situations.json",
-     "slug": "situation-transport-02-norikae",
-     "message": "N4, 44 characters: まもなく、二番線に電車がまいります。危ないですから、黄色い線の内側までお下がりください。"
-    }
-   ]
+   "count": 0,
+   "samples": []
   },
   {
    "id": "grammar-examples",
    "severity": "warning",
    "title": "Every grammar point has at least two example sentences",
    "why": "One example isn't enough to see how a pattern bends to different words.",
-   "count": 35,
-   "samples": [
-    {
-     "rule": "grammar-examples",
-     "file": "items (merged)",
-     "slug": "grammar-wa-topic",
-     "message": "は (topic marker): 1 example(s)"
-    },
-    {
-     "rule": "grammar-examples",
-     "file": "items (merged)",
-     "slug": "grammar-ga-subject",
-     "message": "が (subject marker): 1 example(s)"
-    },
-    {
-     "rule": "grammar-examples",
-     "file": "items (merged)",
-     "slug": "grammar-wo-object",
-     "message": "を (object marker): 1 example(s)"
-    },
-    {
-     "rule": "grammar-examples",
-     "file": "items (merged)",
-     "slug": "grammar-ni-destination",
-     "message": "に (destination): 1 example(s)"
-    },
-    {
-     "rule": "grammar-examples",
-     "file": "items (merged)",
-     "slug": "grammar-de-location",
-     "message": "で (location of action): 1 example(s)"
-    },
-    {
-     "rule": "grammar-examples",
-     "file": "items (merged)",
-     "slug": "grammar-ni-vs-de",
-     "message": "に vs で: 1 example(s)"
-    },
-    {
-     "rule": "grammar-examples",
-     "file": "items (merged)",
-     "slug": "grammar-mo-also",
-     "message": "も (also): 1 example(s)"
-    },
-    {
-     "rule": "grammar-examples",
-     "file": "items (merged)",
-     "slug": "grammar-no-possessive",
-     "message": "の (possessive): 1 example(s)"
-    },
-    {
-     "rule": "grammar-examples",
-     "file": "items (merged)",
-     "slug": "grammar-to-and-with",
-     "message": "と (and/with): 1 example(s)"
-    },
-    {
-     "rule": "grammar-examples",
-     "file": "items (merged)",
-     "slug": "grammar-kara-made",
-     "message": "から/まで (from/until): 1 example(s)"
-    },
-    {
-     "rule": "grammar-examples",
-     "file": "items (merged)",
-     "slug": "grammar-masu",
-     "message": "ます (polite present/future): 1 example(s)"
-    },
-    {
-     "rule": "grammar-examples",
-     "file": "items (merged)",
-     "slug": "grammar-mashita",
-     "message": "ました (polite past): 1 example(s)"
-    },
-    {
-     "rule": "grammar-examples",
-     "file": "items (merged)",
-     "slug": "grammar-masen",
-     "message": "ません (polite negative): 1 example(s)"
-    },
-    {
-     "rule": "grammar-examples",
-     "file": "items (merged)",
-     "slug": "grammar-masen-deshita",
-     "message": "ませんでした (past negative): 1 example(s)"
-    },
-    {
-     "rule": "grammar-examples",
-     "file": "items (merged)",
-     "slug": "grammar-te-kudasai",
-     "message": "てください (please do): 1 example(s)"
-    },
-    {
-     "rule": "grammar-examples",
-     "file": "items (merged)",
-     "slug": "grammar-te-iru",
-     "message": "ている (ongoing action): 1 example(s)"
-    },
-    {
-     "rule": "grammar-examples",
-     "file": "items (merged)",
-     "slug": "grammar-tai",
-     "message": "たい (want to): 1 example(s)"
-    },
-    {
-     "rule": "grammar-examples",
-     "file": "items (merged)",
-     "slug": "grammar-i-adj-present",
-     "message": "い-adjective (present): 1 example(s)"
-    },
-    {
-     "rule": "grammar-examples",
-     "file": "items (merged)",
-     "slug": "grammar-i-adj-past",
-     "message": "い-adjective past: 1 example(s)"
-    },
-    {
-     "rule": "grammar-examples",
-     "file": "items (merged)",
-     "slug": "grammar-i-adj-negative",
-     "message": "い-adjective negative: 1 example(s)"
-    },
-    {
-     "rule": "grammar-examples",
-     "file": "items (merged)",
-     "slug": "grammar-na-adj",
-     "message": "な-adjective: 1 example(s)"
-    },
-    {
-     "rule": "grammar-examples",
-     "file": "items (merged)",
-     "slug": "grammar-doko",
-     "message": "どこ (where): 1 example(s)"
-    },
-    {
-     "rule": "grammar-examples",
-     "file": "items (merged)",
-     "slug": "grammar-nan-vs-nani",
-     "message": "なん vs なに (what): 1 example(s)"
-    },
-    {
-     "rule": "grammar-examples",
-     "file": "items (merged)",
-     "slug": "grammar-itsu",
-     "message": "いつ (when): 1 example(s)"
-    },
-    {
-     "rule": "grammar-examples",
-     "file": "items (merged)",
-     "slug": "grammar-ja-nai-desu",
-     "message": "じゃないです (not): 1 example(s)"
-    }
-   ]
+   "count": 0,
+   "samples": []
   },
   {
    "id": "lesson-grammar-level",

@@ -34,7 +34,9 @@ export function loadContent(): Content {
       const src = JSON.parse(readFileSync(join(ROOT, "mock", f), "utf8"));
       return { file: `mock/${f}`, level: src.mock_test.jlpt_level as string, questions: src.questions };
     });
-  return { packs, items, topics, fullMocks };
+  const allowFile = join(ROOT, "audit", "allow.json");
+  const allow = existsSync(allowFile) ? JSON.parse(readFileSync(allowFile, "utf8")).allow : {};
+  return { packs, items, topics, fullMocks, allow };
 }
 
 export const loadBaseline = (): Record<string, number> => (existsSync(BASELINE_FILE) ? JSON.parse(readFileSync(BASELINE_FILE, "utf8")).warnings : {});

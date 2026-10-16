@@ -168,21 +168,6 @@
    "topic": "Time & Calendar"
   },
   {
-   "slug": "vocab-n5-ashi",
-   "type": "word",
-   "term": "足; 脚",
-   "meaning": "foot; leg",
-   "skill": "vocabulary",
-   "tags": [
-    "jlpt-verified"
-   ],
-   "jlpt_level": "N5",
-   "reading": "あし",
-   "romaji": "ashi",
-   "mnemonic": "足 foot + 脚",
-   "topic": "Body"
-  },
-  {
    "slug": "vocab-n5-asoko",
    "type": "word",
    "term": "あそこ",
@@ -1756,21 +1741,6 @@
    "reading": "カレンダー",
    "romaji": "karendaa",
    "topic": "Time & Calendar"
-  },
-  {
-   "slug": "vocab-n5-kawa",
-   "type": "word",
-   "term": "川; 河",
-   "meaning": "river",
-   "skill": "vocabulary",
-   "tags": [
-    "jlpt-verified"
-   ],
-   "jlpt_level": "N5",
-   "reading": "かわ",
-   "romaji": "kawa",
-   "mnemonic": "川 river + 河 river",
-   "topic": "Nature & Environment"
   },
   {
    "slug": "vocab-n5-gawa",

@@ -1,0 +1,16 @@
+{
+ "note": "Words listed twice (the old app and the JLPT lists, or a list's own variants). `from` is dropped from the packs (npm run build:dedupe, and build-open-data) and its learners' progress moved to `to` in the database.",
+ "merges": [
+  { "from": "vocab-n5-ashi", "to": "word-ashi", "reason": "足; 脚 duplicates 足 (あし)" },
+  { "from": "vocab-n5-kawa", "to": "word-kawa", "reason": "川; 河 duplicates 川 (かわ)" },
+  { "from": "vocab-n4-sou", "to": "vocab-n5-sou-soudesu", "reason": "そう listed again at N4" },
+  { "from": "vocab-n4-suupaa-maaketto", "to": "word-suupaa", "reason": "スーパー (マーケット) duplicates スーパー" },
+  { "from": "vocab-n3-sumimasen-kan", "to": "word-sumimasen", "reason": "すみません (interjection) duplicates すみません" },
+  { "from": "vocab-n3-aru", "to": "vocab-n5-aru", "reason": "在る; 有る listed again at N3" },
+  { "from": "vocab-n3-yoroshiku-kan", "to": "word-yoroshiku", "reason": "よろしく (interjection) duplicates よろしく" },
+  { "from": "vocab-n2-gehin-na", "to": "vocab-n2-gehin", "reason": "下品(な) duplicates 下品" },
+  { "from": "vocab-n2-douitashimashite-kan", "to": "word-dou-itashimashite", "reason": "どういたしまして (interjection) duplicates どういたしまして" },
+  { "from": "vocab-n2-hai-kan", "to": "word-hai", "reason": "はい (interjection) duplicates はい" },
+  { "from": "vocab-n2-hogaraka-na", "to": "vocab-n2-hogaraka", "reason": "朗らか(な) duplicates 朗らか" }
+ ]
+}
