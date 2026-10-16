@@ -28,6 +28,30 @@ export function monthlyBudget(): number {
 
 export const aiConfigured = () => !!process.env.ANTHROPIC_API_KEY;
 
+/**
+ * The Claude client. A key made at the organisation level (not inside a
+ * workspace) must name its workspace on every request: set
+ * ANTHROPIC_WORKSPACE_ID in Vercel to the workspace's ID (wrkspc_…).
+ */
+export function anthropicClient(): Anthropic {
+  const workspace = process.env.ANTHROPIC_WORKSPACE_ID?.trim();
+  return new Anthropic(workspace ? { defaultHeaders: { "anthropic-workspace-id": workspace } } : {});
+}
+
+/** A Claude API error in words the learner can act on (server errors are hidden in production). */
+export function friendlyAiError(e: unknown): string {
+  if (e instanceof Anthropic.APIError) {
+    const message = String((e.error as { error?: { message?: string } } | undefined)?.error?.message ?? e.message);
+    if (/workspace/i.test(message)) return "The Claude API key isn't tied to a workspace. Add ANTHROPIC_WORKSPACE_ID in Vercel, or use a key created inside a workspace.";
+    if (e.status === 401) return "The Claude API key was rejected. Check ANTHROPIC_API_KEY in Vercel.";
+    if (e.status === 403) return "The Claude API key isn't allowed to use this model.";
+    if (e.status === 429) return "Too many requests to Claude right now. Try again in a minute.";
+    if (e.status && e.status >= 500) return "Claude is busy or down. Try again shortly.";
+    return `Claude couldn't translate that (${e.status ?? "error"}). Try again.`;
+  }
+  return e instanceof Error ? e.message : "Something went wrong.";
+}
+
 export type AiScope = "course" | "N5" | "N4" | "N3" | "N2";
 export const AI_SCOPES: { id: AiScope; label: string }[] = [
   { id: "course", label: "Words in my next course units" },
@@ -105,7 +129,7 @@ export async function runSentenceJob(
   if (runError) throw new Error(runError.message);
 
   const model = AI_MODELS.find((m) => m.id === opts.model)!;
-  const client = new Anthropic();
+  const client = anthropicClient();
   const totals = { input: 0, output: 0, cost: 0, created: 0, discarded: 0 };
   const bySlug = new Map(words.map((w) => [w.slug, w]));
 

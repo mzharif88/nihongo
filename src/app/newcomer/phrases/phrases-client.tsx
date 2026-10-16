@@ -42,6 +42,7 @@ export function PhrasesClient({ initial, canTranslate }: { initial: PhraseRow[];
   const translate = () =>
     run(async () => {
       const result = await translatePreview(text);
+      if (result.error) throw new Error(result.error);
       setPreview(result.phrases.map((p) => ({ ...p, keep: true })));
       setFailed(result.failed);
     });
@@ -169,6 +170,7 @@ export function PhrasesClient({ initial, canTranslate }: { initial: PhraseRow[];
           onEdit={(source) =>
             run(async () => {
               const p = await editPhrase(open.id, source);
+              if ("error" in p) throw new Error(p.error);
               update(open.id, { source: p.source, source_lang: p.source_lang, meaning: p.meaning, jp: p.jp, reading: p.reading, kana: p.kana, words: p.words });
             })
           }

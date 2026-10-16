@@ -6,6 +6,7 @@ import { requireUser } from "@/lib/auth";
 import { grade, type Priority } from "@/lib/newcomer/recall";
 import { splitLines, type CheckedPhrase } from "@/lib/newcomer/translate";
 import { translateLines } from "@/lib/newcomer/translate.server";
+import { friendlyAiError } from "@/lib/ai/engine.server";
 import { PHRASE_COLUMNS, type PhraseRow } from "@/lib/newcomer/newcomer.server";
 import { scene } from "@/lib/newcomer/listening";
 import { starterTopic } from "@/lib/newcomer/starter";
@@ -17,15 +18,24 @@ export interface Preview extends CheckedPhrase {
   cost: number;
 }
 
-/** Translate one or more lines (one per line) without saving: the learner checks, then saves. */
-export async function translatePreview(text: string): Promise<{ phrases: Preview[]; failed: string[] }> {
+/**
+ * Translate one or more lines (one per line) without saving: the learner
+ * checks, then saves. Problems come back as `error` (a thrown message would
+ * be hidden in production).
+ */
+export async function translatePreview(text: string): Promise<{ phrases: Preview[]; failed: string[]; error?: string }> {
   const { supabase } = await requireUser();
   const lines = splitLines(z.string().max(6000).parse(text));
-  if (!lines.length) throw new Error("Type a sentence first.");
-  if (lines.some((l) => l.length > 300)) throw new Error("Keep each sentence under 300 characters.");
-  const { kept, failed, cost } = await translateLines(supabase, lines);
-  const share = kept.length ? cost / kept.length : 0;
-  return { phrases: kept.map((p) => ({ ...p, cost: share })), failed };
+  if (!lines.length) return { phrases: [], failed: [], error: "Type a sentence first." };
+  if (lines.some((l) => l.length > 300)) return { phrases: [], failed: [], error: "Keep each sentence under 300 characters." };
+  try {
+    const { kept, failed, cost } = await translateLines(supabase, lines);
+    const share = kept.length ? cost / kept.length : 0;
+    return { phrases: kept.map((p) => ({ ...p, cost: share })), failed };
+  } catch (e) {
+    console.error("translatePreview", e);
+    return { phrases: [], failed: [], error: friendlyAiError(e) };
+  }
 }
 
 const SavePhrase = z.object({
@@ -69,11 +79,18 @@ export async function restorePhrase(row: Record<string, unknown>) {
 }
 
 /** Change the sentence: translate the new wording and replace the phrase, keeping its progress. */
-export async function editPhrase(id: string, source: string): Promise<Preview> {
+export async function editPhrase(id: string, source: string): Promise<Preview | { error: string }> {
   const { supabase } = await requireUser();
   const line = z.string().min(1).max(300).parse(source.trim());
-  const { kept, cost } = await translateLines(supabase, [line]);
-  if (!kept.length) throw new Error("Couldn't translate that. Try rewording it.");
+  let result: Awaited<ReturnType<typeof translateLines>>;
+  try {
+    result = await translateLines(supabase, [line]);
+  } catch (e) {
+    console.error("editPhrase", e);
+    return { error: friendlyAiError(e) };
+  }
+  const { kept, cost } = result;
+  if (!kept.length) return { error: "Couldn't translate that. Try rewording it." };
   const p = kept[0];
   const { error } = await supabase
     .from("newcomer_phrases")

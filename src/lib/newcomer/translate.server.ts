@@ -1,8 +1,7 @@
 import "server-only";
-import Anthropic from "@anthropic-ai/sdk";
 import { betaZodOutputFormat } from "@anthropic-ai/sdk/helpers/beta/zod";
 import type { SupabaseClient } from "@supabase/supabase-js";
-import { aiConfigured } from "@/lib/ai/engine.server";
+import { aiConfigured, anthropicClient } from "@/lib/ai/engine.server";
 import { costUsd } from "@/lib/ai/sentences";
 import { acceptTranslations, NEWCOMER_MODEL, SYSTEM_PROMPT, Translation, userPrompt, type CheckedPhrase } from "./translate";
 
@@ -25,7 +24,7 @@ export async function translateLines(supabase: SupabaseClient, lines: string[]):
   const budget = newcomerBudget();
   if ((await spentThisMonth(supabase)) >= budget) throw new Error(`This month's translation budget ($${budget.toFixed(2)}) is used up.`);
 
-  const client = new Anthropic();
+  const client = anthropicClient();
   const response = await client.beta.messages.parse({
     model: NEWCOMER_MODEL,
     max_tokens: 16000,
