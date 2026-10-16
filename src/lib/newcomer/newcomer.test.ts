@@ -115,10 +115,11 @@ describe("translations", () => {
       { text: "は", role: "p" },
       { text: "コーヒー", role: "o" },
       { text: "を", role: "p" },
-      { text: "入れてください", role: "v" },
+      { text: "入れて", role: "v" },
+      { text: "ください", role: "e" },
       { text: "。", role: "p" },
     ] as const;
-    expect(withRoles("[私|わたし]はコーヒーを[入|い]れてください。", [...parts])).toBe("⟨s⟩[私|わたし]⟨/⟩は⟨o⟩コーヒー⟨/⟩を⟨v⟩[入|い]れてください⟨/⟩。");
+    expect(withRoles("[私|わたし]はコーヒーを[入|い]れてください。", [...parts])).toBe("⟨s⟩[私|わたし]⟨/⟩は⟨o⟩コーヒー⟨/⟩を⟨v⟩[入|い]れて⟨/⟩⟨e⟩ください⟨/⟩。");
     // Parts that don't spell the sentence: no colours, reading kept.
     expect(withRoles("[川|かわ]に[行|い]きましょう。", [{ text: "川に", role: "w" }])).toBe("[川|かわ]に[行|い]きましょう。");
   });

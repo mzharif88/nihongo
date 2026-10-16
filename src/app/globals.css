@@ -7,12 +7,13 @@
   --card: #ffffff;
   --border: #e7e5e4;
   --accent: #c2410c;
-  /* Grammar colours: subject/topic, object, verb, particle, other word. */
+  /* Grammar colours: subject/topic, object, verb, particle, other word, polite ending. */
   --role-s: #dc2626;
   --role-o: #2563eb;
   --role-v: #16a34a;
   --role-p: #ea580c;
   --role-w: #9333ea;
+  --role-e: #ea580c;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -28,6 +29,7 @@
     --role-v: #4ade80;
     --role-p: #fb923c;
     --role-w: #c084fc;
+    --role-e: #fb923c;
   }
 }
 
@@ -63,11 +65,13 @@ rt {
 .role-v { color: var(--role-v); }
 .role-p { color: var(--role-p); }
 .role-w { color: var(--role-w); }
+.role-e { color: var(--role-e); }
 .roles-off .role-s,
 .roles-off .role-o,
 .roles-off .role-v,
 .roles-off .role-p,
-.roles-off .role-w {
+.roles-off .role-w,
+.roles-off .role-e {
   color: inherit;
 }
 

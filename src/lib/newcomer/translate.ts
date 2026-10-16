@@ -17,7 +17,7 @@ export const Translation = z.object({
       jp: z.string(),
       reading: z.string(),
       words: z.array(z.string()),
-      parts: z.array(z.object({ text: z.string(), role: z.enum(["s", "o", "v", "w", "p"]) })),
+      parts: z.array(z.object({ text: z.string(), role: z.enum(["s", "o", "v", "e", "w", "p"]) })),
     }),
   ),
 });
@@ -31,7 +31,7 @@ The learner is a Malaysian adult beginner. Each input line is in English or Mala
 - "jp": what a Japanese person would naturally say in that situation, in polite form (です/ます; requests with ください or お願いします). Translate what they mean, not the words: "please make me coffee" is コーヒーをお願いします or コーヒーを入れてください, not コーヒーを作ってください. Kanji where a native would write them. One or two sentences, ending with 。 or ？.
 - "reading": "jp" with every run of kanji written as [漢字|かな], for example [日本語|にほんご]を[勉強|べんきょう]しています。 Everything outside the brackets is copied exactly, so removing the readings gives back "jp" character for character. Use the reading that fits the context.
 - "words": the dictionary form of each content word in "jp" (nouns, verbs, adjectives, adverbs; not particles, です or ます), written as a dictionary writes them: 食べました → 食べる, 行きたい → 行く, 好き → 好き, コーヒー → コーヒー. Leave out names and numbers.
-- "parts": "jp" cut into its words, in order, each with its role, so the learner can see which bits are particles. Joined together the parts must give "jp" exactly, punctuation included. Roles: "s" the subject or topic (the word or phrase before は or が, without the particle), "o" the object (before を, without を), "v" a verb or です with all its endings (入れてください, 行きましょう, しました, です), "w" any other word (nouns, adjectives, adverbs, question words), "p" a particle (は, が, を, に, で, へ, と, の, も, か, ね, よ, から, まで) or punctuation. For example 私はコーヒーを飲みます。 → 私 s, は p, コーヒー o, を p, 飲みます v, 。 p.
+- "parts": "jp" cut into its words, in order, each with its role, so the learner can see which bits are particles. Joined together the parts must give "jp" exactly, punctuation included. Roles: "s" the subject or topic (the word or phrase before は or が, without the particle), "o" the object (before を, without を), "v" the verb itself, without its polite ending (入れて, 行き, 食べ, 荷造りし, 言って), "e" the polite ending, request or question that follows: ます, ました, ません, ましょう, です, でした, ください, いました / います after a て-form, and a question か joined to it (ましたか, ですか), "w" any other word (nouns, adjectives, adverbs, question words), "p" any other particle (は, が, を, に, で, へ, と, の, も, ね, よ, から, まで) or punctuation. For example 私はコーヒーを飲みましたか？ → 私 s, は p, コーヒー o, を p, 飲み v, ましたか e, ？ p; 水をください。 → 水 o, を p, ください e, 。 p.
 - "index": the line's number as given.
 
 If a line isn't a sentence someone would say (a single English word, say), still give the most useful polite phrase for it.`;

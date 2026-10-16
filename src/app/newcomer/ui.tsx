@@ -42,7 +42,7 @@ export function Japanese({ kana, jp, reading, className = "" }: { kana: string; 
   const [script] = useScript();
   return (
     <span lang="ja" className={`leading-loose ${className}`}>
-      {script === "kanji" ? <Ruby text={jp} reading={reading} keepKanji /> : /⟨[sovpw]⟩/.test(reading) ? <KanaRoles reading={reading} /> : kana}
+      {script === "kanji" ? <Ruby text={jp} reading={reading} keepKanji /> : /⟨[sovpwe]⟩/.test(reading) ? <KanaRoles reading={reading} /> : kana}
     </span>
   );
 }
@@ -64,6 +64,7 @@ const PHRASE_LEGEND = [
   { role: "s", label: "Who / topic" },
   { role: "o", label: "Object" },
   { role: "v", label: "Verb" },
+  { role: "e", label: "Ending / question (ます・ください・か)" },
   { role: "w", label: "Other word" },
 ] as const;
 
