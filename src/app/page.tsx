@@ -12,6 +12,7 @@ import { loadStudySession } from "@/lib/study/session.server";
 import type { Topic } from "@/lib/study/topics";
 import { dueCount, nightRecallOpen, nightRecallStart } from "@/lib/newcomer/recall";
 import { loadMyPhrases, mineAsRecall } from "@/lib/newcomer/newcomer.server";
+import { loadReadiness } from "@/lib/readiness/readiness.server";
 import { signOut } from "./login/actions";
 
 export default async function HomePage() {
@@ -43,7 +44,8 @@ export default async function HomePage() {
     available,
   });
 
-  const night = await loadNightRecall(supabase, profile.timezone);
+  const [night, readinessAll] = await Promise.all([loadNightRecall(supabase, profile.timezone), loadReadiness(supabase, profile.id)]);
+  const readiness = readinessAll.find((r) => !r.ready) ?? null;
 
   return (
     <main className="mx-auto max-w-xl px-4 py-8">
@@ -59,6 +61,17 @@ export default async function HomePage() {
       {night && <NightRecall {...night} />}
 
       <TodayPlan plan={plan} targetLevel={profile.target_level} examDate={profile.exam_date} />
+
+      {readiness && (
+        <Link href="/readiness" className="mt-3 flex items-center gap-4 rounded-xl border border-border bg-card p-4 hover:border-accent">
+          <div className="text-3xl font-bold">{readiness.percent}%</div>
+          <div className="min-w-0">
+            <div className="text-xs text-muted">{readiness.level} readiness</div>
+            {readiness.focus && <div className="truncate font-medium">Next: {readiness.focus.next}</div>}
+          </div>
+          <span className="ml-auto text-2xl text-accent">→</span>
+        </Link>
+      )}
 
       <section className="mt-6 grid grid-cols-3 gap-3 text-center">
         <Stat label="Due now" value={session.totalDue} />
