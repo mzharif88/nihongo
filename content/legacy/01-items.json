@@ -4322,7 +4322,7 @@
         {
           "jp": "ピョンと跳ぶ",
           "en": "Hop!",
-          "reading": "ピョン⟨p⟩と⟨/⟩⟨v⟩[跳|と]ぶ⟨/⟩"
+          "reading": "ピョンと[跳|と]ぶ"
         }
       ],
       "skill": "script",
@@ -12744,7 +12744,7 @@
         {
           "jp": "スマホを見る",
           "en": "Look at smartphone",
-          "reading": "⟨o⟩スマホ⟨/⟩⟨p⟩を⟨/⟩⟨v⟩[見|み]る⟨/⟩"
+          "reading": "スマホを[見|み]る"
         }
       ],
       "skill": "vocabulary",
@@ -12823,7 +12823,7 @@
         {
           "jp": "SNSに投稿する",
           "en": "Post on social media",
-          "reading": "SNS⟨p⟩に⟨/⟩⟨v⟩[投稿|とうこう]する⟨/⟩"
+          "reading": "SNSに[投稿|とうこう]する"
         }
       ],
       "skill": "vocabulary",
@@ -12844,7 +12844,7 @@
         {
           "jp": "スマホを充電する",
           "en": "Charge smartphone",
-          "reading": "⟨o⟩スマホ⟨/⟩⟨p⟩を⟨/⟩⟨v⟩[充電|じゅうでん]する⟨/⟩"
+          "reading": "スマホを[充電|じゅうでん]する"
         }
       ],
       "skill": "vocabulary",
@@ -12948,7 +12948,7 @@
         {
           "jp": "AIを使う",
           "en": "Use AI",
-          "reading": "⟨o⟩AI⟨/⟩⟨p⟩を⟨/⟩⟨v⟩[使|つか]う⟨/⟩"
+          "reading": "AIを[使|つか]う"
         }
       ],
       "skill": "vocabulary",
@@ -13032,7 +13032,7 @@
         {
           "jp": "アプリを更新する",
           "en": "Update the app",
-          "reading": "⟨o⟩アプリ⟨/⟩⟨p⟩を⟨/⟩⟨v⟩[更新|こうしん]する⟨/⟩"
+          "reading": "アプリを[更新|こうしん]する"
         }
       ],
       "skill": "vocabulary",
@@ -13910,7 +13910,7 @@
         {
           "jp": "カに刺された",
           "en": "Got bit by mosquito",
-          "reading": "カ⟨p⟩に⟨/⟩⟨v⟩[刺|さ]された⟨/⟩"
+          "reading": "カに[刺|さ]された"
         }
       ],
       "skill": "vocabulary",
@@ -19811,7 +19811,7 @@
         {
           "jp": "ザリフと言います",
           "en": "My name is Zarif",
-          "reading": "ザリフ⟨p⟩と⟨/⟩⟨v⟩[言|い]います⟨/⟩"
+          "reading": "ザリフと[言|い]います"
         }
       ],
       "skill": "reading",
@@ -19875,11 +19875,13 @@
       "examples": [
         {
           "jp": "ねこが います。",
-          "en": "There is a cat."
+          "en": "There is a cat.",
+          "reading": "⟨s⟩ねこ⟨/⟩⟨p⟩が⟨/⟩ ⟨v⟩います⟨/⟩。"
         },
         {
           "jp": "あめが ふって います。",
-          "en": "Rain is falling."
+          "en": "Rain is falling.",
+          "reading": "⟨s⟩あめ⟨/⟩⟨p⟩が⟨/⟩ ⟨v⟩ふって⟨/⟩ ⟨v⟩います⟨/⟩。"
         }
       ],
       "tags": [
@@ -19897,7 +19899,8 @@
       "examples": [
         {
           "jp": "りんごを たべます。",
-          "en": "I eat an apple."
+          "en": "I eat an apple.",
+          "reading": "⟨o⟩りんご⟨/⟩⟨p⟩を⟨/⟩ ⟨v⟩たべます⟨/⟩。"
         },
         {
           "jp": "まいにち おちゃを のみます。",
@@ -19967,7 +19970,8 @@
         },
         {
           "jp": "こうえんに いぬが います。",
-          "en": "There is a dog in the park. (に: where something is)"
+          "en": "There is a dog in the park. (に: where something is)",
+          "reading": "こうえん⟨p⟩に⟨/⟩ ⟨s⟩いぬ⟨/⟩⟨p⟩が⟨/⟩ ⟨v⟩います⟨/⟩。"
         }
       ],
       "tags": [
@@ -19989,7 +19993,8 @@
         },
         {
           "jp": "あしたも いそがしいです。",
-          "en": "I'm busy tomorrow too."
+          "en": "I'm busy tomorrow too.",
+          "reading": "あした⟨p⟩も⟨/⟩ いそがしい⟨v⟩です⟨/⟩。"
         }
       ],
       "tags": [
@@ -20007,7 +20012,8 @@
       "examples": [
         {
           "jp": "これは わたしの ほんです。",
-          "en": "This is my book."
+          "en": "This is my book.",
+          "reading": "⟨s⟩これ⟨/⟩⟨p⟩は⟨/⟩ わたし⟨p⟩の⟨/⟩ ほん⟨v⟩です⟨/⟩。"
         },
         {
           "jp": "にほんの たべものが すきです。",
@@ -20077,7 +20083,8 @@
         },
         {
           "jp": "あした ともだちに あいます。",
-          "en": "I will meet a friend tomorrow."
+          "en": "I will meet a friend tomorrow.",
+          "reading": "あした ともだち⟨p⟩に⟨/⟩ ⟨v⟩あいます⟨/⟩。"
         }
       ],
       "tags": [
@@ -20095,11 +20102,13 @@
       "examples": [
         {
           "jp": "きのう すしを たべました。",
-          "en": "I ate sushi yesterday."
+          "en": "I ate sushi yesterday.",
+          "reading": "きのう ⟨o⟩すし⟨/⟩⟨p⟩を⟨/⟩ ⟨v⟩たべました⟨/⟩。"
         },
         {
           "jp": "せんしゅう きょうとに いきました。",
-          "en": "I went to Kyoto last week."
+          "en": "I went to Kyoto last week.",
+          "reading": "せんしゅう きょう⟨p⟩とに⟨/⟩ ⟨v⟩いきました⟨/⟩。"
         }
       ],
       "tags": [
@@ -20183,7 +20192,8 @@
       "examples": [
         {
           "jp": "いま あめが ふって います。",
-          "en": "It is raining now."
+          "en": "It is raining now.",
+          "reading": "いま ⟨s⟩あめ⟨/⟩⟨p⟩が⟨/⟩ ⟨v⟩ふって⟨/⟩ ⟨v⟩います⟨/⟩。"
         },
         {
           "jp": "ははが ばんごはんを つくって います。",
@@ -20227,11 +20237,13 @@
       "examples": [
         {
           "jp": "きょうは てんきが いいです。",
-          "en": "The weather is good today."
+          "en": "The weather is good today.",
+          "reading": "きょう⟨p⟩は⟨/⟩ ⟨s⟩てんき⟨/⟩⟨p⟩が⟨/⟩ いい⟨v⟩です⟨/⟩。"
         },
         {
           "jp": "この かばんは たかいです。",
-          "en": "This bag is expensive."
+          "en": "This bag is expensive.",
+          "reading": "この ⟨s⟩かばん⟨/⟩⟨p⟩は⟨/⟩ たかい⟨v⟩です⟨/⟩。"
         }
       ],
       "tags": [
@@ -20249,11 +20261,13 @@
       "examples": [
         {
           "jp": "きのうは さむかったです。",
-          "en": "It was cold yesterday."
+          "en": "It was cold yesterday.",
+          "reading": "きのう⟨p⟩は⟨/⟩ さむかった⟨v⟩です⟨/⟩。"
         },
         {
           "jp": "あの みせの ケーキは おいしかったです。",
-          "en": "That shop's cake was delicious."
+          "en": "That shop's cake was delicious.",
+          "reading": "あの ⟨v⟩みせ⟨/⟩⟨p⟩の⟨/⟩ ⟨s⟩ケーキ⟨/⟩⟨p⟩は⟨/⟩ おいしかった⟨v⟩です⟨/⟩。"
         }
       ],
       "tags": [
@@ -20271,11 +20285,13 @@
       "examples": [
         {
           "jp": "この くつは たかくないです。",
-          "en": "These shoes are not expensive."
+          "en": "These shoes are not expensive.",
+          "reading": "この ⟨s⟩くつ⟨/⟩⟨p⟩は⟨/⟩ たかくない⟨v⟩です⟨/⟩。"
         },
         {
           "jp": "きょうは さむくないです。",
-          "en": "It isn't cold today."
+          "en": "It isn't cold today.",
+          "reading": "きょう⟨p⟩は⟨/⟩ さむくない⟨v⟩です⟨/⟩。"
         }
       ],
       "tags": [
@@ -20293,11 +20309,13 @@
       "examples": [
         {
           "jp": "たなかさんは じょうずな ひとです。",
-          "en": "Tanaka is a skilful person."
+          "en": "Tanaka is a skilful person.",
+          "reading": "⟨v⟩た⟨/⟩⟨s⟩なかさん⟨/⟩⟨p⟩は⟨/⟩ じょうずな ひと⟨v⟩です⟨/⟩。"
         },
         {
           "jp": "きれいな はなが さいて います。",
-          "en": "Pretty flowers are blooming."
+          "en": "Pretty flowers are blooming.",
+          "reading": "きれいな ⟨s⟩はな⟨/⟩⟨p⟩が⟨/⟩ ⟨v⟩さいて⟨/⟩ ⟨v⟩います⟨/⟩。"
         }
       ],
       "tags": [
@@ -20315,7 +20333,8 @@
       "examples": [
         {
           "jp": "トイレは どこですか。",
-          "en": "Where is the toilet?"
+          "en": "Where is the toilet?",
+          "reading": "⟨s⟩トイレ⟨/⟩⟨p⟩は⟨/⟩ どこ⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。"
         },
         {
           "jp": "なつやすみに どこに いきますか。",
@@ -20337,11 +20356,13 @@
       "examples": [
         {
           "jp": "これは なんですか。",
-          "en": "What is this? (なん before です)"
+          "en": "What is this? (なん before です)",
+          "reading": "⟨s⟩これ⟨/⟩⟨p⟩は⟨/⟩ なん⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。"
         },
         {
           "jp": "あした なにを しますか。",
-          "en": "What will you do tomorrow? (なに before を)"
+          "en": "What will you do tomorrow? (なに before を)",
+          "reading": "あした ⟨o⟩なに⟨/⟩⟨p⟩を⟨/⟩ ⟨v⟩します⟨/⟩⟨p⟩か⟨/⟩。"
         }
       ],
       "tags": [
@@ -20403,11 +20424,13 @@
       "examples": [
         {
           "jp": "この ラーメン、おいしいですよ。",
-          "en": "This ramen is delicious, you know. (よ: telling them something new)"
+          "en": "This ramen is delicious, you know. (よ: telling them something new)",
+          "reading": "この ラーメン、おいしい⟨v⟩です⟨/⟩⟨p⟩よ⟨/⟩。"
         },
         {
           "jp": "きょうは あついですね。",
-          "en": "It's hot today, isn't it? (ね: expecting agreement)"
+          "en": "It's hot today, isn't it? (ね: expecting agreement)",
+          "reading": "きょう⟨p⟩は⟨/⟩ あつい⟨v⟩です⟨/⟩⟨p⟩ね⟨/⟩。"
         }
       ],
       "tags": [
@@ -20473,7 +20496,8 @@
         },
         {
           "jp": "ここに すわっても いいですか。",
-          "en": "May I sit here?"
+          "en": "May I sit here?",
+          "reading": "ここ⟨p⟩に⟨/⟩ ⟨v⟩すわって⟨/⟩⟨p⟩も⟨/⟩ いい⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。"
         }
       ],
       "tags": [
@@ -20535,7 +20559,8 @@
       "examples": [
         {
           "jp": "すしを たべた ことが あります。",
-          "en": "I have eaten sushi before."
+          "en": "I have eaten sushi before.",
+          "reading": "⟨o⟩すし⟨/⟩⟨p⟩を⟨/⟩ ⟨v⟩たべた⟨/⟩ ⟨s⟩こと⟨/⟩⟨p⟩が⟨/⟩ ⟨v⟩あります⟨/⟩。"
         },
         {
           "jp": "ふじさんに のぼった ことが ありますか。",
@@ -20561,7 +20586,8 @@
         },
         {
           "jp": "あるきながら でんわを しないで ください。",
-          "en": "Please don't talk on the phone while walking."
+          "en": "Please don't talk on the phone while walking.",
+          "reading": "⟨v⟩あるきながら⟨/⟩ ⟨o⟩でんわ⟨/⟩⟨p⟩を⟨/⟩ ⟨v⟩しないで⟨/⟩ ⟨v⟩ください⟨/⟩。"
         }
       ],
       "tags": [
@@ -20583,7 +20609,8 @@
         },
         {
           "jp": "てを あらってから たべて ください。",
-          "en": "Please wash your hands before you eat. (literally: after washing)"
+          "en": "Please wash your hands before you eat. (literally: after washing)",
+          "reading": "⟨p⟩てを⟨/⟩ ⟨v⟩あらって⟨/⟩⟨p⟩から⟨/⟩ ⟨v⟩たべて⟨/⟩ ⟨v⟩ください⟨/⟩。"
         }
       ],
       "tags": [

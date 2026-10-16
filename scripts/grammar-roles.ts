@@ -104,18 +104,29 @@ const CONTENT_POS = new Set(["名詞", "動詞", "形容詞", "副詞", "連体�
  * neighbouring tokens may spell a longer known word: がっ + こう = がっこう
  * means the word was split, so the tags would be wrong.
  */
-export function trustKana(tokens: Token[], knownKana: Set<string>): boolean {
+/** Verbs safe to colour when written in kana. */
+const PLAIN_VERBS = new Set(["ある", "いる", "する", "なる", "くださる", "できる"]);
+
+/** A content word the word lists know (verbs and adjectives by dictionary form). */
+const isKnown = (t: Token, knownKana: Set<string>) =>
+  hasKanji(t.surface_form) || (t.pos === "動詞" || t.pos === "形容詞" ? knownKana.has(t.basic_form) : knownKana.has(t.surface_form) || knownKana.has(t.basic_form));
+
+export function trustKana(tokens: Token[], knownKana: Set<string>, mixed = false): boolean {
   for (const t of tokens) {
+    // Words written with kanji are split reliably; the doubt is over words written in kana.
+    if (hasKanji(t.surface_form) || !t.surface_form.trim()) continue;
     if (t.word_type === "UNKNOWN") return false;
-    if (!CONTENT_POS.has(t.pos)) continue;
-    const ok = t.pos === "動詞" || t.pos === "形容詞" ? knownKana.has(t.basic_form) : knownKana.has(t.surface_form) || knownKana.has(t.basic_form);
-    if (!ok) return false;
+    // In text with kanji, only a split word (below) gives the tokenizer away; unlisted kana words are fine.
+    if (mixed || !CONTENT_POS.has(t.pos)) continue;
+    if (!isKnown(t, knownKana)) return false;
   }
   for (let i = 0; i < tokens.length; i++) {
     for (let n = 2; n <= 4 && i + n <= tokens.length; n++) {
       const span = tokens.slice(i, i + n);
-      if (!span.some((t) => CONTENT_POS.has(t.pos)) || span.some((t) => t.pos === "記号")) continue;
-      if (knownKana.has(span.map((t) => t.surface_form).join(""))) return false;
+      if (!span.some((t) => CONTENT_POS.has(t.pos)) || span.some((t) => t.pos === "記号" || hasKanji(t.surface_form))) continue;
+      const joined = span.map((t) => t.surface_form).join("");
+      // (Not in text with kanji: there a join that spells a word is mostly a set phrase in parts, ありがとう+ござい+ます.)
+      if (!mixed && knownKana.has(joined)) return false;
     }
   }
   return true;
@@ -140,7 +151,13 @@ export async function createRoleTagger(knownKana: Set<string> = new Set()): Prom
     // word boundaries to go on, so it's tagged only when every word the tokenizer found is a known word.
     if (/\([A-Za-z]/.test(plain)) return markup;
     const tokens = tokenizer.tokenize(plain);
-    if (!hasKanji(plain) && !trustKana(tokens, knownKana)) return markup;
+    // The same goes for the kana words in mixed text (れいぞうこ beside 中, written in kana at N5).
+    // Text spaced the JLPT way (N5 papers: 「れいぞうこに ケーキが あります」) is mostly kana words, so it's
+    // checked as strictly as kana-only text; other text with kanji only for words the tokenizer doesn't know.
+    const spaced = /\s/.test(plain);
+    if (!trustKana(tokens, knownKana, hasKanji(plain) && !spaced)) return markup;
+    // In spaced text a verb in kana is often a noun misread (みせ 店 as 見せる, よる 夜 as 寄る): only the unmistakable ones pass.
+    if (spaced && hasKanji(plain) && tokens.some((t) => t.pos === "動詞" && !hasKanji(t.surface_form) && !PLAIN_VERBS.has(t.basic_form))) return markup;
     const roles = tokenRoles(tokens);
     if (tokens.length < 3 || !roles.some((r) => r === "v" || r === "p")) return markup;
     // Kana-only text also needs a verb or です: number words and bare phrases are too easy to mis-split.

@@ -36,7 +36,7 @@
      "speaker": "[田中|たなか]",
      "jp": "ザリフさんは学生ですか。",
      "en": "Are you a student, Zarif?",
-     "reading": "⟨s⟩ザリフさん⟨/⟩⟨p⟩は⟨/⟩[学生|がくせい]⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。"
+     "reading": "ザリフさんは[学生|がくせい]ですか。"
     },
     {
      "speaker": "あなた",
@@ -531,6 +531,1089 @@
     }
    ],
    "notes": "〜たい = \"want to\": take the ます form, drop ます and add たいです. [食|た]べます → [食|た]べたいです (want to eat), [飲|の]みます → [飲|の]みたいです (want to drink). The thing you want often takes が instead of を: [魚|さかな]が[食|た]べたいです.\n\nCulture: staff greet you with [何名様|なんめいさま]ですか (how many people?). Answer with [一人|ひとり] (ひとり), [二人|ふたり] (ふたり), [三人|さんにん] (さんにん)."
+  },
+  {
+   "slug": "lesson-n5-06-kazoku",
+   "jlpt_level": "N5",
+   "position": 6,
+   "title": "かぞくのしゃしん — A family photo",
+   "situation": "A classmate sees a family photo on your phone and asks who everyone is.",
+   "item_slugs": [
+    "word-kazoku",
+    "word-shashin",
+    "word-chichi",
+    "word-haha",
+    "word-imouto",
+    "vocab-n5-otoko",
+    "vocab-n5-onnanoko",
+    "word-ie"
+   ],
+   "grammar_slug": "grammar-no-possessive",
+   "dialogue": [
+    {
+     "speaker": "[山本|やまもと]",
+     "jp": "それは何のしゃしんですか。",
+     "en": "What's that a photo of?",
+     "reading": "⟨s⟩それ⟨/⟩⟨p⟩は⟨/⟩[何|なん]⟨p⟩の⟨/⟩⟨v⟩しゃしんです⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "わたしのかぞくのしゃしんです。",
+     "en": "It's a photo of my family."
+    },
+    {
+     "speaker": "[山本|やまもと]",
+     "jp": "この男の人はだれですか。",
+     "en": "Who is this man?",
+     "reading": "⟨s⟩この[男|おとこ]⟨/⟩⟨p⟩の⟨/⟩⟨s⟩[人|ひと]⟨/⟩⟨p⟩は⟨/⟩⟨v⟩だれです⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "わたしの父です。父のとなりは母です。",
+     "en": "That's my father. Next to him is my mother.",
+     "reading": "わたし⟨p⟩の⟨/⟩[父|ちち]⟨v⟩です⟨/⟩。⟨s⟩[父|ちち]⟨/⟩⟨p⟩の⟨/⟩⟨s⟩となり⟨/⟩⟨p⟩は⟨/⟩[母|はは]⟨v⟩です⟨/⟩。"
+    },
+    {
+     "speaker": "[山本|やまもと]",
+     "jp": "この女の子もかぞくですか。",
+     "en": "Is this girl family too?",
+     "reading": "この[女|おんな]の[子|こ]⟨p⟩もかぞ⟨/⟩く⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "はい、いもうとです。学生です。",
+     "en": "Yes, she's my younger sister. She's a student.",
+     "reading": "はい、⟨v⟩いもう⟨/⟩⟨p⟩と⟨/⟩⟨v⟩です⟨/⟩。[学生|がくせい]⟨v⟩です⟨/⟩。"
+    },
+    {
+     "speaker": "[山本|やまもと]",
+     "jp": "きれいないえですね。ザリフさんのいえですか。",
+     "en": "What a lovely house. Is it yours, Zarif?"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "いいえ、父と母のいえです。",
+     "en": "No, it's my parents' house.",
+     "reading": "いいえ、[父|ちち]⟨p⟩と⟨/⟩[母|はは]⟨p⟩の⟨/⟩⟨v⟩いえです⟨/⟩。"
+    }
+   ],
+   "checks": [
+    {
+     "prompt": "What does 「いもうと」 mean?",
+     "options": [
+      "Older sister",
+      "Younger sister",
+      "Mother",
+      "Younger brother"
+     ],
+     "answer": 1,
+     "explanation": "いもうと = younger sister. An older sister is あね, a younger brother is おとうと."
+    },
+    {
+     "prompt": "Fill in the blank: これはわたし＿かぞくのしゃしんです。",
+     "options": [
+      "の",
+      "を",
+      "に",
+      "が"
+     ],
+     "answer": 0,
+     "explanation": "の joins two nouns: わたしのかぞく = my family, かぞくのしゃしん = a photo of my family."
+    },
+    {
+     "prompt": "Whose house is in the photo?",
+     "options": [
+      "Zarif's",
+      "Yamamoto's",
+      "Zarif's parents'",
+      "Zarif's sister's"
+     ],
+     "answer": 2,
+     "explanation": "「[父|ちち]と[母|はは]のいえです」 = it's my father and mother's house."
+    }
+   ],
+   "notes": "の (no) joins two nouns, like 's or \"of\" in English: わたしの[父|ちち] = my father, かぞくのしゃしん = a photo of (my) family. The owner comes first: [父|ちち]と[母|はは]のいえ = my father and mother's house. To ask \"whose?\", use だれの: これはだれのいえですか。\n\nCulture: Japanese uses plain words for your own family ([父|ちち], [母|はは]) and polite ones for someone else's (お[父|とう]さん, お[母|かあ]さん). Talking about your own mother to a classmate, say [母|はは]."
+  },
+  {
+   "slug": "lesson-n5-07-suki",
+   "jlpt_level": "N5",
+   "position": 7,
+   "title": "[何|なに]がすきですか — Hobbies and likes",
+   "situation": "Over lunch, a classmate asks what you like doing in your free time.",
+   "item_slugs": [
+    "word-suki",
+    "vocab-n5-jouzu",
+    "vocab-n5-heta",
+    "word-nichiyoubi",
+    "vocab-n5-maishuu",
+    "vocab-n5-uta",
+    "vocab-n5-nigiyaka",
+    "vocab-n5-yoku"
+   ],
+   "grammar_slug": "grammar-na-adj",
+   "dialogue": [
+    {
+     "speaker": "[中山|なかやま]",
+     "jp": "ザリフさんは何がすきですか。",
+     "en": "What do you like, Zarif?",
+     "reading": "ザリフさんは[何|なに]がすきですか。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "サッカーがすきです。毎週日曜日にします。",
+     "en": "I like football. I play every Sunday.",
+     "reading": "⟨s⟩サッカー⟨/⟩⟨p⟩が⟨/⟩すき⟨v⟩です⟨/⟩。[毎週|まいしゅう][日曜日|にちようび]⟨p⟩に⟨/⟩⟨v⟩します⟨/⟩。"
+    },
+    {
+     "speaker": "[中山|なかやま]",
+     "jp": "すごいですね。サッカーが上手ですか。",
+     "en": "Great. Are you good at it?",
+     "reading": "すごい⟨v⟩です⟨/⟩⟨p⟩ね⟨/⟩。⟨s⟩サッカー⟨/⟩⟨p⟩が⟨/⟩[上手|じょうず]⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "いいえ、あまり上手じゃないです。",
+     "en": "No, I'm not very good.",
+     "reading": "いいえ、あまり[上手|じょうず]⟨p⟩じゃ⟨/⟩⟨v⟩ないです⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "中山さんは何がすきですか。",
+     "en": "What do you like, Ms. Nakayama?",
+     "reading": "⟨s⟩[中山|なかやま]さん⟨/⟩⟨p⟩は⟨/⟩⟨s⟩[何|なに]⟨/⟩⟨p⟩が⟨/⟩すき⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "[中山|なかやま]",
+     "jp": "わたしはうたがすきです。よくカラオケに行きます。",
+     "en": "I like singing. I often go to karaoke.",
+     "reading": "⟨s⟩わたし⟨/⟩⟨p⟩は⟨/⟩⟨s⟩うた⟨/⟩⟨p⟩が⟨/⟩すき⟨v⟩です⟨/⟩。よくカラオケ⟨p⟩に⟨/⟩⟨v⟩[行|い]きます⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "カラオケですか。わたしはうたが下手です。",
+     "en": "Karaoke? I'm bad at singing.",
+     "reading": "カラオケ⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。⟨s⟩わたし⟨/⟩⟨p⟩は⟨/⟩⟨s⟩うた⟨/⟩⟨p⟩が⟨/⟩[下手|へた]⟨v⟩です⟨/⟩。"
+    },
+    {
+     "speaker": "[中山|なかやま]",
+     "jp": "だいじょうぶですよ。にぎやかなみせです。",
+     "en": "Don't worry. It's a lively place."
+    },
+    {
+     "speaker": "あなた",
+     "jp": "じゃあ、こんどいっしょに行きたいです。",
+     "en": "Then I'd like to go with you next time.",
+     "reading": "じゃあ、こんどいっしょ⟨p⟩に⟨/⟩⟨v⟩[行|い]きたいです⟨/⟩。"
+    }
+   ],
+   "checks": [
+    {
+     "prompt": "What does 「[下手|へた]」 mean?",
+     "options": [
+      "Good at",
+      "Like",
+      "Quiet",
+      "Bad at"
+     ],
+     "answer": 3,
+     "explanation": "[下手|へた] (へた) = bad at. [上手|じょうず] (じょうず) = good at, すき = like, しずか = quiet."
+    },
+    {
+     "prompt": "Fill in the blank: にぎやか＿みせです。",
+     "options": [
+      "の",
+      "い",
+      "な",
+      "に"
+     ],
+     "answer": 2,
+     "explanation": "A な-adjective takes な before a noun: にぎやかなみせ = a lively place."
+    },
+    {
+     "prompt": "When does Zarif play football?",
+     "options": [
+      "Every Sunday",
+      "Every Saturday",
+      "Every evening",
+      "Once a month"
+     ],
+     "answer": 0,
+     "explanation": "「[毎週|まいしゅう][日曜日|にちようび]にします」 = I play every Sunday."
+    }
+   ],
+   "notes": "な-adjectives (すき, [上手|じょうず], [下手|へた], にぎやか, しずか, きれい) end in です just like nouns: サッカーがすきです. Before a noun they take な: にぎやかなみせ = a lively place. The negative is じゃないです: [上手|じょうず]じゃないです = (I'm) not good at it. The thing you like or are good at takes が: うたがすきです.\n\nCulture: when someone praises you ([上手|じょうず]ですね), Japanese people usually play it down: いいえ、まだまだです. Karaoke is a common outing with friends, and nobody expects you to sing well."
+  },
+  {
+   "slug": "lesson-n5-08-shuumatsu",
+   "jlpt_level": "N5",
+   "position": 8,
+   "title": "[何|なに]をしましたか — What did you do?",
+   "situation": "On Monday morning at school, a classmate asks how you spent the weekend.",
+   "item_slugs": [
+    "word-doyoubi",
+    "word-tomodachi",
+    "word-umi",
+    "word-oyogu",
+    "vocab-n5-dekakeru",
+    "word-yasumu",
+    "word-yomu",
+    "word-hon"
+   ],
+   "grammar_slug": "grammar-mashita",
+   "dialogue": [
+    {
+     "speaker": "[山本|やまもと]",
+     "jp": "おはようございます。土曜日は何をしましたか。",
+     "en": "Good morning. What did you do on Saturday?",
+     "reading": "おはよう⟨v⟩ございます⟨/⟩。[土曜日|どようび]⟨p⟩は⟨/⟩⟨o⟩[何|なに]⟨/⟩⟨p⟩を⟨/⟩⟨v⟩しました⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "友だちと海に行きました。",
+     "en": "I went to the beach with a friend.",
+     "reading": "[友|とも]だち⟨p⟩と⟨/⟩[海|うみ]⟨p⟩に⟨/⟩⟨v⟩[行|い]きました⟨/⟩。"
+    },
+    {
+     "speaker": "[山本|やまもと]",
+     "jp": "いいですね。海で何をしましたか。",
+     "en": "Nice. What did you do there?",
+     "reading": "いい⟨v⟩です⟨/⟩⟨p⟩ね⟨/⟩。[海|うみ]⟨p⟩で⟨/⟩⟨o⟩[何|なに]⟨/⟩⟨p⟩を⟨/⟩⟨v⟩しました⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "およぎました。それから、さかなを食べました。",
+     "en": "We swam. Then we ate fish.",
+     "reading": "⟨v⟩およぎました⟨/⟩。それから、⟨o⟩さかな⟨/⟩⟨p⟩を⟨/⟩⟨v⟩[食|た]べました⟨/⟩。"
+    },
+    {
+     "speaker": "[山本|やまもと]",
+     "jp": "日曜日も出かけましたか。",
+     "en": "Did you go out on Sunday too?",
+     "reading": "[日曜日|にちようび]⟨p⟩も⟨/⟩⟨v⟩[出|で]かけました⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "いいえ、うちで休みました。本を読みました。",
+     "en": "No, I rested at home. I read a book.",
+     "reading": "いいえ、うち⟨p⟩で⟨/⟩⟨v⟩[休|やす]みました⟨/⟩。⟨o⟩[本|ほん]⟨/⟩⟨p⟩を⟨/⟩⟨v⟩[読|よ]みました⟨/⟩。"
+    },
+    {
+     "speaker": "[山本|やまもと]",
+     "jp": "わたしは一日中テレビを見ました。",
+     "en": "I watched TV all day.",
+     "reading": "⟨s⟩わたし⟨/⟩⟨p⟩は⟨/⟩⟨o⟩[一日中|いちにちじゅう]テレビ⟨/⟩⟨p⟩を⟨/⟩⟨v⟩[見|み]ました⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "そうですか。何を見ましたか。",
+     "en": "Really? What did you watch?",
+     "reading": "そう⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。⟨o⟩[何|なに]⟨/⟩⟨p⟩を⟨/⟩⟨v⟩[見|み]ました⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "[山本|やまもと]",
+     "jp": "ふるい日本のえいがです。",
+     "en": "An old Japanese film.",
+     "reading": "⟨s⟩ふるい[日本|にほん]⟨/⟩⟨p⟩の⟨/⟩⟨s⟩えい⟨/⟩⟨p⟩が⟨/⟩⟨v⟩です⟨/⟩。"
+    }
+   ],
+   "checks": [
+    {
+     "prompt": "A classmate asks 「[土曜日|どようび]は[何|なに]をしましたか」. What does she want to know?",
+     "options": [
+      "What you'll do on Saturday",
+      "What you did on Saturday",
+      "Where you went on Sunday",
+      "What you like doing"
+     ],
+     "answer": 1,
+     "explanation": "しましたか is past: \"What did you do on Saturday?\" The future would be しますか."
+    },
+    {
+     "prompt": "Fill in the blank (past): きのう[本|ほん]を[読|よ]み＿＿。",
+     "options": [
+      "ます",
+      "ません",
+      "ました",
+      "たいです"
+     ],
+     "answer": 2,
+     "explanation": "ます → ました for the past: [読|よ]みました = (I) read."
+    },
+    {
+     "prompt": "What did Zarif do on Sunday?",
+     "options": [
+      "Went to the beach",
+      "Watched TV all day",
+      "Saw an old film",
+      "Rested at home and read a book"
+     ],
+     "answer": 3,
+     "explanation": "「うちで[休|やす]みました。[本|ほん]を[読|よ]みました。」 = I rested at home and read a book."
+    }
+   ],
+   "notes": "〜ました is the polite past: change ます to ました. [行|い]きます → [行|い]きました (went), [食|た]べます → [食|た]べました (ate), [見|み]ます → [見|み]ました (watched). For a question, add か: [何|なに]をしましたか = What did you do?\n\nCulture: on Monday, classmates and colleagues often ask how your weekend was. A short answer with one detail ([海|うみ]に[行|い]きました) is perfect small talk."
+  },
+  {
+   "slug": "lesson-n5-09-tenki",
+   "jlpt_level": "N5",
+   "position": 9,
+   "title": "[天気|てんき] — Talking about the weather",
+   "situation": "On a hot summer morning, your neighbour stops to chat about the weather.",
+   "item_slugs": [
+    "word-tenki",
+    "word-atsui",
+    "word-samui",
+    "word-suzushii",
+    "vocab-n5-natsu",
+    "vocab-n5-fuyu",
+    "word-kinou",
+    "word-kyonen"
+   ],
+   "grammar_slug": "grammar-i-adj-past",
+   "dialogue": [
+    {
+     "speaker": "[川上|かわかみ]",
+     "jp": "おはようございます。いい天気ですね。",
+     "en": "Good morning. Lovely weather, isn't it?",
+     "reading": "おはよう⟨v⟩ございます⟨/⟩。いい[天気|てんき]⟨v⟩です⟨/⟩⟨p⟩ね⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "そうですね。でも、ちょっとあついです。",
+     "en": "It is. But it's a bit hot."
+    },
+    {
+     "speaker": "[川上|かわかみ]",
+     "jp": "きのうもあつかったですね。",
+     "en": "Yesterday was hot too, wasn't it?",
+     "reading": "きのう⟨p⟩も⟨/⟩あつかった⟨v⟩です⟨/⟩⟨p⟩ね⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "はい。でも、よるはすずしかったです。",
+     "en": "Yes. But the night was cool.",
+     "reading": "はい。でも、⟨v⟩よる⟨/⟩⟨p⟩は⟨/⟩すずしかった⟨v⟩です⟨/⟩。"
+    },
+    {
+     "speaker": "[川上|かわかみ]",
+     "jp": "マレーシアも夏はあついですか。",
+     "en": "Is Malaysia hot in summer too?",
+     "reading": "マレーシア⟨p⟩も⟨/⟩⟨s⟩[夏|なつ]⟨/⟩⟨p⟩は⟨/⟩あつい⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "マレーシアはいつも夏です。冬はありません。",
+     "en": "In Malaysia it's always summer. There's no winter.",
+     "reading": "⟨s⟩マレーシア⟨/⟩⟨p⟩は⟨/⟩いつも[夏|なつ]⟨v⟩です⟨/⟩。⟨s⟩[冬|ふゆ]⟨/⟩⟨p⟩は⟨/⟩⟨v⟩ありません⟨/⟩。"
+    },
+    {
+     "speaker": "[川上|かわかみ]",
+     "jp": "そうですか。日本の冬はさむいですよ。",
+     "en": "Really? Winter in Japan is cold, you know.",
+     "reading": "そう⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。⟨s⟩[日本|にほん]⟨/⟩⟨p⟩の⟨/⟩⟨s⟩[冬|ふゆ]⟨/⟩⟨p⟩は⟨/⟩さむい⟨v⟩です⟨/⟩⟨p⟩よ⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "きょねんの冬はさむかったですか。",
+     "en": "Was last winter cold?",
+     "reading": "きょねんの[冬|ふゆ]はさむかったですか。"
+    },
+    {
+     "speaker": "[川上|かわかみ]",
+     "jp": "はい、とてもさむかったです。ゆきもふりました。",
+     "en": "Yes, very cold. It snowed, too.",
+     "reading": "はい、とてもさむかった⟨v⟩です⟨/⟩。ゆき⟨p⟩も⟨/⟩⟨v⟩ふりました⟨/⟩。"
+    }
+   ],
+   "checks": [
+    {
+     "prompt": "What does 「さむい」 mean?",
+     "options": [
+      "Cold",
+      "Hot",
+      "Cool",
+      "Rainy"
+     ],
+     "answer": 0,
+     "explanation": "さむい = cold (weather), あつい = hot, すずしい = cool."
+    },
+    {
+     "prompt": "Fill in the blank: きのうのよるはすずし＿＿です。",
+     "options": [
+      "い",
+      "かった",
+      "くない",
+      "でした"
+     ],
+     "answer": 1,
+     "explanation": "Past of an い-adjective: drop い, add かった → すずしかったです. すずしいでした is wrong."
+    },
+    {
+     "prompt": "What was last winter like, according to [川上|かわかみ]さん?",
+     "options": [
+      "Warm and sunny",
+      "Not very cold",
+      "Very cold, with snow",
+      "Rainy every day"
+     ],
+     "answer": 2,
+     "explanation": "「とてもさむかったです。ゆきもふりました。」 = It was very cold, and it snowed."
+    }
+   ],
+   "notes": "To put an い-adjective in the past, drop the final い and add かったです: あつい → あつかったです (was hot), さむい → さむかったです (was cold). Don't say あついでした. One irregular: いい → よかったです (was good).\n\nCulture: the weather is the safest small talk in Japan. いい[天気|てんき]ですね or あついですね is a perfect way to greet a neighbour, even if you only chat for a moment."
+  },
+  {
+   "slug": "lesson-n5-10-issho",
+   "jlpt_level": "N5",
+   "position": 10,
+   "title": "いっしょに[行|い]きませんか — An invitation",
+   "situation": "A classmate invites you to see a film with her friends on Saturday.",
+   "item_slugs": [
+    "vocab-n5-hima",
+    "word-eiga",
+    "vocab-n5-issho",
+    "vocab-n5-au",
+    "word-miru",
+    "vocab-n5-dare"
+   ],
+   "grammar_slug": "grammar-to-and-with",
+   "dialogue": [
+    {
+     "speaker": "[大川|おおかわ]",
+     "jp": "ザリフさん、土曜日はひまですか。",
+     "en": "Zarif, are you free on Saturday?",
+     "reading": "ザリフさん、[土曜日|どようび]はひまですか。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "はい、ひまです。",
+     "en": "Yes, I'm free.",
+     "reading": "はい、ひま⟨v⟩です⟨/⟩。"
+    },
+    {
+     "speaker": "[大川|おおかわ]",
+     "jp": "友だちとえいがを見ます。いっしょに行きませんか。",
+     "en": "I'm seeing a film with a friend. Would you like to come?",
+     "reading": "[友|とも]だち⟨p⟩と⟨/⟩え⟨o⟩いが⟨/⟩⟨p⟩を⟨/⟩⟨v⟩[見|み]ます⟨/⟩。いっしょ⟨p⟩に⟨/⟩⟨v⟩[行|い]きません⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "いいですね。だれと行きますか。",
+     "en": "Sounds good. Who are you going with?",
+     "reading": "いい⟨v⟩です⟨/⟩⟨p⟩ね⟨/⟩。だれ⟨p⟩と⟨/⟩⟨v⟩[行|い]きます⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "[大川|おおかわ]",
+     "jp": "中山さんと行きます。三人で行きましょう。",
+     "en": "With Ms. Nakayama. Let's go, the three of us.",
+     "reading": "[中山|なかやま]さん⟨p⟩と⟨/⟩⟨v⟩[行|い]きます⟨/⟩。[三人|さんにん]⟨p⟩で⟨/⟩⟨v⟩[行|い]きましょう⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "何時にどこであいましょうか。",
+     "en": "What time and where shall we meet?",
+     "reading": "[何時|なんじ]⟨p⟩に⟨/⟩どこ⟨p⟩で⟨/⟩⟨v⟩あいましょう⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "[大川|おおかわ]",
+     "jp": "二時に駅の前であいましょう。",
+     "en": "Let's meet in front of the station at two.",
+     "reading": "[二時|にじ]⟨p⟩に⟨/⟩[駅|えき]⟨p⟩の⟨/⟩[前|まえ]⟨p⟩で⟨/⟩⟨v⟩あいましょう⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "わかりました。ありがとうございます。",
+     "en": "Got it. Thank you."
+    }
+   ],
+   "checks": [
+    {
+     "prompt": "[大川|おおかわ]さん says 「いっしょに[行|い]きませんか」. What is she doing?",
+     "options": [
+      "Asking where you live",
+      "Saying she can't go",
+      "Inviting you to come along",
+      "Asking what time it is"
+     ],
+     "answer": 2,
+     "explanation": "〜ませんか is a polite invitation: \"Won't you go with us?\""
+    },
+    {
+     "prompt": "Fill in the blank (with a friend): [友|とも]だち＿えいがを[見|み]ます。",
+     "options": [
+      "を",
+      "と",
+      "に",
+      "は"
+     ],
+     "answer": 1,
+     "explanation": "と after a person means \"with\": [友|とも]だちと = with a friend."
+    },
+    {
+     "prompt": "Where and when will they meet?",
+     "options": [
+      "At the cinema at 3:00",
+      "At school at 2:00",
+      "At Ms. Nakayama's home",
+      "In front of the station at 2:00"
+     ],
+     "answer": 3,
+     "explanation": "「[二時|にじ]に[駅|えき]の[前|まえ]であいましょう」 = Let's meet in front of the station at two."
+    }
+   ],
+   "notes": "と after a person means \"(together) with\": [友|とも]だちとえいがを[見|み]ます = I'll watch a film with a friend. Add いっしょに to make it clearer: [中山|なかやま]さんといっしょに[行|い]きます. To ask who with: だれと[行|い]きますか.\n\nInvite with 〜ませんか (won't you…?) and suggest with 〜ましょう (let's…): いっしょに[行|い]きませんか / [二時|にじ]にあいましょう.\n\nCulture: Japanese people rarely say a flat いいえ to an invitation. If you can't go, say [土曜日|どようび]はちょっと… and the other person will understand."
+  },
+  {
+   "slug": "lesson-n5-11-gakkou",
+   "jlpt_level": "N5",
+   "position": 11,
+   "title": "[学校|がっこう]で — Finding your way around school",
+   "situation": "At your language school, you ask the reception desk where your teacher and the dictionaries are.",
+   "item_slugs": [
+    "vocab-n5-kyoushitsu",
+    "word-jisho",
+    "word-toshokan",
+    "vocab-n5-takusan",
+    "vocab-n5-erebeetaa",
+    "vocab-n5-mae",
+    "vocab-n5-itsumo",
+    "vocab-n5-shizuka"
+   ],
+   "grammar_slug": "grammar-arimasu-vs-imasu",
+   "dialogue": [
+    {
+     "speaker": "あなた",
+     "jp": "すみません、田中先生はいますか。",
+     "en": "Excuse me, is Ms. Tanaka here?",
+     "reading": "すみません、⟨s⟩[田中|たなか][先生|せんせい]⟨/⟩⟨p⟩は⟨/⟩⟨v⟩います⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "[受付|うけつけ]",
+     "jp": "田中先生は今、きょうしつにいます。",
+     "en": "She's in the classroom right now.",
+     "reading": "⟨s⟩[田中|たなか][先生|せんせい]⟨/⟩⟨p⟩は⟨/⟩[今|いま]、⟨v⟩きょうしつ⟨/⟩⟨p⟩に⟨/⟩⟨v⟩います⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "きょうしつはどこにありますか。",
+     "en": "Where is the classroom?"
+    },
+    {
+     "speaker": "[受付|うけつけ]",
+     "jp": "二かいです。エレベーターの前にあります。",
+     "en": "On the second floor. It's in front of the lift.",
+     "reading": "[二|に]かい⟨v⟩です⟨/⟩。エレベーター⟨p⟩の⟨/⟩[前|まえ]⟨p⟩に⟨/⟩⟨v⟩あります⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "それから、日本語のじしょはありますか。",
+     "en": "Also, do you have Japanese dictionaries?",
+     "reading": "それから、⟨s⟩[日本語|にほんご]⟨/⟩⟨p⟩の⟨/⟩⟨s⟩じしょ⟨/⟩⟨p⟩は⟨/⟩⟨v⟩あります⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "[受付|うけつけ]",
+     "jp": "はい、五かいのとしょかんにたくさんあります。",
+     "en": "Yes, there are lots in the library on the fifth floor.",
+     "reading": "はい、[五|ご]かいのとしょかんにたくさんあります。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "としょかんに人はたくさんいますか。",
+     "en": "Are there many people in the library?",
+     "reading": "としょかんに[人|ひと]はたくさんいますか。"
+    },
+    {
+     "speaker": "[受付|うけつけ]",
+     "jp": "いいえ、いつもあまりいません。しずかですよ。",
+     "en": "No, there usually aren't many. It's quiet.",
+     "reading": "いいえ、いつも⟨v⟩あまりいません⟨/⟩。しずか⟨v⟩です⟨/⟩⟨p⟩よ⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "わかりました。ありがとうございます。",
+     "en": "I see. Thank you."
+    }
+   ],
+   "checks": [
+    {
+     "prompt": "What is 「としょかん」?",
+     "options": [
+      "A classroom",
+      "A lift",
+      "A dictionary",
+      "A library"
+     ],
+     "answer": 3,
+     "explanation": "としょかん = library, きょうしつ = classroom, エレベーター = lift, じしょ = dictionary."
+    },
+    {
+     "prompt": "Fill in the blank: [田中|たなか][先生|せんせい]はきょうしつに＿＿。",
+     "options": [
+      "あります",
+      "です",
+      "います",
+      "ありません"
+     ],
+     "answer": 2,
+     "explanation": "People and animals take います; things and places take あります."
+    },
+    {
+     "prompt": "Where are the dictionaries?",
+     "options": [
+      "In the library on the 5th floor",
+      "In the classroom on the 2nd floor",
+      "In front of the lift",
+      "At reception"
+     ],
+     "answer": 0,
+     "explanation": "「[五|ご]かいのとしょかんにたくさんあります」 = there are lots in the 5th-floor library."
+    }
+   ],
+   "notes": "あります and います both mean \"there is\" or \"is (somewhere)\". Use います for people and animals, あります for things and places: [田中|たなか][先生|せんせい]はきょうしつにいます (Ms. Tanaka is in the classroom); じしょはとしょかんにあります (the dictionaries are in the library). Ask where something is with 〜はどこにありますか.\n\nCulture: in Japan the ground floor is 1F (いっかい), not G as in many Malaysian buildings, so 2F (にかい) is one floor up."
+  },
+  {
+   "slug": "lesson-n5-12-kurinikku",
+   "jlpt_level": "N5",
+   "position": 12,
+   "title": "クリニックで — At the clinic",
+   "situation": "You've had a headache since yesterday, so you see a doctor at a local clinic.",
+   "item_slugs": [
+    "word-atama",
+    "word-itai",
+    "word-onaka",
+    "word-kuchi",
+    "vocab-n5-akeru",
+    "word-kusuri",
+    "vocab-n5-kaze",
+    "vocab-n5-daijoubu"
+   ],
+   "grammar_slug": "grammar-te-kudasai",
+   "dialogue": [
+    {
+     "speaker": "[医者|いしゃ]",
+     "jp": "どうしましたか。",
+     "en": "What seems to be the problem?"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "きのうからあたまがいたいです。",
+     "en": "I've had a headache since yesterday."
+    },
+    {
+     "speaker": "[医者|いしゃ]",
+     "jp": "おなかもいたいですか。",
+     "en": "Does your stomach hurt too?"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "いいえ、おなかはだいじょうぶです。",
+     "en": "No, my stomach is fine."
+    },
+    {
+     "speaker": "[医者|いしゃ]",
+     "jp": "じゃあ、口を大きくあけてください。…かぜですね。",
+     "en": "Then please open your mouth wide… It's a cold.",
+     "reading": "じゃあ、⟨o⟩[口|くち]⟨/⟩⟨p⟩を⟨/⟩[大|おお]きく⟨v⟩あけてください⟨/⟩。…かぜ⟨v⟩です⟨/⟩⟨p⟩ね⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "くすりはありますか。",
+     "en": "Is there any medicine?",
+     "reading": "⟨s⟩くすり⟨/⟩⟨p⟩は⟨/⟩⟨v⟩あります⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "[医者|いしゃ]",
+     "jp": "はい。このくすりをのんでください。",
+     "en": "Yes. Please take this medicine.",
+     "reading": "はい。⟨o⟩このくすり⟨/⟩⟨p⟩を⟨/⟩⟨v⟩のんでください⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "いつのみますか。",
+     "en": "When do I take it?",
+     "reading": "いつ⟨p⟩のみ⟨/⟩⟨v⟩ます⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "[医者|いしゃ]",
+     "jp": "あさとばん、ごはんの後です。今日は休んでください。",
+     "en": "Morning and evening, after meals. Please rest today.",
+     "reading": "あさ⟨p⟩と⟨/⟩ばん、ごはん⟨p⟩の⟨/⟩[後|あと]⟨v⟩です⟨/⟩。[今日|きょう]⟨p⟩は⟨/⟩⟨v⟩[休|やす]んでください⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "わかりました。ありがとうございました。",
+     "en": "Understood. Thank you very much.",
+     "reading": "⟨v⟩わかりました⟨/⟩。ありがとう⟨v⟩ございました⟨/⟩。"
+    }
+   ],
+   "checks": [
+    {
+     "prompt": "The doctor asks 「どうしましたか」. What does it mean?",
+     "options": [
+      "What did you eat?",
+      "What seems to be the problem?",
+      "Where do you live?",
+      "How old are you?"
+     ],
+     "answer": 1,
+     "explanation": "どうしましたか = What happened? / What's wrong? Doctors and staff use it to ask about a problem."
+    },
+    {
+     "prompt": "Fill in the blank (Please take this medicine): このくすりを（　）。",
+     "options": [
+      "のみます",
+      "のむください",
+      "のみてください",
+      "のんでください"
+     ],
+     "answer": 3,
+     "explanation": "て-form + ください: のみます → のんで → のんでください."
+    },
+    {
+     "prompt": "When should Zarif take the medicine?",
+     "options": [
+      "Morning and evening, after meals",
+      "Only before bed",
+      "Three times a day",
+      "Only when his head hurts"
+     ],
+     "answer": 0,
+     "explanation": "「あさとばん、ごはんの[後|あと]です」 = morning and evening, after meals."
+    }
+   ],
+   "notes": "〜てください makes a polite request: put the verb in its て-form and add ください. あけます → あけて → あけてください (please open), のみます → のんで → のんでください (please take/drink), [休|やす]みます → [休|やす]んで → [休|やす]んでください (please rest). The て-form has a few patterns; for now, learn it verb by verb.\n\nCulture: bring your health insurance card (ほけんしょう) to every clinic visit; with it you usually pay 30% of the cost. When you leave, the staff will say お[大事|だいじ]に (take care)."
+  },
+  {
+   "slug": "lesson-n5-13-fukuya",
+   "jlpt_level": "N5",
+   "position": 13,
+   "title": "ふくやで — Shopping for clothes",
+   "situation": "You find a shirt you like in a clothes shop and want to try it on.",
+   "item_slugs": [
+    "word-shatsu",
+    "vocab-n5-shiroi",
+    "vocab-n5-aoi",
+    "word-chiisai",
+    "word-kiru",
+    "word-saizu",
+    "vocab-n5-choudo",
+    "vocab-n5-sen"
+   ],
+   "grammar_slug": "grammar-te-mo-ii",
+   "dialogue": [
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "いらっしゃいませ。",
+     "en": "Welcome.",
+     "reading": "⟨v⟩いらっしゃいませ⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "すみません、この白いシャツはいくらですか。",
+     "en": "Excuse me, how much is this white shirt?",
+     "reading": "すみません、⟨s⟩この[白|しろ]いシャツ⟨/⟩⟨p⟩は⟨/⟩いくら⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "三千円です。",
+     "en": "It's 3,000 yen.",
+     "reading": "[三千|さんぜん][円|えん]⟨v⟩です⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "ちょっときてもいいですか。",
+     "en": "May I try it on?",
+     "reading": "ちょっと⟨v⟩きて⟨/⟩⟨p⟩も⟨/⟩いい⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "はい、どうぞ。あちらです。",
+     "en": "Of course. The fitting room is over there.",
+     "reading": "はい、どうぞ。あちら⟨v⟩です⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "ちょっと小さいです。Mサイズはありますか。",
+     "en": "It's a bit small. Do you have a medium?",
+     "reading": "ちょっと[小|ちい]さいです。Mサイズはありますか。"
+    },
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "すみません、白はSだけです。青はいかがですか。",
+     "en": "Sorry, the white only comes in small. How about blue?",
+     "reading": "すみません、[白|しろ]はSだけです。[青|あお]はいかがですか。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "じゃあ、青いのをきてもいいですか。",
+     "en": "Then may I try on the blue one?",
+     "reading": "じゃあ、⟨o⟩[青|あお]いの⟨/⟩⟨p⟩を⟨/⟩⟨v⟩きて⟨/⟩⟨p⟩も⟨/⟩いい⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "[店員|てんいん]",
+     "jp": "はい、どうぞ。",
+     "en": "Please go ahead."
+    },
+    {
+     "speaker": "あなた",
+     "jp": "ちょうどいいです。これをください。",
+     "en": "It's just right. I'll take this.",
+     "reading": "ちょうどいい⟨v⟩です⟨/⟩。⟨o⟩これ⟨/⟩⟨p⟩を⟨/⟩⟨v⟩ください⟨/⟩。"
+    }
+   ],
+   "checks": [
+    {
+     "prompt": "You say 「ちょっと[小|ちい]さいです」. What are you telling the clerk?",
+     "options": [
+      "It's a bit expensive",
+      "It's just right",
+      "It's a bit small",
+      "It's the wrong colour"
+     ],
+     "answer": 2,
+     "explanation": "[小|ちい]さい = small. ちょっと softens it: \"a bit small\"."
+    },
+    {
+     "prompt": "Fill in the blank: このシャツをきて＿いいですか。",
+     "options": [
+      "は",
+      "も",
+      "を",
+      "が"
+     ],
+     "answer": 1,
+     "explanation": "Permission is て-form + もいいですか: きてもいいですか = May I try it on?"
+    },
+    {
+     "prompt": "Why does Zarif try on a blue shirt?",
+     "options": [
+      "Blue is cheaper",
+      "The clerk doesn't like white",
+      "He prefers blue",
+      "The white one only comes in small"
+     ],
+     "answer": 3,
+     "explanation": "「[白|しろ]はSだけです」 = the white one is only in S."
+    }
+   ],
+   "notes": "〜てもいいですか asks for permission: て-form + もいいですか. きます (put on) → きて → きてもいいですか = May I try it on? [見|み]ます → [見|み]て → [見|み]てもいいですか = May I have a look? The answer is usually はい、どうぞ, or すみません、ちょっと… for no.\n\nCulture: in a Japanese fitting room you take your shoes off before stepping in, and staff may hand you a thin face cover so make-up doesn't mark the clothes."
+  },
+  {
+   "slug": "lesson-n5-14-yuubinkyoku",
+   "jlpt_level": "N5",
+   "position": 14,
+   "title": "ゆうびんきょくで — At the post office",
+   "situation": "You send a small parcel home to Malaysia from the local post office.",
+   "item_slugs": [
+    "word-yuubinkyoku",
+    "vocab-n5-naka",
+    "vocab-n5-okashi",
+    "word-hikouki",
+    "vocab-n5-kakaru",
+    "vocab-n5-shuukan",
+    "vocab-n5-yasumi"
+   ],
+   "grammar_slug": "grammar-kara-made",
+   "dialogue": [
+    {
+     "speaker": "あなた",
+     "jp": "すみません、これをマレーシアまでおねがいします。",
+     "en": "Excuse me, I'd like to send this to Malaysia."
+    },
+    {
+     "speaker": "[局員|きょくいん]",
+     "jp": "はい。中は何ですか。",
+     "en": "Certainly. What's inside?",
+     "reading": "はい。⟨s⟩[中|なか]⟨/⟩⟨p⟩は⟨/⟩[何|なん]⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "本とおかしです。",
+     "en": "Books and snacks.",
+     "reading": "[本|ほん]⟨p⟩と⟨/⟩おかし⟨v⟩です⟨/⟩。"
+    },
+    {
+     "speaker": "[局員|きょくいん]",
+     "jp": "ひこうきで二千円です。",
+     "en": "By air, it's 2,000 yen.",
+     "reading": "⟨v⟩ひ⟨/⟩こうき⟨p⟩で⟨/⟩[二|に][千|せん][円|えん]⟨v⟩です⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "ここからマレーシアまで、何日ぐらいかかりますか。",
+     "en": "How many days does it take from here to Malaysia?",
+     "reading": "ここ⟨p⟩から⟨/⟩マレーシア⟨p⟩まで⟨/⟩、[何日|なんにち]⟨p⟩ぐらい⟨/⟩⟨v⟩かかります⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "[局員|きょくいん]",
+     "jp": "一週間ぐらいです。",
+     "en": "About a week.",
+     "reading": "[一週間|いっしゅうかん]⟨p⟩ぐらい⟨/⟩⟨v⟩です⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "このゆうびんきょくは何時から何時までですか。",
+     "en": "What are this post office's opening hours?",
+     "reading": "この⟨v⟩ゆう⟨/⟩⟨s⟩びんきょく⟨/⟩⟨p⟩は⟨/⟩[何時|なんじ]⟨p⟩から⟨/⟩[何時|なんじ]⟨p⟩まで⟨/⟩⟨v⟩です⟨/⟩⟨p⟩か⟨/⟩。"
+    },
+    {
+     "speaker": "[局員|きょくいん]",
+     "jp": "九時から五時までです。土曜日と日曜日は休みです。",
+     "en": "From nine to five. It's closed on Saturdays and Sundays.",
+     "reading": "[九時|くじ]⟨p⟩から⟨/⟩[五時|ごじ]⟨p⟩まで⟨/⟩⟨v⟩です⟨/⟩。[土曜日|どようび]⟨p⟩と⟨/⟩[日曜日|にちようび]⟨p⟩は⟨/⟩[休|やす]み⟨v⟩です⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "そうですか。ありがとうございます。",
+     "en": "I see. Thank you."
+    }
+   ],
+   "checks": [
+    {
+     "prompt": "You want to send a parcel. Where do you go?",
+     "options": [
+      "びょういん",
+      "としょかん",
+      "ゆうびんきょく",
+      "えき"
+     ],
+     "answer": 2,
+     "explanation": "ゆうびんきょく = post office. びょういん = hospital, としょかん = library, えき = station."
+    },
+    {
+     "prompt": "Fill in the blank: [九時|くじ]＿＿[五時|ごじ]までです。",
+     "options": [
+      "まで",
+      "から",
+      "に",
+      "で"
+     ],
+     "answer": 1,
+     "explanation": "から = from, まで = until: [九時|くじ]から[五時|ごじ]まで = from nine to five."
+    },
+    {
+     "prompt": "How long will the parcel take to reach Malaysia?",
+     "options": [
+      "About a week",
+      "Two days",
+      "About a month",
+      "Five hours"
+     ],
+     "answer": 0,
+     "explanation": "「[一|いち][週間|しゅうかん]ぐらいです」 = about a week."
+    }
+   ],
+   "notes": "から means \"from\" and まで \"until\" or \"as far as\", for both time and place: [九時|くじ]から[五時|ごじ]まで = from nine to five; ここからマレーシアまで = from here to Malaysia. Ask opening hours with [何時|なんじ]から[何時|なんじ]までですか.\n\nCulture: Japanese post offices (look for the 〒 sign) also handle banking and bills. Most small branches close at weekends, but big central ones usually keep a counter open later for parcels."
+  },
+  {
+   "slug": "lesson-n5-15-tanjoubi",
+   "jlpt_level": "N5",
+   "position": 15,
+   "title": "たんじょうびパーティー — A birthday party",
+   "situation": "A classmate invites you to her home for her birthday party.",
+   "item_slugs": [
+    "vocab-n5-tanjoubi",
+    "word-hairu",
+    "vocab-n5-osake",
+    "word-ashita",
+    "vocab-n5-tesuto",
+    "word-kaeru",
+    "word-kuru",
+    "word-kyou"
+   ],
+   "grammar_slug": "grammar-kara-reason",
+   "dialogue": [
+    {
+     "speaker": "[中山|なかやま]",
+     "jp": "ようこそ。どうぞ入ってください。",
+     "en": "Welcome. Please come in.",
+     "reading": "ようこそ。どうぞ⟨v⟩[入|はい]ってください⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "おたんじょうびおめでとうございます。",
+     "en": "Happy birthday!"
+    },
+    {
+     "speaker": "[中山|なかやま]",
+     "jp": "ありがとうございます。",
+     "en": "Thank you."
+    },
+    {
+     "speaker": "あなた",
+     "jp": "これ、マレーシアのおかしです。どうぞ。",
+     "en": "These are snacks from Malaysia. For you."
+    },
+    {
+     "speaker": "[中山|なかやま]",
+     "jp": "わあ、いいですね。おさけ、のみますか。",
+     "en": "Oh, lovely! Would you like a drink?"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "すみません、あしたしごとですから、おさけはのみません。",
+     "en": "Sorry, I have work tomorrow, so I won't drink alcohol."
+    },
+    {
+     "speaker": "[中山|なかやま]",
+     "jp": "そうですか。じゃあ、おちゃをどうぞ。",
+     "en": "I see. Then have some tea."
+    },
+    {
+     "speaker": "あなた",
+     "jp": "あのう、あしたテストがありますから、九時にかえります。",
+     "en": "Um, I have a test tomorrow, so I'll leave at nine.",
+     "reading": "あのう、あした⟨s⟩テスト⟨/⟩⟨p⟩が⟨/⟩⟨v⟩あります⟨/⟩⟨p⟩から⟨/⟩、[九時|くじ]⟨p⟩に⟨/⟩⟨v⟩かえります⟨/⟩。"
+    },
+    {
+     "speaker": "[中山|なかやま]",
+     "jp": "わかりました。また来てくださいね。",
+     "en": "OK. Please come again.",
+     "reading": "⟨v⟩わかりました⟨/⟩。また⟨v⟩[来|き]てください⟨/⟩⟨p⟩ね⟨/⟩。"
+    },
+    {
+     "speaker": "あなた",
+     "jp": "はい。今日はありがとうございました。",
+     "en": "I will. Thank you for today.",
+     "reading": "はい。[今日|きょう]⟨p⟩は⟨/⟩ありがとう⟨v⟩ございました⟨/⟩。"
+    }
+   ],
+   "checks": [
+    {
+     "prompt": "What do you say to someone on their birthday?",
+     "options": [
+      "いただきます",
+      "はじめまして",
+      "おやすみなさい",
+      "おたんじょうびおめでとうございます"
+     ],
+     "answer": 3,
+     "explanation": "おたんじょうびおめでとうございます = Happy birthday. おめでとうございます alone means congratulations."
+    },
+    {
+     "prompt": "Fill in the blank: あしたテストがあります＿＿、[九時|くじ]にかえります。",
+     "options": [
+      "から",
+      "まで",
+      "を",
+      "と"
+     ],
+     "answer": 0,
+     "explanation": "から after a reason means \"so\": I have a test tomorrow, so I'll go home at nine."
+    },
+    {
+     "prompt": "Why does Zarif leave at nine?",
+     "options": [
+      "He doesn't drink alcohol",
+      "He has a test tomorrow",
+      "He is tired",
+      "The party is over"
+     ],
+     "answer": 1,
+     "explanation": "「あしたテストがありますから」 = because I have a test tomorrow."
+    }
+   ],
+   "notes": "から after a sentence gives a reason: [reason]から、[result]. あしたしごとですから、おさけはのみません = I have work tomorrow, so I won't drink. The reason comes first, the opposite order to English \"because\".\n\nCulture: when you visit someone's home, bring a small gift; snacks from your home country are perfect. Saying no politely is easy: すみません、〜から… is enough, with no long explanation."
   }
  ]
 }
