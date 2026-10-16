@@ -1406,68 +1406,68 @@
    "lines": [
     {
      "speaker": "B",
-     "jp": "すみません、これは豚肉が入っていますか？",
-     "en": "Excuse me, does this have pork in it?",
-     "ms": "Maaf, yang ni ada daging babi tak?",
-     "reading": "すみません、これは[豚肉|ぶたにく]が[入|はい]っていますか？",
-     "kana": "すみません、これはぶたにくがはいっていますか？"
+     "jp": "すみません、このカレーに豚肉は入っていますか？",
+     "en": "Excuse me, is there pork in this curry?",
+     "ms": "Maaf, kari ini ada daging babi tak?",
+     "reading": "すみません、このカレーに[豚肉|ぶたにく]は[入|はい]っていますか？",
+     "kana": "すみません、このカレーにぶたにくははいっていますか？"
     },
     {
      "speaker": "A",
-     "jp": "はい、このカレーには豚肉が入っています。",
-     "en": "Yes, this curry has pork in it.",
-     "ms": "Ya, kari ini ada daging babi.",
-     "reading": "はい、このカレーには[豚肉|ぶたにく]が[入|はい]っています。",
-     "kana": "はい、このカレーにはぶたにくがはいっています。"
+     "jp": "はい、豚肉が入っています。",
+     "en": "Yes, it has pork in it.",
+     "ms": "Ya, ada daging babi.",
+     "reading": "はい、[豚肉|ぶたにく]が[入|はい]っています。",
+     "kana": "はい、ぶたにくがはいっています。"
     },
     {
      "speaker": "B",
-     "jp": "豚肉が食べられないので、ほかのはありますか？",
-     "en": "I can't eat pork, so do you have anything else?",
-     "ms": "Saya tak boleh makan babi, ada yang lain?",
-     "reading": "[豚肉|ぶたにく]が[食|た]べられないので、ほかのはありますか？",
-     "kana": "ぶたにくがたべられないので、ほかのはありますか？"
+     "jp": "豚肉が食べられないので、ほかのカレーはありますか？",
+     "en": "I can't eat pork, so do you have another curry?",
+     "ms": "Saya tak boleh makan babi, ada kari lain?",
+     "reading": "[豚肉|ぶたにく]が[食|た]べられないので、ほかのカレーはありますか？",
+     "kana": "ぶたにくがたべられないので、ほかのカレーはありますか？"
     },
     {
      "speaker": "A",
-     "jp": "こちらの野菜カレーは肉を使っていません。",
-     "en": "This vegetable curry doesn't use any meat.",
-     "ms": "Kari sayur ini tak guna daging langsung.",
-     "reading": "こちらの[野菜|やさい]カレーは[肉|にく]を[使|つか]っていません。",
-     "kana": "こちらのやさいカレーはにくをつかっていません。"
+     "jp": "こちらの野菜カレーは肉が入っていません。",
+     "en": "This vegetable curry has no meat in it.",
+     "ms": "Kari sayur ini tak ada daging.",
+     "reading": "こちらの[野菜|やさい]カレーは[肉|にく]が[入|はい]っていません。",
+     "kana": "こちらのやさいカレーはにくがはいっていません。"
     },
     {
      "speaker": "B",
-     "jp": "お酒やみりんは使っていますか？",
-     "en": "Do you use alcohol or mirin in it?",
-     "ms": "Ada guna arak atau mirin?",
-     "reading": "お[酒|さけ]やみりんは[使|つか]っていますか？",
-     "kana": "おさけやみりんはつかっていますか？"
+     "jp": "お酒は入っていますか？",
+     "en": "Is there any alcohol in it?",
+     "ms": "Ada arak tak?",
+     "reading": "お[酒|さけ]は[入|はい]っていますか？",
+     "kana": "おさけははいっていますか？"
     },
     {
      "speaker": "A",
-     "jp": "確認してまいりますので、少々お待ちください。",
-     "en": "I'll go and check, so please wait a moment.",
-     "ms": "Saya pergi tanya dulu, tunggu sekejap ya.",
-     "reading": "[確認|かくにん]してまいりますので、[少々|しょうしょう]お[待|ま]ちください。",
-     "kana": "かくにんしてまいりますので、しょうしょうおまちください。"
+     "jp": "いいえ、入っていません。",
+     "en": "No, there isn't.",
+     "ms": "Tidak, tak ada.",
+     "reading": "いいえ、[入|はい]っていません。",
+     "kana": "いいえ、はいっていません。"
     }
    ],
    "question": {
-    "en": "What does the staff member do at the end?",
-    "ms": "Apa yang pekerja itu buat pada akhirnya?",
+    "en": "Which curry can the customer eat?",
+    "ms": "Kari mana yang pelanggan boleh makan?",
     "options": [
      {
-      "en": "Brings the pork curry",
-      "ms": "Bawa kari babi"
+      "en": "The pork curry",
+      "ms": "Kari babi"
      },
      {
-      "en": "Says there is no alcohol",
-      "ms": "Kata tiada arak"
+      "en": "None of them",
+      "ms": "Tiada satu pun"
      },
      {
-      "en": "Goes to check the ingredients",
-      "ms": "Pergi semak bahan-bahannya"
+      "en": "The vegetable curry",
+      "ms": "Kari sayur"
      }
     ],
     "answer": 2
