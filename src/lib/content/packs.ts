@@ -92,6 +92,8 @@ export const PACK_GROUPS: PackGroup[] = [
       { file: "n2-2-questions.json", label: "N2 mock test 2: 59 questions, with 問題13" },
       { file: "n5-full-1-test.json", label: "N5 full mock 1" },
       { file: "n5-full-1-questions.json", label: "N5 full mock 1: 67 questions, official counts" },
+      { file: "n5-full-2-test.json", label: "N5 full mock 2" },
+      { file: "n5-full-2-questions.json", label: "N5 full mock 2: 67 questions, official counts" },
       { file: "n4-full-1-test.json", label: "N4 full mock 1" },
       { file: "n4-full-1-questions.json", label: "N4 full mock 1: 85 questions, official counts" },
       { file: "n3-full-1-test.json", label: "N3 full mock 1" },
