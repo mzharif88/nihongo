@@ -898,8 +898,7 @@
    "options": [
     "いってきます",
     "おじゃまします",
-    "そろそろ[失礼|しつれい]します",
-    "いただきます"
+    "そろそろ[失礼|しつれい]します"
    ],
    "answer": 2,
    "explanation": "When leaving someone's home: そろそろ[失礼|しつれい]します.",
@@ -917,8 +916,7 @@
    "options": [
     "[失礼|しつれい]します",
     "ただいま",
-    "お[先|さき]に",
-    "いってらっしゃい"
+    "お[先|さき]に"
    ],
    "answer": 0,
    "explanation": "Entering a teacher's or boss's room: [失礼|しつれい]します.",

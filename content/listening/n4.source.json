@@ -170,10 +170,9 @@
      "options": [
       "窓を開けておきました。",
       "窓が[開|あ]いていますよ。",
-      "窓を開けなくてもいいですか。",
       "窓を開けてもいいですか。"
      ],
-     "answer": 3,
+     "answer": 2,
      "explanation": "Asking permission: 〜てもいいですか.",
      "items": []
     },
@@ -184,8 +183,7 @@
      "options": [
       "お大事に。",
       "おかげさまで。",
-      "お待たせしました。",
-      "失礼しました。"
+      "お待たせしました。"
      ],
      "answer": 0,
      "explanation": "To someone who is ill: お大事に.",
@@ -198,8 +196,7 @@
      "options": [
       "お待ちください。",
       "遅くなってすみません。",
-      "お先に失礼します。",
-      "おかえりなさい。"
+      "お先に失礼します。"
      ],
      "answer": 1,
      "explanation": "Arriving late: 遅くなってすみません.",
@@ -212,8 +209,7 @@
      "options": [
       "荷物を持ってください。",
       "荷物を持ってもらえませんか。",
-      "荷物、持ちましょうか。",
-      "荷物を持ったことがありますか。"
+      "荷物、持ちましょうか。"
      ],
      "answer": 2,
      "explanation": "Offering help: 〜ましょうか. The others ask her to carry something.",
@@ -226,10 +222,9 @@
      "options": [
       "使い方を教えてあげましょうか。",
       "使い方を教えてもいいですか。",
-      "使い方はわかりますよ。",
       "すみません、使い方を教えていただけませんか。"
      ],
-     "answer": 3,
+     "answer": 2,
      "explanation": "A polite request to a senior: 教えていただけませんか.",
      "items": []
     }

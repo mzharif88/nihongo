@@ -1127,8 +1127,7 @@
       "options": [
         "すみません。",
         "いらっしゃいませ。",
-        "ごちそうさまでした。",
-        "お待たせしました。"
+        "ごちそうさまでした。"
       ],
       "answer": 0,
       "explanation": "To call staff over: すみません. いらっしゃいませ and お待たせしました are what staff say.",
@@ -1142,8 +1141,7 @@
       "options": [
         "もう少しゆっくり話してもいいですか。",
         "もう一度、ゆっくり言っていただけませんか。",
-        "ゆっくり話しましょうか。",
-        "どうぞ、ゆっくりしてください。"
+        "ゆっくり話しましょうか。"
       ],
       "answer": 1,
       "explanation": "A polite request to the teacher: 〜ていただけませんか.",
@@ -1156,11 +1154,10 @@
       "prompt": "何と言いますか。",
       "options": [
         "写真、見てあげようか。",
-        "写真、見せてあげる。",
         "写真、見せてくれない？",
-        "写真、見たことある？"
+        "写真、見せてあげる。"
       ],
-      "answer": 2,
+      "answer": 1,
       "explanation": "Asking a friend to show you: 見せてくれない？",
       "items": []
     },
@@ -1172,10 +1169,9 @@
       "options": [
         "この本をお探しですか。",
         "この本を返したいんですが…。",
-        "この本、もう読みましたか。",
         "この本を探しているんですが…。"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "Explain your problem: 〜を探しているんですが. お探しですか is what staff would say.",
       "items": []
     },
@@ -1187,10 +1183,9 @@
       "options": [
         "手伝いましょうか。",
         "手伝ってあげて、ありがとう。",
-        "手伝ってもいいよ。",
         "手伝ってくれて、ありがとう。"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "Thanking someone for help: 〜てくれて、ありがとう.",
       "items": []
     },

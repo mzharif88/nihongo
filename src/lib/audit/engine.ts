@@ -326,13 +326,15 @@ export const RULES: Rule[] = [
   {
     id: "question-option-count",
     severity: "warning",
-    title: "Options per question match the JLPT: 4, or 3 for 即時応答",
+    title: "Options per question match the JLPT: 4, or 3 for 即時応答 and 発話表現",
     why: "The exam's format is part of what's being practised.",
     check: (c) =>
       records(c, "questions")
-        .filter(({ r }) => r.mock_test_slug)
+        // Mock questions and listening drills (both carry the exam part).
+        .filter(({ r }) => r.mock_test_slug || r.part)
         .flatMap(({ file, r }) => {
-          const want = String(r.part ?? "").includes("即時応答") ? 3 : 4;
+          // N3–N5 発話表現 (utterance expressions) and 即時応答 offer three replies.
+          const want = /即時応答|発話表現/.test(String(r.part ?? "")) ? 3 : 4;
           const got = ((r.options as string[] | undefined) ?? []).length;
           return got !== want ? [{ rule: "question-option-count", file, slug: r.slug, message: `${r.part}: ${got} options, JLPT has ${want}` }] : [];
         }),

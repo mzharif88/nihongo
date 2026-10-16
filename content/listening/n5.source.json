@@ -170,10 +170,9 @@
      "options": [
       "ただいま",
       "おかえりなさい",
-      "いってらっしゃい",
       "いってきます"
      ],
-     "answer": 3,
+     "answer": 2,
      "explanation": "Leaving home: いってきます. いってらっしゃい is what the family says back.",
      "items": []
     },
@@ -184,8 +183,7 @@
      "options": [
       "けしゴムを かして ください。",
       "けしゴムを かりて ください。",
-      "けしゴムを あげます。",
-      "けしゴムは どうですか。"
+      "けしゴムを あげます。"
      ],
      "answer": 0,
      "explanation": "To borrow, ask the friend to lend: かして ください.",
@@ -198,8 +196,7 @@
      "options": [
       "ごちそうさまでした",
       "いただきます",
-      "おやすみなさい",
-      "いってきます"
+      "おやすみなさい"
      ],
      "answer": 1,
      "explanation": "Before eating: いただきます. ごちそうさまでした is after the meal.",
@@ -210,12 +207,11 @@
      "passage": "ともだちに たんじょうびの プレゼントを もらいました。何と いいますか。",
      "prompt": "何と いいますか。",
      "options": [
-      "どういたしまして",
-      "おめでとう",
       "ありがとう",
-      "ごめんなさい"
+      "おめでとう",
+      "どういたしまして"
      ],
-     "answer": 2,
+     "answer": 0,
      "explanation": "Receiving a present: ありがとう. おめでとう is what the friend says to you.",
      "items": []
     },
@@ -226,10 +222,9 @@
      "options": [
       "あの かばんを みて ください。",
       "あの かばんを かいましたか。",
-      "あの かばんは わたしのです。",
       "すみません、あの かばんを みせて ください。"
      ],
-     "answer": 3,
+     "answer": 2,
      "explanation": "To ask to see something: みせて ください (please show me).",
      "items": []
     }
@@ -304,6 +299,610 @@
      ],
      "answer": 2,
      "explanation": "いくら asks the price: ひゃくえんです.",
+     "items": []
+    }
+   ]
+  },
+  {
+   "slug": "listening-n5-05-kadai-2",
+   "jlpt_level": "N5",
+   "title": "課題理解 — Task 2",
+   "body": "Listen to the conversation and choose what the person will do or choose.",
+   "questions": [
+    {
+     "part": "問題1 課題理解 · Task",
+     "passage": "おとこの ひとが ゆうびんきょくで はなして います。おとこの ひとは まず 何を しますか。\n男：すみません、この にもつを マレーシアに おくりたいです。\n女：はい。では、まず この かみに なまえと でんわばんごうを かいて ください。\n男：はい。きっても かいたいですが…。\n女：きっては あとで わたしが はります。かみを かいてから、にもつを ここに おいて ください。\n男：わかりました。\nおとこの ひとは まず 何を しますか。",
+     "prompt": "おとこの ひとは まず 何を しますか。",
+     "options": [
+      "きってを かいます",
+      "にもつを ここに おきます",
+      "かみに なまえと でんわばんごうを かきます",
+      "きってを はります"
+     ],
+     "answer": 2,
+     "explanation": "まず この かみに なまえと でんわばんごうを かいて ください. The parcel goes down after the form (かみを かいてから), and she puts the stamps on later.",
+     "items": []
+    },
+    {
+     "part": "問題1 課題理解 · Task",
+     "passage": "おんなの ひとが レストランで みせの ひとと はなして います。おんなの ひとは 何を たべますか。\n男：いらっしゃいませ。何に しますか。\n女：にくの ランチを ください。\n男：すみません、にくの ランチは もう ありません。さかなの ランチは どうですか。\n女：じゃあ、それを ください。あと、つめたい おちゃも おねがいします。\n男：はい、わかりました。\nおんなの ひとは 何を たべますか。",
+     "prompt": "おんなの ひとは 何を たべますか。",
+     "options": [
+      "にくの ランチ",
+      "さかなの ランチ",
+      "カレー",
+      "やさいの サラダ"
+     ],
+     "answer": 1,
+     "explanation": "The meat lunch is sold out; to さかなの ランチは どうですか she answers じゃあ、それを ください.",
+     "items": []
+    },
+    {
+     "part": "問題1 課題理解 · Task",
+     "passage": "びょういんで いしゃと おとこの ひとが はなして います。おとこの ひとは しろい くすりを いつ のみますか。\nいしゃ：あかい くすりは あさと よる、ごはんの あとで のんで ください。\n男：しろい くすりも ごはんの あとですか。\nいしゃ：いいえ。しろい くすりは ねる まえに のんで ください。\n男：はい、わかりました。\nおとこの ひとは しろい くすりを いつ のみますか。",
+     "prompt": "おとこの ひとは しろい くすりを いつ のみますか。",
+     "options": [
+      "ねる まえ",
+      "あさと よる",
+      "ごはんの あと",
+      "ひる"
+     ],
+     "answer": 0,
+     "explanation": "しろい くすりは ねる まえに のんで ください. Morning and evening after meals is for the red medicine.",
+     "items": []
+    },
+    {
+     "part": "問題1 課題理解 · Task",
+     "passage": "先生が はなして います。がくせいは あした どこへ いきますか。\n先生：あしたの テストは にかいの きょうしつで します。あ、ちがいました。にかいじゃなくて、よんかいの きょうしつです。くじまでに きて ください。\nがくせいは あした どこへ いきますか。",
+     "prompt": "がくせいは あした どこへ いきますか。",
+     "options": [
+      "さんかいの きょうしつ",
+      "よんかいの きょうしつ",
+      "にかいの きょうしつ",
+      "としょかん"
+     ],
+     "answer": 1,
+     "explanation": "The teacher corrects herself: にかいじゃなくて、よんかいの きょうしつです.",
+     "items": []
+    },
+    {
+     "part": "問題1 課題理解 · Task",
+     "passage": "おんなの ひとと おとこの ひとが うちで はなして います。おとこの ひとは スーパーで 何を かいますか。\n女：スーパーに いくの？ じゃあ、たまごと ぎゅうにゅうを かって きて。\n男：うん。パンは？\n女：パンは まだ あるから いい。あ、たまごは きのう かったから、いらない。りんごを みっつ おねがい。\n男：わかった。\nおとこの ひとは スーパーで 何を かいますか。",
+     "prompt": "おとこの ひとは スーパーで 何を かいますか。",
+     "options": [
+      "たまごと ぎゅうにゅう",
+      "パンと りんご",
+      "たまごと りんご",
+      "ぎゅうにゅうと りんご"
+     ],
+     "answer": 3,
+     "explanation": "Eggs are dropped (たまごは きのう かったから、いらない) and apples added (りんごを みっつ おねがい); milk stays. Bread isn't needed.",
+     "items": []
+    }
+   ]
+  },
+  {
+   "slug": "listening-n5-06-kadai-3",
+   "jlpt_level": "N5",
+   "title": "課題理解 — Task 3",
+   "body": "Listen to the conversation and choose what the person will do or choose.",
+   "questions": [
+    {
+     "part": "問題1 課題理解 · Task",
+     "passage": "おとこの ひとが えきで おんなの ひとに きいて います。おとこの ひとは どの バスに のりますか。\n男：すみません、としょかんへ いきたいです。この あおい バスで いきますか。\n女：いいえ、あおい バスは びょういんへ いきます。としょかんは しろい バスです。\n男：しろい バスですね。\n女：あ、でも しろい バスは ごごだけです。いまは あさですから、きいろい バスに のって ください。\n男：わかりました。ありがとうございます。\nおとこの ひとは どの バスに のりますか。",
+     "prompt": "おとこの ひとは どの バスに のりますか。",
+     "options": [
+      "あおい バス",
+      "きいろい バス",
+      "しろい バス",
+      "あかい バス"
+     ],
+     "answer": 1,
+     "explanation": "The white bus only runs in the afternoon: いまは あさですから、きいろい バスに のって ください.",
+     "items": []
+    },
+    {
+     "part": "問題1 課題理解 · Task",
+     "passage": "かいしゃで おとこの ひとと おんなの ひとが はなして います。おんなの ひとは まず 何を しますか。\n男：やまださん、この てがみを ゆうびんきょくへ だして ください。\n女：はい、わかりました。\n男：あ、その まえに、たなかさんに でんわして ください。\n女：たなかさんですね。\n男：ええ。それから、かえりに コーヒーを かって きて ください。\nおんなの ひとは まず 何を しますか。",
+     "prompt": "おんなの ひとは まず 何を しますか。",
+     "options": [
+      "てがみを だします",
+      "コーヒーを かいます",
+      "たなかさんに てがみを かきます",
+      "たなかさんに でんわします"
+     ],
+     "answer": 3,
+     "explanation": "その まえに、たなかさんに でんわして ください: the call comes before posting the letter; coffee is on the way back.",
+     "items": []
+    },
+    {
+     "part": "問題1 課題理解 · Task",
+     "passage": "おとこの ひとと おんなの ひとが でんわで はなして います。ふたりは どこで あいますか。\n男：あした、えきの まえで あおう。\n女：えきの まえは ひとが おおいから、ちょっと…。\n男：じゃあ、えきの ちかくの きっさてんは？\n女：あそこは あしたは やすみだよ。\n男：そう。じゃあ、ぎんこうの まえは どう？\n女：うん、いいよ。\nふたりは どこで あいますか。",
+     "prompt": "ふたりは どこで あいますか。",
+     "options": [
+      "ぎんこうの まえ",
+      "えきの まえ",
+      "きっさてん",
+      "こうえん"
+     ],
+     "answer": 0,
+     "explanation": "The station is crowded and the café is closed; to ぎんこうの まえは どう？ she says うん、いいよ.",
+     "items": []
+    },
+    {
+     "part": "問題1 課題理解 · Task",
+     "passage": "おんなの ひとが みせで みせの ひとと はなして います。おんなの ひとは どの かさを かいますか。\n女：すみません、その くろい かさは いくらですか。\n男：にせんえんです。\n女：ちょっと たかいですね。\n男：こちらの あおい かさは せんえんですよ。\n女：あおは ちょっと…。その となりの しろい かさは？\n男：せんごひゃくえんです。\n女：じゃあ、それを ください。\nおんなの ひとは どの かさを かいますか。",
+     "prompt": "おんなの ひとは どの かさを かいますか。",
+     "options": [
+      "くろい かさ",
+      "あおい かさ",
+      "しろい かさ",
+      "あかい かさ"
+     ],
+     "answer": 2,
+     "explanation": "Black is too expensive and she doesn't want blue; after the white one's price (せんごひゃくえん) she says じゃあ、それを ください.",
+     "items": []
+    },
+    {
+     "part": "問題1 課題理解 · Task",
+     "passage": "先生が はなして います。がくせいは 何ページを しますか。\n先生：きょうの しゅくだいは この ほんの じゅうページです。あ、じゅうページは きょう じゅぎょうで しましたね。じゃあ、じゅういちページと じゅうにページを して ください。\nがくせいは 何ページを しますか。",
+     "prompt": "がくせいは 何ページを しますか。",
+     "options": [
+      "じゅうページ",
+      "じゅういちページと じゅうにページ",
+      "じゅうページと じゅういちページ",
+      "じゅうにページだけ"
+     ],
+     "answer": 1,
+     "explanation": "Page 10 was done in class, so: じゃあ、じゅういちページと じゅうにページを して ください.",
+     "items": []
+    }
+   ]
+  },
+  {
+   "slug": "listening-n5-07-point-2",
+   "jlpt_level": "N5",
+   "title": "ポイント理解 — Key point 2",
+   "body": "Listen for the key point: the reason, the detail or the final decision.",
+   "questions": [
+    {
+     "part": "問題2 ポイント理解 · Key point",
+     "passage": "おとこの ひとと おんなの ひとが はなして います。おんなの ひとは どうして がっこうを やすみましたか。\n男：きのう、どうして がっこうを やすみましたか。かぜですか。\n女：いいえ、かぜじゃ ありません。\n男：じゃあ、あたまが いたかったですか。\n女：いいえ。マレーシアから ははが きましたから、くうこうへ いきました。\nおんなの ひとは どうして がっこうを やすみましたか。",
+     "prompt": "おんなの ひとは どうして がっこうを やすみましたか。",
+     "options": [
+      "かぜを ひきましたから",
+      "くうこうへ いきましたから",
+      "あたまが いたかったですから",
+      "しごとが ありましたから"
+     ],
+     "answer": 1,
+     "explanation": "She denies a cold and a headache: ははが きましたから、くうこうへ いきました.",
+     "items": []
+    },
+    {
+     "part": "問題2 ポイント理解 · Key point",
+     "passage": "おんなの ひとと おとこの ひとが はなして います。おとこの ひとは ともだちから 何を もらいましたか。\n女：たんじょうび、おめでとうございます。何を もらいましたか。\n男：ははから シャツを もらいました。\n女：いいですね。ともだちからは？\n男：ともだちからは とけいを もらいました。かばんが ほしかったですが…。\nおとこの ひとは ともだちから 何を もらいましたか。",
+     "prompt": "おとこの ひとは ともだちから 何を もらいましたか。",
+     "options": [
+      "シャツ",
+      "かばん",
+      "ほん",
+      "とけい"
+     ],
+     "answer": 3,
+     "explanation": "ともだちからは とけいを もらいました. The shirt was from his mother; the bag is only what he wanted.",
+     "items": []
+    },
+    {
+     "part": "問題2 ポイント理解 · Key point",
+     "passage": "おとこの ひとと おんなの ひとが はなして います。ふたりは いつ えいがを みに いきますか。\n男：こんしゅうの どようび、えいがを みに いきませんか。\n女：どようびは アルバイトが あります。\n男：じゃあ、にちようびは どうですか。\n女：にちようびは ははと かいものに いきます。らいしゅうの どようびは どうですか。\n男：いいですよ。\nふたりは いつ えいがを みに いきますか。",
+     "prompt": "ふたりは いつ えいがを みに いきますか。",
+     "options": [
+      "こんしゅうの どようび",
+      "こんしゅうの にちようび",
+      "らいしゅうの どようび",
+      "らいしゅうの にちようび"
+     ],
+     "answer": 2,
+     "explanation": "She is busy both days this weekend; to らいしゅうの どようびは どうですか he says いいですよ.",
+     "items": []
+    },
+    {
+     "part": "問題2 ポイント理解 · Key point",
+     "passage": "おとこの ひとと おんなの ひとが はなして います。おとこの ひとの さいふは どこに ありましたか。\n男：あれ、さいふが ありません。\n女：かばんの なかは みましたか。\n男：はい、みました。つくえの うえにも ありません。\n女：あ、いすの したに ありますよ。\n男：あ、ありました。ありがとうございます。\nおとこの ひとの さいふは どこに ありましたか。",
+     "prompt": "おとこの ひとの さいふは どこに ありましたか。",
+     "options": [
+      "いすの した",
+      "かばんの なか",
+      "つくえの うえ",
+      "ポケットの なか"
+     ],
+     "answer": 0,
+     "explanation": "Not in the bag or on the desk: いすの したに ありますよ.",
+     "items": []
+    },
+    {
+     "part": "問題2 ポイント理解 · Key point",
+     "passage": "おとこの ひとと おんなの ひとが はなして います。おんなの ひとは いつも 何で かいしゃへ いきますか。\n男：いつも でんしゃで かいしゃへ いきますか。\n女：いいえ、でんしゃは たかいですから。\n男：じゃあ、バスですか。\n女：バスは あさ ひとが おおいですから…。いつも じてんしゃで いきます。\nおんなの ひとは いつも 何で かいしゃへ いきますか。",
+     "prompt": "おんなの ひとは いつも 何で かいしゃへ いきますか。",
+     "options": [
+      "でんしゃで いきます",
+      "バスで いきます",
+      "じてんしゃで いきます",
+      "あるいて いきます"
+     ],
+     "answer": 2,
+     "explanation": "The train is expensive and the bus is crowded: いつも じてんしゃで いきます.",
+     "items": []
+    }
+   ]
+  },
+  {
+   "slug": "listening-n5-08-point-3",
+   "jlpt_level": "N5",
+   "title": "ポイント理解 — Key point 3",
+   "body": "Listen for the key point: the reason, the detail or the final decision.",
+   "questions": [
+    {
+     "part": "問題2 ポイント理解 · Key point",
+     "passage": "おとこの ひとと おんなの ひとが はなして います。おんなの ひとは デパートで 何を かいましたか。\n男：きのう デパートへ いきましたね。何を かいましたか。\n女：くつを かいたかったですが、いい くつが ありませんでした。\n男：そうですか。\n女：ええ。でも、セーターが やすかったですから、セーターを かいました。\nおんなの ひとは デパートで 何を かいましたか。",
+     "prompt": "おんなの ひとは デパートで 何を かいましたか。",
+     "options": [
+      "セーター",
+      "くつ",
+      "ぼうし",
+      "シャツ"
+     ],
+     "answer": 0,
+     "explanation": "She wanted shoes but found none: セーターが やすかったですから、セーターを かいました.",
+     "items": []
+    },
+    {
+     "part": "問題2 ポイント理解 · Key point",
+     "passage": "おとこの ひとと おんなの ひとが はなして います。おんなの ひとは どうして にほんごを べんきょうして いますか。\n男：アイシャさんは どうして にほんごを べんきょうして いますか。にほんの アニメが すきですか。\n女：アニメも すきですが…。らいねん、にほんの かいしゃで はたらきますから。\n男：そうですか。すごいですね。\nおんなの ひとは どうして にほんごを べんきょうして いますか。",
+     "prompt": "おんなの ひとは どうして にほんごを べんきょうして いますか。",
+     "options": [
+      "アニメが すきですから",
+      "にほんに ともだちが いますから",
+      "にほんの かいしゃで はたらきますから",
+      "にほんの だいがくで べんきょうしますから"
+     ],
+     "answer": 2,
+     "explanation": "She likes anime too (アニメも すきですが), but the reason is らいねん、にほんの かいしゃで はたらきますから.",
+     "items": []
+    },
+    {
+     "part": "問題2 ポイント理解 · Key point",
+     "passage": "おんなの ひとと おとこの ひとが はなして います。おとこの ひとは きのう なんじに ねましたか。\n女：げんきが ありませんね。きのう なんじに ねましたか。\n男：いつもは じゅうじに ねます。きのうは じゅういちじに ベッドに はいりました。\n女：そうですか。\n男：でも、となりの へやが うるさかったですから、いちじまで ねませんでした。\nおとこの ひとは きのう なんじに ねましたか。",
+     "prompt": "おとこの ひとは きのう なんじに ねましたか。",
+     "options": [
+      "じゅうじ",
+      "じゅういちじ",
+      "じゅうにじ",
+      "いちじ"
+     ],
+     "answer": 3,
+     "explanation": "He went to bed at eleven, but いちじまで ねませんでした, so he fell asleep at one. Ten is his usual time.",
+     "items": []
+    },
+    {
+     "part": "問題2 ポイント理解 · Key point",
+     "passage": "おんなの ひとと おとこの ひとが はなして います。ふたりは どこで ひるごはんを たべますか。\n女：ひるごはんは どこで たべますか。\n男：えきの まえの ラーメンやは どうですか。\n女：あそこは いつも ひとが おおいですよ。\n男：じゃあ、がっこうの しょくどうは？\n女：しょくどうは きょう やすみですよ。\n男：そうですか。じゃあ、コンビニで パンを かって、こうえんで たべましょう。\n女：いいですね。\nふたりは どこで ひるごはんを たべますか。",
+     "prompt": "ふたりは どこで ひるごはんを たべますか。",
+     "options": [
+      "コンビニ",
+      "こうえん",
+      "しょくどう",
+      "ラーメンや"
+     ],
+     "answer": 1,
+     "explanation": "They only buy bread at the convenience store: コンビニで パンを かって、こうえんで たべましょう.",
+     "items": []
+    },
+    {
+     "part": "問題2 ポイント理解 · Key point",
+     "passage": "おんなの ひとと おとこの ひとが はなして います。おとこの ひとは きのう ぜんぶで なんじかん べんきょうしましたか。\n女：きのう、たくさん べんきょうしましたか。\n男：ええ。ごごは さんじかん しました。\n女：よるも しましたか。\n男：よるは ともだちが きましたから、しませんでした。\n女：あさは？\n男：あさは いちじかん しました。\nおとこの ひとは きのう ぜんぶで なんじかん べんきょうしましたか。",
+     "prompt": "おとこの ひとは きのう ぜんぶで なんじかん べんきょうしましたか。",
+     "options": [
+      "いちじかん",
+      "さんじかん",
+      "よじかん",
+      "ごじかん"
+     ],
+     "answer": 2,
+     "explanation": "ごごは さんじかん plus あさは いちじかん = four hours; none in the evening.",
+     "items": []
+    }
+   ]
+  },
+  {
+   "slug": "listening-n5-09-hatsuwa-2",
+   "jlpt_level": "N5",
+   "title": "発話表現 — What do you say? 2",
+   "body": "Read the situation and choose what you would say.",
+   "questions": [
+    {
+     "part": "問題3 発話表現 · What do you say?",
+     "passage": "えきへ いきたいですが、みちが わかりません。みちの ひとに 何と いいますか。",
+     "prompt": "何と いいますか。",
+     "options": [
+      "えきへ いきましょう。",
+      "すみません、えきは どこですか。",
+      "えきは あそこですよ。"
+     ],
+     "answer": 1,
+     "explanation": "To ask the way: すみません、えきは どこですか. えきは あそこですよ is what the other person answers.",
+     "items": []
+    },
+    {
+     "part": "問題3 発話表現 · What do you say?",
+     "passage": "ともだちの うちに きました。いまから うちに はいります。何と いいますか。",
+     "prompt": "何と いいますか。",
+     "options": [
+      "おじゃまします",
+      "いってきます",
+      "ただいま"
+     ],
+     "answer": 0,
+     "explanation": "Entering someone else's home: おじゃまします. ただいま is for coming back to your own home.",
+     "items": []
+    },
+    {
+     "part": "問題3 発話表現 · What do you say?",
+     "passage": "レストランで みずが ほしいです。みせの ひとに 何と いいますか。",
+     "prompt": "何と いいますか。",
+     "options": [
+      "みずを のみましょう。",
+      "みずは いかがですか。",
+      "すみません、みずを ください。"
+     ],
+     "answer": 2,
+     "explanation": "To ask for something in a shop: すみません、みずを ください. みずは いかがですか is the staff offering it.",
+     "items": []
+    },
+    {
+     "part": "問題3 発話表現 · What do you say?",
+     "passage": "じゅぎょうで 先生の はなしが よく わかりませんでした。先生に 何と いいますか。",
+     "prompt": "何と いいますか。",
+     "options": [
+      "すみません、もう いちど おねがいします。",
+      "どうぞ よろしく おねがいします。",
+      "よく できましたね。"
+     ],
+     "answer": 0,
+     "explanation": "To ask the teacher to repeat: すみません、もう いちど おねがいします.",
+     "items": []
+    },
+    {
+     "part": "問題3 発話表現 · What do you say?",
+     "passage": "よる おそく なりました。これから ねます。うちの ひとに 何と いいますか。",
+     "prompt": "何と いいますか。",
+     "options": [
+      "おはようございます",
+      "おやすみなさい",
+      "こんばんは"
+     ],
+     "answer": 1,
+     "explanation": "Going to bed: おやすみなさい. こんばんは is a greeting when you meet someone in the evening.",
+     "items": []
+    }
+   ]
+  },
+  {
+   "slug": "listening-n5-10-hatsuwa-3",
+   "jlpt_level": "N5",
+   "title": "発話表現 — What do you say? 3",
+   "body": "Read the situation and choose what you would say.",
+   "questions": [
+    {
+     "part": "問題3 発話表現 · What do you say?",
+     "passage": "きのう ともだちに ノートを かりました。いま ノートを かえします。何と いいますか。",
+     "prompt": "何と いいますか。",
+     "options": [
+      "ノート、ありがとう。",
+      "ノートを かして ください。",
+      "ノート、どういたしまして。"
+     ],
+     "answer": 0,
+     "explanation": "Returning something you borrowed: ノート、ありがとう. かして ください is for borrowing it in the first place.",
+     "items": []
+    },
+    {
+     "part": "問題3 発話表現 · What do you say?",
+     "passage": "みせで しろい シャツを かいたいです。みせの ひとに 何と いいますか。",
+     "prompt": "何と いいますか。",
+     "options": [
+      "すみません、しろい シャツは ありますか。",
+      "しろい シャツを どうぞ。",
+      "しろい シャツを かいましたか。"
+     ],
+     "answer": 0,
+     "explanation": "To ask whether the shop has it: すみません、しろい シャツは ありますか.",
+     "items": []
+    },
+    {
+     "part": "問題3 発話表現 · What do you say?",
+     "passage": "ともだちと いっしょに えいがを みたいです。ともだちに 何と いいますか。",
+     "prompt": "何と いいますか。",
+     "options": [
+      "えいがを みましたか。",
+      "えいがは どうでしたか。",
+      "いっしょに えいがを みませんか。"
+     ],
+     "answer": 2,
+     "explanation": "An invitation uses 〜ませんか: いっしょに えいがを みませんか.",
+     "items": []
+    },
+    {
+     "part": "問題3 発話表現 · What do you say?",
+     "passage": "あさ、がっこうで 先生に あいました。何と いいますか。",
+     "prompt": "何と いいますか。",
+     "options": [
+      "こんばんは",
+      "おはようございます",
+      "おやすみなさい"
+     ],
+     "answer": 1,
+     "explanation": "Meeting the teacher in the morning: おはようございます (the polite form, to a teacher).",
+     "items": []
+    },
+    {
+     "part": "問題3 発話表現 · What do you say?",
+     "passage": "びょういんに きました。あたまが いたいです。いしゃに 何と いいますか。",
+     "prompt": "何と いいますか。",
+     "options": [
+      "あたまが いたいです。",
+      "あたまを あらいます。",
+      "あたまが いいです。"
+     ],
+     "answer": 0,
+     "explanation": "To say you have a headache: あたまが いたいです. あたまが いいです means 'clever'.",
+     "items": []
+    }
+   ]
+  },
+  {
+   "slug": "listening-n5-11-sokuji-2",
+   "jlpt_level": "N5",
+   "title": "即時応答 — Quick response 2",
+   "body": "Listen to the line and choose the best reply.",
+   "questions": [
+    {
+     "part": "問題4 即時応答 · Quick response",
+     "passage": "女：はじめまして。どうぞ よろしく おねがいします。",
+     "prompt": "何と こたえますか。",
+     "options": [
+      "どういたしまして。",
+      "こちらこそ、よろしく おねがいします。",
+      "いただきます。"
+     ],
+     "answer": 1,
+     "explanation": "A first greeting is answered with こちらこそ、よろしく おねがいします.",
+     "items": []
+    },
+    {
+     "part": "問題4 即時応答 · Quick response",
+     "passage": "男：おくには どちらですか。",
+     "prompt": "何と こたえますか。",
+     "options": [
+      "あちらです。",
+      "にほんごです。",
+      "マレーシアです。"
+     ],
+     "answer": 2,
+     "explanation": "おくには どちらですか asks your country: マレーシアです. あちらです takes どちら literally as a direction.",
+     "items": []
+    },
+    {
+     "part": "問題4 即時応答 · Quick response",
+     "passage": "女：コーヒーと こうちゃと、どちらが いいですか。",
+     "prompt": "何と こたえますか。",
+     "options": [
+      "こうちゃを おねがいします。",
+      "はい、いいです。",
+      "コーヒーを のみました。"
+     ],
+     "answer": 0,
+     "explanation": "A choice between two (どちらが いいですか) is answered by picking one: こうちゃを おねがいします.",
+     "items": []
+    },
+    {
+     "part": "問題4 即時応答 · Quick response",
+     "passage": "男：すみません、ここで たばこを すっても いいですか。",
+     "prompt": "何と こたえますか。",
+     "options": [
+      "はい、すって います。",
+      "はい、すいました。",
+      "すみません、ここは ちょっと…。"
+     ],
+     "answer": 2,
+     "explanation": "Asking permission (〜ても いいですか); the polite refusal is すみません、ここは ちょっと….",
+     "items": []
+    },
+    {
+     "part": "問題4 即時応答 · Quick response",
+     "passage": "女：いつ にほんへ きましたか。",
+     "prompt": "何と こたえますか。",
+     "options": [
+      "ひこうきで きました。",
+      "きょねんの さんがつに きました。",
+      "ともだちと きました。"
+     ],
+     "answer": 1,
+     "explanation": "いつ asks when: きょねんの さんがつに きました. ひこうきで answers how.",
+     "items": []
+    }
+   ]
+  },
+  {
+   "slug": "listening-n5-12-sokuji-3",
+   "jlpt_level": "N5",
+   "title": "即時応答 — Quick response 3",
+   "body": "Listen to the line and choose the best reply.",
+   "questions": [
+    {
+     "part": "問題4 即時応答 · Quick response",
+     "passage": "男：いってきます。",
+     "prompt": "何と こたえますか。",
+     "options": [
+      "ただいま。",
+      "おかえりなさい。",
+      "いってらっしゃい。"
+     ],
+     "answer": 2,
+     "explanation": "いってきます (I'm off) is answered with いってらっしゃい. おかえりなさい answers ただいま.",
+     "items": []
+    },
+    {
+     "part": "問題4 即時応答 · Quick response",
+     "passage": "女：おげんきですか。",
+     "prompt": "何と こたえますか。",
+     "options": [
+      "いいえ、けっこうです。",
+      "はい、げんきです。",
+      "はい、おげんきです。"
+     ],
+     "answer": 1,
+     "explanation": "About yourself, drop the polite お: はい、げんきです.",
+     "items": []
+    },
+    {
+     "part": "問題4 即時応答 · Quick response",
+     "passage": "男：ふくろは いりますか。",
+     "prompt": "何と こたえますか。",
+     "options": [
+      "いいえ、だいじょうぶです。",
+      "はい、いりませんでした。",
+      "ふくろは ここに あります。"
+     ],
+     "answer": 0,
+     "explanation": "The cashier asks if you need a bag; いいえ、だいじょうぶです politely declines.",
+     "items": []
+    },
+    {
+     "part": "問題4 即時応答 · Quick response",
+     "passage": "女：きのうの パーティーは どうでしたか。",
+     "prompt": "何と こたえますか。",
+     "options": [
+      "よる しちじからです。",
+      "ともだちの うちです。",
+      "とても たのしかったです。"
+     ],
+     "answer": 2,
+     "explanation": "どうでしたか asks how it was: とても たのしかったです.",
+     "items": []
+    },
+    {
+     "part": "問題4 即時応答 · Quick response",
+     "passage": "男：すみません、ペンを かして ください。",
+     "prompt": "何と こたえますか。",
+     "options": [
+      "いいえ、かりません。",
+      "はい、どうぞ。",
+      "はい、ありがとうございます。"
+     ],
+     "answer": 1,
+     "explanation": "Handing over what was asked for: はい、どうぞ. ありがとうございます is what the borrower says.",
      "items": []
     }
    ]

@@ -918,8 +918,7 @@
    "options": [
     "いってきます",
     "ただいま",
-    "おじゃまします",
-    "いただきます"
+    "おじゃまします"
    ],
    "answer": 2,
    "explanation": "おじゃまします is said when entering someone else's home.",
@@ -937,8 +936,7 @@
    "options": [
     "おはようございます",
     "こんばんは",
-    "おやすみなさい",
-    "さようなら"
+    "おやすみなさい"
    ],
    "answer": 0,
    "explanation": "In the morning: おはようございます.",

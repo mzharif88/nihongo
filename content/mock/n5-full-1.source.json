@@ -890,8 +890,7 @@
       "options": [
         "どうも ありがとうございました。",
         "すみません、もう いちど おねがいします。",
-        "はい、わかりました。",
-        "どうぞ よろしく。"
+        "はい、わかりました。"
       ],
       "answer": 1,
       "explanation": "To ask someone to repeat: もう いちど おねがいします.",
@@ -905,10 +904,9 @@
       "options": [
         "いただきます。",
         "おじゃまします。",
-        "いらっしゃい。",
         "ごちそうさまでした。"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanation": "After a meal: ごちそうさまでした. いただきます is said before eating.",
       "items": []
     },
@@ -920,8 +918,7 @@
       "options": [
         "おやすみなさい。",
         "こんばんは。",
-        "おはようございます。",
-        "いってきます。"
+        "おはようございます。"
       ],
       "answer": 0,
       "explanation": "Before going to bed: おやすみなさい.",
@@ -935,8 +932,7 @@
       "options": [
         "どういたしまして。",
         "あ、ごめんなさい。",
-        "ありがとう。",
-        "おめでとう。"
+        "ありがとう。"
       ],
       "answer": 1,
       "explanation": "You stepped on someone's foot, so you apologise: ごめんなさい.",
@@ -950,8 +946,7 @@
       "options": [
         "えきへ いって ください。",
         "えきは とおいですよ。",
-        "すみません、えきは どこですか。",
-        "えきで まって います。"
+        "すみません、えきは どこですか。"
       ],
       "answer": 2,
       "explanation": "To ask the way, say すみません and ask どこですか.",
