@@ -7,6 +7,7 @@ import { buildCard, type CardType, type StudyCard, type StudyItem } from "./card
 import { pickNewItems, SRS_TYPES } from "./curriculum";
 import { studyPace, type Pace } from "./pace";
 import { inTopic, listTopics, pickTopicItems, type Topic } from "./topics";
+import { learnerStage, RECENT, withOptionCount, type Stage } from "./mastery";
 import { localDate } from "./streak";
 
 export const ITEM_COLUMNS =
@@ -42,6 +43,8 @@ export interface StudySession {
   topics: Topic[];
   /** The topic this session studies, or null for everything. */
   topic: Topic | null;
+  /** How much support the learner gets (answer choices, new items per group). */
+  stage: Stage;
 }
 
 /**
@@ -55,7 +58,7 @@ export async function loadStudySession(
   profile: Profile,
   { now = new Date(), topicId = null }: { now?: Date; topicId?: string | null } = {},
 ): Promise<StudySession> {
-  const [items, cards] = await Promise.all([
+  const [items, cards, { data: reviews, error: reviewsError }] = await Promise.all([
     fetchAll<ItemRow>((from, to) =>
       supabase
         .from("items")
@@ -77,7 +80,9 @@ export async function loadStudySession(
         .range(from, to)
         .returns<UserItemRow[]>(),
     ),
+    supabase.from("reviews").select("grade").eq("user_id", profile.id).order("reviewed_at", { ascending: false }).limit(RECENT),
   ]);
+  if (reviewsError) throw new Error(reviewsError.message);
   const byId = new Map(items.map((i) => [i.id, i]));
   const today = localDate(now, profile.timezone);
 
@@ -108,11 +113,13 @@ export async function loadStudySession(
     ? pickTopicItems(items, topic.id, started, learnedSlugs, NEW_BATCH)
     : pickNewItems(items, started, learnedSlugs, NEW_BATCH);
 
+  const stage = learnerStage(learnedSlugs.size, (reviews as { grade: number }[]).map((r) => r.grade));
   return {
     cards: [
       ...due.map((c) => buildCard(byId.get(c.item_id)!, c.card_type, false, items)),
       ...fresh.map((i) => buildCard(i, "recognition", true, items)),
-    ],
+    ].map((c) => withOptionCount(c, stage.options)),
+    stage,
     dueCount: due.length,
     newCount: fresh.length,
     totalDue: allDue.length,

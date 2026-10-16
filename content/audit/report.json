@@ -1,0 +1,585 @@
+{
+ "generatedAt": "2026-10-16T00:57:57.392Z",
+ "totals": {
+  "error": 0,
+  "warning": 52,
+  "info": 282
+ },
+ "rules": [
+  {
+   "id": "word-reading",
+   "severity": "error",
+   "title": "Every word with kanji has a kana reading",
+   "why": "Furigana and the kana-only answers come from it; without one a beginner can't read the word.",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "id": "word-level",
+   "severity": "error",
+   "title": "Every item has a JLPT level",
+   "why": "Levels decide what a beginner meets first and how the exam prints its kanji.",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "id": "word-meaning",
+   "severity": "error",
+   "title": "Every item has a meaning",
+   "why": "Recognition cards ask for it.",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "id": "word-topic",
+   "severity": "error",
+   "title": "Every word has a topic from the taxonomy",
+   "why": "Words by topic must cover every word.",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "id": "word-duplicate",
+   "severity": "warning",
+   "title": "No word appears twice with the same spelling and reading",
+   "why": "Duplicates split a learner's progress and show twice in a session.",
+   "count": 13,
+   "samples": [
+    {
+     "rule": "word-duplicate",
+     "file": "items (merged)",
+     "slug": "vocab-n5-ashi",
+     "message": "足; 脚 (あし) duplicates word-ashi"
+    },
+    {
+     "rule": "word-duplicate",
+     "file": "items (merged)",
+     "slug": "vocab-n5-kawa",
+     "message": "川; 河 (かわ) duplicates word-kawa"
+    },
+    {
+     "rule": "word-duplicate",
+     "file": "items (merged)",
+     "slug": "vocab-n5-kiro-kiromeetoru",
+     "message": "キロ; キロメートル (キロ; キロメートル) duplicates vocab-n5-kiro-kiroguramu"
+    },
+    {
+     "rule": "word-duplicate",
+     "file": "items (merged)",
+     "slug": "vocab-n4-sou",
+     "message": "そう (そう) duplicates vocab-n5-sou-soudesu"
+    },
+    {
+     "rule": "word-duplicate",
+     "file": "items (merged)",
+     "slug": "vocab-n4-a",
+     "message": "あ (あ) duplicates word-a-sou-da"
+    },
+    {
+     "rule": "word-duplicate",
+     "file": "items (merged)",
+     "slug": "vocab-n4-suupaa-maaketto",
+     "message": "スーパー (マーケット) (スーパー (マーケット)) duplicates word-suupaa"
+    },
+    {
+     "rule": "word-duplicate",
+     "file": "items (merged)",
+     "slug": "vocab-n3-sumimasen-kan",
+     "message": "すみません (かん) (すみません (かん)) duplicates word-sumimasen"
+    },
+    {
+     "rule": "word-duplicate",
+     "file": "items (merged)",
+     "slug": "vocab-n3-aru",
+     "message": "在る; 有る (ある) duplicates vocab-n5-aru"
+    },
+    {
+     "rule": "word-duplicate",
+     "file": "items (merged)",
+     "slug": "vocab-n3-yoroshiku-kan",
+     "message": "よろしく (かん) (よろしく (かん)) duplicates word-yoroshiku"
+    },
+    {
+     "rule": "word-duplicate",
+     "file": "items (merged)",
+     "slug": "vocab-n2-gehin-na",
+     "message": "下品(な) (げひん(な)) duplicates vocab-n2-gehin"
+    },
+    {
+     "rule": "word-duplicate",
+     "file": "items (merged)",
+     "slug": "vocab-n2-douitashimashite-kan",
+     "message": "どういたしまして (かん) (どういたしまして (かん)) duplicates word-dou-itashimashite"
+    },
+    {
+     "rule": "word-duplicate",
+     "file": "items (merged)",
+     "slug": "vocab-n2-hai-kan",
+     "message": "はい (かん) (はい (かん)) duplicates word-hai"
+    },
+    {
+     "rule": "word-duplicate",
+     "file": "items (merged)",
+     "slug": "vocab-n2-hogaraka-na",
+     "message": "朗らか(な) (ほがらか(な)) duplicates vocab-n2-hogaraka"
+    }
+   ]
+  },
+  {
+   "id": "furigana-kana",
+   "severity": "error",
+   "title": "Furigana are kana",
+   "why": "Ruby over kanji must be readable by a beginner.",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "id": "furigana-matches-text",
+   "severity": "error",
+   "title": "Furigana markup spells the same sentence",
+   "why": "If the ruby version drifts from the text, the learner sees a different sentence than the one checked.",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "id": "furigana-dictionary",
+   "severity": "warning",
+   "title": "Furigana on a whole word match its dictionary reading",
+   "why": "Generated furigana can misread a compound (目撃者 もくげきもの); the word list says how it's read.",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "id": "kanji-key-reading",
+   "severity": "error",
+   "title": "A kanji's key reading is one of its on or kun readings",
+   "why": "The key reading is shown over the kanji on its card.",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "id": "kanji-examples",
+   "severity": "warning",
+   "title": "Every kanji has example words",
+   "why": "Readings are learned and quizzed through words, as the JLPT tests them.",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "id": "kanji-quiz-word",
+   "severity": "error",
+   "title": "A kanji's quiz word contains it and its wrong options differ from the answer",
+   "why": "The reading quiz asks how that word is read.",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "id": "kanji-misreadings",
+   "severity": "info",
+   "title": "Kanji quiz words with fewer than 3 exam-style wrong options",
+   "why": "These are topped up from other words' readings, which is easier than the real exam.",
+   "count": 282,
+   "samples": [
+    {
+     "rule": "kanji-misreadings",
+     "file": "items (merged)",
+     "slug": "kanji-tree",
+     "message": "木: 木 has 2"
+    },
+    {
+     "rule": "kanji-misreadings",
+     "file": "items (merged)",
+     "slug": "kanji-mountain",
+     "message": "山: 山 has 2"
+    },
+    {
+     "rule": "kanji-misreadings",
+     "file": "items (merged)",
+     "slug": "kanji-river",
+     "message": "川: 川 has 2"
+    },
+    {
+     "rule": "kanji-misreadings",
+     "file": "items (merged)",
+     "slug": "kanji-eye",
+     "message": "目: 目 has 1"
+    },
+    {
+     "rule": "kanji-misreadings",
+     "file": "items (merged)",
+     "slug": "kanji-ear",
+     "message": "耳: 耳 has 2"
+    },
+    {
+     "rule": "kanji-misreadings",
+     "file": "items (merged)",
+     "slug": "kanji-hand",
+     "message": "手: 手 has 1"
+    },
+    {
+     "rule": "kanji-misreadings",
+     "file": "items (merged)",
+     "slug": "kanji-foot",
+     "message": "足: 足 has 2"
+    },
+    {
+     "rule": "kanji-misreadings",
+     "file": "items (merged)",
+     "slug": "kanji-two",
+     "message": "二: 二 has 1"
+    },
+    {
+     "rule": "kanji-misreadings",
+     "file": "items (merged)",
+     "slug": "kanji-three",
+     "message": "三: 三 has 2"
+    },
+    {
+     "rule": "kanji-misreadings",
+     "file": "items (merged)",
+     "slug": "kanji-four",
+     "message": "四: 四 has 1"
+    },
+    {
+     "rule": "kanji-misreadings",
+     "file": "items (merged)",
+     "slug": "kanji-five",
+     "message": "五: 五 has 1"
+    },
+    {
+     "rule": "kanji-misreadings",
+     "file": "items (merged)",
+     "slug": "kanji-nine",
+     "message": "九: 九 has 2"
+    },
+    {
+     "rule": "kanji-misreadings",
+     "file": "items (merged)",
+     "slug": "kanji-front",
+     "message": "前: 前 has 2"
+    },
+    {
+     "rule": "kanji-misreadings",
+     "file": "items (merged)",
+     "slug": "kanji-woman",
+     "message": "女: 女 has 1"
+    },
+    {
+     "rule": "kanji-misreadings",
+     "file": "items (merged)",
+     "slug": "kanji-mother",
+     "message": "母: 母 has 2"
+    },
+    {
+     "rule": "kanji-misreadings",
+     "file": "items (merged)",
+     "slug": "kanji-long",
+     "message": "長: 長い has 1"
+    },
+    {
+     "rule": "kanji-misreadings",
+     "file": "items (merged)",
+     "slug": "kanji-language",
+     "message": "語: 語 has 1"
+    },
+    {
+     "rule": "kanji-misreadings",
+     "file": "items (merged)",
+     "slug": "kanji-station",
+     "message": "駅: 駅 has 1"
+    },
+    {
+     "rule": "kanji-misreadings",
+     "file": "items (merged)",
+     "slug": "kanji-what",
+     "message": "何: 何 has 2"
+    },
+    {
+     "rule": "kanji-misreadings",
+     "file": "items (merged)",
+     "slug": "kanji-red",
+     "message": "赤: 赤 has 2"
+    },
+    {
+     "rule": "kanji-misreadings",
+     "file": "items (merged)",
+     "slug": "kanji-blue",
+     "message": "青: 青 has 1"
+    },
+    {
+     "rule": "kanji-misreadings",
+     "file": "items (merged)",
+     "slug": "kanji-flower",
+     "message": "花: 花 has 2"
+    },
+    {
+     "rule": "kanji-misreadings",
+     "file": "items (merged)",
+     "slug": "kanji-rain",
+     "message": "雨: 雨 has 1"
+    },
+    {
+     "rule": "kanji-misreadings",
+     "file": "items (merged)",
+     "slug": "kanji-enter",
+     "message": "入: 入れる has 2"
+    },
+    {
+     "rule": "kanji-misreadings",
+     "file": "items (merged)",
+     "slug": "kanji-time",
+     "message": "時: 時 has 1"
+    }
+   ]
+  },
+  {
+   "id": "question-answer",
+   "severity": "error",
+   "title": "Every question has a valid answer and distinct options",
+   "why": "A wrong key or two identical options makes a question unanswerable.",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "id": "question-option-count",
+   "severity": "warning",
+   "title": "Options per question match the JLPT: 4, or 3 for 即時応答",
+   "why": "The exam's format is part of what's being practised.",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "id": "kanji-reading-target",
+   "severity": "error",
+   "title": "漢字読み questions underline a word with kanji",
+   "why": "The part tests reading the underlined kanji word.",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "id": "question-links",
+   "severity": "error",
+   "title": "Questions and lessons point at items and texts that exist",
+   "why": "A broken link drops a question's text or the words its mistakes should send to review.",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "id": "mock-official-counts",
+   "severity": "error",
+   "title": "Full-length mocks have the official number of questions in every part",
+   "why": "They stand in for the real exam.",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "id": "passage-length",
+   "severity": "warning",
+   "title": "Reading passages are close to the official length",
+   "why": "Passage length is a large part of what makes each level's reading hard.",
+   "count": 2,
+   "samples": [
+    {
+     "rule": "passage-length",
+     "file": "mock/n5-full-1-questions.json",
+     "slug": "mock-n5-full-1-40",
+     "message": "問題4 内容理解（短文） · Short passage: 103 characters, official 80"
+    },
+    {
+     "rule": "passage-length",
+     "file": "mock/n5-full-1-questions.json",
+     "slug": "mock-n5-full-1-43",
+     "message": "問題6 情報検索 · Finding information: 170 characters, official 250"
+    }
+   ]
+  },
+  {
+   "id": "sentence-length",
+   "severity": "warning",
+   "title": "Example and lesson sentences suit their level's length",
+   "why": "Beginners read short sentences first: up to 30 characters at N5, 40 at N4, 55 at N3, 70 at N2.",
+   "count": 2,
+   "samples": [
+    {
+     "rule": "sentence-length",
+     "file": "lessons/n4.json",
+     "slug": "lesson-n4-06-michi",
+     "message": "N4, 47 characters: はい。右に曲がったら、橋が見えます。橋を渡ったら、左に大きい建物があります。それが美術館です。"
+    },
+    {
+     "rule": "sentence-length",
+     "file": "lessons/situations.json",
+     "slug": "situation-transport-02-norikae",
+     "message": "N4, 44 characters: まもなく、二番線に電車がまいります。危ないですから、黄色い線の内側までお下がりください。"
+    }
+   ]
+  },
+  {
+   "id": "grammar-examples",
+   "severity": "warning",
+   "title": "Every grammar point has at least two example sentences",
+   "why": "One example isn't enough to see how a pattern bends to different words.",
+   "count": 35,
+   "samples": [
+    {
+     "rule": "grammar-examples",
+     "file": "items (merged)",
+     "slug": "grammar-wa-topic",
+     "message": "は (topic marker): 1 example(s)"
+    },
+    {
+     "rule": "grammar-examples",
+     "file": "items (merged)",
+     "slug": "grammar-ga-subject",
+     "message": "が (subject marker): 1 example(s)"
+    },
+    {
+     "rule": "grammar-examples",
+     "file": "items (merged)",
+     "slug": "grammar-wo-object",
+     "message": "を (object marker): 1 example(s)"
+    },
+    {
+     "rule": "grammar-examples",
+     "file": "items (merged)",
+     "slug": "grammar-ni-destination",
+     "message": "に (destination): 1 example(s)"
+    },
+    {
+     "rule": "grammar-examples",
+     "file": "items (merged)",
+     "slug": "grammar-de-location",
+     "message": "で (location of action): 1 example(s)"
+    },
+    {
+     "rule": "grammar-examples",
+     "file": "items (merged)",
+     "slug": "grammar-ni-vs-de",
+     "message": "に vs で: 1 example(s)"
+    },
+    {
+     "rule": "grammar-examples",
+     "file": "items (merged)",
+     "slug": "grammar-mo-also",
+     "message": "も (also): 1 example(s)"
+    },
+    {
+     "rule": "grammar-examples",
+     "file": "items (merged)",
+     "slug": "grammar-no-possessive",
+     "message": "の (possessive): 1 example(s)"
+    },
+    {
+     "rule": "grammar-examples",
+     "file": "items (merged)",
+     "slug": "grammar-to-and-with",
+     "message": "と (and/with): 1 example(s)"
+    },
+    {
+     "rule": "grammar-examples",
+     "file": "items (merged)",
+     "slug": "grammar-kara-made",
+     "message": "から/まで (from/until): 1 example(s)"
+    },
+    {
+     "rule": "grammar-examples",
+     "file": "items (merged)",
+     "slug": "grammar-masu",
+     "message": "ます (polite present/future): 1 example(s)"
+    },
+    {
+     "rule": "grammar-examples",
+     "file": "items (merged)",
+     "slug": "grammar-mashita",
+     "message": "ました (polite past): 1 example(s)"
+    },
+    {
+     "rule": "grammar-examples",
+     "file": "items (merged)",
+     "slug": "grammar-masen",
+     "message": "ません (polite negative): 1 example(s)"
+    },
+    {
+     "rule": "grammar-examples",
+     "file": "items (merged)",
+     "slug": "grammar-masen-deshita",
+     "message": "ませんでした (past negative): 1 example(s)"
+    },
+    {
+     "rule": "grammar-examples",
+     "file": "items (merged)",
+     "slug": "grammar-te-kudasai",
+     "message": "てください (please do): 1 example(s)"
+    },
+    {
+     "rule": "grammar-examples",
+     "file": "items (merged)",
+     "slug": "grammar-te-iru",
+     "message": "ている (ongoing action): 1 example(s)"
+    },
+    {
+     "rule": "grammar-examples",
+     "file": "items (merged)",
+     "slug": "grammar-tai",
+     "message": "たい (want to): 1 example(s)"
+    },
+    {
+     "rule": "grammar-examples",
+     "file": "items (merged)",
+     "slug": "grammar-i-adj-present",
+     "message": "い-adjective (present): 1 example(s)"
+    },
+    {
+     "rule": "grammar-examples",
+     "file": "items (merged)",
+     "slug": "grammar-i-adj-past",
+     "message": "い-adjective past: 1 example(s)"
+    },
+    {
+     "rule": "grammar-examples",
+     "file": "items (merged)",
+     "slug": "grammar-i-adj-negative",
+     "message": "い-adjective negative: 1 example(s)"
+    },
+    {
+     "rule": "grammar-examples",
+     "file": "items (merged)",
+     "slug": "grammar-na-adj",
+     "message": "な-adjective: 1 example(s)"
+    },
+    {
+     "rule": "grammar-examples",
+     "file": "items (merged)",
+     "slug": "grammar-doko",
+     "message": "どこ (where): 1 example(s)"
+    },
+    {
+     "rule": "grammar-examples",
+     "file": "items (merged)",
+     "slug": "grammar-nan-vs-nani",
+     "message": "なん vs なに (what): 1 example(s)"
+    },
+    {
+     "rule": "grammar-examples",
+     "file": "items (merged)",
+     "slug": "grammar-itsu",
+     "message": "いつ (when): 1 example(s)"
+    },
+    {
+     "rule": "grammar-examples",
+     "file": "items (merged)",
+     "slug": "grammar-ja-nai-desu",
+     "message": "じゃないです (not): 1 example(s)"
+    }
+   ]
+  },
+  {
+   "id": "lesson-grammar-level",
+   "severity": "warning",
+   "title": "A lesson's grammar point isn't above the lesson's level",
+   "why": "Beginners shouldn't meet a harder level's grammar as the point of a lesson.",
+   "count": 0,
+   "samples": []
+  }
+ ]
+}

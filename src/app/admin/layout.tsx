@@ -5,6 +5,7 @@ const NAV = [
   { href: "/admin", label: "Overview" },
   { href: "/admin/content/items", label: "Content" },
   { href: "/admin/ai", label: "AI engine" },
+  { href: "/admin/audit", label: "Content audit" },
   { href: "/admin/export", label: "Export", download: true },
 ];
 

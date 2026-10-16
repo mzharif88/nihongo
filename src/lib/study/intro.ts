@@ -11,13 +11,13 @@ export const INTRO_BATCH = 4;
  * The new cards to introduce next: the run of not-yet-introduced new cards at
  * the front of the queue, up to INTRO_BATCH. A kana letter goes alone.
  */
-export function introGroup(queue: StudyCard[], introduced: ReadonlySet<string>): StudyCard[] {
+export function introGroup(queue: StudyCard[], introduced: ReadonlySet<string>, size = INTRO_BATCH): StudyCard[] {
   const fresh = (c: StudyCard | undefined) => !!c && c.isNew && !introduced.has(c.key);
   if (!fresh(queue[0])) return [];
   if (queue[0].introAlone) return [queue[0]];
   const group: StudyCard[] = [];
   for (const c of queue) {
-    if (!fresh(c) || c.introAlone || group.length === INTRO_BATCH) break;
+    if (!fresh(c) || c.introAlone || group.length === size) break;
     group.push(c);
   }
   return group;

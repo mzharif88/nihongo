@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "tsx scripts/content-audit.ts --check",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
@@ -21,7 +22,8 @@
     "build:radicals": "tsx scripts/build-radicals.ts",
     "build:kanji-families": "tsx scripts/build-kanji-families.ts",
     "build:topics": "tsx scripts/apply-topics.ts",
-    "build:kanji-readings": "tsx scripts/kanji-readings.ts"
+    "build:kanji-readings": "tsx scripts/kanji-readings.ts",
+    "audit": "tsx scripts/content-audit.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.133.0",

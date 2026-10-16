@@ -52,6 +52,7 @@ export default async function StudyPage({ searchParams }: { searchParams: Promis
       title={title}
       cards={session.cards}
       kanji={kanji}
+      introBatch={session.stage.introBatch}
       keepGoingHref={hasMore || session.totalDue > session.dueCount ? again : null}
     />
   );

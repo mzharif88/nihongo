@@ -936,8 +936,7 @@
    "options": [
     "はい、[運|はこ]びました。",
     "ええ、いいですよ。",
-    "いいえ、もらいません。",
-    "どうぞ、[運|はこ]んでください。"
+    "いいえ、もらいません。"
    ],
    "answer": 1,
    "explanation": "A request for help: accept with ええ、いいですよ.",
@@ -955,10 +954,9 @@
    "options": [
     "はい、[見|み]ました。",
     "いいえ、[行|い]きました。",
-    "どうもありがとう。",
     "ええ、ぜひ。"
    ],
-   "answer": 3,
+   "answer": 2,
    "explanation": "An invitation: ええ、ぜひ (yes, I'd love to).",
    "item_slugs": []
   },
@@ -974,8 +972,7 @@
    "options": [
     "お[疲|つか]れさまでした。",
     "いただきます。",
-    "おかえりなさい。",
-    "はじめまして。"
+    "おかえりなさい。"
    ],
    "answer": 0,
    "explanation": "When a colleague leaves first: お[疲|つか]れさまでした.",

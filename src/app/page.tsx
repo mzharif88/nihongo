@@ -60,6 +60,15 @@ export default async function HomePage() {
         <Stat label="XP" value={game?.xp ?? 0} />
       </section>
 
+      <section className="mt-3 rounded-xl border border-border bg-card p-3 text-sm">
+        <div className="flex items-baseline justify-between">
+          <span className="font-medium">Learning style: {session.stage.label}</span>
+          <span className="text-xs text-muted">adapts as you learn</span>
+        </div>
+        <p className="mt-1 text-muted">{session.stage.summary}</p>
+        {session.stage.next && <p className="mt-1 text-xs text-muted">{session.stage.next}</p>}
+      </section>
+
       <Link href="/study" className="mt-6 block rounded-xl bg-accent p-5 text-center text-white">
         <div className="text-lg font-bold">Study everything</div>
         <div className="mt-1 text-sm opacity-90">

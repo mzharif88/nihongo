@@ -1,0 +1,13 @@
+{
+ "note": "Warning counts the content may not exceed (tests/content-audit.test.ts). Lower them as warnings are fixed: npm run audit -- --baseline",
+ "warnings": {
+  "word-duplicate": 13,
+  "furigana-dictionary": 0,
+  "kanji-examples": 0,
+  "question-option-count": 0,
+  "passage-length": 2,
+  "sentence-length": 2,
+  "grammar-examples": 35,
+  "lesson-grammar-level": 0
+ }
+}

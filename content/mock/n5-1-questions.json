@@ -956,8 +956,7 @@
    "options": [
     "はい、そうです。",
     "はじめまして。リーです。どうぞ よろしく。",
-    "どういたしまして。",
-    "いってらっしゃい。"
+    "どういたしまして。"
    ],
    "answer": 1,
    "explanation": "Answer はじめまして with your own name and どうぞ よろしく.",
@@ -975,8 +974,7 @@
    "options": [
     "ごじです。",
     "ひとつです。",
-    "あそこです。",
-    "わたしです。"
+    "あそこです。"
    ],
    "answer": 2,
    "explanation": "どこ asks where: あそこです (over there).",
@@ -994,10 +992,9 @@
    "options": [
     "どういたしまして。",
     "いいえ、まだです。",
-    "はい、そうです。",
     "ありがとうございます。いただきます。"
    ],
-   "answer": 3,
+   "answer": 2,
    "explanation": "Offered another cup of tea: accept with ありがとうございます。いただきます.",
    "item_slugs": []
   }

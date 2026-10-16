@@ -836,8 +836,7 @@
       "options": [
         "ごめん、もう行ってきたよ。",
         "いいね。どこに行く？",
-        "日曜日は暇じゃなかったよ。",
-        "うん、買ってきてくれる？"
+        "日曜日は暇じゃなかったよ。"
       ],
       "answer": 1,
       "explanation": "Accepting the invitation: いいね。どこに行く？",
@@ -851,8 +850,7 @@
       "options": [
         "あ、すみません。じゃあ、もう一度言いますね。",
         "はい、ゆっくりしてください。",
-        "いいえ、早く話しました。",
-        "ありがとうございます。話してください。"
+        "いいえ、早く話しました。"
       ],
       "answer": 0,
       "explanation": "He asks you to speak more slowly; apologise and repeat it.",
@@ -866,8 +864,7 @@
       "options": [
         "うん、雨が降ってきたね。",
         "うん、明日も降るらしいよ。",
-        "うん、折りたたみのが一本あるよ。",
-        "ううん、傘はぬれてないよ。"
+        "うん、折りたたみのが一本あるよ。"
       ],
       "answer": 2,
       "explanation": "Answer the question about an umbrella: 折りたたみのが一本あるよ (I have a folding one).",

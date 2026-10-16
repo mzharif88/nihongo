@@ -42,6 +42,8 @@ interface Props {
    * as the JLPT prints them. Omit for no limit.
    */
   kanji?: { stage: string; known: string };
+  /** New items introduced together before their quiz (grows with the learner's stage). */
+  introBatch?: number;
 }
 
 export function StudySession({
@@ -51,6 +53,7 @@ export function StudySession({
   source = "srs",
   doneLink = { href: "/", label: "Pick another topic" },
   kanji,
+  introBatch,
 }: Props) {
   const [queue, setQueue] = useState(initial);
   const [repeats, setRepeats] = useState<Record<string, number>>({});
@@ -70,7 +73,7 @@ export function StudySession({
 
   const card = queue[0];
   const remaining = queue.length;
-  const group = phase === "intro" ? introGroup(queue, introduced) : [];
+  const group = phase === "intro" ? introGroup(queue, introduced, introBatch) : [];
   /** The card on screen: during an intro group, the one being introduced. */
   const shown = group[introAt] ?? card;
 

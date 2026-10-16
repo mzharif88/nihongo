@@ -4,6 +4,7 @@ import { requireUser } from "@/lib/auth";
 import { loadCourse, loadSentences } from "@/lib/course/course.server";
 import { unitCards } from "@/lib/course/unit";
 import { loadKanjiStage } from "@/lib/study/kanji-stage.server";
+import { learnerStage, withOptionCount } from "@/lib/study/mastery";
 
 export const dynamic = "force-dynamic";
 
@@ -34,12 +35,14 @@ export default async function UnitPage({ searchParams }: { searchParams: Promise
   }
 
   const corpus = await loadSentences(supabase, course.items);
+  const stage = learnerStage(course.state.learnedSlugs.size, course.state.recentGrades);
   const pool = course.items.filter((x) => x.type === "word" || x.type === "kanji" || x.type === "kana");
   const title = course.units.find((u) => u.items.some((x) => x.id === items[0]?.id))?.title ?? "Course unit";
   return (
     <StudySession
       title={title}
-      cards={unitCards(items, refresh, pool, corpus)}
+      cards={unitCards(items, refresh, pool, corpus).map((c) => withOptionCount(c, stage.options))}
+      introBatch={stage.introBatch}
       keepGoingHref="/course/next"
       source="course"
       kanji={kanji}
