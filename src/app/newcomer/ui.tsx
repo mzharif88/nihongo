@@ -2,8 +2,9 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState, useSyncExternalStore } from "react";
+import { Fragment, useEffect, useState, useSyncExternalStore } from "react";
 import { Ruby } from "@/components/ruby";
+import { parseMarkup } from "@/lib/furigana";
 import { say, storedGet, storedSet } from "@/lib/newcomer/voice";
 
 // Shared pieces of the Newcomer pages: how Japanese is shown (kana first,
@@ -41,8 +42,44 @@ export function Japanese({ kana, jp, reading, className = "" }: { kana: string; 
   const [script] = useScript();
   return (
     <span lang="ja" className={`leading-loose ${className}`}>
-      {script === "kana" ? kana : <Ruby text={jp} reading={reading} keepKanji />}
+      {script === "kanji" ? <Ruby text={jp} reading={reading} keepKanji /> : /⟨[sovpw]⟩/.test(reading) ? <KanaRoles reading={reading} /> : kana}
     </span>
+  );
+}
+
+/** The reading in kana, each word in its grammar colour; particles stay plain. */
+function KanaRoles({ reading }: { reading: string }) {
+  return parseMarkup(reading).map((s, i) =>
+    s.role ? (
+      <span key={i} className={`role-${s.role}`}>
+        {s.ruby ?? s.text}
+      </span>
+    ) : (
+      <Fragment key={i}>{s.ruby ?? s.text}</Fragment>
+    ),
+  );
+}
+
+const PHRASE_LEGEND = [
+  { role: "s", label: "Who / topic" },
+  { role: "o", label: "Object" },
+  { role: "v", label: "Verb" },
+  { role: "w", label: "Other word" },
+] as const;
+
+/** The colour key for phrases: words are coloured, particles are left black. */
+export function PhraseColourKey() {
+  return (
+    <p className="flex flex-wrap gap-x-3 gap-y-1 text-xs">
+      {PHRASE_LEGEND.map((l) => (
+        <span key={l.role} className={`role-${l.role} font-medium`}>
+          ■ {l.label}
+        </span>
+      ))}
+      <span className="font-medium">
+        ■ Particle <span lang="ja">(は・を・に…)</span>
+      </span>
+    </p>
   );
 }
 

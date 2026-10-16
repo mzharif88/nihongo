@@ -8,10 +8,11 @@
 //
 // Sentences also carry grammar roles, marked ⟨s⟩…⟨/⟩ around the parts they
 // cover: s = subject/topic (before が/は), o = object (before を), v = verb
-// or copula, p = particle. The markup with roles reads:
+// or copula, p = particle, w = any other word (used where particles are
+// left plain, as in the learner's own Newcomer phrases). The markup with roles reads:
 //   "⟨s⟩[私|わたし]⟨/⟩⟨p⟩は⟨/⟩⟨o⟩りんご⟨/⟩⟨p⟩を⟨/⟩⟨v⟩[食|た]べます⟨/⟩。"
 
-export type Role = "s" | "o" | "v" | "p";
+export type Role = "s" | "o" | "v" | "p" | "w";
 
 export interface Segment {
   text: string;
@@ -23,11 +24,11 @@ export interface Segment {
 
 const KANJI = /[㐀-鿿豈-﫿々〆ヵヶ]/;
 const MARKUP = /\[([^\]|]+)\|([^\]]+)\]/g;
-const ROLE_MARK = /⟨[sovp/]⟩/g;
-const TOKEN = /⟨([sovp])⟩|⟨\/⟩|\[([^\]|]+)\|([^\]]+)\]/g;
+const ROLE_MARK = /⟨[sovpw/]⟩/g;
+const TOKEN = /⟨([sovpw])⟩|⟨\/⟩|\[([^\]|]+)\|([^\]]+)\]/g;
 
 export const hasKanji = (s: string) => KANJI.test(s);
-export const isMarkup = (s: string | null | undefined): boolean => !!s && (/\[[^\]|]+\|[^\]]+\]/.test(s) || /⟨[sovp]⟩/.test(s));
+export const isMarkup = (s: string | null | undefined): boolean => !!s && (/\[[^\]|]+\|[^\]]+\]/.test(s) || /⟨[sovpw]⟩/.test(s));
 
 /** Parse "[漢字|かんじ]" markup (and ⟨role⟩ spans) into segments. */
 export function parseMarkup(markup: string): Segment[] {

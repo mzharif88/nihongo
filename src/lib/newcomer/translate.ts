@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { isMarkup, parseMarkup, stripMarkup } from "@/lib/furigana";
+import { isMarkup, parseMarkup, stripMarkup, toMarkup, type Role, type Segment } from "@/lib/furigana";
 
 // Turning a learner's own sentence (English or Malay) into the polite
 // Japanese they'd say, with furigana and an all-kana version. Pure: the
@@ -17,6 +17,7 @@ export const Translation = z.object({
       jp: z.string(),
       reading: z.string(),
       words: z.array(z.string()),
+      parts: z.array(z.object({ text: z.string(), role: z.enum(["s", "o", "v", "w", "p"]) })),
     }),
   ),
 });
@@ -30,6 +31,7 @@ The learner is a Malaysian adult beginner. Each input line is in English or Mala
 - "jp": what a Japanese person would naturally say in that situation, in polite form (です/ます; requests with ください or お願いします). Translate what they mean, not the words: "please make me coffee" is コーヒーをお願いします or コーヒーを入れてください, not コーヒーを作ってください. Kanji where a native would write them. One or two sentences, ending with 。 or ？.
 - "reading": "jp" with every run of kanji written as [漢字|かな], for example [日本語|にほんご]を[勉強|べんきょう]しています。 Everything outside the brackets is copied exactly, so removing the readings gives back "jp" character for character. Use the reading that fits the context.
 - "words": the dictionary form of each content word in "jp" (nouns, verbs, adjectives, adverbs; not particles, です or ます), written as a dictionary writes them: 食べました → 食べる, 行きたい → 行く, 好き → 好き, コーヒー → コーヒー. Leave out names and numbers.
+- "parts": "jp" cut into its words, in order, each with its role, so the learner can see which bits are particles. Joined together the parts must give "jp" exactly, punctuation included. Roles: "s" the subject or topic (the word or phrase before は or が, without the particle), "o" the object (before を, without を), "v" a verb or です with all its endings (入れてください, 行きましょう, しました, です), "w" any other word (nouns, adjectives, adverbs, question words), "p" a particle (は, が, を, に, で, へ, と, の, も, か, ね, よ, から, まで) or punctuation. For example 私はコーヒーを飲みます。 → 私 s, は p, コーヒー o, を p, 飲みます v, 。 p.
 - "index": the line's number as given.
 
 If a line isn't a sentence someone would say (a single English word, say), still give the most useful polite phrase for it.`;
@@ -54,6 +56,36 @@ export interface CheckedPhrase {
   words: string[];
 }
 
+/**
+ * Colour the reading by the parts' roles: words get a role span, particles
+ * and punctuation stay plain. A kanji run with furigana can't be split, so it
+ * takes the role of the part it starts in. Returns the reading unchanged when
+ * the parts don't spell the sentence.
+ */
+export function withRoles(reading: string, parts: { text: string; role: Role }[] | undefined): string {
+  const segments = parseMarkup(reading);
+  const jp = segments.map((s) => s.text).join("");
+  if (!parts?.length || parts.map((p) => p.text).join("") !== jp) return reading;
+  const roleAt: (Role | undefined)[] = [];
+  for (const p of parts) roleAt.push(...[...p.text].map(() => (p.role === "p" ? undefined : p.role)));
+  const out: Segment[] = [];
+  let pos = 0;
+  for (const seg of segments) {
+    const chars = [...seg.text];
+    if (seg.ruby) out.push({ ...seg, role: roleAt[pos] });
+    else chars.forEach((c, i) => out.push({ text: c, role: roleAt[pos + i] }));
+    pos += chars.length;
+  }
+  // Merge neighbouring plain characters with the same role back into one run.
+  const merged: Segment[] = [];
+  for (const seg of out) {
+    const last = merged[merged.length - 1];
+    if (last && !last.ruby && !seg.ruby && last.role === seg.role) last.text += seg.text;
+    else merged.push({ ...seg });
+  }
+  return toMarkup(merged.map((s) => (s.role ? s : { text: s.text, ...(s.ruby ? { ruby: s.ruby } : {}) })));
+}
+
 /** Keep translations that are well formed: furigana spell the sentence, the kana version has no kanji left. */
 export function acceptTranslations(lines: string[], out: Translation): { kept: CheckedPhrase[]; failed: string[] } {
   const kept: CheckedPhrase[] = [];
@@ -67,7 +99,7 @@ export function acceptTranslations(lines: string[], out: Translation): { kept: C
     const ok = jp && (!/[㐀-鿿]/.test(jp) || isMarkup(reading)) && stripMarkup(reading) === jp && !/[㐀-鿿A-Za-z]/.test(kana) && p.meaning.trim();
     if (!ok) continue;
     done.add(p.index);
-    kept.push({ source, source_lang: p.lang, meaning: p.meaning.trim(), jp, reading, kana, words: cleanWords(p.words) });
+    kept.push({ source, source_lang: p.lang, meaning: p.meaning.trim(), jp, reading: withRoles(reading, p.parts), kana, words: cleanWords(p.words) });
   }
   return { kept, failed: lines.filter((_, i) => !done.has(i)) };
 }

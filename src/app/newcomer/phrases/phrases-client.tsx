@@ -5,7 +5,7 @@ import { mastery, PRIORITIES, type Priority } from "@/lib/newcomer/recall";
 import type { PhraseRow } from "@/lib/newcomer/newcomer.server";
 import type { Spend } from "@/lib/newcomer/translate.server";
 import { deletePhrase, editPhrase, restorePhrase, savePhrases, setPriority, translatePreview } from "../actions";
-import { Japanese, MasteryBar, PlayButton, ScriptToggle } from "../ui";
+import { Japanese, MasteryBar, PhraseColourKey, PlayButton, ScriptToggle } from "../ui";
 
 const ORDER: Record<Priority, number> = { priority: 0, normal: 1, less: 2, paused: 3 };
 const SEARCH_FROM = 8;
@@ -68,6 +68,9 @@ export function PhrasesClient({ initial, canTranslate, spend: initialSpend }: { 
       <div className="flex items-center justify-between">
         <h1 className="text-2xl font-bold">My phrases</h1>
         <ScriptToggle />
+      </div>
+      <div className="mt-2">
+        <PhraseColourKey />
       </div>
 
       <section className="mt-4 rounded-xl border border-border bg-card p-4">

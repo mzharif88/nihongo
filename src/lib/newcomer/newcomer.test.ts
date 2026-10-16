@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 import { STARTER } from "./starter";
 import { openStage } from "./newcomer.server";
 import { dueCount, grade, mastery, nightRecallOpen, nightRecallStart, overallMastery, recallQueue, type RecallPhrase } from "./recall";
-import { acceptTranslations, kanaOf, splitLines } from "./translate";
+import { acceptTranslations, kanaOf, splitLines, withRoles } from "./translate";
 import { nextScene, SCENES, sceneOpen, type Scene } from "./listening";
 
 const NOW = new Date("2026-10-16T12:00:00Z");
@@ -96,10 +96,10 @@ describe("translations", () => {
     const lines = ["I like coffee.", "Saya nak balik.", "broken"];
     const { kept, failed } = acceptTranslations(lines, {
       phrases: [
-        { index: 0, lang: "en", meaning: "I like coffee.", jp: "コーヒーが好きです。", reading: "コーヒーが[好|す]きです。", words: ["コーヒー", " 好き ", "coffee", "好き"] },
-        { index: 1, lang: "ms", meaning: "Saya nak balik.", jp: "帰ります。", reading: "[帰|かえ]ります。", words: ["帰る"] },
+        { index: 0, lang: "en", meaning: "I like coffee.", jp: "コーヒーが好きです。", reading: "コーヒーが[好|す]きです。", words: ["コーヒー", " 好き ", "coffee", "好き"], parts: [] },
+        { index: 1, lang: "ms", meaning: "Saya nak balik.", jp: "帰ります。", reading: "[帰|かえ]ります。", words: ["帰る"], parts: [] },
         // The reading doesn't spell the sentence: dropped.
-        { index: 2, lang: "en", meaning: "Broken.", jp: "壊れました。", reading: "[壊|こわ]れます。", words: [] },
+        { index: 2, lang: "en", meaning: "Broken.", jp: "壊れました。", reading: "[壊|こわ]れます。", words: [], parts: [] },
       ],
     });
     expect(kept.map((k) => k.kana)).toEqual(["コーヒーがすきです。", "かえります。"]);
@@ -107,6 +107,20 @@ describe("translations", () => {
     // Words are kept Japanese-only and unique, for matching the word list.
     expect(kept[0].words).toEqual(["コーヒー", "好き"]);
     expect(failed).toEqual(["broken"]);
+  });
+
+  it("colours words by role and leaves particles plain", () => {
+    const parts = [
+      { text: "私", role: "s" },
+      { text: "は", role: "p" },
+      { text: "コーヒー", role: "o" },
+      { text: "を", role: "p" },
+      { text: "入れてください", role: "v" },
+      { text: "。", role: "p" },
+    ] as const;
+    expect(withRoles("[私|わたし]はコーヒーを[入|い]れてください。", [...parts])).toBe("⟨s⟩[私|わたし]⟨/⟩は⟨o⟩コーヒー⟨/⟩を⟨v⟩[入|い]れてください⟨/⟩。");
+    // Parts that don't spell the sentence: no colours, reading kept.
+    expect(withRoles("[川|かわ]に[行|い]きましょう。", [{ text: "川に", role: "w" }])).toBe("[川|かわ]に[行|い]きましょう。");
   });
 
   it("splits a box into lines", () => {
