@@ -35,8 +35,23 @@ export interface Content {
   topics: Set<string>;
   /** Full-length mock sources (content/mock/*-full-*.source.json). */
   fullMocks: { file: string; level: string; questions: { section: string; part: string }[] }[];
+  /** Newcomer speaking content: starter phrases and listening-scene lines (content/newcomer). */
+  newcomer?: NewcomerLine[];
+  /** Newcomer listening scenes' gist questions. */
+  newcomerQuestions?: { file: string; slug: string; options: number; answer: number }[];
   /** Findings accepted by hand: rule → slug → reason (content/audit/allow.json). */
   allow?: Record<string, Record<string, string>>;
+}
+
+export interface NewcomerLine {
+  file: string;
+  /** The phrase's slug, or the scene's slug with the line number ("konbini-2#3"). */
+  slug: string;
+  jp: string;
+  reading: string;
+  /** Starter phrase stage (1–7), or listening scene level (1–4). */
+  grade: number;
+  kind: "phrase" | "scene";
 }
 
 export interface Rule {
@@ -88,6 +103,7 @@ function sentences(c: Content): { file: string; slug: string; level: string; tex
       for (const d of (r.dialogue as { jp?: string; reading?: string }[] | undefined) ?? []) if (d?.jp) out.push({ file: p.file, slug: r.slug, level, text: d.jp, reading: d.reading });
     }
   }
+  for (const l of c.newcomer ?? []) out.push({ file: l.file, slug: l.slug, level: "", text: l.jp, reading: l.reading });
   return out;
 }
 
@@ -102,6 +118,22 @@ const PASSAGE_TOLERANCE = 0.25;
 
 /** The longest sentence a beginner at each level should meet (characters, without furigana). */
 export const SENTENCE_LIMIT: Record<string, number> = { preN5: 25, N5: 30, N4: 40, N3: 55, N2: 70 };
+
+/** Newcomer line length limits (characters): starter stages 1–3 are short chunks; scenes by level. */
+const NEWCOMER_LIMIT = { phrase: (stage: number) => (stage <= 3 ? 16 : 35), scene: (level: number) => [0, 14, 20, 28, 35][level] ?? 35 };
+
+/** A sentence ending in polite form (です/ます and their past, negative and request forms), optionally with a particle. */
+const POLITE_END = /(です|ます|ました|ません|ませんでした|でした|ましょう|ましょうか|ください|ございます|でしょう|いたします|おります)(か|ね|よ|よね|けど|が|から|ので)?$/;
+/**
+ * Set phrases that are polite as they are, though they don't end in です/ます.
+ * Also a request ending in どうぞ, a name called (〜さん) and a polite
+ * question fragment (お名前は？).
+ */
+const POLITE_SET = new Set(["おはようございます", "こんにちは", "こんばんは", "すみません", "いただきます", "はじめまして", "いらっしゃいませ", "こちらこそ", "どういたしまして", "ただいま", "おやすみなさい", "はい", "いいえ", "ええ", "あ"]);
+const politeSentence = (s: string) => {
+  const last = s.split("、").pop() ?? s;
+  return POLITE_END.test(s) || POLITE_SET.has(s) || POLITE_SET.has(last) || /どうぞ$/.test(s) || /さん$/.test(last) || /は$/.test(s);
+};
 
 export const RULES: Rule[] = [
   // ── Words ──────────────────────────────────────────────────────────
@@ -399,6 +431,42 @@ export const RULES: Rule[] = [
           ? [{ rule: "lesson-grammar-level", file, slug: r.slug, message: `${r.jlpt_level} lesson teaches ${g.jlpt_level} ${g.term}` }]
           : [];
       }),
+  },
+
+  // ── Newcomer (speaking) ────────────────────────────────────────────
+  {
+    id: "newcomer-polite",
+    severity: "warning",
+    title: "Newcomer phrases and scenes use polite form only",
+    why: "The learner copies what they hear; every sentence should be safe to say to anyone (です/ます, or a polite set phrase).",
+    check: (c) =>
+      (c.newcomer ?? []).flatMap((l) =>
+        l.jp
+          .split(/(?<=[。？！])/)
+          .map((s) => s.replace(/[。？！、]+$/, "").trim())
+          .filter((s) => s && !politeSentence(s))
+          .map((s) => ({ rule: "newcomer-polite", file: l.file, slug: l.slug, message: s })),
+      ),
+  },
+  {
+    id: "newcomer-length",
+    severity: "warning",
+    title: "Newcomer lines suit their stage or level",
+    why: "Early stages are short chunks a beginner can say in one breath: 16 characters up to stage 3, then 35; scenes 14, 20, 28 and 35 by level.",
+    check: (c) =>
+      (c.newcomer ?? [])
+        .filter((l) => plainLength(l.jp) > NEWCOMER_LIMIT[l.kind](l.grade))
+        .map((l) => ({ rule: "newcomer-length", file: l.file, slug: l.slug, message: `${l.kind} ${l.grade}, ${plainLength(l.jp)} characters: ${l.jp}` })),
+  },
+  {
+    id: "newcomer-question",
+    severity: "error",
+    title: "Listening scenes have a valid gist question",
+    why: "Three options with the answer among them, or the learner can't get it right.",
+    check: (c) =>
+      (c.newcomerQuestions ?? [])
+        .filter((q) => q.options !== 3 || q.answer < 0 || q.answer >= q.options)
+        .map((q) => ({ rule: "newcomer-question", file: q.file, slug: q.slug, message: `${q.options} options, answer ${q.answer}` })),
   },
 ];
 

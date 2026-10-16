@@ -159,3 +159,13 @@ export async function recordListen(input: { slug: string; gistCorrect?: boolean 
   });
   if (error) throw new Error(error.message);
 }
+
+/** Log a playlist play for Night Recall (at most one per 10 minutes). */
+export async function recordPlay() {
+  const { supabase } = await requireUser();
+  const since = new Date(Date.now() - 10 * 60_000).toISOString();
+  const { count } = await supabase.from("newcomer_plays").select("id", { count: "exact", head: true }).eq("source", "app").gte("played_at", since);
+  if (count) return;
+  const { error } = await supabase.from("newcomer_plays").insert({ source: "app" });
+  if (error) throw new Error(error.message);
+}

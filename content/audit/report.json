@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-16T01:09:28.902Z",
+ "generatedAt": "2026-10-16T06:39:38.531Z",
  "totals": {
   "error": 0,
   "warning": 0,
@@ -322,6 +322,30 @@
    "severity": "warning",
    "title": "A lesson's grammar point isn't above the lesson's level",
    "why": "Beginners shouldn't meet a harder level's grammar as the point of a lesson.",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "id": "newcomer-polite",
+   "severity": "warning",
+   "title": "Newcomer phrases and scenes use polite form only",
+   "why": "The learner copies what they hear; every sentence should be safe to say to anyone (です/ます, or a polite set phrase).",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "id": "newcomer-length",
+   "severity": "warning",
+   "title": "Newcomer lines suit their stage or level",
+   "why": "Early stages are short chunks a beginner can say in one breath: 16 characters up to stage 3, then 35; scenes 14, 20, 28 and 35 by level.",
+   "count": 0,
+   "samples": []
+  },
+  {
+   "id": "newcomer-question",
+   "severity": "error",
+   "title": "Listening scenes have a valid gist question",
+   "why": "Three options with the answer among them, or the learner can't get it right.",
    "count": 0,
    "samples": []
   }

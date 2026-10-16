@@ -30,6 +30,19 @@ describe("audit rules", () => {
     expect(run(content({ items }), "word-reading").map((f) => f.slug)).toEqual(["b"]);
   });
 
+  it("keeps Newcomer lines in polite form", () => {
+    const line = (slug: string, jp: string) => ({ file: "newcomer/listening.json", slug, jp, reading: jp, grade: 1, kind: "scene" as const });
+    const newcomer = [
+      line("ok", "お先に失礼します。"),
+      line("set", "おはようございます。"),
+      line("ask", "お名前は？"),
+      line("offer", "お茶をどうぞ。"),
+      line("casual", "また明日。"),
+      line("te", "はい、おなかを壊してしまって。"),
+    ];
+    expect(run(content({ newcomer }), "newcomer-polite").map((f) => f.slug)).toEqual(["casual", "te"]);
+  });
+
   it("catches a question whose answer key is out of range or whose options repeat", () => {
     const packs = [{ file: "q.json", kind: "questions", records: [
       { slug: "ok", options: ["あ", "い", "う"], answer: 2 },

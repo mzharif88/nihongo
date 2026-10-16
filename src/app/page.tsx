@@ -358,16 +358,17 @@ async function loadNightRecall(supabase: Supabase, timeZone: string) {
   const now = new Date();
   if (!nightRecallOpen(now, timeZone)) return null;
   const since = nightRecallStart(now, timeZone).toISOString();
-  const [mine, { count: starterTonight }] = await Promise.all([
+  const [mine, { count: starterTonight }, { count: playsTonight }] = await Promise.all([
     loadMyPhrases(supabase),
     supabase.from("newcomer_progress").select("phrase_slug", { count: "exact", head: true }).gte("last_reviewed_at", since),
+    supabase.from("newcomer_plays").select("id", { count: "exact", head: true }).gte("played_at", since),
   ]);
   const recall = mine.map(mineAsRecall);
   const mineTonight = mine.filter((p) => p.last_reviewed_at && p.last_reviewed_at >= since).length;
-  return { phrases: mine.length, due: dueCount(recall, now), mineTonight, starterTonight: starterTonight ?? 0 };
+  return { phrases: mine.length, due: dueCount(recall, now), mineTonight, starterTonight: starterTonight ?? 0, played: (playsTonight ?? 0) > 0 };
 }
 
-function NightRecall({ phrases, due, mineTonight, starterTonight }: { phrases: number; due: number; mineTonight: number; starterTonight: number }) {
+function NightRecall({ phrases, due, mineTonight, starterTonight, played }: { phrases: number; due: number; mineTonight: number; starterTonight: number; played: boolean }) {
   const items = [
     {
       done: phrases > 0 && due === 0 && mineTonight > 0,
@@ -375,9 +376,9 @@ function NightRecall({ phrases, due, mineTonight, starterTonight }: { phrases: n
       href: phrases === 0 ? "/newcomer/phrases" : "/newcomer/recall",
     },
     { done: starterTonight > 0, label: "Recall one starter topic", href: "/newcomer" },
-    { done: false, label: "Play your playlist before sleep", href: "/newcomer/playlist" },
+    { done: played, label: "Play your playlist before sleep (app or Siri Shortcut)", href: "/newcomer/playlist" },
   ];
-  const finished = items.slice(0, 2).every((i) => i.done);
+  const finished = items.every((i) => i.done);
   return (
     <section className="mt-4 rounded-xl bg-indigo-700 p-4 text-white">
       <div className="flex items-baseline justify-between">

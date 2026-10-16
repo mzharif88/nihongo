@@ -8,7 +8,7 @@
  */
 import { existsSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
-import { regressions, runAudit, type Content, type Pack, type Rec } from "../src/lib/audit/engine";
+import { regressions, runAudit, type Content, type NewcomerLine, type Pack, type Rec } from "../src/lib/audit/engine";
 
 const ROOT = join(process.cwd(), "content");
 const PACK_DIRS = ["legacy", "opendata", "grammar", "radicals", "lessons", "builder", "mock", "reading", "listening"];
@@ -36,7 +36,27 @@ export function loadContent(): Content {
     });
   const allowFile = join(ROOT, "audit", "allow.json");
   const allow = existsSync(allowFile) ? JSON.parse(readFileSync(allowFile, "utf8")).allow : {};
-  return { packs, items, topics, fullMocks, allow };
+  const { newcomer, newcomerQuestions } = loadNewcomer();
+  return { packs, items, topics, fullMocks, allow, newcomer, newcomerQuestions };
+}
+
+/** Newcomer starter phrases and listening scenes, as built (with furigana). */
+function loadNewcomer(): Pick<Content, "newcomer" | "newcomerQuestions"> {
+  const newcomer: NewcomerLine[] = [];
+  const newcomerQuestions: NonNullable<Content["newcomerQuestions"]> = [];
+  const starter = join(ROOT, "newcomer", "starter.json");
+  if (existsSync(starter)) {
+    for (const t of JSON.parse(readFileSync(starter, "utf8")).topics as { phrases: { slug: string; stage: number; jp: string; reading: string }[] }[])
+      for (const p of t.phrases) newcomer.push({ file: "newcomer/starter.json", slug: p.slug, jp: p.jp, reading: p.reading, grade: p.stage, kind: "phrase" });
+  }
+  const listening = join(ROOT, "newcomer", "listening.json");
+  if (existsSync(listening)) {
+    for (const s of JSON.parse(readFileSync(listening, "utf8")).scenes as { slug: string; level: number; lines: { jp: string; reading: string }[]; question: { options: unknown[]; answer: number } }[]) {
+      s.lines.forEach((l, i) => newcomer.push({ file: "newcomer/listening.json", slug: `${s.slug}#${i}`, jp: l.jp, reading: l.reading, grade: s.level, kind: "scene" }));
+      newcomerQuestions.push({ file: "newcomer/listening.json", slug: s.slug, options: s.question.options.length, answer: s.question.answer });
+    }
+  }
+  return { newcomer, newcomerQuestions };
 }
 
 export const loadBaseline = (): Record<string, number> => (existsSync(BASELINE_FILE) ? JSON.parse(readFileSync(BASELINE_FILE, "utf8")).warnings : {});

@@ -15,6 +15,7 @@ import {
   stopSpeaking,
   voicesFor,
 } from "@/lib/newcomer/voice";
+import { recordPlay } from "../actions";
 import { Japanese, MeaningToggle, ScriptToggle, useMeaningLang } from "../ui";
 
 export interface Track {
@@ -46,6 +47,7 @@ export function PlaylistClient({ title, tracks, starter }: { title: string; trac
   const [settings, setSettings] = useState(false);
   const [meaningLang] = useMeaningLang();
   const run = useRef(0);
+  const logged = useRef(false);
   const release = useRef<(() => void) | null>(null);
   const prefs = useRef({ gap, sayMeaning, meaningLang });
   useEffect(() => {
@@ -108,6 +110,11 @@ export function PlaylistClient({ title, tracks, starter }: { title: string; trac
         await say(ms ? t.meaningMs! : t.meaning, ms ? "ms" : (t.lang ?? "en"), voices);
       }
       if (!alive()) return;
+      // One full phrase heard and shadowed counts as playing tonight (Night Recall).
+      if (!logged.current) {
+        logged.current = true;
+        void recordPlay().catch(() => (logged.current = false));
+      }
       await wait(1200);
     }
   }
