@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-16T07:21:56.773Z",
+ "generatedAt": "2026-10-16T10:07:15.163Z",
  "totals": {
   "error": 0,
   "warning": 0,
@@ -264,7 +264,7 @@
   {
    "id": "question-option-count",
    "severity": "warning",
-   "title": "Options per question match the JLPT: 4, or 3 for 即時応答",
+   "title": "Options per question match the JLPT: 4, or 3 for 即時応答 and 発話表現",
    "why": "The exam's format is part of what's being practised.",
    "count": 0,
    "samples": []

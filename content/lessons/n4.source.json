@@ -141,6 +141,231 @@
         { "prompt": "Where is the museum?", "options": ["Before the bridge, on the right", "Over the bridge, on the left", "At the traffic light", "Next to the station"], "answer": 1, "explanation": "「橋を渡ったら、左に大きい建物があります」." }
       ],
       "notes": "〜たら = when / once / if: take the た-form and add ら. 曲がったら (once you turn), わからなかったら (if you don't know).\n\n〜てしまう here shows something unwanted happened: 道に迷ってしまいました = I (ended up) lost.\n\nDirections: まっすぐ行く (go straight), 右/左に曲がる (turn right/left), 〜を渡る (cross), 二つ目の (the second)."
+    },
+    {
+      "slug": "lesson-n4-07-wasuremono", "jlpt_level": "N4", "position": 7,
+      "title": "忘れ物 — A lost wallet",
+      "situation": "You left your wallet on the train and ask a station attendant for help.",
+      "item_slugs": ["財布", "忘れる", "電車", "調べる", "見つかる", "困る", "無くす", "次"],
+      "grammar_slug": "grammar-n4-te-shimau",
+      "dialogue": [
+        { "speaker": "あなた", "jp": "すみません、電車の中に財布を忘れてしまいました。", "en": "Excuse me, I've left my wallet on the train." },
+        { "speaker": "駅員", "jp": "どの電車ですか。何時ごろ乗りましたか。", "en": "Which train? About what time did you get on?" },
+        { "speaker": "あなた", "jp": "八時[十分|じゅっぷん]の電車です。一番前に乗っていました。", "en": "The 8:10 train. I was in the very front car." },
+        { "speaker": "駅員", "jp": "どんな財布ですか。", "en": "What kind of wallet is it?" },
+        { "speaker": "あなた", "jp": "黒くて小さい財布です。お金とカードが入っています。", "en": "A small black one. It has money and cards in it." },
+        { "speaker": "駅員", "jp": "ちょっと待ってください。今、調べます。", "en": "One moment, please. I'll check now." },
+        { "speaker": "駅員", "jp": "ありました。次の駅で見つかりましたよ。", "en": "Here it is. It was found at the next station." },
+        { "speaker": "あなた", "jp": "よかった！先週もかさを無くしてしまったんです。", "en": "Thank goodness! I lost my umbrella last week, too." },
+        { "speaker": "駅員", "jp": "次の駅の事務所まで取りに行ってください。", "en": "Please go and collect it at the office at the next station." },
+        { "speaker": "あなた", "jp": "はい、すぐ行きます。本当に困っていました。", "en": "OK, I'll go right away. I was really worried." }
+      ],
+      "checks": [
+        { "prompt": "What does 財布を忘れてしまいました tell you?", "options": ["I want to forget my wallet", "I will leave my wallet here", "I (regrettably) left my wallet behind", "I must not forget my wallet"], "answer": 2, "explanation": "〜てしまいました shows something unfortunate has happened, often with a feeling of regret: I've gone and left my wallet." },
+        { "prompt": "Fill in the blank: 電車にかさを忘れて（　）。", "options": ["おきました", "しまいました", "みました", "あげました"], "answer": 1, "explanation": "忘れてしまいました = I (accidentally) left it. 〜ておきました would mean you left it there on purpose." },
+        { "prompt": "Where is the wallet now?", "options": ["At the next station", "Still on the train", "At the police box", "At your home"], "answer": 0, "explanation": "「次の駅で見つかりましたよ」 = it was found at the next station." }
+      ],
+      "notes": "〜てしまう (て-form + しまう) has two uses. Most often it shows that something unfortunate happened, with a feeling of regret: 財布を忘れてしまいました = I've (stupidly) left my wallet behind; かさを無くしてしまいました = I've lost my umbrella. It can also mean \"finish completely\": 宿題をしてしまいました = I've finished all my homework.\n\nPast polite: 〜てしまいました. Plain: 〜てしまった.\n\nCulture: Japan is famous for returning lost property. Station staff keep a record of 忘れ物 (lost items), and wallets are very often handed in with the money still inside. Ask at the station office or at a 交番 (police box)."
+    },
+    {
+      "slug": "lesson-n4-08-sharehouse", "jlpt_level": "N4", "position": 8,
+      "title": "シェアハウスの規則 — Share house rules",
+      "situation": "You move into a share house and the manager explains what you mustn't do.",
+      "item_slugs": ["規則", "音", "台所", "掃除", "ゴミ", "泊まる", "夜", "呼ぶ", "出す"],
+      "grammar_slug": "grammar-n4-te-wa-ikenai",
+      "dialogue": [
+        { "speaker": "管理人", "jp": "今日からここがザリフさんの部屋です。", "en": "From today this is your room, Zarif." },
+        { "speaker": "あなた", "jp": "ありがとうございます。何か規則はありますか。", "en": "Thank you. Are there any rules?" },
+        { "speaker": "管理人", "jp": "夜十時からは、大きい音を出してはいけません。", "en": "From ten at night, you mustn't make loud noise." },
+        { "speaker": "あなた", "jp": "わかりました。台所は夜も使ってもいいですか。", "en": "Understood. May I use the kitchen at night, too?" },
+        { "speaker": "管理人", "jp": "十一時までです。使った後は、きれいに掃除してください。", "en": "Until eleven. Please clean it well after you use it." },
+        { "speaker": "あなた", "jp": "友達を部屋に呼んでもいいですか。", "en": "May I invite friends to my room?" },
+        { "speaker": "管理人", "jp": "昼はいいですが、泊まってはいけません。", "en": "During the day is fine, but they mustn't stay overnight." },
+        { "speaker": "あなた", "jp": "ゴミはいつ出しますか。", "en": "When do I put the rubbish out?" },
+        { "speaker": "管理人", "jp": "もえるゴミは月曜日と木曜日です。ほかの日に出してはいけませんよ。", "en": "Burnable rubbish is Mondays and Thursdays. Don't put it out on other days." },
+        { "speaker": "あなた", "jp": "はい、気をつけます。", "en": "OK, I'll be careful." }
+      ],
+      "checks": [
+        { "prompt": "What does 泊まってはいけません mean?", "options": ["You may stay overnight", "You must stay overnight", "You'd better stay overnight", "You mustn't stay overnight"], "answer": 3, "explanation": "て-form + はいけません = must not / not allowed. Compare 泊まってもいいです = you may stay." },
+        { "prompt": "Fill in the blank: 夜は大きい音を出して（　）。", "options": ["はいけません", "もいいです", "ください", "みます"], "answer": 0, "explanation": "出してはいけません = you mustn't make (loud) noise." },
+        { "prompt": "Until what time can you use the kitchen?", "options": ["Ten o'clock", "Eleven o'clock", "Midnight", "Any time"], "answer": 1, "explanation": "「十一時までです」 = until eleven." }
+      ],
+      "notes": "て-form + はいけません = must not / not allowed. 音を出してはいけません = you mustn't make noise; 泊まってはいけません = (guests) mustn't stay the night. In casual speech you'll hear 〜ちゃだめ: 出しちゃだめ.\n\nTo ask permission, use て-form + もいいですか: 使ってもいいですか = may I use it? The answer is either はい、いいですよ or いいえ、〜てはいけません.\n\nCulture: rubbish rules are strict in Japan. Each area has set days for もえるゴミ (burnable rubbish), plastics, cans and bottles. Putting it out on the wrong day is one of the quickest ways to upset the neighbours."
+    },
+    {
+      "slug": "lesson-n4-09-omiyage", "jlpt_level": "N4", "position": 9,
+      "title": "旅行の写真 — Holiday photos",
+      "situation": "Back at work after a trip to Hokkaido, you show a colleague your photos.",
+      "item_slugs": ["写真", "景色", "雪", "寒い", "魚", "お土産", "お菓子", "甘い"],
+      "grammar_slug": "grammar-n4-sou",
+      "dialogue": [
+        { "speaker": "鈴木", "jp": "ザリフさん、休みはどうでしたか。", "en": "Zarif, how was your holiday?" },
+        { "speaker": "あなた", "jp": "北海道へ行ってきました。写真を見ますか。", "en": "I went to Hokkaido. Would you like to see the photos?" },
+        { "speaker": "鈴木", "jp": "ぜひ。わあ、きれいな景色！でも、寒そうですね。", "en": "Please! Wow, what lovely scenery. It looks cold, though." },
+        { "speaker": "あなた", "jp": "はい、雪がたくさん降っていて、とても寒かったです。", "en": "Yes, it was snowing a lot, and it was very cold." },
+        { "speaker": "鈴木", "jp": "この魚の料理、おいしそうですね。", "en": "This fish dish looks delicious." },
+        { "speaker": "あなた", "jp": "とてもおいしかったです。毎日魚を食べました。", "en": "It was really good. I ate fish every day." },
+        { "speaker": "鈴木", "jp": "楽しそうですね。私も[行|い]ってみたいです。", "en": "It looks like fun. I'd like to go too." },
+        { "speaker": "あなた", "jp": "これ、北海道のお土産です。みなさんでどうぞ。", "en": "Here's a souvenir from Hokkaido. For everyone." },
+        { "speaker": "鈴木", "jp": "ありがとうございます。このお菓子、甘そうですね。", "en": "Thank you. These sweets look sweet!" },
+        { "speaker": "あなた", "jp": "はい、甘くておいしいですよ。", "en": "Yes, they're sweet and tasty." }
+      ],
+      "checks": [
+        { "prompt": "What does 寒そうですね mean?", "options": ["I heard it's cold", "It looks cold", "It's too cold", "It might get cold"], "answer": 1, "explanation": "Adjective stem + そう = looks…: 寒い → 寒そう = it looks cold (judging by the photo)." },
+        { "prompt": "Fill in the blank: このケーキ、おいし（　）ですね。", "options": ["いそう", "くそう", "かった", "そう"], "answer": 3, "explanation": "Drop the い of an い-adjective, then add そう: おいしい → おいしそう." },
+        { "prompt": "What did Zarif bring for the office?", "options": ["Photos", "Fish", "Sweets", "Snow"], "answer": 2, "explanation": "「北海道のお土産です」, and Suzuki says 「このお菓子、甘そうですね」." }
+      ],
+      "notes": "〜そう = looks… (what you can see, not what you've been told). い-adjectives drop い: 寒い → 寒そう, おいしい → おいしそう, 楽しい → 楽しそう. な-adjectives just add そう: 元気 → 元気そう. Two irregular ones: いい → よさそう, ない → なさそう.\n\nBefore a noun, use そうな: おいしそうな魚 = a delicious-looking fish.\n\nCulture: after a trip, people in Japan bring お土産 (usually individually wrapped sweets from the place they visited) to share with everyone at work. Say みなさんでどうぞ (please share them, everyone) when you hand them over."
+    },
+    {
+      "slug": "lesson-n4-10-tenki", "jlpt_level": "N4", "position": 10,
+      "title": "天気予報 — The weather forecast",
+      "situation": "You and a friend planned a day in the mountains, but a typhoon may be coming.",
+      "item_slugs": ["天気予報", "台風", "降る", "晴れる", "危ない", "山", "傘", "大丈夫"],
+      "grammar_slug": "grammar-n4-kamoshirenai",
+      "dialogue": [
+        { "speaker": "佐藤", "jp": "土曜日、山へ行くのは大丈夫でしょうか。", "en": "Do you think Saturday's trip to the mountains is OK?" },
+        { "speaker": "あなた", "jp": "天気予報を見ましたが、雨が降るかもしれません。", "en": "I checked the forecast, and it might rain." },
+        { "speaker": "佐藤", "jp": "えっ、そうですか。", "en": "Oh, really?" },
+        { "speaker": "あなた", "jp": "午後から台風が来るかもしれないと言っていました。", "en": "It said a typhoon might arrive from the afternoon." },
+        { "speaker": "佐藤", "jp": "それは危ないですね。", "en": "That's dangerous." },
+        { "speaker": "あなた", "jp": "でも、日曜日は晴れると言っていましたよ。", "en": "But it said Sunday would be sunny." },
+        { "speaker": "佐藤", "jp": "じゃあ、日曜日にしましょうか。", "en": "Then shall we make it Sunday?" },
+        { "speaker": "あなた", "jp": "そうですね。でも、山は寒いかもしれませんよ。", "en": "Good idea. But it might be cold in the mountains." },
+        { "speaker": "佐藤", "jp": "じゃあ、暖かい服と傘を持って行きましょう。", "en": "Then let's take warm clothes and an umbrella." },
+        { "speaker": "あなた", "jp": "はい。日曜日の朝、八時に駅で会いましょう。", "en": "OK. Let's meet at the station at eight on Sunday morning." }
+      ],
+      "checks": [
+        { "prompt": "Fill in the blank: 明日は雪が降る（　）。", "options": ["かもしれません", "ほうがいいです", "つもりです", "てしまいます"], "answer": 0, "explanation": "Plain form + かもしれません = might: 降るかもしれません = it might snow." },
+        { "prompt": "What does 寒いかもしれません mean?", "options": ["It's definitely cold", "It looks cold", "It might be cold", "It was cold"], "answer": 2, "explanation": "かもしれません shows a possibility, not a certainty: it might be cold." },
+        { "prompt": "Why do they change the day?", "options": ["Zarif has work on Saturday", "A typhoon might come on Saturday", "The station is closed", "Sato is ill"], "answer": 1, "explanation": "「午後から台風が来るかもしれない」, and Sunday will be sunny." }
+      ],
+      "notes": "Plain form + かもしれません = might / maybe. Verbs: 降るかもしれません (it might rain), 来ないかもしれません (they might not come). い-adjectives: 寒いかもしれません. Nouns and な-adjectives drop だ: 雨かもしれません, 大丈夫かもしれません.\n\nIn casual speech, drop ません: 雨が降るかもしれない. And 〜と言っていました reports what someone (or the forecast) said: 晴れると言っていました.\n\nCulture: typhoon season runs from about August to October. Trains often stop when a big typhoon arrives, so people check the 天気予報 and change their plans early."
+    },
+    {
+      "slug": "lesson-n4-11-mensetsu", "jlpt_level": "N4", "position": 11,
+      "title": "アルバイトのめんせつ — A part-time job interview",
+      "situation": "You have an interview for a part-time job at a restaurant.",
+      "item_slugs": ["アルバイト", "経験", "会話", "簡単", "働く", "料理", "起きる", "始める"],
+      "grammar_slug": "grammar-n4-potential",
+      "dialogue": [
+        { "speaker": "店長", "jp": "どうぞ、座ってください。", "en": "Please, have a seat." },
+        { "speaker": "あなた", "jp": "ザリフです。マレーシアから来ました。よろしくお願いします。", "en": "I'm Zarif, from Malaysia. Pleased to meet you." },
+        { "speaker": "店長", "jp": "日本語はどのぐらい話せますか。", "en": "How much Japanese can you speak?" },
+        { "speaker": "あなた", "jp": "簡単な会話はできます。漢字も少し読めます。", "en": "I can manage simple conversations. I can read a little kanji, too." },
+        { "speaker": "店長", "jp": "レストランで働いた経験はありますか。", "en": "Do you have experience working in a restaurant?" },
+        { "speaker": "あなた", "jp": "はい。国で一年アルバイトをしました。料理も作れます。", "en": "Yes. I had a part-time job for a year back home. I can cook, too." },
+        { "speaker": "店長", "jp": "いいですね。週に何日来られますか。", "en": "Great. How many days a week can you come?" },
+        { "speaker": "あなた", "jp": "三日来られます。土曜日と日曜日も働けます。", "en": "I can come three days. I can work Saturdays and Sundays, too." },
+        { "speaker": "店長", "jp": "朝は七時から始められますか。", "en": "Can you start at seven in the morning?" },
+        { "speaker": "あなた", "jp": "はい、大丈夫です。早く起きられます。", "en": "Yes, that's fine. I can get up early." }
+      ],
+      "checks": [
+        { "prompt": "What does 料理も作れます mean?", "options": ["I can cook, too", "I cooked, too", "I want to cook, too", "I have to cook, too"], "answer": 0, "explanation": "作れる is the potential form of 作る (u → e + る): 作れます = I can make (food)." },
+        { "prompt": "How many days a week can Zarif come?", "options": ["Two", "Three", "Five", "Every day"], "answer": 1, "explanation": "「三日来られます」 = I can come three days." },
+        { "prompt": "Fill in the blank: 朝早く起き（　）。", "options": ["れます", "ります", "られます", "けます"], "answer": 2, "explanation": "る-verbs drop る and add られる: 起きる → 起きられる, 始める → 始められる." }
+      ],
+      "notes": "The potential form says what you can do. う-verbs: final u → e + る (話す → 話せる, 読む → 読める, 働く → 働ける, 作る → 作れる). る-verbs: drop る, add られる (起きる → 起きられる, 始める → 始められる). Irregular: する → できる, 来る → 来られる.\n\nThe object usually takes が or を: 日本語が話せます / 日本語を話せます. Potential verbs conjugate like る-verbs: 話せます, 話せません.\n\nCulture: in a Japanese interview, wait to be asked before you sit, and say よろしくお願いします at the start and end. Bring a りれきしょ (a CV on a standard form); many shops still ask for one with a photo."
+    },
+    {
+      "slug": "lesson-n4-12-denwa", "jlpt_level": "N4", "position": 12,
+      "title": "クリニックに電話 — Phoning a clinic",
+      "situation": "You feel unwell and phone a clinic to make an appointment.",
+      "item_slugs": ["予約", "熱", "込む", "初めて", "上手", "昨日", "午後", "電話"],
+      "grammar_slug": "grammar-n4-node",
+      "dialogue": [
+        { "speaker": "受付", "jp": "はい、さくらクリニックです。", "en": "Hello, Sakura Clinic." },
+        { "speaker": "あなた", "jp": "もしもし、予約をお願いしたいんですが。", "en": "Hello, I'd like to make an appointment, please." },
+        { "speaker": "受付", "jp": "どうしましたか。", "en": "What's the matter?" },
+        { "speaker": "あなた", "jp": "昨日から熱があるので、今日見てもらえませんか。", "en": "I've had a fever since yesterday, so could I be seen today?" },
+        { "speaker": "受付", "jp": "今日は込んでいるので、午後四時でもいいですか。", "en": "We're busy today, so would 4 p.m. be OK?" },
+        { "speaker": "あなた", "jp": "はい、四時に行きます。", "en": "Yes, I'll come at four." },
+        { "speaker": "受付", "jp": "こちらは初めてですか。", "en": "Is this your first time here?" },
+        { "speaker": "あなた", "jp": "はい。日本語が上手じゃないので、ゆっくり話してください。", "en": "Yes. My Japanese isn't very good, so please speak slowly." },
+        { "speaker": "受付", "jp": "わかりました。ほけんしょうを持って来てくださいね。", "en": "Of course. Please bring your health insurance card." },
+        { "speaker": "あなた", "jp": "はい。よろしくお願いします。", "en": "OK. Thank you very much." }
+      ],
+      "checks": [
+        { "prompt": "Why does the clinic offer 4 p.m.?", "options": ["The doctor is out in the morning", "Zarif asked for it", "It is busy today", "The clinic opens at four"], "answer": 2, "explanation": "「今日は込んでいるので」 = because it's busy today." },
+        { "prompt": "Fill in the blank: 熱がある（　）、仕事を休みます。", "options": ["のに", "ので", "まで", "ても"], "answer": 1, "explanation": "Plain form + ので = because/so: 熱があるので休みます." },
+        { "prompt": "What does Zarif need to bring?", "options": ["His health insurance card", "His passport", "Some medicine", "A letter from work"], "answer": 0, "explanation": "「ほけんしょうを持って来てくださいね」 = please bring your health insurance card." }
+      ],
+      "notes": "Plain form + ので = because / so. It sounds softer and more polite than から, so it's good for explaining yourself to staff or strangers: 熱があるので、今日見てもらえませんか. With nouns and な-adjectives, use な: 初めてなので (because it's my first time), 休みなので.\n\n〜んですが opens a request politely and leaves the rest unsaid: 予約をお願いしたいんですが = I'd like to make an appointment (could you help?).\n\nCulture: most clinics in Japan take patients in order, but many also let you book by phone. Always bring your ほけんしょう (health insurance card) — without it you pay the full cost."
+    },
+    {
+      "slug": "lesson-n4-13-heya", "jlpt_level": "N4", "position": 13,
+      "title": "部屋を比べる — Comparing two flats",
+      "situation": "At an estate agent's, you compare two flats for rent.",
+      "item_slugs": ["部屋", "駅", "近い", "便利", "狭い", "広い", "遠い", "高い"],
+      "grammar_slug": "grammar-n4-sugiru",
+      "dialogue": [
+        { "speaker": "店員", "jp": "こちらの二つの部屋はどうですか。", "en": "How about these two flats?" },
+        { "speaker": "あなた", "jp": "Aの部屋は駅から近くて便利ですね。", "en": "Flat A is close to the station, so it's convenient." },
+        { "speaker": "店員", "jp": "はい。でも、少し狭いですよ。", "en": "Yes. But it's a little small." },
+        { "speaker": "あなた", "jp": "そうですね。一人でも、ちょっと狭すぎます。", "en": "True. Even for one person, it's a bit too small." },
+        { "speaker": "店員", "jp": "Bの部屋はAよりずっと広いです。", "en": "Flat B is much bigger than A." },
+        { "speaker": "あなた", "jp": "でも、駅から遠すぎませんか。", "en": "But isn't it too far from the station?" },
+        { "speaker": "店員", "jp": "歩いて二十分ぐらいです。バスもありますよ。", "en": "About twenty minutes on foot. There's a bus too." },
+        { "speaker": "あなた", "jp": "やちんはいくらですか。", "en": "How much is the rent?" },
+        { "speaker": "店員", "jp": "Aは九万円、Bは六万円です。", "en": "A is 90,000 yen, and B is 60,000 yen." },
+        { "speaker": "あなた", "jp": "Aは高すぎますね。Bのほうがいいです。", "en": "A is too expensive. B is better." }
+      ],
+      "checks": [
+        { "prompt": "Fill in the blank: この部屋は狭（　）。", "options": ["いすぎます", "すぎます", "くすぎます", "そうすぎます"], "answer": 1, "explanation": "Drop the い of an い-adjective and add すぎる: 狭い → 狭すぎます = too small." },
+        { "prompt": "Which flat does Zarif choose?", "options": ["Flat A", "Neither", "Both", "Flat B"], "answer": 3, "explanation": "「Aは高すぎますね。Bのほうがいいです」." },
+        { "prompt": "What does 遠すぎます mean?", "options": ["It's too far", "It's far, isn't it?", "It looks far", "It's farther"], "answer": 0, "explanation": "遠い → 遠すぎる = too far. すぎる means \"more than is good\"." }
+      ],
+      "notes": "〜すぎる = too (much). い-adjectives drop い: 高い → 高すぎます, 狭い → 狭すぎます, 遠い → 遠すぎます. な-adjectives just add it: 静か → 静かすぎます. With verbs, use the ます-stem: 食べすぎました = I ate too much. Note いい → よすぎる.\n\nComparisons: AはBより〜 = A is more … than B: BはAより広いです. To choose, say Bのほうがいいです = B is better.\n\nCulture: when you rent a flat in Japan you may pay much more than one month's rent at the start: しききん (a deposit) and れいきん (\"key money\", a gift to the landlord you don't get back). Many foreigners also need a guarantor company."
+    },
+    {
+      "slug": "lesson-n4-14-paatii", "jlpt_level": "N4", "position": 14,
+      "title": "パーティーの準備 — Getting a party ready",
+      "situation": "You and a colleague prepare a welcome party for a new member of your team.",
+      "item_slugs": ["準備", "予約", "知らせる", "集める", "花", "パーティー", "店", "場所"],
+      "grammar_slug": "grammar-n4-te-oku",
+      "dialogue": [
+        { "speaker": "林", "jp": "金曜日のパーティーの準備はどうですか。", "en": "How are the preparations for Friday's party going?" },
+        { "speaker": "あなた", "jp": "店はもう予約しておきました。七時からです。", "en": "I've already booked the restaurant. It's from seven." },
+        { "speaker": "林", "jp": "ありがとうございます。何人来ますか。", "en": "Thanks. How many people are coming?" },
+        { "speaker": "あなた", "jp": "十二人です。みなさんに場所を知らせておきます。", "en": "Twelve. I'll let everyone know the place." },
+        { "speaker": "林", "jp": "新しい人に何かプレゼントをあげましょうか。", "en": "Shall we give the new person a present?" },
+        { "speaker": "あなた", "jp": "いいですね。花を買っておきます。", "en": "Good idea. I'll get some flowers beforehand." },
+        { "speaker": "林", "jp": "じゃあ、お金は私が集めておきますね。", "en": "Then I'll collect the money." },
+        { "speaker": "あなた", "jp": "お願いします。食べられない物も聞いておきましょう。", "en": "Thanks. Let's also ask about foods people can't eat." },
+        { "speaker": "林", "jp": "そうですね。メールで聞いておきます。", "en": "Good point. I'll ask by email." },
+        { "speaker": "あなた", "jp": "これで準備は大丈夫ですね。", "en": "That should take care of the preparations." }
+      ],
+      "checks": [
+        { "prompt": "What does 予約しておきました mean?", "options": ["I tried booking it", "I'm going to book it", "I had it booked by someone", "I've booked it in advance"], "answer": 3, "explanation": "て-form + おく = do something in advance, to be ready: 予約しておきました = I've booked it ahead of time." },
+        { "prompt": "Who will collect the money?", "options": ["Hayashi", "Zarif", "The new person", "The restaurant"], "answer": 0, "explanation": "Hayashi says 「お金は私が集めておきますね」." },
+        { "prompt": "Fill in the blank: パーティーの前に、飲み物を買って（　）。", "options": ["しまいます", "みます", "おきます", "あります"], "answer": 2, "explanation": "買っておきます = I'll buy them beforehand, so they're ready for the party." }
+      ],
+      "notes": "て-form + おく = do something in advance, so you're ready: 店を予約しておきます (I'll book the restaurant ahead), 花を買っておきます. It can also mean leaving something as it is: 窓を開けておいてください = please leave the window open.\n\nIn speech, 〜ておく often shortens to 〜とく: 買っとく, 聞いとく.\n\nCulture: Japanese teams often hold a かんげいかい (welcome party) for new members, usually at an izakaya. It's thoughtful to check food needs in advance — halal, vegetarian or no alcohol — so everyone can enjoy it."
+    },
+    {
+      "slug": "lesson-n4-15-kooto", "jlpt_level": "N4", "position": 15,
+      "title": "コートを買う — Buying a winter coat",
+      "situation": "Your first Japanese winter is coming, so you try on coats in a shop.",
+      "item_slugs": ["コート", "着る", "サイズ", "色", "暗い", "明るい", "白", "大きい"],
+      "grammar_slug": "grammar-n4-te-miru",
+      "dialogue": [
+        { "speaker": "あなた", "jp": "すみません、このコートを着てみてもいいですか。", "en": "Excuse me, may I try this coat on?" },
+        { "speaker": "店員", "jp": "はい、どうぞ。こちらの鏡の前で着てみてください。", "en": "Of course. Please try it on in front of this mirror." },
+        { "speaker": "あなた", "jp": "ちょっと小さいです。もう少し大きいサイズはありますか。", "en": "It's a bit small. Do you have a slightly bigger size?" },
+        { "speaker": "店員", "jp": "こちらはどうですか。", "en": "How about this one?" },
+        { "speaker": "あなた", "jp": "ちょうどいいです。でも、色が少し暗いですね。", "en": "It's just right. But the colour is a little dark." },
+        { "speaker": "店員", "jp": "白もありますよ。着てみますか。", "en": "We have it in white too. Would you like to try it?" },
+        { "speaker": "あなた", "jp": "はい、着てみます。", "en": "Yes, I'll try it on." },
+        { "speaker": "あなた", "jp": "あ、こちらのほうが明るくていいですね。", "en": "Oh, this one is brighter. I like it." },
+        { "speaker": "店員", "jp": "よくおにあいですよ。とても暖かいです。", "en": "It really suits you. It's very warm, too." },
+        { "speaker": "あなた", "jp": "じゃあ、これをください。", "en": "Then I'll take this one." }
+      ],
+      "checks": [
+        { "prompt": "Fill in the blank: このくつをはいて（　）もいいですか。", "options": ["おいて", "しまって", "みて", "あげて"], "answer": 2, "explanation": "はいてみてもいいですか = may I try these shoes on? て-form + みる = try doing." },
+        { "prompt": "What does 着てみます mean?", "options": ["I'll try it on", "I've put it on", "I'll wear it for you", "I can wear it"], "answer": 0, "explanation": "て-form + みる = do something to see what it's like: 着てみます = I'll try it on." },
+        { "prompt": "Why doesn't Zarif buy the first coat?", "options": ["It's too expensive", "It's a bit small", "It's white", "It isn't warm"], "answer": 1, "explanation": "「ちょっと小さいです」 = it's a bit small." }
+      ],
+      "notes": "て-form + みる = try doing something to see what it's like: 着てみます (I'll try it on), 食べてみてください (try eating it). Ask permission with 〜てみてもいいですか: 着てみてもいいですか = may I try it on? 〜てみたいです = I'd like to try: 北海道へ行ってみたいです.\n\nみる here is written in kana, not as 見る.\n\nCulture: in many clothes shops you ask before trying something on, and you take your shoes off before stepping into the fitting room. Staff often say おにあいです (it suits you) — a polite compliment, not a hard sell."
     }
   ]
 }
